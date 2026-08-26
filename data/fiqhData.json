@@ -1,0 +1,1731 @@
+{
+  "languages": [
+    {
+      "key": "ar",
+      "short": "AR",
+      "label": "العربية",
+      "flag": "🇸🇦"
+    },
+    {
+      "key": "en",
+      "short": "EN",
+      "label": "English",
+      "flag": "🇬🇧"
+    },
+    {
+      "key": "ru",
+      "short": "RU",
+      "label": "Русский",
+      "flag": "🇷🇺"
+    }
+  ],
+  "ui": {
+    "appTitle": {
+      "ar": "موسوعة الفقه المقارن",
+      "en": "Comparative Fiqh Encyclopedia",
+      "ru": "Энциклопедия сравнительного фикха"
+    },
+    "appSubtitle": {
+      "ar": "أحكام المسائل الفقهية على المذاهب الأربعة",
+      "en": "Fiqh rulings across the four Sunni schools",
+      "ru": "Правовые заключения по четырём суннитским мазхабам"
+    },
+    "theme": {
+      "ar": "المظهر",
+      "en": "Theme",
+      "ru": "Тема"
+    },
+    "language": {
+      "ar": "اللغة",
+      "en": "Language",
+      "ru": "Язык"
+    },
+    "issue": {
+      "ar": "مسألة",
+      "en": "Issue",
+      "ru": "Вопрос"
+    },
+    "reference": {
+      "ar": "المرجع",
+      "en": "Reference",
+      "ru": "Источник"
+    },
+    "ruling": {
+      "ar": "الحكم",
+      "en": "Ruling",
+      "ru": "Заключение"
+    },
+    "noIssues": {
+      "ar": "لا توجد مسائل في هذا الباب بعد.",
+      "en": "No issues in this section yet.",
+      "ru": "В этом разделе пока нет вопросов."
+    },
+    "issuesCount": {
+      "ar": "مسألة",
+      "en": "issues",
+      "ru": "вопросов"
+    },
+    "footer": {
+      "ar": "موسوعة الفقه المقارن — مرجع تعليمي لمقارنة المذاهب الفقهية.",
+      "en": "Comparative Fiqh Encyclopedia — an educational reference for comparing the schools of jurisprudence.",
+      "ru": "Энциклопедия сравнительного фикха — учебный справочник для сравнения правовых школ."
+    },
+    "sections": {
+      "ar": "الأقسام",
+      "en": "Sections",
+      "ru": "Разделы"
+    },
+    "fiqhSection": {
+      "ar": "قسم الفقه والشرائع",
+      "en": "Fiqh & Jurisprudence",
+      "ru": "Фикх и законодательство"
+    },
+    "fiqhSectionDesc": {
+      "ar": "مقارنة المسائل الفقهية على المذاهب الأربعة",
+      "en": "Comparing juristic issues across the four schools",
+      "ru": "Сравнение правовых вопросов по четырём мазхабам"
+    },
+    "aqidahSection": {
+      "ar": "قسم العقيدة والمنطق",
+      "en": "Creed & Logic",
+      "ru": "Вероучение и логика"
+    },
+    "aqidahSectionDesc": {
+      "ar": "الأدلة العقلية على وجود الخالق سبحانه",
+      "en": "Rational proofs for the existence of the Creator",
+      "ru": "Рациональные доказательства существования Творца"
+    },
+    "chooseSchool": {
+      "ar": "اختر المذهب",
+      "en": "Choose School",
+      "ru": "Выбрать мазхаб"
+    },
+    "comparison": {
+      "ar": "المقارنة",
+      "en": "Comparison",
+      "ru": "Сравнение"
+    },
+    "showAllSchools": {
+      "ar": "عرض جميع المذاهب",
+      "en": "Show all schools",
+      "ru": "Показать все мазхабы"
+    },
+    "showAllSchoolsDesc": {
+      "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
+      "en": "Display all four schools side by side",
+      "ru": "Показать все четыре мазхаба рядом"
+    },
+    "singleSchool": {
+      "ar": "مذهب واحد",
+      "en": "Single school",
+      "ru": "Один мазхаб"
+    },
+    "singleSchoolDesc": {
+      "ar": "تصفية العرض على مذهب واحد فقط",
+      "en": "Filter the view to a single school",
+      "ru": "Отфильтровать по одному мазхабу"
+    },
+    "dualComparison": {
+      "ar": "مقارنة ثنائية",
+      "en": "Dual comparison",
+      "ru": "Двойное сравнение"
+    },
+    "dualComparisonDesc": {
+      "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
+      "en": "Pick two schools to compare side by side",
+      "ru": "Выберите два мазхаба для сравнения"
+    },
+    "selectTwoSchools": {
+      "ar": "اختر مذهبين للمقارنة",
+      "en": "Select two schools to compare",
+      "ru": "Выберите два мазхаба для сравнения"
+    },
+    "apply": {
+      "ar": "تطبيق",
+      "en": "Apply",
+      "ru": "Применить"
+    },
+    "cancel": {
+      "ar": "إلغاء",
+      "en": "Cancel",
+      "ru": "Отмена"
+    },
+    "close": {
+      "ar": "إغلاق",
+      "en": "Close",
+      "ru": "Закрыть"
+    },
+    "filtering": {
+      "ar": "العرض الحالي",
+      "en": "Viewing",
+      "ru": "Просмотр"
+    },
+    "allSchools": {
+      "ar": "جميع المذاهب",
+      "en": "All schools",
+      "ru": "Все мазхабы"
+    },
+    "resetView": {
+      "ar": "إعادة الضبط",
+      "en": "Reset",
+      "ru": "Сбросить"
+    },
+    "premises": {
+      "ar": "المقدمات المنطقية",
+      "en": "Logical premises",
+      "ru": "Логические посылки"
+    },
+    "quranProof": {
+      "ar": "الدليل القرآني",
+      "en": "Quranic proof",
+      "ru": "Коранические доводы"
+    },
+    "conclusion": {
+      "ar": "الخلاصة الفلسفية",
+      "en": "Philosophical conclusion",
+      "ru": "Философский вывод"
+    },
+    "proofsCount": {
+      "ar": "دليل عقلي",
+      "en": "rational proofs",
+      "ru": "доказательств"
+    },
+    "openProof": {
+      "ar": "عرض الدليل",
+      "en": "View proof",
+      "ru": "Смотреть довод"
+    },
+    "welcomeTitle": {
+      "ar": "كيف تريد تصفح المذاهب؟",
+      "en": "How would you like to browse the schools?",
+      "ru": "Как вы хотите просматривать мазхабы?"
+    },
+    "welcomeDesc": {
+      "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
+      "en": "Choose a view to begin — you can change it anytime.",
+      "ru": "Выберите режим просмотра — его можно изменить в любой момент."
+    },
+    "browseMode": {
+      "ar": "طريقة العرض",
+      "en": "Browse mode",
+      "ru": "Режим просмотра"
+    },
+    "chooseLanguage": {
+      "ar": "اختر لغتك",
+      "en": "Choose your language",
+      "ru": "Выберите ваш язык"
+    },
+    "chooseLanguageDesc": {
+      "ar": "حدد لغة الواجهة للمتابعة.",
+      "en": "Select the interface language to continue.",
+      "ru": "Выберите язык интерфейса, чтобы продолжить."
+    },
+    "stepLabel": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг"
+    },
+    "back": {
+      "ar": "رجوع",
+      "en": "Back",
+      "ru": "Назад"
+    },
+    "chapter": {
+      "ar": "باب",
+      "en": "Chapter",
+      "ru": "Раздел"
+    },
+    "searchPlaceholder": {
+      "ar": "ابحث في المسائل والمذاهب والأبواب…",
+      "en": "Search issues, schools, and books…",
+      "ru": "Поиск по вопросам, мазхабам и разделам…"
+    },
+    "searchResults": {
+      "ar": "نتيجة",
+      "en": "results",
+      "ru": "результатов"
+    },
+    "clearSearch": {
+      "ar": "مسح البحث",
+      "en": "Clear search",
+      "ru": "Очистить поиск"
+    },
+    "copyCitation": {
+      "ar": "نسخ الاقتباس",
+      "en": "Copy citation",
+      "ru": "Копировать цитату"
+    },
+    "copied": {
+      "ar": "تم النسخ",
+      "en": "Copied",
+      "ru": "Скопировано"
+    },
+    "bookmark": {
+      "ar": "حفظ",
+      "en": "Bookmark",
+      "ru": "Закладка"
+    },
+    "bookmarked": {
+      "ar": "محفوظ",
+      "en": "Saved",
+      "ru": "Сохранено"
+    },
+    "listen": {
+      "ar": "استماع",
+      "en": "Listen",
+      "ru": "Прослушать"
+    },
+    "stopListen": {
+      "ar": "إيقاف",
+      "en": "Stop",
+      "ru": "Стоп"
+    },
+    "savedItems": {
+      "ar": "المحفوظات",
+      "en": "Saved",
+      "ru": "Сохранённые"
+    },
+    "noSaved": {
+      "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
+      "en": "No saved issues yet. Tap the bookmark icon on any issue.",
+      "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса."
+    },
+    "noResults": {
+      "ar": "لا توجد نتائج مطابقة لبحثك.",
+      "en": "No results match your search.",
+      "ru": "Нет результатов по вашему запросу."
+    },
+    "deepDive": {
+      "ar": "قراءة موسّعة",
+      "en": "Deep dive",
+      "ru": "Подробнее"
+    },
+    "quickView": {
+      "ar": "عرض سريع",
+      "en": "Quick view",
+      "ru": "Быстрый просмотр"
+    },
+    "contents": {
+      "ar": "المحتويات",
+      "en": "Contents",
+      "ru": "Содержание"
+    },
+    "introduction": {
+      "ar": "مقدمة",
+      "en": "Introduction",
+      "ru": "Введение"
+    },
+    "comparing": {
+      "ar": "مقارنة بين",
+      "en": "Comparing",
+      "ru": "Сравнение"
+    },
+    "learnSection": {
+      "ar": "للمسلم الجديد",
+      "en": "New Muslim Guide",
+      "ru": "Гид новообращённого"
+    },
+    "learnSectionDesc": {
+      "ar": "خطوات عملية وأسئلة شائعة للمستكشفين والمسلمين الجدد.",
+      "en": "Practical steps and common questions for explorers and new Muslims.",
+      "ru": "Практические шаги и частые вопросы для интересующихся и новообращённых."
+    },
+    "viewMode": {
+      "ar": "نمط العرض",
+      "en": "View mode",
+      "ru": "Режим отображения"
+    },
+    "academicMode": {
+      "ar": "أكاديمي",
+      "en": "Academic",
+      "ru": "Академический"
+    },
+    "simplifiedMode": {
+      "ar": "مبسّط",
+      "en": "Simplified",
+      "ru": "Упрощённый"
+    },
+    "essentialTakeaway": {
+      "ar": "الخلاصة العملية",
+      "en": "Essential takeaway",
+      "ru": "Главное"
+    },
+    "glossaryHint": {
+      "ar": "اضغط لعرض المعنى",
+      "en": "Tap to see the meaning",
+      "ru": "Нажмите, чтобы увидеть значение"
+    },
+    "share": {
+      "ar": "مشاركة",
+      "en": "Share",
+      "ru": "Поделиться"
+    },
+    "shareCard": {
+      "ar": "بطاقة للمشاركة",
+      "en": "Share card",
+      "ru": "Карточка для публикации"
+    },
+    "shareCardDesc": {
+      "ar": "احفظ صورة أنيقة جاهزة للنشر على وسائل التواصل.",
+      "en": "Save a polished image ready to post on social media.",
+      "ru": "Сохраните аккуратное изображение для публикации в соцсетях."
+    },
+    "downloadImage": {
+      "ar": "تحميل الصورة",
+      "en": "Download image",
+      "ru": "Скачать изображение"
+    },
+    "preparingImage": {
+      "ar": "جارٍ التحضير…",
+      "en": "Preparing…",
+      "ru": "Подготовка…"
+    },
+    "stepsLabel": {
+      "ar": "خطوة",
+      "en": "steps",
+      "ru": "шагов"
+    },
+    "stepOf": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг"
+    },
+    "practicalGuides": {
+      "ar": "أدلة عملية",
+      "en": "Practical guides",
+      "ru": "Практические руководства"
+    },
+    "faqTitle": {
+      "ar": "أسئلة ومفاهيم شائعة",
+      "en": "Questions & misconceptions",
+      "ru": "Вопросы и заблуждения"
+    },
+    "faqSubtitle": {
+      "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
+      "en": "Clear answers to what explorers and new Muslims ask most.",
+      "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
+    }
+  },
+  "books": [
+    {
+      "id": "iman",
+      "name": {
+        "ar": "الإيمان والمدخل",
+        "en": "Faith & Introduction",
+        "ru": "Вера и введение"
+      }
+    },
+    {
+      "id": "taharah",
+      "name": {
+        "ar": "الطها��ة",
+        "en": "Purification",
+        "ru": "Очищение"
+      }
+    },
+    {
+      "id": "salah",
+      "name": {
+        "ar": "الصلاة",
+        "en": "Prayer",
+        "ru": "Молитва"
+      }
+    },
+    {
+      "id": "zakah",
+      "name": {
+        "ar": "الزكاة",
+        "en": "Zakah",
+        "ru": "Закят"
+      }
+    },
+    {
+      "id": "sawm",
+      "name": {
+        "ar": "الصوم",
+        "en": "Fasting",
+        "ru": "Пост"
+      }
+    },
+    {
+      "id": "hajj",
+      "name": {
+        "ar": "الحج والعمرة",
+        "en": "Hajj & Umrah",
+        "ru": "Хадж и умра"
+      }
+    },
+    {
+      "id": "muamalat",
+      "name": {
+        "ar": "المعاملات",
+        "en": "Transactions",
+        "ru": "Сделки"
+      }
+    },
+    {
+      "id": "nikah",
+      "name": {
+        "ar": "النكاح",
+        "en": "Marriage",
+        "ru": "Брак"
+      }
+    },
+    {
+      "id": "jinayat",
+      "name": {
+        "ar": "الجنايات",
+        "en": "Criminal Law",
+        "ru": "Уголовное право"
+      }
+    }
+  ],
+  "schools": [
+    {
+      "key": "hanafi",
+      "name": {
+        "ar": "الحنفي",
+        "en": "Hanafi",
+        "ru": "Ханафитский"
+      }
+    },
+    {
+      "key": "maliki",
+      "name": {
+        "ar": "المالكي",
+        "en": "Maliki",
+        "ru": "Маликитский"
+      }
+    },
+    {
+      "key": "shafii",
+      "name": {
+        "ar": "الشافعي",
+        "en": "Shafi'i",
+        "ru": "Шафиитский"
+      }
+    },
+    {
+      "key": "hanbali",
+      "name": {
+        "ar": "الحنبلي",
+        "en": "Hanbali",
+        "ru": "Ханбалитский"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "iman-1",
+      "bookId": "iman",
+      "number": 1,
+      "title": {
+        "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
+        "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
+        "ru": "Правовая квалификация произнесения шахад�� для принятия ислама"
+      },
+      "summary": {
+        "ar": "هل النطق بالشهادتين شرط لصحة الإسلام أم ركن، وما حكم من صدّق بقلبه دون نطق؟",
+        "en": "Is uttering the shahada a condition for the validity of Islam or a pillar, and what of one who believes in his heart without uttering it?",
+        "ru": "Является ли произнесение шахады условием действительности ислама или его столпом, и как быть с уверовавшим сердцем без произнесения?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "أصل الإيمان التصديق بالقلب، والنطق باللسان شرط لإجراء أحكام المسلمين الدنيوية.",
+            "en": "The essence of faith is assent of the heart; utterance with the tongue is a condition for applying the worldly rulings of Muslims.",
+            "ru": "Основа веры — убеждение сердца; произнесение языком является условием применения мирских норм для мусульман."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "النطق بالشهادتين شرط لصحة الإيمان للقادر عليه، ولا يصح الدخول بدونها.",
+            "en": "Uttering the two testimonies is a condition for the validity of faith for one able to do so, and entering Islam is not valid without it.",
+            "ru": "Произнесение шахады — условие д��йствительности веры для способного, и без неё вхождение недействительно."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "النطق بالشهادتين ركن وشرط أساسي لجريان أحكام الإسلام ظاهراً وباطناً.",
+            "en": "Uttering the two testimonies is a pillar and an essential condition for the operation of Islam's rulings both outwardly and inwardly.",
+            "ru": "Произнесение шахады — столп и основное условие действия норм ислама внешне и внутренне."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا يصح إسلام القادر بحال إلا بالنطق بالشهادتين معاً والتبرؤ مما يخالف الدين.",
+            "en": "The Islam of an able person is by no means valid except by uttering both testimonies together and disavowing whatever contradicts the religion.",
+            "ru": "Ислам способного никак не действителен, кроме как произнесением обеих шахад вместе и отречением от противоречащего религии."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "iman-2",
+      "bookId": "iman",
+      "number": 2,
+      "title": {
+        "ar": "نطق المسلم الجديد بالشهادتين بغير اللغة العربية",
+        "en": "A new Muslim pronouncing the shahada in a language other than Arabic",
+        "ru": "Произнесение шахады новообращённым на языке, отличном от арабского"
+      },
+      "summary": {
+        "ar": "هل يصح إسلام من نطق بالشهادتين بلغته الأم، أم يُشترط النطق باللفظ العربي؟",
+        "en": "Is the Islam of one who pronounces the shahada in his native tongue valid, or is the Arabic wording required?",
+        "ru": "Действителен ли ислам произнёсшего шахаду на родном языке, или требуется арабская формулировка?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يصح إسلامه بالنطق بمعناهما بلغته فوراً ولو كان قادراً على تعلم العربية.",
+            "en": "His Islam is valid by uttering their meaning in his own language immediately, even if he is able to learn Arabic.",
+            "ru": "Его ислам действителен при немедленном произнесении их смысла на своём языке, даже если он способен выучить арабский."
+          },
+          "source": {
+            "ar": "الدر المختار",
+            "en": "Al-Durr al-Mukhtār",
+            "ru": "«Ад-Дурр аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "يصح إسلامه بلغته إن عجز عن العربية، وتلزم الترجمة الدقيقة للمعنى.",
+            "en": "His Islam is valid in his language if he is unable to use Arabic, and an accurate translation of the meaning is required.",
+            "ru": "Его ислам действителен на его языке при неспособности к арабскому, и требуется точный перевод смысла."
+          },
+          "source": {
+            "ar": "حاشية الدسوقي",
+            "en": "Ḥāshiyat al-Dasūqī",
+            "ru": "«Хашия ад-Дусуки»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يصح إسلامه بالترجمة فوراً عجز أم قدر، لأن الواجب هو جزم القلب بالمعنى.",
+            "en": "His Islam is valid by translation immediately, whether able or unable, because what is required is the heart's firm resolve upon the meaning.",
+            "ru": "Его ислам действителен через перевод немедленно, способен он или нет, ибо требуется твёрдая убеждённость сердца в смысле."
+          },
+          "source": {
+            "ar": "مغني المحتاج",
+            "en": "Mughnī al-Muḥtāj",
+            "ru": "«Мугни аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يصح إسلامه بأي لغة تؤدي المعنى المقصود ولا يشترط اللفظ العربي.",
+            "en": "His Islam is valid in any language that conveys the intended meaning, and the Arabic wording is not a condition.",
+            "ru": "Его ислам действителен на любом языке, передающем нужный смысл, и арабская формулировка не является условием."
+          },
+          "source": {
+            "ar": "مطالب أولي النهى",
+            "en": "Maṭālib Ulī al-Nuhā",
+            "ru": "«Маталиб Ули ан-Нуха»"
+          }
+        }
+      }
+    },
+    {
+      "id": "iman-3",
+      "bookId": "iman",
+      "number": 3,
+      "title": {
+        "ar": "أثر ترك الصلاة كسلاً على بقاء وصف الإسلام",
+        "en": "The effect of abandoning prayer out of laziness on retaining the description of Islam",
+        "ru": "Влияние оставления молитвы по лени на сохранение статуса мусульманина"
+      },
+      "summary": {
+        "ar": "هل يكفر تارك الصلاة تهاونًا وكسلاً مع إقراره بوجوبها، أم يبقى مسلمًا فاسقًا؟",
+        "en": "Does one who abandons prayer out of negligence and laziness, while affirming its obligation, become a disbeliever, or remain a sinful Muslim?",
+        "ru": "Становится ли неверующим оставивший молитву по небрежности и лени, признавая её обязательность, или остаётся грешным мусульманином?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا يكفر بتركها كسلاً مع إقراره بوجوبها، بل يحبس ويعزر حتى يصلي.",
+            "en": "He does not disbelieve by abandoning it out of laziness while affirming its obligation; rather he is imprisoned and disciplined until he prays.",
+            "ru": "Он не становится неверующим, оставляя её по лени при признании обязательности; его заключают и наказывают, пока не начнёт молиться."
+          },
+          "source": {
+            "ar": "العناية",
+            "en": "Al-‘Ināyah",
+            "ru": "«Аль-Инайя»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يكفر بتركها كسلاً، ولكنه يُقتل حداً بشروطه إن أصر على تركها.",
+            "en": "He does not disbelieve by abandoning it out of laziness, but is executed as a legal penalty, under its conditions, if he persists in abandoning it.",
+            "ru": "Он не становится неверующим, оставляя её по лени, но казнится как мера наказания при её условиях, если упорствует в оставлении."
+          },
+          "source": {
+            "ar": "التاج والإكليل",
+            "en": "Al-Tāj wa-al-Iklīl",
+            "ru": "«Ат-Тадж ва-ль-Иклиль»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "عاصٍ ومرتكب لكبيرة ولا يكفر بتركها كسلاً، ويقتل حداً كالمسلم العاصي.",
+            "en": "He is a sinner committing a major sin and does not disbelieve by abandoning it out of laziness; he is executed as a penalty, like a disobedient Muslim.",
+            "ru": "Он грешник, совершивший тяжкий грех, и не становится неверующим, оставляя её по лени; казнится как наказание, подобно ослушавшемуся мусульманину."
+          },
+          "source": {
+            "ar": "روضة الطالبين",
+            "en": "Rawḍat al-Ṭālibīn",
+            "ru": "«Раудат ат-Талибин»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "المعتمد أن من تركها كسلاً ودعي إليها وضاق وقت التي بعدها يكفر.",
+            "en": "The relied-upon position is that whoever abandons it out of laziness, is called to it, and lets the time of the following prayer narrow, becomes a disbeliever.",
+            "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим."
+          },
+          "source": {
+            "ar": "الإنصاف",
+            "en": "Al-Inṣāf",
+            "ru": "«Аль-Инсаф»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-1",
+      "bookId": "taharah",
+      "number": 4,
+      "chapter": {
+        "ar": "باب فرض الوضوء",
+        "en": "Chapter of the Obligation of Ablution",
+        "ru": "Раздел об обязательности омовения"
+      },
+      "title": {
+        "ar": "حكم النية في الوضوء وهل تسقط سهواً",
+        "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
+        "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости"
+      },
+      "summary": {
+        "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
+        "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
+        "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
+            "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
+            "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "فرض وشرط أساسي لصحة الوضوء لا يصح بدونه.",
+            "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
+            "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
+            "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
+            "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
+            "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
+            "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-2",
+      "bookId": "taharah",
+      "number": 5,
+      "chapter": {
+        "ar": "باب المسح على الخفين",
+        "en": "Chapter of Wiping over Footgear",
+        "ru": "Раздел о протирании обуви"
+      },
+      "title": {
+        "ar": "حكم المسح على الجورب الخفيف/الحديث",
+        "en": "The ruling on wiping over light/modern socks",
+        "ru": "Постановление о протирании лёгких/современных носков"
+      },
+      "summary": {
+        "ar": "متى يجوز المسح على الجوربين بدلاً من غسل القدمين؟",
+        "en": "When is it permissible to wipe over socks instead of washing the feet?",
+        "ru": "Когда допустимо протирать носки вместо мытья ног?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز إن كانا ثخينين يمنعان نفوذ الماء ويمكن متابعة المشي عليهما.",
+            "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
+            "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
+          },
+          "source": {
+            "ar": "الدر المختار",
+            "en": "Al-Durr al-Mukhtār",
+            "ru": "«Ад-Дурр аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يجوز المسح إلا على الخف المصنوع من الجلد فقط.",
+            "en": "Wiping is permitted only over khuff made of leather.",
+            "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
+          },
+          "source": {
+            "ar": "الخرشي على خليل",
+            "en": "Al-Kharshī ‘alā Khalīl",
+            "ru": "«Аль-Харши аля Халиль»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يشترط أن يكونا صفيقين ومجلدين أو منعّلين يثبتان بنفسهما.",
+            "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
+            "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
+          },
+          "source": {
+            "ar": "مغني المحتاج",
+            "en": "Mughnī al-Muḥtāj",
+            "ru": "«Мугни аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجوز المسح على الجورب الصفيق الساتر للمحل وإن لم يكن مجلداً.",
+            "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
+            "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-3",
+      "bookId": "taharah",
+      "number": 6,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения"
+      },
+      "title": {
+        "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
+        "en": "The effect of eating camel meat and touching a woman on ablution",
+        "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение"
+      },
+      "summary": {
+        "ar": "هل ينقض أكل لحم الإبل ولمس المرأة الأجنبية الوضوء؟",
+        "en": "Do eating camel meat and touching a non-maram woman break ablution?",
+        "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا ينقض أكل لحم الإبل الوضوء مطبوخاً كان أو نيئاً، ولا ينقض لمس المرأة إلا بالمباشرة الفاحشة بلا حائل.",
+            "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
+            "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة ينقض إن قصد اللذة أو وجدها لا مطلقاً.",
+            "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
+            "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
+            "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
+            "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ينقض أكل لحم الإبل الوضوء مطلقاً نيئاً ومطبوخاً، ولمس المرأة ينقض إن كان لشهوة لا لغيرها.",
+            "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
+            "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-4",
+      "bookId": "taharah",
+      "number": 7,
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)"
+      },
+      "title": {
+        "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+        "en": "The ruling on tayammum when water is present but there is fear of using it",
+        "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования"
+      },
+      "summary": {
+        "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
+        "en": "Is tayammum permitted when water is available if harm from using it is feared?",
+        "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
+            "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worsening sickness.",
+            "ru": "Таяммум допустим при наличии воды, если есть опасение вреда от её применения из-за болезни или сильного холода, грозящего гибелью или ухудшением."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
+            "en": "Tayammum is permitted for the sick and for whoever fears worsening illness, delayed recovery, or death from using water.",
+            "ru": "Таяммум разрешён больному и тому, кто опасается усиления болезни, задержки выздоровления или гибели от применения воды."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو عضوٍ أو مرضاً مخوفاً، بإخبار طبيبٍ عدلٍ أو بتجربة.",
+            "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
+            "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
+            "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold, being unable to warm the water or avert its harm.",
+            "ru": "Таяммум дозволен при наличии воды, если есть опасение телесного вреда от её применения из-за болезни или сильного холода при невозможности согреть воду и отвести вред."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-5",
+      "bookId": "taharah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах"
+      },
+      "title": {
+        "ar": "حكم الماء المستعمل في رفع الحدث",
+        "en": "The ruling on water already used to remove ritual impurity",
+        "ru": "Постановление о воде, использованной для снятия осквернения"
+      },
+      "summary": {
+        "ar": "هل يبقى الماء المستعمل طهوراً يصح رفع الحدث به مرة أخرى؟",
+        "en": "Does used water remain purifying so that it can remove ritual impurity again?",
+        "ru": "Остаётся ли использованная вода очищающей для повторного снятия осквернения?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "طاهر غير مطهر لغيره، ولا يجوز التوضؤ به مرة أخرى.",
+            "en": "Pure in itself but not purifying for others; performing ablution with it again is not permitted.",
+            "ru": "Чистая сама по себе, но не очищающая для другого; повторно совершать ею омовение нельзя."
+          },
+          "source": {
+            "ar": "الهداية",
+            "en": "Al-Hidāyah",
+            "ru": "«Аль-Хидая»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "طاهر مطهر يصح التوضؤ به مع الكراهة إن وجد غيره.",
+            "en": "Pure and purifying; performing ablution with it is valid, though disliked if other water is available.",
+            "ru": "Чистая и очищающая; омовение ею действительно, но нежелательно при наличии другой воды."
+          },
+          "source": {
+            "ar": "الشرح الصغير",
+            "en": "Al-Sharḥ al-Ṣaghīr",
+            "ru": "«Аш-Шарх ас-Сагир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "طاهر في نفسه غير مطهر لغيره.",
+            "en": "Pure in itself but not purifying for others.",
+            "ru": "Чистая сама по себе, но не очищающая для другого."
+          },
+          "source": {
+            "ar": "فتح القريب",
+            "en": "Fatḥ al-Qarīb",
+            "ru": "«Фатх аль-Кариб»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "طاهر غير مطهر إذا انفصل عن الأعضاء.",
+            "en": "Pure but not purifying once it has separated from the limbs.",
+            "ru": "Чистая, но не очищающая после отделения от органов тела."
+          },
+          "source": {
+            "ar": "شرح منتهى الإرادات",
+            "en": "Sharḥ Muntahā al-Irādāt",
+            "ru": "«Шарх Мунтаха аль-Ирадат»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-6",
+      "bookId": "taharah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب الآنية",
+        "en": "Chapter of Vessels",
+        "ru": "Раздел о сосудах"
+      },
+      "title": {
+        "ar": "حكم الطهارة بأواني الذهب والفضة",
+        "en": "The ruling on purifying with vessels of gold and silver",
+        "ru": "Постановление об очищении из сосудов из золота и серебра"
+      },
+      "summary": {
+        "ar": "هل يحرم استعمال أواني الذهب والفضة، وهل تصح الطهارة منها؟",
+        "en": "Is using vessels of gold and silver forbidden, and is purification from them valid?",
+        "ru": "Запрещено ли пользова��ься золотыми и серебряными сосудами и действительно ли из них очищение?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يحرم استعمال أواني الذهب والفضة في الأكل والشرب والطهارة، وتصح الطهارة منها مع الإثم.",
+            "en": "Using gold and silver vessels for eating, drinking, and purification is forbidden, yet purification from them is valid though sinful.",
+            "ru": "Использование золотых и серебряных сосудов для еды, питья и очищения запретно, но очищение из них действительно, хотя и греховно."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "يكره اتخاذها واستعمالها كراهة شديدة، وتصح الطهارة منها مع الكراهة.",
+            "en": "Acquiring and using them is strongly disliked, and purification from them is valid though disliked.",
+            "ru": "Их приобретение и использование сильно нежелательны, а очищение из них действительно, хотя и нежелательно."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يحرم استعمالها في الطهارة وغيرها، وتصح الطهارة بها مع الحرمة على المعتمد.",
+            "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition per the relied-upon view.",
+            "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يحرم استعمال آنية الذهب والفضة في الطهارة وغيرها، ومن توضأ منها صح وضوؤه مع الإثم.",
+            "en": "Using gold and silver vessels for purification and otherwise is forbidden; whoever performs ablution from them, his ablution is valid though sinful.",
+            "ru": "Использование золотых и сере��ряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-7",
+      "bookId": "taharah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب الاستنجاء",
+        "en": "Chapter of Cleansing after Relief (Istinjā’)",
+        "ru": "Раздел об очищении после нужды (истинджа)"
+      },
+      "title": {
+        "ar": "حكم الاستجمار بالمنديل والأوراق الحديثة",
+        "en": "The ruling on cleansing with tissue and modern paper (istijmār)",
+        "ru": "Постановление об очищении салфеткой и современной бумагой"
+      },
+      "summary": {
+        "ar": "هل يجزئ الاستجمار بالمناديل والأوراق بدلاً من الماء؟",
+        "en": "Does cleansing with tissues and paper suffice instead of water?",
+        "ru": "Достаточно ли очищения салфетками и бумагой вместо воды?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجزئ الاستجمار بكل طاهرٍ منقٍّ كالمناديل والورق، ويُسن الإيتار، والأفضل الجمع بينه وبين الماء.",
+            "en": "Cleansing with any pure, cleaning material such as tissue and paper suffices; making the count odd is recommended, and combining it with water is best.",
+            "ru": "Очищение любым чистым очищающим средством, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجزئ الاستجمار بالجامد الطاهر المنقي كالورق إذا لم يتعدَّ الخارج موضعه المعتاد.",
+            "en": "Cleansing with a solid, pure, cleaning material such as paper suffices, provided the excretion does not spread beyond its usual place.",
+            "ru": "Очищение твёрдым чистым очищающим средством, как бумага, достаточно, если выделение не вышло за обычное место."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يشترط في الاستجمار ثلاث مسحاتٍ منقيةٍ بجامدٍ طاهرٍ كالمناديل، ولا يجزئ المبلل ولا المتنجس.",
+            "en": "Cleansing requires three cleaning wipes with a solid, pure material such as tissue; a moist or impure item does not suffice.",
+            "ru": "Для очищения требуется три очищающих протирания твёрдым чистым средством, как салфетки; влажное или нечистое не годится."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجزئ الاستجمار بثلاثة أحجارٍ أو ما يقوم مقامها كالمناديل الطاهرة، بشرط الإنقاء والإيتار وعدم تجاوز النجو موضعه.",
+            "en": "Cleansing suffices with three stones or their equivalent such as pure tissues, on condition of cleanliness, odd count, and the excretion not spreading beyond its place.",
+            "ru": "Очищение достаточно тремя камнями или их заменой, как чистые салфетки, при условии чистоты, нечётности и невыхода выделения за его место."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "taharah-8",
+      "bookId": "taharah",
+      "number": 8,
+      "chapter": {
+        "ar": "باب إزالة النجاسة",
+        "en": "Chapter of Removing Impurity",
+        "ru": "Раздел об удалении нечистоты"
+      },
+      "title": {
+        "ar": "تطهير النجاسة بغير الماء (كالمنظفات والسبيرتو)",
+        "en": "Purifying impurity with something other than water (detergents, alcohol)",
+        "ru": "Очищение нечистоты не водой (моющие средства, спирт)"
+      },
+      "summary": {
+        "ar": "هل تطهر النجاسة بالمائعات والمنظفات إذا أزالت عينها وأثرها؟",
+        "en": "Is impurity purified by liquids and detergents if they remove its substance and trace?",
+        "ru": "Очищается ли нечистота жидкостями и моющими средствами, если они удаляют её вещество и след?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "تطهر النجاسة بكل مائعٍ طاهرٍ قالعٍ لها كالخل وماء الورد، فيجوز التطهير بالمنظفات المزيلة للعين والأثر.",
+            "en": "Impurity is purified by any pure liquid that removes it, such as vinegar and rosewater; so cleaning with detergents that remove the substance and trace is valid.",
+            "ru": "Нечистота очищается любой чистой жидкостью, удаляющей её, как уксус и розовая вода; поэтому очищение моющими средствами, удаляющими вещество и след, допустимо."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "الأصل التطهير بالماء، والنجاسة تُعفى إذا زالت عينها، ويقوم غير الماء مقامه عند بعضهم في إزالة الأثر.",
+            "en": "The basis is purification with water; impurity is excused once its substance is gone, and for some, other than water may take its place in removing the trace.",
+            "ru": "Основа — очищение водой; нечистота прощается, когда её вещество исчезло, и, по некоторым, не вода может заменить её в удалении следа."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يطهر المتنجس إلا بالماء المطلق، فلا تكفي المنظفات والكحول في رفع حكم النجاسة وإن أزالت العين.",
+            "en": "The impure is purified only by unmixed water; detergents and alcohol do not suffice to lift the ruling of impurity even if they remove the substance.",
+            "ru": "Осквернённое очищается только чистой водой; моющие средства и спирт не устраняют статус нечистоты, даже если удаляют вещество."
+          },
+          "source": {
+            "ar": "تحفة المحتاج",
+            "en": "Tuḥfat al-Muḥtāj",
+            "ru": "«Тухфат аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "المعتمد أن إزالة النجاسة لا تكون إلا بالماء الطهور، فلا تطهر بالمائعات كالسبيرتو وإن زالت العين.",
+            "en": "The relied-upon view is that removing impurity is only by purifying water; it is not purified by liquids such as spirit even if the substance is gone.",
+            "ru": "Утверждённое мнение: удаление нечистоты только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    }
+  ],
+  "theology": [
+    {
+      "id": "huduth",
+      "title": {
+        "ar": "دليل الحدوث والسببية",
+        "en": "Contingency & Causation",
+        "ru": "Возникновение и причинность"
+      },
+      "tagline": {
+        "ar": "كل حادثٍ لا بد له من مُحدِث",
+        "en": "Every originated thing requires an originator",
+        "ru": "У всякого возникшего есть создатель"
+      },
+      "premises": [
+        {
+          "ar": "العالم بما فيه من أجرام وأحوال حادثٌ بعد أن لم يكن، لتغيّره وقبوله للزيادة والنقصان.",
+          "en": "The universe, with its bodies and states, is originated after non-existence, as shown by its change and its acceptance of increase and decrease.",
+          "ru": "Мир с его телами и состояниями возник после небытия, о чём свидетельствуют его изменчивость и способность к увеличению и уменьше��ию."
+        },
+        {
+          "ar": "كل حادثٍ مفتقرٌ إلى سببٍ يُخرجه من العدم إلى الوجود، إذ لا يترجّح وجوده على عدمه بنفسه.",
+          "en": "Every originated thing needs a cause to bring it from non-existence into existence, since its existence cannot outweigh its non-existence by itself.",
+          "ru": "Всякое возникшее нуждается в причине, выводящей его из небытия в бытие, ибо само по себе его бытие не перевешивает небытие."
+        },
+        {
+          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى سببٍ أول واجب الوجود.",
+          "en": "An infinite regress of causes is rationally impossible, so the chain must terminate in a First Cause whose existence is necessary.",
+          "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться Первопричиной, чьё бытие необходимо."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾",
+          "en": "“Or were they created by nothing, or were they the creators?”",
+          "ru": "«Или они были сотворены из ничего? Или они сами — творцы?»"
+        },
+        "ref": {
+          "ar": "سورة الطور: ٣٥",
+          "en": "Sūrat al-Ṭūr: 35",
+          "ru": "Сура ат-Тур: 35"
+        }
+      },
+      "conclusion": {
+        "ar": "ثبت بالضرورة العقلية وجود موجِدٍ واجب الوجود، غنيٍّ عن غيره، هو الله سبحانه، خالق كل حادث ومُسبِّب كل سبب.",
+        "en": "By rational necessity there exists a Necessary Being, self-sufficient and independent—God—the originator of every contingent thing and the cause of every cause.",
+        "ru": "По рациональной необходимости существует Необходимое Сущее, самодостаточное и независимое — Бог — Творец всякого возникшего и Причина всех причин."
+      }
+    },
+    {
+      "id": "khalq",
+      "title": {
+        "ar": "دليل الخلق والإيجاد",
+        "en": "Creation & Origination",
+        "ru": "Творение и созидание"
+      },
+      "tagline": {
+        "ar": "الإيجاد من العدم يدل على قدرةٍ مطلقة",
+        "en": "Bringing existence from nothing proves absolute power",
+        "ru": "Творение из ничего доказывает абсолютное могущество"
+      },
+      "premises": [
+        {
+          "ar": "وجود المخلوقات المتنوعة على هيئاتٍ محكمة يدل على فعلٍ واعٍ لا على صدفةٍ عمياء.",
+          "en": "The existence of diverse creatures in precise forms points to a conscious act, not to blind chance.",
+          "ru": "Существование разнообразных творений в точных формах указывает на осознанное действие, а не на слепую случайность."
+        },
+        {
+          "ar": "الإيجاد بعد العدم لا يقدر عليه إلا قادرٌ مختار، إذ الاختيار والتخصيص يستلزمان إرادةً وعلمًا.",
+          "en": "Origination after non-existence is possible only for a powerful, free agent, since selection and specification require will and knowledge.",
+          "ru": "Созидание после небытия под силу лишь могущественному, свободному деятелю, ибо выбор и определение требуют воли и знания."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ﴾",
+          "en": "“This is the creation of God; so show Me what those besides Him have created.”",
+          "ru": "«Таково творение Аллаха! Покажите же Мне, что сотворили те, кроме Него.»"
+        },
+        "ref": {
+          "ar": "سورة لقمان: ١��",
+          "en": "Sūrat Luqmān: 11",
+          "ru": "Сура Лукман: 11"
+        }
+      },
+      "conclusion": {
+        "ar": "الخلق والإيجاد صفةٌ لا تكون إلا لله، فتفرُّده بالإيجاد دليلٌ على تفرُّده بالألوهي�� واستحقاق العبادة.",
+        "en": "Creation and origination belong to God alone; His exclusivity in bringing things into being proves His exclusivity in divinity and His sole right to worship.",
+        "ru": "Творение и созидание присущи одному лишь Богу; Его единственность в созидании доказывает Его единственность в божественности и исключительное право на поклонение."
+      }
+    },
+    {
+      "id": "itqan",
+      "title": {
+        "ar": "دليل الإحكام والتنظيم",
+        "en": "Design & Order",
+        "ru": "Совершенство и порядок"
+      },
+      "tagline": {
+        "ar": "النظام البديع يدل على مُنظِّمٍ حكيم",
+        "en": "Exquisite order points to a wise ordainer",
+        "ru": "Изящный порядок указывает на мудрого устроителя"
+      },
+      "premises": [
+        {
+          "ar": "الكون يجري على سننٍ دقيقة ونظامٍ مطّرد في الأفلاك والأحياء والذرّة.",
+          "en": "The cosmos runs on precise laws and consistent order—in the heavens, in living things, and in the atom.",
+          "ru": "Вселенная следует точным за��онам и устойчивому порядку — в небесах, в живых существах и в атоме."
+        },
+        {
+          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وق��دًا.",
+          "en": "Precision and regularity, together with the fitness of ends, cannot arise from randomness and necessitate knowledge, wisdom, and purpose.",
+          "ru": "Точность и регулярность вместе с целесообразностью не могут возникнуть от случайности и требуют знания, мудрости и намерения."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ﴾",
+          "en": "“Who perfected everything He created.”",
+          "ru": "«Который превосходно создал всякую вещь.»"
+        },
+        "ref": {
+          "ar": "سورة السجدة: ٧",
+          "en": "Sūrat al-Sajdah: 7",
+          "ru": "Сура ас-Саджда: 7"
+        }
+      },
+      "conclusion": {
+        "ar": "دلّ إتقا�� الصنعة على حكمة الصانع وعلمه وإرادته، فالنظام آيةٌ ناطقةٌ بوجود الحكيم العليم.",
+        "en": "The perfection of the craft proves the wisdom, knowledge, and will of the Craftsman; order is an eloquent sign of the All-Wise, All-Knowing.",
+        "ru": "Соверше��ство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего."
+      }
+    },
+    {
+      "id": "fitrah",
+      "title": {
+        "ar": "دليل الفطرة",
+        "en": "Innate Disposition (Fiṭrah)",
+        "ru": "Довод врождённой природы"
+      },
+      "tagline": {
+        "ar": "الإقرار بالخالق مغروسٌ في النفوس",
+        "en": "Acknowledging the Creator is ingrained in souls",
+        "ru": "Признание Творца заложено в душах"
+      },
+      "premises": [
+        {
+          "ar": "النفس البشرية مفطورةٌ على الإقرار بوجود خالقها والتوجّه إليه، خاصةً عند الشدائد.",
+          "en": "The human soul is innately disposed to acknowledge its Creator and turn to Him, especially in times of hardship.",
+          "ru": "Человеческая душа врождённо расположена признавать своего Творца и обращаться к Нему, особенно в бедствиях."
+        },
+        {
+          "ar": "هذا الشعور الفطري مطّردٌ في الأمم والعصور، وما اطّرد كذلك دلّ على أصلٍ ثابتٍ لا على وهم.",
+          "en": "This innate sense is constant across nations and ages; what is so universal points to a firm reality, not an illusion.",
+          "ru": "Это врождённое чувство постоянно у народов и во все эпохи; столь всеобщее указывает на прочную реальность, а не на иллюзию."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿فِطْرَتَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا﴾",
+          "en": "“The natural disposition of God upon which He created mankind.”",
+          "ru": "«Таково врождённое естество, которое Аллах дал людям.»"
+        },
+        "ref": {
+          "ar": "سورة الروم: ٣٠",
+          "en": "Sūrat al-Rūm: 30",
+          "ru": "Сура ар-Рум: 30"
+        }
+      },
+      "conclusion": {
+        "ar": "الفطرة شاهدٌ داخليٌّ على وجود الخالق، فمن رجع إلى صريح فطرته وجد الإقرار به ضرورةً لا تحتاج إلى برهان.",
+        "en": "The fiṭrah is an inner witness to the Creator; whoever returns to his pure innate nature finds acknowledging Him a self-evident necessity needing no proof.",
+        "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства."
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "hadath",
+      "term": { "ar": "حَدَث", "en": "Hadath", "ru": "Хадас" },
+      "definition": {
+        "ar": "حالة معنوية تمنع من الصلاة ونحوها، وترتفع بالوضوء أو الغسل. الأصغر يرتفع بالوضوء، والأكبر بالغسل.",
+        "en": "A state of ritual impurity that prevents prayer until removed. The minor state is lifted by ablution (wudu), the major by a full bath (ghusl).",
+        "ru": "Состояние ритуальной нечистоты, мешающее молитве. Малый хадас снимается омовением (вуду), большой — полным омовением (гусль)."
+      }
+    },
+    {
+      "id": "niyyah",
+      "term": { "ar": "نِيَّة", "en": "Niyyah", "ru": "Нийя" },
+      "definition": {
+        "ar": "قصد القلب للعبادة تقرباً إلى الله، وهي شرط لصحة أغلب العبادات كالصلاة والصيام والوضوء.",
+        "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
+        "ru": "Намерение сердца совершить поклонение ради Аллаха — условие действительности большинства обрядов: молитвы, поста, омовения."
+      }
+    },
+    {
+      "id": "tawatur",
+      "term": { "ar": "تَوَاتُر", "en": "Tawatur", "ru": "Таватур" },
+      "definition": {
+        "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
+        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
+        "ru": "Передача сообщения множеством независимых передатчиков, сговор которых о лжи невозможен, что даёт достоверное знание. Так передан Коран."
+      }
+    },
+    {
+      "id": "wudu",
+      "term": { "ar": "وُضُوء", "en": "Wudu", "ru": "Вуду" },
+      "definition": {
+        "ar": "طهارة بالماء تشمل غسل الوجه واليدين ومسح الرأس وغسل الرجلين، تُشترط لصحة الصلاة.",
+        "en": "Ritual ablution with water — washing the face, arms, wiping the head, and washing the feet — required for the validity of prayer.",
+        "ru": "Ритуальное омовение водой: лицо, руки, протирание головы и мытьё ног — необходимо для действительности молитвы."
+      }
+    },
+    {
+      "id": "najasah",
+      "term": { "ar": "نَجَاسَة", "en": "Najasah", "ru": "Наджаса" },
+      "definition": {
+        "ar": "قذارة حسية حكم الشرع بنجاستها كالبول والدم المسفوح، يجب إزالتها عن البدن والثوب والمكان للصلاة.",
+        "en": "A physical impurity ruled unclean by the Sharia (e.g., urine, flowing blood) that must be removed from body, clothes, and place before prayer.",
+        "ru": "Материальная нечистота, признанная Шариатом (моча, пролитая кровь), которую нужно удалить с тела, одежды и места перед молитвой."
+      }
+    },
+    {
+      "id": "tayammum",
+      "term": { "ar": "تَيَمُّم", "en": "Tayammum", "ru": "Таяммум" },
+      "definition": {
+        "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
+        "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
+        "ru": "Сухое очищение чистой землёй вместо воды при её отсутствии или невозможности использования из-за болезни и т. п."
+      }
+    },
+    {
+      "id": "ijma",
+      "term": { "ar": "إِجْمَاع", "en": "Ijma", "ru": "Иджма" },
+      "definition": {
+        "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
+        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
+        "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны."
+      }
+    },
+    {
+      "id": "qiyas",
+      "term": { "ar": "قِيَاس", "en": "Qiyas", "ru": "Кияс" },
+      "definition": {
+        "ar": "إلحاق مسألة لا نص فيها بمسألة منصوصة لاشتراكهما في العلة، وهو من أصول الاستنباط.",
+        "en": "Analogical reasoning: extending a ruling from a textually addressed case to a new case sharing the same effective cause.",
+        "ru": "Аналогия: перенос заключения с прямо оговорённого случая на новый, имеющий ту же причину."
+      }
+    }
+  ],
+  "guides": [
+    {
+      "id": "wudu-steps",
+      "bookId": "taharah",
+      "title": { "ar": "خطوات الوضوء", "en": "Steps of Wudu (Ablution)", "ru": "Шаги омовения (вуду)" },
+      "intro": {
+        "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
+        "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
+        "ru": "Практическое пошаговое руководство по правильному омовению перед молитвой."
+      },
+      "steps": [
+        {
+          "title": { "ar": "النية", "en": "Intention (Niyyah)", "ru": "Намерение (нийя)" },
+          "text": {
+            "ar": "انوِ بقلبك رفع الحدث والطهارة للصلاة، دون التلفظ بها.",
+            "en": "Form the intention in your heart to purify yourself for prayer; no spoken formula is needed.",
+            "ru": "Намеревайтесь сердцем очиститься для молитвы; произносить вслух не нужно."
+          }
+        },
+        {
+          "title": { "ar": "التسمية وغسل الكفين", "en": "Say Bismillah & wash hands", "ru": "«Бисмиллях» и мытьё кистей" },
+          "text": {
+            "ar": "قل: بسم الله، ثم اغسل كفيك ثلاث مرات.",
+            "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
+            "ru": "Скажите «Бисмиллях», затем трижды вымойте кисти рук."
+          }
+        },
+        {
+          "title": { "ar": "المضمضة والاستنشاق", "en": "Rinse mouth & nose", "ru": "Полоскание рта и носа" },
+          "text": {
+            "ar": "تمضمض واستنشق الماء ثم استنثره ثلاث مرات.",
+            "en": "Rinse the mouth and draw water into the nose, then expel it — three times.",
+            "ru": "Прополощите рот и вдохните воду носом, затем высморкайтесь — трижды."
+          }
+        },
+        {
+          "title": { "ar": "غسل الوجه", "en": "Wash the face", "ru": "Мытьё лица" },
+          "text": {
+            "ar": "اغسل وجهك كاملاً من منابت الشعر إلى الذقن وعرضاً بين الأذنين ثلاث مرات.",
+            "en": "Wash the whole face from hairline to chin and ear to ear, three times.",
+            "ru": "Вымойте всё лицо от линии волос до подбородка и от уха до уха — трижды."
+          }
+        },
+        {
+          "title": { "ar": "غسل اليدين إلى المرفقين", "en": "Wash arms to elbows", "ru": "Мытьё рук до локтей" },
+          "text": {
+            "ar": "اغسل يديك من أطراف الأصابع إلى المرفقين، اليمنى ثم اليسرى، ثلاث مرات.",
+            "en": "Wash each arm from fingertips to and including the elbow — right then left, three times.",
+            "ru": "Вымойте руки от пальцев до локтей включительно — сначала правую, затем левую, трижды."
+          }
+        },
+        {
+          "title": { "ar": "مسح الرأس والأذنين", "en": "Wipe head & ears", "ru": "Протирание головы и ушей" },
+          "text": {
+            "ar": "امسح رأسك بيديك مبلولتين من مقدمته إلى مؤخرته ثم امسح أذنيك، مرة واحدة.",
+            "en": "With wet hands wipe the head front to back, then wipe the ears — once.",
+            "ru": "Мокрыми руками протрите голову спереди назад, затем протрите уши — один раз."
+          }
+        },
+        {
+          "title": { "ar": "غسل الرجلين إلى الكعبين", "en": "Wash feet to ankles", "ru": "Мытьё ног до щиколоток" },
+          "text": {
+            "ar": "اغسل رجليك إلى الكعبين مع تخليل الأصابع، اليمنى ثم اليسرى، ثلاث مرات.",
+            "en": "Wash both feet up to and including the ankles, rubbing between the toes — right then left, three times.",
+            "ru": "Вымойте ноги до щиколоток включительно, протирая между пальцами — правую, затем левую, трижды."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salah-steps",
+      "bookId": "salah",
+      "title": { "ar": "أركان الصلاة العملية", "en": "The Prayer Sequence", "ru": "Последовательность молитвы" },
+      "intro": {
+        "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
+        "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
+        "ru": "Основная последовательность положений в одном ракаате молитвы."
+      },
+      "steps": [
+        {
+          "title": { "ar": "تكبيرة الإحرام", "en": "Opening Takbir", "ru": "Вступительный такбир" },
+          "text": {
+            "ar": "قف مستقبلاً القبلة وارفع يديك قائلاً: الله أكبر.",
+            "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
+            "ru": "Встаньте лицом к кибле, поднимите руки и скажите «Аллаху Акбар»."
+          }
+        },
+        {
+          "title": { "ar": "القيام والقراءة", "en": "Standing & recitation", "ru": "Стояние и чтение" },
+          "text": {
+            "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
+            "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
+            "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана."
+          }
+        },
+        {
+          "title": { "ar": "الركوع", "en": "Bowing (Ruku)", "ru": "Поясной поклон (руку)" },
+          "text": {
+            "ar": "انحنِ حتى تستوي ظهرك قائلاً: سبحان ربي العظيم.",
+            "en": "Bow with a straight back, saying 'Subhana Rabbiyal-Azim'.",
+            "ru": "Поклонитесь с ровной спиной, говоря «Субхана Рабби аль-Азым»."
+          }
+        },
+        {
+          "title": { "ar": "الاعتدال", "en": "Rising", "ru": "Выпрямление" },
+          "text": {
+            "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
+            "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
+            "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд»."
+          }
+        },
+        {
+          "title": { "ar": "السجود", "en": "Prostration (Sujud)", "ru": "Земной поклон (суджуд)" },
+          "text": {
+            "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
+            "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
+            "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат."
+          }
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-conversion",
+      "category": { "ar": "الدخول في الإسلام", "en": "Conversion", "ru": "Принятие ислама" },
+      "question": {
+        "ar": "هل الدخول في الإسلام لحظي أم يحتاج إجراءات؟",
+        "en": "Is accepting Islam instant, or does it require a formal process?",
+        "ru": "Принятие ислама происходит мгновенно или нужна процедура?"
+      },
+      "answer": {
+        "ar": "الدخول في الإسلام لحظي بمجرد النطق بالشهادتين عن اقتناع: أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله. لا يشترط حضور شيخ ولا أوراق رسمية، وإنما توثيق الإسلام لاحقاً أمر تنظيمي فقط.",
+        "en": "It is instant: sincerely pronouncing the testimony of faith — 'I bear witness that there is no god but Allah, and Muhammad is His Messenger' — makes you Muslim. No cleric or paperwork is required; any later documentation is merely administrative.",
+        "ru": "Это происходит мгновенно: искреннее произнесение свидетельства веры — «Свидетельствую, что нет божества, кроме Аллаха, и Мухаммад — Его посланник» — делает вас мусульманином. Не требуется ни имам, ни документы; последующее оформление лишь административное."
+      }
+    },
+    {
+      "id": "faq-arabic",
+      "category": { "ar": "اللغة", "en": "Language", "ru": "Язык" },
+      "question": {
+        "ar": "هل يجب أن أتعلم العربية لأعتنق الإسلام؟",
+        "en": "Do I need to learn Arabic to accept Islam?",
+        "ru": "Нужно ли учить арабский, чтобы принять ислам?"
+      },
+      "answer": {
+        "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
+        "en": "No. You can accept Islam in any language you understand and learn the Qur'an and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
+        "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием."
+      }
+    },
+    {
+      "id": "faq-past-sins",
+      "category": { "ar": "التوبة", "en": "Repentance", "ru": "Покаяние" },
+      "question": {
+        "ar": "ماذا يحدث لذنوبي السابقة عند إسلامي؟",
+        "en": "What happens to my past sins when I embrace Islam?",
+        "ru": "Что происходит с прошлыми грехами при принятии ислама?"
+      },
+      "answer": {
+        "ar": "الإسلام يهدم ما قبله، فمن أسلم غُفرت له ذنوبه السابقة كلها ويبدأ صفحة جديدة نقية، كما صح عن النبي صلى الله عليه وسلم.",
+        "en": "Islam erases what came before it. Upon accepting Islam all previous sins are forgiven and you begin with a clean slate, as affirmed by the Prophet (peace be upon him).",
+        "ru": "Ислам стирает всё, что было до него. С принятием ислама все прежние грехи прощаются, и вы начинаете с чистого листа, как сообщил Пророк (мир ему)."
+      }
+    },
+    {
+      "id": "faq-five-pillars",
+      "category": { "ar": "الأركان", "en": "Foundations", "ru": "Основы" },
+      "question": {
+        "ar": "ما الذي يُطلب مني فعله بعد الإسلام مباشرة؟",
+        "en": "What am I expected to do right after becoming Muslim?",
+        "ru": "Что требуется делать сразу после принятия ислама?"
+      },
+      "answer": {
+        "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
+        "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
+        "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться."
+      }
+    },
+    {
+      "id": "faq-schools",
+      "category": { "ar": "المذاهب", "en": "Schools of law", "ru": "Мазхабы" },
+      "question": {
+        "ar": "لماذا تختلف المذاهب الأربعة، وأيها أتبع؟",
+        "en": "Why do the four schools differ, and which should I follow?",
+        "ru": "Почему четыре мазхаба различаются и какому следовать?"
+      },
+      "answer": {
+        "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
+        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qur'an and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+        "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма."
+      }
+    },
+    {
+      "id": "faq-family",
+      "category": { "ar": "المفاهيم", "en": "Misconceptions", "ru": "Заблуждения" },
+      "question": {
+        "ar": "هل يجب أن أقطع علاقتي بعائلتي غير المسلمة؟",
+        "en": "Must I cut ties with my non-Muslim family?",
+        "ru": "Должен ли я разорвать связь с немусульманской семьёй?"
+      },
+      "answer": {
+        "ar": "لا، بل يأمر الإسلام ببرّ الوالدين والإحسان إلى الأقارب ولو كانوا غير مسلمين، ما لم يُطلب منك معصية الله. حسن الخلق معهم من صميم الدين.",
+        "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
+        "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии."
+      }
+    }
+  ]
+}
