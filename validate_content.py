@@ -142,7 +142,47 @@ def main():
                 err(f"{where}.rulings.{school}: MISSING — all four schools are required")
                 continue
             check_localized(r.get("text"), f"{where}.rulings.{school}.text")
-            check_localized(r.get("source"), f"{where}.rulings.{school}.source")
+
+            srcs = r.get("sources")
+            if srcs is None:
+                err(f"{where}.rulings.{school}.sources: missing "
+                    f"(did this record skip the source->sources migration?)")
+            elif not isinstance(srcs, list):
+                err(f"{where}.rulings.{school}.sources: must be a list, "
+                    f"got {type(srcs).__name__}")
+            elif not srcs:
+                err(f"{where}.rulings.{school}.sources: empty — at least one book required")
+            else:
+                if len(srcs) > 4:
+                    warn(f"{where}.rulings.{school}.sources: {len(srcs)} books "
+                         f"— more than 4 crowds the card")
+                seen = []
+                for n_s, one in enumerate(srcs):
+                    check_localized(one, f"{where}.rulings.{school}.sources[{n_s}]")
+                    if isinstance(one, dict) and isinstance(one.get("ar"), str):
+                        ar = one["ar"].strip()
+                        if ar in seen:
+                            err(f"{where}.rulings.{school}.sources: «{ar}» listed twice")
+                        seen.append(ar)
+                        for ch in ("/", "،", " و "):
+                            if ch in ar:
+                                err(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                    f"«{ar}» looks like two books in one entry "
+                                    f"— split into separate list items")
+                                break
+                        # Titles that legitimately contain a particle.
+                        KNOWN_TITLES = {"الخرشي على خليل", "شرح منتهى الإرادات"}
+                        for particle in ([] if ar in KNOWN_TITLES
+                                         else (" لابن ", " للـ", " لل", " على ")):
+                            if particle in ar:
+                                warn(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                     f"«{ar}» may include an author name — house style is "
+                                     f"the bare title")
+                                break
+
+            if "source" in r:
+                err(f"{where}.rulings.{school}: legacy 'source' field still present "
+                    f"— should be 'sources' (a list)")
 
         unknown = set(rulings) - set(SCHOOLS)
         if unknown:

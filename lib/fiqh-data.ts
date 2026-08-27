@@ -39,7 +39,8 @@ export interface School {
 
 export interface SchoolRuling {
   ruling: Localized
-  reference: Localized
+  /** One or more relied-upon (معتمد) books of the school. Never empty. */
+  references: Localized[]
 }
 
 export interface Issue {
@@ -107,7 +108,7 @@ export interface TheologyProof {
 
 interface RawSchoolRuling {
   text: Localized
-  source: Localized
+  sources: Localized[]
 }
 
 interface RawIssue {
@@ -263,7 +264,7 @@ export const issues: Issue[] = data.issues.map((i) => ({
   title: i.title,
   summary: i.summary,
   rulings: Object.fromEntries(
-    Object.entries(i.rulings).map(([key, r]) => [key, { ruling: r.text, reference: r.source }]),
+    Object.entries(i.rulings).map(([key, r]) => [key, { ruling: r.text, references: r.sources }]),
   ) as Record<SchoolKey, SchoolRuling>,
 }))
 
@@ -320,7 +321,7 @@ function buildHaystack(issue: Issue): string {
     if (book) parts.push(book.name[l])
     for (const s of schools) {
       const r = issue.rulings[s.key]
-      parts.push(s.name[l], r.ruling[l], r.reference[l])
+      parts.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
     }
   }
   return parts.join(" \u0000 ").toLowerCase()

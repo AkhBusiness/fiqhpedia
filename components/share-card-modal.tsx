@@ -125,7 +125,7 @@ export function ShareCardModal({ issue, lang, visibleSchools, onClose }: ShareCa
                       {r.ruling[lang]}
                     </p>
                     <p className="mt-1 text-[10px]" style={{ color: "#71717a" }}>
-                      {ui.reference[lang]}: {r.reference[lang]}
+                      {ui.reference[lang]}: {r.references.map((ref) => ref[lang]).join(" — ")}
                     </p>
                   </div>
                 )

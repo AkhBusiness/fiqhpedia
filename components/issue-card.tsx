@@ -62,7 +62,7 @@ export function IssueCard({
         const r = issue.rulings[s.key]
         return simplified
           ? `• ${s.name[lang]}: ${r.ruling[lang]}`
-          : `• ${s.name[lang]}: ${r.ruling[lang]}\n  (${ui.reference[lang]}: ${r.reference[lang]})`
+          : `• ${s.name[lang]}: ${r.ruling[lang]}\n  (${ui.reference[lang]}: ${r.references.map((ref) => ref[lang]).join(" — ")})`
       })
       .join("\n")
     return `${header}\n${body}`
@@ -257,7 +257,9 @@ export function IssueCard({
                     <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">
                       {ui.reference[lang]}
                     </span>
-                    <span className="text-xs leading-snug text-muted-foreground">{r.reference[lang]}</span>
+                    <span className="text-xs leading-snug text-muted-foreground">
+                      {r.references.map((ref) => ref[lang]).join(" — ")}
+                    </span>
                   </div>
                 </div>
               ) : null}

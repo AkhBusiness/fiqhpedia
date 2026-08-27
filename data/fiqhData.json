@@ -536,11 +536,13 @@
             "en": "The essence of faith is assent of the heart; utterance with the tongue is a condition for applying the worldly rulings of Muslims.",
             "ru": "Основа веры — убеждение сердца; произнесение языком является условием применения мирских норм для мусульман."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -548,11 +550,13 @@
             "en": "Uttering the two testimonies is a condition for the validity of faith for one able to do so, and entering Islam is not valid without it.",
             "ru": "Произнесение шахады — условие действительности веры для способного, и без неё вхождение недействительно."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -560,11 +564,13 @@
             "en": "Uttering the two testimonies is a pillar and an essential condition for the operation of Islam's rulings both outwardly and inwardly.",
             "ru": "Произнесение шахады — столп и основное условие действия норм ислама внешне и внутренне."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -572,11 +578,13 @@
             "en": "The Islam of an able person is by no means valid except by uttering both testimonies together and disavowing whatever contradicts the religion.",
             "ru": "Ислам способного никак не действителен, кроме как произнесением обеих шахад вместе и отречением от противоречащего религии."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -601,11 +609,13 @@
             "en": "His Islam is valid by uttering their meaning in his own language immediately, even if he is able to learn Arabic.",
             "ru": "Его ислам действителен при немедленном произнесении их смысла на своём языке, даже если он способен выучить арабский."
           },
-          "source": {
-            "ar": "الدر المختار",
-            "en": "Al-Durr al-Mukhtār",
-            "ru": "«Ад-Дурр аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -613,11 +623,13 @@
             "en": "His Islam is valid in his language if he is unable to use Arabic, and an accurate translation of the meaning is required.",
             "ru": "Его ислам действителен на его языке при неспособности к арабскому, и требуется точный перевод смысла."
           },
-          "source": {
-            "ar": "حاشية الدسوقي",
-            "en": "Ḥāshiyat al-Dasūqī",
-            "ru": "«Хашия ад-Дусуки»"
-          }
+          "sources": [
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашия ад-Дусуки»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -625,11 +637,13 @@
             "en": "His Islam is valid by translation immediately, whether able or unable, because what is required is the heart's firm resolve upon the meaning.",
             "ru": "Его ислам действителен через перевод немедленно, способен он или нет, ибо требуется твёрдая убеждённость сердца в смысле."
           },
-          "source": {
-            "ar": "مغني المحتاج",
-            "en": "Mughnī al-Muḥtāj",
-            "ru": "«Мугни аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -637,11 +651,13 @@
             "en": "His Islam is valid in any language that conveys the intended meaning, and the Arabic wording is not a condition.",
             "ru": "Его ислам действителен на любом языке, передающем нужный смысл, и арабская формулировка не является условием."
           },
-          "source": {
-            "ar": "مطالب أولي النهى",
-            "en": "Maṭālib Ulī al-Nuhā",
-            "ru": "«Маталиб Ули ан-Нуха»"
-          }
+          "sources": [
+            {
+              "ar": "مطالب أولي النهى",
+              "en": "Maṭālib Ulī al-Nuhā",
+              "ru": "«Маталиб Ули ан-Нуха»"
+            }
+          ]
         }
       }
     },
@@ -666,11 +682,13 @@
             "en": "He does not disbelieve by abandoning it out of laziness while affirming its obligation; rather he is imprisoned and disciplined until he prays.",
             "ru": "Он не становится неверующим, оставляя её по лени при признании обязательности; его заключают и наказывают, пока не начнёт молиться."
           },
-          "source": {
-            "ar": "العناية",
-            "en": "Al-‘Ināyah",
-            "ru": "«Аль-Инайя»"
-          }
+          "sources": [
+            {
+              "ar": "العناية",
+              "en": "Al-‘Ināyah",
+              "ru": "«Аль-Инайя»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -678,11 +696,13 @@
             "en": "He does not disbelieve by abandoning it out of laziness, but is executed as a legal penalty, under its conditions, if he persists in abandoning it.",
             "ru": "Он не становится неверующим, оставляя её по лени, но казнится как мера наказания при её условиях, если упорствует в оставлении."
           },
-          "source": {
-            "ar": "التاج والإكليل",
-            "en": "Al-Tāj wa-al-Iklīl",
-            "ru": "«Ат-Тадж ва-ль-Иклиль»"
-          }
+          "sources": [
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -690,11 +710,13 @@
             "en": "He is a sinner committing a major sin and does not disbelieve by abandoning it out of laziness; he is executed as a penalty, like a disobedient Muslim.",
             "ru": "Он грешник, совершивший тяжкий грех, и не становится неверующим, оставляя её по лени; казнится как наказание, подобно ослушавшемуся мусульманину."
           },
-          "source": {
-            "ar": "روضة الطالبين",
-            "en": "Rawḍat al-Ṭālibīn",
-            "ru": "«Раудат ат-Талибин»"
-          }
+          "sources": [
+            {
+              "ar": "روضة الطالبين",
+              "en": "Rawḍat al-Ṭālibīn",
+              "ru": "«Раудат ат-Талибин»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -702,11 +724,13 @@
             "en": "The relied-upon position is that whoever abandons it out of laziness, is called to it, and lets the time of the following prayer narrow, becomes a disbeliever.",
             "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим."
           },
-          "source": {
-            "ar": "الإنصاف",
-            "en": "Al-Inṣāf",
-            "ru": "«Аль-Инсаф»"
-          }
+          "sources": [
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            }
+          ]
         }
       }
     },
@@ -736,11 +760,13 @@
             "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
             "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -748,11 +774,13 @@
             "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
             "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -760,11 +788,13 @@
             "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
             "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -772,11 +802,13 @@
             "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
             "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -806,11 +838,13 @@
             "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
             "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
           },
-          "source": {
-            "ar": "الدر المختار",
-            "en": "Al-Durr al-Mukhtār",
-            "ru": "«Ад-Дурр аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -818,11 +852,13 @@
             "en": "Wiping is permitted only over khuff made of leather.",
             "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
           },
-          "source": {
-            "ar": "الخرشي على خليل",
-            "en": "Al-Kharshī ‘alā Khalīl",
-            "ru": "«Аль-Харши аля Халиль»"
-          }
+          "sources": [
+            {
+              "ar": "الخرشي على خليل",
+              "en": "Al-Kharshī ‘alā Khalīl",
+              "ru": "«Аль-Харши аля Халиль»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -830,11 +866,13 @@
             "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
             "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
           },
-          "source": {
-            "ar": "مغني المحتاج",
-            "en": "Mughnī al-Muḥtāj",
-            "ru": "«Мугни аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -842,11 +880,13 @@
             "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
             "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -876,11 +916,13 @@
             "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
             "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -888,11 +930,13 @@
             "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
             "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -900,11 +944,13 @@
             "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
             "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -912,11 +958,13 @@
             "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
             "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -946,11 +994,13 @@
             "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worsening sickness.",
             "ru": "Таяммум допустим при наличии воды, если есть опасение вреда от её применения из-за болезни или сильного холода, грозящего гибелью или ухудшением."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -958,11 +1008,13 @@
             "en": "Tayammum is permitted for the sick and for whoever fears worsening illness, delayed recovery, or death from using water.",
             "ru": "Таяммум разрешён больному и тому, кто опасается усиления болезни, задержки выздоровления или гибели от применения воды."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -970,11 +1022,13 @@
             "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
             "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -982,11 +1036,13 @@
             "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold, being unable to warm the water or avert its harm.",
             "ru": "Таяммум дозволен при наличии воды, если есть опасение телесного вреда от её применения из-за болезни или сильного холода при невозможности согреть воду и отвести вред."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -1016,11 +1072,13 @@
             "en": "Pure in itself but not purifying for others; performing ablution with it again is not permitted.",
             "ru": "Чистая сама по себе, но не очищающая для другого; повторно совершать ею омовение нельзя."
           },
-          "source": {
-            "ar": "الهداية",
-            "en": "Al-Hidāyah",
-            "ru": "«Аль-Хидая»"
-          }
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -1028,11 +1086,13 @@
             "en": "Pure and purifying; performing ablution with it is valid, though disliked if other water is available.",
             "ru": "Чистая и очищающая; омовение ею действительно, но нежелательно при наличии другой воды."
           },
-          "source": {
-            "ar": "الشرح الصغير",
-            "en": "Al-Sharḥ al-Ṣaghīr",
-            "ru": "«Аш-Шарх ас-Сагир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الصغير",
+              "en": "Al-Sharḥ al-Ṣaghīr",
+              "ru": "«Аш-Шарх ас-Сагир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -1040,11 +1100,13 @@
             "en": "Pure in itself but not purifying for others.",
             "ru": "Чистая сама по себе, но не очищающая для другого."
           },
-          "source": {
-            "ar": "فتح القريب",
-            "en": "Fatḥ al-Qarīb",
-            "ru": "«Фатх аль-Кариб»"
-          }
+          "sources": [
+            {
+              "ar": "فتح القريب",
+              "en": "Fatḥ al-Qarīb",
+              "ru": "«Фатх аль-Кариб»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -1052,11 +1114,13 @@
             "en": "Pure but not purifying once it has separated from the limbs.",
             "ru": "Чистая, но не очищающая после отделения от органов тела."
           },
-          "source": {
-            "ar": "شرح منتهى الإرادات",
-            "en": "Sharḥ Muntahā al-Irādāt",
-            "ru": "«Шарх Мунтаха аль-Ирадат»"
-          }
+          "sources": [
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»"
+            }
+          ]
         }
       }
     },
@@ -1086,11 +1150,13 @@
             "en": "Using gold and silver vessels for eating, drinking, and purification is forbidden, yet purification from them is valid though sinful.",
             "ru": "Использование золотых и серебряных сосудов для еды, питья и очищения запретно, но очищение из них действительно, хотя и греховно."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -1098,11 +1164,13 @@
             "en": "Acquiring and using them is strongly disliked, and purification from them is valid though disliked.",
             "ru": "Их приобретение и использование сильно нежелательны, а очищение из них действительно, хотя и нежелательно."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -1110,11 +1178,13 @@
             "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition per the relied-upon view.",
             "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -1122,11 +1192,13 @@
             "en": "Using gold and silver vessels for purification and otherwise is forbidden; whoever performs ablution from them, his ablution is valid though sinful.",
             "ru": "Использование золотых и серебряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -1156,11 +1228,13 @@
             "en": "Cleansing with any pure, cleaning material such as tissue and paper suffices; making the count odd is recommended, and combining it with water is best.",
             "ru": "Очищение любым чистым очищающим средством, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -1168,11 +1242,13 @@
             "en": "Cleansing with a solid, pure, cleaning material such as paper suffices, provided the excretion does not spread beyond its usual place.",
             "ru": "Очищение твёрдым чистым очищающим средством, как бумага, достаточно, если выделение не вышло за обычное место."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -1180,11 +1256,13 @@
             "en": "Cleansing requires three cleaning wipes with a solid, pure material such as tissue; a moist or impure item does not suffice.",
             "ru": "Для очищения требуется три очищающих протирания твёрдым чистым средством, как салфетки; влажное или нечистое не годится."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -1192,11 +1270,13 @@
             "en": "Cleansing suffices with three stones or their equivalent such as pure tissues, on condition of cleanliness, odd count, and the excretion not spreading beyond its place.",
             "ru": "Очищение достаточно тремя камнями или их заменой, как чистые салфетки, при условии чистоты, нечётности и невыхода выделения за его место."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
@@ -1226,11 +1306,13 @@
             "en": "Impurity is purified by any pure liquid that removes it, such as vinegar and rosewater; so cleaning with detergents that remove the substance and trace is valid.",
             "ru": "Нечистота очищается любой чистой жидкостью, удаляющей её, как уксус и розовая вода; поэтому очищение моющими средствами, удаляющими вещество и след, допустимо."
           },
-          "source": {
-            "ar": "الرد المحتار",
-            "en": "Radd al-Muḥtār",
-            "ru": "«Радд аль-Мухтар»"
-          }
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
         },
         "maliki": {
           "text": {
@@ -1238,11 +1320,13 @@
             "en": "The basis is purification with water; impurity is excused once its substance is gone, and for some, other than water may take its place in removing the trace.",
             "ru": "Основа — очищение водой; нечистота прощается, когда её вещество исчезло, и, по некоторым, не вода может заменить её в удалении следа."
           },
-          "source": {
-            "ar": "الشرح الكبير",
-            "en": "Al-Sharḥ al-Kabīr",
-            "ru": "«Аш-Шарх аль-Кабир»"
-          }
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
         },
         "shafii": {
           "text": {
@@ -1250,11 +1334,13 @@
             "en": "The impure is purified only by unmixed water; detergents and alcohol do not suffice to lift the ruling of impurity even if they remove the substance.",
             "ru": "Осквернённое очищается только чистой водой; моющие средства и спирт не устраняют статус нечистоты, даже если удаляют вещество."
           },
-          "source": {
-            "ar": "تحفة المحتاج",
-            "en": "Tuḥfat al-Muḥtāj",
-            "ru": "«Тухфат аль-Мухтадж»"
-          }
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
         },
         "hanbali": {
           "text": {
@@ -1262,11 +1348,247 @@
             "en": "The relied-upon view is that removing impurity is only by purifying water; it is not purified by liquids such as spirit even if the substance is gone.",
             "ru": "Утверждённое мнение: удаление нечистоты только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло."
           },
-          "source": {
-            "ar": "كشاف القناع",
-            "en": "Kashshāf al-Qinā‘",
-            "ru": "«Кашшаф аль-Кина»"
-          }
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-1",
+      "bookId": "salah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب تكبيرة الإحرام",
+        "en": "Chapter of the Opening Takbīr",
+        "ru": "Раздел о начальном такбире"
+      },
+      "title": {
+        "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
+        "en": "Ruling on Raising Hands During Takbeer and its Places in Prayer",
+        "ru": "Постановление о поднятии рук при такбире и его места в молитве"
+      },
+      "summary": {
+        "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع الرفع منه وفي هيئة الرفع.",
+        "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
+        "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يرفع يديه حتى يحاذي بإبهاميه شحمتي أذنيه عند تكبيرة الإحرام فقط، ولا يرفع في غيرها من التكبيرات.",
+            "en": "Raises hands to earlobes only during the opening Takbeer; no raising hands in other parts.",
+            "ru": "Поднимает руки до мочек ушей только при начальном такбире; при других такбирах не поднимает."
+          },
+          "sources": [
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "المعتمد رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
+            "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
+            "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يسن رفع اليدين حذو المنكبين في أربعة مواضع: عند الإحرام، وعند الركوع، وعند الرفع منه، وعند القيام من التشهّد الأول.",
+            "en": "Recommended to raise hands to shoulder level in four positions: Opening, Bowing, Rising from Bowing, and Standing from 1st Tashahhud.",
+            "ru": "Желательно поднимать руки до уровня плеч в 4 местах: при начальном такбире, поклоне, выпрямлении и вставании с 1-го ташаххуда."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن رفع اليدين حذو المنكبين أو فروع الأذنين في ثلاثة مواضع: تكبيرة الإحرام، وعند الركوع، وعند الرفع منه.",
+            "en": "Recommended to raise hands to shoulders or earlobes in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
+            "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-2",
+      "bookId": "salah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب القيام ووضع اليدين",
+        "en": "Chapter of Standing and Hand Placement",
+        "ru": "Раздел о стоянии и положении рук"
+      },
+      "title": {
+        "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
+        "en": "Position of Hands While Standing in Prayer (Qabd vs Sadl)",
+        "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)"
+      },
+      "summary": {
+        "ar": "اختلف الفقهاء في محل وضع اليدين وحكم سدلهما على الجوانب في صلاة الفريضة.",
+        "en": "Jurists differ on where to place hands while standing and whether leaving them at the sides is permissible or sunnah.",
+        "ru": "Ученые разошлись во мнениях о месте складывания рук и опускании их вдоль тела."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يسن وضع اليد اليمنى على اليسرى تحت السرّة للرجل، وتضعهما المرأة على صدرها.",
+            "en": "Recommended for men to place the right hand over the left below the navel; women place them on the chest.",
+            "ru": "Мужчинам желательно класть правую руку на левую ниже пупка; женщинам — на грудь."
+          },
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "المشهور والمعتمد سدل اليدين إرسالهما على الجانبين في الفرض، ويكره القبض إلا إذا قصد به الاتباع لا الاستناد.",
+            "en": "The famous relied opinion is Sadl (leaving hands at the sides) in obligatory prayers.",
+            "ru": "Известное мнение — опускание рук вдоль тела (садль) в обязательных молитвах."
+          },
+          "sources": [
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يسن وضع الكف الأيمن على ظهر الأيسر تحت الصدر وفوق السرّة مائلاً إلى جهة اليسار للرجل والمرأة.",
+            "en": "Recommended to place right hand over left wrist above the navel and below the chest, slightly to the left.",
+            "ru": "Желательно класть правую руку на левую выше пупка и ниже груди, чуть левее."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن وضع كفه اليمنى على كوعه الأيسر وجعلهما تحت السرّة.",
+            "en": "Recommended to place the right hand over the left wrist and place them below the navel.",
+            "ru": "Желательно класть правую руку на левое запястье и держать их ниже пупка."
+          },
+          "sources": [
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-3",
+      "bookId": "salah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب القراءة",
+        "en": "Chapter of Recitation",
+        "ru": "Раздел о чтении"
+      },
+      "title": {
+        "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
+        "en": "Ruling on the Follower Reciting Al-Fatiha Behind the Imam",
+        "ru": "Постановление о чтении Аль-Фатихи молящимся за имамом"
+      },
+      "summary": {
+        "ar": "اختلفت المذاهب الأربعة في وجوب أو كراهة قراءة المأموم للفاتحة خلف الإمام بحسب نوع الصلاة (سرية أم جهرية).",
+        "en": "The four schools differ on whether a follower must recite Al-Fatiha behind the Imam in silent/audible prayers.",
+        "ru": "Четыре мазхаба расходятся во мнениях относительно обязательности чтения Аль-Фатихи за имамом."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "تكره قراءة المأموم للفاتحة خلف الإمام تحريماً في السرية والجهرية، وقراءة الإمام له قراءة.",
+            "en": "Prohibited/disliked for the follower to recite Fatiha behind Imam in both silent and loud prayers; Imam's recitation suffices.",
+            "ru": "Запрещено (порицаемо) молящемуся за имамом читать Аль-Фатиху в тихих и громких молитвах; чтения имама достаточно."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تستحب قراءة الفاتحة للمأموم في الصلاة السرية، وتكره في الجهرية إلا إذا لم يسمع قراءة الإمام فتستحب.",
+            "en": "Recommended for the follower in silent prayers, disliked in loud prayers unless the Imam is inaudible.",
+            "ru": "Желательно читать в тихих молитвах, порицаемо в громких, если только не слышно имама."
+          },
+          "sources": [
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "تجب قراءة الفاتحة على المأموم في كل ركعة، سواء كانت الصلاة سرية أم جهرية.",
+            "en": "Recitation of Al-Fatiha is an absolute obligation upon the follower in every rak'ah, silent or loud.",
+            "ru": "Чтение Аль-Фатихи обязательно для каждого молящегося в каждом ракаате, в тихих и громких молитвах."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmū‘",
+              "ru": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تسن القراءة للمأموم في السرية وفي سكتات الإمام في الجهرية، ولا تجب عليه، فإن لم يسكت الإمام أنصت له.",
+            "en": "Recommended in silent prayers and during Imam's pauses in loud prayers; not obligatory. If Imam doesn't pause, he listens.",
+            "ru": "Желательно читать в тихих молитвах и паузах имама в громких. Если паузы нет — обязан слушать."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qinā‘",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
         }
       }
     },
