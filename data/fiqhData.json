@@ -1269,6 +1269,216 @@
           }
         }
       }
+    },
+    {
+      "id": "salah-1",
+      "bookId": "salah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب تكبيرة الإحرام",
+        "en": "Chapter of the Opening Takbīr",
+        "ru": "Раздел о начальном такбире"
+      },
+      "title": {
+        "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
+        "en": "Ruling on Raising Hands During Takbeer and its Places in Prayer",
+        "ru": "Постановление о поднятии рук при такбире и его места в молитве"
+      },
+      "summary": {
+        "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع الرفع منه وفي هيئة الرفع.",
+        "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
+        "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يرفع يديه حتى يحاذي بإبهاميه شحمتي أذنيه عند تكبيرة الإحرام فقط، ولا يرفع في غيرها من التكبيرات.",
+            "en": "Raises hands to earlobes only during the opening Takbeer; no raising hands in other parts.",
+            "ru": "Поднимает руки до мочек ушей только при начальном такбире; при других такбирах не поднимает."
+          },
+          "source": {
+            "ar": "مراقي الفلاح",
+            "en": "Marāqī al-Falāḥ",
+            "ru": "«Мараки аль-Фалях»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "المعتمد رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
+            "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
+            "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется."
+          },
+          "source": {
+            "ar": "الشرح الكبير",
+            "en": "Al-Sharḥ al-Kabīr",
+            "ru": "«Аш-Шарх аль-Кабир»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يسن رفع اليدين حذو المنكبين في أربعة مواضع: عند الإحرام، وعند الركوع، وعند الرفع منه، وعند القيام من التشهّد الأول.",
+            "en": "Recommended to raise hands to shoulder level in four positions: Opening, Bowing, Rising from Bowing, and Standing from 1st Tashahhud.",
+            "ru": "Желательно поднимать руки до уровня плеч в 4 местах: при начальном такбире, поклоне, выпрямлении и вставании с 1-го ташаххуда."
+          },
+          "source": {
+            "ar": "منهاج الطالبين",
+            "en": "Minhāj al-Ṭālibīn",
+            "ru": "«Минхадж ат-Талибин»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن رفع اليدين حذو المنكبين أو فروع الأذنين في ثلاثة مواضع: تكبيرة الإحرام، وعند الركوع، وعند الرفع منه.",
+            "en": "Recommended to raise hands to shoulders or earlobes in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
+            "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
+    },
+    {
+      "id": "salah-2",
+      "bookId": "salah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب القيام ووضع اليدين",
+        "en": "Chapter of Standing and Hand Placement",
+        "ru": "Раздел о стоянии и положении рук"
+      },
+      "title": {
+        "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
+        "en": "Position of Hands While Standing in Prayer (Qabd vs Sadl)",
+        "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)"
+      },
+      "summary": {
+        "ar": "اختلف الفقهاء في محل وضع اليدين وحكم سدلهما على الجوانب في صلاة الفريضة.",
+        "en": "Jurists differ on where to place hands while standing and whether leaving them at the sides is permissible or sunnah.",
+        "ru": "Ученые разошлись во мнениях о месте складывания рук и опускании их вдоль тела."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يسن وضع اليد اليمنى على اليسرى تحت السرّة للرجل، وتضعهما المرأة على صدرها.",
+            "en": "Recommended for men to place the right hand over the left below the navel; women place them on the chest.",
+            "ru": "Мужчинам желательно класть правую руку на левую ниже пупка; женщинам — на грудь."
+          },
+          "source": {
+            "ar": "الرد المحتار",
+            "en": "Radd al-Muḥtār",
+            "ru": "«Радд аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "المشهور والمعتمد سدل اليدين إرسالهما على الجانبين في الفرض، ويكره القبض إلا إذا قصد به الاتباع لا الاستناد.",
+            "en": "The famous relied opinion is Sadl (leaving hands at the sides) in obligatory prayers.",
+            "ru": "Известное мнение — опускание рук вдоль тела (садль) в обязательных молитвах."
+          },
+          "source": {
+            "ar": "منح الجليل",
+            "en": "Minaḥ al-Jalīl",
+            "ru": "«Минах аль-Джалиль»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "يسن وضع الكف الأيمن على ظهر الأيسر تحت الصدر وفوق السرّة مائلاً إلى جهة اليسار للرجل والمرأة.",
+            "en": "Recommended to place right hand over left wrist above the navel and below the chest, slightly to the left.",
+            "ru": "Желательно класть правую руку на левую выше пупка и ниже груди, чуть левее."
+          },
+          "source": {
+            "ar": "مغني المحتاج",
+            "en": "Mughnī al-Muḥtāj",
+            "ru": "«Мугни аль-Мухтадж»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن وضع كفه اليمنى على كوعه الأيسر وجعلهما تحت السرّة.",
+            "en": "Recommended to place the right hand over the left wrist and place them below the navel.",
+            "ru": "Желательно класть правую руку на левое запястье и держать их ниже пупка."
+          },
+          "source": {
+            "ar": "الإنصاف",
+            "en": "Al-Inṣāf",
+            "ru": "«Аль-Инсаф»"
+          }
+        }
+      }
+    },
+    {
+      "id": "salah-3",
+      "bookId": "salah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب القراءة",
+        "en": "Chapter of Recitation",
+        "ru": "Раздел о чтении"
+      },
+      "title": {
+        "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
+        "en": "Ruling on the Follower Reciting Al-Fatiha Behind the Imam",
+        "ru": "Постановление о чтении Аль-Фатихи молящимся за имамом"
+      },
+      "summary": {
+        "ar": "اختلفت المذاهب الأربعة في وجوب أو كراهة قراءة المأموم للفاتحة خلف الإمام بحسب نوع الصلاة (سرية أم جهرية).",
+        "en": "The four schools differ on whether a follower must recite Al-Fatiha behind the Imam in silent/audible prayers.",
+        "ru": "Четыре мазхаба расходятся во мнениях относительно обязательности чтения Аль-Фатихи за имамом."
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "تكره قراءة المأموم للفاتحة خلف الإمام تحريماً في السرية والجهرية، وقراءة الإمام له قراءة.",
+            "en": "Prohibited/disliked for the follower to recite Fatiha behind Imam in both silent and loud prayers; Imam's recitation suffices.",
+            "ru": "Запрещено (порицаемо) молящемуся за имамом читать Аль-Фатиху в тихих и громких молитвах; чтения имама достаточно."
+          },
+          "source": {
+            "ar": "الدر المختار",
+            "en": "Al-Durr al-Mukhtār",
+            "ru": "«Ад-Дурр аль-Мухтар»"
+          }
+        },
+        "maliki": {
+          "text": {
+            "ar": "تستحب قراءة الفاتحة للمأموم في الصلاة السرية، وتكره في الجهرية إلا إذا لم يسمع قراءة الإمام فتستحب.",
+            "en": "Recommended for the follower in silent prayers, disliked in loud prayers unless the Imam is inaudible.",
+            "ru": "Желательно читать в тихих молитвах, порицаемо в громких, если только не слышно имама."
+          },
+          "source": {
+            "ar": "حاشية الدسوقي",
+            "en": "Ḥāshiyat al-Dasūqī",
+            "ru": "«Хашият ад-Дасуки»"
+          }
+        },
+        "shafii": {
+          "text": {
+            "ar": "تجب قراءة الفاتحة على المأموم في كل ركعة، سواء كانت الصلاة سرية أم جهرية.",
+            "en": "Recitation of Al-Fatiha is an absolute obligation upon the follower in every rak'ah, silent or loud.",
+            "ru": "Чтение Аль-Фатихи обязательно для каждого молящегося в каждом ракаате, в тихих и громких молитвах."
+          },
+          "source": {
+            "ar": "المجموع",
+            "en": "Al-Majmū‘",
+            "ru": "«Аль-Маджму»"
+          }
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تسن القراءة للمأموم في السرية وفي سكتات الإمام في الجهرية، ولا تجب عليه، فإن لم يسكت الإمام أنصت له.",
+            "en": "Recommended in silent prayers and during Imam's pauses in loud prayers; not obligatory. If Imam doesn't pause, he listens.",
+            "ru": "Желательно читать в тихих молитвах и паузах имама в громких. Если паузы нет — обязан слушать."
+          },
+          "source": {
+            "ar": "كشاف القناع",
+            "en": "Kashshāf al-Qinā‘",
+            "ru": "«Кашшаф аль-Кина»"
+          }
+        }
+      }
     }
   ],
   "theology": [
@@ -1725,6 +1935,106 @@
             "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
             "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
             "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-steps-detailed",
+      "bookId": "taharah",
+      "title": {
+        "ar": "صفة الوضوء الكامل والمجزئ",
+        "en": "Method of Minor Purification (Wudu)",
+        "ru": "Способ совершения малого омывания (Уду)"
+      },
+      "intro": {
+        "ar": "الخطوات العملية للوضوء مستوفية الفرائض والسنن وفق الفقه الإسلامي",
+        "en": "Practical steps for Wudu including obligatory and recommended actions",
+        "ru": "Практические шаги малого омывания, включая обязательные и желательные действия"
+      },
+      "steps": [
+        {
+          "title": {
+            "ar": "النية والتسمية",
+            "en": "Intention and Basmalah",
+            "ru": "Намерение и Басмала"
+          },
+          "text": {
+            "ar": "النية بالقلب لرفع الحدث الأصغر، ثم قول «بسم الله».",
+            "en": "Intend in the heart to remove minor impurity, then say 'Bismillah'.",
+            "ru": "Намерение в сердце снять малое осквернение, затем произнесение «Бисмиллях»."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الكفين",
+            "en": "Washing Hands",
+            "ru": "Мытье кистей рук"
+          },
+          "text": {
+            "ar": "غسل الكفين إلى الرسغين ثلاث مرات مع تخليل الأصابع (وهي سنة مؤكدة).",
+            "en": "Wash both hands up to the wrists three times, interlacing fingers.",
+            "ru": "Троекратное мытье кистей рук до запястий с переплетением пальцев."
+          }
+        },
+        {
+          "title": {
+            "ar": "المضمضة والاستنشاق",
+            "en": "Rinsing Mouth and Nose",
+            "ru": "Полоскание рта и носа"
+          },
+          "text": {
+            "ar": "المضمضة والاستنشاق بيمينه والاستنثار بيساره ثلاث مرات بغرفة واحدة أو غرفات.",
+            "en": "Rinse mouth and sniff water into nostrils three times using the right hand and blowing out with left.",
+            "ru": "Троекратное полоскание рта и втягивание воды в нос правой рукой и высмаркивание левой."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الوجه",
+            "en": "Washing the Face",
+            "ru": "Мытье лица"
+          },
+          "text": {
+            "ar": "غسل الوجه كاملاً من منابت شعر الرأس إلى أسفل الذقن طولاً، ومن الأذن إلى الأذن عرضاً (ثلاثاً).",
+            "en": "Wash the entire face from hairline to chin vertically, and ear to ear horizontally (three times).",
+            "ru": "Троекратное мытье всего лица от линии волос до подбородка и от уха до уха."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل اليدين إلى المرفقين",
+            "en": "Washing Arms to Elbows",
+            "ru": "Мытье рук до локтей"
+          },
+          "text": {
+            "ar": "غسل اليد اليمنى ثم اليسرى من أطراف الأصابع مع إدخال المرفقين في الغسل (ثلاثاً).",
+            "en": "Wash right arm then left arm including the elbows (three times).",
+            "ru": "Троекратное мытье правой, затем левой руки, включая локти."
+          }
+        },
+        {
+          "title": {
+            "ar": "مسح الرأس والأذنين",
+            "en": "Wiping Head and Ears",
+            "ru": "Протирание головы и ушей"
+          },
+          "text": {
+            "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
+            "en": "Wipe the head once (or part of it in Hanafi/Shafi'i), then wipe inside and outside of ears.",
+            "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الرجلين إلى الكعبين",
+            "en": "Washing Feet to Ankles",
+            "ru": "Мытье ног до лодыжек"
+          },
+          "text": {
+            "ar": "غسل القدم اليمنى ثم اليسرى مع إدخال الكعبين وتخليل أصابع القدمين (ثلاثاً).",
+            "en": "Wash right foot then left foot up to and including the ankles, clean between toes (three times).",
+            "ru": "Троекратное мытье правой, затем левой ноги, включая лодыжки и между пальцами."
           }
         }
       ]
