@@ -21,14 +21,14 @@
   ],
   "ui": {
     "appTitle": {
-      "ar": "موسوعة الفقه المقارن",
-      "en": "Comparative Fiqh Encyclopedia",
-      "ru": "Энциклопедия сравнительного фикха"
+      "ar": "موسوعة الفقه على المذاهب الأربعة",
+      "en": "Fiqh Encyclopedia of the Four Schools",
+      "ru": "Энциклопедия фикха четырёх мазхабов"
     },
     "appSubtitle": {
-      "ar": "أحكام المسائل الفقهية على المذاهب الأربعة",
-      "en": "Fiqh rulings across the four Sunni schools",
-      "ru": "Правовые заключения по четырём суннитским мазхабам"
+      "ar": "حكم كل مذهب في مسائل العبادات والمعاملات",
+      "en": "Each school's ruling on worship and transactions",
+      "ru": "Постановление каждого мазхаба по вопросам поклонения и сделок"
     },
     "theme": {
       "ar": "المظهر",
@@ -66,9 +66,9 @@
       "ru": "вопросов"
     },
     "footer": {
-      "ar": "موسوعة الفقه المقارن — مرجع تعليمي لمقارنة المذاهب الفقهية.",
-      "en": "Comparative Fiqh Encyclopedia — an educational reference for comparing the schools of jurisprudence.",
-      "ru": "Энциклопедия сравнительного фикха — учебный справочник для сравнения правовых школ."
+      "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
+      "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
+      "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ."
     },
     "sections": {
       "ar": "الأقسام",
@@ -76,24 +76,24 @@
       "ru": "Разделы"
     },
     "fiqhSection": {
-      "ar": "قسم الفقه والشرائع",
-      "en": "Fiqh & Jurisprudence",
-      "ru": "Фикх и законодательство"
+      "ar": "الفقه والأحكام",
+      "en": "Fiqh & Rulings",
+      "ru": "Фикх и постановления"
     },
     "fiqhSectionDesc": {
-      "ar": "مقارنة المسائل الفقهية على المذاهب الأربعة",
-      "en": "Comparing juristic issues across the four schools",
-      "ru": "Сравнение правовых вопросов по четырём мазхабам"
+      "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
+      "en": "Each of the four schools' rulings with its sources",
+      "ru": "Постановления каждого из четырёх мазхабов с источниками"
     },
     "aqidahSection": {
-      "ar": "قسم العقيدة والمنطق",
-      "en": "Creed & Logic",
-      "ru": "Вероучение и логика"
+      "ar": "العقيدة والبراهين",
+      "en": "Creed & Proofs",
+      "ru": "Вероучение и доводы"
     },
     "aqidahSectionDesc": {
-      "ar": "الأدلة العقلية على وجود الخالق سبحانه",
-      "en": "Rational proofs for the existence of the Creator",
-      "ru": "Рациональные доказательства существования Творца"
+      "ar": "أدلة عقلية في وجود الخالق ووحدانيته والنبوة",
+      "en": "Rational proofs on the Creator, His oneness, and prophethood",
+      "ru": "Рациональные доводы о Творце, Его единственности и пророчестве"
     },
     "chooseSchool": {
       "ar": "اختر المذهب",
@@ -321,14 +321,14 @@
       "ru": "Сравнение"
     },
     "learnSection": {
-      "ar": "للمسلم الجديد",
-      "en": "New Muslim Guide",
-      "ru": "Гид новообращённого"
+      "ar": "الدليل العملي",
+      "en": "Practical Guide",
+      "ru": "Практическое руководство"
     },
     "learnSectionDesc": {
-      "ar": "خطوات عملية وأسئلة شائعة للمستكشفين والمسلمين الجدد.",
-      "en": "Practical steps and common questions for explorers and new Muslims.",
-      "ru": "Практические шаги и частые вопросы для интересующихся и новообращённых."
+      "ar": "خطوات عملية وأسئلة شائعة لكل من أراد التعلّم.",
+      "en": "Practical steps and common questions for anyone wanting to learn.",
+      "ru": "Практические шаги и частые вопросы для всех, кто хочет учиться."
     },
     "viewMode": {
       "ar": "نمط العرض",
@@ -404,6 +404,46 @@
       "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
       "en": "Clear answers to what explorers and new Muslims ask most.",
       "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
+    },
+    "chooseCountry": {
+      "ar": "اختر بلدك",
+      "en": "Choose your country",
+      "ru": "Выберите вашу страну"
+    },
+    "chooseCountryDesc": {
+      "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
+      "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
+      "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент."
+    },
+    "skipCountry": {
+      "ar": "تخطّي — أعرض كل المذاهب",
+      "en": "Skip — show all schools",
+      "ru": "Пропустить — показать все мазхабы"
+    },
+    "searchCountry": {
+      "ar": "ابحث عن بلد",
+      "en": "Search for a country",
+      "ru": "Поиск страны"
+    },
+    "noCountryMatch": {
+      "ar": "لا توجد نتائج",
+      "en": "No matches",
+      "ru": "Совпадений нет"
+    },
+    "pickSchoolForCountry": {
+      "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
+      "en": "Your country follows more than one school — choose what suits you",
+      "ru": "В вашей стране несколько мазхабов — выберите подходящий"
+    },
+    "countryNote": {
+      "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
+      "en": "This mapping is a display default only; it does not bind anyone to a school.",
+      "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу."
+    },
+    "changeCountry": {
+      "ar": "تغيير البلد",
+      "en": "Change country",
+      "ru": "Изменить страну"
     }
   },
   "books": [
@@ -2356,6 +2396,147 @@
         "en": "The fiṭrah is an inner witness to the Creator; whoever returns to his pure innate nature finds acknowledging Him a self-evident necessity needing no proof.",
         "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства."
       }
+    },
+    {
+      "id": "tamanu",
+      "title": {
+        "ar": "دليل التمانع والوحدانية",
+        "en": "Mutual Exclusion & Divine Oneness",
+        "ru": "Довод взаимного противодействия и единственности"
+      },
+      "tagline": {
+        "ar": "تعدُّد الآلهة يستلزم فساد النظام",
+        "en": "Multiple gods would entail the collapse of order",
+        "ru": "Множественность богов повлекла бы крушение порядка"
+      },
+      "premises": [
+        {
+          "ar": "لو كان للعالم صانعان لكان كلٌّ منهما قادرًا على الإرادة المستقلّة في التدبير.",
+          "en": "If the universe had two makers, each would be capable of an independent will in governing it.",
+          "ru": "Если бы у мира было два творца, каждый обладал бы независимой волей в управлении им."
+        },
+        {
+          "ar": "فلو اختلفت إرادتاهما لتعذّر نفاذهما معًا، ولو نفذت إرادة أحدهما دون الآخر لانتفت قدرة المغلوب.",
+          "en": "Were their wills to differ, both could not be carried out; and if one prevailed, the other's power would be negated.",
+          "ru": "Если бы их воли разошлись, обе не могли бы осуществиться; а если возобладала бы одна, могущество другого было бы отвергнуто."
+        },
+        {
+          "ar": "وانتظام العالم على نسقٍ واحدٍ بلا اختلالٍ شاهدٌ على أن المدبِّر واحدٌ لا شريك له.",
+          "en": "The universe's ordering upon a single consistent pattern, without disruption, testifies that its Governor is one without partner.",
+          "ru": "Упорядоченность мира по единому образцу, без сбоев, свидетельствует, что Управитель един и не имеет сотоварища."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللَّهُ لَفَسَدَتَا﴾",
+          "en": "“Had there been within them gods besides God, they would both have fallen into ruin.”",
+          "ru": "«Если бы на них (небесах и земле) были иные божества помимо Аллаха, то они разрушились бы.»"
+        },
+        "ref": {
+          "ar": "سورة الأنبياء: ٢٢",
+          "en": "Sūrat al-Anbiyāʾ: 22",
+          "ru": "Сура аль-Анбия: 22"
+        }
+      },
+      "conclusion": {
+        "ar": "دلّ انتظام الكون على وحدانية مدبِّره، فالإقرار بالخالق يستلزم الإقرار بأنه واحدٌ لا شريك له.",
+        "en": "The universe's order points to the oneness of its Governor; acknowledging a Creator entails acknowledging that He is one without partner.",
+        "ru": "Упорядоченность вселенной указывает на единственность её Управителя; признание Творца влечёт признание, что Он един и не имеет сотоварища."
+      }
+    },
+    {
+      "id": "nubuwwa",
+      "title": {
+        "ar": "دليل الحاجة إلى النبوة",
+        "en": "The Necessity of Prophethood",
+        "ru": "Довод необходимости пророчества"
+      },
+      "tagline": {
+        "ar": "حكمة الخالق تقتضي بيان المراد منه",
+        "en": "The Creator's wisdom entails making His purpose known",
+        "ru": "Мудрость Творца требует разъяснения Его цели"
+      },
+      "premises": [
+        {
+          "ar": "العقل يدرك وجود الخالق وكماله، ولا يستقلّ بمعرفة تفاصيل ما يرضيه من العبادة والشرائع.",
+          "en": "Reason grasps the Creator's existence and perfection, yet cannot on its own determine the details of the worship and law that please Him.",
+          "ru": "Разум постигает существование Творца и Его совершенство, но сам по себе не определяет подробностей угодного Ему поклонения и закона."
+        },
+        {
+          "ar": "وخلق الإنسان مكلَّفًا مسؤولًا مع ترك البيان يناقض الحكمة ويقطع الحجّة عليه.",
+          "en": "To create man accountable while leaving him without clarification would contradict wisdom and remove the basis of his accountability.",
+          "ru": "Сотворить человека ответственным, оставив без разъяснения, противоречило бы мудрости и лишило бы основания его ответственность."
+        },
+        {
+          "ar": "فاقتضت الحكمة إرسال رسلٍ يبلّغون المراد، ويؤيَّدون بآياتٍ تدلّ على صدقهم.",
+          "en": "Wisdom therefore entails sending messengers who convey that purpose, supported by signs establishing their truthfulness.",
+          "ru": "Поэтому мудрость требует посылать посланников, доносящих эту цель и подкреплённых знамениями их правдивости."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿رُسُلًا مُبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ﴾",
+          "en": "“Messengers as bringers of good tidings and warners, so that mankind will have no argument against God after the messengers.”",
+          "ru": "«Посланников, возвещающих благую весть и предостерегающих, дабы после посланников у людей не было довода против Аллаха.»"
+        },
+        "ref": {
+          "ar": "سورة النساء: ١٦٥",
+          "en": "Sūrat al-Nisāʾ: 165",
+          "ru": "Сура ан-Ниса: 165"
+        }
+      },
+      "conclusion": {
+        "ar": "الإقرار بخالقٍ حكيمٍ يستلزم انتظار بيانٍ منه، فالنبوة مقتضى الحكمة لا زيادةً عليها.",
+        "en": "Acknowledging a wise Creator entails expecting clarification from Him; prophethood is a requirement of wisdom, not an addition to it.",
+        "ru": "Признание мудрого Творца влечёт ожидание разъяснения от Него; пророчество есть требование мудрости, а не добавление к ней."
+      }
+    },
+    {
+      "id": "ijaz",
+      "title": {
+        "ar": "دليل التحدّي وإعجاز القرآن",
+        "en": "The Challenge & the Qurʾān's Inimitability",
+        "ru": "Довод вызова и неподражаемости Корана"
+      },
+      "tagline": {
+        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
+        "en": "A standing challenge that has gone unmet",
+        "ru": "Стоящий вызов, на который не ответили"
+      },
+      "premises": [
+        {
+          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
+          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
+          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины."
+        },
+        {
+          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
+          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
+          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить."
+        },
+        {
+          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
+          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
+          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ﴾",
+          "en": "“Say: if mankind and jinn gathered to produce the like of this Qurʾān, they could not produce its like.”",
+          "ru": "«Скажи: если бы люди и джинны собрались, чтобы создать подобное этому Корану, они не создали бы подобного.»"
+        },
+        "ref": {
+          "ar": "سورة الإسراء: ٨٨",
+          "en": "Sūrat al-Isrāʾ: 88",
+          "ru": "Сура аль-Исра: 88"
+        }
+      },
+      "conclusion": {
+        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
+        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
+        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь."
+      }
     }
   ],
   "glossary": [
@@ -2850,6 +3031,278 @@
         "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
         "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии."
       }
+    }
+  ],
+  "countries": [
+    {
+      "code": "SA",
+      "flag": "🇸🇦",
+      "name": {
+        "ar": "المملكة العربية السعودية",
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "QA",
+      "flag": "🇶🇦",
+      "name": {
+        "ar": "قطر",
+        "en": "Qatar",
+        "ru": "Катар"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "KW",
+      "flag": "🇰🇼",
+      "name": {
+        "ar": "الكويت",
+        "en": "Kuwait",
+        "ru": "Кувейт"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "MA",
+      "flag": "🇲🇦",
+      "name": {
+        "ar": "المغرب",
+        "en": "Morocco",
+        "ru": "Марокко"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "DZ",
+      "flag": "🇩🇿",
+      "name": {
+        "ar": "الجزائر",
+        "en": "Algeria",
+        "ru": "Алжир"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "TN",
+      "flag": "🇹🇳",
+      "name": {
+        "ar": "تونس",
+        "en": "Tunisia",
+        "ru": "Тунис"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "LY",
+      "flag": "🇱🇾",
+      "name": {
+        "ar": "ليبيا",
+        "en": "Libya",
+        "ru": "Ливия"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "MR",
+      "flag": "🇲🇷",
+      "name": {
+        "ar": "موريتانيا",
+        "en": "Mauritania",
+        "ru": "Мавритания"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "AE",
+      "flag": "🇦🇪",
+      "name": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "ОАЭ"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "BH",
+      "flag": "🇧🇭",
+      "name": {
+        "ar": "البحرين",
+        "en": "Bahrain",
+        "ru": "Бахрейн"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "SD",
+      "flag": "🇸🇩",
+      "name": {
+        "ar": "السودان",
+        "en": "Sudan",
+        "ru": "Судан"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "EG",
+      "flag": "🇪🇬",
+      "name": {
+        "ar": "مصر",
+        "en": "Egypt",
+        "ru": "Египет"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "YE",
+      "flag": "🇾🇪",
+      "name": {
+        "ar": "اليمن",
+        "en": "Yemen",
+        "ru": "Йемен"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "ID",
+      "flag": "🇮🇩",
+      "name": {
+        "ar": "إندونيسيا",
+        "en": "Indonesia",
+        "ru": "Индонезия"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "MY",
+      "flag": "🇲🇾",
+      "name": {
+        "ar": "ماليزيا",
+        "en": "Malaysia",
+        "ru": "Малайзия"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "SO",
+      "flag": "🇸🇴",
+      "name": {
+        "ar": "الصومال",
+        "en": "Somalia",
+        "ru": "Сомали"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "TR",
+      "flag": "🇹🇷",
+      "name": {
+        "ar": "تركيا",
+        "en": "Turkey",
+        "ru": "Турция"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "PK",
+      "flag": "🇵🇰",
+      "name": {
+        "ar": "باكستان",
+        "en": "Pakistan",
+        "ru": "Пакистан"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "BD",
+      "flag": "🇧🇩",
+      "name": {
+        "ar": "بنغلاديش",
+        "en": "Bangladesh",
+        "ru": "Бангладеш"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "AF",
+      "flag": "🇦🇫",
+      "name": {
+        "ar": "أفغانستان",
+        "en": "Afghanistan",
+        "ru": "Афганистан"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "JO",
+      "flag": "🇯🇴",
+      "name": {
+        "ar": "الأردن",
+        "en": "Jordan",
+        "ru": "Иордания"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "PS",
+      "flag": "🇵🇸",
+      "name": {
+        "ar": "فلسطين",
+        "en": "Palestine",
+        "ru": "Палестина"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "SY",
+      "flag": "🇸🇾",
+      "name": {
+        "ar": "سوريا",
+        "en": "Syria",
+        "ru": "Сирия"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "IQ",
+      "flag": "🇮🇶",
+      "name": {
+        "ar": "العراق",
+        "en": "Iraq",
+        "ru": "Ирак"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "IN",
+      "flag": "🇮🇳",
+      "name": {
+        "ar": "الهند",
+        "en": "India",
+        "ru": "Индия"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "OM",
+      "flag": "🇴🇲",
+      "name": {
+        "ar": "سلطنة عمان",
+        "en": "Oman",
+        "ru": "Оман"
+      },
+      "school": null
+    },
+    {
+      "code": "RU",
+      "flag": "🇷🇺",
+      "name": {
+        "ar": "روسيا",
+        "en": "Russia",
+        "ru": "Россия"
+      },
+      "school": null
     }
   ]
 }

@@ -3,9 +3,9 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'موسوعة الفقه المقارن | Comparative Fiqh Encyclopedia',
+  title: 'موسوعة الفقه على المذاهب الأربعة | Fiqh Encyclopedia of the Four Schools',
   description:
-    'أحكام المسائل الفقهية على المذاهب الأربعة — مرجع مقارن ثلاثي اللغة (عربي / إنجليزي / روسي). Comparative Fiqh rulings across the four Sunni schools.',
+    'حكم كل مذهب من المذاهب الأربعة في مسائل العبادات والمعاملات مع مراجعه — مرجع تعليمي ثلاثي اللغة (عربي / إنجليزي / روسي). Each of the four Sunni schools\' rulings, with sources.',
   generator: 'v0.app',
   icons: {
     icon: [

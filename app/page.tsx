@@ -15,6 +15,7 @@ import { ShareCardModal } from "@/components/share-card-modal"
 import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
 import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, ui } from "@/lib/fiqh-data"
 import { useBookmarks } from "@/hooks/use-bookmarks"
+import { usePreference } from "@/hooks/use-preference"
 
 export default function Page() {
   const [lang, setLang] = useState<Lang>("ar")
@@ -22,13 +23,16 @@ export default function Page() {
   const [activeCategory, setActiveCategory] = useState<string>("iman")
   const [section, setSection] = useState<Section>("fiqh")
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
-  const [onboardingOpen, setOnboardingOpen] = useState(true)
+  // Starts closed: opened below only once we know no preference is stored,
+  // so returning visitors are never shown onboarding again.
+  const [onboardingOpen, setOnboardingOpen] = useState(false)
   const [filter, setFilter] = useState<SchoolFilter>({ mode: "all" })
   const [query, setQuery] = useState("")
   const [scope, setScope] = useState<ScopeFilter>("all")
   const [viewMode, setViewMode] = useState<ViewMode>("academic")
   const [shareIssue, setShareIssue] = useState<Issue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
+  const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
 
   const dir = rtlLangs.includes(lang) ? "rtl" : "ltr"
 
@@ -39,6 +43,13 @@ export default function Page() {
     root.classList.toggle("dark", theme === "dark")
     root.classList.toggle("light", theme === "light")
   }, [lang, dir, theme])
+
+  // Apply the stored preference once, after hydration.
+  useEffect(() => {
+    if (!prefHydrated) return
+    if (pref.school) setFilter({ mode: "single", school: pref.school })
+    else if (!pref.country) setOnboardingOpen(true)
+  }, [prefHydrated, pref.school, pref.country])
 
   const counts = useMemo(() => {
     const c: Record<string, number> = {}
@@ -190,6 +201,8 @@ export default function Page() {
         onClose={() => setSchoolModalOpen(false)}
         lang={lang}
         onApply={setFilter}
+        selectedCountry={pref.country ?? undefined}
+        onCountryPick={(country, school) => savePref({ country: country.code, school })}
       />
       <ShareCardModal
         issue={shareIssue}
@@ -204,6 +217,8 @@ export default function Page() {
         onboarding
         withLanguageStep
         onLangChange={setLang}
+        selectedCountry={pref.country ?? undefined}
+        onCountryPick={(country, school) => savePref({ country: country.code, school })}
         onApply={(f) => {
           setFilter(f)
           setSection("fiqh")

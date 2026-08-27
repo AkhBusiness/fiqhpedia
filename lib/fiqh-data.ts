@@ -54,6 +54,16 @@ export interface Issue {
   rulings: Record<SchoolKey, SchoolRuling>
 }
 
+/** A country and the school it defaults to. `school: null` means the visitor
+ *  is asked to pick one himself (the country follows more than one, or one
+ *  outside the four Sunni schools). */
+export interface Country {
+  code: string
+  flag: string
+  name: Localized
+  school: SchoolKey | null
+}
+
 export interface Category {
   id: string
   name: Localized
@@ -106,6 +116,13 @@ export interface TheologyProof {
 /* Shape of the externalized JSON content                              */
 /* ------------------------------------------------------------------ */
 
+interface RawCountry {
+  code: string
+  flag: string
+  name: Localized
+  school: string | null
+}
+
 interface RawSchoolRuling {
   text: Localized
   /** Current shape: one or more relied-upon books. */
@@ -138,6 +155,7 @@ interface RawData {
   languages: { key: Lang; short: string; label: string; flag: string }[]
   ui: Record<string, Localized>
   books: Category[]
+  countries: RawCountry[]
   schools: { key: SchoolKey; name: Localized }[]
   issues: RawIssue[]
   theology: RawTheologyProof[]
@@ -256,6 +274,18 @@ export const schools: School[] = data.schools.map((s) => ({
   key: s.key,
   name: s.name,
   color: SCHOOL_COLORS[s.key] ?? DEFAULT_SCHOOL_COLOR,
+}))
+
+const SCHOOL_KEYS: SchoolKey[] = ["hanafi", "maliki", "shafii", "hanbali"]
+
+/** Countries sorted by their name in the active language is done at render
+ *  time; the raw order here follows the source data. An unrecognised school
+ *  string degrades to null (manual pick) rather than producing a broken key. */
+export const countries: Country[] = data.countries.map((c) => ({
+  code: c.code,
+  flag: c.flag,
+  name: c.name,
+  school: SCHOOL_KEYS.includes(c.school as SchoolKey) ? (c.school as SchoolKey) : null,
 }))
 
 export const categories: Category[] = data.books

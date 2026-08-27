@@ -1,9 +1,10 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Check, Columns2, LayoutGrid, User } from "lucide-react"
+import { Check, Columns2, Globe, LayoutGrid, User } from "lucide-react"
+import { CountryPicker } from "@/components/country-picker"
 import { Modal } from "@/components/modal"
-import { type Lang, langLabels, type SchoolKey, schools, ui } from "@/lib/fiqh-data"
+import { type Country, type Lang, langLabels, type SchoolKey, schools, ui } from "@/lib/fiqh-data"
 
 export type SchoolFilter =
   | { mode: "all" }
@@ -21,6 +22,10 @@ interface SchoolSelectorModalProps {
   withLanguageStep?: boolean
   /** Called when the user picks a language in Step 1 */
   onLangChange?: (lang: Lang) => void
+  /** Currently saved country code, so the picker can mark it. */
+  selectedCountry?: string
+  /** Called once a country and its school are settled. */
+  onCountryPick?: (country: Country, school: SchoolKey) => void
 }
 
 export function SchoolSelectorModal({
@@ -31,8 +36,11 @@ export function SchoolSelectorModal({
   onboarding,
   withLanguageStep,
   onLangChange,
+  selectedCountry,
+  onCountryPick,
 }: SchoolSelectorModalProps) {
   const [dualOpen, setDualOpen] = useState(false)
+  const [countryOpen, setCountryOpen] = useState(false)
   // step 1 = language, step 2 = browse mode. Only relevant when withLanguageStep.
   const [step, setStep] = useState<1 | 2>(withLanguageStep ? 1 : 2)
 
@@ -41,16 +49,36 @@ export function SchoolSelectorModal({
     if (open && withLanguageStep) setStep(1)
   }, [open, withLanguageStep])
 
+  // Never reopen onto the country sub-view from a previous visit.
+  useEffect(() => {
+    if (!open) setCountryOpen(false)
+  }, [open])
+
   const showLanguageStep = withLanguageStep && step === 1
+  const showCountry = countryOpen && !showLanguageStep
 
   return (
     <>
       <Modal
         open={open && !dualOpen}
         onClose={onClose}
-        title={showLanguageStep ? ui.chooseLanguage[lang] : onboarding ? ui.welcomeTitle[lang] : ui.chooseSchool[lang]}
+        title={
+          showCountry
+            ? ui.chooseCountry[lang]
+            : showLanguageStep
+              ? ui.chooseLanguage[lang]
+              : onboarding
+                ? ui.welcomeTitle[lang]
+                : ui.chooseSchool[lang]
+        }
         description={
-          showLanguageStep ? ui.chooseLanguageDesc[lang] : onboarding ? ui.welcomeDesc[lang] : undefined
+          showCountry
+            ? ui.chooseCountryDesc[lang]
+            : showLanguageStep
+              ? ui.chooseLanguageDesc[lang]
+              : onboarding
+                ? ui.welcomeDesc[lang]
+                : undefined
         }
         closeLabel={ui.close[lang]}
         size="max-w-md"
@@ -66,7 +94,23 @@ export function SchoolSelectorModal({
           </div>
         ) : null}
 
-        {showLanguageStep ? (
+        {showCountry ? (
+          <CountryPicker
+            lang={lang}
+            selected={selectedCountry}
+            onPick={(country, school) => {
+              onCountryPick?.(country, school)
+              onApply({ mode: "single", school })
+              setCountryOpen(false)
+              onClose()
+            }}
+            onSkip={() => {
+              onApply({ mode: "all" })
+              setCountryOpen(false)
+              onClose()
+            }}
+          />
+        ) : showLanguageStep ? (
           <div className="flex flex-col gap-3">
             <span className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
               {ui.stepLabel[lang]} 1 / 2
@@ -120,6 +164,25 @@ export function SchoolSelectorModal({
               </button>
             </div>
           ) : null}
+          {/* Option 0: by country — resolves to a single school */}
+          {onCountryPick ? (
+            <button
+              type="button"
+              onClick={() => setCountryOpen(true)}
+              className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 text-start transition-all duration-200 hover:border-white/20 hover:bg-white/[0.06]"
+            >
+              <span className="flex size-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-foreground">
+                <Globe className="size-5" aria-hidden="true" />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-sm font-bold text-foreground">{ui.chooseCountry[lang]}</span>
+                <span className="mt-0.5 block text-pretty text-xs leading-relaxed text-muted-foreground">
+                  {ui.chooseCountryDesc[lang]}
+                </span>
+              </span>
+            </button>
+          ) : null}
+
           {/* Option 1: all schools */}
           <button
             type="button"

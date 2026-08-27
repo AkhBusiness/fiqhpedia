@@ -232,6 +232,29 @@ def main():
             check_localized(s.get("title"), f"{where}.steps[{m}].title")
             check_localized(s.get("text"), f"{where}.steps[{m}].text")
 
+    # ---- countries ---------------------------------------------------
+    seen_codes = Counter()
+    for n, c in enumerate(data.get("countries", [])):
+        code = c.get("code", f"<index {n}>")
+        where = f"countries[{code}]"
+        seen_codes[code] += 1
+
+        if not isinstance(c.get("code"), str) or len(c.get("code", "")) != 2:
+            err(f"{where}: code must be a 2-letter string")
+        if not c.get("flag"):
+            err(f"{where}: missing flag")
+        check_localized(c.get("name"), f"{where}.name")
+
+        school = c.get("school", "<absent>")
+        if school is None:
+            pass  # deliberate: visitor picks manually
+        elif school not in SCHOOLS:
+            err(f"{where}.school: '{school}' is not one of {SCHOOLS} (use null for manual)")
+
+    for code, n in seen_codes.items():
+        if n > 1:
+            err(f"duplicate country code '{code}' appears {n} times")
+
     # ---- ui keys -----------------------------------------------------
     for key, val in data.get("ui", {}).items():
         check_localized(val, f"ui.{key}")
