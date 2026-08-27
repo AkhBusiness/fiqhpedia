@@ -124,9 +124,11 @@ export function ShareCardModal({ issue, lang, visibleSchools, onClose }: ShareCa
                     <p className="text-pretty text-[13px] leading-relaxed" style={{ color: "#e4e4e7" }}>
                       {r.ruling[lang]}
                     </p>
-                    <p className="mt-1 text-[10px]" style={{ color: "#71717a" }}>
-                      {ui.reference[lang]}: {r.references.map((ref) => ref[lang]).join(" — ")}
-                    </p>
+                    {r.references.length > 0 ? (
+                      <p className="mt-1 text-[10px]" style={{ color: "#71717a" }}>
+                        {ui.reference[lang]}: {r.references.map((ref) => ref[lang]).join(" — ")}
+                      </p>
+                    ) : null}
                   </div>
                 )
               })}

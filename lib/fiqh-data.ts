@@ -108,7 +108,11 @@ export interface TheologyProof {
 
 interface RawSchoolRuling {
   text: Localized
-  sources: Localized[]
+  /** Current shape: one or more relied-upon books. */
+  sources?: Localized[]
+  /** Pre-migration shape. Still accepted so a single stale record
+   *  degrades gracefully instead of failing the whole static build. */
+  source?: Localized
 }
 
 interface RawIssue {
@@ -256,6 +260,16 @@ export const schools: School[] = data.schools.map((s) => ({
 
 export const categories: Category[] = data.books
 
+/* Accepts either the current `sources` array or the legacy single `source`.
+ * Returns an array in every case, so downstream `.map` is always safe.
+ * Bad data is caught by validate_content.py before commit; this guard only
+ * ensures one malformed record cannot take down the entire deployment. */
+function toReferences(r: RawSchoolRuling): Localized[] {
+  if (Array.isArray(r.sources)) return r.sources
+  if (r.source) return [r.source]
+  return []
+}
+
 export const issues: Issue[] = data.issues.map((i) => ({
   id: i.id,
   categoryId: i.bookId,
@@ -264,7 +278,7 @@ export const issues: Issue[] = data.issues.map((i) => ({
   title: i.title,
   summary: i.summary,
   rulings: Object.fromEntries(
-    Object.entries(i.rulings).map(([key, r]) => [key, { ruling: r.text, references: r.sources }]),
+    Object.entries(i.rulings).map(([key, r]) => [key, { ruling: r.text, references: toReferences(r) }]),
   ) as Record<SchoolKey, SchoolRuling>,
 }))
 
