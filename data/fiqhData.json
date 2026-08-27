@@ -1591,6 +1591,596 @@
           ]
         }
       }
+    },
+    {
+      "id": "salah-4",
+      "bookId": "salah",
+      "number": 4,
+      "chapter": {
+        "ar": "باب مواقيت الصلاة",
+        "en": "Chapter of Prayer Times",
+        "ru": "Раздел о времени молитв"
+      },
+      "title": {
+        "ar": "بداية وقت صلاة العصر وتحديد وقتها المختار",
+        "en": "Beginning of the Asr Prayer Time and its Option",
+        "ru": "Начало времени молитвы Аср и его определение"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة العصر بدقة وما هو المعتمد فيه؟",
+        "en": "When exactly does the time for Asr prayer begin?",
+        "ru": "Когда именно начинается время совершения дневной молитвы Аср?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ وقت العصر عندما يصير ظل كل شيء مثليه غير ظل الاستواء وهو المعتمد في المذهب.",
+            "en": "The time for ʿAṣr begins when the shadow of an object becomes twice its length, excluding the midday shadow.",
+            "ru": "Время молитвы Аср начинается, когда тень предмета становится в два раза длиннее самого предмета, не считая тени полудня."
+          },
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ وقت العصر إذا صار ظل الشيء مثله بعد ظل الزوال ويمتد وقته الاختياري إلى الاصفرار.",
+            "en": "The time for ʿAṣr begins when the shadow of an object equals its length after the meridian shadow.",
+            "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ وقت صلاة العصر بمجرد زيادة ظل الشيء عن مثله أدنى زيادة بعد ظل الزوال.",
+            "en": "The time for ʿAṣr begins as soon as the shadow exceeds the object's length by the slightest amount.",
+            "ru": "Время молитвы Аср начинается, как только тень предмета незначительно превысит его длину."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            },
+            {
+              "ar": "نهاية المحتاج",
+              "en": "Nihāyat al-Muḥtāj",
+              "ru": "«Нихаят аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ وقت العصر إذا صار ظل كل شيء مثله بعد ظل الزوال مباشرة ويمتد إلى الاصفرار.",
+            "en": "The time for ʿAṣr begins when an object's shadow equals its length after the midday shadow.",
+            "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-5",
+      "bookId": "salah",
+      "number": 5,
+      "chapter": {
+        "ar": "باب الأذان",
+        "en": "Chapter of the Call to Prayer",
+        "ru": "Раздел о призыве на молитву"
+      },
+      "title": {
+        "ar": "حكم التثويب في أذان صلاة الفجر",
+        "en": "Ruling on Tathwīb in the Fajr Adhān",
+        "ru": "Постановление о тасвибе в азане предрассветной молитвы"
+      },
+      "summary": {
+        "ar": "ما حكم قول الصلاة خير من النوم في الأذان؟",
+        "en": "What is the ruling on saying Tathwīb in Fajr?",
+        "ru": "Каково постановление о произнесении фразы Тасвиб в азане?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "التثويب بقول الصلاة خير من النوم مستحب في أذان الفجر بين الفلاح والتكبير الأخير.",
+            "en": "Tathwīb (saying prayer is better than sleep) is recommended in the Fajr call to prayer.",
+            "ru": "Тасвиб (произнесение слов о превосходстве молитвы) является желательным в азане молитвы Фаджр."
+          },
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "بدائع الصنائع",
+              "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+              "ru": "«Бадаи ас-Санаи»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
+            "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
+            "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يسن التثويب في الأذان للصُّبح سواء كان الأذان قبل الفجر أم بعد طلوعه معاً.",
+            "en": "Tathwīb is Sunnah in the call for the Morning prayer, whether before or after dawn.",
+            "ru": "Сунной является произнесение Тасвиба в азане на утреннюю молитву, как до, так и после рассвета."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن التثويب في أذان الفجر الثاني خاصة وهو من سنن الأذان المعتمدة في المذهب.",
+            "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
+            "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-6",
+      "bookId": "salah",
+      "number": 6,
+      "chapter": {
+        "ar": "باب سجود السهو",
+        "en": "Chapter of the Prostration of Forgetfulness",
+        "ru": "Раздел о земном поклоне за забывчивость"
+      },
+      "title": {
+        "ar": "موضع سجود السهو بالنسبة للتسليم من الصلاة",
+        "en": "The Timing of the Prostration of Forgetfulness Relative to Salām",
+        "ru": "Место совершения земного поклона за забывчивость относительно таслима"
+      },
+      "summary": {
+        "ar": "هل يكون سجود السهو قبل السلام أم بعده؟",
+        "en": "Is the prostration of forgetfulness performed before or after Salām?",
+        "ru": "Совершается ли поклон за забывчивость до или после таслима?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "سجود السهو يكون كله بعد السلام مطلقاً سواء كان لنقص في الصلاة أم لزيادة.",
+            "en": "The prostration of forgetfulness is performed entirely after Salām, whether for addition or omission.",
+            "ru": "Земной поклон за забывчивость совершается исключительно после таслима, независимо от прибавки или упущения."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»"
+            },
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "بدائع الصنائع",
+              "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+              "ru": "«Бадаи ас-Санаи»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يكون سجود السهو قبل السلام للنقص وبعد السلام للزيادة فإن اجتمعا فقبل السلام تغليباً.",
+            "en": "Sujūd al-Sahw is before Salām for omissions, after for additions, and before if combined.",
+            "ru": "Поклон за забывчивость делается до таслима при упущении и после при прибавке."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "الخرشي على خليل",
+              "en": "Al-Kharashī ʿalā Khalīl",
+              "ru": "«Аль-Хараши аля Халиль»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "سجود السهو كله قبل السلام مباشرة في جميع الأحوال والأسباب في المذهب.",
+            "en": "The prostration of forgetfulness is always performed immediately before the Salām in all cases.",
+            "ru": "Земной поклон за забывчивость совершается непосредственно перед таслимом во всех случаях."
+          },
+          "sources": [
+            {
+              "ar": "روضة الطالبين",
+              "en": "Rawḍat al-Ṭālibīn",
+              "ru": "«Равдат ат-Талибин»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يسن السجود قبل السلام إلا إن سلم عن نقص ركعات أو نسي سجوداً قبل السلام.",
+            "en": "Prostration is before Salām except if one gives Salām missing units or forgot prior prostration.",
+            "ru": "Желательно делать поклон до таслима, кроме случаев завершения молитвы с недостатком ракаатов."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-7",
+      "bookId": "salah",
+      "number": 7,
+      "chapter": {
+        "ar": "باب صلاة المسافر",
+        "en": "Chapter of the Traveler's Prayer",
+        "ru": "Раздел о молитве путника"
+      },
+      "title": {
+        "ar": "حكم قصر الصلاة الرباعية للمسافر",
+        "en": "Ruling on Shortening Four-Unit Prayers for the Traveler",
+        "ru": "Постановление о сокращении четырехракаатной молитвы для путника"
+      },
+      "summary": {
+        "ar": "هل قصر الصلاة للمسافر عزيمة واجبة أم رخصة؟",
+        "en": "Is shortening the prayer for a traveler mandatory or optional?",
+        "ru": "Является ли сокращение молитвы путником обязательным или облегчением?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "قصر الصلاة الرباعية واجب على المسافر، والإتمام مكروه تحريماً إن قعد القعدة الأولى.",
+            "en": "Shortening four-unit prayers is obligatory for the traveler; completing four units is prohibitively disliked.",
+            "ru": "Сокращение четырехракаатной молитвы является обязательным для путника, а ее полное совершение греховно."
+          },
+          "sources": [
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "العناية",
+              "en": "Al-ʿInāyah",
+              "ru": "«Аль-Иная»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "قصر الصلاة الرباعية في السفر سنة مؤكدة وهو أفضل من الإتمام في السفر المبيح للقصر.",
+            "en": "Shortening four-unit prayers during travel is an emphasized Sunnah, superior to completing them.",
+            "ru": "Сокращение молитвы в путешествии является настоятельной сунной и предпочтительнее совершения полного намаза."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "القصر رخصة جائزة للمسافر والقصر أفضل إذا بلغت مسافة السفر ثلاث مراحل فأكثر.",
+            "en": "Shortening is a permissible concession for travel; it is preferable if travel reaches three stages.",
+            "ru": "Сокращение молитвы является дозволенным облегчением в пути, и оно предпочтительнее при длинных расстояниях."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "القصر رخصة مستحبة للمسافر والإتمام جائز مع الكراهة، والقصر أفضل.",
+            "en": "Shortening is a recommended concession, completing is disliked, and shortening is superior.",
+            "ru": "Сокращение является желательным облегчением, полное совершение нежелательно, а сокращение лучше."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "مطالب أولي النهى",
+              "en": "Maṭālib Ulī al-Nuhā",
+              "ru": "«Маталиб ули ан-Нуха»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-8",
+      "bookId": "salah",
+      "number": 8,
+      "chapter": {
+        "ar": "باب صلاة الجمعة",
+        "en": "Chapter of Friday Prayer",
+        "ru": "Раздел о пятничной молитве"
+      },
+      "title": {
+        "ar": "اشتراط المصر والمدينة لانعقاد صلاة الجمعة",
+        "en": "Condition of the Town for the Validity of Friday Prayer",
+        "ru": "Условие города для действительности пятничной молитвы"
+      },
+      "summary": {
+        "ar": "هل تشترط الإقامة في المصر الكبير لصحة الجمعة؟",
+        "en": "Is residing in a large city required for Jumuʿah validity?",
+        "ru": "Является ли проживание в крупном городе условием для пятничной молитвы?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
+            "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
+            "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "الرد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تشترط الإقامة في بلد الاستيطان سواء كان مصراً كبيراً أم قرية مبنية يستقر بها أهلها.",
+            "en": "Residence in a settled village or city is required for Friday prayer, regardless of size.",
+            "ru": "Условием является проживание в населенном пункте, будь то крупный город или построенная деревня."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
+            "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
+            "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»"
+            },
+            {
+              "ar": "روضة الطالبين",
+              "en": "Rawḍat al-Ṭālibīn",
+              "ru": "«Равдат ат-Талибин»"
+            },
+            {
+              "ar": "نهاية المحتاج",
+              "en": "Nihāyat al-Muḥtāj",
+              "ru": "«Нихаят аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
+            "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
+            "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»"
+            }
+          ]
+        }
+      }
     }
   ],
   "theology": [
