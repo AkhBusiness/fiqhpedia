@@ -522,7 +522,7 @@
       "title": {
         "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
         "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
-        "ru": "Правовая квалификация произнесения шахад�� для принятия ислама"
+        "ru": "Правовая квалификация произнесения шахады для принятия ислама"
       },
       "summary": {
         "ar": "هل النطق بالشهادتين شرط لصحة الإسلام أم ركن، وما حكم من صدّق بقلبه دون نطق؟",
@@ -546,7 +546,7 @@
           "text": {
             "ar": "النطق بالشهادتين شرط لصحة الإيمان للقادر عليه، ولا يصح الدخول بدونها.",
             "en": "Uttering the two testimonies is a condition for the validity of faith for one able to do so, and entering Islam is not valid without it.",
-            "ru": "Произнесение шахады — условие д��йствительности веры для способного, и без неё вхождение недействительно."
+            "ru": "Произнесение шахады — условие действительности веры для способного, и без неё вхождение недействительно."
           },
           "source": {
             "ar": "الشرح الكبير",
@@ -1077,7 +1077,7 @@
       "summary": {
         "ar": "هل يحرم استعمال أواني الذهب والفضة، وهل تصح الطهارة منها؟",
         "en": "Is using vessels of gold and silver forbidden, and is purification from them valid?",
-        "ru": "Запрещено ли пользова��ься золотыми и серебряными сосудами и действительно ли из них очищение?"
+        "ru": "Запрещено ли пользоваться золотыми и серебряными сосудами и действительно ли из них очищение?"
       },
       "rulings": {
         "hanafi": {
@@ -1120,7 +1120,7 @@
           "text": {
             "ar": "يحرم استعمال آنية الذهب والفضة في الطهارة وغيرها، ومن توضأ منها صح وضوؤه مع الإثم.",
             "en": "Using gold and silver vessels for purification and otherwise is forbidden; whoever performs ablution from them, his ablution is valid though sinful.",
-            "ru": "Использование золотых и сере��ряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно."
+            "ru": "Использование золотых и серебряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно."
           },
           "source": {
             "ar": "كشاف القناع",
@@ -1288,7 +1288,7 @@
         {
           "ar": "العالم بما فيه من أجرام وأحوال حادثٌ بعد أن لم يكن، لتغيّره وقبوله للزيادة والنقصان.",
           "en": "The universe, with its bodies and states, is originated after non-existence, as shown by its change and its acceptance of increase and decrease.",
-          "ru": "Мир с его телами и состояниями возник после небытия, о чём свидетельствуют его изменчивость и способность к увеличению и уменьше��ию."
+          "ru": "Мир с его телами и состояниями возник после небытия, о чём свидетельствуют его изменчивость и способность к увеличению и уменьшению."
         },
         {
           "ar": "كل حادثٍ مفتقرٌ إلى سببٍ يُخرجه من العدم إلى الوجود، إذ لا يترجّح وجوده على عدمه بنفسه.",
@@ -1350,13 +1350,13 @@
           "ru": "«Таково творение Аллаха! Покажите же Мне, что сотворили те, кроме Него.»"
         },
         "ref": {
-          "ar": "سورة لقمان: ١��",
+          "ar": "سورة لقمان: ١١",
           "en": "Sūrat Luqmān: 11",
           "ru": "Сура Лукман: 11"
         }
       },
       "conclusion": {
-        "ar": "الخلق والإيجاد صفةٌ لا تكون إلا لله، فتفرُّده بالإيجاد دليلٌ على تفرُّده بالألوهي�� واستحقاق العبادة.",
+        "ar": "الخلق والإيجاد صفةٌ لا تكون إلا لله، فتفرُّده بالإيجاد دليلٌ على تفرُّده بالألوهية واستحقاق العبادة.",
         "en": "Creation and origination belong to God alone; His exclusivity in bringing things into being proves His exclusivity in divinity and His sole right to worship.",
         "ru": "Творение и созидание присущи одному лишь Богу; Его единственность в созидании доказывает Его единственность в божественности и исключительное право на поклонение."
       }
@@ -1377,10 +1377,10 @@
         {
           "ar": "الكون يجري على سننٍ دقيقة ونظامٍ مطّرد في الأفلاك والأحياء والذرّة.",
           "en": "The cosmos runs on precise laws and consistent order—in the heavens, in living things, and in the atom.",
-          "ru": "Вселенная следует точным за��онам и устойчивому порядку — в небесах, в живых существах и в атоме."
+          "ru": "Вселенная следует точным законам и устойчивому порядку — в небесах, в живых существах и в атоме."
         },
         {
-          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وق��دًا.",
+          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وقصدًا.",
           "en": "Precision and regularity, together with the fitness of ends, cannot arise from randomness and necessitate knowledge, wisdom, and purpose.",
           "ru": "Точность и регулярность вместе с целесообразностью не могут возникнуть от случайности и требуют знания, мудрости и намерения."
         }
@@ -1398,9 +1398,9 @@
         }
       },
       "conclusion": {
-        "ar": "دلّ إتقا�� الصنعة على حكمة الصانع وعلمه وإرادته، فالنظام آيةٌ ناطقةٌ بوجود الحكيم العليم.",
+        "ar": "دلّ إتقان الصنعة على حكمة الصانع وعلمه وإرادته، فالنظام آيةٌ ناطقةٌ بوجود الحكيم العليم.",
         "en": "The perfection of the craft proves the wisdom, knowledge, and will of the Craftsman; order is an eloquent sign of the All-Wise, All-Knowing.",
-        "ru": "Соверше��ство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего."
+        "ru": "Совершенство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего."
       }
     },
     {
@@ -1449,7 +1449,11 @@
   "glossary": [
     {
       "id": "hadath",
-      "term": { "ar": "حَدَث", "en": "Hadath", "ru": "Хадас" },
+      "term": {
+        "ar": "حَدَث",
+        "en": "Hadath",
+        "ru": "Хадас"
+      },
       "definition": {
         "ar": "حالة معنوية تمنع من الصلاة ونحوها، وترتفع بالوضوء أو الغسل. الأصغر يرتفع بالوضوء، والأكبر بالغسل.",
         "en": "A state of ritual impurity that prevents prayer until removed. The minor state is lifted by ablution (wudu), the major by a full bath (ghusl).",
@@ -1458,7 +1462,11 @@
     },
     {
       "id": "niyyah",
-      "term": { "ar": "نِيَّة", "en": "Niyyah", "ru": "Нийя" },
+      "term": {
+        "ar": "نِيَّة",
+        "en": "Niyyah",
+        "ru": "Нийя"
+      },
       "definition": {
         "ar": "قصد القلب للعبادة تقرباً إلى الله، وهي شرط لصحة أغلب العبادات كالصلاة والصيام والوضوء.",
         "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
@@ -1467,7 +1475,11 @@
     },
     {
       "id": "tawatur",
-      "term": { "ar": "تَوَاتُر", "en": "Tawatur", "ru": "Таватур" },
+      "term": {
+        "ar": "تَوَاتُر",
+        "en": "Tawatur",
+        "ru": "Таватур"
+      },
       "definition": {
         "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
         "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
@@ -1476,7 +1488,11 @@
     },
     {
       "id": "wudu",
-      "term": { "ar": "وُضُوء", "en": "Wudu", "ru": "Вуду" },
+      "term": {
+        "ar": "وُضُوء",
+        "en": "Wudu",
+        "ru": "Вуду"
+      },
       "definition": {
         "ar": "طهارة بالماء تشمل غسل الوجه واليدين ومسح الرأس وغسل الرجلين، تُشترط لصحة الصلاة.",
         "en": "Ritual ablution with water — washing the face, arms, wiping the head, and washing the feet — required for the validity of prayer.",
@@ -1485,7 +1501,11 @@
     },
     {
       "id": "najasah",
-      "term": { "ar": "نَجَاسَة", "en": "Najasah", "ru": "Наджаса" },
+      "term": {
+        "ar": "نَجَاسَة",
+        "en": "Najasah",
+        "ru": "Наджаса"
+      },
       "definition": {
         "ar": "قذارة حسية حكم الشرع بنجاستها كالبول والدم المسفوح، يجب إزالتها عن البدن والثوب والمكان للصلاة.",
         "en": "A physical impurity ruled unclean by the Sharia (e.g., urine, flowing blood) that must be removed from body, clothes, and place before prayer.",
@@ -1494,7 +1514,11 @@
     },
     {
       "id": "tayammum",
-      "term": { "ar": "تَيَمُّم", "en": "Tayammum", "ru": "Таяммум" },
+      "term": {
+        "ar": "تَيَمُّم",
+        "en": "Tayammum",
+        "ru": "Таяммум"
+      },
       "definition": {
         "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
         "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
@@ -1503,7 +1527,11 @@
     },
     {
       "id": "ijma",
-      "term": { "ar": "إِجْمَاع", "en": "Ijma", "ru": "Иджма" },
+      "term": {
+        "ar": "إِجْمَاع",
+        "en": "Ijma",
+        "ru": "Иджма"
+      },
       "definition": {
         "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
         "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
@@ -1512,7 +1540,11 @@
     },
     {
       "id": "qiyas",
-      "term": { "ar": "قِيَاس", "en": "Qiyas", "ru": "Кияс" },
+      "term": {
+        "ar": "قِيَاس",
+        "en": "Qiyas",
+        "ru": "Кияс"
+      },
       "definition": {
         "ar": "إلحاق مسألة لا نص فيها بمسألة منصوصة لاشتراكهما في العلة، وهو من أصول الاستنباط.",
         "en": "Analogical reasoning: extending a ruling from a textually addressed case to a new case sharing the same effective cause.",
@@ -1524,7 +1556,11 @@
     {
       "id": "wudu-steps",
       "bookId": "taharah",
-      "title": { "ar": "خطوات الوضوء", "en": "Steps of Wudu (Ablution)", "ru": "Шаги омовения (вуду)" },
+      "title": {
+        "ar": "خطوات الوضوء",
+        "en": "Steps of Wudu (Ablution)",
+        "ru": "Шаги омовения (вуду)"
+      },
       "intro": {
         "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
         "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
@@ -1532,7 +1568,11 @@
       },
       "steps": [
         {
-          "title": { "ar": "النية", "en": "Intention (Niyyah)", "ru": "Намерение (нийя)" },
+          "title": {
+            "ar": "النية",
+            "en": "Intention (Niyyah)",
+            "ru": "Намерение (нийя)"
+          },
           "text": {
             "ar": "انوِ بقلبك رفع الحدث والطهارة للصلاة، دون التلفظ بها.",
             "en": "Form the intention in your heart to purify yourself for prayer; no spoken formula is needed.",
@@ -1540,7 +1580,11 @@
           }
         },
         {
-          "title": { "ar": "التسمية وغسل الكفين", "en": "Say Bismillah & wash hands", "ru": "«Бисмиллях» и мытьё кистей" },
+          "title": {
+            "ar": "التسمية وغسل الكفين",
+            "en": "Say Bismillah & wash hands",
+            "ru": "«Бисмиллях» и мытьё кистей"
+          },
           "text": {
             "ar": "قل: بسم الله، ثم اغسل كفيك ثلاث مرات.",
             "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
@@ -1548,7 +1592,11 @@
           }
         },
         {
-          "title": { "ar": "المضمضة والاستنشاق", "en": "Rinse mouth & nose", "ru": "Полоскание рта и носа" },
+          "title": {
+            "ar": "المضمضة والاستنشاق",
+            "en": "Rinse mouth & nose",
+            "ru": "Полоскание рта и носа"
+          },
           "text": {
             "ar": "تمضمض واستنشق الماء ثم استنثره ثلاث مرات.",
             "en": "Rinse the mouth and draw water into the nose, then expel it — three times.",
@@ -1556,7 +1604,11 @@
           }
         },
         {
-          "title": { "ar": "غسل الوجه", "en": "Wash the face", "ru": "Мытьё лица" },
+          "title": {
+            "ar": "غسل الوجه",
+            "en": "Wash the face",
+            "ru": "Мытьё лица"
+          },
           "text": {
             "ar": "اغسل وجهك كاملاً من منابت الشعر إلى الذقن وعرضاً بين الأذنين ثلاث مرات.",
             "en": "Wash the whole face from hairline to chin and ear to ear, three times.",
@@ -1564,7 +1616,11 @@
           }
         },
         {
-          "title": { "ar": "غسل اليدين إلى المرفقين", "en": "Wash arms to elbows", "ru": "Мытьё рук до локтей" },
+          "title": {
+            "ar": "غسل اليدين إلى المرفقين",
+            "en": "Wash arms to elbows",
+            "ru": "Мытьё рук до локтей"
+          },
           "text": {
             "ar": "اغسل يديك من أطراف الأصابع إلى المرفقين، اليمنى ثم اليسرى، ثلاث مرات.",
             "en": "Wash each arm from fingertips to and including the elbow — right then left, three times.",
@@ -1572,7 +1628,11 @@
           }
         },
         {
-          "title": { "ar": "مسح الرأس والأذنين", "en": "Wipe head & ears", "ru": "Протирание головы и ушей" },
+          "title": {
+            "ar": "مسح الرأس والأذنين",
+            "en": "Wipe head & ears",
+            "ru": "Протирание головы и ушей"
+          },
           "text": {
             "ar": "امسح رأسك بيديك مبلولتين من مقدمته إلى مؤخرته ثم امسح أذنيك، مرة واحدة.",
             "en": "With wet hands wipe the head front to back, then wipe the ears — once.",
@@ -1580,7 +1640,11 @@
           }
         },
         {
-          "title": { "ar": "غسل الرجلين إلى الكعبين", "en": "Wash feet to ankles", "ru": "Мытьё ног до щиколоток" },
+          "title": {
+            "ar": "غسل الرجلين إلى الكعبين",
+            "en": "Wash feet to ankles",
+            "ru": "Мытьё ног до щиколоток"
+          },
           "text": {
             "ar": "اغسل رجليك إلى الكعبين مع تخليل الأصابع، اليمنى ثم اليسرى، ثلاث مرات.",
             "en": "Wash both feet up to and including the ankles, rubbing between the toes — right then left, three times.",
@@ -1592,7 +1656,11 @@
     {
       "id": "salah-steps",
       "bookId": "salah",
-      "title": { "ar": "أركان الصلاة العملية", "en": "The Prayer Sequence", "ru": "Последовательность молитвы" },
+      "title": {
+        "ar": "أركان الصلاة العملية",
+        "en": "The Prayer Sequence",
+        "ru": "Последовательность молитвы"
+      },
       "intro": {
         "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
         "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
@@ -1600,7 +1668,11 @@
       },
       "steps": [
         {
-          "title": { "ar": "تكبيرة الإحرام", "en": "Opening Takbir", "ru": "Вступительный такбир" },
+          "title": {
+            "ar": "تكبيرة الإحرام",
+            "en": "Opening Takbir",
+            "ru": "Вступительный такбир"
+          },
           "text": {
             "ar": "قف مستقبلاً القبلة وارفع يديك قائلاً: الله أكبر.",
             "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
@@ -1608,7 +1680,11 @@
           }
         },
         {
-          "title": { "ar": "القيام والقراءة", "en": "Standing & recitation", "ru": "Стояние и чтение" },
+          "title": {
+            "ar": "القيام والقراءة",
+            "en": "Standing & recitation",
+            "ru": "Стояние и чтение"
+          },
           "text": {
             "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
             "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
@@ -1616,7 +1692,11 @@
           }
         },
         {
-          "title": { "ar": "الركوع", "en": "Bowing (Ruku)", "ru": "Поясной поклон (руку)" },
+          "title": {
+            "ar": "الركوع",
+            "en": "Bowing (Ruku)",
+            "ru": "Поясной поклон (руку)"
+          },
           "text": {
             "ar": "انحنِ حتى تستوي ظهرك قائلاً: سبحان ربي العظيم.",
             "en": "Bow with a straight back, saying 'Subhana Rabbiyal-Azim'.",
@@ -1624,7 +1704,11 @@
           }
         },
         {
-          "title": { "ar": "الاعتدال", "en": "Rising", "ru": "Выпрямление" },
+          "title": {
+            "ar": "الاعتدال",
+            "en": "Rising",
+            "ru": "Выпрямление"
+          },
           "text": {
             "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
             "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
@@ -1632,7 +1716,11 @@
           }
         },
         {
-          "title": { "ar": "السجود", "en": "Prostration (Sujud)", "ru": "Земной поклон (суджуд)" },
+          "title": {
+            "ar": "السجود",
+            "en": "Prostration (Sujud)",
+            "ru": "Земной поклон (суджуд)"
+          },
           "text": {
             "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
             "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
@@ -1645,7 +1733,11 @@
   "faqs": [
     {
       "id": "faq-conversion",
-      "category": { "ar": "الدخول في الإسلام", "en": "Conversion", "ru": "Принятие ислама" },
+      "category": {
+        "ar": "الدخول في الإسلام",
+        "en": "Conversion",
+        "ru": "Принятие ислама"
+      },
       "question": {
         "ar": "هل الدخول في الإسلام لحظي أم يحتاج إجراءات؟",
         "en": "Is accepting Islam instant, or does it require a formal process?",
@@ -1659,7 +1751,11 @@
     },
     {
       "id": "faq-arabic",
-      "category": { "ar": "اللغة", "en": "Language", "ru": "Язык" },
+      "category": {
+        "ar": "اللغة",
+        "en": "Language",
+        "ru": "Язык"
+      },
       "question": {
         "ar": "هل يجب أن أتعلم العربية لأعتنق الإسلام؟",
         "en": "Do I need to learn Arabic to accept Islam?",
@@ -1673,7 +1769,11 @@
     },
     {
       "id": "faq-past-sins",
-      "category": { "ar": "التوبة", "en": "Repentance", "ru": "Покаяние" },
+      "category": {
+        "ar": "التوبة",
+        "en": "Repentance",
+        "ru": "Покаяние"
+      },
       "question": {
         "ar": "ماذا يحدث لذنوبي السابقة عند إسلامي؟",
         "en": "What happens to my past sins when I embrace Islam?",
@@ -1687,7 +1787,11 @@
     },
     {
       "id": "faq-five-pillars",
-      "category": { "ar": "الأركان", "en": "Foundations", "ru": "Основы" },
+      "category": {
+        "ar": "الأركان",
+        "en": "Foundations",
+        "ru": "Основы"
+      },
       "question": {
         "ar": "ما الذي يُطلب مني فعله بعد الإسلام مباشرة؟",
         "en": "What am I expected to do right after becoming Muslim?",
@@ -1701,7 +1805,11 @@
     },
     {
       "id": "faq-schools",
-      "category": { "ar": "المذاهب", "en": "Schools of law", "ru": "Мазхабы" },
+      "category": {
+        "ar": "المذاهب",
+        "en": "Schools of law",
+        "ru": "Мазхабы"
+      },
       "question": {
         "ar": "لماذا تختلف المذاهب الأربعة، وأيها أتبع؟",
         "en": "Why do the four schools differ, and which should I follow?",
@@ -1715,7 +1823,11 @@
     },
     {
       "id": "faq-family",
-      "category": { "ar": "المفاهيم", "en": "Misconceptions", "ru": "Заблуждения" },
+      "category": {
+        "ar": "المفاهيم",
+        "en": "Misconceptions",
+        "ru": "Заблуждения"
+      },
       "question": {
         "ar": "هل يجب أن أقطع علاقتي بعائلتي غير المسلمة؟",
         "en": "Must I cut ties with my non-Muslim family?",
