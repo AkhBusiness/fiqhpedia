@@ -5,7 +5,8 @@ import { Library, RotateCcw, SlidersHorizontal } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
 import { CategoryTabs } from "@/components/category-tabs"
 import { IssueCard, type ViewMode } from "@/components/issue-card"
-import { NavModal, type Section } from "@/components/nav-modal"
+import type { Section } from "@/components/nav-modal"
+import { SectionTabs } from "@/components/section-tabs"
 import { SchoolSelectorModal, type SchoolFilter } from "@/components/school-selector-modal"
 import { TheologySection } from "@/components/theology-section"
 import { LearnSection } from "@/components/learn-section"
@@ -20,7 +21,6 @@ export default function Page() {
   const [theme, setTheme] = useState<"dark" | "light">("dark")
   const [activeCategory, setActiveCategory] = useState<string>("iman")
   const [section, setSection] = useState<Section>("fiqh")
-  const [navOpen, setNavOpen] = useState(false)
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
   const [onboardingOpen, setOnboardingOpen] = useState(true)
   const [filter, setFilter] = useState<SchoolFilter>({ mode: "all" })
@@ -84,10 +84,10 @@ export default function Page() {
         onLangChange={setLang}
         theme={theme}
         onThemeToggle={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
-        activeSection={section}
-        onOpenNav={() => setNavOpen(true)}
         onOpenOnboarding={() => setOnboardingOpen(true)}
       />
+
+      <SectionTabs lang={lang} active={section} onSelect={setSection} />
 
       {section === "fiqh" ? (
         <>
@@ -185,13 +185,6 @@ export default function Page() {
         </div>
       </footer>
 
-      <NavModal
-        open={navOpen}
-        onClose={() => setNavOpen(false)}
-        lang={lang}
-        active={section}
-        onSelect={setSection}
-      />
       <SchoolSelectorModal
         open={schoolModalOpen}
         onClose={() => setSchoolModalOpen(false)}

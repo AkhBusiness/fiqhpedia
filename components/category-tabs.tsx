@@ -13,7 +13,7 @@ export function CategoryTabs({ lang, activeId, counts, onSelect }: CategoryTabsP
   return (
     <nav
       aria-label={lang === "ar" ? "أبواب الفقه" : lang === "ru" ? "Разделы фикха" : "Fiqh sections"}
-      className="sticky top-[69px] z-20 px-3 py-3 sm:px-4"
+      className="sticky top-[122px] z-10 px-3 py-3 sm:px-4"
     >
       <div className="mx-auto max-w-6xl">
         <div className="inline-flex max-w-full rounded-full border border-white/10 bg-white/[0.04] p-1 shadow-lg shadow-black/30 backdrop-blur-md">
