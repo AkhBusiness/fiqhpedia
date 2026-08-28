@@ -45,6 +45,8 @@ export interface SchoolRuling {
 
 export interface Issue {
   id: string
+  /** Permanent site-wide citation ref (e.g. "F12"). Never reused or renumbered. */
+  ref: string
   categoryId: string
   number: number
   /** Optional traditional chapter/باب label (e.g. Hanbali sequence of Kitāb al-Ṭahārah) */
@@ -62,6 +64,25 @@ export interface Country {
   flag: string
   name: Localized
   school: SchoolKey | null
+}
+
+export interface ArticleSection {
+  id: string
+  /** Empty for the opening section, which runs before any heading. */
+  heading: Localized
+  /** Prose. Blank lines separate paragraphs; **bold** marks a lead-in. */
+  body: Localized
+}
+
+export interface Article {
+  id: string
+  /** Permanent site-wide citation ref (e.g. "M1"). Never reused. */
+  ref: string
+  title: Localized
+  excerpt: Localized
+  /** Refs of proofs that argue the same ground more formally. */
+  relatedRefs: string[]
+  sections: ArticleSection[]
 }
 
 export interface Category {
@@ -97,6 +118,8 @@ export interface Faq {
 
 export interface TheologyProof {
   id: string
+  /** Permanent site-wide citation ref (e.g. "A3"). Never reused or renumbered. */
+  ref: string
   title: Localized
   tagline: Localized
   /** Tailwind token bundle for the proof accent color (presentation-only) */
@@ -134,6 +157,7 @@ interface RawSchoolRuling {
 
 interface RawIssue {
   id: string
+  ref: string
   bookId: string
   number: number
   chapter?: Localized
@@ -144,6 +168,7 @@ interface RawIssue {
 
 interface RawTheologyProof {
   id: string
+  ref: string
   title: Localized
   tagline: Localized
   premises: Localized[]
@@ -156,6 +181,7 @@ interface RawData {
   ui: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
+  articles?: Article[]
   schools: { key: SchoolKey; name: Localized }[]
   issues: RawIssue[]
   theology: RawTheologyProof[]
@@ -265,6 +291,24 @@ const DEFAULT_SCHOOL_COLOR: School["color"] = {
 
 export const ui = data.ui as Record<string, Localized>
 
+/** Resolve a citation ref like "F12" or "a3" (case-insensitive) to its entry. */
+export function findByRef(
+  ref: string,
+):
+  | { kind: "issue"; item: Issue }
+  | { kind: "proof"; item: TheologyProof }
+  | { kind: "article"; item: Article }
+  | null {
+  const key = ref.trim().toUpperCase()
+  const issue = issues.find((i) => i.ref === key)
+  if (issue) return { kind: "issue", item: issue }
+  const proof = theologyProofs.find((p) => p.ref === key)
+  if (proof) return { kind: "proof", item: proof }
+  const article = articles.find((a) => a.ref === key)
+  if (article) return { kind: "article", item: article }
+  return null
+}
+
 export const langLabels: { key: Lang; short: string; label: string; flag: string; flagCode: string }[] =
   data.languages
 
@@ -289,6 +333,8 @@ export const countries: Country[] = data.countries.map((c) => ({
   school: SCHOOL_KEYS.includes(c.school as SchoolKey) ? (c.school as SchoolKey) : null,
 }))
 
+export const articles: Article[] = data.articles ?? []
+
 export const categories: Category[] = data.books
 
 /* Accepts either the current `sources` array or the legacy single `source`.
@@ -303,6 +349,7 @@ function toReferences(r: RawSchoolRuling): Localized[] {
 
 export const issues: Issue[] = data.issues.map((i) => ({
   id: i.id,
+  ref: i.ref,
   categoryId: i.bookId,
   number: i.number,
   ...(i.chapter ? { chapter: i.chapter } : {}),
@@ -315,6 +362,7 @@ export const issues: Issue[] = data.issues.map((i) => ({
 
 export const theologyProofs: TheologyProof[] = data.theology.map((p) => ({
   id: p.id,
+  ref: p.ref,
   title: p.title,
   tagline: p.tagline,
   accent: PROOF_ACCENTS[p.id] ?? DEFAULT_PROOF_ACCENT,

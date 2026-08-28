@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/site-header"
 import { CategoryTabs } from "@/components/category-tabs"
 import { IssueCard, type ViewMode } from "@/components/issue-card"
 import type { Section } from "@/components/nav-modal"
+import { ArticlesSection } from "@/components/articles-section"
 import { SectionTabs } from "@/components/section-tabs"
 import { SchoolSelectorModal, type SchoolFilter } from "@/components/school-selector-modal"
 import { TheologySection } from "@/components/theology-section"
@@ -13,7 +14,7 @@ import { LearnSection } from "@/components/learn-section"
 import { ViewModeToggle } from "@/components/view-mode-toggle"
 import { ShareCardModal } from "@/components/share-card-modal"
 import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
-import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, ui } from "@/lib/fiqh-data"
+import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, ui , findByRef } from "@/lib/fiqh-data"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { usePreference } from "@/hooks/use-preference"
 
@@ -50,6 +51,44 @@ export default function Page() {
     if (pref.school) setFilter({ mode: "single", school: pref.school })
     else if (!pref.country) setOnboardingOpen(true)
   }, [prefHydrated, pref.school, pref.country])
+
+  // Deep link: /#F12 switches to the right section and book, clears any
+  // filter that would hide the target, then scrolls the card into view.
+  // A ref pointing at a proof is handled by TheologySection instead.
+  useEffect(() => {
+    const go = () => {
+      const key = window.location.hash.replace("#", "").trim().toUpperCase()
+      if (!key) return
+      const found = findByRef(key)
+      if (!found) return
+
+      // Proofs and articles live in their own tabs; switch there and let
+      // that section's own hash listener open the reader.
+      if (found.kind === "proof") {
+        setSection("aqidah")
+        return
+      }
+      if (found.kind === "article") {
+        setSection("articles")
+        return
+      }
+
+      setSection("fiqh")
+      setActiveCategory(found.item.categoryId)
+      setScope("all")
+      setQuery("")
+
+      // Wait for the category switch to render before scrolling.
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          document.getElementById(key)?.scrollIntoView({ behavior: "smooth", block: "start" })
+        })
+      })
+    }
+    go()
+    window.addEventListener("hashchange", go)
+    return () => window.removeEventListener("hashchange", go)
+  }, [])
 
   const counts = useMemo(() => {
     const c: Record<string, number> = {}
@@ -186,7 +225,13 @@ export default function Page() {
         </>
       ) : (
         <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
-          {section === "aqidah" ? <TheologySection lang={lang} /> : <LearnSection lang={lang} />}
+          {section === "aqidah" ? (
+            <TheologySection lang={lang} />
+          ) : section === "articles" ? (
+            <ArticlesSection lang={lang} />
+          ) : (
+            <LearnSection lang={lang} />
+          )}
         </main>
       )}
 

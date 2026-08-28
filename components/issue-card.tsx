@@ -122,7 +122,10 @@ export function IssueCard({
     "flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-muted-foreground transition-all duration-200 hover:border-white/25 hover:text-foreground"
 
   return (
-    <article className="overflow-hidden rounded-2xl border border-white/10 bg-card backdrop-blur-md">
+    <article
+      id={issue.ref}
+      className="scroll-mt-40 overflow-hidden rounded-2xl border border-white/10 bg-card backdrop-blur-md"
+    >
       <div className="flex items-start gap-3 border-b border-white/10 p-4 sm:p-5">
         <span className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-sm font-bold text-foreground">
           {issue.number}
@@ -131,6 +134,12 @@ export function IssueCard({
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
               {ui.issue[lang]} {issue.number}
+            </span>
+            <span
+              className="rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold text-muted-foreground"
+              title={ui.refHint[lang]}
+            >
+              {issue.ref}
             </span>
             {issue.chapter ? (
               <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[11px] font-semibold text-foreground/80">

@@ -299,6 +299,40 @@ def main():
             warn(f"{kind} refs have gaps: {[prefix + str(g) for g in gaps]} "
                  f"— fine if those entries were retired, but never reassign them")
 
+    # ---- articles ------------------------------------------------------
+    proof_refs = {p.get("ref") for p in data.get("theology", [])}
+    for n, art in enumerate(data.get("articles", [])):
+        where = f"articles[{art.get('id', n)}]"
+        r = art.get("ref")
+        if not r or not _re.fullmatch(r"M\d+", str(r)):
+            err(f"{where}.ref: '{r}' must look like M1")
+        check_localized(art.get("title"), f"{where}.title")
+        check_localized(art.get("excerpt"), f"{where}.excerpt")
+
+        secs = art.get("sections")
+        if not isinstance(secs, list) or not secs:
+            err(f"{where}.sections: missing or empty")
+        else:
+            ids = []
+            for m, sec in enumerate(secs):
+                sid = sec.get("id", f"<{m}>")
+                ids.append(sid)
+                check_localized(sec.get("body"), f"{where}.sections[{sid}].body")
+                # heading may be blank for the opening section, but if any
+                # language has one they all must, or the TOC differs by language
+                h = sec.get("heading") or {}
+                filled = [l for l in LANGS if (h.get(l) or "").strip()]
+                if filled and len(filled) != len(LANGS):
+                    err(f"{where}.sections[{sid}].heading: present in {filled} only "
+                        f"— the contents list would differ between languages")
+            dupes = [i for i, c in Counter(ids).items() if c > 1]
+            if dupes:
+                err(f"{where}.sections: duplicate ids {dupes}")
+
+        for rel in art.get("relatedRefs", []):
+            if rel not in proof_refs:
+                err(f"{where}.relatedRefs: '{rel}' does not match any proof ref")
+
     # ---- countries ---------------------------------------------------
     seen_codes = Counter()
     for n, c in enumerate(data.get("countries", [])):
