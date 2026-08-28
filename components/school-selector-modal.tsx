@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { Check, Columns2, Globe, LayoutGrid, User } from "lucide-react"
 import { CountryPicker } from "@/components/country-picker"
+import { Flag } from "@/components/flag"
 import { Modal } from "@/components/modal"
 import { type Country, type Lang, langLabels, type SchoolKey, schools, ui } from "@/lib/fiqh-data"
 
@@ -132,9 +133,7 @@ export function SchoolSelectorModal({
                       : "border-white/10 bg-white/[0.02] hover:border-white/20 hover:bg-white/[0.06]"
                   }`}
                 >
-                  <span className="text-3xl leading-none" aria-hidden="true">
-                    {l.flag}
-                  </span>
+                  <Flag code={l.flagCode} size={36} />
                   <span className="min-w-0 flex-1">
                     <span className="block text-base font-bold text-foreground">{l.label}</span>
                     <span className="mt-0.5 block text-xs font-medium text-muted-foreground">{l.short}</span>

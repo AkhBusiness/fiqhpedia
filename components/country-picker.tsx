@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react"
 import { Check, Search } from "lucide-react"
+import { Flag } from "@/components/flag"
 import { type Country, type Lang, type SchoolKey, countries, schools, ui } from "@/lib/fiqh-data"
 
 interface CountryPickerProps {
@@ -44,9 +45,7 @@ export function CountryPicker({ lang, selected, onPick, onSkip }: CountryPickerP
     return (
       <div className="flex flex-col gap-3">
         <p className="text-sm text-muted-foreground">
-          <span className="me-1.5 text-lg leading-none" aria-hidden="true">
-            {pendingManual.flag}
-          </span>
+          <Flag code={pendingManual.code} size={20} className="me-1.5 align-[-3px]" />
           {ui.pickSchoolForCountry[lang]}
         </p>
 
@@ -115,9 +114,7 @@ export function CountryPicker({ lang, selected, onPick, onSkip }: CountryPickerP
                         : "border-white/10 bg-white/[0.02] hover:border-white/20 hover:bg-white/[0.06]"
                     }`}
                   >
-                    <span className="text-2xl leading-none" aria-hidden="true">
-                      {c.flag}
-                    </span>
+                    <Flag code={c.code} size={28} />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-sm font-bold text-foreground">
                         {c.name[lang]}

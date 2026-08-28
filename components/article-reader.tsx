@@ -57,11 +57,15 @@ export function ArticleReader({ proof, lang, onClose }: ArticleReaderProps) {
     setProgress(max > 0 ? Math.min(100, (el.scrollTop / max) * 100) : 0)
 
     // Scroll-spy: the last section whose top passed the reading line wins.
-    const line = el.scrollTop + el.clientHeight * 0.3
+    // Sections live inside an <article> wrapper, so offsetTop is measured
+    // against that wrapper rather than this scroll container. Compare the
+    // rendered rectangles instead — correct regardless of nesting.
+    const line = el.clientHeight * 0.3
     let current = sections[0].id
+    const top = el.getBoundingClientRect().top
     for (const s of sections) {
       const node = el.querySelector<HTMLElement>(`#reader-${s.id}`)
-      if (node && node.offsetTop <= line) current = s.id
+      if (node && node.getBoundingClientRect().top - top <= line) current = s.id
     }
     setActiveId(current)
   }
@@ -69,14 +73,20 @@ export function ArticleReader({ proof, lang, onClose }: ArticleReaderProps) {
   function scrollTo(id: string) {
     const el = scrollRef.current
     const node = el?.querySelector<HTMLElement>(`#reader-${id}`)
-    if (el && node) el.scrollTo({ top: node.offsetTop - 16, behavior: "smooth" })
+    if (!el || !node) return
+    // Offset of the section relative to the scroll container's current
+    // scroll position. offsetTop cannot be used here: the sections are
+    // nested in an <article>, so it reports a different origin.
+    const delta = node.getBoundingClientRect().top - el.getBoundingClientRect().top
+    el.scrollTo({ top: el.scrollTop + delta - 16, behavior: "smooth" })
+    setActiveId(id)
   }
 
   if (!proof) return null
 
   return (
     <div
-      className="animate-modal-overlay fixed inset-0 z-50 flex flex-col bg-zinc-950/95 backdrop-blur-2xl"
+      className="animate-modal-overlay fixed inset-0 z-40 flex flex-col bg-zinc-950/95 backdrop-blur-2xl"
       role="dialog"
       aria-modal="true"
       aria-label={proof.title[lang]}
@@ -164,7 +174,7 @@ export function ArticleReader({ proof, lang, onClose }: ArticleReaderProps) {
                 <ListChecks className={`size-5 ${proof.accent.text}`} aria-hidden="true" />
                 <h2 className="text-lg font-bold text-foreground">{ui.premises[lang]}</h2>
               </div>
-              <ol className="flex flex-col gap-3">
+              <ol className="flex list-none flex-col gap-3 p-0">
                 {proof.premises.map((premise, i) => (
                   <li key={i} className="flex gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-4">
                     <span

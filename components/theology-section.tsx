@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { BookOpen, ListChecks, Maximize2, Quote, Sparkles } from "lucide-react"
 import { Modal } from "@/components/modal"
 import { ArticleReader } from "@/components/article-reader"
@@ -13,6 +13,35 @@ interface TheologySectionProps {
 export function TheologySection({ lang }: TheologySectionProps) {
   const [active, setActive] = useState<TheologyProof | null>(null)
   const [reading, setReading] = useState<TheologyProof | null>(null)
+
+  // Deep link: /#A3 opens that proof's reader directly. Also responds to
+  // back/forward, so closing the reader returns the visitor where he was.
+  useEffect(() => {
+    const sync = () => {
+      const key = window.location.hash.replace("#", "").trim().toUpperCase()
+      if (!key) {
+        setReading(null)
+        return
+      }
+      const match = theologyProofs.find((p) => p.ref === key)
+      if (match) setReading(match)
+    }
+    sync()
+    window.addEventListener("hashchange", sync)
+    return () => window.removeEventListener("hashchange", sync)
+  }, [])
+
+  function openReader(proof: TheologyProof) {
+    setReading(proof)
+    // replaceState, not a hash assignment: avoids the browser jumping to an
+    // element whose id happens to match, and keeps one history entry.
+    window.history.replaceState(null, "", `#${proof.ref}`)
+  }
+
+  function closeReader() {
+    setReading(null)
+    window.history.replaceState(null, "", window.location.pathname)
+  }
 
   return (
     <section aria-label={ui.aqidahSection[lang]}>
@@ -37,6 +66,14 @@ export function TheologySection({ lang }: TheologySectionProps) {
               </span>
               <span className={`size-2.5 rounded-full ${proof.accent.dot}`} aria-hidden="true" />
             </div>
+            <div className="mb-1.5 flex items-center gap-2">
+              <span
+                className={`rounded-md border ${proof.accent.border} bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold ${proof.accent.text}`}
+                title={ui.refHint[lang]}
+              >
+                {proof.ref}
+              </span>
+            </div>
             <h3 className="text-balance text-base font-bold leading-snug text-foreground">{proof.title[lang]}</h3>
             <p className="mt-1 flex-1 text-pretty text-sm leading-relaxed text-muted-foreground">
               {proof.tagline[lang]}
@@ -51,7 +88,7 @@ export function TheologySection({ lang }: TheologySectionProps) {
               </button>
               <button
                 type="button"
-                onClick={() => setReading(proof)}
+                onClick={() => openReader(proof)}
                 className={`flex items-center gap-1.5 rounded-full border ${proof.accent.border} bg-white/[0.03] px-3 py-1.5 text-xs font-semibold ${proof.accent.text} transition-opacity hover:opacity-80`}
               >
                 <Maximize2 className="size-3.5" aria-hidden="true" />
@@ -78,7 +115,7 @@ export function TheologySection({ lang }: TheologySectionProps) {
                 <ListChecks className={`size-4 ${active.accent.text}`} aria-hidden="true" />
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">{ui.premises[lang]}</h3>
               </div>
-              <ol className="flex flex-col gap-3">
+              <ol className="flex list-none flex-col gap-3 p-0">
                 {active.premises.map((premise, i) => (
                   <li
                     key={i}
@@ -124,7 +161,7 @@ export function TheologySection({ lang }: TheologySectionProps) {
         ) : null}
       </Modal>
 
-      <ArticleReader proof={reading} lang={lang} onClose={() => setReading(null)} />
+      <ArticleReader proof={reading} lang={lang} onClose={closeReader} />
     </section>
   )
 }

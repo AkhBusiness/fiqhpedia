@@ -1,6 +1,7 @@
 "use client"
 
 import { BookOpen, LayoutGrid, Moon, Sun } from "lucide-react"
+import { Flag } from "@/components/flag"
 import { type Lang, langLabels, ui } from "@/lib/fiqh-data"
 
 interface SiteHeaderProps {
@@ -65,9 +66,7 @@ export function SiteHeader({
                       : "text-zinc-400 hover:text-white"
                   }`}
                 >
-                  <span aria-hidden="true" className="text-sm leading-none">
-                    {l.flag}
-                  </span>
+                  <Flag code={l.flagCode} size={16} />
                   {l.short}
                 </button>
               )

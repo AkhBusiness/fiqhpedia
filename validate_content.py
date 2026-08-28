@@ -213,6 +213,29 @@ def main():
         check_localized(q.get("verse"), f"{where}.quran.verse")
         check_localized(q.get("ref"), f"{where}.quran.ref")
 
+        # Qur'anic quotations: brackets must be present and balanced, and a
+        # partial quotation must show an ellipsis so no reader mistakes a
+        # fragment for the whole verse.
+        verse = (q.get("verse") or {}).get("ar")
+        if isinstance(verse, str) and verse.strip():
+            v = verse.strip()
+            if not (v.startswith("\u0FD3E") or v.startswith("﴿")):
+                err(f"{where}.quran.verse.ar: must open with ﴿")
+            if not v.endswith("﴾"):
+                err(f"{where}.quran.verse.ar: must close with ﴾")
+            if v.count("﴿") != v.count("﴾"):
+                err(f"{where}.quran.verse.ar: unbalanced ornate brackets")
+            # ellipsis presence must agree across the three languages
+            marks = {
+                lang: ("..." in (q["verse"].get(lang) or "")
+                       or "…" in (q["verse"].get(lang) or ""))
+                for lang in LANGS
+            }
+            if len(set(marks.values())) > 1:
+                shown = ", ".join(f"{k}={'yes' if x else 'no'}" for k, x in marks.items())
+                err(f"{where}.quran.verse: ellipsis is inconsistent across languages "
+                    f"({shown}) — a verse is either partial in all three or none")
+
     # ---- glossary / faqs / guides ------------------------------------
     for n, g in enumerate(data.get("glossary", [])):
         where = f"glossary[{g.get('id', n)}]"
@@ -231,6 +254,50 @@ def main():
         for m, s in enumerate(g.get("steps", [])):
             check_localized(s.get("title"), f"{where}.steps[{m}].title")
             check_localized(s.get("text"), f"{where}.steps[{m}].text")
+
+    # ---- citation refs -------------------------------------------------
+    # Refs are permanent public identifiers: once shared, a ref must always
+    # resolve to the same entry. Duplicates or gaps mean a link somewhere
+    # now points at the wrong text.
+    import re as _re
+
+    all_refs = []
+    for issue in data.get("issues", []):
+        r = issue.get("ref")
+        where = f"issues[{issue.get('id', '?')}]"
+        if not r:
+            err(f"{where}.ref: missing — every issue needs a permanent citation ref")
+        elif not _re.fullmatch(r"F\d+", str(r)):
+            err(f"{where}.ref: '{r}' must look like F12")
+        else:
+            all_refs.append(("issue", r, issue.get("id")))
+
+    for proof in data.get("theology", []):
+        r = proof.get("ref")
+        where = f"theology[{proof.get('id', '?')}]"
+        if not r:
+            err(f"{where}.ref: missing — every proof needs a permanent citation ref")
+        elif not _re.fullmatch(r"A\d+", str(r)):
+            err(f"{where}.ref: '{r}' must look like A3")
+        else:
+            all_refs.append(("proof", r, proof.get("id")))
+
+    seen_refs = {}
+    for kind, r, owner in all_refs:
+        if r in seen_refs:
+            err(f"ref '{r}' used by both '{seen_refs[r]}' and '{owner}' "
+                f"— refs are permanent and must be unique")
+        seen_refs[r] = owner
+
+    for prefix, kind in (("F", "issue"), ("A", "proof")):
+        nums = sorted(int(r[1:]) for k, r, _ in all_refs if k == kind and r.startswith(prefix))
+        if not nums:
+            continue
+        expected = set(range(1, max(nums) + 1))
+        gaps = sorted(expected - set(nums))
+        if gaps:
+            warn(f"{kind} refs have gaps: {[prefix + str(g) for g in gaps]} "
+                 f"— fine if those entries were retired, but never reassign them")
 
     # ---- countries ---------------------------------------------------
     seen_codes = Counter()

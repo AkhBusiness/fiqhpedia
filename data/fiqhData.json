@@ -4,19 +4,22 @@
       "key": "ar",
       "short": "AR",
       "label": "العربية",
-      "flag": "🇸🇦"
+      "flag": "🇸🇦",
+      "flagCode": "sa"
     },
     {
       "key": "en",
       "short": "EN",
       "label": "English",
-      "flag": "🇬🇧"
+      "flag": "🇬🇧",
+      "flagCode": "gb"
     },
     {
       "key": "ru",
       "short": "RU",
       "label": "Русский",
-      "flag": "🇷🇺"
+      "flag": "🇷🇺",
+      "flagCode": "ru"
     }
   ],
   "ui": {
@@ -444,6 +447,21 @@
       "ar": "تغيير البلد",
       "en": "Change country",
       "ru": "Изменить страну"
+    },
+    "refHint": {
+      "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
+      "en": "Permanent reference number — shareable and stable",
+      "ru": "Постоянный ссылочный номер — можно делиться и возвращаться"
+    },
+    "copyLink": {
+      "ar": "نسخ الرابط",
+      "en": "Copy link",
+      "ru": "Копировать ссылку"
+    },
+    "linkCopied": {
+      "ar": "نُسخ الرابط",
+      "en": "Link copied",
+      "ru": "Ссылка скопирована"
     }
   },
   "books": [
@@ -557,6 +575,7 @@
   "issues": [
     {
       "id": "iman-1",
+      "ref": "F1",
       "bookId": "iman",
       "number": 1,
       "title": {
@@ -630,6 +649,7 @@
     },
     {
       "id": "iman-2",
+      "ref": "F2",
       "bookId": "iman",
       "number": 2,
       "title": {
@@ -703,6 +723,7 @@
     },
     {
       "id": "iman-3",
+      "ref": "F3",
       "bookId": "iman",
       "number": 3,
       "title": {
@@ -776,6 +797,7 @@
     },
     {
       "id": "taharah-1",
+      "ref": "F4",
       "bookId": "taharah",
       "number": 1,
       "chapter": {
@@ -854,6 +876,7 @@
     },
     {
       "id": "taharah-2",
+      "ref": "F5",
       "bookId": "taharah",
       "number": 2,
       "chapter": {
@@ -932,6 +955,7 @@
     },
     {
       "id": "taharah-3",
+      "ref": "F6",
       "bookId": "taharah",
       "number": 3,
       "chapter": {
@@ -1010,6 +1034,7 @@
     },
     {
       "id": "taharah-4",
+      "ref": "F7",
       "bookId": "taharah",
       "number": 4,
       "chapter": {
@@ -1088,6 +1113,7 @@
     },
     {
       "id": "taharah-5",
+      "ref": "F8",
       "bookId": "taharah",
       "number": 5,
       "chapter": {
@@ -1166,6 +1192,7 @@
     },
     {
       "id": "taharah-6",
+      "ref": "F9",
       "bookId": "taharah",
       "number": 6,
       "chapter": {
@@ -1244,6 +1271,7 @@
     },
     {
       "id": "taharah-7",
+      "ref": "F10",
       "bookId": "taharah",
       "number": 7,
       "chapter": {
@@ -1322,6 +1350,7 @@
     },
     {
       "id": "taharah-8",
+      "ref": "F11",
       "bookId": "taharah",
       "number": 8,
       "chapter": {
@@ -1400,6 +1429,7 @@
     },
     {
       "id": "salah-1",
+      "ref": "F12",
       "bookId": "salah",
       "number": 1,
       "chapter": {
@@ -1478,6 +1508,7 @@
     },
     {
       "id": "salah-2",
+      "ref": "F13",
       "bookId": "salah",
       "number": 2,
       "chapter": {
@@ -1556,6 +1587,7 @@
     },
     {
       "id": "salah-3",
+      "ref": "F14",
       "bookId": "salah",
       "number": 3,
       "chapter": {
@@ -1634,6 +1666,7 @@
     },
     {
       "id": "salah-4",
+      "ref": "F15",
       "bookId": "salah",
       "number": 4,
       "chapter": {
@@ -1752,6 +1785,7 @@
     },
     {
       "id": "salah-5",
+      "ref": "F16",
       "bookId": "salah",
       "number": 5,
       "chapter": {
@@ -1870,6 +1904,7 @@
     },
     {
       "id": "salah-6",
+      "ref": "F17",
       "bookId": "salah",
       "number": 6,
       "chapter": {
@@ -1988,6 +2023,7 @@
     },
     {
       "id": "salah-7",
+      "ref": "F18",
       "bookId": "salah",
       "number": 7,
       "chapter": {
@@ -2106,6 +2142,7 @@
     },
     {
       "id": "salah-8",
+      "ref": "F19",
       "bookId": "salah",
       "number": 8,
       "chapter": {
@@ -2226,6 +2263,7 @@
   "theology": [
     {
       "id": "huduth",
+      "ref": "A1",
       "title": {
         "ar": "دليل الحدوث والسببية",
         "en": "Contingency & Causation",
@@ -2248,9 +2286,9 @@
           "ru": "Всякое возникшее нуждается в причине, выводящей его из небытия в бытие, ибо само по себе его бытие не перевешивает небытие."
         },
         {
-          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى سببٍ أول واجب الوجود.",
-          "en": "An infinite regress of causes is rationally impossible, so the chain must terminate in a First Cause whose existence is necessary.",
-          "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться Первопричиной, чьё бытие необходимо."
+          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى مُحدِثٍ أوّلٍ قديمٍ غير حادث.",
+          "en": "An infinite regress of causes is rationally impossible, so it must terminate in a first Originator who is eternal and not Himself originated.",
+          "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться первым Создателем, предвечным и Сам не возникшим."
         }
       ],
       "quran": {
@@ -2266,13 +2304,14 @@
         }
       },
       "conclusion": {
-        "ar": "ثبت بالضرورة العقلية وجود موجِدٍ واجب الوجود، غنيٍّ عن غيره، هو الله سبحانه، خالق كل حادث ومُسبِّب كل سبب.",
-        "en": "By rational necessity there exists a Necessary Being, self-sufficient and independent—God—the originator of every contingent thing and the cause of every cause.",
-        "ru": "По рациональной необходимости существует Необходимое Сущее, самодостаточное и независимое — Бог — Творец всякого возникшего и Причина всех причин."
+        "ar": "فثبت بالضرورة العقلية وجود مُحدِثٍ قديمٍ لم يسبقه عدم، غنيٍّ عن غيره، هو الله سبحانه، خالق كل حادثٍ ومُسبِّب كل سبب.",
+        "en": "By rational necessity there exists an eternal Originator, preceded by no non-existence and independent of all else — God — the maker of every originated thing and the cause of every cause.",
+        "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин."
       }
     },
     {
       "id": "khalq",
+      "ref": "A2",
       "title": {
         "ar": "دليل الخلق والإيجاد",
         "en": "Creation & Origination",
@@ -2285,21 +2324,26 @@
       },
       "premises": [
         {
-          "ar": "وجود المخلوقات المتنوعة على هيئاتٍ محكمة يدل على فعلٍ واعٍ لا على صدفةٍ عمياء.",
-          "en": "The existence of diverse creatures in precise forms points to a conscious act, not to blind chance.",
-          "ru": "Существование разнообразных творений в точных формах указывает на осознанное действие, а не на слепую случайность."
+          "ar": "المخلوقات لم تكن شيئًا مذكورًا، ثم وُجدت على صفاتٍ مخصوصة من بين احتمالاتٍ لا تُحصى.",
+          "en": "Created things were nothing at all, then came to exist with particular attributes selected from innumerable alternatives.",
+          "ru": "Творения не были ничем упоминаемым, а затем возникли с определёнными свойствами из бесчисленных возможностей."
         },
         {
-          "ar": "الإيجاد بعد العدم لا يقدر عليه إلا قادرٌ مختار، إذ الاختيار والتخصيص يستلزمان إرادةً وعلمًا.",
-          "en": "Origination after non-existence is possible only for a powerful, free agent, since selection and specification require will and knowledge.",
-          "ru": "Созидание после небытия под силу лишь могущественному, свободному деятелю, ибо выбор и определение требуют воли и знания."
+          "ar": "وتخصيص الوجود على العدم، والصفةِ دون نظائرها، لا يقع إلا من قادرٍ مختارٍ ذي علمٍ وإرادة.",
+          "en": "Specifying existence over non-existence, and one attribute rather than its equivalents, can proceed only from a choosing agent possessed of knowledge and will.",
+          "ru": "Предпочтение бытия небытию и одного свойства другим равнозначным может исходить лишь от избирающего, обладающего знанием и волей."
+        },
+        {
+          "ar": "والعاجزُ عن إيجاد نفسه أعجزُ عن إيجاد غيره، فامتنع أن يكون المُوجِد شيئًا من المخلوقات.",
+          "en": "Whatever cannot bring itself into being is less able to bring another into being; so the Originator cannot be any created thing.",
+          "ru": "Неспособный привести себя в бытие тем менее способен создать другое; поэтому Создателем не может быть ничто из творений."
         }
       ],
       "quran": {
         "verse": {
-          "ar": "﴿هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ﴾",
-          "en": "“This is the creation of God; so show Me what those besides Him have created.”",
-          "ru": "«Таково творение Аллаха! Покажите же Мне, что сотворили те, кроме Него.»"
+          "ar": "﴿هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ ...﴾",
+          "en": "“This is the creation of God; so show Me what those besides Him have created. …”",
+          "ru": "«Таково творение Аллаха! Покажите же Мне, что сотворили те, кроме Него. …»"
         },
         "ref": {
           "ar": "سورة لقمان: ١١",
@@ -2308,13 +2352,14 @@
         }
       },
       "conclusion": {
-        "ar": "الخلق والإيجاد صفةٌ لا تكون إلا لله، فتفرُّده بالإيجاد دليلٌ على تفرُّده بالألوهية واستحقاق العبادة.",
-        "en": "Creation and origination belong to God alone; His exclusivity in bringing things into being proves His exclusivity in divinity and His sole right to worship.",
-        "ru": "Творение и созидание присущи одному лишь Богу; Его единственность в созидании доказывает Его единственность в божественности и исключительное право на поклонение."
+        "ar": "فالإيجاد من العدم لا يكون إلا لله، وتفرُّده به دليلٌ على تفرُّده بالألوهية واستحقاق العبادة.",
+        "en": "Origination from nothing therefore belongs to God alone, and His being unique in it indicates that He alone is divine and deserving of worship.",
+        "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения."
       }
     },
     {
       "id": "itqan",
+      "ref": "A3",
       "title": {
         "ar": "دليل الإحكام والتنظيم",
         "en": "Design & Order",
@@ -2339,9 +2384,9 @@
       ],
       "quran": {
         "verse": {
-          "ar": "﴿الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ﴾",
-          "en": "“Who perfected everything He created.”",
-          "ru": "«Который превосходно создал всякую вещь.»"
+          "ar": "﴿الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ ...﴾",
+          "en": "“Who perfected everything He created. …”",
+          "ru": "«Который превосходно создал всякую вещь. …»"
         },
         "ref": {
           "ar": "سورة السجدة: ٧",
@@ -2357,6 +2402,7 @@
     },
     {
       "id": "fitrah",
+      "ref": "A4",
       "title": {
         "ar": "دليل الفطرة",
         "en": "Innate Disposition (Fiṭrah)",
@@ -2381,9 +2427,9 @@
       ],
       "quran": {
         "verse": {
-          "ar": "﴿فِطْرَتَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا﴾",
-          "en": "“The natural disposition of God upon which He created mankind.”",
-          "ru": "«Таково врождённое естество, которое Аллах дал людям.»"
+          "ar": "﴿فِطْرَتَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا ...﴾",
+          "en": "“The natural disposition of God upon which He created mankind. …”",
+          "ru": "«Таково врождённое естество, которое Аллах дал людям. …»"
         },
         "ref": {
           "ar": "سورة الروم: ٣٠",
@@ -2399,6 +2445,7 @@
     },
     {
       "id": "tamanu",
+      "ref": "A5",
       "title": {
         "ar": "دليل التمانع والوحدانية",
         "en": "Mutual Exclusion & Divine Oneness",
@@ -2446,6 +2493,7 @@
     },
     {
       "id": "nubuwwa",
+      "ref": "A6",
       "title": {
         "ar": "دليل الحاجة إلى النبوة",
         "en": "The Necessity of Prophethood",
@@ -2493,6 +2541,7 @@
     },
     {
       "id": "ijaz",
+      "ref": "A7",
       "title": {
         "ar": "دليل التحدّي وإعجاز القرآن",
         "en": "The Challenge & the Qurʾān's Inimitability",
@@ -2522,9 +2571,9 @@
       ],
       "quran": {
         "verse": {
-          "ar": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ﴾",
-          "en": "“Say: if mankind and jinn gathered to produce the like of this Qurʾān, they could not produce its like.”",
-          "ru": "«Скажи: если бы люди и джинны собрались, чтобы создать подобное этому Корану, они не создали бы подобного.»"
+          "ar": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
+          "en": "“Say: if mankind and jinn gathered to produce the like of this Qurʾān, they could not produce its like, even if they backed one another.”",
+          "ru": "«Скажи: если бы люди и джинны собрались, чтобы создать подобное этому Корану, они не создали бы подобного, даже если бы они помогали друг другу.»"
         },
         "ref": {
           "ar": "سورة الإسراء: ٨٨",
@@ -2536,6 +2585,188 @@
         "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
         "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
         "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь."
+      }
+    },
+    {
+      "id": "hifz",
+      "ref": "A8",
+      "title": {
+        "ar": "دليل حفظ القرآن من التبديل",
+        "en": "The Preservation of the Qurʾān",
+        "ru": "Довод сохранности Корана"
+      },
+      "tagline": {
+        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
+        "en": "Mass transmission renders collusion in alteration impossible",
+        "ru": "Массовая передача делает сговор об искажении невозможным"
+      },
+      "premises": [
+        {
+          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
+          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
+          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен."
+        },
+        {
+          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
+          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
+          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
+          "en": "“Indeed, it is We who sent down the Reminder, and indeed, We will be its guardian.”",
+          "ru": "«Воистину, Мы ниспослали Напоминание, и Мы оберегаем его.»"
+        },
+        "ref": {
+          "ar": "سورة الحجر: ٩",
+          "en": "Sūrat al-Ḥijr: 9",
+          "ru": "Сура аль-Хиджр: 9"
+        }
+      },
+      "conclusion": {
+        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
+        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
+        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей."
+      }
+    },
+    {
+      "id": "wahdat",
+      "ref": "A9",
+      "title": {
+        "ar": "دليل وحدة مصدر الرسالات",
+        "en": "The Single Source of the Messages",
+        "ru": "Довод единого источника посланий"
+      },
+      "tagline": {
+        "ar": "أصلٌ واحدٌ تكرّر على تباعد الأزمنة والأمم",
+        "en": "One core repeated across distant ages and nations",
+        "ru": "Единая основа, повторявшаяся сквозь эпохи и народы"
+      },
+      "premises": [
+        {
+          "ar": "الرسالات على تباعد أزمنتها وأممها وألسنتها متفقةٌ في أصلٍ واحد: إفراد الخالق بالعبادة، والإقرار بالجزاء.",
+          "en": "The messages, despite their distant ages, nations and tongues, agree upon a single core: devoting worship to the Creator alone, and affirming the reckoning.",
+          "ru": "Послания, при всей отдалённости эпох, народов и языков, сходятся в единой основе: посвящении поклонения одному Творцу и признании воздаяния."
+        },
+        {
+          "ar": "واختلافها إنما وقع في الشرائع العملية التي تتبدّل بتبدّل أحوال الأمم، لا في هذا الأصل الاعتقادي.",
+          "en": "Their divergence occurred only in practical laws, which shift with the changing circumstances of nations, not in this doctrinal core.",
+          "ru": "Их расхождение касалось лишь практических законов, меняющихся с обстоятельствами народов, а не этой вероучительной основы."
+        },
+        {
+          "ar": "واتفاقٌ في الأصل مع اختلافٍ في الفروع لا يُعلَّل بالتواطؤ ولا بالمصادفة، ويُعلَّل بوحدة المُرسِل.",
+          "en": "Agreement in the core alongside difference in the branches is explained neither by collusion nor by coincidence, but by the oneness of the Sender.",
+          "ru": "Согласие в основе при различии в ответвлениях объясняется не сговором и не случайностью, а единством Пославшего."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ﴾",
+          "en": "“We sent no messenger before you but that We revealed to him: there is no deity except Me, so worship Me.”",
+          "ru": "«Мы не посылали до тебя ни одного посланника, которому не было бы внушено: нет божества, кроме Меня, так поклоняйтесь же Мне.»"
+        },
+        "ref": {
+          "ar": "سورة الأنبياء: ٢٥",
+          "en": "Sūrat al-Anbiyāʾ: 25",
+          "ru": "Сура аль-Анбия: 25"
+        }
+      },
+      "conclusion": {
+        "ar": "فالاتفاق في الأصل مع تباين الأزمنة دليلٌ على أن مصدر الرسالات واحد، وأنها سلسلةٌ متصلةٌ لا رسالاتٌ متنافسة.",
+        "en": "Agreement in the core across separated ages thus indicates a single source for the messages — a connected chain, not competing revelations.",
+        "ru": "Согласие в основе сквозь разделённые эпохи указывает на единый источник посланий — связанную цепь, а не соперничающие откровения."
+      }
+    },
+    {
+      "id": "khatm",
+      "ref": "A10",
+      "title": {
+        "ar": "دليل ختم الرسالات",
+        "en": "The Sealing of Prophethood",
+        "ru": "Довод завершённости посланничества"
+      },
+      "tagline": {
+        "ar": "تعاقب الرسل معلولٌ بعلّةٍ تنتفي بالحفظ",
+        "en": "Successive messengers had a cause that preservation removes",
+        "ru": "Смена посланников имела причину, устраняемую сохранностью"
+      },
+      "premises": [
+        {
+          "ar": "إنما تعاقبت الرسل لعلّتين: ضياع الرسالة السابقة أو تبدّلها، وخصوص دعوتها بقومٍ دون قوم.",
+          "en": "Messengers succeeded one another for two causes: the loss or alteration of the previous message, and its address being confined to one people.",
+          "ru": "Посланники сменяли друг друга по двум причинам: утрата или искажение прежнего послания и обращённость его лишь к одному народу."
+        },
+        {
+          "ar": "فإذا حُفظت رسالةٌ من التبديل وجاءت عامّةً لجميع الناس، ارتفعت العلّتان معًا.",
+          "en": "If a message is preserved from alteration and comes addressed to all mankind, both causes are removed together.",
+          "ru": "Если послание сохранено от искажения и обращено ко всем людям, обе причины устраняются разом."
+        },
+        {
+          "ar": "وارتفاع العلّة يوجب ارتفاع المعلول، إذ لا يبقى للإرسال بعدها مقتضٍ في الحكمة.",
+          "en": "The removal of a cause entails the removal of its effect, for wisdom then retains no reason to send again.",
+          "ru": "Устранение причины влечёт устранение следствия, ибо у мудрости не остаётся основания посылать вновь."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ ...﴾",
+          "en": "“Muhammad is not the father of any of your men, but the Messenger of God and the seal of the prophets. …”",
+          "ru": "«Мухаммад не был отцом кого-либо из ваших мужей, но он — Посланник Аллаха и печать пророков. …»"
+        },
+        "ref": {
+          "ar": "سورة الأحزاب: ٤٠",
+          "en": "Sūrat al-Aḥzāb: 40",
+          "ru": "Сура аль-Ахзаб: 40"
+        }
+      },
+      "conclusion": {
+        "ar": "فلمّا ارتفعت علّتا التعاقب بحفظ الرسالة وعمومها، لزم أن تكون خاتمةً، والختم مقتضى الحكمة لا دعوى مجرّدة.",
+        "en": "Since both causes of succession are removed by the message's preservation and universality, it follows that it is final — finality being a requirement of wisdom, not a bare claim.",
+        "ru": "Поскольку обе причины смены устранены сохранностью и всеобщностью послания, оно является завершающим — завершённость есть требование мудрости, а не голое утверждение."
+      }
+    },
+    {
+      "id": "wasita",
+      "ref": "A11",
+      "title": {
+        "ar": "دليل انتفاء الواسطة",
+        "en": "The Absence of an Intermediary",
+        "ru": "Довод отсутствия посредника"
+      },
+      "tagline": {
+        "ar": "افتقار الدعاء إلى واسطةٍ يستلزم نقصًا في المدعوّ",
+        "en": "Needing an intermediary would imply deficiency in the One called upon",
+        "ru": "Нужда в посреднике подразумевала бы изъян у Того, к Кому взывают"
+      },
+      "premises": [
+        {
+          "ar": "افتقار الداعي إلى واسطةٍ يقتضي أحد أمرين: خفاءَ حال الداعي على المدعوّ، أو حاجةَ المدعوّ إلى من يستعطفه.",
+          "en": "Requiring an intermediary implies one of two things: that the caller's state is hidden from the One called, or that the One called needs someone to soften Him.",
+          "ru": "Нужда в посреднике подразумевает одно из двух: что состояние взывающего скрыто от Того, к Кому взывают, или что Он нуждается в ком-то, кто смягчил бы Его."
+        },
+        {
+          "ar": "وكلا الأمرين نقصٌ يمتنع على الخالق، إذ كماله يقتضي إحاطة علمه وسعة رحمته وغناه عن الوسائط.",
+          "en": "Both are deficiencies impossible for the Creator, since His perfection entails encompassing knowledge, vast mercy, and independence from intermediaries.",
+          "ru": "Оба суть изъяны, невозможные для Творца, ибо Его совершенство влечёт всеохватность знания, широту милости и независимость от посредников."
+        }
+      ],
+      "quran": {
+        "verse": {
+          "ar": "﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ ...﴾",
+          "en": "“And when My servants ask you concerning Me — indeed I am near. I respond to the call of the caller when he calls upon Me. …”",
+          "ru": "«Если Мои рабы спросят тебя обо Мне, то ведь Я близок и отвечаю на зов взывающего, когда он взывает ко Мне. …»"
+        },
+        "ref": {
+          "ar": "سورة البقرة: ١٨٦",
+          "en": "Sūrat al-Baqarah: 186",
+          "ru": "Сура аль-Бакара: 186"
+        }
+      },
+      "conclusion": {
+        "ar": "فتنزيه الخالق عن النقص يقتضي أن يكون الاتصال به مباشرًا، وأن الواسطة في الدعاء منتفيةٌ لا محذوفةٌ تعبّدًا.",
+        "en": "Declaring the Creator free of deficiency therefore entails that access to Him is direct, and that intermediation in supplication is negated by reason, not merely omitted by ritual.",
+        "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом."
       }
     }
   ],

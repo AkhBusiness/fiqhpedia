@@ -152,7 +152,7 @@ interface RawTheologyProof {
 }
 
 interface RawData {
-  languages: { key: Lang; short: string; label: string; flag: string }[]
+  languages: { key: Lang; short: string; label: string; flag: string; flagCode: string }[]
   ui: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
@@ -265,7 +265,8 @@ const DEFAULT_SCHOOL_COLOR: School["color"] = {
 
 export const ui = data.ui as Record<string, Localized>
 
-export const langLabels: { key: Lang; short: string; label: string; flag: string }[] = data.languages
+export const langLabels: { key: Lang; short: string; label: string; flag: string; flagCode: string }[] =
+  data.languages
 
 /** Languages that render right-to-left (behavioral, not content). */
 export const rtlLangs: Lang[] = ["ar"]
