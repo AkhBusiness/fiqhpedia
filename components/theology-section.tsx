@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { BookOpen, ListChecks, Maximize2, Quote, Sparkles } from "lucide-react"
 import { Modal } from "@/components/modal"
 import { ArticleReader } from "@/components/article-reader"
-import { type Lang, type TheologyProof, theologyProofs, ui } from "@/lib/fiqh-data"
+import { type Lang, type TheologyProof, theologyProofs, ui, displayRef } from "@/lib/fiqh-data"
 
 interface TheologySectionProps {
   lang: Lang
@@ -71,7 +71,7 @@ export function TheologySection({ lang }: TheologySectionProps) {
                 className={`rounded-md border ${proof.accent.border} bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold ${proof.accent.text}`}
                 title={ui.refHint[lang]}
               >
-                {proof.ref}
+                {displayRef(proof.ref, lang)}
               </span>
             </div>
             <h3 className="text-balance text-base font-bold leading-snug text-foreground">{proof.title[lang]}</h3>

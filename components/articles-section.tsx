@@ -8,8 +8,7 @@ import {
   type Lang,
   rtlLangs,
   theologyProofs,
-  ui,
-} from "@/lib/fiqh-data"
+  ui, displayRef } from "@/lib/fiqh-data"
 
 interface ArticlesSectionProps {
   lang: Lang
@@ -145,7 +144,7 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
                 className="rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold text-muted-foreground"
                 title={ui.refHint[lang]}
               >
-                {article.ref}
+                {displayRef(article.ref, lang)}
               </span>
               <span className="flex items-center gap-1 text-[11px] text-muted-foreground">
                 <Clock className="size-3" aria-hidden="true" />
@@ -188,7 +187,7 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
               </span>
               <div className="min-w-0">
                 <span className="block text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  {reading.ref} · {readingMinutes(reading, lang)} {ui.minRead[lang]}
+                  {displayRef(reading.ref, lang)} · {readingMinutes(reading, lang)} {ui.minRead[lang]}
                 </span>
                 <h2 className="truncate text-sm font-bold text-foreground sm:text-base">
                   {reading.title[lang]}
@@ -263,7 +262,7 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
                           <span
                             className={`shrink-0 rounded-md border ${p.accent.border} bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold ${p.accent.text}`}
                           >
-                            {p.ref}
+                            {displayRef(p.ref, lang)}
                           </span>
                           <span className="text-sm text-foreground/85">{p.title[lang]}</span>
                         </li>

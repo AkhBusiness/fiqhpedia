@@ -16,7 +16,73 @@ import fiqhData from "@/data/fiqhData.json"
 /* Types                                                               */
 /* ------------------------------------------------------------------ */
 
-export type Lang = "ar" | "en" | "ru"
+/**
+ * Active languages — the single source of truth for the whole app.
+ * Adding a language is one edit here plus its entries in fiqhData.json;
+ * nothing else in the codebase hardcodes the list.
+ */
+export const LANGS = ["ar", "en", "ru"] as const
+export type Lang = (typeof LANGS)[number]
+
+/**
+ * Languages whose assets exist (flag, locale entry) but whose content is not
+ * translated yet. Kept out of LANGS so the picker never offers a language
+ * that would render an empty page. Move the key into LANGS to ship it.
+ */
+export const PENDING_LANGS = ["es"] as const
+export type PendingLang = (typeof PENDING_LANGS)[number]
+
+/** Fallback order used when a field is missing a language. */
+const FALLBACK: Lang[] = ["en", "ar"]
+
+/**
+ * Read a localized field safely. Returns the requested language when present,
+ * otherwise the first available fallback, otherwise an empty string.
+ * Use this instead of `field[lang]` wherever a field may be partly translated.
+ */
+export function localized(
+  field: Partial<Record<string, string>> | undefined,
+  lang: Lang,
+): string {
+  if (!field) return ""
+  const own = field[lang]
+  if (typeof own === "string" && own.trim()) return own
+  for (const f of FALLBACK) {
+    const alt = field[f]
+    if (typeof alt === "string" && alt.trim()) return alt
+  }
+  return ""
+}
+
+/**
+ * Latin ref prefix → its Arabic initial. Each Latin letter is the initial of
+ * the section name, so the Arabic letter is the initial of the same word:
+ * F = Fiqh = فقه, A = ʿAqīdah = عقيدة, M = Maqālāt = مقالات.
+ */
+const REF_PREFIX_AR: Record<string, string> = { F: "ف", A: "ع", M: "م" }
+
+/** Set true to also render the digits as Arabic-Indic (م١ instead of م1). */
+const REF_ARABIC_DIGITS = false
+
+/**
+ * Ref as shown to the reader: "M1" stays "M1" in en/ru, becomes "م1" in ar.
+ *
+ * Display only. The stored ref is the permanent identifier — it is the
+ * element id and the URL hash, so a shared link like #M1 must keep working
+ * whatever language the next reader opens it in. Never feed this output
+ * back into an id, a hash, or a lookup.
+ */
+export function displayRef(ref: string, lang: Lang): string {
+  if (lang !== "ar") return ref
+  const m = /^([A-Z])(\d+)$/.exec(ref)
+  if (!m) return ref
+  const letter = REF_PREFIX_AR[m[1]]
+  if (!letter) return ref
+  const digits = REF_ARABIC_DIGITS
+    ? m[2].replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[Number(d)])
+    : m[2]
+  return letter + digits
+}
 
 export type SchoolKey = "hanafi" | "maliki" | "shafii" | "hanbali"
 
@@ -385,7 +451,7 @@ export const faqs: Faq[] = data.faqs
 const GLOSSARY_INDEX: Record<string, GlossaryTerm> = (() => {
   const map: Record<string, GlossaryTerm> = {}
   for (const t of glossary) {
-    for (const l of ["ar", "en", "ru"] as Lang[]) {
+    for (const l of LANGS) {
       map[t.term[l].toLowerCase()] = t
     }
   }
@@ -400,8 +466,6 @@ export function findGlossaryTerm(word: string): GlossaryTerm | undefined {
 /* ------------------------------------------------------------------ */
 /* Search — builds a cross-language haystack per issue                 */
 /* ------------------------------------------------------------------ */
-
-const LANGS: Lang[] = ["ar", "en", "ru"]
 
 /** Concatenated, lower-cased searchable text (title, summary, book, */
 /* chapter, all school names + rulings + references) across AR/EN/RU. */

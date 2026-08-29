@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useRef, useState, type ReactNode } from "react"
 import { BookOpen } from "lucide-react"
-import { type GlossaryTerm, glossary, type Lang, ui } from "@/lib/fiqh-data"
+import { type GlossaryTerm, glossary, type Lang, ui, LANGS } from "@/lib/fiqh-data"
 
 /* ------------------------------------------------------------------ */
 /* Text normalization for matching (strip Arabic diacritics + punct)   */
@@ -20,7 +20,7 @@ function normalize(s: string): string {
 const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
   const map: Record<string, GlossaryTerm> = {}
   for (const t of glossary) {
-    for (const l of ["ar", "en", "ru"] as Lang[]) {
+    for (const l of LANGS) {
       map[normalize(t.term[l])] = t
     }
   }

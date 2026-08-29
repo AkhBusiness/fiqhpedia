@@ -1,6 +1,6 @@
 "use client"
 
-import { BookOpen, FileText, GraduationCap, Sparkles } from "lucide-react"
+import { BookOpen, FileText, GraduationCap, Home, Sparkles } from "lucide-react"
 import type { Section } from "@/components/nav-modal"
 import { type Lang, ui } from "@/lib/fiqh-data"
 
@@ -22,6 +22,7 @@ interface SectionTabsProps {
  */
 export function SectionTabs({ lang, active, onSelect }: SectionTabsProps) {
   const items: { key: Section; icon: typeof BookOpen; label: string; desc: string }[] = [
+    { key: "home", icon: Home, label: ui.homeSection[lang], desc: ui.homeSectionDesc[lang] },
     { key: "fiqh", icon: BookOpen, label: ui.fiqhSection[lang], desc: ui.fiqhSectionDesc[lang] },
     { key: "aqidah", icon: Sparkles, label: ui.aqidahSection[lang], desc: ui.aqidahSectionDesc[lang] },
     { key: "articles", icon: FileText, label: ui.articlesSection[lang], desc: ui.articlesSectionDesc[lang] },

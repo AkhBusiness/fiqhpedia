@@ -23,70 +23,30 @@
     }
   ],
   "ui": {
-    "appTitle": {
-      "ar": "موسوعة الفقه على المذاهب الأربعة",
-      "en": "Fiqh Encyclopedia of the Four Schools",
-      "ru": "Энциклопедия фикха четырёх мазхабов"
+    "academicMode": {
+      "ar": "أكاديمي",
+      "en": "Academic",
+      "ru": "Академический"
+    },
+    "allSchools": {
+      "ar": "جميع المذاهب",
+      "en": "All schools",
+      "ru": "Все мазхабы"
     },
     "appSubtitle": {
       "ar": "حكم كل مذهب في مسائل العبادات والمعاملات",
       "en": "Each school's ruling on worship and transactions",
       "ru": "Постановление каждого мазхаба по вопросам поклонения и сделок"
     },
-    "theme": {
-      "ar": "المظهر",
-      "en": "Theme",
-      "ru": "Тема"
+    "appTitle": {
+      "ar": "موسوعة الفقه على المذاهب الأربعة",
+      "en": "Fiqh Encyclopedia of the Four Schools",
+      "ru": "Энциклопедия фикха четырёх мазхабов"
     },
-    "language": {
-      "ar": "اللغة",
-      "en": "Language",
-      "ru": "Язык"
-    },
-    "issue": {
-      "ar": "مسألة",
-      "en": "Issue",
-      "ru": "Вопрос"
-    },
-    "reference": {
-      "ar": "المرجع",
-      "en": "Reference",
-      "ru": "Источник"
-    },
-    "ruling": {
-      "ar": "الحكم",
-      "en": "Ruling",
-      "ru": "Заключение"
-    },
-    "noIssues": {
-      "ar": "لا توجد مسائل في هذا الباب بعد.",
-      "en": "No issues in this section yet.",
-      "ru": "В этом разделе пока нет вопросов."
-    },
-    "issuesCount": {
-      "ar": "مسألة",
-      "en": "issues",
-      "ru": "вопросов"
-    },
-    "footer": {
-      "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
-      "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
-      "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ."
-    },
-    "sections": {
-      "ar": "الأقسام",
-      "en": "Sections",
-      "ru": "Разделы"
-    },
-    "fiqhSection": {
-      "ar": "الفقه والأحكام",
-      "en": "Fiqh & Rulings",
-      "ru": "Фикх и постановления"
-    },
-    "fiqhSectionDesc": {
-      "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
-      "en": "Each of the four schools' rulings with its sources",
-      "ru": "Постановления каждого из четырёх мазхабов с источниками"
+    "apply": {
+      "ar": "تطبيق",
+      "en": "Apply",
+      "ru": "Применить"
     },
     "aqidahSection": {
       "ar": "العقيدة والبراهين",
@@ -98,170 +58,25 @@
       "en": "Rational proofs on the Creator, His oneness, and prophethood",
       "ru": "Рациональные доводы о Творце, Его единственности и пророчестве"
     },
-    "chooseSchool": {
-      "ar": "اختر المذهب",
-      "en": "Choose School",
-      "ru": "Выбрать мазхаб"
+    "articlesCount": {
+      "ar": "مقالة",
+      "en": "articles",
+      "ru": "статей"
     },
-    "comparison": {
-      "ar": "المقارنة",
-      "en": "Comparison",
-      "ru": "Сравнение"
+    "articlesSection": {
+      "ar": "مقالات",
+      "en": "Articles",
+      "ru": "Статьи"
     },
-    "showAllSchools": {
-      "ar": "عرض جميع المذاهب",
-      "en": "Show all schools",
-      "ru": "Показать все мазхабы"
-    },
-    "showAllSchoolsDesc": {
-      "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
-      "en": "Display all four schools side by side",
-      "ru": "Показать все четыре мазхаба рядом"
-    },
-    "singleSchool": {
-      "ar": "مذهب واحد",
-      "en": "Single school",
-      "ru": "Один мазхаб"
-    },
-    "singleSchoolDesc": {
-      "ar": "تصفية العرض على مذهب واحد فقط",
-      "en": "Filter the view to a single school",
-      "ru": "Отфильтровать по одному мазхабу"
-    },
-    "dualComparison": {
-      "ar": "مقارنة ثنائية",
-      "en": "Dual comparison",
-      "ru": "Двойное сравнение"
-    },
-    "dualComparisonDesc": {
-      "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
-      "en": "Pick two schools to compare side by side",
-      "ru": "Выберите два мазхаба для сравнения"
-    },
-    "selectTwoSchools": {
-      "ar": "اختر مذهبين للمقارنة",
-      "en": "Select two schools to compare",
-      "ru": "Выберите два мазхаба для сравнения"
-    },
-    "apply": {
-      "ar": "تطبيق",
-      "en": "Apply",
-      "ru": "Применить"
-    },
-    "cancel": {
-      "ar": "إلغاء",
-      "en": "Cancel",
-      "ru": "Отмена"
-    },
-    "close": {
-      "ar": "إغلاق",
-      "en": "Close",
-      "ru": "Закрыть"
-    },
-    "filtering": {
-      "ar": "العرض الحالي",
-      "en": "Viewing",
-      "ru": "Просмотр"
-    },
-    "allSchools": {
-      "ar": "جميع المذاهب",
-      "en": "All schools",
-      "ru": "Все мазхабы"
-    },
-    "resetView": {
-      "ar": "إعادة الضبط",
-      "en": "Reset",
-      "ru": "Сбросить"
-    },
-    "premises": {
-      "ar": "المقدمات المنطقية",
-      "en": "Logical premises",
-      "ru": "Логические посылки"
-    },
-    "quranProof": {
-      "ar": "الدليل القرآني",
-      "en": "Quranic proof",
-      "ru": "Коранические доводы"
-    },
-    "conclusion": {
-      "ar": "الخلاصة العقلية",
-      "en": "Rational conclusion",
-      "ru": "Рациональный вывод"
-    },
-    "proofsCount": {
-      "ar": "دليل عقلي",
-      "en": "rational proofs",
-      "ru": "доказательств"
-    },
-    "openProof": {
-      "ar": "عرض الدليل",
-      "en": "View proof",
-      "ru": "Смотреть довод"
-    },
-    "welcomeTitle": {
-      "ar": "كيف تريد تصفح المذاهب؟",
-      "en": "How would you like to browse the schools?",
-      "ru": "Как вы хотите просматривать мазхабы?"
-    },
-    "welcomeDesc": {
-      "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
-      "en": "Choose a view to begin — you can change it anytime.",
-      "ru": "Выберите режим просмотра — его можно изменить в любой момент."
-    },
-    "browseMode": {
-      "ar": "طريقة العرض",
-      "en": "Browse mode",
-      "ru": "Режим просмотра"
-    },
-    "chooseLanguage": {
-      "ar": "اختر لغتك",
-      "en": "Choose your language",
-      "ru": "Выберите ваш язык"
-    },
-    "chooseLanguageDesc": {
-      "ar": "حدد لغة الواجهة للمتابعة.",
-      "en": "Select the interface language to continue.",
-      "ru": "Выберите язык интерфейса, чтобы продолжить."
-    },
-    "stepLabel": {
-      "ar": "الخطوة",
-      "en": "Step",
-      "ru": "Шаг"
+    "articlesSectionDesc": {
+      "ar": "قراءات موسّعة في العقيدة وتاريخ الرسالات",
+      "en": "Long-form readings on creed and the history of revelation",
+      "ru": "Развёрнутые чтения о вероучении и истории откровения"
     },
     "back": {
       "ar": "رجوع",
       "en": "Back",
       "ru": "Назад"
-    },
-    "chapter": {
-      "ar": "باب",
-      "en": "Chapter",
-      "ru": "Раздел"
-    },
-    "searchPlaceholder": {
-      "ar": "ابحث في المسائل والمذاهب والأبواب…",
-      "en": "Search issues, schools, and books…",
-      "ru": "Поиск по вопросам, мазхабам и разделам…"
-    },
-    "searchResults": {
-      "ar": "نتيجة",
-      "en": "results",
-      "ru": "результатов"
-    },
-    "clearSearch": {
-      "ar": "مسح البحث",
-      "en": "Clear search",
-      "ru": "Очистить поиск"
-    },
-    "copyCitation": {
-      "ar": "نسخ الاقتباس",
-      "en": "Copy citation",
-      "ru": "Копировать цитату"
-    },
-    "copied": {
-      "ar": "تم النسخ",
-      "en": "Copied",
-      "ru": "Скопировано"
     },
     "bookmark": {
       "ar": "حفظ",
@@ -273,55 +88,270 @@
       "en": "Saved",
       "ru": "Сохранено"
     },
-    "listen": {
-      "ar": "استماع",
-      "en": "Listen",
-      "ru": "Прослушать"
+    "browseMode": {
+      "ar": "طريقة العرض",
+      "en": "Browse mode",
+      "ru": "Режим просмотра"
     },
-    "stopListen": {
-      "ar": "إيقاف",
-      "en": "Stop",
-      "ru": "Стоп"
+    "cancel": {
+      "ar": "إلغاء",
+      "en": "Cancel",
+      "ru": "Отмена"
     },
-    "savedItems": {
-      "ar": "المحفوظات",
-      "en": "Saved",
-      "ru": "Сохранённые"
+    "changeCountry": {
+      "ar": "تغيير البلد",
+      "en": "Change country",
+      "ru": "Изменить страну"
     },
-    "noSaved": {
-      "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
-      "en": "No saved issues yet. Tap the bookmark icon on any issue.",
-      "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса."
+    "chapter": {
+      "ar": "باب",
+      "en": "Chapter",
+      "ru": "Раздел"
     },
-    "noResults": {
-      "ar": "لا توجد نتائج مطابقة لبحثك.",
-      "en": "No results match your search.",
-      "ru": "Нет результатов по вашему запросу."
+    "chooseCountry": {
+      "ar": "اختر بلدك",
+      "en": "Choose your country",
+      "ru": "Выберите вашу страну"
     },
-    "deepDive": {
-      "ar": "قراءة موسّعة",
-      "en": "Deep dive",
-      "ru": "Подробнее"
+    "chooseCountryDesc": {
+      "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
+      "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
+      "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент."
     },
-    "quickView": {
-      "ar": "عرض سريع",
-      "en": "Quick view",
-      "ru": "Быстрый просмотр"
+    "chooseLanguage": {
+      "ar": "اختر لغتك",
+      "en": "Choose your language",
+      "ru": "Выберите ваш язык"
+    },
+    "chooseLanguageDesc": {
+      "ar": "حدد لغة الواجهة للمتابعة.",
+      "en": "Select the interface language to continue.",
+      "ru": "Выберите язык интерфейса, чтобы продолжить."
+    },
+    "chooseSchool": {
+      "ar": "اختر المذهب",
+      "en": "Choose School",
+      "ru": "Выбрать мазхаб"
+    },
+    "clearSearch": {
+      "ar": "مسح البحث",
+      "en": "Clear search",
+      "ru": "Очистить поиск"
+    },
+    "close": {
+      "ar": "إغلاق",
+      "en": "Close",
+      "ru": "Закрыть"
+    },
+    "comparing": {
+      "ar": "مقارنة بين",
+      "en": "Comparing",
+      "ru": "Сравнение"
+    },
+    "comparison": {
+      "ar": "المقارنة",
+      "en": "Comparison",
+      "ru": "Сравнение"
+    },
+    "conclusion": {
+      "ar": "الخلاصة العقلية",
+      "en": "Rational conclusion",
+      "ru": "Рациональный вывод"
     },
     "contents": {
       "ar": "المحتويات",
       "en": "Contents",
       "ru": "Содержание"
     },
+    "copied": {
+      "ar": "تم النسخ",
+      "en": "Copied",
+      "ru": "Скопировано"
+    },
+    "copyCitation": {
+      "ar": "نسخ الاقتباس",
+      "en": "Copy citation",
+      "ru": "Копировать цитату"
+    },
+    "copyLink": {
+      "ar": "نسخ الرابط",
+      "en": "Copy link",
+      "ru": "Копировать ссылку"
+    },
+    "countryNote": {
+      "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
+      "en": "This mapping is a display default only; it does not bind anyone to a school.",
+      "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу."
+    },
+    "deepDive": {
+      "ar": "قراءة موسّعة",
+      "en": "Deep dive",
+      "ru": "Подробнее"
+    },
+    "downloadImage": {
+      "ar": "تحميل الصورة",
+      "en": "Download image",
+      "ru": "Скачать изображение"
+    },
+    "dualComparison": {
+      "ar": "مقارنة ثنائية",
+      "en": "Dual comparison",
+      "ru": "Двойное сравнение"
+    },
+    "dualComparisonDesc": {
+      "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
+      "en": "Pick two schools to compare side by side",
+      "ru": "Выберите два мазхаба для сравнения"
+    },
+    "essentialTakeaway": {
+      "ar": "الخلاصة العملية",
+      "en": "Essential takeaway",
+      "ru": "Главное"
+    },
+    "faqSubtitle": {
+      "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
+      "en": "Clear answers to what explorers and new Muslims ask most.",
+      "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
+    },
+    "faqTitle": {
+      "ar": "أسئلة ومفاهيم شائعة",
+      "en": "Questions & misconceptions",
+      "ru": "Вопросы и заблуждения"
+    },
+    "filtering": {
+      "ar": "العرض الحالي",
+      "en": "Viewing",
+      "ru": "Просмотр"
+    },
+    "fiqhSection": {
+      "ar": "الفقه والأحكام",
+      "en": "Fiqh & Rulings",
+      "ru": "Фикх и постановления"
+    },
+    "fiqhSectionDesc": {
+      "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
+      "en": "Each of the four schools' rulings with its sources",
+      "ru": "Постановления каждого из четырёх мазхабов с источниками"
+    },
+    "footer": {
+      "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
+      "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
+      "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ."
+    },
+    "glossaryHint": {
+      "ar": "اضغط لعرض المعنى",
+      "en": "Tap to see the meaning",
+      "ru": "Нажмите, чтобы увидеть значение"
+    },
+    "homeIntentAqidah": {
+      "ar": "لماذا أؤمن أصلاً؟",
+      "en": "Why believe in the first place?",
+      "ru": "Почему вообще верить?"
+    },
+    "homeIntentAqidahDesc": {
+      "ar": "أدلة عقلية تبدأ من مقدمات يمكن مناقشتها، لا من التسليم.",
+      "en": "Rational proofs that begin from premises open to debate, not from assent.",
+      "ru": "Рациональные доводы, исходящие из обсуждаемых посылок, а не из согласия."
+    },
+    "homeIntentArticles": {
+      "ar": "لماذا يختلف الفقهاء؟",
+      "en": "Why do jurists differ?",
+      "ru": "Почему правоведы расходятся?"
+    },
+    "homeIntentArticlesDesc": {
+      "ar": "قراءات متّصلة تشرح الخلاف وتاريخ الرسالات قبل الدخول في التفاصيل.",
+      "en": "Continuous readings on why they differ and on the history of revelation, before the details.",
+      "ru": "Связные тексты о причинах расхождений и истории посланий — до деталей."
+    },
+    "homeIntentFiqh": {
+      "ar": "أريد حكم مسألة",
+      "en": "I want the ruling on a question",
+      "ru": "Мне нужно решение по вопросу"
+    },
+    "homeIntentFiqhDesc": {
+      "ar": "حكم كل مذهب من الأربعة في مسألة واحدة، جنباً إلى جنب، مع مراجعه.",
+      "en": "Each of the four schools on one question, side by side, with its sources.",
+      "ru": "Каждый из четырёх мазхабов по одному вопросу, рядом, с источниками."
+    },
+    "homeIntentLearn": {
+      "ar": "أسلمتُ حديثاً وأريد أن أتعلّم",
+      "en": "I am new to Islam and want to learn",
+      "ru": "Я недавно принял ислам и хочу учиться"
+    },
+    "homeIntentLearnDesc": {
+      "ar": "صفة الوضوء والصلاة خطوةً خطوة، وأسئلة شائعة، ومعاني المصطلحات.",
+      "en": "Wudu and prayer step by step, common questions, and the meaning of the terms.",
+      "ru": "Омовение и молитва шаг за шагом, частые вопросы и значения терминов."
+    },
+    "homeLede": {
+      "ar": "موسوعة تعرض المعتمد عند المذاهب الأربعة بمصادره، وأدلة العقيدة، ودليلاً عملياً للعبادة.",
+      "en": "An encyclopedia presenting the settled position of the four schools with its sources, the proofs of creed, and a practical guide to worship.",
+      "ru": "Энциклопедия, излагающая утверждённые позиции четырёх мазхабов с источниками, доводы вероучения и практическое руководство по поклонению."
+    },
+    "homeNotBody": {
+      "ar": "ليس دار إفتاء. يعرض ما استقرّ عليه كل مذهب، ولا يعطيك حكماً في حالتك الخاصة. وللنازلة الخاصة يُسأل عالم.",
+      "en": "It is not a fatwa service. It presents what each school settled upon; it does not rule on your particular case. For that, ask a scholar.",
+      "ru": "Это не служба фетв. Сайт излагает утверждённое в каждом мазхабе и не выносит решения по вашему частному случаю. Для этого спросите учёного."
+    },
+    "homeNotTitle": {
+      "ar": "ما ليس هذا الموقع",
+      "en": "What this site is not",
+      "ru": "Чем этот сайт не является"
+    },
+    "homeSection": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "ru": "Главная"
+    },
+    "homeSectionDesc": {
+      "ar": "نبذة عن الموقع وأين تبدأ",
+      "en": "What this site is and where to start",
+      "ru": "О сайте и с чего начать"
+    },
+    "homeStartBrowsing": {
+      "ar": "تصفّح المسائل",
+      "en": "Browse the questions",
+      "ru": "Смотреть вопросы"
+    },
+    "homeWhereDesc": {
+      "ar": "اختر ما يشبه حالك.",
+      "en": "Pick whichever fits you.",
+      "ru": "Выберите то, что вам ближе."
+    },
+    "homeWhereTitle": {
+      "ar": "أين تبدأ؟",
+      "en": "Where to start",
+      "ru": "С чего начать"
+    },
+    "homeWhyCountryBody": {
+      "ar": "لأن لكل بلد مذهباً غالباً يُفتى به فيه، فنعرض لك قوله أولاً لتعرف ما عليه من حولك. ولا يلزمك اختيار بلد، ولا يمنعك الاختيارُ من رؤية المذاهب الأربعة كلها متى شئت.",
+      "en": "Because each country has a prevailing school, we show you its position first so you know what those around you follow. You need not pick a country, and picking one never hides the other three.",
+      "ru": "В каждой стране есть преобладающий мазхаб, и мы показываем его позицию первой, чтобы вы знали, чему следуют вокруг вас. Выбирать страну необязательно, и выбор никогда не скрывает остальные три."
+    },
+    "homeWhyCountryTitle": {
+      "ar": "لماذا نسألك عن بلدك؟",
+      "en": "Why do we ask for your country?",
+      "ru": "Почему мы спрашиваем вашу страну?"
+    },
     "introduction": {
       "ar": "مقدمة",
       "en": "Introduction",
       "ru": "Введение"
     },
-    "comparing": {
-      "ar": "مقارنة بين",
-      "en": "Comparing",
-      "ru": "Сравнение"
+    "issue": {
+      "ar": "مسألة",
+      "en": "Issue",
+      "ru": "Вопрос"
+    },
+    "issuesCount": {
+      "ar": "مسألة",
+      "en": "issues",
+      "ru": "вопросов"
+    },
+    "language": {
+      "ar": "اللغة",
+      "en": "Language",
+      "ru": "Язык"
     },
     "learnSection": {
       "ar": "الدليل العملي",
@@ -333,30 +363,140 @@
       "en": "Practical steps and common questions for anyone wanting to learn.",
       "ru": "Практические шаги и частые вопросы для всех, кто хочет учиться."
     },
-    "viewMode": {
-      "ar": "نمط العرض",
-      "en": "View mode",
-      "ru": "Режим отображения"
+    "linkCopied": {
+      "ar": "نُسخ الرابط",
+      "en": "Link copied",
+      "ru": "Ссылка скопирована"
     },
-    "academicMode": {
-      "ar": "أكاديمي",
-      "en": "Academic",
-      "ru": "Академический"
+    "listen": {
+      "ar": "استماع",
+      "en": "Listen",
+      "ru": "Прослушать"
     },
-    "simplifiedMode": {
-      "ar": "مبسّط",
-      "en": "Simplified",
-      "ru": "Упрощённый"
+    "minRead": {
+      "ar": "دقيقة قراءة",
+      "en": "min read",
+      "ru": "мин чтения"
     },
-    "essentialTakeaway": {
-      "ar": "الخلاصة العملية",
-      "en": "Essential takeaway",
-      "ru": "Главное"
+    "noCountryMatch": {
+      "ar": "لا توجد نتائج",
+      "en": "No matches",
+      "ru": "Совпадений нет"
     },
-    "glossaryHint": {
-      "ar": "اضغط لعرض المعنى",
-      "en": "Tap to see the meaning",
-      "ru": "Нажмите, чтобы увидеть значение"
+    "noIssues": {
+      "ar": "لا توجد مسائل في هذا الباب بعد.",
+      "en": "No issues in this section yet.",
+      "ru": "В этом разделе пока нет вопросов."
+    },
+    "noResults": {
+      "ar": "لا توجد نتائج مطابقة لبحثك.",
+      "en": "No results match your search.",
+      "ru": "Нет результатов по вашему запросу."
+    },
+    "noSaved": {
+      "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
+      "en": "No saved issues yet. Tap the bookmark icon on any issue.",
+      "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса."
+    },
+    "openProof": {
+      "ar": "عرض الدليل",
+      "en": "View proof",
+      "ru": "Смотреть довод"
+    },
+    "pickSchoolForCountry": {
+      "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
+      "en": "Your country follows more than one school — choose what suits you",
+      "ru": "В вашей стране несколько мазхабов — выберите подходящий"
+    },
+    "practicalGuides": {
+      "ar": "أدلة عملية",
+      "en": "Practical guides",
+      "ru": "Практические руководства"
+    },
+    "premises": {
+      "ar": "المقدمات المنطقية",
+      "en": "Logical premises",
+      "ru": "Логические посылки"
+    },
+    "preparingImage": {
+      "ar": "جارٍ التحضير…",
+      "en": "Preparing…",
+      "ru": "Подготовка…"
+    },
+    "proofsCount": {
+      "ar": "دليل عقلي",
+      "en": "rational proofs",
+      "ru": "доказательств"
+    },
+    "quickView": {
+      "ar": "عرض سريع",
+      "en": "Quick view",
+      "ru": "Быстрый просмотр"
+    },
+    "quranProof": {
+      "ar": "الدليل القرآني",
+      "en": "Quranic proof",
+      "ru": "Коранические доводы"
+    },
+    "readArticle": {
+      "ar": "قراءة المقالة",
+      "en": "Read article",
+      "ru": "Читать статью"
+    },
+    "refHint": {
+      "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
+      "en": "Permanent reference number — shareable and stable",
+      "ru": "Постоянный ссылочный номер — можно делиться и возвращаться"
+    },
+    "reference": {
+      "ar": "المرجع",
+      "en": "Reference",
+      "ru": "Источник"
+    },
+    "relatedProofs": {
+      "ar": "أدلة ذات صلة",
+      "en": "Related proofs",
+      "ru": "Связанные доводы"
+    },
+    "resetView": {
+      "ar": "إعادة الضبط",
+      "en": "Reset",
+      "ru": "Сбросить"
+    },
+    "ruling": {
+      "ar": "الحكم",
+      "en": "Ruling",
+      "ru": "Заключение"
+    },
+    "savedItems": {
+      "ar": "المحفوظات",
+      "en": "Saved",
+      "ru": "Сохранённые"
+    },
+    "searchCountry": {
+      "ar": "ابحث عن بلد",
+      "en": "Search for a country",
+      "ru": "Поиск страны"
+    },
+    "searchPlaceholder": {
+      "ar": "ابحث في المسائل والمذاهب والأبواب…",
+      "en": "Search issues, schools, and books…",
+      "ru": "Поиск по вопросам, мазхабам и разделам…"
+    },
+    "searchResults": {
+      "ar": "نتيجة",
+      "en": "results",
+      "ru": "результатов"
+    },
+    "sections": {
+      "ar": "الأقسام",
+      "en": "Sections",
+      "ru": "Разделы"
+    },
+    "selectTwoSchools": {
+      "ar": "اختر مذهبين للمقارنة",
+      "en": "Select two schools to compare",
+      "ru": "Выберите два мазхаба для сравнения"
     },
     "share": {
       "ar": "مشاركة",
@@ -373,125 +513,75 @@
       "en": "Save a polished image ready to post on social media.",
       "ru": "Сохраните аккуратное изображение для публикации в соцсетях."
     },
-    "downloadImage": {
-      "ar": "تحميل الصورة",
-      "en": "Download image",
-      "ru": "Скачать изображение"
+    "showAllSchools": {
+      "ar": "عرض جميع المذاهب",
+      "en": "Show all schools",
+      "ru": "Показать все мазхабы"
     },
-    "preparingImage": {
-      "ar": "جارٍ التحضير…",
-      "en": "Preparing…",
-      "ru": "Подготовка…"
+    "showAllSchoolsDesc": {
+      "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
+      "en": "Display all four schools side by side",
+      "ru": "Показать все четыре мазхаба рядом"
     },
-    "stepsLabel": {
-      "ar": "خطوة",
-      "en": "steps",
-      "ru": "шагов"
+    "simplifiedMode": {
+      "ar": "مبسّط",
+      "en": "Simplified",
+      "ru": "Упрощённый"
     },
-    "stepOf": {
-      "ar": "الخطوة",
-      "en": "Step",
-      "ru": "Шаг"
+    "singleSchool": {
+      "ar": "مذهب واحد",
+      "en": "Single school",
+      "ru": "Один мазхаб"
     },
-    "practicalGuides": {
-      "ar": "أدلة عملية",
-      "en": "Practical guides",
-      "ru": "Практические руководства"
-    },
-    "faqTitle": {
-      "ar": "أسئلة ومفاهيم شائعة",
-      "en": "Questions & misconceptions",
-      "ru": "Вопросы и заблуждения"
-    },
-    "faqSubtitle": {
-      "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
-      "en": "Clear answers to what explorers and new Muslims ask most.",
-      "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
-    },
-    "chooseCountry": {
-      "ar": "اختر بلدك",
-      "en": "Choose your country",
-      "ru": "Выберите вашу страну"
-    },
-    "chooseCountryDesc": {
-      "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
-      "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
-      "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент."
+    "singleSchoolDesc": {
+      "ar": "تصفية العرض على مذهب واحد فقط",
+      "en": "Filter the view to a single school",
+      "ru": "Отфильтровать по одному мазхабу"
     },
     "skipCountry": {
       "ar": "تخطّي — أعرض كل المذاهب",
       "en": "Skip — show all schools",
       "ru": "Пропустить — показать все мазхабы"
     },
-    "searchCountry": {
-      "ar": "ابحث عن بلد",
-      "en": "Search for a country",
-      "ru": "Поиск страны"
+    "stepLabel": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг"
     },
-    "noCountryMatch": {
-      "ar": "لا توجد نتائج",
-      "en": "No matches",
-      "ru": "Совпадений нет"
+    "stepOf": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг"
     },
-    "pickSchoolForCountry": {
-      "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
-      "en": "Your country follows more than one school — choose what suits you",
-      "ru": "В вашей стране несколько мазхабов — выберите подходящий"
+    "stepsLabel": {
+      "ar": "خطوة",
+      "en": "steps",
+      "ru": "шагов"
     },
-    "countryNote": {
-      "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
-      "en": "This mapping is a display default only; it does not bind anyone to a school.",
-      "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу."
+    "stopListen": {
+      "ar": "إيقاف",
+      "en": "Stop",
+      "ru": "Стоп"
     },
-    "changeCountry": {
-      "ar": "تغيير البلد",
-      "en": "Change country",
-      "ru": "Изменить страну"
+    "theme": {
+      "ar": "المظهر",
+      "en": "Theme",
+      "ru": "Тема"
     },
-    "refHint": {
-      "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
-      "en": "Permanent reference number — shareable and stable",
-      "ru": "Постоянный ссылочный номер — можно делиться и возвращаться"
+    "viewMode": {
+      "ar": "نمط العرض",
+      "en": "View mode",
+      "ru": "Режим отображения"
     },
-    "copyLink": {
-      "ar": "نسخ الرابط",
-      "en": "Copy link",
-      "ru": "Копировать ссылку"
+    "welcomeDesc": {
+      "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
+      "en": "Choose a view to begin — you can change it anytime.",
+      "ru": "Выберите режим просмотра — его можно изменить в любой момент."
     },
-    "linkCopied": {
-      "ar": "نُسخ الرابط",
-      "en": "Link copied",
-      "ru": "Ссылка скопирована"
-    },
-    "articlesSection": {
-      "ar": "مقالات",
-      "en": "Articles",
-      "ru": "Статьи"
-    },
-    "articlesSectionDesc": {
-      "ar": "قراءات موسّعة في العقيدة وتاريخ الرسالات",
-      "en": "Long-form readings on creed and the history of revelation",
-      "ru": "Развёрнутые чтения о вероучении и истории откровения"
-    },
-    "articlesCount": {
-      "ar": "مقالة",
-      "en": "articles",
-      "ru": "статей"
-    },
-    "readArticle": {
-      "ar": "قراءة المقالة",
-      "en": "Read article",
-      "ru": "Читать статью"
-    },
-    "minRead": {
-      "ar": "دقيقة قراءة",
-      "en": "min read",
-      "ru": "мин чтения"
-    },
-    "relatedProofs": {
-      "ar": "أدلة ذات صلة",
-      "en": "Related proofs",
-      "ru": "Связанные доводы"
+    "welcomeTitle": {
+      "ar": "كيف تريد تصفح المذاهب؟",
+      "en": "How would you like to browse the schools?",
+      "ru": "Как вы хотите просматривать мазхабы?"
     }
   },
   "books": [

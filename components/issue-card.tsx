@@ -9,8 +9,7 @@ import {
   type Lang,
   type SchoolKey,
   schools,
-  ui,
-} from "@/lib/fiqh-data"
+  ui, displayRef } from "@/lib/fiqh-data"
 
 export type ViewMode = "academic" | "simplified"
 
@@ -139,7 +138,7 @@ export function IssueCard({
               className="rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold text-muted-foreground"
               title={ui.refHint[lang]}
             >
-              {issue.ref}
+              {displayRef(issue.ref, lang)}
             </span>
             {issue.chapter ? (
               <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[11px] font-semibold text-foreground/80">

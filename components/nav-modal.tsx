@@ -4,7 +4,7 @@ import { BookOpen, ChevronLeft, ChevronRight, GraduationCap, Sparkles } from "lu
 import { Modal } from "@/components/modal"
 import { type Lang, rtlLangs, ui } from "@/lib/fiqh-data"
 
-export type Section = "fiqh" | "aqidah" | "articles" | "learn"
+export type Section = "home" | "fiqh" | "aqidah" | "articles" | "learn"
 
 interface NavModalProps {
   open: boolean
