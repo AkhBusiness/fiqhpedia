@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import { AppStateProvider } from '@/components/app-state'
 
 export const metadata: Metadata = {
   title: 'موسوعة الفقه على المذاهب الأربعة | Fiqh Encyclopedia of the Four Schools',
@@ -45,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className="dark bg-background">
       <body className="antialiased">
-        {children}
+        <AppStateProvider>{children}</AppStateProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

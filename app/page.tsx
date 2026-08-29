@@ -34,7 +34,9 @@ export default function RootRedirect() {
     } catch {
       // Private browsing can throw on localStorage; the default still works.
     }
-    router.replace(`/${target}`)
+    // Carry the hash: published links look like fiqhpedia.pages.dev/#M1 and
+    // the ref is permanent, so dropping it here would break every one of them.
+    router.replace(`/${target}${window.location.hash}`)
   }, [router])
 
   return null

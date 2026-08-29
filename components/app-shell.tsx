@@ -19,6 +19,7 @@ import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
 import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, ui , findByRef } from "@/lib/fiqh-data"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { usePreference } from "@/hooks/use-preference"
+import { useAppState } from "@/components/app-state"
 
 interface AppShellProps {
   /** From the route. The URL is the source of truth for both. */
@@ -44,16 +45,18 @@ export function AppShell({ lang, section }: AppShellProps) {
   const setLang = (next: Lang) =>
     router.push(section === "home" ? `/${next}` : `/${next}/${section}`)
 
-  const [theme, setTheme] = useState<"dark" | "light">("dark")
-  const [activeCategory, setActiveCategory] = useState<string>("iman")
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
-  // Starts closed: opened below only once we know no preference is stored,
-  // so returning visitors are never shown onboarding again.
-  const [onboardingOpen, setOnboardingOpen] = useState(false)
-  const [filter, setFilter] = useState<SchoolFilter>({ mode: "all" })
-  const [query, setQuery] = useState("")
-  const [scope, setScope] = useState<ScopeFilter>("all")
-  const [viewMode, setViewMode] = useState<ViewMode>("academic")
+  const {
+    theme, setTheme,
+    activeCategory, setActiveCategory,
+    filter, setFilter,
+    query, setQuery,
+    scope, setScope,
+    viewMode, setViewMode,
+    onboardingOpen, setOnboardingOpen,
+    onboardingStep, setOnboardingStep,
+    onboardingSettled, setOnboardingSettled,
+  } = useAppState()
   const [shareIssue, setShareIssue] = useState<Issue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
   const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
@@ -80,11 +83,14 @@ export function AppShell({ lang, section }: AppShellProps) {
   }, [lang, dir, theme])
 
   // Apply the stored preference once, after hydration.
+  // Runs once per session, not once per mount: every section click is a
+  // navigation now, and re-checking on each one asked again and again.
   useEffect(() => {
-    if (!prefHydrated) return
+    if (!prefHydrated || onboardingSettled) return
+    setOnboardingSettled(true)
     if (pref.school) setFilter({ mode: "single", school: pref.school })
     else if (!pref.country) setOnboardingOpen(true)
-  }, [prefHydrated, pref.school, pref.country])
+  }, [prefHydrated, onboardingSettled, pref.school, pref.country, setFilter, setOnboardingOpen, setOnboardingSettled])
 
   // Deep link: /#F12 switches to the right section and book, clears any
   // filter that would hide the target, then scrolls the card into view.
@@ -167,7 +173,7 @@ export function AppShell({ lang, section }: AppShellProps) {
         lang={lang}
         onLangChange={setLang}
         theme={theme}
-        onThemeToggle={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
+        onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
         onOpenOnboarding={() => setOnboardingOpen(true)}
       />
 
@@ -297,12 +303,16 @@ export function AppShell({ lang, section }: AppShellProps) {
         lang={lang}
         onboarding
         withLanguageStep
+        step={onboardingStep}
+        onStepChange={setOnboardingStep}
         onLangChange={setLang}
         selectedCountry={pref.country ?? undefined}
         onCountryPick={(country, school) => savePref({ country: country.code, school })}
         onApply={(f) => {
           setFilter(f)
-          go("fiqh")
+          setOnboardingOpen(false)
+          // Stay where they are. Forcing them into the fiqh tab dropped
+          // newcomers straight onto Iman rulings before they saw the home page.
         }}
       />
     </div>

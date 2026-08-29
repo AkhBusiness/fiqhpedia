@@ -23,6 +23,10 @@ interface SchoolSelectorModalProps {
   withLanguageStep?: boolean
   /** Called when the user picks a language in Step 1 */
   onLangChange?: (lang: Lang) => void
+  /** Controlled step. Onboarding must own it: picking a language navigates,
+   *  which unmounts this modal, so an internal step would reset to 1. */
+  step?: 1 | 2
+  onStepChange?: (step: 1 | 2) => void
   /** Currently saved country code, so the picker can mark it. */
   selectedCountry?: string
   /** Called once a country and its school are settled. */
@@ -37,18 +41,23 @@ export function SchoolSelectorModal({
   onboarding,
   withLanguageStep,
   onLangChange,
+  step: stepProp,
+  onStepChange,
   selectedCountry,
   onCountryPick,
 }: SchoolSelectorModalProps) {
   const [dualOpen, setDualOpen] = useState(false)
   const [countryOpen, setCountryOpen] = useState(false)
   // step 1 = language, step 2 = browse mode. Only relevant when withLanguageStep.
-  const [step, setStep] = useState<1 | 2>(withLanguageStep ? 1 : 2)
+  const [stepLocal, setStepLocal] = useState<1 | 2>(withLanguageStep ? 1 : 2)
+  const controlled = stepProp !== undefined
+  const step = controlled ? stepProp : stepLocal
+  const setStep = (v: 1 | 2) => (controlled ? onStepChange?.(v) : setStepLocal(v))
 
-  // Reset to Step 1 each time an onboarding modal (with language step) is reopened.
+  // Reset to Step 1 when an uncontrolled onboarding modal is reopened.
   useEffect(() => {
-    if (open && withLanguageStep) setStep(1)
-  }, [open, withLanguageStep])
+    if (open && withLanguageStep && !controlled) setStepLocal(1)
+  }, [open, withLanguageStep, controlled])
 
   // Never reopen onto the country sub-view from a previous visit.
   useEffect(() => {

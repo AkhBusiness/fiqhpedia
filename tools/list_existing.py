@@ -10,9 +10,11 @@ d = json.load(open("data/fiqhData.json", encoding="utf-8"))
 what = sys.argv[1] if len(sys.argv) > 1 else "theology"
 
 if what == "theology":
-    names = [p["title"]["ar"].replace("دليل ", "") for p in d["theology"]]
-    print("**الأدلة الموجودة (لا تكررها):** " + "، ".join(names))
-    print(f"\n({len(names)} دليلاً · المعرّفات المستعملة: {', '.join(p['id'] for p in d['theology'])})")
+    # الرقم المرجعي أولاً: هو ما يوضع في relatedRefs، والمعرّف لا يصلح له.
+    print("**الأدلة المتاحة للربط (استعمل الرقم لا الاسم):**")
+    for p in d["theology"]:
+        print(f"  {p['ref']} {p['title']['ar'].replace('دليل ', '')}")
+    print(f"\n({len(d['theology'])} دليلاً · لا تكرر موضوعاً منها)")
 
 elif what == "issues":
     book = sys.argv[2] if len(sys.argv) > 2 else None
