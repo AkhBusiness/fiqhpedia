@@ -17,6 +17,13 @@ import sys
 from collections import Counter, defaultdict
 
 PATH = "data/fiqhData.json"
+TERMS_PATH = "data/terms.json"
+
+try:
+    with open(TERMS_PATH, encoding="utf-8") as _fh:
+        TERMS = json.load(_fh)["books"]
+except (OSError, KeyError, json.JSONDecodeError):
+    TERMS = {}  # لم يُبنَ بعد: python3 tools/build_terms.py
 
 LANGS = ["ar", "en", "ru"]
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
@@ -161,6 +168,26 @@ def main():
                     check_localized(one, f"{where}.rulings.{school}.sources[{n_s}]")
                     if isinstance(one, dict) and isinstance(one.get("ar"), str):
                         ar = one["ar"].strip()
+
+                        # A book must belong to the school it is cited under,
+                        # and must be spelled exactly as data/terms.json says.
+                        # Without this, «كشاف القناع» under hanafi validates fine.
+                        if TERMS:
+                            canon = TERMS.get(ar)
+                            if canon is None:
+                                err(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                    f"«{ar}» is not in {TERMS_PATH} — the book list "
+                                    f"is closed; add it there first if it is genuine")
+                            else:
+                                if canon["school"] != school:
+                                    err(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                        f"«{ar}» is a {canon['school']} book, cited "
+                                        f"under {school}")
+                                for _l in ("en", "ru"):
+                                    if one.get(_l) != canon[_l]:
+                                        err(f"{where}.rulings.{school}.sources[{n_s}].{_l}: "
+                                            f"'{one.get(_l)}' does not match the locked "
+                                            f"spelling '{canon[_l]}'")
                         if ar in seen:
                             err(f"{where}.rulings.{school}.sources: «{ar}» listed twice")
                         seen.append(ar)
