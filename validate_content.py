@@ -25,7 +25,13 @@ try:
 except (OSError, KeyError, json.JSONDecodeError):
     TERMS = {}  # لم يُبنَ بعد: python3 tools/build_terms.py
 
+# اللغات الفعّالة: كل حقل مترجم يجب أن يحملها كلها.
 LANGS = ["ar", "en", "ru"]
+
+# لغات أصولها جاهزة وترجمتها لم تكتمل. تُقبل في الحقول ولا تُشترط،
+# فيمكن ترجمة الموقع على دفعات بدل «كل شيء أو لا شيء».
+# لإطلاق لغة: انقل مفتاحها إلى LANGS هنا وإلى LANGS في lib/fiqh-data.ts.
+PENDING_LANGS = ["es"]
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
 # Text that means "not written yet" and must never ship.
@@ -87,7 +93,7 @@ def check_localized(obj, where, *, required=True):
         if rng and not any(rng[0] <= ord(c) <= rng[1] for c in val):
             warn(f"{where}.{lang}: no {lang.upper()} script found — wrong language pasted?")
 
-    extra = set(obj) - set(LANGS)
+    extra = set(obj) - set(LANGS) - set(PENDING_LANGS)
     if extra:
         warn(f"{where}: unexpected keys {sorted(extra)}")
 
@@ -183,7 +189,9 @@ def main():
                                     err(f"{where}.rulings.{school}.sources[{n_s}]: "
                                         f"«{ar}» is a {canon['school']} book, cited "
                                         f"under {school}")
-                                for _l in ("en", "ru"):
+                                for _l in ("en", "ru", "es"):
+                                    if _l not in one:
+                                        continue  # لغة قيد الإضافة: تُفحص متى وُجدت
                                     if one.get(_l) != canon[_l]:
                                         err(f"{where}.rulings.{school}.sources[{n_s}].{_l}: "
                                             f"'{one.get(_l)}' does not match the locked "

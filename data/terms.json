@@ -4,128 +4,153 @@
     "ayn": "ʿ U+02BF",
     "hamza": "ʾ U+02BE",
     "en": "بلا إدغام شمسي: al-Durr، al-Ṭālibīn",
-    "ru": "بالإدغام الشمسي: ад-Дурр، ат-Талибин"
+    "ru": "بالإدغام الشمسي: ад-Дурр، ат-Талибин",
+    "es": "كالإنجليزية حرفاً بحرف — النقل العلمي مبني على الحروف العربية"
   },
   "books": {
     "الإنصاف": {
       "school": "hanbali",
       "en": "Al-Inṣāf",
-      "ru": "«Аль-Инсаф»"
+      "ru": "«Аль-Инсаф»",
+      "es": "Al-Inṣāf"
     },
     "التاج والإكليل": {
       "school": "maliki",
       "en": "Al-Tāj wa-al-Iklīl",
-      "ru": "«Ат-Тадж ва-ль-Иклиль»"
+      "ru": "«Ат-Тадж ва-ль-Иклиль»",
+      "es": "Al-Tāj wa-al-Iklīl"
     },
     "الخرشي على خليل": {
       "school": "maliki",
       "en": "Al-Kharashī ʿalā Khalīl",
-      "ru": "«Аль-Хараши аля Халиль»"
+      "ru": "«Аль-Хараши аля Халиль»",
+      "es": "Al-Kharashī ʿalā Khalīl"
     },
     "الدر المختار": {
       "school": "hanafi",
       "en": "Al-Durr al-Mukhtār",
-      "ru": "«Ад-Дурр аль-Мухтар»"
-    },
-    "الرد المحتار": {
-      "school": "hanafi",
-      "en": "Radd al-Muḥtār",
-      "ru": "«Радд аль-Мухтар»"
+      "ru": "«Ад-Дурр аль-Мухтар»",
+      "es": "Al-Durr al-Mukhtār"
     },
     "الشرح الصغير": {
       "school": "maliki",
       "en": "Al-Sharḥ al-Ṣaghīr",
-      "ru": "«Аш-Шарх ас-Сагир»"
+      "ru": "«Аш-Шарх ас-Сагир»",
+      "es": "Al-Sharḥ al-Ṣaghīr"
     },
     "الشرح الكبير": {
       "school": "maliki",
       "en": "Al-Sharḥ al-Kabīr",
-      "ru": "«Аш-Шарх аль-Кабир»"
+      "ru": "«Аш-Шарх аль-Кабир»",
+      "es": "Al-Sharḥ al-Kabīr"
     },
     "العناية": {
       "school": "hanafi",
       "en": "Al-ʿInāyah",
-      "ru": "«Аль-Инайя»"
+      "ru": "«Аль-Инайя»",
+      "es": "Al-ʿInāyah"
     },
     "المجموع": {
       "school": "shafii",
       "en": "Al-Majmūʿ",
-      "ru": "«Аль-Маджму»"
+      "ru": "«Аль-Маджму»",
+      "es": "Al-Majmūʿ"
     },
     "الهداية": {
       "school": "hanafi",
       "en": "Al-Hidāyah",
-      "ru": "«Аль-Хидая»"
+      "ru": "«Аль-Хидая»",
+      "es": "Al-Hidāyah"
     },
     "بدائع الصنائع": {
       "school": "hanafi",
       "en": "Badāʾiʿ al-Ṣanāʾiʿ",
-      "ru": "«Бадаи ас-Санаи»"
+      "ru": "«Бадаи ас-Санаи»",
+      "es": "Badāʾiʿ al-Ṣanāʾiʿ"
     },
     "تحفة المحتاج": {
       "school": "shafii",
       "en": "Tuḥfat al-Muḥtāj",
-      "ru": "«Тухфат аль-Мухтадж»"
+      "ru": "«Тухфат аль-Мухтадж»",
+      "es": "Tuḥfat al-Muḥtāj"
     },
     "حاشية الدسوقي": {
       "school": "maliki",
       "en": "Ḥāshiyat al-Dasūqī",
-      "ru": "«Хашият ад-Дасуки»"
+      "ru": "«Хашият ад-Дасуки»",
+      "es": "Ḥāshiyat al-Dasūqī"
+    },
+    "رد المحتار": {
+      "school": "hanafi",
+      "en": "Radd al-Muḥtār",
+      "ru": "«Радд аль-Мухтар»",
+      "es": "Radd al-Muḥtār"
     },
     "روضة الطالبين": {
       "school": "shafii",
       "en": "Rawḍat al-Ṭālibīn",
-      "ru": "«Равдат ат-Талибин»"
+      "ru": "«Равдат ат-Талибин»",
+      "es": "Rawḍat al-Ṭālibīn"
     },
     "زاد المستقنع": {
       "school": "hanbali",
       "en": "Zād al-Mustaqniʿ",
-      "ru": "«Зад аль-Мустакни»"
+      "ru": "«Зад аль-Мустакни»",
+      "es": "Zād al-Mustaqniʿ"
     },
     "شرح منتهى الإرادات": {
       "school": "hanbali",
       "en": "Sharḥ Muntahā al-Irādāt",
-      "ru": "«Шарх Мунтаха аль-Ирадат»"
+      "ru": "«Шарх Мунтаха аль-Ирадат»",
+      "es": "Sharḥ Muntahā al-Irādāt"
     },
     "فتح القريب": {
       "school": "shafii",
       "en": "Fatḥ al-Qarīb",
-      "ru": "«Фатх аль-Кариб»"
+      "ru": "«Фатх аль-Кариб»",
+      "es": "Fatḥ al-Qarīb"
     },
     "كشاف القناع": {
       "school": "hanbali",
       "en": "Kashshāf al-Qināʿ",
-      "ru": "«Кашшаф аль-Кина»"
+      "ru": "«Кашшаф аль-Кина»",
+      "es": "Kashshāf al-Qināʿ"
     },
     "مراقي الفلاح": {
       "school": "hanafi",
       "en": "Marāqī al-Falāḥ",
-      "ru": "«Мараки аль-Фалях»"
+      "ru": "«Мараки аль-Фалях»",
+      "es": "Marāqī al-Falāḥ"
     },
     "مطالب أولي النهى": {
       "school": "hanbali",
       "en": "Maṭālib Ūlī al-Nuhā",
-      "ru": "«Маталиб ули ан-Нуха»"
+      "ru": "«Маталиб ули ан-Нуха»",
+      "es": "Maṭālib Ūlī al-Nuhā"
     },
     "مغني المحتاج": {
       "school": "shafii",
       "en": "Mughnī al-Muḥtāj",
-      "ru": "«Мугни аль-Мухтадж»"
+      "ru": "«Мугни аль-Мухтадж»",
+      "es": "Mughnī al-Muḥtāj"
     },
     "منح الجليل": {
       "school": "maliki",
       "en": "Minaḥ al-Jalīl",
-      "ru": "«Минах аль-Джалиль»"
+      "ru": "«Минах аль-Джалиль»",
+      "es": "Minaḥ al-Jalīl"
     },
     "منهاج الطالبين": {
       "school": "shafii",
       "en": "Minhāj al-Ṭālibīn",
-      "ru": "«Минхадж ат-Талибин»"
+      "ru": "«Минхадж ат-Талибин»",
+      "es": "Minhāj al-Ṭālibīn"
     },
     "نهاية المحتاج": {
       "school": "shafii",
       "en": "Nihāyat al-Muḥtāj",
-      "ru": "«Нихаят аль-Мухтадж»"
+      "ru": "«Нихаят аль-Мухтадж»",
+      "es": "Nihāyat al-Muḥtāj"
     }
   }
 }
