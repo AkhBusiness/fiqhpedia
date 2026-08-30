@@ -42,14 +42,16 @@
       "ru": "Все мазхабы"
     },
     "appSubtitle": {
-      "ar": "حكم كل مذهب في مسائل العبادات والمعاملات",
-      "en": "Each school's ruling on worship and transactions",
-      "ru": "Постановление каждого мазхаба по вопросам поклонения и сделок"
+      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة، بأربع لغات",
+      "en": "Islam from its own sources — law, creed, and history, in four languages",
+      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание, на четырёх языках",
+      "es": "El islam desde sus propias fuentes: fiqh, credo e historia, en cuatro lenguas"
     },
     "appTitle": {
-      "ar": "موسوعة الفقه على المذاهب الأربعة",
-      "en": "Fiqh Encyclopedia of the Four Schools",
-      "ru": "Энциклопедия фикха четырёх мазхабов"
+      "ar": "تبيان",
+      "en": "Tibyān",
+      "ru": "Тибьян",
+      "es": "Tibyán"
     },
     "apply": {
       "ar": "تطبيق",

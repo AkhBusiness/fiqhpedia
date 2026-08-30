@@ -4,9 +4,9 @@ import './globals.css'
 import { AppStateProvider } from '@/components/app-state'
 
 export const metadata: Metadata = {
-  title: 'موسوعة الفقه على المذاهب الأربعة | Fiqh Encyclopedia of the Four Schools',
+  title: 'تبيان | Tibyān',
   description:
-    'حكم كل مذهب من المذاهب الأربعة في مسائل العبادات والمعاملات مع مراجعه — مرجع تعليمي ثلاثي اللغة (عربي / إنجليزي / روسي). Each of the four Sunni schools\' rulings, with sources.',
+    'الإسلام من منابعه — فقهاً وعقيدةً وسيرة، بأربع لغات: العربية والإنجليزية والروسية والإسبانية. Islam from its own sources, in four languages.',
   generator: 'v0.app',
   icons: {
     icon: [
