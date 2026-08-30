@@ -5,7 +5,8 @@
     "hamza": "ʾ U+02BE",
     "en": "بلا إدغام شمسي: al-Durr، al-Ṭālibīn",
     "ru": "بالإدغام الشمسي: ад-Дурр، ат-Талибин",
-    "es": "كالإنجليزية حرفاً بحرف — النقل العلمي مبني على الحروف العربية"
+    "es": "كالإنجليزية حرفاً بحرف — النقل العلمي مبني على الحروف العربية",
+    "aliases": "أسماء مختصرة دارجة تُوحَّد على الرسم المعتمد. لا تُضف اسماً يلتبس بكتاب آخر."
   },
   "books": {
     "الإنصاف": {
@@ -24,13 +25,19 @@
       "school": "maliki",
       "en": "Al-Kharashī ʿalā Khalīl",
       "ru": "«Аль-Хараши аля Халиль»",
-      "es": "Al-Kharashī ʿalā Khalīl"
+      "es": "Al-Kharashī ʿalā Khalīl",
+      "aliases": [
+        "الخرشي"
+      ]
     },
     "الدر المختار": {
       "school": "hanafi",
       "en": "Al-Durr al-Mukhtār",
       "ru": "«Ад-Дурр аль-Мухтар»",
-      "es": "Al-Durr al-Mukhtār"
+      "es": "Al-Durr al-Mukhtār",
+      "aliases": [
+        "الدر"
+      ]
     },
     "الشرح الصغير": {
       "school": "maliki",
@@ -66,31 +73,47 @@
       "school": "hanafi",
       "en": "Badāʾiʿ al-Ṣanāʾiʿ",
       "ru": "«Бадаи ас-Санаи»",
-      "es": "Badāʾiʿ al-Ṣanāʾiʿ"
+      "es": "Badāʾiʿ al-Ṣanāʾiʿ",
+      "aliases": [
+        "البدائع"
+      ]
     },
     "تحفة المحتاج": {
       "school": "shafii",
       "en": "Tuḥfat al-Muḥtāj",
       "ru": "«Тухфат аль-Мухтадж»",
-      "es": "Tuḥfat al-Muḥtāj"
+      "es": "Tuḥfat al-Muḥtāj",
+      "aliases": [
+        "التحفة"
+      ]
     },
     "حاشية الدسوقي": {
       "school": "maliki",
       "en": "Ḥāshiyat al-Dasūqī",
       "ru": "«Хашият ад-Дасуки»",
-      "es": "Ḥāshiyat al-Dasūqī"
+      "es": "Ḥāshiyat al-Dasūqī",
+      "aliases": [
+        "الدسوقي"
+      ]
     },
     "رد المحتار": {
       "school": "hanafi",
       "en": "Radd al-Muḥtār",
       "ru": "«Радд аль-Мухтар»",
-      "es": "Radd al-Muḥtār"
+      "es": "Radd al-Muḥtār",
+      "aliases": [
+        "حاشية ابن عابدين",
+        "ابن عابدين"
+      ]
     },
     "روضة الطالبين": {
       "school": "shafii",
       "en": "Rawḍat al-Ṭālibīn",
       "ru": "«Равдат ат-Талибин»",
-      "es": "Rawḍat al-Ṭālibīn"
+      "es": "Rawḍat al-Ṭālibīn",
+      "aliases": [
+        "الروضة"
+      ]
     },
     "زاد المستقنع": {
       "school": "hanbali",
@@ -102,7 +125,11 @@
       "school": "hanbali",
       "en": "Sharḥ Muntahā al-Irādāt",
       "ru": "«Шарх Мунтаха аль-Ирадат»",
-      "es": "Sharḥ Muntahā al-Irādāt"
+      "es": "Sharḥ Muntahā al-Irādāt",
+      "aliases": [
+        "شرح المنتهى",
+        "منتهى الإرادات"
+      ]
     },
     "فتح القريب": {
       "school": "shafii",
@@ -144,7 +171,10 @@
       "school": "shafii",
       "en": "Minhāj al-Ṭālibīn",
       "ru": "«Минхадж ат-Талибин»",
-      "es": "Minhāj al-Ṭālibīn"
+      "es": "Minhāj al-Ṭālibīn",
+      "aliases": [
+        "المنهاج"
+      ]
     },
     "نهاية المحتاج": {
       "school": "shafii",

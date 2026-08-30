@@ -582,6 +582,84 @@
       "ar": "كيف تريد تصفح المذاهب؟",
       "en": "How would you like to browse the schools?",
       "ru": "Как вы хотите просматривать мазхабы?"
+    },
+    "glossarySection": {
+      "ar": "المفردات",
+      "en": "Glossary",
+      "ru": "Словарь",
+      "es": "Glosario"
+    },
+    "glossarySectionDesc": {
+      "ar": "تعريف المصطلحات الفقهية لغةً واصطلاحاً وشرعاً",
+      "en": "Fiqh terms defined linguistically, technically, and in the Sharia",
+      "ru": "Фикховские термины: языковое, терминологическое и шариатское значение",
+      "es": "Términos de fiqh definidos lingüística, técnica y legalmente"
+    },
+    "glossaryLinguistic": {
+      "ar": "لغةً",
+      "en": "Linguistically",
+      "ru": "В языке",
+      "es": "Lingüísticamente"
+    },
+    "glossaryTechnical": {
+      "ar": "اصطلاحاً",
+      "en": "Technically",
+      "ru": "В терминологии",
+      "es": "Técnicamente"
+    },
+    "glossaryLegal": {
+      "ar": "شرعاً",
+      "en": "In the Sharia",
+      "ru": "В шариате",
+      "es": "En la Sharía"
+    },
+    "glossaryGeneral": {
+      "ar": "تعريف موجز",
+      "en": "Brief definition",
+      "ru": "Краткое определение",
+      "es": "Definición breve"
+    },
+    "glossaryOpen": {
+      "ar": "فتح في المفردات",
+      "en": "Open in glossary",
+      "ru": "Открыть в словаре",
+      "es": "Abrir en el glosario"
+    },
+    "glossarySearch": {
+      "ar": "ابحث في المفردات…",
+      "en": "Search terms…",
+      "ru": "Поиск по словарю…",
+      "es": "Buscar términos…"
+    },
+    "glossaryEmpty": {
+      "ar": "لا توجد مفردة مطابقة",
+      "en": "No matching term",
+      "ru": "Совпадений не найдено",
+      "es": "No hay términos coincidentes"
+    },
+    "glossaryCount": {
+      "ar": "مفردة",
+      "en": "terms",
+      "ru": "терминов",
+      "es": "términos"
+    },
+    "glossaryPending": {
+      "ar": "التعريف المفصّل قيد الإضافة",
+      "en": "The detailed definition is being added",
+      "ru": "Подробное определение готовится",
+      "es": "La definición detallada se está añadiendo"
+    },
+    "searchAllBooks": {
+      "ar": "البحث في كل الأبواب",
+      "en": "Searching every chapter",
+      "ru": "Поиск по всем разделам",
+      "es": "Buscando en todos los capítulos"
+    },
+    "searchOther": {
+      "ar": "نتائج في أقسام أخرى",
+      "en": "Results in other sections",
+      "ru": "Результаты в других разделах",
+      "es": "Resultados en otras secciones"
     }
   },
   "books": [
@@ -664,7 +742,8 @@
       "name": {
         "ar": "الحنفي",
         "en": "Hanafi",
-        "ru": "Ханафитский"
+        "ru": "Ханафитский",
+        "es": "Hanafí"
       }
     },
     {
@@ -672,7 +751,8 @@
       "name": {
         "ar": "المالكي",
         "en": "Maliki",
-        "ru": "Маликитский"
+        "ru": "Маликитский",
+        "es": "Malikí"
       }
     },
     {
@@ -680,7 +760,8 @@
       "name": {
         "ar": "الشافعي",
         "en": "Shafi'i",
-        "ru": "Шафиитский"
+        "ru": "Шафиитский",
+        "es": "Shafiʿí"
       }
     },
     {
@@ -688,7 +769,8 @@
       "name": {
         "ar": "الحنبلي",
         "en": "Hanbali",
-        "ru": "Ханбалитский"
+        "ru": "Ханбалитский",
+        "es": "Hanbalí"
       }
     }
   ],
@@ -916,316 +998,138 @@
       }
     },
     {
-      "id": "taharah-1",
-      "ref": "F4",
+      "id": "taharah-9",
+      "ref": "F20",
       "bookId": "taharah",
       "number": 1,
       "chapter": {
-        "ar": "باب فرض الوضوء",
-        "en": "Chapter of the Obligation of Ablution",
-        "ru": "Раздел об обязательности омовения"
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
       },
       "title": {
-        "ar": "حكم النية في الوضوء وهل تسقط سهواً",
-        "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
-        "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости"
+        "ar": "حكم التطهير بالماء المطلق في رفع الحدث",
+        "en": "Ruling on purification with absolute water for hadath",
+        "ru": "Постановление об очищении абсолютной водой от хадаса",
+        "es": "Norma sobre la purificación con agua absoluta para el hadath"
       },
       "summary": {
-        "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
-        "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
-        "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?"
+        "ar": "هل يجوز رفع الحدث وإزالة النجاسة بالماء المطلق عند الأئمة الأربعة؟",
+        "en": "Is it permissible to remove hadath and najasah with absolute water according to the four imams?",
+        "ru": "Разрешено ли устранять хадас и наджасу абсолютной водой по мнению четырёх имамов?",
+        "es": "¿Es permisible eliminar el hadath y la najasah con agua absoluta según los cuatro imanes?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
-            "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
-            "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
+            "ar": "يصح رفع الحدث بالماء المطلق وهو الباقي على أصل خلقته، وتزال به النجاسة وبكل مائع طاهر قالع.",
+            "en": "Removal of hadath is valid with absolute water, which remains in its original state, and najasah is removed with it or with any pure removing liquid.",
+            "ru": "Устранение хадаса действительно абсолютной водой, сохранившей своё изначальное состояние, а наджаса устраняется ею и любой чистой удаляющей жидкостью.",
+            "es": "La eliminación del hadath es válida con agua absoluta, que permanece en su estado original, y la najasah se elimina con ella o con cualquier líquido puro removedor."
           },
           "sources": [
             {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
               "ar": "رد المحتار",
               "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»"
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
             }
           ]
         },
         "maliki": {
           "text": {
-            "ar": "فرض وشرط أساسي لصحة الوضوء لا يصح بدونه.",
-            "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
-            "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
+            "ar": "لا يصح رفع الحدث ولا إزالة الخبث إلا بالماء المطلق وهو الباقي على أوصافه الطبيعية التي خلق عليها.",
+            "en": "Removal of hadath and of impurity is valid only with absolute water, which retains the natural qualities it was created upon.",
+            "ru": "Устранение хадаса и скверны действительно только абсолютной водой, сохраняющей естественные свойства, на которых она создана.",
+            "es": "La eliminación del hadath y de la impureza solo es válida con agua absoluta, que conserva las cualidades naturales con que fue creada."
           },
           "sources": [
             {
               "ar": "الشرح الكبير",
               "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»"
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
             }
           ]
         },
         "shafii": {
           "text": {
-            "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
-            "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
-            "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
+            "ar": "لا يصح رفع الحدث ولا إزالة النجاسة إلا بالماء المطلق وهو ما يقع عليه اسم الماء بلا قيد.",
+            "en": "Removal of hadath and najasah is valid only with absolute water, which is what is called water without any qualifying restriction.",
+            "ru": "Устранение хадаса и наджасы действительно только абсолютной водой — той, что называется водой без ограничивающего определения.",
+            "es": "La eliminación del hadath y de la najasah solo es válida con agua absoluta, aquella que se denomina agua sin restricción alguna."
           },
           "sources": [
             {
-              "ar": "تحفة المحتاج",
-              "en": "Tuḥfat al-Muḥtāj",
-              "ru": "«Тухфат аль-Мухтадж»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
-            "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
-            "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
-          },
-          "sources": [
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
             {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "taharah-2",
-      "ref": "F5",
-      "bookId": "taharah",
-      "number": 2,
-      "chapter": {
-        "ar": "باب المسح على الخفين",
-        "en": "Chapter of Wiping over Footgear",
-        "ru": "Раздел о протирании обуви"
-      },
-      "title": {
-        "ar": "حكم المسح على الجورب الخفيف/الحديث",
-        "en": "The ruling on wiping over light/modern socks",
-        "ru": "Постановление о протирании лёгких/современных носков"
-      },
-      "summary": {
-        "ar": "متى يجوز المسح على الجوربين بدلاً من غسل القدمين؟",
-        "en": "When is it permissible to wipe over socks instead of washing the feet?",
-        "ru": "Когда допустимо протирать носки вместо мытья ног?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "يجوز إن كانا ثخينين يمنعان نفوذ الماء ويمكن متابعة المشي عليهما.",
-            "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
-            "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
-          },
-          "sources": [
-            {
-              "ar": "الدر المختار",
-              "en": "Al-Durr al-Mukhtār",
-              "ru": "«Ад-Дурр аль-Мухтар»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "لا يجوز المسح إلا على الخف المصنوع من الجلد فقط.",
-            "en": "Wiping is permitted only over khuff made of leather.",
-            "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
-          },
-          "sources": [
-            {
-              "ar": "الخرشي على خليل",
-              "en": "Al-Kharashī ʿalā Khalīl",
-              "ru": "«Аль-Хараши аля Халиль»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "يشترط أن يكونا صفيقين ومجلدين أو منعّلين يثبتان بنفسهما.",
-            "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
-            "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
-          },
-          "sources": [
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
             {
               "ar": "مغني المحتاج",
               "en": "Mughnī al-Muḥtāj",
-              "ru": "«Мугни аль-Мухтадж»"
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
             }
           ]
         },
         "hanbali": {
           "text": {
-            "ar": "يجوز المسح على الجورب الصفيق الساتر للمحل وإن لم يكن مجلداً.",
-            "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
-            "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
+            "ar": "يشترط لرفع الحدث وزوال النجاسة استعمال الماء الطهور وهو الباقي على خلقته مطلقاً بلا قيد.",
+            "en": "Removing hadath and najasah requires the use of tahur water, which remains entirely upon its original created state.",
+            "ru": "Для устранения хадаса и наджасы требуется вода тахур, полностью сохраняющая своё изначальное естественное состояние.",
+            "es": "La eliminación del hadath y de la najasah exige el uso de agua tahur, que permanece enteramente en su estado original."
           },
           "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
             {
               "ar": "كشاف القناع",
               "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "taharah-3",
-      "ref": "F6",
-      "bookId": "taharah",
-      "number": 3,
-      "chapter": {
-        "ar": "باب نواقض الوضوء",
-        "en": "Chapter of Ablution Nullifiers",
-        "ru": "Раздел о нарушителях омовения"
-      },
-      "title": {
-        "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
-        "en": "The effect of eating camel meat and touching a woman on ablution",
-        "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение"
-      },
-      "summary": {
-        "ar": "هل ينقض أكل لحم الإبل ولمس المرأة الأجنبية الوضوء؟",
-        "en": "Do eating camel meat and touching a non-maram woman break ablution?",
-        "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "لا ينقض أكل لحم الإبل الوضوء مطبوخاً كان أو نيئاً، ولا ينقض لمس المرأة إلا بالمباشرة الفاحشة بلا حائل.",
-            "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
-            "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
-          },
-          "sources": [
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
             {
-              "ar": "رد المحتار",
-              "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة ينقض إن قصد اللذة أو وجدها لا مطلقاً.",
-            "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
-            "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
-          },
-          "sources": [
-            {
-              "ar": "الشرح الكبير",
-              "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
-            "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
-            "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
-          },
-          "sources": [
-            {
-              "ar": "تحفة المحتاج",
-              "en": "Tuḥfat al-Muḥtāj",
-              "ru": "«Тухфат аль-Мухтадж»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "ينقض أكل لحم الإبل الوضوء مطلقاً نيئاً ومطبوخاً، ولمس المرأة ينقض إن كان لشهوة لا لغيرها.",
-            "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
-            "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
-          },
-          "sources": [
-            {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "taharah-4",
-      "ref": "F7",
-      "bookId": "taharah",
-      "number": 4,
-      "chapter": {
-        "ar": "باب التيمم",
-        "en": "Chapter of Dry Ablution (Tayammum)",
-        "ru": "Раздел о сухом очищении (таяммум)"
-      },
-      "title": {
-        "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
-        "en": "The ruling on tayammum when water is present but there is fear of using it",
-        "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования"
-      },
-      "summary": {
-        "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
-        "en": "Is tayammum permitted when water is available if harm from using it is feared?",
-        "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
-            "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worsening sickness.",
-            "ru": "Таяммум допустим при наличии воды, если есть опасение вреда от её применения из-за болезни или сильного холода, грозящего гибелью или ухудшением."
-          },
-          "sources": [
-            {
-              "ar": "رد المحتار",
-              "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
-            "en": "Tayammum is permitted for the sick and for whoever fears worsening illness, delayed recovery, or death from using water.",
-            "ru": "Таяммум разрешён больному и тому, кто опасается усиления болезни, задержки выздоровления или гибели от применения воды."
-          },
-          "sources": [
-            {
-              "ar": "الشرح الكبير",
-              "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو عضوٍ أو مرضاً مخوفاً، بإخبار طبيبٍ عدلٍ أو بتجربة.",
-            "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
-            "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту."
-          },
-          "sources": [
-            {
-              "ar": "تحفة المحتاج",
-              "en": "Tuḥfat al-Muḥtāj",
-              "ru": "«Тухфат аль-Мухтадж»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
-            "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold, being unable to warm the water or avert its harm.",
-            "ru": "Таяммум дозволен при наличии воды, если есть опасение телесного вреда от её применения из-за болезни или сильного холода при невозможности согреть воду и отвести вред."
-          },
-          "sources": [
-            {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
             }
           ]
         }
@@ -1235,7 +1139,7 @@
       "id": "taharah-5",
       "ref": "F8",
       "bookId": "taharah",
-      "number": 5,
+      "number": 2,
       "chapter": {
         "ar": "باب المياه",
         "en": "Chapter of Waters",
@@ -1314,7 +1218,7 @@
       "id": "taharah-6",
       "ref": "F9",
       "bookId": "taharah",
-      "number": 6,
+      "number": 3,
       "chapter": {
         "ar": "باب الآنية",
         "en": "Chapter of Vessels",
@@ -1393,7 +1297,7 @@
       "id": "taharah-7",
       "ref": "F10",
       "bookId": "taharah",
-      "number": 7,
+      "number": 4,
       "chapter": {
         "ar": "باب الاستنجاء",
         "en": "Chapter of Cleansing after Relief (Istinjā’)",
@@ -1469,10 +1373,326 @@
       }
     },
     {
+      "id": "taharah-1",
+      "ref": "F4",
+      "bookId": "taharah",
+      "number": 5,
+      "chapter": {
+        "ar": "باب فرض الوضوء",
+        "en": "Chapter of the Obligation of Ablution",
+        "ru": "Раздел об обязательности омовения"
+      },
+      "title": {
+        "ar": "حكم النية في الوضوء وهل تسقط سهواً",
+        "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
+        "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости"
+      },
+      "summary": {
+        "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
+        "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
+        "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
+            "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
+            "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "فرض وشرط أساسي لصحة الوضوء لا يصح بدونه.",
+            "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
+            "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
+            "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
+            "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
+          },
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
+            "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
+            "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-3",
+      "ref": "F6",
+      "bookId": "taharah",
+      "number": 6,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения"
+      },
+      "title": {
+        "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
+        "en": "The effect of eating camel meat and touching a woman on ablution",
+        "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение"
+      },
+      "summary": {
+        "ar": "هل ينقض أكل لحم الإبل ولمس المرأة الأجنبية الوضوء؟",
+        "en": "Do eating camel meat and touching a non-maram woman break ablution?",
+        "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا ينقض أكل لحم الإبل الوضوء مطبوخاً كان أو نيئاً، ولا ينقض لمس المرأة إلا بالمباشرة الفاحشة بلا حائل.",
+            "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
+            "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة ينقض إن قصد اللذة أو وجدها لا مطلقاً.",
+            "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
+            "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
+            "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
+            "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
+          },
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ينقض أكل لحم الإبل الوضوء مطلقاً نيئاً ومطبوخاً، ولمس المرأة ينقض إن كان لشهوة لا لغيرها.",
+            "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
+            "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-2",
+      "ref": "F5",
+      "bookId": "taharah",
+      "number": 7,
+      "chapter": {
+        "ar": "باب المسح على الخفين",
+        "en": "Chapter of Wiping over Footgear",
+        "ru": "Раздел о протирании обуви"
+      },
+      "title": {
+        "ar": "حكم المسح على الجورب الخفيف/الحديث",
+        "en": "The ruling on wiping over light/modern socks",
+        "ru": "Постановление о протирании лёгких/современных носков"
+      },
+      "summary": {
+        "ar": "متى يجوز المسح على الجوربين بدلاً من غسل القدمين؟",
+        "en": "When is it permissible to wipe over socks instead of washing the feet?",
+        "ru": "Когда допустимо протирать носки вместо мытья ног?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز إن كانا ثخينين يمنعان نفوذ الماء ويمكن متابعة المشي عليهما.",
+            "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
+            "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يجوز المسح إلا على الخف المصنوع من الجلد فقط.",
+            "en": "Wiping is permitted only over khuff made of leather.",
+            "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
+          },
+          "sources": [
+            {
+              "ar": "الخرشي على خليل",
+              "en": "Al-Kharashī ʿalā Khalīl",
+              "ru": "«Аль-Хараши аля Халиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يشترط أن يكونا صفيقين ومجلدين أو منعّلين يثبتان بنفسهما.",
+            "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
+            "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجوز المسح على الجورب الصفيق الساتر للمحل وإن لم يكن مجلداً.",
+            "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
+            "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-4",
+      "ref": "F7",
+      "bookId": "taharah",
+      "number": 8,
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)"
+      },
+      "title": {
+        "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+        "en": "The ruling on tayammum when water is present but there is fear of using it",
+        "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования"
+      },
+      "summary": {
+        "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
+        "en": "Is tayammum permitted when water is available if harm from using it is feared?",
+        "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
+            "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worsening sickness.",
+            "ru": "Таяммум допустим при наличии воды, если есть опасение вреда от её применения из-за болезни или сильного холода, грозящего гибелью или ухудшением."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
+            "en": "Tayammum is permitted for the sick and for whoever fears worsening illness, delayed recovery, or death from using water.",
+            "ru": "Таяммум разрешён больному и тому, кто опасается усиления болезни, задержки выздоровления или гибели от применения воды."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو عضوٍ أو مرضاً مخوفاً، بإخبار طبيبٍ عدلٍ أو بتجربة.",
+            "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
+            "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту."
+          },
+          "sources": [
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
+            "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold, being unable to warm the water or avert its harm.",
+            "ru": "Таяммум дозволен при наличии воды, если есть опасение телесного вреда от её применения из-за болезни или сильного холода при невозможности согреть воду и отвести вред."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 8,
+      "number": 9,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",

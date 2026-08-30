@@ -30,8 +30,15 @@ for sch, ar_name in NAMES.items():
 for head, rows in (("أسماء المذاهب", [s["name"] for s in d["schools"]]),
                    ("الأبواب", [b["name"] for b in d["books"]]),
                    ("المصطلحات", [g["term"] for g in d["glossary"]])):
-    o += [f"## {head}", "", "| العربية | English | Русский |", "|---|---|---|"]
-    o += [f"| {r['ar']} | {r['en']} | {r['ru']} |" for r in rows]
+    # عمود الإسبانية يظهر متى اكتمل للجدول كله. الجدول الناقص يبقى ثلاثياً
+    # بدل أن يعرض «—» فيقرأها النموذج قيمةً ويكتبها في المخرجات.
+    es = all(r.get("es") for r in rows)
+    o += [f"## {head}", "",
+          "| العربية | English | Русский | Español |" if es
+          else "| العربية | English | Русский |",
+          "|---|---|---|---|" if es else "|---|---|---|"]
+    o += [f"| {r['ar']} | {r['en']} | {r['ru']} | {r['es']} |" if es
+          else f"| {r['ar']} | {r['en']} | {r['ru']} |" for r in rows]
     o.append("")
 
 open("prompts/_terms.md", "w", encoding="utf-8").write("\n".join(o))

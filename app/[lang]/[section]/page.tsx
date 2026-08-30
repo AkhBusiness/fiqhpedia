@@ -4,7 +4,7 @@ import type { Section } from "@/components/nav-modal"
 import { LANGS, type Lang } from "@/lib/fiqh-data"
 
 /** Sections that get their own path. "home" is the bare /{lang}. */
-const SECTIONS = ["fiqh", "aqidah", "articles", "learn"] as const
+const SECTIONS = ["fiqh", "aqidah", "articles", "glossary", "learn"] as const
 
 /**
  * One static page per language × section, so /ar/articles is a real file and

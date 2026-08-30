@@ -159,7 +159,22 @@ export interface Category {
 export interface GlossaryTerm {
   id: string
   term: Localized
+  /** One-line gloss shown in the inline tooltip. Always present. */
   definition: Localized
+  /**
+   * The three-part scholarly definition shown on the glossary page.
+   * Optional: a term carries them once written, and the page falls back to
+   * `definition` until then. Never fill these with placeholder prose —
+   * an absent field renders as "being added", a fake one reads as fact.
+   */
+  linguistic?: Localized
+  technical?: Localized
+  legal?: Localized
+}
+
+/** DOM id and URL hash for a glossary entry: #term-najasah */
+export function glossaryAnchor(id: string): string {
+  return `term-${id}`
 }
 
 export interface GuideStep {
@@ -464,14 +479,43 @@ export function findGlossaryTerm(word: string): GlossaryTerm | undefined {
 }
 
 /* ------------------------------------------------------------------ */
-/* Search — builds a cross-language haystack per issue                 */
+/* Search — normalized, cross-language, cross-section                  */
 /* ------------------------------------------------------------------ */
 
-/** Concatenated, lower-cased searchable text (title, summary, book, */
-/* chapter, all school names + rulings + references) across AR/EN/RU. */
+/**
+ * Fold a string to a comparable form.
+ *
+ * Arabic is the reason this exists. Content is written with harakat
+ * (تَيَمُّم) while readers type without them (تيمم), and the same word appears
+ * as أحكام / احكام and صلاة / صلاه. A raw `includes` misses all of those, so
+ * the search box looked broken on its own content. Latin and Cyrillic get
+ * NFD-folding for the same reason (é → e).
+ */
+export function normalizeSearch(s: string): string {
+  return s
+    .normalize("NFD")
+    // Latin/Cyrillic combining marks. The Arabic block is handled below,
+    // so this range is safe to strip wholesale.
+    .replace(/[\u0300-\u036F]/g, "")
+    .toLowerCase()
+    // Arabic combining marks: harakat, plus the hamza signs that NFD splits
+    // off (أ → ا + U+0654). Stopping at U+0652 left the detached hamza
+    // behind, so أحكام and احكام still failed to match.
+    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
+    .replace(/[\u0622\u0623\u0625\u0671]/g, "\u0627") // آ أ إ ٱ → ا
+    .replace(/\u0629/g, "\u0647") // ة → ه
+    .replace(/\u0649/g, "\u064A") // ى → ي
+    .replace(/\u0624/g, "\u0648") // ؤ → و
+    .replace(/\u0626/g, "\u064A") // ئ → ي
+    .replace(/[.,;:!؟?()"'«»\[\]{}—–\-_/\\]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+/** Concatenated searchable text for one issue across every language. */
 function buildHaystack(issue: Issue): string {
   const book = categories.find((c) => c.id === issue.categoryId)
-  const parts: string[] = []
+  const parts: string[] = [issue.ref]
   for (const l of LANGS) {
     parts.push(issue.title[l], issue.summary[l])
     if (issue.chapter) parts.push(issue.chapter[l])
@@ -481,7 +525,7 @@ function buildHaystack(issue: Issue): string {
       parts.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
     }
   }
-  return parts.join(" \u0000 ").toLowerCase()
+  return normalizeSearch(parts.join(" \u0000 "))
 }
 
 const HAYSTACKS: Record<string, string> = Object.fromEntries(
@@ -490,8 +534,56 @@ const HAYSTACKS: Record<string, string> = Object.fromEntries(
 
 /** True when every whitespace-separated token in `query` is found. */
 export function issueMatchesQuery(issue: Issue, query: string): boolean {
-  const q = query.trim().toLowerCase()
+  const q = normalizeSearch(query)
   if (!q) return true
   const hay = HAYSTACKS[issue.id] ?? buildHaystack(issue)
-  return q.split(/\s+/).every((token) => hay.includes(token))
+  return q.split(" ").every((token) => hay.includes(token))
+}
+
+function matches(hay: string, query: string): boolean {
+  const q = normalizeSearch(query)
+  if (!q) return false
+  const h = normalizeSearch(hay)
+  return q.split(" ").every((token) => h.includes(token))
+}
+
+export interface SearchResults {
+  issues: Issue[]
+  proofs: TheologyProof[]
+  articles: Article[]
+  terms: GlossaryTerm[]
+  faqs: Faq[]
+}
+
+/**
+ * Search every section at once.
+ *
+ * The fiqh tab used to search only the open book, so a reader sitting on
+ * Prayer who typed "tayammum" was told there were no results while the
+ * issue existed one tab away. Results are returned per section and the
+ * caller decides how much of each to surface.
+ */
+export function searchAll(query: string): SearchResults {
+  const q = query.trim()
+  if (!q) return { issues: [], proofs: [], articles: [], terms: [], faqs: [] }
+
+  const langParts = (fields: (Localized | undefined)[]) =>
+    fields.flatMap((f) => (f ? LANGS.map((l) => f[l] ?? "") : []))
+
+  return {
+    issues: issues.filter((i) => issueMatchesQuery(i, q)),
+    proofs: theologyProofs.filter((p) =>
+      matches([p.ref, ...langParts([p.title, p.tagline, p.conclusion])].join(" "), q),
+    ),
+    articles: articles.filter((a) =>
+      matches([a.ref, ...langParts([a.title, a.excerpt])].join(" "), q),
+    ),
+    terms: glossary.filter((t) =>
+      matches(
+        langParts([t.term, t.definition, t.linguistic, t.technical, t.legal]).join(" "),
+        q,
+      ),
+    ),
+    faqs: faqs.filter((f) => matches(langParts([f.question, f.answer]).join(" "), q)),
+  }
 }

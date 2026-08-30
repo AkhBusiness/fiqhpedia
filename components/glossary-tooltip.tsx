@@ -1,20 +1,16 @@
 "use client"
 
 import { useEffect, useId, useRef, useState, type ReactNode } from "react"
-import { BookOpen } from "lucide-react"
-import { type GlossaryTerm, glossary, type Lang, ui, LANGS } from "@/lib/fiqh-data"
+import { ArrowUpRight, BookOpen } from "lucide-react"
+import { type GlossaryTerm, glossary, glossaryAnchor, type Lang, normalizeSearch, ui, LANGS } from "@/lib/fiqh-data"
 
 /* ------------------------------------------------------------------ */
 /* Text normalization for matching (strip Arabic diacritics + punct)   */
 /* ------------------------------------------------------------------ */
 
-function normalize(s: string): string {
-  return s
-    .toLowerCase()
-    .replace(/[\u064B-\u0652\u0670\u0640]/g, "") // harakat + tatweel
-    .replace(/[.,;:!؟?()"'’“”«»\[\]{}—–\-]/g, "")
-    .trim()
-}
+/** Shared with the search box: one folding rule for the whole site, so a
+ *  term highlighted inline is the same term the search box finds. */
+const normalize = normalizeSearch
 
 /** Normalized surface form (any language) → glossary term. */
 const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
@@ -107,6 +103,15 @@ export function GlossaryTooltip({ term, lang, children }: GlossaryTooltipProps) 
           <span className="block text-pretty text-xs leading-relaxed text-muted-foreground">
             {term.definition[lang]}
           </span>
+          {/* The popover gives the one-line gloss; the full entry (لغةً /
+              اصطلاحاً / شرعاً) lives in the glossary tab. */}
+          <a
+            href={`/${lang}/glossary#${glossaryAnchor(term.id)}`}
+            className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-primary underline-offset-4 hover:underline"
+          >
+            {ui.glossaryOpen[lang]}
+            <ArrowUpRight className="size-3" aria-hidden="true" />
+          </a>
           <span
             aria-hidden="true"
             className="absolute left-1/2 top-full size-3 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-white/15 bg-zinc-950/85"

@@ -13,10 +13,11 @@ import { SchoolSelectorModal, type SchoolFilter } from "@/components/school-sele
 import { TheologySection } from "@/components/theology-section"
 import { LearnSection } from "@/components/learn-section"
 import { HomeSection } from "@/components/home-section"
+import { GlossarySection } from "@/components/glossary-section"
 import { ViewModeToggle } from "@/components/view-mode-toggle"
 import { ShareCardModal } from "@/components/share-card-modal"
 import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
-import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, ui , findByRef } from "@/lib/fiqh-data"
+import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, searchAll, ui , findByRef } from "@/lib/fiqh-data"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { usePreference } from "@/hooks/use-preference"
 import { useAppState } from "@/components/app-state"
@@ -136,18 +137,50 @@ export function AppShell({ lang, section }: AppShellProps) {
     return c
   }, [])
 
+  const searching = query.trim().length > 0
+
+  // A query escapes the open book. Sitting on Prayer and typing "tayammum"
+  // used to return nothing, because the filter ran inside the active book
+  // first — the reader was told the site had no such issue while it sat one
+  // tab away. Book order is kept so grouped results read in site order.
   const visibleIssues = useMemo(() => {
+    const bookOrder = new Map(categories.map((c, n) => [c.id, n]))
     const base =
       scope === "saved"
         ? issues.filter((i) => isBookmarked(i.id))
-        : issues.filter((i) => i.categoryId === activeCategory)
+        : searching
+          ? issues
+          : issues.filter((i) => i.categoryId === activeCategory)
     return base
       .filter((i) => issueMatchesQuery(i, query))
-      .sort((a, b) => a.number - b.number)
-  }, [activeCategory, scope, query, isBookmarked])
+      .sort(
+        (a, b) =>
+          (bookOrder.get(a.categoryId) ?? 0) - (bookOrder.get(b.categoryId) ?? 0) ||
+          a.number - b.number,
+      )
+  }, [activeCategory, scope, query, searching, isBookmarked])
+
+  /** Matches outside the fiqh tab, so a search is never silently partial. */
+  const otherHits = useMemo(() => {
+    if (!searching) return null
+    const r = searchAll(query)
+    const items = ([
+      { key: "aqidah", label: ui.aqidahSection[lang], count: r.proofs.length, go: "aqidah" },
+      { key: "articles", label: ui.articlesSection[lang], count: r.articles.length, go: "articles" },
+      { key: "glossary", label: ui.glossarySection[lang], count: r.terms.length, go: "glossary" },
+      { key: "learn", label: ui.learnSection[lang], count: r.faqs.length, go: "learn" },
+    ] satisfies { key: string; label: string; count: number; go: Section }[]).filter(
+      (i) => i.count > 0,
+    )
+    return items.length > 0 ? items : null
+  }, [searching, query, lang])
 
   const activeCategoryName =
-    scope === "saved" ? ui.savedItems[lang] : categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""
+    scope === "saved"
+      ? ui.savedItems[lang]
+      : searching
+        ? ui.searchAllBooks[lang]
+        : categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""
 
   const visibleSchools = useMemo(() => {
     if (filter.mode === "single") return [filter.school]
@@ -183,7 +216,7 @@ export function AppShell({ lang, section }: AppShellProps) {
         <>
           <CategoryTabs
             lang={lang}
-            activeId={scope === "saved" ? "" : activeCategory}
+            activeId={scope === "saved" || searching ? "" : activeCategory}
             counts={counts}
             onSelect={(id) => {
               setActiveCategory(id)
@@ -235,6 +268,25 @@ export function AppShell({ lang, section }: AppShellProps) {
               </div>
             </div>
 
+            {otherHits ? (
+              <div className="mb-6 flex flex-wrap items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 backdrop-blur-md">
+                <span className="text-xs font-semibold text-muted-foreground">
+                  {ui.searchOther[lang]}
+                </span>
+                {otherHits.map((h) => (
+                  <button
+                    key={h.key}
+                    type="button"
+                    onClick={() => go(h.go)}
+                    className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
+                  >
+                    {h.label}
+                    <span className="tabular-nums text-muted-foreground">{h.count}</span>
+                  </button>
+                ))}
+              </div>
+            ) : null}
+
             {visibleIssues.length > 0 ? (
               <div className="flex flex-col gap-6">
                 {visibleIssues.map((issue) => (
@@ -271,6 +323,8 @@ export function AppShell({ lang, section }: AppShellProps) {
             <TheologySection lang={lang} />
           ) : section === "articles" ? (
             <ArticlesSection lang={lang} />
+          ) : section === "glossary" ? (
+            <GlossarySection lang={lang} />
           ) : (
             <LearnSection lang={lang} />
           )}

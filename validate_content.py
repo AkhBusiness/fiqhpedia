@@ -25,6 +25,15 @@ try:
 except (OSError, KeyError, json.JSONDecodeError):
     TERMS = {}  # لم يُبنَ بعد: python3 tools/build_terms.py
 
+# اسم مختصر دارج ← الرسم المعتمد. «المنهاج» ← «منهاج الطالبين».
+# النموذج المولّد يكتب المختصر بطبعه لأنه الدارج في كتب الفقه، فبدل
+# رسالة «ليس في القائمة» الغامضة نقول له أين يذهب بالضبط.
+ALIASES = {
+    alias: canon
+    for canon, meta in TERMS.items()
+    for alias in meta.get("aliases", [])
+}
+
 # اللغات الفعّالة: كل حقل مترجم يجب أن يحملها كلها.
 LANGS = ["ar", "en", "ru"]
 
@@ -181,9 +190,15 @@ def main():
                         if TERMS:
                             canon = TERMS.get(ar)
                             if canon is None:
-                                err(f"{where}.rulings.{school}.sources[{n_s}]: "
-                                    f"«{ar}» is not in {TERMS_PATH} — the book list "
-                                    f"is closed; add it there first if it is genuine")
+                                if ar in ALIASES:
+                                    err(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                        f"«{ar}» is a short name for «{ALIASES[ar]}» "
+                                        f"— use the canonical spelling "
+                                        f"(python3 tools/normalize_terms.py)")
+                                else:
+                                    err(f"{where}.rulings.{school}.sources[{n_s}]: "
+                                        f"«{ar}» is not in {TERMS_PATH} — the book list "
+                                        f"is closed; add it there first if it is genuine")
                             else:
                                 if canon["school"] != school:
                                     err(f"{where}.rulings.{school}.sources[{n_s}]: "
