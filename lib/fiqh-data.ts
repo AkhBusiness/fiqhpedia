@@ -144,11 +144,19 @@ export interface Article {
   id: string
   /** Permanent site-wide citation ref (e.g. "M1"). Never reused. */
   ref: string
+  /** Optional chapter label, for articles that sit in a traditional باب. */
+  chapter?: Localized
   title: Localized
   excerpt: Localized
   /** Refs of proofs that argue the same ground more formally. */
   relatedRefs: string[]
   sections: ArticleSection[]
+  /**
+   * Works the article draws on. Unlike a ruling's `references`, these are not
+   * school books: a narrative article may cite tafsīr, sīrah, or history.
+   * Spellings live under `works` in data/terms.json.
+   */
+  sources?: Localized[]
 }
 
 export interface Category {

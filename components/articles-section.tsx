@@ -251,6 +251,21 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
                   </section>
                 ))}
 
+                {reading.sources && reading.sources.length > 0 ? (
+                  <div className="mt-12 rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+                    <span className="mb-3 block text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
+                      {ui.references[lang]}
+                    </span>
+                    <ul className="flex list-none flex-col gap-1.5 p-0">
+                      {reading.sources.map((w, i) => (
+                        <li key={i} className="text-sm text-foreground/85">
+                          {w[lang]}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
                 {related.length > 0 ? (
                   <div className="mt-12 rounded-2xl border border-white/10 bg-white/[0.02] p-5">
                     <span className="mb-3 block text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
