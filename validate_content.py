@@ -44,6 +44,11 @@ PENDING_LANGS = ["es"]
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
 # Text that means "not written yet" and must never ship.
+# نصوص واجهة وظيفتها الإعلان عن حالة «لم يكتمل بعد»، فعبارة الانتظار فيها
+# هي الرسالة نفسها لا أثر عمل ناقص. تُستثنى بالمفتاح لا بالنص، حتى لا
+# يفتح الاستثناء باباً لتسرّب «قريباً» إلى محتوى حقيقي.
+PENDING_UI_KEYS = {"comingSoon", "betaNote", "glossaryPending"}
+
 PLACEHOLDERS = re.compile(
     r"\b(lorem ipsum|TODO|TBD|FIXME|XXX|placeholder|coming soon)\b"
     r"|قريبا|قريباً|قيد الإعداد|نص تجريبي",
@@ -69,7 +74,7 @@ def warn(msg):
     warnings.append(msg)
 
 
-def check_localized(obj, where, *, required=True):
+def check_localized(obj, where, *, required=True, allow_pending_wording=False):
     """Validate a {ar, en, ru} block."""
     if obj is None:
         if required:
@@ -92,7 +97,7 @@ def check_localized(obj, where, *, required=True):
             continue
         if "\ufffd" in val:
             err(f"{where}.{lang}: contains corrupted character (U+FFFD) — {val[:50]}")
-        if PLACEHOLDERS.search(val):
+        if not allow_pending_wording and PLACEHOLDERS.search(val):
             err(f"{where}.{lang}: contains placeholder text — {val[:50]}")
         if val != val.strip():
             warn(f"{where}.{lang}: leading/trailing whitespace")
@@ -408,7 +413,8 @@ def main():
 
     # ---- ui keys -----------------------------------------------------
     for key, val in data.get("ui", {}).items():
-        check_localized(val, f"ui.{key}")
+        check_localized(val, f"ui.{key}",
+                         allow_pending_wording=key in PENDING_UI_KEYS)
 
     # ---- report ------------------------------------------------------
     if show_stats:

@@ -20,6 +20,14 @@
       "label": "Русский",
       "flag": "🇷🇺",
       "flagCode": "ru"
+    },
+    {
+      "key": "es",
+      "short": "ES",
+      "label": "Español",
+      "flag": "🇪🇸",
+      "flagCode": "es",
+      "pending": true
     }
   ],
   "ui": {
@@ -660,6 +668,24 @@
       "en": "Results in other sections",
       "ru": "Результаты в других разделах",
       "es": "Resultados en otras secciones"
+    },
+    "comingSoon": {
+      "ar": "قريباً",
+      "en": "Soon",
+      "ru": "Скоро",
+      "es": "Pronto"
+    },
+    "betaTag": {
+      "ar": "تجريبي",
+      "en": "Beta",
+      "ru": "Бета",
+      "es": "Beta"
+    },
+    "betaNote": {
+      "ar": "الموقع قيد الإعداد والمحتوى يُراجَع",
+      "en": "The site is in progress and its content is under review",
+      "ru": "Сайт в разработке, содержание проверяется",
+      "es": "El sitio está en desarrollo y su contenido en revisión"
     }
   },
   "books": [
@@ -1136,10 +1162,424 @@
       }
     },
     {
+      "id": "taharah-10",
+      "ref": "F21",
+      "bookId": "taharah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم تقسيم المياه إلى طهور وطاهر ونجس",
+        "en": "Ruling on classifying water as tahur, pure, or impure",
+        "ru": "Постановление о делении воды на тахур, чистую и нечистую",
+        "es": "Norma sobre la clasificación del agua en tahur, pura e impura"
+      },
+      "summary": {
+        "ar": "إلى كم قسم تنقسم المياه عند الأئمة الأربعة، وما ضابط كل قسم؟",
+        "en": "Into how many categories do the four imams divide water, and what defines each?",
+        "ru": "На сколько категорий делят воду четыре имама и чем определяется каждая?",
+        "es": "¿En cuántas categorías dividen el agua los cuatro imanes y qué define cada una?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "تنقسم المياه إلى طاهر مطهر وهو المطلق، وطاهر غير مطهر وهو المستعمل، وماء نجس.",
+            "en": "Water divides into pure and purifying, which is absolute water; pure but not purifying, which is used water; and impure water.",
+            "ru": "Вода делится на чистую очищающую — абсолютную; чистую неочищающую — использованную; и нечистую воду.",
+            "es": "El agua se divide en pura purificadora, que es la absoluta; pura no purificadora, que es la usada; y agua impura."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تنقسم المياه إلى مطلق طهور يصح التطهير به، ومضاف طاهر غير مطهر، وماء نجس تغيّر بنجاسة.",
+            "en": "Water divides into absolute tahur, valid for purification; mixed water, pure but not purifying; and impure water altered by najasah.",
+            "ru": "Вода делится на абсолютную тахур, пригодную для очищения; смешанную — чистую, но неочищающую; и нечистую, изменённую наджасой.",
+            "es": "El agua se divide en absoluta tahur, válida para purificar; añadida, pura pero no purificadora; y agua impura alterada por najasah."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "تنقسم المياه إلى طهور مطهر، وطاهر غير مطهر وهو المستعمل والمتغير بطاهر، وماء نجس.",
+            "en": "Water divides into tahur; pure but not purifying, being used water or water altered by a pure substance; and impure water.",
+            "ru": "Вода делится на тахур; чистую неочищающую — использованную или изменённую чистым веществом; и нечистую воду.",
+            "es": "El agua se divide en tahur; pura no purificadora, que es la usada o alterada por una sustancia pura; y agua impura."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تنقسم المياه إلى ثلاثة أقسام: طهور يرفع الحدث، وطاهر لا يرفع الحدث، وماء نجس.",
+            "en": "Water divides into three categories: tahur, which removes hadath; pure, which does not remove hadath; and impure water.",
+            "ru": "Вода делится на три категории: тахур, устраняющую хадас; чистую, не устраняющую хадас; и нечистую воду.",
+            "es": "El agua se divide en tres categorías: tahur, que elimina el hadath; pura, que no lo elimina; y agua impura."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-11",
+      "ref": "F22",
+      "bookId": "taharah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم الماء الطهور المتغير بطاهر لم يخرجه عن طبيعته",
+        "en": "Ruling on tahur water altered by a pure substance that keeps its nature",
+        "ru": "Постановление о воде тахур, изменённой чистым веществом без утраты её природы",
+        "es": "Norma sobre el agua tahur alterada por una sustancia pura que conserva su naturaleza"
+      },
+      "summary": {
+        "ar": "هل يبطل التطهير بالماء المتغير بطاهر لا يخرجه عن طبيعته كالتراب؟",
+        "en": "Is purification invalidated by water altered by a pure substance, such as dust, that keeps its nature?",
+        "ru": "Утрачивает ли вода пригодность для очищения, изменившись чистым веществом вроде пыли, сохранив свою природу?",
+        "es": "¿Se invalida la purificación con agua alterada por una sustancia pura, como la tierra, que conserva su naturaleza?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يصح التوضؤ بالماء المتغير بالتراب والملح المائي وما يقع فيه اتفاقاً كأوراق الشجر لعدم سلبه اسم الماء المطلق.",
+            "en": "Ablution is valid with water altered by dust, water-formed salt, or leaves fallen into it by chance, since the name of absolute water remains.",
+            "ru": "Омовение действительно водой, изменённой пылью, солью водного происхождения или случайно упавшими листьями, поскольку название абсолютной воды сохраняется.",
+            "es": "La ablución es válida con agua alterada por tierra, sal de origen acuático u hojas caídas por azar, pues conserva el nombre de agua absoluta."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبقى الماء طهوراً إذا تغيّر بالتراب أو الملح المائي أو بما يقع فيه اتفاقاً كالورق، ويرفع الحدث ويزيل الخبث.",
+            "en": "Water stays tahur when altered by dust, water-formed salt, or leaves fallen by chance, and it still removes hadath and impurity.",
+            "ru": "Вода остаётся тахур при изменении пылью, солью водного происхождения или случайно упавшими листьями и по-прежнему устраняет хадас и скверну.",
+            "es": "El agua sigue siendo tahur si la altera la tierra, la sal de origen acuático u hojas caídas por azar, y aún elimina el hadath y la impureza."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يضر تغيّر الماء بالتراب والملح المائي وما يقع فيه اتفاقاً كأوراق الشجر، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
+            "en": "Alteration by dust, water-formed salt, or leaves fallen by chance does no harm; the water stays tahur, removing hadath and najasah.",
+            "ru": "Изменение пылью, солью водного происхождения или случайно упавшими листьями не вредит: вода остаётся тахур, устраняя хадас и наджасу.",
+            "es": "La alteración por tierra, sal de origen acuático u hojas caídas por azar no perjudica: el agua sigue siendo tahur y elimina el hadath y la najasah."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يظل الماء طهوراً يرفع الحدث ويزيل النجاسة إذا تغيّر بما لا يمازجه كالتراب والملح المائي وما يقع فيه اتفاقاً.",
+            "en": "Water stays tahur, removing hadath and najasah, when altered by what does not blend into it, such as dust, water-formed salt, or what falls in by chance.",
+            "ru": "Вода остаётся тахур, устраняя хадас и наджасу, если изменилась тем, что с ней не смешивается: пылью, солью водного происхождения или случайно попавшим.",
+            "es": "El agua sigue siendo tahur, y elimina el hadath y la najasah, si la altera algo que no se mezcla con ella: tierra, sal de origen acuático o lo que cae por azar."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-12",
+      "ref": "F23",
+      "bookId": "taharah",
+      "number": 4,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم الماء الطهور المتغير بطاهر يمازجه كالزعفران والصابون والسدر",
+        "en": "Ruling on tahur water altered by a pure substance that blends into it",
+        "ru": "Постановление о воде тахур, изменённой чистым веществом, смешавшимся с ней",
+        "es": "Norma sobre el agua tahur alterada por una sustancia pura que se mezcla con ella"
+      },
+      "summary": {
+        "ar": "هل يرفع الحدث بالماء المتغير بطاهر يمازجه كالزعفران والسدر والصابون؟",
+        "en": "Does water altered by a blending pure substance, such as saffron or soap, still remove hadath?",
+        "ru": "Устраняет ли хадас вода, изменённая смешавшимся чистым веществом — шафраном, лотосом или мылом?",
+        "es": "¿Elimina el hadath el agua alterada por una sustancia pura que se mezcla, como el azafrán o el jabón?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التوضؤ بالماء المتغير بطاهر خالطه كالزعفران والصابون والسدر ما دام رقيقاً لم يزل عنه اسم الماء المطلق ولم يغلب عليه.",
+            "en": "Ablution remains valid with water altered by a blending pure substance such as saffron, soap, or lote-leaf, so long as it stays thin and the mixture has not overwhelmed the name of absolute water.",
+            "ru": "Омовение действительно водой, изменённой смешавшимся чистым веществом — шафраном, мылом или лотосом, — пока она остаётся жидкой и примесь не возобладала над названием абсолютной воды.",
+            "es": "La ablución sigue siendo válida con agua alterada por una sustancia pura que se mezcla —azafrán, jabón o loto— mientras siga fluida y la mezcla no haya vencido al nombre de agua absoluta."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يصح التطهير بالماء المتغير بالزعفران أو الصابون أو السدر إذا كان التغيّر يسيراً، فإن كان كثيراً صار طاهراً غير مطهر.",
+            "en": "Purification is valid with water altered by saffron, soap, or lote-leaf when the change is slight; if it is considerable the water becomes pure but not purifying.",
+            "ru": "Очищение действительно водой, изменённой шафраном, мылом или лотосом, если изменение незначительно; при значительном она становится чистой, но неочищающей.",
+            "es": "La purificación es válida con agua alterada por azafrán, jabón o loto si el cambio es leve; si es considerable, el agua queda pura pero no purificadora."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يصح رفع الحدث ولا إزالة النجاسة بالماء المتغير بطاهر يمازجه كالزعفران والسدر تغيّراً كثيراً يمنع إطلاق اسم الماء عليه.",
+            "en": "Neither hadath nor najasah may be removed with water so much altered by a blending pure substance, such as saffron or lote-leaf, that it can no longer simply be called water.",
+            "ru": "Ни хадас, ни наджаса не устраняются водой, настолько изменённой смешавшимся чистым веществом — шафраном или лотосом, — что её уже нельзя назвать просто водой.",
+            "es": "No se elimina el hadath ni la najasah con agua tan alterada por una sustancia pura que se mezcla —azafrán o loto— que ya no puede llamarse simplemente agua."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ينقلب الماء طاهراً لا يرفع الحدث إذا تغيّر بطاهر يمازجه كالزعفران والصابون والسدر تغيّراً كثيراً يمنع إطلاق اسم الماء الطهور.",
+            "en": "The water turns pure but non-purifying and no longer removes hadath once a blending pure substance such as saffron, soap, or lote-leaf alters it enough to bar the name tahur.",
+            "ru": "Вода становится чистой, но неочищающей, и уже не устраняет хадас, когда смешавшееся чистое вещество — шафран, мыло или лотос — изменяет её настолько, что название тахур к ней неприложимо.",
+            "es": "El agua pasa a ser pura pero no purificadora y ya no elimina el hadath cuando una sustancia pura que se mezcla —azafrán, jabón o loto— la altera lo bastante para impedir el nombre de tahur."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-5",
       "ref": "F8",
       "bookId": "taharah",
-      "number": 2,
+      "number": 5,
       "chapter": {
         "ar": "باب المياه",
         "en": "Chapter of Waters",
@@ -1218,7 +1658,7 @@
       "id": "taharah-6",
       "ref": "F9",
       "bookId": "taharah",
-      "number": 3,
+      "number": 6,
       "chapter": {
         "ar": "باب الآنية",
         "en": "Chapter of Vessels",
@@ -1297,7 +1737,7 @@
       "id": "taharah-7",
       "ref": "F10",
       "bookId": "taharah",
-      "number": 4,
+      "number": 7,
       "chapter": {
         "ar": "باب الاستنجاء",
         "en": "Chapter of Cleansing after Relief (Istinjā’)",
@@ -1376,7 +1816,7 @@
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 5,
+      "number": 8,
       "chapter": {
         "ar": "باب فرض الوضوء",
         "en": "Chapter of the Obligation of Ablution",
@@ -1455,7 +1895,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 6,
+      "number": 9,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -1534,7 +1974,7 @@
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 7,
+      "number": 10,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -1613,7 +2053,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 8,
+      "number": 11,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -1692,7 +2132,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 9,
+      "number": 12,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",

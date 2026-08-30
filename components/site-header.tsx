@@ -27,9 +27,17 @@ export function SiteHeader({
             <BookOpen className="size-5" aria-hidden="true" />
           </span>
           <div className="min-w-0">
-            <h1 className="truncate text-base font-bold leading-tight text-foreground sm:text-lg">
-              {ui.appTitle[lang]}
-            </h1>
+            <div className="flex items-center gap-2">
+              <h1 className="truncate text-base font-bold leading-tight text-foreground sm:text-lg">
+                {ui.appTitle[lang]}
+              </h1>
+              <span
+                title={ui.betaNote[lang]}
+                className="shrink-0 rounded-full border border-amber-500/40 bg-amber-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-amber-500"
+              >
+                {ui.betaTag[lang]}
+              </span>
+            </div>
             <p className="hidden truncate text-xs text-muted-foreground sm:block">{ui.appSubtitle[lang]}</p>
           </div>
         </div>
@@ -53,11 +61,31 @@ export function SiteHeader({
           >
             {langLabels.map((l) => {
               const active = l.key === lang
+              // A pending language is shown so visitors know it is coming,
+              // but it cannot be chosen: its pages would be half-English.
+              if (l.pending) {
+                return (
+                  <span
+                    key={l.key}
+                    title={`${l.label} — ${ui.comingSoon[lang]}`}
+                    aria-disabled="true"
+                    className="flex min-w-11 cursor-default items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold text-zinc-600 sm:min-w-0"
+                  >
+                    <span className="opacity-40">
+                      <Flag code={l.flagCode} size={16} />
+                    </span>
+                    <span className="opacity-60">{l.short}</span>
+                    <span className="rounded-full bg-white/10 px-1.5 py-0.5 text-[9px] font-bold text-zinc-400">
+                      {ui.comingSoon[lang]}
+                    </span>
+                  </span>
+                )
+              }
               return (
                 <button
                   key={l.key}
                   type="button"
-                  onClick={() => onLangChange(l.key)}
+                  onClick={() => onLangChange(l.key as Lang)}
                   aria-pressed={active}
                   title={l.label}
                   className={`flex min-w-11 items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all duration-200 sm:min-w-0 ${

@@ -126,13 +126,16 @@ export function SchoolSelectorModal({
               {ui.stepLabel[lang]} 1 / 2
             </span>
             {langLabels.map((l) => {
+              // اللغة المعلّقة لا تُعرض هنا: هذه الشاشة اختيارٌ ملزم،
+              // وعرض ما لا يُختار فيها يوقف الزائر في أول خطوة.
+              if (l.pending) return null
               const active = l.key === lang
               return (
                 <button
                   key={l.key}
                   type="button"
                   onClick={() => {
-                    onLangChange?.(l.key)
+                    onLangChange?.(l.key as Lang)
                     setStep(2)
                   }}
                   aria-pressed={active}

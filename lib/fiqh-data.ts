@@ -258,7 +258,15 @@ interface RawTheologyProof {
 }
 
 interface RawData {
-  languages: { key: Lang; short: string; label: string; flag: string; flagCode: string }[]
+  languages: {
+    key: Lang | PendingLang
+    short: string
+    label: string
+    flag: string
+    flagCode: string
+    /** Listed in the picker but not selectable yet — shows a "soon" badge. */
+    pending?: boolean
+  }[]
   ui: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
@@ -390,8 +398,14 @@ export function findByRef(
   return null
 }
 
-export const langLabels: { key: Lang; short: string; label: string; flag: string; flagCode: string }[] =
-  data.languages
+export const langLabels: {
+  key: Lang | PendingLang
+  short: string
+  label: string
+  flag: string
+  flagCode: string
+  pending?: boolean
+}[] = data.languages
 
 /** Languages that render right-to-left (behavioral, not content). */
 export const rtlLangs: Lang[] = ["ar"]
