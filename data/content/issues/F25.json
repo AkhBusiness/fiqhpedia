@@ -1,0 +1,138 @@
+{
+  "ref": "F25",
+  "id": "taharah-14",
+  "bookId": "taharah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء الطهور المسخّن بالطاقة أو الشمس أو بنجس",
+    "en": "Ruling on tahur water heated by energy, by the sun, or by something impure",
+    "ru": "Постановление о воде тахур, нагретой энергией, солнцем или нечистым",
+    "es": "Norma sobre el agua tahur calentada con energía, con el sol o con algo impuro"
+  },
+  "summary": {
+    "ar": "هل يكره أو يبطل التطهير بالماء المسخّن بالطاقة أو الشمس أو بنجس؟",
+    "en": "Is purification with water heated by energy, the sun, or something impure disliked or invalid?",
+    "ru": "Нежелательно ли очищение водой, нагретой энергией, солнцем или нечистым, или недействительно?",
+    "es": "¿Es detestable o inválida la purificación con agua calentada por energía, el sol o algo impuro?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز التوضؤ بالماء المسخّن مطلقاً بلا كراهة، إلا المسخّن بالشمس في إناء منطبع فيكره خشية الضرر.",
+        "en": "Ablution with heated water is valid without dislike, except water heated by the sun in a beaten-metal vessel, which is disliked for fear of harm.",
+        "ru": "Омовение нагретой водой действительно без нежелательности, кроме воды, нагретой солнцем в кованом металлическом сосуде: она нежелательна из опасения вреда.",
+        "es": "La ablución con agua calentada es válida sin reparo, salvo la calentada al sol en un recipiente de metal batido, que se detesta por temor al daño."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يصح التطهير بالماء المسخّن بالطاقة أو الشمس أو بنجس بلا كراهة، ما لم يتغيّر بدخان النجاسة.",
+        "en": "Purification is valid without dislike using water heated by energy, the sun, or something impure, so long as the smoke of the impurity has not altered it.",
+        "ru": "Очищение действительно без нежелательности водой, нагретой энергией, солнцем или нечистым, если её не изменил дым нечистоты.",
+        "es": "La purificación es válida sin reparo con agua calentada por energía, el sol o algo impuro, mientras el humo de la impureza no la haya alterado."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يصح التطهير بالماء المسخّن، ويكره المسخّن بالشمس في إناء منطبع بقطر حارّ، والمسخّن بنجس إن خيف وصوله.",
+        "en": "Purification with heated water is valid; disliked are water heated by the sun in a beaten-metal vessel in a hot land, and water heated by something impure if it may reach the water.",
+        "ru": "Очищение нагретой водой действительно; нежелательна вода, нагретая солнцем в кованом сосуде в жарком краю, и нагретая нечистым, если есть опасение его попадания.",
+        "es": "La purificación con agua calentada es válida; se detesta la calentada al sol en un recipiente de metal batido en tierra cálida, y la calentada con algo impuro si se teme que la alcance."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يكره التطهير بالماء المسخّن بنجس أو بالشمس إن اشتدّ حرّه، ويصح رفع الحدث به.",
+        "en": "Purifying with water heated by something impure, or by the sun when it grows very hot, is disliked, yet hadath is validly removed with it.",
+        "ru": "Очищение водой, нагретой нечистым или солнцем до сильного жара, нежелательно, но хадас ею устраняется действительно.",
+        "es": "Purificarse con agua calentada por algo impuro, o por el sol hasta calentarse mucho, es detestable, pero el hadath se elimina válidamente con ella."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

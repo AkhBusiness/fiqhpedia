@@ -1,0 +1,138 @@
+{
+  "ref": "F26",
+  "id": "taharah-15",
+  "bookId": "taharah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء الطهور المتغيّر بمقرّه أو ممرّه",
+    "en": "Ruling on tahur water altered by its bed or its channel",
+    "ru": "Постановление о воде тахур, изменённой её ложем или руслом",
+    "es": "Norma sobre el agua tahur alterada por su lecho o su cauce"
+  },
+  "summary": {
+    "ar": "هل يصح التطهير بالماء المتغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت؟",
+    "en": "Is purification valid with water altered by its bed or channel, such as algae or sulphur beds?",
+    "ru": "Действительно ли очищение водой, изменённой её ложем или руслом, — водорослями или серными залежами?",
+    "es": "¿Es válida la purificación con agua alterada por su lecho o cauce, como algas o yacimientos de azufre?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز التوضؤ بالماء المتغيّر بمقرّه أو ممرّه كالطحالب والكبريت، لمشقة الاحتراز عنه وبقاء إطلاقه.",
+        "en": "Ablution is valid with water altered by its bed or channel, such as algae or sulphur, because guarding against it is burdensome and it remains absolute water.",
+        "ru": "Омовение действительно водой, изменённой её ложем или руслом — водорослями или серой, — ибо уберечься от этого тягостно, и она остаётся абсолютной.",
+        "es": "La ablución es válida con agua alterada por su lecho o cauce, como algas o azufre, pues evitarlo es gravoso y sigue siendo agua absoluta."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يظل الماء طهوراً يرفع الحدث ويزيل الخبث إذا تغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت.",
+        "en": "Water stays tahur, removing hadath and impurity, when altered by its bed or channel, such as algae or sulphur beds.",
+        "ru": "Вода остаётся тахур, устраняя хадас и скверну, если изменилась от своего ложа или русла — водорослей или серных залежей.",
+        "es": "El agua sigue siendo tahur, y elimina el hadath y la impureza, si la altera su lecho o su cauce, como algas o yacimientos de azufre."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا يضرّ تغيّر الماء بما في مقرّه أو ممرّه كالطحالب ومواضع الكبريت، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
+        "en": "Change caused by what lies in the water's bed or channel, such as algae or sulphur beds, does no harm; it stays tahur, removing hadath and najasah.",
+        "ru": "Изменение от того, что находится в ложе или русле воды — водорослей или серных залежей, — не вредит: она остаётся тахур и устраняет хадас и наджасу.",
+        "es": "El cambio causado por lo que hay en el lecho o cauce del agua, como algas o yacimientos de azufre, no perjudica: sigue siendo tahur y elimina el hadath y la najasah."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا يكره التطهير بالماء المتغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
+        "en": "Purifying with water altered by its bed or channel, such as algae or sulphur beds, is not disliked; it stays tahur, removing hadath and najasah.",
+        "ru": "Очищение водой, изменённой её ложем или руслом — водорослями или серными залежами, — не нежелательно: она остаётся тахур и устраняет хадас и наджасу.",
+        "es": "Purificarse con agua alterada por su lecho o cauce, como algas o yacimientos de azufre, no es detestable: sigue siendo tahur y elimina el hadath y la najasah."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

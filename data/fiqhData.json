@@ -2860,10 +2860,424 @@
       }
     },
     {
+      "id": "taharah-13",
+      "ref": "F24",
+      "bookId": "taharah",
+      "number": 5,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم الماء الطهور المتغيّر بمجاور لا يخالطه",
+        "en": "Ruling on tahur water altered by an adjacent substance that does not blend",
+        "ru": "Постановление о воде тахур, изменённой прилегающим веществом, не смешивающимся с ней",
+        "es": "Norma sobre el agua tahur alterada por una sustancia contigua que no se mezcla"
+      },
+      "summary": {
+        "ar": "هل يرفع الحدث بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع؟",
+        "en": "Does water altered by an adjacent substance such as fat, oil, or wax still remove hadath?",
+        "ru": "Устраняет ли хадас вода, изменённая прилегающим веществом — жиром, маслом или воском?",
+        "es": "¿Elimina el hadath el agua alterada por una sustancia contigua como grasa, aceite o cera?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التوضؤ بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، لأن التغيّر بالمجاورة لا يخرجه عن الإطلاق.",
+            "en": "Ablution is valid with water altered by an adjacent substance such as fat, oil, or wax, since change by mere proximity does not strip it of being absolute water.",
+            "ru": "Омовение действительно водой, изменённой прилегающим веществом — жиром, маслом или воском, — поскольку изменение от соседства не лишает её абсолютности.",
+            "es": "La ablución es válida con agua alterada por una sustancia contigua como grasa, aceite o cera, pues el cambio por mera contigüidad no le quita su carácter absoluto."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يصح التطهير بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، ويظل طهوراً يرفع الحدث ويزيل الخبث.",
+            "en": "Purification is valid with water altered by an adjacent substance such as fat, oil, or wax; it stays tahur, removing hadath and impurity.",
+            "ru": "Очищение действительно водой, изменённой прилегающим веществом — жиром, маслом или воском; она остаётся тахур и устраняет хадас и скверну.",
+            "es": "La purificación es válida con agua alterada por una sustancia contigua como grasa, aceite o cera; sigue siendo tahur y elimina el hadath y la impureza."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يصح رفع الحدث وإزالة النجاسة بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت، لأنه تغيّر مجاورة لا مخالطة.",
+            "en": "Hadath and najasah may be removed with water altered by an adjacent substance such as fat or oil, because the change comes from proximity, not from blending.",
+            "ru": "Хадас и наджаса устраняются водой, изменённой прилегающим веществом вроде жира или масла, ибо изменение от соседства, а не от смешения.",
+            "es": "El hadath y la najasah se eliminan con agua alterada por una sustancia contigua como grasa o aceite, pues el cambio viene de la contigüidad, no de la mezcla."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يكره التطهير بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، ويصح رفع الحدث به لبقاء إطلاقه.",
+            "en": "Purifying with water altered by an adjacent substance such as fat, oil, or wax is disliked, yet it validly removes hadath because it is still called absolute water.",
+            "ru": "Очищение водой, изменённой прилегающим веществом — жиром, маслом или воском, — нежелательно, но действительно устраняет хадас, ибо она остаётся абсолютной.",
+            "es": "Purificarse con agua alterada por una sustancia contigua como grasa, aceite o cera es detestable, pero elimina válidamente el hadath, pues sigue llamándose agua absoluta."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-15",
+      "ref": "F26",
+      "bookId": "taharah",
+      "number": 6,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم الماء الطهور المتغيّر بمقرّه أو ممرّه",
+        "en": "Ruling on tahur water altered by its bed or its channel",
+        "ru": "Постановление о воде тахур, изменённой её ложем или руслом",
+        "es": "Norma sobre el agua tahur alterada por su lecho o su cauce"
+      },
+      "summary": {
+        "ar": "هل يصح التطهير بالماء المتغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت؟",
+        "en": "Is purification valid with water altered by its bed or channel, such as algae or sulphur beds?",
+        "ru": "Действительно ли очищение водой, изменённой её ложем или руслом, — водорослями или серными залежами?",
+        "es": "¿Es válida la purificación con agua alterada por su lecho o cauce, como algas o yacimientos de azufre?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التوضؤ بالماء المتغيّر بمقرّه أو ممرّه كالطحالب والكبريت، لمشقة الاحتراز عنه وبقاء إطلاقه.",
+            "en": "Ablution is valid with water altered by its bed or channel, such as algae or sulphur, because guarding against it is burdensome and it remains absolute water.",
+            "ru": "Омовение действительно водой, изменённой её ложем или руслом — водорослями или серой, — ибо уберечься от этого тягостно, и она остаётся абсолютной.",
+            "es": "La ablución es válida con agua alterada por su lecho o cauce, como algas o azufre, pues evitarlo es gravoso y sigue siendo agua absoluta."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يظل الماء طهوراً يرفع الحدث ويزيل الخبث إذا تغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت.",
+            "en": "Water stays tahur, removing hadath and impurity, when altered by its bed or channel, such as algae or sulphur beds.",
+            "ru": "Вода остаётся тахур, устраняя хадас и скверну, если изменилась от своего ложа или русла — водорослей или серных залежей.",
+            "es": "El agua sigue siendo tahur, y elimina el hadath y la impureza, si la altera su lecho o su cauce, como algas o yacimientos de azufre."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يضرّ تغيّر الماء بما في مقرّه أو ممرّه كالطحالب ومواضع الكبريت، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
+            "en": "Change caused by what lies in the water's bed or channel, such as algae or sulphur beds, does no harm; it stays tahur, removing hadath and najasah.",
+            "ru": "Изменение от того, что находится в ложе или русле воды — водорослей или серных залежей, — не вредит: она остаётся тахур и устраняет хадас и наджасу.",
+            "es": "El cambio causado por lo que hay en el lecho o cauce del agua, como algas o yacimientos de azufre, no perjudica: sigue siendo tahur y elimina el hadath y la najasah."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا يكره التطهير بالماء المتغيّر بمقرّه أو ممرّه كالطحالب ومواضع الكبريت، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
+            "en": "Purifying with water altered by its bed or channel, such as algae or sulphur beds, is not disliked; it stays tahur, removing hadath and najasah.",
+            "ru": "Очищение водой, изменённой её ложем или руслом — водорослями или серными залежами, — не нежелательно: она остаётся тахур и устраняет хадас и наджасу.",
+            "es": "Purificarse con agua alterada por su lecho o cauce, como algas o yacimientos de azufre, no es detestable: sigue siendo tahur y elimina el hadath y la najasah."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-14",
+      "ref": "F25",
+      "bookId": "taharah",
+      "number": 7,
+      "chapter": {
+        "ar": "باب المياه",
+        "en": "Chapter of Waters",
+        "ru": "Раздел о водах",
+        "es": "Capítulo sobre las aguas"
+      },
+      "title": {
+        "ar": "حكم الماء الطهور المسخّن بالطاقة أو الشمس أو بنجس",
+        "en": "Ruling on tahur water heated by energy, by the sun, or by something impure",
+        "ru": "Постановление о воде тахур, нагретой энергией, солнцем или нечистым",
+        "es": "Norma sobre el agua tahur calentada con energía, con el sol o con algo impuro"
+      },
+      "summary": {
+        "ar": "هل يكره أو يبطل التطهير بالماء المسخّن بالطاقة أو الشمس أو بنجس؟",
+        "en": "Is purification with water heated by energy, the sun, or something impure disliked or invalid?",
+        "ru": "Нежелательно ли очищение водой, нагретой энергией, солнцем или нечистым, или недействительно?",
+        "es": "¿Es detestable o inválida la purificación con agua calentada por energía, el sol o algo impuro?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يجوز التوضؤ بالماء المسخّن مطلقاً بلا كراهة، إلا المسخّن بالشمس في إناء منطبع فيكره خشية الضرر.",
+            "en": "Ablution with heated water is valid without dislike, except water heated by the sun in a beaten-metal vessel, which is disliked for fear of harm.",
+            "ru": "Омовение нагретой водой действительно без нежелательности, кроме воды, нагретой солнцем в кованом металлическом сосуде: она нежелательна из опасения вреда.",
+            "es": "La ablución con agua calentada es válida sin reparo, salvo la calentada al sol en un recipiente de metal batido, que se detesta por temor al daño."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يصح التطهير بالماء المسخّن بالطاقة أو الشمس أو بنجس بلا كراهة، ما لم يتغيّر بدخان النجاسة.",
+            "en": "Purification is valid without dislike using water heated by energy, the sun, or something impure, so long as the smoke of the impurity has not altered it.",
+            "ru": "Очищение действительно без нежелательности водой, нагретой энергией, солнцем или нечистым, если её не изменил дым нечистоты.",
+            "es": "La purificación es válida sin reparo con agua calentada por energía, el sol o algo impuro, mientras el humo de la impureza no la haya alterado."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يصح التطهير بالماء المسخّن، ويكره المسخّن بالشمس في إناء منطبع بقطر حارّ، والمسخّن بنجس إن خيف وصوله.",
+            "en": "Purification with heated water is valid; disliked are water heated by the sun in a beaten-metal vessel in a hot land, and water heated by something impure if it may reach the water.",
+            "ru": "Очищение нагретой водой действительно; нежелательна вода, нагретая солнцем в кованом сосуде в жарком краю, и нагретая нечистым, если есть опасение его попадания.",
+            "es": "La purificación con agua calentada es válida; se detesta la calentada al sol en un recipiente de metal batido en tierra cálida, y la calentada con algo impuro si se teme que la alcance."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يكره التطهير بالماء المسخّن بنجس أو بالشمس إن اشتدّ حرّه، ويصح رفع الحدث به.",
+            "en": "Purifying with water heated by something impure, or by the sun when it grows very hot, is disliked, yet hadath is validly removed with it.",
+            "ru": "Очищение водой, нагретой нечистым или солнцем до сильного жара, нежелательно, но хадас ею устраняется действительно.",
+            "es": "Purificarse con agua calentada por algo impuro, o por el sol hasta calentarse mucho, es detestable, pero el hadath se elimina válidamente con ella."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-5",
       "ref": "F8",
       "bookId": "taharah",
-      "number": 5,
+      "number": 8,
       "chapter": {
         "ar": "باب المياه",
         "en": "Chapter of Waters",
@@ -2942,7 +3356,7 @@
       "id": "taharah-6",
       "ref": "F9",
       "bookId": "taharah",
-      "number": 6,
+      "number": 9,
       "chapter": {
         "ar": "باب الآنية",
         "en": "Chapter of Vessels",
@@ -3021,7 +3435,7 @@
       "id": "taharah-7",
       "ref": "F10",
       "bookId": "taharah",
-      "number": 7,
+      "number": 10,
       "chapter": {
         "ar": "باب الاستنجاء",
         "en": "Chapter of Cleansing after Relief (Istinjā’)",
@@ -3100,7 +3514,7 @@
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 8,
+      "number": 11,
       "chapter": {
         "ar": "باب فرض الوضوء",
         "en": "Chapter of the Obligation of Ablution",
@@ -3179,7 +3593,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 9,
+      "number": 12,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -3258,7 +3672,7 @@
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 10,
+      "number": 13,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -3337,7 +3751,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 11,
+      "number": 14,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -3416,7 +3830,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 12,
+      "number": 15,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",

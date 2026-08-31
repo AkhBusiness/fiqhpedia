@@ -1,0 +1,138 @@
+{
+  "ref": "F24",
+  "id": "taharah-13",
+  "bookId": "taharah",
+  "seq": 5,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء الطهور المتغيّر بمجاور لا يخالطه",
+    "en": "Ruling on tahur water altered by an adjacent substance that does not blend",
+    "ru": "Постановление о воде тахур, изменённой прилегающим веществом, не смешивающимся с ней",
+    "es": "Norma sobre el agua tahur alterada por una sustancia contigua que no se mezcla"
+  },
+  "summary": {
+    "ar": "هل يرفع الحدث بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع؟",
+    "en": "Does water altered by an adjacent substance such as fat, oil, or wax still remove hadath?",
+    "ru": "Устраняет ли хадас вода, изменённая прилегающим веществом — жиром, маслом или воском?",
+    "es": "¿Elimina el hadath el agua alterada por una sustancia contigua como grasa, aceite o cera?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز التوضؤ بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، لأن التغيّر بالمجاورة لا يخرجه عن الإطلاق.",
+        "en": "Ablution is valid with water altered by an adjacent substance such as fat, oil, or wax, since change by mere proximity does not strip it of being absolute water.",
+        "ru": "Омовение действительно водой, изменённой прилегающим веществом — жиром, маслом или воском, — поскольку изменение от соседства не лишает её абсолютности.",
+        "es": "La ablución es válida con agua alterada por una sustancia contigua como grasa, aceite o cera, pues el cambio por mera contigüidad no le quita su carácter absoluto."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يصح التطهير بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، ويظل طهوراً يرفع الحدث ويزيل الخبث.",
+        "en": "Purification is valid with water altered by an adjacent substance such as fat, oil, or wax; it stays tahur, removing hadath and impurity.",
+        "ru": "Очищение действительно водой, изменённой прилегающим веществом — жиром, маслом или воском; она остаётся тахур и устраняет хадас и скверну.",
+        "es": "La purificación es válida con agua alterada por una sustancia contigua como grasa, aceite o cera; sigue siendo tahur y elimina el hadath y la impureza."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يصح رفع الحدث وإزالة النجاسة بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت، لأنه تغيّر مجاورة لا مخالطة.",
+        "en": "Hadath and najasah may be removed with water altered by an adjacent substance such as fat or oil, because the change comes from proximity, not from blending.",
+        "ru": "Хадас и наджаса устраняются водой, изменённой прилегающим веществом вроде жира или масла, ибо изменение от соседства, а не от смешения.",
+        "es": "El hadath y la najasah se eliminan con agua alterada por una sustancia contigua como grasa o aceite, pues el cambio viene de la contigüidad, no de la mezcla."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يكره التطهير بالماء المتغيّر بمجاور لا يخالطه كالدهن والزيت والشمع، ويصح رفع الحدث به لبقاء إطلاقه.",
+        "en": "Purifying with water altered by an adjacent substance such as fat, oil, or wax is disliked, yet it validly removes hadath because it is still called absolute water.",
+        "ru": "Очищение водой, изменённой прилегающим веществом — жиром, маслом или воском, — нежелательно, но действительно устраняет хадас, ибо она остаётся абсолютной.",
+        "es": "Purificarse con agua alterada por una sustancia contigua como grasa, aceite o cera es detestable, pero elimina válidamente el hadath, pues sigue llamándose agua absoluta."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

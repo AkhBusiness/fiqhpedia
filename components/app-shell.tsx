@@ -213,7 +213,7 @@ export function AppShell({ lang, section }: AppShellProps) {
       <SectionTabs lang={lang} active={section} onSelect={go} />
 
       {section === "fiqh" ? (
-        <>
+        <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
           <CategoryTabs
             lang={lang}
             activeId={scope === "saved" || searching ? "" : activeCategory}
@@ -224,7 +224,7 @@ export function AppShell({ lang, section }: AppShellProps) {
             }}
           />
 
-          <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
+          <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:min-w-0 lg:flex-1 lg:px-0 lg:pt-0">
             <FilterBar
               lang={lang}
               query={query}
@@ -314,7 +314,7 @@ export function AppShell({ lang, section }: AppShellProps) {
               </div>
             )}
           </main>
-        </>
+        </div>
       ) : (
         <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
           {section === "home" ? (

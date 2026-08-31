@@ -13,21 +13,23 @@ export function CategoryTabs({ lang, activeId, counts, onSelect }: CategoryTabsP
   return (
     <nav
       aria-label={lang === "ar" ? "أبواب الفقه" : lang === "ru" ? "Разделы фикха" : "Fiqh sections"}
-      className="sticky top-[122px] z-10 px-3 py-3 sm:px-4"
+      // الجوال: شريط أفقي لاصق تحت الترويسة.
+      // الشاشة الكبيرة: عمود جانبي يملأ الفراغ الذي كان يضيع على الأطراف.
+      className="sticky top-[134px] z-10 px-3 py-3 sm:px-4 lg:static lg:w-56 lg:shrink-0 lg:px-0 lg:py-0"
     >
-      <div className="mx-auto max-w-6xl">
-        <div className="inline-flex max-w-full rounded-full border border-white/10 bg-white/[0.04] p-1 shadow-lg shadow-black/30 backdrop-blur-md">
-          <ul className="flex gap-0.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="mx-auto max-w-6xl lg:max-w-none">
+        <div className="inline-flex max-w-full rounded-full border border-white/10 bg-white/[0.04] p-1 shadow-lg shadow-black/30 backdrop-blur-md lg:sticky lg:top-[150px] lg:block lg:w-full lg:rounded-2xl lg:p-2 lg:shadow-none">
+          <ul className="flex gap-0.5 overflow-x-auto [scrollbar-width:none] lg:flex-col lg:gap-0.5 lg:overflow-visible [&::-webkit-scrollbar]:hidden">
             {categories.map((cat: Category) => {
               const active = cat.id === activeId
               const count = counts[cat.id] ?? 0
               return (
-                <li key={cat.id} className="shrink-0">
+                <li key={cat.id} className="shrink-0 lg:w-full">
                   <button
                     type="button"
                     onClick={() => onSelect(cat.id)}
                     aria-current={active ? "page" : undefined}
-                    className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm whitespace-nowrap transition-all duration-300 ${
+                    className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm whitespace-nowrap transition-all duration-300 lg:w-full lg:justify-between lg:rounded-xl lg:px-3 lg:py-2 ${
                       active
                         ? "bg-white font-semibold text-black shadow-[0_1px_3px_rgba(0,0,0,0.3)]"
                         : "font-medium text-zinc-400 hover:text-white"
