@@ -1,0 +1,74 @@
+{
+  "ref": "F3",
+  "id": "iman-3",
+  "bookId": "iman",
+  "seq": 3,
+  "title": {
+    "ar": "أثر ترك الصلاة كسلاً على بقاء وصف الإسلام",
+    "en": "The effect of abandoning prayer out of laziness on retaining the description of Islam",
+    "ru": "Влияние оставления молитвы по лени на сохранение статуса мусульманина"
+  },
+  "summary": {
+    "ar": "هل يكفر تارك الصلاة تهاونًا وكسلاً مع إقراره بوجوبها، أم يبقى مسلمًا فاسقًا؟",
+    "en": "Does one who abandons prayer out of negligence and laziness, while affirming its obligation, become a disbeliever, or remain a sinful Muslim?",
+    "ru": "Становится ли неверующим оставивший молитву по небрежности и лени, признавая её обязательность, или остаётся грешным мусульманином?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا يكفر بتركها كسلاً مع إقراره بوجوبها، بل يحبس ويعزر حتى يصلي.",
+        "en": "He does not disbelieve by abandoning it out of laziness while affirming its obligation; rather he is imprisoned and disciplined until he prays.",
+        "ru": "Он не становится неверующим, оставляя её по лени при признании обязательности; его заключают и наказывают, пока не начнёт молиться."
+      },
+      "sources": [
+        {
+          "ar": "العناية",
+          "en": "Al-ʿInāyah",
+          "ru": "«Аль-Инайя»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا يكفر بتركها كسلاً، ولكنه يُقتل حداً بشروطه إن أصر على تركها.",
+        "en": "He does not disbelieve by abandoning it out of laziness, but is executed as a legal penalty, under its conditions, if he persists in abandoning it.",
+        "ru": "Он не становится неверующим, оставляя её по лени, но казнится как мера наказания при её условиях, если упорствует в оставлении."
+      },
+      "sources": [
+        {
+          "ar": "التاج والإكليل",
+          "en": "Al-Tāj wa-al-Iklīl",
+          "ru": "«Ат-Тадж ва-ль-Иклиль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "عاصٍ ومرتكب لكبيرة ولا يكفر بتركها كسلاً، ويقتل حداً كالمسلم العاصي.",
+        "en": "He is a sinner committing a major sin and does not disbelieve by abandoning it out of laziness; he is executed as a penalty, like a disobedient Muslim.",
+        "ru": "Он грешник, совершивший тяжкий грех, и не становится неверующим, оставляя её по лени; казнится как наказание, подобно ослушавшемуся мусульманину."
+      },
+      "sources": [
+        {
+          "ar": "روضة الطالبين",
+          "en": "Rawḍat al-Ṭālibīn",
+          "ru": "«Равдат ат-Талибин»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "المعتمد أن من تركها كسلاً ودعي إليها وضاق وقت التي بعدها يكفر.",
+        "en": "The relied-upon position is that whoever abandons it out of laziness, is called to it, and lets the time of the following prayer narrow, becomes a disbeliever.",
+        "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим."
+      },
+      "sources": [
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ref": "F1",
+  "id": "iman-1",
+  "bookId": "iman",
+  "seq": 1,
+  "title": {
+    "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
+    "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
+    "ru": "Правовая квалификация произнесения шахады для принятия ислама"
+  },
+  "summary": {
+    "ar": "هل النطق بالشهادتين شرط لصحة الإسلام أم ركن، وما حكم من صدّق بقلبه دون نطق؟",
+    "en": "Is uttering the shahada a condition for the validity of Islam or a pillar, and what of one who believes in his heart without uttering it?",
+    "ru": "Является ли произнесение шахады условием действительности ислама или его столпом, и как быть с уверовавшим сердцем без произнесения?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "أصل الإيمان التصديق بالقلب، والنطق باللسان شرط لإجراء أحكام المسلمين الدنيوية.",
+        "en": "The essence of faith is assent of the heart; utterance with the tongue is a condition for applying the worldly rulings of Muslims.",
+        "ru": "Основа веры — убеждение сердца; произнесение языком является условием применения мирских норм для мусульман."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "النطق بالشهادتين شرط لصحة الإيمان للقادر عليه، ولا يصح الدخول بدونها.",
+        "en": "Uttering the two testimonies is a condition for the validity of faith for one able to do so, and entering Islam is not valid without it.",
+        "ru": "Произнесение шахады — условие действительности веры для способного, и без неё вхождение недействительно."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "النطق بالشهادتين ركن وشرط أساسي لجريان أحكام الإسلام ظاهراً وباطناً.",
+        "en": "Uttering the two testimonies is a pillar and an essential condition for the operation of Islam's rulings both outwardly and inwardly.",
+        "ru": "Произнесение шахады — столп и основное условие действия норм ислама внешне и внутренне."
+      },
+      "sources": [
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا يصح إسلام القادر بحال إلا بالنطق بالشهادتين معاً والتبرؤ مما يخالف الدين.",
+        "en": "The Islam of an able person is by no means valid except by uttering both testimonies together and disavowing whatever contradicts the religion.",
+        "ru": "Ислам способного никак не действителен, кроме как произнесением обеих шахад вместе и отречением от противоречащего религии."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

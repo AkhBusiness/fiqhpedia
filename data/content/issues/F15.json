@@ -1,0 +1,119 @@
+{
+  "ref": "F15",
+  "id": "salah-4",
+  "bookId": "salah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب مواقيت الصلاة",
+    "en": "Chapter of Prayer Times",
+    "ru": "Раздел о времени молитв"
+  },
+  "title": {
+    "ar": "بداية وقت صلاة العصر وتحديد وقتها المختار",
+    "en": "Beginning of the Asr Prayer Time and its Option",
+    "ru": "Начало времени молитвы Аср и его определение"
+  },
+  "summary": {
+    "ar": "متى يبدأ وقت صلاة العصر بدقة وما هو المعتمد فيه؟",
+    "en": "When exactly does the time for Asr prayer begin?",
+    "ru": "Когда именно начинается время совершения дневной молитвы Аср?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يبدأ وقت العصر عندما يصير ظل كل شيء مثليه غير ظل الاستواء وهو المعتمد في المذهب.",
+        "en": "The time for ʿAṣr begins when the shadow of an object becomes twice its length, excluding the midday shadow.",
+        "ru": "Время молитвы Аср начинается, когда тень предмета становится в два раза длиннее самого предмета, не считая тени полудня."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يبدأ وقت العصر إذا صار ظل الشيء مثله بعد ظل الزوال ويمتد وقته الاختياري إلى الاصفرار.",
+        "en": "The time for ʿAṣr begins when the shadow of an object equals its length after the meridian shadow.",
+        "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يبدأ وقت صلاة العصر بمجرد زيادة ظل الشيء عن مثله أدنى زيادة بعد ظل الزوال.",
+        "en": "The time for ʿAṣr begins as soon as the shadow exceeds the object's length by the slightest amount.",
+        "ru": "Время молитвы Аср начинается, как только тень предмета незначительно превысит его длину."
+      },
+      "sources": [
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        },
+        {
+          "ar": "نهاية المحتاج",
+          "en": "Nihāyat al-Muḥtāj",
+          "ru": "«Нихаят аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يبدأ وقت العصر إذا صار ظل كل شيء مثله بعد ظل الزوال مباشرة ويمتد إلى الاصفرار.",
+        "en": "The time for ʿAṣr begins when an object's shadow equals its length after the midday shadow.",
+        "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»"
+        }
+      ]
+    }
+  }
+}

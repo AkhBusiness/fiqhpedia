@@ -1,0 +1,119 @@
+{
+  "ref": "F17",
+  "id": "salah-6",
+  "bookId": "salah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب سجود السهو",
+    "en": "Chapter of the Prostration of Forgetfulness",
+    "ru": "Раздел о земном поклоне за забывчивость"
+  },
+  "title": {
+    "ar": "موضع سجود السهو بالنسبة للتسليم من الصلاة",
+    "en": "The Timing of the Prostration of Forgetfulness Relative to Salām",
+    "ru": "Место совершения земного поклона за забывчивость относительно таслима"
+  },
+  "summary": {
+    "ar": "هل يكون سجود السهو قبل السلام أم بعده؟",
+    "en": "Is the prostration of forgetfulness performed before or after Salām?",
+    "ru": "Совершается ли поклон за забывчивость до или после таслима?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "سجود السهو يكون كله بعد السلام مطلقاً سواء كان لنقص في الصلاة أم لزيادة.",
+        "en": "The prostration of forgetfulness is performed entirely after Salām, whether for addition or omission.",
+        "ru": "Земной поклон за забывчивость совершается исключительно после таслима, независимо от прибавки или упущения."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "بدائع الصنائع",
+          "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+          "ru": "«Бадаи ас-Санаи»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يكون سجود السهو قبل السلام للنقص وبعد السلام للزيادة فإن اجتمعا فقبل السلام تغليباً.",
+        "en": "Sujūd al-Sahw is before Salām for omissions, after for additions, and before if combined.",
+        "ru": "Поклон за забывчивость делается до таслима при упущении и после при прибавке."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        },
+        {
+          "ar": "الخرشي على خليل",
+          "en": "Al-Kharashī ʿalā Khalīl",
+          "ru": "«Аль-Хараши аля Халиль»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "سجود السهو كله قبل السلام مباشرة في جميع الأحوال والأسباب في المذهب.",
+        "en": "The prostration of forgetfulness is always performed immediately before the Salām in all cases.",
+        "ru": "Земной поклон за забывчивость совершается непосредственно перед таслимом во всех случаях."
+      },
+      "sources": [
+        {
+          "ar": "روضة الطالبين",
+          "en": "Rawḍat al-Ṭālibīn",
+          "ru": "«Равдат ат-Талибин»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يسن السجود قبل السلام إلا إن سلم عن نقص ركعات أو نسي سجوداً قبل السلام.",
+        "en": "Prostration is before Salām except if one gives Salām missing units or forgot prior prostration.",
+        "ru": "Желательно делать поклон до таслима, кроме случаев завершения молитвы с недостатком ракаатов."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»"
+        },
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»"
+        }
+      ]
+    }
+  }
+}

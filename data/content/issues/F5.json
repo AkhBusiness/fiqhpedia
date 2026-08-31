@@ -1,0 +1,79 @@
+{
+  "ref": "F5",
+  "id": "taharah-2",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب المسح على الخفين",
+    "en": "Chapter of Wiping over Footgear",
+    "ru": "Раздел о протирании обуви"
+  },
+  "title": {
+    "ar": "حكم المسح على الجورب الخفيف/الحديث",
+    "en": "The ruling on wiping over light/modern socks",
+    "ru": "Постановление о протирании лёгких/современных носков"
+  },
+  "summary": {
+    "ar": "متى يجوز المسح على الجوربين بدلاً من غسل القدمين؟",
+    "en": "When is it permissible to wipe over socks instead of washing the feet?",
+    "ru": "Когда допустимо протирать носки вместо мытья ног?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز إن كانا ثخينين يمنعان نفوذ الماء ويمكن متابعة المشي عليهما.",
+        "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
+        "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
+      },
+      "sources": [
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا يجوز المسح إلا على الخف المصنوع من الجلد فقط.",
+        "en": "Wiping is permitted only over khuff made of leather.",
+        "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
+      },
+      "sources": [
+        {
+          "ar": "الخرشي على خليل",
+          "en": "Al-Kharashī ʿalā Khalīl",
+          "ru": "«Аль-Хараши аля Халиль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يشترط أن يكونا صفيقين ومجلدين أو منعّلين يثبتان بنفسهما.",
+        "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
+        "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
+      },
+      "sources": [
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يجوز المسح على الجورب الصفيق الساتر للمحل وإن لم يكن مجلداً.",
+        "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
+        "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

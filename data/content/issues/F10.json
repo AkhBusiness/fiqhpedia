@@ -1,0 +1,79 @@
+{
+  "ref": "F10",
+  "id": "taharah-7",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب الاستنجاء",
+    "en": "Chapter of Cleansing after Relief (Istinjā’)",
+    "ru": "Раздел об очищении после нужды (истинджа)"
+  },
+  "title": {
+    "ar": "حكم الاستجمار بالمنديل والأوراق الحديثة",
+    "en": "The ruling on cleansing with tissue and modern paper (istijmār)",
+    "ru": "Постановление об очищении салфеткой и современной бумагой"
+  },
+  "summary": {
+    "ar": "هل يجزئ الاستجمار بالمناديل والأوراق بدلاً من الماء؟",
+    "en": "Does cleansing with tissues and paper suffice instead of water?",
+    "ru": "Достаточно ли очищения салфетками и бумагой вместо воды?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجزئ الاستجمار بكل طاهرٍ منقٍّ كالمناديل والورق، ويُسن الإيتار، والأفضل الجمع بينه وبين الماء.",
+        "en": "Cleansing with any pure, cleaning material such as tissue and paper suffices; making the count odd is recommended, and combining it with water is best.",
+        "ru": "Очищение любым чистым очищающим средством, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يجزئ الاستجمار بالجامد الطاهر المنقي كالورق إذا لم يتعدَّ الخارج موضعه المعتاد.",
+        "en": "Cleansing with a solid, pure, cleaning material such as paper suffices, provided the excretion does not spread beyond its usual place.",
+        "ru": "Очищение твёрдым чистым очищающим средством, как бумага, достаточно, если выделение не вышло за обычное место."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يشترط في الاستجمار ثلاث مسحاتٍ منقيةٍ بجامدٍ طاهرٍ كالمناديل، ولا يجزئ المبلل ولا المتنجس.",
+        "en": "Cleansing requires three cleaning wipes with a solid, pure material such as tissue; a moist or impure item does not suffice.",
+        "ru": "Для очищения требуется три очищающих протирания твёрдым чистым средством, как салфетки; влажное или нечистое не годится."
+      },
+      "sources": [
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يجزئ الاستجمار بثلاثة أحجارٍ أو ما يقوم مقامها كالمناديل الطاهرة، بشرط الإنقاء والإيتار وعدم تجاوز النجو موضعه.",
+        "en": "Cleansing suffices with three stones or their equivalent such as pure tissues, on condition of cleanliness, odd count, and the excretion not spreading beyond its place.",
+        "ru": "Очищение достаточно тремя камнями или их заменой, как чистые салфетки, при условии чистоты, нечётности и невыхода выделения за его место."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "seeking-truth",
+  "ref": "M1",
+  "title": {
+    "ar": "رحلة البحث عن الحق: كيف نقرأ تاريخ الأديان ولماذا كان الإسلام هو الرسالة الخاتمة؟",
+    "en": "The Search for Truth: How to Read the History of Religions, and Why Islam Is the Final Message",
+    "ru": "Поиск истины: как читать историю религий и почему ислам — завершающее послание"
+  },
+  "excerpt": {
+    "ar": "التوحيد هو الأصل والوثنية انحراف طارئ — قراءة في وحدة رسالات الأنبياء وسبب ختمها بالإسلام.",
+    "en": "Monotheism is the origin and idolatry the later deviation — on the unity of the prophets' message and why it was sealed with Islam.",
+    "ru": "Единобожие — первооснова, а идолопоклонство — позднее отклонение: о единстве послания пророков и о том, почему оно завершилось исламом."
+  },
+  "relatedRefs": [
+    "A9",
+    "A11",
+    "A8",
+    "A10"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": ""
+      },
+      "body": {
+        "ar": "كثيراً ما يُطرح تاريخ الأديان على أنه مسار تطوري، بدأ بتعدد الآلهة والوثنية، ثم ترقّى تدريجياً عبر العصور حتى وصل إلى التوحيد. لكن الرؤية القرآنية والتاريخية العميقة تقدّم قراءة مختلفة تماماً: التوحيد هو الأصل، والوثنية هي الانحراف الطارئ. فمنذ فجر البشرية لم يترك الخالق الإنسان يتخبّط في الظلام، بل أرسل سلسلة متصلة من الأنبياء والرسل يحملون جوهراً واحداً ورسالةً لا تتبدّل.",
+        "en": "The history of religions is often presented as an evolutionary path: beginning with many gods and idolatry, then climbing gradually through the ages until it arrived at monotheism. But a closer reading of the Qurʾān and of history offers the reverse account: monotheism is the origin, and idolatry the later deviation. From the dawn of humanity the Creator did not leave man to grope in darkness, but sent an unbroken chain of prophets and messengers carrying one substance and a message that does not change.",
+        "ru": "Историю религий часто представляют как эволюционный путь: от многобожия и идолопоклонства она будто бы постепенно поднималась сквозь века к единобожию. Но внимательное прочтение Корана и истории даёт обратную картину: единобожие есть первооснова, а идолопоклонство — позднейшее отклонение. С зари человечества Творец не оставил человека блуждать во тьме, но посылал непрерывную череду пророков и посланников с единой сутью и неизменным посланием."
+      }
+    },
+    {
+      "id": "unity",
+      "heading": {
+        "ar": "وحدة المصدر: دين الأنبياء الواحد",
+        "en": "One Source: The Single Religion of the Prophets",
+        "ru": "Единый источник: одна религия пророков"
+      },
+      "body": {
+        "ar": "رسالة نوح وإبراهيم وموسى وعيسى ومحمد عليهم السلام رسالةٌ واحدة في عقيدتها: إفراد الخالق العظيم بالعبادة والخضوع له. وهذا الخضوع الواعي الطوعي هو المعنى الحرفي لكلمة «الإسلام». فالرسالات لم تتناقض يوماً في أصل الاعتقاد، بل كان كل نبي يصدّق من قبله ويمهّد لمن بعده.\n\nإنما وقع الاختلاف في الشرائع والأحكام العملية التي كانت تتنزّل مفصّلة لتناسب أحوال كل مجتمع وتلبّي حاجات حقبة بعينها؛ تماماً كالطبيب الذي يصف أدويةً مختلفة بحسب حال المريض في مراحل علاجه، وأصل الطب الذي يستند إليه واحد.",
+        "en": "The message of Noah, Abraham, Moses, Jesus and Muhammad — peace be upon them — is a single message in its creed: devoting worship and submission to the one great Creator. That conscious, willing submission is the literal meaning of the word *Islam*. The revelations never contradicted one another in the root of belief; each prophet confirmed the one before him and prepared the way for the one after.\n\nThe difference fell in the practical laws, which came detailed to suit the condition of each society and the needs of a particular era — much as a physician prescribes different medicines according to the patient's state at different stages of treatment, while the medical science he draws on remains one.",
+        "ru": "Послание Ноя, Авраама, Моисея, Иисуса и Мухаммада — мир им — едино в своём вероучении: посвящение поклонения и покорности единому великому Творцу. Эта осознанная добровольная покорность и есть буквальное значение слова «ислам». Откровения никогда не противоречили друг другу в основе веры: каждый пророк подтверждал предыдущего и готовил путь последующему.\n\nРазличие пришлось на практические законы, которые ниспосылались подробно, соответствуя состоянию каждого общества и нуждам определённой эпохи, — подобно врачу, назначающему разные лекарства сообразно состоянию больного на разных этапах лечения, тогда как медицинская наука, на которую он опирается, одна."
+      }
+    },
+    {
+      "id": "direct",
+      "heading": {
+        "ar": "الفطرة والاتصال المباشر بالخالق",
+        "en": "Innate Nature and Direct Access to the Creator",
+        "ru": "Врождённое естество и прямая связь с Творцом"
+      },
+      "body": {
+        "ar": "أبرز ما يميّز العقيدة الصافية مباشرتُها وبساطتها الموافقة للعقل والفطرة السليمة. فعلاقة العبد بربه في صورتها النقية لا تحتاج إلى وساطة بشرية، ولا إلى مؤسسة تحتكر المغفرة، ولا إلى تعقيدات تجعل الإله يتجسّد في صورة بشرٍ يأكل ويشرب ويتألم.\n\nفالله سبحانه هو «الصمد»: الخالق العظيم المستغني عن خلقه، الذي تلجأ إليه الخلائق في حوائجها مباشرة. فبمجرد أن ترفع يديك وتدعوه ينعقد الاتصال بينك وبين رب السماوات والأرض بلا حاجز ولا ندّ. وهذا التنزيه المطلق يعيد للإنسان كرامته ويحرّره من التبعية الفكرية والروحية لأي مخلوق.",
+        "en": "What most distinguishes an uncorrupted creed is its directness and simplicity, agreeing with reason and sound innate nature. The bond between a servant and his Lord, in its pure form, needs no human intermediary, no institution monopolising forgiveness, and no complexity by which the Deity becomes embodied in a man who eats, drinks and suffers.\n\nGod is *al-Ṣamad*: the great Creator, independent of His creation, to whom creatures turn directly in their needs. The moment you raise your hands and call upon Him, the connection is made between you and the Lord of the heavens and the earth, with no barrier and no rival. This absolute transcendence restores a person's dignity and frees him from intellectual or spiritual subservience to any created thing.",
+        "ru": "Более всего неискажённое вероучение отличает его непосредственность и простота, согласные с разумом и здравым естеством. Связь раба с его Господом в чистом виде не нуждается ни в человеческом посреднике, ни в учреждении, монополизирующем прощение, ни в усложнениях, по которым Божество воплощается в человека, который ест, пьёт и страдает.\n\nАллах — «ас-Самад»: великий Творец, не нуждающийся в Своём творении, к которому создания обращаются в нуждах напрямую. Едва ты поднимешь руки и воззовёшь к Нему, связь между тобой и Господом небес и земли устанавливается — без преград и без соперников. Это безусловное превознесение возвращает человеку достоинство и освобождает его от умственной и духовной зависимости от любого творения."
+      }
+    },
+    {
+      "id": "finality",
+      "heading": {
+        "ar": "لماذا خُتمت الرسالات بالإسلام؟",
+        "en": "Why Were the Messages Sealed with Islam?",
+        "ru": "Почему послания завершились исламом?"
+      },
+      "body": {
+        "ar": "إذا كانت الرسالات السابقة صحيحةً في أصلها، فلماذا اقتضت الحكمة أن يكون الإسلام هو الدين الخاتم فلا نبي بعد محمد ﷺ؟ يتبيّن ذلك في ثلاثة وجوه:\n\n**حفظ النص الأصلي.** الرسالات السابقة استُؤمن عليها البشر من الأحبار والرهبان، ومع تعاقب الحروب والترجمات ضاعت المخطوطات الأصلية وتطرّق التحريف إلى النصوص. أما القرآن فقد تكفّل الخالق بحفظه لفظاً ومعنى، فانتفت الحاجة إلى بعثة نبيٍّ جديد لتصحيح كتابٍ محرَّف.\n\n**عموم الخطاب.** كانت الرسالات السابقة تُبعث لقومٍ محدَّدين في رقعةٍ مغلقة وزمنٍ مؤقّت، كبعثة موسى عليه السلام لبني إسرائيل خاصة. فلمّا انفتح العالم وتكسّرت حواجز الجغرافيا جاءت الرسالة الخاتمة عالميةَ الخطاب تخاطب الناس كافة.\n\n**شمول التشريع ومرونته.** جاء التشريع بقواعد كلّية توازن بين الروح والجسد، وبين الفرد والمجتمع، وفيها من السعة ما يستوعب النوازل ويواكب التطوّر في كل زمان ومكان.",
+        "en": "If the earlier messages were sound in their origin, why did wisdom require Islam to be the final religion, with no prophet after Muhammad ﷺ? Three considerations make this clear:\n\n**Preservation of the original text.** The earlier messages were entrusted to human custodians — rabbis and monks — and through successive wars and translations the original manuscripts were lost and alteration entered the texts. The Qurʾān, by contrast, the Creator undertook to preserve in wording and meaning, so the need for a new prophet to correct a corrupted book fell away.\n\n**Universality of address.** Earlier messages were sent to specific peoples within a closed territory and a limited time, as Moses — peace be upon him — was sent to the Children of Israel in particular. When the world opened and the barriers of geography broke down, the final message came universal in address, speaking to all mankind.\n\n**Comprehensiveness and flexibility of the law.** The legislation came with overarching principles balancing spirit and body, individual and society, with a breadth able to absorb new circumstances and keep pace with development in every time and place.",
+        "ru": "Если прежние послания были верны в своей основе, почему мудрость потребовала, чтобы ислам стал завершающей религией и после Мухаммада ﷺ не было пророка? Это проясняют три соображения:\n\n**Сохранность первоначального текста.** Прежние послания были вверены людям — раввинам и монахам, — и через череду войн и переводов первоначальные рукописи были утрачены, а в тексты проникло искажение. Коран же Творец взял на Себя сохранить в слове и смысле, и потому нужда в новом пророке для исправления искажённой книги отпала.\n\n**Всеобщность обращения.** Прежние послания посылались определённым народам в замкнутой местности и на ограниченное время, как Моисей — мир ему — был послан именно к сынам Израилевым. Когда мир открылся и преграды географии рухнули, завершающее послание пришло всеобщим по обращению, говорящим ко всем людям.\n\n**Всеохватность и гибкость закона.** Законодательство пришло с общими началами, уравновешивающими дух и тело, личность и общество, и с широтой, способной вмещать новые обстоятельства и поспевать за развитием во всякое время и в любом месте."
+      }
+    },
+    {
+      "id": "close",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Closing",
+        "ru": "Заключение"
+      },
+      "body": {
+        "ar": "والناظر في تاريخ الأديان بإنصافٍ يدرك أن الإسلام لم يأتِ ليهدم ما قبله من جهود الأنبياء، بل جاء ليتوّج ذلك البناء، ويصحّح ما طرأ عليه من تشويهٍ بشري، ويعيد بوصلة الإنسان إلى وجهتها الأولى والأخيرة: عبادة إلهٍ واحد، بلا شريك ولا وسيط.",
+        "en": "Whoever looks at the history of religions fairly recognises that Islam did not come to demolish the labour of the prophets before it, but to crown that edifice, to correct the human distortion that had entered it, and to return man's compass to its first and final direction: the worship of one God, without partner and without intermediary.",
+        "ru": "Всякий, кто беспристрастно взглянет на историю религий, увидит, что ислам пришёл не разрушать труд прежних пророков, а увенчать это здание, исправить проникшее в него человеческое искажение и вернуть компас человека к его первому и последнему направлению: поклонению единому Богу, без сотоварища и без посредника."
+      }
+    }
+  ]
+}

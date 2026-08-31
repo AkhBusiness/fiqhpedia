@@ -1,0 +1,79 @@
+{
+  "ref": "F6",
+  "id": "taharah-3",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب نواقض الوضوء",
+    "en": "Chapter of Ablution Nullifiers",
+    "ru": "Раздел о нарушителях омовения"
+  },
+  "title": {
+    "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
+    "en": "The effect of eating camel meat and touching a woman on ablution",
+    "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение"
+  },
+  "summary": {
+    "ar": "هل ينقض أكل لحم الإبل ولمس المرأة الأجنبية الوضوء؟",
+    "en": "Do eating camel meat and touching a non-maram woman break ablution?",
+    "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا ينقض أكل لحم الإبل الوضوء مطبوخاً كان أو نيئاً، ولا ينقض لمس المرأة إلا بالمباشرة الفاحشة بلا حائل.",
+        "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
+        "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة ينقض إن قصد اللذة أو وجدها لا مطلقاً.",
+        "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
+        "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
+        "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
+        "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
+      },
+      "sources": [
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "ينقض أكل لحم الإبل الوضوء مطلقاً نيئاً ومطبوخاً، ولمس المرأة ينقض إن كان لشهوة لا لغيرها.",
+        "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
+        "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

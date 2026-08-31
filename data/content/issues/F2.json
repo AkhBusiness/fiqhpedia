@@ -1,0 +1,74 @@
+{
+  "ref": "F2",
+  "id": "iman-2",
+  "bookId": "iman",
+  "seq": 2,
+  "title": {
+    "ar": "نطق المسلم الجديد بالشهادتين بغير اللغة العربية",
+    "en": "A new Muslim pronouncing the shahada in a language other than Arabic",
+    "ru": "Произнесение шахады новообращённым на языке, отличном от арабского"
+  },
+  "summary": {
+    "ar": "هل يصح إسلام من نطق بالشهادتين بلغته الأم، أم يُشترط النطق باللفظ العربي؟",
+    "en": "Is the Islam of one who pronounces the shahada in his native tongue valid, or is the Arabic wording required?",
+    "ru": "Действителен ли ислам произнёсшего шахаду на родном языке, или требуется арабская формулировка?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يصح إسلامه بالنطق بمعناهما بلغته فوراً ولو كان قادراً على تعلم العربية.",
+        "en": "His Islam is valid by uttering their meaning in his own language immediately, even if he is able to learn Arabic.",
+        "ru": "Его ислам действителен при немедленном произнесении их смысла на своём языке, даже если он способен выучить арабский."
+      },
+      "sources": [
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يصح إسلامه بلغته إن عجز عن العربية، وتلزم الترجمة الدقيقة للمعنى.",
+        "en": "His Islam is valid in his language if he is unable to use Arabic, and an accurate translation of the meaning is required.",
+        "ru": "Его ислам действителен на его языке при неспособности к арабскому, и требуется точный перевод смысла."
+      },
+      "sources": [
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يصح إسلامه بالترجمة فوراً عجز أم قدر، لأن الواجب هو جزم القلب بالمعنى.",
+        "en": "His Islam is valid by translation immediately, whether able or unable, because what is required is the heart's firm resolve upon the meaning.",
+        "ru": "Его ислам действителен через перевод немедленно, способен он или нет, ибо требуется твёрдая убеждённость сердца в смысле."
+      },
+      "sources": [
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يصح إسلامه بأي لغة تؤدي المعنى المقصود ولا يشترط اللفظ العربي.",
+        "en": "His Islam is valid in any language that conveys the intended meaning, and the Arabic wording is not a condition.",
+        "ru": "Его ислам действителен на любом языке, передающем нужный смысл, и арабская формулировка не является условием."
+      },
+      "sources": [
+        {
+          "ar": "مطالب أولي النهى",
+          "en": "Maṭālib Ūlī al-Nuhā",
+          "ru": "«Маталиб ули ан-Нуха»"
+        }
+      ]
+    }
+  }
+}

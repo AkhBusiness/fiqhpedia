@@ -1,0 +1,79 @@
+{
+  "ref": "F4",
+  "id": "taharah-1",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب فرض الوضوء",
+    "en": "Chapter of the Obligation of Ablution",
+    "ru": "Раздел об обязательности омовения"
+  },
+  "title": {
+    "ar": "حكم النية في الوضوء وهل تسقط سهواً",
+    "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
+    "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости"
+  },
+  "summary": {
+    "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
+    "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
+    "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
+        "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
+        "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "فرض وشرط أساسي لصحة الوضوء لا يصح بدونه.",
+        "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
+        "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
+        "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
+        "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
+      },
+      "sources": [
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
+        "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
+        "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

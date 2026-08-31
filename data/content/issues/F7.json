@@ -1,0 +1,79 @@
+{
+  "ref": "F7",
+  "id": "taharah-4",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)"
+  },
+  "title": {
+    "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+    "en": "The ruling on tayammum when water is present but there is fear of using it",
+    "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования"
+  },
+  "summary": {
+    "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
+    "en": "Is tayammum permitted when water is available if harm from using it is feared?",
+    "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
+        "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worsening sickness.",
+        "ru": "Таяммум допустим при наличии воды, если есть опасение вреда от её применения из-за болезни или сильного холода, грозящего гибелью или ухудшением."
+      },
+      "sources": [
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
+        "en": "Tayammum is permitted for the sick and for whoever fears worsening illness, delayed recovery, or death from using water.",
+        "ru": "Таяммум разрешён больному и тому, кто опасается усиления болезни, задержки выздоровления или гибели от применения воды."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو عضوٍ أو مرضاً مخوفاً، بإخبار طبيبٍ عدلٍ أو بتجربة.",
+        "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
+        "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту."
+      },
+      "sources": [
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
+        "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold, being unable to warm the water or avert its harm.",
+        "ru": "Таяммум дозволен при наличии воды, если есть опасение телесного вреда от её применения из-за болезни или сильного холода при невозможности согреть воду и отвести вред."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ref": "F8",
+  "id": "taharah-5",
+  "bookId": "taharah",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах"
+  },
+  "title": {
+    "ar": "حكم الماء المستعمل في رفع الحدث",
+    "en": "The ruling on water already used to remove ritual impurity",
+    "ru": "Постановление о воде, использованной для снятия осквернения"
+  },
+  "summary": {
+    "ar": "هل يبقى الماء المستعمل طهوراً يصح رفع الحدث به مرة أخرى؟",
+    "en": "Does used water remain purifying so that it can remove ritual impurity again?",
+    "ru": "Остаётся ли использованная вода очищающей для повторного снятия осквернения?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "طاهر غير مطهر لغيره، ولا يجوز التوضؤ به مرة أخرى.",
+        "en": "Pure in itself but not purifying for others; performing ablution with it again is not permitted.",
+        "ru": "Чистая сама по себе, но не очищающая для другого; повторно совершать ею омовение нельзя."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "طاهر مطهر يصح التوضؤ به مع الكراهة إن وجد غيره.",
+        "en": "Pure and purifying; performing ablution with it is valid, though disliked if other water is available.",
+        "ru": "Чистая и очищающая; омовение ею действительно, но нежелательно при наличии другой воды."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الصغير",
+          "en": "Al-Sharḥ al-Ṣaghīr",
+          "ru": "«Аш-Шарх ас-Сагир»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "طاهر في نفسه غير مطهر لغيره.",
+        "en": "Pure in itself but not purifying for others.",
+        "ru": "Чистая сама по себе, но не очищающая для другого."
+      },
+      "sources": [
+        {
+          "ar": "فتح القريب",
+          "en": "Fatḥ al-Qarīb",
+          "ru": "«Фатх аль-Кариб»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "طاهر غير مطهر إذا انفصل عن الأعضاء.",
+        "en": "Pure but not purifying once it has separated from the limbs.",
+        "ru": "Чистая, но не очищающая после отделения от органов тела."
+      },
+      "sources": [
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»"
+        }
+      ]
+    }
+  }
+}

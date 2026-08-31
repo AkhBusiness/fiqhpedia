@@ -1,0 +1,160 @@
+backend:
+  name: github
+  repo: AkhBusiness/fiqhpedia
+  branch: main
+  # وسيط المصادقة: سرّ GitHub لا يوضع في المتصفح.
+  # انشر Cloudflare Worker من sveltia-cms-auth وضع عنوانه هنا.
+  base_url: https://REPLACE-ME.workers.dev
+
+publish_mode: editorial_workflow
+locale: ar
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: issues
+    label: المسائل
+    label_singular: مسألة
+    folder: data/content/issues
+    create: true
+    slug: '{{fields.ref}}'
+    identifier_field: ref
+    summary: '{{ref}} — {{title.ar}}'
+    format: json
+    json:
+      indent_style: space
+      indent_size: 2
+    fields:
+      - { name: ref, label: الرقم المرجعي, widget: string, hint: 'دائم — لا يُغيَّر بعد النشر ولا يُعاد استعماله' }
+      - { name: id, label: المعرّف, widget: string, hint: 'يُخزَّن في محفوظات الزوّار — تغييره يمسحها' }
+      - name: bookId
+        label: الباب
+        widget: select
+        options: [iman, taharah, salah, zakah, sawm, hajj, muamalat, nikah, jinayat]
+      - { name: seq, label: الترتيب داخل الفصل, widget: number, value_type: int, min: 1, hint: 'موضع المسألة في خطة الفصل. رقم العرض يُحسب آلياً عند البناء.' }
+      - name: chapter
+        label: الفصل
+        widget: object
+        fields:
+          - { name: ar, label: العربية, widget: string, pattern: ['^باب ', 'يبدأ بكلمة «باب»'] }
+          - { name: en, label: English, widget: string }
+          - { name: ru, label: Русский, widget: string }
+          - { name: es, label: Español, widget: string, required: false }
+      - name: title
+        label: العنوان
+        widget: object
+        fields:
+          - { name: ar, label: العربية, widget: string }
+          - { name: en, label: English, widget: string }
+          - { name: ru, label: Русский, widget: string }
+          - { name: es, label: Español, widget: string, required: false }
+      - name: summary
+        label: الملخص
+        widget: object
+        hint: سؤال ينتهي بعلامة استفهام
+        fields:
+          - { name: ar, label: العربية, widget: string, pattern: ['؟\s*$', 'ينتهي بعلامة استفهام عربية'] }
+          - { name: en, label: English, widget: string }
+          - { name: ru, label: Русский, widget: string }
+          - { name: es, label: Español, widget: string, required: false }
+      - name: rulings
+        label: الأحكام
+        widget: object
+        fields:
+          - name: hanafi
+            label: الحنفي
+            widget: object
+            fields: &ruling
+              - name: text
+                label: الحكم
+                widget: object
+                fields:
+                  - { name: ar, label: العربية, widget: text }
+                  - { name: en, label: English, widget: text }
+                  - { name: ru, label: Русский, widget: text }
+                  - { name: es, label: Español, widget: text, required: false }
+              - name: sources
+                label: المراجع
+                widget: list
+                min: 2
+                max: 3
+                fields:
+                  - { name: ar, label: العربية, widget: string }
+                  - { name: en, label: English, widget: string }
+                  - { name: ru, label: Русский, widget: string }
+                  - { name: es, label: Español, widget: string, required: false }
+          - name: maliki
+            label: المالكي
+            widget: object
+            fields: *ruling
+          - name: shafii
+            label: الشافعي
+            widget: object
+            fields: *ruling
+          - name: hanbali
+            label: الحنبلي
+            widget: object
+            fields: *ruling
+
+  - name: articles
+    label: المقالات
+    label_singular: مقالة
+    folder: data/content/articles
+    create: true
+    slug: '{{fields.ref}}'
+    identifier_field: ref
+    summary: '{{ref}} — {{title.ar}}'
+    format: json
+    json: { indent_style: space, indent_size: 2 }
+    fields:
+      - { name: ref, label: الرقم المرجعي, widget: string }
+      - { name: id, label: المعرّف, widget: string }
+      - name: title
+        label: العنوان
+        widget: object
+        fields:
+          - { name: ar, widget: string, label: العربية }
+          - { name: en, widget: string, label: English }
+          - { name: ru, widget: string, label: Русский }
+          - { name: es, widget: string, label: Español, required: false }
+      - name: excerpt
+        label: النبذة
+        widget: object
+        fields:
+          - { name: ar, widget: text, label: العربية }
+          - { name: en, widget: text, label: English }
+          - { name: ru, widget: text, label: Русский }
+          - { name: es, widget: text, label: Español, required: false }
+      - { name: relatedRefs, label: أدلة ذات صلة, widget: list, required: false, field: { name: ref, widget: string } }
+      - name: sections
+        label: الأقسام
+        widget: list
+        fields:
+          - { name: id, label: المعرّف, widget: string }
+          - name: heading
+            label: العنوان الفرعي
+            widget: object
+            hint: يُترك فارغاً في القسم الافتتاحي
+            fields:
+              - { name: ar, widget: string, label: العربية, required: false }
+              - { name: en, widget: string, label: English, required: false }
+              - { name: ru, widget: string, label: Русский, required: false }
+              - { name: es, widget: string, label: Español, required: false }
+          - name: body
+            label: المتن
+            widget: object
+            hint: السطر الفارغ يفصل فقرة · **نص** يجعله عريضاً
+            fields:
+              - { name: ar, widget: text, label: العربية }
+              - { name: en, widget: text, label: English }
+              - { name: ru, widget: text, label: Русский }
+              - { name: es, widget: text, label: Español, required: false }
+      - name: sources
+        label: المراجع
+        widget: list
+        required: false
+        fields:
+          - { name: ar, widget: string, label: العربية }
+          - { name: en, widget: string, label: English }
+          - { name: ru, widget: string, label: Русский }
+          - { name: es, widget: string, label: Español, required: false }

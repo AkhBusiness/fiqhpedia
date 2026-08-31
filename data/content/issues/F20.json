@@ -1,0 +1,138 @@
+{
+  "ref": "F20",
+  "id": "taharah-9",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم التطهير بالماء المطلق في رفع الحدث",
+    "en": "Ruling on purification with absolute water for hadath",
+    "ru": "Постановление об очищении абсолютной водой от хадаса",
+    "es": "Norma sobre la purificación con agua absoluta para el hadath"
+  },
+  "summary": {
+    "ar": "هل يجوز رفع الحدث وإزالة النجاسة بالماء المطلق عند الأئمة الأربعة؟",
+    "en": "Is it permissible to remove hadath and najasah with absolute water according to the four imams?",
+    "ru": "Разрешено ли устранять хадас и наджасу абсолютной водой по мнению четырёх имамов?",
+    "es": "¿Es permisible eliminar el hadath y la najasah con agua absoluta según los cuatro imanes?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يصح رفع الحدث بالماء المطلق وهو الباقي على أصل خلقته، وتزال به النجاسة وبكل مائع طاهر قالع.",
+        "en": "Removal of hadath is valid with absolute water, which remains in its original state, and najasah is removed with it or with any pure removing liquid.",
+        "ru": "Устранение хадаса действительно абсолютной водой, сохранившей своё изначальное состояние, а наджаса устраняется ею и любой чистой удаляющей жидкостью.",
+        "es": "La eliminación del hadath es válida con agua absoluta, que permanece en su estado original, y la najasah se elimina con ella o con cualquier líquido puro removedor."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا يصح رفع الحدث ولا إزالة الخبث إلا بالماء المطلق وهو الباقي على أوصافه الطبيعية التي خلق عليها.",
+        "en": "Removal of hadath and of impurity is valid only with absolute water, which retains the natural qualities it was created upon.",
+        "ru": "Устранение хадаса и скверны действительно только абсолютной водой, сохраняющей естественные свойства, на которых она создана.",
+        "es": "La eliminación del hadath y de la impureza solo es válida con agua absoluta, que conserva las cualidades naturales con que fue creada."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا يصح رفع الحدث ولا إزالة النجاسة إلا بالماء المطلق وهو ما يقع عليه اسم الماء بلا قيد.",
+        "en": "Removal of hadath and najasah is valid only with absolute water, which is what is called water without any qualifying restriction.",
+        "ru": "Устранение хадаса и наджасы действительно только абсолютной водой — той, что называется водой без ограничивающего определения.",
+        "es": "La eliminación del hadath y de la najasah solo es válida con agua absoluta, aquella que se denomina agua sin restricción alguna."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يشترط لرفع الحدث وزوال النجاسة استعمال الماء الطهور وهو الباقي على خلقته مطلقاً بلا قيد.",
+        "en": "Removing hadath and najasah requires the use of tahur water, which remains entirely upon its original created state.",
+        "ru": "Для устранения хадаса и наджасы требуется вода тахур, полностью сохраняющая своё изначальное естественное состояние.",
+        "es": "La eliminación del hadath y de la najasah exige el uso de agua tahur, que permanece enteramente en su estado original."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "data": "python3 tools/build_data.py",
+    "prebuild": "python3 tools/build_data.py && python3 validate_content.py"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",

@@ -1,0 +1,138 @@
+{
+  "ref": "F23",
+  "id": "taharah-12",
+  "bookId": "taharah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء الطهور المتغير بطاهر يمازجه كالزعفران والصابون والسدر",
+    "en": "Ruling on tahur water altered by a pure substance that blends into it",
+    "ru": "Постановление о воде тахур, изменённой чистым веществом, смешавшимся с ней",
+    "es": "Norma sobre el agua tahur alterada por una sustancia pura que se mezcla con ella"
+  },
+  "summary": {
+    "ar": "هل يرفع الحدث بالماء المتغير بطاهر يمازجه كالزعفران والسدر والصابون؟",
+    "en": "Does water altered by a blending pure substance, such as saffron or soap, still remove hadath?",
+    "ru": "Устраняет ли хадас вода, изменённая смешавшимся чистым веществом — шафраном, лотосом или мылом?",
+    "es": "¿Elimina el hadath el agua alterada por una sustancia pura que se mezcla, como el azafrán o el jabón?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يجوز التوضؤ بالماء المتغير بطاهر خالطه كالزعفران والصابون والسدر ما دام رقيقاً لم يزل عنه اسم الماء المطلق ولم يغلب عليه.",
+        "en": "Ablution remains valid with water altered by a blending pure substance such as saffron, soap, or lote-leaf, so long as it stays thin and the mixture has not overwhelmed the name of absolute water.",
+        "ru": "Омовение действительно водой, изменённой смешавшимся чистым веществом — шафраном, мылом или лотосом, — пока она остаётся жидкой и примесь не возобладала над названием абсолютной воды.",
+        "es": "La ablución sigue siendo válida con agua alterada por una sustancia pura que se mezcla —azafrán, jabón o loto— mientras siga fluida y la mezcla no haya vencido al nombre de agua absoluta."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يصح التطهير بالماء المتغير بالزعفران أو الصابون أو السدر إذا كان التغيّر يسيراً، فإن كان كثيراً صار طاهراً غير مطهر.",
+        "en": "Purification is valid with water altered by saffron, soap, or lote-leaf when the change is slight; if it is considerable the water becomes pure but not purifying.",
+        "ru": "Очищение действительно водой, изменённой шафраном, мылом или лотосом, если изменение незначительно; при значительном она становится чистой, но неочищающей.",
+        "es": "La purificación es válida con agua alterada por azafrán, jabón o loto si el cambio es leve; si es considerable, el agua queda pura pero no purificadora."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا يصح رفع الحدث ولا إزالة النجاسة بالماء المتغير بطاهر يمازجه كالزعفران والسدر تغيّراً كثيراً يمنع إطلاق اسم الماء عليه.",
+        "en": "Neither hadath nor najasah may be removed with water so much altered by a blending pure substance, such as saffron or lote-leaf, that it can no longer simply be called water.",
+        "ru": "Ни хадас, ни наджаса не устраняются водой, настолько изменённой смешавшимся чистым веществом — шафраном или лотосом, — что её уже нельзя назвать просто водой.",
+        "es": "No se elimina el hadath ni la najasah con agua tan alterada por una sustancia pura que se mezcla —azafrán o loto— que ya no puede llamarse simplemente agua."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "ينقلب الماء طاهراً لا يرفع الحدث إذا تغيّر بطاهر يمازجه كالزعفران والصابون والسدر تغيّراً كثيراً يمنع إطلاق اسم الماء الطهور.",
+        "en": "The water turns pure but non-purifying and no longer removes hadath once a blending pure substance such as saffron, soap, or lote-leaf alters it enough to bar the name tahur.",
+        "ru": "Вода становится чистой, но неочищающей, и уже не устраняет хадас, когда смешавшееся чистое вещество — шафран, мыло или лотос — изменяет её настолько, что название тахур к ней неприложимо.",
+        "es": "El agua pasa a ser pura pero no purificadora y ya no elimina el hadath cuando una sustancia pura que se mezcla —azafrán, jabón o loto— la altera lo bastante para impedir el nombre de tahur."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

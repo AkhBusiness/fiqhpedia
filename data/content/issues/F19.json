@@ -1,0 +1,119 @@
+{
+  "ref": "F19",
+  "id": "salah-8",
+  "bookId": "salah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب صلاة الجمعة",
+    "en": "Chapter of Friday Prayer",
+    "ru": "Раздел о пятничной молитве"
+  },
+  "title": {
+    "ar": "اشتراط المصر والمدينة لانعقاد صلاة الجمعة",
+    "en": "Condition of the Town for the Validity of Friday Prayer",
+    "ru": "Условие города для действительности пятничной молитвы"
+  },
+  "summary": {
+    "ar": "هل تشترط الإقامة في المصر الكبير لصحة الجمعة؟",
+    "en": "Is residing in a large city required for Jumuʿah validity?",
+    "ru": "Является ли проживание в крупном городе условием для пятничной молитвы?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
+        "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
+        "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях."
+      },
+      "sources": [
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "تشترط الإقامة في بلد الاستيطان سواء كان مصراً كبيراً أم قرية مبنية يستقر بها أهلها.",
+        "en": "Residence in a settled village or city is required for Friday prayer, regardless of size.",
+        "ru": "Условием является проживание в населенном пункте, будь то крупный город или построенная деревня."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»"
+        },
+        {
+          "ar": "التاج والإكليل",
+          "en": "Al-Tāj wa-al-Iklīl",
+          "ru": "«Ат-Тадж ва-ль-Иклиль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
+        "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
+        "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»"
+        },
+        {
+          "ar": "روضة الطالبين",
+          "en": "Rawḍat al-Ṭālibīn",
+          "ru": "«Равдат ат-Талибин»"
+        },
+        {
+          "ar": "نهاية المحتاج",
+          "en": "Nihāyat al-Muḥtāj",
+          "ru": "«Нихаят аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
+        "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
+        "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»"
+        }
+      ]
+    }
+  }
+}
