@@ -2,7 +2,7 @@
   "ref": "F41",
   "id": "salah-11",
   "bookId": "salah",
-  "seq": 2,
+  "seq": 1,
   "chapter": {
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
@@ -52,10 +52,10 @@
     },
     "maliki": {
       "text": {
-        "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر.",
-        "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer.",
-        "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой.",
-        "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde."
+        "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر إلى الغروب.",
+        "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer until sunset.",
+        "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой до заката.",
+        "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde hasta la puesta."
       },
       "sources": [
         {

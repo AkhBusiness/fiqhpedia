@@ -2,7 +2,7 @@
   "ref": "F43",
   "id": "salah-13",
   "bookId": "salah",
-  "seq": 5,
+  "seq": 4,
   "chapter": {
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
@@ -24,10 +24,10 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يبدأ بغياب الشفق ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
-        "en": "It begins when the twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
-        "ru": "Начинается с исчезновения зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
-        "es": "Comienza al desaparecer el crepúsculo y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
+        "ar": "يبدأ بغياب الشفق الأبيض ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
+        "en": "It begins when the white twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
+        "ru": "Начинается с исчезновения белой зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
+        "es": "Comienza al desaparecer el crepúsculo blanco y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
       },
       "sources": [
         {

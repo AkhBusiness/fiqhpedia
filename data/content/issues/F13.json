@@ -2,11 +2,12 @@
   "ref": "F13",
   "id": "salah-2",
   "bookId": "salah",
-  "seq": 1,
+  "seq": 3,
   "chapter": {
-    "ar": "باب القيام ووضع اليدين",
-    "en": "Chapter of Standing and Hand Placement",
-    "ru": "Раздел о стоянии и положении рук"
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter of the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo de la descripción de la oración"
   },
   "title": {
     "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",

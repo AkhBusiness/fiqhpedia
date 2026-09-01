@@ -2,7 +2,7 @@
   "ref": "F15",
   "id": "salah-4",
   "bookId": "salah",
-  "seq": 3,
+  "seq": 2,
   "chapter": {
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
@@ -99,10 +99,10 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس.",
-        "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon, and its preferred time runs until the sun yellows.",
-        "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени, а предпочтительное время — до пожелтения солнца.",
-        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía, y su tiempo preferido llega hasta que el sol amarillea."
+        "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
+        "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
+        "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
+        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta."
       },
       "sources": [
         {

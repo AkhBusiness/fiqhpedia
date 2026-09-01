@@ -5546,138 +5546,120 @@
       }
     },
     {
-      "id": "salah-10",
-      "ref": "F40",
+      "id": "salah-5",
+      "ref": "F16",
       "bookId": "salah",
       "number": 1,
       "chapter": {
-        "ar": "باب شروط الصلاة",
-        "en": "Chapter of the Conditions of Prayer",
-        "ru": "Раздел об условиях молитвы",
-        "es": "Capítulo de las condiciones de la oración"
+        "ar": "باب الأذان والإقامة",
+        "en": "Chapter of the Call to Prayer and the Iqama",
+        "ru": "Раздел об азане и икаме",
+        "es": "Capítulo del adhán y el iqama"
       },
       "title": {
-        "ar": "وقت صلاة الفجر بدايةً ونهايةً",
-        "en": "The time of the dawn prayer, from its beginning to its end",
-        "ru": "Время утренней молитвы: её начало и конец",
-        "es": "El tiempo de la oración del alba, desde su inicio hasta su fin"
+        "ar": "حكم التثويب في أذان صلاة الفجر",
+        "en": "Ruling on Tathwīb in the Fajr Adhān",
+        "ru": "Постановление о тасвибе в азане предрассветной молитвы"
       },
       "summary": {
-        "ar": "متى يبدأ وقت صلاة الفجر ومتى ينتهي عند الأئمة الأربعة؟",
-        "en": "When does the time of the dawn prayer begin and when does it end according to the four imams?",
-        "ru": "Когда начинается и когда заканчивается время утренней молитвы по мнению четырёх имамов?",
-        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del alba según los cuatro imanes?"
+        "ar": "ما حكم قول الصلاة خير من النوم في الأذان؟",
+        "en": "What is the ruling on saying Tathwīb in Fajr?",
+        "ru": "Каково постановление о произнесении фразы Тасвиб в азане?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "يبدأ وقت الفجر بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والإسفار به أفضل.",
-            "en": "The dawn prayer begins at true dawn and lasts until sunrise; praying it once the light has spread is preferable.",
-            "ru": "Время утренней молитвы начинается с истинного рассвета и длится до восхода; предпочтительно совершать её, когда рассвело.",
-            "es": "El tiempo del alba comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla cuando ya ha clareado."
+            "ar": "التثويب بقول الصلاة خير من النوم مستحب في أذان الفجر بين الفلاح والتكبير الأخير.",
+            "en": "Tathwīb (saying prayer is better than sleep) is recommended in the Fajr call to prayer.",
+            "ru": "Тасвиб (произнесение слов о превосходстве молитвы) является желательным в азане молитвы Фаджр."
           },
           "sources": [
             {
-              "ar": "الهداية",
-              "en": "Al-Hidāyah",
-              "ru": "«Аль-Хидая»",
-              "es": "Al-Hidāyah"
-            },
-            {
               "ar": "رد المحتار",
               "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»",
-              "es": "Radd al-Muḥtār"
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "بدائع الصنائع",
+              "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+              "ru": "«Бадаи ас-Санаи»"
             },
             {
               "ar": "مراقي الفلاح",
               "en": "Marāqī al-Falāḥ",
-              "ru": "«Мараки аль-Фалях»",
-              "es": "Marāqī al-Falāḥ"
+              "ru": "«Мараки аль-Фалях»"
             }
           ]
         },
         "maliki": {
           "text": {
-            "ar": "يبدأ بطلوع الفجر الصادق، ووقته المختار إلى الإسفار، ويمتدّ الضروري إلى طلوع الشمس.",
-            "en": "It begins at true dawn; its preferred time runs until the light spreads, and its time of necessity extends to sunrise.",
-            "ru": "Начинается с истинного рассвета; предпочтительное время — до рассвета полного, а вынужденное длится до восхода.",
-            "es": "Comienza con el alba verdadera; su tiempo preferido llega hasta que clarea, y el de necesidad se extiende hasta la salida del sol."
+            "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
+            "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
+            "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр."
           },
           "sources": [
             {
               "ar": "الشرح الكبير",
               "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»",
-              "es": "Al-Sharḥ al-Kabīr"
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»"
             },
             {
               "ar": "حاشية الدسوقي",
               "en": "Ḥāshiyat al-Dasūqī",
-              "ru": "«Хашият ад-Дасуки»",
-              "es": "Ḥāshiyat al-Dasūqī"
-            },
-            {
-              "ar": "منح الجليل",
-              "en": "Minaḥ al-Jalīl",
-              "ru": "«Минах аль-Джалиль»",
-              "es": "Minaḥ al-Jalīl"
+              "ru": "«Хашият ад-Дасуки»"
             }
           ]
         },
         "shafii": {
           "text": {
-            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس بأوّله أفضل.",
-            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
-            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
-            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+            "ar": "يسن التثويب في الأذان للصُّبح سواء كان الأذان قبل الفجر أم بعد طلوعه معاً.",
+            "en": "Tathwīb is Sunnah in the call for the Morning prayer, whether before or after dawn.",
+            "ru": "Сунной является произнесение Тасвиба в азане на утреннюю молитву, как до, так и после рассвета."
           },
           "sources": [
             {
-              "ar": "منهاج الطالبين",
-              "en": "Minhāj al-Ṭālibīn",
-              "ru": "«Минхадж ат-Талибин»",
-              "es": "Minhāj al-Ṭālibīn"
-            },
-            {
               "ar": "المجموع",
               "en": "Al-Majmūʿ",
-              "ru": "«Аль-Маджму»",
-              "es": "Al-Majmūʿ"
+              "ru": "«Аль-Маджму»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»"
             },
             {
               "ar": "مغني المحتاج",
               "en": "Mughnī al-Muḥtāj",
-              "ru": "«Мугни аль-Мухтадж»",
-              "es": "Mughnī al-Muḥtāj"
+              "ru": "«Мугни аль-Мухтадж»"
             }
           ]
         },
         "hanbali": {
           "text": {
-            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس به أفضل.",
-            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
-            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
-            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+            "ar": "يسن التثويب في أذان الفجر الثاني خاصة وهو من سنن الأذان المعتمدة في المذهب.",
+            "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
+            "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу."
           },
           "sources": [
             {
-              "ar": "زاد المستقنع",
-              "en": "Zād al-Mustaqniʿ",
-              "ru": "«Зад аль-Мустакни»",
-              "es": "Zād al-Mustaqniʿ"
-            },
-            {
               "ar": "كشاف القناع",
               "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»",
-              "es": "Kashshāf al-Qināʿ"
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»"
             },
             {
               "ar": "الإنصاف",
               "en": "Al-Inṣāf",
-              "ru": "«Аль-Инсаф»",
-              "es": "Al-Inṣāf"
+              "ru": "«Аль-Инсаф»"
             }
           ]
         }
@@ -5737,10 +5719,10 @@
         },
         "maliki": {
           "text": {
-            "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر.",
-            "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer.",
-            "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой.",
-            "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde."
+            "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر إلى الغروب.",
+            "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer until sunset.",
+            "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой до заката.",
+            "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde hasta la puesta."
           },
           "sources": [
             {
@@ -5922,10 +5904,10 @@
         },
         "hanbali": {
           "text": {
-            "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس.",
-            "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon, and its preferred time runs until the sun yellows.",
-            "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени, а предпочтительное время — до пожелтения солнца.",
-            "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía, y su tiempo preferido llega hasta que el sol amarillea."
+            "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
+            "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
+            "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
+            "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta."
           },
           "sources": [
             {
@@ -6111,10 +6093,10 @@
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "يبدأ بغياب الشفق ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
-            "en": "It begins when the twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
-            "ru": "Начинается с исчезновения зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
-            "es": "Comienza al desaparecer el crepúsculo y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
+            "ar": "يبدأ بغياب الشفق الأبيض ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
+            "en": "It begins when the white twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
+            "ru": "Начинается с исчезновения белой зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
+            "es": "Comienza al desaparecer el crepúsculo blanco y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
           },
           "sources": [
             {
@@ -6224,10 +6206,286 @@
       }
     },
     {
+      "id": "salah-10",
+      "ref": "F40",
+      "bookId": "salah",
+      "number": 6,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة الفجر بدايةً ونهايةً",
+        "en": "The time of the dawn prayer, from its beginning to its end",
+        "ru": "Время утренней молитвы: её начало и конец",
+        "es": "El tiempo de la oración del alba, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة الفجر ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the dawn prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время утренней молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del alba según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ وقت الفجر بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والإسفار به أفضل.",
+            "en": "The dawn prayer begins at true dawn and lasts until sunrise; praying it once the light has spread is preferable.",
+            "ru": "Время утренней молитвы начинается с истинного рассвета и длится до восхода; предпочтительно совершать её, когда рассвело.",
+            "es": "El tiempo del alba comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla cuando ya ha clareado."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق، ووقته المختار إلى الإسفار، ويمتدّ الضروري إلى طلوع الشمس.",
+            "en": "It begins at true dawn; its preferred time runs until the light spreads, and its time of necessity extends to sunrise.",
+            "ru": "Начинается с истинного рассвета; предпочтительное время — до рассвета полного, а вынужденное длится до восхода.",
+            "es": "Comienza con el alba verdadera; su tiempo preferido llega hasta que clarea, y el de necesidad se extiende hasta la salida del sol."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس بأوّله أفضل.",
+            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
+            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
+            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس به أفضل.",
+            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
+            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
+            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-14",
+      "ref": "F44",
+      "bookId": "salah",
+      "number": 7,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "حكم حدّ عورة المرأة الحرّة البالغة في الصلاة",
+        "en": "Ruling on the awrah of a free adult woman in prayer",
+        "ru": "Постановление об аурате свободной совершеннолетней женщины в молитве",
+        "es": "Norma sobre el awrah de la mujer libre y adulta en la oración"
+      },
+      "summary": {
+        "ar": "ما حدّ عورة المرأة الحرّة البالغة في الصلاة، وما الذي يُباح كشفه منها؟",
+        "en": "What is the awrah of a free adult woman in prayer, and what may she leave uncovered?",
+        "ru": "Каков аурат свободной совершеннолетней женщины в молитве и что ей дозволено открывать?",
+        "es": "¿Cuál es el awrah de la mujer libre y adulta en la oración, y qué le está permitido descubrir?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "عورة المرأة الحرّة في الصلاة جميع بدنها إلا الوجه والكفّين والقدمين، فتصحّ صلاتها بكشفها.",
+            "en": "The awrah of a free woman in prayer is her whole body except the face, the hands, and the feet; her prayer is valid with these uncovered.",
+            "ru": "Аурат свободной женщины в молитве — всё её тело, кроме лица, кистей и ступней; молитва действительна с открытыми ими.",
+            "es": "El awrah de la mujer libre en la oración es todo su cuerpo salvo el rostro, las manos y los pies; su oración vale con ellos descubiertos."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "عورتها جميع بدنها إلا الوجه والكفّين، وكشف القدمين أو الشعر لا يبطل الصلاة وتُعاد في الوقت.",
+            "en": "Her awrah is her whole body except the face and the hands; uncovering the feet or the hair does not invalidate the prayer, though it is repeated within its time.",
+            "ru": "Её аурат — всё тело, кроме лица и кистей; открытие ступней или волос не делает молитву недействительной, но её повторяют в пределах времени.",
+            "es": "Su awrah es todo su cuerpo salvo el rostro y las manos; descubrir los pies o el cabello no invalida la oración, aunque se repite dentro de su tiempo."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "عورتها جميع بدنها إلا الوجه والكفّين ظاهرهما وباطنهما إلى الكوعين.",
+            "en": "Her awrah is her whole body except the face and the hands, their backs and palms alike, up to the wrists.",
+            "ru": "Её аурат — всё тело, кроме лица и кистей, с тыльной и внутренней стороны, до запястий.",
+            "es": "Su awrah es todo su cuerpo salvo el rostro y las manos, dorso y palma por igual, hasta las muñecas."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "المرأة الحرّة البالغة كلّها عورة في الصلاة إلا وجهها، فيجب عليها ستر الكفّين والقدمين.",
+            "en": "A free adult woman is entirely awrah in prayer except her face, so she must cover her hands and her feet.",
+            "ru": "Свободная совершеннолетняя женщина целиком аурат в молитве, кроме лица, поэтому она обязана закрывать кисти и ступни.",
+            "es": "La mujer libre y adulta es enteramente awrah en la oración salvo su rostro, por lo que debe cubrir manos y pies."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-9",
       "ref": "F39",
       "bookId": "salah",
-      "number": 6,
+      "number": 8,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6365,11 +6623,12 @@
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 7,
+      "number": 9,
       "chapter": {
-        "ar": "باب تكبيرة الإحرام",
-        "en": "Chapter of the Opening Takbīr",
-        "ru": "Раздел о начальном такбире"
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter of the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo de la descripción de la oración"
       },
       "title": {
         "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
@@ -6441,14 +6700,153 @@
       }
     },
     {
+      "id": "salah-15",
+      "ref": "F45",
+      "bookId": "salah",
+      "number": 10,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter of the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo de la descripción de la oración"
+      },
+      "title": {
+        "ar": "حكم صيغة تكبيرة الإحرام وما يقوم مقامها",
+        "en": "Ruling on the wording of the opening takbir and what may replace it",
+        "ru": "Постановление о формуле вступительного такбира и о том, что его заменяет",
+        "es": "Norma sobre la fórmula del takbir de apertura y lo que puede sustituirla"
+      },
+      "summary": {
+        "ar": "ما الصيغة المجزئة لتكبيرة الإحرام، وهل يجزئ غير لفظ التكبير؟",
+        "en": "What wording suffices for the opening takbir, and does anything other than the takbir suffice?",
+        "ru": "Какая формула достаточна для вступительного такбира и годится ли что-то, кроме него?",
+        "es": "¿Qué fórmula basta para el takbir de apertura, y sirve algo distinto del takbir?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "ينعقد الإحرام بكل لفظ تعظيم خالص كـ«الله أكبر» و«الله الأعظم» و«الحمد لله»، ولا يتعيّن لفظ التكبير.",
+            "en": "The prayer is entered with any wording of pure magnification, such as «Allāhu akbar», «Allāhu al-aʿẓam», or «al-ḥamdu lillāh»; the takbir wording is not required.",
+            "ru": "Вступление совершается любой формулой чистого возвеличивания — «Аллаху акбар», «Аллаху аль-аʿзам» или «аль-хамду лиллях»; именно такбир не обязателен.",
+            "es": "Se entra en la oración con cualquier fórmula de pura magnificación, como «Allāhu akbar», «Allāhu al-aʿẓam» o «al-ḥamdu lillāh»; no se exige el takbir."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تتعيّن تكبيرة الإحرام بلفظ «الله أكبر» لا غير، ولا تنعقد الصلاة بلفظ سواه.",
+            "en": "The opening takbir is restricted to the wording «Allāhu akbar» alone, and the prayer is not entered with any other wording.",
+            "ru": "Вступительный такбир ограничен формулой «Аллаху акбар» и ничем иным; иной формулой молитва не начинается.",
+            "es": "El takbir de apertura se limita a «Allāhu akbar» y a nada más; con otra fórmula la oración no comienza."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يتعيّن لفظ «الله أكبر» أو «الله الأكبر»، ولا يجزئ غيرهما من الأذكار ولا الترجمة مع القدرة.",
+            "en": "The wording is restricted to «Allāhu akbar» or «Allāhu al-akbar»; no other remembrance and no translation suffices for one able to say it.",
+            "ru": "Формула ограничена «Аллаху акбар» или «Аллаху аль-акбар»; иные поминания и перевод не годятся для способного.",
+            "es": "La fórmula se limita a «Allāhu akbar» o «Allāhu al-akbar»; ningún otro dhikr ni traducción basta para quien puede decirla."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يتعيّن لفظ «الله أكبر» لا يجزئ غيره، ولا يقوم مقامه ذكر آخر ولا ترجمة مع القدرة.",
+            "en": "The wording «Allāhu akbar» alone suffices; no other remembrance and no translation takes its place for one able to say it.",
+            "ru": "Годится лишь формула «Аллаху акбар»; ни иное поминание, ни перевод её не заменяют для способного.",
+            "es": "Solo basta la fórmula «Allāhu akbar»; ningún otro dhikr ni traducción la sustituye para quien puede decirla."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 8,
+      "number": 11,
       "chapter": {
-        "ar": "باب القيام ووضع اليدين",
-        "en": "Chapter of Standing and Hand Placement",
-        "ru": "Раздел о стоянии и положении рук"
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter of the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo de la descripción de la oración"
       },
       "title": {
         "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
@@ -6523,11 +6921,12 @@
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 9,
+      "number": 12,
       "chapter": {
-        "ar": "باب القراءة",
-        "en": "Chapter of Recitation",
-        "ru": "Раздел о чтении"
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter of the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo de la descripción de la oración"
       },
       "title": {
         "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
@@ -6599,130 +6998,10 @@
       }
     },
     {
-      "id": "salah-5",
-      "ref": "F16",
-      "bookId": "salah",
-      "number": 10,
-      "chapter": {
-        "ar": "باب صلاة الجماعة والإمامة",
-        "en": "Chapter of Congregational Prayer and Leading It",
-        "ru": "Раздел о коллективной молитве и имамате",
-        "es": "Capítulo de la oración en congregación y el imamato"
-      },
-      "title": {
-        "ar": "حكم التثويب في أذان صلاة الفجر",
-        "en": "Ruling on Tathwīb in the Fajr Adhān",
-        "ru": "Постановление о тасвибе в азане предрассветной молитвы"
-      },
-      "summary": {
-        "ar": "ما حكم قول الصلاة خير من النوم في الأذان؟",
-        "en": "What is the ruling on saying Tathwīb in Fajr?",
-        "ru": "Каково постановление о произнесении фразы Тасвиб в азане?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "التثويب بقول الصلاة خير من النوم مستحب في أذان الفجر بين الفلاح والتكبير الأخير.",
-            "en": "Tathwīb (saying prayer is better than sleep) is recommended in the Fajr call to prayer.",
-            "ru": "Тасвиб (произнесение слов о превосходстве молитвы) является желательным в азане молитвы Фаджр."
-          },
-          "sources": [
-            {
-              "ar": "رد المحتار",
-              "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»"
-            },
-            {
-              "ar": "بدائع الصنائع",
-              "en": "Badāʾiʿ al-Ṣanāʾiʿ",
-              "ru": "«Бадаи ас-Санаи»"
-            },
-            {
-              "ar": "مراقي الفلاح",
-              "en": "Marāqī al-Falāḥ",
-              "ru": "«Мараки аль-Фалях»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
-            "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
-            "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр."
-          },
-          "sources": [
-            {
-              "ar": "الشرح الكبير",
-              "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»"
-            },
-            {
-              "ar": "التاج والإكليل",
-              "en": "Al-Tāj wa-al-Iklīl",
-              "ru": "«Ат-Тадж ва-ль-Иклиль»"
-            },
-            {
-              "ar": "حاشية الدسوقي",
-              "en": "Ḥāshiyat al-Dasūqī",
-              "ru": "«Хашият ад-Дасуки»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "يسن التثويب في الأذان للصُّبح سواء كان الأذان قبل الفجر أم بعد طلوعه معاً.",
-            "en": "Tathwīb is Sunnah in the call for the Morning prayer, whether before or after dawn.",
-            "ru": "Сунной является произнесение Тасвиба в азане на утреннюю молитву, как до, так и после рассвета."
-          },
-          "sources": [
-            {
-              "ar": "المجموع",
-              "en": "Al-Majmūʿ",
-              "ru": "«Аль-Маджму»"
-            },
-            {
-              "ar": "منهاج الطالبين",
-              "en": "Minhāj al-Ṭālibīn",
-              "ru": "«Минхадж ат-Талибин»"
-            },
-            {
-              "ar": "مغني المحتاج",
-              "en": "Mughnī al-Muḥtāj",
-              "ru": "«Мугни аль-Мухтадж»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "يسن التثويب في أذان الفجر الثاني خاصة وهو من سنن الأذان المعتمدة في المذهب.",
-            "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
-            "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу."
-          },
-          "sources": [
-            {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
-            },
-            {
-              "ar": "زاد المستقنع",
-              "en": "Zād al-Mustaqniʿ",
-              "ru": "«Зад аль-Мустакни»"
-            },
-            {
-              "ar": "الإنصاف",
-              "en": "Al-Inṣāf",
-              "ru": "«Аль-Инсаф»"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 11,
+      "number": 13,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -6841,7 +7120,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 12,
+      "number": 14,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -6960,7 +7239,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 13,
+      "number": 15,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",

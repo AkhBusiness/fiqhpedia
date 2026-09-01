@@ -4,10 +4,10 @@
   "bookId": "salah",
   "seq": 1,
   "chapter": {
-    "ar": "باب صلاة الجماعة والإمامة",
-    "en": "Chapter of Congregational Prayer and Leading It",
-    "ru": "Раздел о коллективной молитве и имамате",
-    "es": "Capítulo de la oración en congregación y el imamato"
+    "ar": "باب الأذان والإقامة",
+    "en": "Chapter of the Call to Prayer and the Iqama",
+    "ru": "Раздел об азане и икаме",
+    "es": "Capítulo del adhán y el iqama"
   },
   "title": {
     "ar": "حكم التثويب في أذان صلاة الفجر",

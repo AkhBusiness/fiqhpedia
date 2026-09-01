@@ -4,9 +4,10 @@
   "bookId": "salah",
   "seq": 1,
   "chapter": {
-    "ar": "باب تكبيرة الإحرام",
-    "en": "Chapter of the Opening Takbīr",
-    "ru": "Раздел о начальном такбире"
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter of the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo de la descripción de la oración"
   },
   "title": {
     "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",

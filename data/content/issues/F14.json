@@ -2,11 +2,12 @@
   "ref": "F14",
   "id": "salah-3",
   "bookId": "salah",
-  "seq": 1,
+  "seq": 6,
   "chapter": {
-    "ar": "باب القراءة",
-    "en": "Chapter of Recitation",
-    "ru": "Раздел о чтении"
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter of the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo de la descripción de la oración"
   },
   "title": {
     "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
