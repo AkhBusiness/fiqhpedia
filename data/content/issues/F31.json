@@ -1,0 +1,138 @@
+{
+  "ref": "F31",
+  "id": "taharah-20",
+  "bookId": "taharah",
+  "seq": 15,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم موت ما لا نفس له سائلة في الماء",
+    "en": "Ruling on the death in water of creatures without flowing blood",
+    "ru": "Постановление о гибели в воде существ без текучей крови",
+    "es": "Norma sobre la muerte en el agua de criaturas sin sangre fluida"
+  },
+  "summary": {
+    "ar": "هل ينجس الماء بموت ما لا نفس له سائلة فيه كالذباب والنحل والنمل؟",
+    "en": "Does water become impure when a creature without flowing blood, such as a fly, bee, or ant, dies in it?",
+    "ru": "Становится ли вода нечистой, если в ней погибло существо без текучей крови — муха, пчела или муравей?",
+    "es": "¿Se vuelve impura el agua si muere en ella una criatura sin sangre fluida, como una mosca, una abeja o una hormiga?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا ينجس الماء بموت ما لا نفس له سائلة فيه كالذباب والنحل والعقرب والبقّ.",
+        "en": "Water is not made impure by the death in it of a creature without flowing blood, such as a fly, a bee, a scorpion, or a gnat.",
+        "ru": "Вода не становится нечистой от гибели в ней существа без текучей крови — мухи, пчелы, скорпиона или комара.",
+        "es": "El agua no se vuelve impura por la muerte en ella de una criatura sin sangre fluida, como una mosca, una abeja, un escorpión o un mosquito."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "ميتة ما لا نفس له سائلة طاهرة، فلا ينجس الماء بموتها فيه كالذباب والنحل والنمل.",
+        "en": "The carcass of a creature without flowing blood is pure, so water is not made impure by its dying in it, as with flies, bees, and ants.",
+        "ru": "Падаль существа без текучей крови чиста, поэтому вода не становится нечистой от его гибели в ней — мух, пчёл и муравьёв.",
+        "es": "El cadáver de una criatura sin sangre fluida es puro, de modo que el agua no se vuelve impura por su muerte en ella, como moscas, abejas y hormigas."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "ما لا نفس له سائلة كالذباب والنحل إذا مات في الماء لم ينجّسه، ما لم يُطرح فيه قصداً أو يغيّر أوصافه.",
+        "en": "A creature without flowing blood, such as a fly or a bee, does not make water impure by dying in it, unless it was thrown in deliberately or altered the water's qualities.",
+        "ru": "Существо без текучей крови — муха или пчела — не оскверняет воду своей гибелью, если только не было брошено намеренно и не изменило её свойств.",
+        "es": "Una criatura sin sangre fluida, como una mosca o una abeja, no vuelve impura el agua al morir en ella, salvo que se arroje a propósito o altere sus cualidades."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا ينجس الماء بموت ما لا نفس له سائلة متولّداً من طاهر كالذباب والنحل والنمل، ما لم يُطرح فيه.",
+        "en": "Water is not made impure by the death of a creature without flowing blood born of something pure, such as a fly, bee, or ant, unless it was thrown in.",
+        "ru": "Вода не становится нечистой от гибели существа без текучей крови, рождённого от чистого, — мухи, пчелы или муравья, — если оно не было брошено туда.",
+        "es": "El agua no se vuelve impura por la muerte de una criatura sin sangre fluida nacida de algo puro, como mosca, abeja u hormiga, salvo que se arroje en ella."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

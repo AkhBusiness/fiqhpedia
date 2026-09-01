@@ -1,0 +1,138 @@
+{
+  "ref": "F29",
+  "id": "taharah-18",
+  "bookId": "taharah",
+  "seq": 11,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم حدّ الماء الكثير والقليل وأثر النجاسة فيه",
+    "en": "Ruling on the threshold between much and little water and the effect of impurity",
+    "ru": "Постановление о границе между большой и малой водой и действии нечистоты",
+    "es": "Norma sobre el umbral entre agua abundante y escasa y el efecto de la impureza"
+  },
+  "summary": {
+    "ar": "ما حدّ الماء الكثير والقليل، وهل ينجس القليل بوقوع النجاسة وإن لم يتغيّر؟",
+    "en": "Where lies the threshold between much and little water, and does little water become impure on contact even without any change?",
+    "ru": "Где граница между большой и малой водой, и становится ли малая вода нечистой при контакте без изменения?",
+    "es": "¿Dónde está el umbral entre agua abundante y escasa, y se vuelve impura el agua escasa al contacto aunque no cambie?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الكثير ما إذا حُرّك أحد طرفيه لم يتحرّك الآخر، وينجس القليل بملاقاة النجاسة وإن لم يتغيّر.",
+        "en": "Much water is that whose far side does not stir when one side is moved; little water becomes impure on contact with an impurity even without any change.",
+        "ru": "Большая вода — та, у которой при движении одного края другой не колеблется; малая становится нечистой при соприкосновении с нечистотой даже без изменения.",
+        "es": "Agua abundante es aquella cuyo extremo opuesto no se agita al mover un lado; la escasa se vuelve impura al contacto con la impureza aunque no cambie."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا فرق بين كثير الماء وقليله، فلا ينجس بملاقاة النجاسة إلا إذا تغيّر طعمه أو لونه أو ريحه.",
+        "en": "No distinction is drawn between much and little water: it becomes impure only when its taste, colour, or smell is altered.",
+        "ru": "Между большой и малой водой различия нет: она становится нечистой лишь при изменении вкуса, цвета или запаха.",
+        "es": "No se distingue entre agua abundante y escasa: solo se vuelve impura si cambia su sabor, su color o su olor."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الكثير ما بلغ قلّتين فأكثر فلا ينجس إلا بالتغيّر، والقليل ما دونهما فينجس بمجرد الملاقاة.",
+        "en": "Much water is two qullahs or more and becomes impure only through alteration; little water is below that and becomes impure by mere contact.",
+        "ru": "Большая вода — два кулля и более, она становится нечистой только при изменении; малая — менее того и становится нечистой от одного соприкосновения.",
+        "es": "Agua abundante son dos qullas o más y solo se vuelve impura por alteración; la escasa es menos que eso y se vuelve impura por el mero contacto."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "الحدّ الفاصل القلّتان، فالكثير ما بلغهما ولا ينجس إلا بالتغيّر، والقليل ما دونهما فينجس بالملاقاة.",
+        "en": "The dividing line is two qullahs: water reaching it is much and becomes impure only through alteration, while less than that is little and becomes impure by contact.",
+        "ru": "Разделительная черта — два кулля: достигшая их вода большая и становится нечистой лишь при изменении, а меньшая — малая и становится нечистой от соприкосновения.",
+        "es": "La línea divisoria son dos qullas: el agua que las alcanza es abundante y solo se vuelve impura por alteración; la menor es escasa y se vuelve impura al contacto."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

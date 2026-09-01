@@ -220,7 +220,12 @@ export interface TheologyProof {
     glow: string
   }
   premises: Localized[]
-  quran: { verse: Localized; ref: Localized }
+  /**
+   * `verse` is Arabic only, by policy: published translations are under
+   * copyright, and a rendering of the meaning needs a specialist per
+   * language. `url` sends the reader to a reviewed translation instead.
+   */
+  quran: { verse: string; ref: Localized; url?: string }
   conclusion: Localized
 }
 
@@ -261,7 +266,12 @@ interface RawTheologyProof {
   title: Localized
   tagline: Localized
   premises: Localized[]
-  quran: { verse: Localized; ref: Localized }
+  /**
+   * `verse` is Arabic only, by policy: published translations are under
+   * copyright, and a rendering of the meaning needs a specialist per
+   * language. `url` sends the reader to a reviewed translation instead.
+   */
+  quran: { verse: string; ref: Localized; url?: string }
   conclusion: Localized
 }
 

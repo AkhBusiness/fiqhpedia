@@ -1,0 +1,138 @@
+{
+  "ref": "F37",
+  "id": "taharah-26",
+  "bookId": "taharah",
+  "seq": 12,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء الذي وقعت فيه نجاسة ولم تغيّره",
+    "en": "Ruling on water an impurity has fallen into without altering it",
+    "ru": "Постановление о воде, в которую попала нечистота, не изменив её",
+    "es": "Norma sobre el agua en la que cae una impureza sin alterarla"
+  },
+  "summary": {
+    "ar": "هل ينجس الماء بوقوع النجاسة فيه وإن لم تتغيّر أوصافه؟",
+    "en": "Does water become impure when an impurity falls into it, even if none of its qualities change?",
+    "ru": "Становится ли вода нечистой от попадания нечистоты, даже если её свойства не изменились?",
+    "es": "¿Se vuelve impura el agua cuando cae en ella una impureza, aunque no cambie ninguna de sus cualidades?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "ينجس الماء القليل بوقوع النجاسة فيه وإن لم تتغيّر أوصافه، أما الكثير فلا ينجس إلا بالتغيّر.",
+        "en": "A small quantity of water becomes impure when an impurity falls into it even if its qualities are unchanged; much water becomes impure only through alteration.",
+        "ru": "Малая вода становится нечистой от попадания нечистоты, даже если её свойства не изменились; большая — только при изменении.",
+        "es": "El agua escasa se vuelve impura cuando cae en ella una impureza aunque no cambien sus cualidades; la abundante, solo por alteración."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا ينجس الماء بوقوع النجاسة فيه قليلاً كان أو كثيراً، ما لم يتغيّر طعمه أو لونه أو ريحه.",
+        "en": "Water does not become impure when an impurity falls into it, whether it be little or much, unless its taste, colour, or smell is altered.",
+        "ru": "Вода не становится нечистой от попадания нечистоты, малая она или большая, пока не изменится её вкус, цвет или запах.",
+        "es": "El agua no se vuelve impura cuando cae en ella una impureza, sea poca o mucha, salvo que cambie su sabor, su color o su olor."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "ما دون القلّتين ينجس بمجرد وقوع النجاسة فيه وإن لم تتغيّر أوصافه، وما بلغهما فأكثر لا ينجس إلا بالتغيّر.",
+        "en": "Water below two qullahs becomes impure by the mere falling of an impurity into it even if its qualities are unchanged; water reaching two qullahs or more becomes impure only through alteration.",
+        "ru": "Вода менее двух куллей становится нечистой от одного попадания нечистоты, даже если свойства не изменились; достигшая двух куллей и более — только при изменении.",
+        "es": "El agua de menos de dos qullas se vuelve impura por el mero caer de una impureza aunque no cambien sus cualidades; la que alcanza dos qullas o más, solo por alteración."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "ينجس القليل وهو ما دون القلّتين بمجرد الملاقاة وإن لم يتغيّر، والكثير لا ينجس إلا بالتغيّر.",
+        "en": "Little water, meaning below two qullahs, becomes impure by mere contact even if unaltered; much water becomes impure only through alteration.",
+        "ru": "Малая вода, то есть менее двух куллей, становится нечистой от одного соприкосновения, даже не изменившись; большая — только при изменении.",
+        "es": "El agua escasa, es decir menos de dos qullas, se vuelve impura por el mero contacto aunque no se altere; la abundante, solo por alteración."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

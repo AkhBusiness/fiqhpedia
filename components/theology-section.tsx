@@ -139,12 +139,28 @@ export function TheologySection({ lang }: TheologySectionProps) {
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">{ui.quranProof[lang]}</h3>
               </div>
               <blockquote className={`rounded-xl border ${active.accent.border} bg-white/[0.03] p-4`}>
-                <p className="text-balance text-base font-semibold leading-relaxed text-foreground">
-                  {active.quran.verse[lang]}
+                <p
+                  dir="rtl"
+                  lang="ar"
+                  className="text-balance text-base font-semibold leading-relaxed text-foreground"
+                >
+                  {active.quran.verse}
                 </p>
-                <footer className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
-                  <BookOpen className="size-3.5" aria-hidden="true" />
-                  {active.quran.ref[lang]}
+                <footer className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                  <span className="flex items-center gap-1.5">
+                    <BookOpen className="size-3.5" aria-hidden="true" />
+                    {active.quran.ref[lang]}
+                  </span>
+                  {active.quran.url ? (
+                    <a
+                      href={active.quran.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-primary underline-offset-4 hover:underline"
+                    >
+                      {ui.readVerse[lang]}
+                    </a>
+                  ) : null}
                 </footer>
               </blockquote>
             </div>

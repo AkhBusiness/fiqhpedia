@@ -194,12 +194,28 @@ export function ArticleReader({ proof, lang, onClose }: ArticleReaderProps) {
                 <h2 className="text-lg font-bold text-foreground">{ui.quranProof[lang]}</h2>
               </div>
               <blockquote className={`rounded-2xl border ${proof.accent.border} bg-white/[0.03] p-6`}>
-                <p className="text-balance text-xl font-semibold leading-relaxed text-foreground">
-                  {proof.quran.verse[lang]}
+                <p
+                  dir="rtl"
+                  lang="ar"
+                  className="text-balance text-xl font-semibold leading-relaxed text-foreground"
+                >
+                  {proof.quran.verse}
                 </p>
-                <footer className="mt-3 flex items-center gap-1.5 text-sm text-muted-foreground">
-                  <BookOpen className="size-4" aria-hidden="true" />
-                  {proof.quran.ref[lang]}
+                <footer className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
+                  <span className="flex items-center gap-1.5">
+                    <BookOpen className="size-4" aria-hidden="true" />
+                    {proof.quran.ref[lang]}
+                  </span>
+                  {proof.quran.url ? (
+                    <a
+                      href={proof.quran.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-primary underline-offset-4 hover:underline"
+                    >
+                      {ui.readVerse[lang]}
+                    </a>
+                  ) : null}
                 </footer>
               </blockquote>
             </section>

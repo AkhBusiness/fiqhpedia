@@ -26,13 +26,15 @@ except (OSError, KeyError, json.JSONDecodeError):
     TERMS = {}  # لم يُبنَ بعد: python3 tools/build_terms.py
 
 # اسم مختصر دارج ← الرسم المعتمد. «المنهاج» ← «منهاج الطالبين».
-# النموذج المولّد يكتب المختصر بطبعه لأنه الدارج في كتب الفقه، فبدل
-# رسالة «ليس في القائمة» الغامضة نقول له أين يذهب بالضبط.
 ALIASES = {
     alias: canon
     for canon, meta in TERMS.items()
     for alias in meta.get("aliases", [])
 }
+
+# نصوص واجهة وظيفتها الإعلان عن حالة «لم يكتمل بعد»، فعبارة الانتظار فيها
+# هي الرسالة نفسها لا أثر عمل ناقص. تُستثنى بالمفتاح لا بالنص.
+PENDING_UI_KEYS = {"comingSoon", "betaNote", "glossaryPending"}
 
 # اللغات الفعّالة: كل حقل مترجم يجب أن يحملها كلها.
 LANGS = ["ar", "en", "ru"]
@@ -44,11 +46,6 @@ PENDING_LANGS = ["es"]
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
 # Text that means "not written yet" and must never ship.
-# نصوص واجهة وظيفتها الإعلان عن حالة «لم يكتمل بعد»، فعبارة الانتظار فيها
-# هي الرسالة نفسها لا أثر عمل ناقص. تُستثنى بالمفتاح لا بالنص، حتى لا
-# يفتح الاستثناء باباً لتسرّب «قريباً» إلى محتوى حقيقي.
-PENDING_UI_KEYS = {"comingSoon", "betaNote", "glossaryPending"}
-
 PLACEHOLDERS = re.compile(
     r"\b(lorem ipsum|TODO|TBD|FIXME|XXX|placeholder|coming soon)\b"
     r"|قريبا|قريباً|قيد الإعداد|نص تجريبي",
@@ -265,31 +262,32 @@ def main():
         for m, prem in enumerate(p.get("premises", [])):
             check_localized(prem, f"{where}.premises[{m}]")
         q = p.get("quran", {})
-        check_localized(q.get("verse"), f"{where}.quran.verse")
         check_localized(q.get("ref"), f"{where}.quran.ref")
 
-        # Qur'anic quotations: brackets must be present and balanced, and a
-        # partial quotation must show an ellipsis so no reader mistakes a
-        # fragment for the whole verse.
-        verse = (q.get("verse") or {}).get("ar")
-        if isinstance(verse, str) and verse.strip():
+        # الآية بالعربية وحدها — نصّ لا كائن لغات. الترجمات المنشورة محمية
+        # بحقوق نشر، وترجمة المعنى تحتاج مختصاً في كل لغة، فيُحال القارئ
+        # إلى ترجمة مراجَعة عبر `url` بدل أن ننسب إليه ما لم يراجعه أهله.
+        verse = q.get("verse")
+        if not isinstance(verse, str):
+            err(f"{where}.quran.verse: must be a plain Arabic string, not a "
+                f"per-language object — verses are not translated")
+        elif not verse.strip():
+            err(f"{where}.quran.verse: empty")
+        else:
             v = verse.strip()
-            if not (v.startswith("\u0FD3E") or v.startswith("﴿")):
-                err(f"{where}.quran.verse.ar: must open with ﴿")
+            if not v.startswith("\ufd3e") and not v.startswith("﴿"):
+                err(f"{where}.quran.verse: must open with ﴿")
             if not v.endswith("﴾"):
-                err(f"{where}.quran.verse.ar: must close with ﴾")
+                err(f"{where}.quran.verse: must close with ﴾")
             if v.count("﴿") != v.count("﴾"):
-                err(f"{where}.quran.verse.ar: unbalanced ornate brackets")
-            # ellipsis presence must agree across the three languages
-            marks = {
-                lang: ("..." in (q["verse"].get(lang) or "")
-                       or "…" in (q["verse"].get(lang) or ""))
-                for lang in LANGS
-            }
-            if len(set(marks.values())) > 1:
-                shown = ", ".join(f"{k}={'yes' if x else 'no'}" for k, x in marks.items())
-                err(f"{where}.quran.verse: ellipsis is inconsistent across languages "
-                    f"({shown}) — a verse is either partial in all three or none")
+                err(f"{where}.quran.verse: unbalanced ornate brackets")
+            if re.search(r"[A-Za-z\u0400-\u04FF]", v):
+                err(f"{where}.quran.verse: contains non-Arabic letters — the "
+                    f"verse is neither translated nor transliterated")
+
+        url = q.get("url")
+        if url is not None and not str(url).startswith("https://"):
+            err(f"{where}.quran.url: must be an https link to a reviewed translation")
 
     # ---- glossary / faqs / guides ------------------------------------
     for n, g in enumerate(data.get("glossary", [])):

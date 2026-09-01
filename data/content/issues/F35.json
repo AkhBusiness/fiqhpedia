@@ -1,0 +1,138 @@
+{
+  "ref": "F35",
+  "id": "taharah-24",
+  "bookId": "taharah",
+  "seq": 21,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم اشتباه الماء الطهور بالماء النجس",
+    "en": "Ruling when tahur water cannot be told apart from impure water",
+    "ru": "Постановление о смешении воды тахур с нечистой водой",
+    "es": "Norma cuando el agua tahur no se distingue del agua impura"
+  },
+  "summary": {
+    "ar": "إذا اشتبه ماء طهور بماء نجس، هل يتحرّى ويجتهد أم يُريقهما ويتيمّم؟",
+    "en": "When tahur water cannot be told from impure water, does one weigh the signs and choose, or pour both away and perform tayammum?",
+    "ru": "Если вода тахур неотличима от нечистой, взвешивают ли признаки и выбирают, или выливают обе и совершают таяммум?",
+    "es": "Si el agua tahur no se distingue de la impura, ¿se sopesan los indicios y se elige, o se vierten ambas y se hace el tayammum?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "إذا اشتبه الطهور بالنجس تحرّى للتطهّر والشرب إن كان الأغلب طاهراً، فإن استويا تيمّم.",
+        "en": "When tahur water cannot be told from impure water, one weighs the signs for purification and drinking if the greater part is pure; if the two are equal, one performs tayammum.",
+        "ru": "Если вода тахур неотличима от нечистой, взвешивают признаки для очищения и питья, когда большая часть чиста; при равенстве совершают таяммум.",
+        "es": "Si el agua tahur no se distingue de la impura, se sopesan los indicios para purificarse y beber cuando la mayor parte es pura; si se igualan, se hace el tayammum."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يتوضّأ من أيّ الإناءين شاء عند الاشتباه ما لم يتغيّر أحدهما بالنجاسة، ولا يلزمه التحرّي.",
+        "en": "One may perform wudu from whichever of the two vessels he wishes when they cannot be told apart, so long as neither has been altered by an impurity, and weighing the signs is not required of him.",
+        "ru": "При неразличимости можно совершить омовение из любого из двух сосудов, если ни один не изменён нечистотой, и взвешивать признаки не обязательно.",
+        "es": "Ante la confusión puede hacer el wudu con cualquiera de los dos recipientes, mientras ninguno haya sido alterado por una impureza, y no se le exige sopesar los indicios."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يتحرّى ويجتهد بين الإناءين بالعلامات فيتطهّر بما غلب على ظنّه طهارته، ولا تلزمه إراقة الآخر.",
+        "en": "One weighs the signs between the two vessels and purifies himself with the one he judges most likely to be pure; he is not obliged to pour the other away.",
+        "ru": "Взвешивают признаки между двумя сосудами и очищаются тем, который по преобладающему мнению чист; выливать другой не обязательно.",
+        "es": "Se sopesan los indicios entre los dos recipientes y uno se purifica con aquel que juzga probablemente puro; no está obligado a verter el otro."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يلزمه اجتناب الإناءين المشتبهين ويحرم التحرّي فيهما، فيتيمّم بعد إراقتهما أو خلطهما.",
+        "en": "One must avoid both indistinguishable vessels, and weighing the signs between them is forbidden; he performs tayammum after pouring them away or mixing them.",
+        "ru": "Следует избегать обоих неразличимых сосудов, взвешивать признаки между ними запрещено; таяммум совершают после того, как их вылили или смешали.",
+        "es": "Debe evitar ambos recipientes indistinguibles, y sopesar los indicios entre ellos está prohibido; hace el tayammum tras verterlos o mezclarlos."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "ref": "F32",
+  "id": "taharah-21",
+  "bookId": "taharah",
+  "seq": 17,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم سؤر الآدمي وما يؤكل لحمه من البهائم",
+    "en": "Ruling on water left over by humans and by animals whose meat is eaten",
+    "ru": "Постановление об остатке воды после людей и животных, мясо которых дозволено",
+    "es": "Norma sobre el sobrante de agua de humanos y de animales cuya carne se come"
+  },
+  "summary": {
+    "ar": "هل سؤر الآدمي وما يؤكل لحمه من الحيوان طاهر يصح التطهير به؟",
+    "en": "Is the water left over by a human, or by an animal whose meat is eaten, pure and valid for purification?",
+    "ru": "Чист ли остаток воды после человека или животного, мясо которого дозволено, и годится ли для очищения?",
+    "es": "¿Es puro y válido para la purificación el agua que dejan un ser humano o un animal cuya carne se come?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "سؤر الآدمي مسلماً كان أو كافراً، وسؤر ما يؤكل لحمه، طاهر يُرفع به الحدث وتُزال به النجاسة.",
+        "en": "Water left over by any human, Muslim or not, and by an animal whose meat is eaten, is pure: hadath is removed with it and najasah cleared.",
+        "ru": "Остаток воды после любого человека, мусульманина или нет, и после животного, мясо которого дозволено, чист: им устраняются хадас и наджаса.",
+        "es": "El agua que deja cualquier ser humano, musulmán o no, y un animal cuya carne se come, es pura: con ella se elimina el hadath y se limpia la najasah."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "سؤر الآدمي وسؤر ما يؤكل لحمه طهور يصح التطهير به رفعاً للحدث وإزالةً للخبث.",
+        "en": "Water left over by a human and by an animal whose meat is eaten is tahur, valid for purification, lifting hadath and clearing impurity.",
+        "ru": "Остаток воды после человека и после животного, мясо которого дозволено, — тахур, годный для очищения от хадаса и скверны.",
+        "es": "El agua que dejan un ser humano y un animal cuya carne se come es tahur, válida para purificarse del hadath y de la impureza."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "سؤر الآدمي طاهر ولو كان كافراً، وكذا سؤر ما يؤكل لحمه، طهور يصح به الوضوء والاغتسال.",
+        "en": "Water left over by a human is pure even if he is not a Muslim, and so is that of an animal whose meat is eaten: it is tahur, valid for wudu and ghusl.",
+        "ru": "Остаток воды после человека чист, даже если он не мусульманин, как и после животного, мясо которого дозволено: он тахур и годен для омовения и гусля.",
+        "es": "El agua que deja un ser humano es pura aunque no sea musulmán, igual que la de un animal cuya carne se come: es tahur, válida para el wudu y el gusl."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "سؤر الآدمي طاهر مطهّر، وكذا سؤر ما يؤكل لحمه، يصح رفع الحدث به وإزالة النجاسات.",
+        "en": "Water left over by a human is pure and purifying, as is that of an animal whose meat is eaten: hadath may be removed with it and impurities cleared.",
+        "ru": "Остаток воды после человека чист и очищающ, как и после животного, мясо которого дозволено: им устраняются хадас и нечистоты.",
+        "es": "El agua que deja un ser humano es pura y purificadora, igual que la de un animal cuya carne se come: con ella se elimina el hadath y las impurezas."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "ref": "F39",
+  "id": "salah-9",
+  "bookId": "salah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter of the Conditions of Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo de las condiciones de la oración"
+  },
+  "title": {
+    "ar": "حكم اشتباه الثياب الطاهرة بالثياب النجسة",
+    "en": "Ruling when pure garments cannot be told apart from impure ones",
+    "ru": "Постановление о неразличимости чистой и нечистой одежды",
+    "es": "Norma cuando la ropa pura no se distingue de la impura"
+  },
+  "summary": {
+    "ar": "إذا اشتبهت ثياب طاهرة بثياب نجسة، كيف يصلّي المكلّف؟",
+    "en": "When pure garments cannot be told apart from impure ones, how is one to pray?",
+    "ru": "Если чистая одежда неотличима от нечистой, как совершать молитву?",
+    "es": "Si la ropa pura no se distingue de la impura, ¿cómo debe rezar la persona?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يتحرّى بين الثياب المشتبهة، ويصلّي في الثوب الذي يغلب على ظنّه طهارته.",
+        "en": "One weighs the signs among the indistinguishable garments and prays in the one he judges most likely to be pure.",
+        "ru": "Взвешивают признаки среди неразличимых одежд и молятся в той, чистота которой представляется наиболее вероятной.",
+        "es": "Se sopesan los indicios entre las prendas indistinguibles y se reza con aquella que se juzga probablemente pura."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "إن لم يتميّز الطاهر صلّى في كل ثوب صلاة وزاد واحدة، ليصلّي في ثوب طاهر بيقين.",
+        "en": "If the pure garment cannot be singled out, one prays once in each garment and adds one more, so that a prayer in a pure garment is certain.",
+        "ru": "Если чистую одежду выделить нельзя, молятся по разу в каждой и прибавляют ещё одну, чтобы молитва в чистой была достоверна.",
+        "es": "Si no se puede distinguir la prenda pura, se reza una vez con cada una y se añade otra más, para que la oración con ropa pura sea cierta."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يجتهد بين الثياب بالعلامات ويصلّي فيما غلب على ظنّه طهارته، ولا يلزمه غسلها ولا إعادة الصلاة.",
+        "en": "One weighs the signs among the garments and prays in the one he judges most likely to be pure; he need neither wash them nor repeat the prayer.",
+        "ru": "Взвешивают признаки среди одежд и молятся в той, чистота которой вероятнее; ни стирать их, ни повторять молитву не требуется.",
+        "es": "Se sopesan los indicios entre las prendas y se reza con la que se juzga probablemente pura; no hace falta lavarlas ni repetir la oración."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يصلّي في كل ثوب صلاة حتى يتيقّن صلاته في ثوب طاهر، ولا يتحرّى بينها إن لم يجد غيرها.",
+        "en": "One prays once in each garment until a prayer in a pure garment is certain, and does not weigh the signs between them when he has no others.",
+        "ru": "Молятся по разу в каждой одежде, пока молитва в чистой не станет достоверной, и признаки между ними не взвешивают, если другой одежды нет.",
+        "es": "Se reza una vez con cada prenda hasta tener certeza de haber rezado con una pura, y no se sopesan los indicios entre ellas si no hay otras."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

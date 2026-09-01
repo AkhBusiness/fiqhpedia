@@ -1,0 +1,138 @@
+{
+  "ref": "F27",
+  "id": "taharah-16",
+  "bookId": "taharah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم الماء المستعمل في طهارة مستحبة",
+    "en": "Ruling on water used in a recommended purification",
+    "ru": "Постановление о воде, использованной в желательном очищении",
+    "es": "Norma sobre el agua usada en una purificación recomendada"
+  },
+  "summary": {
+    "ar": "هل يرفع الحدث بالماء المستعمل في طهارة مستحبة كتجديد الوضوء وغسل الجمعة؟",
+    "en": "Does water used in a recommended purification, such as renewing wudu or the Friday bath, still remove hadath?",
+    "ru": "Устраняет ли хадас вода, использованная в желательном очищении — обновлении омовения или пятничном гусле?",
+    "es": "¿Elimina el hadath el agua usada en una purificación recomendada, como renovar el wudu o el baño del viernes?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الماء المستعمل في طهارة مستحبة كتجديد الوضوء وغسل الجمعة طاهر غير مطهّر، فلا يصح رفع الحدث به.",
+        "en": "Water used in a recommended purification, such as renewing wudu or the Friday bath, is pure but not purifying, so hadath may not be removed with it.",
+        "ru": "Вода, использованная в желательном очищении — обновлении омовения или пятничном гусле, — чиста, но неочищающая, и хадас ею не устраняется.",
+        "es": "El agua usada en una purificación recomendada, como renovar el wudu o el baño del viernes, es pura pero no purificadora, y con ella no se elimina el hadath."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يظل الماء طهوراً يرفع الحدث ويزيل الخبث إذا استُعمل في طهارة مستحبة، مع الكراهة.",
+        "en": "The water stays tahur and still removes hadath and impurity when used in a recommended purification, though its reuse is disliked.",
+        "ru": "Вода остаётся тахур и по-прежнему устраняет хадас и скверну, если использована в желательном очищении, хотя это нежелательно.",
+        "es": "El agua sigue siendo tahur y aún elimina el hadath y la impureza si se usó en una purificación recomendada, aunque reutilizarla se detesta."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الماء المستعمل في طهارة مستحبة يظل طهوراً يرفع الحدث ويزيل النجاسة، لأنها طهارة لم ترفع حدثاً.",
+        "en": "Water used in a recommended purification stays tahur, removing hadath and najasah, because that purification lifted no hadath in the first place.",
+        "ru": "Вода, использованная в желательном очищении, остаётся тахур и устраняет хадас и наджасу, ибо то очищение хадаса не снимало.",
+        "es": "El agua usada en una purificación recomendada sigue siendo tahur y elimina el hadath y la najasah, pues aquella purificación no levantó hadath alguno."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "الماء المستعمل في طهارة مستحبة كتجديد الوضوء وغسل الجمعة يصير طاهراً لا يرفع الحدث.",
+        "en": "Water used in a recommended purification, such as renewing wudu or the Friday bath, becomes pure but no longer removes hadath.",
+        "ru": "Вода, использованная в желательном очищении — обновлении омовения или пятничном гусле, — становится чистой, но хадас уже не устраняет.",
+        "es": "El agua usada en una purificación recomendada, como renovar el wudu o el baño del viernes, queda pura pero ya no elimina el hadath."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

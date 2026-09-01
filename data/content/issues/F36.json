@@ -1,0 +1,138 @@
+{
+  "ref": "F36",
+  "id": "taharah-25",
+  "bookId": "taharah",
+  "seq": 22,
+  "chapter": {
+    "ar": "باب المياه",
+    "en": "Chapter of Waters",
+    "ru": "Раздел о водах",
+    "es": "Capítulo sobre las aguas"
+  },
+  "title": {
+    "ar": "حكم اشتباه الماء الطهور بالماء الطاهر",
+    "en": "Ruling when tahur water cannot be told from pure non-purifying water",
+    "ru": "Постановление о неразличимости воды тахур и чистой неочищающей воды",
+    "es": "Norma cuando el agua tahur no se distingue del agua pura no purificadora"
+  },
+  "summary": {
+    "ar": "إذا اشتبه ماء طهور بماء طاهر غير مطهّر، كيف يتطهّر المكلّف؟",
+    "en": "When tahur water cannot be told from pure but non-purifying water, how is one to purify himself?",
+    "ru": "Если вода тахур неотличима от чистой, но неочищающей, как совершить очищение?",
+    "es": "Si el agua tahur no se distingue del agua pura pero no purificadora, ¿cómo se purifica uno?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يتحرّى ويعمل بغلبة ظنّه فيتوضّأ من الإناء الذي يرجّح أنه الطهور، فإن استويا توضّأ منهما جميعاً.",
+        "en": "One weighs the signs and acts on the stronger likelihood, performing wudu from the vessel he judges to be the tahur one; if the two are equal, he performs wudu from both.",
+        "ru": "Взвешивают признаки и действуют по преобладающему предположению, совершая омовение из сосуда, который считают тахур; при равенстве омываются из обоих.",
+        "es": "Se sopesan los indicios y se actúa según la mayor probabilidad, haciendo el wudu del recipiente que se juzga tahur; si se igualan, se hace de ambos."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يتوضّأ من الإناءين معاً لإحراز شرط الطهارة بيقين، أو يتحرّى إن وُجدت قرينة تدلّ على الطهور.",
+        "en": "One performs wudu from both vessels together so that the condition of purity is met with certainty, or weighs the signs if there is an indication pointing to the tahur one.",
+        "ru": "Совершают омовение из обоих сосудов вместе, чтобы условие чистоты было выполнено достоверно, либо взвешивают признаки, если есть указание на тахур.",
+        "es": "Se hace el wudu de ambos recipientes juntos para cumplir con certeza la condición de pureza, o se sopesan los indicios si hay algo que señale al tahur."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يتوضّأ من كل واحد منهما وضوءاً مستقلاً، ولا يلزمه الاجتهاد بينهما، لإحراز شرط الطهارة بيقين.",
+        "en": "One performs a separate wudu from each vessel and is not required to weigh the signs between them, so that the condition of purity is met with certainty.",
+        "ru": "Совершают отдельное омовение из каждого сосуда, и взвешивать признаки между ними не обязательно, чтобы условие чистоты было выполнено достоверно.",
+        "es": "Se hace un wudu independiente de cada recipiente, sin que se le exija sopesar los indicios, para cumplir con certeza la condición de pureza."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يتوضّأ من كل واحد منهما وضوءاً كاملاً ويصلّي صلاة واحدة، لإحراز الطهارة من أحدهما بيقين.",
+        "en": "One performs a complete wudu from each vessel and prays a single prayer, so that purity from one of the two is attained with certainty.",
+        "ru": "Совершают полное омовение из каждого сосуда и молятся один раз, чтобы чистота от одного из них была достигнута достоверно.",
+        "es": "Se hace un wudu completo de cada recipiente y se reza una sola oración, para alcanzar con certeza la pureza de uno de los dos."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}
