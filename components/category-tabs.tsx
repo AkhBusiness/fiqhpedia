@@ -1,15 +1,36 @@
 "use client"
 
-import { type Category, categories, type Lang } from "@/lib/fiqh-data"
+import { type Category, categories, chaptersOf, type Lang } from "@/lib/fiqh-data"
+
+/** «كل الأبواب» — نصّ واجهة قصير، أبقيه هنا لا في fiqhData حتى لا يتضخّم. */
+const ALL_CHAPTERS: Record<string, string> = {
+  ar: "كل الأبواب",
+  en: "All chapters",
+  ru: "Все разделы",
+  es: "Todos los capítulos",
+}
 
 interface CategoryTabsProps {
   lang: Lang
   activeId: string
   counts: Record<string, number>
   onSelect: (id: string) => void
+  /** Chapter currently filtered to, or "" for the whole book. */
+  activeChapter: string
+  onSelectChapter: (key: string) => void
 }
 
-export function CategoryTabs({ lang, activeId, counts, onSelect }: CategoryTabsProps) {
+export function CategoryTabs({
+  lang,
+  activeId,
+  counts,
+  onSelect,
+  activeChapter,
+  onSelectChapter,
+}: CategoryTabsProps) {
+  // Chapters belong to the open book, so they are only worth showing once a
+  // book is chosen — during a search or in Saved there is no single book.
+  const chapters = activeId ? chaptersOf(activeId) : []
   return (
     <nav
       aria-label={lang === "ar" ? "أبواب الفقه" : lang === "ru" ? "Разделы фикха" : "Fiqh sections"}
@@ -51,6 +72,50 @@ export function CategoryTabs({ lang, activeId, counts, onSelect }: CategoryTabsP
             })}
           </ul>
         </div>
+
+        {activeId && chapters.length > 0 ? (
+          <div className="mt-2 lg:mt-3">
+            <ul className="flex gap-0.5 overflow-x-auto [scrollbar-width:none] lg:flex-col [&::-webkit-scrollbar]:hidden">
+              <li className="shrink-0 lg:w-full">
+                <button
+                  type="button"
+                  onClick={() => onSelectChapter("")}
+                  aria-current={activeChapter === "" ? "true" : undefined}
+                  className={`rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:rounded-lg lg:px-3 lg:py-1.5 lg:text-start ${
+                    activeChapter === ""
+                      ? "font-semibold text-white"
+                      : "font-medium text-zinc-500 hover:text-zinc-300"
+                  }`}
+                >
+                  {ALL_CHAPTERS[lang]}
+                  <span className="ms-1.5 text-[10px] tabular-nums text-zinc-600">
+                    {chapters.reduce((n, c) => n + c.count, 0)}
+                  </span>
+                </button>
+              </li>
+              {chapters.map((ch) => {
+                const on = ch.key === activeChapter
+                return (
+                  <li key={ch.key} className="shrink-0 lg:w-full">
+                    <button
+                      type="button"
+                      onClick={() => onSelectChapter(on ? "" : ch.key)}
+                      aria-current={on ? "true" : undefined}
+                      className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:justify-between lg:rounded-lg lg:px-3 lg:py-1.5 ${
+                        on
+                          ? "bg-white/15 font-semibold text-white"
+                          : "font-medium text-zinc-500 hover:text-zinc-300"
+                      }`}
+                    >
+                      <span className="lg:truncate">{ch.name[lang]}</span>
+                      <span className="text-[10px] tabular-nums text-zinc-600">{ch.count}</span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </nav>
   )

@@ -58,6 +58,9 @@ export function AppShell({ lang, section }: AppShellProps) {
     onboardingStep, setOnboardingStep,
     onboardingSettled, setOnboardingSettled,
   } = useAppState()
+  // فلتر الفصل داخل الباب المفتوح. لا يُحفظ في التفضيلات: هو اختيار
+  // لحظي أثناء التصفّح، لا إعداد يعود إليه الزائر في الزيارة التالية.
+  const [activeChapter, setActiveChapter] = useState("")
   const [shareIssue, setShareIssue] = useState<Issue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
   const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
@@ -150,7 +153,11 @@ export function AppShell({ lang, section }: AppShellProps) {
         ? issues.filter((i) => isBookmarked(i.id))
         : searching
           ? issues
-          : issues.filter((i) => i.categoryId === activeCategory)
+          : issues.filter(
+              (i) =>
+                i.categoryId === activeCategory &&
+                (!activeChapter || i.chapter?.ar === activeChapter),
+            )
     return base
       .filter((i) => issueMatchesQuery(i, query))
       .sort(
@@ -158,7 +165,7 @@ export function AppShell({ lang, section }: AppShellProps) {
           (bookOrder.get(a.categoryId) ?? 0) - (bookOrder.get(b.categoryId) ?? 0) ||
           a.number - b.number,
       )
-  }, [activeCategory, scope, query, searching, isBookmarked])
+  }, [activeCategory, activeChapter, scope, query, searching, isBookmarked])
 
   /** Matches outside the fiqh tab, so a search is never silently partial. */
   const otherHits = useMemo(() => {
@@ -218,8 +225,11 @@ export function AppShell({ lang, section }: AppShellProps) {
             lang={lang}
             activeId={scope === "saved" || searching ? "" : activeCategory}
             counts={counts}
+            activeChapter={activeChapter}
+            onSelectChapter={setActiveChapter}
             onSelect={(id) => {
               setActiveCategory(id)
+              setActiveChapter("")
               setScope("all")
             }}
           />

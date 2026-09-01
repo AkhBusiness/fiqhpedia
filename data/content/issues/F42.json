@@ -1,0 +1,138 @@
+{
+  "ref": "F42",
+  "id": "salah-12",
+  "bookId": "salah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter of the Conditions of Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo de las condiciones de la oración"
+  },
+  "title": {
+    "ar": "وقت صلاة المغرب بدايةً ونهايةً",
+    "en": "The time of the sunset prayer, from its beginning to its end",
+    "ru": "Время закатной молитвы: её начало и конец",
+    "es": "El tiempo de la oración del ocaso, desde su inicio hasta su fin"
+  },
+  "summary": {
+    "ar": "متى يبدأ وقت صلاة المغرب ومتى ينتهي عند الأئمة الأربعة؟",
+    "en": "When does the time of the sunset prayer begin and when does it end according to the four imams?",
+    "ru": "Когда начинается и когда заканчивается время закатной молитвы по мнению четырёх имамов?",
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del ocaso según los cuatro imanes?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى غياب الشفق، وهو البياض عند أبي حنيفة.",
+        "en": "It begins when the sun's disc has set and lasts until the twilight is gone, the twilight being the whiteness according to Abu Hanifa.",
+        "ru": "Начинается с захода солнечного диска и длится до исчезновения зари, а заря — это белизна по мнению Абу Ханифы.",
+        "es": "Comienza cuando el disco solar se ha puesto y dura hasta desaparecer el crepúsculo, que es la blancura según Abu Hanifa."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يبدأ بغروب قرص الشمس، ووقته مضيّق بقدر ما يؤدّيها بعد الطهارة والأذان.",
+        "en": "It begins when the sun's disc has set, and its time is narrow: no more than what suffices to purify, call the prayer, and perform it.",
+        "ru": "Начинается с захода солнечного диска, и время его узко: столько, сколько нужно для омовения, азана и самой молитвы.",
+        "es": "Comienza cuando el disco solar se ha puesto, y su tiempo es estrecho: lo justo para purificarse, llamar a la oración y rezarla."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
+        },
+        {
+          "ar": "منح الجليل",
+          "en": "Minaḥ al-Jalīl",
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى مغيب الشفق الأحمر.",
+        "en": "It begins when the sun's disc has set and lasts until the red twilight disappears.",
+        "ru": "Начинается с захода солнечного диска и длится до исчезновения красной зари.",
+        "es": "Comienza cuando el disco solar se ha puesto y dura hasta que desaparece el crepúsculo rojo."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى مغيب الشفق الأحمر.",
+        "en": "It begins when the sun's disc has set and lasts until the red twilight disappears.",
+        "ru": "Начинается с захода солнечного диска и длится до исчезновения красной зари.",
+        "es": "Comienza cuando el disco solar se ha puesto y dura hasta que desaparece el crepúsculo rojo."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
+        },
+        {
+          "ar": "الإنصاف",
+          "en": "Al-Inṣāf",
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
+        }
+      ]
+    }
+  }
+}

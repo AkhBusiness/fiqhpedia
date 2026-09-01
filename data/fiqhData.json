@@ -5546,10 +5546,688 @@
       }
     },
     {
+      "id": "salah-10",
+      "ref": "F40",
+      "bookId": "salah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة الفجر بدايةً ونهايةً",
+        "en": "The time of the dawn prayer, from its beginning to its end",
+        "ru": "Время утренней молитвы: её начало и конец",
+        "es": "El tiempo de la oración del alba, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة الفجر ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the dawn prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время утренней молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del alba según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ وقت الفجر بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والإسفار به أفضل.",
+            "en": "The dawn prayer begins at true dawn and lasts until sunrise; praying it once the light has spread is preferable.",
+            "ru": "Время утренней молитвы начинается с истинного рассвета и длится до восхода; предпочтительно совершать её, когда рассвело.",
+            "es": "El tiempo del alba comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla cuando ya ha clareado."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق، ووقته المختار إلى الإسفار، ويمتدّ الضروري إلى طلوع الشمس.",
+            "en": "It begins at true dawn; its preferred time runs until the light spreads, and its time of necessity extends to sunrise.",
+            "ru": "Начинается с истинного рассвета; предпочтительное время — до рассвета полного, а вынужденное длится до восхода.",
+            "es": "Comienza con el alba verdadera; su tiempo preferido llega hasta que clarea, y el de necesidad se extiende hasta la salida del sol."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس بأوّله أفضل.",
+            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
+            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
+            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس به أفضل.",
+            "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
+            "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
+            "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-11",
+      "ref": "F41",
+      "bookId": "salah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة الظهر بدايةً ونهايةً",
+        "en": "The time of the noon prayer, from its beginning to its end",
+        "ru": "Время полуденной молитвы: её начало и конец",
+        "es": "El tiempo de la oración del mediodía, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة الظهر ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the noon prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время полуденной молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del mediodía según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثليه سوى فيء الزوال.",
+            "en": "It begins when the sun passes its zenith and lasts until a thing's shadow reaches twice its length, apart from the shadow at noon.",
+            "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не станет вдвое длиннее его, не считая полуденной тени.",
+            "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra alcanza el doble de su objeto, sin contar la sombra del mediodía."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر.",
+            "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer.",
+            "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой.",
+            "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله سوى فيء الزوال.",
+            "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, apart from the shadow at noon.",
+            "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, не считая полуденной тени.",
+            "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, sin contar la sombra del mediodía."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله بعد فيء الزوال.",
+            "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, counted after the shadow at noon.",
+            "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, считая после полуденной тени.",
+            "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, contada tras la sombra del mediodía."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-4",
+      "ref": "F15",
+      "bookId": "salah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة العصر بدايةً ونهايةً",
+        "en": "The time of the afternoon prayer, from its beginning to its end",
+        "ru": "Время послеполуденной молитвы: её начало и конец",
+        "es": "El tiempo de la oración de la tarde, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة العصر ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the afternoon prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время послеполуденной молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración de la tarde según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ إذا صار ظلّ كل شيء مثليه سوى فيء الزوال، ويمتدّ إلى غروب الشمس.",
+            "en": "It begins when a thing's shadow reaches twice its length, apart from the shadow at noon, and lasts until sunset.",
+            "ru": "Начинается, когда тень предмета становится вдвое длиннее его, не считая полуденной тени, и длится до заката.",
+            "es": "Comienza cuando la sombra alcanza el doble de su objeto, sin contar la del mediodía, y dura hasta la puesta del sol."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ إذا صار ظلّ الشيء مثله، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
+            "en": "It begins when a thing's shadow equals its length; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
+            "ru": "Начинается, когда тень сравняется с предметом; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
+            "es": "Comienza cuando la sombra iguala al objeto; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بزيادة الظلّ على مثله أدنى زيادة بعد فيء الزوال، ويمتدّ إلى غروب الشمس.",
+            "en": "It begins the moment a thing's shadow exceeds its length, counted after the shadow at noon, and lasts until sunset.",
+            "ru": "Начинается, как только тень чуть превысит предмет, считая после полуденной тени, и длится до заката.",
+            "es": "Comienza en cuanto la sombra supera mínimamente al objeto, contada tras la del mediodía, y dura hasta la puesta del sol."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»"
+            },
+            {
+              "ar": "نهاية المحتاج",
+              "en": "Nihāyat al-Muḥtāj",
+              "ru": "«Нихаят аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس.",
+            "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon, and its preferred time runs until the sun yellows.",
+            "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени, а предпочтительное время — до пожелтения солнца.",
+            "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía, y su tiempo preferido llega hasta que el sol amarillea."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-12",
+      "ref": "F42",
+      "bookId": "salah",
+      "number": 4,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة المغرب بدايةً ونهايةً",
+        "en": "The time of the sunset prayer, from its beginning to its end",
+        "ru": "Время закатной молитвы: её начало и конец",
+        "es": "El tiempo de la oración del ocaso, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة المغرب ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the sunset prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время закатной молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del ocaso según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى غياب الشفق، وهو البياض عند أبي حنيفة.",
+            "en": "It begins when the sun's disc has set and lasts until the twilight is gone, the twilight being the whiteness according to Abu Hanifa.",
+            "ru": "Начинается с захода солнечного диска и длится до исчезновения зари, а заря — это белизна по мнению Абу Ханифы.",
+            "es": "Comienza cuando el disco solar se ha puesto y dura hasta desaparecer el crepúsculo, que es la blancura según Abu Hanifa."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ بغروب قرص الشمس، ووقته مضيّق بقدر ما يؤدّيها بعد الطهارة والأذان.",
+            "en": "It begins when the sun's disc has set, and its time is narrow: no more than what suffices to purify, call the prayer, and perform it.",
+            "ru": "Начинается с захода солнечного диска, и время его узко: столько, сколько нужно для омовения, азана и самой молитвы.",
+            "es": "Comienza cuando el disco solar se ha puesto, y su tiempo es estrecho: lo justo para purificarse, llamar a la oración y rezarla."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى مغيب الشفق الأحمر.",
+            "en": "It begins when the sun's disc has set and lasts until the red twilight disappears.",
+            "ru": "Начинается с захода солнечного диска и длится до исчезновения красной зари.",
+            "es": "Comienza cuando el disco solar se ha puesto y dura hasta que desaparece el crepúsculo rojo."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى مغيب الشفق الأحمر.",
+            "en": "It begins when the sun's disc has set and lasts until the red twilight disappears.",
+            "ru": "Начинается с захода солнечного диска и длится до исчезновения красной зари.",
+            "es": "Comienza cuando el disco solar se ha puesto y dura hasta que desaparece el crepúsculo rojo."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salah-13",
+      "ref": "F43",
+      "bookId": "salah",
+      "number": 5,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración"
+      },
+      "title": {
+        "ar": "وقت صلاة العشاء بدايةً ونهايةً",
+        "en": "The time of the night prayer, from its beginning to its end",
+        "ru": "Время ночной молитвы: её начало и конец",
+        "es": "El tiempo de la oración de la noche, desde su inicio hasta su fin"
+      },
+      "summary": {
+        "ar": "متى يبدأ وقت صلاة العشاء ومتى ينتهي عند الأئمة الأربعة؟",
+        "en": "When does the time of the night prayer begin and when does it end according to the four imams?",
+        "ru": "Когда начинается и когда заканчивается время ночной молитвы по мнению четырёх имамов?",
+        "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración de la noche según los cuatro imanes?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبدأ بغياب الشفق ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
+            "en": "It begins when the twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
+            "ru": "Начинается с исчезновения зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
+            "es": "Comienza al desaparecer el crepúsculo y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبدأ بمغيب الشفق الأحمر، ووقته المختار إلى ثلث الليل الأول، والضروري إلى طلوع الفجر.",
+            "en": "It begins when the red twilight disappears; its preferred time runs to the first third of the night, and its time of necessity to true dawn.",
+            "ru": "Начинается с исчезновения красной зари; предпочтительное время — до первой трети ночи, вынужденное — до истинного рассвета.",
+            "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī"
+            },
+            {
+              "ar": "منح الجليل",
+              "en": "Minaḥ al-Jalīl",
+              "ru": "«Минах аль-Джалиль»",
+              "es": "Minaḥ al-Jalīl"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يبدأ بمغيب الشفق الأحمر ويمتدّ إلى طلوع الفجر الصادق، والاختيار إلى ثلث الليل.",
+            "en": "It begins when the red twilight disappears and lasts until true dawn, the preferred time ending at the first third of the night.",
+            "ru": "Начинается с исчезновения красной зари и длится до истинного рассвета, а предпочтительное время — до первой трети ночи.",
+            "es": "Comienza al desaparecer el crepúsculo rojo y dura hasta el alba verdadera, siendo el tiempo preferido hasta el primer tercio de la noche."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبدأ بمغيب الشفق الأحمر، ووقته المختار إلى ثلث الليل، والضروري إلى طلوع الفجر.",
+            "en": "It begins when the red twilight disappears; its preferred time runs to the first third of the night, and its time of necessity to true dawn.",
+            "ru": "Начинается с исчезновения красной зари; предпочтительное время — до первой трети ночи, вынужденное — до истинного рассвета.",
+            "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-9",
       "ref": "F39",
       "bookId": "salah",
-      "number": 1,
+      "number": 6,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -5687,7 +6365,7 @@
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 2,
+      "number": 7,
       "chapter": {
         "ar": "باب تكبيرة الإحرام",
         "en": "Chapter of the Opening Takbīr",
@@ -5766,7 +6444,7 @@
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 3,
+      "number": 8,
       "chapter": {
         "ar": "باب القيام ووضع اليدين",
         "en": "Chapter of Standing and Hand Placement",
@@ -5845,7 +6523,7 @@
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 4,
+      "number": 9,
       "chapter": {
         "ar": "باب القراءة",
         "en": "Chapter of Recitation",
@@ -5921,129 +6599,10 @@
       }
     },
     {
-      "id": "salah-4",
-      "ref": "F15",
-      "bookId": "salah",
-      "number": 5,
-      "chapter": {
-        "ar": "باب مواقيت الصلاة",
-        "en": "Chapter of Prayer Times",
-        "ru": "Раздел о времени молитв"
-      },
-      "title": {
-        "ar": "بداية وقت صلاة العصر وتحديد وقتها المختار",
-        "en": "Beginning of the Asr Prayer Time and its Option",
-        "ru": "Начало времени молитвы Аср и его определение"
-      },
-      "summary": {
-        "ar": "متى يبدأ وقت صلاة العصر بدقة وما هو المعتمد فيه؟",
-        "en": "When exactly does the time for Asr prayer begin?",
-        "ru": "Когда именно начинается время совершения дневной молитвы Аср?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "يبدأ وقت العصر عندما يصير ظل كل شيء مثليه غير ظل الاستواء وهو المعتمد في المذهب.",
-            "en": "The time for ʿAṣr begins when the shadow of an object becomes twice its length, excluding the midday shadow.",
-            "ru": "Время молитвы Аср начинается, когда тень предмета становится в два раза длиннее самого предмета, не считая тени полудня."
-          },
-          "sources": [
-            {
-              "ar": "رد المحتار",
-              "en": "Radd al-Muḥtār",
-              "ru": "«Радд аль-Мухтар»"
-            },
-            {
-              "ar": "الدر المختار",
-              "en": "Al-Durr al-Mukhtār",
-              "ru": "«Ад-Дурр аль-Мухтар»"
-            },
-            {
-              "ar": "الهداية",
-              "en": "Al-Hidāyah",
-              "ru": "«Аль-Хидая»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "يبدأ وقت العصر إذا صار ظل الشيء مثله بعد ظل الزوال ويمتد وقته الاختياري إلى الاصفرار.",
-            "en": "The time for ʿAṣr begins when the shadow of an object equals its length after the meridian shadow.",
-            "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
-          },
-          "sources": [
-            {
-              "ar": "الشرح الكبير",
-              "en": "Al-Sharḥ al-Kabīr",
-              "ru": "«Аш-Шарх аль-Кабир»"
-            },
-            {
-              "ar": "حاشية الدسوقي",
-              "en": "Ḥāshiyat al-Dasūqī",
-              "ru": "«Хашият ад-Дасуки»"
-            },
-            {
-              "ar": "منح الجليل",
-              "en": "Minaḥ al-Jalīl",
-              "ru": "«Минах аль-Джалиль»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "يبدأ وقت صلاة العصر بمجرد زيادة ظل الشيء عن مثله أدنى زيادة بعد ظل الزوال.",
-            "en": "The time for ʿAṣr begins as soon as the shadow exceeds the object's length by the slightest amount.",
-            "ru": "Время молитвы Аср начинается, как только тень предмета незначительно превысит его длину."
-          },
-          "sources": [
-            {
-              "ar": "مغني المحتاج",
-              "en": "Mughnī al-Muḥtāj",
-              "ru": "«Мугни аль-Мухтадж»"
-            },
-            {
-              "ar": "تحفة المحتاج",
-              "en": "Tuḥfat al-Muḥtāj",
-              "ru": "«Тухфат аль-Мухтадж»"
-            },
-            {
-              "ar": "نهاية المحتاج",
-              "en": "Nihāyat al-Muḥtāj",
-              "ru": "«Нихаят аль-Мухтадж»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "يبدأ وقت العصر إذا صار ظل كل شيء مثله بعد ظل الزوال مباشرة ويمتد إلى الاصفرار.",
-            "en": "The time for ʿAṣr begins when an object's shadow equals its length after the midday shadow.",
-            "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
-          },
-          "sources": [
-            {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»"
-            },
-            {
-              "ar": "شرح منتهى الإرادات",
-              "en": "Sharḥ Muntahā al-Irādāt",
-              "ru": "«Шарх Мунтаха аль-Ирадат»"
-            },
-            {
-              "ar": "الإنصاف",
-              "en": "Al-Inṣāf",
-              "ru": "«Аль-Инсаф»"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "salah-5",
       "ref": "F16",
       "bookId": "salah",
-      "number": 6,
+      "number": 10,
       "chapter": {
         "ar": "باب صلاة الجماعة والإمامة",
         "en": "Chapter of Congregational Prayer and Leading It",
@@ -6163,7 +6722,7 @@
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 7,
+      "number": 11,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -6282,7 +6841,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 8,
+      "number": 12,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -6401,7 +6960,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 9,
+      "number": 13,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",

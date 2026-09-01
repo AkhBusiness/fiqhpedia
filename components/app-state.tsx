@@ -44,7 +44,9 @@ const Ctx = createContext<AppState | null>(null)
  */
 export function AppStateProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<"dark" | "light">("dark")
-  const [activeCategory, setActiveCategory] = useState("iman")
+  // الطهارة لا الإيمان: أول أبواب الفقه العملي، وأكثرها مسائل،
+  // وفصولها تُظهر فلتر الفصول من أول زيارة.
+  const [activeCategory, setActiveCategory] = useState("taharah")
   const [filter, setFilter] = useState<SchoolFilter>({ mode: "all" })
   const [query, setQuery] = useState("")
   const [scope, setScope] = useState<ScopeFilter>("all")

@@ -510,6 +510,26 @@ export function findGlossaryTerm(word: string): GlossaryTerm | undefined {
   return GLOSSARY_INDEX[word.trim().toLowerCase()]
 }
 
+/**
+ * Chapters of one book, in reading order, each with its issue count.
+ *
+ * Derived from the issues themselves rather than a separate list: a chapter
+ * exists on the site exactly when an issue sits in it, so the filter can
+ * never offer a heading that leads to an empty page. Order follows `number`,
+ * which the build step derives from data/content/chapters.json.
+ */
+export function chaptersOf(categoryId: string): { key: string; name: Localized; count: number }[] {
+  const seen = new Map<string, { key: string; name: Localized; count: number }>()
+  for (const issue of issues) {
+    if (issue.categoryId !== categoryId || !issue.chapter) continue
+    const key = issue.chapter.ar
+    const found = seen.get(key)
+    if (found) found.count += 1
+    else seen.set(key, { key, name: issue.chapter, count: 1 })
+  }
+  return [...seen.values()]
+}
+
 /* ------------------------------------------------------------------ */
 /* Search — normalized, cross-language, cross-section                  */
 /* ------------------------------------------------------------------ */

@@ -2,28 +2,32 @@
   "ref": "F15",
   "id": "salah-4",
   "bookId": "salah",
-  "seq": 1,
+  "seq": 3,
   "chapter": {
-    "ar": "باب مواقيت الصلاة",
-    "en": "Chapter of Prayer Times",
-    "ru": "Раздел о времени молитв"
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter of the Conditions of Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo de las condiciones de la oración"
   },
   "title": {
-    "ar": "بداية وقت صلاة العصر وتحديد وقتها المختار",
-    "en": "Beginning of the Asr Prayer Time and its Option",
-    "ru": "Начало времени молитвы Аср и его определение"
+    "ar": "وقت صلاة العصر بدايةً ونهايةً",
+    "en": "The time of the afternoon prayer, from its beginning to its end",
+    "ru": "Время послеполуденной молитвы: её начало и конец",
+    "es": "El tiempo de la oración de la tarde, desde su inicio hasta su fin"
   },
   "summary": {
-    "ar": "متى يبدأ وقت صلاة العصر بدقة وما هو المعتمد فيه؟",
-    "en": "When exactly does the time for Asr prayer begin?",
-    "ru": "Когда именно начинается время совершения дневной молитвы Аср?"
+    "ar": "متى يبدأ وقت صلاة العصر ومتى ينتهي عند الأئمة الأربعة؟",
+    "en": "When does the time of the afternoon prayer begin and when does it end according to the four imams?",
+    "ru": "Когда начинается и когда заканчивается время послеполуденной молитвы по мнению четырёх имамов?",
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración de la tarde según los cuatro imanes?"
   },
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يبدأ وقت العصر عندما يصير ظل كل شيء مثليه غير ظل الاستواء وهو المعتمد في المذهب.",
-        "en": "The time for ʿAṣr begins when the shadow of an object becomes twice its length, excluding the midday shadow.",
-        "ru": "Время молитвы Аср начинается, когда тень предмета становится в два раза длиннее самого предмета, не считая тени полудня."
+        "ar": "يبدأ إذا صار ظلّ كل شيء مثليه سوى فيء الزوال، ويمتدّ إلى غروب الشمس.",
+        "en": "It begins when a thing's shadow reaches twice its length, apart from the shadow at noon, and lasts until sunset.",
+        "ru": "Начинается, когда тень предмета становится вдвое длиннее его, не считая полуденной тени, и длится до заката.",
+        "es": "Comienza cuando la sombra alcanza el doble de su objeto, sin contar la del mediodía, y dura hasta la puesta del sol."
       },
       "sources": [
         {
@@ -45,9 +49,10 @@
     },
     "maliki": {
       "text": {
-        "ar": "يبدأ وقت العصر إذا صار ظل الشيء مثله بعد ظل الزوال ويمتد وقته الاختياري إلى الاصفرار.",
-        "en": "The time for ʿAṣr begins when the shadow of an object equals its length after the meridian shadow.",
-        "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+        "ar": "يبدأ إذا صار ظلّ الشيء مثله، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
+        "en": "It begins when a thing's shadow equals its length; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
+        "ru": "Начинается, когда тень сравняется с предметом; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
+        "es": "Comienza cuando la sombra iguala al objeto; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta."
       },
       "sources": [
         {
@@ -69,9 +74,10 @@
     },
     "shafii": {
       "text": {
-        "ar": "يبدأ وقت صلاة العصر بمجرد زيادة ظل الشيء عن مثله أدنى زيادة بعد ظل الزوال.",
-        "en": "The time for ʿAṣr begins as soon as the shadow exceeds the object's length by the slightest amount.",
-        "ru": "Время молитвы Аср начинается, как только тень предмета незначительно превысит его длину."
+        "ar": "يبدأ بزيادة الظلّ على مثله أدنى زيادة بعد فيء الزوال، ويمتدّ إلى غروب الشمس.",
+        "en": "It begins the moment a thing's shadow exceeds its length, counted after the shadow at noon, and lasts until sunset.",
+        "ru": "Начинается, как только тень чуть превысит предмет, считая после полуденной тени, и длится до заката.",
+        "es": "Comienza en cuanto la sombra supera mínimamente al objeto, contada tras la del mediodía, y dura hasta la puesta del sol."
       },
       "sources": [
         {
@@ -93,9 +99,10 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يبدأ وقت العصر إذا صار ظل كل شيء مثله بعد ظل الزوال مباشرة ويمتد إلى الاصفرار.",
-        "en": "The time for ʿAṣr begins when an object's shadow equals its length after the midday shadow.",
-        "ru": "Время молитвы Аср начинается, когда тень предмета становится равна его длине после полуденной тени."
+        "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس.",
+        "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon, and its preferred time runs until the sun yellows.",
+        "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени, а предпочтительное время — до пожелтения солнца.",
+        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía, y su tiempo preferido llega hasta que el sol amarillea."
       },
       "sources": [
         {
