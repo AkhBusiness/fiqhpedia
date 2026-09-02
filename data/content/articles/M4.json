@@ -1,0 +1,146 @@
+{
+  "id": "proof-of-creation",
+  "ref": "M4",
+  "chapter": {
+    "ar": "باب أدلة التوحيد والإيمان",
+    "en": "Chapter on the Proofs of Monotheism and Faith",
+    "ru": "Раздел о доказательствах единобожия и веры",
+    "es": "Capítulo sobre las pruebas del monoteísmo y la fe",
+    "uk": "Розділ про докази єдинобожжя та віри"
+  },
+  "title": {
+    "ar": "دليل الخلق واستحالة التسلسل في الإيجاد",
+    "en": "The proof of creation and the impossibility of an infinite regress",
+    "ru": "Доказательство сотворения и невозможность бесконечного ряда причин",
+    "es": "La prueba de la creación y la imposibilidad de una regresión infinita",
+    "uk": "Доказ створення та неможливість безкінечного ланцюга причин"
+  },
+  "excerpt": {
+    "ar": "بيان الدليل العقلي على حدوث العالم، واستحالة تسلسل الموجِدين في الماضي إلى غير نهاية.",
+    "en": "An account of the rational proof that the world is originated, and of why a chain of originators cannot run back without end.",
+    "ru": "Изложение разумного доказательства сотворённости мира и того, почему цепь причин не может уходить в прошлое бесконечно.",
+    "es": "Exposición de la prueba racional de que el mundo es originado, y de por qué una cadena de causas no puede remontarse sin fin.",
+    "uk": "Виклад розумового доказу створеності світу та того, чому ланцюг причин не може сягати в минуле без кінця."
+  },
+  "relatedRefs": [
+    "A1",
+    "A2"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "es": "",
+        "uk": ""
+      },
+      "body": {
+        "ar": "تقرّر الشريعة والعقول السليمة أن هذا العالم بجميع أجزائه حادث مسبوق بالعدم، متوقّف في وجوده على موجِد قديم لم يسبقه شيء.\n\nودليل الحدوث مقروناً بإبطال التسلسل من أعظم ما اعتمده أهل السنة في ردّ شبهة القول بأزلية المادة.",
+        "en": "Both the revealed Law and sound reason hold that this world, in all its parts, is originated and preceded by non-existence, depending for its existence on an Originator without beginning, before whom nothing was.\n\nThe proof of origination, joined to the refutation of infinite regress, is among the strongest grounds relied upon in answering the claim that matter is eternal.",
+        "ru": "И Закон, и здравый разум утверждают, что этот мир во всех своих частях возник и что ему предшествовало небытие, а его существование зависит от безначального Творца, до Которого ничего не было.\n\nДоказательство возникновения вместе с опровержением бесконечного ряда причин — одно из сильнейших оснований в ответе на утверждение о вечности материи.",
+        "es": "Tanto la Ley revelada como la sana razón sostienen que este mundo, en todas sus partes, es originado y precedido por la no existencia, y que depende en su existencia de un Originador sin principio, antes del cual nada hubo.\n\nLa prueba de la originación, unida a la refutación de la regresión infinita, es uno de los fundamentos más firmes frente a la afirmación de que la materia es eterna.",
+        "uk": "І Закон, і здоровий розум стверджують, що цей світ у всіх своїх частинах виник і що йому передувало небуття, а його існування залежить від безначального Творця, до Якого нічого не було.\n\nДоказ виникнення разом зі спростуванням безкінечного ланцюга причин — одна з найміцніших підстав у відповіді на твердження про вічність матерії."
+      }
+    },
+    {
+      "id": "creation-proof",
+      "heading": {
+        "ar": "حقيقة دليل الحدوث",
+        "en": "What the proof of origination says",
+        "ru": "Суть доказательства возникновения",
+        "es": "En qué consiste la prueba de la originación",
+        "uk": "Суть доказу виникнення"
+      },
+      "body": {
+        "ar": "ينطلق الدليل من مقدّمة ظاهرة: أن الأجرام المشاهدة متغيّرة متحوّلة، وكل متغيّر حادث مسبوق بالعدم.\n\nوقد أشار القرآن إلى هذا المعنى في قوله تعالى ﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾، سورة الطور: ٣٥.\n\nفإذا كان الشيء لا يخلق نفسه، ولا يوجد بلا موجِد، لزم عقلاً أن له خالقاً أحدثه بعد العدم.",
+        "en": "The proof begins from a plain premise: the bodies we observe change and alter, and whatever changes is originated and preceded by non-existence.\n\nThe Qur'an points to this in Sūrat al-Ṭūr, verse 35.\n\nSince a thing cannot bring itself into being, nor come to be without a bringer, reason requires a Creator who brought it into being after non-existence.",
+        "ru": "Доказательство исходит из очевидной посылки: наблюдаемые тела изменяются, а всё изменяющееся возникло, и ему предшествовало небытие.\n\nНа это указывает Коран в суре «ат-Тур», аят 35.\n\nПоскольку вещь не приводит себя в бытие и не возникает без приводящего, разум требует Творца, создавшего её из небытия.",
+        "es": "La prueba parte de una premisa evidente: los cuerpos que observamos cambian, y todo lo que cambia es originado y precedido por la no existencia.\n\nEl Corán apunta a ello en la sura at-Tur, aleya 35.\n\nComo una cosa no se trae a sí misma a la existencia ni surge sin quien la traiga, la razón exige un Creador que la originó tras la nada.",
+        "uk": "Доказ виходить з очевидної посилки: тіла, які ми спостерігаємо, змінюються, а все змінне виникло, і йому передувало небуття.\n\nНа це вказує Коран у сурі «ат-Тур», аят 35.\n\nОскільки річ не приводить себе в буття і не виникає без того, хто її приводить, розум вимагає Творця, який створив її з небуття."
+      }
+    },
+    {
+      "id": "infinite-regress",
+      "heading": {
+        "ar": "معنى التسلسل وبطلانه",
+        "en": "What infinite regress means, and why it fails",
+        "ru": "Что такое бесконечный ряд причин и почему он несостоятелен",
+        "es": "Qué es la regresión infinita y por qué no se sostiene",
+        "uk": "Що таке безкінечний ланцюг причин і чому він хибний"
+      },
+      "body": {
+        "ar": "المراد بالتسلسل الممتنع أن يُفرض لكل موجِد حادثٍ موجِدٌ حادث قبله، إلى غير نهاية في جانب الماضي.\n\nوهذا باطل عقلاً، لأنه يجعل حدوث اليوم متوقّفاً على انقضاء ما لا نهاية له من الحوادث، وما لا نهاية له لا ينقضي، فلا يوجد شيء في الحاضر.\n\nفوجود العالم الآن دليل قاطع على أن السلسلة منقطعة، وأنها لا بدّ أن تنتهي إلى موجِد أول ليس قبله شيء.",
+        "en": "The regress in question is the supposition that every originated originator was itself brought about by another originated originator, endlessly into the past.\n\nThis fails rationally, for it makes today's coming-to-be wait upon the completion of an endless series, and an endless series is never completed; so nothing would exist now.\n\nThat the world does exist now is decisive proof that the chain is finite and must end at a First Originator before whom nothing was.",
+        "ru": "Под невозможным рядом понимается допущение, что у каждой возникшей причины была другая возникшая причина, и так без конца в прошлое.\n\nЭто несостоятельно: тогда нынешнее возникновение ждало бы завершения бесконечного ряда, а бесконечный ряд не завершается, и ничего не существовало бы сейчас.\n\nТо, что мир существует, — решающий довод, что цепь конечна и должна оканчиваться Первым Творцом, до Которого ничего не было.",
+        "es": "La regresión en cuestión es suponer que todo originador originado fue a su vez producido por otro originador originado, sin fin hacia el pasado.\n\nEsto no se sostiene: haría que lo que ocurre hoy dependiera de completar una serie sin fin, y una serie sin fin nunca se completa; así, nada existiría ahora.\n\nQue el mundo exista ahora es prueba decisiva de que la cadena es finita y ha de terminar en un Primer Originador antes del cual nada hubo.",
+        "uk": "Під неможливим ланцюгом розуміють припущення, що кожна виникла причина була породжена іншою виниклою причиною, і так без кінця в минуле.\n\nЦе хибно: тоді теперішнє виникнення чекало б завершення безкінечного ряду, а безкінечний ряд не завершується, і нічого не існувало б зараз.\n\nТе, що світ існує, — вирішальний доказ, що ланцюг скінченний і має завершуватися Першим Творцем, до Якого нічого не було."
+      }
+    },
+    {
+      "id": "first-cause",
+      "heading": {
+        "ar": "قِدَم الخالق وأوّليته",
+        "en": "The Creator's beginninglessness and priority",
+        "ru": "Безначальность Творца и Его первенство",
+        "es": "La ausencia de principio del Creador y Su primacía",
+        "uk": "Безначальність Творця та Його первинність"
+      },
+      "body": {
+        "ar": "يثبت العقل والشرع أن الخالق سبحانه هو الأول الذي ليس قبله شيء، قديم أزلي لا يحتاج إلى من يوجده.\n\nوفي صحيح مسلم عن النبي صلى الله عليه وسلم: «اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ».\n\nوبهذه الأوّلية ينقطع التسلسل، ويستقيم تفسير أصل الوجود تفسيراً يوافق العقل والفطرة.",
+        "en": "Reason and revelation establish that the Creator is the First, before whom nothing was: without beginning, and in no need of anyone to bring Him into being.\n\nIn Ṣaḥīḥ Muslim the Prophet, peace be upon him, said: «O Allah, You are the First, and nothing is before You.»\n\nBy this priority the regress is cut off, and the origin of existence is explained in a way that reason and innate disposition both accept.",
+        "ru": "Разум и Откровение устанавливают, что Творец — Первый, до Которого ничего не было: безначальный и не нуждающийся в том, кто привёл бы Его в бытие.\n\nВ «Сахихе» Муслима Пророк, мир ему, сказал: «О Аллах, Ты — Первый, и нет ничего до Тебя».\n\nЭтим первенством ряд обрывается, и происхождение бытия объясняется так, как принимают и разум, и врождённое чувство.",
+        "es": "La razón y la revelación establecen que el Creador es el Primero, antes del cual nada hubo: sin principio y sin necesidad de quien Lo traiga a la existencia.\n\nEn el Ṣaḥīḥ de Muslim el Profeta, la paz sea con él, dijo: «Oh Allah, Tú eres el Primero, y nada hay antes de Ti».\n\nCon esta primacía la regresión queda cortada, y el origen de la existencia se explica de un modo que aceptan la razón y la disposición innata.",
+        "uk": "Розум і Одкровення встановлюють, що Творець — Перший, до Якого нічого не було: безначальний і такий, що не потребує того, хто привів би Його в буття.\n\nУ «Сахіху» Мусліма Пророк, мир йому, сказав: «О Аллаху, Ти — Перший, і немає нічого до Тебе».\n\nЦією первинністю ланцюг обривається, і походження буття пояснюється так, як приймають і розум, і вроджене чуття."
+      }
+    },
+    {
+      "id": "close",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Conclusion",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "يجتمع دليل الحدوث مع استحالة التسلسل فيصيران حجّة عقلية قاطعة على أن للكون بداية، وأن له خالقاً واحداً أوجده بحكمته وقدرته.",
+        "en": "The proof of origination and the impossibility of infinite regress together form a conclusive rational argument that the universe has a beginning and one Creator who brought it into being by His wisdom and power.",
+        "ru": "Доказательство возникновения вместе с невозможностью бесконечного ряда образуют неопровержимый разумный довод: у Вселенной есть начало и один Творец, создавший её Своей мудростью и мощью.",
+        "es": "La prueba de la originación y la imposibilidad de la regresión infinita forman juntas un argumento racional concluyente: el universo tiene un comienzo y un solo Creador que lo originó por Su sabiduría y poder.",
+        "uk": "Доказ виникнення разом із неможливістю безкінечного ланцюга утворюють неспростовний розумовий доказ: Всесвіт має початок і одного Творця, який створив його Своєю мудрістю й могутністю."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "درء تعارض العقل والنقل",
+      "en": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+      "ru": "«Дар тааруд аль-акль ва-н-накль»",
+      "es": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+      "uk": "«Дар тааруд аль-акль ва-н-накль»"
+    },
+    {
+      "ar": "مجموع الفتاوى",
+      "en": "Majmūʿ al-Fatāwā",
+      "ru": "«Маджму аль-фатава»",
+      "es": "Majmūʿ al-Fatāwā",
+      "uk": "«Маджму аль-фатава»"
+    },
+    {
+      "ar": "شرح الطحاوية",
+      "en": "Sharḥ al-Ṭaḥāwiyyah",
+      "ru": "«Шарх ат-Тахавия»",
+      "es": "Sharḥ al-Ṭaḥāwiyyah",
+      "uk": "«Шарх ат-Тахавія»"
+    },
+    {
+      "ar": "منهاج السنة النبوية",
+      "en": "Minhāj al-Sunnah al-Nabawiyyah",
+      "ru": "«Минхадж ас-сунна ан-набавия»",
+      "es": "Minhāj al-Sunnah al-Nabawiyyah",
+      "uk": "«Мінхадж ас-сунна ан-набавія»"
+    }
+  ]
+}

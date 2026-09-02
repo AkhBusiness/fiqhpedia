@@ -29,7 +29,7 @@ export type Lang = (typeof LANGS)[number]
  * translated yet. Kept out of LANGS so the picker never offers a language
  * that would render an empty page. Move the key into LANGS to ship it.
  */
-export const PENDING_LANGS = ["es"] as const
+export const PENDING_LANGS = ["es", "uk"] as const
 export type PendingLang = (typeof PENDING_LANGS)[number]
 
 /** Fallback order used when a field is missing a language. */

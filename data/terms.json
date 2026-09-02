@@ -10,17 +10,36 @@
     "works": "مصادر عامة للمقالات والقصص — تفسير وسيرة وتاريخ. منفصلة عن كتب المذاهب، ولا يسري عليها شرط انتماء الكتاب لمذهبه."
   },
   "books": {
+    "الأم": {
+      "school": "shafii",
+      "en": "Al-Umm",
+      "ru": "«Аль-Умм»",
+      "es": "Al-Umm",
+      "uk": "«Аль-Умм»"
+    },
     "الإنصاف": {
       "school": "hanbali",
       "en": "Al-Inṣāf",
       "ru": "«Аль-Инсаф»",
-      "es": "Al-Inṣāf"
+      "es": "Al-Inṣāf",
+      "uk": "«Аль-Інсаф»"
+    },
+    "البناية": {
+      "school": "hanafi",
+      "en": "Al-Bināyah",
+      "ru": "«Аль-Биная»",
+      "es": "Al-Bināyah",
+      "uk": "«Аль-Бінaя»",
+      "aliases": [
+        "البناية شرح الهداية"
+      ]
     },
     "التاج والإكليل": {
       "school": "maliki",
       "en": "Al-Tāj wa-al-Iklīl",
       "ru": "«Ат-Тадж ва-ль-Иклиль»",
-      "es": "Al-Tāj wa-al-Iklīl"
+      "es": "Al-Tāj wa-al-Iklīl",
+      "uk": "«Ат-Тадж ва-ль-Іклиль»"
     },
     "الخرشي على خليل": {
       "school": "maliki",
@@ -29,7 +48,8 @@
       "es": "Al-Kharashī ʿalā Khalīl",
       "aliases": [
         "الخرشي"
-      ]
+      ],
+      "uk": "«Аль-Харашı аля Халіль»"
     },
     "الدر المختار": {
       "school": "hanafi",
@@ -38,37 +58,67 @@
       "es": "Al-Durr al-Mukhtār",
       "aliases": [
         "الدر"
-      ]
+      ],
+      "uk": "«Ад-Дурр аль-Мухтар»"
     },
     "الشرح الصغير": {
       "school": "maliki",
       "en": "Al-Sharḥ al-Ṣaghīr",
       "ru": "«Аш-Шарх ас-Сагир»",
-      "es": "Al-Sharḥ al-Ṣaghīr"
+      "es": "Al-Sharḥ al-Ṣaghīr",
+      "uk": "«Аш-Шарх ас-Сагір»"
     },
     "الشرح الكبير": {
       "school": "maliki",
       "en": "Al-Sharḥ al-Kabīr",
       "ru": "«Аш-Шарх аль-Кабир»",
-      "es": "Al-Sharḥ al-Kabīr"
+      "es": "Al-Sharḥ al-Kabīr",
+      "uk": "«Аш-Шарх аль-Кабір»"
     },
     "العناية": {
       "school": "hanafi",
       "en": "Al-ʿInāyah",
       "ru": "«Аль-Инайя»",
-      "es": "Al-ʿInāyah"
+      "es": "Al-ʿInāyah",
+      "uk": "«Аль-Інайя»"
+    },
+    "الكافي": {
+      "school": "hanbali",
+      "en": "Al-Kāfī",
+      "ru": "«Аль-Кафи»",
+      "es": "Al-Kāfī",
+      "uk": "«Аль-Кафі»"
     },
     "المجموع": {
       "school": "shafii",
       "en": "Al-Majmūʿ",
       "ru": "«Аль-Маджму»",
-      "es": "Al-Majmūʿ"
+      "es": "Al-Majmūʿ",
+      "uk": "«Аль-Маджму»"
+    },
+    "المدونة": {
+      "school": "maliki",
+      "en": "Al-Mudawwanah",
+      "ru": "«Аль-Мудаввана»",
+      "es": "Al-Mudawwanah",
+      "uk": "«Аль-Мудаввана»",
+      "aliases": [
+        "المدونة الكبرى"
+      ]
+    },
+    "المغني": {
+      "school": "hanbali",
+      "en": "Al-Mughnī",
+      "ru": "«Аль-Мугни»",
+      "es": "Al-Mughnī",
+      "uk": "«Аль-Мугні»"
     },
     "الهداية": {
       "school": "hanafi",
       "en": "Al-Hidāyah",
       "ru": "«Аль-Хидая»",
-      "es": "Al-Hidāyah"
+      "es": "Al-Hidāyah",
+      "uk": "«Аль-Хідая»"
     },
     "بدائع الصنائع": {
       "school": "hanafi",
@@ -77,7 +127,15 @@
       "es": "Badāʾiʿ al-Ṣanāʾiʿ",
       "aliases": [
         "البدائع"
-      ]
+      ],
+      "uk": "«Бадаї ас-Санаї»"
+    },
+    "تبيين الحقائق": {
+      "school": "hanafi",
+      "en": "Tabyīn al-Ḥaqāʾiq",
+      "ru": "«Табйин аль-Хакаик»",
+      "es": "Tabyīn al-Ḥaqāʾiq",
+      "uk": "«Табйін аль-Хакаїк»"
     },
     "تحفة المحتاج": {
       "school": "shafii",
@@ -86,7 +144,8 @@
       "es": "Tuḥfat al-Muḥtāj",
       "aliases": [
         "التحفة"
-      ]
+      ],
+      "uk": "«Тухфат аль-Мухтадж»"
     },
     "حاشية الدسوقي": {
       "school": "maliki",
@@ -95,7 +154,8 @@
       "es": "Ḥāshiyat al-Dasūqī",
       "aliases": [
         "الدسوقي"
-      ]
+      ],
+      "uk": "«Хашіят ад-Дасукі»"
     },
     "رد المحتار": {
       "school": "hanafi",
@@ -105,7 +165,8 @@
       "aliases": [
         "حاشية ابن عابدين",
         "ابن عابدين"
-      ]
+      ],
+      "uk": "«Радд аль-Мухтар»"
     },
     "روضة الطالبين": {
       "school": "shafii",
@@ -114,13 +175,15 @@
       "es": "Rawḍat al-Ṭālibīn",
       "aliases": [
         "الروضة"
-      ]
+      ],
+      "uk": "«Равдат ат-Талібін»"
     },
     "زاد المستقنع": {
       "school": "hanbali",
       "en": "Zād al-Mustaqniʿ",
       "ru": "«Зад аль-Мустакни»",
-      "es": "Zād al-Mustaqniʿ"
+      "es": "Zād al-Mustaqniʿ",
+      "uk": "«Зад аль-Мустакні»"
     },
     "شرح منتهى الإرادات": {
       "school": "hanbali",
@@ -130,43 +193,50 @@
       "aliases": [
         "شرح المنتهى",
         "منتهى الإرادات"
-      ]
+      ],
+      "uk": "«Шарх Мунтаха аль-Ірадат»"
     },
     "فتح القريب": {
       "school": "shafii",
       "en": "Fatḥ al-Qarīb",
       "ru": "«Фатх аль-Кариб»",
-      "es": "Fatḥ al-Qarīb"
+      "es": "Fatḥ al-Qarīb",
+      "uk": "«Фатх аль-Каріб»"
     },
     "كشاف القناع": {
       "school": "hanbali",
       "en": "Kashshāf al-Qināʿ",
       "ru": "«Кашшаф аль-Кина»",
-      "es": "Kashshāf al-Qināʿ"
+      "es": "Kashshāf al-Qināʿ",
+      "uk": "«Кашшаф аль-Кіна»"
     },
     "مراقي الفلاح": {
       "school": "hanafi",
       "en": "Marāqī al-Falāḥ",
       "ru": "«Мараки аль-Фалях»",
-      "es": "Marāqī al-Falāḥ"
+      "es": "Marāqī al-Falāḥ",
+      "uk": "«Маракі аль-Фалях»"
     },
     "مطالب أولي النهى": {
       "school": "hanbali",
       "en": "Maṭālib Ūlī al-Nuhā",
       "ru": "«Маталиб ули ан-Нуха»",
-      "es": "Maṭālib Ūlī al-Nuhā"
+      "es": "Maṭālib Ūlī al-Nuhā",
+      "uk": "«Маталіб улі ан-Нуха»"
     },
     "مغني المحتاج": {
       "school": "shafii",
       "en": "Mughnī al-Muḥtāj",
       "ru": "«Мугни аль-Мухтадж»",
-      "es": "Mughnī al-Muḥtāj"
+      "es": "Mughnī al-Muḥtāj",
+      "uk": "«Мугні аль-Мухтадж»"
     },
     "منح الجليل": {
       "school": "maliki",
       "en": "Minaḥ al-Jalīl",
       "ru": "«Минах аль-Джалиль»",
-      "es": "Minaḥ al-Jalīl"
+      "es": "Minaḥ al-Jalīl",
+      "uk": "«Мінах аль-Джаліль»"
     },
     "منهاج الطالبين": {
       "school": "shafii",
@@ -175,40 +245,78 @@
       "es": "Minhāj al-Ṭālibīn",
       "aliases": [
         "المنهاج"
-      ]
+      ],
+      "uk": "«Мінхадж ат-Талібін»"
+    },
+    "مواهب الجليل": {
+      "school": "maliki",
+      "en": "Mawāhib al-Jalīl",
+      "ru": "«Мавахиб аль-Джалиль»",
+      "es": "Mawāhib al-Jalīl",
+      "uk": "«Мавагіб аль-Джаліль»"
     },
     "نهاية المحتاج": {
       "school": "shafii",
       "en": "Nihāyat al-Muḥtāj",
       "ru": "«Нихаят аль-Мухтадж»",
-      "es": "Nihāyat al-Muḥtāj"
+      "es": "Nihāyat al-Muḥtāj",
+      "uk": "«Ніхаят аль-Мухтадж»"
     }
   },
   "works": {
     "تفسير ابن كثير": {
       "en": "Tafsīr Ibn Kathīr",
       "ru": "«Тафсир Ибн Касира»",
-      "es": "Tafsīr Ibn Kathīr"
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
     },
     "البداية والنهاية": {
       "en": "Al-Bidāyah wa-al-Nihāyah",
       "ru": "«Аль-Бидая ва-н-Нихая»",
-      "es": "Al-Bidāyah wa-al-Nihāyah"
+      "es": "Al-Bidāyah wa-al-Nihāyah",
+      "uk": "«Аль-Бідая ва-н-Ніхая»"
     },
     "جامع البيان": {
       "en": "Jāmiʿ al-Bayān",
       "ru": "«Джами аль-Баян»",
-      "es": "Jāmiʿ al-Bayān"
+      "es": "Jāmiʿ al-Bayān",
+      "uk": "«Джамі аль-Баян»"
     },
     "إظهار الحق": {
       "en": "Iẓhār al-Ḥaqq",
       "ru": "«Изхар аль-Хакк»",
-      "es": "Iẓhār al-Ḥaqq"
+      "es": "Iẓhār al-Ḥaqq",
+      "uk": "«Ізхар аль-Хакк»"
     },
     "الجواب الصحيح": {
       "en": "Al-Jawāb al-Ṣaḥīḥ",
       "ru": "«Аль-Джаваб ас-Сахих»",
-      "es": "Al-Jawāb al-Ṣaḥīḥ"
+      "es": "Al-Jawāb al-Ṣaḥīḥ",
+      "uk": "«Аль-Джаваб ас-Сахіх»"
+    },
+    "درء تعارض العقل والنقل": {
+      "en": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+      "ru": "«Дар тааруд аль-акль ва-н-накль»",
+      "es": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+      "uk": "«Дар тааруд аль-акль ва-н-накль»"
+    },
+    "مجموع الفتاوى": {
+      "en": "Majmūʿ al-Fatāwā",
+      "ru": "«Маджму аль-фатава»",
+      "es": "Majmūʿ al-Fatāwā",
+      "uk": "«Маджму аль-фатава»"
+    },
+    "شرح الطحاوية": {
+      "en": "Sharḥ al-Ṭaḥāwiyyah",
+      "ru": "«Шарх ат-Тахавия»",
+      "es": "Sharḥ al-Ṭaḥāwiyyah",
+      "uk": "«Шарх ат-Тахавія»"
+    },
+    "منهاج السنة النبوية": {
+      "en": "Minhāj al-Sunnah al-Nabawiyyah",
+      "ru": "«Минхадж ас-сунна ан-набавия»",
+      "es": "Minhāj al-Sunnah al-Nabawiyyah",
+      "uk": "«Мінхадж ас-сунна ан-набавія»"
     }
   }
 }

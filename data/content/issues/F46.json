@@ -1,0 +1,157 @@
+{
+  "ref": "F46",
+  "id": "salah-16",
+  "bookId": "salah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter of the Conditions of Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "حكم الصلاة مع نجاسة يسيرة على الثوب أو البدن",
+    "en": "Ruling on praying with a slight impurity on the garment or the body",
+    "ru": "Постановление о молитве с незначительной нечистотой на одежде или теле",
+    "es": "Norma sobre orar con una impureza leve en la ropa o el cuerpo",
+    "uk": "Постанова про молитву з незначною нечистотою на одязі чи тілі"
+  },
+  "summary": {
+    "ar": "ما حكم صلاة من كان على بدنه أو ثوبه أو موضع صلاته نجاسة يسيرة؟",
+    "en": "What is the ruling on the prayer of one who has a slight impurity on his body, his garment, or his place of prayer?",
+    "ru": "Каково постановление о молитве того, у кого незначительная нечистота на теле, одежде или месте молитвы?",
+    "es": "¿Cuál es la norma sobre la oración de quien tiene una impureza leve en el cuerpo, la ropa o el lugar de la oración?",
+    "uk": "Яка постанова щодо молитви того, у кого незначна нечистота на тілі, одязі чи місці молитви?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يُعفى عن المغلّظة قدر الدرهم فما دونه، وعن المخفّفة ما دون ربع الثوب أو العضو، وتصحّ الصلاة.",
+        "en": "A heavy impurity up to the size of a dirham is pardoned, and a light one below a quarter of the garment or limb; the prayer is valid.",
+        "ru": "Тяжёлая нечистота размером до дирхама прощается, а лёгкая — менее четверти одежды или органа; молитва действительна.",
+        "es": "Se perdona la impureza pesada hasta el tamaño de un dírham, y la leve por debajo de un cuarto de la prenda o del miembro; la oración es válida.",
+        "uk": "Важка нечистота розміром до дірхама прощається, а легка — менше чверті одягу чи органу; молитва дійсна."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "البناية",
+          "en": "Al-Bināyah",
+          "ru": "«Аль-Биная»",
+          "es": "Al-Bināyah",
+          "uk": "«Аль-Бінaя»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "طهارة الخبث شرط مع الذكر والقدرة، ويُعفى عن يسير الدم والقيح دون الدرهم، وتُستحبّ الإعادة في الوقت.",
+        "en": "Freedom from impurity is a condition when one remembers and is able; a little blood or pus below a dirham is pardoned, and repeating the prayer within its time is recommended.",
+        "ru": "Чистота от скверны — условие при памяти и возможности; малая кровь или гной менее дирхама прощаются, а повторить молитву в её время желательно.",
+        "es": "La pureza de la impureza es condición al recordar y poder; poca sangre o pus por debajo de un dírham se perdona, y se recomienda repetir la oración dentro de su tiempo.",
+        "uk": "Чистота від скверни — умова за пам'яті й можливості; мала кров чи гній менше дірхама прощаються, а повторити молитву в її час бажано."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا يُعفى عن يسير النجاسة إلا ما شقّ الاحتراز عنه كيسير الدم والقيح وما لا يدركه الطرف.",
+        "en": "A slight impurity is not pardoned except what is hard to guard against, such as a little blood or pus and what the eye cannot detect.",
+        "ru": "Малая нечистота не прощается, кроме того, от чего трудно уберечься: немного крови или гноя и то, чего глаз не различает.",
+        "es": "La impureza leve no se perdona salvo aquello de lo que es difícil guardarse, como poca sangre o pus y lo que el ojo no percibe.",
+        "uk": "Мала нечистота не прощається, крім того, від чого важко вберегтися: трохи крові чи гною і те, чого око не розрізняє."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُعفى عن يسير الدم والقيح والصديد من حيوان طاهر، ولا يُعفى عن يسير غيره كالبول والغائط.",
+        "en": "A little blood, pus, or serous matter from a pure animal is pardoned; a little of anything else, such as urine or excrement, is not.",
+        "ru": "Немного крови, гноя или сукровицы от чистого животного прощается; немного иного — мочи или кала — нет.",
+        "es": "Se perdona poca sangre, pus o suero de un animal puro; no se perdona poco de lo demás, como orina o excremento.",
+        "uk": "Трохи крові, гною чи сукровиці від чистої тварини прощається; трохи іншого — сечі чи калу — ні."
+      },
+      "sources": [
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

@@ -42,7 +42,7 @@ LANGS = ["ar", "en", "ru"]
 # لغات أصولها جاهزة وترجمتها لم تكتمل. تُقبل في الحقول ولا تُشترط،
 # فيمكن ترجمة الموقع على دفعات بدل «كل شيء أو لا شيء».
 # لإطلاق لغة: انقل مفتاحها إلى LANGS هنا وإلى LANGS في lib/fiqh-data.ts.
-PENDING_LANGS = ["es"]
+PENDING_LANGS = ["es", "uk"]
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
 # Text that means "not written yet" and must never ship.
@@ -98,6 +98,23 @@ def check_localized(obj, where, *, required=True, allow_pending_wording=False):
             err(f"{where}.{lang}: contains placeholder text — {val[:50]}")
         if val != val.strip():
             warn(f"{where}.{lang}: leading/trailing whitespace")
+
+    # الأوكرانية والروسية سيريليتان، ففحص الأبجدية يمرّ عليهما معاً: نصّ روسي
+    # كامل موضوع في حقل uk لا يعترض عليه شيء. وأسهل طريق لملء الأوكرانية هو
+    # نسخ الروسية وتبديل كلمات، فيخرج نصّ يفهمه الأوكراني ويشعر أنه ليس بلغته.
+    uk, ru = (obj.get("uk") or "").strip(), (obj.get("ru") or "").strip()
+    # النصوص القصيرة تُستثنى: اسم كتاب منقول صوتياً قد يتطابق في اللغتين
+    # بحقّ — «Маджму аль-фатава» ليس فيها حرف يفترق فيه الرسمان.
+    if uk and ru and len(ru) > 40:
+        if uk == ru:
+            err(f"{where}.uk: identical to the Russian — Ukrainian is a "
+                f"translation, not a copy")
+        else:
+            same = sum(a == b for a, b in zip(uk, ru))
+            if same / max(len(uk), len(ru)) > 0.9:
+                warn(f"{where}.uk: {round(100 * same / max(len(uk), len(ru)))}% "
+                     f"character-identical to the Russian — check it was "
+                     f"translated, not lightly edited")
 
         # Script sanity check
         rng = SCRIPT_RANGES.get(lang)

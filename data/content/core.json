@@ -28,6 +28,14 @@
       "flag": "🇪🇸",
       "flagCode": "es",
       "pending": true
+    },
+    {
+      "key": "uk",
+      "short": "UK",
+      "label": "Українська",
+      "flag": "🇺🇦",
+      "flagCode": "ua",
+      "pending": true
     }
   ],
   "ui": {
@@ -42,10 +50,11 @@
       "ru": "Все мазхабы"
     },
     "appSubtitle": {
-      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة، بأربع لغات",
-      "en": "Islam from its own sources — law, creed, and history, in four languages",
-      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание, на четырёх языках",
-      "es": "El islam desde sus propias fuentes: fiqh, credo e historia, en cuatro lenguas"
+      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة",
+      "en": "Islam from its own sources — law, creed, and history",
+      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание",
+      "es": "El islam desde sus propias fuentes: fiqh, credo e historia",
+      "uk": "Іслам з його власних джерел: фікг, віровчення та життєпис"
     },
     "appTitle": {
       "ar": "تبيان",
@@ -783,7 +792,8 @@
         "ar": "الحنفي",
         "en": "Hanafi",
         "ru": "Ханафитский",
-        "es": "Hanafí"
+        "es": "Hanafí",
+        "uk": "Ханафітський"
       }
     },
     {
@@ -792,7 +802,8 @@
         "ar": "المالكي",
         "en": "Maliki",
         "ru": "Маликитский",
-        "es": "Malikí"
+        "es": "Malikí",
+        "uk": "Малікітський"
       }
     },
     {
@@ -801,7 +812,8 @@
         "ar": "الشافعي",
         "en": "Shafi'i",
         "ru": "Шафиитский",
-        "es": "Shafiʿí"
+        "es": "Shafiʿí",
+        "uk": "Шафіїтський"
       }
     },
     {
@@ -810,7 +822,8 @@
         "ar": "الحنبلي",
         "en": "Hanbali",
         "ru": "Ханбалитский",
-        "es": "Hanbalí"
+        "es": "Hanbalí",
+        "uk": "Ханбалітський"
       }
     }
   ],

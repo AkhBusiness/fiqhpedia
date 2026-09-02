@@ -18,28 +18,28 @@ o = ["# جدول المصطلحات المقفل", "",
      f"- العين `{R['ayn']}` والهمزة `{R['hamza']}`. لا `'` ولا `‘` ولا `` ` ``.",
      f"- الإنجليزية {R['en']}",
      f"- الروسية {R['ru']}",
-     f"- الإسبانية {R['es']}", ""]
+     f"- الإسبانية {R['es']}",
+     "- الأوكرانية سيريلية أوكرانية: `і` `ї` `є` — ولا `ы` ولا `э` ولا `ъ`.", ""]
+
+# عمود اللغة يظهر متى اكتمل للجدول كله. الجدول الناقص لا يعرض «—» لأن
+# النموذج يقرأها قيمةً ويكتبها في مخرجاته.
+def table(rows, keys=("en", "ru", "es", "uk")):
+    cols = ["العربية", "English", "Русский", "Español", "Українська"]
+    have = [k for k in keys if all(r.get(k) for r in rows)]
+    head = ["العربية"] + [cols[1 + keys.index(k)] for k in have]
+    out = ["| " + " | ".join(head) + " |", "|" + "---|" * len(head)]
+    for r in rows:
+        out.append("| " + " | ".join([r["ar"]] + [r[k] for k in have]) + " |")
+    return out
 
 for sch, ar_name in NAMES.items():
-    o += [f"## كتب المذهب {ar_name}", "",
-          "| العربية | English | Русский | Español |", "|---|---|---|---|"]
-    o += [f"| {b} | {v['en']} | {v['ru']} | {v['es']} |"
-          for b, v in sorted(books.items()) if v["school"] == sch]
-    o.append("")
+    rows = [dict(v, ar=b) for b, v in sorted(books.items()) if v["school"] == sch]
+    o += [f"## كتب المذهب {ar_name}", ""] + table(rows) + [""]
 
 for head, rows in (("أسماء المذاهب", [s["name"] for s in d["schools"]]),
                    ("الأبواب", [b["name"] for b in d["books"]]),
                    ("المصطلحات", [g["term"] for g in d["glossary"]])):
-    # عمود الإسبانية يظهر متى اكتمل للجدول كله. الجدول الناقص يبقى ثلاثياً
-    # بدل أن يعرض «—» فيقرأها النموذج قيمةً ويكتبها في المخرجات.
-    es = all(r.get("es") for r in rows)
-    o += [f"## {head}", "",
-          "| العربية | English | Русский | Español |" if es
-          else "| العربية | English | Русский |",
-          "|---|---|---|---|" if es else "|---|---|---|"]
-    o += [f"| {r['ar']} | {r['en']} | {r['ru']} | {r['es']} |" if es
-          else f"| {r['ar']} | {r['en']} | {r['ru']} |" for r in rows]
-    o.append("")
+    o += [f"## {head}", ""] + table(rows) + [""]
 
 open("prompts/_terms.md", "w", encoding="utf-8").write("\n".join(o))
 print(f"prompts/_terms.md — {len(books)} كتاباً · {len(d['schools'])} مذاهب · "

@@ -1,0 +1,157 @@
+{
+  "ref": "F47",
+  "id": "salah-17",
+  "bookId": "salah",
+  "seq": 11,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter of the Conditions of Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "حكم إصابة عين الكعبة للقريب وجهتها للبعيد",
+    "en": "Ruling on facing the Kaaba itself when near and its direction when far",
+    "ru": "Постановление о направлении на саму Каабу вблизи и в её сторону вдали",
+    "es": "Norma sobre orientarse a la Kaaba misma de cerca y a su dirección de lejos",
+    "uk": "Постанова про спрямування на саму Каабу зблизька і в її бік здалеку"
+  },
+  "summary": {
+    "ar": "هل يجب استقبال عين الكعبة ذاتها أم يكفي استقبال جهتها؟",
+    "en": "Must one face the Kaaba itself, or does facing its direction suffice?",
+    "ru": "Нужно ли направляться на саму Каабу или достаточно её стороны?",
+    "es": "¿Hay que orientarse a la Kaaba misma o basta con su dirección?",
+    "uk": "Чи треба спрямовуватися на саму Каабу, чи досить її боку?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "فرض المعاين إصابة عين الكعبة، وفرض الغائب استقبال جهتها، ولا يضرّه الانحراف اليسير عنها.",
+        "en": "One who sees the Kaaba must face its very structure; one absent from it must face its direction, and a slight deviation does not harm him.",
+        "ru": "Видящий Каабу обязан направляться на саму постройку, а отсутствующий — в её сторону, и небольшое отклонение ему не вредит.",
+        "es": "Quien ve la Kaaba debe orientarse a la estructura misma; el ausente, a su dirección, y una leve desviación no le perjudica.",
+        "uk": "Той, хто бачить Каабу, має спрямовуватися на саму споруду, а відсутній — у її бік, і невелике відхилення йому не шкодить."
+      },
+      "sources": [
+        {
+          "ar": "بدائع الصنائع",
+          "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+          "ru": "«Бадаи ас-Санаи»",
+          "es": "Badāʾiʿ al-Ṣanāʾiʿ",
+          "uk": "«Бадаї ас-Санаї»"
+        },
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يجب على المعاين إصابة عينها، وعلى البعيد إصابة جهتها، ولا تبطل صلاته بالتيامن أو التياسر اليسير.",
+        "en": "One who sees it must face it exactly, and the distant must face its direction; his prayer is not void by a slight turn to right or left.",
+        "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; его молитва не пропадает от лёгкого отклонения вправо или влево.",
+        "es": "Quien la ve debe orientarse exactamente a ella, y el lejano a su dirección; su oración no se anula por una leve desviación a un lado.",
+        "uk": "Той, хто бачить, має спрямовуватися точно на неї, а далекий — у її бік; його молитва не пропадає від легкого відхилення вбік."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يجب إصابة عين الكعبة يقيناً على المعاين، واجتهاداً على البعيد، فلا يكفيه قصد الجهة وحدها.",
+        "en": "Facing the Kaaba itself is required with certainty from one who sees it, and by reasoned effort from one far away; aiming at the direction alone does not suffice him.",
+        "ru": "Направление на саму Каабу обязательно с уверенностью для видящего и по иджтихаду для дальнего; одного намерения на сторону ему недостаточно.",
+        "es": "Orientarse a la Kaaba misma se exige con certeza a quien la ve, y por esfuerzo razonado a quien está lejos; no le basta apuntar solo a la dirección.",
+        "uk": "Спрямування на саму Каабу вимагається з упевненістю від того, хто її бачить, і за іджтихадом від далекого; самого наміру на бік йому не досить."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يفرض على المعاين إصابة عينها وعلى البعيد جهتها، ولا تبطل بالانحراف اليسير لحديث «ما بين المشرق والمغرب قبلة».",
+        "en": "One who sees it must face it exactly and one far away its direction; a slight deviation does not void the prayer, on the hadith «What lies between east and west is a qibla».",
+        "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; лёгкое отклонение молитву не аннулирует, по хадису «Что между востоком и западом — кибла».",
+        "es": "Quien la ve debe orientarse exactamente y el lejano a su dirección; una leve desviación no anula la oración, por el hadiz «Lo que hay entre el oriente y el occidente es alquibla».",
+        "uk": "Той, хто бачить, має спрямовуватися точно, а далекий — у її бік; легке відхилення молитву не анулює, за хадисом «Те, що між сходом і заходом, — кибла»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

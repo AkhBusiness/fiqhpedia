@@ -28,6 +28,14 @@
       "flag": "🇪🇸",
       "flagCode": "es",
       "pending": true
+    },
+    {
+      "key": "uk",
+      "short": "UK",
+      "label": "Українська",
+      "flag": "🇺🇦",
+      "flagCode": "ua",
+      "pending": true
     }
   ],
   "ui": {
@@ -42,10 +50,11 @@
       "ru": "Все мазхабы"
     },
     "appSubtitle": {
-      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة، بأربع لغات",
-      "en": "Islam from its own sources — law, creed, and history, in four languages",
-      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание, на четырёх языках",
-      "es": "El islam desde sus propias fuentes: fiqh, credo e historia, en cuatro lenguas"
+      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة",
+      "en": "Islam from its own sources — law, creed, and history",
+      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание",
+      "es": "El islam desde sus propias fuentes: fiqh, credo e historia",
+      "uk": "Іслам з його власних джерел: фікг, віровчення та життєпис"
     },
     "appTitle": {
       "ar": "تبيان",
@@ -783,7 +792,8 @@
         "ar": "الحنفي",
         "en": "Hanafi",
         "ru": "Ханафитский",
-        "es": "Hanafí"
+        "es": "Hanafí",
+        "uk": "Ханафітський"
       }
     },
     {
@@ -792,7 +802,8 @@
         "ar": "المالكي",
         "en": "Maliki",
         "ru": "Маликитский",
-        "es": "Malikí"
+        "es": "Malikí",
+        "uk": "Малікітський"
       }
     },
     {
@@ -801,7 +812,8 @@
         "ar": "الشافعي",
         "en": "Shafi'i",
         "ru": "Шафиитский",
-        "es": "Shafiʿí"
+        "es": "Shafiʿí",
+        "uk": "Шафіїтський"
       }
     },
     {
@@ -810,7 +822,8 @@
         "ar": "الحنبلي",
         "en": "Hanbali",
         "ru": "Ханбалитский",
-        "es": "Hanbalí"
+        "es": "Hanbalí",
+        "uk": "Ханбалітський"
       }
     }
   ],
@@ -6482,10 +6495,167 @@
       }
     },
     {
+      "id": "salah-16",
+      "ref": "F46",
+      "bookId": "salah",
+      "number": 8,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم الصلاة مع نجاسة يسيرة على الثوب أو البدن",
+        "en": "Ruling on praying with a slight impurity on the garment or the body",
+        "ru": "Постановление о молитве с незначительной нечистотой на одежде или теле",
+        "es": "Norma sobre orar con una impureza leve en la ropa o el cuerpo",
+        "uk": "Постанова про молитву з незначною нечистотою на одязі чи тілі"
+      },
+      "summary": {
+        "ar": "ما حكم صلاة من كان على بدنه أو ثوبه أو موضع صلاته نجاسة يسيرة؟",
+        "en": "What is the ruling on the prayer of one who has a slight impurity on his body, his garment, or his place of prayer?",
+        "ru": "Каково постановление о молитве того, у кого незначительная нечистота на теле, одежде или месте молитвы?",
+        "es": "¿Cuál es la norma sobre la oración de quien tiene una impureza leve en el cuerpo, la ropa o el lugar de la oración?",
+        "uk": "Яка постанова щодо молитви того, у кого незначна нечистота на тілі, одязі чи місці молитви?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يُعفى عن المغلّظة قدر الدرهم فما دونه، وعن المخفّفة ما دون ربع الثوب أو العضو، وتصحّ الصلاة.",
+            "en": "A heavy impurity up to the size of a dirham is pardoned, and a light one below a quarter of the garment or limb; the prayer is valid.",
+            "ru": "Тяжёлая нечистота размером до дирхама прощается, а лёгкая — менее четверти одежды или органа; молитва действительна.",
+            "es": "Se perdona la impureza pesada hasta el tamaño de un dírham, y la leve por debajo de un cuarto de la prenda o del miembro; la oración es válida.",
+            "uk": "Важка нечистота розміром до дірхама прощається, а легка — менше чверті одягу чи органу; молитва дійсна."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "البناية",
+              "en": "Al-Bināyah",
+              "ru": "«Аль-Биная»",
+              "es": "Al-Bināyah",
+              "uk": "«Аль-Бінaя»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "طهارة الخبث شرط مع الذكر والقدرة، ويُعفى عن يسير الدم والقيح دون الدرهم، وتُستحبّ الإعادة في الوقت.",
+            "en": "Freedom from impurity is a condition when one remembers and is able; a little blood or pus below a dirham is pardoned, and repeating the prayer within its time is recommended.",
+            "ru": "Чистота от скверны — условие при памяти и возможности; малая кровь или гной менее дирхама прощаются, а повторить молитву в её время желательно.",
+            "es": "La pureza de la impureza es condición al recordar y poder; poca sangre o pus por debajo de un dírham se perdona, y se recomienda repetir la oración dentro de su tiempo.",
+            "uk": "Чистота від скверни — умова за пам'яті й можливості; мала кров чи гній менше дірхама прощаються, а повторити молитву в її час бажано."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يُعفى عن يسير النجاسة إلا ما شقّ الاحتراز عنه كيسير الدم والقيح وما لا يدركه الطرف.",
+            "en": "A slight impurity is not pardoned except what is hard to guard against, such as a little blood or pus and what the eye cannot detect.",
+            "ru": "Малая нечистота не прощается, кроме того, от чего трудно уберечься: немного крови или гноя и то, чего глаз не различает.",
+            "es": "La impureza leve no se perdona salvo aquello de lo que es difícil guardarse, como poca sangre o pus y lo que el ojo no percibe.",
+            "uk": "Мала нечистота не прощається, крім того, від чого важко вберегтися: трохи крові чи гною і те, чого око не розрізняє."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُعفى عن يسير الدم والقيح والصديد من حيوان طاهر، ولا يُعفى عن يسير غيره كالبول والغائط.",
+            "en": "A little blood, pus, or serous matter from a pure animal is pardoned; a little of anything else, such as urine or excrement, is not.",
+            "ru": "Немного крови, гноя или сукровицы от чистого животного прощается; немного иного — мочи или кала — нет.",
+            "es": "Se perdona poca sangre, pus o suero de un animal puro; no se perdona poco de lo demás, como orina o excremento.",
+            "uk": "Трохи крові, гною чи сукровиці від чистої тварини прощається; трохи іншого — сечі чи калу — ні."
+          },
+          "sources": [
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-9",
       "ref": "F39",
       "bookId": "salah",
-      "number": 8,
+      "number": 9,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6620,10 +6790,167 @@
       }
     },
     {
+      "id": "salah-17",
+      "ref": "F47",
+      "bookId": "salah",
+      "number": 10,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter of the Conditions of Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo de las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم إصابة عين الكعبة للقريب وجهتها للبعيد",
+        "en": "Ruling on facing the Kaaba itself when near and its direction when far",
+        "ru": "Постановление о направлении на саму Каабу вблизи и в её сторону вдали",
+        "es": "Norma sobre orientarse a la Kaaba misma de cerca y a su dirección de lejos",
+        "uk": "Постанова про спрямування на саму Каабу зблизька і в її бік здалеку"
+      },
+      "summary": {
+        "ar": "هل يجب استقبال عين الكعبة ذاتها أم يكفي استقبال جهتها؟",
+        "en": "Must one face the Kaaba itself, or does facing its direction suffice?",
+        "ru": "Нужно ли направляться на саму Каабу или достаточно её стороны?",
+        "es": "¿Hay que orientarse a la Kaaba misma o basta con su dirección?",
+        "uk": "Чи треба спрямовуватися на саму Каабу, чи досить її боку?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "فرض المعاين إصابة عين الكعبة، وفرض الغائب استقبال جهتها، ولا يضرّه الانحراف اليسير عنها.",
+            "en": "One who sees the Kaaba must face its very structure; one absent from it must face its direction, and a slight deviation does not harm him.",
+            "ru": "Видящий Каабу обязан направляться на саму постройку, а отсутствующий — в её сторону, и небольшое отклонение ему не вредит.",
+            "es": "Quien ve la Kaaba debe orientarse a la estructura misma; el ausente, a su dirección, y una leve desviación no le perjudica.",
+            "uk": "Той, хто бачить Каабу, має спрямовуватися на саму споруду, а відсутній — у її бік, і невелике відхилення йому не шкодить."
+          },
+          "sources": [
+            {
+              "ar": "بدائع الصنائع",
+              "en": "Badāʾiʿ al-Ṣanāʾiʿ",
+              "ru": "«Бадаи ас-Санаи»",
+              "es": "Badāʾiʿ al-Ṣanāʾiʿ",
+              "uk": "«Бадаї ас-Санаї»"
+            },
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجب على المعاين إصابة عينها، وعلى البعيد إصابة جهتها، ولا تبطل صلاته بالتيامن أو التياسر اليسير.",
+            "en": "One who sees it must face it exactly, and the distant must face its direction; his prayer is not void by a slight turn to right or left.",
+            "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; его молитва не пропадает от лёгкого отклонения вправо или влево.",
+            "es": "Quien la ve debe orientarse exactamente a ella, y el lejano a su dirección; su oración no se anula por una leve desviación a un lado.",
+            "uk": "Той, хто бачить, має спрямовуватися точно на неї, а далекий — у її бік; його молитва не пропадає від легкого відхилення вбік."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يجب إصابة عين الكعبة يقيناً على المعاين، واجتهاداً على البعيد، فلا يكفيه قصد الجهة وحدها.",
+            "en": "Facing the Kaaba itself is required with certainty from one who sees it, and by reasoned effort from one far away; aiming at the direction alone does not suffice him.",
+            "ru": "Направление на саму Каабу обязательно с уверенностью для видящего и по иджтихаду для дальнего; одного намерения на сторону ему недостаточно.",
+            "es": "Orientarse a la Kaaba misma se exige con certeza a quien la ve, y por esfuerzo razonado a quien está lejos; no le basta apuntar solo a la dirección.",
+            "uk": "Спрямування на саму Каабу вимагається з упевненістю від того, хто її бачить, і за іджтихадом від далекого; самого наміру на бік йому не досить."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يفرض على المعاين إصابة عينها وعلى البعيد جهتها، ولا تبطل بالانحراف اليسير لحديث «ما بين المشرق والمغرب قبلة».",
+            "en": "One who sees it must face it exactly and one far away its direction; a slight deviation does not void the prayer, on the hadith «What lies between east and west is a qibla».",
+            "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; лёгкое отклонение молитву не аннулирует, по хадису «Что между востоком и западом — кибла».",
+            "es": "Quien la ve debe orientarse exactamente y el lejano a su dirección; una leve desviación no anula la oración, por el hadiz «Lo que hay entre el oriente y el occidente es alquibla».",
+            "uk": "Той, хто бачить, має спрямовуватися точно, а далекий — у її бік; легке відхилення молитву не анулює, за хадисом «Те, що між сходом і заходом, — кибла»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 9,
+      "number": 11,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -6703,7 +7030,7 @@
       "id": "salah-15",
       "ref": "F45",
       "bookId": "salah",
-      "number": 10,
+      "number": 12,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -6841,7 +7168,7 @@
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 11,
+      "number": 13,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -6921,7 +7248,7 @@
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 12,
+      "number": 14,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -6998,10 +7325,167 @@
       }
     },
     {
+      "id": "salah-18",
+      "ref": "F48",
+      "bookId": "salah",
+      "number": 15,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter of the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo de la descripción de la oración",
+        "uk": "Розділ про опис молитви"
+      },
+      "title": {
+        "ar": "حكم قراءة سورة بعد الفاتحة في الصلاة",
+        "en": "Ruling on reciting a sura after al-Fatiha in the prayer",
+        "ru": "Постановление о чтении суры после аль-Фатихи в молитве",
+        "es": "Norma sobre recitar una sura después de al-Fatiha en la oración",
+        "uk": "Постанова про читання сури після аль-Фатіхи в молитві"
+      },
+      "summary": {
+        "ar": "ما حكم قراءة ما تيسّر من القرآن بعد سورة الفاتحة في الصلاة؟",
+        "en": "What is the ruling on reciting whatever is easy of the Qur'an after al-Fatiha in the prayer?",
+        "ru": "Каково постановление о чтении посильного из Корана после аль-Фатихи в молитве?",
+        "es": "¿Cuál es la norma sobre recitar lo que resulte fácil del Corán tras al-Fatiha en la oración?",
+        "uk": "Яка постанова щодо читання посильного з Корану після аль-Фатіхи в молитві?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "قراءة سورة بعد الفاتحة واجبة في الأوليين من الفرض وفي كل ركعات النفل والوتر، ويُخيَّر في الأخريين.",
+            "en": "Reciting a sura after al-Fatiha is obligatory in the first two units of an obligatory prayer and in every unit of voluntary prayer and witr; in the last two units one may choose.",
+            "ru": "Чтение суры после аль-Фатихи обязательно в первых двух ракатах обязательной молитвы и во всех ракатах нафиля и витра; в последних двух — на выбор.",
+            "es": "Recitar una sura tras al-Fatiha es obligatorio en las dos primeras unidades de la oración obligatoria y en todas las voluntarias y el witr; en las dos últimas se elige.",
+            "uk": "Читання сури після аль-Фатіхи обов'язкове в перших двох ракатах обов'язкової молитви та в усіх ракатах нафлю й вітру; в останніх двох — на вибір."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "قراءة سورة بعد الفاتحة في الأوليين سنّة مؤكّدة، وتُكره في الأخريين، ولا تُشرع في صلاة الجنازة.",
+            "en": "Reciting a sura after al-Fatiha in the first two units is a stressed sunna; it is disliked in the last two and not prescribed in the funeral prayer.",
+            "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — подтверждённая сунна; в последних двух нежелательно и не предписано в погребальной молитве.",
+            "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna confirmada; se detesta en las dos últimas y no se prescribe en la oración fúnebre.",
+            "uk": "Читання сури після аль-Фатіхи в перших двох ракатах — підтверджена сунна; в останніх двох небажано і не передбачено в поховальній молитві."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "قراءة السورة بعد الفاتحة في الأوليين سنّة للمنفرد والإمام وللمأموم فيما يُسرّ فيه، ولا تُطلب في الأخريين.",
+            "en": "Reciting the sura after al-Fatiha in the first two units is a sunna for one praying alone, for the imam, and for the follower where the recitation is silent; it is not called for in the last two.",
+            "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна для молящегося в одиночку, имама и следующего там, где чтение тихое; в последних двух не требуется.",
+            "es": "Recitar la sura tras al-Fatiha en las dos primeras unidades es sunna para quien reza solo, para el imam y para el seguidor donde la recitación es en voz baja; no se pide en las dos últimas.",
+            "uk": "Читання сури після аль-Фатіхи в перших двох ракатах — сунна для того, хто молиться сам, для імама і для того, хто слідує там, де читання тихе; в останніх двох не вимагається."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تُسنّ قراءة سورة بعد الفاتحة في الأوليين، وتُكره في الأخريين، وتُسنّ للمأموم في السرّية دون الجهرية.",
+            "en": "Reciting a sura after al-Fatiha in the first two units is a sunna, disliked in the last two, and a sunna for the follower in the silent prayers but not the audible ones.",
+            "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна, в последних двух нежелательно, и сунна для следующего в тихих молитвах, но не в громких.",
+            "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna, se detesta en las dos últimas y es sunna para el seguidor en las oraciones silenciosas, no en las audibles.",
+            "uk": "Читання сури після аль-Фатіхи в перших двох ракатах — сунна, в останніх двох небажано, і сунна для того, хто слідує в тихих молитвах, але не в гучних."
+          },
+          "sources": [
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 13,
+      "number": 16,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -7120,7 +7604,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 14,
+      "number": 17,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -7239,7 +7723,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 15,
+      "number": 18,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",
@@ -7641,6 +8125,152 @@
           "en": "Al-Jawāb al-Ṣaḥīḥ",
           "ru": "«Аль-Джаваб ас-Сахих»",
           "es": "Al-Jawāb al-Ṣaḥīḥ"
+        }
+      ]
+    },
+    {
+      "id": "proof-of-creation",
+      "ref": "M4",
+      "chapter": {
+        "ar": "باب أدلة التوحيد والإيمان",
+        "en": "Chapter on the Proofs of Monotheism and Faith",
+        "ru": "Раздел о доказательствах единобожия и веры",
+        "es": "Capítulo sobre las pruebas del monoteísmo y la fe",
+        "uk": "Розділ про докази єдинобожжя та віри"
+      },
+      "title": {
+        "ar": "دليل الخلق واستحالة التسلسل في الإيجاد",
+        "en": "The proof of creation and the impossibility of an infinite regress",
+        "ru": "Доказательство сотворения и невозможность бесконечного ряда причин",
+        "es": "La prueba de la creación y la imposibilidad de una regresión infinita",
+        "uk": "Доказ створення та неможливість безкінечного ланцюга причин"
+      },
+      "excerpt": {
+        "ar": "بيان الدليل العقلي على حدوث العالم، واستحالة تسلسل الموجِدين في الماضي إلى غير نهاية.",
+        "en": "An account of the rational proof that the world is originated, and of why a chain of originators cannot run back without end.",
+        "ru": "Изложение разумного доказательства сотворённости мира и того, почему цепь причин не может уходить в прошлое бесконечно.",
+        "es": "Exposición de la prueba racional de que el mundo es originado, y de por qué una cadena de causas no puede remontarse sin fin.",
+        "uk": "Виклад розумового доказу створеності світу та того, чому ланцюг причин не може сягати в минуле без кінця."
+      },
+      "relatedRefs": [
+        "A1",
+        "A2"
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "تقرّر الشريعة والعقول السليمة أن هذا العالم بجميع أجزائه حادث مسبوق بالعدم، متوقّف في وجوده على موجِد قديم لم يسبقه شيء.\n\nودليل الحدوث مقروناً بإبطال التسلسل من أعظم ما اعتمده أهل السنة في ردّ شبهة القول بأزلية المادة.",
+            "en": "Both the revealed Law and sound reason hold that this world, in all its parts, is originated and preceded by non-existence, depending for its existence on an Originator without beginning, before whom nothing was.\n\nThe proof of origination, joined to the refutation of infinite regress, is among the strongest grounds relied upon in answering the claim that matter is eternal.",
+            "ru": "И Закон, и здравый разум утверждают, что этот мир во всех своих частях возник и что ему предшествовало небытие, а его существование зависит от безначального Творца, до Которого ничего не было.\n\nДоказательство возникновения вместе с опровержением бесконечного ряда причин — одно из сильнейших оснований в ответе на утверждение о вечности материи.",
+            "es": "Tanto la Ley revelada como la sana razón sostienen que este mundo, en todas sus partes, es originado y precedido por la no existencia, y que depende en su existencia de un Originador sin principio, antes del cual nada hubo.\n\nLa prueba de la originación, unida a la refutación de la regresión infinita, es uno de los fundamentos más firmes frente a la afirmación de que la materia es eterna.",
+            "uk": "І Закон, і здоровий розум стверджують, що цей світ у всіх своїх частинах виник і що йому передувало небуття, а його існування залежить від безначального Творця, до Якого нічого не було.\n\nДоказ виникнення разом зі спростуванням безкінечного ланцюга причин — одна з найміцніших підстав у відповіді на твердження про вічність матерії."
+          }
+        },
+        {
+          "id": "creation-proof",
+          "heading": {
+            "ar": "حقيقة دليل الحدوث",
+            "en": "What the proof of origination says",
+            "ru": "Суть доказательства возникновения",
+            "es": "En qué consiste la prueba de la originación",
+            "uk": "Суть доказу виникнення"
+          },
+          "body": {
+            "ar": "ينطلق الدليل من مقدّمة ظاهرة: أن الأجرام المشاهدة متغيّرة متحوّلة، وكل متغيّر حادث مسبوق بالعدم.\n\nوقد أشار القرآن إلى هذا المعنى في قوله تعالى ﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾، سورة الطور: ٣٥.\n\nفإذا كان الشيء لا يخلق نفسه، ولا يوجد بلا موجِد، لزم عقلاً أن له خالقاً أحدثه بعد العدم.",
+            "en": "The proof begins from a plain premise: the bodies we observe change and alter, and whatever changes is originated and preceded by non-existence.\n\nThe Qur'an points to this in Sūrat al-Ṭūr, verse 35.\n\nSince a thing cannot bring itself into being, nor come to be without a bringer, reason requires a Creator who brought it into being after non-existence.",
+            "ru": "Доказательство исходит из очевидной посылки: наблюдаемые тела изменяются, а всё изменяющееся возникло, и ему предшествовало небытие.\n\nНа это указывает Коран в суре «ат-Тур», аят 35.\n\nПоскольку вещь не приводит себя в бытие и не возникает без приводящего, разум требует Творца, создавшего её из небытия.",
+            "es": "La prueba parte de una premisa evidente: los cuerpos que observamos cambian, y todo lo que cambia es originado y precedido por la no existencia.\n\nEl Corán apunta a ello en la sura at-Tur, aleya 35.\n\nComo una cosa no se trae a sí misma a la existencia ni surge sin quien la traiga, la razón exige un Creador que la originó tras la nada.",
+            "uk": "Доказ виходить з очевидної посилки: тіла, які ми спостерігаємо, змінюються, а все змінне виникло, і йому передувало небуття.\n\nНа це вказує Коран у сурі «ат-Тур», аят 35.\n\nОскільки річ не приводить себе в буття і не виникає без того, хто її приводить, розум вимагає Творця, який створив її з небуття."
+          }
+        },
+        {
+          "id": "infinite-regress",
+          "heading": {
+            "ar": "معنى التسلسل وبطلانه",
+            "en": "What infinite regress means, and why it fails",
+            "ru": "Что такое бесконечный ряд причин и почему он несостоятелен",
+            "es": "Qué es la regresión infinita y por qué no se sostiene",
+            "uk": "Що таке безкінечний ланцюг причин і чому він хибний"
+          },
+          "body": {
+            "ar": "المراد بالتسلسل الممتنع أن يُفرض لكل موجِد حادثٍ موجِدٌ حادث قبله، إلى غير نهاية في جانب الماضي.\n\nوهذا باطل عقلاً، لأنه يجعل حدوث اليوم متوقّفاً على انقضاء ما لا نهاية له من الحوادث، وما لا نهاية له لا ينقضي، فلا يوجد شيء في الحاضر.\n\nفوجود العالم الآن دليل قاطع على أن السلسلة منقطعة، وأنها لا بدّ أن تنتهي إلى موجِد أول ليس قبله شيء.",
+            "en": "The regress in question is the supposition that every originated originator was itself brought about by another originated originator, endlessly into the past.\n\nThis fails rationally, for it makes today's coming-to-be wait upon the completion of an endless series, and an endless series is never completed; so nothing would exist now.\n\nThat the world does exist now is decisive proof that the chain is finite and must end at a First Originator before whom nothing was.",
+            "ru": "Под невозможным рядом понимается допущение, что у каждой возникшей причины была другая возникшая причина, и так без конца в прошлое.\n\nЭто несостоятельно: тогда нынешнее возникновение ждало бы завершения бесконечного ряда, а бесконечный ряд не завершается, и ничего не существовало бы сейчас.\n\nТо, что мир существует, — решающий довод, что цепь конечна и должна оканчиваться Первым Творцом, до Которого ничего не было.",
+            "es": "La regresión en cuestión es suponer que todo originador originado fue a su vez producido por otro originador originado, sin fin hacia el pasado.\n\nEsto no se sostiene: haría que lo que ocurre hoy dependiera de completar una serie sin fin, y una serie sin fin nunca se completa; así, nada existiría ahora.\n\nQue el mundo exista ahora es prueba decisiva de que la cadena es finita y ha de terminar en un Primer Originador antes del cual nada hubo.",
+            "uk": "Під неможливим ланцюгом розуміють припущення, що кожна виникла причина була породжена іншою виниклою причиною, і так без кінця в минуле.\n\nЦе хибно: тоді теперішнє виникнення чекало б завершення безкінечного ряду, а безкінечний ряд не завершується, і нічого не існувало б зараз.\n\nТе, що світ існує, — вирішальний доказ, що ланцюг скінченний і має завершуватися Першим Творцем, до Якого нічого не було."
+          }
+        },
+        {
+          "id": "first-cause",
+          "heading": {
+            "ar": "قِدَم الخالق وأوّليته",
+            "en": "The Creator's beginninglessness and priority",
+            "ru": "Безначальность Творца и Его первенство",
+            "es": "La ausencia de principio del Creador y Su primacía",
+            "uk": "Безначальність Творця та Його первинність"
+          },
+          "body": {
+            "ar": "يثبت العقل والشرع أن الخالق سبحانه هو الأول الذي ليس قبله شيء، قديم أزلي لا يحتاج إلى من يوجده.\n\nوفي صحيح مسلم عن النبي صلى الله عليه وسلم: «اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ».\n\nوبهذه الأوّلية ينقطع التسلسل، ويستقيم تفسير أصل الوجود تفسيراً يوافق العقل والفطرة.",
+            "en": "Reason and revelation establish that the Creator is the First, before whom nothing was: without beginning, and in no need of anyone to bring Him into being.\n\nIn Ṣaḥīḥ Muslim the Prophet, peace be upon him, said: «O Allah, You are the First, and nothing is before You.»\n\nBy this priority the regress is cut off, and the origin of existence is explained in a way that reason and innate disposition both accept.",
+            "ru": "Разум и Откровение устанавливают, что Творец — Первый, до Которого ничего не было: безначальный и не нуждающийся в том, кто привёл бы Его в бытие.\n\nВ «Сахихе» Муслима Пророк, мир ему, сказал: «О Аллах, Ты — Первый, и нет ничего до Тебя».\n\nЭтим первенством ряд обрывается, и происхождение бытия объясняется так, как принимают и разум, и врождённое чувство.",
+            "es": "La razón y la revelación establecen que el Creador es el Primero, antes del cual nada hubo: sin principio y sin necesidad de quien Lo traiga a la existencia.\n\nEn el Ṣaḥīḥ de Muslim el Profeta, la paz sea con él, dijo: «Oh Allah, Tú eres el Primero, y nada hay antes de Ti».\n\nCon esta primacía la regresión queda cortada, y el origen de la existencia se explica de un modo que aceptan la razón y la disposición innata.",
+            "uk": "Розум і Одкровення встановлюють, що Творець — Перший, до Якого нічого не було: безначальний і такий, що не потребує того, хто привів би Його в буття.\n\nУ «Сахіху» Мусліма Пророк, мир йому, сказав: «О Аллаху, Ти — Перший, і немає нічого до Тебе».\n\nЦією первинністю ланцюг обривається, і походження буття пояснюється так, як приймають і розум, і вроджене чуття."
+          }
+        },
+        {
+          "id": "close",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "يجتمع دليل الحدوث مع استحالة التسلسل فيصيران حجّة عقلية قاطعة على أن للكون بداية، وأن له خالقاً واحداً أوجده بحكمته وقدرته.",
+            "en": "The proof of origination and the impossibility of infinite regress together form a conclusive rational argument that the universe has a beginning and one Creator who brought it into being by His wisdom and power.",
+            "ru": "Доказательство возникновения вместе с невозможностью бесконечного ряда образуют неопровержимый разумный довод: у Вселенной есть начало и один Творец, создавший её Своей мудростью и мощью.",
+            "es": "La prueba de la originación y la imposibilidad de la regresión infinita forman juntas un argumento racional concluyente: el universo tiene un comienzo y un solo Creador que lo originó por Su sabiduría y poder.",
+            "uk": "Доказ виникнення разом із неможливістю безкінечного ланцюга утворюють неспростовний розумовий доказ: Всесвіт має початок і одного Творця, який створив його Своєю мудрістю й могутністю."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "درء تعارض العقل والنقل",
+          "en": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+          "ru": "«Дар тааруд аль-акль ва-н-накль»",
+          "es": "Darʾ Taʿāruḍ al-ʿAql wa-al-Naql",
+          "uk": "«Дар тааруд аль-акль ва-н-накль»"
+        },
+        {
+          "ar": "مجموع الفتاوى",
+          "en": "Majmūʿ al-Fatāwā",
+          "ru": "«Маджму аль-фатава»",
+          "es": "Majmūʿ al-Fatāwā",
+          "uk": "«Маджму аль-фатава»"
+        },
+        {
+          "ar": "شرح الطحاوية",
+          "en": "Sharḥ al-Ṭaḥāwiyyah",
+          "ru": "«Шарх ат-Тахавия»",
+          "es": "Sharḥ al-Ṭaḥāwiyyah",
+          "uk": "«Шарх ат-Тахавія»"
+        },
+        {
+          "ar": "منهاج السنة النبوية",
+          "en": "Minhāj al-Sunnah al-Nabawiyyah",
+          "ru": "«Минхадж ас-сунна ан-набавия»",
+          "es": "Minhāj al-Sunnah al-Nabawiyyah",
+          "uk": "«Мінхадж ас-сунна ан-набавія»"
         }
       ]
     }
