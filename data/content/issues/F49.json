@@ -1,0 +1,150 @@
+{
+ "ref": "F49",
+ "id": "sawm-1",
+ "bookId": "sawm",
+ "seq": 1,
+ "chapter": {
+  "ar": "باب صيام رمضان",
+  "en": "Chapter on Fasting Ramadan",
+  "ru": "Раздел о посте в Рамадан",
+  "es": "Capítulo sobre el ayuno de Ramadán",
+  "uk": "Розділ про піст у Рамадан"
+ },
+ "title": {
+  "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
+  "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
+  "ru": "Постановление об установлении полумесяца Рамадана свидетельством одного или двух справедливых свидетелей",
+  "es": "Norma sobre la confirmación de la media luna de Ramadán mediante el testimonio de uno o dos testigos justos",
+  "uk": "Постанова про підтвердження півмісяця Рамадану свідченням одного або двох справедливих свідків"
+ },
+ "summary": {
+  "ar": "هل يثبت هلال شهر رمضان برؤية عدل واحد أم يشترط اثنان؟",
+  "en": "Is the crescent of Ramadan confirmed by the sighting of a single just witness, or are two required?",
+  "ru": "Устанавливается ли полумесяц Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
+  "es": "¿Se confirma la media luna de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
+  "uk": "Чи підтверджується півмісяць Рамадану свідченням одного справедливого свідка, чи потрібно двоє?"
+ },
+ "rulings": {
+  "hanafi": {
+   "text": {
+    "ar": "يثبت هلال رمضان برؤية عدل واحد، ذكراً كان أو أنثى، إذا كان المسلم مكلفاً، لحديث ابن عمر رضي الله عنهما: «تراه الناس فأخبرت النبي ﷺ أنه رأيته فصام وأمر الناس بصيامه».",
+    "en": "The crescent of Ramadan is proven by the sighting of a single just witness, male or female, if competent, based on the hadith of Ibn Umar.",
+    "ru": "Полумесяц Рамадана подтверждается свидетельством одного справедливого свидетеля, мужчины или женщины, на основе хадиса Ибн Умара.",
+    "es": "La media luna de Ramadán se prueba con el testimonio de un solo testigo justo, hombre o mujer, basándose en el hadis de Ibn Umar.",
+    "uk": "Півмісяць Рамадану підтверджується свідченням одного справедливого свідка, чоловіка чи жінки, на основі хадісу Ібн Умара."
+   },
+   "sources": [
+    {
+     "ar": "الهداية",
+     "en": "Al-Hidāyah",
+     "ru": "«Аль-Хидая»",
+     "es": "Al-Hidāyah",
+     "uk": "«Аль-Хідая»"
+    },
+    {
+     "ar": "رد المحتار",
+     "en": "Radd al-Muḥtār",
+     "ru": "«Радд аль-Мухтар»",
+     "es": "Radd al-Muḥtār",
+     "uk": "«Радд аль-Мухтар»"
+    }
+   ]
+  },
+  "maliki": {
+   "text": {
+    "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويشترط في العدل الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
+    "en": "The crescent of Ramadan is not proven by a single witness, but requires two just male witnesses or widespread transmission, requiring masculinity and probity.",
+    "ru": "Полумесяц Рамадана не подтверждается одним свидетелем; требуются двое справедливых мужчин или массовое сообщение. Свидетельство нечестивца недостаточно.",
+    "es": "La media luna de Ramadán no se prueba con un solo testigo, sino que se requieren dos hombres justos o una transmisión masiva. No basta el testimonio de alguien corrupto.",
+    "uk": "Півмісяць Рамадану не підтверджується одним свідком; потрібні двоє справедливих чоловіків або масове повідомлення. Свідчення нечестивця недостатнє."
+   },
+   "sources": [
+    {
+     "ar": "المدونة",
+     "en": "Al-Mudawwanah",
+     "ru": "«Аль-Мудаввана»",
+     "es": "Al-Mudawwanah",
+     "uk": "«Аль-Мудаввана»"
+    },
+    {
+     "ar": "الشرح الكبير",
+     "en": "Al-Sharḥ al-Kabīr",
+     "ru": "«Аш-Шарх аль-Кабир»",
+     "es": "Al-Sharḥ al-Kabīr",
+     "uk": "«Аш-Шарх аль-Кабір»"
+    },
+    {
+     "ar": "مواهب الجليل",
+     "en": "Mawāhib al-Jalīl",
+     "ru": "«Мавахиб аль-Джалиль»",
+     "es": "Mawāhib al-Jalīl",
+     "uk": "«Мавагіб аль-Джаліль»"
+    }
+   ]
+  },
+  "shafii": {
+   "text": {
+    "ar": "يثبت دخول شهر رمضان برؤية عدل واحد في الرؤية، ولا يُقبل في غير رمضان من الشهور إلا اثنان، لحديث ابن عمر أن النبي ﷺ صام بشهادة أعرابي ورأى الهلال.",
+    "en": "The entry of Ramadan is proven by the sighting of one just witness, whereas other months require two, based on the hadith of the Bedouin.",
+    "ru": "Вступление месяца Рамадан подтверждается свидетельством одного справедливого свидетеля в отличие от других месяцев, где требуются двое, согласно хадису бедуина.",
+    "es": "La entrada de Ramadán se prueba con el testimonio de un testigo justo, a diferencia de otros meses que requieren dos, basándose en el hadis del beduino.",
+    "uk": "Вступ місяця Рамадан підтверджується свідченням одного справедливого свідка на відміну від інших місяців, де вимагається двоє, згідно з хадісом бедуїна."
+   },
+   "sources": [
+    {
+     "ar": "الأم",
+     "en": "Al-Umm",
+     "ru": "«Аль-Умм»",
+     "es": "Al-Umm",
+     "uk": "«Аль-Умм»"
+    },
+    {
+     "ar": "منهاج الطالبين",
+     "en": "Minhāj al-Ṭālibīn",
+     "ru": "«Минхадж ат-Талибин»",
+     "es": "Minhāj al-Ṭālibīn",
+     "uk": "«Мінхадж ат-Талібін»"
+    },
+    {
+     "ar": "المجموع",
+     "en": "Al-Majmūʿ",
+     "ru": "«Аль-Маджму»",
+     "es": "Al-Majmūʿ",
+     "uk": "«Аль-Маджму»"
+    }
+   ]
+  },
+  "hanbali": {
+   "text": {
+    "ar": "يثبت هلال رمضان برؤية عدل واحد ولو كان عبداً أو أنثى، لأن النبي ﷺ قَبِل خبر ابن عمر وابن عباس رضي الله عنهما في رؤية الهلال بمفردهما.",
+    "en": "The Ramadan crescent is proven by a single just witness, even if a slave or female, because the Prophet accepted individual reports.",
+    "ru": "Полумесяц Рамадана подтверждается одним справедливым свидетелем, даже если это раб или женщина, поскольку Пророк принял сообщения отдельных лиц.",
+    "es": "La media luna de Ramadán se prueba con un solo testigo justo, aunque sea esclavo o mujer, porque el Profeta aceptó informes individuales.",
+    "uk": "Півмісяць Рамадану підтверджується одним справедливим свідком, навіть якщо це раб чи жінка, оскільки Пророк прийняв повідомлення окремих осіб."
+   },
+   "sources": [
+    {
+     "ar": "المغني",
+     "en": "Al-Mughnī",
+     "ru": "«Аль-Мугни»",
+     "es": "Al-Mughnī",
+     "uk": "«Аль-Мугні»"
+    },
+    {
+     "ar": "الكافي",
+     "en": "Al-Kāfī",
+     "ru": "«Аль-Кафи»",
+     "es": "Al-Kāfī",
+     "uk": "«Аль-Кафі»"
+    },
+    {
+     "ar": "كشاف القناع",
+     "en": "Kashshāf al-Qināʿ",
+     "ru": "«Кашшаф аль-Кина»",
+     "es": "Kashshāf al-Qināʿ",
+     "uk": "«Кашшаф аль-Кіна»"
+    }
+   ]
+  }
+ }
+}
