@@ -7837,6 +7837,777 @@
           ]
         }
       }
+    },
+    {
+      "id": "sawm-1",
+      "ref": "F49",
+      "bookId": "sawm",
+      "number": 1,
+      "chapter": {
+        "ar": "وجوب الصيام ورؤية الهلال",
+        "en": "The Obligation of Fasting and Sighting the Crescent",
+        "ru": "Обязательность поста и наблюдение полумесяца",
+        "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+        "uk": "Обов'язковість посту та спостереження півмісяця"
+      },
+      "title": {
+        "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
+        "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
+        "ru": "Постановление об установлении полумесяца Рамадана свидетельством одного или двух справедливых свидетелей",
+        "es": "Norma sobre la confirmación de la media luna de Ramadán mediante el testimonio de uno o dos testigos justos",
+        "uk": "Постанова про підтвердження півмісяця Рамадану свідченням одного або двох справедливих свідків"
+      },
+      "summary": {
+        "ar": "هل يثبت هلال شهر رمضان برؤية عدل واحد أم يشترط اثنان؟",
+        "en": "Is the crescent of Ramadan confirmed by the sighting of a single just witness, or are two required?",
+        "ru": "Устанавливается ли полумесяц Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
+        "es": "¿Se confirma la media luna de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
+        "uk": "Чи підтверджується півмісяць Рамадану свідченням одного справедливого свідка, чи потрібно двоє?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يثبت هلال رمضان برؤية عدل واحد، ذكراً كان أو أنثى، إذا كان المسلم مكلفاً، لحديث ابن عمر رضي الله عنهما: «تراه الناس فأخبرت النبي ﷺ أنه رأيته فصام وأمر الناس بصيامه».",
+            "en": "The crescent of Ramadan is proven by the sighting of a single just witness, male or female, if competent, based on the hadith of Ibn Umar.",
+            "ru": "Полумесяц Рамадана подтверждается свидетельством одного справедливого свидетеля, мужчины или женщины, на основе хадиса Ибн Умара.",
+            "es": "La media luna de Ramadán se prueba con el testimonio de un solo testigo justo, hombre o mujer, basándose en el hadis de Ibn Umar.",
+            "uk": "Півмісяць Рамадану підтверджується свідченням одного справедливого свідка, чоловіка чи жінки, на основі хадісу Ібн Умара."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويشترط في العدل الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
+            "en": "The crescent of Ramadan is not proven by a single witness, but requires two just male witnesses or widespread transmission, requiring masculinity and probity.",
+            "ru": "Полумесяц Рамадана не подтверждается одним свидетелем; требуются двое справедливых мужчин или массовое сообщение. Свидетельство нечестивца недостаточно.",
+            "es": "La media luna de Ramadán no se prueba con un solo testigo, sino que se requieren dos hombres justos o una transmisión masiva. No basta el testimonio de alguien corrupto.",
+            "uk": "Півмісяць Рамадану не підтверджується одним свідком; потрібні двоє справедливих чоловіків або масове повідомлення. Свідчення нечестивця недостатнє."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يثبت دخول شهر رمضان برؤية عدل واحد في الرؤية، ولا يُقبل في غير رمضان من الشهور إلا اثنان، لحديث ابن عمر أن النبي ﷺ صام بشهادة أعرابي ورأى الهلال.",
+            "en": "The entry of Ramadan is proven by the sighting of one just witness, whereas other months require two, based on the hadith of the Bedouin.",
+            "ru": "Вступление месяца Рамадан подтверждается свидетельством одного справедливого свидетеля в отличие от других месяцев, где требуются двое, согласно хадису бедуина.",
+            "es": "La entrada de Ramadán se prueba con el testimonio de un testigo justo, a diferencia de otros meses que requieren dos, basándose en el hadis del beduino.",
+            "uk": "Вступ місяця Рамадан підтверджується свідченням одного справедливого свідка на відміну від інших місяців, де вимагається двоє, згідно з хадісом бедуїна."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يثبت هلال رمضان برؤية عدل واحد ولو كان عبداً أو أنثى، لأن النبي ﷺ قَبِل خبر ابن عمر وابن عباس رضي الله عنهما في رؤية الهلال بمفردهما.",
+            "en": "The Ramadan crescent is proven by a single just witness, even if a slave or female, because the Prophet accepted individual reports.",
+            "ru": "Полумесяц Рамадана подтверждается одним справедливым свидетелем, даже если это раб или женщина, поскольку Пророк принял сообщения отдельных лиц.",
+            "es": "La media luna de Ramadán se prueba con un solo testigo justo, aunque sea esclavo o mujer, porque el Profeta aceptó informes individuales.",
+            "uk": "Півмісяць Рамадану підтверджується одним справедливим свідком, навіть якщо це раб чи жінка, оскільки Пророк прийняв повідомлення окремих осіб."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sawm-3",
+      "ref": "F51",
+      "bookId": "sawm",
+      "number": 2,
+      "chapter": {
+        "ar": "وجوب الصيام ورؤية الهلال",
+        "en": "The Obligation of Fasting and Sighting the Crescent",
+        "ru": "Обязательность поста и наблюдение полумесяца",
+        "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+        "uk": "Обов'язковість посту та спостереження півмісяця"
+      },
+      "title": {
+        "ar": "حكم إتمام شعبان ثلاثين يوماً إذا حُجب الهلال ليلة الثلاثين",
+        "en": "Ruling on Completing Sha'ban Thirty Days if the Crescent is Blocked on the Thirtieth Night",
+        "ru": "Постановление о завершении Шабана тридцатью днями при скрытии полумесяца в тридцатую ночь",
+        "es": "Norma sobre completar Sha'ban treinta días si la media luna está oculta en la trigésima noche",
+        "uk": "Постанова про завершення Шабана тридцятьма днями при приховуванні півмісяця в тридцяту ніч"
+      },
+      "summary": {
+        "ar": "ما الحكم إذا غمّ هلال رمضان ولم يُرَ ليلة الثلاثين من شعبان؟",
+        "en": "What is the ruling if the crescent of Ramadan is obscured and not seen on the thirtieth night of Sha'ban?",
+        "ru": "Каково постановление, если полумесяц Рамадана скрыт и не был увиден в тридцатую ночь Шабана?",
+        "es": "¿Cuál es la norma si la media luna de Ramadán está oculta y no se ve en la trigésima noche?",
+        "uk": "Яка постанова, якщо півмісяць Рамадана прихований і не був побачений на тридцяту ніч Шабана?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "إذا غُمّ الهلال ليلة الثلاثين من شعبان، وجب إتمام شهر شعبان ثلاثين يوماً، ولا يجوز صوم يوم الشك تطوعاً أو احتياطاً للفرض.",
+            "en": "If the crescent is obscured on the thirtieth night of Sha'ban, it is obligatory to complete Sha'ban as thirty days, and fasting the day of doubt as voluntary or precautionary is not permissible.",
+            "ru": "Если полумесяц скрыт в тридцатую ночь Шабана, обязательно завершить Шабан тридцатью днями, и недопустимо поститься в день сомнения добровольно или из предосторожности.",
+            "es": "Si la media luna está oculta en la trigésima noche de Sha'ban, es obligatorio completar Sha'ban a treinta días, y no es permisible ayunar el día de la duda como voluntario o por precaución.",
+            "uk": "Якщо півмісяць прихований у тридцяту ніч Шабана, обов'язково завершити Шабан тридцятьма днями, і неприпустимо постити день сумніву добровільно чи з перестороги."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجب إتمام شعبان ثلاثين يوماً إذا حالت دون رؤية الهلال غيم أو قتر ليلة الثلاثين، ويحرم صيام يوم الشك عن رمضان.",
+            "en": "It is obligatory to complete Sha'ban thirty days if clouds or dust obstruct sighting the crescent on the thirtieth night, and fasting the day of doubt for Ramadan is prohibited.",
+            "ru": "Обязательно завершить Шабан тридцатью днями, если облака или пыль препятствуют видимости полумесяца в тридцатую ночь, а поститься в день сомнения запрещено.",
+            "es": "Es obligatorio completar Sha'ban treinta días si nubes o polvo impiden ver la media luna en la trigésima noche, y se prohíbe ayunar el día de la duda.",
+            "uk": "Обов'язково завершити Шабан тридцятьма днями, якщо хмари чи пил перешкоджають видимості півмісяця в тридцяту ніч, а постити день сумніву заборонено."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "إذا حال دون رؤية الهلال غيم أو قتر ليلة الثلاثين من شعبان وجب إتمام الشهر ثلاثين يوماً لقوله ﷺ: «فإن غم عليكم فاقدروا له».",
+            "en": "If clouds or dust obstruct sighting the crescent on the thirtieth night of Sha'ban, completing the month as thirty days is obligatory, based on the Prophet's saying: \"If it is obscured, then estimate for it.\"",
+            "ru": "Если облака или пыль препятствуют видимости полумесяца в тридцатую ночь Шабана, обязательно завершить месяц тридцатью днями согласно словам Пророка: «Если он скрыт от вас, то отмеряйте его».",
+            "es": "Si nubes o polvo impiden ver la media luna en la trigésima noche de Sha'ban, es obligatorio completar el mes a treinta días, basándose en el dicho del Profeta: \"Si está oculto para vosotros, entonces estimadlo\".",
+            "uk": "Якщо хмари чи пил перешкоджають видимості півмісяця в тридцяту ніч Шабана, обов'язково завершити місяць тридцятьма днями згідно зі словами Пророка: «Якщо він прихований від вас, то відміряйте його»."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "إذا حال ليلة الثلاثين من شعبان غيم أو قتر وجب صومه بنية رمضان احتياطاً ولا يجب إتمام شعبان ثلاثين يوماً.",
+            "en": "If clouds or dust obstruct the thirtieth night of Sha'ban, it is obligatory to fast it with the intention of Ramadan out of precaution, and completing Sha'ban as thirty days is not obligatory.",
+            "ru": "Если в тридцатую ночь Шабана мешают облака или пыль, обязательно поститься в этот день с намерением Рамадана из предосторожности, и завершение Шабана тридцатью днями не является обязательным.",
+            "es": "Si nubes o polvo obstruyen la trigésima noche de Sha'ban, es obligatorio ayunarlo con la intención de Ramadán por precaución, y no es obligatorio completar Sha'ban a treinta días.",
+            "uk": "Якщо в тридцяту ніч Шабана заважають хмари чи пил, обов'язково постити в цей день з наміром Рамадану з перестороги, і завершення Шабана тридцятьма днями не є обов'язковим."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sawm-2",
+      "ref": "F50",
+      "bookId": "sawm",
+      "number": 3,
+      "chapter": {
+        "ar": "وجوب الصيام ورؤية الهلال",
+        "en": "The Obligation of Fasting and Sighting the Crescent",
+        "ru": "Обязательность поста и наблюдение полумесяца",
+        "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+        "uk": "Обов'язковість посту та спостереження півмісяця"
+      },
+      "title": {
+        "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
+        "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
+        "ru": "Постановление о различении мест восхода полумесяца и всеобщей видимости для разных стран",
+        "es": "Norma sobre la diferencia de los lugares de salida de la luna y la generalización del avistamiento en los países",
+        "uk": "Постанова про різницю місць сходження півмісяця та загальність видимості в країнах"
+      },
+      "summary": {
+        "ar": "هل يلزم أهل بلد الصيام برؤية الهلال في بلد آخر إذا اختلفت مطالعهم، أم لكل بلد حكمهم؟",
+        "en": "Must the people of one country fast upon the sighting of the crescent in another country if their moonrise locations differ, or does each country have its own ruling?",
+        "ru": "Обязаны ли жители одной страны соблюдать пост при появлении полумесяца в другой стране, если места их восхода различаются, или у каждой страны свое постановление?",
+        "es": "¿Deben los habitantes de un país ayunar al avistarse la media luna de Ramadán en otro país si sus lugares de salida difieren, o cada país tiene su propia norma?",
+        "uk": "Чи зобов'язані жителі однієї країни дотримуватися посту при появі півмісяця в іншій країні, якщо місця їх сходу відрізняються, чи кожна країна має свою постанову?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا اعتبار باختلاف المطالع، فإذا ثبتت رؤية الهلال بطريق شرعي في أي بلد لزم الصوم والإفطار سائر البلدان والأقطار دون اشتراط التقارب.",
+            "en": "The difference in moonrise locations is not taken into account; if the crescent is proven in any country, it applies to all countries regardless of distance.",
+            "ru": "Различие мест восхода не принимается во внимание; если полумесяц подтвержден в любой стране, это обязательно для всех остальных стран.",
+            "es": "La diferencia en los lugares de salida no se toma en cuenta; si se prueba la media luna en cualquier país, se aplica a todos los demás países.",
+            "uk": "Різниця місць сходу не береться до уваги; якщо півмісяць підтверджено в будь-якій країні, це обов'язково для всіх інших країн."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يثبت صيام أهل بلد برؤية بلد آخر إذا بعد ما بينهما بحيث يختلف المطلع، وأما إذا تقارب البلدان فالرؤية لأحدهما رؤية للآخر.",
+            "en": "Fasting is not established for the people of a country by the sighting of another if the distance between them is far such that moonrises differ; if close, sighting for one is for the other.",
+            "ru": "Пост жителей одной страны не устанавливается по видимости в другой при большом расстоянии между ними; если они близки, то видимость для одного распространяется на другого.",
+            "es": "El ayuno de un país no se establece por el avistamiento de otro si la distancia es lejana de modo que los lugares de salida difieren; si están cerca, el avistamiento de uno vale para el otro.",
+            "uk": "Піст жителів однієї країни не встановлюється за видимістю в іншій при великій відстані між ними; якщо вони близькі, видимість для одного поширюється на іншого."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُعتبر اختلاف المطالع، فلا يلزم أهل بلد رؤية أهل بلد آخر إذا باعد ما بينهما مسافة القصر أو اختلفت المطالع اختلافاً بيّناً.",
+            "en": "The difference in moonrises matters; the people of one country are not bound by the sighting of another if the distance is vast or moonrises significantly differ.",
+            "ru": "Различие мест восхода учитывается; жителей одной страны не обязывает видимость в другой при большом расстоянии или существенном различии мест восхода.",
+            "es": "Se toma en cuenta la diferencia de los lugares de salida; los habitantes de un país no están obligados por el avistamiento de otro si la distancia es grande.",
+            "uk": "Різниця місць сходу враховується; жителів однієї країни не зобов'язує видимість в іншій при великій відстані або суттєвій різниці місць сходу."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا يُعتبر اختلاف المطالع، فإذا رُئي الهلال وثبت في بلد لزم صومه جميع المسلمين في سائر البلدان لعموم الخطاب.",
+            "en": "Difference in moonrises is not considered; if the crescent is sighted and proven in one country, fasting becomes obligatory upon all Muslims worldwide due to general address.",
+            "ru": "Различие мест восхода не учитывается; если полумесяц увиден и подтвержден в одной стране, пост обязателен для всех мусульман.",
+            "es": "La diferencia en los lugares de salida no se considera; si la media luna se ve y se prueba en un país, el ayuno es obligatorio para todos los musulmanes.",
+            "uk": "Різниця місць сходу не враховується; якщо півмісяць побачено та підтверджено в одній країні, піст є обов'язковим для всіх мусульман."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sawm-4",
+      "ref": "F52",
+      "bookId": "sawm",
+      "number": 4,
+      "chapter": {
+        "ar": "وجوب الصيام ورؤية الهلال",
+        "en": "The Obligation of Fasting and Sighting the Crescent",
+        "ru": "Обязательность поста и наблюдение полумесяца",
+        "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+        "uk": "Обов'язковість посту та спостереження півмісяця"
+      },
+      "title": {
+        "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
+        "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
+        "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
+        "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
+        "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
+      },
+      "summary": {
+        "ar": "هل يجوز الاعتماد على الحسابات الفلكية وحدها في إثبات دخول شهر رمضان أم تشترط الرؤية البصرية؟",
+        "en": "Is it permissible to rely solely on astronomical calculations to confirm the entry of Ramadan, or is visual sighting required?",
+        "ru": "Допустимо ли полагаться исключительно на астрономические расчеты для подтверждения вступления Рамадана, или требуется визуальное наблюдение?",
+        "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
+        "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحسابين.",
+            "en": "Astronomical calculation is not relied upon to confirm crescents; rather, the standard is visual sighting based on the Prophet's saying: \"Fast upon seeing it and break fast upon seeing it,\" and the words of astronomers are disregarded.",
+            "ru": "Астрономические расчеты не учитываются при установлении полумесяцев; значение имеет визуальное наблюдение на основе слов Пророка, а слова астрономов не принимаются во внимание.",
+            "es": "No se confía en el cálculo astronómico para confirmar las lunas nuevas; la norma es la observación visual basada en las palabras del Profeta, y se ignoran las palabras de los astrónomos.",
+            "uk": "Астрономічні розрахунки не беруться до уваги при встановленні півмісяців; значення має візуальне спостереження на основі слів Пророка, а слова астрономів до уваги не беруться."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يلتفت إلى قول الحسابين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان، والمطالب الشرعية متعلقة بالرؤية بالعين أو إتمام العدة.",
+            "en": "The statements of calculators are ignored, and astronomical calculations are not used to establish Ramadan; legal demands are linked to visual sighting or completing the count.",
+            "ru": "Слова вычислителей игнорируются, и астрономические расчеты не используются для установления Рамадана; шариатские требования связаны с визуальным наблюдением или завершением счета.",
+            "es": "Las declaraciones de los calculadores se ignoran y no se recurre al cálculo astronómico para establecer Ramadán; las exigencias legales están ligadas a la observación visual o completar la cuenta.",
+            "uk": "Слова обчислювачів ігноруються, і астрономічні розрахунки не використовуються для встановлення Рамадану; шаріатські вимоги пов'язані з візуальним спостереженням або завершенням рахунку."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا عبرة بحساب الحسابين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
+            "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
+            "ru": "Расчеты астрономов не имеют значения при подтверждении полумесяца, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
+            "es": "Los cálculos de los astrónomos no tienen relevancia para confirmar la media luna, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
+            "uk": "Розрахунки астрономів не мають значення при підтвердженні півмісяця, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець зв'язав постанову виключно зі спостереженням або завершенням рахунку."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان، ولا يثبت الهلال إلا بالرؤية البصرية أو إتمام شعبان ثلاثين يوماً، لقوله ﷺ: «فإن غم عليكم فاقدروا له» أي أكملوا العدة ثلاثين.",
+            "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Sha'ban as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
+            "ru": "Запрещено полагаться на астрономические расчеты при подтверждении вступления Рамадана, и полумесяц подтверждается только визуальным наблюдением или завершением Шабана в тридцать дней согласно словам Пророка.",
+            "es": "Está prohibido confiar en el cálculo astronómico para confirmar la entrada de Ramadán, y la media luna solo se prueba mediante observación visual o completando Sha'ban a treinta días, basándose en el dicho del Profeta.",
+            "uk": "Заборонено покладатися на астрономічні розрахунки при підтвердженні настання Рамадану, і півмісяць підтверджується лише візуальним спостереженням або завершенням Шабана в тридцять днів згідно зі словами Пророка."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sawm-5",
+      "ref": "F53",
+      "bookId": "sawm",
+      "number": 5,
+      "chapter": {
+        "ar": "أركان الصيام وشروطه",
+        "en": "The Pillars and Conditions of Fasting",
+        "ru": "Столпы и условия поста",
+        "es": "Los pilares y condiciones del ayuno",
+        "uk": "Стовпи та умови посту"
+      },
+      "title": {
+        "ar": "حكم اشتراط تبييت النية من الليل لصوم رمضان",
+        "en": "Ruling on the Condition of Intending Fasting Ramadan from the Night Before",
+        "ru": "Постановление об условии намерения поститься в Рамадан с ночи",
+        "es": "Norma sobre la condición de la intención de ayunar Ramadán desde la noche anterior",
+        "uk": "Постанова про умову наміру постити в Рамадан з ночі"
+      },
+      "summary": {
+        "ar": "هل يشترط تبييت النية لكل يوم من أيام رمضان من الليل أم يكفي نية واحدة في أوله؟",
+        "en": "Is it required to form the intention from the night for each day of Ramadan, or is a single intention at the beginning sufficient?",
+        "ru": "Требуется ли ночное намерение на каждый день Рамадана, или достаточно одного намерения в начале?",
+        "es": "¿Se requiere formar la intención desde la noche para cada día de Ramadán, o basta con una sola intención al principio?",
+        "uk": "Чи вимагається нічний намір на кожен день Рамадану, чи достатньо одного наміру на початку?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
+            "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-day for Ramadan, voluntary fasts, and specific duties.",
+            "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днем до зенита для Рамадана, добровольного поста и определённой обязанности.",
+            "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes del mediodía para Ramadán, ayuno voluntario y deber específico.",
+            "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до зеніту для Рамадану, добровільного посту та визначеного обов'язку."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تكفي نية واحدة في أول شهر رمضان لكل أداء يجب تتابعه، ولا يجب تبييت النية لكل ليلة على حدة إلا إن انقطع الصوم بمرض أو سفر فتجب إعادة النية.",
+            "en": "A single intention at the beginning of Ramadan is sufficient for all consecutive days, and a nightly intention for each night is not required unless interrupted by illness or travel.",
+            "ru": "Одного намерения в начале месяца Рамадан достаточно для всех непрерывных дней, и ночное намерение на каждую ночь не требуется, если пост не прерывался болезнью или путешествием.",
+            "es": "Una sola intención al principio de Ramadán es suficiente para todos los días consecutivos, y no se requiere la intención nocturna para cada noche a menos que se interrumpa por enfermedad o viaje.",
+            "uk": "Одного наміру на початку місяця Рамадан достатньо для всіх безперервних днів, і нічний намір на кожну ніч не вимагається, якщо піст не переривався хворобою чи подорожжю."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يبيّت الصيام قبل الفجر فلا صيام له».",
+            "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr.",
+            "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра.",
+            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr.",
+            "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، ولا يصح الصيام الواجب إلا بالنية قبل طلوع الفجر لكل يوم على حدة.",
+            "en": "Forming the intention from the night is obligatory for each day of Ramadan, and obligatory fasting is not valid except with an intention before the break of dawn for each day separately.",
+            "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
+            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
+            "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
     }
   ],
   "articles": [
@@ -8271,6 +9042,149 @@
           "ru": "«Минхадж ас-сунна ан-набавия»",
           "es": "Minhāj al-Sunnah al-Nabawiyyah",
           "uk": "«Мінхадж ас-сунна ан-набавія»"
+        }
+      ]
+    },
+    {
+      "ref": "M5",
+      "id": "wisdom-of-fasting",
+      "chapter": {
+        "ar": "باب الفقه والأحكام الشرعية",
+        "en": "Chapter on Jurisprudence and Legal Rulings",
+        "ru": "Глава о фикхе и шариатских постановлениях",
+        "es": "Capítulo sobre jurisprudencia y normas islámicas",
+        "uk": "Розділ про фікх та шаріатські приписи"
+      },
+      "title": {
+        "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
+        "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",
+        "ru": "Мудрость поста в месяц Рамадан и его влияние на физическое здоровье",
+        "es": "La sabiduría del ayuno de Ramadán y su impacto en la salud física",
+        "uk": "Мудрість посту в місяць Рамадан та його вплив на фізичне здоров'я"
+      },
+      "excerpt": {
+        "ar": "مقال يبين الحكم الشرعية والغايات الروحية من صيام رمضان، ويتناول أثره الصحّي على البدن وفق المعطيات الطبية الحديثة.",
+        "en": "An article explaining the religious wisdom and spiritual goals of fasting Ramadan, addressing its physical health impacts according to modern medical findings.",
+        "ru": "Статья, разъясняющая религиозную мудрость и духовные цели поста в Рамадан, а также его влияние на здоровье согласно современным медицинским данным.",
+        "es": "Artículo que explica la sabiduría religiosa y los objetivos espirituales del ayuno de Ramadán, abordando su impacto en la salud física según hallazgos médicos modernos.",
+        "uk": "Стаття, що пояснює релігійну мудрість та духовні цілі посту в Рамадан, а також його вплив на фізичне здоров'я згідно з сучасними медичними даними."
+      },
+      "relatedRefs": [],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "مقدمة",
+            "en": "Introduction",
+            "ru": "Введение",
+            "es": "Introducción",
+            "uk": "Вступ"
+          },
+          "body": {
+            "ar": "فرض الله جل وعلا صيام شهر رمضان على الأمة الإسلامية وجعله ركناً من أركان الدين العظام، لما يشتمل عليه من المصالح العاجلة والآجلة للعباد.\n\nوتتنوع حكم الصيام لتشمل تزكية النفس وتربيتها، إلى جانب المظاهر الصحية التي تشهد بدقة التشريع الإسلامي ورعايته لحفظ البدن.",
+            "en": "Allah Almighty mandated the fasting of Ramadan upon the Islamic nation as a fundamental pillar of faith, encompassing immediate and long-term benefits for humans.\n\nThe wisdom behind fasting encompasses spiritual purification and soul discipline, alongside physical health aspects that demonstrate the precision of Islamic law.",
+            "ru": "Всевышний Аллах предписал пост в месяц Рамадан исламской общине, сделав его великим столпом веры из-за содержащейся в нем пользы.\n\nМудрость поста включает духовное очищение и воспитание души, а также аспекты здоровья, свидетельствующие о точности шариата.",
+            "es": "Dios Todopoderoso prescribió el ayuno de Ramadán a la nación islámica como un pilar fundamental de la fe, abarcando beneficios inmediatos y a largo plazo.\n\nLa sabiduría del ayuno abarca la purificación espiritual y la disciplina del alma, junto con aspectos de salud física que demuestran la precisión de la ley islámica.",
+            "uk": "Всевишній Аллах приписав піст у місяць Рамадан ісламській громаді, зробивши його великим стовпом віри через користь для людей.\n\nМудрість посту включає духовне очищення та виховання душі, а також аспекти здоров'я, що свідчать про точність шаріату."
+          }
+        },
+        {
+          "id": "spiritual_wisdom",
+          "heading": {
+            "ar": "الحكم الشرعية والروحية للصيام",
+            "en": "Religious and Spiritual Wisdom of Fasting",
+            "ru": "Религиозная и духовная мудрость поста",
+            "es": "Sabiduría religiosa y espiritual del ayuno",
+            "uk": "Релігійна та духовна мудрість посту"
+          },
+          "body": {
+            "ar": "تتمثل الغاية الكبرى من الصيام في تحقيق التقوى ومراقبة الله تعالى، كما جاء في قوله تعالى ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ﴾ سورة البقرة: ١٨٣.\n\nكما يعود الصيام المسلم على الصبر وضبط النفس وكسر حدة الشهوات، ويذكره بحال الفقراء والمحتاجين فيتحرك قلبه بالرحمة والجود.",
+            "en": "The supreme objective of fasting is achieving piety and God-consciousness, as stated in the Holy Quran in Surah Al-Baqarah: 183.\n\nFasting also trains the Muslim in patience, self-control, restraining desires, and reminds one of the poor, moving the heart to compassion and charity.",
+            "ru": "Главная цель поста — достижение богобоязненности и осознания присутствия Аллаха, как сказано в Священном Коране в суре Аль-Бакара: 183.\n\nПост также приучает мусульманина к терпению, самообладанию и сдерживанию страстей, напоминая о бедных и побуждая к милосердию.",
+            "es": "El objetivo supremo del ayuno es alcanzar la piedad y la conciencia de Dios, como se establece en el Sagrado Corán en la sura Al-Baqarah: 183.\n\nEl ayuno también entrena al musulmán en la paciencia, el autocontrol y la contención de deseos, recordando a los pobres y moviendo el corazón a la compasión.",
+            "uk": "Головна мета посту — досягнення богобоязливості та усвідомлення присутності Аллаха, як сказано у Священному Корані у сурі Аль-Бакара: 183.\n\nПіст також привчає мусульманина до терпіння, самовладання та стримування пристрастей, нагадуючи про бідних та спонукаючи до милосердя."
+          }
+        },
+        {
+          "id": "health_impact",
+          "heading": {
+            "ar": "الأثر الصحي للصيام على الجسم",
+            "en": "Physical Health Impact of Fasting",
+            "ru": "Влияние поста на физическое здоровье",
+            "es": "Impacto del ayuno en la salud física",
+            "uk": "Вплив посту на фізичне здоров'я"
+          },
+          "body": {
+            "ar": "ينفي العلم الطبي المعتمد كون الصيام المعتدل مضراً بالأشخاص الأصحاء، بل تؤكد الدراسات دوره في تخفيف العبء عن الجهاز الهضمي وتحسين التمثيل الغذائي.\n\nيساهم الصيام في تنشيط التجديد الخلوي وضبط مستويات السكر والدهون في الدم، مما يقلل من مخاطر الأمراض المزمنة عند الالتزام بالنظام الغذائي المتوازن.",
+            "en": "Sound medical science refutes that moderate fasting is harmful to healthy individuals, with studies confirming its role in easing digestive burden and improving metabolism.\n\nFasting contributes to cellular renewal and regulation of blood sugar and lipid levels, reducing risks of chronic diseases when paired with balanced nutrition.",
+            "ru": "Авторитетная медицина отрицает вред умеренного поста для здоровых людей, подтверждая его роль в разгрузке пищеварительной системы и улучшении обмена веществ.\n\nПост способствует клеточному обновлению и регуляции уровня сахара и липидов в крови, снижая риски хронических заболеваний при сбалансированном питании.",
+            "es": "La ciencia médica acreditada niega que el ayuno moderado sea perjudicial para personas sanas, confirmando su papel en aliviar el sistema digestivo y mejorar el metabolismo.\n\nEl ayuno contribuye a la renovación celular y la regulación de niveles de azúcar y lípidos en sangre, reduciendo riesgos de enfermedades crónicas con nutrición balanceada.",
+            "uk": "Авторитетна медицина заперечує шкоду помірного посту для здорових людей, підтверджуючи його роль у розвантаженні травної системи та поліпшенні обміну речовин.\n\nПіст сприяє клітинному оновленню та регуляції рівня цукру і ліпідів у крові, знижуючи ризики хронічних захворювань при збалансованому харчуванні."
+          }
+        },
+        {
+          "id": "legal_concessions",
+          "heading": {
+            "ar": "الرخص الشرعية لمراعاة الصحة",
+            "en": "Legal Concessions Safeguarding Health",
+            "ru": "Шариатские облегчения для сохранения здоровья",
+            "es": "Concesiones legales para salvaguardar la salud",
+            "uk": "Шаріатські полегшення для збереження здоров'я"
+          },
+          "body": {
+            "ar": "أباحت الشريعة الإسلامية الفطر للمريض والمسافر دفعاً للمشقة والضرر، كما جاء في قوله تعالى ﴿فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ﴾ سورة البقرة: ١٨٤.\n\nوتؤكد هذه الرخص على قاعدة رفع الحرج في الدين، وأن حفظ النفس والمحافظة على الصحة البدنية من المقاصد الكلية للشريعة الإسلامية.",
+            "en": "Islamic law granted permission to break fast for the sick and traveler to prevent hardship and harm, as stated in Surah Al-Baqarah: 184.\n\nThese concessions emphasize the principle of removing hardship in religion, proving that preserving life and physical health are higher objectives of Islamic law.",
+            "ru": "Шариат разрешил разговение больным и путешественникам для предотвращения вреда, как сказано в суре Аль-Бакара: 184.\n\nЭти облегчения подчеркивают принцип устранения затруднений в религии и доказательство того, что сохранение здоровья является высшей целью шариата.",
+            "es": "La ley islámica otorgó concesiones para romper el ayuno al enfermo y viajero para evitar dificultades y daños, como se señala en la sura Al-Baqarah: 184.\n\nEstas concesiones enfatizan el principio de eliminar la dificultad en la religión, demostrando que preservar la salud física es un objetivo superior de la ley islámica.",
+            "uk": "Шаріат дозволив розговіння хворим та подорожуючим для запобігання шкоді, як сказано у сурі Аль-Бакара: 184.\n\nЦі полегшення підкреслюють принцип усунення труднощів у релігії та доказ того, що збереження здоров'я є вищою метою шаріату."
+          }
+        },
+        {
+          "id": "close",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "يجمع صيام رمضان بين تحقيق العبودية الخالصة لله تعالى والحفاظ على سلامة البدن، مما يبرز شمول الشريعة الإسلامية ورعايتها لمصالح الإنسان الروحية والمادية.",
+            "en": "Fasting Ramadan combines sincere worship of Allah with physical health preservation, highlighting the comprehensiveness of Islamic law for human well-being.",
+            "ru": "Пост в Рамадан сочетает искреннее служение Аллаху с сохранением физического здоровья, подчеркивая всеобъемлющий характер исламского шариата.",
+            "es": "El ayuno de Ramadán combina la adoración sincera a Dios con la preservación de la salud física, destacando la integralidad de la ley islámica.",
+            "uk": "Піст у Рамадан поєднує щире служіння Аллаху із збереженням фізичного здоров'я, підкреслюючи всеохоплюючий характер ісламського шаріату."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "زاد المعاد في هدي خير العباد",
+          "en": "Zād al-Maʿād fī Hady Khayr al-ʿIbād",
+          "ru": "«Зад аль-Ма‘ад»",
+          "es": "Zād al-Maʿād fī Hady Khayr al-ʿIbād",
+          "uk": "«Зад аль-Ма‘ад»"
         }
       ]
     }

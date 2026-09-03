@@ -4,11 +4,11 @@
  "bookId": "sawm",
  "seq": 1,
  "chapter": {
-  "ar": "باب صيام رمضان",
-  "en": "Chapter on Fasting Ramadan",
-  "ru": "Раздел о посте в Рамадан",
-  "es": "Capítulo sobre el ayuno de Ramadán",
-  "uk": "Розділ про піст у Рамадан"
+  "ar": "وجوب الصيام ورؤية الهلال",
+  "en": "The Obligation of Fasting and Sighting the Crescent",
+  "ru": "Обязательность поста и наблюдение полумесяца",
+  "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+  "uk": "Обов'язковість посту та спостереження півмісяця"
  },
  "title": {
   "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
