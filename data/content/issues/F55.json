@@ -1,0 +1,157 @@
+{
+ "ref": "F55",
+ "id": "sawm-6",
+ "bookId": "sawm",
+ "seq": 2,
+ "chapter": {
+  "ar": "أركان الصيام وشروطه",
+  "en": "The Pillars and Conditions of Fasting",
+  "ru": "Столпы и условия поста",
+  "es": "Los pilares y condiciones del ayuno",
+  "uk": "Стовпи та умови посту"
+ },
+ "title": {
+  "ar": "حكم الاكتفاء بنية واحدة لجميع شهر رمضان",
+  "en": "Ruling on Sufficiency of a Single Intention for the Entire Month of Ramadan",
+  "ru": "Постановление о достаточности одного намерения на весь месяц Рамадан",
+  "es": "Norma sobre la suficiencia de una sola intención para todo el mes de Ramadán",
+  "uk": "Постанова про достатність одного наміру на весь місяць Рамадан"
+ },
+ "summary": {
+  "ar": "هل تجزئ نية واحدة في أول ليلة من رمضان عن صيام الشهر كله أم يجب تبييت النية لكل يوم؟",
+  "en": "Does a single intention on the first night of Ramadan suffice for fasting the entire month, or is nightly intention required for each day?",
+  "ru": "Достаточно ли одного намерения в первую ночь Рамадана на весь пост месяца, или обязательно ночное намерение на каждый день?",
+  "es": "¿Basta con una sola intención en la primera noche de Ramadán para todo el mes, o se requiere la intención nocturna para cada día?",
+  "uk": "Чи достатньо одного наміру в першу ніч Рамадану на весь піст місяця, чи обов'язковий нічний намір на кожен день?"
+ },
+ "rulings": {
+  "hanafi": {
+   "text": {
+    "ar": "لا تجزئ نية واحدة في أول الشهر عن جميعه، بل تشترط النية لكل يوم من رمضان، غير أنه يصح أداؤها في النهار قبل الضحوة الكبرى ولا يشترط تبييتها من الليل.",
+    "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-day.",
+    "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днем до зенита.",
+    "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes del mediodía.",
+    "uk": "Одного наміру на початку місяця недостатньо для всього посту; потрібен намір на кожен день, хоча він дійсний і вдень до зеніту."
+   },
+   "sources": [
+    {
+     "ar": "الهداية",
+     "en": "Al-Hidāyah",
+     "ru": "«Аль-Хидая»",
+     "es": "Al-Hidāyah",
+     "uk": "«Аль-Хідая»"
+    },
+    {
+     "ar": "رد المحتار",
+     "en": "Radd al-Muḥtār",
+     "ru": "«Радд аль-Мухтар»",
+     "es": "Radd al-Muḥtār",
+     "uk": "«Радд аль-Мухтар»"
+    },
+    {
+     "ar": "تبيين الحقائق",
+     "en": "Tabyīn al-Ḥaqāʾiq",
+     "ru": "«Табйин аль-Хакаик»",
+     "es": "Tabyīn al-Ḥaqāʾiq",
+     "uk": "«Табйін аль-Хакаїк»"
+    }
+   ]
+  },
+  "maliki": {
+   "text": {
+    "ar": "تكفي نية واحدة في أول ليلة من رمضان لصيام الشهر كله، ولا يجب تجديد النية لكل ليلة، إلا إذا انقطع التتابع بمرض أو سفر فيلزم تجديدها.",
+    "en": "A single intention on the first night of Ramadan suffices for fasting the entire month, and renewing the intention each night is not obligatory unless continuity is interrupted by illness or travel.",
+    "ru": "Одного намерения в первую ночь Рамадана достаточно для поста всего месяца, и возобновление намерения каждую ночь не обязательно, если непрерывность не была прервана болезнью или путешествием.",
+    "es": "Una sola intención en la primera noche de Ramadán basta para todo el mes, y no es obligatorio renovarla cada noche a menos que la continuidad se interrumpa por enfermedad o viaje.",
+    "uk": "Одного наміру в першу ніч Рамадану достатньо для посту всього місяця, і поновлення наміру щоночі не є обов'язковим, якщо безперервність не була перервана хворобою чи подорожжю."
+   },
+   "sources": [
+    {
+     "ar": "المدونة",
+     "en": "Al-Mudawwanah",
+     "ru": "«Аль-Мудаввана»",
+     "es": "Al-Mudawwanah",
+     "uk": "«Аль-Мудаввана»"
+    },
+    {
+     "ar": "الشرح الكبير",
+     "en": "Al-Sharḥ al-Kabīr",
+     "ru": "«Аш-Шарх аль-Кабир»",
+     "es": "Al-Sharḥ al-Kabīr",
+     "uk": "«Аш-Шарх аль-Кабір»"
+    },
+    {
+     "ar": "مواهب الجليل",
+     "en": "Mawāhib al-Jalīl",
+     "ru": "«Мавахиб аль-Джалиль»",
+     "es": "Mawāhib al-Jalīl",
+     "uk": "«Мавагіб аль-Джаліль»"
+    }
+   ]
+  },
+  "shafii": {
+   "text": {
+    "ar": "لا يكتفي الشافعية بنية واحدة لجميع الشهر، بل يشترط تعيين النية وتبييتها من الليل لكل يوم مستقل برأسه.",
+    "en": "Shafi'is do not suffice with a single intention for the entire month; rather, specifying and nightly forming the intention for each independent day is required.",
+    "ru": "Шафииты не ограничиваются одним намерением на весь месяц, а требуют конкретизации и ночного намерения на каждый отдельный день.",
+    "es": "Los shafiíes no se conforman con una sola intención para todo el mes, sino que se requiere especificar y formar la intención desde la noche para cada día independiente.",
+    "uk": "Шафіїти не обмежуються одним наміром на весь місяць, а вимагають конкретизації та нічного наміру на кожен окремий день."
+   },
+   "sources": [
+    {
+     "ar": "الأم",
+     "en": "Al-Umm",
+     "ru": "«Аль-Умм»",
+     "es": "Al-Umm",
+     "uk": "«Аль-Умм»"
+    },
+    {
+     "ar": "منهاج الطالبين",
+     "en": "Minhāj al-Ṭālibīn",
+     "ru": "«Минхадж ат-Талибин»",
+     "es": "Minhāj al-Ṭālibīn",
+     "uk": "«Мінхадж ат-Талібін»"
+    },
+    {
+     "ar": "المجموع",
+     "en": "Al-Majmūʿ",
+     "ru": "«Аль-Маджму»",
+     "es": "Al-Majmūʿ",
+     "uk": "«Аль-Маджму»"
+    }
+   ]
+  },
+  "hanbali": {
+   "text": {
+    "ar": "لا تجزئ نية واحدة في أول رمضان عن صيام الشهر كله، بل يجب تبييت النية لكل يوم على حدة قبل طلوع الفجر.",
+    "en": "A single intention at the beginning of Ramadan does not suffice for the whole month; rather, forming the intention separately for each day before the break of dawn is obligatory.",
+    "ru": "Одного намерения в начале Рамадана недостаточно для всего месяца, обязательно ночное намерение на каждый день отдельно до наступления рассвета.",
+    "es": "Una sola intención al principio de Ramadán no basta para todo el mes; más bien, es obligatorio formar la intención por separado para cada día antes del alba.",
+    "uk": "Одного наміру на початку Рамадану недостатньо для всього місяця, обов'язковий нічний намір на кожен день окремо до настання світанку."
+   },
+   "sources": [
+    {
+     "ar": "المغني",
+     "en": "Al-Mughnī",
+     "ru": "«Аль-Мугни»",
+     "es": "Al-Mughnī",
+     "uk": "«Аль-Мугні»"
+    },
+    {
+     "ar": "الكافي",
+     "en": "Al-Kāfī",
+     "ru": "«Аль-Кафи»",
+     "es": "Al-Kāfī",
+     "uk": "«Аль-Кафі»"
+    },
+    {
+     "ar": "كشاف القناع",
+     "en": "Kashshāf al-Qināʿ",
+     "ru": "«Кашшаф аль-Кина»",
+     "es": "Kashshāf al-Qināʿ",
+     "uk": "«Кашшаф аль-Кіна»"
+    }
+   ]
+  }
+ }
+}

@@ -1,2084 +1,2399 @@
 {
-  "languages": [
-    {
-      "key": "ar",
-      "short": "AR",
-      "label": "العربية",
-      "flag": "🇸🇦",
-      "flagCode": "sa"
-    },
-    {
-      "key": "en",
-      "short": "EN",
-      "label": "English",
-      "flag": "🇬🇧",
-      "flagCode": "gb"
-    },
-    {
-      "key": "ru",
-      "short": "RU",
-      "label": "Русский",
-      "flag": "🇷🇺",
-      "flagCode": "ru"
-    },
-    {
-      "key": "es",
-      "short": "ES",
-      "label": "Español",
-      "flag": "🇪🇸",
-      "flagCode": "es",
-      "pending": true
-    },
-    {
-      "key": "uk",
-      "short": "UK",
-      "label": "Українська",
-      "flag": "🇺🇦",
-      "flagCode": "ua",
-      "pending": true
-    }
-  ],
-  "ui": {
-    "academicMode": {
-      "ar": "أكاديمي",
-      "en": "Academic",
-      "ru": "Академический"
-    },
-    "allSchools": {
-      "ar": "جميع المذاهب",
-      "en": "All schools",
-      "ru": "Все мазхабы"
-    },
-    "appSubtitle": {
-      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة",
-      "en": "Islam from its own sources — law, creed, and history",
-      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание",
-      "es": "El islam desde sus propias fuentes: fiqh, credo e historia",
-      "uk": "Іслам з його власних джерел: фікг, віровчення та життєпис"
-    },
-    "appTitle": {
-      "ar": "تبيان",
-      "en": "Tibyān",
-      "ru": "Тибьян",
-      "es": "Tibyán"
-    },
-    "apply": {
-      "ar": "تطبيق",
-      "en": "Apply",
-      "ru": "Применить"
-    },
-    "aqidahSection": {
-      "ar": "العقيدة والبراهين",
-      "en": "Creed & Proofs",
-      "ru": "Вероучение и доводы"
-    },
-    "aqidahSectionDesc": {
-      "ar": "أدلة عقلية في وجود الخالق ووحدانيته والنبوة",
-      "en": "Rational proofs on the Creator, His oneness, and prophethood",
-      "ru": "Рациональные доводы о Творце, Его единственности и пророчестве"
-    },
-    "articlesCount": {
-      "ar": "مقالة",
-      "en": "articles",
-      "ru": "статей"
-    },
-    "articlesSection": {
-      "ar": "مقالات",
-      "en": "Articles",
-      "ru": "Статьи"
-    },
-    "articlesSectionDesc": {
-      "ar": "قراءات موسّعة في العقيدة وتاريخ الرسالات",
-      "en": "Long-form readings on creed and the history of revelation",
-      "ru": "Развёрнутые чтения о вероучении и истории откровения"
-    },
-    "back": {
-      "ar": "رجوع",
-      "en": "Back",
-      "ru": "Назад"
-    },
-    "bookmark": {
-      "ar": "حفظ",
-      "en": "Bookmark",
-      "ru": "Закладка"
-    },
-    "bookmarked": {
-      "ar": "محفوظ",
-      "en": "Saved",
-      "ru": "Сохранено"
-    },
-    "browseMode": {
-      "ar": "طريقة العرض",
-      "en": "Browse mode",
-      "ru": "Режим просмотра"
-    },
-    "cancel": {
-      "ar": "إلغاء",
-      "en": "Cancel",
-      "ru": "Отмена"
-    },
-    "changeCountry": {
-      "ar": "تغيير البلد",
-      "en": "Change country",
-      "ru": "Изменить страну"
-    },
-    "chapter": {
-      "ar": "باب",
-      "en": "Chapter",
-      "ru": "Раздел"
-    },
-    "chooseCountry": {
-      "ar": "اختر بلدك",
-      "en": "Choose your country",
-      "ru": "Выберите вашу страну"
-    },
-    "chooseCountryDesc": {
-      "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
-      "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
-      "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент."
-    },
-    "chooseLanguage": {
-      "ar": "اختر لغتك",
-      "en": "Choose your language",
-      "ru": "Выберите ваш язык"
-    },
-    "chooseLanguageDesc": {
-      "ar": "حدد لغة الواجهة للمتابعة.",
-      "en": "Select the interface language to continue.",
-      "ru": "Выберите язык интерфейса, чтобы продолжить."
-    },
-    "chooseSchool": {
-      "ar": "اختر المذهب",
-      "en": "Choose School",
-      "ru": "Выбрать мазхаб"
-    },
-    "clearSearch": {
-      "ar": "مسح البحث",
-      "en": "Clear search",
-      "ru": "Очистить поиск"
-    },
-    "close": {
-      "ar": "إغلاق",
-      "en": "Close",
-      "ru": "Закрыть"
-    },
-    "comparing": {
-      "ar": "مقارنة بين",
-      "en": "Comparing",
-      "ru": "Сравнение"
-    },
-    "comparison": {
-      "ar": "المقارنة",
-      "en": "Comparison",
-      "ru": "Сравнение"
-    },
-    "conclusion": {
-      "ar": "الخلاصة العقلية",
-      "en": "Rational conclusion",
-      "ru": "Рациональный вывод"
-    },
-    "contents": {
-      "ar": "المحتويات",
-      "en": "Contents",
-      "ru": "Содержание"
-    },
-    "copied": {
-      "ar": "تم النسخ",
-      "en": "Copied",
-      "ru": "Скопировано"
-    },
-    "copyCitation": {
-      "ar": "نسخ الاقتباس",
-      "en": "Copy citation",
-      "ru": "Копировать цитату"
-    },
-    "copyLink": {
-      "ar": "نسخ الرابط",
-      "en": "Copy link",
-      "ru": "Копировать ссылку"
-    },
-    "countryNote": {
-      "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
-      "en": "This mapping is a display default only; it does not bind anyone to a school.",
-      "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу."
-    },
-    "deepDive": {
-      "ar": "قراءة موسّعة",
-      "en": "Deep dive",
-      "ru": "Подробнее"
-    },
-    "downloadImage": {
-      "ar": "تحميل الصورة",
-      "en": "Download image",
-      "ru": "Скачать изображение"
-    },
-    "dualComparison": {
-      "ar": "مقارنة ثنائية",
-      "en": "Dual comparison",
-      "ru": "Двойное сравнение"
-    },
-    "dualComparisonDesc": {
-      "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
-      "en": "Pick two schools to compare side by side",
-      "ru": "Выберите два мазхаба для сравнения"
-    },
-    "essentialTakeaway": {
-      "ar": "الخلاصة العملية",
-      "en": "Essential takeaway",
-      "ru": "Главное"
-    },
-    "faqSubtitle": {
-      "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
-      "en": "Clear answers to what explorers and new Muslims ask most.",
-      "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
-    },
-    "faqTitle": {
-      "ar": "أسئلة ومفاهيم شائعة",
-      "en": "Questions & misconceptions",
-      "ru": "Вопросы и заблуждения"
-    },
-    "filtering": {
-      "ar": "العرض الحالي",
-      "en": "Viewing",
-      "ru": "Просмотр"
-    },
-    "fiqhSection": {
-      "ar": "الفقه والأحكام",
-      "en": "Fiqh & Rulings",
-      "ru": "Фикх и постановления"
-    },
-    "fiqhSectionDesc": {
-      "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
-      "en": "Each of the four schools' rulings with its sources",
-      "ru": "Постановления каждого из четырёх мазхабов с источниками"
-    },
-    "footer": {
-      "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
-      "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
-      "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ."
-    },
-    "glossaryHint": {
-      "ar": "اضغط لعرض المعنى",
-      "en": "Tap to see the meaning",
-      "ru": "Нажмите, чтобы увидеть значение"
-    },
-    "homeIntentAqidah": {
-      "ar": "لماذا أؤمن أصلاً؟",
-      "en": "Why believe in the first place?",
-      "ru": "Почему вообще верить?"
-    },
-    "homeIntentAqidahDesc": {
-      "ar": "أدلة عقلية تبدأ من مقدمات يمكن مناقشتها، لا من التسليم.",
-      "en": "Rational proofs that begin from premises open to debate, not from assent.",
-      "ru": "Рациональные доводы, исходящие из обсуждаемых посылок, а не из согласия."
-    },
-    "homeIntentArticles": {
-      "ar": "لماذا يختلف الفقهاء؟",
-      "en": "Why do jurists differ?",
-      "ru": "Почему правоведы расходятся?"
-    },
-    "homeIntentArticlesDesc": {
-      "ar": "قراءات متّصلة تشرح الخلاف وتاريخ الرسالات قبل الدخول في التفاصيل.",
-      "en": "Continuous readings on why they differ and on the history of revelation, before the details.",
-      "ru": "Связные тексты о причинах расхождений и истории посланий — до деталей."
-    },
-    "homeIntentFiqh": {
-      "ar": "أريد حكم مسألة",
-      "en": "I want the ruling on a question",
-      "ru": "Мне нужно решение по вопросу"
-    },
-    "homeIntentFiqhDesc": {
-      "ar": "حكم كل مذهب من الأربعة في مسألة واحدة، جنباً إلى جنب، مع مراجعه.",
-      "en": "Each of the four schools on one question, side by side, with its sources.",
-      "ru": "Каждый из четырёх мазхабов по одному вопросу, рядом, с источниками."
-    },
-    "homeIntentLearn": {
-      "ar": "أسلمتُ حديثاً وأريد أن أتعلّم",
-      "en": "I am new to Islam and want to learn",
-      "ru": "Я недавно принял ислам и хочу учиться"
-    },
-    "homeIntentLearnDesc": {
-      "ar": "صفة الوضوء والصلاة خطوةً خطوة، وأسئلة شائعة، ومعاني المصطلحات.",
-      "en": "Wudu and prayer step by step, common questions, and the meaning of the terms.",
-      "ru": "Омовение и молитва шаг за шагом, частые вопросы и значения терминов."
-    },
-    "homeLede": {
-      "ar": "موسوعة تعرض المعتمد عند المذاهب الأربعة بمصادره، وأدلة العقيدة، ودليلاً عملياً للعبادة.",
-      "en": "An encyclopedia presenting the settled position of the four schools with its sources, the proofs of creed, and a practical guide to worship.",
-      "ru": "Энциклопедия, излагающая утверждённые позиции четырёх мазхабов с источниками, доводы вероучения и практическое руководство по поклонению."
-    },
-    "homeNotBody": {
-      "ar": "ليس دار إفتاء. يعرض ما استقرّ عليه كل مذهب، ولا يعطيك حكماً في حالتك الخاصة. وللنازلة الخاصة يُسأل عالم.",
-      "en": "It is not a fatwa service. It presents what each school settled upon; it does not rule on your particular case. For that, ask a scholar.",
-      "ru": "Это не служба фетв. Сайт излагает утверждённое в каждом мазхабе и не выносит решения по вашему частному случаю. Для этого спросите учёного."
-    },
-    "homeNotTitle": {
-      "ar": "ما ليس هذا الموقع",
-      "en": "What this site is not",
-      "ru": "Чем этот сайт не является"
-    },
-    "homeSection": {
-      "ar": "الرئيسية",
-      "en": "Home",
-      "ru": "Главная"
-    },
-    "homeSectionDesc": {
-      "ar": "نبذة عن الموقع وأين تبدأ",
-      "en": "What this site is and where to start",
-      "ru": "О сайте и с чего начать"
-    },
-    "homeStartBrowsing": {
-      "ar": "تصفّح المسائل",
-      "en": "Browse the questions",
-      "ru": "Смотреть вопросы"
-    },
-    "homeWhereDesc": {
-      "ar": "اختر ما يشبه حالك.",
-      "en": "Pick whichever fits you.",
-      "ru": "Выберите то, что вам ближе."
-    },
-    "homeWhereTitle": {
-      "ar": "أين تبدأ؟",
-      "en": "Where to start",
-      "ru": "С чего начать"
-    },
-    "homeWhyCountryBody": {
-      "ar": "لأن لكل بلد مذهباً غالباً يُفتى به فيه، فنعرض لك قوله أولاً لتعرف ما عليه من حولك. ولا يلزمك اختيار بلد، ولا يمنعك الاختيارُ من رؤية المذاهب الأربعة كلها متى شئت.",
-      "en": "Because each country has a prevailing school, we show you its position first so you know what those around you follow. You need not pick a country, and picking one never hides the other three.",
-      "ru": "В каждой стране есть преобладающий мазхаб, и мы показываем его позицию первой, чтобы вы знали, чему следуют вокруг вас. Выбирать страну необязательно, и выбор никогда не скрывает остальные три."
-    },
-    "homeWhyCountryTitle": {
-      "ar": "لماذا نسألك عن بلدك؟",
-      "en": "Why do we ask for your country?",
-      "ru": "Почему мы спрашиваем вашу страну?"
-    },
-    "introduction": {
-      "ar": "مقدمة",
-      "en": "Introduction",
-      "ru": "Введение"
-    },
-    "issue": {
-      "ar": "مسألة",
-      "en": "Issue",
-      "ru": "Вопрос"
-    },
-    "issuesCount": {
-      "ar": "مسألة",
-      "en": "issues",
-      "ru": "вопросов"
-    },
-    "language": {
-      "ar": "اللغة",
-      "en": "Language",
-      "ru": "Язык"
-    },
-    "learnSection": {
-      "ar": "الدليل العملي",
-      "en": "Practical Guide",
-      "ru": "Практическое руководство"
-    },
-    "learnSectionDesc": {
-      "ar": "خطوات عملية وأسئلة شائعة لكل من أراد التعلّم.",
-      "en": "Practical steps and common questions for anyone wanting to learn.",
-      "ru": "Практические шаги и частые вопросы для всех, кто хочет учиться."
-    },
-    "linkCopied": {
-      "ar": "نُسخ الرابط",
-      "en": "Link copied",
-      "ru": "Ссылка скопирована"
-    },
-    "listen": {
-      "ar": "استماع",
-      "en": "Listen",
-      "ru": "Прослушать"
-    },
-    "minRead": {
-      "ar": "دقيقة قراءة",
-      "en": "min read",
-      "ru": "мин чтения"
-    },
-    "noCountryMatch": {
-      "ar": "لا توجد نتائج",
-      "en": "No matches",
-      "ru": "Совпадений нет"
-    },
-    "noIssues": {
-      "ar": "لا توجد مسائل في هذا الباب بعد.",
-      "en": "No issues in this section yet.",
-      "ru": "В этом разделе пока нет вопросов."
-    },
-    "noResults": {
-      "ar": "لا توجد نتائج مطابقة لبحثك.",
-      "en": "No results match your search.",
-      "ru": "Нет результатов по вашему запросу."
-    },
-    "noSaved": {
-      "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
-      "en": "No saved issues yet. Tap the bookmark icon on any issue.",
-      "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса."
-    },
-    "openProof": {
-      "ar": "عرض الدليل",
-      "en": "View proof",
-      "ru": "Смотреть довод"
-    },
-    "pickSchoolForCountry": {
-      "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
-      "en": "Your country follows more than one school — choose what suits you",
-      "ru": "В вашей стране несколько мазхабов — выберите подходящий"
-    },
-    "practicalGuides": {
-      "ar": "أدلة عملية",
-      "en": "Practical guides",
-      "ru": "Практические руководства"
-    },
-    "premises": {
-      "ar": "المقدمات المنطقية",
-      "en": "Logical premises",
-      "ru": "Логические посылки"
-    },
-    "preparingImage": {
-      "ar": "جارٍ التحضير…",
-      "en": "Preparing…",
-      "ru": "Подготовка…"
-    },
-    "proofsCount": {
-      "ar": "دليل عقلي",
-      "en": "rational proofs",
-      "ru": "доказательств"
-    },
-    "quickView": {
-      "ar": "عرض سريع",
-      "en": "Quick view",
-      "ru": "Быстрый просмотр"
-    },
-    "quranProof": {
-      "ar": "الدليل القرآني",
-      "en": "Quranic proof",
-      "ru": "Коранические доводы"
-    },
-    "readArticle": {
-      "ar": "قراءة المقالة",
-      "en": "Read article",
-      "ru": "Читать статью"
-    },
-    "refHint": {
-      "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
-      "en": "Permanent reference number — shareable and stable",
-      "ru": "Постоянный ссылочный номер — можно делиться и возвращаться"
-    },
-    "reference": {
-      "ar": "المرجع",
-      "en": "Reference",
-      "ru": "Источник"
-    },
-    "relatedProofs": {
-      "ar": "أدلة ذات صلة",
-      "en": "Related proofs",
-      "ru": "Связанные доводы"
-    },
-    "resetView": {
-      "ar": "إعادة الضبط",
-      "en": "Reset",
-      "ru": "Сбросить"
-    },
-    "ruling": {
-      "ar": "الحكم",
-      "en": "Ruling",
-      "ru": "Заключение"
-    },
-    "savedItems": {
-      "ar": "المحفوظات",
-      "en": "Saved",
-      "ru": "Сохранённые"
-    },
-    "searchCountry": {
-      "ar": "ابحث عن بلد",
-      "en": "Search for a country",
-      "ru": "Поиск страны"
-    },
-    "searchPlaceholder": {
-      "ar": "ابحث في المسائل والمذاهب والأبواب…",
-      "en": "Search issues, schools, and books…",
-      "ru": "Поиск по вопросам, мазхабам и разделам…"
-    },
-    "searchResults": {
-      "ar": "نتيجة",
-      "en": "results",
-      "ru": "результатов"
-    },
-    "sections": {
-      "ar": "الأقسام",
-      "en": "Sections",
-      "ru": "Разделы"
-    },
-    "selectTwoSchools": {
-      "ar": "اختر مذهبين للمقارنة",
-      "en": "Select two schools to compare",
-      "ru": "Выберите два мазхаба для сравнения"
-    },
-    "share": {
-      "ar": "مشاركة",
-      "en": "Share",
-      "ru": "Поделиться"
-    },
-    "shareCard": {
-      "ar": "بطاقة للمشاركة",
-      "en": "Share card",
-      "ru": "Карточка для публикации"
-    },
-    "shareCardDesc": {
-      "ar": "احفظ صورة أنيقة جاهزة للنشر على وسائل التواصل.",
-      "en": "Save a polished image ready to post on social media.",
-      "ru": "Сохраните аккуратное изображение для публикации в соцсетях."
-    },
-    "showAllSchools": {
-      "ar": "عرض جميع المذاهب",
-      "en": "Show all schools",
-      "ru": "Показать все мазхабы"
-    },
-    "showAllSchoolsDesc": {
-      "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
-      "en": "Display all four schools side by side",
-      "ru": "Показать все четыре мазхаба рядом"
-    },
-    "simplifiedMode": {
-      "ar": "مبسّط",
-      "en": "Simplified",
-      "ru": "Упрощённый"
-    },
-    "singleSchool": {
-      "ar": "مذهب واحد",
-      "en": "Single school",
-      "ru": "Один мазхаб"
-    },
-    "singleSchoolDesc": {
-      "ar": "تصفية العرض على مذهب واحد فقط",
-      "en": "Filter the view to a single school",
-      "ru": "Отфильтровать по одному мазхабу"
-    },
-    "skipCountry": {
-      "ar": "تخطّي — أعرض كل المذاهب",
-      "en": "Skip — show all schools",
-      "ru": "Пропустить — показать все мазхабы"
-    },
-    "stepLabel": {
-      "ar": "الخطوة",
-      "en": "Step",
-      "ru": "Шаг"
-    },
-    "stepOf": {
-      "ar": "الخطوة",
-      "en": "Step",
-      "ru": "Шаг"
-    },
-    "stepsLabel": {
-      "ar": "خطوة",
-      "en": "steps",
-      "ru": "шагов"
-    },
-    "stopListen": {
-      "ar": "إيقاف",
-      "en": "Stop",
-      "ru": "Стоп"
-    },
-    "theme": {
-      "ar": "المظهر",
-      "en": "Theme",
-      "ru": "Тема"
-    },
-    "viewMode": {
-      "ar": "نمط العرض",
-      "en": "View mode",
-      "ru": "Режим отображения"
-    },
-    "welcomeDesc": {
-      "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
-      "en": "Choose a view to begin — you can change it anytime.",
-      "ru": "Выберите режим просмотра — его можно изменить в любой момент."
-    },
-    "welcomeTitle": {
-      "ar": "كيف تريد تصفح المذاهب؟",
-      "en": "How would you like to browse the schools?",
-      "ru": "Как вы хотите просматривать мазхабы?"
-    },
-    "glossarySection": {
-      "ar": "المفردات",
-      "en": "Glossary",
-      "ru": "Словарь",
-      "es": "Glosario"
-    },
-    "glossarySectionDesc": {
-      "ar": "تعريف المصطلحات الفقهية لغةً واصطلاحاً وشرعاً",
-      "en": "Fiqh terms defined linguistically, technically, and in the Sharia",
-      "ru": "Фикховские термины: языковое, терминологическое и шариатское значение",
-      "es": "Términos de fiqh definidos lingüística, técnica y legalmente"
-    },
-    "glossaryLinguistic": {
-      "ar": "لغةً",
-      "en": "Linguistically",
-      "ru": "В языке",
-      "es": "Lingüísticamente"
-    },
-    "glossaryTechnical": {
-      "ar": "اصطلاحاً",
-      "en": "Technically",
-      "ru": "В терминологии",
-      "es": "Técnicamente"
-    },
-    "glossaryLegal": {
-      "ar": "شرعاً",
-      "en": "In the Sharia",
-      "ru": "В шариате",
-      "es": "En la Sharía"
-    },
-    "glossaryGeneral": {
-      "ar": "تعريف موجز",
-      "en": "Brief definition",
-      "ru": "Краткое определение",
-      "es": "Definición breve"
-    },
-    "glossaryOpen": {
-      "ar": "فتح في المفردات",
-      "en": "Open in glossary",
-      "ru": "Открыть в словаре",
-      "es": "Abrir en el glosario"
-    },
-    "glossarySearch": {
-      "ar": "ابحث في المفردات…",
-      "en": "Search terms…",
-      "ru": "Поиск по словарю…",
-      "es": "Buscar términos…"
-    },
-    "glossaryEmpty": {
-      "ar": "لا توجد مفردة مطابقة",
-      "en": "No matching term",
-      "ru": "Совпадений не найдено",
-      "es": "No hay términos coincidentes"
-    },
-    "glossaryCount": {
-      "ar": "مفردة",
-      "en": "terms",
-      "ru": "терминов",
-      "es": "términos"
-    },
-    "glossaryPending": {
-      "ar": "التعريف المفصّل قيد الإضافة",
-      "en": "The detailed definition is being added",
-      "ru": "Подробное определение готовится",
-      "es": "La definición detallada se está añadiendo"
-    },
-    "searchAllBooks": {
-      "ar": "البحث في كل الأبواب",
-      "en": "Searching every chapter",
-      "ru": "Поиск по всем разделам",
-      "es": "Buscando en todos los capítulos"
-    },
-    "searchOther": {
-      "ar": "نتائج في أقسام أخرى",
-      "en": "Results in other sections",
-      "ru": "Результаты в других разделах",
-      "es": "Resultados en otras secciones"
-    },
-    "comingSoon": {
-      "ar": "قريباً",
-      "en": "Soon",
-      "ru": "Скоро",
-      "es": "Pronto"
-    },
-    "betaTag": {
-      "ar": "تجريبي",
-      "en": "Beta",
-      "ru": "Бета",
-      "es": "Beta"
-    },
-    "betaNote": {
-      "ar": "الموقع قيد الإعداد والمحتوى يُراجَع",
-      "en": "The site is in progress and its content is under review",
-      "ru": "Сайт в разработке, содержание проверяется",
-      "es": "El sitio está en desarrollo y su contenido en revisión"
-    },
-    "references": {
-      "ar": "المراجع",
-      "en": "References",
-      "ru": "Источники",
-      "es": "Fuentes"
-    },
-    "readVerse": {
-      "ar": "اقرأ الآية بلغتك",
-      "en": "Read this verse in your language",
-      "ru": "Читать этот аят на вашем языке",
-      "es": "Leer esta aleya en tu idioma"
-    }
+ "languages": [
+  {
+   "key": "ar",
+   "short": "AR",
+   "label": "العربية",
+   "flag": "🇸🇦",
+   "flagCode": "sa"
   },
-  "books": [
+  {
+   "key": "en",
+   "short": "EN",
+   "label": "English",
+   "flag": "🇬🇧",
+   "flagCode": "gb"
+  },
+  {
+   "key": "ru",
+   "short": "RU",
+   "label": "Русский",
+   "flag": "🇷🇺",
+   "flagCode": "ru"
+  },
+  {
+   "key": "es",
+   "short": "ES",
+   "label": "Español",
+   "flag": "🇪🇸",
+   "flagCode": "es",
+   "pending": true
+  },
+  {
+   "key": "uk",
+   "short": "UK",
+   "label": "Українська",
+   "flag": "🇺🇦",
+   "flagCode": "ua",
+   "pending": true
+  }
+ ],
+ "ui": {
+  "academicMode": {
+   "ar": "أكاديمي",
+   "en": "Academic",
+   "ru": "Академический"
+  },
+  "allSchools": {
+   "ar": "جميع المذاهب",
+   "en": "All schools",
+   "ru": "Все мазхабы"
+  },
+  "appSubtitle": {
+   "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة",
+   "en": "Islam from its own sources — law, creed, and history",
+   "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание",
+   "es": "El islam desde sus propias fuentes: fiqh, credo e historia",
+   "uk": "Іслам з його власних джерел: фікг, віровчення та життєпис"
+  },
+  "appTitle": {
+   "ar": "تبيان",
+   "en": "Tibyān",
+   "ru": "Тибьян",
+   "es": "Tibyán"
+  },
+  "apply": {
+   "ar": "تطبيق",
+   "en": "Apply",
+   "ru": "Применить"
+  },
+  "aqidahSection": {
+   "ar": "العقيدة والبراهين",
+   "en": "Creed & Proofs",
+   "ru": "Вероучение и доводы"
+  },
+  "aqidahSectionDesc": {
+   "ar": "أدلة عقلية في وجود الخالق ووحدانيته والنبوة",
+   "en": "Rational proofs on the Creator, His oneness, and prophethood",
+   "ru": "Рациональные доводы о Творце, Его единственности и пророчестве"
+  },
+  "articlesCount": {
+   "ar": "مقالة",
+   "en": "articles",
+   "ru": "статей"
+  },
+  "articlesSection": {
+   "ar": "مقالات",
+   "en": "Articles",
+   "ru": "Статьи"
+  },
+  "articlesSectionDesc": {
+   "ar": "قراءات موسّعة في العقيدة وتاريخ الرسالات",
+   "en": "Long-form readings on creed and the history of revelation",
+   "ru": "Развёрнутые чтения о вероучении и истории откровения"
+  },
+  "back": {
+   "ar": "رجوع",
+   "en": "Back",
+   "ru": "Назад"
+  },
+  "bookmark": {
+   "ar": "حفظ",
+   "en": "Bookmark",
+   "ru": "Закладка"
+  },
+  "bookmarked": {
+   "ar": "محفوظ",
+   "en": "Saved",
+   "ru": "Сохранено"
+  },
+  "browseMode": {
+   "ar": "طريقة العرض",
+   "en": "Browse mode",
+   "ru": "Режим просмотра"
+  },
+  "cancel": {
+   "ar": "إلغاء",
+   "en": "Cancel",
+   "ru": "Отмена"
+  },
+  "changeCountry": {
+   "ar": "تغيير البلد",
+   "en": "Change country",
+   "ru": "Изменить страну"
+  },
+  "chapter": {
+   "ar": "باب",
+   "en": "Chapter",
+   "ru": "Раздел"
+  },
+  "chooseCountry": {
+   "ar": "اختر بلدك",
+   "en": "Choose your country",
+   "ru": "Выберите вашу страну"
+  },
+  "chooseCountryDesc": {
+   "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
+   "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
+   "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент."
+  },
+  "chooseLanguage": {
+   "ar": "اختر لغتك",
+   "en": "Choose your language",
+   "ru": "Выберите ваш язык"
+  },
+  "chooseLanguageDesc": {
+   "ar": "حدد لغة الواجهة للمتابعة.",
+   "en": "Select the interface language to continue.",
+   "ru": "Выберите язык интерфейса, чтобы продолжить."
+  },
+  "chooseSchool": {
+   "ar": "اختر المذهب",
+   "en": "Choose School",
+   "ru": "Выбрать мазхаб"
+  },
+  "clearSearch": {
+   "ar": "مسح البحث",
+   "en": "Clear search",
+   "ru": "Очистить поиск"
+  },
+  "close": {
+   "ar": "إغلاق",
+   "en": "Close",
+   "ru": "Закрыть"
+  },
+  "comparing": {
+   "ar": "مقارنة بين",
+   "en": "Comparing",
+   "ru": "Сравнение"
+  },
+  "comparison": {
+   "ar": "المقارنة",
+   "en": "Comparison",
+   "ru": "Сравнение"
+  },
+  "conclusion": {
+   "ar": "الخلاصة العقلية",
+   "en": "Rational conclusion",
+   "ru": "Рациональный вывод"
+  },
+  "contents": {
+   "ar": "المحتويات",
+   "en": "Contents",
+   "ru": "Содержание"
+  },
+  "copied": {
+   "ar": "تم النسخ",
+   "en": "Copied",
+   "ru": "Скопировано"
+  },
+  "copyCitation": {
+   "ar": "نسخ الاقتباس",
+   "en": "Copy citation",
+   "ru": "Копировать цитату"
+  },
+  "copyLink": {
+   "ar": "نسخ الرابط",
+   "en": "Copy link",
+   "ru": "Копировать ссылку"
+  },
+  "countryNote": {
+   "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
+   "en": "This mapping is a display default only; it does not bind anyone to a school.",
+   "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу."
+  },
+  "deepDive": {
+   "ar": "قراءة موسّعة",
+   "en": "Deep dive",
+   "ru": "Подробнее"
+  },
+  "downloadImage": {
+   "ar": "تحميل الصورة",
+   "en": "Download image",
+   "ru": "Скачать изображение"
+  },
+  "dualComparison": {
+   "ar": "مقارنة ثنائية",
+   "en": "Dual comparison",
+   "ru": "Двойное сравнение"
+  },
+  "dualComparisonDesc": {
+   "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
+   "en": "Pick two schools to compare side by side",
+   "ru": "Выберите два мазхаба для сравнения"
+  },
+  "essentialTakeaway": {
+   "ar": "الخلاصة العملية",
+   "en": "Essential takeaway",
+   "ru": "Главное"
+  },
+  "faqSubtitle": {
+   "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
+   "en": "Clear answers to what explorers and new Muslims ask most.",
+   "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых."
+  },
+  "faqTitle": {
+   "ar": "أسئلة ومفاهيم شائعة",
+   "en": "Questions & misconceptions",
+   "ru": "Вопросы и заблуждения"
+  },
+  "filtering": {
+   "ar": "العرض الحالي",
+   "en": "Viewing",
+   "ru": "Просмотр"
+  },
+  "fiqhSection": {
+   "ar": "الفقه والأحكام",
+   "en": "Fiqh & Rulings",
+   "ru": "Фикх и постановления"
+  },
+  "fiqhSectionDesc": {
+   "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
+   "en": "Each of the four schools' rulings with its sources",
+   "ru": "Постановления каждого из четырёх мазхабов с источниками"
+  },
+  "footer": {
+   "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
+   "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
+   "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ."
+  },
+  "glossaryHint": {
+   "ar": "اضغط لعرض المعنى",
+   "en": "Tap to see the meaning",
+   "ru": "Нажмите, чтобы увидеть значение"
+  },
+  "homeIntentAqidah": {
+   "ar": "لماذا أؤمن أصلاً؟",
+   "en": "Why believe in the first place?",
+   "ru": "Почему вообще верить?"
+  },
+  "homeIntentAqidahDesc": {
+   "ar": "أدلة عقلية تبدأ من مقدمات يمكن مناقشتها، لا من التسليم.",
+   "en": "Rational proofs that begin from premises open to debate, not from assent.",
+   "ru": "Рациональные доводы, исходящие из обсуждаемых посылок, а не из согласия."
+  },
+  "homeIntentArticles": {
+   "ar": "لماذا يختلف الفقهاء؟",
+   "en": "Why do jurists differ?",
+   "ru": "Почему правоведы расходятся?"
+  },
+  "homeIntentArticlesDesc": {
+   "ar": "قراءات متّصلة تشرح الخلاف وتاريخ الرسالات قبل الدخول في التفاصيل.",
+   "en": "Continuous readings on why they differ and on the history of revelation, before the details.",
+   "ru": "Связные тексты о причинах расхождений и истории посланий — до деталей."
+  },
+  "homeIntentFiqh": {
+   "ar": "أريد حكم مسألة",
+   "en": "I want the ruling on a question",
+   "ru": "Мне нужно решение по вопросу"
+  },
+  "homeIntentFiqhDesc": {
+   "ar": "حكم كل مذهب من الأربعة في مسألة واحدة، جنباً إلى جنب، مع مراجعه.",
+   "en": "Each of the four schools on one question, side by side, with its sources.",
+   "ru": "Каждый из четырёх мазхабов по одному вопросу, рядом, с источниками."
+  },
+  "homeIntentLearn": {
+   "ar": "أسلمتُ حديثاً وأريد أن أتعلّم",
+   "en": "I am new to Islam and want to learn",
+   "ru": "Я недавно принял ислам и хочу учиться"
+  },
+  "homeIntentLearnDesc": {
+   "ar": "صفة الوضوء والصلاة خطوةً خطوة، وأسئلة شائعة، ومعاني المصطلحات.",
+   "en": "Wudu and prayer step by step, common questions, and the meaning of the terms.",
+   "ru": "Омовение и молитва шаг за шагом, частые вопросы и значения терминов."
+  },
+  "homeLede": {
+   "ar": "موسوعة تعرض المعتمد عند المذاهب الأربعة بمصادره، وأدلة العقيدة، ودليلاً عملياً للعبادة.",
+   "en": "An encyclopedia presenting the settled position of the four schools with its sources, the proofs of creed, and a practical guide to worship.",
+   "ru": "Энциклопедия, излагающая утверждённые позиции четырёх мазхабов с источниками, доводы вероучения и практическое руководство по поклонению."
+  },
+  "homeNotBody": {
+   "ar": "ليس دار إفتاء. يعرض ما استقرّ عليه كل مذهب، ولا يعطيك حكماً في حالتك الخاصة. وللنازلة الخاصة يُسأل عالم.",
+   "en": "It is not a fatwa service. It presents what each school settled upon; it does not rule on your particular case. For that, ask a scholar.",
+   "ru": "Это не служба фетв. Сайт излагает утверждённое в каждом мазхабе и не выносит решения по вашему частному случаю. Для этого спросите учёного."
+  },
+  "homeNotTitle": {
+   "ar": "ما ليس هذا الموقع",
+   "en": "What this site is not",
+   "ru": "Чем этот сайт не является"
+  },
+  "homeSection": {
+   "ar": "الرئيسية",
+   "en": "Home",
+   "ru": "Главная"
+  },
+  "homeSectionDesc": {
+   "ar": "نبذة عن الموقع وأين تبدأ",
+   "en": "What this site is and where to start",
+   "ru": "О сайте и с чего начать"
+  },
+  "homeStartBrowsing": {
+   "ar": "تصفّح المسائل",
+   "en": "Browse the questions",
+   "ru": "Смотреть вопросы"
+  },
+  "homeWhereDesc": {
+   "ar": "اختر ما يشبه حالك.",
+   "en": "Pick whichever fits you.",
+   "ru": "Выберите то, что вам ближе."
+  },
+  "homeWhereTitle": {
+   "ar": "أين تبدأ؟",
+   "en": "Where to start",
+   "ru": "С чего начать"
+  },
+  "homeWhyCountryBody": {
+   "ar": "لأن لكل بلد مذهباً غالباً يُفتى به فيه، فنعرض لك قوله أولاً لتعرف ما عليه من حولك. ولا يلزمك اختيار بلد، ولا يمنعك الاختيارُ من رؤية المذاهب الأربعة كلها متى شئت.",
+   "en": "Because each country has a prevailing school, we show you its position first so you know what those around you follow. You need not pick a country, and picking one never hides the other three.",
+   "ru": "В каждой стране есть преобладающий мазхаб, и мы показываем его позицию первой, чтобы вы знали, чему следуют вокруг вас. Выбирать страну необязательно, и выбор никогда не скрывает остальные три."
+  },
+  "homeWhyCountryTitle": {
+   "ar": "لماذا نسألك عن بلدك؟",
+   "en": "Why do we ask for your country?",
+   "ru": "Почему мы спрашиваем вашу страну?"
+  },
+  "introduction": {
+   "ar": "مقدمة",
+   "en": "Introduction",
+   "ru": "Введение"
+  },
+  "issue": {
+   "ar": "مسألة",
+   "en": "Issue",
+   "ru": "Вопрос"
+  },
+  "issuesCount": {
+   "ar": "مسألة",
+   "en": "issues",
+   "ru": "вопросов"
+  },
+  "language": {
+   "ar": "اللغة",
+   "en": "Language",
+   "ru": "Язык"
+  },
+  "learnSection": {
+   "ar": "الدليل العملي",
+   "en": "Practical Guide",
+   "ru": "Практическое руководство"
+  },
+  "learnSectionDesc": {
+   "ar": "خطوات عملية وأسئلة شائعة لكل من أراد التعلّم.",
+   "en": "Practical steps and common questions for anyone wanting to learn.",
+   "ru": "Практические шаги и частые вопросы для всех, кто хочет учиться."
+  },
+  "linkCopied": {
+   "ar": "نُسخ الرابط",
+   "en": "Link copied",
+   "ru": "Ссылка скопирована"
+  },
+  "listen": {
+   "ar": "استماع",
+   "en": "Listen",
+   "ru": "Прослушать"
+  },
+  "minRead": {
+   "ar": "دقيقة قراءة",
+   "en": "min read",
+   "ru": "мин чтения"
+  },
+  "noCountryMatch": {
+   "ar": "لا توجد نتائج",
+   "en": "No matches",
+   "ru": "Совпадений нет"
+  },
+  "noIssues": {
+   "ar": "لا توجد مسائل في هذا الباب بعد.",
+   "en": "No issues in this section yet.",
+   "ru": "В этом разделе пока нет вопросов."
+  },
+  "noResults": {
+   "ar": "لا توجد نتائج مطابقة لبحثك.",
+   "en": "No results match your search.",
+   "ru": "Нет результатов по вашему запросу."
+  },
+  "noSaved": {
+   "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
+   "en": "No saved issues yet. Tap the bookmark icon on any issue.",
+   "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса."
+  },
+  "openProof": {
+   "ar": "عرض الدليل",
+   "en": "View proof",
+   "ru": "Смотреть довод"
+  },
+  "pickSchoolForCountry": {
+   "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
+   "en": "Your country follows more than one school — choose what suits you",
+   "ru": "В вашей стране несколько мазхабов — выберите подходящий"
+  },
+  "practicalGuides": {
+   "ar": "أدلة عملية",
+   "en": "Practical guides",
+   "ru": "Практические руководства"
+  },
+  "premises": {
+   "ar": "المقدمات المنطقية",
+   "en": "Logical premises",
+   "ru": "Логические посылки"
+  },
+  "preparingImage": {
+   "ar": "جارٍ التحضير…",
+   "en": "Preparing…",
+   "ru": "Подготовка…"
+  },
+  "proofsCount": {
+   "ar": "دليل عقلي",
+   "en": "rational proofs",
+   "ru": "доказательств"
+  },
+  "quickView": {
+   "ar": "عرض سريع",
+   "en": "Quick view",
+   "ru": "Быстрый просмотр"
+  },
+  "quranProof": {
+   "ar": "الدليل القرآني",
+   "en": "Quranic proof",
+   "ru": "Коранические доводы"
+  },
+  "readArticle": {
+   "ar": "قراءة المقالة",
+   "en": "Read article",
+   "ru": "Читать статью"
+  },
+  "refHint": {
+   "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
+   "en": "Permanent reference number — shareable and stable",
+   "ru": "Постоянный ссылочный номер — можно делиться и возвращаться"
+  },
+  "reference": {
+   "ar": "المرجع",
+   "en": "Reference",
+   "ru": "Источник"
+  },
+  "relatedProofs": {
+   "ar": "أدلة ذات صلة",
+   "en": "Related proofs",
+   "ru": "Связанные доводы"
+  },
+  "resetView": {
+   "ar": "إعادة الضبط",
+   "en": "Reset",
+   "ru": "Сбросить"
+  },
+  "ruling": {
+   "ar": "الحكم",
+   "en": "Ruling",
+   "ru": "Заключение"
+  },
+  "savedItems": {
+   "ar": "المحفوظات",
+   "en": "Saved",
+   "ru": "Сохранённые"
+  },
+  "searchCountry": {
+   "ar": "ابحث عن بلد",
+   "en": "Search for a country",
+   "ru": "Поиск страны"
+  },
+  "searchPlaceholder": {
+   "ar": "ابحث في المسائل والمذاهب والأبواب…",
+   "en": "Search issues, schools, and books…",
+   "ru": "Поиск по вопросам, мазхабам и разделам…"
+  },
+  "searchResults": {
+   "ar": "نتيجة",
+   "en": "results",
+   "ru": "результатов"
+  },
+  "sections": {
+   "ar": "الأقسام",
+   "en": "Sections",
+   "ru": "Разделы"
+  },
+  "selectTwoSchools": {
+   "ar": "اختر مذهبين للمقارنة",
+   "en": "Select two schools to compare",
+   "ru": "Выберите два мазхаба для сравнения"
+  },
+  "share": {
+   "ar": "مشاركة",
+   "en": "Share",
+   "ru": "Поделиться"
+  },
+  "shareCard": {
+   "ar": "بطاقة للمشاركة",
+   "en": "Share card",
+   "ru": "Карточка для публикации"
+  },
+  "shareCardDesc": {
+   "ar": "احفظ صورة أنيقة جاهزة للنشر على وسائل التواصل.",
+   "en": "Save a polished image ready to post on social media.",
+   "ru": "Сохраните аккуратное изображение для публикации в соцсетях."
+  },
+  "showAllSchools": {
+   "ar": "عرض جميع المذاهب",
+   "en": "Show all schools",
+   "ru": "Показать все мазхабы"
+  },
+  "showAllSchoolsDesc": {
+   "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
+   "en": "Display all four schools side by side",
+   "ru": "Показать все четыре мазхаба рядом"
+  },
+  "simplifiedMode": {
+   "ar": "مبسّط",
+   "en": "Simplified",
+   "ru": "Упрощённый"
+  },
+  "singleSchool": {
+   "ar": "مذهب واحد",
+   "en": "Single school",
+   "ru": "Один мазхаб"
+  },
+  "singleSchoolDesc": {
+   "ar": "تصفية العرض على مذهب واحد فقط",
+   "en": "Filter the view to a single school",
+   "ru": "Отфильтровать по одному мазхабу"
+  },
+  "skipCountry": {
+   "ar": "تخطّي — أعرض كل المذاهب",
+   "en": "Skip — show all schools",
+   "ru": "Пропустить — показать все мазхабы"
+  },
+  "stepLabel": {
+   "ar": "الخطوة",
+   "en": "Step",
+   "ru": "Шаг"
+  },
+  "stepOf": {
+   "ar": "الخطوة",
+   "en": "Step",
+   "ru": "Шаг"
+  },
+  "stepsLabel": {
+   "ar": "خطوة",
+   "en": "steps",
+   "ru": "шагов"
+  },
+  "stopListen": {
+   "ar": "إيقاف",
+   "en": "Stop",
+   "ru": "Стоп"
+  },
+  "theme": {
+   "ar": "المظهر",
+   "en": "Theme",
+   "ru": "Тема"
+  },
+  "viewMode": {
+   "ar": "نمط العرض",
+   "en": "View mode",
+   "ru": "Режим отображения"
+  },
+  "welcomeDesc": {
+   "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
+   "en": "Choose a view to begin — you can change it anytime.",
+   "ru": "Выберите режим просмотра — его можно изменить в любой момент."
+  },
+  "welcomeTitle": {
+   "ar": "كيف تريد تصفح المذاهب؟",
+   "en": "How would you like to browse the schools?",
+   "ru": "Как вы хотите просматривать мазхабы?"
+  },
+  "glossarySection": {
+   "ar": "المفردات",
+   "en": "Glossary",
+   "ru": "Словарь",
+   "es": "Glosario"
+  },
+  "glossarySectionDesc": {
+   "ar": "تعريف المصطلحات الفقهية لغةً واصطلاحاً وشرعاً",
+   "en": "Fiqh terms defined linguistically, technically, and in the Sharia",
+   "ru": "Фикховские термины: языковое, терминологическое и шариатское значение",
+   "es": "Términos de fiqh definidos lingüística, técnica y legalmente"
+  },
+  "glossaryLinguistic": {
+   "ar": "لغةً",
+   "en": "Linguistically",
+   "ru": "В языке",
+   "es": "Lingüísticamente"
+  },
+  "glossaryTechnical": {
+   "ar": "اصطلاحاً",
+   "en": "Technically",
+   "ru": "В терминологии",
+   "es": "Técnicamente"
+  },
+  "glossaryLegal": {
+   "ar": "شرعاً",
+   "en": "In the Sharia",
+   "ru": "В шариате",
+   "es": "En la Sharía"
+  },
+  "glossaryGeneral": {
+   "ar": "تعريف موجز",
+   "en": "Brief definition",
+   "ru": "Краткое определение",
+   "es": "Definición breve"
+  },
+  "glossaryOpen": {
+   "ar": "فتح في المفردات",
+   "en": "Open in glossary",
+   "ru": "Открыть в словаре",
+   "es": "Abrir en el glosario"
+  },
+  "glossarySearch": {
+   "ar": "ابحث في المفردات…",
+   "en": "Search terms…",
+   "ru": "Поиск по словарю…",
+   "es": "Buscar términos…"
+  },
+  "glossaryEmpty": {
+   "ar": "لا توجد مفردة مطابقة",
+   "en": "No matching term",
+   "ru": "Совпадений не найдено",
+   "es": "No hay términos coincidentes"
+  },
+  "glossaryCount": {
+   "ar": "مفردة",
+   "en": "terms",
+   "ru": "терминов",
+   "es": "términos"
+  },
+  "glossaryPending": {
+   "ar": "التعريف المفصّل قيد الإضافة",
+   "en": "The detailed definition is being added",
+   "ru": "Подробное определение готовится",
+   "es": "La definición detallada se está añadiendo"
+  },
+  "searchAllBooks": {
+   "ar": "البحث في كل الأبواب",
+   "en": "Searching every chapter",
+   "ru": "Поиск по всем разделам",
+   "es": "Buscando en todos los capítulos"
+  },
+  "searchOther": {
+   "ar": "نتائج في أقسام أخرى",
+   "en": "Results in other sections",
+   "ru": "Результаты в других разделах",
+   "es": "Resultados en otras secciones"
+  },
+  "comingSoon": {
+   "ar": "قريباً",
+   "en": "Soon",
+   "ru": "Скоро",
+   "es": "Pronto"
+  },
+  "betaTag": {
+   "ar": "تجريبي",
+   "en": "Beta",
+   "ru": "Бета",
+   "es": "Beta"
+  },
+  "betaNote": {
+   "ar": "الموقع قيد الإعداد والمحتوى يُراجَع",
+   "en": "The site is in progress and its content is under review",
+   "ru": "Сайт в разработке, содержание проверяется",
+   "es": "El sitio está en desarrollo y su contenido en revisión"
+  },
+  "references": {
+   "ar": "المراجع",
+   "en": "References",
+   "ru": "Источники",
+   "es": "Fuentes"
+  },
+  "readVerse": {
+   "ar": "اقرأ الآية بلغتك",
+   "en": "Read this verse in your language",
+   "ru": "Читать этот аят на вашем языке",
+   "es": "Leer esta aleya en tu idioma"
+  }
+ },
+ "books": [
+  {
+   "id": "iman",
+   "name": {
+    "ar": "الإيمان والمدخل",
+    "en": "Faith & Introduction",
+    "ru": "Вера и введение"
+   }
+  },
+  {
+   "id": "taharah",
+   "name": {
+    "ar": "الطهارة",
+    "en": "Purification",
+    "ru": "Очищение"
+   }
+  },
+  {
+   "id": "salah",
+   "name": {
+    "ar": "الصلاة",
+    "en": "Prayer",
+    "ru": "Молитва"
+   }
+  },
+  {
+   "id": "zakah",
+   "name": {
+    "ar": "الزكاة",
+    "en": "Zakah",
+    "ru": "Закят"
+   }
+  },
+  {
+   "id": "sawm",
+   "name": {
+    "ar": "الصوم",
+    "en": "Fasting",
+    "ru": "Пост"
+   }
+  },
+  {
+   "id": "hajj",
+   "name": {
+    "ar": "الحج والعمرة",
+    "en": "Hajj & Umrah",
+    "ru": "Хадж и умра"
+   }
+  },
+  {
+   "id": "muamalat",
+   "name": {
+    "ar": "المعاملات",
+    "en": "Transactions",
+    "ru": "Сделки"
+   }
+  },
+  {
+   "id": "nikah",
+   "name": {
+    "ar": "النكاح",
+    "en": "Marriage",
+    "ru": "Брак"
+   }
+  },
+  {
+   "id": "jinayat",
+   "name": {
+    "ar": "الجنايات",
+    "en": "Criminal Law",
+    "ru": "Уголовное право"
+   }
+  }
+ ],
+ "schools": [
+  {
+   "key": "hanafi",
+   "name": {
+    "ar": "الحنفي",
+    "en": "Hanafi",
+    "ru": "Ханафитский",
+    "es": "Hanafí",
+    "uk": "Ханафітський"
+   }
+  },
+  {
+   "key": "maliki",
+   "name": {
+    "ar": "المالكي",
+    "en": "Maliki",
+    "ru": "Маликитский",
+    "es": "Malikí",
+    "uk": "Малікітський"
+   }
+  },
+  {
+   "key": "shafii",
+   "name": {
+    "ar": "الشافعي",
+    "en": "Shafi'i",
+    "ru": "Шафиитский",
+    "es": "Shafiʿí",
+    "uk": "Шафіїтський"
+   }
+  },
+  {
+   "key": "hanbali",
+   "name": {
+    "ar": "الحنبلي",
+    "en": "Hanbali",
+    "ru": "Ханбалитский",
+    "es": "Hanbalí",
+    "uk": "Ханбалітський"
+   }
+  }
+ ],
+ "theology": [
+  {
+   "id": "huduth",
+   "ref": "A1",
+   "title": {
+    "ar": "دليل الحدوث والسببية",
+    "en": "Contingency & Causation",
+    "ru": "Возникновение и причинность"
+   },
+   "tagline": {
+    "ar": "كل حادثٍ لا بد له من مُحدِث",
+    "en": "Every originated thing requires an originator",
+    "ru": "У всякого возникшего есть создатель"
+   },
+   "premises": [
     {
-      "id": "iman",
-      "name": {
-        "ar": "الإيمان والمدخل",
-        "en": "Faith & Introduction",
-        "ru": "Вера и введение"
-      }
+     "ar": "العالم بما فيه من أجرام وأحوال حادثٌ بعد أن لم يكن، لتغيّره وقبوله للزيادة والنقصان.",
+     "en": "The universe, with its bodies and states, is originated after non-existence, as shown by its change and its acceptance of increase and decrease.",
+     "ru": "Мир с его телами и состояниями возник после небытия, о чём свидетельствуют его изменчивость и способность к увеличению и уменьшению."
     },
     {
-      "id": "taharah",
-      "name": {
-        "ar": "الطهارة",
-        "en": "Purification",
-        "ru": "Очищение"
-      }
+     "ar": "كل حادثٍ مفتقرٌ إلى سببٍ يُخرجه من العدم إلى الوجود، إذ لا يترجّح وجوده على عدمه بنفسه.",
+     "en": "Every originated thing needs a cause to bring it from non-existence into existence, since its existence cannot outweigh its non-existence by itself.",
+     "ru": "Всякое возникшее нуждается в причине, выводящей его из небытия в бытие, ибо само по себе его бытие не перевешивает небытие."
     },
     {
-      "id": "salah",
-      "name": {
-        "ar": "الصلاة",
-        "en": "Prayer",
-        "ru": "Молитва"
-      }
-    },
-    {
-      "id": "zakah",
-      "name": {
-        "ar": "الزكاة",
-        "en": "Zakah",
-        "ru": "Закят"
-      }
-    },
-    {
-      "id": "sawm",
-      "name": {
-        "ar": "الصوم",
-        "en": "Fasting",
-        "ru": "Пост"
-      }
-    },
-    {
-      "id": "hajj",
-      "name": {
-        "ar": "الحج والعمرة",
-        "en": "Hajj & Umrah",
-        "ru": "Хадж и умра"
-      }
-    },
-    {
-      "id": "muamalat",
-      "name": {
-        "ar": "المعاملات",
-        "en": "Transactions",
-        "ru": "Сделки"
-      }
-    },
-    {
-      "id": "nikah",
-      "name": {
-        "ar": "النكاح",
-        "en": "Marriage",
-        "ru": "Брак"
-      }
-    },
-    {
-      "id": "jinayat",
-      "name": {
-        "ar": "الجنايات",
-        "en": "Criminal Law",
-        "ru": "Уголовное право"
-      }
+     "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى مُحدِثٍ أوّلٍ قديمٍ غير حادث.",
+     "en": "An infinite regress of causes is rationally impossible, so it must terminate in a first Originator who is eternal and not Himself originated.",
+     "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться первым Создателем, предвечным и Сам не возникшим."
     }
-  ],
-  "schools": [
+   ],
+   "quran": {
+    "verse": "﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾",
+    "ref": {
+     "ar": "سورة الطور: ٣٥",
+     "en": "Sūrat al-Ṭūr: 35",
+     "ru": "Сура ат-Тур: 35",
+     "es": "Sura at-Tur: 35"
+    },
+    "url": "https://quran.com/52/35"
+   },
+   "conclusion": {
+    "ar": "فثبت بالضرورة العقلية وجود مُحدِثٍ قديمٍ لم يسبقه عدم، غنيٍّ عن غيره، هو الله سبحانه، خالق كل حادثٍ ومُسبِّب كل سبب.",
+    "en": "By rational necessity there exists an eternal Originator, preceded by no non-existence and independent of all else — God — the maker of every originated thing and the cause of every cause.",
+    "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин."
+   }
+  },
+  {
+   "id": "khalq",
+   "ref": "A2",
+   "title": {
+    "ar": "دليل الخلق والإيجاد",
+    "en": "Creation & Origination",
+    "ru": "Творение и созидание"
+   },
+   "tagline": {
+    "ar": "الإيجاد من العدم يدل على قدرةٍ مطلقة",
+    "en": "Bringing existence from nothing proves absolute power",
+    "ru": "Творение из ничего доказывает абсолютное могущество"
+   },
+   "premises": [
     {
-      "key": "hanafi",
-      "name": {
-        "ar": "الحنفي",
-        "en": "Hanafi",
-        "ru": "Ханафитский",
-        "es": "Hanafí",
-        "uk": "Ханафітський"
-      }
+     "ar": "المخلوقات لم تكن شيئًا مذكورًا، ثم وُجدت على صفاتٍ مخصوصة من بين احتمالاتٍ لا تُحصى.",
+     "en": "Created things were nothing at all, then came to exist with particular attributes selected from innumerable alternatives.",
+     "ru": "Творения не были ничем упоминаемым, а затем возникли с определёнными свойствами из бесчисленных возможностей."
     },
     {
-      "key": "maliki",
-      "name": {
-        "ar": "المالكي",
-        "en": "Maliki",
-        "ru": "Маликитский",
-        "es": "Malikí",
-        "uk": "Малікітський"
-      }
+     "ar": "وتخصيص الوجود على العدم، والصفةِ دون نظائرها، لا يقع إلا من قادرٍ مختارٍ ذي علمٍ وإرادة.",
+     "en": "Specifying existence over non-existence, and one attribute rather than its equivalents, can proceed only from a choosing agent possessed of knowledge and will.",
+     "ru": "Предпочтение бытия небытию и одного свойства другим равнозначным может исходить лишь от избирающего, обладающего знанием и волей."
     },
     {
-      "key": "shafii",
-      "name": {
-        "ar": "الشافعي",
-        "en": "Shafi'i",
-        "ru": "Шафиитский",
-        "es": "Shafiʿí",
-        "uk": "Шафіїтський"
-      }
-    },
-    {
-      "key": "hanbali",
-      "name": {
-        "ar": "الحنبلي",
-        "en": "Hanbali",
-        "ru": "Ханбалитский",
-        "es": "Hanbalí",
-        "uk": "Ханбалітський"
-      }
+     "ar": "والعاجزُ عن إيجاد نفسه أعجزُ عن إيجاد غيره، فامتنع أن يكون المُوجِد شيئًا من المخلوقات.",
+     "en": "Whatever cannot bring itself into being is less able to bring another into being; so the Originator cannot be any created thing.",
+     "ru": "Неспособный привести себя в бытие тем менее способен создать другое; поэтому Создателем не может быть ничто из творений."
     }
-  ],
-  "theology": [
+   ],
+   "quran": {
+    "verse": "﴿هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ ...﴾",
+    "ref": {
+     "ar": "سورة لقمان: ١١",
+     "en": "Sūrat Luqmān: 11",
+     "ru": "Сура Лукман: 11",
+     "es": "Sura Luqman: 11"
+    },
+    "url": "https://quran.com/31/11"
+   },
+   "conclusion": {
+    "ar": "فالإيجاد من العدم لا يكون إلا لله، وتفرُّده به دليلٌ على تفرُّده بالألوهية واستحقاق العبادة.",
+    "en": "Origination from nothing therefore belongs to God alone, and His being unique in it indicates that He alone is divine and deserving of worship.",
+    "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения."
+   }
+  },
+  {
+   "id": "itqan",
+   "ref": "A3",
+   "title": {
+    "ar": "دليل الإحكام والتنظيم",
+    "en": "Design & Order",
+    "ru": "Совершенство и порядок"
+   },
+   "tagline": {
+    "ar": "النظام البديع يدل على مُنظِّمٍ حكيم",
+    "en": "Exquisite order points to a wise ordainer",
+    "ru": "Изящный порядок указывает на мудрого устроителя"
+   },
+   "premises": [
     {
-      "id": "huduth",
-      "ref": "A1",
-      "title": {
-        "ar": "دليل الحدوث والسببية",
-        "en": "Contingency & Causation",
-        "ru": "Возникновение и причинность"
-      },
-      "tagline": {
-        "ar": "كل حادثٍ لا بد له من مُحدِث",
-        "en": "Every originated thing requires an originator",
-        "ru": "У всякого возникшего есть создатель"
-      },
-      "premises": [
-        {
-          "ar": "العالم بما فيه من أجرام وأحوال حادثٌ بعد أن لم يكن، لتغيّره وقبوله للزيادة والنقصان.",
-          "en": "The universe, with its bodies and states, is originated after non-existence, as shown by its change and its acceptance of increase and decrease.",
-          "ru": "Мир с его телами и состояниями возник после небытия, о чём свидетельствуют его изменчивость и способность к увеличению и уменьшению."
-        },
-        {
-          "ar": "كل حادثٍ مفتقرٌ إلى سببٍ يُخرجه من العدم إلى الوجود، إذ لا يترجّح وجوده على عدمه بنفسه.",
-          "en": "Every originated thing needs a cause to bring it from non-existence into existence, since its existence cannot outweigh its non-existence by itself.",
-          "ru": "Всякое возникшее нуждается в причине, выводящей его из небытия в бытие, ибо само по себе его бытие не перевешивает небытие."
-        },
-        {
-          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى مُحدِثٍ أوّلٍ قديمٍ غير حادث.",
-          "en": "An infinite regress of causes is rationally impossible, so it must terminate in a first Originator who is eternal and not Himself originated.",
-          "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться первым Создателем, предвечным и Сам не возникшим."
-        }
-      ],
-      "quran": {
-        "verse": "﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾",
-        "ref": {
-          "ar": "سورة الطور: ٣٥",
-          "en": "Sūrat al-Ṭūr: 35",
-          "ru": "Сура ат-Тур: 35",
-          "es": "Sura at-Tur: 35"
-        },
-        "url": "https://quran.com/52/35"
-      },
-      "conclusion": {
-        "ar": "فثبت بالضرورة العقلية وجود مُحدِثٍ قديمٍ لم يسبقه عدم، غنيٍّ عن غيره، هو الله سبحانه، خالق كل حادثٍ ومُسبِّب كل سبب.",
-        "en": "By rational necessity there exists an eternal Originator, preceded by no non-existence and independent of all else — God — the maker of every originated thing and the cause of every cause.",
-        "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин."
-      }
+     "ar": "الكون يجري على سننٍ دقيقة ونظامٍ مطّرد في الأفلاك والأحياء والذرّة.",
+     "en": "The cosmos runs on precise laws and consistent order—in the heavens, in living things, and in the atom.",
+     "ru": "Вселенная следует точным законам и устойчивому порядку — в небесах, в живых существах и в атоме."
     },
     {
-      "id": "khalq",
-      "ref": "A2",
-      "title": {
-        "ar": "دليل الخلق والإيجاد",
-        "en": "Creation & Origination",
-        "ru": "Творение и созидание"
-      },
-      "tagline": {
-        "ar": "الإيجاد من العدم يدل على قدرةٍ مطلقة",
-        "en": "Bringing existence from nothing proves absolute power",
-        "ru": "Творение из ничего доказывает абсолютное могущество"
-      },
-      "premises": [
-        {
-          "ar": "المخلوقات لم تكن شيئًا مذكورًا، ثم وُجدت على صفاتٍ مخصوصة من بين احتمالاتٍ لا تُحصى.",
-          "en": "Created things were nothing at all, then came to exist with particular attributes selected from innumerable alternatives.",
-          "ru": "Творения не были ничем упоминаемым, а затем возникли с определёнными свойствами из бесчисленных возможностей."
-        },
-        {
-          "ar": "وتخصيص الوجود على العدم، والصفةِ دون نظائرها، لا يقع إلا من قادرٍ مختارٍ ذي علمٍ وإرادة.",
-          "en": "Specifying existence over non-existence, and one attribute rather than its equivalents, can proceed only from a choosing agent possessed of knowledge and will.",
-          "ru": "Предпочтение бытия небытию и одного свойства другим равнозначным может исходить лишь от избирающего, обладающего знанием и волей."
-        },
-        {
-          "ar": "والعاجزُ عن إيجاد نفسه أعجزُ عن إيجاد غيره، فامتنع أن يكون المُوجِد شيئًا من المخلوقات.",
-          "en": "Whatever cannot bring itself into being is less able to bring another into being; so the Originator cannot be any created thing.",
-          "ru": "Неспособный привести себя в бытие тем менее способен создать другое; поэтому Создателем не может быть ничто из творений."
-        }
-      ],
-      "quran": {
-        "verse": "﴿هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ ...﴾",
-        "ref": {
-          "ar": "سورة لقمان: ١١",
-          "en": "Sūrat Luqmān: 11",
-          "ru": "Сура Лукман: 11",
-          "es": "Sura Luqman: 11"
-        },
-        "url": "https://quran.com/31/11"
-      },
-      "conclusion": {
-        "ar": "فالإيجاد من العدم لا يكون إلا لله، وتفرُّده به دليلٌ على تفرُّده بالألوهية واستحقاق العبادة.",
-        "en": "Origination from nothing therefore belongs to God alone, and His being unique in it indicates that He alone is divine and deserving of worship.",
-        "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения."
-      }
-    },
-    {
-      "id": "itqan",
-      "ref": "A3",
-      "title": {
-        "ar": "دليل الإحكام والتنظيم",
-        "en": "Design & Order",
-        "ru": "Совершенство и порядок"
-      },
-      "tagline": {
-        "ar": "النظام البديع يدل على مُنظِّمٍ حكيم",
-        "en": "Exquisite order points to a wise ordainer",
-        "ru": "Изящный порядок указывает на мудрого устроителя"
-      },
-      "premises": [
-        {
-          "ar": "الكون يجري على سننٍ دقيقة ونظامٍ مطّرد في الأفلاك والأحياء والذرّة.",
-          "en": "The cosmos runs on precise laws and consistent order—in the heavens, in living things, and in the atom.",
-          "ru": "Вселенная следует точным законам и устойчивому порядку — в небесах, в живых существах и в атоме."
-        },
-        {
-          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وقصدًا.",
-          "en": "Precision and regularity, together with the fitness of ends, cannot arise from randomness and necessitate knowledge, wisdom, and purpose.",
-          "ru": "Точность и регулярность вместе с целесообразностью не могут возникнуть от случайности и требуют знания, мудрости и намерения."
-        }
-      ],
-      "quran": {
-        "verse": "﴿الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ ...﴾",
-        "ref": {
-          "ar": "سورة السجدة: ٧",
-          "en": "Sūrat al-Sajdah: 7",
-          "ru": "Сура ас-Саджда: 7",
-          "es": "Sura as-Sayda: 7"
-        },
-        "url": "https://quran.com/32/7"
-      },
-      "conclusion": {
-        "ar": "دلّ إتقان الصنعة على حكمة الصانع وعلمه وإرادته، فالنظام آيةٌ ناطقةٌ بوجود الحكيم العليم.",
-        "en": "The perfection of the craft proves the wisdom, knowledge, and will of the Craftsman; order is an eloquent sign of the All-Wise, All-Knowing.",
-        "ru": "Совершенство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего."
-      }
-    },
-    {
-      "id": "fitrah",
-      "ref": "A4",
-      "title": {
-        "ar": "دليل الفطرة",
-        "en": "Innate Disposition (Fiṭrah)",
-        "ru": "Довод врождённой природы"
-      },
-      "tagline": {
-        "ar": "الإقرار بالخالق مغروسٌ في النفوس",
-        "en": "Acknowledging the Creator is ingrained in souls",
-        "ru": "Признание Творца заложено в душах"
-      },
-      "premises": [
-        {
-          "ar": "النفس البشرية مفطورةٌ على الإقرار بوجود خالقها والتوجّه إليه، خاصةً عند الشدائد.",
-          "en": "The human soul is innately disposed to acknowledge its Creator and turn to Him, especially in times of hardship.",
-          "ru": "Человеческая душа врождённо расположена признавать своего Творца и обращаться к Нему, особенно в бедствиях."
-        },
-        {
-          "ar": "هذا الشعور الفطري مطّردٌ في الأمم والعصور، وما اطّرد كذلك دلّ على أصلٍ ثابتٍ لا على وهم.",
-          "en": "This innate sense is constant across nations and ages; what is so universal points to a firm reality, not an illusion.",
-          "ru": "Это врождённое чувство постоянно у народов и во все эпохи; столь всеобщее указывает на прочную реальность, а не на иллюзию."
-        }
-      ],
-      "quran": {
-        "verse": "﴿فِطْرَتَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا ...﴾",
-        "ref": {
-          "ar": "سورة الروم: ٣٠",
-          "en": "Sūrat al-Rūm: 30",
-          "ru": "Сура ар-Рум: 30",
-          "es": "Sura ar-Rum: 30"
-        },
-        "url": "https://quran.com/30/30"
-      },
-      "conclusion": {
-        "ar": "الفطرة شاهدٌ داخليٌّ على وجود الخالق، فمن رجع إلى صريح فطرته وجد الإقرار به ضرورةً لا تحتاج إلى برهان.",
-        "en": "The fiṭrah is an inner witness to the Creator; whoever returns to his pure innate nature finds acknowledging Him a self-evident necessity needing no proof.",
-        "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства."
-      }
-    },
-    {
-      "id": "tamanu",
-      "ref": "A5",
-      "title": {
-        "ar": "دليل التمانع والوحدانية",
-        "en": "Mutual Exclusion & Divine Oneness",
-        "ru": "Довод взаимного противодействия и единственности"
-      },
-      "tagline": {
-        "ar": "تعدُّد الآلهة يستلزم فساد النظام",
-        "en": "Multiple gods would entail the collapse of order",
-        "ru": "Множественность богов повлекла бы крушение порядка"
-      },
-      "premises": [
-        {
-          "ar": "لو كان للعالم صانعان لكان كلٌّ منهما قادرًا على الإرادة المستقلّة في التدبير.",
-          "en": "If the universe had two makers, each would be capable of an independent will in governing it.",
-          "ru": "Если бы у мира было два творца, каждый обладал бы независимой волей в управлении им."
-        },
-        {
-          "ar": "فلو اختلفت إرادتاهما لتعذّر نفاذهما معًا، ولو نفذت إرادة أحدهما دون الآخر لانتفت قدرة المغلوب.",
-          "en": "Were their wills to differ, both could not be carried out; and if one prevailed, the other's power would be negated.",
-          "ru": "Если бы их воли разошлись, обе не могли бы осуществиться; а если возобладала бы одна, могущество другого было бы отвергнуто."
-        },
-        {
-          "ar": "وانتظام العالم على نسقٍ واحدٍ بلا اختلالٍ شاهدٌ على أن المدبِّر واحدٌ لا شريك له.",
-          "en": "The universe's ordering upon a single consistent pattern, without disruption, testifies that its Governor is one without partner.",
-          "ru": "Упорядоченность мира по единому образцу, без сбоев, свидетельствует, что Управитель един и не имеет сотоварища."
-        }
-      ],
-      "quran": {
-        "verse": "﴿لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللَّهُ لَفَسَدَتَا﴾",
-        "ref": {
-          "ar": "سورة الأنبياء: ٢٢",
-          "en": "Sūrat al-Anbiyāʾ: 22",
-          "ru": "Сура аль-Анбия: 22",
-          "es": "Sura al-Anbiya: 22"
-        },
-        "url": "https://quran.com/21/22"
-      },
-      "conclusion": {
-        "ar": "دلّ انتظام الكون على وحدانية مدبِّره، فالإقرار بالخالق يستلزم الإقرار بأنه واحدٌ لا شريك له.",
-        "en": "The universe's order points to the oneness of its Governor; acknowledging a Creator entails acknowledging that He is one without partner.",
-        "ru": "Упорядоченность вселенной указывает на единственность её Управителя; признание Творца влечёт признание, что Он един и не имеет сотоварища."
-      }
-    },
-    {
-      "id": "nubuwwa",
-      "ref": "A6",
-      "title": {
-        "ar": "دليل الحاجة إلى النبوة",
-        "en": "The Necessity of Prophethood",
-        "ru": "Довод необходимости пророчества"
-      },
-      "tagline": {
-        "ar": "حكمة الخالق تقتضي بيان المراد منه",
-        "en": "The Creator's wisdom entails making His purpose known",
-        "ru": "Мудрость Творца требует разъяснения Его цели"
-      },
-      "premises": [
-        {
-          "ar": "العقل يدرك وجود الخالق وكماله، ولا يستقلّ بمعرفة تفاصيل ما يرضيه من العبادة والشرائع.",
-          "en": "Reason grasps the Creator's existence and perfection, yet cannot on its own determine the details of the worship and law that please Him.",
-          "ru": "Разум постигает существование Творца и Его совершенство, но сам по себе не определяет подробностей угодного Ему поклонения и закона."
-        },
-        {
-          "ar": "وخلق الإنسان مكلَّفًا مسؤولًا مع ترك البيان يناقض الحكمة ويقطع الحجّة عليه.",
-          "en": "To create man accountable while leaving him without clarification would contradict wisdom and remove the basis of his accountability.",
-          "ru": "Сотворить человека ответственным, оставив без разъяснения, противоречило бы мудрости и лишило бы основания его ответственность."
-        },
-        {
-          "ar": "فاقتضت الحكمة إرسال رسلٍ يبلّغون المراد، ويؤيَّدون بآياتٍ تدلّ على صدقهم.",
-          "en": "Wisdom therefore entails sending messengers who convey that purpose, supported by signs establishing their truthfulness.",
-          "ru": "Поэтому мудрость требует посылать посланников, доносящих эту цель и подкреплённых знамениями их правдивости."
-        }
-      ],
-      "quran": {
-        "verse": "﴿رُسُلًا مُبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ﴾",
-        "ref": {
-          "ar": "سورة النساء: ١٦٥",
-          "en": "Sūrat al-Nisāʾ: 165",
-          "ru": "Сура ан-Ниса: 165",
-          "es": "Sura an-Nisa: 165"
-        },
-        "url": "https://quran.com/4/165"
-      },
-      "conclusion": {
-        "ar": "الإقرار بخالقٍ حكيمٍ يستلزم انتظار بيانٍ منه، فالنبوة مقتضى الحكمة لا زيادةً عليها.",
-        "en": "Acknowledging a wise Creator entails expecting clarification from Him; prophethood is a requirement of wisdom, not an addition to it.",
-        "ru": "Признание мудрого Творца влечёт ожидание разъяснения от Него; пророчество есть требование мудрости, а не добавление к ней."
-      }
-    },
-    {
-      "id": "ijaz",
-      "ref": "A7",
-      "title": {
-        "ar": "دليل التحدّي وإعجاز القرآن",
-        "en": "The Challenge & the Qurʾān's Inimitability",
-        "ru": "Довод вызова и неподражаемости Корана"
-      },
-      "tagline": {
-        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
-        "en": "A standing challenge that has gone unmet",
-        "ru": "Стоящий вызов, на который не ответили"
-      },
-      "premises": [
-        {
-          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
-          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
-          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины."
-        },
-        {
-          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
-          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
-          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить."
-        },
-        {
-          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
-          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
-          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое."
-        }
-      ],
-      "quran": {
-        "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
-        "ref": {
-          "ar": "سورة الإسراء: ٨٨",
-          "en": "Sūrat al-Isrāʾ: 88",
-          "ru": "Сура аль-Исра: 88",
-          "es": "Sura al-Isra: 88"
-        },
-        "url": "https://quran.com/17/88"
-      },
-      "conclusion": {
-        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
-        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
-        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь."
-      }
-    },
-    {
-      "id": "hifz",
-      "ref": "A8",
-      "title": {
-        "ar": "دليل حفظ القرآن من التبديل",
-        "en": "The Preservation of the Qurʾān",
-        "ru": "Довод сохранности Корана"
-      },
-      "tagline": {
-        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
-        "en": "Mass transmission renders collusion in alteration impossible",
-        "ru": "Массовая передача делает сговор об искажении невозможным"
-      },
-      "premises": [
-        {
-          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
-          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
-          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен."
-        },
-        {
-          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
-          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
-          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их."
-        }
-      ],
-      "quran": {
-        "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
-        "ref": {
-          "ar": "سورة الحجر: ٩",
-          "en": "Sūrat al-Ḥijr: 9",
-          "ru": "Сура аль-Хиджр: 9",
-          "es": "Sura al-Hiyr: 9"
-        },
-        "url": "https://quran.com/15/9"
-      },
-      "conclusion": {
-        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
-        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
-        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей."
-      }
-    },
-    {
-      "id": "wahdat",
-      "ref": "A9",
-      "title": {
-        "ar": "دليل وحدة مصدر الرسالات",
-        "en": "The Single Source of the Messages",
-        "ru": "Довод единого источника посланий"
-      },
-      "tagline": {
-        "ar": "أصلٌ واحدٌ تكرّر على تباعد الأزمنة والأمم",
-        "en": "One core repeated across distant ages and nations",
-        "ru": "Единая основа, повторявшаяся сквозь эпохи и народы"
-      },
-      "premises": [
-        {
-          "ar": "الرسالات على تباعد أزمنتها وأممها وألسنتها متفقةٌ في أصلٍ واحد: إفراد الخالق بالعبادة، والإقرار بالجزاء.",
-          "en": "The messages, despite their distant ages, nations and tongues, agree upon a single core: devoting worship to the Creator alone, and affirming the reckoning.",
-          "ru": "Послания, при всей отдалённости эпох, народов и языков, сходятся в единой основе: посвящении поклонения одному Творцу и признании воздаяния."
-        },
-        {
-          "ar": "واختلافها إنما وقع في الشرائع العملية التي تتبدّل بتبدّل أحوال الأمم، لا في هذا الأصل الاعتقادي.",
-          "en": "Their divergence occurred only in practical laws, which shift with the changing circumstances of nations, not in this doctrinal core.",
-          "ru": "Их расхождение касалось лишь практических законов, меняющихся с обстоятельствами народов, а не этой вероучительной основы."
-        },
-        {
-          "ar": "واتفاقٌ في الأصل مع اختلافٍ في الفروع لا يُعلَّل بالتواطؤ ولا بالمصادفة، ويُعلَّل بوحدة المُرسِل.",
-          "en": "Agreement in the core alongside difference in the branches is explained neither by collusion nor by coincidence, but by the oneness of the Sender.",
-          "ru": "Согласие в основе при различии в ответвлениях объясняется не сговором и не случайностью, а единством Пославшего."
-        }
-      ],
-      "quran": {
-        "verse": "﴿وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ﴾",
-        "ref": {
-          "ar": "سورة الأنبياء: ٢٥",
-          "en": "Sūrat al-Anbiyāʾ: 25",
-          "ru": "Сура аль-Анбия: 25",
-          "es": "Sura al-Anbiya: 25"
-        },
-        "url": "https://quran.com/21/25"
-      },
-      "conclusion": {
-        "ar": "فالاتفاق في الأصل مع تباين الأزمنة دليلٌ على أن مصدر الرسالات واحد، وأنها سلسلةٌ متصلةٌ لا رسالاتٌ متنافسة.",
-        "en": "Agreement in the core across separated ages thus indicates a single source for the messages — a connected chain, not competing revelations.",
-        "ru": "Согласие в основе сквозь разделённые эпохи указывает на единый источник посланий — связанную цепь, а не соперничающие откровения."
-      }
-    },
-    {
-      "id": "khatm",
-      "ref": "A10",
-      "title": {
-        "ar": "دليل ختم الرسالات",
-        "en": "The Sealing of Prophethood",
-        "ru": "Довод завершённости посланничества"
-      },
-      "tagline": {
-        "ar": "تعاقب الرسل معلولٌ بعلّةٍ تنتفي بالحفظ",
-        "en": "Successive messengers had a cause that preservation removes",
-        "ru": "Смена посланников имела причину, устраняемую сохранностью"
-      },
-      "premises": [
-        {
-          "ar": "إنما تعاقبت الرسل لعلّتين: ضياع الرسالة السابقة أو تبدّلها، وخصوص دعوتها بقومٍ دون قوم.",
-          "en": "Messengers succeeded one another for two causes: the loss or alteration of the previous message, and its address being confined to one people.",
-          "ru": "Посланники сменяли друг друга по двум причинам: утрата или искажение прежнего послания и обращённость его лишь к одному народу."
-        },
-        {
-          "ar": "فإذا حُفظت رسالةٌ من التبديل وجاءت عامّةً لجميع الناس، ارتفعت العلّتان معًا.",
-          "en": "If a message is preserved from alteration and comes addressed to all mankind, both causes are removed together.",
-          "ru": "Если послание сохранено от искажения и обращено ко всем людям, обе причины устраняются разом."
-        },
-        {
-          "ar": "وارتفاع العلّة يوجب ارتفاع المعلول، إذ لا يبقى للإرسال بعدها مقتضٍ في الحكمة.",
-          "en": "The removal of a cause entails the removal of its effect, for wisdom then retains no reason to send again.",
-          "ru": "Устранение причины влечёт устранение следствия, ибо у мудрости не остаётся основания посылать вновь."
-        }
-      ],
-      "quran": {
-        "verse": "﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ ...﴾",
-        "ref": {
-          "ar": "سورة الأحزاب: ٤٠",
-          "en": "Sūrat al-Aḥzāb: 40",
-          "ru": "Сура аль-Ахзаб: 40",
-          "es": "Sura al-Ahzab: 40"
-        },
-        "url": "https://quran.com/33/40"
-      },
-      "conclusion": {
-        "ar": "فلمّا ارتفعت علّتا التعاقب بحفظ الرسالة وعمومها، لزم أن تكون خاتمةً، والختم مقتضى الحكمة لا دعوى مجرّدة.",
-        "en": "Since both causes of succession are removed by the message's preservation and universality, it follows that it is final — finality being a requirement of wisdom, not a bare claim.",
-        "ru": "Поскольку обе причины смены устранены сохранностью и всеобщностью послания, оно является завершающим — завершённость есть требование мудрости, а не голое утверждение."
-      }
-    },
-    {
-      "id": "wasita",
-      "ref": "A11",
-      "title": {
-        "ar": "دليل انتفاء الواسطة",
-        "en": "The Absence of an Intermediary",
-        "ru": "Довод отсутствия посредника"
-      },
-      "tagline": {
-        "ar": "افتقار الدعاء إلى واسطةٍ يستلزم نقصًا في المدعوّ",
-        "en": "Needing an intermediary would imply deficiency in the One called upon",
-        "ru": "Нужда в посреднике подразумевала бы изъян у Того, к Кому взывают"
-      },
-      "premises": [
-        {
-          "ar": "افتقار الداعي إلى واسطةٍ يقتضي أحد أمرين: خفاءَ حال الداعي على المدعوّ، أو حاجةَ المدعوّ إلى من يستعطفه.",
-          "en": "Requiring an intermediary implies one of two things: that the caller's state is hidden from the One called, or that the One called needs someone to soften Him.",
-          "ru": "Нужда в посреднике подразумевает одно из двух: что состояние взывающего скрыто от Того, к Кому взывают, или что Он нуждается в ком-то, кто смягчил бы Его."
-        },
-        {
-          "ar": "وكلا الأمرين نقصٌ يمتنع على الخالق، إذ كماله يقتضي إحاطة علمه وسعة رحمته وغناه عن الوسائط.",
-          "en": "Both are deficiencies impossible for the Creator, since His perfection entails encompassing knowledge, vast mercy, and independence from intermediaries.",
-          "ru": "Оба суть изъяны, невозможные для Творца, ибо Его совершенство влечёт всеохватность знания, широту милости и независимость от посредников."
-        }
-      ],
-      "quran": {
-        "verse": "﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ ...﴾",
-        "ref": {
-          "ar": "سورة البقرة: ١٨٦",
-          "en": "Sūrat al-Baqarah: 186",
-          "ru": "Сура аль-Бакара: 186",
-          "es": "Sura al-Baqara: 186"
-        },
-        "url": "https://quran.com/2/186"
-      },
-      "conclusion": {
-        "ar": "فتنزيه الخالق عن النقص يقتضي أن يكون الاتصال به مباشرًا، وأن الواسطة في الدعاء منتفيةٌ لا محذوفةٌ تعبّدًا.",
-        "en": "Declaring the Creator free of deficiency therefore entails that access to Him is direct, and that intermediation in supplication is negated by reason, not merely omitted by ritual.",
-        "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом."
-      }
+     "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وقصدًا.",
+     "en": "Precision and regularity, together with the fitness of ends, cannot arise from randomness and necessitate knowledge, wisdom, and purpose.",
+     "ru": "Точность и регулярность вместе с целесообразностью не могут возникнуть от случайности и требуют знания, мудрости и намерения."
     }
-  ],
-  "glossary": [
+   ],
+   "quran": {
+    "verse": "﴿الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ ...﴾",
+    "ref": {
+     "ar": "سورة السجدة: ٧",
+     "en": "Sūrat al-Sajdah: 7",
+     "ru": "Сура ас-Саджда: 7",
+     "es": "Sura as-Sayda: 7"
+    },
+    "url": "https://quran.com/32/7"
+   },
+   "conclusion": {
+    "ar": "دلّ إتقان الصنعة على حكمة الصانع وعلمه وإرادته، فالنظام آيةٌ ناطقةٌ بوجود الحكيم العليم.",
+    "en": "The perfection of the craft proves the wisdom, knowledge, and will of the Craftsman; order is an eloquent sign of the All-Wise, All-Knowing.",
+    "ru": "Совершенство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего."
+   }
+  },
+  {
+   "id": "fitrah",
+   "ref": "A4",
+   "title": {
+    "ar": "دليل الفطرة",
+    "en": "Innate Disposition (Fiṭrah)",
+    "ru": "Довод врождённой природы"
+   },
+   "tagline": {
+    "ar": "الإقرار بالخالق مغروسٌ في النفوس",
+    "en": "Acknowledging the Creator is ingrained in souls",
+    "ru": "Признание Творца заложено в душах"
+   },
+   "premises": [
     {
-      "id": "hadath",
-      "term": {
-        "ar": "حَدَث",
-        "en": "Hadath",
-        "ru": "Хадас"
-      },
-      "definition": {
-        "ar": "حالة معنوية تمنع من الصلاة ونحوها، وترتفع بالوضوء أو الغسل. الأصغر يرتفع بالوضوء، والأكبر بالغسل.",
-        "en": "A state of ritual impurity that prevents prayer until removed. The minor state is lifted by ablution (wudu), the major by a full bath (ghusl).",
-        "ru": "Состояние ритуальной нечистоты, мешающее молитве. Малый хадас снимается омовением (вуду), большой — полным омовением (гусль)."
-      }
+     "ar": "النفس البشرية مفطورةٌ على الإقرار بوجود خالقها والتوجّه إليه، خاصةً عند الشدائد.",
+     "en": "The human soul is innately disposed to acknowledge its Creator and turn to Him, especially in times of hardship.",
+     "ru": "Человеческая душа врождённо расположена признавать своего Творца и обращаться к Нему, особенно в бедствиях."
     },
     {
-      "id": "niyyah",
-      "term": {
-        "ar": "نِيَّة",
-        "en": "Niyyah",
-        "ru": "Нийя"
-      },
-      "definition": {
-        "ar": "قصد القلب للعبادة تقرباً إلى الله، وهي شرط لصحة أغلب العبادات كالصلاة والصيام والوضوء.",
-        "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
-        "ru": "Намерение сердца совершить поклонение ради Аллаха — условие действительности большинства обрядов: молитвы, поста, омовения."
-      }
-    },
-    {
-      "id": "tawatur",
-      "term": {
-        "ar": "تَوَاتُر",
-        "en": "Tawatur",
-        "ru": "Таватур"
-      },
-      "definition": {
-        "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
-        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
-        "ru": "Передача сообщения множеством независимых передатчиков, сговор которых о лжи невозможен, что даёт достоверное знание. Так передан Коран."
-      }
-    },
-    {
-      "id": "wudu",
-      "term": {
-        "ar": "وُضُوء",
-        "en": "Wudu",
-        "ru": "Вуду"
-      },
-      "definition": {
-        "ar": "طهارة بالماء تشمل غسل الوجه واليدين ومسح الرأس وغسل الرجلين، تُشترط لصحة الصلاة.",
-        "en": "Ritual ablution with water — washing the face, arms, wiping the head, and washing the feet — required for the validity of prayer.",
-        "ru": "Ритуальное омовение водой: лицо, руки, протирание головы и мытьё ног — необходимо для действительности молитвы."
-      }
-    },
-    {
-      "id": "najasah",
-      "term": {
-        "ar": "نَجَاسَة",
-        "en": "Najasah",
-        "ru": "Наджаса"
-      },
-      "definition": {
-        "ar": "قذارة حسية حكم الشرع بنجاستها كالبول والدم المسفوح، يجب إزالتها عن البدن والثوب والمكان للصلاة.",
-        "en": "A physical impurity ruled unclean by the Sharia (e.g., urine, flowing blood) that must be removed from body, clothes, and place before prayer.",
-        "ru": "Материальная нечистота, признанная Шариатом (моча, пролитая кровь), которую нужно удалить с тела, одежды и места перед молитвой."
-      }
-    },
-    {
-      "id": "tayammum",
-      "term": {
-        "ar": "تَيَمُّم",
-        "en": "Tayammum",
-        "ru": "Таяммум"
-      },
-      "definition": {
-        "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
-        "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
-        "ru": "Сухое очищение чистой землёй вместо воды при её отсутствии или невозможности использования из-за болезни и т. п."
-      }
-    },
-    {
-      "id": "ijma",
-      "term": {
-        "ar": "إِجْمَاع",
-        "en": "Ijma",
-        "ru": "Иджма"
-      },
-      "definition": {
-        "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
-        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
-        "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны."
-      }
-    },
-    {
-      "id": "qiyas",
-      "term": {
-        "ar": "قِيَاس",
-        "en": "Qiyas",
-        "ru": "Кияс"
-      },
-      "definition": {
-        "ar": "إلحاق مسألة لا نص فيها بمسألة منصوصة لاشتراكهما في العلة، وهو من أصول الاستنباط.",
-        "en": "Analogical reasoning: extending a ruling from a textually addressed case to a new case sharing the same effective cause.",
-        "ru": "Аналогия: перенос заключения с прямо оговорённого случая на новый, имеющий ту же причину."
-      }
+     "ar": "هذا الشعور الفطري مطّردٌ في الأمم والعصور، وما اطّرد كذلك دلّ على أصلٍ ثابتٍ لا على وهم.",
+     "en": "This innate sense is constant across nations and ages; what is so universal points to a firm reality, not an illusion.",
+     "ru": "Это врождённое чувство постоянно у народов и во все эпохи; столь всеобщее указывает на прочную реальность, а не на иллюзию."
     }
-  ],
-  "guides": [
+   ],
+   "quran": {
+    "verse": "﴿فِطْرَتَ اللَّهِ الَّتِي فَطَرَ النَّاسَ عَلَيْهَا ...﴾",
+    "ref": {
+     "ar": "سورة الروم: ٣٠",
+     "en": "Sūrat al-Rūm: 30",
+     "ru": "Сура ар-Рум: 30",
+     "es": "Sura ar-Rum: 30"
+    },
+    "url": "https://quran.com/30/30"
+   },
+   "conclusion": {
+    "ar": "الفطرة شاهدٌ داخليٌّ على وجود الخالق، فمن رجع إلى صريح فطرته وجد الإقرار به ضرورةً لا تحتاج إلى برهان.",
+    "en": "The fiṭrah is an inner witness to the Creator; whoever returns to his pure innate nature finds acknowledging Him a self-evident necessity needing no proof.",
+    "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства."
+   }
+  },
+  {
+   "id": "tamanu",
+   "ref": "A5",
+   "title": {
+    "ar": "دليل التمانع والوحدانية",
+    "en": "Mutual Exclusion & Divine Oneness",
+    "ru": "Довод взаимного противодействия и единственности"
+   },
+   "tagline": {
+    "ar": "تعدُّد الآلهة يستلزم فساد النظام",
+    "en": "Multiple gods would entail the collapse of order",
+    "ru": "Множественность богов повлекла бы крушение порядка"
+   },
+   "premises": [
     {
-      "id": "wudu-steps",
-      "bookId": "taharah",
-      "title": {
-        "ar": "خطوات الوضوء",
-        "en": "Steps of Wudu (Ablution)",
-        "ru": "Шаги омовения (вуду)"
-      },
-      "intro": {
-        "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
-        "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
-        "ru": "Практическое пошаговое руководство по правильному омовению перед молитвой."
-      },
-      "steps": [
-        {
-          "title": {
-            "ar": "النية",
-            "en": "Intention (Niyyah)",
-            "ru": "Намерение (нийя)"
-          },
-          "text": {
-            "ar": "انوِ بقلبك رفع الحدث والطهارة للصلاة، دون التلفظ بها.",
-            "en": "Form the intention in your heart to purify yourself for prayer; no spoken formula is needed.",
-            "ru": "Намеревайтесь сердцем очиститься для молитвы; произносить вслух не нужно."
-          }
-        },
-        {
-          "title": {
-            "ar": "التسمية وغسل الكفين",
-            "en": "Say Bismillah & wash hands",
-            "ru": "«Бисмиллях» и мытьё кистей"
-          },
-          "text": {
-            "ar": "قل: بسم الله، ثم اغسل كفيك ثلاث مرات.",
-            "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
-            "ru": "Скажите «Бисмиллях», затем трижды вымойте кисти рук."
-          }
-        },
-        {
-          "title": {
-            "ar": "المضمضة والاستنشاق",
-            "en": "Rinse mouth & nose",
-            "ru": "Полоскание рта и носа"
-          },
-          "text": {
-            "ar": "تمضمض واستنشق الماء ثم استنثره ثلاث مرات.",
-            "en": "Rinse the mouth and draw water into the nose, then expel it — three times.",
-            "ru": "Прополощите рот и вдохните воду носом, затем высморкайтесь — трижды."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل الوجه",
-            "en": "Wash the face",
-            "ru": "Мытьё лица"
-          },
-          "text": {
-            "ar": "اغسل وجهك كاملاً من منابت الشعر إلى الذقن وعرضاً بين الأذنين ثلاث مرات.",
-            "en": "Wash the whole face from hairline to chin and ear to ear, three times.",
-            "ru": "Вымойте всё лицо от линии волос до подбородка и от уха до уха — трижды."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل اليدين إلى المرفقين",
-            "en": "Wash arms to elbows",
-            "ru": "Мытьё рук до локтей"
-          },
-          "text": {
-            "ar": "اغسل يديك من أطراف الأصابع إلى المرفقين، اليمنى ثم اليسرى، ثلاث مرات.",
-            "en": "Wash each arm from fingertips to and including the elbow — right then left, three times.",
-            "ru": "Вымойте руки от пальцев до локтей включительно — сначала правую, затем левую, трижды."
-          }
-        },
-        {
-          "title": {
-            "ar": "مسح الرأس والأذنين",
-            "en": "Wipe head & ears",
-            "ru": "Протирание головы и ушей"
-          },
-          "text": {
-            "ar": "امسح رأسك بيديك مبلولتين من مقدمته إلى مؤخرته ثم امسح أذنيك، مرة واحدة.",
-            "en": "With wet hands wipe the head front to back, then wipe the ears — once.",
-            "ru": "Мокрыми руками протрите голову спереди назад, затем протрите уши — один раз."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل الرجلين إلى الكعبين",
-            "en": "Wash feet to ankles",
-            "ru": "Мытьё ног до щиколоток"
-          },
-          "text": {
-            "ar": "اغسل رجليك إلى الكعبين مع تخليل الأصابع، اليمنى ثم اليسرى، ثلاث مرات.",
-            "en": "Wash both feet up to and including the ankles, rubbing between the toes — right then left, three times.",
-            "ru": "Вымойте ноги до щиколоток включительно, протирая между пальцами — правую, затем левую, трижды."
-          }
-        }
-      ]
+     "ar": "لو كان للعالم صانعان لكان كلٌّ منهما قادرًا على الإرادة المستقلّة في التدبير.",
+     "en": "If the universe had two makers, each would be capable of an independent will in governing it.",
+     "ru": "Если бы у мира было два творца, каждый обладал бы независимой волей в управлении им."
     },
     {
-      "id": "salah-steps",
-      "bookId": "salah",
-      "title": {
-        "ar": "أركان الصلاة العملية",
-        "en": "The Prayer Sequence",
-        "ru": "Последовательность молитвы"
-      },
-      "intro": {
-        "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
-        "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
-        "ru": "Основная последовательность положений в одном ракаате молитвы."
-      },
-      "steps": [
-        {
-          "title": {
-            "ar": "تكبيرة الإحرام",
-            "en": "Opening Takbir",
-            "ru": "Вступительный такбир"
-          },
-          "text": {
-            "ar": "قف مستقبلاً القبلة وارفع يديك قائلاً: الله أكبر.",
-            "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
-            "ru": "Встаньте лицом к кибле, поднимите руки и скажите «Аллаху Акбар»."
-          }
-        },
-        {
-          "title": {
-            "ar": "القيام والقراءة",
-            "en": "Standing & recitation",
-            "ru": "Стояние и чтение"
-          },
-          "text": {
-            "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
-            "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
-            "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана."
-          }
-        },
-        {
-          "title": {
-            "ar": "الركوع",
-            "en": "Bowing (Ruku)",
-            "ru": "Поясной поклон (руку)"
-          },
-          "text": {
-            "ar": "انحنِ حتى تستوي ظهرك قائلاً: سبحان ربي العظيم.",
-            "en": "Bow with a straight back, saying 'Subhana Rabbiyal-Azim'.",
-            "ru": "Поклонитесь с ровной спиной, говоря «Субхана Рабби аль-Азым»."
-          }
-        },
-        {
-          "title": {
-            "ar": "الاعتدال",
-            "en": "Rising",
-            "ru": "Выпрямление"
-          },
-          "text": {
-            "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
-            "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
-            "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд»."
-          }
-        },
-        {
-          "title": {
-            "ar": "السجود",
-            "en": "Prostration (Sujud)",
-            "ru": "Земной поклон (суджуд)"
-          },
-          "text": {
-            "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
-            "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
-            "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат."
-          }
-        }
-      ]
+     "ar": "فلو اختلفت إرادتاهما لتعذّر نفاذهما معًا، ولو نفذت إرادة أحدهما دون الآخر لانتفت قدرة المغلوب.",
+     "en": "Were their wills to differ, both could not be carried out; and if one prevailed, the other's power would be negated.",
+     "ru": "Если бы их воли разошлись, обе не могли бы осуществиться; а если возобладала бы одна, могущество другого было бы отвергнуто."
     },
     {
-      "id": "wudu-steps-detailed",
-      "bookId": "taharah",
-      "title": {
-        "ar": "صفة الوضوء الكامل والمجزئ",
-        "en": "Method of Minor Purification (Wudu)",
-        "ru": "Способ совершения малого омывания (Уду)"
-      },
-      "intro": {
-        "ar": "الخطوات العملية للوضوء مستوفية الفرائض والسنن وفق الفقه الإسلامي",
-        "en": "Practical steps for Wudu including obligatory and recommended actions",
-        "ru": "Практические шаги малого омывания, включая обязательные и желательные действия"
-      },
-      "steps": [
-        {
-          "title": {
-            "ar": "النية والتسمية",
-            "en": "Intention and Basmalah",
-            "ru": "Намерение и Басмала"
-          },
-          "text": {
-            "ar": "النية بالقلب لرفع الحدث الأصغر، ثم قول «بسم الله».",
-            "en": "Intend in the heart to remove minor impurity, then say 'Bismillah'.",
-            "ru": "Намерение в сердце снять малое осквернение, затем произнесение «Бисмиллях»."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل الكفين",
-            "en": "Washing Hands",
-            "ru": "Мытье кистей рук"
-          },
-          "text": {
-            "ar": "غسل الكفين إلى الرسغين ثلاث مرات مع تخليل الأصابع (وهي سنة مؤكدة).",
-            "en": "Wash both hands up to the wrists three times, interlacing fingers.",
-            "ru": "Троекратное мытье кистей рук до запястий с переплетением пальцев."
-          }
-        },
-        {
-          "title": {
-            "ar": "المضمضة والاستنشاق",
-            "en": "Rinsing Mouth and Nose",
-            "ru": "Полоскание рта и носа"
-          },
-          "text": {
-            "ar": "المضمضة والاستنشاق بيمينه والاستنثار بيساره ثلاث مرات بغرفة واحدة أو غرفات.",
-            "en": "Rinse mouth and sniff water into nostrils three times using the right hand and blowing out with left.",
-            "ru": "Троекратное полоскание рта и втягивание воды в нос правой рукой и высмаркивание левой."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل الوجه",
-            "en": "Washing the Face",
-            "ru": "Мытье лица"
-          },
-          "text": {
-            "ar": "غسل الوجه كاملاً من منابت شعر الرأس إلى أسفل الذقن طولاً، ومن الأذن إلى الأذن عرضاً (ثلاثاً).",
-            "en": "Wash the entire face from hairline to chin vertically, and ear to ear horizontally (three times).",
-            "ru": "Троекратное мытье всего лица от линии волос до подбородка и от уха до уха."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل اليدين إلى المرفقين",
-            "en": "Washing Arms to Elbows",
-            "ru": "Мытье рук до локтей"
-          },
-          "text": {
-            "ar": "غسل اليد اليمنى ثم اليسرى من أطراف الأصابع مع إدخال المرفقين في الغسل (ثلاثاً).",
-            "en": "Wash right arm then left arm including the elbows (three times).",
-            "ru": "Троекратное мытье правой, затем левой руки, включая локти."
-          }
-        },
-        {
-          "title": {
-            "ar": "مسح الرأس والأذنين",
-            "en": "Wiping Head and Ears",
-            "ru": "Протирание головы и ушей"
-          },
-          "text": {
-            "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
-            "en": "Wipe the head once (or part of it in Hanafi/Shafi'i), then wipe inside and outside of ears.",
-            "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей."
-          }
-        },
-        {
-          "title": {
-            "ar": "غسل الرجلين إلى الكعبين",
-            "en": "Washing Feet to Ankles",
-            "ru": "Мытье ног до лодыжек"
-          },
-          "text": {
-            "ar": "غسل القدم اليمنى ثم اليسرى مع إدخال الكعبين وتخليل أصابع القدمين (ثلاثاً).",
-            "en": "Wash right foot then left foot up to and including the ankles, clean between toes (three times).",
-            "ru": "Троекратное мытье правой, затем левой ноги, включая лодыжки и между пальцами."
-          }
-        }
-      ]
+     "ar": "وانتظام العالم على نسقٍ واحدٍ بلا اختلالٍ شاهدٌ على أن المدبِّر واحدٌ لا شريك له.",
+     "en": "The universe's ordering upon a single consistent pattern, without disruption, testifies that its Governor is one without partner.",
+     "ru": "Упорядоченность мира по единому образцу, без сбоев, свидетельствует, что Управитель един и не имеет сотоварища."
     }
-  ],
-  "faqs": [
+   ],
+   "quran": {
+    "verse": "﴿لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللَّهُ لَفَسَدَتَا﴾",
+    "ref": {
+     "ar": "سورة الأنبياء: ٢٢",
+     "en": "Sūrat al-Anbiyāʾ: 22",
+     "ru": "Сура аль-Анбия: 22",
+     "es": "Sura al-Anbiya: 22"
+    },
+    "url": "https://quran.com/21/22"
+   },
+   "conclusion": {
+    "ar": "دلّ انتظام الكون على وحدانية مدبِّره، فالإقرار بالخالق يستلزم الإقرار بأنه واحدٌ لا شريك له.",
+    "en": "The universe's order points to the oneness of its Governor; acknowledging a Creator entails acknowledging that He is one without partner.",
+    "ru": "Упорядоченность вселенной указывает на единственность её Управителя; признание Творца влечёт признание, что Он един и не имеет сотоварища."
+   }
+  },
+  {
+   "id": "nubuwwa",
+   "ref": "A6",
+   "title": {
+    "ar": "دليل الحاجة إلى النبوة",
+    "en": "The Necessity of Prophethood",
+    "ru": "Довод необходимости пророчества"
+   },
+   "tagline": {
+    "ar": "حكمة الخالق تقتضي بيان المراد منه",
+    "en": "The Creator's wisdom entails making His purpose known",
+    "ru": "Мудрость Творца требует разъяснения Его цели"
+   },
+   "premises": [
     {
-      "id": "faq-conversion",
-      "category": {
-        "ar": "الدخول في الإسلام",
-        "en": "Conversion",
-        "ru": "Принятие ислама"
-      },
-      "question": {
-        "ar": "هل الدخول في الإسلام لحظي أم يحتاج إجراءات؟",
-        "en": "Is accepting Islam instant, or does it require a formal process?",
-        "ru": "Принятие ислама происходит мгновенно или нужна процедура?"
-      },
-      "answer": {
-        "ar": "الدخول في الإسلام لحظي بمجرد النطق بالشهادتين عن اقتناع: أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله. لا يشترط حضور شيخ ولا أوراق رسمية، وإنما توثيق الإسلام لاحقاً أمر تنظيمي فقط.",
-        "en": "It is instant: sincerely pronouncing the testimony of faith — 'I bear witness that there is no god but Allah, and Muhammad is His Messenger' — makes you Muslim. No cleric or paperwork is required; any later documentation is merely administrative.",
-        "ru": "Это происходит мгновенно: искреннее произнесение свидетельства веры — «Свидетельствую, что нет божества, кроме Аллаха, и Мухаммад — Его посланник» — делает вас мусульманином. Не требуется ни имам, ни документы; последующее оформление лишь административное."
-      }
+     "ar": "العقل يدرك وجود الخالق وكماله، ولا يستقلّ بمعرفة تفاصيل ما يرضيه من العبادة والشرائع.",
+     "en": "Reason grasps the Creator's existence and perfection, yet cannot on its own determine the details of the worship and law that please Him.",
+     "ru": "Разум постигает существование Творца и Его совершенство, но сам по себе не определяет подробностей угодного Ему поклонения и закона."
     },
     {
-      "id": "faq-arabic",
-      "category": {
-        "ar": "اللغة",
-        "en": "Language",
-        "ru": "Язык"
-      },
-      "question": {
-        "ar": "هل يجب أن أتعلم العربية لأعتنق الإسلام؟",
-        "en": "Do I need to learn Arabic to accept Islam?",
-        "ru": "Нужно ли учить арабский, чтобы принять ислам?"
-      },
-      "answer": {
-        "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
-        "en": "No. You can accept Islam in any language you understand and learn the Qur'an and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
-        "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием."
-      }
+     "ar": "وخلق الإنسان مكلَّفًا مسؤولًا مع ترك البيان يناقض الحكمة ويقطع الحجّة عليه.",
+     "en": "To create man accountable while leaving him without clarification would contradict wisdom and remove the basis of his accountability.",
+     "ru": "Сотворить человека ответственным, оставив без разъяснения, противоречило бы мудрости и лишило бы основания его ответственность."
     },
     {
-      "id": "faq-past-sins",
-      "category": {
-        "ar": "التوبة",
-        "en": "Repentance",
-        "ru": "Покаяние"
-      },
-      "question": {
-        "ar": "ماذا يحدث لذنوبي السابقة عند إسلامي؟",
-        "en": "What happens to my past sins when I embrace Islam?",
-        "ru": "Что происходит с прошлыми грехами при принятии ислама?"
-      },
-      "answer": {
-        "ar": "الإسلام يهدم ما قبله، فمن أسلم غُفرت له ذنوبه السابقة كلها ويبدأ صفحة جديدة نقية، كما صح عن النبي صلى الله عليه وسلم.",
-        "en": "Islam erases what came before it. Upon accepting Islam all previous sins are forgiven and you begin with a clean slate, as affirmed by the Prophet (peace be upon him).",
-        "ru": "Ислам стирает всё, что было до него. С принятием ислама все прежние грехи прощаются, и вы начинаете с чистого листа, как сообщил Пророк (мир ему)."
-      }
-    },
-    {
-      "id": "faq-five-pillars",
-      "category": {
-        "ar": "الأركان",
-        "en": "Foundations",
-        "ru": "Основы"
-      },
-      "question": {
-        "ar": "ما الذي يُطلب مني فعله بعد الإسلام مباشرة؟",
-        "en": "What am I expected to do right after becoming Muslim?",
-        "ru": "Что требуется делать сразу после принятия ислама?"
-      },
-      "answer": {
-        "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
-        "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
-        "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться."
-      }
-    },
-    {
-      "id": "faq-schools",
-      "category": {
-        "ar": "المذاهب",
-        "en": "Schools of law",
-        "ru": "Мазхабы"
-      },
-      "question": {
-        "ar": "لماذا تختلف المذاهب الأربعة، وأيها أتبع؟",
-        "en": "Why do the four schools differ, and which should I follow?",
-        "ru": "Почему четыре мазхаба различаются и какому следовать?"
-      },
-      "answer": {
-        "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
-        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qur'an and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
-        "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма."
-      }
-    },
-    {
-      "id": "faq-family",
-      "category": {
-        "ar": "المفاهيم",
-        "en": "Misconceptions",
-        "ru": "Заблуждения"
-      },
-      "question": {
-        "ar": "هل يجب أن أقطع علاقتي بعائلتي غير المسلمة؟",
-        "en": "Must I cut ties with my non-Muslim family?",
-        "ru": "Должен ли я разорвать связь с немусульманской семьёй?"
-      },
-      "answer": {
-        "ar": "لا، بل يأمر الإسلام ببرّ الوالدين والإحسان إلى الأقارب ولو كانوا غير مسلمين، ما لم يُطلب منك معصية الله. حسن الخلق معهم من صميم الدين.",
-        "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
-        "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии."
-      }
+     "ar": "فاقتضت الحكمة إرسال رسلٍ يبلّغون المراد، ويؤيَّدون بآياتٍ تدلّ على صدقهم.",
+     "en": "Wisdom therefore entails sending messengers who convey that purpose, supported by signs establishing their truthfulness.",
+     "ru": "Поэтому мудрость требует посылать посланников, доносящих эту цель и подкреплённых знамениями их правдивости."
     }
-  ],
-  "countries": [
+   ],
+   "quran": {
+    "verse": "﴿رُسُلًا مُبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ﴾",
+    "ref": {
+     "ar": "سورة النساء: ١٦٥",
+     "en": "Sūrat al-Nisāʾ: 165",
+     "ru": "Сура ан-Ниса: 165",
+     "es": "Sura an-Nisa: 165"
+    },
+    "url": "https://quran.com/4/165"
+   },
+   "conclusion": {
+    "ar": "الإقرار بخالقٍ حكيمٍ يستلزم انتظار بيانٍ منه، فالنبوة مقتضى الحكمة لا زيادةً عليها.",
+    "en": "Acknowledging a wise Creator entails expecting clarification from Him; prophethood is a requirement of wisdom, not an addition to it.",
+    "ru": "Признание мудрого Творца влечёт ожидание разъяснения от Него; пророчество есть требование мудрости, а не добавление к ней."
+   }
+  },
+  {
+   "id": "ijaz",
+   "ref": "A7",
+   "title": {
+    "ar": "دليل التحدّي وإعجاز القرآن",
+    "en": "The Challenge & the Qurʾān's Inimitability",
+    "ru": "Довод вызова и неподражаемости Корана"
+   },
+   "tagline": {
+    "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
+    "en": "A standing challenge that has gone unmet",
+    "ru": "Стоящий вызов, на который не ответили"
+   },
+   "premises": [
     {
-      "code": "SA",
-      "flag": "🇸🇦",
-      "name": {
-        "ar": "المملكة العربية السعودية",
-        "en": "Saudi Arabia",
-        "ru": "Саудовская Аравия"
-      },
-      "school": "hanbali"
+     "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
+     "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
+     "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины."
     },
     {
-      "code": "QA",
-      "flag": "🇶🇦",
-      "name": {
-        "ar": "قطر",
-        "en": "Qatar",
-        "ru": "Катар"
-      },
-      "school": "hanbali"
+     "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
+     "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
+     "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить."
     },
     {
-      "code": "KW",
-      "flag": "🇰🇼",
-      "name": {
-        "ar": "الكويت",
-        "en": "Kuwait",
-        "ru": "Кувейт"
-      },
-      "school": "hanbali"
-    },
-    {
-      "code": "MA",
-      "flag": "🇲🇦",
-      "name": {
-        "ar": "المغرب",
-        "en": "Morocco",
-        "ru": "Марокко"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "DZ",
-      "flag": "🇩🇿",
-      "name": {
-        "ar": "الجزائر",
-        "en": "Algeria",
-        "ru": "Алжир"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "TN",
-      "flag": "🇹🇳",
-      "name": {
-        "ar": "تونس",
-        "en": "Tunisia",
-        "ru": "Тунис"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "LY",
-      "flag": "🇱🇾",
-      "name": {
-        "ar": "ليبيا",
-        "en": "Libya",
-        "ru": "Ливия"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "MR",
-      "flag": "🇲🇷",
-      "name": {
-        "ar": "موريتانيا",
-        "en": "Mauritania",
-        "ru": "Мавритания"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "AE",
-      "flag": "🇦🇪",
-      "name": {
-        "ar": "الإمارات العربية المتحدة",
-        "en": "United Arab Emirates",
-        "ru": "ОАЭ"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "BH",
-      "flag": "🇧🇭",
-      "name": {
-        "ar": "البحرين",
-        "en": "Bahrain",
-        "ru": "Бахрейн"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "SD",
-      "flag": "🇸🇩",
-      "name": {
-        "ar": "السودان",
-        "en": "Sudan",
-        "ru": "Судан"
-      },
-      "school": "maliki"
-    },
-    {
-      "code": "EG",
-      "flag": "🇪🇬",
-      "name": {
-        "ar": "مصر",
-        "en": "Egypt",
-        "ru": "Египет"
-      },
-      "school": "shafii"
-    },
-    {
-      "code": "YE",
-      "flag": "🇾🇪",
-      "name": {
-        "ar": "اليمن",
-        "en": "Yemen",
-        "ru": "Йемен"
-      },
-      "school": "shafii"
-    },
-    {
-      "code": "ID",
-      "flag": "🇮🇩",
-      "name": {
-        "ar": "إندونيسيا",
-        "en": "Indonesia",
-        "ru": "Индонезия"
-      },
-      "school": "shafii"
-    },
-    {
-      "code": "MY",
-      "flag": "🇲🇾",
-      "name": {
-        "ar": "ماليزيا",
-        "en": "Malaysia",
-        "ru": "Малайзия"
-      },
-      "school": "shafii"
-    },
-    {
-      "code": "SO",
-      "flag": "🇸🇴",
-      "name": {
-        "ar": "الصومال",
-        "en": "Somalia",
-        "ru": "Сомали"
-      },
-      "school": "shafii"
-    },
-    {
-      "code": "TR",
-      "flag": "🇹🇷",
-      "name": {
-        "ar": "تركيا",
-        "en": "Turkey",
-        "ru": "Турция"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "PK",
-      "flag": "🇵🇰",
-      "name": {
-        "ar": "باكستان",
-        "en": "Pakistan",
-        "ru": "Пакистан"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "BD",
-      "flag": "🇧🇩",
-      "name": {
-        "ar": "بنغلاديش",
-        "en": "Bangladesh",
-        "ru": "Бангладеш"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "AF",
-      "flag": "🇦🇫",
-      "name": {
-        "ar": "أفغانستان",
-        "en": "Afghanistan",
-        "ru": "Афганистан"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "JO",
-      "flag": "🇯🇴",
-      "name": {
-        "ar": "الأردن",
-        "en": "Jordan",
-        "ru": "Иордания"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "PS",
-      "flag": "🇵🇸",
-      "name": {
-        "ar": "فلسطين",
-        "en": "Palestine",
-        "ru": "Палестина"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "SY",
-      "flag": "🇸🇾",
-      "name": {
-        "ar": "سوريا",
-        "en": "Syria",
-        "ru": "Сирия"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "IQ",
-      "flag": "🇮🇶",
-      "name": {
-        "ar": "العراق",
-        "en": "Iraq",
-        "ru": "Ирак"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "IN",
-      "flag": "🇮🇳",
-      "name": {
-        "ar": "الهند",
-        "en": "India",
-        "ru": "Индия"
-      },
-      "school": "hanafi"
-    },
-    {
-      "code": "OM",
-      "flag": "🇴🇲",
-      "name": {
-        "ar": "سلطنة عمان",
-        "en": "Oman",
-        "ru": "Оман"
-      },
-      "school": null
-    },
-    {
-      "code": "RU",
-      "flag": "🇷🇺",
-      "name": {
-        "ar": "روسيا",
-        "en": "Russia",
-        "ru": "Россия"
-      },
-      "school": null
+     "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
+     "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
+     "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое."
     }
-  ]
+   ],
+   "quran": {
+    "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
+    "ref": {
+     "ar": "سورة الإسراء: ٨٨",
+     "en": "Sūrat al-Isrāʾ: 88",
+     "ru": "Сура аль-Исра: 88",
+     "es": "Sura al-Isra: 88"
+    },
+    "url": "https://quran.com/17/88"
+   },
+   "conclusion": {
+    "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
+    "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
+    "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь."
+   }
+  },
+  {
+   "id": "hifz",
+   "ref": "A8",
+   "title": {
+    "ar": "دليل حفظ القرآن من التبديل",
+    "en": "The Preservation of the Qurʾān",
+    "ru": "Довод сохранности Корана"
+   },
+   "tagline": {
+    "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
+    "en": "Mass transmission renders collusion in alteration impossible",
+    "ru": "Массовая передача делает сговор об искажении невозможным"
+   },
+   "premises": [
+    {
+     "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
+     "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
+     "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен."
+    },
+    {
+     "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
+     "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
+     "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их."
+    }
+   ],
+   "quran": {
+    "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
+    "ref": {
+     "ar": "سورة الحجر: ٩",
+     "en": "Sūrat al-Ḥijr: 9",
+     "ru": "Сура аль-Хиджр: 9",
+     "es": "Sura al-Hiyr: 9"
+    },
+    "url": "https://quran.com/15/9"
+   },
+   "conclusion": {
+    "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
+    "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
+    "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей."
+   }
+  },
+  {
+   "id": "wahdat",
+   "ref": "A9",
+   "title": {
+    "ar": "دليل وحدة مصدر الرسالات",
+    "en": "The Single Source of the Messages",
+    "ru": "Довод единого источника посланий"
+   },
+   "tagline": {
+    "ar": "أصلٌ واحدٌ تكرّر على تباعد الأزمنة والأمم",
+    "en": "One core repeated across distant ages and nations",
+    "ru": "Единая основа, повторявшаяся сквозь эпохи и народы"
+   },
+   "premises": [
+    {
+     "ar": "الرسالات على تباعد أزمنتها وأممها وألسنتها متفقةٌ في أصلٍ واحد: إفراد الخالق بالعبادة، والإقرار بالجزاء.",
+     "en": "The messages, despite their distant ages, nations and tongues, agree upon a single core: devoting worship to the Creator alone, and affirming the reckoning.",
+     "ru": "Послания, при всей отдалённости эпох, народов и языков, сходятся в единой основе: посвящении поклонения одному Творцу и признании воздаяния."
+    },
+    {
+     "ar": "واختلافها إنما وقع في الشرائع العملية التي تتبدّل بتبدّل أحوال الأمم، لا في هذا الأصل الاعتقادي.",
+     "en": "Their divergence occurred only in practical laws, which shift with the changing circumstances of nations, not in this doctrinal core.",
+     "ru": "Их расхождение касалось лишь практических законов, меняющихся с обстоятельствами народов, а не этой вероучительной основы."
+    },
+    {
+     "ar": "واتفاقٌ في الأصل مع اختلافٍ في الفروع لا يُعلَّل بالتواطؤ ولا بالمصادفة، ويُعلَّل بوحدة المُرسِل.",
+     "en": "Agreement in the core alongside difference in the branches is explained neither by collusion nor by coincidence, but by the oneness of the Sender.",
+     "ru": "Согласие в основе при различии в ответвлениях объясняется не сговором и не случайностью, а единством Пославшего."
+    }
+   ],
+   "quran": {
+    "verse": "﴿وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ﴾",
+    "ref": {
+     "ar": "سورة الأنبياء: ٢٥",
+     "en": "Sūrat al-Anbiyāʾ: 25",
+     "ru": "Сура аль-Анбия: 25",
+     "es": "Sura al-Anbiya: 25"
+    },
+    "url": "https://quran.com/21/25"
+   },
+   "conclusion": {
+    "ar": "فالاتفاق في الأصل مع تباين الأزمنة دليلٌ على أن مصدر الرسالات واحد، وأنها سلسلةٌ متصلةٌ لا رسالاتٌ متنافسة.",
+    "en": "Agreement in the core across separated ages thus indicates a single source for the messages — a connected chain, not competing revelations.",
+    "ru": "Согласие в основе сквозь разделённые эпохи указывает на единый источник посланий — связанную цепь, а не соперничающие откровения."
+   }
+  },
+  {
+   "id": "khatm",
+   "ref": "A10",
+   "title": {
+    "ar": "دليل ختم الرسالات",
+    "en": "The Sealing of Prophethood",
+    "ru": "Довод завершённости посланничества"
+   },
+   "tagline": {
+    "ar": "تعاقب الرسل معلولٌ بعلّةٍ تنتفي بالحفظ",
+    "en": "Successive messengers had a cause that preservation removes",
+    "ru": "Смена посланников имела причину, устраняемую сохранностью"
+   },
+   "premises": [
+    {
+     "ar": "إنما تعاقبت الرسل لعلّتين: ضياع الرسالة السابقة أو تبدّلها، وخصوص دعوتها بقومٍ دون قوم.",
+     "en": "Messengers succeeded one another for two causes: the loss or alteration of the previous message, and its address being confined to one people.",
+     "ru": "Посланники сменяли друг друга по двум причинам: утрата или искажение прежнего послания и обращённость его лишь к одному народу."
+    },
+    {
+     "ar": "فإذا حُفظت رسالةٌ من التبديل وجاءت عامّةً لجميع الناس، ارتفعت العلّتان معًا.",
+     "en": "If a message is preserved from alteration and comes addressed to all mankind, both causes are removed together.",
+     "ru": "Если послание сохранено от искажения и обращено ко всем людям, обе причины устраняются разом."
+    },
+    {
+     "ar": "وارتفاع العلّة يوجب ارتفاع المعلول، إذ لا يبقى للإرسال بعدها مقتضٍ في الحكمة.",
+     "en": "The removal of a cause entails the removal of its effect, for wisdom then retains no reason to send again.",
+     "ru": "Устранение причины влечёт устранение следствия, ибо у мудрости не остаётся основания посылать вновь."
+    }
+   ],
+   "quran": {
+    "verse": "﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ ...﴾",
+    "ref": {
+     "ar": "سورة الأحزاب: ٤٠",
+     "en": "Sūrat al-Aḥzāb: 40",
+     "ru": "Сура аль-Ахзаб: 40",
+     "es": "Sura al-Ahzab: 40"
+    },
+    "url": "https://quran.com/33/40"
+   },
+   "conclusion": {
+    "ar": "فلمّا ارتفعت علّتا التعاقب بحفظ الرسالة وعمومها، لزم أن تكون خاتمةً، والختم مقتضى الحكمة لا دعوى مجرّدة.",
+    "en": "Since both causes of succession are removed by the message's preservation and universality, it follows that it is final — finality being a requirement of wisdom, not a bare claim.",
+    "ru": "Поскольку обе причины смены устранены сохранностью и всеобщностью послания, оно является завершающим — завершённость есть требование мудрости, а не голое утверждение."
+   }
+  },
+  {
+   "id": "wasita",
+   "ref": "A11",
+   "title": {
+    "ar": "دليل انتفاء الواسطة",
+    "en": "The Absence of an Intermediary",
+    "ru": "Довод отсутствия посредника"
+   },
+   "tagline": {
+    "ar": "افتقار الدعاء إلى واسطةٍ يستلزم نقصًا في المدعوّ",
+    "en": "Needing an intermediary would imply deficiency in the One called upon",
+    "ru": "Нужда в посреднике подразумевала бы изъян у Того, к Кому взывают"
+   },
+   "premises": [
+    {
+     "ar": "افتقار الداعي إلى واسطةٍ يقتضي أحد أمرين: خفاءَ حال الداعي على المدعوّ، أو حاجةَ المدعوّ إلى من يستعطفه.",
+     "en": "Requiring an intermediary implies one of two things: that the caller's state is hidden from the One called, or that the One called needs someone to soften Him.",
+     "ru": "Нужда в посреднике подразумевает одно из двух: что состояние взывающего скрыто от Того, к Кому взывают, или что Он нуждается в ком-то, кто смягчил бы Его."
+    },
+    {
+     "ar": "وكلا الأمرين نقصٌ يمتنع على الخالق، إذ كماله يقتضي إحاطة علمه وسعة رحمته وغناه عن الوسائط.",
+     "en": "Both are deficiencies impossible for the Creator, since His perfection entails encompassing knowledge, vast mercy, and independence from intermediaries.",
+     "ru": "Оба суть изъяны, невозможные для Творца, ибо Его совершенство влечёт всеохватность знания, широту милости и независимость от посредников."
+    }
+   ],
+   "quran": {
+    "verse": "﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ ...﴾",
+    "ref": {
+     "ar": "سورة البقرة: ١٨٦",
+     "en": "Sūrat al-Baqarah: 186",
+     "ru": "Сура аль-Бакара: 186",
+     "es": "Sura al-Baqara: 186"
+    },
+    "url": "https://quran.com/2/186"
+   },
+   "conclusion": {
+    "ar": "فتنزيه الخالق عن النقص يقتضي أن يكون الاتصال به مباشرًا، وأن الواسطة في الدعاء منتفيةٌ لا محذوفةٌ تعبّدًا.",
+    "en": "Declaring the Creator free of deficiency therefore entails that access to Him is direct, and that intermediation in supplication is negated by reason, not merely omitted by ritual.",
+    "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом."
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "id": "hadath",
+   "term": {
+    "ar": "حَدَث",
+    "en": "Hadath",
+    "ru": "Хадас"
+   },
+   "definition": {
+    "ar": "حالة معنوية تمنع من الصلاة ونحوها، وترتفع بالوضوء أو الغسل. الأصغر يرتفع بالوضوء، والأكبر بالغسل.",
+    "en": "A state of ritual impurity that prevents prayer until removed. The minor state is lifted by ablution (wudu), the major by a full bath (ghusl).",
+    "ru": "Состояние ритуальной нечистоты, мешающее молитве. Малый хадас снимается омовением (вуду), большой — полным омовением (гусль)."
+   }
+  },
+  {
+   "id": "niyyah",
+   "term": {
+    "ar": "نِيَّة",
+    "en": "Niyyah",
+    "ru": "Нийя"
+   },
+   "definition": {
+    "ar": "قصد القلب للعبادة تقرباً إلى الله، وهي شرط لصحة أغلب العبادات كالصلاة والصيام والوضوء.",
+    "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
+    "ru": "Намерение сердца совершить поклонение ради Аллаха — условие действительности большинства обрядов: молитвы, поста, омовения."
+   }
+  },
+  {
+   "id": "tawatur",
+   "term": {
+    "ar": "تَوَاتُر",
+    "en": "Tawatur",
+    "ru": "Таватур"
+   },
+   "definition": {
+    "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
+    "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
+    "ru": "Передача сообщения множеством независимых передатчиков, сговор которых о лжи невозможен, что даёт достоверное знание. Так передан Коран."
+   }
+  },
+  {
+   "id": "wudu",
+   "term": {
+    "ar": "وُضُوء",
+    "en": "Wudu",
+    "ru": "Вуду"
+   },
+   "definition": {
+    "ar": "طهارة بالماء تشمل غسل الوجه واليدين ومسح الرأس وغسل الرجلين، تُشترط لصحة الصلاة.",
+    "en": "Ritual ablution with water — washing the face, arms, wiping the head, and washing the feet — required for the validity of prayer.",
+    "ru": "Ритуальное омовение водой: лицо, руки, протирание головы и мытьё ног — необходимо для действительности молитвы."
+   }
+  },
+  {
+   "id": "najasah",
+   "term": {
+    "ar": "نَجَاسَة",
+    "en": "Najasah",
+    "ru": "Наджаса"
+   },
+   "definition": {
+    "ar": "قذارة حسية حكم الشرع بنجاستها كالبول والدم المسفوح، يجب إزالتها عن البدن والثوب والمكان للصلاة.",
+    "en": "A physical impurity ruled unclean by the Sharia (e.g., urine, flowing blood) that must be removed from body, clothes, and place before prayer.",
+    "ru": "Материальная нечистота, признанная Шариатом (моча, пролитая кровь), которую нужно удалить с тела, одежды и места перед молитвой."
+   }
+  },
+  {
+   "id": "tayammum",
+   "term": {
+    "ar": "تَيَمُّم",
+    "en": "Tayammum",
+    "ru": "Таяммум"
+   },
+   "definition": {
+    "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
+    "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
+    "ru": "Сухое очищение чистой землёй вместо воды при её отсутствии или невозможности использования из-за болезни и т. п."
+   }
+  },
+  {
+   "id": "ijma",
+   "term": {
+    "ar": "إِجْمَاع",
+    "en": "Ijma",
+    "ru": "Иджма"
+   },
+   "definition": {
+    "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
+    "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
+    "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны."
+   }
+  },
+  {
+   "id": "qiyas",
+   "term": {
+    "ar": "قِيَاس",
+    "en": "Qiyas",
+    "ru": "Кияс"
+   },
+   "definition": {
+    "ar": "إلحاق مسألة لا نص فيها بمسألة منصوصة لاشتراكهما في العلة، وهو من أصول الاستنباط.",
+    "en": "Analogical reasoning: extending a ruling from a textually addressed case to a new case sharing the same effective cause.",
+    "ru": "Аналогия: перенос заключения с прямо оговорённого случая на новый, имеющий ту же причину."
+   }
+  },
+  {
+   "id": "sunnah-muakkadah",
+   "term": {
+    "ar": "سُنَّةٌ مُؤَكَّدَةٌ",
+    "en": "Sunnah Mu'akkadah",
+    "ru": "Сунна Муаккада",
+    "es": "Sunnah Mu'akkadah",
+    "uk": "Сунна Муаккада"
+   },
+   "briefDefinition": {
+    "ar": "ما داوم عليه النبي ﷺ ولم يتركه إلا نادراً، وثبت الحث عليه دون فرضية جازمة.",
+    "en": "What the Prophet ﷺ performed consistently, leaving it rarely, with encouragement without strict obligation.",
+    "ru": "То, что Пророк ﷺ совершал регулярно и редко оставлял, с побуждением без обязательности.",
+    "es": "Lo que el Profeta ﷺ realizó de manera constante, dejándolo rara vez, con exhortación sin obligación estricta.",
+    "uk": "Те, що Пророк ﷺ чинив регулярно і рідко залишав, із заохоченням без суворої обов'язковості."
+   },
+   "linguistic": {
+    "ar": "الطريقة المتبعة والسيرة المستمرة محمودة كانت أو مذمومة.",
+    "en": "The followed path and continuous practice, whether praiseworthy or blameworthy.",
+    "ru": "Следуемый путь и постоянная практика, будь она похвальной или порицаемой.",
+    "es": "El camino seguido y la práctica continua, ya sea elogiable o censurable.",
+    "uk": "Шлях, за яким слідують, і постійна практика, будь вона схвальною чи осудливою."
+   },
+   "legal": {
+    "ar": "ما أُثيب فاعله امتثالاً ولم يُعاقب تاركه، مع المواظبة النبوية عليها.",
+    "en": "That for which the actor is rewarded out of obedience and the abandoner is not punished, with Prophetic consistency.",
+    "ru": "То, за совершение чего с повиновением дается награда, а за оставление нет наказания, при регулярности Пророка.",
+    "es": "Aquello por lo cual se recompensa al ejecutante por obediencia y no se castiga a quien lo abandona, con constancia profética.",
+    "uk": "Те, за вчинення чого з покорою дається нагорода, а за залишення немає покарання, при регулярності Пророка."
+   },
+   "technical": {
+    "hanafi": {
+     "text": {
+      "ar": "ما واظب عليه النبي ﷺ مع الترك أحياناً لبيان عدم الوجوب، ويُلام تاركها بلا عذر ولا يُعاقب.",
+      "en": "What the Prophet ﷺ maintained consistently while leaving it occasionally to clarify non-obligatoriness, where its abandoner is blamed without excuse but not punished.",
+      "ru": "То, совершение чего Пророк ﷺ совершал регулярно, иногда оставляя для разъяснения необязательности, за оставление чего без уважительной причины порицают, но не наказывают.",
+      "es": "Lo que el Profeta ﷺ mantuvo constantemente, dejándolo ocasionalmente para aclarar la no obligatoriedad, reprochando a quien lo abandona sin excusa pero sin castigarlo.",
+      "uk": "Те, чого Пророк ﷺ дотримувався регулярно, іноді залишаючи для роз'яснення необов'язковості, за залишення чого без поважної причини докоряють, але не карають."
+     },
+     "sources": [
+      {
+       "ar": "الهداية",
+       "en": "Al-Hidāyah",
+       "ru": "«Аль-Хидая»",
+       "es": "Al-Hidāyah",
+       "uk": "«Аль-Хідая»"
+      },
+      {
+       "ar": "رد المحتار",
+       "en": "Radd al-Muḥtār",
+       "ru": "«Радд аль-Мухтар»",
+       "es": "Radd al-Muḥtār",
+       "uk": "«Радд аль-Мухтар»"
+      },
+      {
+       "ar": "تبيين الحقائق",
+       "en": "Tabyīn al-Ḥaqāʾiq",
+       "ru": "«Табйин аль-Хакаик»",
+       "es": "Tabyīn al-Ḥaqāʾiq",
+       "uk": "«Табйін аль-Хакаїк»"
+      }
+     ]
+    },
+    "maliki": {
+     "text": {
+      "ar": "ما أظهرها النبي ﷺ وداوم عليها في جماعة ولم تدل القرائن على فرضيتها.",
+      "en": "What the Prophet ﷺ made public and persisted in doing in congregation, where context did not indicate obligation.",
+      "ru": "То, что Пророк ﷺ совершал открыто и регулярно в джамаате, и контекст не указывал на обязательность.",
+      "es": "Lo que el Profeta ﷺ hizo público y persistió en hacer en congregación, sin que los indicios indicaran obligatoriedad.",
+      "uk": "Те, що Пророк ﷺ чинив прилюдно і регулярно в громаді, і контекст не вказував на обов'язковість."
+     },
+     "sources": [
+      {
+       "ar": "المدونة",
+       "en": "Al-Mudawwanah",
+       "ru": "«Аль-Мудаввана»",
+       "es": "Al-Mudawwanah",
+       "uk": "«Аль-Мудаввана»"
+      },
+      {
+       "ar": "الشرح الكبير",
+       "en": "Al-Sharḥ al-Kabīr",
+       "ru": "«Аш-Шарх аль-Кабир»",
+       "es": "Al-Sharḥ al-Kabīr",
+       "uk": "«Аш-Шарх аль-Кабір»"
+      },
+      {
+       "ar": "مواهب الجليل",
+       "en": "Mawāhib al-Jalīl",
+       "ru": "«Мавахиб аль-Джалиль»",
+       "es": "Mawāhib al-Jalīl",
+       "uk": "«Мавагіб аль-Джаліль»"
+      }
+     ]
+    },
+    "shafii": {
+     "text": {
+      "ar": "ما طُلب فعله طلباً غير جازم مع تأكد أمره والمواظبة على إظهاره في العبادات.",
+      "en": "What was requested without decisive obligation, with emphasized importance and consistent public performance in acts of worship.",
+      "ru": "То, совершение чего предписано нестрогим образом, с подчеркиванием важности и регулярным совершением в поклонении.",
+      "es": "Lo solicitado de manera no imperativa, con énfasis en su importancia y constancia en su práctica en los actos de culto.",
+      "uk": "Те, вчинення чого приписано несуворим чином, із підкресленням важливості та регулярним чиненням у поклонінні."
+     },
+     "sources": [
+      {
+       "ar": "الأم",
+       "en": "Al-Umm",
+       "ru": "«Аль-Умм»",
+       "es": "Al-Umm",
+       "uk": "«Аль-Умм»"
+      },
+      {
+       "ar": "منهاج الطالبين",
+       "en": "Minhāj al-Ṭālibīn",
+       "ru": "«Минхадж ат-Талибин»",
+       "es": "Minhāj al-Ṭālibīn",
+       "uk": "«Мінхадж ат-Талібін»"
+      },
+      {
+       "ar": "المجموع",
+       "en": "Al-Majmūʿ",
+       "ru": "«Аль-Маджму»",
+       "es": "Al-Majmūʿ",
+       "uk": "«Аль-Маджму»"
+      }
+     ]
+    },
+    "hanbali": {
+     "text": {
+      "ar": "ما أُمر به أمراً غير جازم مع مداومة النبي ﷺ على فعله وترتيب الثواب عليه.",
+      "en": "What was commanded non-decisively, alongside the Prophet's ﷺ constant performance and the promise of reward.",
+      "ru": "То, что было предписано без строгой обязательности, при постоянстве Пророка ﷺ в его совершении и обещании награды.",
+      "es": "Lo ordenado de forma no imperativa, junto con la práctica constante del Profeta ﷺ y la promesa de recompensa.",
+      "uk": "Те, що було наказано без суворої обов'язковості, при постійності Пророка ﷺ у його чиненні та обіцянці нагороди."
+     },
+     "sources": [
+      {
+       "ar": "المغني",
+       "en": "Al-Mughnī",
+       "ru": "«Аль-Мугни»",
+       "es": "Al-Mughnī",
+       "uk": "«Аль-Мугні»"
+      },
+      {
+       "ar": "الكافي",
+       "en": "Al-Kāfī",
+       "ru": "«Аль-Кафи»",
+       "es": "Al-Kāfī",
+       "uk": "«Аль-Кафі»"
+      },
+      {
+       "ar": "كشاف القناع",
+       "en": "Kashshāf al-Qināʿ",
+       "ru": "«Кашшаф аль-Кина»",
+       "es": "Kashshāf al-Qināʿ",
+       "uk": "«Кашшаф аль-Кіна»"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "fard-ayn",
+   "term": {
+    "ar": "فَرْضُ عَيْنٍ",
+    "en": "Farḍ ʿAyn",
+    "ru": "Фард айн",
+    "es": "Farḍ ʿAyn",
+    "uk": "Фард айн"
+   },
+   "briefDefinition": {
+    "ar": "ما أوجبه الشارع على كل مكلف بعينه ولا يسقط بفعل غيره عنه.",
+    "en": "What the Lawgiver has obligated upon every legally accountable individual personally, not waived by another's performance.",
+    "ru": "То, что Законодатель предписал каждому мукалляфу лично, и не снимается исполнением другого человека.",
+    "es": "Lo que el Legislador ha impuesto a cada persona responsable individualmente, sin eximirse por la acción de otro.",
+    "uk": "Те, що Законодавець приписав кожному мукалляфу особисто, і що не знімається виконанням іншої особи."
+   },
+   "linguistic": {
+    "ar": "الفرض التقدير والقطع والوجوب، والعين ذات الشيء وشخصه، والمراد الواجب المنسوب لعين المكلف بذاته.",
+    "en": "Farḍ means estimation and obligation, while ʿayn means the essence or individual, signifying obligation linked specifically to the person.",
+    "ru": "Фард означает предписание и обязательность, а айн — сущность или личность, что означает обязанность, возложенную лично на человека.",
+    "es": "Farḍ significa estimación u obligación, y ʿayn la esencia o persona, refiriéndose a la obligación vinculada a la persona misma.",
+    "uk": "Фард означає припис і обов'язковість, а айн — сутність чи особу, що означає обов'язок, покладений особисто на людину."
+   },
+   "legal": {
+    "ar": "ما طلب الشارع المكلف بفعله طلباً جازماً على سبيل الحتم واللزام بحيث يأثم تاركه مطلقاً.",
+    "en": "What the Lawgiver decisively demands every accountable individual to perform, making its abandonment unconditionally sinful.",
+    "ru": "То, исполнение чего Законодатель категорически потребовал от мукалляфа, так что за его оставление налагается грех.",
+    "es": "Lo que el Legislador exige de manera decisiva que cada persona responsable realice, haciendo que su omisión sea un pecado.",
+    "uk": "Те, виконання чого Законодавець категорично зажадав від мукалляфа, так що за його залишення накладається гріх."
+   },
+   "technical": {
+    "hanafi": {
+     "text": {
+      "ar": "ما ثبت بدليل قطعي لا شبهة فيه وكان مطلوباً من كل فرد بذاته كالصلاة والصوم.",
+      "en": "What is established by definitive evidence without ambiguity, required from every individual personally, such as prayer and fasting.",
+      "ru": "То, что установлено категорическим доказательством без сомнений и требуется от каждого человека лично, как молитва и пост.",
+      "es": "Lo establecido por evidencia definitiva sin duda, exigido a cada individuo personalmente, como la oración y el ayuno.",
+      "uk": "Те, що встановлено категоричним доказом без сумнівів і вимагається від кожної людини особисто, як молитва та піст."
+     },
+     "sources": [
+      {
+       "ar": "الهداية",
+       "en": "Al-Hidāyah",
+       "ru": "«Аль-Хидая»",
+       "es": "Al-Hidāyah",
+       "uk": "«Аль-Хідая»"
+      },
+      {
+       "ar": "رد المحتار",
+       "en": "Radd al-Muḥtār",
+       "ru": "«Радд аль-Мухтар»",
+       "es": "Radd al-Muḥtār",
+       "uk": "«Радд аль-Мухтар»"
+      }
+     ]
+    },
+    "maliki": {
+     "text": {
+      "ar": "الواجب المتوجه خطابه إلى عين كل مكلف بفعله ولا يتأدى بفعل غيره عنه.",
+      "en": "The obligation whose address is directed to the person of every accountable individual, not fulfilled by another's action.",
+      "ru": "Обязанность, предписание которой направлено к личности каждого мукалляфа, и не исполняется действием другого.",
+      "es": "La obligación cuya prescripción está dirigida a la persona de cada responsable, sin cumplirse por la acción de otro.",
+      "uk": "Обов'язок, припис якого спрямований до особи кожного мукалляфа, і не виконується дією іншого."
+     },
+     "sources": [
+      {
+       "ar": "المدونة",
+       "en": "Al-Mudawwanah",
+       "ru": "«Аль-Мудаввана»",
+       "es": "Al-Mudawwanah",
+       "uk": "«Аль-Мудаввана»"
+      },
+      {
+       "ar": "الشرح الكبير",
+       "en": "Al-Sharḥ al-Kabīr",
+       "ru": "«Аш-Шарх аль-Кабир»",
+       "es": "Al-Sharḥ al-Kabīr",
+       "uk": "«Аш-Шарх аль-Кабір»"
+      },
+      {
+       "ar": "مواهب الجليل",
+       "en": "Mawāhib al-Jalīl",
+       "ru": "«Мавахиб аль-Джалиль»",
+       "es": "Mawāhib al-Jalīl",
+       "uk": "«Мавагіб аль-Джаліль»"
+      }
+     ]
+    },
+    "shafii": {
+     "text": {
+      "ar": "ما حتم الشارع فعله على كل مكلف بعينه من غير أن يسقط بفعل أحد عن أحد.",
+      "en": "What the Lawgiver made strictly mandatory upon every individual person without being waived by one for another.",
+      "ru": "То, что Законодатель сделал строго обязательным для каждого человека лично, без снятия обязанности одним за другого.",
+      "es": "Lo que el Legislador hizo estrictamente obligatorio para cada persona individualmente, sin eximirse por la actuación de otra.",
+      "uk": "Те, що Законодавець зробив суворо обов'язковим для кожної людини особисто, без знімання обов'язку одним за іншого."
+     },
+     "sources": [
+      {
+       "ar": "الأم",
+       "en": "Al-Umm",
+       "ru": "«Аль-Умм»",
+       "es": "Al-Umm",
+       "uk": "«Аль-Умм»"
+      },
+      {
+       "ar": "منهاج الطالبين",
+       "en": "Minhāj al-Ṭālibīn",
+       "ru": "«Минхадж ат-Талибин»",
+       "es": "Minhāj al-Ṭālibīn",
+       "uk": "«Мінхадж ат-Талібін»"
+      },
+      {
+       "ar": "المجموع",
+       "en": "Al-Majmūʿ",
+       "ru": "«Аль-Маджму»",
+       "es": "Al-Majmūʿ",
+       "uk": "«Аль-Маджму»"
+      }
+     ]
+    },
+    "hanbali": {
+     "text": {
+      "ar": "الواجب الذي يلزم كل مكلف في نفسه لزوماً جازماً ولا يجزئ فيه فعل غيره عنه.",
+      "en": "The obligation binding upon every accountable individual personally in a decisive manner, where another's act does not suffice.",
+      "ru": "Обязанность, связывающая каждого мукалляфа лично категорическим образом, при которой действие другого человека не заменяет её.",
+      "es": "La obligación que vincula a cada persona responsable de manera decisiva, donde la acción de otro no la sustituye.",
+      "uk": "Обов'язок, що зв'язує кожного мукалляфа особисто категоричним чином, при якому дія іншої людини її не замінює."
+     },
+     "sources": [
+      {
+       "ar": "المغني",
+       "en": "Al-Mughnī",
+       "ru": "«Аль-Мугни»",
+       "es": "Al-Mughnī",
+       "uk": "«Аль-Мугні»"
+      },
+      {
+       "ar": "الكافي",
+       "en": "Al-Kāfī",
+       "ru": "«Аль-Кафи»",
+       "es": "Al-Kāfī",
+       "uk": "«Аль-Кафі»"
+      },
+      {
+       "ar": "كشاف القناع",
+       "en": "Kashshāf al-Qināʿ",
+       "ru": "«Кашшаф аль-Кина»",
+       "es": "Kashshāf al-Qināʿ",
+       "uk": "«Кашшаф аль-Кіна»"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "guides": [
+  {
+   "id": "wudu-steps",
+   "bookId": "taharah",
+   "title": {
+    "ar": "خطوات الوضوء",
+    "en": "Steps of Wudu (Ablution)",
+    "ru": "Шаги омовения (вуду)"
+   },
+   "intro": {
+    "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
+    "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
+    "ru": "Практическое пошаговое руководство по правильному омовению перед молитвой."
+   },
+   "steps": [
+    {
+     "title": {
+      "ar": "النية",
+      "en": "Intention (Niyyah)",
+      "ru": "Намерение (нийя)"
+     },
+     "text": {
+      "ar": "انوِ بقلبك رفع الحدث والطهارة للصلاة، دون التلفظ بها.",
+      "en": "Form the intention in your heart to purify yourself for prayer; no spoken formula is needed.",
+      "ru": "Намеревайтесь сердцем очиститься для молитвы; произносить вслух не нужно."
+     }
+    },
+    {
+     "title": {
+      "ar": "التسمية وغسل الكفين",
+      "en": "Say Bismillah & wash hands",
+      "ru": "«Бисмиллях» и мытьё кистей"
+     },
+     "text": {
+      "ar": "قل: بسم الله، ثم اغسل كفيك ثلاث مرات.",
+      "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
+      "ru": "Скажите «Бисмиллях», затем трижды вымойте кисти рук."
+     }
+    },
+    {
+     "title": {
+      "ar": "المضمضة والاستنشاق",
+      "en": "Rinse mouth & nose",
+      "ru": "Полоскание рта и носа"
+     },
+     "text": {
+      "ar": "تمضمض واستنشق الماء ثم استنثره ثلاث مرات.",
+      "en": "Rinse the mouth and draw water into the nose, then expel it — three times.",
+      "ru": "Прополощите рот и вдохните воду носом, затем высморкайтесь — трижды."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل الوجه",
+      "en": "Wash the face",
+      "ru": "Мытьё лица"
+     },
+     "text": {
+      "ar": "اغسل وجهك كاملاً من منابت الشعر إلى الذقن وعرضاً بين الأذنين ثلاث مرات.",
+      "en": "Wash the whole face from hairline to chin and ear to ear, three times.",
+      "ru": "Вымойте всё лицо от линии волос до подбородка и от уха до уха — трижды."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل اليدين إلى المرفقين",
+      "en": "Wash arms to elbows",
+      "ru": "Мытьё рук до локтей"
+     },
+     "text": {
+      "ar": "اغسل يديك من أطراف الأصابع إلى المرفقين، اليمنى ثم اليسرى، ثلاث مرات.",
+      "en": "Wash each arm from fingertips to and including the elbow — right then left, three times.",
+      "ru": "Вымойте руки от пальцев до локтей включительно — сначала правую, затем левую, трижды."
+     }
+    },
+    {
+     "title": {
+      "ar": "مسح الرأس والأذنين",
+      "en": "Wipe head & ears",
+      "ru": "Протирание головы и ушей"
+     },
+     "text": {
+      "ar": "امسح رأسك بيديك مبلولتين من مقدمته إلى مؤخرته ثم امسح أذنيك، مرة واحدة.",
+      "en": "With wet hands wipe the head front to back, then wipe the ears — once.",
+      "ru": "Мокрыми руками протрите голову спереди назад, затем протрите уши — один раз."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل الرجلين إلى الكعبين",
+      "en": "Wash feet to ankles",
+      "ru": "Мытьё ног до щиколоток"
+     },
+     "text": {
+      "ar": "اغسل رجليك إلى الكعبين مع تخليل الأصابع، اليمنى ثم اليسرى، ثلاث مرات.",
+      "en": "Wash both feet up to and including the ankles, rubbing between the toes — right then left, three times.",
+      "ru": "Вымойте ноги до щиколоток включительно, протирая между пальцами — правую, затем левую, трижды."
+     }
+    }
+   ]
+  },
+  {
+   "id": "salah-steps",
+   "bookId": "salah",
+   "title": {
+    "ar": "أركان الصلاة العملية",
+    "en": "The Prayer Sequence",
+    "ru": "Последовательность молитвы"
+   },
+   "intro": {
+    "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
+    "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
+    "ru": "Основная последовательность положений в одном ракаате молитвы."
+   },
+   "steps": [
+    {
+     "title": {
+      "ar": "تكبيرة الإحرام",
+      "en": "Opening Takbir",
+      "ru": "Вступительный такбир"
+     },
+     "text": {
+      "ar": "قف مستقبلاً القبلة وارفع يديك قائلاً: الله أكبر.",
+      "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
+      "ru": "Встаньте лицом к кибле, поднимите руки и скажите «Аллаху Акбар»."
+     }
+    },
+    {
+     "title": {
+      "ar": "القيام والقراءة",
+      "en": "Standing & recitation",
+      "ru": "Стояние и чтение"
+     },
+     "text": {
+      "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
+      "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
+      "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана."
+     }
+    },
+    {
+     "title": {
+      "ar": "الركوع",
+      "en": "Bowing (Ruku)",
+      "ru": "Поясной поклон (руку)"
+     },
+     "text": {
+      "ar": "انحنِ حتى تستوي ظهرك قائلاً: سبحان ربي العظيم.",
+      "en": "Bow with a straight back, saying 'Subhana Rabbiyal-Azim'.",
+      "ru": "Поклонитесь с ровной спиной, говоря «Субхана Рабби аль-Азым»."
+     }
+    },
+    {
+     "title": {
+      "ar": "الاعتدال",
+      "en": "Rising",
+      "ru": "Выпрямление"
+     },
+     "text": {
+      "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
+      "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
+      "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд»."
+     }
+    },
+    {
+     "title": {
+      "ar": "السجود",
+      "en": "Prostration (Sujud)",
+      "ru": "Земной поклон (суджуд)"
+     },
+     "text": {
+      "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
+      "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
+      "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат."
+     }
+    }
+   ]
+  },
+  {
+   "id": "wudu-steps-detailed",
+   "bookId": "taharah",
+   "title": {
+    "ar": "صفة الوضوء الكامل والمجزئ",
+    "en": "Method of Minor Purification (Wudu)",
+    "ru": "Способ совершения малого омывания (Уду)"
+   },
+   "intro": {
+    "ar": "الخطوات العملية للوضوء مستوفية الفرائض والسنن وفق الفقه الإسلامي",
+    "en": "Practical steps for Wudu including obligatory and recommended actions",
+    "ru": "Практические шаги малого омывания, включая обязательные и желательные действия"
+   },
+   "steps": [
+    {
+     "title": {
+      "ar": "النية والتسمية",
+      "en": "Intention and Basmalah",
+      "ru": "Намерение и Басмала"
+     },
+     "text": {
+      "ar": "النية بالقلب لرفع الحدث الأصغر، ثم قول «بسم الله».",
+      "en": "Intend in the heart to remove minor impurity, then say 'Bismillah'.",
+      "ru": "Намерение в сердце снять малое осквернение, затем произнесение «Бисмиллях»."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل الكفين",
+      "en": "Washing Hands",
+      "ru": "Мытье кистей рук"
+     },
+     "text": {
+      "ar": "غسل الكفين إلى الرسغين ثلاث مرات مع تخليل الأصابع (وهي سنة مؤكدة).",
+      "en": "Wash both hands up to the wrists three times, interlacing fingers.",
+      "ru": "Троекратное мытье кистей рук до запястий с переплетением пальцев."
+     }
+    },
+    {
+     "title": {
+      "ar": "المضمضة والاستنشاق",
+      "en": "Rinsing Mouth and Nose",
+      "ru": "Полоскание рта и носа"
+     },
+     "text": {
+      "ar": "المضمضة والاستنشاق بيمينه والاستنثار بيساره ثلاث مرات بغرفة واحدة أو غرفات.",
+      "en": "Rinse mouth and sniff water into nostrils three times using the right hand and blowing out with left.",
+      "ru": "Троекратное полоскание рта и втягивание воды в нос правой рукой и высмаркивание левой."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل الوجه",
+      "en": "Washing the Face",
+      "ru": "Мытье лица"
+     },
+     "text": {
+      "ar": "غسل الوجه كاملاً من منابت شعر الرأس إلى أسفل الذقن طولاً، ومن الأذن إلى الأذن عرضاً (ثلاثاً).",
+      "en": "Wash the entire face from hairline to chin vertically, and ear to ear horizontally (three times).",
+      "ru": "Троекратное мытье всего лица от линии волос до подбородка и от уха до уха."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل اليدين إلى المرفقين",
+      "en": "Washing Arms to Elbows",
+      "ru": "Мытье рук до локтей"
+     },
+     "text": {
+      "ar": "غسل اليد اليمنى ثم اليسرى من أطراف الأصابع مع إدخال المرفقين في الغسل (ثلاثاً).",
+      "en": "Wash right arm then left arm including the elbows (three times).",
+      "ru": "Троекратное мытье правой, затем левой руки, включая локти."
+     }
+    },
+    {
+     "title": {
+      "ar": "مسح الرأس والأذنين",
+      "en": "Wiping Head and Ears",
+      "ru": "Протирание головы и ушей"
+     },
+     "text": {
+      "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
+      "en": "Wipe the head once (or part of it in Hanafi/Shafi'i), then wipe inside and outside of ears.",
+      "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей."
+     }
+    },
+    {
+     "title": {
+      "ar": "غسل الرجلين إلى الكعبين",
+      "en": "Washing Feet to Ankles",
+      "ru": "Мытье ног до лодыжек"
+     },
+     "text": {
+      "ar": "غسل القدم اليمنى ثم اليسرى مع إدخال الكعبين وتخليل أصابع القدمين (ثلاثاً).",
+      "en": "Wash right foot then left foot up to and including the ankles, clean between toes (three times).",
+      "ru": "Троекратное мытье правой, затем левой ноги, включая лодыжки и между пальцами."
+     }
+    }
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "id": "faq-conversion",
+   "category": {
+    "ar": "الدخول في الإسلام",
+    "en": "Conversion",
+    "ru": "Принятие ислама"
+   },
+   "question": {
+    "ar": "هل الدخول في الإسلام لحظي أم يحتاج إجراءات؟",
+    "en": "Is accepting Islam instant, or does it require a formal process?",
+    "ru": "Принятие ислама происходит мгновенно или нужна процедура?"
+   },
+   "answer": {
+    "ar": "الدخول في الإسلام لحظي بمجرد النطق بالشهادتين عن اقتناع: أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله. لا يشترط حضور شيخ ولا أوراق رسمية، وإنما توثيق الإسلام لاحقاً أمر تنظيمي فقط.",
+    "en": "It is instant: sincerely pronouncing the testimony of faith — 'I bear witness that there is no god but Allah, and Muhammad is His Messenger' — makes you Muslim. No cleric or paperwork is required; any later documentation is merely administrative.",
+    "ru": "Это происходит мгновенно: искреннее произнесение свидетельства веры — «Свидетельствую, что нет божества, кроме Аллаха, и Мухаммад — Его посланник» — делает вас мусульманином. Не требуется ни имам, ни документы; последующее оформление лишь административное."
+   }
+  },
+  {
+   "id": "faq-arabic",
+   "category": {
+    "ar": "اللغة",
+    "en": "Language",
+    "ru": "Язык"
+   },
+   "question": {
+    "ar": "هل يجب أن أتعلم العربية لأعتنق الإسلام؟",
+    "en": "Do I need to learn Arabic to accept Islam?",
+    "ru": "Нужно ли учить арабский, чтобы принять ислам?"
+   },
+   "answer": {
+    "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
+    "en": "No. You can accept Islam in any language you understand and learn the Qur'an and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
+    "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием."
+   }
+  },
+  {
+   "id": "faq-past-sins",
+   "category": {
+    "ar": "التوبة",
+    "en": "Repentance",
+    "ru": "Покаяние"
+   },
+   "question": {
+    "ar": "ماذا يحدث لذنوبي السابقة عند إسلامي؟",
+    "en": "What happens to my past sins when I embrace Islam?",
+    "ru": "Что происходит с прошлыми грехами при принятии ислама?"
+   },
+   "answer": {
+    "ar": "الإسلام يهدم ما قبله، فمن أسلم غُفرت له ذنوبه السابقة كلها ويبدأ صفحة جديدة نقية، كما صح عن النبي صلى الله عليه وسلم.",
+    "en": "Islam erases what came before it. Upon accepting Islam all previous sins are forgiven and you begin with a clean slate, as affirmed by the Prophet (peace be upon him).",
+    "ru": "Ислам стирает всё, что было до него. С принятием ислама все прежние грехи прощаются, и вы начинаете с чистого листа, как сообщил Пророк (мир ему)."
+   }
+  },
+  {
+   "id": "faq-five-pillars",
+   "category": {
+    "ar": "الأركان",
+    "en": "Foundations",
+    "ru": "Основы"
+   },
+   "question": {
+    "ar": "ما الذي يُطلب مني فعله بعد الإسلام مباشرة؟",
+    "en": "What am I expected to do right after becoming Muslim?",
+    "ru": "Что требуется делать сразу после принятия ислама?"
+   },
+   "answer": {
+    "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
+    "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
+    "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться."
+   }
+  },
+  {
+   "id": "faq-schools",
+   "category": {
+    "ar": "المذاهب",
+    "en": "Schools of law",
+    "ru": "Мазхабы"
+   },
+   "question": {
+    "ar": "لماذا تختلف المذاهب الأربعة، وأيها أتبع؟",
+    "en": "Why do the four schools differ, and which should I follow?",
+    "ru": "Почему четыре мазхаба различаются и какому следовать?"
+   },
+   "answer": {
+    "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
+    "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qur'an and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+    "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма."
+   }
+  },
+  {
+   "id": "faq-family",
+   "category": {
+    "ar": "المفاهيم",
+    "en": "Misconceptions",
+    "ru": "Заблуждения"
+   },
+   "question": {
+    "ar": "هل يجب أن أقطع علاقتي بعائلتي غير المسلمة؟",
+    "en": "Must I cut ties with my non-Muslim family?",
+    "ru": "Должен ли я разорвать связь с немусульманской семьёй?"
+   },
+   "answer": {
+    "ar": "لا، بل يأمر الإسلام ببرّ الوالدين والإحسان إلى الأقارب ولو كانوا غير مسلمين، ما لم يُطلب منك معصية الله. حسن الخلق معهم من صميم الدين.",
+    "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
+    "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии."
+   }
+  }
+ ],
+ "countries": [
+  {
+   "code": "SA",
+   "flag": "🇸🇦",
+   "name": {
+    "ar": "المملكة العربية السعودية",
+    "en": "Saudi Arabia",
+    "ru": "Саудовская Аравия"
+   },
+   "school": "hanbali"
+  },
+  {
+   "code": "QA",
+   "flag": "🇶🇦",
+   "name": {
+    "ar": "قطر",
+    "en": "Qatar",
+    "ru": "Катар"
+   },
+   "school": "hanbali"
+  },
+  {
+   "code": "KW",
+   "flag": "🇰🇼",
+   "name": {
+    "ar": "الكويت",
+    "en": "Kuwait",
+    "ru": "Кувейт"
+   },
+   "school": "hanbali"
+  },
+  {
+   "code": "MA",
+   "flag": "🇲🇦",
+   "name": {
+    "ar": "المغرب",
+    "en": "Morocco",
+    "ru": "Марокко"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "DZ",
+   "flag": "🇩🇿",
+   "name": {
+    "ar": "الجزائر",
+    "en": "Algeria",
+    "ru": "Алжир"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "TN",
+   "flag": "🇹🇳",
+   "name": {
+    "ar": "تونس",
+    "en": "Tunisia",
+    "ru": "Тунис"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "LY",
+   "flag": "🇱🇾",
+   "name": {
+    "ar": "ليبيا",
+    "en": "Libya",
+    "ru": "Ливия"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "MR",
+   "flag": "🇲🇷",
+   "name": {
+    "ar": "موريتانيا",
+    "en": "Mauritania",
+    "ru": "Мавритания"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "AE",
+   "flag": "🇦🇪",
+   "name": {
+    "ar": "الإمارات العربية المتحدة",
+    "en": "United Arab Emirates",
+    "ru": "ОАЭ"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "BH",
+   "flag": "🇧🇭",
+   "name": {
+    "ar": "البحرين",
+    "en": "Bahrain",
+    "ru": "Бахрейн"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "SD",
+   "flag": "🇸🇩",
+   "name": {
+    "ar": "السودان",
+    "en": "Sudan",
+    "ru": "Судан"
+   },
+   "school": "maliki"
+  },
+  {
+   "code": "EG",
+   "flag": "🇪🇬",
+   "name": {
+    "ar": "مصر",
+    "en": "Egypt",
+    "ru": "Египет"
+   },
+   "school": "shafii"
+  },
+  {
+   "code": "YE",
+   "flag": "🇾🇪",
+   "name": {
+    "ar": "اليمن",
+    "en": "Yemen",
+    "ru": "Йемен"
+   },
+   "school": "shafii"
+  },
+  {
+   "code": "ID",
+   "flag": "🇮🇩",
+   "name": {
+    "ar": "إندونيسيا",
+    "en": "Indonesia",
+    "ru": "Индонезия"
+   },
+   "school": "shafii"
+  },
+  {
+   "code": "MY",
+   "flag": "🇲🇾",
+   "name": {
+    "ar": "ماليزيا",
+    "en": "Malaysia",
+    "ru": "Малайзия"
+   },
+   "school": "shafii"
+  },
+  {
+   "code": "SO",
+   "flag": "🇸🇴",
+   "name": {
+    "ar": "الصومال",
+    "en": "Somalia",
+    "ru": "Сомали"
+   },
+   "school": "shafii"
+  },
+  {
+   "code": "TR",
+   "flag": "🇹🇷",
+   "name": {
+    "ar": "تركيا",
+    "en": "Turkey",
+    "ru": "Турция"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "PK",
+   "flag": "🇵🇰",
+   "name": {
+    "ar": "باكستان",
+    "en": "Pakistan",
+    "ru": "Пакистан"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "BD",
+   "flag": "🇧🇩",
+   "name": {
+    "ar": "بنغلاديش",
+    "en": "Bangladesh",
+    "ru": "Бангладеш"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "AF",
+   "flag": "🇦🇫",
+   "name": {
+    "ar": "أفغانستان",
+    "en": "Afghanistan",
+    "ru": "Афганистан"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "JO",
+   "flag": "🇯🇴",
+   "name": {
+    "ar": "الأردن",
+    "en": "Jordan",
+    "ru": "Иордания"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "PS",
+   "flag": "🇵🇸",
+   "name": {
+    "ar": "فلسطين",
+    "en": "Palestine",
+    "ru": "Палестина"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "SY",
+   "flag": "🇸🇾",
+   "name": {
+    "ar": "سوريا",
+    "en": "Syria",
+    "ru": "Сирия"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "IQ",
+   "flag": "🇮🇶",
+   "name": {
+    "ar": "العراق",
+    "en": "Iraq",
+    "ru": "Ирак"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "IN",
+   "flag": "🇮🇳",
+   "name": {
+    "ar": "الهند",
+    "en": "India",
+    "ru": "Индия"
+   },
+   "school": "hanafi"
+  },
+  {
+   "code": "OM",
+   "flag": "🇴🇲",
+   "name": {
+    "ar": "سلطنة عمان",
+    "en": "Oman",
+    "ru": "Оман"
+   },
+   "school": null
+  },
+  {
+   "code": "RU",
+   "flag": "🇷🇺",
+   "name": {
+    "ar": "روسيا",
+    "en": "Russia",
+    "ru": "Россия"
+   },
+   "school": null
+  }
+ ]
 }

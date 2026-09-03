@@ -1419,6 +1419,321 @@
         "en": "Analogical reasoning: extending a ruling from a textually addressed case to a new case sharing the same effective cause.",
         "ru": "Аналогия: перенос заключения с прямо оговорённого случая на новый, имеющий ту же причину."
       }
+    },
+    {
+      "id": "sunnah-muakkadah",
+      "term": {
+        "ar": "سُنَّةٌ مُؤَكَّدَةٌ",
+        "en": "Sunnah Mu'akkadah",
+        "ru": "Сунна Муаккада",
+        "es": "Sunnah Mu'akkadah",
+        "uk": "Сунна Муаккада"
+      },
+      "briefDefinition": {
+        "ar": "ما داوم عليه النبي ﷺ ولم يتركه إلا نادراً، وثبت الحث عليه دون فرضية جازمة.",
+        "en": "What the Prophet ﷺ performed consistently, leaving it rarely, with encouragement without strict obligation.",
+        "ru": "То, что Пророк ﷺ совершал регулярно и редко оставлял, с побуждением без обязательности.",
+        "es": "Lo que el Profeta ﷺ realizó de manera constante, dejándolo rara vez, con exhortación sin obligación estricta.",
+        "uk": "Те, що Пророк ﷺ чинив регулярно і рідко залишав, із заохоченням без суворої обов'язковості."
+      },
+      "linguistic": {
+        "ar": "الطريقة المتبعة والسيرة المستمرة محمودة كانت أو مذمومة.",
+        "en": "The followed path and continuous practice, whether praiseworthy or blameworthy.",
+        "ru": "Следуемый путь и постоянная практика, будь она похвальной или порицаемой.",
+        "es": "El camino seguido y la práctica continua, ya sea elogiable o censurable.",
+        "uk": "Шлях, за яким слідують, і постійна практика, будь вона схвальною чи осудливою."
+      },
+      "legal": {
+        "ar": "ما أُثيب فاعله امتثالاً ولم يُعاقب تاركه، مع المواظبة النبوية عليها.",
+        "en": "That for which the actor is rewarded out of obedience and the abandoner is not punished, with Prophetic consistency.",
+        "ru": "То, за совершение чего с повиновением дается награда, а за оставление нет наказания, при регулярности Пророка.",
+        "es": "Aquello por lo cual se recompensa al ejecutante por obediencia y no se castiga a quien lo abandona, con constancia profética.",
+        "uk": "Те, за вчинення чого з покорою дається нагорода, а за залишення немає покарання, при регулярності Пророка."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما واظب عليه النبي ﷺ مع الترك أحياناً لبيان عدم الوجوب، ويُلام تاركها بلا عذر ولا يُعاقب.",
+            "en": "What the Prophet ﷺ maintained consistently while leaving it occasionally to clarify non-obligatoriness, where its abandoner is blamed without excuse but not punished.",
+            "ru": "То, совершение чего Пророк ﷺ совершал регулярно, иногда оставляя для разъяснения необязательности, за оставление чего без уважительной причины порицают, но не наказывают.",
+            "es": "Lo que el Profeta ﷺ mantuvo constantemente, dejándolo ocasionalmente para aclarar la no obligatoriedad, reprochando a quien lo abandona sin excusa pero sin castigarlo.",
+            "uk": "Те, чого Пророк ﷺ дотримувався регулярно, іноді залишаючи для роз'яснення необов'язковості, за залишення чого без поважної причини докоряють, але не карають."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما أظهرها النبي ﷺ وداوم عليها في جماعة ولم تدل القرائن على فرضيتها.",
+            "en": "What the Prophet ﷺ made public and persisted in doing in congregation, where context did not indicate obligation.",
+            "ru": "То, что Пророк ﷺ совершал открыто и регулярно в джамаате, и контекст не указывал на обязательность.",
+            "es": "Lo que el Profeta ﷺ hizo público y persistió en hacer en congregación, sin que los indicios indicaran obligatoriedad.",
+            "uk": "Те, що Пророк ﷺ чинив прилюдно і регулярно в громаді, і контекст не вказував на обов'язковість."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما طُلب فعله طلباً غير جازم مع تأكد أمره والمواظبة على إظهاره في العبادات.",
+            "en": "What was requested without decisive obligation, with emphasized importance and consistent public performance in acts of worship.",
+            "ru": "То, совершение чего предписано нестрогим образом, с подчеркиванием важности и регулярным совершением в поклонении.",
+            "es": "Lo solicitado de manera no imperativa, con énfasis en su importancia y constancia en su práctica en los actos de culto.",
+            "uk": "Те, вчинення чого приписано несуворим чином, із підкресленням важливості та регулярним чиненням у поклонінні."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما أُمر به أمراً غير جازم مع مداومة النبي ﷺ على فعله وترتيب الثواب عليه.",
+            "en": "What was commanded non-decisively, alongside the Prophet's ﷺ constant performance and the promise of reward.",
+            "ru": "То, что было предписано без строгой обязательности, при постоянстве Пророка ﷺ в его совершении и обещании награды.",
+            "es": "Lo ordenado de forma no imperativa, junto con la práctica constante del Profeta ﷺ y la promesa de recompensa.",
+            "uk": "Те, що було наказано без суворої обов'язковості, при постійності Пророка ﷺ у його чиненні та обіцянці нагороди."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fard-ayn",
+      "term": {
+        "ar": "فَرْضُ عَيْنٍ",
+        "en": "Farḍ ʿAyn",
+        "ru": "Фард айн",
+        "es": "Farḍ ʿAyn",
+        "uk": "Фард айн"
+      },
+      "briefDefinition": {
+        "ar": "ما أوجبه الشارع على كل مكلف بعينه ولا يسقط بفعل غيره عنه.",
+        "en": "What the Lawgiver has obligated upon every legally accountable individual personally, not waived by another's performance.",
+        "ru": "То, что Законодатель предписал каждому мукалляфу лично, и не снимается исполнением другого человека.",
+        "es": "Lo que el Legislador ha impuesto a cada persona responsable individualmente, sin eximirse por la acción de otro.",
+        "uk": "Те, що Законодавець приписав кожному мукалляфу особисто, і що не знімається виконанням іншої особи."
+      },
+      "linguistic": {
+        "ar": "الفرض التقدير والقطع والوجوب، والعين ذات الشيء وشخصه، والمراد الواجب المنسوب لعين المكلف بذاته.",
+        "en": "Farḍ means estimation and obligation, while ʿayn means the essence or individual, signifying obligation linked specifically to the person.",
+        "ru": "Фард означает предписание и обязательность, а айн — сущность или личность, что означает обязанность, возложенную лично на человека.",
+        "es": "Farḍ significa estimación u obligación, y ʿayn la esencia o persona, refiriéndose a la obligación vinculada a la persona misma.",
+        "uk": "Фард означає припис і обов'язковість, а айн — сутність чи особу, що означає обов'язок, покладений особисто на людину."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع المكلف بفعله طلباً جازماً على سبيل الحتم واللزام بحيث يأثم تاركه مطلقاً.",
+        "en": "What the Lawgiver decisively demands every accountable individual to perform, making its abandonment unconditionally sinful.",
+        "ru": "То, исполнение чего Законодатель категорически потребовал от мукалляфа, так что за его оставление налагается грех.",
+        "es": "Lo que el Legislador exige de manera decisiva que cada persona responsable realice, haciendo que su omisión sea un pecado.",
+        "uk": "Те, виконання чого Законодавець категорично зажадав від мукалляфа, так що за його залишення накладається гріх."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما ثبت بدليل قطعي لا شبهة فيه وكان مطلوباً من كل فرد بذاته كالصلاة والصوم.",
+            "en": "What is established by definitive evidence without ambiguity, required from every individual personally, such as prayer and fasting.",
+            "ru": "То, что установлено категорическим доказательством без сомнений и требуется от каждого человека лично, как молитва и пост.",
+            "es": "Lo establecido por evidencia definitiva sin duda, exigido a cada individuo personalmente, como la oración y el ayuno.",
+            "uk": "Те, що встановлено категоричним доказом без сумнівів і вимагається від кожної людини особисто, як молитва та піст."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الواجب المتوجه خطابه إلى عين كل مكلف بفعله ولا يتأدى بفعل غيره عنه.",
+            "en": "The obligation whose address is directed to the person of every accountable individual, not fulfilled by another's action.",
+            "ru": "Обязанность, предписание которой направлено к личности каждого мукалляфа, и не исполняется действием другого.",
+            "es": "La obligación cuya prescripción está dirigida a la persona de cada responsable, sin cumplirse por la acción de otro.",
+            "uk": "Обов'язок, припис якого спрямований до особи кожного мукалляфа, і не виконується дією іншого."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما حتم الشارع فعله على كل مكلف بعينه من غير أن يسقط بفعل أحد عن أحد.",
+            "en": "What the Lawgiver made strictly mandatory upon every individual person without being waived by one for another.",
+            "ru": "То, что Законодатель сделал строго обязательным для каждого человека лично, без снятия обязанности одним за другого.",
+            "es": "Lo que el Legislador hizo estrictamente obligatorio para cada persona individualmente, sin eximirse por la actuación de otra.",
+            "uk": "Те, що Законодавець зробив суворо обов'язковим для кожної людини особисто, без знімання обов'язку одним за іншого."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الواجب الذي يلزم كل مكلف في نفسه لزوماً جازماً ولا يجزئ فيه فعل غيره عنه.",
+            "en": "The obligation binding upon every accountable individual personally in a decisive manner, where another's act does not suffice.",
+            "ru": "Обязанность, связывающая каждого мукалляфа лично категорическим образом, при которой действие другого человека не заменяет её.",
+            "es": "La obligación que vincula a cada persona responsable de manera decisiva, donde la acción de otro no la sustituye.",
+            "uk": "Обов'язок, що зв'язує кожного мукалляфа особисто категоричним чином, при якому дія іншої людини її не замінює."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
     }
   ],
   "guides": [
@@ -5164,10 +5479,160 @@
       }
     },
     {
+      "id": "taharah-28",
+      "ref": "F54",
+      "bookId": "taharah",
+      "number": 23,
+      "chapter": {
+        "ar": "باب فرض الوضوء",
+        "en": "Chapter of the Obligation of Ablution",
+        "ru": "Раздел об обязательности омовения",
+        "es": "Capítulo de la obligatoriedad de la ablución",
+        "uk": "Розділ про обов'язковість омивання"
+      },
+      "title": {
+        "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
+        "en": "Ruling on Washing the Face and the Ruling on Mouth-rinsing and Sniffing Water with it in Ablution",
+        "ru": "Постановление о мытье лица, а также о полоскании рта и носа при этом при омовении",
+        "es": "Norma sobre lavar la cara y la norma sobre enjuagar la boca y aspirar agua por la nariz en la ablución",
+        "uk": "Постанова про миття обличчя, а також про полоскання рота та носа при цьому під час омивання"
+      },
+      "summary": {
+        "ar": "هل المضمضة والاستنشاق واجبان مع غسل الوجه في الوضوء أم سنة، وما حدود غسل الوجه؟",
+        "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they sunnah, and what are the boundaries of washing the face?",
+        "ru": "Являются ли полоскание рта и носа обязательными вместе с мытьем лица при омовении или сунной, и каковы границы мытья лица?",
+        "es": "¿Son obligatorios el enjuague bucal y nasal junto con el lavado de la cara en la ablución o son sunnah, y cuáles son los límites de lavar la cara?",
+        "uk": "Чи є полоскання рота та носа обов'язковими разом із миттям обличчя під час омивання чи сунною, і які межі миття обличчя?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنة مؤكدة (ليستا فرضاً)، وحدود الوجه طولاً من منابت الشعر المعتاد إلى أسفل الذقن، وعرضاً ما بين الأذنين.",
+            "en": "Washing the face is an obligation, and mouth-rinsing and sniffing water are an emphasized Sunnah (not obligatory). The facial boundaries lengthwise are from the normal hairline to the bottom of the chin, and widthwise from ear to ear.",
+            "ru": "Мытье лица — обязанность, а полоскание рта и носа — подтвержденная сунна (не обязательны). Границы лица: по длине от обычной линии волос до нижней челюсти, по ширине — между ушами.",
+            "es": "Lavar la cara es una obligación, y el enjuague bucal y nasal son una Sunnah enfatizada (no obligatorios). Los límites de la cara: de largo desde el nacimiento habitual del cabello hasta la barbilla, y de ancho entre las orejas.",
+            "uk": "Миття обличчя — обов'язок, а полоскання рота та носа — підтверджена сунна (не обов'язкові). Межі обличчя: по довжині від звичайної лінії волосся до підборіддя, по ширині — між вухами."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنتان من سنن الوضوء وليستا من فرضه، ويجب استيعاب الوجه بالغسل لمرة واحدة.",
+            "en": "Washing the face is an obligation, and mouth-rinsing and sniffing water are two sunnahs of ablution and not part of its obligations. It is obligatory to cover the entire face with water once.",
+            "ru": "Мытье лица — обязанность, а полоскание рта и носа — две сунны омовения, а не его обязанности. Необходимо охватить водой все лицо один раз.",
+            "es": "Lavar la cara es una obligación, y el enjuague bucal y nasal son dos sunnahs de la ablución y no parte de sus obligaciones. Es obligatorio cubrir toda la cara con agua una vez.",
+            "uk": "Миття обличчя — обов'язок, а полоскання рота та носа — дві сунни омивання, а не його обов'язки. Обов'язково покрити водою все обличчя одноразово."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "غسل الوجه فرض من فروض الوضوء، والمضمضة والاستنشاق سنتان مستقلتان وليستا من الواجبات في غسل الوجه، ولو تركها صح الوضوء.",
+            "en": "Washing the face is an obligatory pillar of ablution, while mouth-rinsing and sniffing water are two independent sunnahs and not part of the obligations of washing the face; omitting them does not invalidate ablution.",
+            "ru": "Мытье лица — обязательный столп омовения, а полоскание рта и носа — две независимые сунны, а не обязанности при мытье лица; их оставление не делает омовение недействительным.",
+            "es": "Lavar la cara es un pilar obligatorio de la ablución, mientras que el enjuague bucal y nasal son dos sunnahs independientes y no parte de las obligaciones; omitirlos no invalida la ablución.",
+            "uk": "Миття обличчя — обов'язковий стовп омивання, а полоскання рота та носа — дві незалежні сунни, а не обов'язки при митті обличчя; їх залишення не робить омивання недійсним."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "غسل الوجه ركن من أركان الوضوء، والمضمضة والاستنشاق واجبان في الوضوء والغسل ولا يصح الوضوء بدونهما.",
+            "en": "Washing the face is a pillar of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
+            "ru": "Мытье лица — столп омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
+            "es": "Lavar la cara es un pilar de la ablución, y el enjuague bucal y nasal son obligatorios en la ablución y el ghusl; la ablución no es válida sin ellos.",
+            "uk": "Миття обличчя — стовп омивання, а полоскання рота та носа — обов'язкові дії в омиванні та гуслі, і омивання без них недійсне."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 23,
+      "number": 24,
       "chapter": {
         "ar": "باب فرض الوضوء",
         "en": "Chapter of the Obligation of Ablution",
@@ -5246,7 +5711,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 24,
+      "number": 25,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -5325,7 +5790,7 @@
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 25,
+      "number": 26,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -5404,7 +5869,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 26,
+      "number": 27,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -5483,7 +5948,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 27,
+      "number": 28,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -8582,6 +9047,163 @@
             "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
             "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
             "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sawm-6",
+      "ref": "F55",
+      "bookId": "sawm",
+      "number": 6,
+      "chapter": {
+        "ar": "أركان الصيام وشروطه",
+        "en": "The Pillars and Conditions of Fasting",
+        "ru": "Столпы и условия поста",
+        "es": "Los pilares y condiciones del ayuno",
+        "uk": "Стовпи та умови посту"
+      },
+      "title": {
+        "ar": "حكم الاكتفاء بنية واحدة لجميع شهر رمضان",
+        "en": "Ruling on Sufficiency of a Single Intention for the Entire Month of Ramadan",
+        "ru": "Постановление о достаточности одного намерения на весь месяц Рамадан",
+        "es": "Norma sobre la suficiencia de una sola intención para todo el mes de Ramadán",
+        "uk": "Постанова про достатність одного наміру на весь місяць Рамадан"
+      },
+      "summary": {
+        "ar": "هل تجزئ نية واحدة في أول ليلة من رمضان عن صيام الشهر كله أم يجب تبييت النية لكل يوم؟",
+        "en": "Does a single intention on the first night of Ramadan suffice for fasting the entire month, or is nightly intention required for each day?",
+        "ru": "Достаточно ли одного намерения в первую ночь Рамадана на весь пост месяца, или обязательно ночное намерение на каждый день?",
+        "es": "¿Basta con una sola intención en la primera noche de Ramadán para todo el mes, o se requiere la intención nocturna para cada día?",
+        "uk": "Чи достатньо одного наміру в першу ніч Рамадану на весь піст місяця, чи обов'язковий нічний намір на кожен день?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا تجزئ نية واحدة في أول الشهر عن جميعه، بل تشترط النية لكل يوم من رمضان، غير أنه يصح أداؤها في النهار قبل الضحوة الكبرى ولا يشترط تبييتها من الليل.",
+            "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-day.",
+            "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днем до зенита.",
+            "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes del mediodía.",
+            "uk": "Одного наміру на початку місяця недостатньо для всього посту; потрібен намір на кожен день, хоча він дійсний і вдень до зеніту."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تكفي نية واحدة في أول ليلة من رمضان لصيام الشهر كله، ولا يجب تجديد النية لكل ليلة، إلا إذا انقطع التتابع بمرض أو سفر فيلزم تجديدها.",
+            "en": "A single intention on the first night of Ramadan suffices for fasting the entire month, and renewing the intention each night is not obligatory unless continuity is interrupted by illness or travel.",
+            "ru": "Одного намерения в первую ночь Рамадана достаточно для поста всего месяца, и возобновление намерения каждую ночь не обязательно, если непрерывность не была прервана болезнью или путешествием.",
+            "es": "Una sola intención en la primera noche de Ramadán basta para todo el mes, y no es obligatorio renovarla cada noche a menos que la continuidad se interrumpa por enfermedad o viaje.",
+            "uk": "Одного наміру в першу ніч Рамадану достатньо для посту всього місяця, і поновлення наміру щоночі не є обов'язковим, якщо безперервність не була перервана хворобою чи подорожжю."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يكتفي الشافعية بنية واحدة لجميع الشهر، بل يشترط تعيين النية وتبييتها من الليل لكل يوم مستقل برأسه.",
+            "en": "Shafi'is do not suffice with a single intention for the entire month; rather, specifying and nightly forming the intention for each independent day is required.",
+            "ru": "Шафииты не ограничиваются одним намерением на весь месяц, а требуют конкретизации и ночного намерения на каждый отдельный день.",
+            "es": "Los shafiíes no se conforman con una sola intención para todo el mes, sino que se requiere especificar y formar la intención desde la noche para cada día independiente.",
+            "uk": "Шафіїти не обмежуються одним наміром на весь місяць, а вимагають конкретизації та нічного наміру на кожен окремий день."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا تجزئ نية واحدة في أول رمضان عن صيام الشهر كله، بل يجب تبييت النية لكل يوم على حدة قبل طلوع الفجر.",
+            "en": "A single intention at the beginning of Ramadan does not suffice for the whole month; rather, forming the intention separately for each day before the break of dawn is obligatory.",
+            "ru": "Одного намерения в начале Рамадана недостаточно для всего месяца, обязательно ночное намерение на каждый день отдельно до наступления рассвета.",
+            "es": "Una sola intención al principio de Ramadán no basta para todo el mes; más bien, es obligatorio formar la intención por separado para cada día antes del alba.",
+            "uk": "Одного наміру на початку Рамадану недостатньо для всього місяця, обов'язковий нічний намір на кожен день окремо до настання світанку."
           },
           "sources": [
             {

@@ -310,7 +310,66 @@ def main():
     for n, g in enumerate(data.get("glossary", [])):
         where = f"glossary[{g.get('id', n)}]"
         check_localized(g.get("term"), f"{where}.term")
-        check_localized(g.get("definition"), f"{where}.definition")
+
+        # البنية الجديدة (prompts/glossary-single.md): تعريف موجز + لغةً +
+        # شرعاً + اصطلاحاً لكل مذهب بمراجعه. القديمة (تعريف واحد عام) ما
+        # زالت مقبولة للمفردات الثمان الأولى لحين ترحيلها.
+        if "technical" in g or "briefDefinition" in g:
+            check_localized(g.get("briefDefinition"), f"{where}.briefDefinition")
+            check_localized(g.get("linguistic"), f"{where}.linguistic")
+            check_localized(g.get("legal"), f"{where}.legal")
+            technical = g.get("technical")
+            if not isinstance(technical, dict):
+                err(f"{where}.technical: missing or not an object")
+            else:
+                for school in SCHOOLS:
+                    t = technical.get(school)
+                    if t is None:
+                        err(f"{where}.technical.{school}: MISSING — all four schools are required")
+                        continue
+                    check_localized(t.get("text"), f"{where}.technical.{school}.text")
+
+                    srcs = t.get("sources")
+                    if srcs is None:
+                        err(f"{where}.technical.{school}.sources: missing")
+                    elif not isinstance(srcs, list):
+                        err(f"{where}.technical.{school}.sources: must be a list, "
+                            f"got {type(srcs).__name__}")
+                    elif not srcs:
+                        err(f"{where}.technical.{school}.sources: empty — at least one book required")
+                    else:
+                        if not (2 <= len(srcs) <= 3):
+                            warn(f"{where}.technical.{school}.sources: {len(srcs)} books "
+                                 f"— house style is two or three")
+                        seen = []
+                        for n_s, one in enumerate(srcs):
+                            check_localized(one, f"{where}.technical.{school}.sources[{n_s}]")
+                            if isinstance(one, dict) and isinstance(one.get("ar"), str):
+                                ar = one["ar"].strip()
+                                if TERMS:
+                                    canon = TERMS.get(ar)
+                                    if canon is None:
+                                        if ar in ALIASES:
+                                            err(f"{where}.technical.{school}.sources[{n_s}]: "
+                                                f"«{ar}» is a short name for «{ALIASES[ar]}» "
+                                                f"— use the canonical spelling "
+                                                f"(python3 tools/normalize_terms.py)")
+                                        else:
+                                            err(f"{where}.technical.{school}.sources[{n_s}]: "
+                                                f"«{ar}» is not in {TERMS_PATH} — the book list "
+                                                f"is closed; add it there first if it is genuine")
+                                    elif canon["school"] != school:
+                                        err(f"{where}.technical.{school}.sources[{n_s}]: "
+                                            f"«{ar}» is a {canon['school']} book, cited "
+                                            f"under {school}")
+                                if ar in seen:
+                                    err(f"{where}.technical.{school}.sources: «{ar}» listed twice")
+                                seen.append(ar)
+                unknown = set(technical) - set(SCHOOLS)
+                if unknown:
+                    err(f"{where}.technical: unknown school key(s) {sorted(unknown)}")
+        else:
+            check_localized(g.get("definition"), f"{where}.definition")
 
     for n, f in enumerate(data.get("faqs", [])):
         where = f"faqs[{f.get('id', n)}]"
