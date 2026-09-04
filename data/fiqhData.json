@@ -715,9 +715,9 @@
     {
       "id": "iman",
       "name": {
-        "ar": "الإيمان والمدخل",
-        "en": "Faith & Introduction",
-        "ru": "Вера и введение"
+        "ar": "أحكام الإيمان",
+        "en": "Rulings on Faith",
+        "ru": "Нормы веры"
       }
     },
     {
@@ -2540,80 +2540,6 @@
               "ar": "مطالب أولي النهى",
               "en": "Maṭālib Ūlī al-Nuhā",
               "ru": "«Маталиб ули ан-Нуха»"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "iman-3",
-      "ref": "F3",
-      "bookId": "iman",
-      "number": 3,
-      "title": {
-        "ar": "أثر ترك الصلاة كسلاً على بقاء وصف الإسلام",
-        "en": "The effect of abandoning prayer out of laziness on retaining the description of Islam",
-        "ru": "Влияние оставления молитвы по лени на сохранение статуса мусульманина"
-      },
-      "summary": {
-        "ar": "هل يكفر تارك الصلاة تهاونًا وكسلاً مع إقراره بوجوبها، أم يبقى مسلمًا فاسقًا؟",
-        "en": "Does one who abandons prayer out of negligence and laziness, while affirming its obligation, become a disbeliever, or remain a sinful Muslim?",
-        "ru": "Становится ли неверующим оставивший молитву по небрежности и лени, признавая её обязательность, или остаётся грешным мусульманином?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "لا يكفر بتركها كسلاً مع إقراره بوجوبها، بل يحبس ويعزر حتى يصلي.",
-            "en": "He does not disbelieve by abandoning it out of laziness while affirming its obligation; rather he is imprisoned and disciplined until he prays.",
-            "ru": "Он не становится неверующим, оставляя её по лени при признании обязательности; его заключают и наказывают, пока не начнёт молиться."
-          },
-          "sources": [
-            {
-              "ar": "العناية",
-              "en": "Al-ʿInāyah",
-              "ru": "«Аль-Инайя»"
-            }
-          ]
-        },
-        "maliki": {
-          "text": {
-            "ar": "لا يكفر بتركها كسلاً، ولكنه يُقتل حداً بشروطه إن أصر على تركها.",
-            "en": "He does not disbelieve by abandoning it out of laziness, but is executed as a legal penalty, under its conditions, if he persists in abandoning it.",
-            "ru": "Он не становится неверующим, оставляя её по лени, но казнится как мера наказания при её условиях, если упорствует в оставлении."
-          },
-          "sources": [
-            {
-              "ar": "التاج والإكليل",
-              "en": "Al-Tāj wa-al-Iklīl",
-              "ru": "«Ат-Тадж ва-ль-Иклиль»"
-            }
-          ]
-        },
-        "shafii": {
-          "text": {
-            "ar": "عاصٍ ومرتكب لكبيرة ولا يكفر بتركها كسلاً، ويقتل حداً كالمسلم العاصي.",
-            "en": "He is a sinner committing a major sin and does not disbelieve by abandoning it out of laziness; he is executed as a penalty, like a disobedient Muslim.",
-            "ru": "Он грешник, совершивший тяжкий грех, и не становится неверующим, оставляя её по лени; казнится как наказание, подобно ослушавшемуся мусульманину."
-          },
-          "sources": [
-            {
-              "ar": "روضة الطالبين",
-              "en": "Rawḍat al-Ṭālibīn",
-              "ru": "«Равдат ат-Талибин»"
-            }
-          ]
-        },
-        "hanbali": {
-          "text": {
-            "ar": "المعتمد أن من تركها كسلاً ودعي إليها وضاق وقت التي بعدها يكفر.",
-            "en": "The relied-upon position is that whoever abandons it out of laziness, is called to it, and lets the time of the following prayer narrow, becomes a disbeliever.",
-            "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим."
-          },
-          "sources": [
-            {
-              "ar": "الإنصاف",
-              "en": "Al-Inṣāf",
-              "ru": "«Аль-Инсаф»"
             }
           ]
         }
@@ -5484,11 +5410,11 @@
       "bookId": "taharah",
       "number": 23,
       "chapter": {
-        "ar": "باب فرض الوضوء",
-        "en": "Chapter of the Obligation of Ablution",
-        "ru": "Раздел об обязательности омовения",
-        "es": "Capítulo de la obligatoriedad de la ablución",
-        "uk": "Розділ про обов'язковість омивання"
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter of the Manner of Ablution",
+        "ru": "Раздел о порядке совершения омовения",
+        "es": "Capítulo del modo de la ablución",
+        "uk": "Розділ про порядок здійснення омивання"
       },
       "title": {
         "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
@@ -5634,9 +5560,11 @@
       "bookId": "taharah",
       "number": 24,
       "chapter": {
-        "ar": "باب فرض الوضوء",
-        "en": "Chapter of the Obligation of Ablution",
-        "ru": "Раздел об обязательности омовения"
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter of the Manner of Ablution",
+        "ru": "Раздел о порядке совершения омовения",
+        "es": "Capítulo del modo de la ablución",
+        "uk": "Розділ про порядок здійснення омивання"
       },
       "title": {
         "ar": "حكم النية في الوضوء وهل تسقط سهواً",
@@ -6024,10 +5952,139 @@
       }
     },
     {
+      "id": "salah-19",
+      "ref": "F56",
+      "bookId": "salah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب الأذان والإقامة",
+        "en": "Chapter of the Call to Prayer and the Iqama",
+        "ru": "Раздел об азане и икаме",
+        "es": "Capítulo del adhán y el iqama",
+        "uk": "Розділ про азан та ікаму"
+      },
+      "title": {
+        "ar": "حكم الصلوات الخمس المفروضة وأصل مشروعيتها",
+        "en": "Ruling on the Five Obligatory Prayers and Their Legal Basis",
+        "ru": "Постановление о пяти обязательных молитвах и их правовой основе",
+        "es": "Norma sobre las cinco oraciones obligatorias y su fundamento legal",
+        "uk": "Постанова про п'ять обов'язкових молитов та їхню правову основу"
+      },
+      "summary": {
+        "ar": "ما حكم الصلوات الخمس، وبِمَ ثبتت فرضيتها على المكلَّف؟",
+        "en": "What is the ruling on the five daily prayers, and by what is their obligation upon the accountable individual established?",
+        "ru": "Каково постановление о пяти ежедневных молитвах, и чем установлена их обязательность для мукалляфа?",
+        "es": "¿Cuál es la norma de las cinco oraciones diarias, y con qué se establece su obligatoriedad para la persona responsable?",
+        "uk": "Яка постанова про п'ять щоденних молитов, і чим встановлена їхня обов'язковість для мукалляфа?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "الصلوات الخمس فرض عين على كل مسلم بالغ عاقل، ثبتت فرضيتها بنصّ الكتاب والسنة المتواترة.",
+            "en": "The five prayers are a personal obligation upon every sane, adult Muslim, established by the text of the Quran and the mutawatir Sunnah.",
+            "ru": "Пять молитв — личная обязанность каждого разумного совершеннолетнего мусульманина, установленная текстом Корана и достоверной Сунной.",
+            "es": "Las cinco oraciones son una obligación personal de todo musulmán adulto en su sano juicio, establecida por el texto del Corán y la Sunnah mutawátir.",
+            "uk": "П'ять молитов — особистий обов'язок кожного розумного повнолітнього мусульманина, встановлений текстом Корану та достовірною Сунною."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الصلوات الخمس فرض عين على كل مكلَّف، وجبت بالنصّ القطعي من الكتاب والسنة، ولا خلاف بين المسلمين في أصل فرضيتها.",
+            "en": "The five prayers are a personal obligation upon every accountable individual, obligated by definitive text from the Quran and Sunnah, with no disagreement among Muslims on the basis of their obligation.",
+            "ru": "Пять молитв — личная обязанность каждого мукалляфа, установленная категорическим текстом Корана и Сунны, без разногласий среди мусульман об основании их обязательности.",
+            "es": "Las cinco oraciones son una obligación personal de toda persona responsable, impuesta por texto definitivo del Corán y la Sunnah, sin desacuerdo entre los musulmanes sobre el fundamento de su obligatoriedad.",
+            "uk": "П'ять молитов — особистий обов'язок кожного мукалляфа, встановлений категоричним текстом Корану та Сунни, без розбіжностей серед мусульман щодо підстави їхньої обов'язковості."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الصلوات الخمس من أركان الإسلام، فرض عين ثابت بنصّ الكتاب والسنة وإجماع الأمة.",
+            "en": "The five prayers are among the pillars of Islam, a personal obligation established by the text of the Quran, the Sunnah, and the consensus of the nation.",
+            "ru": "Пять молитв — один из столпов ислама, личная обязанность, установленная текстом Корана, Сунной и единогласием общины.",
+            "es": "Las cinco oraciones son uno de los pilares del Islam, obligación personal establecida por el texto del Corán, la Sunnah y el consenso de la nación.",
+            "uk": "П'ять молитов — один зі стовпів ісламу, особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю громади."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الصلوات الخمس فرض عين بنصّ الكتاب والسنة وإجماع المسلمين، وهي أعظم أركان الإسلام بعد الشهادتين.",
+            "en": "The five prayers are a personal obligation established by the text of the Quran, the Sunnah, and the consensus of Muslims, the greatest pillar of Islam after the two testimonies.",
+            "ru": "Пять молитв — личная обязанность, установленная текстом Корана, Сунной и единогласием мусульман, величайший столп ислама после двух свидетельств.",
+            "es": "Las cinco oraciones son una obligación personal establecida por el texto del Corán, la Sunnah y el consenso de los musulmanes, el mayor pilar del Islam tras los dos testimonios.",
+            "uk": "П'ять молитов — особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю мусульман, найвеличніший стовп ісламу після двох свідчень."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "salah-5",
       "ref": "F16",
       "bookId": "salah",
-      "number": 1,
+      "number": 2,
       "chapter": {
         "ar": "باب الأذان والإقامة",
         "en": "Chapter of the Call to Prayer and the Iqama",
@@ -6147,7 +6204,7 @@
       "id": "salah-11",
       "ref": "F41",
       "bookId": "salah",
-      "number": 2,
+      "number": 3,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6285,7 +6342,7 @@
       "id": "salah-4",
       "ref": "F15",
       "bookId": "salah",
-      "number": 3,
+      "number": 4,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6411,7 +6468,7 @@
       "id": "salah-12",
       "ref": "F42",
       "bookId": "salah",
-      "number": 4,
+      "number": 5,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6549,7 +6606,7 @@
       "id": "salah-13",
       "ref": "F43",
       "bookId": "salah",
-      "number": 5,
+      "number": 6,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6687,7 +6744,7 @@
       "id": "salah-10",
       "ref": "F40",
       "bookId": "salah",
-      "number": 6,
+      "number": 7,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6825,7 +6882,7 @@
       "id": "salah-14",
       "ref": "F44",
       "bookId": "salah",
-      "number": 7,
+      "number": 8,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -6963,7 +7020,7 @@
       "id": "salah-16",
       "ref": "F46",
       "bookId": "salah",
-      "number": 8,
+      "number": 9,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -7120,7 +7177,7 @@
       "id": "salah-9",
       "ref": "F39",
       "bookId": "salah",
-      "number": 9,
+      "number": 10,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -7258,7 +7315,7 @@
       "id": "salah-17",
       "ref": "F47",
       "bookId": "salah",
-      "number": 10,
+      "number": 11,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -7415,7 +7472,7 @@
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 11,
+      "number": 12,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -7495,7 +7552,7 @@
       "id": "salah-15",
       "ref": "F45",
       "bookId": "salah",
-      "number": 12,
+      "number": 13,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -7633,7 +7690,7 @@
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 13,
+      "number": 14,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -7713,7 +7770,7 @@
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 14,
+      "number": 15,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -7793,7 +7850,7 @@
       "id": "salah-18",
       "ref": "F48",
       "bookId": "salah",
-      "number": 15,
+      "number": 16,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -7950,7 +8007,7 @@
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 16,
+      "number": 17,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -8069,7 +8126,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 17,
+      "number": 18,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -8188,7 +8245,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 18,
+      "number": 19,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",
@@ -8304,10 +8361,139 @@
       }
     },
     {
+      "id": "sawm-7",
+      "ref": "F57",
+      "bookId": "sawm",
+      "number": 1,
+      "chapter": {
+        "ar": "وجوب الصيام ورؤية الهلال",
+        "en": "The Obligation of Fasting and Sighting the Crescent",
+        "ru": "Обязательность поста и наблюдение полумесяца",
+        "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+        "uk": "Обов'язковість посту та спостереження півмісяця"
+      },
+      "title": {
+        "ar": "حكم صيام شهر رمضان وأصل مشروعيته",
+        "en": "Ruling on Fasting the Month of Ramadan and Its Legal Basis",
+        "ru": "Постановление о посте месяца Рамадан и его правовой основе",
+        "es": "Norma sobre el ayuno del mes de Ramadán y su fundamento legal",
+        "uk": "Постанова про піст місяця Рамадан та його правову основу"
+      },
+      "summary": {
+        "ar": "ما حكم صيام شهر رمضان، وبِمَ ثبتت فرضيته على المكلَّف؟",
+        "en": "What is the ruling on fasting the month of Ramadan, and by what is its obligation upon the accountable individual established?",
+        "ru": "Каково постановление о посте месяца Рамадан, и чем установлена его обязательность для мукалляфа?",
+        "es": "¿Cuál es la norma del ayuno del mes de Ramadán, y con qué se establece su obligatoriedad para la persona responsable?",
+        "uk": "Яка постанова про піст місяця Рамадан, і чим встановлена його обов'язковість для мукалляфа?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "صيام شهر رمضان فرض عين على كل مسلم بالغ عاقل مقيم قادر، ثبتت فرضيته بنصّ الكتاب والسنة المتواترة.",
+            "en": "Fasting Ramadan is a personal obligation upon every sane, adult, resident, able Muslim, established by the text of the Quran and the mutawatir Sunnah.",
+            "ru": "Пост Рамадана — личная обязанность каждого разумного совершеннолетнего постоянно проживающего дееспособного мусульманина, установленная текстом Корана и достоверной Сунной.",
+            "es": "El ayuno de Ramadán es una obligación personal de todo musulmán adulto, en su sano juicio, residente y capaz, establecida por el texto del Corán y la Sunnah mutawátir.",
+            "uk": "Піст Рамадану — особистий обов'язок кожного розумного повнолітнього осілого дієздатного мусульманина, встановлений текстом Корану та достовірною Сунною."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "صيام شهر رمضان فرض عين على كل مكلَّف، وجب بالنصّ القطعي من الكتاب والسنة، ولا خلاف بين المسلمين في أصل فرضيته.",
+            "en": "Fasting Ramadan is a personal obligation upon every accountable individual, obligated by definitive text from the Quran and Sunnah, with no disagreement among Muslims on the basis of its obligation.",
+            "ru": "Пост Рамадана — личная обязанность каждого мукалляфа, установленная категорическим текстом Корана и Сунны, без разногласий среди мусульман об основании его обязательности.",
+            "es": "El ayuno de Ramadán es una obligación personal de toda persona responsable, impuesta por texto definitivo del Corán y la Sunnah, sin desacuerdo entre los musulmanes sobre el fundamento de su obligatoriedad.",
+            "uk": "Піст Рамадану — особистий обов'язок кожного мукалляфа, встановлений категоричним текстом Корану та Сунни, без розбіжностей серед мусульман щодо підстави його обов'язковості."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "صيام شهر رمضان من أركان الإسلام، فرض عين ثابت بنصّ الكتاب والسنة وإجماع الأمة.",
+            "en": "Fasting Ramadan is among the pillars of Islam, a personal obligation established by the text of the Quran, the Sunnah, and the consensus of the nation.",
+            "ru": "Пост Рамадана — один из столпов ислама, личная обязанность, установленная текстом Корана, Сунной и единогласием общины.",
+            "es": "El ayuno de Ramadán es uno de los pilares del Islam, obligación personal establecida por el texto del Corán, la Sunnah y el consenso de la nación.",
+            "uk": "Піст Рамадану — один зі стовпів ісламу, особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю громади."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "صيام شهر رمضان فرض عين بنصّ الكتاب والسنة وإجماع المسلمين، وهو أحد أركان الإسلام الخمسة.",
+            "en": "Fasting Ramadan is a personal obligation established by the text of the Quran, the Sunnah, and the consensus of Muslims, one of the five pillars of Islam.",
+            "ru": "Пост Рамадана — личная обязанность, установленная текстом Корана, Сунной и единогласием мусульман, один из пяти столпов ислама.",
+            "es": "El ayuno de Ramadán es una obligación personal establecida por el texto del Corán, la Sunnah y el consenso de los musulmanes, uno de los cinco pilares del Islam.",
+            "uk": "Піст Рамадану — особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю мусульман, один з п'яти стовпів ісламу."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "sawm-1",
       "ref": "F49",
       "bookId": "sawm",
-      "number": 1,
+      "number": 2,
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
@@ -8457,7 +8643,7 @@
       "id": "sawm-3",
       "ref": "F51",
       "bookId": "sawm",
-      "number": 2,
+      "number": 3,
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
@@ -8607,7 +8793,7 @@
       "id": "sawm-2",
       "ref": "F50",
       "bookId": "sawm",
-      "number": 3,
+      "number": 4,
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
@@ -8764,7 +8950,7 @@
       "id": "sawm-4",
       "ref": "F52",
       "bookId": "sawm",
-      "number": 4,
+      "number": 5,
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
@@ -8921,7 +9107,7 @@
       "id": "sawm-5",
       "ref": "F53",
       "bookId": "sawm",
-      "number": 5,
+      "number": 6,
       "chapter": {
         "ar": "أركان الصيام وشروطه",
         "en": "The Pillars and Conditions of Fasting",
@@ -9078,7 +9264,7 @@
       "id": "sawm-6",
       "ref": "F55",
       "bookId": "sawm",
-      "number": 6,
+      "number": 7,
       "chapter": {
         "ar": "أركان الصيام وشروطه",
         "en": "The Pillars and Conditions of Fasting",

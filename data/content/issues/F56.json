@@ -1,0 +1,129 @@
+{
+ "ref": "F56",
+ "id": "salah-19",
+ "bookId": "salah",
+ "seq": 1,
+ "chapter": {
+  "ar": "باب الأذان والإقامة",
+  "en": "Chapter of the Call to Prayer and the Iqama",
+  "ru": "Раздел об азане и икаме",
+  "es": "Capítulo del adhán y el iqama",
+  "uk": "Розділ про азан та ікаму"
+ },
+ "title": {
+  "ar": "حكم الصلوات الخمس المفروضة وأصل مشروعيتها",
+  "en": "Ruling on the Five Obligatory Prayers and Their Legal Basis",
+  "ru": "Постановление о пяти обязательных молитвах и их правовой основе",
+  "es": "Norma sobre las cinco oraciones obligatorias y su fundamento legal",
+  "uk": "Постанова про п'ять обов'язкових молитов та їхню правову основу"
+ },
+ "summary": {
+  "ar": "ما حكم الصلوات الخمس، وبِمَ ثبتت فرضيتها على المكلَّف؟",
+  "en": "What is the ruling on the five daily prayers, and by what is their obligation upon the accountable individual established?",
+  "ru": "Каково постановление о пяти ежедневных молитвах, и чем установлена их обязательность для мукалляфа?",
+  "es": "¿Cuál es la norma de las cinco oraciones diarias, y con qué se establece su obligatoriedad para la persona responsable?",
+  "uk": "Яка постанова про п'ять щоденних молитов, і чим встановлена їхня обов'язковість для мукалляфа?"
+ },
+ "rulings": {
+  "hanafi": {
+   "text": {
+    "ar": "الصلوات الخمس فرض عين على كل مسلم بالغ عاقل، ثبتت فرضيتها بنصّ الكتاب والسنة المتواترة.",
+    "en": "The five prayers are a personal obligation upon every sane, adult Muslim, established by the text of the Quran and the mutawatir Sunnah.",
+    "ru": "Пять молитв — личная обязанность каждого разумного совершеннолетнего мусульманина, установленная текстом Корана и достоверной Сунной.",
+    "es": "Las cinco oraciones son una obligación personal de todo musulmán adulto en su sano juicio, establecida por el texto del Corán y la Sunnah mutawátir.",
+    "uk": "П'ять молитов — особистий обов'язок кожного розумного повнолітнього мусульманина, встановлений текстом Корану та достовірною Сунною."
+   },
+   "sources": [
+    {
+     "ar": "الهداية",
+     "en": "Al-Hidāyah",
+     "ru": "«Аль-Хидая»",
+     "es": "Al-Hidāyah",
+     "uk": "«Аль-Хідая»"
+    },
+    {
+     "ar": "رد المحتار",
+     "en": "Radd al-Muḥtār",
+     "ru": "«Радд аль-Мухтар»",
+     "es": "Radd al-Muḥtār",
+     "uk": "«Радд аль-Мухтар»"
+    }
+   ]
+  },
+  "maliki": {
+   "text": {
+    "ar": "الصلوات الخمس فرض عين على كل مكلَّف، وجبت بالنصّ القطعي من الكتاب والسنة، ولا خلاف بين المسلمين في أصل فرضيتها.",
+    "en": "The five prayers are a personal obligation upon every accountable individual, obligated by definitive text from the Quran and Sunnah, with no disagreement among Muslims on the basis of their obligation.",
+    "ru": "Пять молитв — личная обязанность каждого мукалляфа, установленная категорическим текстом Корана и Сунны, без разногласий среди мусульман об основании их обязательности.",
+    "es": "Las cinco oraciones son una obligación personal de toda persona responsable, impuesta por texto definitivo del Corán y la Sunnah, sin desacuerdo entre los musulmanes sobre el fundamento de su obligatoriedad.",
+    "uk": "П'ять молитов — особистий обов'язок кожного мукалляфа, встановлений категоричним текстом Корану та Сунни, без розбіжностей серед мусульман щодо підстави їхньої обов'язковості."
+   },
+   "sources": [
+    {
+     "ar": "المدونة",
+     "en": "Al-Mudawwanah",
+     "ru": "«Аль-Мудаввана»",
+     "es": "Al-Mudawwanah",
+     "uk": "«Аль-Мудаввана»"
+    },
+    {
+     "ar": "الشرح الكبير",
+     "en": "Al-Sharḥ al-Kabīr",
+     "ru": "«Аш-Шарх аль-Кабир»",
+     "es": "Al-Sharḥ al-Kabīr",
+     "uk": "«Аш-Шарх аль-Кабір»"
+    }
+   ]
+  },
+  "shafii": {
+   "text": {
+    "ar": "الصلوات الخمس من أركان الإسلام، فرض عين ثابت بنصّ الكتاب والسنة وإجماع الأمة.",
+    "en": "The five prayers are among the pillars of Islam, a personal obligation established by the text of the Quran, the Sunnah, and the consensus of the nation.",
+    "ru": "Пять молитв — один из столпов ислама, личная обязанность, установленная текстом Корана, Сунной и единогласием общины.",
+    "es": "Las cinco oraciones son uno de los pilares del Islam, obligación personal establecida por el texto del Corán, la Sunnah y el consenso de la nación.",
+    "uk": "П'ять молитов — один зі стовпів ісламу, особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю громади."
+   },
+   "sources": [
+    {
+     "ar": "الأم",
+     "en": "Al-Umm",
+     "ru": "«Аль-Умм»",
+     "es": "Al-Umm",
+     "uk": "«Аль-Умм»"
+    },
+    {
+     "ar": "منهاج الطالبين",
+     "en": "Minhāj al-Ṭālibīn",
+     "ru": "«Минхадж ат-Талибин»",
+     "es": "Minhāj al-Ṭālibīn",
+     "uk": "«Мінхадж ат-Талібін»"
+    }
+   ]
+  },
+  "hanbali": {
+   "text": {
+    "ar": "الصلوات الخمس فرض عين بنصّ الكتاب والسنة وإجماع المسلمين، وهي أعظم أركان الإسلام بعد الشهادتين.",
+    "en": "The five prayers are a personal obligation established by the text of the Quran, the Sunnah, and the consensus of Muslims, the greatest pillar of Islam after the two testimonies.",
+    "ru": "Пять молитв — личная обязанность, установленная текстом Корана, Сунной и единогласием мусульман, величайший столп ислама после двух свидетельств.",
+    "es": "Las cinco oraciones son una obligación personal establecida por el texto del Corán, la Sunnah y el consenso de los musulmanes, el mayor pilar del Islam tras los dos testimonios.",
+    "uk": "П'ять молитов — особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю мусульман, найвеличніший стовп ісламу після двох свідчень."
+   },
+   "sources": [
+    {
+     "ar": "المغني",
+     "en": "Al-Mughnī",
+     "ru": "«Аль-Мугни»",
+     "es": "Al-Mughnī",
+     "uk": "«Аль-Мугні»"
+    },
+    {
+     "ar": "كشاف القناع",
+     "en": "Kashshāf al-Qināʿ",
+     "ru": "«Кашшаф аль-Кина»",
+     "es": "Kashshāf al-Qināʿ",
+     "uk": "«Кашшаф аль-Кіна»"
+    }
+   ]
+  }
+ }
+}

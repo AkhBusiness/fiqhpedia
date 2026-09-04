@@ -1,0 +1,129 @@
+{
+ "ref": "F57",
+ "id": "sawm-7",
+ "bookId": "sawm",
+ "seq": 1,
+ "chapter": {
+  "ar": "وجوب الصيام ورؤية الهلال",
+  "en": "The Obligation of Fasting and Sighting the Crescent",
+  "ru": "Обязательность поста и наблюдение полумесяца",
+  "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+  "uk": "Обов'язковість посту та спостереження півмісяця"
+ },
+ "title": {
+  "ar": "حكم صيام شهر رمضان وأصل مشروعيته",
+  "en": "Ruling on Fasting the Month of Ramadan and Its Legal Basis",
+  "ru": "Постановление о посте месяца Рамадан и его правовой основе",
+  "es": "Norma sobre el ayuno del mes de Ramadán y su fundamento legal",
+  "uk": "Постанова про піст місяця Рамадан та його правову основу"
+ },
+ "summary": {
+  "ar": "ما حكم صيام شهر رمضان، وبِمَ ثبتت فرضيته على المكلَّف؟",
+  "en": "What is the ruling on fasting the month of Ramadan, and by what is its obligation upon the accountable individual established?",
+  "ru": "Каково постановление о посте месяца Рамадан, и чем установлена его обязательность для мукалляфа?",
+  "es": "¿Cuál es la norma del ayuno del mes de Ramadán, y con qué se establece su obligatoriedad para la persona responsable?",
+  "uk": "Яка постанова про піст місяця Рамадан, і чим встановлена його обов'язковість для мукалляфа?"
+ },
+ "rulings": {
+  "hanafi": {
+   "text": {
+    "ar": "صيام شهر رمضان فرض عين على كل مسلم بالغ عاقل مقيم قادر، ثبتت فرضيته بنصّ الكتاب والسنة المتواترة.",
+    "en": "Fasting Ramadan is a personal obligation upon every sane, adult, resident, able Muslim, established by the text of the Quran and the mutawatir Sunnah.",
+    "ru": "Пост Рамадана — личная обязанность каждого разумного совершеннолетнего постоянно проживающего дееспособного мусульманина, установленная текстом Корана и достоверной Сунной.",
+    "es": "El ayuno de Ramadán es una obligación personal de todo musulmán adulto, en su sano juicio, residente y capaz, establecida por el texto del Corán y la Sunnah mutawátir.",
+    "uk": "Піст Рамадану — особистий обов'язок кожного розумного повнолітнього осілого дієздатного мусульманина, встановлений текстом Корану та достовірною Сунною."
+   },
+   "sources": [
+    {
+     "ar": "الهداية",
+     "en": "Al-Hidāyah",
+     "ru": "«Аль-Хидая»",
+     "es": "Al-Hidāyah",
+     "uk": "«Аль-Хідая»"
+    },
+    {
+     "ar": "رد المحتار",
+     "en": "Radd al-Muḥtār",
+     "ru": "«Радд аль-Мухтар»",
+     "es": "Radd al-Muḥtār",
+     "uk": "«Радд аль-Мухтар»"
+    }
+   ]
+  },
+  "maliki": {
+   "text": {
+    "ar": "صيام شهر رمضان فرض عين على كل مكلَّف، وجب بالنصّ القطعي من الكتاب والسنة، ولا خلاف بين المسلمين في أصل فرضيته.",
+    "en": "Fasting Ramadan is a personal obligation upon every accountable individual, obligated by definitive text from the Quran and Sunnah, with no disagreement among Muslims on the basis of its obligation.",
+    "ru": "Пост Рамадана — личная обязанность каждого мукалляфа, установленная категорическим текстом Корана и Сунны, без разногласий среди мусульман об основании его обязательности.",
+    "es": "El ayuno de Ramadán es una obligación personal de toda persona responsable, impuesta por texto definitivo del Corán y la Sunnah, sin desacuerdo entre los musulmanes sobre el fundamento de su obligatoriedad.",
+    "uk": "Піст Рамадану — особистий обов'язок кожного мукалляфа, встановлений категоричним текстом Корану та Сунни, без розбіжностей серед мусульман щодо підстави його обов'язковості."
+   },
+   "sources": [
+    {
+     "ar": "المدونة",
+     "en": "Al-Mudawwanah",
+     "ru": "«Аль-Мудаввана»",
+     "es": "Al-Mudawwanah",
+     "uk": "«Аль-Мудаввана»"
+    },
+    {
+     "ar": "الشرح الكبير",
+     "en": "Al-Sharḥ al-Kabīr",
+     "ru": "«Аш-Шарх аль-Кабир»",
+     "es": "Al-Sharḥ al-Kabīr",
+     "uk": "«Аш-Шарх аль-Кабір»"
+    }
+   ]
+  },
+  "shafii": {
+   "text": {
+    "ar": "صيام شهر رمضان من أركان الإسلام، فرض عين ثابت بنصّ الكتاب والسنة وإجماع الأمة.",
+    "en": "Fasting Ramadan is among the pillars of Islam, a personal obligation established by the text of the Quran, the Sunnah, and the consensus of the nation.",
+    "ru": "Пост Рамадана — один из столпов ислама, личная обязанность, установленная текстом Корана, Сунной и единогласием общины.",
+    "es": "El ayuno de Ramadán es uno de los pilares del Islam, obligación personal establecida por el texto del Corán, la Sunnah y el consenso de la nación.",
+    "uk": "Піст Рамадану — один зі стовпів ісламу, особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю громади."
+   },
+   "sources": [
+    {
+     "ar": "الأم",
+     "en": "Al-Umm",
+     "ru": "«Аль-Умм»",
+     "es": "Al-Umm",
+     "uk": "«Аль-Умм»"
+    },
+    {
+     "ar": "منهاج الطالبين",
+     "en": "Minhāj al-Ṭālibīn",
+     "ru": "«Минхадж ат-Талибин»",
+     "es": "Minhāj al-Ṭālibīn",
+     "uk": "«Мінхадж ат-Талібін»"
+    }
+   ]
+  },
+  "hanbali": {
+   "text": {
+    "ar": "صيام شهر رمضان فرض عين بنصّ الكتاب والسنة وإجماع المسلمين، وهو أحد أركان الإسلام الخمسة.",
+    "en": "Fasting Ramadan is a personal obligation established by the text of the Quran, the Sunnah, and the consensus of Muslims, one of the five pillars of Islam.",
+    "ru": "Пост Рамадана — личная обязанность, установленная текстом Корана, Сунной и единогласием мусульман, один из пяти столпов ислама.",
+    "es": "El ayuno de Ramadán es una obligación personal establecida por el texto del Corán, la Sunnah y el consenso de los musulmanes, uno de los cinco pilares del Islam.",
+    "uk": "Піст Рамадану — особистий обов'язок, встановлений текстом Корану, Сунною та одностайністю мусульман, один з п'яти стовпів ісламу."
+   },
+   "sources": [
+    {
+     "ar": "المغني",
+     "en": "Al-Mughnī",
+     "ru": "«Аль-Мугни»",
+     "es": "Al-Mughnī",
+     "uk": "«Аль-Мугні»"
+    },
+    {
+     "ar": "كشاف القناع",
+     "en": "Kashshāf al-Qināʿ",
+     "ru": "«Кашшаф аль-Кина»",
+     "es": "Kashshāf al-Qināʿ",
+     "uk": "«Кашшаф аль-Кіна»"
+    }
+   ]
+  }
+ }
+}
