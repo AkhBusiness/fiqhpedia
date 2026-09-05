@@ -1,0 +1,157 @@
+{
+  "ref": "F58",
+  "id": "sawm-8",
+  "bookId": "sawm",
+  "seq": 1,
+  "chapter": {
+    "ar": "المفطرات",
+    "en": "The Invalidators of the Fast",
+    "ru": "Нарушители поста",
+    "es": "Los invalidadores del ayuno",
+    "uk": "Порушники посту"
+  },
+  "title": {
+    "ar": "حكم الأكل والشرب عمداً في صيام رمضان وما يترتّب عليه",
+    "en": "Ruling on Deliberately Eating and Drinking While Fasting in Ramadan and What It Entails",
+    "ru": "Постановление о намеренном приёме пищи и питья во время поста в Рамадан и вытекающих из этого последствиях",
+    "es": "Norma sobre comer y beber intencionalmente durante el ayuno de Ramadán y lo que conlleva",
+    "uk": "Постанова про навмисне вживання їжі та пиття під час посту в Рамадан та наслідки цього"
+  },
+  "summary": {
+    "ar": "ما حكم من أكل أو شرب عمداً في نهار رمضان، وماذا يترتّب عليه من قضاء وكفّارة؟",
+    "en": "What is the ruling on someone who deliberately eats or drinks during the day in Ramadan, and what does it entail of qadaʾ and kaffarah?",
+    "ru": "Каково постановление относительно того, кто намеренно поел или попил днём в Рамадан, и какие последствия это влечёт — возмещение и искупление?",
+    "es": "¿Cuál es la norma sobre quien come o bebe intencionalmente durante el día en Ramadán, y qué conlleva en cuanto a recuperación y expiación?",
+    "uk": "Яка постанова щодо того, хто навмисно поїв чи попив удень у Рамадан, і які наслідки це тягне за собою — відшкодування та спокуту?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "من أكل أو شرب عمداً في نهار رمضان بلا عذر بطل صومه، وعليه القضاء والكفّارة الكبرى (صيام شهرين متتابعين أو إطعام ستين مسكيناً).",
+        "en": "Whoever deliberately eats or drinks during the day in Ramadan without an excuse invalidates their fast, and they must perform qadaʾ and the major kaffarah (fasting two consecutive months or feeding sixty poor people).",
+        "ru": "Тот, кто намеренно поел или попил днём в Рамадан без уважительной причины, портит свой пост, и на нём лежит возмещение (када) и великое искупление — каффара (пост двух месяцев подряд или кормление шестидесяти бедняков).",
+        "es": "Quien come o bebe intencionalmente durante el día en Ramadán sin excusa invalida su ayuno, y debe realizar el qadaʾ y la gran expiación — kaffarah (ayunar dos meses consecutivos o alimentar a sesenta pobres).",
+        "uk": "Хто навмисно поїв чи попив удень у Рамадан без поважної причини, псує свій піст, і на ньому лежить відшкодування (када) та велика спокута — каффара (піст двох місяців поспіль або годування шістдесяти бідняків)."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "من أكل أو شرب عمداً مختاراً في صيام فرض (كرمضان) بطل صومه، وعليه القضاء والكفّارة المغلّظة مع حرمة اليوم.",
+        "en": "Whoever deliberately and willingly eats or drinks in an obligatory fast (like Ramadan) invalidates their fast, and must perform qadaʾ and the severe kaffarah, along with the sin of violating the day.",
+        "ru": "Тот, кто намеренно и добровольно поел или попил в обязательный пост (как Рамадан), портит свой пост, и на нём лежит возмещение и строгое искупление, наряду с грехом нарушения дня.",
+        "es": "Quien come o bebe voluntaria e intencionalmente en un ayuno obligatorio (como Ramadán) invalida su ayuno, y debe realizar el qadaʾ y la kaffarah severa, junto con el pecado de violar el día.",
+        "uk": "Хто навмисно та добровільно поїв чи попив у обов'язковий піст (як Рамадан), псує свій піст, і на ньому лежить відшкодування та сувора спокута, разом із гріхом порушення дня."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "من أكل أو شرب عمداً في نهار رمضان بطل صومه ووجب عليه القضاء، ولا تجب الكفّارة بالأكل والشرب عمداً، وإنّما تجب بالجماع.",
+        "en": "Whoever deliberately eats or drinks during the day in Ramadan invalidates their fast and must perform qadaʾ; the kaffarah is not obligatory for deliberately eating and drinking, but only for sexual intercourse.",
+        "ru": "Тот, кто намеренно поел или попил днём в Рамадан, портит свой пост и обязан его возместить (када); искупление (каффара) за намеренную еду и питьё не является обязательным, а обязательно лишь за половой акт.",
+        "es": "Quien come o bebe intencionalmente durante el día en Ramadán invalida su ayuno y debe realizar el qadaʾ; la kaffarah no es obligatoria por comer y beber intencionalmente, sino solo por las relaciones sexuales.",
+        "uk": "Хто навмисно поїв чи попив удень у Рамадан, псує свій піст і зобов'язаний його відшкодувати (када); спокута (каффара) за навмисну їжу та пиття не є обов'язковою, а обов'язкова лише за статевий акт."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "من أكل أو شرب عمداً بلا عذر في نهار رمضان بطل صومه ووجب عليه القضاء والإمساك لحرمة الوقت، ولا تجب عليه الكفّارة، لأنّها تجب بالجماع خاصّة.",
+        "en": "Whoever deliberately eats or drinks without an excuse during the day in Ramadan invalidates their fast and must make it up (qadaʾ) and refrain for the rest of the day; the kaffarah is not obligatory upon them, because it is specific to sexual intercourse.",
+        "ru": "Тот, кто намеренно поел или попил без уважительной причины днём в Рамадан, портит свой пост, и на нём лежит возмещение (када) и воздержание в остаток дня; искупление (каффара) на него не возлагается, так как оно касается только полового акта.",
+        "es": "Quien come o bebe intencionalmente sin excusa durante el día en Ramadán invalida su ayuno y debe realizar el qadaʾ y abstenerse el resto del día; la kaffarah no le es obligatoria, ya que es específica de las relaciones sexuales.",
+        "uk": "Хто навмисно поїв чи попив без поважної причини удень у Рамадан, псує свій піст і зобов'язаний його відшкодувати (када) та утримуватися решту дня; спокута (каффара) на нього не покладається, оскільки вона стосується лише статевого акту."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

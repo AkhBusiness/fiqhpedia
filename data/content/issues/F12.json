@@ -12,25 +12,29 @@
   "title": {
     "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
     "en": "Ruling on Raising Hands During Takbeer and its Places in Prayer",
-    "ru": "Постановление о поднятии рук при такбире и его места в молитве"
+    "ru": "Постановление о поднятии рук при такбире и его места в молитве",
+    "es": "La norma sobre levantar las manos en el takbir de apertura y sus lugares en la oración"
   },
   "summary": {
     "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع الرفع منه وفي هيئة الرفع.",
     "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
-    "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона."
+    "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона.",
+    "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren en levantarlas al inclinarse, al incorporarse de la inclinación y en la forma de levantarlas."
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يرفع يديه حتى يحاذي بإبهاميه شحمتي أذنيه عند تكبيرة الإحرام فقط، ولا يرفع في غيرها من التكبيرات.",
         "en": "Raises hands to earlobes only during the opening Takbeer; no raising hands in other parts.",
-        "ru": "Поднимает руки до мочек ушей только при начальном такбире; при других такбирах не поднимает."
+        "ru": "Поднимает руки до мочек ушей только при начальном такбире; при других такбирах не поднимает.",
+        "es": "Levanta las manos hasta que los pulgares queden a la altura de los lóbulos de las orejas solo en el takbir de apertura, y no las levanta en los demás takbires."
       },
       "sources": [
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
-          "ru": "«Мараки аль-Фалях»"
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
         }
       ]
     },
@@ -38,13 +42,15 @@
       "text": {
         "ar": "المعتمد رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
         "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
-        "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется."
+        "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется.",
+        "es": "La postura acreditada es levantar las manos a la altura de los hombros solo en el takbir de apertura, y es desaconsejable levantarlas en el resto de los descensos y ascensos."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         }
       ]
     },
@@ -52,13 +58,15 @@
       "text": {
         "ar": "يسن رفع اليدين حذو المنكبين في أربعة مواضع: عند الإحرام، وعند الركوع، وعند الرفع منه، وعند القيام من التشهّد الأول.",
         "en": "Recommended to raise hands to shoulder level in four positions: Opening, Bowing, Rising from Bowing, and Standing from 1st Tashahhud.",
-        "ru": "Желательно поднимать руки до уровня плеч в 4 местах: при начальном такбире, поклоне, выпрямлении и вставании с 1-го ташаххуда."
+        "ru": "Желательно поднимать руки до уровня плеч в 4 местах: при начальном такбире, поклоне, выпрямлении и вставании с 1-го ташаххуда.",
+        "es": "Es sunna levantar las manos a la altura de los hombros en cuatro lugares: en el takbir de apertura, al inclinarse, al incorporarse de la inclinación y al levantarse del primer tashahhud."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
-          "ru": "«Минхадж ат-Талибин»"
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
         }
       ]
     },
@@ -66,13 +74,15 @@
       "text": {
         "ar": "يسن رفع اليدين حذو المنكبين أو فروع الأذنين في ثلاثة مواضع: تكبيرة الإحرام، وعند الركوع، وعند الرفع منه.",
         "en": "Recommended to raise hands to shoulders or earlobes in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
-        "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление."
+        "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление.",
+        "es": "Es sunna levantar las manos a la altura de los hombros o de la parte superior de las orejas en tres lugares: el takbir de apertura, al inclinarse y al incorporarse de la inclinación."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         }
       ]
     }

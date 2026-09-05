@@ -6,40 +6,47 @@
   "chapter": {
     "ar": "باب صلاة المسافر",
     "en": "Chapter of the Traveler's Prayer",
-    "ru": "Раздел о молитве путника"
+    "ru": "Раздел о молитве путника",
+    "es": "Capítulo de la oración del viajero"
   },
   "title": {
     "ar": "حكم قصر الصلاة الرباعية للمسافر",
     "en": "Ruling on Shortening Four-Unit Prayers for the Traveler",
-    "ru": "Постановление о сокращении четырехракаатной молитвы для путника"
+    "ru": "Постановление о сокращении четырехракаатной молитвы для путника",
+    "es": "La norma sobre acortar la oración de cuatro rakʿas para el viajero"
   },
   "summary": {
     "ar": "هل قصر الصلاة للمسافر عزيمة واجبة أم رخصة؟",
     "en": "Is shortening the prayer for a traveler mandatory or optional?",
-    "ru": "Является ли сокращение молитвы путником обязательным или облегчением?"
+    "ru": "Является ли сокращение молитвы путником обязательным или облегчением?",
+    "es": "¿Acortar la oración para el viajero es una obligación firme o una dispensa?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "قصر الصلاة الرباعية واجب على المسافر، والإتمام مكروه تحريماً إن قعد القعدة الأولى.",
         "en": "Shortening four-unit prayers is obligatory for the traveler; completing four units is prohibitively disliked.",
-        "ru": "Сокращение четырехракаатной молитвы является обязательным для путника, а ее полное совершение греховно."
+        "ru": "Сокращение четырехракаатной молитвы является обязательным для путника, а ее полное совершение греховно.",
+        "es": "Acortar la oración de cuatro rakʿas es obligatorio para el viajero, y completarla es desaconsejable con desaconsejo prohibitivo si se sentó en la primera sentada."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         },
         {
           "ar": "العناية",
           "en": "Al-ʿInāyah",
-          "ru": "«Аль-Инайя»"
+          "ru": "«Аль-Инайя»",
+          "es": "Al-ʿInāyah"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
-          "ru": "«Мараки аль-Фалях»"
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ"
         }
       ]
     },
@@ -47,23 +54,27 @@
       "text": {
         "ar": "قصر الصلاة الرباعية في السفر سنة مؤكدة وهو أفضل من الإتمام في السفر المبيح للقصر.",
         "en": "Shortening four-unit prayers during travel is an emphasized Sunnah, superior to completing them.",
-        "ru": "Сокращение молитвы в путешествии является настоятельной сунной и предпочтительнее совершения полного намаза."
+        "ru": "Сокращение молитвы в путешествии является настоятельной сунной и предпочтительнее совершения полного намаза.",
+        "es": "Acortar la oración de cuatro rakʿas en el viaje es una sunna confirmada, y es mejor que completarla en el viaje que permite el acortamiento."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         },
         {
           "ar": "التاج والإكليل",
           "en": "Al-Tāj wa-al-Iklīl",
-          "ru": "«Ат-Тадж ва-ль-Иклиль»"
+          "ru": "«Ат-Тадж ва-ль-Иклиль»",
+          "es": "Al-Tāj wa-al-Iklīl"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
-          "ru": "«Минах аль-Джалиль»"
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
         }
       ]
     },
@@ -71,23 +82,27 @@
       "text": {
         "ar": "القصر رخصة جائزة للمسافر والقصر أفضل إذا بلغت مسافة السفر ثلاث مراحل فأكثر.",
         "en": "Shortening is a permissible concession for travel; it is preferable if travel reaches three stages.",
-        "ru": "Сокращение молитвы является дозволенным облегчением в пути, и оно предпочтительнее при длинных расстояниях."
+        "ru": "Сокращение молитвы является дозволенным облегчением в пути, и оно предпочтительнее при длинных расстояниях.",
+        "es": "El acortamiento es una dispensa permitida para el viajero, y acortar es mejor si la distancia del viaje alcanza tres etapas o más."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
-          "ru": "«Минхадж ат-Талибин»"
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
-          "ru": "«Аль-Маджму»"
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
-          "ru": "«Мугни аль-Мухтадж»"
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
         }
       ]
     },
@@ -95,23 +110,27 @@
       "text": {
         "ar": "القصر رخصة مستحبة للمسافر والإتمام جائز مع الكراهة، والقصر أفضل.",
         "en": "Shortening is a recommended concession, completing is disliked, and shortening is superior.",
-        "ru": "Сокращение является желательным облегчением, полное совершение нежелательно, а сокращение лучше."
+        "ru": "Сокращение является желательным облегчением, полное совершение нежелательно, а сокращение лучше.",
+        "es": "El acortamiento es una dispensa recomendable para el viajero, completar está permitido con desaconsejo, y acortar es mejor."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
-          "ru": "«Зад аль-Мустакни»"
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         },
         {
           "ar": "مطالب أولي النهى",
           "en": "Maṭālib Ūlī al-Nuhā",
-          "ru": "«Маталиб ули ан-Нуха»"
+          "ru": "«Маталиб ули ан-Нуха»",
+          "es": "Maṭālib Ūlī al-Nuhā"
         }
       ]
     }

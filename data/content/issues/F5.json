@@ -6,30 +6,35 @@
   "chapter": {
     "ar": "باب المسح على الخفين",
     "en": "Chapter of Wiping over Footgear",
-    "ru": "Раздел о протирании обуви"
+    "ru": "Раздел о протирании обуви",
+    "es": "Capítulo del frotamiento sobre los calcetines de cuero (khuff)"
   },
   "title": {
     "ar": "حكم المسح على الجورب الخفيف/الحديث",
     "en": "The ruling on wiping over light/modern socks",
-    "ru": "Постановление о протирании лёгких/современных носков"
+    "ru": "Постановление о протирании лёгких/современных носков",
+    "es": "La norma sobre el frotamiento sobre los calcetines ligeros o modernos"
   },
   "summary": {
     "ar": "متى يجوز المسح على الجوربين بدلاً من غسل القدمين؟",
     "en": "When is it permissible to wipe over socks instead of washing the feet?",
-    "ru": "Когда допустимо протирать носки вместо мытья ног?"
+    "ru": "Когда допустимо протирать носки вместо мытья ног?",
+    "es": "¿Cuándo está permitido frotar sobre los calcetines en lugar de lavar los pies?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يجوز إن كانا ثخينين يمنعان نفوذ الماء ويمكن متابعة المشي عليهما.",
         "en": "Permissible if they are thick, preventing water from seeping through, and one can walk continuously in them.",
-        "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить."
+        "ru": "Допустимо, если они плотные, не пропускают воду и в них можно продолжительно ходить.",
+        "es": "Está permitido si son gruesos, impiden que el agua se filtre y se puede seguir caminando con ellos."
       },
       "sources": [
         {
           "ar": "الدر المختار",
           "en": "Al-Durr al-Mukhtār",
-          "ru": "«Ад-Дурр аль-Мухтар»"
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār"
         }
       ]
     },
@@ -37,13 +42,15 @@
       "text": {
         "ar": "لا يجوز المسح إلا على الخف المصنوع من الجلد فقط.",
         "en": "Wiping is permitted only over khuff made of leather.",
-        "ru": "Протирание допускается только по хуффу, изготовленному из кожи."
+        "ru": "Протирание допускается только по хуффу, изготовленному из кожи.",
+        "es": "No está permitido frotar salvo sobre el khuff hecho únicamente de cuero."
       },
       "sources": [
         {
           "ar": "الخرشي على خليل",
           "en": "Al-Kharashī ʿalā Khalīl",
-          "ru": "«Аль-Хараши аля Халиль»"
+          "ru": "«Аль-Хараши аля Халиль»",
+          "es": "Al-Kharashī ʿalā Khalīl"
         }
       ]
     },
@@ -51,13 +58,15 @@
       "text": {
         "ar": "يشترط أن يكونا صفيقين ومجلدين أو منعّلين يثبتان بنفسهما.",
         "en": "It is stipulated that they be thick and leather-covered or soled, staying up by themselves.",
-        "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами."
+        "ru": "Требуется, чтобы они были плотными и с кожаным покрытием или подошвой и держались сами.",
+        "es": "Se exige que sean gruesos y recubiertos de cuero o con suela, de modo que se sostengan por sí mismos."
       },
       "sources": [
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
-          "ru": "«Мугни аль-Мухтадж»"
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
         }
       ]
     },
@@ -65,13 +74,15 @@
       "text": {
         "ar": "يجوز المسح على الجورب الصفيق الساتر للمحل وإن لم يكن مجلداً.",
         "en": "Wiping over a thick sock that covers the area is permitted even if it is not leather-covered.",
-        "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия."
+        "ru": "Протирание плотного носка, покрывающего нужную часть, допустимо, даже если он без кожаного покрытия.",
+        "es": "Está permitido frotar sobre el calcetín grueso que cubre la zona, aunque no esté recubierto de cuero."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         }
       ]
     }

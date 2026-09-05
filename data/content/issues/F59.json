@@ -1,0 +1,157 @@
+{
+  "ref": "F59",
+  "id": "sawm-9",
+  "bookId": "sawm",
+  "seq": 9,
+  "chapter": {
+    "ar": "المفطرات",
+    "en": "The Invalidators of the Fast",
+    "ru": "Нарушители поста",
+    "es": "Los invalidadores del ayuno",
+    "uk": "Порушники посту"
+  },
+  "title": {
+    "ar": "حكم التدخين وما يُستنشق عمداً في نهار الصيام",
+    "en": "Ruling on Smoking and What is Intentionally Inhaled During the Day of Fasting",
+    "ru": "Постановление о курении и том, что намеренно вдыхается во время поста",
+    "es": "Norma sobre fumar y lo que se inhala intencionalmente durante el ayuno",
+    "uk": "Постанова про куріння та те, що навмисно вдихається під час посту"
+  },
+  "summary": {
+    "ar": "ما حكم تدخين الدخان واستنشاق الأبخرة عمداً في نهار رمضان، وهل يفسد الصيام؟",
+    "en": "What is the ruling on smoking and intentionally inhaling vapors and smoke during the day of Ramadan, and does it invalidate the fast?",
+    "ru": "Каково постановление о курении и намеренном вдыхании паров и дыма днём в Рамадан, и портит ли это пост?",
+    "es": "¿Cuál es la norma sobre fumar e inhalar intencionalmente vapores y humo durante el día de Ramadán, e invalida el ayuno?",
+    "uk": "Яка постанова про куріння та навмисне вдихання парів і диму вдень у Рамадан, і чи псує це піст?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يفسد الصيام بوصول الدخان أو ما يُستنشق عمداً إلى الجوف إذا كان ذا جِرْم، ويجب القضاء دون الكفّارة.",
+        "en": "The fast is invalidated by the intentional arrival of smoke or an inhaled substance into the body cavity if it has substance, and qadaʾ is required without kaffarah.",
+        "ru": "Пост нарушается при намеренном попадании дыма или вдыхаемого вещества в полость тела, если оно имеет массу, и требуется возмещение без искупления.",
+        "es": "El ayuno se invalida por la llegada intencional de humo o de una sustancia inhalada a la cavidad corporal si tiene sustancia, y se requiere el qadaʾ sin kaffarah.",
+        "uk": "Піст порушується при навмисному потраплянні диму або вдихуваної речовини у порожнину тіла, якщо вона має масу, і вимагається відшкодування без спокути."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يُفطر الصائم بوصول الدخان والبخور وسائر ما يُستنشق عمداً إلى الحلق والجوف، ويلزمه القضاء.",
+        "en": "The fasting person breaks their fast by the arrival of smoke, incense, and all intentionally inhaled substances to the throat and body cavity, and qadaʾ is obligatory upon them.",
+        "ru": "Постящийся портит свой пост при попадании дыма, благовоний и всего намеренно вдыхаемого в горло и полость тела, и на нём лежит возмещение.",
+        "es": "El ayunante rompe su ayuno con la llegada de humo, incienso y todas las sustancias inhaladas intencionalmente a la garganta y la cavidad corporal, y le es obligatorio el qadaʾ.",
+        "uk": "Постувальник псує свій піст при потраплянні диму, пахощів та всього навмисно вдихуваного в горло та порожнину тіла, і на ньому лежить відшкодування."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يبطل الصيام بوصول أيّ عين من الأعيان (كالدخان والبخور وما يُستنشق ممّا له جِرْم) إلى الجوف من منفذ مفتوح عمداً.",
+        "en": "The fast is invalidated by the intentional arrival of any physical substance (such as smoke, incense, and inhaled matter that has substance) into the body cavity through an open orifice.",
+        "ru": "Пост аннулируется при намеренном попадании любого материального вещества (как дым, благовония и вдыхаемое, имеющее массу) в полость тела через открытое отверстие.",
+        "es": "El ayuno se invalida con la llegada intencional de cualquier sustancia física (como humo, incienso y materia inhalada que tenga sustancia) a la cavidad corporal por un orificio abierto.",
+        "uk": "Піст анулюється при навмисному потраплянні будь-якої матеріальної речовини (як дим, пахощі та вдихуване, що має масу) у порожнину тіла через відкритий отвір."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُفطر الصائم بتدخين الدخان وما يُستنشق عمداً إذا وصل إلى الجوف، لأنّه جِرْم يصل باختياره إلى الباطن فيفطر به.",
+        "en": "The fasting person breaks their fast by smoking and intentional inhalation if it reaches the body cavity, because it is a substance reaching the interior by their choice, thereby breaking the fast.",
+        "ru": "Постящийся портит пост курением и намеренным вдыханием при попадании в полость тела, так как это масса, достигающая внутреннего пространства по его выбору, чем и нарушается пост.",
+        "es": "El ayunante rompe su ayuno al fumar y con la inhalación intencional si llega a la cavidad corporal, porque es una sustancia que llega al interior por su elección, invalidando así el ayuno.",
+        "uk": "Постувальник псує піст курінням та навмисним вдиханням при потраплянні в порожнину тіла, оскільки це маса, що досягає внутрішнього простору за його вибором, чим і порушується піст."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

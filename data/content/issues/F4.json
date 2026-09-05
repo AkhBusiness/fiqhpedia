@@ -6,30 +6,35 @@
   "chapter": {
     "ar": "باب فرض الوضوء",
     "en": "Chapter of the Obligation of Ablution",
-    "ru": "Раздел об обязательности омовения"
+    "ru": "Раздел об обязательности омовения",
+    "es": "Capítulo de la obligatoriedad de la ablución"
   },
   "title": {
     "ar": "حكم النية في الوضوء وهل تسقط سهواً",
     "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
-    "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости"
+    "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости",
+    "es": "La norma sobre la intención (niyyah) en la ablución y si decae por olvido"
   },
   "summary": {
     "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
     "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
-    "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?"
+    "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?",
+    "es": "¿Es la intención una condición o un pilar para la validez de la ablución, y decae por olvido?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
         "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
-        "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения."
+        "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения.",
+        "es": "Es una sunna confirmada y no una condición para la validez de la ablución; la ablución es válida sin intención."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         }
       ]
     },
@@ -37,13 +42,15 @@
       "text": {
         "ar": "فرض وشرط أساسي لصحة الوضوء لا يصح بدونه.",
         "en": "An obligation and an essential condition for the validity of ablution; it is invalid without it.",
-        "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно."
+        "ru": "Обязанность и основное условие действительности омовения; без него оно недействительно.",
+        "es": "Es una obligación y una condición esencial para la validez de la ablución, que no es válida sin ella."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         }
       ]
     },
@@ -51,13 +58,15 @@
       "text": {
         "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
         "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
-        "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица."
+        "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица.",
+        "es": "Es el primer pilar de los pilares de la ablución; su lugar es el corazón al lavar la primera parte del rostro."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
-          "ru": "«Тухфат аль-Мухтадж»"
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj"
         }
       ]
     },
@@ -65,13 +74,15 @@
       "text": {
         "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
         "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
-        "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно."
+        "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно.",
+        "es": "Es una condición para la validez de toda la purificación; no decae ni por olvido ni deliberadamente."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         }
       ]
     }

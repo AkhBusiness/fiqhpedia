@@ -6,30 +6,35 @@
   "chapter": {
     "ar": "باب الآنية",
     "en": "Chapter of Vessels",
-    "ru": "Раздел о сосудах"
+    "ru": "Раздел о сосудах",
+    "es": "Capítulo de los recipientes"
   },
   "title": {
     "ar": "حكم الطهارة بأواني الذهب والفضة",
     "en": "The ruling on purifying with vessels of gold and silver",
-    "ru": "Постановление об очищении из сосудов из золота и серебра"
+    "ru": "Постановление об очищении из сосудов из золота и серебра",
+    "es": "La norma sobre la purificación con recipientes de oro y plata"
   },
   "summary": {
     "ar": "هل يحرم استعمال أواني الذهب والفضة، وهل تصح الطهارة منها؟",
     "en": "Is using vessels of gold and silver forbidden, and is purification from them valid?",
-    "ru": "Запрещено ли пользоваться золотыми и серебряными сосудами и действительно ли из них очищение?"
+    "ru": "Запрещено ли пользоваться золотыми и серебряными сосудами и действительно ли из них очищение?",
+    "es": "¿Está prohibido usar recipientes de oro y plata, y es válida la purificación con ellos?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يحرم استعمال أواني الذهب والفضة في الأكل والشرب والطهارة، وتصح الطهارة منها مع الإثم.",
         "en": "Using gold and silver vessels for eating, drinking, and purification is forbidden, yet purification from them is valid though sinful.",
-        "ru": "Использование золотых и серебряных сосудов для еды, питья и очищения запретно, но очищение из них действительно, хотя и греховно."
+        "ru": "Использование золотых и серебряных сосудов для еды, питья и очищения запретно, но очищение из них действительно, хотя и греховно.",
+        "es": "Está prohibido usar recipientes de oro y plata para comer, beber y purificarse, y la purificación con ellos es válida, aunque con pecado."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         }
       ]
     },
@@ -37,13 +42,15 @@
       "text": {
         "ar": "يكره اتخاذها واستعمالها كراهة شديدة، وتصح الطهارة منها مع الكراهة.",
         "en": "Acquiring and using them is strongly disliked, and purification from them is valid though disliked.",
-        "ru": "Их приобретение и использование сильно нежелательны, а очищение из них действительно, хотя и нежелательно."
+        "ru": "Их приобретение и использование сильно нежелательны, а очищение из них действительно, хотя и нежелательно.",
+        "es": "Es fuertemente desaconsejable adquirirlos y usarlos, y la purificación con ellos es válida, aunque desaconsejable."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         }
       ]
     },
@@ -51,13 +58,15 @@
       "text": {
         "ar": "يحرم استعمالها في الطهارة وغيرها، وتصح الطهارة بها مع الحرمة على المعتمد.",
         "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition per the relied-upon view.",
-        "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению."
+        "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению.",
+        "es": "Está prohibido usarlos para la purificación y para otros fines, y la purificación con ellos es válida pese a la prohibición, según la postura acreditada."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
-          "ru": "«Тухфат аль-Мухтадж»"
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj"
         }
       ]
     },
@@ -65,13 +74,15 @@
       "text": {
         "ar": "يحرم استعمال آنية الذهب والفضة في الطهارة وغيرها، ومن توضأ منها صح وضوؤه مع الإثم.",
         "en": "Using gold and silver vessels for purification and otherwise is forbidden; whoever performs ablution from them, his ablution is valid though sinful.",
-        "ru": "Использование золотых и серебряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно."
+        "ru": "Использование золотых и серебряных сосудов для очищения и иного запретно; кто совершил из них омовение — оно действительно, хотя и греховно.",
+        "es": "Está prohibido usar recipientes de oro y plata para la purificación y para otros fines; quien haga la ablución con ellos, su ablución es válida, aunque con pecado."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         }
       ]
     }

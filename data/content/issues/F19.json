@@ -6,40 +6,47 @@
   "chapter": {
     "ar": "باب صلاة الجمعة",
     "en": "Chapter of Friday Prayer",
-    "ru": "Раздел о пятничной молитве"
+    "ru": "Раздел о пятничной молитве",
+    "es": "Capítulo de la oración del viernes"
   },
   "title": {
     "ar": "اشتراط المصر والمدينة لانعقاد صلاة الجمعة",
     "en": "Condition of the Town for the Validity of Friday Prayer",
-    "ru": "Условие города для действительности пятничной молитвы"
+    "ru": "Условие города для действительности пятничной молитвы",
+    "es": "La condición de la ciudad y la población para la celebración de la oración del viernes"
   },
   "summary": {
     "ar": "هل تشترط الإقامة في المصر الكبير لصحة الجمعة؟",
     "en": "Is residing in a large city required for Jumuʿah validity?",
-    "ru": "Является ли проживание в крупном городе условием для пятничной молитвы?"
+    "ru": "Является ли проживание в крупном городе условием для пятничной молитвы?",
+    "es": "¿Se exige la residencia en una gran ciudad para la validez de la oración del viernes?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
         "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
-        "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях."
+        "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях.",
+        "es": "Se exige para la validez de la oración del viernes que se celebre en una ciudad con mezquita congregacional o en sus afueras, y no es válida en las aldeas."
       },
       "sources": [
         {
           "ar": "الدر المختار",
           "en": "Al-Durr al-Mukhtār",
-          "ru": "«Ад-Дурр аль-Мухтар»"
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         },
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
-          "ru": "«Аль-Хидая»"
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
         }
       ]
     },
@@ -47,23 +54,27 @@
       "text": {
         "ar": "تشترط الإقامة في بلد الاستيطان سواء كان مصراً كبيراً أم قرية مبنية يستقر بها أهلها.",
         "en": "Residence in a settled village or city is required for Friday prayer, regardless of size.",
-        "ru": "Условием является проживание в населенном пункте, будь то крупный город или построенная деревня."
+        "ru": "Условием является проживание в населенном пункте, будь то крупный город или построенная деревня.",
+        "es": "Se exige la residencia en una localidad de asentamiento, sea una gran ciudad o una aldea edificada en la que sus habitantes se hayan establecido."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
-          "ru": "«Хашият ад-Дасуки»"
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī"
         },
         {
           "ar": "التاج والإكليل",
           "en": "Al-Tāj wa-al-Iklīl",
-          "ru": "«Ат-Тадж ва-ль-Иклиль»"
+          "ru": "«Ат-Тадж ва-ль-Иклиль»",
+          "es": "Al-Tāj wa-al-Iklīl"
         }
       ]
     },
@@ -71,23 +82,27 @@
       "text": {
         "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
         "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
-        "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов."
+        "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов.",
+        "es": "La oración del viernes es válida en las aldeas y en los edificios construidos, a condición de que residan cuarenta hombres legalmente responsables con los que se celebre el viernes."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
-          "ru": "«Минхадж ат-Талибин»"
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn"
         },
         {
           "ar": "روضة الطالبين",
           "en": "Rawḍat al-Ṭālibīn",
-          "ru": "«Равдат ат-Талибин»"
+          "ru": "«Равдат ат-Талибин»",
+          "es": "Rawḍat al-Ṭālibīn"
         },
         {
           "ar": "نهاية المحتاج",
           "en": "Nihāyat al-Muḥtāj",
-          "ru": "«Нихаят аль-Мухтадж»"
+          "ru": "«Нихаят аль-Мухтадж»",
+          "es": "Nihāyat al-Muḥtāj"
         }
       ]
     },
@@ -95,23 +110,27 @@
       "text": {
         "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
         "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
-        "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен."
+        "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен.",
+        "es": "Se exige celebrarla en un asentamiento de edificios agrupados, y no se exige que sea una gran ciudad determinada."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
-          "ru": "«Аль-Инсаф»"
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
         },
         {
           "ar": "شرح منتهى الإرادات",
           "en": "Sharḥ Muntahā al-Irādāt",
-          "ru": "«Шарх Мунтаха аль-Ирадат»"
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt"
         }
       ]
     }

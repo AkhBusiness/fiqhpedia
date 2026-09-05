@@ -1,0 +1,157 @@
+{
+  "ref": "F61",
+  "id": "sawm-11",
+  "bookId": "sawm",
+  "seq": 5,
+  "chapter": {
+    "ar": "أركان الصيام وشروطه",
+    "en": "The Pillars and Conditions of Fasting",
+    "ru": "Столпы и условия поста",
+    "es": "Los pilares y condiciones del ayuno",
+    "uk": "Стовпи та умови посту"
+  },
+  "title": {
+    "ar": "شروط وجوب صيام رمضان (البلوغ والعقل والقدرة)",
+    "en": "Conditions for the Obligation of Fasting Ramadan (Puberty, Sanity, and Capability)",
+    "ru": "Условия обязательности поста в Рамадан (совершеннолетие, разум и способность)",
+    "es": "Condiciones para la obligación del ayuno de Ramadán (pubertad, sanidad mental y capacidad)",
+    "uk": "Умови обов'язковості посту в Рамадан (повноліття, розум та спроможність)"
+  },
+  "summary": {
+    "ar": "ما هي الشروط الأساسية التي يجب توفّرها في المكلّف ليجب عليه صيام شهر رمضان؟",
+    "en": "What are the basic conditions required for a legally responsible person to be obligated to fast the month of Ramadan?",
+    "ru": "Каковы основные условия, необходимые для того, чтобы на дееспособного человека возлагалась обязанность поститься в месяц Рамадан?",
+    "es": "¿Cuáles son las condiciones básicas requeridas para que una persona legalmente responsable esté obligada a ayunar el mes de Ramadán?",
+    "uk": "Які основні умови необхідні для того, щоб на дієздатну особу покладався обов'язок постити в місяць Рамадан?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "شروط وجوب صيام رمضان هي: الإسلام، والعقل، والبلوغ، مع القدرة والصحّة، فلا يجب على الصبيّ ولا المجنون ولا العاجز، ويجب على القادر المقيم.",
+        "en": "The conditions for the obligation of fasting Ramadan are: Islam, sanity, and puberty, together with capability and health; it is not obligatory upon a child, an insane person, or one who is incapable, and it is obligatory upon the capable resident.",
+        "ru": "Условия обязательности поста в Рамадан таковы: ислам, разум и совершеннолетие, наряду со способностью и здоровьем; он не обязателен для ребёнка, безумного или неспособного, и обязателен для способного резидента.",
+        "es": "Las condiciones para la obligación del ayuno de Ramadán son: el islam, la sanidad mental y la pubertad, junto con la capacidad y la salud; no es obligatorio para un niño, un demente o un incapaz, y es obligatorio para el residente capaz.",
+        "uk": "Умови обов'язковості посту в Рамадан такі: іслам, розум та повноліття, разом зі спроможністю та здоров'ям; він не є обов'язковим для дитини, божевільного чи нездатного, і є обов'язковим для спроможного резидента."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "شروط وجوب الصيام ثلاثة أصول كبرى: العقل، والبلوغ، والقدرة (مع الإسلام وخلوّ المرأة من الحيض والنفاس)، فلا يجب على فاقد أحدها.",
+        "en": "The conditions for the obligation of fasting are three major principles: sanity, puberty, and capability (along with Islam and a woman's freedom from menstruation and postpartum bleeding); it is not obligatory upon one who lacks any of them.",
+        "ru": "Условия обязательности поста — три основных начала: разум, совершеннолетие и способность (наряду с исламом и отсутствием у женщины менструации и послеродового кровотечения), и он не обязателен для того, кто лишён одного из них.",
+        "es": "Las condiciones para la obligación del ayuno son tres principios mayores: la sanidad mental, la pubertad y la capacidad (junto con el islam y la ausencia de menstruación y loquios en la mujer); no es obligatorio para quien carece de alguno de ellos.",
+        "uk": "Умови обов'язковості посту — три основні засади: розум, повноліття та спроможність (разом з ісламом та відсутністю у жінки менструації і післяпологової кровотечі), і він не є обов'язковим для того, хто позбавлений будь-якої з них."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يُشترط لوجوب صيام رمضان أربعة أمور: الإسلام، والعقل، والبلوغ، والقدرة الحسّية والشرعية، فلا يجب على صبيّ ولا مجنون ولا عاجز عن الصوم.",
+        "en": "Four things are required for the obligation of fasting Ramadan: Islam, sanity, puberty, and physical and legal capability; it is not obligatory upon a child, an insane person, or one incapable of fasting.",
+        "ru": "Для обязательности поста в Рамадан требуются четыре вещи: ислам, разум, совершеннолетие и способность — чувственная и шариатская; он не обязателен для ребёнка, безумного или неспособного поститься.",
+        "es": "Para la obligación del ayuno de Ramadán se requieren cuatro cosas: el islam, la sanidad mental, la pubertad y la capacidad sensorial y legal; no es obligatorio para un niño, un demente o alguien incapaz de ayunar.",
+        "uk": "Для обов'язковості посту в Рамадан вимагаються чотири речі: іслам, розум, повноліття та спроможність — чуттєва і шаріатська; він не є обов'язковим для дитини, божевільного чи того, хто не здатний постити."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُشترط لوجوب صيام رمضان: الإسلام، والعقل، والبلوغ، والقدرة عليه حسّاً وشرعاً، فلا يجب على كافر، ولا مجنون، ولا صبيّ لم يبلغ، ولا عاجز لكبرٍ أو مرضٍ مزمن.",
+        "en": "Required for the obligation of fasting Ramadan are: Islam, sanity, puberty, and sensory and legal capability; it is not obligatory upon a disbeliever, an insane person, an underage child, or one incapable due to old age or chronic illness.",
+        "ru": "Для обязательности поста в Рамадан требуются: ислам, разум, совершеннолетие и способность к нему — чувственная и шариатская; он не обязателен для неверующего, безумного, несовершеннолетнего ребёнка или неспособного из-за старости или хронической болезни.",
+        "es": "Para la obligación del ayuno de Ramadán se requieren: el islam, la sanidad mental, la pubertad y la capacidad sensorial y legal; no es obligatorio para un incrédulo, un demente, un menor de edad o alguien incapaz por vejez o enfermedad crónica.",
+        "uk": "Для обов'язковості посту в Рамадан вимагаються: іслам, розум, повноліття та спроможність до нього — чуттєва і шаріатська; він не є обов'язковим для невіруючого, божевільного, неповнолітньої дитини чи нездатного через старість або хронічну хворобу."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

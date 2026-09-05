@@ -6,30 +6,35 @@
   "chapter": {
     "ar": "باب نواقض الوضوء",
     "en": "Chapter of Ablution Nullifiers",
-    "ru": "Раздел о нарушителях омовения"
+    "ru": "Раздел о нарушителях омовения",
+    "es": "Capítulo de los anuladores de la ablución"
   },
   "title": {
     "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
     "en": "The effect of eating camel meat and touching a woman on ablution",
-    "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение"
+    "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение",
+    "es": "El efecto de comer carne de camello y de tocar a una mujer sobre la ablución"
   },
   "summary": {
     "ar": "هل ينقض أكل لحم الإبل ولمس المرأة الأجنبية الوضوء؟",
     "en": "Do eating camel meat and touching a non-maram woman break ablution?",
-    "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?"
+    "ru": "Нарушают ли верблюжье мясо и прикосновение к посторонней женщине омовение?",
+    "es": "¿Anulan la ablución comer carne de camello y tocar a una mujer ajena (no mahram)?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "لا ينقض أكل لحم الإبل الوضوء مطبوخاً كان أو نيئاً، ولا ينقض لمس المرأة إلا بالمباشرة الفاحشة بلا حائل.",
         "en": "Eating camel meat does not break ablution, cooked or raw; and touching a woman does not break it except through gross direct contact without a barrier.",
-        "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды."
+        "ru": "Употребление верблюжьего мяса не нарушает омовение, варёного или сырого; прикосновение к женщине не нарушает, кроме грубого прямого контакта без преграды.",
+        "es": "Comer carne de camello no anula la ablución, cocida o cruda; y tocar a una mujer no la anula salvo mediante un contacto directo indecoroso sin barrera."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         }
       ]
     },
@@ -37,13 +42,15 @@
       "text": {
         "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة ينقض إن قصد اللذة أو وجدها لا مطلقاً.",
         "en": "Camel meat does not break ablution; touching a woman breaks it if pleasure is intended or found, not absolutely.",
-        "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно."
+        "ru": "Верблюжье мясо не нарушает омовение; прикосновение к женщине нарушает при намерении наслаждения или его возникновении, но не безусловно.",
+        "es": "La carne de camello no anula la ablución; tocar a una mujer la anula si se busca el placer o se experimenta, no de forma absoluta."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
-          "ru": "«Аш-Шарх аль-Кабир»"
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr"
         }
       ]
     },
@@ -51,13 +58,15 @@
       "text": {
         "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
         "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
-        "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды."
+        "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды.",
+        "es": "La carne de camello no anula la ablución según la postura nueva acreditada; tocar a una mujer ajena la anula por el mero contacto de piel con piel sin barrera."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
-          "ru": "«Тухфат аль-Мухтадж»"
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj"
         }
       ]
     },
@@ -65,13 +74,15 @@
       "text": {
         "ar": "ينقض أكل لحم الإبل الوضوء مطلقاً نيئاً ومطبوخاً، ولمس المرأة ينقض إن كان لشهوة لا لغيرها.",
         "en": "Eating camel meat breaks ablution absolutely—raw or cooked; touching a woman breaks it if it is with desire, not otherwise.",
-        "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе."
+        "ru": "Употребление верблюжьего мяса нарушает омовение безусловно — сырого или варёного; прикосновение к женщине нарушает, если со страстью, не иначе.",
+        "es": "Comer carne de camello anula la ablución de forma absoluta, cruda o cocida; tocar a una mujer la anula si es con deseo, no en otro caso."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
-          "ru": "«Кашшаф аль-Кина»"
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ"
         }
       ]
     }

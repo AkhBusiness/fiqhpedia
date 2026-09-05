@@ -6,30 +6,35 @@
   "chapter": {
     "ar": "باب المياه",
     "en": "Chapter of Waters",
-    "ru": "Раздел о водах"
+    "ru": "Раздел о водах",
+    "es": "Capítulo de las aguas"
   },
   "title": {
     "ar": "حكم الماء المستعمل في رفع الحدث",
     "en": "The ruling on water already used to remove ritual impurity",
-    "ru": "Постановление о воде, использованной для снятия осквернения"
+    "ru": "Постановление о воде, использованной для снятия осквернения",
+    "es": "La norma sobre el agua ya usada para eliminar la impureza ritual"
   },
   "summary": {
     "ar": "هل يبقى الماء المستعمل طهوراً يصح رفع الحدث به مرة أخرى؟",
     "en": "Does used water remain purifying so that it can remove ritual impurity again?",
-    "ru": "Остаётся ли использованная вода очищающей для повторного снятия осквернения?"
+    "ru": "Остаётся ли использованная вода очищающей для повторного снятия осквернения?",
+    "es": "¿Sigue siendo purificante el agua usada, de modo que sirva para eliminar de nuevo la impureza ritual?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "طاهر غير مطهر لغيره، ولا يجوز التوضؤ به مرة أخرى.",
         "en": "Pure in itself but not purifying for others; performing ablution with it again is not permitted.",
-        "ru": "Чистая сама по себе, но не очищающая для другого; повторно совершать ею омовение нельзя."
+        "ru": "Чистая сама по себе, но не очищающая для другого; повторно совершать ею омовение нельзя.",
+        "es": "Es pura en sí misma pero no purificante para otro, y no está permitido hacer de nuevo la ablución con ella."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
-          "ru": "«Аль-Хидая»"
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah"
         }
       ]
     },
@@ -37,13 +42,15 @@
       "text": {
         "ar": "طاهر مطهر يصح التوضؤ به مع الكراهة إن وجد غيره.",
         "en": "Pure and purifying; performing ablution with it is valid, though disliked if other water is available.",
-        "ru": "Чистая и очищающая; омовение ею действительно, но нежелательно при наличии другой воды."
+        "ru": "Чистая и очищающая; омовение ею действительно, но нежелательно при наличии другой воды.",
+        "es": "Es pura y purificante; es válido hacer la ablución con ella, aunque es desaconsejable si hay otra agua."
       },
       "sources": [
         {
           "ar": "الشرح الصغير",
           "en": "Al-Sharḥ al-Ṣaghīr",
-          "ru": "«Аш-Шарх ас-Сагир»"
+          "ru": "«Аш-Шарх ас-Сагир»",
+          "es": "Al-Sharḥ al-Ṣaghīr"
         }
       ]
     },
@@ -51,13 +58,15 @@
       "text": {
         "ar": "طاهر في نفسه غير مطهر لغيره.",
         "en": "Pure in itself but not purifying for others.",
-        "ru": "Чистая сама по себе, но не очищающая для другого."
+        "ru": "Чистая сама по себе, но не очищающая для другого.",
+        "es": "Es pura en sí misma pero no purificante para otro."
       },
       "sources": [
         {
           "ar": "فتح القريب",
           "en": "Fatḥ al-Qarīb",
-          "ru": "«Фатх аль-Кариб»"
+          "ru": "«Фатх аль-Кариб»",
+          "es": "Fatḥ al-Qarīb"
         }
       ]
     },
@@ -65,13 +74,15 @@
       "text": {
         "ar": "طاهر غير مطهر إذا انفصل عن الأعضاء.",
         "en": "Pure but not purifying once it has separated from the limbs.",
-        "ru": "Чистая, но не очищающая после отделения от органов тела."
+        "ru": "Чистая, но не очищающая после отделения от органов тела.",
+        "es": "Es pura pero no purificante una vez se ha separado de los miembros."
       },
       "sources": [
         {
           "ar": "شرح منتهى الإرادات",
           "en": "Sharḥ Muntahā al-Irādāt",
-          "ru": "«Шарх Мунтаха аль-Ирадат»"
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt"
         }
       ]
     }

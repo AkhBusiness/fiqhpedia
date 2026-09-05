@@ -12,25 +12,29 @@
   "title": {
     "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
     "en": "Position of Hands While Standing in Prayer (Qabd vs Sadl)",
-    "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)"
+    "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)",
+    "es": "La forma de colocar las manos durante la posición de pie en la oración (qabḍ y sadl)"
   },
   "summary": {
     "ar": "اختلف الفقهاء في محل وضع اليدين وحكم سدلهما على الجوانب في صلاة الفريضة.",
     "en": "Jurists differ on where to place hands while standing and whether leaving them at the sides is permissible or sunnah.",
-    "ru": "Ученые разошлись во мнениях о месте складывания рук и опускании их вдоль тела."
+    "ru": "Ученые разошлись во мнениях о месте складывания рук и опускании их вдоль тела.",
+    "es": "Los juristas difieren sobre dónde colocar las manos y sobre la norma de dejarlas caer a los lados en la oración obligatoria."
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يسن وضع اليد اليمنى على اليسرى تحت السرّة للرجل، وتضعهما المرأة على صدرها.",
         "en": "Recommended for men to place the right hand over the left below the navel; women place them on the chest.",
-        "ru": "Мужчинам желательно класть правую руку на левую ниже пупка; женщинам — на грудь."
+        "ru": "Мужчинам желательно класть правую руку на левую ниже пупка; женщинам — на грудь.",
+        "es": "Es sunna que el hombre coloque la mano derecha sobre la izquierda bajo el ombligo, y la mujer las coloca sobre el pecho."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
-          "ru": "«Радд аль-Мухтар»"
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār"
         }
       ]
     },
@@ -38,13 +42,15 @@
       "text": {
         "ar": "المشهور والمعتمد سدل اليدين إرسالهما على الجانبين في الفرض، ويكره القبض إلا إذا قصد به الاتباع لا الاستناد.",
         "en": "The famous relied opinion is Sadl (leaving hands at the sides) in obligatory prayers.",
-        "ru": "Известное мнение — опускание рук вдоль тела (садль) в обязательных молитвах."
+        "ru": "Известное мнение — опускание рук вдоль тела (садль) в обязательных молитвах.",
+        "es": "Lo conocido y acreditado es el sadl, dejar caer las manos a los lados en la oración obligatoria; el qabḍ es desaconsejable salvo que se haga por seguimiento de la sunna y no por apoyarse."
       },
       "sources": [
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
-          "ru": "«Минах аль-Джалиль»"
+          "ru": "«Минах аль-Джалиль»",
+          "es": "Minaḥ al-Jalīl"
         }
       ]
     },
@@ -52,13 +58,15 @@
       "text": {
         "ar": "يسن وضع الكف الأيمن على ظهر الأيسر تحت الصدر وفوق السرّة مائلاً إلى جهة اليسار للرجل والمرأة.",
         "en": "Recommended to place right hand over left wrist above the navel and below the chest, slightly to the left.",
-        "ru": "Желательно класть правую руку на левую выше пупка и ниже груди, чуть левее."
+        "ru": "Желательно класть правую руку на левую выше пупка и ниже груди, чуть левее.",
+        "es": "Es sunna colocar la palma derecha sobre el dorso de la izquierda bajo el pecho y por encima del ombligo, ligeramente hacia el lado izquierdo, tanto para el hombre como para la mujer."
       },
       "sources": [
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
-          "ru": "«Мугни аль-Мухтадж»"
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj"
         }
       ]
     },
@@ -66,13 +74,15 @@
       "text": {
         "ar": "يسن وضع كفه اليمنى على كوعه الأيسر وجعلهما تحت السرّة.",
         "en": "Recommended to place the right hand over the left wrist and place them below the navel.",
-        "ru": "Желательно класть правую руку на левое запястье и держать их ниже пупка."
+        "ru": "Желательно класть правую руку на левое запястье и держать их ниже пупка.",
+        "es": "Es sunna colocar la palma derecha sobre la muñeca izquierda y situarlas bajo el ombligo."
       },
       "sources": [
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
-          "ru": "«Аль-Инсаф»"
+          "ru": "«Аль-Инсаф»",
+          "es": "Al-Inṣāf"
         }
       ]
     }
