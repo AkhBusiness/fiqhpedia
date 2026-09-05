@@ -2,13 +2,13 @@
   "ref": "F4",
   "id": "taharah-1",
   "bookId": "taharah",
-  "seq": 7,
+  "seq": 12,
   "chapter": {
-    "ar": "باب فرض الوضوء",
-    "en": "Chapter of the Obligation of Ablution",
-    "ru": "Раздел об обязательности омовения",
-    "es": "Capítulo de la obligatoriedad de la ablución",
-    "uk": "Розділ про обов'язковість омовіння"
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
   },
   "title": {
     "ar": "حكم النية في الوضوء وهل تسقط سهواً",
@@ -41,7 +41,8 @@
           "es": "Radd al-Muḥtār",
           "uk": "«Радд аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     },
     "maliki": {
       "text": {
@@ -59,7 +60,9 @@
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "shart"
     },
     "shafii": {
       "text": {
@@ -77,7 +80,9 @@
           "es": "Tuḥfat al-Muḥtāj",
           "uk": "«Тухфат аль-Мухтадж»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "hanbali": {
       "text": {
@@ -95,7 +100,9 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "shart"
     }
   }
 }

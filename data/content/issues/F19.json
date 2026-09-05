@@ -55,7 +55,8 @@
           "es": "Al-Hidāyah",
           "uk": "«Аль-Хідая»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "maliki": {
       "text": {
@@ -87,7 +88,8 @@
           "es": "Al-Tāj wa-al-Iklīl",
           "uk": "«Ат-Тадж ва-ль-Іклиль»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "shafii": {
       "text": {
@@ -119,7 +121,8 @@
           "es": "Nihāyat al-Muḥtāj",
           "uk": "«Ніхаят аль-Мухтадж»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "hanbali": {
       "text": {
@@ -151,7 +154,8 @@
           "es": "Sharḥ Muntahā al-Irādāt",
           "uk": "«Шарх Мунтаха аль-Ірадат»"
         }
-      ]
+      ],
+      "nature": "shart"
     }
   }
 }

@@ -41,7 +41,8 @@
           "es": "Marāqī al-Falāḥ",
           "uk": "«Маракі аль-Фалях»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     },
     "maliki": {
       "text": {
@@ -66,7 +67,8 @@
           "es": "Ḥāshiyat al-Dasūqī",
           "uk": "«Хашіят ад-Дасукі»"
         }
-      ]
+      ],
+      "grade": "mandub"
     },
     "shafii": {
       "text": {
@@ -84,7 +86,8 @@
           "es": "Minhāj al-Ṭālibīn",
           "uk": "«Мінхадж ат-Талібін»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     },
     "hanbali": {
       "text": {
@@ -102,7 +105,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     }
   }
 }

@@ -1,0 +1,161 @@
+{
+  "ref": "F64",
+  "id": "taharah-31",
+  "bookId": "taharah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم المبالغة في المضمضة والاستنشاق لغير الصائم",
+    "en": "Ruling on Going to Excess in Rinsing the Mouth and Nose for One Who Is Not Fasting",
+    "ru": "Постановление об усердии в полоскании рта и носа для не постящегося",
+    "es": "Norma sobre esmerarse en el enjuague de la boca y la nariz para quien no ayuna",
+    "uk": "Постанова про старанність у полосканні рота та носа для того, хто не постить"
+  },
+  "summary": {
+    "ar": "ما حكم المبالغة في المضمضة والاستنشاق لغير الصائم في الوضوء؟",
+    "en": "What is the ruling on going to excess in rinsing the mouth and nose during the ablution for one who is not fasting?",
+    "ru": "Каково постановление об усердии в полоскании рта и носа во время омовения для того, кто не постится?",
+    "es": "¿Cuál es la norma sobre esmerarse en el enjuague de la boca y la nariz durante la ablución para quien no ayuna?",
+    "uk": "Яка постанова про старанність у полосканні рота та носа під час омивання для того, хто не постить?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، وهي في المضمضة أن يبلغ الماء الحلق، وفي الاستنشاق أن يبلغ قصبة الأنف.",
+        "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting: in the mouth it means the water reaching the throat, and in the nose it means reaching the nasal passage.",
+        "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится: во рту оно означает, что вода достигает горла, а в носу — что достигает носового хода.",
+        "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna: en la boca significa que el agua llegue a la garganta, y en la nariz que llegue al conducto nasal.",
+        "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить: у роті вона означає, що вода досягає горла, а в носі — що досягає носового ходу."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ],
+      "grade": "sunnah"
+    },
+    "maliki": {
+      "text": {
+        "ar": "تُندب المبالغة في المضمضة والاستنشاق لغير الصائم، بحيث يصل الماء إلى أقصى الفم والأنف من غير إفراط يضرّ.",
+        "en": "Going to excess in rinsing the mouth and nose is recommended for one who is not fasting, such that the water reaches the furthest part of the mouth and nose without harmful overdoing.",
+        "ru": "Усердие в полоскании рта и носа желательно для того, кто не постится, так чтобы вода достигала дальней части рта и носа без вредного излишества.",
+        "es": "Se recomienda esmerarse en el enjuague de la boca y la nariz para quien no ayuna, de modo que el agua llegue a la parte más lejana de la boca y la nariz sin excederse de forma dañina.",
+        "uk": "Старанність у полосканні рота та носа є бажаною для того, хто не постить, так щоб вода досягала найдальшої частини рота та носа без шкідливого надміру."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ],
+      "grade": "mandub"
+    },
+    "shafii": {
+      "text": {
+        "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، وهي في المضمضة بإدارة الماء في جميع الفم، وفي الاستنشاق بجذبه بالنفس إلى أقصى الأنف، لقوله ﷺ: «وبالغ في الاستنشاق إلا أن تكون صائماً».",
+        "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting: in the mouth by moving the water around the whole mouth, and in the nose by drawing it in with the breath to the furthest part, based on his saying ﷺ: “And go to excess in sniffing up water, unless you are fasting.”",
+        "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится: во рту — проводя воду по всему рту, а в носу — втягивая её дыханием до дальней части, согласно его словам ﷺ: «И усердствуй во втягивании воды носом, если только ты не постишься».",
+        "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna: en la boca moviendo el agua por toda ella, y en la nariz aspirándola con el aliento hasta lo más hondo, según su dicho ﷺ: «Y esmérate en aspirar agua por la nariz, salvo que estés ayunando».",
+        "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить: у роті — проводячи воду по всьому роті, а в носі — втягуючи її диханням до найдальшої частини, згідно з його словами ﷺ: «І старанно втягуй воду носом, хіба що ти постиш»."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ],
+      "grade": "sunnah"
+    },
+    "hanbali": {
+      "text": {
+        "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، بأن يوصل الماء إلى أقصى الفم والأنف، لحديث لقيط بن صَبِرة رضي الله عنه مرفوعاً: «وبالغ في الاستنشاق إلا أن تكون صائماً».",
+        "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting, by bringing the water to the furthest part of the mouth and nose, based on the hadith of Laqīṭ ibn Ṣabirah: “And go to excess in sniffing up water, unless you are fasting.”",
+        "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится, доводя воду до дальней части рта и носа, на основе хадиса Лакита ибн Сабиры: «И усердствуй во втягивании воды носом, если только ты не постишься».",
+        "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna, llevando el agua a lo más hondo de la boca y la nariz, según el hadiz de Laqīṭ ibn Ṣabirah: «Y esmérate en aspirar agua por la nariz, salvo que estés ayunando».",
+        "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить, доводячи воду до найдальшої частини рота та носа, на основі хадиса Лакіта ібн Сабіри: «І старанно втягуй воду носом, хіба що ти постиш»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ],
+      "grade": "sunnah"
+    }
+  }
+}

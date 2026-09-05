@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Bookmark, BookMarked, Check, Copy, Lightbulb, Pause, Share2, Volume2 } from "lucide-react"
+import { GradeBadge } from "@/components/grade-badge"
 import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   categories,
@@ -251,6 +252,10 @@ export function IssueCard({
                 >
                   {school.name[lang]}
                 </span>
+                {/* The grade sits beside the school name, not in the body, so
+                    it reads as a property of this school's answer. Absent on
+                    questions that carry no grade. */}
+                <GradeBadge grade={r.grade} nature={r.nature} school={school.key} issue={issue} lang={lang} />
               </div>
 
               <p className="flex-1 text-pretty text-sm leading-relaxed text-foreground/90">

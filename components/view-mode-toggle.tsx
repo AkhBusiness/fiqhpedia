@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, Sprout } from "lucide-react"
+import { BookMarked, FileText } from "lucide-react"
 import type { ViewMode } from "@/components/issue-card"
 import { type Lang, ui } from "@/lib/fiqh-data"
 
@@ -11,9 +11,26 @@ interface ViewModeToggleProps {
 }
 
 export function ViewModeToggle({ lang, value, onChange }: ViewModeToggleProps) {
-  const options: { key: ViewMode; label: string; icon: typeof GraduationCap }[] = [
-    { key: "academic", label: ui.academicMode[lang], icon: GraduationCap },
-    { key: "simplified", label: ui.simplifiedMode[lang], icon: Sprout },
+  /**
+   * The two modes differ in exactly one thing: whether the reference works
+   * are printed under each ruling. They used to be called "academic" and
+   * "simplified", which named an audience rather than an effect and left the
+   * reader guessing what would change. The labels now say what happens, and
+   * each carries a one-line title explaining it.
+   */
+  const options: { key: ViewMode; label: string; hint: string; icon: typeof BookMarked }[] = [
+    {
+      key: "academic",
+      label: ui.academicMode[lang],
+      hint: ui.academicModeHint[lang],
+      icon: BookMarked,
+    },
+    {
+      key: "simplified",
+      label: ui.simplifiedMode[lang],
+      hint: ui.simplifiedModeHint[lang],
+      icon: FileText,
+    },
   ]
 
   return (
@@ -31,6 +48,7 @@ export function ViewModeToggle({ lang, value, onChange }: ViewModeToggleProps) {
             type="button"
             onClick={() => onChange(o.key)}
             aria-pressed={active}
+            title={o.hint}
             className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all duration-200 ${
               active ? "bg-white text-black shadow-sm" : "text-muted-foreground hover:text-foreground"
             }`}

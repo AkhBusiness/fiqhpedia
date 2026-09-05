@@ -38,11 +38,11 @@
   ],
   "ui": {
     "academicMode": {
-      "ar": "أكاديمي",
-      "en": "Academic",
-      "ru": "Академический",
-      "es": "Académico",
-      "uk": "Академічний"
+      "ar": "مع المراجع",
+      "en": "With sources",
+      "ru": "С источниками",
+      "es": "Con fuentes",
+      "uk": "З джерелами"
     },
     "allSchools": {
       "ar": "جميع المذاهب",
@@ -738,11 +738,11 @@
       "uk": "Показати всі чотири мазгаби поруч"
     },
     "simplifiedMode": {
-      "ar": "مبسّط",
-      "en": "Simplified",
-      "ru": "Упрощённый",
-      "es": "Simplificado",
-      "uk": "Спрощений"
+      "ar": "الحكم وحده",
+      "en": "Ruling only",
+      "ru": "Только постановление",
+      "es": "Solo la norma",
+      "uk": "Лише постанова"
     },
     "singleSchool": {
       "ar": "مذهب واحد",
@@ -801,11 +801,11 @@
       "uk": "Тема"
     },
     "viewMode": {
-      "ar": "نمط العرض",
-      "en": "View mode",
-      "ru": "Режим отображения",
-      "es": "Modo de vista",
-      "uk": "Режим відображення"
+      "ar": "طريقة العرض",
+      "en": "Display",
+      "ru": "Отображение",
+      "es": "Visualización",
+      "uk": "Відображення"
     },
     "welcomeDesc": {
       "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
@@ -1016,6 +1016,69 @@
       "ru": "Терминологическое определение соответствует выбранному мазхабу",
       "es": "La definición técnica sigue tu selección de escuela",
       "uk": "Термінологічне визначення відповідає обраному мазгабу"
+    },
+    "aqidahChapters": {
+      "ar": "أبواب العقيدة",
+      "en": "Chapters of creed",
+      "ru": "Разделы вероучения",
+      "es": "Capítulos del credo",
+      "uk": "Розділи віровчення"
+    },
+    "aqidahAllChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
+    },
+    "proofsInChapter": {
+      "ar": "أدلة",
+      "en": "proofs",
+      "ru": "доказательств",
+      "es": "pruebas",
+      "uk": "доказів"
+    },
+    "academicModeHint": {
+      "ar": "يعرض مع كل حكم أسماء كتب المذهب التي أُخذ منها.",
+      "en": "Shows the school’s reference works beneath each ruling.",
+      "ru": "Показывает под каждым постановлением книги мазхаба, из которых оно взято.",
+      "es": "Muestra bajo cada norma las obras de referencia de la escuela.",
+      "uk": "Показує під кожною постановою книги мазгабу, з яких її взято."
+    },
+    "simplifiedModeHint": {
+      "ar": "يعرض نصّ الحكم وحده بلا أسماء الكتب — أوضح لمن يقرأ لأول مرة.",
+      "en": "Shows the ruling on its own, without the book titles — clearer on a first reading.",
+      "ru": "Показывает только текст постановления, без названий книг — понятнее при первом чтении.",
+      "es": "Muestra solo el texto de la norma, sin los títulos de los libros — más claro en una primera lectura.",
+      "uk": "Показує лише текст постанови, без назв книг — зрозуміліше при першому читанні."
+    },
+    "gradeWhatIs": {
+      "ar": "ما معنى هذه الدرجة؟",
+      "en": "What does this grade mean?",
+      "ru": "Что означает эта степень?",
+      "es": "¿Qué significa este grado?",
+      "uk": "Що означає цей ступінь?"
+    },
+    "gradeSameInChapter": {
+      "ar": "ما له الدرجة نفسها في هذا الباب",
+      "en": "Others of the same grade in this chapter",
+      "ru": "Другое той же степени в этом разделе",
+      "es": "Otros del mismo grado en este capítulo",
+      "uk": "Інше того ж ступеня в цьому розділі"
+    },
+    "gradeAcrossSchools": {
+      "ar": "درجتها عند المذاهب الأربعة",
+      "en": "Its grade in the four schools",
+      "ru": "Её степень в четырёх мазхабах",
+      "es": "Su grado en las cuatro escuelas",
+      "uk": "Її ступінь у чотирьох мазгабах"
+    },
+    "gradeNoDefinition": {
+      "ar": "تعريف هذه الدرجة قيد الإضافة",
+      "en": "The definition of this grade is being added",
+      "ru": "Определение этой степени добавляется",
+      "es": "La definición de este grado se está añadiendo",
+      "uk": "Визначення цього ступеня додається"
     }
   },
   "books": [
@@ -1210,7 +1273,15 @@
         "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин.",
         "es": "Por necesidad racional existe un Originador eterno, no precedido por la no existencia e independiente de todo lo demás — Dios —, el hacedor de todo lo originado y la causa de toda causa.",
         "uk": "Отже, за раціональною необхідністю існує предвічний Спричинювач, якому не передувало небуття і який не потребує нікого іншого, — Аллах Пресвятий, Творець усього виниклого і Причина всіх причин."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "khalq",
@@ -1269,7 +1340,15 @@
         "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения.",
         "es": "El origen desde la nada, por tanto, pertenece únicamente a Dios, y Su singularidad en ello indica que solo Él es divino y merecedor de adoración.",
         "uk": "Створення з небуття належить лише Аллаху, і Його єдиність у цьому вказує на Його єдиність у божественності та гідності поклоніння."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "itqan",
@@ -1321,7 +1400,15 @@
         "ru": "Совершенство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего.",
         "es": "La perfección de la obra demuestra la sabiduría, el conocimiento y la voluntad del Artífice; el orden es un signo elocuente del Sabio, el Omnisciente.",
         "uk": "Досконалість творіння доводить мудрість, знання і волю Творця; лад — красномовне знамення Премудрого, Всезнаючого."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "fitrah",
@@ -1373,7 +1460,15 @@
         "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства.",
         "es": "La fiṭrah es un testigo interior del Creador; quien vuelve a su naturaleza pura e innata encuentra que reconocerlo es una necesidad evidente que no precisa demostración.",
         "uk": "Фітра — внутрішнє свідчення про Творця; хто повертається до чистого свого єства, той знаходить визнання Його самоочевидною необхідністю, що не потребує доведення."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "tamanu",
@@ -1432,7 +1527,15 @@
         "ru": "Упорядоченность вселенной указывает на единственность её Управителя; признание Творца влечёт признание, что Он един и не имеет сотоварища.",
         "es": "El orden del universo señala la unicidad de su Gobernante; reconocer un Creador implica reconocer que Él es uno, sin socio.",
         "uk": "Упорядкованість всесвіту вказує на єдиність його Управителя; визнання Творця тягне за собою визнання, що Він єдиний і не має співучасника."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "nubuwwa",
@@ -1491,118 +1594,15 @@
         "ru": "Признание мудрого Творца влечёт ожидание разъяснения от Него; пророчество есть требование мудрости, а не добавление к ней.",
         "es": "Reconocer a un Creador sabio implica esperar una aclaración de Su parte; la profecía es una exigencia de la sabiduría, no un añadido a ella.",
         "uk": "Визнання мудрого Творця тягне за собою очікування роз'яснення від Нього; пророцтво — вимога мудрості, а не додаток до неї."
-      }
-    },
-    {
-      "id": "ijaz",
-      "ref": "A7",
-      "title": {
-        "ar": "دليل التحدّي وإعجاز القرآن",
-        "en": "The Challenge & the Qurʾān's Inimitability",
-        "ru": "Довод вызова и неподражаемости Корана",
-        "es": "Prueba del desafío y la inimitabilidad del Corán",
-        "uk": "Доказ виклику та неперевершеності Корану"
       },
-      "tagline": {
-        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
-        "en": "A standing challenge that has gone unmet",
-        "ru": "Стоящий вызов, на который не ответили",
-        "es": "Un desafío vigente que no ha sido respondido",
-        "uk": "Чинний виклик, на який ніхто не відповів"
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
       },
-      "premises": [
-        {
-          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
-          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
-          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины.",
-          "es": "El Corán fue revelado en la lengua de los árabes en una época en que su elocuencia y retórica habían alcanzado su cúspide.",
-          "uk": "Коран був зісланий мовою арабів у добу, коли їхнє красномовство і риторика сягнули вершини."
-        },
-        {
-          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
-          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
-          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить.",
-          "es": "Los desafió a producir algo semejante, luego diez capítulos, luego un solo capítulo — pese a su fuerte motivo para responder.",
-          "uk": "Він кинув їм виклик створити подібне, потім десять сур, потім одну суру — попри їхнє сильне спонукання відповісти."
-        },
-        {
-          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
-          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
-          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое.",
-          "es": "Se apartaron de la respuesta retórica hacia la guerra pese a sus penalidades — una admisión práctica de incapacidad ante lo más fácil.",
-          "uk": "Вони відступили від словесної відповіді до війни, попри її тяготи, — а це практичне визнання нездатності на легше."
-        }
-      ],
-      "quran": {
-        "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
-        "ref": {
-          "ar": "سورة الإسراء: ٨٨",
-          "en": "Sūrat al-Isrāʾ: 88",
-          "ru": "Сура аль-Исра: 88",
-          "es": "Sura al-Isra: 88",
-          "uk": "Сура аль-Ісра: 88"
-        },
-        "url": "https://quran.com/17/88"
-      },
-      "conclusion": {
-        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
-        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
-        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь.",
-        "es": "La incapacidad de los maestros de la lengua para responderle, con todos los motivos a su favor, indica que no es palabra humana.",
-        "uk": "Нездатність знавців мови відповісти на нього за всіх спонукань вказує, що це не людська мова."
-      }
-    },
-    {
-      "id": "hifz",
-      "ref": "A8",
-      "title": {
-        "ar": "دليل حفظ القرآن من التبديل",
-        "en": "The Preservation of the Qurʾān",
-        "ru": "Довод сохранности Корана",
-        "es": "Prueba de la preservación del Corán frente a la alteración",
-        "uk": "Доказ збереженості Корану від спотворення"
-      },
-      "tagline": {
-        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
-        "en": "Mass transmission renders collusion in alteration impossible",
-        "ru": "Массовая передача делает сговор об искажении невозможным",
-        "es": "Una transmisión masiva que hace imposible el sigo de alterarlo",
-        "uk": "Масова передача унеможливлює змову про спотворення"
-      },
-      "premises": [
-        {
-          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
-          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
-          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен.",
-          "es": "El Corán se transmitió de forma masiva — memorizado en los corazones y escrito en líneas — en cada generación por un grupo demasiado numeroso para haberse puesto de acuerdo en una falsedad.",
-          "uk": "Коран передавався масово — заучуванням у серцях і записом на сторінках — у кожному поколінні множиною людей, чия змова про брехню неможлива."
-        },
-        {
-          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
-          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
-          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их.",
-          "es": "Un texto conservado de este modo no admite adición u omisión oculta, pues la divergencia de los transmisores en distintas regiones lo revelaría.",
-          "uk": "Текст, збережений у такий спосіб, не допускає прихованих додавань чи вилучень, адже розбіжність передавачів у різних землях викрила б їх."
-        }
-      ],
-      "quran": {
-        "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
-        "ref": {
-          "ar": "سورة الحجر: ٩",
-          "en": "Sūrat al-Ḥijr: 9",
-          "ru": "Сура аль-Хиджр: 9",
-          "es": "Sura al-Hiyr: 9",
-          "uk": "Сура аль-Хіджр: 9"
-        },
-        "url": "https://quran.com/15/9"
-      },
-      "conclusion": {
-        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
-        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
-        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей.",
-        "es": "La transmisión masiva indica, por tanto, que el texto permanece tal como fue revelado; lo preservado de este modo es apto para ser una prueba perdurable para la humanidad.",
-        "uk": "Отже, масова передача вказує, що текст залишився таким, яким був зісланий; збережене в такий спосіб придатне бути неминущим доказом для людей."
-      }
+      "chapterId": "nubuwwat"
     },
     {
       "id": "wahdat",
@@ -1661,7 +1661,15 @@
         "ru": "Согласие в основе сквозь разделённые эпохи указывает на единый источник посланий — связанную цепь, а не соперничающие откровения.",
         "es": "El acuerdo en el fundamento a través de épocas separadas indica, pues, una fuente única para los mensajes — una cadena conectada, no revelaciones rivales.",
         "uk": "Отже, згода в основі попри різні епохи вказує на єдине джерело послань — на пов'язаний ланцюг, а не на суперницькі одкровення."
-      }
+      },
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
+      },
+      "chapterId": "nubuwwat"
     },
     {
       "id": "khatm",
@@ -1720,7 +1728,142 @@
         "ru": "Поскольку обе причины смены устранены сохранностью и всеобщностью послания, оно является завершающим — завершённость есть требование мудрости, а не голое утверждение.",
         "es": "Como ambas causas de la sucesión quedan eliminadas por la preservación y la universalidad del mensaje, se sigue que es definitivo — siendo la finalidad una exigencia de la sabiduría, no una mera afirmación.",
         "uk": "Оскільки обидві причини зміни усунуті збереженістю та всезагальністю послання, воно мусить бути завершальним — і завершеність є вимогою мудрості, а не голим твердженням."
-      }
+      },
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
+      },
+      "chapterId": "nubuwwat"
+    },
+    {
+      "id": "ijaz",
+      "ref": "A7",
+      "title": {
+        "ar": "دليل التحدّي وإعجاز القرآن",
+        "en": "The Challenge & the Qurʾān's Inimitability",
+        "ru": "Довод вызова и неподражаемости Корана",
+        "es": "Prueba del desafío y la inimitabilidad del Corán",
+        "uk": "Доказ виклику та неперевершеності Корану"
+      },
+      "tagline": {
+        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
+        "en": "A standing challenge that has gone unmet",
+        "ru": "Стоящий вызов, на который не ответили",
+        "es": "Un desafío vigente que no ha sido respondido",
+        "uk": "Чинний виклик, на який ніхто не відповів"
+      },
+      "premises": [
+        {
+          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
+          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
+          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины.",
+          "es": "El Corán fue revelado en la lengua de los árabes en una época en que su elocuencia y retórica habían alcanzado su cúspide.",
+          "uk": "Коран був зісланий мовою арабів у добу, коли їхнє красномовство і риторика сягнули вершини."
+        },
+        {
+          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
+          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
+          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить.",
+          "es": "Los desafió a producir algo semejante, luego diez capítulos, luego un solo capítulo — pese a su fuerte motivo para responder.",
+          "uk": "Він кинув їм виклик створити подібне, потім десять сур, потім одну суру — попри їхнє сильне спонукання відповісти."
+        },
+        {
+          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
+          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
+          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое.",
+          "es": "Se apartaron de la respuesta retórica hacia la guerra pese a sus penalidades — una admisión práctica de incapacidad ante lo más fácil.",
+          "uk": "Вони відступили від словесної відповіді до війни, попри її тяготи, — а це практичне визнання нездатності на легше."
+        }
+      ],
+      "quran": {
+        "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
+        "ref": {
+          "ar": "سورة الإسراء: ٨٨",
+          "en": "Sūrat al-Isrāʾ: 88",
+          "ru": "Сура аль-Исра: 88",
+          "es": "Sura al-Isra: 88",
+          "uk": "Сура аль-Ісра: 88"
+        },
+        "url": "https://quran.com/17/88"
+      },
+      "conclusion": {
+        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
+        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
+        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь.",
+        "es": "La incapacidad de los maestros de la lengua para responderle, con todos los motivos a su favor, indica que no es palabra humana.",
+        "uk": "Нездатність знавців мови відповісти на нього за всіх спонукань вказує, що це не людська мова."
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
+    },
+    {
+      "id": "hifz",
+      "ref": "A8",
+      "title": {
+        "ar": "دليل حفظ القرآن من التبديل",
+        "en": "The Preservation of the Qurʾān",
+        "ru": "Довод сохранности Корана",
+        "es": "Prueba de la preservación del Corán frente a la alteración",
+        "uk": "Доказ збереженості Корану від спотворення"
+      },
+      "tagline": {
+        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
+        "en": "Mass transmission renders collusion in alteration impossible",
+        "ru": "Массовая передача делает сговор об искажении невозможным",
+        "es": "Una transmisión masiva que hace imposible el sigo de alterarlo",
+        "uk": "Масова передача унеможливлює змову про спотворення"
+      },
+      "premises": [
+        {
+          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
+          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
+          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен.",
+          "es": "El Corán se transmitió de forma masiva — memorizado en los corazones y escrito en líneas — en cada generación por un grupo demasiado numeroso para haberse puesto de acuerdo en una falsedad.",
+          "uk": "Коран передавався масово — заучуванням у серцях і записом на сторінках — у кожному поколінні множиною людей, чия змова про брехню неможлива."
+        },
+        {
+          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
+          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
+          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их.",
+          "es": "Un texto conservado de este modo no admite adición u omisión oculta, pues la divergencia de los transmisores en distintas regiones lo revelaría.",
+          "uk": "Текст, збережений у такий спосіб, не допускає прихованих додавань чи вилучень, адже розбіжність передавачів у різних землях викрила б їх."
+        }
+      ],
+      "quran": {
+        "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
+        "ref": {
+          "ar": "سورة الحجر: ٩",
+          "en": "Sūrat al-Ḥijr: 9",
+          "ru": "Сура аль-Хиджр: 9",
+          "es": "Sura al-Hiyr: 9",
+          "uk": "Сура аль-Хіджр: 9"
+        },
+        "url": "https://quran.com/15/9"
+      },
+      "conclusion": {
+        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
+        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
+        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей.",
+        "es": "La transmisión masiva indica, por tanto, que el texto permanece tal como fue revelado; lo preservado de este modo es apto para ser una prueba perdurable para la humanidad.",
+        "uk": "Отже, масова передача вказує, що текст залишився таким, яким був зісланий; збережене в такий спосіб придатне бути неминущим доказом для людей."
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
     },
     {
       "id": "wasita",
@@ -1772,7 +1915,15 @@
         "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом.",
         "es": "Declarar al Creador libre de deficiencia exige, por tanto, que el acceso a Él sea directo, y que la intermediación en la súplica quede negada por la razón, no simplemente omitida por ritual.",
         "uk": "Отже, визнання Творця вільним від вад вимагає, щоб зв'язок із Ним був безпосереднім, а посередництво в благанні — заперечене розумом, а не просто опущене обрядом."
-      }
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
     }
   ],
   "glossary": [
@@ -3388,6 +3539,85 @@
       "school": null
     }
   ],
+  "gradeLabels": {
+    "fard": {
+      "ar": "فرض",
+      "en": "Farḍ (obligatory)",
+      "ru": "Фард (обязательное)",
+      "es": "Farḍ (obligatorio)",
+      "uk": "Фард (обов'язкове)"
+    },
+    "wajib": {
+      "ar": "واجب",
+      "en": "Wājib (required)",
+      "ru": "Ваджиб (требуемое)",
+      "es": "Wājib (requerido)",
+      "uk": "Ваджіб (вимагане)"
+    },
+    "sunnah": {
+      "ar": "سنة",
+      "en": "Sunnah",
+      "ru": "Сунна",
+      "es": "Sunnah",
+      "uk": "Сунна"
+    },
+    "mandub": {
+      "ar": "مندوب",
+      "en": "Mandūb (recommended)",
+      "ru": "Мандуб (желательное)",
+      "es": "Mandūb (recomendable)",
+      "uk": "Мандуб (бажане)"
+    },
+    "makruh": {
+      "ar": "مكروه",
+      "en": "Makrūh (disliked)",
+      "ru": "Макрух (нежелательное)",
+      "es": "Makrūh (reprobable)",
+      "uk": "Макрух (небажане)"
+    },
+    "haram": {
+      "ar": "حرام",
+      "en": "Ḥarām (forbidden)",
+      "ru": "Харам (запретное)",
+      "es": "Ḥarām (prohibido)",
+      "uk": "Харам (заборонене)"
+    },
+    "mubah": {
+      "ar": "مباح",
+      "en": "Mubāḥ (permitted)",
+      "ru": "Мубах (дозволенное)",
+      "es": "Mubāḥ (permitido)",
+      "uk": "Мубах (дозволене)"
+    },
+    "rukn": {
+      "ar": "ركن",
+      "en": "Rukn (essential part)",
+      "ru": "Рукн (составная часть)",
+      "es": "Rukn (parte esencial)",
+      "uk": "Рукн (складова частина)"
+    },
+    "shart": {
+      "ar": "شرط",
+      "en": "Sharṭ (condition)",
+      "ru": "Шарт (условие)",
+      "es": "Sharṭ (condición)",
+      "uk": "Шарт (умова)"
+    },
+    "sabab": {
+      "ar": "سبب",
+      "en": "Sabab (cause)",
+      "ru": "Сабаб (причина)",
+      "es": "Sabab (causa)",
+      "uk": "Сабаб (причина)"
+    },
+    "mani": {
+      "ar": "مانع",
+      "en": "Māniʿ (impediment)",
+      "ru": "Мани (препятствие)",
+      "es": "Māniʿ (impedimento)",
+      "uk": "Мані (перешкода)"
+    }
+  },
   "issues": [
     {
       "id": "iman-1",
@@ -3425,7 +3655,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "maliki": {
           "text": {
@@ -3443,7 +3674,8 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "shafii": {
           "text": {
@@ -3468,7 +3700,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "hanbali": {
           "text": {
@@ -3486,7 +3719,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "nature": "shart"
         }
       }
     },
@@ -3562,7 +3796,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -3620,7 +3855,8 @@
               "es": "Al-ʿInāyah",
               "uk": "«Аль-Інайя»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "maliki": {
           "text": {
@@ -3638,7 +3874,8 @@
               "es": "Al-Tāj wa-al-Iklīl",
               "uk": "«Ат-Тадж ва-ль-Іклиль»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "shafii": {
           "text": {
@@ -3656,7 +3893,8 @@
               "es": "Rawḍat al-Ṭālibīn",
               "uk": "«Равдат ат-Талібін»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "hanbali": {
           "text": {
@@ -3681,7 +3919,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "haram"
         }
       }
     },
@@ -3838,7 +4077,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "nature": "shart"
         }
       }
     },
@@ -4213,7 +4453,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -4370,7 +4611,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -4466,7 +4708,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "makruh"
         }
       }
     },
@@ -4527,7 +4770,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -4684,7 +4928,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -4748,7 +4993,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "hanbali": {
           "text": {
@@ -4780,7 +5026,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "makruh"
         }
       }
     },
@@ -5099,7 +5346,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "maliki": {
           "text": {
@@ -5131,7 +5379,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "shafii": {
           "text": {
@@ -5163,7 +5412,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "hanbali": {
           "text": {
@@ -5195,7 +5445,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "makruh"
         }
       }
     },
@@ -6198,7 +6449,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "maliki": {
           "text": {
@@ -6230,7 +6482,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "shafii": {
           "text": {
@@ -6262,7 +6515,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "hanbali": {
           "text": {
@@ -6294,7 +6548,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "mubah"
         }
       }
     },
@@ -6387,7 +6642,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "shafii": {
           "text": {
@@ -6608,7 +6864,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -6812,7 +7069,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "maliki": {
           "text": {
@@ -6830,7 +7088,8 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "shafii": {
           "text": {
@@ -6855,7 +7114,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "hanbali": {
           "text": {
@@ -6873,7 +7133,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "haram"
         }
       }
     },
@@ -6920,7 +7181,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "maliki": {
           "text": {
@@ -6956,7 +7218,8 @@
               "es": "Tuḥfat al-Muḥtāj",
               "uk": "«Тухфат аль-Мухтадж»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "hanbali": {
           "text": {
@@ -6974,7 +7237,330 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "nature": "shart"
+        }
+      }
+    },
+    {
+      "id": "taharah-29",
+      "ref": "F62",
+      "bookId": "taharah",
+      "number": 23,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم التسمية في أول الوضوء",
+        "en": "Ruling on Saying the Basmalah at the Beginning of the Ablution",
+        "ru": "Постановление о произнесении басмалы в начале омовения",
+        "es": "Norma sobre decir la basmalah al comienzo de la ablución",
+        "uk": "Постанова про виголошення басмали на початку омивання"
+      },
+      "summary": {
+        "ar": "ما حكم قول «بسم الله» في أول الوضوء، أفرضٌ هي أم سنة؟",
+        "en": "What is the ruling on saying “Bismillāh” at the beginning of the ablution — is it obligatory or a sunnah?",
+        "ru": "Каково постановление о произнесении «Бисмиллях» в начале омовения — обязанность это или сунна?",
+        "es": "¿Cuál es la norma sobre decir «Bismillāh» al comienzo de la ablución: es obligatoria o sunnah?",
+        "uk": "Яка постанова про виголошення «Бісміллаг» на початку омивання — це обов'язок чи сунна?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "التسمية في أول الوضوء سنة لا فرض، فإن تركها ناسياً فلا شيء عليه ووضوءه صحيح.",
+            "en": "Saying the basmalah at the beginning of the ablution is a sunnah, not an obligation; whoever omits it forgetfully incurs nothing and their ablution is valid.",
+            "ru": "Произнесение басмалы в начале омовения — сунна, а не обязанность; кто оставил её по забывчивости, на том нет ничего, и его омовение действительно.",
+            "es": "Decir la basmalah al comienzo de la ablución es sunnah, no una obligación; quien la omite por olvido no incurre en nada y su ablución es válida.",
+            "uk": "Виголошення басмали на початку омивання — сунна, а не обов'язок; хто пропустив її через забудькуватість, на тому нічого немає, і його омивання дійсне."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "maliki": {
+          "text": {
+            "ar": "التسمية في أول الوضوء مندوبة لا واجبة، وتُندب في أثنائه لمن تركها أوله حتى تذكّر.",
+            "en": "Saying the basmalah at the beginning of the ablution is recommended, not obligatory, and it is recommended during it for one who omitted it at the start and then remembered.",
+            "ru": "Произнесение басмалы в начале омовения желательно, а не обязательно, и оно желательно в ходе омовения для того, кто оставил её вначале и затем вспомнил.",
+            "es": "Decir la basmalah al comienzo de la ablución es recomendable, no obligatorio, y se recomienda durante ella para quien la omitió al principio y luego la recordó.",
+            "uk": "Виголошення басмали на початку омивання є бажаним, а не обов'язковим, і воно бажане під час омивання для того, хто пропустив її спочатку й потім згадав."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ],
+          "grade": "mandub"
+        },
+        "shafii": {
+          "text": {
+            "ar": "التسمية سنة في أول الوضوء بلفظ «بسم الله الرحمن الرحيم»، فإن تركها عمداً أو سهواً لم يبطل وضوءه.",
+            "en": "Saying the basmalah is a sunnah at the beginning of the ablution, with the wording “Bismillāh al-Raḥmān al-Raḥīm”; if omitted deliberately or forgetfully, the ablution is not invalidated.",
+            "ru": "Произнесение басмалы — сунна в начале омовения, словами «Бисмилляхи-р-Рахмани-р-Рахим»; если её оставить намеренно или по забывчивости, омовение не становится недействительным.",
+            "es": "Decir la basmalah es sunnah al comienzo de la ablución, con la fórmula «Bismillāh al-Raḥmān al-Raḥīm»; si se omite deliberadamente o por olvido, la ablución no se invalida.",
+            "uk": "Виголошення басмали — сунна на початку омивання, словами «Бісміллаг ар-Рахман ар-Рахім»; якщо її пропустити навмисно чи через забудькуватість, омивання не стає недійсним."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "hanbali": {
+          "text": {
+            "ar": "التسمية واجبة في الوضوء مع الذكر، وتسقط بالسهو والجهل.",
+            "en": "Saying the basmalah is obligatory in the ablution when one remembers, and it lapses through forgetfulness or ignorance.",
+            "ru": "Произнесение басмалы обязательно при омовении, когда человек помнит о ней, и отпадает по забывчивости или неведению.",
+            "es": "Decir la basmalah es obligatorio en la ablución cuando uno lo recuerda, y decae por olvido o ignorancia.",
+            "uk": "Виголошення басмали є обов'язковим при омиванні, коли людина пам'ятає про неї, і відпадає через забудькуватість чи незнання."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ],
+          "grade": "wajib"
+        }
+      }
+    },
+    {
+      "id": "taharah-30",
+      "ref": "F63",
+      "bookId": "taharah",
+      "number": 24,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم غسل الكفّين ثلاثاً قبل إدخالهما الإناء في الوضوء",
+        "en": "Ruling on Washing the Hands Three Times Before Putting Them into the Vessel in the Ablution",
+        "ru": "Постановление о мытье кистей рук трижды перед погружением их в сосуд при омовении",
+        "es": "Norma sobre lavar las manos tres veces antes de introducirlas en el recipiente en la ablución",
+        "uk": "Постанова про миття кистей рук тричі перед зануренням їх у посудину під час омивання"
+      },
+      "summary": {
+        "ar": "ما حكم غسل الكفّين ثلاثاً في أول الوضوء، وما حكم إدخالهما في الإناء لمن استيقظ من نوم الليل؟",
+        "en": "What is the ruling on washing the hands three times at the beginning of the ablution, and on putting them into the vessel for one who has woken from the night's sleep?",
+        "ru": "Каково постановление о мытье кистей трижды в начале омовения и о погружении их в сосуд для того, кто проснулся от ночного сна?",
+        "es": "¿Cuál es la norma sobre lavar las manos tres veces al comienzo de la ablución, y sobre introducirlas en el recipiente para quien despierta del sueño nocturno?",
+        "uk": "Яка постанова про миття кистей тричі на початку омивання та про занурення їх у посудину для того, хто прокинувся від нічного сну?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "غسل الكفّين ثلاثاً في أول الوضوء سنة، ويُكره لمن استيقظ من نوم الليل أن يدخل يده في الإناء حتى يغسلها ثلاثاً.",
+            "en": "Washing the hands three times at the beginning of the ablution is a sunnah, and it is disliked for one who has woken from the night's sleep to put a hand into the vessel before washing it three times.",
+            "ru": "Мытьё кистей трижды в начале омовения — сунна, а тому, кто проснулся от ночного сна, нежелательно опускать руку в сосуд, пока он не вымоет её трижды.",
+            "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah, y es reprobable que quien despierta del sueño nocturno introduzca la mano en el recipiente antes de lavarla tres veces.",
+            "uk": "Миття кистей тричі на початку омивання — сунна, а тому, хто прокинувся від нічного сну, небажано опускати руку в посудину, доки він не вимиє її тричі."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُندب غسل الكفّين ثلاثاً في أول الوضوء، ويُكره إدخال اليد في الإناء لمن استيقظ من نوم الليل قبل غسلها ثلاثاً.",
+            "en": "Washing the hands three times at the beginning of the ablution is recommended, and putting a hand into the vessel is disliked for one who has woken from the night's sleep before washing it three times.",
+            "ru": "Мыть кисти трижды в начале омовения желательно, а опускать руку в сосуд нежелательно тому, кто проснулся от ночного сна, до того как вымоет её трижды.",
+            "es": "Se recomienda lavar las manos tres veces al comienzo de la ablución, y es reprobable introducir la mano en el recipiente para quien despierta del sueño nocturno antes de lavarla tres veces.",
+            "uk": "Мити кисті тричі на початку омивання є бажаним, а опускати руку в посудину небажано тому, хто прокинувся від нічного сну, перш ніж вимиє її тричі."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ],
+          "grade": "mandub"
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُسنّ غسل الكفّين ثلاثاً في أول الوضوء مطلقاً، وتشتدّ الكراهة في إدخالهما الإناء لمن استيقظ من نوم الليل قبل غسلهما.",
+            "en": "Washing the hands three times at the beginning of the ablution is a sunnah in every case, and the dislike is stronger for one who has woken from the night's sleep to put them into the vessel before washing them.",
+            "ru": "Мытьё кистей трижды в начале омовения — сунна во всяком случае, а нежелательность усиливается в погружении их в сосуд для того, кто проснулся от ночного сна, до их мытья.",
+            "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah en todo caso, y la reprobación se agrava al introducirlas en el recipiente para quien despierta del sueño nocturno antes de lavarlas.",
+            "uk": "Миття кистей тричі на початку омивання — сунна в усякому разі, а небажаність посилюється в зануренні їх у посудину для того, хто прокинувся від нічного сну, до їх миття."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُسنّ غسل الكفّين في أول الوضوء، ويجب غسلهما ثلاثاً قبل إدخالهما الإناء لمن استيقظ من نوم الليل الناقض للوضوء، تعبّداً لظاهر الحديث.",
+            "en": "Washing the hands at the beginning of the ablution is a sunnah, and washing them three times before putting them into the vessel is obligatory for one who has woken from the night's sleep that breaks the ablution, as an act of devotion following the apparent sense of the hadith.",
+            "ru": "Мытьё кистей в начале омовения — сунна, а мыть их трижды перед погружением в сосуд обязательно для того, кто проснулся от ночного сна, нарушающего омовение, как обряд поклонения по внешнему смыслу хадиса.",
+            "es": "Lavar las manos al comienzo de la ablución es sunnah, y lavarlas tres veces antes de introducirlas en el recipiente es obligatorio para quien despierta del sueño nocturno que rompe la ablución, como acto de adoración conforme al sentido aparente del hadiz.",
+            "uk": "Миття кистей на початку омивання — сунна, а мити їх тричі перед зануренням у посудину є обов'язковим для того, хто прокинувся від нічного сну, що порушує омивання, як обряд поклоніння за явним змістом хадиса."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -6982,13 +7568,13 @@
       "id": "taharah-28",
       "ref": "F54",
       "bookId": "taharah",
-      "number": 23,
+      "number": 25,
       "chapter": {
-        "ar": "باب فرض الوضوء",
-        "en": "Chapter of the Obligation of Ablution",
-        "ru": "Раздел об обязательности омовения",
-        "es": "Capítulo de la obligatoriedad de la ablución",
-        "uk": "Розділ про обов'язковість омивання"
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
       },
       "title": {
         "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
@@ -7035,7 +7621,9 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "maliki": {
           "text": {
@@ -7067,7 +7655,9 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "shafii": {
           "text": {
@@ -7099,7 +7689,9 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -7124,7 +7716,331 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
+        }
+      }
+    },
+    {
+      "id": "taharah-31",
+      "ref": "F64",
+      "bookId": "taharah",
+      "number": 26,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم المبالغة في المضمضة والاستنشاق لغير الصائم",
+        "en": "Ruling on Going to Excess in Rinsing the Mouth and Nose for One Who Is Not Fasting",
+        "ru": "Постановление об усердии в полоскании рта и носа для не постящегося",
+        "es": "Norma sobre esmerarse en el enjuague de la boca y la nariz para quien no ayuna",
+        "uk": "Постанова про старанність у полосканні рота та носа для того, хто не постить"
+      },
+      "summary": {
+        "ar": "ما حكم المبالغة في المضمضة والاستنشاق لغير الصائم في الوضوء؟",
+        "en": "What is the ruling on going to excess in rinsing the mouth and nose during the ablution for one who is not fasting?",
+        "ru": "Каково постановление об усердии в полоскании рта и носа во время омовения для того, кто не постится?",
+        "es": "¿Cuál es la norma sobre esmerarse en el enjuague de la boca y la nariz durante la ablución para quien no ayuna?",
+        "uk": "Яка постанова про старанність у полосканні рота та носа під час омивання для того, хто не постить?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، وهي في المضمضة أن يبلغ الماء الحلق، وفي الاستنشاق أن يبلغ قصبة الأنف.",
+            "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting: in the mouth it means the water reaching the throat, and in the nose it means reaching the nasal passage.",
+            "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится: во рту оно означает, что вода достигает горла, а в носу — что достигает носового хода.",
+            "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna: en la boca significa que el agua llegue a la garganta, y en la nariz que llegue al conducto nasal.",
+            "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить: у роті вона означає, що вода досягає горла, а в носі — що досягає носового ходу."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "maliki": {
+          "text": {
+            "ar": "تُندب المبالغة في المضمضة والاستنشاق لغير الصائم، بحيث يصل الماء إلى أقصى الفم والأنف من غير إفراط يضرّ.",
+            "en": "Going to excess in rinsing the mouth and nose is recommended for one who is not fasting, such that the water reaches the furthest part of the mouth and nose without harmful overdoing.",
+            "ru": "Усердие в полоскании рта и носа желательно для того, кто не постится, так чтобы вода достигала дальней части рта и носа без вредного излишества.",
+            "es": "Se recomienda esmerarse en el enjuague de la boca y la nariz para quien no ayuna, de modo que el agua llegue a la parte más lejana de la boca y la nariz sin excederse de forma dañina.",
+            "uk": "Старанність у полосканні рота та носа є бажаною для того, хто не постить, так щоб вода досягала найдальшої частини рота та носа без шкідливого надміру."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ],
+          "grade": "mandub"
+        },
+        "shafii": {
+          "text": {
+            "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، وهي في المضمضة بإدارة الماء في جميع الفم، وفي الاستنشاق بجذبه بالنفس إلى أقصى الأنف، لقوله ﷺ: «وبالغ في الاستنشاق إلا أن تكون صائماً».",
+            "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting: in the mouth by moving the water around the whole mouth, and in the nose by drawing it in with the breath to the furthest part, based on his saying ﷺ: “And go to excess in sniffing up water, unless you are fasting.”",
+            "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится: во рту — проводя воду по всему рту, а в носу — втягивая её дыханием до дальней части, согласно его словам ﷺ: «И усердствуй во втягивании воды носом, если только ты не постишься».",
+            "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna: en la boca moviendo el agua por toda ella, y en la nariz aspirándola con el aliento hasta lo más hondo, según su dicho ﷺ: «Y esmérate en aspirar agua por la nariz, salvo que estés ayunando».",
+            "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить: у роті — проводячи воду по всьому роті, а в носі — втягуючи її диханням до найдальшої частини, згідно з його словами ﷺ: «І старанно втягуй воду носом, хіба що ти постиш»."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تُسنّ المبالغة في المضمضة والاستنشاق لغير الصائم، بأن يوصل الماء إلى أقصى الفم والأنف، لحديث لقيط بن صَبِرة رضي الله عنه مرفوعاً: «وبالغ في الاستنشاق إلا أن تكون صائماً».",
+            "en": "Going to excess in rinsing the mouth and nose is a sunnah for one who is not fasting, by bringing the water to the furthest part of the mouth and nose, based on the hadith of Laqīṭ ibn Ṣabirah: “And go to excess in sniffing up water, unless you are fasting.”",
+            "ru": "Усердие в полоскании рта и носа — сунна для того, кто не постится, доводя воду до дальней части рта и носа, на основе хадиса Лакита ибн Сабиры: «И усердствуй во втягивании воды носом, если только ты не постишься».",
+            "es": "Esmerarse en el enjuague de la boca y la nariz es sunnah para quien no ayuna, llevando el agua a lo más hondo de la boca y la nariz, según el hadiz de Laqīṭ ibn Ṣabirah: «Y esmérate en aspirar agua por la nariz, salvo que estés ayunando».",
+            "uk": "Старанність у полосканні рота та носа — сунна для того, хто не постить, доводячи воду до найдальшої частини рота та носа, на основі хадиса Лакіта ібн Сабіри: «І старанно втягуй воду носом, хіба що ти постиш»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ],
+          "grade": "sunnah"
+        }
+      }
+    },
+    {
+      "id": "taharah-32",
+      "ref": "F65",
+      "bookId": "taharah",
+      "number": 27,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "مقدار مسح الرأس الواجب وحكم مسح الأذنين معه في الوضوء",
+        "en": "The Obligatory Extent of Wiping the Head, and the Ruling on Wiping the Ears with It",
+        "ru": "Обязательная мера протирания головы и постановление о протирании ушей вместе с ней",
+        "es": "La medida obligatoria del frotamiento de la cabeza y la norma sobre frotar las orejas con ella",
+        "uk": "Обов'язкова міра протирання голови та постанова про протирання вух разом із нею"
+      },
+      "summary": {
+        "ar": "ما القدر الواجب مسحه من الرأس في الوضوء، وما حكم مسح الأذنين وهل هما منه؟",
+        "en": "What extent of the head must be wiped in the ablution, what is the ruling on wiping the ears, and are they part of it?",
+        "ru": "Какую часть головы обязательно протереть при омовении, каково постановление о протирании ушей и являются ли они её частью?",
+        "es": "¿Qué extensión de la cabeza debe frotarse en la ablución, cuál es la norma sobre frotar las orejas y forman parte de ella?",
+        "uk": "Яку частину голови обов'язково протерти під час омивання, яка постанова про протирання вух і чи є вони її частиною?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "الواجب مسح ربع الرأس، ومسح الأذنين سنة مؤكدة يُمسحان بماء الرأس أو بماء جديد.",
+            "en": "What is obligatory is wiping a quarter of the head, and wiping the ears is an emphasised sunnah, done with the water of the head or with fresh water.",
+            "ru": "Обязательным является протирание четверти головы, а протирание ушей — подтверждённая сунна, совершаемая водой головы или свежей водой.",
+            "es": "Lo obligatorio es frotar un cuarto de la cabeza, y frotar las orejas es una sunnah enfatizada, hecha con el agua de la cabeza o con agua nueva.",
+            "uk": "Обов'язковим є протирання чверті голови, а протирання вух — підтверджена сунна, що здійснюється водою голови або свіжою водою."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ],
+          "grade": "wajib"
+        },
+        "maliki": {
+          "text": {
+            "ar": "يجب استيعاب جميع الرأس بالمسح مرة واحدة، ومسح الأذنين سنة مؤكدة بماء جديد.",
+            "en": "It is obligatory to cover the whole head in wiping, once, and wiping the ears is an emphasised sunnah with fresh water.",
+            "ru": "Обязательно охватить протиранием всю голову один раз, а протирание ушей — подтверждённая сунна свежей водой.",
+            "es": "Es obligatorio abarcar toda la cabeza al frotar, una vez, y frotar las orejas es una sunnah enfatizada con agua nueva.",
+            "uk": "Обов'язково охопити протиранням усю голову один раз, а протирання вух — підтверджена сунна свіжою водою."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ],
+          "grade": "wajib"
+        },
+        "shafii": {
+          "text": {
+            "ar": "يجزئ مسح ما يقع عليه الاسم من الرأس ولو شعرة واحدة في حدّه، ومسح الأذنين سنة مستقلة بماء جديد.",
+            "en": "Wiping whatever the name applies to of the head suffices, even a single hair within its limits, and wiping the ears is an independent sunnah with fresh water.",
+            "ru": "Достаточно протереть то, к чему приложимо название головы, даже один волос в её пределах, а протирание ушей — самостоятельная сунна свежей водой.",
+            "es": "Basta con frotar aquello a lo que se aplica el nombre de cabeza, aunque sea un solo cabello dentro de sus límites, y frotar las orejas es una sunnah independiente con agua nueva.",
+            "uk": "Достатньо протерти те, до чого прикладається назва голови, навіть одну волосину в її межах, а протирання вух — самостійна сунна свіжою водою."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ],
+          "grade": "sunnah"
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجب مسح جميع الرأس ومعه الأذنان لأنهما منه، ويُمسحان بماء الرأس أو بماء جديد، ولا يجزئ الاقتصار على بعضه إلا لمعذور.",
+            "en": "It is obligatory to wipe the whole head together with the ears, since they are part of it, wiped with the water of the head or with fresh water; confining oneself to part of it does not suffice except for one with a valid excuse.",
+            "ru": "Обязательно протереть всю голову вместе с ушами, поскольку они являются её частью, протирая их водой головы или свежей водой; ограничиться её частью недостаточно, кроме как при уважительной причине.",
+            "es": "Es obligatorio frotar toda la cabeza junto con las orejas, pues son parte de ella, frotadas con el agua de la cabeza o con agua nueva; limitarse a una parte no basta salvo para quien tenga excusa.",
+            "uk": "Обов'язково протерти всю голову разом із вухами, оскільки вони є її частиною, протираючи їх водою голови або свіжою водою; обмежитися її частиною недостатньо, крім як за поважної причини."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -7132,13 +8048,13 @@
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 24,
+      "number": 28,
       "chapter": {
-        "ar": "باب فرض الوضوء",
-        "en": "Chapter of the Obligation of Ablution",
-        "ru": "Раздел об обязательности омовения",
-        "es": "Capítulo de la obligatoriedad de la ablución",
-        "uk": "Розділ про обов'язковість омовіння"
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
       },
       "title": {
         "ar": "حكم النية في الوضوء وهل تسقط سهواً",
@@ -7171,7 +8087,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "maliki": {
           "text": {
@@ -7189,7 +8106,9 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "shart"
         },
         "shafii": {
           "text": {
@@ -7207,7 +8126,9 @@
               "es": "Tuḥfat al-Muḥtāj",
               "uk": "«Тухфат аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -7225,7 +8146,9 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "shart"
         }
       }
     },
@@ -7233,7 +8156,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 25,
+      "number": 29,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -7341,7 +8264,7 @@
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 26,
+      "number": 30,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -7380,7 +8303,8 @@
               "es": "Al-Durr al-Mukhtār",
               "uk": "«Ад-Дурр аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -7416,7 +8340,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "hanbali": {
           "text": {
@@ -7434,7 +8359,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "mubah"
         }
       }
     },
@@ -7442,7 +8368,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 27,
+      "number": 31,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -7481,7 +8407,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -7499,7 +8426,8 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "shafii": {
           "text": {
@@ -7517,7 +8445,8 @@
               "es": "Tuḥfat al-Muḥtāj",
               "uk": "«Тухфат аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "hanbali": {
           "text": {
@@ -7535,7 +8464,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "mubah"
         }
       }
     },
@@ -7543,7 +8473,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 28,
+      "number": 32,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -7582,7 +8512,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "maliki": {
           "text": {
@@ -7704,7 +8635,9 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "maliki": {
           "text": {
@@ -7729,7 +8662,9 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "shafii": {
           "text": {
@@ -7754,7 +8689,9 @@
               "es": "Minhāj al-Ṭālibīn",
               "uk": "«Мінхадж ат-Талібін»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -7779,7 +8716,9 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         }
       }
     },
@@ -7840,7 +8779,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "maliki": {
           "text": {
@@ -7872,7 +8812,8 @@
               "es": "Ḥāshiyat al-Dasūqī",
               "uk": "«Хашіят ад-Дасукі»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "shafii": {
           "text": {
@@ -7904,7 +8845,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "hanbali": {
           "text": {
@@ -7936,7 +8878,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -8468,7 +9411,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "maliki": {
           "text": {
@@ -8782,7 +9726,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -8814,7 +9759,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {
@@ -8846,7 +9792,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -8878,7 +9825,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -9253,7 +10201,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "fard"
         },
         "maliki": {
           "text": {
@@ -9285,7 +10234,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "fard"
         },
         "shafii": {
           "text": {
@@ -9317,7 +10267,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "fard"
         },
         "hanbali": {
           "text": {
@@ -9349,7 +10300,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "fard"
         }
       }
     },
@@ -9396,7 +10348,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "maliki": {
           "text": {
@@ -9421,7 +10374,8 @@
               "es": "Ḥāshiyat al-Dasūqī",
               "uk": "«Хашіят ад-Дасукі»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "shafii": {
           "text": {
@@ -9439,7 +10393,8 @@
               "es": "Minhāj al-Ṭālibīn",
               "uk": "«Мінхадж ат-Талібін»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "hanbali": {
           "text": {
@@ -9457,7 +10412,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -9518,7 +10474,9 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "shart"
         },
         "maliki": {
           "text": {
@@ -9550,7 +10508,9 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "shafii": {
           "text": {
@@ -9582,7 +10542,9 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -9614,7 +10576,9 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         }
       }
     },
@@ -9661,7 +10625,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "maliki": {
           "text": {
@@ -9686,7 +10651,8 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "mandub"
         },
         "shafii": {
           "text": {
@@ -9704,7 +10670,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "hanbali": {
           "text": {
@@ -9722,7 +10689,8 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -9769,7 +10737,8 @@
               "es": "Al-Durr al-Mukhtār",
               "uk": "«Ад-Дурр аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "maliki": {
           "text": {
@@ -9787,7 +10756,8 @@
               "es": "Ḥāshiyat al-Dasūqī",
               "uk": "«Хашіят ад-Дасукі»"
             }
-          ]
+          ],
+          "grade": "makruh"
         },
         "shafii": {
           "text": {
@@ -9805,7 +10775,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -9823,7 +10794,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -9884,7 +10856,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -9916,7 +10889,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "shafii": {
           "text": {
@@ -9948,7 +10922,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "hanbali": {
           "text": {
@@ -9980,7 +10955,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -10137,7 +11113,8 @@
               "es": "Zād al-Mustaqniʿ",
               "uk": "«Зад аль-Мустакні»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         }
       }
     },
@@ -10198,7 +11175,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -10230,7 +11208,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "sunnah"
         },
         "shafii": {
           "text": {
@@ -10262,7 +11241,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "hanbali": {
           "text": {
@@ -10294,7 +11274,8 @@
               "es": "Maṭālib Ūlī al-Nuhā",
               "uk": "«Маталіб улі ан-Нуха»"
             }
-          ]
+          ],
+          "grade": "mandub"
         }
       }
     },
@@ -10355,7 +11336,8 @@
               "es": "Al-Hidāyah",
               "uk": "«Аль-Хідая»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "maliki": {
           "text": {
@@ -10387,7 +11369,8 @@
               "es": "Al-Tāj wa-al-Iklīl",
               "uk": "«Ат-Тадж ва-ль-Іклиль»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "shafii": {
           "text": {
@@ -10419,7 +11402,8 @@
               "es": "Nihāyat al-Muḥtāj",
               "uk": "«Ніхаят аль-Мухтадж»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "hanbali": {
           "text": {
@@ -10451,7 +11435,8 @@
               "es": "Sharḥ Muntahā al-Irādāt",
               "uk": "«Шарх Мунтаха аль-Ірадат»"
             }
-          ]
+          ],
+          "nature": "shart"
         }
       }
     },
@@ -10505,7 +11490,9 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "maliki": {
           "text": {
@@ -10530,7 +11517,9 @@
               "es": "Al-Sharḥ al-Kabīr",
               "uk": "«Аш-Шарх аль-Кабір»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "shafii": {
           "text": {
@@ -10555,7 +11544,9 @@
               "es": "Minhāj al-Ṭālibīn",
               "uk": "«Мінхадж ат-Талібін»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -10580,7 +11571,9 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "fard",
+          "nature": "rukn"
         }
       }
     },
@@ -10791,7 +11784,8 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -10823,7 +11817,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {
@@ -10855,7 +11850,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -10887,7 +11883,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -11105,7 +12102,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "maliki": {
           "text": {
@@ -11137,7 +12135,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "shafii": {
           "text": {
@@ -11169,7 +12168,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "hanbali": {
           "text": {
@@ -11201,7 +12201,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "haram"
         }
       }
     },
@@ -11262,7 +12263,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -11294,7 +12296,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {
@@ -11326,7 +12329,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -11358,7 +12362,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -11419,7 +12424,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -11451,7 +12457,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {
@@ -11483,7 +12490,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -11515,7 +12523,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "wajib"
         }
       }
     },
@@ -11576,7 +12585,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "maliki": {
           "text": {
@@ -11608,7 +12618,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "shafii": {
           "text": {
@@ -11640,7 +12651,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "nature": "shart"
         },
         "hanbali": {
           "text": {
@@ -11672,7 +12684,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "nature": "shart"
         }
       }
     },
@@ -11733,7 +12746,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "maliki": {
           "text": {
@@ -11765,7 +12779,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "shafii": {
           "text": {
@@ -11797,7 +12812,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "hanbali": {
           "text": {
@@ -11829,7 +12845,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "haram"
         }
       }
     },
@@ -11890,7 +12907,8 @@
               "es": "Tabyīn al-Ḥaqāʾiq",
               "uk": "«Табйін аль-Хакаїк»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -11922,7 +12940,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {
@@ -12079,7 +13098,8 @@
               "es": "Mawāhib al-Jalīl",
               "uk": "«Мавагіб аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "shafii": {
           "text": {

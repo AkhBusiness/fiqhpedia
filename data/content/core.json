@@ -38,11 +38,11 @@
   ],
   "ui": {
     "academicMode": {
-      "ar": "أكاديمي",
-      "en": "Academic",
-      "ru": "Академический",
-      "es": "Académico",
-      "uk": "Академічний"
+      "ar": "مع المراجع",
+      "en": "With sources",
+      "ru": "С источниками",
+      "es": "Con fuentes",
+      "uk": "З джерелами"
     },
     "allSchools": {
       "ar": "جميع المذاهب",
@@ -738,11 +738,11 @@
       "uk": "Показати всі чотири мазгаби поруч"
     },
     "simplifiedMode": {
-      "ar": "مبسّط",
-      "en": "Simplified",
-      "ru": "Упрощённый",
-      "es": "Simplificado",
-      "uk": "Спрощений"
+      "ar": "الحكم وحده",
+      "en": "Ruling only",
+      "ru": "Только постановление",
+      "es": "Solo la norma",
+      "uk": "Лише постанова"
     },
     "singleSchool": {
       "ar": "مذهب واحد",
@@ -801,11 +801,11 @@
       "uk": "Тема"
     },
     "viewMode": {
-      "ar": "نمط العرض",
-      "en": "View mode",
-      "ru": "Режим отображения",
-      "es": "Modo de vista",
-      "uk": "Режим відображення"
+      "ar": "طريقة العرض",
+      "en": "Display",
+      "ru": "Отображение",
+      "es": "Visualización",
+      "uk": "Відображення"
     },
     "welcomeDesc": {
       "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
@@ -1016,6 +1016,69 @@
       "ru": "Терминологическое определение соответствует выбранному мазхабу",
       "es": "La definición técnica sigue tu selección de escuela",
       "uk": "Термінологічне визначення відповідає обраному мазгабу"
+    },
+    "aqidahChapters": {
+      "ar": "أبواب العقيدة",
+      "en": "Chapters of creed",
+      "ru": "Разделы вероучения",
+      "es": "Capítulos del credo",
+      "uk": "Розділи віровчення"
+    },
+    "aqidahAllChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
+    },
+    "proofsInChapter": {
+      "ar": "أدلة",
+      "en": "proofs",
+      "ru": "доказательств",
+      "es": "pruebas",
+      "uk": "доказів"
+    },
+    "academicModeHint": {
+      "ar": "يعرض مع كل حكم أسماء كتب المذهب التي أُخذ منها.",
+      "en": "Shows the school’s reference works beneath each ruling.",
+      "ru": "Показывает под каждым постановлением книги мазхаба, из которых оно взято.",
+      "es": "Muestra bajo cada norma las obras de referencia de la escuela.",
+      "uk": "Показує під кожною постановою книги мазгабу, з яких її взято."
+    },
+    "simplifiedModeHint": {
+      "ar": "يعرض نصّ الحكم وحده بلا أسماء الكتب — أوضح لمن يقرأ لأول مرة.",
+      "en": "Shows the ruling on its own, without the book titles — clearer on a first reading.",
+      "ru": "Показывает только текст постановления, без названий книг — понятнее при первом чтении.",
+      "es": "Muestra solo el texto de la norma, sin los títulos de los libros — más claro en una primera lectura.",
+      "uk": "Показує лише текст постанови, без назв книг — зрозуміліше при першому читанні."
+    },
+    "gradeWhatIs": {
+      "ar": "ما معنى هذه الدرجة؟",
+      "en": "What does this grade mean?",
+      "ru": "Что означает эта степень?",
+      "es": "¿Qué significa este grado?",
+      "uk": "Що означає цей ступінь?"
+    },
+    "gradeSameInChapter": {
+      "ar": "ما له الدرجة نفسها في هذا الباب",
+      "en": "Others of the same grade in this chapter",
+      "ru": "Другое той же степени в этом разделе",
+      "es": "Otros del mismo grado en este capítulo",
+      "uk": "Інше того ж ступеня в цьому розділі"
+    },
+    "gradeAcrossSchools": {
+      "ar": "درجتها عند المذاهب الأربعة",
+      "en": "Its grade in the four schools",
+      "ru": "Её степень в четырёх мазхабах",
+      "es": "Su grado en las cuatro escuelas",
+      "uk": "Її ступінь у чотирьох мазгабах"
+    },
+    "gradeNoDefinition": {
+      "ar": "تعريف هذه الدرجة قيد الإضافة",
+      "en": "The definition of this grade is being added",
+      "ru": "Определение этой степени добавляется",
+      "es": "La definición de este grado se está añadiendo",
+      "uk": "Визначення цього ступеня додається"
     }
   },
   "books": [
@@ -1210,7 +1273,15 @@
         "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин.",
         "es": "Por necesidad racional existe un Originador eterno, no precedido por la no existencia e independiente de todo lo demás — Dios —, el hacedor de todo lo originado y la causa de toda causa.",
         "uk": "Отже, за раціональною необхідністю існує предвічний Спричинювач, якому не передувало небуття і який не потребує нікого іншого, — Аллах Пресвятий, Творець усього виниклого і Причина всіх причин."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "khalq",
@@ -1269,7 +1340,15 @@
         "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения.",
         "es": "El origen desde la nada, por tanto, pertenece únicamente a Dios, y Su singularidad en ello indica que solo Él es divino y merecedor de adoración.",
         "uk": "Створення з небуття належить лише Аллаху, і Його єдиність у цьому вказує на Його єдиність у божественності та гідності поклоніння."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "itqan",
@@ -1321,7 +1400,15 @@
         "ru": "Совершенство творения доказывает мудрость, знание и волю Творца; порядок — красноречивое знамение Премудрого, Всезнающего.",
         "es": "La perfección de la obra demuestra la sabiduría, el conocimiento y la voluntad del Artífice; el orden es un signo elocuente del Sabio, el Omnisciente.",
         "uk": "Досконалість творіння доводить мудрість, знання і волю Творця; лад — красномовне знамення Премудрого, Всезнаючого."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "fitrah",
@@ -1373,7 +1460,15 @@
         "ru": "Фитра — внутреннее свидетельство о Творце; вернувшийся к чистому естеству находит признание Его самоочевидной необходимостью, не требующей доказательства.",
         "es": "La fiṭrah es un testigo interior del Creador; quien vuelve a su naturaleza pura e innata encuentra que reconocerlo es una necesidad evidente que no precisa demostración.",
         "uk": "Фітра — внутрішнє свідчення про Творця; хто повертається до чистого свого єства, той знаходить визнання Його самоочевидною необхідністю, що не потребує доведення."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "tamanu",
@@ -1432,7 +1527,15 @@
         "ru": "Упорядоченность вселенной указывает на единственность её Управителя; признание Творца влечёт признание, что Он един и не имеет сотоварища.",
         "es": "El orden del universo señala la unicidad de su Gobernante; reconocer un Creador implica reconocer que Él es uno, sin socio.",
         "uk": "Упорядкованість всесвіту вказує на єдиність його Управителя; визнання Творця тягне за собою визнання, що Він єдиний і не має співучасника."
-      }
+      },
+      "chapter": {
+        "ar": "الإلهيات: إثبات الخالق ووحدانيته",
+        "en": "The Divine: Establishing the Creator and His Oneness",
+        "ru": "Божественное: доказательство Творца и Его единственности",
+        "es": "Lo divino: la existencia del Creador y Su unicidad",
+        "uk": "Божественне: доведення Творця та Його єдиності"
+      },
+      "chapterId": "ilahiyyat"
     },
     {
       "id": "nubuwwa",
@@ -1491,118 +1594,15 @@
         "ru": "Признание мудрого Творца влечёт ожидание разъяснения от Него; пророчество есть требование мудрости, а не добавление к ней.",
         "es": "Reconocer a un Creador sabio implica esperar una aclaración de Su parte; la profecía es una exigencia de la sabiduría, no un añadido a ella.",
         "uk": "Визнання мудрого Творця тягне за собою очікування роз'яснення від Нього; пророцтво — вимога мудрості, а не додаток до неї."
-      }
-    },
-    {
-      "id": "ijaz",
-      "ref": "A7",
-      "title": {
-        "ar": "دليل التحدّي وإعجاز القرآن",
-        "en": "The Challenge & the Qurʾān's Inimitability",
-        "ru": "Довод вызова и неподражаемости Корана",
-        "es": "Prueba del desafío y la inimitabilidad del Corán",
-        "uk": "Доказ виклику та неперевершеності Корану"
       },
-      "tagline": {
-        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
-        "en": "A standing challenge that has gone unmet",
-        "ru": "Стоящий вызов, на который не ответили",
-        "es": "Un desafío vigente que no ha sido respondido",
-        "uk": "Чинний виклик, на який ніхто не відповів"
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
       },
-      "premises": [
-        {
-          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
-          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
-          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины.",
-          "es": "El Corán fue revelado en la lengua de los árabes en una época en que su elocuencia y retórica habían alcanzado su cúspide.",
-          "uk": "Коран був зісланий мовою арабів у добу, коли їхнє красномовство і риторика сягнули вершини."
-        },
-        {
-          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
-          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
-          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить.",
-          "es": "Los desafió a producir algo semejante, luego diez capítulos, luego un solo capítulo — pese a su fuerte motivo para responder.",
-          "uk": "Він кинув їм виклик створити подібне, потім десять сур, потім одну суру — попри їхнє сильне спонукання відповісти."
-        },
-        {
-          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
-          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
-          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое.",
-          "es": "Se apartaron de la respuesta retórica hacia la guerra pese a sus penalidades — una admisión práctica de incapacidad ante lo más fácil.",
-          "uk": "Вони відступили від словесної відповіді до війни, попри її тяготи, — а це практичне визнання нездатності на легше."
-        }
-      ],
-      "quran": {
-        "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
-        "ref": {
-          "ar": "سورة الإسراء: ٨٨",
-          "en": "Sūrat al-Isrāʾ: 88",
-          "ru": "Сура аль-Исра: 88",
-          "es": "Sura al-Isra: 88",
-          "uk": "Сура аль-Ісра: 88"
-        },
-        "url": "https://quran.com/17/88"
-      },
-      "conclusion": {
-        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
-        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
-        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь.",
-        "es": "La incapacidad de los maestros de la lengua para responderle, con todos los motivos a su favor, indica que no es palabra humana.",
-        "uk": "Нездатність знавців мови відповісти на нього за всіх спонукань вказує, що це не людська мова."
-      }
-    },
-    {
-      "id": "hifz",
-      "ref": "A8",
-      "title": {
-        "ar": "دليل حفظ القرآن من التبديل",
-        "en": "The Preservation of the Qurʾān",
-        "ru": "Довод сохранности Корана",
-        "es": "Prueba de la preservación del Corán frente a la alteración",
-        "uk": "Доказ збереженості Корану від спотворення"
-      },
-      "tagline": {
-        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
-        "en": "Mass transmission renders collusion in alteration impossible",
-        "ru": "Массовая передача делает сговор об искажении невозможным",
-        "es": "Una transmisión masiva que hace imposible el sigo de alterarlo",
-        "uk": "Масова передача унеможливлює змову про спотворення"
-      },
-      "premises": [
-        {
-          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
-          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
-          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен.",
-          "es": "El Corán se transmitió de forma masiva — memorizado en los corazones y escrito en líneas — en cada generación por un grupo demasiado numeroso para haberse puesto de acuerdo en una falsedad.",
-          "uk": "Коран передавався масово — заучуванням у серцях і записом на сторінках — у кожному поколінні множиною людей, чия змова про брехню неможлива."
-        },
-        {
-          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
-          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
-          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их.",
-          "es": "Un texto conservado de este modo no admite adición u omisión oculta, pues la divergencia de los transmisores en distintas regiones lo revelaría.",
-          "uk": "Текст, збережений у такий спосіб, не допускає прихованих додавань чи вилучень, адже розбіжність передавачів у різних землях викрила б їх."
-        }
-      ],
-      "quran": {
-        "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
-        "ref": {
-          "ar": "سورة الحجر: ٩",
-          "en": "Sūrat al-Ḥijr: 9",
-          "ru": "Сура аль-Хиджр: 9",
-          "es": "Sura al-Hiyr: 9",
-          "uk": "Сура аль-Хіджр: 9"
-        },
-        "url": "https://quran.com/15/9"
-      },
-      "conclusion": {
-        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
-        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
-        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей.",
-        "es": "La transmisión masiva indica, por tanto, que el texto permanece tal como fue revelado; lo preservado de este modo es apto para ser una prueba perdurable para la humanidad.",
-        "uk": "Отже, масова передача вказує, що текст залишився таким, яким був зісланий; збережене в такий спосіб придатне бути неминущим доказом для людей."
-      }
+      "chapterId": "nubuwwat"
     },
     {
       "id": "wahdat",
@@ -1661,7 +1661,15 @@
         "ru": "Согласие в основе сквозь разделённые эпохи указывает на единый источник посланий — связанную цепь, а не соперничающие откровения.",
         "es": "El acuerdo en el fundamento a través de épocas separadas indica, pues, una fuente única para los mensajes — una cadena conectada, no revelaciones rivales.",
         "uk": "Отже, згода в основі попри різні епохи вказує на єдине джерело послань — на пов'язаний ланцюг, а не на суперницькі одкровення."
-      }
+      },
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
+      },
+      "chapterId": "nubuwwat"
     },
     {
       "id": "khatm",
@@ -1720,7 +1728,142 @@
         "ru": "Поскольку обе причины смены устранены сохранностью и всеобщностью послания, оно является завершающим — завершённость есть требование мудрости, а не голое утверждение.",
         "es": "Como ambas causas de la sucesión quedan eliminadas por la preservación y la universalidad del mensaje, se sigue que es definitivo — siendo la finalidad una exigencia de la sabiduría, no una mera afirmación.",
         "uk": "Оскільки обидві причини зміни усунуті збереженістю та всезагальністю послання, воно мусить бути завершальним — і завершеність є вимогою мудрості, а не голим твердженням."
-      }
+      },
+      "chapter": {
+        "ar": "النبوّات: الحاجة إليها ووحدة مصدرها",
+        "en": "Prophethood: Its Necessity and the Unity of Its Source",
+        "ru": "Пророчество: потребность в нём и единство его источника",
+        "es": "La profecía: su necesidad y la unidad de su fuente",
+        "uk": "Пророцтво: потреба в ньому та єдність його джерела"
+      },
+      "chapterId": "nubuwwat"
+    },
+    {
+      "id": "ijaz",
+      "ref": "A7",
+      "title": {
+        "ar": "دليل التحدّي وإعجاز القرآن",
+        "en": "The Challenge & the Qurʾān's Inimitability",
+        "ru": "Довод вызова и неподражаемости Корана",
+        "es": "Prueba del desafío y la inimitabilidad del Corán",
+        "uk": "Доказ виклику та неперевершеності Корану"
+      },
+      "tagline": {
+        "ar": "تحدٍّ قائمٌ لم يُعارَض بمثله",
+        "en": "A standing challenge that has gone unmet",
+        "ru": "Стоящий вызов, на который не ответили",
+        "es": "Un desafío vigente que no ha sido respondido",
+        "uk": "Чинний виклик, на який ніхто не відповів"
+      },
+      "premises": [
+        {
+          "ar": "نزل القرآن بلسان العرب في عصر بلغت فيه الفصاحة والبيان ذروتهما عندهم.",
+          "en": "The Qurʾān was revealed in the tongue of the Arabs at a time when their eloquence and rhetoric had reached their peak.",
+          "ru": "Коран был ниспослан на языке арабов в эпоху, когда их красноречие достигло вершины.",
+          "es": "El Corán fue revelado en la lengua de los árabes en una época en que su elocuencia y retórica habían alcanzado su cúspide.",
+          "uk": "Коран був зісланий мовою арабів у добу, коли їхнє красномовство і риторика сягнули вершини."
+        },
+        {
+          "ar": "وتحدّاهم أن يأتوا بمثله، ثم بعشر سورٍ، ثم بسورةٍ واحدة، مع شدّة دواعيهم إلى معارضته.",
+          "en": "It challenged them to produce its like, then ten chapters, then a single chapter — despite their strong motive to answer it.",
+          "ru": "Он бросил им вызов создать подобное, затем десять сур, затем одну суру — при всей их сильной побудительной причине ответить.",
+          "es": "Los desafió a producir algo semejante, luego diez capítulos, luego un solo capítulo — pese a su fuerte motivo para responder.",
+          "uk": "Він кинув їм виклик створити подібне, потім десять сур, потім одну суру — попри їхнє сильне спонукання відповісти."
+        },
+        {
+          "ar": "فعدلوا عن المعارضة إلى القتال مع مشقّته، وهو اعترافٌ عمليٌّ بالعجز عن الأيسر.",
+          "en": "They turned from rhetorical response to warfare despite its hardship — a practical admission of inability to meet the easier demand.",
+          "ru": "Они обратились от словесного ответа к войне, несмотря на её тяготы, — практическое признание неспособности на более лёгкое.",
+          "es": "Se apartaron de la respuesta retórica hacia la guerra pese a sus penalidades — una admisión práctica de incapacidad ante lo más fácil.",
+          "uk": "Вони відступили від словесної відповіді до війни, попри її тяготи, — а це практичне визнання нездатності на легше."
+        }
+      ],
+      "quran": {
+        "verse": "﴿قُل لَّئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ عَلَىٰ أَن يَأْتُوا بِمِثْلِ هَٰذَا الْقُرْآنِ لَا يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا﴾",
+        "ref": {
+          "ar": "سورة الإسراء: ٨٨",
+          "en": "Sūrat al-Isrāʾ: 88",
+          "ru": "Сура аль-Исра: 88",
+          "es": "Sura al-Isra: 88",
+          "uk": "Сура аль-Ісра: 88"
+        },
+        "url": "https://quran.com/17/88"
+      },
+      "conclusion": {
+        "ar": "عجز أهل اللسان عن معارضته مع توفّر الدواعي دليلٌ على أنه ليس من كلام البشر.",
+        "en": "The inability of the masters of the language to answer it, despite every motive, indicates it is not human speech.",
+        "ru": "Неспособность знатоков языка ответить на него, при всех побуждениях, указывает, что это не человеческая речь.",
+        "es": "La incapacidad de los maestros de la lengua para responderle, con todos los motivos a su favor, indica que no es palabra humana.",
+        "uk": "Нездатність знавців мови відповісти на нього за всіх спонукань вказує, що це не людська мова."
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
+    },
+    {
+      "id": "hifz",
+      "ref": "A8",
+      "title": {
+        "ar": "دليل حفظ القرآن من التبديل",
+        "en": "The Preservation of the Qurʾān",
+        "ru": "Довод сохранности Корана",
+        "es": "Prueba de la preservación del Corán frente a la alteración",
+        "uk": "Доказ збереженості Корану від спотворення"
+      },
+      "tagline": {
+        "ar": "نقلٌ متواترٌ يمتنع معه التواطؤ على التبديل",
+        "en": "Mass transmission renders collusion in alteration impossible",
+        "ru": "Массовая передача делает сговор об искажении невозможным",
+        "es": "Una transmisión masiva que hace imposible el sigo de alterarlo",
+        "uk": "Масова передача унеможливлює змову про спотворення"
+      },
+      "premises": [
+        {
+          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
+          "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
+          "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен.",
+          "es": "El Corán se transmitió de forma masiva — memorizado en los corazones y escrito en líneas — en cada generación por un grupo demasiado numeroso para haberse puesto de acuerdo en una falsedad.",
+          "uk": "Коран передавався масово — заучуванням у серцях і записом на сторінках — у кожному поколінні множиною людей, чия змова про брехню неможлива."
+        },
+        {
+          "ar": "والنص المحفوظ على هذا الوجه يمتنع دخول الزيادة والنقصان عليه خفيةً، إذ يكشفها اختلاف النقلة في الأمصار.",
+          "en": "A text preserved in this manner cannot admit hidden addition or omission, for the divergence of transmitters across regions would expose it.",
+          "ru": "Текст, сохранённый таким образом, не допускает скрытых добавлений или изъятий, ибо расхождение передатчиков в разных землях обнаружило бы их.",
+          "es": "Un texto conservado de este modo no admite adición u omisión oculta, pues la divergencia de los transmisores en distintas regiones lo revelaría.",
+          "uk": "Текст, збережений у такий спосіб, не допускає прихованих додавань чи вилучень, адже розбіжність передавачів у різних землях викрила б їх."
+        }
+      ],
+      "quran": {
+        "verse": "﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾",
+        "ref": {
+          "ar": "سورة الحجر: ٩",
+          "en": "Sūrat al-Ḥijr: 9",
+          "ru": "Сура аль-Хиджр: 9",
+          "es": "Sura al-Hiyr: 9",
+          "uk": "Сура аль-Хіджр: 9"
+        },
+        "url": "https://quran.com/15/9"
+      },
+      "conclusion": {
+        "ar": "فدلّ التواتر على بقاء النص كما نزل، والمحفوظ على هذا الوجه يصلح أن يكون حجةً باقيةً على الناس.",
+        "en": "Mass transmission therefore indicates the text remains as revealed; what is preserved thus is fit to stand as an enduring proof for mankind.",
+        "ru": "Массовая передача указывает, что текст остался таким, каким был ниспослан; сохранённое так пригодно быть непреходящим доводом для людей.",
+        "es": "La transmisión masiva indica, por tanto, que el texto permanece tal como fue revelado; lo preservado de este modo es apto para ser una prueba perdurable para la humanidad.",
+        "uk": "Отже, масова передача вказує, що текст залишився таким, яким був зісланий; збережене в такий спосіб придатне бути неминущим доказом для людей."
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
     },
     {
       "id": "wasita",
@@ -1772,7 +1915,15 @@
         "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом.",
         "es": "Declarar al Creador libre de deficiencia exige, por tanto, que el acceso a Él sea directo, y que la intermediación en la súplica quede negada por la razón, no simplemente omitida por ritual.",
         "uk": "Отже, визнання Творця вільним від вад вимагає, щоб зв'язок із Ним був безпосереднім, а посередництво в благанні — заперечене розумом, а не просто опущене обрядом."
-      }
+      },
+      "chapter": {
+        "ar": "القرآن وصلة العبد بربّه",
+        "en": "The Qurʾān and the Servant's Link to His Lord",
+        "ru": "Коран и связь раба со своим Господом",
+        "es": "El Corán y el vínculo del siervo con su Señor",
+        "uk": "Коран і зв'язок раба зі своїм Господом"
+      },
+      "chapterId": "quran_sila"
     }
   ],
   "glossary": [
@@ -3387,5 +3538,84 @@
       },
       "school": null
     }
-  ]
+  ],
+  "gradeLabels": {
+    "fard": {
+      "ar": "فرض",
+      "en": "Farḍ (obligatory)",
+      "ru": "Фард (обязательное)",
+      "es": "Farḍ (obligatorio)",
+      "uk": "Фард (обов'язкове)"
+    },
+    "wajib": {
+      "ar": "واجب",
+      "en": "Wājib (required)",
+      "ru": "Ваджиб (требуемое)",
+      "es": "Wājib (requerido)",
+      "uk": "Ваджіб (вимагане)"
+    },
+    "sunnah": {
+      "ar": "سنة",
+      "en": "Sunnah",
+      "ru": "Сунна",
+      "es": "Sunnah",
+      "uk": "Сунна"
+    },
+    "mandub": {
+      "ar": "مندوب",
+      "en": "Mandūb (recommended)",
+      "ru": "Мандуб (желательное)",
+      "es": "Mandūb (recomendable)",
+      "uk": "Мандуб (бажане)"
+    },
+    "makruh": {
+      "ar": "مكروه",
+      "en": "Makrūh (disliked)",
+      "ru": "Макрух (нежелательное)",
+      "es": "Makrūh (reprobable)",
+      "uk": "Макрух (небажане)"
+    },
+    "haram": {
+      "ar": "حرام",
+      "en": "Ḥarām (forbidden)",
+      "ru": "Харам (запретное)",
+      "es": "Ḥarām (prohibido)",
+      "uk": "Харам (заборонене)"
+    },
+    "mubah": {
+      "ar": "مباح",
+      "en": "Mubāḥ (permitted)",
+      "ru": "Мубах (дозволенное)",
+      "es": "Mubāḥ (permitido)",
+      "uk": "Мубах (дозволене)"
+    },
+    "rukn": {
+      "ar": "ركن",
+      "en": "Rukn (essential part)",
+      "ru": "Рукн (составная часть)",
+      "es": "Rukn (parte esencial)",
+      "uk": "Рукн (складова частина)"
+    },
+    "shart": {
+      "ar": "شرط",
+      "en": "Sharṭ (condition)",
+      "ru": "Шарт (условие)",
+      "es": "Sharṭ (condición)",
+      "uk": "Шарт (умова)"
+    },
+    "sabab": {
+      "ar": "سبب",
+      "en": "Sabab (cause)",
+      "ru": "Сабаб (причина)",
+      "es": "Sabab (causa)",
+      "uk": "Сабаб (причина)"
+    },
+    "mani": {
+      "ar": "مانع",
+      "en": "Māniʿ (impediment)",
+      "ru": "Мани (препятствие)",
+      "es": "Māniʿ (impedimento)",
+      "uk": "Мані (перешкода)"
+    }
+  }
 }

@@ -45,6 +45,15 @@ LANGS = ["ar", "en", "ru", "es", "uk"]
 PENDING_LANGS = []
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
+# الدرجات المعتمدة. الحقل اختياري — ما لا حكم تكليفي له يُترك بلا درجة —
+# لكن المكتوب منها لا يخرج عن هذه، وإلا ظهرت شارة بلا اسم ولا لون.
+GRADES = {"fard", "wajib", "sunnah", "mandub", "makruh", "haram", "mubah"}
+
+# الحكم الوضعي: موقع الفعل من ماهية العبادة. حقل مستقلّ عن الدرجة لأنهما
+# لا يتعارضان — غسل الوجه فرضٌ وركنٌ معاً، وحشرهما في حقل واحد كان يُظهر
+# الحنابلة مخالفين للثلاثة في مسألة هم متّفقون فيها.
+NATURES = {"rukn", "shart", "sabab", "mani"}
+
 # Text that means "not written yet" and must never ship.
 PLACEHOLDERS = re.compile(
     r"\b(lorem ipsum|placeholder|coming soon)\b"
@@ -61,12 +70,13 @@ LATIN_LOOKALIKE = re.compile(r"[A-Za-z\u0131]")
 # قاعدة المشروع: العين ʿ (U+02BF) والهمزة ʾ (U+02BE) — لا فاصلة عليا ولا قوس اقتباس.
 # تُفحص داخل الكلمات اللاتينية وحدها، فالفاصلة العليا مشروعة في «don't» الإنجليزية
 # وفي «обов'язок» الأوكرانية، وإنما الخطأ أن تنوب عن العين أو الهمزة داخل نقلٍ صوتي.
-# الأقواس المائلة والعكسية لا تصحّ داخل كلمة بحال.
+# القوس المائل والعكسي داخل كلمة لاتينية. تُستثنى لواحق الإنجليزية،
+# فـ«school’s» ملكيّةٌ صحيحة والقوس المائل رسمها المطبعيّ المعتاد.
 TRANSLIT_QUOTE = re.compile(r"[A-Za-z][\u2019\u2018`\u02bc](?=[A-Za-z])")
 # أمّا الفاصلة العليا الآسكي فمشروعة في اختصارات الإنجليزية وملكيّتها،
 # فتُستثنى لواحقها وحدها ويُنبَّه على ما عداها.
 ASCII_APOSTROPHE = re.compile(r"[A-Za-z]'(?=[A-Za-z])")
-CONTRACTION = re.compile(r"'(?:t|s|re|ve|ll|d|m|em)\b", re.IGNORECASE)
+CONTRACTION = re.compile(r"['\u2019\u2018`\u02bc](?:t|s|re|ve|ll|d|m|em)\b", re.IGNORECASE)
 
 # Scripts we expect per language, to catch a translation pasted into the
 # wrong slot (e.g. Arabic text sitting in the "en" field).
@@ -111,7 +121,11 @@ def check_localized(obj, where, *, required=True, allow_pending_wording=False):
         if "\ufffd" in val:
             err(f"{where}.{lang}: contains corrupted character (U+FFFD) — {val[:50]}")
         if lang in ("en", "es"):
-            m = TRANSLIT_QUOTE.search(val)
+            m = None
+            for cand in TRANSLIT_QUOTE.finditer(val):
+                if not CONTRACTION.match(val[cand.end() - 1:]):
+                    m = cand
+                    break
             if not m:
                 for cand in ASCII_APOSTROPHE.finditer(val):
                     if not CONTRACTION.match(val[cand.end() - 1:]):
@@ -217,6 +231,12 @@ def main():
                 err(f"{where}.rulings.{school}: MISSING — all four schools are required")
                 continue
             check_localized(r.get("text"), f"{where}.rulings.{school}.text")
+            grade = r.get("grade")
+            if grade is not None and grade not in GRADES:
+                err(f"{where}.rulings.{school}.grade: unknown grade {grade!r}")
+            nature = r.get("nature")
+            if nature is not None and nature not in NATURES:
+                err(f"{where}.rulings.{school}.nature: unknown nature {nature!r}")
 
             srcs = r.get("sources")
             if srcs is None:

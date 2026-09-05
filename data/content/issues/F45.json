@@ -55,7 +55,9 @@
           "es": "Marāqī al-Falāḥ",
           "uk": "«Маракі аль-Фалях»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "shart"
     },
     "maliki": {
       "text": {
@@ -87,7 +89,9 @@
           "es": "Minaḥ al-Jalīl",
           "uk": "«Мінах аль-Джаліль»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "shafii": {
       "text": {
@@ -119,7 +123,9 @@
           "es": "Mughnī al-Muḥtāj",
           "uk": "«Мугні аль-Мухтадж»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "hanbali": {
       "text": {
@@ -151,7 +157,9 @@
           "es": "Al-Inṣāf",
           "uk": "«Аль-Інсаф»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     }
   }
 }

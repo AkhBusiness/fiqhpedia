@@ -2,13 +2,13 @@
   "ref": "F54",
   "id": "taharah-28",
   "bookId": "taharah",
-  "seq": 1,
+  "seq": 3,
   "chapter": {
-    "ar": "باب فرض الوضوء",
-    "en": "Chapter of the Obligation of Ablution",
-    "ru": "Раздел об обязательности омовения",
-    "es": "Capítulo de la obligatoriedad de la ablución",
-    "uk": "Розділ про обов'язковість омивання"
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
   },
   "title": {
     "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
@@ -55,7 +55,9 @@
           "es": "Tabyīn al-Ḥaqāʾiq",
           "uk": "«Табйін аль-Хакаїк»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "maliki": {
       "text": {
@@ -87,7 +89,9 @@
           "es": "Mawāhib al-Jalīl",
           "uk": "«Мавагіб аль-Джаліль»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "shafii": {
       "text": {
@@ -119,7 +123,9 @@
           "es": "Al-Majmūʿ",
           "uk": "«Аль-Маджму»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "hanbali": {
       "text": {
@@ -144,7 +150,9 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     }
   }
 }

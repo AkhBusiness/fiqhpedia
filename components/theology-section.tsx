@@ -4,7 +4,24 @@ import { useEffect, useState } from "react"
 import { BookOpen, ListChecks, Maximize2, Quote, Sparkles } from "lucide-react"
 import { Modal } from "@/components/modal"
 import { ArticleReader } from "@/components/article-reader"
-import { type Lang, type TheologyProof, theologyProofs, ui, displayRef } from "@/lib/fiqh-data"
+import { type Lang, type Localized, type TheologyProof, theologyProofs, ui, displayRef } from "@/lib/fiqh-data"
+
+/**
+ * The proofs in the order they are written, split into their chapters.
+ * Order matters here more than in a list of rulings: the chapters build on
+ * one another, and a reader who meets "the seal of the messages" before
+ * "the need for prophethood" is being shown the roof before the wall.
+ */
+function byChapter(proofs: TheologyProof[]) {
+  const out: { id: string; label: Localized | undefined; proofs: TheologyProof[] }[] = []
+  for (const p of proofs) {
+    const key = p.chapterId ?? ""
+    const last = out[out.length - 1]
+    if (last && last.id === key) last.proofs.push(p)
+    else out.push({ id: key, label: p.chapter, proofs: [p] })
+  }
+  return out
+}
 
 interface TheologySectionProps {
   lang: Lang
@@ -52,8 +69,18 @@ export function TheologySection({ lang }: TheologySectionProps) {
         </p>
       </div>
 
+      {byChapter(theologyProofs).map((group, gi) => (
+      <div key={group.id || gi} className="mb-8 last:mb-0">
+      {group.label ? (
+        <div className="mb-4 flex items-baseline gap-3 border-b border-white/10 pb-2">
+          <h3 className="text-balance text-lg font-bold text-foreground">{group.label[lang]}</h3>
+          <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
+            {group.proofs.length} {ui.proofsInChapter[lang]}
+          </span>
+        </div>
+      ) : null}
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {theologyProofs.map((proof) => (
+        {group.proofs.map((proof) => (
           <div
             key={proof.id}
             className={`group flex flex-col rounded-2xl border ${proof.accent.border} bg-white/[0.02] p-5 backdrop-blur-sm transition-all duration-300 ${proof.accent.ring} ${proof.accent.glow}`}
@@ -98,6 +125,8 @@ export function TheologySection({ lang }: TheologySectionProps) {
           </div>
         ))}
       </div>
+      </div>
+      ))}
 
       <Modal
         open={active !== null}

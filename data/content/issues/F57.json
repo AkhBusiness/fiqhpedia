@@ -48,7 +48,9 @@
           "es": "Radd al-Muḥtār",
           "uk": "«Радд аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "maliki": {
       "text": {
@@ -73,7 +75,9 @@
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "shafii": {
       "text": {
@@ -98,7 +102,9 @@
           "es": "Minhāj al-Ṭālibīn",
           "uk": "«Мінхадж ат-Талібін»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     },
     "hanbali": {
       "text": {
@@ -123,7 +129,9 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "fard",
+      "nature": "rukn"
     }
   }
 }

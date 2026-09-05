@@ -1,0 +1,161 @@
+{
+  "ref": "F63",
+  "id": "taharah-30",
+  "bookId": "taharah",
+  "seq": 2,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم غسل الكفّين ثلاثاً قبل إدخالهما الإناء في الوضوء",
+    "en": "Ruling on Washing the Hands Three Times Before Putting Them into the Vessel in the Ablution",
+    "ru": "Постановление о мытье кистей рук трижды перед погружением их в сосуд при омовении",
+    "es": "Norma sobre lavar las manos tres veces antes de introducirlas en el recipiente en la ablución",
+    "uk": "Постанова про миття кистей рук тричі перед зануренням їх у посудину під час омивання"
+  },
+  "summary": {
+    "ar": "ما حكم غسل الكفّين ثلاثاً في أول الوضوء، وما حكم إدخالهما في الإناء لمن استيقظ من نوم الليل؟",
+    "en": "What is the ruling on washing the hands three times at the beginning of the ablution, and on putting them into the vessel for one who has woken from the night's sleep?",
+    "ru": "Каково постановление о мытье кистей трижды в начале омовения и о погружении их в сосуд для того, кто проснулся от ночного сна?",
+    "es": "¿Cuál es la norma sobre lavar las manos tres veces al comienzo de la ablución, y sobre introducirlas en el recipiente para quien despierta del sueño nocturno?",
+    "uk": "Яка постанова про миття кистей тричі на початку омивання та про занурення їх у посудину для того, хто прокинувся від нічного сну?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "غسل الكفّين ثلاثاً في أول الوضوء سنة، ويُكره لمن استيقظ من نوم الليل أن يدخل يده في الإناء حتى يغسلها ثلاثاً.",
+        "en": "Washing the hands three times at the beginning of the ablution is a sunnah, and it is disliked for one who has woken from the night's sleep to put a hand into the vessel before washing it three times.",
+        "ru": "Мытьё кистей трижды в начале омовения — сунна, а тому, кто проснулся от ночного сна, нежелательно опускать руку в сосуд, пока он не вымоет её трижды.",
+        "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah, y es reprobable que quien despierta del sueño nocturno introduzca la mano en el recipiente antes de lavarla tres veces.",
+        "uk": "Миття кистей тричі на початку омивання — сунна, а тому, хто прокинувся від нічного сну, небажано опускати руку в посудину, доки він не вимиє її тричі."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ],
+      "grade": "sunnah"
+    },
+    "maliki": {
+      "text": {
+        "ar": "يُندب غسل الكفّين ثلاثاً في أول الوضوء، ويُكره إدخال اليد في الإناء لمن استيقظ من نوم الليل قبل غسلها ثلاثاً.",
+        "en": "Washing the hands three times at the beginning of the ablution is recommended, and putting a hand into the vessel is disliked for one who has woken from the night's sleep before washing it three times.",
+        "ru": "Мыть кисти трижды в начале омовения желательно, а опускать руку в сосуд нежелательно тому, кто проснулся от ночного сна, до того как вымоет её трижды.",
+        "es": "Se recomienda lavar las manos tres veces al comienzo de la ablución, y es reprobable introducir la mano en el recipiente para quien despierta del sueño nocturno antes de lavarla tres veces.",
+        "uk": "Мити кисті тричі на початку омивання є бажаним, а опускати руку в посудину небажано тому, хто прокинувся від нічного сну, перш ніж вимиє її тричі."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ],
+      "grade": "mandub"
+    },
+    "shafii": {
+      "text": {
+        "ar": "يُسنّ غسل الكفّين ثلاثاً في أول الوضوء مطلقاً، وتشتدّ الكراهة في إدخالهما الإناء لمن استيقظ من نوم الليل قبل غسلهما.",
+        "en": "Washing the hands three times at the beginning of the ablution is a sunnah in every case, and the dislike is stronger for one who has woken from the night's sleep to put them into the vessel before washing them.",
+        "ru": "Мытьё кистей трижды в начале омовения — сунна во всяком случае, а нежелательность усиливается в погружении их в сосуд для того, кто проснулся от ночного сна, до их мытья.",
+        "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah en todo caso, y la reprobación se agrava al introducirlas en el recipiente para quien despierta del sueño nocturno antes de lavarlas.",
+        "uk": "Миття кистей тричі на початку омивання — сунна в усякому разі, а небажаність посилюється в зануренні їх у посудину для того, хто прокинувся від нічного сну, до їх миття."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ],
+      "grade": "sunnah"
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُسنّ غسل الكفّين في أول الوضوء، ويجب غسلهما ثلاثاً قبل إدخالهما الإناء لمن استيقظ من نوم الليل الناقض للوضوء، تعبّداً لظاهر الحديث.",
+        "en": "Washing the hands at the beginning of the ablution is a sunnah, and washing them three times before putting them into the vessel is obligatory for one who has woken from the night's sleep that breaks the ablution, as an act of devotion following the apparent sense of the hadith.",
+        "ru": "Мытьё кистей в начале омовения — сунна, а мыть их трижды перед погружением в сосуд обязательно для того, кто проснулся от ночного сна, нарушающего омовение, как обряд поклонения по внешнему смыслу хадиса.",
+        "es": "Lavar las manos al comienzo de la ablución es sunnah, y lavarlas tres veces antes de introducirlas en el recipiente es obligatorio para quien despierta del sueño nocturno que rompe la ablución, como acto de adoración conforme al sentido aparente del hadiz.",
+        "uk": "Миття кистей на початку омивання — сунна, а мити їх тричі перед зануренням у посудину є обов'язковим для того, хто прокинувся від нічного сну, що порушує омивання, як обряд поклоніння за явним змістом хадиса."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ],
+      "grade": "wajib"
+    }
+  }
+}

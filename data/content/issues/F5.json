@@ -41,7 +41,8 @@
           "es": "Al-Durr al-Mukhtār",
           "uk": "«Ад-Дурр аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "mubah"
     },
     "maliki": {
       "text": {
@@ -77,7 +78,8 @@
           "es": "Mughnī al-Muḥtāj",
           "uk": "«Мугні аль-Мухтадж»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "hanbali": {
       "text": {
@@ -95,7 +97,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "mubah"
     }
   }
 }

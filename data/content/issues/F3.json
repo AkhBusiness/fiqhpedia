@@ -34,7 +34,8 @@
           "es": "Al-ʿInāyah",
           "uk": "«Аль-Інайя»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "maliki": {
       "text": {
@@ -52,7 +53,8 @@
           "es": "Al-Tāj wa-al-Iklīl",
           "uk": "«Ат-Тадж ва-ль-Іклиль»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "shafii": {
       "text": {
@@ -70,7 +72,8 @@
           "es": "Rawḍat al-Ṭālibīn",
           "uk": "«Равдат ат-Талібін»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "hanbali": {
       "text": {
@@ -95,7 +98,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "haram"
     }
   }
 }

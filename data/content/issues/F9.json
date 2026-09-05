@@ -41,7 +41,8 @@
           "es": "Radd al-Muḥtār",
           "uk": "«Радд аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "maliki": {
       "text": {
@@ -59,7 +60,8 @@
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
         }
-      ]
+      ],
+      "grade": "makruh"
     },
     "shafii": {
       "text": {
@@ -84,7 +86,8 @@
           "es": "Mughnī al-Muḥtāj",
           "uk": "«Мугні аль-Мухтадж»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "hanbali": {
       "text": {
@@ -102,7 +105,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "haram"
     }
   }
 }

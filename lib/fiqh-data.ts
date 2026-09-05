@@ -105,8 +105,50 @@ export interface School {
   }
 }
 
+/**
+ * The nine grades a ruling can carry (الحكم التكليفي والوضعي).
+ * Deliberately one shared vocabulary rather than one set per school: the
+ * grades are the same names everywhere, and it is their *definition* that
+ * shifts. `wajib` is a rank of its own for the Ḥanafīs, and for the Ḥanbalīs
+ * it coincides with `fard` in principle yet parts from it in particular
+ * cases — the basmalah in wuḍūʾ is wājib and lapses through forgetfulness,
+ * where a farḍ would not. So `wajib` is never silently folded into `fard`.
+ */
+export type RulingGrade =
+  | "fard"
+  | "wajib"
+  | "sunnah"
+  | "mandub"
+  | "makruh"
+  | "haram"
+  | "mubah"
+
+export const RULING_GRADES: RulingGrade[] = [
+  "fard", "wajib", "sunnah", "mandub", "makruh", "haram", "mubah",
+]
+
+/**
+ * Where the act sits in the structure of the worship (الحكم الوضعي).
+ * Kept apart from the grade because the two do not compete: washing the face
+ * is both farḍ and a rukn, and forcing a choice between them invents
+ * disagreement. The Ḥanbalīs call it a rukn and the other three call it a
+ * farḍ — put in one field, the badge would show a split where the schools
+ * in fact agree.
+ */
+export type RulingNature = "rukn" | "shart" | "sabab" | "mani"
+
+export const RULING_NATURES: RulingNature[] = ["rukn", "shart", "sabab", "mani"]
+
 export interface SchoolRuling {
   ruling: Localized
+  /**
+   * Absent by design on questions that carry no such grade — when a prayer
+   * time begins, how much water counts as plentiful — so those show no badge
+   * rather than a wrong one.
+   */
+  grade?: RulingGrade
+  /** Structural role, independent of the grade above. Also optional. */
+  nature?: RulingNature
   /** One or more relied-upon (معتمد) books of the school. Never empty. */
   references: Localized[]
 }
@@ -223,6 +265,14 @@ export interface TheologyProof {
   id: string
   /** Permanent site-wide citation ref (e.g. "A3"). Never reused or renumbered. */
   ref: string
+  /**
+   * The chapter of creed this proof belongs to. Eleven proofs listed flat
+   * read as an undifferentiated pile: the reader cannot tell what any one of
+   * them is for. Grouped, the shape of the argument shows — the Creator
+   * first, then prophethood, then the Qurʾān and the link to Him.
+   */
+  chapterId?: string
+  chapter?: Localized
   title: Localized
   tagline: Localized
   /** Tailwind token bundle for the proof accent color (presentation-only) */
@@ -255,6 +305,8 @@ interface RawCountry {
 }
 
 interface RawSchoolRuling {
+  grade?: RulingGrade
+  nature?: RulingNature
   text: Localized
   /** Current shape: one or more relied-upon books. */
   sources?: Localized[]
@@ -277,6 +329,8 @@ interface RawIssue {
 interface RawTheologyProof {
   id: string
   ref: string
+  chapterId?: string
+  chapter?: Localized
   title: Localized
   tagline: Localized
   premises: Localized[]
@@ -300,6 +354,7 @@ interface RawData {
     pending?: boolean
   }[]
   ui: Record<string, Localized>
+  gradeLabels?: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
   articles?: Article[]
@@ -412,6 +467,19 @@ const DEFAULT_SCHOOL_COLOR: School["color"] = {
 
 export const ui = data.ui as Record<string, Localized>
 
+/** Display name of each grade, per language. */
+export const gradeLabels = (data.gradeLabels ?? {}) as Record<string, Localized>
+
+/**
+ * The glossary entry that defines a grade, when one has been written.
+ * The definitions live in the glossary rather than beside the labels
+ * because they differ by school, and the glossary already carries the
+ * per-school shape and renders it.
+ */
+export function gradeTerm(grade: string) {
+  return glossary.find((t) => t.id === grade || t.id.startsWith(`${grade}-`))
+}
+
 /** Resolve a citation ref like "F12" or "a3" (case-insensitive) to its entry. */
 export function findByRef(
   ref: string,
@@ -483,13 +551,18 @@ export const issues: Issue[] = data.issues.map((i) => ({
   title: i.title,
   summary: i.summary,
   rulings: Object.fromEntries(
-    Object.entries(i.rulings).map(([key, r]) => [key, { ruling: r.text, references: toReferences(r) }]),
+    Object.entries(i.rulings).map(([key, r]) => [
+      key,
+      { ruling: r.text, grade: r.grade, nature: r.nature, references: toReferences(r) },
+    ]),
   ) as Record<SchoolKey, SchoolRuling>,
 }))
 
 export const theologyProofs: TheologyProof[] = data.theology.map((p) => ({
   id: p.id,
   ref: p.ref,
+  chapterId: p.chapterId,
+  chapter: p.chapter,
   title: p.title,
   tagline: p.tagline,
   accent: PROOF_ACCENTS[p.id] ?? DEFAULT_PROOF_ACCENT,

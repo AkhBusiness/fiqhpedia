@@ -34,7 +34,8 @@
           "es": "Radd al-Muḥtār",
           "uk": "«Радд аль-Мухтар»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "maliki": {
       "text": {
@@ -52,7 +53,8 @@
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "shafii": {
       "text": {
@@ -77,7 +79,8 @@
           "es": "Al-Majmūʿ",
           "uk": "«Аль-Маджму»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "hanbali": {
       "text": {
@@ -95,7 +98,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "nature": "shart"
     }
   }
 }

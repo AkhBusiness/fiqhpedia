@@ -55,7 +55,8 @@
           "es": "Marāqī al-Falāḥ",
           "uk": "«Маракі аль-Фалях»"
         }
-      ]
+      ],
+      "grade": "mubah"
     },
     "maliki": {
       "text": {
@@ -119,7 +120,8 @@
           "es": "Mughnī al-Muḥtāj",
           "uk": "«Мугні аль-Мухтадж»"
         }
-      ]
+      ],
+      "grade": "makruh"
     },
     "hanbali": {
       "text": {
@@ -151,7 +153,8 @@
           "es": "Al-Inṣāf",
           "uk": "«Аль-Інсаф»"
         }
-      ]
+      ],
+      "grade": "makruh"
     }
   }
 }

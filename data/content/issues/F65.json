@@ -1,0 +1,161 @@
+{
+  "ref": "F65",
+  "id": "taharah-32",
+  "bookId": "taharah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "مقدار مسح الرأس الواجب وحكم مسح الأذنين معه في الوضوء",
+    "en": "The Obligatory Extent of Wiping the Head, and the Ruling on Wiping the Ears with It",
+    "ru": "Обязательная мера протирания головы и постановление о протирании ушей вместе с ней",
+    "es": "La medida obligatoria del frotamiento de la cabeza y la norma sobre frotar las orejas con ella",
+    "uk": "Обов'язкова міра протирання голови та постанова про протирання вух разом із нею"
+  },
+  "summary": {
+    "ar": "ما القدر الواجب مسحه من الرأس في الوضوء، وما حكم مسح الأذنين وهل هما منه؟",
+    "en": "What extent of the head must be wiped in the ablution, what is the ruling on wiping the ears, and are they part of it?",
+    "ru": "Какую часть головы обязательно протереть при омовении, каково постановление о протирании ушей и являются ли они её частью?",
+    "es": "¿Qué extensión de la cabeza debe frotarse en la ablución, cuál es la norma sobre frotar las orejas y forman parte de ella?",
+    "uk": "Яку частину голови обов'язково протерти під час омивання, яка постанова про протирання вух і чи є вони її частиною?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الواجب مسح ربع الرأس، ومسح الأذنين سنة مؤكدة يُمسحان بماء الرأس أو بماء جديد.",
+        "en": "What is obligatory is wiping a quarter of the head, and wiping the ears is an emphasised sunnah, done with the water of the head or with fresh water.",
+        "ru": "Обязательным является протирание четверти головы, а протирание ушей — подтверждённая сунна, совершаемая водой головы или свежей водой.",
+        "es": "Lo obligatorio es frotar un cuarto de la cabeza, y frotar las orejas es una sunnah enfatizada, hecha con el agua de la cabeza o con agua nueva.",
+        "uk": "Обов'язковим є протирання чверті голови, а протирання вух — підтверджена сунна, що здійснюється водою голови або свіжою водою."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ],
+      "grade": "wajib"
+    },
+    "maliki": {
+      "text": {
+        "ar": "يجب استيعاب جميع الرأس بالمسح مرة واحدة، ومسح الأذنين سنة مؤكدة بماء جديد.",
+        "en": "It is obligatory to cover the whole head in wiping, once, and wiping the ears is an emphasised sunnah with fresh water.",
+        "ru": "Обязательно охватить протиранием всю голову один раз, а протирание ушей — подтверждённая сунна свежей водой.",
+        "es": "Es obligatorio abarcar toda la cabeza al frotar, una vez, y frotar las orejas es una sunnah enfatizada con agua nueva.",
+        "uk": "Обов'язково охопити протиранням усю голову один раз, а протирання вух — підтверджена сунна свіжою водою."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ],
+      "grade": "wajib"
+    },
+    "shafii": {
+      "text": {
+        "ar": "يجزئ مسح ما يقع عليه الاسم من الرأس ولو شعرة واحدة في حدّه، ومسح الأذنين سنة مستقلة بماء جديد.",
+        "en": "Wiping whatever the name applies to of the head suffices, even a single hair within its limits, and wiping the ears is an independent sunnah with fresh water.",
+        "ru": "Достаточно протереть то, к чему приложимо название головы, даже один волос в её пределах, а протирание ушей — самостоятельная сунна свежей водой.",
+        "es": "Basta con frotar aquello a lo que se aplica el nombre de cabeza, aunque sea un solo cabello dentro de sus límites, y frotar las orejas es una sunnah independiente con agua nueva.",
+        "uk": "Достатньо протерти те, до чого прикладається назва голови, навіть одну волосину в її межах, а протирання вух — самостійна сунна свіжою водою."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ],
+      "grade": "sunnah"
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يجب مسح جميع الرأس ومعه الأذنان لأنهما منه، ويُمسحان بماء الرأس أو بماء جديد، ولا يجزئ الاقتصار على بعضه إلا لمعذور.",
+        "en": "It is obligatory to wipe the whole head together with the ears, since they are part of it, wiped with the water of the head or with fresh water; confining oneself to part of it does not suffice except for one with a valid excuse.",
+        "ru": "Обязательно протереть всю голову вместе с ушами, поскольку они являются её частью, протирая их водой головы или свежей водой; ограничиться её частью недостаточно, кроме как при уважительной причине.",
+        "es": "Es obligatorio frotar toda la cabeza junto con las orejas, pues son parte de ella, frotadas con el agua de la cabeza o con agua nueva; limitarse a una parte no basta salvo para quien tenga excusa.",
+        "uk": "Обов'язково протерти всю голову разом із вухами, оскільки вони є її частиною, протираючи їх водою голови або свіжою водою; обмежитися її частиною недостатньо, крім як за поважної причини."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ],
+      "grade": "wajib"
+    }
+  }
+}

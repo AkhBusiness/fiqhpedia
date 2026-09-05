@@ -41,7 +41,8 @@
           "es": "Radd al-Muḥtār",
           "uk": "«Радд аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     },
     "maliki": {
       "text": {
@@ -77,7 +78,8 @@
           "es": "Tuḥfat al-Muḥtāj",
           "uk": "«Тухфат аль-Мухтадж»"
         }
-      ]
+      ],
+      "nature": "shart"
     },
     "hanbali": {
       "text": {
@@ -95,7 +97,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "nature": "shart"
     }
   }
 }

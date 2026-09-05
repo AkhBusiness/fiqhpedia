@@ -55,7 +55,8 @@
           "es": "Tabyīn al-Ḥaqāʾiq",
           "uk": "«Табйін аль-Хакаїк»"
         }
-      ]
+      ],
+      "grade": "wajib"
     },
     "maliki": {
       "text": {
@@ -87,7 +88,8 @@
           "es": "Mawāhib al-Jalīl",
           "uk": "«Мавагіб аль-Джаліль»"
         }
-      ]
+      ],
+      "grade": "wajib"
     },
     "shafii": {
       "text": {

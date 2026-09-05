@@ -41,7 +41,8 @@
           "es": "Al-Durr al-Mukhtār",
           "uk": "«Ад-Дурр аль-Мухтар»"
         }
-      ]
+      ],
+      "grade": "makruh"
     },
     "maliki": {
       "text": {
@@ -59,7 +60,8 @@
           "es": "Ḥāshiyat al-Dasūqī",
           "uk": "«Хашіят ад-Дасукі»"
         }
-      ]
+      ],
+      "grade": "makruh"
     },
     "shafii": {
       "text": {
@@ -77,7 +79,8 @@
           "es": "Al-Majmūʿ",
           "uk": "«Аль-Маджму»"
         }
-      ]
+      ],
+      "grade": "wajib"
     },
     "hanbali": {
       "text": {
@@ -95,7 +98,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "sunnah"
     }
   }
 }
