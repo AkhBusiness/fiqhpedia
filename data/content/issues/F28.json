@@ -11,27 +11,27 @@
     "uk": "Розділ про води"
   },
   "title": {
-    "ar": "حكم غمس يد القائم من نوم الليل في الإناء",
-    "en": "Ruling on dipping the hand into a vessel on waking from sleep",
-    "ru": "Постановление о погружении руки в сосуд после пробуждения от сна",
-    "es": "Norma sobre sumergir la mano en el recipiente al despertar del sueño",
-    "uk": "Постанова про занурення руки в посудину тим, хто прокинувся від нічного сну"
+    "ar": "أثر غمس القائم من نوم الليل يده في الماء القليل",
+    "en": "The Effect of a Person Newly Woken Dipping a Hand into a Small Quantity of Water",
+    "ru": "Влияние погружения руки проснувшимся от ночного сна в малое количество воды",
+    "es": "El efecto de que quien despierta del sueño nocturno sumerja la mano en agua escasa",
+    "uk": "Вплив занурення руки тим, хто прокинувся від нічного сну, в малу кількість води"
   },
   "summary": {
-    "ar": "هل يضرّ غمس يد القائم من نوم الليل في الماء القليل قبل غسلها ثلاثاً؟",
-    "en": "Does dipping the hand into a small quantity of water on waking, before washing it three times, harm the water?",
-    "ru": "Вредит ли воде погружение руки в малое её количество после пробуждения, до троекратного мытья?",
-    "es": "¿Perjudica al agua escasa sumergir la mano al despertar, antes de lavarla tres veces?",
-    "uk": "Чи шкодить занурення руки того, хто прокинувся від нічного сну, в малу воду до триразового її миття?"
+    "ar": "هل يتغيّر حكم الماء القليل بغمس القائم من نوم الليل يده فيه قبل غسلها؟",
+    "en": "Does the status of a small quantity of water change when someone newly woken from the night's sleep dips a hand into it before washing it?",
+    "ru": "Меняется ли постановление о малой воде, если проснувшийся от ночного сна погрузит в неё руку до её мытья?",
+    "es": "¿Cambia la norma del agua escasa si quien despierta del sueño nocturno sumerge en ella la mano antes de lavarla?",
+    "uk": "Чи змінюється постанова про малу воду, якщо той, хто прокинувся від нічного сну, зануриться в неї рукою до її миття?"
   },
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يكره غمس يد القائم من النوم في الإناء قبل غسلها ثلاثاً، ولا ينجس الماء ولا تُسلب طهوريته.",
-        "en": "Dipping the hand into the vessel on waking, before washing it three times, is disliked; the water is neither made impure nor stripped of its purifying power.",
-        "ru": "Погружение руки в сосуд после сна до троекратного мытья нежелательно; вода не становится нечистой и не теряет очищающей силы.",
-        "es": "Sumergir la mano en el recipiente al despertar, antes de lavarla tres veces, se detesta; el agua ni se vuelve impura ni pierde su poder purificador.",
-        "uk": "Небажано занурювати руку в посудину тому, хто прокинувся від сну, до триразового її миття; вода не стає нечистою і не втрачає очищувальності."
+        "ar": "لا ينجس الماء بغمس يده فيه ولا تُسلب طهوريته، فيبقى رافعاً للحدث.",
+        "en": "The water is not made impure by the dipping of the hand, nor does it lose its purifying quality, so it still lifts ritual impurity.",
+        "ru": "Вода не становится нечистой от погружения руки и не теряет очищающего свойства, поэтому она по-прежнему снимает хадас.",
+        "es": "El agua no se vuelve impura por sumergir la mano ni pierde su cualidad purificante, de modo que sigue levantando la impureza ritual.",
+        "uk": "Вода не стає нечистою від занурення руки й не втрачає очищувальної властивості, тож вона й далі знімає хадас."
       },
       "sources": [
         {
@@ -55,16 +55,15 @@
           "es": "Marāqī al-Falāḥ",
           "uk": "«Маракі аль-Фалях»"
         }
-      ],
-      "grade": "makruh"
+      ]
     },
     "maliki": {
       "text": {
-        "ar": "يُندب غسل اليدين قبل إدخالهما الإناء للقائم من النوم، ولا ينجس الماء إلا بتحقّق النجاسة.",
-        "en": "Washing the hands before putting them into the vessel is recommended on waking, and the water is not made impure unless an impurity is certain.",
-        "ru": "Желательно вымыть руки перед погружением их в сосуд после сна; вода не становится нечистой, пока нечистота не установлена достоверно.",
-        "es": "Se recomienda lavarse las manos antes de meterlas en el recipiente al despertar; el agua no se vuelve impura salvo que la impureza sea cierta.",
-        "uk": "Бажано вимити руки перед зануренням їх у посудину тому, хто прокинувся від сну; вода не стає нечистою, доки нечистота не встановлена достовірно."
+        "ar": "لا ينجس الماء بذلك إلا بتحقّق النجاسة في اليد، فيبقى طهوراً.",
+        "en": "The water is not made impure by that unless an impurity on the hand is established, so it remains purifying.",
+        "ru": "Вода от этого не становится нечистой, если только нечистота на руке не установлена достоверно, и она остаётся очищающей.",
+        "es": "El agua no se vuelve impura por ello salvo que se constate una impureza en la mano, y sigue siendo purificante.",
+        "uk": "Вода від цього не стає нечистою, хіба що нечистота на руці встановлена достовірно, і вона залишається очищувальною."
       },
       "sources": [
         {
@@ -88,16 +87,15 @@
           "es": "Minaḥ al-Jalīl",
           "uk": "«Мінах аль-Джаліль»"
         }
-      ],
-      "grade": "mandub"
+      ]
     },
     "shafii": {
       "text": {
-        "ar": "يكره للقائم من النوم غمس يده في الإناء قبل غسلها ثلاثاً، ولا يصير الماء مستعملاً بذلك.",
-        "en": "It is disliked for one waking from sleep to dip his hand into the vessel before washing it three times, and the water does not thereby become used water.",
-        "ru": "Пробудившемуся нежелательно погружать руку в сосуд до троекратного мытья, и вода от этого не становится использованной.",
-        "es": "Se detesta que quien despierta sumerja la mano en el recipiente antes de lavarla tres veces, y el agua no pasa por ello a ser agua usada.",
-        "uk": "Тому, хто прокинувся від сну, небажано занурювати руку в посудину до триразового її миття, і вода від цього не стає використаною."
+        "ar": "لا يصير الماء مستعملاً بغمس اليد فيه، فيبقى طهوراً يرفع الحدث.",
+        "en": "The water does not become used water by the dipping of the hand, so it remains purifying and lifts ritual impurity.",
+        "ru": "Вода не становится использованной от погружения руки, поэтому она остаётся очищающей и снимает хадас.",
+        "es": "El agua no se convierte en agua usada por sumergir la mano, de modo que sigue siendo purificante y levanta la impureza ritual.",
+        "uk": "Вода не стає використаною від занурення руки, тож вона залишається очищувальною і знімає хадас."
       },
       "sources": [
         {
@@ -121,16 +119,15 @@
           "es": "Mughnī al-Muḥtāj",
           "uk": "«Мугні аль-Мухтадж»"
         }
-      ],
-      "grade": "makruh"
+      ]
     },
     "hanbali": {
       "text": {
-        "ar": "يكره غمس القائم من نوم الليل يده في الماء القليل قبل غسلها ثلاثاً، ويصير الماء طاهراً لا يرفع الحدث.",
-        "en": "It is disliked for one waking from night sleep to dip his hand into a small quantity of water before washing it three times, and the water becomes pure but no longer removes hadath.",
-        "ru": "Проснувшемуся после ночного сна нежелательно погружать руку в малую воду до троекратного мытья, и вода становится чистой, но хадас не устраняет.",
-        "es": "Se detesta que quien despierta del sueño nocturno sumerja la mano en agua escasa antes de lavarla tres veces, y el agua queda pura pero ya no elimina el hadath.",
-        "uk": "Тому, хто прокинувся від нічного сну, небажано занурювати руку в малу воду до триразового її миття, і вода стає чистою, що не знімає хадасу."
+        "ar": "يصير الماء القليل طاهراً لا يرفع الحدث بغمس يده فيه قبل غسلها ثلاثاً.",
+        "en": "The small quantity of water becomes pure but no longer purifying — it does not lift ritual impurity — once the hand is dipped in it before being washed three times.",
+        "ru": "Малая вода становится чистой, но не очищающей — она не снимает хадас, — если руку погрузили в неё до троекратного мытья.",
+        "es": "El agua escasa se vuelve pura pero no purificante — no levanta la impureza ritual — al sumergir en ella la mano antes de lavarla tres veces.",
+        "uk": "Мала вода стає чистою, але не очищувальною — вона не знімає хадасу, — якщо руку занурили в неї до триразового миття."
       },
       "sources": [
         {
@@ -154,8 +151,7 @@
           "es": "Al-Inṣāf",
           "uk": "«Аль-Інсаф»"
         }
-      ],
-      "grade": "makruh"
+      ]
     }
   }
 }

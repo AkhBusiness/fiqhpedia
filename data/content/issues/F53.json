@@ -18,20 +18,20 @@
     "uk": "Постанова про умову наміру постити в Рамадан з ночі"
   },
   "summary": {
-    "ar": "هل يشترط تبييت النية لكل يوم من أيام رمضان من الليل أم يكفي نية واحدة في أوله؟",
-    "en": "Is it required to form the intention from the night for each day of Ramadan, or is a single intention at the beginning sufficient?",
-    "ru": "Требуется ли ночное намерение на каждый день Рамадана, или достаточно одного намерения в начале?",
-    "es": "¿Se requiere formar la intención desde la noche para cada día de Ramadán, o basta con una sola intención al principio?",
-    "uk": "Чи вимагається нічний намір на кожен день Рамадану, чи достатньо одного наміру на початку?"
+    "ar": "هل يُشترط عقد النية ليلاً قبل طلوع الفجر، أم يصحّ عقدها بعده؟",
+    "en": "Must the intention be formed at night before dawn breaks, or may it be formed after?",
+    "ru": "Требуется ли составить намерение ночью до наступления рассвета, или его можно составить после?",
+    "es": "¿Debe formarse la intención de noche antes del alba, o puede formarse después?",
+    "uk": "Чи потрібно скласти намір уночі до світанку, чи його можна скласти після?"
   },
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
-        "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-morning (al-ḍuḥā al-kubrā) for Ramadan, voluntary fasts, and specific duties.",
-        "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днём до большой духы — примерно до середины между восходом солнца и зенитом для Рамадана, добровольного поста и определённой обязанности.",
-        "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes de media mañana (al-ḍuḥā al-kubrā) para Ramadán, ayuno voluntario y deber específico.",
-        "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до великої духи — приблизно до середини між сходом сонця та зенітом для Рамадану, добровільного посту та визначеного обов'язку."
+        "ar": "لا يُشترط التبييت في صوم رمضان، بل يصحّ بنية تُعقد من الليل أو في النهار قبل الضحوة الكبرى، والتبييت أفضل.",
+        "en": "Forming the intention at night is not a condition for the fast of Ramadan; it is valid with an intention formed at night or during the day before mid-morning, though the night intention is better.",
+        "ru": "Составление намерения ночью не является условием поста в Рамадан; он действителен с намерением, составленным ночью или днём до большой духы, хотя ночное намерение предпочтительнее.",
+        "es": "Formar la intención de noche no es condición para el ayuno de Ramadán; es válido con una intención formada de noche o de día antes de media mañana, aunque la nocturna es mejor.",
+        "uk": "Складання наміру вночі не є умовою посту в Рамадан; він дійсний з наміром, складеним уночі або вдень до великої духи, хоча нічний намір кращий."
       },
       "sources": [
         {
@@ -56,15 +56,15 @@
           "uk": "«Табйін аль-Хакаїк»"
         }
       ],
-      "grade": "wajib"
+      "grade": "mandub"
     },
     "maliki": {
       "text": {
-        "ar": "تكفي نية واحدة في أول شهر رمضان لكل أداء يجب تتابعه، ولا يجب تبييت النية لكل ليلة على حدة إلا إن انقطع الصوم بمرض أو سفر فتجب إعادة النية.",
-        "en": "A single intention at the beginning of Ramadan is sufficient for all consecutive days, and a nightly intention for each night is not required unless interrupted by illness or travel.",
-        "ru": "Одного намерения в начале месяца Рамадан достаточно для всех непрерывных дней, и ночное намерение на каждую ночь не требуется, если пост не прерывался болезнью или путешествием.",
-        "es": "Una sola intención al principio de Ramadán es suficiente para todos los días consecutivos, y no se requiere la intención nocturna para cada noche a menos que se interrumpa por enfermedad o viaje.",
-        "uk": "Одного наміру на початку місяця Рамадан достатньо для всіх безперервних днів, і нічний намір на кожну ніч не вимагається, якщо піст не переривався хворобою чи подорожжю."
+        "ar": "يجب عقد النية من الليل قبل طلوع الفجر، ولا يصحّ عقدها بعده في صوم الفرض.",
+        "en": "The intention must be formed at night before dawn breaks; forming it afterwards is not valid in an obligatory fast.",
+        "ru": "Намерение обязательно составить ночью до наступления рассвета; составление его после недействительно в обязательном посте.",
+        "es": "La intención debe formarse de noche antes del alba; formarla después no es válido en un ayuno obligatorio.",
+        "uk": "Намір обов'язково скласти вночі до світанку; складання його після недійсне в обов'язковому пості."
       },
       "sources": [
         {
@@ -93,11 +93,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
-        "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr based on his saying ﷺ: “Whoever does not resolve upon the fast before dawn, there is no fast for him.”",
-        "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра на основе слов Пророка ﷺ: «Кто не вознамерился твёрдо поститься до рассвета, для того нет поста».",
-        "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr según su dicho ﷺ: «Quien no resuelve firmemente el ayuno antes del alba, no tiene ayuno».",
-        "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру на основі слів Пророка ﷺ: «Хто не вирішив твердо постити до світанку, для того немає посту»."
+        "ar": "يجب تبييت النية من الليل، ولا يصحّ الصيام الفرض إلا بنية قبل الفجر، لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
+        "en": "The intention must be formed at night, and an obligatory fast is valid only with an intention before dawn, based on his saying ﷺ: “Whoever does not resolve upon the fast before dawn, there is no fast for him.”",
+        "ru": "Намерение обязательно составить ночью, и обязательный пост действителен лишь с намерением до рассвета, согласно словам Пророка ﷺ: «Кто не вознамерился твёрдо поститься до рассвета, для того нет поста».",
+        "es": "La intención debe formarse de noche, y el ayuno obligatorio solo es válido con una intención antes del alba, según su dicho ﷺ: «Quien no resuelve firmemente el ayuno antes del alba, no tiene ayuno».",
+        "uk": "Намір обов'язково скласти вночі, і обов'язковий піст дійсний лише з наміром до світанку, згідно з його словами ﷺ: «Хто не вирішив твердо постити до світанку, для того немає посту»."
       },
       "sources": [
         {
@@ -126,11 +126,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، ولا يصح الصيام الواجب إلا بالنية قبل طلوع الفجر لكل يوم على حدة.",
-        "en": "Forming the intention from the night is obligatory for each day of Ramadan, and obligatory fasting is not valid except with an intention before the break of dawn for each day separately.",
-        "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
-        "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
-        "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
+        "ar": "يجب تبييت النية من الليل، ولا يصحّ الصيام الواجب إلا بنية تُعقد قبل طلوع الفجر.",
+        "en": "The intention must be formed at night, and an obligatory fast is valid only with an intention formed before dawn breaks.",
+        "ru": "Намерение обязательно составить ночью, и обязательный пост действителен лишь с намерением, составленным до наступления рассвета.",
+        "es": "La intención debe formarse de noche, y el ayuno obligatorio solo es válido con una intención formada antes del alba.",
+        "uk": "Намір обов'язково скласти вночі, і обов'язковий піст дійсний лише з наміром, складеним до світанку."
       },
       "sources": [
         {

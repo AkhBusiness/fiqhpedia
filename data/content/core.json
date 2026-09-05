@@ -2699,6 +2699,1203 @@
           ]
         }
       }
+    },
+    {
+      "id": "fard",
+      "term": {
+        "ar": "فَرْضٌ",
+        "en": "Farḍ",
+        "ru": "Фард",
+        "es": "Farḍ",
+        "uk": "Фард"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً، فيُثاب فاعله ويأثم تاركه.",
+        "en": "What the Lawgiver requires decisively: its doer is rewarded and the one who omits it sins.",
+        "ru": "То, что Законодатель требует решительно: совершающий вознаграждается, а оставляющий грешит.",
+        "es": "Lo que el Legislador exige de forma tajante: quien lo hace es recompensado y quien lo omite peca.",
+        "uk": "Те, чого Законодавець вимагає рішуче: хто виконує — винагороджується, хто залишає — грішить."
+      },
+      "linguistic": {
+        "ar": "التقدير والقطع؛ من فَرَضَ الشيءَ إذا قدّره، وفَرَضَ القوسَ إذا قطع فيها حزّاً.",
+        "en": "Determining and cutting: from faraḍa, to fix a measure, and to notch a bow.",
+        "ru": "Определение и надрез: от «фарада» — установить меру, и сделать зарубку на луке.",
+        "es": "Determinar y cortar: de faraḍa, fijar una medida, y hacer una muesca en un arco.",
+        "uk": "Визначення та надріз: від «фарада» — встановити міру, і зробити карб на луці."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً بدليل قاطع، فيُثاب فاعله ويأثم تاركه.",
+        "en": "What the Lawgiver decisively requires by a conclusive proof: its doer is rewarded and its omitter sins.",
+        "ru": "То, что Законодатель решительно требует категорическим доказательством: совершающий вознаграждается, оставляющий грешит.",
+        "es": "Lo que el Legislador exige de forma tajante mediante una prueba concluyente: quien lo hace es recompensado y quien lo omite peca.",
+        "uk": "Те, чого Законодавець рішуче вимагає категоричним доказом: хто виконує — винагороджується, хто залишає — грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما ثبت بدليل قطعيّ لا شبهة فيه؛ يكفر جاحده، ويأثم تاركه، ولا تصحّ العبادة بتركه.",
+            "en": "Established by a decisive proof admitting no doubt: its denier disbelieves, its omitter sins, and the act of worship is invalid without it.",
+            "ru": "Установленное категорическим доказательством, не допускающим сомнения: отрицающий его впадает в неверие, оставляющий грешит, и поклонение без него недействительно.",
+            "es": "Establecido por una prueba categórica sin lugar a duda: quien lo niega incurre en incredulidad, quien lo omite peca, y el acto de culto es inválido sin él.",
+            "uk": "Установлене категоричним доказом, що не допускає сумніву: хто його заперечує — впадає в невір'я, хто залишає — грішить, і поклоніння без нього недійсне."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للواجب؛ ما طُلب فعله طلباً جازماً، يأثم تاركه ويُثاب فاعله.",
+            "en": "A synonym of wājib: what is decisively required, whose omitter sins and whose doer is rewarded.",
+            "ru": "Синоним ваджиба: то, что требуется решительно; оставляющий грешит, совершающий вознаграждается.",
+            "es": "Sinónimo de wājib: lo exigido de forma tajante, cuyo omitente peca y cuyo ejecutor es recompensado.",
+            "uk": "Синонім ваджіба: те, що вимагається рішуче; хто залишає — грішить, хто виконує — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للواجب واللازم والحتم؛ ما يُثاب على فعله ويُعاقَب على تركه.",
+            "en": "A synonym of wājib, lāzim and ḥatm: one is rewarded for doing it and punished for omitting it.",
+            "ru": "Синоним ваджиба, лязима и хатма: за совершение вознаграждают, за оставление наказывают.",
+            "es": "Sinónimo de wājib, lāzim y ḥatm: se recompensa por hacerlo y se castiga por omitirlo.",
+            "uk": "Синонім ваджіба, лязіма й хатма: за виконання винагороджують, за залишення карають."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للواجب في الأصل؛ ما طُلب فعله طلباً جازماً، ويأثم تاركه.",
+            "en": "In principle a synonym of wājib: what is decisively required, whose omitter sins.",
+            "ru": "В основе синоним ваджиба: то, что требуется решительно; оставляющий грешит.",
+            "es": "En principio sinónimo de wājib: lo exigido de forma tajante, cuyo omitente peca.",
+            "uk": "В основі синонім ваджіба: те, що вимагається рішуче; хто залишає — грішить."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wajib",
+      "term": {
+        "ar": "وَاجِبٌ",
+        "en": "Wājib",
+        "ru": "Ваджиб",
+        "es": "Wājib",
+        "uk": "Ваджіб"
+      },
+      "briefDefinition": {
+        "ar": "ما طُلب فعله طلباً جازماً؛ وهو عند الحنفية درجة دون الفرض.",
+        "en": "What is decisively required; for the Ḥanafīs, a rank below farḍ.",
+        "ru": "То, что требуется решительно; у ханафитов — степень ниже фарда.",
+        "es": "Lo exigido de forma tajante; para los ḥanafíes, un rango inferior al farḍ.",
+        "uk": "Те, що вимагається рішуче; у ганафітів — ступінь нижче фарда."
+      },
+      "linguistic": {
+        "ar": "السقوط واللزوم والثبوت؛ من وَجَبَ الحائطُ إذا سقط، ووَجَبَتِ الشمسُ إذا غابت.",
+        "en": "Falling, binding and being established: from wajaba, said of a wall that falls and of the sun that sets.",
+        "ru": "Падение, обязательность и утверждение: от «ваджаба» — о стене, которая падает, и о заходящем солнце.",
+        "es": "Caer, obligar y establecerse: de wajaba, dicho del muro que cae y del sol que se pone.",
+        "uk": "Падіння, обов'язковість та утвердження: від «ваджаба» — про стіну, що падає, і про сонце, що заходить."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً، فيأثم تاركه ويُثاب فاعله.",
+        "en": "What the Lawgiver decisively requires: its omitter sins and its doer is rewarded.",
+        "ru": "То, что Законодатель решительно требует: оставляющий грешит, совершающий вознаграждается.",
+        "es": "Lo que el Legislador exige de forma tajante: su omitente peca y su ejecutor es recompensado.",
+        "uk": "Те, чого Законодавець рішуче вимагає: хто залишає — грішить, хто виконує — винагороджується."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "درجة مستقلّة دون الفرض؛ ثبت بدليل ظنّي، يأثم تاركه ولا يكفر جاحده، وتُجبر العبادة بتركه سهواً بسجود السهو.",
+            "en": "A rank of its own below farḍ, established by a probable proof: its omitter sins but its denier does not disbelieve, and omitting it forgetfully is made good by the prostration of forgetfulness.",
+            "ru": "Самостоятельная степень ниже фарда, установленная предположительным доказательством: оставляющий грешит, но отрицающий не впадает в неверие, а оставление по забывчивости восполняется земным поклоном.",
+            "es": "Un rango propio por debajo del farḍ, establecido por prueba probable: su omitente peca pero quien lo niega no incurre en incredulidad, y omitirlo por olvido se subsana con la postración del olvido.",
+            "uk": "Самостійний ступінь нижче фарда, установлений імовірним доказом: хто залишає — грішить, але хто заперечує — не впадає в невір'я, а залишення через забудькуватість відшкодовується земним уклоном."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للفرض، لا فرق بينهما.",
+            "en": "A synonym of farḍ; there is no difference between them.",
+            "ru": "Синоним фарда; между ними нет разницы.",
+            "es": "Sinónimo de farḍ; no hay diferencia entre ambos.",
+            "uk": "Синонім фарда; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للفرض، لا فرق بينهما.",
+            "en": "A synonym of farḍ; there is no difference between them.",
+            "ru": "Синоним фарда; между ними нет разницы.",
+            "es": "Sinónimo de farḍ; no hay diferencia entre ambos.",
+            "uk": "Синонім фарда; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للفرض في الأصل، لكنهم فرّقوا في الفروع: فواجبات الصلاة والوضوء تسقط بالسهو ويجبرها السجود، بخلاف الأركان.",
+            "en": "In principle a synonym of farḍ, yet distinguished from it in particular cases: the wājibāt of the prayer and the ablution lapse through forgetfulness and are made good by the prostration, unlike the arkān.",
+            "ru": "В основе синоним фарда, однако они различают их в частных вопросах: ваджибы молитвы и омовения отпадают по забывчивости и восполняются земным поклоном, в отличие от рукнов.",
+            "es": "En principio sinónimo de farḍ, pero distinguido de él en casos concretos: los wājibāt de la oración y la ablución decaen por olvido y se subsanan con la postración, a diferencia de los arkān.",
+            "uk": "В основі синонім фарда, проте відрізнений від нього в окремих випадках: ваджіби молитви та омивання відпадають через забудькуватість і відшкодовуються земним уклоном, на відміну від рукнів."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sunnah-grade",
+      "term": {
+        "ar": "سُنَّةٌ",
+        "en": "Sunnah",
+        "ru": "Сунна",
+        "es": "Sunnah",
+        "uk": "Сунна"
+      },
+      "briefDefinition": {
+        "ar": "ما واظب عليه النبي ﷺ من غير افتراض، فيُثاب فاعله ولا يُعاقب تاركه.",
+        "en": "What the Prophet ﷺ kept to without its being obligatory: its doer is rewarded and its omitter is not punished.",
+        "ru": "То, чего Пророк ﷺ придерживался без вменения в обязанность: совершающий вознаграждается, оставляющий не наказывается.",
+        "es": "Aquello a lo que el Profeta ﷺ se atuvo sin ser obligatorio: quien lo hace es recompensado y quien lo omite no es castigado.",
+        "uk": "Те, чого Пророк ﷺ дотримувався без обов'язковості: хто виконує — винагороджується, хто залишає — не карається."
+      },
+      "linguistic": {
+        "ar": "الطريقة والسيرة المتّبعة، حسنةً كانت أو سيّئة؛ ومنه «سَنَّ سُنّة» أي جرى عليها.",
+        "en": "A way or course followed, whether good or bad; hence sanna sunnah, to set a course and follow it.",
+        "ru": "Путь и обыкновение, которому следуют, доброе оно или дурное; отсюда «санна сунна» — установить путь и держаться его.",
+        "es": "Un camino o proceder seguido, sea bueno o malo; de ahí sanna sunnah, establecer un curso y seguirlo.",
+        "uk": "Шлях і звичай, якого дотримуються, добрий він чи поганий; звідси «санна сунна» — встановити шлях і триматися його."
+      },
+      "legal": {
+        "ar": "ما واظب عليه النبي ﷺ من غير افتراض، فيُثاب فاعله ولا يُعاقب تاركه.",
+        "en": "What the Prophet ﷺ kept to without its being obligatory: its doer is rewarded and its omitter is not punished.",
+        "ru": "То, чего Пророк ﷺ придерживался без вменения в обязанность: совершающий вознаграждается, оставляющий не наказывается.",
+        "es": "Aquello a lo que el Profeta ﷺ se atuvo sin ser obligatorio: quien lo hace es recompensado y quien lo omite no es castigado.",
+        "uk": "Те, чого Пророк ﷺ дотримувався без обов'язковості: хто виконує — винагороджується, хто залишає — не карається."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما واظب عليه النبي ﷺ مع تركه أحياناً لبيان الجواز؛ والمؤكّدة قريبة من الواجب، تاركها بلا عذر مسيء يستحقّ اللوم لا العقاب.",
+            "en": "What the Prophet ﷺ kept to while omitting it at times to show it was permitted; the emphasised sunnah stands close to the wājib, and one who omits it without excuse does wrong and deserves blame, not punishment.",
+            "ru": "То, чего Пророк ﷺ придерживался, иногда оставляя, дабы показать дозволенность; подтверждённая сунна близка к ваджибу, и оставляющий её без причины поступает дурно и заслуживает порицания, но не наказания.",
+            "es": "Aquello a lo que el Profeta ﷺ se atuvo, omitiéndolo a veces para mostrar su licitud; la sunnah enfatizada se acerca al wājib, y quien la omite sin excusa obra mal y merece reproche, no castigo.",
+            "uk": "Те, чого Пророк ﷺ дотримувався, іноді залишаючи, аби показати дозволеність; підтверджена сунна близька до ваджіба, і хто залишає її без причини — чинить погано й заслуговує на осуд, але не покарання."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما أظهره النبي ﷺ وواظب عليه؛ فوق المندوب ودون الواجب، وتُسمّى السنّة المؤكّدة.",
+            "en": "What the Prophet ﷺ made manifest and kept to: above the mandūb and below the wājib, and it is called the emphasised sunnah.",
+            "ru": "То, что Пророк ﷺ явил и чего придерживался: выше мандуба и ниже ваджиба, и называется подтверждённой сунной.",
+            "es": "Lo que el Profeta ﷺ manifestó y mantuvo: por encima del mandūb y por debajo del wājib, y se llama sunnah enfatizada.",
+            "uk": "Те, що Пророк ﷺ виявив і чого дотримувався: вище мандуба й нижче ваджіба, і зветься підтвердженою сунною."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للمندوب والمستحبّ والتطوّع؛ يُثاب فاعله ولا يُعاقب تاركه، ويتفاوت بالتأكيد وعدمه.",
+            "en": "A synonym of mandūb, mustaḥabb and taṭawwuʿ: its doer is rewarded and its omitter is not punished, and it varies in how emphasised it is.",
+            "ru": "Синоним мандуба, мустахабба и татаввуа: совершающий вознаграждается, оставляющий не наказывается, и степень подтверждённости различна.",
+            "es": "Sinónimo de mandūb, mustaḥabb y taṭawwuʿ: quien lo hace es recompensado y quien lo omite no es castigado, y varía en su grado de énfasis.",
+            "uk": "Синонім мандуба, мустахабба й татаввуа: хто виконує — винагороджується, хто залишає — не карається, і ступінь підтвердженості різний."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للمندوب والمستحبّ؛ يُثاب فاعله ولا يأثم تاركه، ويتفاوت بالتأكيد.",
+            "en": "A synonym of mandūb and mustaḥabb: its doer is rewarded and its omitter does not sin, and it varies in emphasis.",
+            "ru": "Синоним мандуба и мустахабба: совершающий вознаграждается, оставляющий не грешит, и степень подтверждённости различна.",
+            "es": "Sinónimo de mandūb y mustaḥabb: quien lo hace es recompensado y quien lo omite no peca, y varía en énfasis.",
+            "uk": "Синонім мандуба й мустахабба: хто виконує — винагороджується, хто залишає — не грішить, і ступінь підтвердженості різний."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mandub",
+      "term": {
+        "ar": "مَنْدُوبٌ",
+        "en": "Mandūb",
+        "ru": "Мандуб",
+        "es": "Mandūb",
+        "uk": "Мандуб"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع فعله طلباً غير جازم، فيُثاب فاعله ولا يأثم تاركه.",
+        "en": "What the Lawgiver requires without insistence: its doer is rewarded and its omitter does not sin.",
+        "ru": "То, что Законодатель требует без настойчивости: совершающий вознаграждается, оставляющий не грешит.",
+        "es": "Lo que el Legislador pide sin insistencia: quien lo hace es recompensado y quien lo omite no peca.",
+        "uk": "Те, чого Законодавець вимагає без наполягання: хто виконує — винагороджується, хто залишає — не грішить."
+      },
+      "linguistic": {
+        "ar": "المدعوّ إليه؛ من نَدَبَه للأمر إذا دعاه إليه.",
+        "en": "That which one is called to: from nadabahu, to summon someone to a matter.",
+        "ru": "То, к чему призывают: от «надабаху» — призвать кого-либо к делу.",
+        "es": "Aquello a lo que se llama: de nadabahu, convocar a alguien a un asunto.",
+        "uk": "Те, до чого закликають: від «надабаху» — закликати когось до справи."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً غير جازم، فيُثاب فاعله ولا يأثم تاركه.",
+        "en": "What the Lawgiver requires without insistence: its doer is rewarded and its omitter does not sin.",
+        "ru": "То, что Законодатель требует без настойчивости: совершающий вознаграждается, оставляющий не грешит.",
+        "es": "Lo que el Legislador pide sin insistencia: quien lo hace es recompensado y quien lo omite no peca.",
+        "uk": "Те, чого Законодавець вимагає без наполягання: хто виконує — винагороджується, хто залишає — не грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "دون السنّة؛ ما فعله النبي ﷺ مرّة أو مرّتين ولم يواظب عليه، ويُسمّى النفل والأدب.",
+            "en": "Below the sunnah: what the Prophet ﷺ did once or twice without keeping to it, also called nafl and adab.",
+            "ru": "Ниже сунны: то, что Пророк ﷺ совершил раз или два, не придерживаясь постоянно; называется также нафль и адаб.",
+            "es": "Por debajo de la sunnah: lo que el Profeta ﷺ hizo una o dos veces sin mantenerlo, llamado también nafl y adab.",
+            "uk": "Нижче сунни: те, що Пророк ﷺ зробив раз чи двічі, не дотримуючись постійно; зветься також нафль і адаб."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للمستحبّ والنافلة؛ دون السنّة في التأكيد.",
+            "en": "A synonym of mustaḥabb and nāfilah: below the sunnah in emphasis.",
+            "ru": "Синоним мустахабба и нафили: ниже сунны по подтверждённости.",
+            "es": "Sinónimo de mustaḥabb y nāfilah: por debajo de la sunnah en énfasis.",
+            "uk": "Синонім мустахабба й нафілі: нижче сунни за підтвердженістю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للسنّة والمستحبّ والتطوّع، لا فرق بينها.",
+            "en": "A synonym of sunnah, mustaḥabb and taṭawwuʿ; there is no difference between them.",
+            "ru": "Синоним сунны, мустахабба и татаввуа; между ними нет разницы.",
+            "es": "Sinónimo de sunnah, mustaḥabb y taṭawwuʿ; no hay diferencia entre ellos.",
+            "uk": "Синонім сунни, мустахабба й татаввуа; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للسنّة والمستحبّ والتطوّع.",
+            "en": "A synonym of sunnah, mustaḥabb and taṭawwuʿ.",
+            "ru": "Синоним сунны, мустахабба и татаввуа.",
+            "es": "Sinónimo de sunnah, mustaḥabb y taṭawwuʿ.",
+            "uk": "Синонім сунни, мустахабба й татаввуа."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "makruh",
+      "term": {
+        "ar": "مَكْرُوهٌ",
+        "en": "Makrūh",
+        "ru": "Макрух",
+        "es": "Makrūh",
+        "uk": "Макрух"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع تركه طلباً غير جازم، فيُثاب تاركه امتثالاً ولا يأثم فاعله.",
+        "en": "What the Lawgiver asks to be left without insistence: one who leaves it in obedience is rewarded, and one who does it does not sin.",
+        "ru": "То, оставление чего Законодатель требует без настойчивости: оставляющий из повиновения вознаграждается, а совершающий не грешит.",
+        "es": "Lo que el Legislador pide dejar sin insistencia: quien lo deja por obediencia es recompensado y quien lo hace no peca.",
+        "uk": "Те, залишення чого Законодавець вимагає без наполягання: хто залишає з покори — винагороджується, а хто робить — не грішить."
+      },
+      "linguistic": {
+        "ar": "المبغَض المستثقَل؛ ضدّ المحبوب، من الكراهة وهي ضدّ الرضا.",
+        "en": "The disliked and burdensome: the opposite of the beloved, from karāhah, the opposite of contentment.",
+        "ru": "Нелюбимое и тягостное: противоположность любимому, от «караха» — противоположности довольства.",
+        "es": "Lo aborrecido y pesado: lo contrario de lo amado, de karāhah, opuesto a la complacencia.",
+        "uk": "Нелюбе й обтяжливе: протилежність любому, від «караха» — протилежності вдоволення."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع تركه طلباً غير جازم، فيُثاب تاركه امتثالاً ولا يأثم فاعله.",
+        "en": "What the Lawgiver asks to be left without insistence: one who leaves it in obedience is rewarded, and one who does it does not sin.",
+        "ru": "То, оставление чего Законодатель требует без настойчивости: оставляющий из повиновения вознаграждается, а совершающий не грешит.",
+        "es": "Lo que el Legislador pide dejar sin insistencia: quien lo deja por obediencia es recompensado y quien lo hace no peca.",
+        "uk": "Те, залишення чого Законодавець вимагає без наполягання: хто залишає з покори — винагороджується, а хто робить — не грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "قسمان: مكروه تحريماً — إلى الحرام أقرب، ثبت طلب تركه بدليل ظنّي، يأثم فاعله؛ ومكروه تنزيهاً — إلى الحلّ أقرب، لا يأثم فاعله.",
+            "en": "Two kinds: prohibitively disliked — nearer to the forbidden, its avoidance established by a probable proof, and its doer sins; and mildly disliked — nearer to the permitted, and its doer does not sin.",
+            "ru": "Два вида: макрух тахриман — ближе к запретному, оставление его установлено предположительным доказательством, и совершающий грешит; и макрух танзихан — ближе к дозволенному, и совершающий не грешит.",
+            "es": "Dos clases: reprobable con carácter prohibitivo — más cerca de lo prohibido, su abandono establecido por prueba probable, y quien lo hace peca; y reprobable leve — más cerca de lo lícito, y quien lo hace no peca.",
+            "uk": "Два види: макрух тахріман — ближче до забороненого, залишення його встановлене ймовірним доказом, і хто робить — грішить; і макрух танзіган — ближче до дозволеного, і хто робить — не грішить."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "درجة واحدة: ما طُلب تركه طلباً غير جازم، لا يأثم فاعله ويُثاب تاركه امتثالاً.",
+            "en": "A single rank: what is asked to be left without insistence; its doer does not sin and one who leaves it in obedience is rewarded.",
+            "ru": "Одна степень: то, оставление чего требуется без настойчивости; совершающий не грешит, а оставляющий из повиновения вознаграждается.",
+            "es": "Un único rango: lo que se pide dejar sin insistencia; quien lo hace no peca y quien lo deja por obediencia es recompensado.",
+            "uk": "Один ступінь: те, залишення чого вимагається без наполягання; хто робить — не грішить, а хто залишає з покори — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "درجة واحدة: ما يُثاب على تركه ولا يُعاقب على فعله.",
+            "en": "A single rank: one is rewarded for leaving it and not punished for doing it.",
+            "ru": "Одна степень: за оставление вознаграждают, за совершение не наказывают.",
+            "es": "Un único rango: se recompensa por dejarlo y no se castiga por hacerlo.",
+            "uk": "Один ступінь: за залишення винагороджують, за виконання не карають."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "درجة واحدة: ما نُهي عنه نهياً غير جازم، يُثاب تاركه ولا يأثم فاعله.",
+            "en": "A single rank: what is forbidden without insistence; one who leaves it is rewarded and one who does it does not sin.",
+            "ru": "Одна степень: то, что запрещено без настойчивости; оставляющий вознаграждается, совершающий не грешит.",
+            "es": "Un único rango: lo prohibido sin insistencia; quien lo deja es recompensado y quien lo hace no peca.",
+            "uk": "Один ступінь: те, що заборонено без наполягання; хто залишає — винагороджується, хто робить — не грішить."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "haram",
+      "term": {
+        "ar": "حَرَامٌ",
+        "en": "Ḥarām",
+        "ru": "Харам",
+        "es": "Ḥarām",
+        "uk": "Харам"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع تركه طلباً جازماً، فيأثم فاعله ويُثاب تاركه امتثالاً.",
+        "en": "What the Lawgiver decisively forbids: its doer sins and one who leaves it in obedience is rewarded.",
+        "ru": "То, оставление чего Законодатель требует решительно: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+        "es": "Lo que el Legislador prohíbe de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+        "uk": "Те, залишення чого Законодавець вимагає рішуче: хто робить — грішить, а хто залишає з покори — винагороджується."
+      },
+      "linguistic": {
+        "ar": "الممنوع؛ من الحَرَم لامتناع انتهاكه، ومنه الإحرام لامتناع المحرم من المحظورات.",
+        "en": "The forbidden: from ḥaram, the sanctuary that may not be violated, and from it iḥrām, the pilgrim's abstention from what is barred.",
+        "ru": "Запретное: от «харам» — заповедной территории, которую нельзя нарушать, и отсюда ихрам — воздержание паломника от запретного.",
+        "es": "Lo vedado: de ḥaram, el recinto sagrado que no puede violarse, y de ahí iḥrām, la abstención del peregrino de lo vedado.",
+        "uk": "Заборонене: від «харам» — заповідної території, яку не можна порушувати, і звідси іхрам — утримання паломника від забороненого."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع تركه طلباً جازماً، فيأثم فاعله ويُثاب تاركه امتثالاً.",
+        "en": "What the Lawgiver decisively forbids: its doer sins and one who leaves it in obedience is rewarded.",
+        "ru": "То, оставление чего Законодатель требует решительно: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+        "es": "Lo que el Legislador prohíbe de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+        "uk": "Те, залишення чого Законодавець вимагає рішуче: хто робить — грішить, а хто залишає з покори — винагороджується."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما ثبت طلب تركه بدليل قطعيّ؛ يكفر جاحده، ويأثم فاعله — ودونه المكروه تحريماً.",
+            "en": "Whose avoidance is established by a decisive proof: its denier disbelieves and its doer sins — and below it stands the prohibitively disliked.",
+            "ru": "То, оставление чего установлено категорическим доказательством: отрицающий впадает в неверие, совершающий грешит — а ниже него стоит макрух тахриман.",
+            "es": "Cuyo abandono está establecido por prueba categórica: quien lo niega incurre en incredulidad y quien lo hace peca — y por debajo queda lo reprobable con carácter prohibitivo.",
+            "uk": "Те, залишення чого встановлене категоричним доказом: хто заперечує — впадає в невір'я, хто робить — грішить, а нижче стоїть макрух тахріман."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يأثم فاعله ويُثاب تاركه.",
+            "en": "What is decisively to be left: its doer sins and its leaver is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий грешит, оставляющий вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace peca y quien lo deja es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — грішить, хто залишає — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يُعاقب فاعله ويُثاب تاركه.",
+            "en": "What is decisively to be left: its doer is punished and its leaver is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий наказывается, оставляющий вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace es castigado y quien lo deja es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — карається, хто залишає — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يأثم فاعله ويُثاب تاركه امتثالاً.",
+            "en": "What is decisively to be left: its doer sins and one who leaves it in obedience is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — грішить, а хто залишає з покори — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mubah",
+      "term": {
+        "ar": "مُبَاحٌ",
+        "en": "Mubāḥ",
+        "ru": "Мубах",
+        "es": "Mubāḥ",
+        "uk": "Мубах"
+      },
+      "briefDefinition": {
+        "ar": "ما خيّر الشارع المكلَّف بين فعله وتركه، فلا ثواب فيه ولا عقاب لذاته.",
+        "en": "What the Lawgiver leaves to the person's choice: in itself it carries neither reward nor punishment.",
+        "ru": "То, в чём Законодатель предоставил выбор: само по себе оно не влечёт ни награды, ни наказания.",
+        "es": "Aquello en lo que el Legislador deja la elección: en sí mismo no acarrea recompensa ni castigo.",
+        "uk": "Те, у чому Законодавець надав вибір: саме по собі воно не тягне ні нагороди, ні покарання."
+      },
+      "linguistic": {
+        "ar": "المعلَن المأذون فيه؛ من باح بالشيء إذا أظهره، وأباحه إذا أذن فيه.",
+        "en": "The declared and permitted: from bāḥa, to make a thing known, and abāḥa, to allow it.",
+        "ru": "Объявленное и дозволенное: от «баха» — обнаружить нечто, и «абаха» — разрешить.",
+        "es": "Lo declarado y permitido: de bāḥa, dar a conocer algo, y abāḥa, autorizarlo.",
+        "uk": "Оголошене й дозволене: від «баха» — виявити щось, і «абаха» — дозволити."
+      },
+      "legal": {
+        "ar": "ما خيّر الشارع المكلَّف بين فعله وتركه، فلا ثواب فيه ولا عقاب لذاته.",
+        "en": "What the Lawgiver leaves to the person's choice: in itself it carries neither reward nor punishment.",
+        "ru": "То, в чём Законодатель предоставил выбор: само по себе оно не влечёт ни награды, ни наказания.",
+        "es": "Aquello en lo que el Legislador deja la elección: en sí mismo no acarrea recompensa ni castigo.",
+        "uk": "Те, у чому Законодавець надав вибір: саме по собі воно не тягне ні нагороди, ні покарання."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما خُيّر المكلَّف بين فعله وتركه، لا ثواب فيه ولا عقاب، ويُسمّى الحلال والجائز.",
+            "en": "What one is free to do or leave, carrying neither reward nor punishment; also called ḥalāl and jāʾiz.",
+            "ru": "То, что человек волен совершить или оставить, без награды и наказания; называется также халяль и джаиз.",
+            "es": "Lo que uno es libre de hacer o dejar, sin recompensa ni castigo; llamado también ḥalāl y jāʾiz.",
+            "uk": "Те, що людина вільна зробити чи залишити, без нагороди й покарання; зветься також халяль і джаїз."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما استوى طرفاه شرعاً، لا يُثاب على فعله ولا يأثم بتركه.",
+            "en": "Whose two sides are equal in the Law: no reward for doing it and no sin in leaving it.",
+            "ru": "То, обе стороны чего равны в шариате: ни награды за совершение, ни греха за оставление.",
+            "es": "Cuyos dos lados son iguales ante la Ley: ni recompensa por hacerlo ni pecado por dejarlo.",
+            "uk": "Те, обидві сторони чого рівні в шаріаті: ні нагороди за виконання, ні гріха за залишення."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما لا يتعلّق به مدح ولا ذمّ لذاته، وقد يُثاب عليه بالنيّة.",
+            "en": "That which in itself draws neither praise nor blame, though one may be rewarded for it through intention.",
+            "ru": "То, что само по себе не влечёт ни похвалы, ни порицания, хотя за него можно быть вознаграждённым по намерению.",
+            "es": "Aquello que en sí no atrae elogio ni reproche, aunque puede recompensarse por la intención.",
+            "uk": "Те, що саме по собі не викликає ні похвали, ні осуду, хоча за нього можна бути винагородженим за наміром."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما لا يُمدح فاعله ولا يُذمّ، وهو الجائز والحلال.",
+            "en": "Whose doer is neither praised nor blamed; it is the permitted and the lawful.",
+            "ru": "Тот, кто это совершает, не хвалим и не порицаем; это дозволенное и разрешённое.",
+            "es": "Cuyo ejecutor no es alabado ni censurado; es lo permitido y lo lícito.",
+            "uk": "Той, хто це робить, не хвалиться й не гудиться; це дозволене й законне."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rukn",
+      "term": {
+        "ar": "رُكْنٌ",
+        "en": "Rukn",
+        "ru": "Рукн",
+        "es": "Rukn",
+        "uk": "Рукн"
+      },
+      "briefDefinition": {
+        "ar": "ما كان جزءاً من ماهية العبادة داخلاً في حقيقتها، فلا تتحقّق بدونه.",
+        "en": "What forms part of the very substance of an act of worship, so that the act does not come about without it.",
+        "ru": "То, что составляет часть самой сути поклонения, так что оно не осуществляется без него.",
+        "es": "Lo que forma parte de la sustancia misma del acto de culto, de modo que este no se realiza sin ello.",
+        "uk": "Те, що становить частину самої суті поклоніння, тож воно не здійснюється без нього."
+      },
+      "linguistic": {
+        "ar": "الجانب الأقوى من الشيء الذي يُستند إليه؛ ومنه ﴿أو آوي إلى ركن شديد﴾.",
+        "en": "The strongest side of a thing, the side one leans on; hence the Qurʾānic phrase about taking refuge in a strong support.",
+        "ru": "Самая крепкая сторона вещи, на которую опираются; отсюда коранический оборот о прибежище у крепкой опоры.",
+        "es": "El lado más fuerte de algo, aquel en el que uno se apoya; de ahí la expresión coránica sobre refugiarse en un sostén firme.",
+        "uk": "Найміцніший бік речі, на який спираються; звідси коранічний зворот про притулок біля міцної опори."
+      },
+      "legal": {
+        "ar": "ما كان جزءاً من ماهية العبادة داخلاً في حقيقتها، فلا تتحقّق بدونه.",
+        "en": "What forms part of the very substance of an act of worship, so that the act does not come about without it.",
+        "ru": "То, что составляет часть самой сути поклонения, так что оно не осуществляется без него.",
+        "es": "Lo que forma parte de la sustancia misma del acto de culto, de modo que este no se realiza sin ello.",
+        "uk": "Те, що становить частину самої суті поклоніння, тож воно не здійснюється без нього."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "جزء الماهية الداخل في حقيقة العبادة، لا يسقط بحال، ويقابله الشرط الخارج عنها.",
+            "en": "Part of the substance, entering into the reality of the act of worship; it never lapses, and it stands opposite the condition, which lies outside it.",
+            "ru": "Часть сути, входящая в реальность поклонения; он не отпадает ни при каких обстоятельствах и противопоставляется условию, лежащему вне её.",
+            "es": "Parte de la sustancia, que entra en la realidad del acto de culto; no decae en ningún caso, y se opone a la condición, que queda fuera de ella.",
+            "uk": "Частина суті, що входить у реальність поклоніння; він не відпадає за жодних обставин і протиставляється умові, що лежить поза нею."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "جزء الحقيقة، ويسمّونه فرضاً أيضاً؛ لا يسقط سهواً ولا عمداً.",
+            "en": "Part of the reality, which they also call a farḍ; it lapses neither through forgetfulness nor deliberately.",
+            "ru": "Часть сути, которую они называют также фардом; он не отпадает ни по забывчивости, ни намеренно.",
+            "es": "Parte de la realidad, que también llaman farḍ; no decae ni por olvido ni deliberadamente.",
+            "uk": "Частина суті, яку вони називають також фардом; він не відпадає ні через забудькуватість, ні навмисно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "جزء الماهية؛ لا يسقط بسهو ولا عمد، ولا يجبره سجود السهو.",
+            "en": "Part of the substance; it lapses neither through forgetfulness nor deliberately, and the prostration of forgetfulness does not make it good.",
+            "ru": "Часть сути; он не отпадает ни по забывчивости, ни намеренно, и земной поклон забывчивости его не восполняет.",
+            "es": "Parte de la sustancia; no decae ni por olvido ni deliberadamente, y la postración del olvido no lo subsana.",
+            "uk": "Частина суті; він не відпадає ні через забудькуватість, ні навмисно, і земний уклін забудькуватості його не відшкодовує."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "جزء الماهية؛ لا يسقط بالسهو — وهو موضع تفريقهم بينه وبين الواجب.",
+            "en": "Part of the substance; it does not lapse through forgetfulness — and this is where they distinguish it from the wājib.",
+            "ru": "Часть сути; он не отпадает по забывчивости — и в этом их различие между ним и ваджибом.",
+            "es": "Parte de la sustancia; no decae por olvido — y ahí está su distinción respecto del wājib.",
+            "uk": "Частина суті; він не відпадає через забудькуватість — і в цьому їхня різниця між ним і ваджібом."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shart",
+      "term": {
+        "ar": "شَرْطٌ",
+        "en": "Sharṭ",
+        "ru": "Шарт",
+        "es": "Sharṭ",
+        "uk": "Шарт"
+      },
+      "briefDefinition": {
+        "ar": "ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدم، وهو خارج عن الماهية.",
+        "en": "That whose absence entails absence, while its presence entails neither presence nor absence; and it lies outside the substance.",
+        "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт ни наличия, ни отсутствия; и оно лежит вне сути.",
+        "es": "Aquello cuya ausencia implica ausencia, mientras que su presencia no implica ni presencia ni ausencia; y queda fuera de la sustancia.",
+        "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне ні наявності, ні відсутності; і воно лежить поза суттю."
+      },
+      "linguistic": {
+        "ar": "العلامة اللازمة؛ ومنه أشراط الساعة، أي علاماتها.",
+        "en": "A necessary sign; hence the ashrāṭ of the Hour, meaning its signs.",
+        "ru": "Необходимый признак; отсюда «ашрат ас-саа» — признаки Часа.",
+        "es": "Una señal necesaria; de ahí los ashrāṭ de la Hora, es decir, sus señales.",
+        "uk": "Необхідна ознака; звідси «ашрат ас-саа» — ознаки Часу."
+      },
+      "legal": {
+        "ar": "ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدم، وهو خارج عن الماهية.",
+        "en": "That whose absence entails absence, while its presence entails neither presence nor absence; and it lies outside the substance.",
+        "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт ни наличия, ни отсутствия; и оно лежит вне сути.",
+        "es": "Aquello cuya ausencia implica ausencia, mientras que su presencia no implica ni presencia ni ausencia; y queda fuera de la sustancia.",
+        "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне ні наявності, ні відсутності; і воно лежить поза суттю."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما يتوقّف عليه صحّة العبادة وهو خارج عن ماهيتها، يلزم تقدّمه واستمراره كالطهارة والستر.",
+            "en": "That on which the validity of the worship depends while lying outside its substance; it must precede the act and continue through it, such as purity and covering.",
+            "ru": "То, от чего зависит действительность поклонения, будучи вне его сути; оно должно предшествовать ему и сохраняться при нём, как чистота и покрытие.",
+            "es": "Aquello de lo que depende la validez del culto estando fuera de su sustancia; debe precederlo y mantenerse durante él, como la pureza y la cobertura.",
+            "uk": "Те, від чого залежить дійсність поклоніння, будучи поза його суттю; воно має передувати йому й зберігатися при ньому, як чистота та покриття."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما يلزم من عدمه العدم ولا يلزم من وجوده وجود، وهو خارج عن الماهية.",
+            "en": "That whose absence entails absence while its presence entails no presence; and it lies outside the substance.",
+            "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт наличия; и оно лежит вне сути.",
+            "es": "Aquello cuya ausencia implica ausencia mientras su presencia no implica presencia; y queda fuera de la sustancia.",
+            "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне наявності; і воно лежить поза суттю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما تتوقّف عليه الصحّة وهو خارج عن الماهية، ويجب استصحابه إلى الفراغ.",
+            "en": "That on which validity depends while lying outside the substance, and it must be maintained until the act is complete.",
+            "ru": "То, от чего зависит действительность, будучи вне сути, и его надлежит сохранять до завершения обряда.",
+            "es": "Aquello de lo que depende la validez estando fuera de la sustancia, y debe mantenerse hasta concluir el acto.",
+            "uk": "Те, від чого залежить дійсність, будучи поза суттю, і його належить зберігати до завершення обряду."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما لا تصحّ العبادة بدونه وهو خارج عنها، ويفارق الركن بأنه سابقٌ عليها مستمرّ معها.",
+            "en": "That without which the worship is not valid while lying outside it; it differs from the rukn in that it precedes the act and continues alongside it.",
+            "ru": "То, без чего поклонение недействительно, будучи вне него; от рукна отличается тем, что предшествует обряду и сопровождает его.",
+            "es": "Aquello sin lo cual el culto no es válido estando fuera de él; se distingue del rukn en que lo precede y lo acompaña.",
+            "uk": "Те, без чого поклоніння недійсне, будучи поза ним; від рукна відрізняється тим, що передує обряду й супроводжує його."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
     }
   ],
   "guides": [
@@ -3588,7 +4785,9 @@
       "ru": "Мубах (дозволенное)",
       "es": "Mubāḥ (permitido)",
       "uk": "Мубах (дозволене)"
-    },
+    }
+  },
+  "natureLabels": {
     "rukn": {
       "ar": "ركن",
       "en": "Rukn (essential part)",

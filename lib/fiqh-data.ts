@@ -355,6 +355,7 @@ interface RawData {
   }[]
   ui: Record<string, Localized>
   gradeLabels?: Record<string, Localized>
+  natureLabels?: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
   articles?: Article[]
@@ -471,14 +472,28 @@ export const ui = data.ui as Record<string, Localized>
 export const gradeLabels = (data.gradeLabels ?? {}) as Record<string, Localized>
 
 /**
+ * Display name of each structural role. Kept in its own map rather than
+ * alongside the grades: sharing one map is how the two would quietly merge
+ * again at the display layer, after being separated in the data.
+ */
+export const natureLabels = (data.natureLabels ?? {}) as Record<string, Localized>
+
+/**
  * The glossary entry that defines a grade, when one has been written.
  * The definitions live in the glossary rather than beside the labels
  * because they differ by school, and the glossary already carries the
  * per-school shape and renders it.
  */
 export function gradeTerm(grade: string) {
-  return glossary.find((t) => t.id === grade || t.id.startsWith(`${grade}-`))
+  // Matched exactly, never by prefix: `fard-ayn` and `sunnah-muakkadah` are
+  // separate entries of their own, and a prefix match would hand the badge
+  // for `fard` the definition of the individual obligation instead.
+  const id = GRADE_TERM_IDS[grade] ?? grade
+  return glossary.find((t) => t.id === id)
 }
+
+/** Grades whose glossary entry is filed under a different id. */
+const GRADE_TERM_IDS: Record<string, string> = { sunnah: "sunnah-grade" }
 
 /** Resolve a citation ref like "F12" or "a3" (case-insensitive) to its entry. */
 export function findByRef(

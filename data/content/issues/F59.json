@@ -56,7 +56,7 @@
           "uk": "«Табйін аль-Хакаїк»"
         }
       ],
-      "grade": "wajib"
+      "grade": "haram"
     },
     "maliki": {
       "text": {
@@ -89,7 +89,7 @@
           "uk": "«Мавагіб аль-Джаліль»"
         }
       ],
-      "grade": "wajib"
+      "grade": "haram"
     },
     "shafii": {
       "text": {
@@ -121,7 +121,8 @@
           "es": "Al-Majmūʿ",
           "uk": "«Аль-Маджму»"
         }
-      ]
+      ],
+      "grade": "haram"
     },
     "hanbali": {
       "text": {
@@ -153,7 +154,8 @@
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
         }
-      ]
+      ],
+      "grade": "haram"
     }
   }
 }

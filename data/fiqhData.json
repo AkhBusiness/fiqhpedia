@@ -2699,6 +2699,1203 @@
           ]
         }
       }
+    },
+    {
+      "id": "fard",
+      "term": {
+        "ar": "فَرْضٌ",
+        "en": "Farḍ",
+        "ru": "Фард",
+        "es": "Farḍ",
+        "uk": "Фард"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً، فيُثاب فاعله ويأثم تاركه.",
+        "en": "What the Lawgiver requires decisively: its doer is rewarded and the one who omits it sins.",
+        "ru": "То, что Законодатель требует решительно: совершающий вознаграждается, а оставляющий грешит.",
+        "es": "Lo que el Legislador exige de forma tajante: quien lo hace es recompensado y quien lo omite peca.",
+        "uk": "Те, чого Законодавець вимагає рішуче: хто виконує — винагороджується, хто залишає — грішить."
+      },
+      "linguistic": {
+        "ar": "التقدير والقطع؛ من فَرَضَ الشيءَ إذا قدّره، وفَرَضَ القوسَ إذا قطع فيها حزّاً.",
+        "en": "Determining and cutting: from faraḍa, to fix a measure, and to notch a bow.",
+        "ru": "Определение и надрез: от «фарада» — установить меру, и сделать зарубку на луке.",
+        "es": "Determinar y cortar: de faraḍa, fijar una medida, y hacer una muesca en un arco.",
+        "uk": "Визначення та надріз: від «фарада» — встановити міру, і зробити карб на луці."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً بدليل قاطع، فيُثاب فاعله ويأثم تاركه.",
+        "en": "What the Lawgiver decisively requires by a conclusive proof: its doer is rewarded and its omitter sins.",
+        "ru": "То, что Законодатель решительно требует категорическим доказательством: совершающий вознаграждается, оставляющий грешит.",
+        "es": "Lo que el Legislador exige de forma tajante mediante una prueba concluyente: quien lo hace es recompensado y quien lo omite peca.",
+        "uk": "Те, чого Законодавець рішуче вимагає категоричним доказом: хто виконує — винагороджується, хто залишає — грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما ثبت بدليل قطعيّ لا شبهة فيه؛ يكفر جاحده، ويأثم تاركه، ولا تصحّ العبادة بتركه.",
+            "en": "Established by a decisive proof admitting no doubt: its denier disbelieves, its omitter sins, and the act of worship is invalid without it.",
+            "ru": "Установленное категорическим доказательством, не допускающим сомнения: отрицающий его впадает в неверие, оставляющий грешит, и поклонение без него недействительно.",
+            "es": "Establecido por una prueba categórica sin lugar a duda: quien lo niega incurre en incredulidad, quien lo omite peca, y el acto de culto es inválido sin él.",
+            "uk": "Установлене категоричним доказом, що не допускає сумніву: хто його заперечує — впадає в невір'я, хто залишає — грішить, і поклоніння без нього недійсне."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للواجب؛ ما طُلب فعله طلباً جازماً، يأثم تاركه ويُثاب فاعله.",
+            "en": "A synonym of wājib: what is decisively required, whose omitter sins and whose doer is rewarded.",
+            "ru": "Синоним ваджиба: то, что требуется решительно; оставляющий грешит, совершающий вознаграждается.",
+            "es": "Sinónimo de wājib: lo exigido de forma tajante, cuyo omitente peca y cuyo ejecutor es recompensado.",
+            "uk": "Синонім ваджіба: те, що вимагається рішуче; хто залишає — грішить, хто виконує — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للواجب واللازم والحتم؛ ما يُثاب على فعله ويُعاقَب على تركه.",
+            "en": "A synonym of wājib, lāzim and ḥatm: one is rewarded for doing it and punished for omitting it.",
+            "ru": "Синоним ваджиба, лязима и хатма: за совершение вознаграждают, за оставление наказывают.",
+            "es": "Sinónimo de wājib, lāzim y ḥatm: se recompensa por hacerlo y se castiga por omitirlo.",
+            "uk": "Синонім ваджіба, лязіма й хатма: за виконання винагороджують, за залишення карають."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للواجب في الأصل؛ ما طُلب فعله طلباً جازماً، ويأثم تاركه.",
+            "en": "In principle a synonym of wājib: what is decisively required, whose omitter sins.",
+            "ru": "В основе синоним ваджиба: то, что требуется решительно; оставляющий грешит.",
+            "es": "En principio sinónimo de wājib: lo exigido de forma tajante, cuyo omitente peca.",
+            "uk": "В основі синонім ваджіба: те, що вимагається рішуче; хто залишає — грішить."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wajib",
+      "term": {
+        "ar": "وَاجِبٌ",
+        "en": "Wājib",
+        "ru": "Ваджиб",
+        "es": "Wājib",
+        "uk": "Ваджіб"
+      },
+      "briefDefinition": {
+        "ar": "ما طُلب فعله طلباً جازماً؛ وهو عند الحنفية درجة دون الفرض.",
+        "en": "What is decisively required; for the Ḥanafīs, a rank below farḍ.",
+        "ru": "То, что требуется решительно; у ханафитов — степень ниже фарда.",
+        "es": "Lo exigido de forma tajante; para los ḥanafíes, un rango inferior al farḍ.",
+        "uk": "Те, що вимагається рішуче; у ганафітів — ступінь нижче фарда."
+      },
+      "linguistic": {
+        "ar": "السقوط واللزوم والثبوت؛ من وَجَبَ الحائطُ إذا سقط، ووَجَبَتِ الشمسُ إذا غابت.",
+        "en": "Falling, binding and being established: from wajaba, said of a wall that falls and of the sun that sets.",
+        "ru": "Падение, обязательность и утверждение: от «ваджаба» — о стене, которая падает, и о заходящем солнце.",
+        "es": "Caer, obligar y establecerse: de wajaba, dicho del muro que cae y del sol que se pone.",
+        "uk": "Падіння, обов'язковість та утвердження: від «ваджаба» — про стіну, що падає, і про сонце, що заходить."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً جازماً، فيأثم تاركه ويُثاب فاعله.",
+        "en": "What the Lawgiver decisively requires: its omitter sins and its doer is rewarded.",
+        "ru": "То, что Законодатель решительно требует: оставляющий грешит, совершающий вознаграждается.",
+        "es": "Lo que el Legislador exige de forma tajante: su omitente peca y su ejecutor es recompensado.",
+        "uk": "Те, чого Законодавець рішуче вимагає: хто залишає — грішить, хто виконує — винагороджується."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "درجة مستقلّة دون الفرض؛ ثبت بدليل ظنّي، يأثم تاركه ولا يكفر جاحده، وتُجبر العبادة بتركه سهواً بسجود السهو.",
+            "en": "A rank of its own below farḍ, established by a probable proof: its omitter sins but its denier does not disbelieve, and omitting it forgetfully is made good by the prostration of forgetfulness.",
+            "ru": "Самостоятельная степень ниже фарда, установленная предположительным доказательством: оставляющий грешит, но отрицающий не впадает в неверие, а оставление по забывчивости восполняется земным поклоном.",
+            "es": "Un rango propio por debajo del farḍ, establecido por prueba probable: su omitente peca pero quien lo niega no incurre en incredulidad, y omitirlo por olvido se subsana con la postración del olvido.",
+            "uk": "Самостійний ступінь нижче фарда, установлений імовірним доказом: хто залишає — грішить, але хто заперечує — не впадає в невір'я, а залишення через забудькуватість відшкодовується земним уклоном."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للفرض، لا فرق بينهما.",
+            "en": "A synonym of farḍ; there is no difference between them.",
+            "ru": "Синоним фарда; между ними нет разницы.",
+            "es": "Sinónimo de farḍ; no hay diferencia entre ambos.",
+            "uk": "Синонім фарда; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للفرض، لا فرق بينهما.",
+            "en": "A synonym of farḍ; there is no difference between them.",
+            "ru": "Синоним фарда; между ними нет разницы.",
+            "es": "Sinónimo de farḍ; no hay diferencia entre ambos.",
+            "uk": "Синонім фарда; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للفرض في الأصل، لكنهم فرّقوا في الفروع: فواجبات الصلاة والوضوء تسقط بالسهو ويجبرها السجود، بخلاف الأركان.",
+            "en": "In principle a synonym of farḍ, yet distinguished from it in particular cases: the wājibāt of the prayer and the ablution lapse through forgetfulness and are made good by the prostration, unlike the arkān.",
+            "ru": "В основе синоним фарда, однако они различают их в частных вопросах: ваджибы молитвы и омовения отпадают по забывчивости и восполняются земным поклоном, в отличие от рукнов.",
+            "es": "En principio sinónimo de farḍ, pero distinguido de él en casos concretos: los wājibāt de la oración y la ablución decaen por olvido y se subsanan con la postración, a diferencia de los arkān.",
+            "uk": "В основі синонім фарда, проте відрізнений від нього в окремих випадках: ваджіби молитви та омивання відпадають через забудькуватість і відшкодовуються земним уклоном, на відміну від рукнів."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sunnah-grade",
+      "term": {
+        "ar": "سُنَّةٌ",
+        "en": "Sunnah",
+        "ru": "Сунна",
+        "es": "Sunnah",
+        "uk": "Сунна"
+      },
+      "briefDefinition": {
+        "ar": "ما واظب عليه النبي ﷺ من غير افتراض، فيُثاب فاعله ولا يُعاقب تاركه.",
+        "en": "What the Prophet ﷺ kept to without its being obligatory: its doer is rewarded and its omitter is not punished.",
+        "ru": "То, чего Пророк ﷺ придерживался без вменения в обязанность: совершающий вознаграждается, оставляющий не наказывается.",
+        "es": "Aquello a lo que el Profeta ﷺ se atuvo sin ser obligatorio: quien lo hace es recompensado y quien lo omite no es castigado.",
+        "uk": "Те, чого Пророк ﷺ дотримувався без обов'язковості: хто виконує — винагороджується, хто залишає — не карається."
+      },
+      "linguistic": {
+        "ar": "الطريقة والسيرة المتّبعة، حسنةً كانت أو سيّئة؛ ومنه «سَنَّ سُنّة» أي جرى عليها.",
+        "en": "A way or course followed, whether good or bad; hence sanna sunnah, to set a course and follow it.",
+        "ru": "Путь и обыкновение, которому следуют, доброе оно или дурное; отсюда «санна сунна» — установить путь и держаться его.",
+        "es": "Un camino o proceder seguido, sea bueno o malo; de ahí sanna sunnah, establecer un curso y seguirlo.",
+        "uk": "Шлях і звичай, якого дотримуються, добрий він чи поганий; звідси «санна сунна» — встановити шлях і триматися його."
+      },
+      "legal": {
+        "ar": "ما واظب عليه النبي ﷺ من غير افتراض، فيُثاب فاعله ولا يُعاقب تاركه.",
+        "en": "What the Prophet ﷺ kept to without its being obligatory: its doer is rewarded and its omitter is not punished.",
+        "ru": "То, чего Пророк ﷺ придерживался без вменения в обязанность: совершающий вознаграждается, оставляющий не наказывается.",
+        "es": "Aquello a lo que el Profeta ﷺ se atuvo sin ser obligatorio: quien lo hace es recompensado y quien lo omite no es castigado.",
+        "uk": "Те, чого Пророк ﷺ дотримувався без обов'язковості: хто виконує — винагороджується, хто залишає — не карається."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما واظب عليه النبي ﷺ مع تركه أحياناً لبيان الجواز؛ والمؤكّدة قريبة من الواجب، تاركها بلا عذر مسيء يستحقّ اللوم لا العقاب.",
+            "en": "What the Prophet ﷺ kept to while omitting it at times to show it was permitted; the emphasised sunnah stands close to the wājib, and one who omits it without excuse does wrong and deserves blame, not punishment.",
+            "ru": "То, чего Пророк ﷺ придерживался, иногда оставляя, дабы показать дозволенность; подтверждённая сунна близка к ваджибу, и оставляющий её без причины поступает дурно и заслуживает порицания, но не наказания.",
+            "es": "Aquello a lo que el Profeta ﷺ se atuvo, omitiéndolo a veces para mostrar su licitud; la sunnah enfatizada se acerca al wājib, y quien la omite sin excusa obra mal y merece reproche, no castigo.",
+            "uk": "Те, чого Пророк ﷺ дотримувався, іноді залишаючи, аби показати дозволеність; підтверджена сунна близька до ваджіба, і хто залишає її без причини — чинить погано й заслуговує на осуд, але не покарання."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما أظهره النبي ﷺ وواظب عليه؛ فوق المندوب ودون الواجب، وتُسمّى السنّة المؤكّدة.",
+            "en": "What the Prophet ﷺ made manifest and kept to: above the mandūb and below the wājib, and it is called the emphasised sunnah.",
+            "ru": "То, что Пророк ﷺ явил и чего придерживался: выше мандуба и ниже ваджиба, и называется подтверждённой сунной.",
+            "es": "Lo que el Profeta ﷺ manifestó y mantuvo: por encima del mandūb y por debajo del wājib, y se llama sunnah enfatizada.",
+            "uk": "Те, що Пророк ﷺ виявив і чого дотримувався: вище мандуба й нижче ваджіба, і зветься підтвердженою сунною."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للمندوب والمستحبّ والتطوّع؛ يُثاب فاعله ولا يُعاقب تاركه، ويتفاوت بالتأكيد وعدمه.",
+            "en": "A synonym of mandūb, mustaḥabb and taṭawwuʿ: its doer is rewarded and its omitter is not punished, and it varies in how emphasised it is.",
+            "ru": "Синоним мандуба, мустахабба и татаввуа: совершающий вознаграждается, оставляющий не наказывается, и степень подтверждённости различна.",
+            "es": "Sinónimo de mandūb, mustaḥabb y taṭawwuʿ: quien lo hace es recompensado y quien lo omite no es castigado, y varía en su grado de énfasis.",
+            "uk": "Синонім мандуба, мустахабба й татаввуа: хто виконує — винагороджується, хто залишає — не карається, і ступінь підтвердженості різний."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للمندوب والمستحبّ؛ يُثاب فاعله ولا يأثم تاركه، ويتفاوت بالتأكيد.",
+            "en": "A synonym of mandūb and mustaḥabb: its doer is rewarded and its omitter does not sin, and it varies in emphasis.",
+            "ru": "Синоним мандуба и мустахабба: совершающий вознаграждается, оставляющий не грешит, и степень подтверждённости различна.",
+            "es": "Sinónimo de mandūb y mustaḥabb: quien lo hace es recompensado y quien lo omite no peca, y varía en énfasis.",
+            "uk": "Синонім мандуба й мустахабба: хто виконує — винагороджується, хто залишає — не грішить, і ступінь підтвердженості різний."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mandub",
+      "term": {
+        "ar": "مَنْدُوبٌ",
+        "en": "Mandūb",
+        "ru": "Мандуб",
+        "es": "Mandūb",
+        "uk": "Мандуб"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع فعله طلباً غير جازم، فيُثاب فاعله ولا يأثم تاركه.",
+        "en": "What the Lawgiver requires without insistence: its doer is rewarded and its omitter does not sin.",
+        "ru": "То, что Законодатель требует без настойчивости: совершающий вознаграждается, оставляющий не грешит.",
+        "es": "Lo que el Legislador pide sin insistencia: quien lo hace es recompensado y quien lo omite no peca.",
+        "uk": "Те, чого Законодавець вимагає без наполягання: хто виконує — винагороджується, хто залишає — не грішить."
+      },
+      "linguistic": {
+        "ar": "المدعوّ إليه؛ من نَدَبَه للأمر إذا دعاه إليه.",
+        "en": "That which one is called to: from nadabahu, to summon someone to a matter.",
+        "ru": "То, к чему призывают: от «надабаху» — призвать кого-либо к делу.",
+        "es": "Aquello a lo que se llama: de nadabahu, convocar a alguien a un asunto.",
+        "uk": "Те, до чого закликають: від «надабаху» — закликати когось до справи."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع فعله طلباً غير جازم، فيُثاب فاعله ولا يأثم تاركه.",
+        "en": "What the Lawgiver requires without insistence: its doer is rewarded and its omitter does not sin.",
+        "ru": "То, что Законодатель требует без настойчивости: совершающий вознаграждается, оставляющий не грешит.",
+        "es": "Lo que el Legislador pide sin insistencia: quien lo hace es recompensado y quien lo omite no peca.",
+        "uk": "Те, чого Законодавець вимагає без наполягання: хто виконує — винагороджується, хто залишає — не грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "دون السنّة؛ ما فعله النبي ﷺ مرّة أو مرّتين ولم يواظب عليه، ويُسمّى النفل والأدب.",
+            "en": "Below the sunnah: what the Prophet ﷺ did once or twice without keeping to it, also called nafl and adab.",
+            "ru": "Ниже сунны: то, что Пророк ﷺ совершил раз или два, не придерживаясь постоянно; называется также нафль и адаб.",
+            "es": "Por debajo de la sunnah: lo que el Profeta ﷺ hizo una o dos veces sin mantenerlo, llamado también nafl y adab.",
+            "uk": "Нижче сунни: те, що Пророк ﷺ зробив раз чи двічі, не дотримуючись постійно; зветься також нафль і адаб."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "مرادف للمستحبّ والنافلة؛ دون السنّة في التأكيد.",
+            "en": "A synonym of mustaḥabb and nāfilah: below the sunnah in emphasis.",
+            "ru": "Синоним мустахабба и нафили: ниже сунны по подтверждённости.",
+            "es": "Sinónimo de mustaḥabb y nāfilah: por debajo de la sunnah en énfasis.",
+            "uk": "Синонім мустахабба й нафілі: нижче сунни за підтвердженістю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "مرادف للسنّة والمستحبّ والتطوّع، لا فرق بينها.",
+            "en": "A synonym of sunnah, mustaḥabb and taṭawwuʿ; there is no difference between them.",
+            "ru": "Синоним сунны, мустахабба и татаввуа; между ними нет разницы.",
+            "es": "Sinónimo de sunnah, mustaḥabb y taṭawwuʿ; no hay diferencia entre ellos.",
+            "uk": "Синонім сунни, мустахабба й татаввуа; між ними немає різниці."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مرادف للسنّة والمستحبّ والتطوّع.",
+            "en": "A synonym of sunnah, mustaḥabb and taṭawwuʿ.",
+            "ru": "Синоним сунны, мустахабба и татаввуа.",
+            "es": "Sinónimo de sunnah, mustaḥabb y taṭawwuʿ.",
+            "uk": "Синонім сунни, мустахабба й татаввуа."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "makruh",
+      "term": {
+        "ar": "مَكْرُوهٌ",
+        "en": "Makrūh",
+        "ru": "Макрух",
+        "es": "Makrūh",
+        "uk": "Макрух"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع تركه طلباً غير جازم، فيُثاب تاركه امتثالاً ولا يأثم فاعله.",
+        "en": "What the Lawgiver asks to be left without insistence: one who leaves it in obedience is rewarded, and one who does it does not sin.",
+        "ru": "То, оставление чего Законодатель требует без настойчивости: оставляющий из повиновения вознаграждается, а совершающий не грешит.",
+        "es": "Lo que el Legislador pide dejar sin insistencia: quien lo deja por obediencia es recompensado y quien lo hace no peca.",
+        "uk": "Те, залишення чого Законодавець вимагає без наполягання: хто залишає з покори — винагороджується, а хто робить — не грішить."
+      },
+      "linguistic": {
+        "ar": "المبغَض المستثقَل؛ ضدّ المحبوب، من الكراهة وهي ضدّ الرضا.",
+        "en": "The disliked and burdensome: the opposite of the beloved, from karāhah, the opposite of contentment.",
+        "ru": "Нелюбимое и тягостное: противоположность любимому, от «караха» — противоположности довольства.",
+        "es": "Lo aborrecido y pesado: lo contrario de lo amado, de karāhah, opuesto a la complacencia.",
+        "uk": "Нелюбе й обтяжливе: протилежність любому, від «караха» — протилежності вдоволення."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع تركه طلباً غير جازم، فيُثاب تاركه امتثالاً ولا يأثم فاعله.",
+        "en": "What the Lawgiver asks to be left without insistence: one who leaves it in obedience is rewarded, and one who does it does not sin.",
+        "ru": "То, оставление чего Законодатель требует без настойчивости: оставляющий из повиновения вознаграждается, а совершающий не грешит.",
+        "es": "Lo que el Legislador pide dejar sin insistencia: quien lo deja por obediencia es recompensado y quien lo hace no peca.",
+        "uk": "Те, залишення чого Законодавець вимагає без наполягання: хто залишає з покори — винагороджується, а хто робить — не грішить."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "قسمان: مكروه تحريماً — إلى الحرام أقرب، ثبت طلب تركه بدليل ظنّي، يأثم فاعله؛ ومكروه تنزيهاً — إلى الحلّ أقرب، لا يأثم فاعله.",
+            "en": "Two kinds: prohibitively disliked — nearer to the forbidden, its avoidance established by a probable proof, and its doer sins; and mildly disliked — nearer to the permitted, and its doer does not sin.",
+            "ru": "Два вида: макрух тахриман — ближе к запретному, оставление его установлено предположительным доказательством, и совершающий грешит; и макрух танзихан — ближе к дозволенному, и совершающий не грешит.",
+            "es": "Dos clases: reprobable con carácter prohibitivo — más cerca de lo prohibido, su abandono establecido por prueba probable, y quien lo hace peca; y reprobable leve — más cerca de lo lícito, y quien lo hace no peca.",
+            "uk": "Два види: макрух тахріман — ближче до забороненого, залишення його встановлене ймовірним доказом, і хто робить — грішить; і макрух танзіган — ближче до дозволеного, і хто робить — не грішить."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "درجة واحدة: ما طُلب تركه طلباً غير جازم، لا يأثم فاعله ويُثاب تاركه امتثالاً.",
+            "en": "A single rank: what is asked to be left without insistence; its doer does not sin and one who leaves it in obedience is rewarded.",
+            "ru": "Одна степень: то, оставление чего требуется без настойчивости; совершающий не грешит, а оставляющий из повиновения вознаграждается.",
+            "es": "Un único rango: lo que se pide dejar sin insistencia; quien lo hace no peca y quien lo deja por obediencia es recompensado.",
+            "uk": "Один ступінь: те, залишення чого вимагається без наполягання; хто робить — не грішить, а хто залишає з покори — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "درجة واحدة: ما يُثاب على تركه ولا يُعاقب على فعله.",
+            "en": "A single rank: one is rewarded for leaving it and not punished for doing it.",
+            "ru": "Одна степень: за оставление вознаграждают, за совершение не наказывают.",
+            "es": "Un único rango: se recompensa por dejarlo y no se castiga por hacerlo.",
+            "uk": "Один ступінь: за залишення винагороджують, за виконання не карають."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "درجة واحدة: ما نُهي عنه نهياً غير جازم، يُثاب تاركه ولا يأثم فاعله.",
+            "en": "A single rank: what is forbidden without insistence; one who leaves it is rewarded and one who does it does not sin.",
+            "ru": "Одна степень: то, что запрещено без настойчивости; оставляющий вознаграждается, совершающий не грешит.",
+            "es": "Un único rango: lo prohibido sin insistencia; quien lo deja es recompensado y quien lo hace no peca.",
+            "uk": "Один ступінь: те, що заборонено без наполягання; хто залишає — винагороджується, хто робить — не грішить."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "haram",
+      "term": {
+        "ar": "حَرَامٌ",
+        "en": "Ḥarām",
+        "ru": "Харам",
+        "es": "Ḥarām",
+        "uk": "Харам"
+      },
+      "briefDefinition": {
+        "ar": "ما طلب الشارع تركه طلباً جازماً، فيأثم فاعله ويُثاب تاركه امتثالاً.",
+        "en": "What the Lawgiver decisively forbids: its doer sins and one who leaves it in obedience is rewarded.",
+        "ru": "То, оставление чего Законодатель требует решительно: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+        "es": "Lo que el Legislador prohíbe de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+        "uk": "Те, залишення чого Законодавець вимагає рішуче: хто робить — грішить, а хто залишає з покори — винагороджується."
+      },
+      "linguistic": {
+        "ar": "الممنوع؛ من الحَرَم لامتناع انتهاكه، ومنه الإحرام لامتناع المحرم من المحظورات.",
+        "en": "The forbidden: from ḥaram, the sanctuary that may not be violated, and from it iḥrām, the pilgrim's abstention from what is barred.",
+        "ru": "Запретное: от «харам» — заповедной территории, которую нельзя нарушать, и отсюда ихрам — воздержание паломника от запретного.",
+        "es": "Lo vedado: de ḥaram, el recinto sagrado que no puede violarse, y de ahí iḥrām, la abstención del peregrino de lo vedado.",
+        "uk": "Заборонене: від «харам» — заповідної території, яку не можна порушувати, і звідси іхрам — утримання паломника від забороненого."
+      },
+      "legal": {
+        "ar": "ما طلب الشارع تركه طلباً جازماً، فيأثم فاعله ويُثاب تاركه امتثالاً.",
+        "en": "What the Lawgiver decisively forbids: its doer sins and one who leaves it in obedience is rewarded.",
+        "ru": "То, оставление чего Законодатель требует решительно: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+        "es": "Lo que el Legislador prohíbe de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+        "uk": "Те, залишення чого Законодавець вимагає рішуче: хто робить — грішить, а хто залишає з покори — винагороджується."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما ثبت طلب تركه بدليل قطعيّ؛ يكفر جاحده، ويأثم فاعله — ودونه المكروه تحريماً.",
+            "en": "Whose avoidance is established by a decisive proof: its denier disbelieves and its doer sins — and below it stands the prohibitively disliked.",
+            "ru": "То, оставление чего установлено категорическим доказательством: отрицающий впадает в неверие, совершающий грешит — а ниже него стоит макрух тахриман.",
+            "es": "Cuyo abandono está establecido por prueba categórica: quien lo niega incurre en incredulidad y quien lo hace peca — y por debajo queda lo reprobable con carácter prohibitivo.",
+            "uk": "Те, залишення чого встановлене категоричним доказом: хто заперечує — впадає в невір'я, хто робить — грішить, а нижче стоїть макрух тахріман."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يأثم فاعله ويُثاب تاركه.",
+            "en": "What is decisively to be left: its doer sins and its leaver is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий грешит, оставляющий вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace peca y quien lo deja es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — грішить, хто залишає — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يُعاقب فاعله ويُثاب تاركه.",
+            "en": "What is decisively to be left: its doer is punished and its leaver is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий наказывается, оставляющий вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace es castigado y quien lo deja es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — карається, хто залишає — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما طُلب تركه طلباً جازماً؛ يأثم فاعله ويُثاب تاركه امتثالاً.",
+            "en": "What is decisively to be left: its doer sins and one who leaves it in obedience is rewarded.",
+            "ru": "То, что решительно требуется оставить: совершающий грешит, а оставляющий из повиновения вознаграждается.",
+            "es": "Lo que debe dejarse de forma tajante: quien lo hace peca y quien lo deja por obediencia es recompensado.",
+            "uk": "Те, що рішуче належить залишити: хто робить — грішить, а хто залишає з покори — винагороджується."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mubah",
+      "term": {
+        "ar": "مُبَاحٌ",
+        "en": "Mubāḥ",
+        "ru": "Мубах",
+        "es": "Mubāḥ",
+        "uk": "Мубах"
+      },
+      "briefDefinition": {
+        "ar": "ما خيّر الشارع المكلَّف بين فعله وتركه، فلا ثواب فيه ولا عقاب لذاته.",
+        "en": "What the Lawgiver leaves to the person's choice: in itself it carries neither reward nor punishment.",
+        "ru": "То, в чём Законодатель предоставил выбор: само по себе оно не влечёт ни награды, ни наказания.",
+        "es": "Aquello en lo que el Legislador deja la elección: en sí mismo no acarrea recompensa ni castigo.",
+        "uk": "Те, у чому Законодавець надав вибір: саме по собі воно не тягне ні нагороди, ні покарання."
+      },
+      "linguistic": {
+        "ar": "المعلَن المأذون فيه؛ من باح بالشيء إذا أظهره، وأباحه إذا أذن فيه.",
+        "en": "The declared and permitted: from bāḥa, to make a thing known, and abāḥa, to allow it.",
+        "ru": "Объявленное и дозволенное: от «баха» — обнаружить нечто, и «абаха» — разрешить.",
+        "es": "Lo declarado y permitido: de bāḥa, dar a conocer algo, y abāḥa, autorizarlo.",
+        "uk": "Оголошене й дозволене: від «баха» — виявити щось, і «абаха» — дозволити."
+      },
+      "legal": {
+        "ar": "ما خيّر الشارع المكلَّف بين فعله وتركه، فلا ثواب فيه ولا عقاب لذاته.",
+        "en": "What the Lawgiver leaves to the person's choice: in itself it carries neither reward nor punishment.",
+        "ru": "То, в чём Законодатель предоставил выбор: само по себе оно не влечёт ни награды, ни наказания.",
+        "es": "Aquello en lo que el Legislador deja la elección: en sí mismo no acarrea recompensa ni castigo.",
+        "uk": "Те, у чому Законодавець надав вибір: саме по собі воно не тягне ні нагороди, ні покарання."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما خُيّر المكلَّف بين فعله وتركه، لا ثواب فيه ولا عقاب، ويُسمّى الحلال والجائز.",
+            "en": "What one is free to do or leave, carrying neither reward nor punishment; also called ḥalāl and jāʾiz.",
+            "ru": "То, что человек волен совершить или оставить, без награды и наказания; называется также халяль и джаиз.",
+            "es": "Lo que uno es libre de hacer o dejar, sin recompensa ni castigo; llamado también ḥalāl y jāʾiz.",
+            "uk": "Те, що людина вільна зробити чи залишити, без нагороди й покарання; зветься також халяль і джаїз."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما استوى طرفاه شرعاً، لا يُثاب على فعله ولا يأثم بتركه.",
+            "en": "Whose two sides are equal in the Law: no reward for doing it and no sin in leaving it.",
+            "ru": "То, обе стороны чего равны в шариате: ни награды за совершение, ни греха за оставление.",
+            "es": "Cuyos dos lados son iguales ante la Ley: ni recompensa por hacerlo ni pecado por dejarlo.",
+            "uk": "Те, обидві сторони чого рівні в шаріаті: ні нагороди за виконання, ні гріха за залишення."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما لا يتعلّق به مدح ولا ذمّ لذاته، وقد يُثاب عليه بالنيّة.",
+            "en": "That which in itself draws neither praise nor blame, though one may be rewarded for it through intention.",
+            "ru": "То, что само по себе не влечёт ни похвалы, ни порицания, хотя за него можно быть вознаграждённым по намерению.",
+            "es": "Aquello que en sí no atrae elogio ni reproche, aunque puede recompensarse por la intención.",
+            "uk": "Те, що саме по собі не викликає ні похвали, ні осуду, хоча за нього можна бути винагородженим за наміром."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما لا يُمدح فاعله ولا يُذمّ، وهو الجائز والحلال.",
+            "en": "Whose doer is neither praised nor blamed; it is the permitted and the lawful.",
+            "ru": "Тот, кто это совершает, не хвалим и не порицаем; это дозволенное и разрешённое.",
+            "es": "Cuyo ejecutor no es alabado ni censurado; es lo permitido y lo lícito.",
+            "uk": "Той, хто це робить, не хвалиться й не гудиться; це дозволене й законне."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rukn",
+      "term": {
+        "ar": "رُكْنٌ",
+        "en": "Rukn",
+        "ru": "Рукн",
+        "es": "Rukn",
+        "uk": "Рукн"
+      },
+      "briefDefinition": {
+        "ar": "ما كان جزءاً من ماهية العبادة داخلاً في حقيقتها، فلا تتحقّق بدونه.",
+        "en": "What forms part of the very substance of an act of worship, so that the act does not come about without it.",
+        "ru": "То, что составляет часть самой сути поклонения, так что оно не осуществляется без него.",
+        "es": "Lo que forma parte de la sustancia misma del acto de culto, de modo que este no se realiza sin ello.",
+        "uk": "Те, що становить частину самої суті поклоніння, тож воно не здійснюється без нього."
+      },
+      "linguistic": {
+        "ar": "الجانب الأقوى من الشيء الذي يُستند إليه؛ ومنه ﴿أو آوي إلى ركن شديد﴾.",
+        "en": "The strongest side of a thing, the side one leans on; hence the Qurʾānic phrase about taking refuge in a strong support.",
+        "ru": "Самая крепкая сторона вещи, на которую опираются; отсюда коранический оборот о прибежище у крепкой опоры.",
+        "es": "El lado más fuerte de algo, aquel en el que uno se apoya; de ahí la expresión coránica sobre refugiarse en un sostén firme.",
+        "uk": "Найміцніший бік речі, на який спираються; звідси коранічний зворот про притулок біля міцної опори."
+      },
+      "legal": {
+        "ar": "ما كان جزءاً من ماهية العبادة داخلاً في حقيقتها، فلا تتحقّق بدونه.",
+        "en": "What forms part of the very substance of an act of worship, so that the act does not come about without it.",
+        "ru": "То, что составляет часть самой сути поклонения, так что оно не осуществляется без него.",
+        "es": "Lo que forma parte de la sustancia misma del acto de culto, de modo que este no se realiza sin ello.",
+        "uk": "Те, що становить частину самої суті поклоніння, тож воно не здійснюється без нього."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "جزء الماهية الداخل في حقيقة العبادة، لا يسقط بحال، ويقابله الشرط الخارج عنها.",
+            "en": "Part of the substance, entering into the reality of the act of worship; it never lapses, and it stands opposite the condition, which lies outside it.",
+            "ru": "Часть сути, входящая в реальность поклонения; он не отпадает ни при каких обстоятельствах и противопоставляется условию, лежащему вне её.",
+            "es": "Parte de la sustancia, que entra en la realidad del acto de culto; no decae en ningún caso, y se opone a la condición, que queda fuera de ella.",
+            "uk": "Частина суті, що входить у реальність поклоніння; він не відпадає за жодних обставин і протиставляється умові, що лежить поза нею."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "جزء الحقيقة، ويسمّونه فرضاً أيضاً؛ لا يسقط سهواً ولا عمداً.",
+            "en": "Part of the reality, which they also call a farḍ; it lapses neither through forgetfulness nor deliberately.",
+            "ru": "Часть сути, которую они называют также фардом; он не отпадает ни по забывчивости, ни намеренно.",
+            "es": "Parte de la realidad, que también llaman farḍ; no decae ni por olvido ni deliberadamente.",
+            "uk": "Частина суті, яку вони називають також фардом; він не відпадає ні через забудькуватість, ні навмисно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "جزء الماهية؛ لا يسقط بسهو ولا عمد، ولا يجبره سجود السهو.",
+            "en": "Part of the substance; it lapses neither through forgetfulness nor deliberately, and the prostration of forgetfulness does not make it good.",
+            "ru": "Часть сути; он не отпадает ни по забывчивости, ни намеренно, и земной поклон забывчивости его не восполняет.",
+            "es": "Parte de la sustancia; no decae ni por olvido ni deliberadamente, y la postración del olvido no lo subsana.",
+            "uk": "Частина суті; він не відпадає ні через забудькуватість, ні навмисно, і земний уклін забудькуватості його не відшкодовує."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "جزء الماهية؛ لا يسقط بالسهو — وهو موضع تفريقهم بينه وبين الواجب.",
+            "en": "Part of the substance; it does not lapse through forgetfulness — and this is where they distinguish it from the wājib.",
+            "ru": "Часть сути; он не отпадает по забывчивости — и в этом их различие между ним и ваджибом.",
+            "es": "Parte de la sustancia; no decae por olvido — y ahí está su distinción respecto del wājib.",
+            "uk": "Частина суті; він не відпадає через забудькуватість — і в цьому їхня різниця між ним і ваджібом."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shart",
+      "term": {
+        "ar": "شَرْطٌ",
+        "en": "Sharṭ",
+        "ru": "Шарт",
+        "es": "Sharṭ",
+        "uk": "Шарт"
+      },
+      "briefDefinition": {
+        "ar": "ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدم، وهو خارج عن الماهية.",
+        "en": "That whose absence entails absence, while its presence entails neither presence nor absence; and it lies outside the substance.",
+        "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт ни наличия, ни отсутствия; и оно лежит вне сути.",
+        "es": "Aquello cuya ausencia implica ausencia, mientras que su presencia no implica ni presencia ni ausencia; y queda fuera de la sustancia.",
+        "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне ні наявності, ні відсутності; і воно лежить поза суттю."
+      },
+      "linguistic": {
+        "ar": "العلامة اللازمة؛ ومنه أشراط الساعة، أي علاماتها.",
+        "en": "A necessary sign; hence the ashrāṭ of the Hour, meaning its signs.",
+        "ru": "Необходимый признак; отсюда «ашрат ас-саа» — признаки Часа.",
+        "es": "Una señal necesaria; de ahí los ashrāṭ de la Hora, es decir, sus señales.",
+        "uk": "Необхідна ознака; звідси «ашрат ас-саа» — ознаки Часу."
+      },
+      "legal": {
+        "ar": "ما يلزم من عدمه العدم، ولا يلزم من وجوده وجودٌ ولا عدم، وهو خارج عن الماهية.",
+        "en": "That whose absence entails absence, while its presence entails neither presence nor absence; and it lies outside the substance.",
+        "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт ни наличия, ни отсутствия; и оно лежит вне сути.",
+        "es": "Aquello cuya ausencia implica ausencia, mientras que su presencia no implica ni presencia ni ausencia; y queda fuera de la sustancia.",
+        "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне ні наявності, ні відсутності; і воно лежить поза суттю."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ما يتوقّف عليه صحّة العبادة وهو خارج عن ماهيتها، يلزم تقدّمه واستمراره كالطهارة والستر.",
+            "en": "That on which the validity of the worship depends while lying outside its substance; it must precede the act and continue through it, such as purity and covering.",
+            "ru": "То, от чего зависит действительность поклонения, будучи вне его сути; оно должно предшествовать ему и сохраняться при нём, как чистота и покрытие.",
+            "es": "Aquello de lo que depende la validez del culto estando fuera de su sustancia; debe precederlo y mantenerse durante él, como la pureza y la cobertura.",
+            "uk": "Те, від чого залежить дійсність поклоніння, будучи поза його суттю; воно має передувати йому й зберігатися при ньому, як чистота та покриття."
+          },
+          "sources": [
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ما يلزم من عدمه العدم ولا يلزم من وجوده وجود، وهو خارج عن الماهية.",
+            "en": "That whose absence entails absence while its presence entails no presence; and it lies outside the substance.",
+            "ru": "То, отсутствие чего влечёт отсутствие, а наличие не влечёт наличия; и оно лежит вне сути.",
+            "es": "Aquello cuya ausencia implica ausencia mientras su presencia no implica presencia; y queda fuera de la sustancia.",
+            "uk": "Те, відсутність чого тягне відсутність, а наявність не тягне наявності; і воно лежить поза суттю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما تتوقّف عليه الصحّة وهو خارج عن الماهية، ويجب استصحابه إلى الفراغ.",
+            "en": "That on which validity depends while lying outside the substance, and it must be maintained until the act is complete.",
+            "ru": "То, от чего зависит действительность, будучи вне сути, и его надлежит сохранять до завершения обряда.",
+            "es": "Aquello de lo que depende la validez estando fuera de la sustancia, y debe mantenerse hasta concluir el acto.",
+            "uk": "Те, від чого залежить дійсність, будучи поза суттю, і його належить зберігати до завершення обряду."
+          },
+          "sources": [
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ما لا تصحّ العبادة بدونه وهو خارج عنها، ويفارق الركن بأنه سابقٌ عليها مستمرّ معها.",
+            "en": "That without which the worship is not valid while lying outside it; it differs from the rukn in that it precedes the act and continues alongside it.",
+            "ru": "То, без чего поклонение недействительно, будучи вне него; от рукна отличается тем, что предшествует обряду и сопровождает его.",
+            "es": "Aquello sin lo cual el culto no es válido estando fuera de él; se distingue del rukn en que lo precede y lo acompaña.",
+            "uk": "Те, без чого поклоніння недійсне, будучи поза ним; від рукна відрізняється тим, що передує обряду й супроводжує його."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
     }
   ],
   "guides": [
@@ -3588,7 +4785,9 @@
       "ru": "Мубах (дозволенное)",
       "es": "Mubāḥ (permitido)",
       "uk": "Мубах (дозволене)"
-    },
+    }
+  },
+  "natureLabels": {
     "rukn": {
       "ar": "ركن",
       "en": "Rukn (essential part)",
@@ -3796,8 +4995,7 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ],
-          "grade": "wajib"
+          ]
         },
         "hanbali": {
           "text": {
@@ -4453,8 +5651,7 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ],
-          "grade": "mubah"
+          ]
         },
         "maliki": {
           "text": {
@@ -4644,7 +5841,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "shafii": {
           "text": {
@@ -4676,7 +5874,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "hanbali": {
           "text": {
@@ -4770,8 +5969,7 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ],
-          "grade": "mubah"
+          ]
         },
         "maliki": {
           "text": {
@@ -4961,7 +6159,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "shafii": {
           "text": {
@@ -5302,27 +6501,27 @@
         "uk": "Розділ про води"
       },
       "title": {
-        "ar": "حكم غمس يد القائم من نوم الليل في الإناء",
-        "en": "Ruling on dipping the hand into a vessel on waking from sleep",
-        "ru": "Постановление о погружении руки в сосуд после пробуждения от сна",
-        "es": "Norma sobre sumergir la mano en el recipiente al despertar del sueño",
-        "uk": "Постанова про занурення руки в посудину тим, хто прокинувся від нічного сну"
+        "ar": "أثر غمس القائم من نوم الليل يده في الماء القليل",
+        "en": "The Effect of a Person Newly Woken Dipping a Hand into a Small Quantity of Water",
+        "ru": "Влияние погружения руки проснувшимся от ночного сна в малое количество воды",
+        "es": "El efecto de que quien despierta del sueño nocturno sumerja la mano en agua escasa",
+        "uk": "Вплив занурення руки тим, хто прокинувся від нічного сну, в малу кількість води"
       },
       "summary": {
-        "ar": "هل يضرّ غمس يد القائم من نوم الليل في الماء القليل قبل غسلها ثلاثاً؟",
-        "en": "Does dipping the hand into a small quantity of water on waking, before washing it three times, harm the water?",
-        "ru": "Вредит ли воде погружение руки в малое её количество после пробуждения, до троекратного мытья?",
-        "es": "¿Perjudica al agua escasa sumergir la mano al despertar, antes de lavarla tres veces?",
-        "uk": "Чи шкодить занурення руки того, хто прокинувся від нічного сну, в малу воду до триразового її миття?"
+        "ar": "هل يتغيّر حكم الماء القليل بغمس القائم من نوم الليل يده فيه قبل غسلها؟",
+        "en": "Does the status of a small quantity of water change when someone newly woken from the night's sleep dips a hand into it before washing it?",
+        "ru": "Меняется ли постановление о малой воде, если проснувшийся от ночного сна погрузит в неё руку до её мытья?",
+        "es": "¿Cambia la norma del agua escasa si quien despierta del sueño nocturno sumerge en ella la mano antes de lavarla?",
+        "uk": "Чи змінюється постанова про малу воду, якщо той, хто прокинувся від нічного сну, зануриться в неї рукою до її миття?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "يكره غمس يد القائم من النوم في الإناء قبل غسلها ثلاثاً، ولا ينجس الماء ولا تُسلب طهوريته.",
-            "en": "Dipping the hand into the vessel on waking, before washing it three times, is disliked; the water is neither made impure nor stripped of its purifying power.",
-            "ru": "Погружение руки в сосуд после сна до троекратного мытья нежелательно; вода не становится нечистой и не теряет очищающей силы.",
-            "es": "Sumergir la mano en el recipiente al despertar, antes de lavarla tres veces, se detesta; el agua ni se vuelve impura ni pierde su poder purificador.",
-            "uk": "Небажано занурювати руку в посудину тому, хто прокинувся від сну, до триразового її миття; вода не стає нечистою і не втрачає очищувальності."
+            "ar": "لا ينجس الماء بغمس يده فيه ولا تُسلب طهوريته، فيبقى رافعاً للحدث.",
+            "en": "The water is not made impure by the dipping of the hand, nor does it lose its purifying quality, so it still lifts ritual impurity.",
+            "ru": "Вода не становится нечистой от погружения руки и не теряет очищающего свойства, поэтому она по-прежнему снимает хадас.",
+            "es": "El agua no se vuelve impura por sumergir la mano ni pierde su cualidad purificante, de modo que sigue levantando la impureza ritual.",
+            "uk": "Вода не стає нечистою від занурення руки й не втрачає очищувальної властивості, тож вона й далі знімає хадас."
           },
           "sources": [
             {
@@ -5346,16 +6545,15 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ],
-          "grade": "makruh"
+          ]
         },
         "maliki": {
           "text": {
-            "ar": "يُندب غسل اليدين قبل إدخالهما الإناء للقائم من النوم، ولا ينجس الماء إلا بتحقّق النجاسة.",
-            "en": "Washing the hands before putting them into the vessel is recommended on waking, and the water is not made impure unless an impurity is certain.",
-            "ru": "Желательно вымыть руки перед погружением их в сосуд после сна; вода не становится нечистой, пока нечистота не установлена достоверно.",
-            "es": "Se recomienda lavarse las manos antes de meterlas en el recipiente al despertar; el agua no se vuelve impura salvo que la impureza sea cierta.",
-            "uk": "Бажано вимити руки перед зануренням їх у посудину тому, хто прокинувся від сну; вода не стає нечистою, доки нечистота не встановлена достовірно."
+            "ar": "لا ينجس الماء بذلك إلا بتحقّق النجاسة في اليد، فيبقى طهوراً.",
+            "en": "The water is not made impure by that unless an impurity on the hand is established, so it remains purifying.",
+            "ru": "Вода от этого не становится нечистой, если только нечистота на руке не установлена достоверно, и она остаётся очищающей.",
+            "es": "El agua no se vuelve impura por ello salvo que se constate una impureza en la mano, y sigue siendo purificante.",
+            "uk": "Вода від цього не стає нечистою, хіба що нечистота на руці встановлена достовірно, і вона залишається очищувальною."
           },
           "sources": [
             {
@@ -5379,16 +6577,15 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ],
-          "grade": "mandub"
+          ]
         },
         "shafii": {
           "text": {
-            "ar": "يكره للقائم من النوم غمس يده في الإناء قبل غسلها ثلاثاً، ولا يصير الماء مستعملاً بذلك.",
-            "en": "It is disliked for one waking from sleep to dip his hand into the vessel before washing it three times, and the water does not thereby become used water.",
-            "ru": "Пробудившемуся нежелательно погружать руку в сосуд до троекратного мытья, и вода от этого не становится использованной.",
-            "es": "Se detesta que quien despierta sumerja la mano en el recipiente antes de lavarla tres veces, y el agua no pasa por ello a ser agua usada.",
-            "uk": "Тому, хто прокинувся від сну, небажано занурювати руку в посудину до триразового її миття, і вода від цього не стає використаною."
+            "ar": "لا يصير الماء مستعملاً بغمس اليد فيه، فيبقى طهوراً يرفع الحدث.",
+            "en": "The water does not become used water by the dipping of the hand, so it remains purifying and lifts ritual impurity.",
+            "ru": "Вода не становится использованной от погружения руки, поэтому она остаётся очищающей и снимает хадас.",
+            "es": "El agua no se convierte en agua usada por sumergir la mano, de modo que sigue siendo purificante y levanta la impureza ritual.",
+            "uk": "Вода не стає використаною від занурення руки, тож вона залишається очищувальною і знімає хадас."
           },
           "sources": [
             {
@@ -5412,16 +6609,15 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ],
-          "grade": "makruh"
+          ]
         },
         "hanbali": {
           "text": {
-            "ar": "يكره غمس القائم من نوم الليل يده في الماء القليل قبل غسلها ثلاثاً، ويصير الماء طاهراً لا يرفع الحدث.",
-            "en": "It is disliked for one waking from night sleep to dip his hand into a small quantity of water before washing it three times, and the water becomes pure but no longer removes hadath.",
-            "ru": "Проснувшемуся после ночного сна нежелательно погружать руку в малую воду до троекратного мытья, и вода становится чистой, но хадас не устраняет.",
-            "es": "Se detesta que quien despierta del sueño nocturno sumerja la mano en agua escasa antes de lavarla tres veces, y el agua queda pura pero ya no elimina el hadath.",
-            "uk": "Тому, хто прокинувся від нічного сну, небажано занурювати руку в малу воду до триразового її миття, і вода стає чистою, що не знімає хадасу."
+            "ar": "يصير الماء القليل طاهراً لا يرفع الحدث بغمس يده فيه قبل غسلها ثلاثاً.",
+            "en": "The small quantity of water becomes pure but no longer purifying — it does not lift ritual impurity — once the hand is dipped in it before being washed three times.",
+            "ru": "Малая вода становится чистой, но не очищающей — она не снимает хадас, — если руку погрузили в неё до троекратного мытья.",
+            "es": "El agua escasa se vuelve pura pero no purificante — no levanta la impureza ritual — al sumergir en ella la mano antes de lavarla tres veces.",
+            "uk": "Мала вода стає чистою, але не очищувальною — вона не знімає хадасу, — якщо руку занурили в неї до триразового миття."
           },
           "sources": [
             {
@@ -5445,8 +6641,7 @@
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
             }
-          ],
-          "grade": "makruh"
+          ]
         }
       }
     },
@@ -6642,8 +7837,7 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ],
-          "grade": "makruh"
+          ]
         },
         "shafii": {
           "text": {
@@ -6768,7 +7962,8 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "maliki": {
           "text": {
@@ -6800,7 +7995,8 @@
               "es": "Minaḥ al-Jalīl",
               "uk": "«Мінах аль-Джаліль»"
             }
-          ]
+          ],
+          "grade": "mubah"
         },
         "shafii": {
           "text": {
@@ -6832,7 +8028,8 @@
               "es": "Mughnī al-Muḥtāj",
               "uk": "«Мугні аль-Мухтадж»"
             }
-          ]
+          ],
+          "grade": "wajib"
         },
         "hanbali": {
           "text": {
@@ -7181,8 +8378,7 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ],
-          "grade": "sunnah"
+          ]
         },
         "maliki": {
           "text": {
@@ -7416,27 +8612,27 @@
         "uk": "Розділ про опис омивання"
       },
       "title": {
-        "ar": "حكم غسل الكفّين ثلاثاً قبل إدخالهما الإناء في الوضوء",
-        "en": "Ruling on Washing the Hands Three Times Before Putting Them into the Vessel in the Ablution",
-        "ru": "Постановление о мытье кистей рук трижды перед погружением их в сосуд при омовении",
-        "es": "Norma sobre lavar las manos tres veces antes de introducirlas en el recipiente en la ablución",
-        "uk": "Постанова про миття кистей рук тричі перед зануренням їх у посудину під час омивання"
+        "ar": "حكم غسل الكفّين للقائم من نوم الليل قبل إدخالهما الإناء",
+        "en": "Ruling on Washing the Hands, for One Newly Woken from the Night's Sleep, Before Putting Them into the Vessel",
+        "ru": "Постановление о мытье кистей рук проснувшимся от ночного сна перед погружением их в сосуд",
+        "es": "Norma sobre lavarse las manos, para quien despierta del sueño nocturno, antes de introducirlas en el recipiente",
+        "uk": "Постанова про миття кистей рук тим, хто прокинувся від нічного сну, перед зануренням їх у посудину"
       },
       "summary": {
-        "ar": "ما حكم غسل الكفّين ثلاثاً في أول الوضوء، وما حكم إدخالهما في الإناء لمن استيقظ من نوم الليل؟",
-        "en": "What is the ruling on washing the hands three times at the beginning of the ablution, and on putting them into the vessel for one who has woken from the night's sleep?",
-        "ru": "Каково постановление о мытье кистей трижды в начале омовения и о погружении их в сосуд для того, кто проснулся от ночного сна?",
-        "es": "¿Cuál es la norma sobre lavar las manos tres veces al comienzo de la ablución, y sobre introducirlas en el recipiente para quien despierta del sueño nocturno?",
-        "uk": "Яка постанова про миття кистей тричі на початку омивання та про занурення їх у посудину для того, хто прокинувся від нічного сну?"
+        "ar": "ما حكم غسل الكفّين ثلاثاً على القائم من نوم الليل قبل إدخالهما الإناء؟",
+        "en": "What is the ruling on washing the hands three times for one newly woken from the night's sleep, before putting them into the vessel?",
+        "ru": "Каково постановление о троекратном мытье кистей для проснувшегося от ночного сна перед погружением их в сосуд?",
+        "es": "¿Cuál es la norma sobre lavarse las manos tres veces para quien despierta del sueño nocturno, antes de introducirlas en el recipiente?",
+        "uk": "Яка постанова про триразове миття кистей для того, хто прокинувся від нічного сну, перед зануренням їх у посудину?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "غسل الكفّين ثلاثاً في أول الوضوء سنة، ويُكره لمن استيقظ من نوم الليل أن يدخل يده في الإناء حتى يغسلها ثلاثاً.",
-            "en": "Washing the hands three times at the beginning of the ablution is a sunnah, and it is disliked for one who has woken from the night's sleep to put a hand into the vessel before washing it three times.",
-            "ru": "Мытьё кистей трижды в начале омовения — сунна, а тому, кто проснулся от ночного сна, нежелательно опускать руку в сосуд, пока он не вымоет её трижды.",
-            "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah, y es reprobable que quien despierta del sueño nocturno introduzca la mano en el recipiente antes de lavarla tres veces.",
-            "uk": "Миття кистей тричі на початку омивання — сунна, а тому, хто прокинувся від нічного сну, небажано опускати руку в посудину, доки він не вимиє її тричі."
+            "ar": "يُندب للقائم من نوم الليل غسل كفّيه ثلاثاً قبل إدخالهما الإناء، ولا يجب.",
+            "en": "It is recommended for one newly woken from the night's sleep to wash the hands three times before putting them into the vessel, and it is not obligatory.",
+            "ru": "Проснувшемуся от ночного сна желательно вымыть кисти трижды перед погружением их в сосуд, и это не обязательно.",
+            "es": "Se recomienda a quien despierta del sueño nocturno lavarse las manos tres veces antes de introducirlas en el recipiente, y no es obligatorio.",
+            "uk": "Тому, хто прокинувся від нічного сну, бажано вимити кисті тричі перед зануренням їх у посудину, і це не є обов'язковим."
           },
           "sources": [
             {
@@ -7461,15 +8657,15 @@
               "uk": "«Табйін аль-Хакаїк»"
             }
           ],
-          "grade": "sunnah"
+          "grade": "mandub"
         },
         "maliki": {
           "text": {
-            "ar": "يُندب غسل الكفّين ثلاثاً في أول الوضوء، ويُكره إدخال اليد في الإناء لمن استيقظ من نوم الليل قبل غسلها ثلاثاً.",
-            "en": "Washing the hands three times at the beginning of the ablution is recommended, and putting a hand into the vessel is disliked for one who has woken from the night's sleep before washing it three times.",
-            "ru": "Мыть кисти трижды в начале омовения желательно, а опускать руку в сосуд нежелательно тому, кто проснулся от ночного сна, до того как вымоет её трижды.",
-            "es": "Se recomienda lavar las manos tres veces al comienzo de la ablución, y es reprobable introducir la mano en el recipiente para quien despierta del sueño nocturno antes de lavarla tres veces.",
-            "uk": "Мити кисті тричі на початку омивання є бажаним, а опускати руку в посудину небажано тому, хто прокинувся від нічного сну, перш ніж вимиє її тричі."
+            "ar": "يُندب للقائم من نوم الليل غسل كفّيه قبل إدخالهما الإناء، ولا يجب.",
+            "en": "It is recommended for one newly woken from the night's sleep to wash the hands before putting them into the vessel, and it is not obligatory.",
+            "ru": "Проснувшемуся от ночного сна желательно вымыть кисти перед погружением их в сосуд, и это не обязательно.",
+            "es": "Se recomienda a quien despierta del sueño nocturno lavarse las manos antes de introducirlas en el recipiente, y no es obligatorio.",
+            "uk": "Тому, хто прокинувся від нічного сну, бажано вимити кисті перед зануренням їх у посудину, і це не є обов'язковим."
           },
           "sources": [
             {
@@ -7498,11 +8694,11 @@
         },
         "shafii": {
           "text": {
-            "ar": "يُسنّ غسل الكفّين ثلاثاً في أول الوضوء مطلقاً، وتشتدّ الكراهة في إدخالهما الإناء لمن استيقظ من نوم الليل قبل غسلهما.",
-            "en": "Washing the hands three times at the beginning of the ablution is a sunnah in every case, and the dislike is stronger for one who has woken from the night's sleep to put them into the vessel before washing them.",
-            "ru": "Мытьё кистей трижды в начале омовения — сунна во всяком случае, а нежелательность усиливается в погружении их в сосуд для того, кто проснулся от ночного сна, до их мытья.",
-            "es": "Lavar las manos tres veces al comienzo de la ablución es sunnah en todo caso, y la reprobación se agrava al introducirlas en el recipiente para quien despierta del sueño nocturno antes de lavarlas.",
-            "uk": "Миття кистей тричі на початку омивання — сунна в усякому разі, а небажаність посилюється в зануренні їх у посудину для того, хто прокинувся від нічного сну, до їх миття."
+            "ar": "يُسنّ للقائم من نوم الليل غسل كفّيه ثلاثاً قبل إدخالهما الإناء سنّة مؤكّدة، ولا يجب.",
+            "en": "It is an emphasised sunnah for one newly woken from the night's sleep to wash the hands three times before putting them into the vessel, and it is not obligatory.",
+            "ru": "Для проснувшегося от ночного сна мытьё кистей трижды перед погружением их в сосуд — подтверждённая сунна, и это не обязательно.",
+            "es": "Para quien despierta del sueño nocturno, lavarse las manos tres veces antes de introducirlas en el recipiente es sunnah enfatizada, y no es obligatorio.",
+            "uk": "Для того, хто прокинувся від нічного сну, миття кистей тричі перед зануренням їх у посудину — підтверджена сунна, і це не є обов'язковим."
           },
           "sources": [
             {
@@ -7531,11 +8727,11 @@
         },
         "hanbali": {
           "text": {
-            "ar": "يُسنّ غسل الكفّين في أول الوضوء، ويجب غسلهما ثلاثاً قبل إدخالهما الإناء لمن استيقظ من نوم الليل الناقض للوضوء، تعبّداً لظاهر الحديث.",
-            "en": "Washing the hands at the beginning of the ablution is a sunnah, and washing them three times before putting them into the vessel is obligatory for one who has woken from the night's sleep that breaks the ablution, as an act of devotion following the apparent sense of the hadith.",
-            "ru": "Мытьё кистей в начале омовения — сунна, а мыть их трижды перед погружением в сосуд обязательно для того, кто проснулся от ночного сна, нарушающего омовение, как обряд поклонения по внешнему смыслу хадиса.",
-            "es": "Lavar las manos al comienzo de la ablución es sunnah, y lavarlas tres veces antes de introducirlas en el recipiente es obligatorio para quien despierta del sueño nocturno que rompe la ablución, como acto de adoración conforme al sentido aparente del hadiz.",
-            "uk": "Миття кистей на початку омивання — сунна, а мити їх тричі перед зануренням у посудину є обов'язковим для того, хто прокинувся від нічного сну, що порушує омивання, як обряд поклоніння за явним змістом хадиса."
+            "ar": "يجب على القائم من نوم الليل الناقض للوضوء غسل كفّيه ثلاثاً قبل إدخالهما الإناء، تعبّداً لظاهر الحديث.",
+            "en": "It is obligatory for one newly woken from the night's sleep that breaks the ablution to wash the hands three times before putting them into the vessel, as an act of devotion following the apparent sense of the hadith.",
+            "ru": "Проснувшийся от ночного сна, нарушающего омовение, обязан вымыть кисти трижды перед погружением их в сосуд — как обряд поклонения по внешнему смыслу хадиса.",
+            "es": "Quien despierta del sueño nocturno que rompe la ablución debe lavarse las manos tres veces antes de introducirlas en el recipiente, como acto de adoración conforme al sentido aparente del hadiz.",
+            "uk": "Той, хто прокинувся від нічного сну, що порушує омивання, зобов'язаний вимити кисті тричі перед зануренням їх у посудину — як обряд поклоніння за явним змістом хадиса."
           },
           "sources": [
             {
@@ -8007,7 +9203,8 @@
               "uk": "«Аль-Маджму»"
             }
           ],
-          "grade": "sunnah"
+          "grade": "fard",
+          "nature": "rukn"
         },
         "hanbali": {
           "text": {
@@ -8303,8 +9500,7 @@
               "es": "Al-Durr al-Mukhtār",
               "uk": "«Ад-Дурр аль-Мухтар»"
             }
-          ],
-          "grade": "mubah"
+          ]
         },
         "maliki": {
           "text": {
@@ -8359,8 +9555,7 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ],
-          "grade": "mubah"
+          ]
         }
       }
     },
@@ -8512,8 +9707,7 @@
               "es": "Radd al-Muḥtār",
               "uk": "«Радд аль-Мухтар»"
             }
-          ],
-          "grade": "mubah"
+          ]
         },
         "maliki": {
           "text": {
@@ -9411,8 +10605,7 @@
               "es": "Marāqī al-Falāḥ",
               "uk": "«Маракі аль-Фалях»"
             }
-          ],
-          "grade": "mandub"
+          ]
         },
         "maliki": {
           "text": {
@@ -11113,8 +12306,7 @@
               "es": "Zād al-Mustaqniʿ",
               "uk": "«Зад аль-Мустакні»"
             }
-          ],
-          "grade": "sunnah"
+          ]
         }
       }
     },
@@ -12226,20 +13418,20 @@
         "uk": "Постанова про умову наміру постити в Рамадан з ночі"
       },
       "summary": {
-        "ar": "هل يشترط تبييت النية لكل يوم من أيام رمضان من الليل أم يكفي نية واحدة في أوله؟",
-        "en": "Is it required to form the intention from the night for each day of Ramadan, or is a single intention at the beginning sufficient?",
-        "ru": "Требуется ли ночное намерение на каждый день Рамадана, или достаточно одного намерения в начале?",
-        "es": "¿Se requiere formar la intención desde la noche para cada día de Ramadán, o basta con una sola intención al principio?",
-        "uk": "Чи вимагається нічний намір на кожен день Рамадану, чи достатньо одного наміру на початку?"
+        "ar": "هل يُشترط عقد النية ليلاً قبل طلوع الفجر، أم يصحّ عقدها بعده؟",
+        "en": "Must the intention be formed at night before dawn breaks, or may it be formed after?",
+        "ru": "Требуется ли составить намерение ночью до наступления рассвета, или его можно составить после?",
+        "es": "¿Debe formarse la intención de noche antes del alba, o puede formarse después?",
+        "uk": "Чи потрібно скласти намір уночі до світанку, чи його можна скласти після?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
-            "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-morning (al-ḍuḥā al-kubrā) for Ramadan, voluntary fasts, and specific duties.",
-            "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днём до большой духы — примерно до середины между восходом солнца и зенитом для Рамадана, добровольного поста и определённой обязанности.",
-            "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes de media mañana (al-ḍuḥā al-kubrā) para Ramadán, ayuno voluntario y deber específico.",
-            "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до великої духи — приблизно до середини між сходом сонця та зенітом для Рамадану, добровільного посту та визначеного обов'язку."
+            "ar": "لا يُشترط التبييت في صوم رمضان، بل يصحّ بنية تُعقد من الليل أو في النهار قبل الضحوة الكبرى، والتبييت أفضل.",
+            "en": "Forming the intention at night is not a condition for the fast of Ramadan; it is valid with an intention formed at night or during the day before mid-morning, though the night intention is better.",
+            "ru": "Составление намерения ночью не является условием поста в Рамадан; он действителен с намерением, составленным ночью или днём до большой духы, хотя ночное намерение предпочтительнее.",
+            "es": "Formar la intención de noche no es condición para el ayuno de Ramadán; es válido con una intención formada de noche o de día antes de media mañana, aunque la nocturna es mejor.",
+            "uk": "Складання наміру вночі не є умовою посту в Рамадан; він дійсний з наміром, складеним уночі або вдень до великої духи, хоча нічний намір кращий."
           },
           "sources": [
             {
@@ -12264,15 +13456,15 @@
               "uk": "«Табйін аль-Хакаїк»"
             }
           ],
-          "grade": "wajib"
+          "grade": "mandub"
         },
         "maliki": {
           "text": {
-            "ar": "تكفي نية واحدة في أول شهر رمضان لكل أداء يجب تتابعه، ولا يجب تبييت النية لكل ليلة على حدة إلا إن انقطع الصوم بمرض أو سفر فتجب إعادة النية.",
-            "en": "A single intention at the beginning of Ramadan is sufficient for all consecutive days, and a nightly intention for each night is not required unless interrupted by illness or travel.",
-            "ru": "Одного намерения в начале месяца Рамадан достаточно для всех непрерывных дней, и ночное намерение на каждую ночь не требуется, если пост не прерывался болезнью или путешествием.",
-            "es": "Una sola intención al principio de Ramadán es suficiente para todos los días consecutivos, y no se requiere la intención nocturna para cada noche a menos que se interrumpa por enfermedad o viaje.",
-            "uk": "Одного наміру на початку місяця Рамадан достатньо для всіх безперервних днів, і нічний намір на кожну ніч не вимагається, якщо піст не переривався хворобою чи подорожжю."
+            "ar": "يجب عقد النية من الليل قبل طلوع الفجر، ولا يصحّ عقدها بعده في صوم الفرض.",
+            "en": "The intention must be formed at night before dawn breaks; forming it afterwards is not valid in an obligatory fast.",
+            "ru": "Намерение обязательно составить ночью до наступления рассвета; составление его после недействительно в обязательном посте.",
+            "es": "La intención debe formarse de noche antes del alba; formarla después no es válido en un ayuno obligatorio.",
+            "uk": "Намір обов'язково скласти вночі до світанку; складання його після недійсне в обов'язковому пості."
           },
           "sources": [
             {
@@ -12301,11 +13493,11 @@
         },
         "shafii": {
           "text": {
-            "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
-            "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr based on his saying ﷺ: “Whoever does not resolve upon the fast before dawn, there is no fast for him.”",
-            "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра на основе слов Пророка ﷺ: «Кто не вознамерился твёрдо поститься до рассвета, для того нет поста».",
-            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr según su dicho ﷺ: «Quien no resuelve firmemente el ayuno antes del alba, no tiene ayuno».",
-            "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру на основі слів Пророка ﷺ: «Хто не вирішив твердо постити до світанку, для того немає посту»."
+            "ar": "يجب تبييت النية من الليل، ولا يصحّ الصيام الفرض إلا بنية قبل الفجر، لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
+            "en": "The intention must be formed at night, and an obligatory fast is valid only with an intention before dawn, based on his saying ﷺ: “Whoever does not resolve upon the fast before dawn, there is no fast for him.”",
+            "ru": "Намерение обязательно составить ночью, и обязательный пост действителен лишь с намерением до рассвета, согласно словам Пророка ﷺ: «Кто не вознамерился твёрдо поститься до рассвета, для того нет поста».",
+            "es": "La intención debe formarse de noche, y el ayuno obligatorio solo es válido con una intención antes del alba, según su dicho ﷺ: «Quien no resuelve firmemente el ayuno antes del alba, no tiene ayuno».",
+            "uk": "Намір обов'язково скласти вночі, і обов'язковий піст дійсний лише з наміром до світанку, згідно з його словами ﷺ: «Хто не вирішив твердо постити до світанку, для того немає посту»."
           },
           "sources": [
             {
@@ -12334,11 +13526,11 @@
         },
         "hanbali": {
           "text": {
-            "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، ولا يصح الصيام الواجب إلا بالنية قبل طلوع الفجر لكل يوم على حدة.",
-            "en": "Forming the intention from the night is obligatory for each day of Ramadan, and obligatory fasting is not valid except with an intention before the break of dawn for each day separately.",
-            "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
-            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
-            "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
+            "ar": "يجب تبييت النية من الليل، ولا يصحّ الصيام الواجب إلا بنية تُعقد قبل طلوع الفجر.",
+            "en": "The intention must be formed at night, and an obligatory fast is valid only with an intention formed before dawn breaks.",
+            "ru": "Намерение обязательно составить ночью, и обязательный пост действителен лишь с намерением, составленным до наступления рассвета.",
+            "es": "La intención debe formarse de noche, y el ayuno obligatorio solo es válido con una intención formada antes del alba.",
+            "uk": "Намір обов'язково скласти вночі, і обов'язковий піст дійсний лише з наміром, складеним до світанку."
           },
           "sources": [
             {
@@ -12387,20 +13579,20 @@
         "uk": "Постанова про достатність одного наміру на весь місяць Рамадан"
       },
       "summary": {
-        "ar": "هل تجزئ نية واحدة في أول ليلة من رمضان عن صيام الشهر كله أم يجب تبييت النية لكل يوم؟",
-        "en": "Does a single intention on the first night of Ramadan suffice for fasting the entire month, or is nightly intention required for each day?",
-        "ru": "Достаточно ли одного намерения в первую ночь Рамадана на весь пост месяца, или обязательно ночное намерение на каждый день?",
-        "es": "¿Basta con una sola intención en la primera noche de Ramadán para todo el mes, o se requiere la intención nocturna para cada día?",
-        "uk": "Чи достатньо одного наміру в першу ніч Рамадану на весь піст місяця, чи обов'язковий нічний намір на кожен день?"
+        "ar": "هل تُجزئ نية واحدة عن صيام الشهر كلّه، أم يلزم تجديدها لكل يوم؟",
+        "en": "Does a single intention suffice for the whole month's fast, or must it be renewed for each day?",
+        "ru": "Достаточно ли одного намерения на пост всего месяца, или его надлежит возобновлять каждый день?",
+        "es": "¿Basta una sola intención para el ayuno de todo el mes, o debe renovarse cada día?",
+        "uk": "Чи достатньо одного наміру на піст усього місяця, чи його належить поновлювати щодня?"
       },
       "rulings": {
         "hanafi": {
           "text": {
-            "ar": "لا تجزئ نية واحدة في أول الشهر عن جميعه، بل تشترط النية لكل يوم من رمضان، غير أنه يصح أداؤها في النهار قبل الضحوة الكبرى ولا يشترط تبييتها من الليل.",
-            "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-morning (al-ḍuḥā al-kubrā).",
-            "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днём до большой духы — примерно до середины между восходом солнца и зенитом.",
-            "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes de media mañana (al-ḍuḥā al-kubrā).",
-            "uk": "Одного наміру на початку місяця недостатньо для всього посту; потрібен намір на кожен день, хоча він дійсний і вдень до великої духи — приблизно до середини між сходом сонця та зенітом."
+            "ar": "لا تُجزئ نية واحدة في أول الشهر عن جميعه، بل تلزم النية لكل يوم على حدة.",
+            "en": "A single intention at the start of the month does not suffice for all of it; an intention is required for each day separately.",
+            "ru": "Одного намерения в начале месяца недостаточно на весь месяц; намерение требуется на каждый день в отдельности.",
+            "es": "Una sola intención al comienzo del mes no basta para todo él; se requiere una intención para cada día por separado.",
+            "uk": "Одного наміру на початку місяця недостатньо на весь місяць; намір потрібен на кожен день окремо."
           },
           "sources": [
             {
@@ -12429,11 +13621,11 @@
         },
         "maliki": {
           "text": {
-            "ar": "تكفي نية واحدة في أول ليلة من رمضان لصيام الشهر كله، ولا يجب تجديد النية لكل ليلة، إلا إذا انقطع التتابع بمرض أو سفر فيلزم تجديدها.",
-            "en": "A single intention on the first night of Ramadan suffices for fasting the entire month, and renewing the intention each night is not obligatory unless continuity is interrupted by illness or travel.",
-            "ru": "Одного намерения в первую ночь Рамадана достаточно для поста всего месяца, и возобновление намерения каждую ночь не обязательно, если непрерывность не была прервана болезнью или путешествием.",
-            "es": "Una sola intención en la primera noche de Ramadán basta para todo el mes, y no es obligatorio renovarla cada noche a menos que la continuidad se interrumpa por enfermedad o viaje.",
-            "uk": "Одного наміру в першу ніч Рамадану достатньо для посту всього місяця, і поновлення наміру щоночі не є обов'язковим, якщо безперервність не була перервана хворобою чи подорожжю."
+            "ar": "تُجزئ نية واحدة في أول ليلة من رمضان عن صيام الشهر كلّه، ولا يلزم تجديدها لكل ليلة إلا إن انقطع التتابع بمرض أو سفر.",
+            "en": "A single intention on the first night of Ramadan suffices for the whole month's fast, and renewing it each night is not required unless the sequence is broken by illness or travel.",
+            "ru": "Одного намерения в первую ночь Рамадана достаточно на пост всего месяца, и возобновлять его каждую ночь не требуется, если только последовательность не прервана болезнью или путешествием.",
+            "es": "Una sola intención en la primera noche de Ramadán basta para el ayuno de todo el mes, y no se exige renovarla cada noche salvo que la continuidad se interrumpa por enfermedad o viaje.",
+            "uk": "Одного наміру в першу ніч Рамадану достатньо на піст усього місяця, і поновлювати його щоночі не потрібно, хіба що послідовність перервана хворобою чи подорожжю."
           },
           "sources": [
             {
@@ -12458,15 +13650,15 @@
               "uk": "«Мавагіб аль-Джаліль»"
             }
           ],
-          "grade": "wajib"
+          "grade": "mandub"
         },
         "shafii": {
           "text": {
-            "ar": "لا تكفي نية واحدة لجميع الشهر، بل يشترط تعيين النية وتبييتها من الليل لكل يوم مستقل برأسه.",
-            "en": "A single intention does not suffice for the whole month; rather, the intention must be specified and made during the night for each day independently.",
-            "ru": "Одного намерения на весь месяц недостаточно; напротив, требуется определить намерение и составить его ночью для каждого дня в отдельности.",
-            "es": "Una sola intención no basta para todo el mes; más bien, se exige precisar la intención y formularla de noche para cada día por separado.",
-            "uk": "Одного наміру на весь місяць недостатньо; натомість вимагається визначити намір і скласти його вночі для кожного дня окремо."
+            "ar": "لا تكفي نية واحدة لجميع الشهر، بل يلزم تعيينها لكل يوم مستقلّ برأسه.",
+            "en": "A single intention does not suffice for the whole month; it must be specified for each day on its own.",
+            "ru": "Одного намерения на весь месяц недостаточно; его надлежит определять для каждого дня в отдельности.",
+            "es": "Una sola intención no basta para todo el mes; debe precisarse para cada día por separado.",
+            "uk": "Одного наміру на весь місяць недостатньо; його належить визначати для кожного дня окремо."
           },
           "sources": [
             {
@@ -12495,11 +13687,11 @@
         },
         "hanbali": {
           "text": {
-            "ar": "لا تجزئ نية واحدة في أول رمضان عن صيام الشهر كله، بل يجب تبييت النية لكل يوم على حدة قبل طلوع الفجر.",
-            "en": "A single intention at the beginning of Ramadan does not suffice for the whole month; rather, forming the intention separately for each day before the break of dawn is obligatory.",
-            "ru": "Одного намерения в начале Рамадана недостаточно для всего месяца, обязательно ночное намерение на каждый день отдельно до наступления рассвета.",
-            "es": "Una sola intención al principio de Ramadán no basta para todo el mes; más bien, es obligatorio formar la intención por separado para cada día antes del alba.",
-            "uk": "Одного наміру на початку Рамадану недостатньо для всього місяця, обов'язковий нічний намір на кожен день окремо до настання світанку."
+            "ar": "لا تُجزئ نية واحدة في أول رمضان عن صيام الشهر كلّه، بل تلزم لكل يوم على حدة.",
+            "en": "A single intention at the start of Ramadan does not suffice for the whole month's fast; one is required for each day separately.",
+            "ru": "Одного намерения в начале Рамадана недостаточно на пост всего месяца; оно требуется на каждый день в отдельности.",
+            "es": "Una sola intención al comienzo de Ramadán no basta para el ayuno de todo el mes; se requiere una para cada día por separado.",
+            "uk": "Одного наміру на початку Рамадану недостатньо на піст усього місяця; він потрібен на кожен день окремо."
           },
           "sources": [
             {
@@ -12908,7 +14100,7 @@
               "uk": "«Табйін аль-Хакаїк»"
             }
           ],
-          "grade": "wajib"
+          "grade": "haram"
         },
         "maliki": {
           "text": {
@@ -12941,7 +14133,7 @@
               "uk": "«Мавагіб аль-Джаліль»"
             }
           ],
-          "grade": "wajib"
+          "grade": "haram"
         },
         "shafii": {
           "text": {
@@ -12973,7 +14165,8 @@
               "es": "Al-Majmūʿ",
               "uk": "«Аль-Маджму»"
             }
-          ]
+          ],
+          "grade": "haram"
         },
         "hanbali": {
           "text": {
@@ -13005,7 +14198,8 @@
               "es": "Kashshāf al-Qināʿ",
               "uk": "«Кашшаф аль-Кіна»"
             }
-          ]
+          ],
+          "grade": "haram"
         }
       }
     },

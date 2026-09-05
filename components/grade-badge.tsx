@@ -6,6 +6,7 @@ import {
   glossaryAnchor,
   gradeLabels,
   gradeTerm,
+  natureLabels,
   issues,
   type Issue,
   type Lang,
@@ -69,7 +70,7 @@ export function GradeBadge({ grade, nature, school, issue, lang }: GradeBadgePro
         ) : null}
         {nature ? (
           <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${NATURE_TONE}`}>
-            {gradeLabels[nature]?.[lang] ?? nature}
+            {natureLabels[nature]?.[lang] ?? nature}
           </span>
         ) : null}
       </button>
@@ -142,11 +143,11 @@ function GradePanel({
                 grade ? GRADE_TONE[grade] : NATURE_TONE
               }`}
             >
-              {gradeLabels[subject]?.[lang] ?? subject}
+              {(grade ? gradeLabels[subject] : natureLabels[subject])?.[lang] ?? subject}
             </span>
             {grade && nature ? (
               <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${NATURE_TONE}`}>
-                {gradeLabels[nature]?.[lang] ?? nature}
+                {natureLabels[nature]?.[lang] ?? nature}
               </span>
             ) : null}
             <span className="text-sm font-semibold text-muted-foreground">
