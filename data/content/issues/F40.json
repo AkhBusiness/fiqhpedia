@@ -7,19 +7,22 @@
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
     "ru": "Раздел об условиях молитвы",
-    "es": "Capítulo de las condiciones de la oración"
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
   },
   "title": {
     "ar": "وقت صلاة الفجر بدايةً ونهايةً",
     "en": "The time of the dawn prayer, from its beginning to its end",
     "ru": "Время утренней молитвы: её начало и конец",
-    "es": "El tiempo de la oración del alba, desde su inicio hasta su fin"
+    "es": "El tiempo de la oración del alba, desde su inicio hasta su fin",
+    "uk": "Час ранкової молитви (фаджр): початок і кінець"
   },
   "summary": {
     "ar": "متى يبدأ وقت صلاة الفجر ومتى ينتهي عند الأئمة الأربعة؟",
     "en": "When does the time of the dawn prayer begin and when does it end according to the four imams?",
     "ru": "Когда начинается и когда заканчивается время утренней молитвы по мнению четырёх имамов?",
-    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del alba según los cuatro imanes?"
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del alba según los cuatro imanes?",
+    "uk": "Коли починається і коли закінчується час молитви фаджр за чотирма імамами?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يبدأ وقت الفجر بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والإسفار به أفضل.",
         "en": "The dawn prayer begins at true dawn and lasts until sunrise; praying it once the light has spread is preferable.",
         "ru": "Время утренней молитвы начинается с истинного рассвета и длится до восхода; предпочтительно совершать её, когда рассвело.",
-        "es": "El tiempo del alba comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla cuando ya ha clareado."
+        "es": "El tiempo del alba comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla cuando ya ha clareado.",
+        "uk": "Час фаджру починається зі сходом істинної зорі і триває до сходу сонця, а здійснювати її, коли розвидниться, краще."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يبدأ بطلوع الفجر الصادق، ووقته المختار إلى الإسفار، ويمتدّ الضروري إلى طلوع الشمس.",
         "en": "It begins at true dawn; its preferred time runs until the light spreads, and its time of necessity extends to sunrise.",
         "ru": "Начинается с истинного рассвета; предпочтительное время — до рассвета полного, а вынужденное длится до восхода.",
-        "es": "Comienza con el alba verdadera; su tiempo preferido llega hasta que clarea, y el de necesidad se extiende hasta la salida del sol."
+        "es": "Comienza con el alba verdadera; su tiempo preferido llega hasta que clarea, y el de necesidad se extiende hasta la salida del sol.",
+        "uk": "Починається зі сходом істинної зорі; обраний час — до розвиднення, а вимушений триває до сходу сонця."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس بأوّله أفضل.",
         "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
         "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
-        "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+        "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial.",
+        "uk": "Починається зі сходом істинної зорі і триває до сходу сонця, а здійснювати її в передсвітанковій темряві на самому початку краще."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يبدأ بطلوع الفجر الصادق ويمتدّ إلى طلوع الشمس، والتغليس به أفضل.",
         "en": "It begins at true dawn and lasts until sunrise; praying it in the first darkness is preferable.",
         "ru": "Начинается с истинного рассвета и длится до восхода; предпочтительно совершать её в предрассветной темноте.",
-        "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial."
+        "es": "Comienza con el alba verdadera y dura hasta la salida del sol; es preferible rezarla en la penumbra inicial.",
+        "uk": "Починається зі сходом істинної зорі і триває до сходу сонця, а здійснювати її в передсвітанковій темряві краще."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

@@ -7,13 +7,15 @@
     "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
     "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
     "ru": "Правовая квалификация произнесения шахады для принятия ислама",
-    "es": "La caracterización jurídica de pronunciar los dos testimonios para entrar en el islam"
+    "es": "La caracterización jurídica de pronunciar los dos testimonios para entrar en el islam",
+    "uk": "Правова кваліфікація промовляння двох свідчень для прийняття ісламу"
   },
   "summary": {
     "ar": "هل النطق بالشهادتين شرط لصحة الإسلام أم ركن، وما حكم من صدّق بقلبه دون نطق؟",
     "en": "Is uttering the shahada a condition for the validity of Islam or a pillar, and what of one who believes in his heart without uttering it?",
     "ru": "Является ли произнесение шахады условием действительности ислама или его столпом, и как быть с уверовавшим сердцем без произнесения?",
-    "es": "¿Es pronunciar la shahada una condición para la validez del islam o un pilar, y qué ocurre con quien cree en su corazón sin pronunciarla?"
+    "es": "¿Es pronunciar la shahada una condición para la validez del islam o un pilar, y qué ocurre con quien cree en su corazón sin pronunciarla?",
+    "uk": "Чи є промовляння двох свідчень умовою дійсності ісламу чи його стовпом, і як бути з тим, хто увірував серцем без промовляння?"
   },
   "rulings": {
     "hanafi": {
@@ -21,14 +23,16 @@
         "ar": "أصل الإيمان التصديق بالقلب، والنطق باللسان شرط لإجراء أحكام المسلمين الدنيوية.",
         "en": "The essence of faith is assent of the heart; utterance with the tongue is a condition for applying the worldly rulings of Muslims.",
         "ru": "Основа веры — убеждение сердца; произнесение языком является условием применения мирских норм для мусульман.",
-        "es": "La esencia de la fe es el asentimiento del corazón; la pronunciación con la lengua es una condición para aplicar las normas mundanas de los musulmanes."
+        "es": "La esencia de la fe es el asentimiento del corazón; la pronunciación con la lengua es una condición para aplicar las normas mundanas de los musulmanes.",
+        "uk": "Основа віри — переконання серця; промовляння язиком є умовою застосування мирських норм щодо мусульман."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         }
       ]
     },
@@ -37,14 +41,16 @@
         "ar": "النطق بالشهادتين شرط لصحة الإيمان للقادر عليه، ولا يصح الدخول بدونها.",
         "en": "Uttering the two testimonies is a condition for the validity of faith for one able to do so, and entering Islam is not valid without it.",
         "ru": "Произнесение шахады — условие действительности веры для способного, и без неё вхождение недействительно.",
-        "es": "Pronunciar los dos testimonios es una condición para la validez de la fe para quien puede hacerlo, y no es válido entrar en el islam sin ella."
+        "es": "Pronunciar los dos testimonios es una condición para la validez de la fe para quien puede hacerlo, y no es válido entrar en el islam sin ella.",
+        "uk": "Промовляння двох свідчень — умова дійсності віри для того, хто на це спроможний, і без нього входження в іслам недійсне."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         }
       ]
     },
@@ -53,14 +59,16 @@
         "ar": "النطق بالشهادتين ركن وشرط أساسي لجريان أحكام الإسلام ظاهراً وباطناً.",
         "en": "Uttering the two testimonies is a pillar and an essential condition for the operation of Islam's rulings both outwardly and inwardly.",
         "ru": "Произнесение шахады — столп и основное условие действия норм ислама внешне и внутренне.",
-        "es": "Pronunciar los dos testimonios es un pilar y una condición esencial para que rijan las normas del islam, exterior e interiormente."
+        "es": "Pronunciar los dos testimonios es un pilar y una condición esencial para que rijan las normas del islam, exterior e interiormente.",
+        "uk": "Промовляння двох свідчень — стовп і основна умова чинності норм ісламу зовні та всередині."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
           "ru": "«Тухфат аль-Мухтадж»",
-          "es": "Tuḥfat al-Muḥtāj"
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
         }
       ]
     },
@@ -69,14 +77,16 @@
         "ar": "لا يصح إسلام القادر بحال إلا بالنطق بالشهادتين معاً والتبرؤ مما يخالف الدين.",
         "en": "The Islam of an able person is by no means valid except by uttering both testimonies together and disavowing whatever contradicts the religion.",
         "ru": "Ислам способного никак не действителен, кроме как произнесением обеих шахад вместе и отречением от противоречащего религии.",
-        "es": "El islam de quien puede hacerlo no es válido en ningún caso salvo pronunciando ambos testimonios juntos y desligándose de cuanto contradice la religión."
+        "es": "El islam de quien puede hacerlo no es válido en ningún caso salvo pronunciando ambos testimonios juntos y desligándose de cuanto contradice la religión.",
+        "uk": "Іслам спроможного жодним чином не дійсний інакше, як промовлянням обох свідчень разом і зреченням того, що суперечить релігії."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         }
       ]
     }

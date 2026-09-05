@@ -7,19 +7,22 @@
     "ar": "باب الأذان والإقامة",
     "en": "Chapter of the Call to Prayer and the Iqama",
     "ru": "Раздел об азане и икаме",
-    "es": "Capítulo del adhán y el iqama"
+    "es": "Capítulo del adhán y el iqama",
+    "uk": "Розділ про азан та ікаму"
   },
   "title": {
     "ar": "حكم التثويب في أذان صلاة الفجر",
     "en": "Ruling on Tathwīb in the Fajr Adhān",
     "ru": "Постановление о тасвибе в азане предрассветной молитвы",
-    "es": "La norma sobre el tazwīb en el adhán de la oración del fayr"
+    "es": "La norma sobre el tathwīb en el adhán de la oración del fajr",
+    "uk": "Постанова про тасвіб в азані ранкової молитви (фаджр)"
   },
   "summary": {
     "ar": "ما حكم قول الصلاة خير من النوم في الأذان؟",
     "en": "What is the ruling on saying Tathwīb in Fajr?",
     "ru": "Каково постановление о произнесении фразы Тасвиб в азане?",
-    "es": "¿Cuál es la norma sobre decir «la oración es mejor que el sueño» en el adhán?"
+    "es": "¿Cuál es la norma sobre decir «la oración es mejor que el sueño» en el adhán?",
+    "uk": "Яка постанова про промовляння «молитва краща за сон» в азані?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "التثويب بقول الصلاة خير من النوم مستحب في أذان الفجر بين الفلاح والتكبير الأخير.",
         "en": "Tathwīb (saying prayer is better than sleep) is recommended in the Fajr call to prayer.",
         "ru": "Тасвиб (произнесение слов о превосходстве молитвы) является желательным в азане молитвы Фаджр.",
-        "es": "El tazwīb, decir «la oración es mejor que el sueño», es recomendable en el adhán del fayr, entre el ḥayya ʿalā l-falāḥ y el takbir final."
+        "es": "El tathwīb, decir «la oración es mejor que el sueño», es recomendable en el adhán del fajr, entre el ḥayya ʿalā l-falāḥ y el takbir final.",
+        "uk": "Тасвіб — промовляння «молитва краща за сон» — бажаний в азані фаджру між «хаййя аля ль-фалях» і останнім такбіром."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "بدائع الصنائع",
           "en": "Badāʾiʿ al-Ṣanāʾiʿ",
           "ru": "«Бадаи ас-Санаи»",
-          "es": "Badāʾiʿ al-Ṣanāʾiʿ"
+          "es": "Badāʾiʿ al-Ṣanāʾiʿ",
+          "uk": "«Бадаї ас-Санаї»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
         "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
         "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр.",
-        "es": "Es recomendable el tazwīb, decir «la oración es mejor que el sueño» dos veces, en el segundo adhán del fayr y no en otro."
+        "es": "Es recomendable el tathwīb, decir «la oración es mejor que el sueño» dos veces, en el segundo adhán del fajr y no en otro.",
+        "uk": "Бажано промовляти тасвіб — «молитва краща за сон» — двічі в другому азані фаджру і не в іншому."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "التاج والإكليل",
           "en": "Al-Tāj wa-al-Iklīl",
           "ru": "«Ат-Тадж ва-ль-Иклиль»",
-          "es": "Al-Tāj wa-al-Iklīl"
+          "es": "Al-Tāj wa-al-Iklīl",
+          "uk": "«Ат-Тадж ва-ль-Іклиль»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يسن التثويب في الأذان للصُّبح سواء كان الأذان قبل الفجر أم بعد طلوعه معاً.",
         "en": "Tathwīb is Sunnah in the call for the Morning prayer, whether before or after dawn.",
         "ru": "Сунной является произнесение Тасвиба в азане на утреннюю молитву, как до, так и после рассвета.",
-        "es": "Es sunna el tazwīb en el adhán del subḥ, sea el adhán antes del alba o después de su aparición, en ambos."
+        "es": "Es sunna el tathwīb en el adhán del subḥ, sea el adhán antes del alba o después de su aparición, en ambos.",
+        "uk": "Тасвіб є сунною в азані на ранкову молитву, чи то азан до світанку, чи після його настання, в обох разом."
       },
       "sources": [
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يسن التثويب في أذان الفجر الثاني خاصة وهو من سنن الأذان المعتمدة في المذهب.",
         "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
         "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу.",
-        "es": "Es sunna el tazwīb en el segundo adhán del fayr en particular, y es una de las sunnas del adhán acreditadas en la escuela."
+        "es": "Es sunna el tathwīb en el segundo adhán del fajr en particular, y es una de las sunnas del adhán acreditadas en la escuela.",
+        "uk": "Тасвіб є сунною саме в другому азані фаджру, і це одна з усталених у мазгабі сунн азану."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

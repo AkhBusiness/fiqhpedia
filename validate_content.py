@@ -37,20 +37,22 @@ ALIASES = {
 PENDING_UI_KEYS = {"comingSoon", "betaNote", "glossaryPending"}
 
 # اللغات الفعّالة: كل حقل مترجم يجب أن يحملها كلها.
-LANGS = ["ar", "en", "ru"]
+LANGS = ["ar", "en", "ru", "es", "uk"]
 
 # لغات أصولها جاهزة وترجمتها لم تكتمل. تُقبل في الحقول ولا تُشترط،
 # فيمكن ترجمة الموقع على دفعات بدل «كل شيء أو لا شيء».
 # لإطلاق لغة: انقل مفتاحها إلى LANGS هنا وإلى LANGS في lib/fiqh-data.ts.
-PENDING_LANGS = ["es", "uk"]
+PENDING_LANGS = []
 SCHOOLS = ["hanafi", "maliki", "shafii", "hanbali"]
 
 # Text that means "not written yet" and must never ship.
 PLACEHOLDERS = re.compile(
-    r"\b(lorem ipsum|TODO|TBD|FIXME|XXX|placeholder|coming soon)\b"
+    r"\b(lorem ipsum|placeholder|coming soon)\b"
     r"|قريبا|قريباً|قيد الإعداد|نص تجريبي",
     re.IGNORECASE,
 )
+# رموز برمجية بالأحرف الكبيرة فقط: «todo» كلمة إسبانية عادية (= كل).
+PLACEHOLDER_TOKENS = re.compile(r"\b(TODO|TBD|FIXME|XXX)\b")
 
 # Scripts we expect per language, to catch a translation pasted into the
 # wrong slot (e.g. Arabic text sitting in the "en" field).
@@ -94,7 +96,7 @@ def check_localized(obj, where, *, required=True, allow_pending_wording=False):
             continue
         if "\ufffd" in val:
             err(f"{where}.{lang}: contains corrupted character (U+FFFD) — {val[:50]}")
-        if not allow_pending_wording and PLACEHOLDERS.search(val):
+        if not allow_pending_wording and (PLACEHOLDERS.search(val) or PLACEHOLDER_TOKENS.search(val)):
             err(f"{where}.{lang}: contains placeholder text — {val[:50]}")
         if val != val.strip():
             warn(f"{where}.{lang}: leading/trailing whitespace")

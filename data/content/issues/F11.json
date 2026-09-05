@@ -7,19 +7,22 @@
     "ar": "باب إزالة النجاسة",
     "en": "Chapter of Removing Impurity",
     "ru": "Раздел об удалении нечистоты",
-    "es": "Capítulo de la eliminación de la impureza"
+    "es": "Capítulo de la eliminación de la impureza",
+    "uk": "Розділ про усунення нечистоти"
   },
   "title": {
     "ar": "تطهير النجاسة بغير الماء (كالمنظفات والسبيرتو)",
     "en": "Purifying impurity with something other than water (detergents, alcohol)",
     "ru": "Очищение нечистоты не водой (моющие средства, спирт)",
-    "es": "La purificación de la impureza con algo distinto del agua (como detergentes y alcohol)"
+    "es": "La purificación de la impureza con algo distinto del agua (como detergentes y alcohol)",
+    "uk": "Очищення нечистоти не водою (мийними засобами, спиртом тощо)"
   },
   "summary": {
     "ar": "هل تطهر النجاسة بالمائعات والمنظفات إذا أزالت عينها وأثرها؟",
     "en": "Is impurity purified by liquids and detergents if they remove its substance and trace?",
     "ru": "Очищается ли нечистота жидкостями и моющими средствами, если они удаляют её вещество и след?",
-    "es": "¿Se purifica la impureza con líquidos y detergentes si eliminan su sustancia y su rastro?"
+    "es": "¿Se purifica la impureza con líquidos y detergentes si eliminan su sustancia y su rastro?",
+    "uk": "Чи очищується нечистота рідинами та мийними засобами, якщо вони усувають її речовину і слід?"
   },
   "rulings": {
     "hanafi": {
@@ -27,14 +30,16 @@
         "ar": "تطهر النجاسة بكل مائعٍ طاهرٍ قالعٍ لها كالخل وماء الورد، فيجوز التطهير بالمنظفات المزيلة للعين والأثر.",
         "en": "Impurity is purified by any pure liquid that removes it, such as vinegar and rosewater; so cleaning with detergents that remove the substance and trace is valid.",
         "ru": "Нечистота очищается любой чистой жидкостью, удаляющей её, как уксус и розовая вода; поэтому очищение моющими средствами, удаляющими вещество и след, допустимо.",
-        "es": "La impureza se purifica con todo líquido puro que la elimine, como el vinagre y el agua de rosas; así, es válida la purificación con detergentes que eliminen la sustancia y el rastro."
+        "es": "La impureza se purifica con todo líquido puro que la elimine, como el vinagre y el agua de rosas; así, es válida la purificación con detergentes que eliminen la sustancia y el rastro.",
+        "uk": "Нечистота очищується будь-якою чистою рідиною, що її усуває, як оцет і трояндова вода; тому дозволено очищення мийними засобами, що усувають речовину і слід."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         }
       ]
     },
@@ -43,14 +48,16 @@
         "ar": "الأصل التطهير بالماء، والنجاسة تُعفى إذا زالت عينها، ويقوم غير الماء مقامه عند بعضهم في إزالة الأثر.",
         "en": "The basis is purification with water; impurity is excused once its substance is gone, and for some, other than water may take its place in removing the trace.",
         "ru": "Основа — очищение водой; нечистота прощается, когда её вещество исчезло, и, по некоторым, не вода может заменить её в удалении следа.",
-        "es": "La base es la purificación con agua; la impureza queda dispensada una vez eliminada su sustancia, y según algunos, lo distinto del agua puede sustituirla en eliminar el rastro."
+        "es": "La base es la purificación con agua; la impureza queda dispensada una vez eliminada su sustancia, y según algunos, lo distinto del agua puede sustituirla en eliminar el rastro.",
+        "uk": "Основа — очищення водою; нечистота прощається, коли зникла її речовина, і, за деякими, не вода може заступити її в усуненні сліду."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         }
       ]
     },
@@ -59,14 +66,16 @@
         "ar": "لا يطهر المتنجس إلا بالماء المطلق، فلا تكفي المنظفات والكحول في رفع حكم النجاسة وإن أزالت العين.",
         "en": "The impure is purified only by unmixed water; detergents and alcohol do not suffice to lift the ruling of impurity even if they remove the substance.",
         "ru": "Осквернённое очищается только чистой водой; моющие средства и спирт не устраняют статус нечистоты, даже если удаляют вещество.",
-        "es": "Lo impurificado solo se purifica con agua pura sin mezcla; no bastan los detergentes ni el alcohol para levantar la condición de impureza aunque eliminen la sustancia."
+        "es": "Lo impurificado solo se purifica con agua pura sin mezcla; no bastan los detergentes ni el alcohol para levantar la condición de impureza aunque eliminen la sustancia.",
+        "uk": "Осквернене очищується лише чистою водою без домішок; мийні засоби та спирт не досить, щоб зняти статус нечистоти, навіть якщо усувають речовину."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
           "ru": "«Тухфат аль-Мухтадж»",
-          "es": "Tuḥfat al-Muḥtāj"
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
         }
       ]
     },
@@ -75,14 +84,16 @@
         "ar": "المعتمد أن إزالة النجاسة لا تكون إلا بالماء الطهور، فلا تطهر بالمائعات كالسبيرتو وإن زالت العين.",
         "en": "The relied-upon view is that removing impurity is only by purifying water; it is not purified by liquids such as spirit even if the substance is gone.",
         "ru": "Утверждённое мнение: удаление нечистоты только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло.",
-        "es": "La postura acreditada es que la eliminación de la impureza solo se hace con agua purificante; no se purifica con líquidos como el alcohol aunque desaparezca la sustancia."
+        "es": "La postura acreditada es que la eliminación de la impureza solo se hace con agua purificante; no se purifica con líquidos como el alcohol aunque desaparezca la sustancia.",
+        "uk": "Усталена думка: усунення нечистоти буває лише очищувальною водою; вона не очищується рідинами, як спирт, навіть якщо речовина зникла."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         }
       ]
     }

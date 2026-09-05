@@ -7,19 +7,22 @@
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
     "ru": "Раздел об условиях молитвы",
-    "es": "Capítulo de las condiciones de la oración"
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
   },
   "title": {
     "ar": "وقت صلاة العشاء بدايةً ونهايةً",
     "en": "The time of the night prayer, from its beginning to its end",
     "ru": "Время ночной молитвы: её начало и конец",
-    "es": "El tiempo de la oración de la noche, desde su inicio hasta su fin"
+    "es": "El tiempo de la oración de la noche, desde su inicio hasta su fin",
+    "uk": "Час нічної молитви (іша): початок і кінець"
   },
   "summary": {
     "ar": "متى يبدأ وقت صلاة العشاء ومتى ينتهي عند الأئمة الأربعة؟",
     "en": "When does the time of the night prayer begin and when does it end according to the four imams?",
     "ru": "Когда начинается и когда заканчивается время ночной молитвы по мнению четырёх имамов?",
-    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración de la noche según los cuatro imanes?"
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración de la noche según los cuatro imanes?",
+    "uk": "Коли починається і коли закінчується час молитви іша за чотирма імамами?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يبدأ بغياب الشفق الأبيض ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
         "en": "It begins when the white twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
         "ru": "Начинается с исчезновения белой зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
-        "es": "Comienza al desaparecer el crepúsculo blanco y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche."
+        "es": "Comienza al desaparecer el crepúsculo blanco y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche.",
+        "uk": "Починається зі зникненням білої заграви і триває до сходу істинної зорі, а відкладати її до третини ночі бажано."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يبدأ بمغيب الشفق الأحمر، ووقته المختار إلى ثلث الليل الأول، والضروري إلى طلوع الفجر.",
         "en": "It begins when the red twilight disappears; its preferred time runs to the first third of the night, and its time of necessity to true dawn.",
         "ru": "Начинается с исчезновения красной зари; предпочтительное время — до первой трети ночи, вынужденное — до истинного рассвета.",
-        "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba."
+        "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba.",
+        "uk": "Починається зі зникненням червоної заграви; обраний час — до першої третини ночі, а вимушений — до сходу зорі."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يبدأ بمغيب الشفق الأحمر ويمتدّ إلى طلوع الفجر الصادق، والاختيار إلى ثلث الليل.",
         "en": "It begins when the red twilight disappears and lasts until true dawn, the preferred time ending at the first third of the night.",
         "ru": "Начинается с исчезновения красной зари и длится до истинного рассвета, а предпочтительное время — до первой трети ночи.",
-        "es": "Comienza al desaparecer el crepúsculo rojo y dura hasta el alba verdadera, siendo el tiempo preferido hasta el primer tercio de la noche."
+        "es": "Comienza al desaparecer el crepúsculo rojo y dura hasta el alba verdadera, siendo el tiempo preferido hasta el primer tercio de la noche.",
+        "uk": "Починається зі зникненням червоної заграви і триває до сходу істинної зорі, а обраний час — до третини ночі."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يبدأ بمغيب الشفق الأحمر، ووقته المختار إلى ثلث الليل، والضروري إلى طلوع الفجر.",
         "en": "It begins when the red twilight disappears; its preferred time runs to the first third of the night, and its time of necessity to true dawn.",
         "ru": "Начинается с исчезновения красной зари; предпочтительное время — до первой трети ночи, вынужденное — до истинного рассвета.",
-        "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba."
+        "es": "Comienza al desaparecer el crepúsculo rojo; su tiempo preferido llega al primer tercio de la noche, y el de necesidad hasta el alba.",
+        "uk": "Починається зі зникненням червоної заграви; обраний час — до третини ночі, а вимушений — до сходу зорі."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

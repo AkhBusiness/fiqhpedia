@@ -164,19 +164,31 @@ export interface Category {
   name: Localized
 }
 
+/** One school's technical (اصطلاحاً) definition with its references. */
+export interface GlossarySchoolSense {
+  text: Localized
+  sources: Localized[]
+}
+
 export interface GlossaryTerm {
   id: string
   term: Localized
-  /** One-line gloss shown in the inline tooltip. Always present. */
-  definition: Localized
   /**
-   * The three-part scholarly definition shown on the glossary page.
-   * Optional: a term carries them once written, and the page falls back to
-   * `definition` until then. Never fill these with placeholder prose —
-   * an absent field renders as "being added", a fake one reads as fact.
+   * One-line gloss shown in the inline tooltip. Always present after
+   * loading: old entries carry `definition`, new ones `briefDefinition`,
+   * and the loader copies whichever exists into both so every reader
+   * can rely on either name.
+   */
+  definition: Localized
+  briefDefinition?: Localized
+  /**
+   * The scholarly senses shown on the glossary page. Optional: a term
+   * carries them once written. `technical` is per school — the same term
+   * is defined differently by each madhhab — so it is keyed by school,
+   * not by language. Never fill these with placeholder prose.
    */
   linguistic?: Localized
-  technical?: Localized
+  technical?: Partial<Record<SchoolKey, GlossarySchoolSense>>
   legal?: Localized
 }
 
@@ -484,7 +496,14 @@ export const theologyProofs: TheologyProof[] = data.theology.map((p) => ({
   conclusion: p.conclusion,
 }))
 
-export const glossary: GlossaryTerm[] = data.glossary
+// Old entries carry `definition`, new ones `briefDefinition`. Fill whichever
+// is missing from the other so tooltips, search and the glossary page can
+// all read `definition` without guarding — an undefined here crashed the
+// glossary search on the first keystroke.
+export const glossary: GlossaryTerm[] = (data.glossary as GlossaryTerm[]).map((t) => {
+  const gloss = t.definition ?? t.briefDefinition
+  return { ...t, definition: gloss as Localized, briefDefinition: t.briefDefinition ?? gloss }
+})
 
 export const guides: Guide[] = data.guides
 
@@ -632,7 +651,13 @@ export function searchAll(query: string): SearchResults {
     ),
     terms: glossary.filter((t) =>
       matches(
-        langParts([t.term, t.definition, t.linguistic, t.technical, t.legal]).join(" "),
+        langParts([
+          t.term,
+          t.definition,
+          t.linguistic,
+          t.legal,
+          ...Object.values(t.technical ?? {}).map((s) => s?.text),
+        ]).join(" "),
         q,
       ),
     ),

@@ -7,19 +7,22 @@
     "ar": "باب صلاة المسافر",
     "en": "Chapter of the Traveler's Prayer",
     "ru": "Раздел о молитве путника",
-    "es": "Capítulo de la oración del viajero"
+    "es": "Capítulo de la oración del viajero",
+    "uk": "Розділ про молитву подорожнього"
   },
   "title": {
     "ar": "حكم قصر الصلاة الرباعية للمسافر",
     "en": "Ruling on Shortening Four-Unit Prayers for the Traveler",
     "ru": "Постановление о сокращении четырехракаатной молитвы для путника",
-    "es": "La norma sobre acortar la oración de cuatro rakʿas para el viajero"
+    "es": "La norma sobre acortar la oración de cuatro rakʿas para el viajero",
+    "uk": "Постанова про скорочення чотириракаатної молитви для подорожнього"
   },
   "summary": {
     "ar": "هل قصر الصلاة للمسافر عزيمة واجبة أم رخصة؟",
     "en": "Is shortening the prayer for a traveler mandatory or optional?",
     "ru": "Является ли сокращение молитвы путником обязательным или облегчением?",
-    "es": "¿Acortar la oración para el viajero es una obligación firme o una dispensa?"
+    "es": "¿Acortar la oración para el viajero es una obligación firme o una dispensa?",
+    "uk": "Чи є скорочення молитви для подорожнього твердим обов'язком, чи полегшенням?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "قصر الصلاة الرباعية واجب على المسافر، والإتمام مكروه تحريماً إن قعد القعدة الأولى.",
         "en": "Shortening four-unit prayers is obligatory for the traveler; completing four units is prohibitively disliked.",
         "ru": "Сокращение четырехракаатной молитвы является обязательным для путника, а ее полное совершение греховно.",
-        "es": "Acortar la oración de cuatro rakʿas es obligatorio para el viajero, y completarla es desaconsejable con desaconsejo prohibitivo si se sentó en la primera sentada."
+        "es": "Acortar la oración de cuatro rakʿas es obligatorio para el viajero, y completarla es desaconsejable con desaconsejo prohibitivo si se sentó en la primera sentada.",
+        "uk": "Скорочення чотириракаатної молитви обов'язкове для подорожнього, а повне здійснення небажане з небажаністю, близькою до заборони, якщо він сів на першому сидінні."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "العناية",
           "en": "Al-ʿInāyah",
           "ru": "«Аль-Инайя»",
-          "es": "Al-ʿInāyah"
+          "es": "Al-ʿInāyah",
+          "uk": "«Аль-Інайя»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "قصر الصلاة الرباعية في السفر سنة مؤكدة وهو أفضل من الإتمام في السفر المبيح للقصر.",
         "en": "Shortening four-unit prayers during travel is an emphasized Sunnah, superior to completing them.",
         "ru": "Сокращение молитвы в путешествии является настоятельной сунной и предпочтительнее совершения полного намаза.",
-        "es": "Acortar la oración de cuatro rakʿas en el viaje es una sunna confirmada, y es mejor que completarla en el viaje que permite el acortamiento."
+        "es": "Acortar la oración de cuatro rakʿas en el viaje es una sunna confirmada, y es mejor que completarla en el viaje que permite el acortamiento.",
+        "uk": "Скорочення чотириракаатної молитви в дорозі — підтверджена сунна, і воно краще за повне здійснення в дорозі, що дозволяє скорочення."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "التاج والإكليل",
           "en": "Al-Tāj wa-al-Iklīl",
           "ru": "«Ат-Тадж ва-ль-Иклиль»",
-          "es": "Al-Tāj wa-al-Iklīl"
+          "es": "Al-Tāj wa-al-Iklīl",
+          "uk": "«Ат-Тадж ва-ль-Іклиль»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "القصر رخصة جائزة للمسافر والقصر أفضل إذا بلغت مسافة السفر ثلاث مراحل فأكثر.",
         "en": "Shortening is a permissible concession for travel; it is preferable if travel reaches three stages.",
         "ru": "Сокращение молитвы является дозволенным облегчением в пути, и оно предпочтительнее при длинных расстояниях.",
-        "es": "El acortamiento es una dispensa permitida para el viajero, y acortar es mejor si la distancia del viaje alcanza tres etapas o más."
+        "es": "El acortamiento es una dispensa permitida para el viajero, y acortar es mejor si la distancia del viaje alcanza tres etapas o más.",
+        "uk": "Скорочення — дозволене полегшення для подорожнього, і скорочення краще, якщо відстань подорожі сягає трьох переходів і більше."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "القصر رخصة مستحبة للمسافر والإتمام جائز مع الكراهة، والقصر أفضل.",
         "en": "Shortening is a recommended concession, completing is disliked, and shortening is superior.",
         "ru": "Сокращение является желательным облегчением, полное совершение нежелательно, а сокращение лучше.",
-        "es": "El acortamiento es una dispensa recomendable para el viajero, completar está permitido con desaconsejo, y acortar es mejor."
+        "es": "El acortamiento es una dispensa recomendable para el viajero, completar está permitido con desaconsejo, y acortar es mejor.",
+        "uk": "Скорочення — бажане полегшення для подорожнього, повне здійснення дозволене з небажаністю, а скорочення краще."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "مطالب أولي النهى",
           "en": "Maṭālib Ūlī al-Nuhā",
           "ru": "«Маталиб ули ан-Нуха»",
-          "es": "Maṭālib Ūlī al-Nuhā"
+          "es": "Maṭālib Ūlī al-Nuhā",
+          "uk": "«Маталіб улі ан-Нуха»"
         }
       ]
     }

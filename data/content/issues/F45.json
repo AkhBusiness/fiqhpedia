@@ -7,19 +7,22 @@
     "ar": "باب صفة الصلاة",
     "en": "Chapter of the Description of the Prayer",
     "ru": "Раздел об описании молитвы",
-    "es": "Capítulo de la descripción de la oración"
+    "es": "Capítulo de la descripción de la oración",
+    "uk": "Розділ про опис молитви"
   },
   "title": {
     "ar": "حكم صيغة تكبيرة الإحرام وما يقوم مقامها",
     "en": "Ruling on the wording of the opening takbir and what may replace it",
     "ru": "Постановление о формуле вступительного такбира и о том, что его заменяет",
-    "es": "Norma sobre la fórmula del takbir de apertura y lo que puede sustituirla"
+    "es": "Norma sobre la fórmula del takbir de apertura y lo que puede sustituirla",
+    "uk": "Постанова про формулу вступного такбіру і те, що його заміняє"
   },
   "summary": {
     "ar": "ما الصيغة المجزئة لتكبيرة الإحرام، وهل يجزئ غير لفظ التكبير؟",
     "en": "What wording suffices for the opening takbir, and does anything other than the takbir suffice?",
     "ru": "Какая формула достаточна для вступительного такбира и годится ли что-то, кроме него?",
-    "es": "¿Qué fórmula basta para el takbir de apertura, y sirve algo distinto del takbir?"
+    "es": "¿Qué fórmula basta para el takbir de apertura, y sirve algo distinto del takbir?",
+    "uk": "Яка формула достатня для вступного такбіру, і чи достатньо чогось іншого, крім слова такбіру?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "ينعقد الإحرام بكل لفظ تعظيم خالص كـ«الله أكبر» و«الله الأعظم» و«الحمد لله»، ولا يتعيّن لفظ التكبير.",
         "en": "The prayer is entered with any wording of pure magnification, such as «Allāhu akbar», «Allāhu al-aʿẓam», or «al-ḥamdu lillāh»; the takbir wording is not required.",
         "ru": "Вступление совершается любой формулой чистого возвеличивания — «Аллаху акбар», «Аллаху аль-аʿзам» или «аль-хамду лиллях»; именно такбир не обязателен.",
-        "es": "Se entra en la oración con cualquier fórmula de pura magnificación, como «Allāhu akbar», «Allāhu al-aʿẓam» o «al-ḥamdu lillāh»; no se exige el takbir."
+        "es": "Se entra en la oración con cualquier fórmula de pura magnificación, como «Allāhu akbar», «Allāhu al-aʿẓam» o «al-ḥamdu lillāh»; no se exige el takbir.",
+        "uk": "Вступ у молитву відбувається будь-якою формулою чистого звеличення, як «Аллагу акбар», «Аллагу аль-азам» і «аль-хамду ліллаг», і саме слово такбіру не є обов'язковим."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "تتعيّن تكبيرة الإحرام بلفظ «الله أكبر» لا غير، ولا تنعقد الصلاة بلفظ سواه.",
         "en": "The opening takbir is restricted to the wording «Allāhu akbar» alone, and the prayer is not entered with any other wording.",
         "ru": "Вступительный такбир ограничен формулой «Аллаху акбар» и ничем иным; иной формулой молитва не начинается.",
-        "es": "El takbir de apertura se limita a «Allāhu akbar» y a nada más; con otra fórmula la oración no comienza."
+        "es": "El takbir de apertura se limita a «Allāhu akbar» y a nada más; con otra fórmula la oración no comienza.",
+        "uk": "Вступний такбір визначений формулою «Аллагу акбар» і нічим іншим; молитва не починається іншою формулою."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يتعيّن لفظ «الله أكبر» أو «الله الأكبر»، ولا يجزئ غيرهما من الأذكار ولا الترجمة مع القدرة.",
         "en": "The wording is restricted to «Allāhu akbar» or «Allāhu al-akbar»; no other remembrance and no translation suffices for one able to say it.",
         "ru": "Формула ограничена «Аллаху акбар» или «Аллаху аль-акбар»; иные поминания и перевод не годятся для способного.",
-        "es": "La fórmula se limita a «Allāhu akbar» o «Allāhu al-akbar»; ningún otro dhikr ni traducción basta para quien puede decirla."
+        "es": "La fórmula se limita a «Allāhu akbar» o «Allāhu al-akbar»; ningún otro dhikr ni traducción basta para quien puede decirla.",
+        "uk": "Визначена формула «Аллагу акбар» або «Аллагу аль-акбар»; не достатньо ні інших поминань, ні перекладу для спроможного."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يتعيّن لفظ «الله أكبر» لا يجزئ غيره، ولا يقوم مقامه ذكر آخر ولا ترجمة مع القدرة.",
         "en": "The wording «Allāhu akbar» alone suffices; no other remembrance and no translation takes its place for one able to say it.",
         "ru": "Годится лишь формула «Аллаху акбар»; ни иное поминание, ни перевод её не заменяют для способного.",
-        "es": "Solo basta la fórmula «Allāhu akbar»; ningún otro dhikr ni traducción la sustituye para quien puede decirla."
+        "es": "Solo basta la fórmula «Allāhu akbar»; ningún otro dhikr ni traducción la sustituye para quien puede decirla.",
+        "uk": "Визначена формула «Аллагу акбар», і нічого іншого не достатньо; ні інше поминання, ні переклад не заміняють її для спроможного."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

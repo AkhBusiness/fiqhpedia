@@ -5,19 +5,22 @@
     "ar": "باب نقد النصوص المقدّسة",
     "en": "Chapter on the Criticism of Sacred Texts",
     "ru": "Раздел о критике священных текстов",
-    "es": "Capítulo sobre la crítica de los textos sagrados"
+    "es": "Capítulo sobre la crítica de los textos sagrados",
+    "uk": "Розділ про критику священних текстів"
   },
   "title": {
     "ar": "كيف تغيّرت التوراة والإنجيل في ضوء النقد النصّي؟",
     "en": "How the Torah and the Gospel changed, in the light of textual criticism",
     "ru": "Как изменялись Тора и Евангелие в свете текстологии",
-    "es": "Cómo cambiaron la Torá y el Evangelio a la luz de la crítica textual"
+    "es": "Cómo cambiaron la Torá y el Evangelio a la luz de la crítica textual",
+    "uk": "Як змінювалися Тора та Євангеліє у світлі текстології"
   },
   "excerpt": {
     "ar": "قراءة في مظاهر التغيير داخل العهدين القديم والجديد، مستندة إلى أدلة المخطوطات وإقرارات الباحثين الغربيين أنفسهم.",
     "en": "A reading of the changes within the Old and New Testaments, resting on manuscript evidence and on the admissions of Western scholars themselves.",
     "ru": "Обзор изменений в Ветхом и Новом Заветах, опирающийся на рукописные свидетельства и признания самих западных учёных.",
-    "es": "Una lectura de los cambios en el Antiguo y el Nuevo Testamento, apoyada en los manuscritos y en las admisiones de los propios estudiosos occidentales."
+    "es": "Una lectura de los cambios en el Antiguo y el Nuevo Testamento, apoyada en los manuscritos y en las admisiones de los propios estudiosos occidentales.",
+    "uk": "Огляд змін у Старому та Новому Заповітах, що спирається на рукописні свідчення та визнання самих західних учених."
   },
   "relatedRefs": [],
   "sections": [
@@ -33,7 +36,8 @@
         "ar": "دراسة تاريخ الكتب المقدّسة السابقة من منظور النقد النصّي والتاريخي تكشف حقائق موثّقة في المصادر اللاهوتية الغربية نفسها، تُثبت أن أسفار التوراة والإنجيل تعرّضت للتغيير عبر القرون.\n\nويعرض هذا المقال شواهد نصّية مباشرة من داخل العهدين القديم والجديد، ومن كتابات كبار علماء اللاهوت ومؤرّخي الكنيسة، ليبيّن كيف أدّى التدخّل البشري وانقطاع الأسانيد إلى ما وقع في هذه النصوص.",
         "en": "Studying the history of the earlier scriptures through textual and historical criticism uncovers facts documented in Western theological sources themselves, showing that the books of the Torah and the Gospel were altered across the centuries.\n\nThis article sets out direct textual evidence from within the Old and New Testaments, and from the writings of leading theologians and church historians, to show how human intervention and broken chains of transmission produced what these texts now contain.",
         "ru": "Изучение истории прежних Писаний методами текстологии и исторической критики открывает факты, задокументированные в самих западных богословских источниках и показывающие, что книги Торы и Евангелия изменялись на протяжении веков.\n\nВ статье приводятся прямые текстовые свидетельства из Ветхого и Нового Заветов, а также из трудов ведущих богословов и церковных историков, чтобы показать, как человеческое вмешательство и разрыв цепочек передачи привели к нынешнему состоянию этих текстов.",
-        "es": "El estudio de la historia de las escrituras anteriores mediante la crítica textual e histórica descubre hechos documentados en las propias fuentes teológicas occidentales, que muestran que los libros de la Torá y el Evangelio fueron alterados a lo largo de los siglos.\n\nEste artículo expone pruebas textuales directas del Antiguo y del Nuevo Testamento, y de los escritos de destacados teólogos e historiadores de la Iglesia, para mostrar cómo la intervención humana y la ruptura de las cadenas de transmisión produjeron lo que estos textos contienen hoy."
+        "es": "El estudio de la historia de las escrituras anteriores mediante la crítica textual e histórica descubre hechos documentados en las propias fuentes teológicas occidentales, que muestran que los libros de la Torá y el Evangelio fueron alterados a lo largo de los siglos.\n\nEste artículo expone pruebas textuales directas del Antiguo y del Nuevo Testamento, y de los escritos de destacados teólogos e historiadores de la Iglesia, para mostrar cómo la intervención humana y la ruptura de las cadenas de transmisión produjeron lo que estos textos contienen hoy.",
+        "uk": "Вивчення історії попередніх Писань методами текстології та історичної критики відкриває факти, задокументовані в самих західних богословських джерелах, які показують, що книги Тори та Євангелія змінювалися впродовж століть.\n\nУ статті наводяться прямі текстові свідчення зі Старого та Нового Заповітів, а також із праць провідних богословів і церковних істориків, щоб показати, як людське втручання і розрив ланцюгів передачі призвели до нинішнього стану цих текстів."
       }
     },
     {
@@ -42,13 +46,15 @@
         "ar": "التوراة وأدلّة النقد النصّي",
         "en": "The Torah and the evidence of textual criticism",
         "ru": "Тора и свидетельства текстологии",
-        "es": "La Torá y las pruebas de la crítica textual"
+        "es": "La Torá y las pruebas de la crítica textual",
+        "uk": "Тора та свідчення текстології"
       },
       "body": {
         "ar": "تذهب الدراسات النقدية الحديثة إلى أن التوراة لم يكتبها موسى عليه السلام بصورتها الحالية، بل هي ثمرة تجميع وتحرير من مصادر متعدّدة على مدى قرون، وهو ما يُعرف بالفرضية الوثائقية.\n\nويظهر التعارض الصريح في الأرقام بين أسفار العهد القديم: يذكر سفر صموئيل الثاني (٢٤: ١٣) أن سني المجاعة سبع، بينما يذكر سفر أخبار الأيام الأول (٢١: ١٢) للموقف نفسه أنها ثلاث. ويتكرّر مثل هذا الاختلاف في عدد الفرسان بين السفرين.\n\nويضاف إلى ذلك ما تقرّره المصادر التاريخية من انقطاع النقل بعد السبي البابلي سنة ٥٨٦ قبل الميلاد، وما نُسب إلى الكاهن عزرا من إعادة جمع الأسفار بعده بعقود.",
         "en": "Modern critical scholarship holds that the Torah was not written by Moses in its present form, but is the fruit of compilation and editing from several sources over centuries — what is known as the Documentary Hypothesis.\n\nOpen numerical disagreement appears between the books of the Old Testament: Second Samuel (24:13) gives seven years of famine, while First Chronicles (21:12) gives three for the very same episode. A similar divergence recurs in the number of horsemen reported in the two books.\n\nTo this the historical sources add the break in transmission after the Babylonian exile of 586 BCE, and what is attributed to the priest Ezra of regathering the books decades afterwards.",
         "ru": "Современная критическая наука полагает, что Тора в её нынешнем виде написана не Моисеем, а является плодом составления и редактирования нескольких источников на протяжении веков — это известно как документальная гипотеза.\n\nМежду книгами Ветхого Завета обнаруживается явное расхождение в числах: Вторая книга Царств (24:13) говорит о семи годах голода, а Первая книга Паралипоменон (21:12) — о трёх для того же события. Похожее расхождение повторяется в числе всадников.\n\nК этому исторические источники добавляют разрыв передачи после вавилонского пленения 586 года до н. э. и приписываемое священнику Ездре повторное собирание книг спустя десятилетия.",
-        "es": "La erudición crítica moderna sostiene que la Torá no fue escrita por Moisés en su forma actual, sino que es fruto de la compilación y edición de varias fuentes a lo largo de siglos: lo que se conoce como hipótesis documentaria.\n\nEntre los libros del Antiguo Testamento aparece un desacuerdo numérico abierto: Segundo de Samuel (24:13) da siete años de hambre, mientras Primero de Crónicas (21:12) da tres para el mismo episodio. Una divergencia semejante se repite en el número de jinetes.\n\nA ello las fuentes históricas añaden la ruptura de la transmisión tras el exilio babilónico del 586 a. C. y lo que se atribuye al sacerdote Esdras de reunir de nuevo los libros décadas después."
+        "es": "La erudición crítica moderna sostiene que la Torá no fue escrita por Moisés en su forma actual, sino que es fruto de la compilación y edición de varias fuentes a lo largo de siglos: lo que se conoce como hipótesis documentaria.\n\nEntre los libros del Antiguo Testamento aparece un desacuerdo numérico abierto: Segundo de Samuel (24:13) da siete años de hambre, mientras Primero de Crónicas (21:12) da tres para el mismo episodio. Una divergencia semejante se repite en el número de jinetes.\n\nA ello las fuentes históricas añaden la ruptura de la transmisión tras el exilio babilónico del 586 a. C. y lo que se atribuye al sacerdote Esdras de reunir de nuevo los libros décadas después.",
+        "uk": "Сучасна критична наука вважає, що Тора в її нинішньому вигляді написана не Мойсеєм — мир йому, — а є плодом укладання та редагування кількох джерел упродовж століть; це відомо як документальна гіпотеза.\n\nМіж книгами Старого Заповіту виявляється явна розбіжність у числах: Друга книга Самуїла (24:13) говорить про сім років голоду, а Перша книга Хронік (21:12) — про три для тієї самої події. Подібна розбіжність повторюється в числі вершників між цими книгами.\n\nДо цього історичні джерела додають розрив передачі після вавилонського полону 586 року до н. е. та приписуване священникові Ездрі повторне збирання книг через десятиліття."
       }
     },
     {
@@ -57,13 +63,15 @@
         "ar": "الأناجيل ومخطوطاتها",
         "en": "The Gospels and their manuscripts",
         "ru": "Евангелия и их рукописи",
-        "es": "Los Evangelios y sus manuscritos"
+        "es": "Los Evangelios y sus manuscritos",
+        "uk": "Євангелія та їхні рукописи"
       },
       "body": {
         "ar": "يُقرّ كبار علماء النقد النصّي في الغرب بأن المخطوطات اليونانية للأناجيل تحوي آلاف الاختلافات والزيادات التي أدخلها النسّاخ في القرون المتأخّرة.\n\nومن أشهر ذلك **فاصلة يوحنا** في رسالة يوحنا الأولى (٥: ٧–٨)، وهي النصّ الذي استُند إليه في التثليث. ويتّفق الباحثون على أنها إقحام لاتيني متأخّر لا وجود له في أقدم المخطوطات اليونانية، ولذلك حُذفت من الترجمات النقدية الحديثة.\n\nوتؤكّد الهوامش النقدية في الطبعات المعاصرة أن قصة المرأة الزانية في إنجيل يوحنا (٧: ٥٣ – ٨: ١١)، وخاتمة إنجيل مرقس (١٦: ٩–٢٠)، غائبتان عن أقدم المخطوطات كالسينائية والفاتيكانية.",
         "en": "Leading textual critics in the West acknowledge that the Greek manuscripts of the Gospels carry thousands of variants and additions introduced by copyists in later centuries.\n\nThe best known is the **Johannine Comma** in the First Epistle of John (5:7–8), the text long relied upon for the Trinity. Scholars agree it is a late Latin insertion with no presence in the oldest Greek manuscripts, and it has accordingly been dropped from modern critical translations.\n\nCritical footnotes in contemporary editions confirm that the account of the adulterous woman in John (7:53 – 8:11), and the ending of Mark (16:9–20), are absent from the oldest manuscripts such as Sinaiticus and Vaticanus.",
         "ru": "Ведущие текстологи Запада признают, что греческие рукописи Евангелий несут тысячи разночтений и добавлений, внесённых переписчиками в поздние века.\n\nСамый известный пример — **Иоаннова вставка** в Первом послании Иоанна (5:7–8), текст, на который долго опирались в учении о Троице. Учёные согласны, что это поздняя латинская вставка, отсутствующая в древнейших греческих рукописях, и потому она исключена из современных критических переводов.\n\nКритические примечания в современных изданиях подтверждают, что рассказ о женщине, взятой в прелюбодеянии, у Иоанна (7:53 – 8:11) и концовка Марка (16:9–20) отсутствуют в древнейших рукописях — Синайской и Ватиканской.",
-        "es": "Los principales críticos textuales de Occidente reconocen que los manuscritos griegos de los Evangelios contienen miles de variantes y añadidos introducidos por los copistas en siglos posteriores.\n\nEl caso más conocido es la **Coma Joánica** en la Primera Epístola de Juan (5:7–8), el texto en que largamente se apoyó la Trinidad. Los estudiosos coinciden en que es una inserción latina tardía, ausente de los manuscritos griegos más antiguos, y por ello se ha suprimido de las traducciones críticas modernas.\n\nLas notas críticas de las ediciones contemporáneas confirman que el relato de la mujer adúltera en Juan (7:53 – 8:11) y el final de Marcos (16:9–20) faltan en los manuscritos más antiguos, como el Sinaítico y el Vaticano."
+        "es": "Los principales críticos textuales de Occidente reconocen que los manuscritos griegos de los Evangelios contienen miles de variantes y añadidos introducidos por los copistas en siglos posteriores.\n\nEl caso más conocido es la **Coma Joánica** en la Primera Epístola de Juan (5:7–8), el texto en que largamente se apoyó la Trinidad. Los estudiosos coinciden en que es una inserción latina tardía, ausente de los manuscritos griegos más antiguos, y por ello se ha suprimido de las traducciones críticas modernas.\n\nLas notas críticas de las ediciones contemporáneas confirman que el relato de la mujer adúltera en Juan (7:53 – 8:11) y el final de Marcos (16:9–20) faltan en los manuscritos más antiguos, como el Sinaítico y el Vaticano.",
+        "uk": "Провідні текстологи Заходу визнають, що грецькі рукописи Євангелій містять тисячі різночитань і додавань, внесених переписувачами в пізні століття.\n\nНайвідоміший приклад — **Іоаннова вставка** в Першому посланні Іоанна (5:7–8), текст, на який спиралися у вченні про Трійцю. Учені згодні, що це пізня латинська вставка, відсутня в найдавніших грецьких рукописах, і тому її вилучено із сучасних критичних перекладів.\n\nКритичні примітки в сучасних виданнях підтверджують, що оповідь про жінку, взяту в перелюбі, в Іоанна (7:53 – 8:11) і кінцівка Марка (16:9–20) відсутні в найдавніших рукописах — Синайському та Ватиканському."
       }
     },
     {
@@ -72,13 +80,15 @@
         "ar": "التعارض بين الأناجيل",
         "en": "Disagreement among the Gospels",
         "ru": "Расхождения между Евангелиями",
-        "es": "Discrepancias entre los Evangelios"
+        "es": "Discrepancias entre los Evangelios",
+        "uk": "Розбіжності між Євангеліями"
       },
       "body": {
         "ar": "تتضمّن الأناجيل الأربعة تعارضاً تاريخياً ونصّياً صريحاً. فنسب يوسف النجّار عند متّى (١: ١–١٦) يمرّ بسليمان في ستّة وعشرين جيلاً، وعند لوقا (٣: ٢٣–٣٨) يمرّ بناثان في واحد وأربعين جيلاً.\n\nوتختلف الأناجيل كذلك في آخر ما نُسب إلى المسيح عليه السلام على الصليب: ففي متّى ومرقس نداء الاستغاثة، وفي لوقا استيداع الروح، وفي يوحنا كلمة الإتمام. وثلاثتها لا تجتمع في موقف واحد.",
         "en": "The four Gospels carry open historical and textual disagreement. Joseph's lineage in Matthew (1:1–16) runs through Solomon in twenty-six generations; in Luke (3:23–38) it runs through Nathan in forty-one.\n\nThe Gospels also differ over the last words attributed to Christ on the cross: in Matthew and Mark a cry of forsakenness, in Luke the committing of the spirit, in John a word of completion. The three cannot stand together in a single scene.",
         "ru": "Четыре Евангелия несут явное историческое и текстовое расхождение. Родословие Иосифа у Матфея (1:1–16) идёт через Соломона в двадцати шести поколениях, а у Луки (3:23–38) — через Нафана в сорока одном.\n\nЕвангелия расходятся и в последних словах, приписанных Христу на кресте: у Матфея и Марка — возглас оставленности, у Луки — предание духа, у Иоанна — слово о совершении. Все три не могут сойтись в одной сцене.",
-        "es": "Los cuatro Evangelios presentan un desacuerdo histórico y textual abierto. La genealogía de José en Mateo (1:1–16) pasa por Salomón en veintiséis generaciones; en Lucas (3:23–38) pasa por Natán en cuarenta y una.\n\nLos Evangelios difieren también en las últimas palabras atribuidas a Cristo en la cruz: en Mateo y Marcos un grito de abandono, en Lucas la entrega del espíritu, en Juan una palabra de consumación. Las tres no caben en una misma escena."
+        "es": "Los cuatro Evangelios presentan un desacuerdo histórico y textual abierto. La genealogía de José en Mateo (1:1–16) pasa por Salomón en veintiséis generaciones; en Lucas (3:23–38) pasa por Natán en cuarenta y una.\n\nLos Evangelios difieren también en las últimas palabras atribuidas a Cristo en la cruz: en Mateo y Marcos un grito de abandono, en Lucas la entrega del espíritu, en Juan una palabra de consumación. Las tres no caben en una misma escena.",
+        "uk": "Чотири Євангелія містять явну історичну та текстову розбіжність. Родовід Йосипа-теслі в Матвія (1:1–16) проходить через Соломона у двадцяти шести поколіннях, а в Луки (3:23–38) — через Натана в сорока одному.\n\nЄвангелія розходяться і в останніх словах, приписаних Христу — мир йому — на хресті: у Матвія та Марка — вигук благання, у Луки — передання духу, в Іоанна — слово про звершення. Усі три не можуть зійтися в одній сцені."
       }
     },
     {
@@ -87,13 +97,15 @@
         "ar": "مجهولية المؤلّفين وفقدان اللغة الأصلية",
         "en": "Anonymous authorship and the lost original tongue",
         "ru": "Анонимность авторов и утрата исходного языка",
-        "es": "Autoría anónima y pérdida de la lengua original"
+        "es": "Autoría anónima y pérdida de la lengua original",
+        "uk": "Анонімність авторів і втрата первісної мови"
       },
       "body": {
         "ar": "تقرّر المصادر التاريخية الغربية أن الأناجيل الأربعة كُتبت أصلاً بلا أسماء مؤلّفين، وأن أسماء متّى ومرقس ولوقا ويوحنا أُلحقت بها في القرن الثاني للميلاد.\n\nويضاف إلى ذلك أن المسيح عليه السلام تكلّم بالآرامية، بينما دُوّنت أناجيل العهد الجديد كلها باليونانية بعد عقود من رفعه. فالنصّ باللسان الذي نطق به لم يصل إلينا منه شيء.",
         "en": "Western historical scholarship holds that the four Gospels were originally written without authors' names, and that the names Matthew, Mark, Luke, and John were attached to them in the second century.\n\nTo this may be added that Jesus spoke Aramaic, while the Gospels of the New Testament were all set down in Greek decades after him. Of the text in the tongue he actually spoke, nothing has reached us.",
         "ru": "Западная историческая наука полагает, что четыре Евангелия изначально были написаны без имён авторов, а имена Матфея, Марка, Луки и Иоанна были присвоены им во втором веке.\n\nК этому добавим, что Иисус говорил по-арамейски, тогда как все Евангелия Нового Завета были записаны по-гречески спустя десятилетия. От текста на том языке, на котором он говорил, до нас не дошло ничего.",
-        "es": "La erudición histórica occidental sostiene que los cuatro Evangelios se escribieron en origen sin nombres de autor, y que los nombres de Mateo, Marcos, Lucas y Juan les fueron adjudicados en el siglo II.\n\nA ello se añade que Jesús habló arameo, mientras que los Evangelios del Nuevo Testamento se pusieron por escrito en griego décadas después. Del texto en la lengua que él habló no nos ha llegado nada."
+        "es": "La erudición histórica occidental sostiene que los cuatro Evangelios se escribieron en origen sin nombres de autor, y que los nombres de Mateo, Marcos, Lucas y Juan les fueron adjudicados en el siglo II.\n\nA ello se añade que Jesús habló arameo, mientras que los Evangelios del Nuevo Testamento se pusieron por escrito en griego décadas después. Del texto en la lengua que él habló no nos ha llegado nada.",
+        "uk": "Західні історичні джерела встановлюють, що чотири Євангелія від початку були написані без імен авторів, а імена Матвія, Марка, Луки та Іоанна були додані до них у другому столітті.\n\nДо цього додамо, що Христос — мир йому — говорив арамейською, тоді як усі Євангелія Нового Заповіту були записані грецькою через десятиліття після його вознесіння. Від тексту тією мовою, якою він говорив, до нас не дійшло нічого."
       }
     },
     {
@@ -102,13 +114,15 @@
         "ar": "خاتمة",
         "en": "Conclusion",
         "ru": "Заключение",
-        "es": "Conclusión"
+        "es": "Conclusión",
+        "uk": "Висновок"
       },
       "body": {
         "ar": "تجتمع أدلّة المخطوطات والنقد النصّي على إقرار أكاديمي ولاهوتي بوقوع التغيير والتعارض في أسفار العهدين. وهو ما يوضّح، في نظر المسلم، الحاجة إلى كتاب محفوظ بحفظ إلهي لا تعتريه هذه العلل، وهو القرآن الكريم.",
         "en": "The manuscript evidence and the work of textual criticism converge on an academic and theological acknowledgement that change and disagreement entered the books of both Testaments. This, in the Muslim's view, makes plain the need for a scripture kept by divine preservation and free of such defects: the Qur'an.",
         "ru": "Рукописные свидетельства и труды текстологов сходятся в академическом и богословском признании того, что в книги обоих Заветов вошли изменения и расхождения. Для мусульманина это и объясняет нужду в Писании, хранимом божественным хранением и свободном от таких изъянов, — в Коране.",
-        "es": "Las pruebas manuscritas y el trabajo de la crítica textual convergen en un reconocimiento académico y teológico de que el cambio y la discrepancia entraron en los libros de ambos Testamentos. Esto, a ojos del musulmán, deja clara la necesidad de una escritura guardada por preservación divina y libre de tales defectos: el Corán."
+        "es": "Las pruebas manuscritas y el trabajo de la crítica textual convergen en un reconocimiento académico y teológico de que el cambio y la discrepancia entraron en los libros de ambos Testamentos. Esto, a ojos del musulmán, deja clara la necesidad de una escritura guardada por preservación divina y libre de tales defectos: el Corán.",
+        "uk": "Рукописні свідчення та праці текстологів сходяться в академічному та богословському визнанні того, що в книги обох Заповітів увійшли зміни та розбіжності. Для мусульманина це і пояснює потребу в Писанні, збереженому божественним збереженням і вільному від таких вад, — у Священному Корані."
       }
     }
   ],
@@ -117,25 +131,29 @@
       "ar": "تفسير ابن كثير",
       "en": "Tafsīr Ibn Kathīr",
       "ru": "«Тафсир Ибн Касира»",
-      "es": "Tafsīr Ibn Kathīr"
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
     },
     {
       "ar": "البداية والنهاية",
       "en": "Al-Bidāyah wa-al-Nihāyah",
       "ru": "«Аль-Бидая ва-н-Нихая»",
-      "es": "Al-Bidāyah wa-al-Nihāyah"
+      "es": "Al-Bidāyah wa-al-Nihāyah",
+      "uk": "«Аль-Бідая ва-н-Ніхая»"
     },
     {
       "ar": "إظهار الحق",
       "en": "Iẓhār al-Ḥaqq",
       "ru": "«Изхар аль-Хакк»",
-      "es": "Iẓhār al-Ḥaqq"
+      "es": "Iẓhār al-Ḥaqq",
+      "uk": "«Ізхар аль-Хакк»"
     },
     {
       "ar": "الجواب الصحيح",
       "en": "Al-Jawāb al-Ṣaḥīḥ",
       "ru": "«Аль-Джаваб ас-Сахих»",
-      "es": "Al-Jawāb al-Ṣaḥīḥ"
+      "es": "Al-Jawāb al-Ṣaḥīḥ",
+      "uk": "«Аль-Джаваб ас-Сахіх»"
     }
   ]
 }

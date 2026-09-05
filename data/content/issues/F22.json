@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم الماء الطهور المتغير بطاهر لم يخرجه عن طبيعته",
     "en": "Ruling on tahur water altered by a pure substance that keeps its nature",
     "ru": "Постановление о воде тахур, изменённой чистым веществом без утраты её природы",
-    "es": "Norma sobre el agua tahur alterada por una sustancia pura que conserva su naturaleza"
+    "es": "Norma sobre el agua tahur alterada por una sustancia pura que conserva su naturaleza",
+    "uk": "Постанова про очищувальну воду, змінену чистою речовиною, що не вивела її з природного стану"
   },
   "summary": {
     "ar": "هل يبطل التطهير بالماء المتغير بطاهر لا يخرجه عن طبيعته كالتراب؟",
     "en": "Is purification invalidated by water altered by a pure substance, such as dust, that keeps its nature?",
     "ru": "Утрачивает ли вода пригодность для очищения, изменившись чистым веществом вроде пыли, сохранив свою природу?",
-    "es": "¿Se invalida la purificación con agua alterada por una sustancia pura, como la tierra, que conserva su naturaleza?"
+    "es": "¿Se invalida la purificación con agua alterada por una sustancia pura, como la tierra, que conserva su naturaleza?",
+    "uk": "Чи стає недійсним очищення водою, зміненою чистою речовиною, що не виводить її з природного стану, як-от земля?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يصح التوضؤ بالماء المتغير بالتراب والملح المائي وما يقع فيه اتفاقاً كأوراق الشجر لعدم سلبه اسم الماء المطلق.",
         "en": "Ablution is valid with water altered by dust, water-formed salt, or leaves fallen into it by chance, since the name of absolute water remains.",
         "ru": "Омовение действительно водой, изменённой пылью, солью водного происхождения или случайно упавшими листьями, поскольку название абсолютной воды сохраняется.",
-        "es": "La ablución es válida con agua alterada por tierra, sal de origen acuático u hojas caídas por azar, pues conserva el nombre de agua absoluta."
+        "es": "La ablución es válida con agua alterada por tierra, sal de origen acuático u hojas caídas por azar, pues conserva el nombre de agua absoluta.",
+        "uk": "Омовіння дійсне водою, зміненою землею, кам'яною сіллю або тим, що потрапляє в неї випадково, як листя дерев, бо це не позбавляє її назви абсолютної води."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يبقى الماء طهوراً إذا تغيّر بالتراب أو الملح المائي أو بما يقع فيه اتفاقاً كالورق، ويرفع الحدث ويزيل الخبث.",
         "en": "Water stays tahur when altered by dust, water-formed salt, or leaves fallen by chance, and it still removes hadath and impurity.",
         "ru": "Вода остаётся тахур при изменении пылью, солью водного происхождения или случайно упавшими листьями и по-прежнему устраняет хадас и скверну.",
-        "es": "El agua sigue siendo tahur si la altera la tierra, la sal de origen acuático u hojas caídas por azar, y aún elimina el hadath y la impureza."
+        "es": "El agua sigue siendo tahur si la altera la tierra, la sal de origen acuático u hojas caídas por azar, y aún elimina el hadath y la impureza.",
+        "uk": "Вода залишається очищувальною, якщо змінилася землею, кам'яною сіллю або тим, що потрапляє в неї випадково, як листя; вона знімає хадас і усуває скверну."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "لا يضر تغيّر الماء بالتراب والملح المائي وما يقع فيه اتفاقاً كأوراق الشجر، ويظل طهوراً يرفع الحدث ويزيل النجاسة.",
         "en": "Alteration by dust, water-formed salt, or leaves fallen by chance does no harm; the water stays tahur, removing hadath and najasah.",
         "ru": "Изменение пылью, солью водного происхождения или случайно упавшими листьями не вредит: вода остаётся тахур, устраняя хадас и наджасу.",
-        "es": "La alteración por tierra, sal de origen acuático u hojas caídas por azar no perjudica: el agua sigue siendo tahur y elimina el hadath y la najasah."
+        "es": "La alteración por tierra, sal de origen acuático u hojas caídas por azar no perjudica: el agua sigue siendo tahur y elimina el hadath y la najasah.",
+        "uk": "Не шкодить зміна води землею, кам'яною сіллю та тим, що потрапляє в неї випадково, як листя дерев; вона залишається очищувальною, знімає хадас і усуває нечистоту."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يظل الماء طهوراً يرفع الحدث ويزيل النجاسة إذا تغيّر بما لا يمازجه كالتراب والملح المائي وما يقع فيه اتفاقاً.",
         "en": "Water stays tahur, removing hadath and najasah, when altered by what does not blend into it, such as dust, water-formed salt, or what falls in by chance.",
         "ru": "Вода остаётся тахур, устраняя хадас и наджасу, если изменилась тем, что с ней не смешивается: пылью, солью водного происхождения или случайно попавшим.",
-        "es": "El agua sigue siendo tahur, y elimina el hadath y la najasah, si la altera algo que no se mezcla con ella: tierra, sal de origen acuático o lo que cae por azar."
+        "es": "El agua sigue siendo tahur, y elimina el hadath y la najasah, si la altera algo que no se mezcla con ella: tierra, sal de origen acuático o lo que cae por azar.",
+        "uk": "Вода залишається очищувальною, знімає хадас і усуває нечистоту, якщо змінилася тим, що з нею не змішується, як земля, кам'яна сіль і те, що потрапляє в неї випадково."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

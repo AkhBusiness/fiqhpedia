@@ -7,19 +7,22 @@
     "ar": "باب الاستنجاء",
     "en": "Chapter of Cleansing after Relief (Istinjā’)",
     "ru": "Раздел об очищении после нужды (истинджа)",
-    "es": "Capítulo de la limpieza tras las necesidades (istinŷāʾ)"
+    "es": "Capítulo de la limpieza tras las necesidades (istinŷāʾ)",
+    "uk": "Розділ про очищення після потреби (істінджа)"
   },
   "title": {
     "ar": "حكم الاستجمار بالمنديل والأوراق الحديثة",
     "en": "The ruling on cleansing with tissue and modern paper (istijmār)",
     "ru": "Постановление об очищении салфеткой и современной бумагой",
-    "es": "La norma sobre la limpieza con pañuelos y papel modernos (istiŷmār)"
+    "es": "La norma sobre la limpieza con pañuelos y papel modernos (istijmār)",
+    "uk": "Постанова про очищення серветками та сучасним папером (істіджмар)"
   },
   "summary": {
     "ar": "هل يجزئ الاستجمار بالمناديل والأوراق بدلاً من الماء؟",
     "en": "Does cleansing with tissues and paper suffice instead of water?",
     "ru": "Достаточно ли очищения салфетками и бумагой вместо воды?",
-    "es": "¿Basta la limpieza con pañuelos y papel en lugar del agua?"
+    "es": "¿Basta la limpieza con pañuelos y papel en lugar del agua?",
+    "uk": "Чи достатньо очищення серветками та папером замість води?"
   },
   "rulings": {
     "hanafi": {
@@ -27,14 +30,16 @@
         "ar": "يجزئ الاستجمار بكل طاهرٍ منقٍّ كالمناديل والورق، ويُسن الإيتار، والأفضل الجمع بينه وبين الماء.",
         "en": "Cleansing with any pure, cleaning material such as tissue and paper suffices; making the count odd is recommended, and combining it with water is best.",
         "ru": "Очищение любым чистым очищающим средством, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее.",
-        "es": "Basta la limpieza con todo material puro y limpiador, como los pañuelos y el papel; es sunna hacerlo en número impar, y lo mejor es combinarlo con el agua."
+        "es": "Basta la limpieza con todo material puro y limpiador, como los pañuelos y el papel; es sunna hacerlo en número impar, y lo mejor es combinarlo con el agua.",
+        "uk": "Достатньо очищення будь-яким чистим очищувальним засобом, як серветки та папір; непарність є сунною, а найкраще поєднати його з водою."
       },
       "sources": [
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         }
       ]
     },
@@ -43,14 +48,16 @@
         "ar": "يجزئ الاستجمار بالجامد الطاهر المنقي كالورق إذا لم يتعدَّ الخارج موضعه المعتاد.",
         "en": "Cleansing with a solid, pure, cleaning material such as paper suffices, provided the excretion does not spread beyond its usual place.",
         "ru": "Очищение твёрдым чистым очищающим средством, как бумага, достаточно, если выделение не вышло за обычное место.",
-        "es": "Basta la limpieza con un sólido puro y limpiador como el papel, siempre que lo expulsado no sobrepase su lugar habitual."
+        "es": "Basta la limpieza con un sólido puro y limpiador como el papel, siempre que lo expulsado no sobrepase su lugar habitual.",
+        "uk": "Достатньо очищення твердим чистим очищувальним засобом, як папір, якщо виділення не вийшло за своє звичне місце."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         }
       ]
     },
@@ -59,14 +66,16 @@
         "ar": "يشترط في الاستجمار ثلاث مسحاتٍ منقيةٍ بجامدٍ طاهرٍ كالمناديل، ولا يجزئ المبلل ولا المتنجس.",
         "en": "Cleansing requires three cleaning wipes with a solid, pure material such as tissue; a moist or impure item does not suffice.",
         "ru": "Для очищения требуется три очищающих протирания твёрдым чистым средством, как салфетки; влажное или нечистое не годится.",
-        "es": "Se exige en la limpieza tres pasadas limpiadoras con un sólido puro como los pañuelos; no basta lo húmedo ni lo impuro."
+        "es": "Se exige en la limpieza tres pasadas limpiadoras con un sólido puro como los pañuelos; no basta lo húmedo ni lo impuro.",
+        "uk": "Для очищення вимагається три очищувальні протирання твердим чистим засобом, як серветки; вологе чи нечисте не годиться."
       },
       "sources": [
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
           "ru": "«Тухфат аль-Мухтадж»",
-          "es": "Tuḥfat al-Muḥtāj"
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
         }
       ]
     },
@@ -75,14 +84,16 @@
         "ar": "يجزئ الاستجمار بثلاثة أحجارٍ أو ما يقوم مقامها كالمناديل الطاهرة، بشرط الإنقاء والإيتار وعدم تجاوز النجو موضعه.",
         "en": "Cleansing suffices with three stones or their equivalent such as pure tissues, on condition of cleanliness, odd count, and the excretion not spreading beyond its place.",
         "ru": "Очищение достаточно тремя камнями или их заменой, как чистые салфетки, при условии чистоты, нечётности и невыхода выделения за его место.",
-        "es": "Basta la limpieza con tres piedras o lo que las sustituya, como los pañuelos puros, a condición de dejar limpio, hacerlo en número impar y que lo expulsado no sobrepase su lugar."
+        "es": "Basta la limpieza con tres piedras o lo que las sustituya, como los pañuelos puros, a condición de dejar limpio, hacerlo en número impar y que lo expulsado no sobrepase su lugar.",
+        "uk": "Достатньо очищення трьома каменями або тим, що їх заміняє, як чисті серветки, за умови повного очищення, непарності та невиходу виділення за його місце."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         }
       ]
     }

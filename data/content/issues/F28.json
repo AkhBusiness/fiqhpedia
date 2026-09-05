@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم غمس يد القائم من نوم الليل في الإناء",
     "en": "Ruling on dipping the hand into a vessel on waking from sleep",
     "ru": "Постановление о погружении руки в сосуд после пробуждения от сна",
-    "es": "Norma sobre sumergir la mano en el recipiente al despertar del sueño"
+    "es": "Norma sobre sumergir la mano en el recipiente al despertar del sueño",
+    "uk": "Постанова про занурення руки в посудину тим, хто прокинувся від нічного сну"
   },
   "summary": {
     "ar": "هل يضرّ غمس يد القائم من نوم الليل في الماء القليل قبل غسلها ثلاثاً؟",
     "en": "Does dipping the hand into a small quantity of water on waking, before washing it three times, harm the water?",
     "ru": "Вредит ли воде погружение руки в малое её количество после пробуждения, до троекратного мытья?",
-    "es": "¿Perjudica al agua escasa sumergir la mano al despertar, antes de lavarla tres veces?"
+    "es": "¿Perjudica al agua escasa sumergir la mano al despertar, antes de lavarla tres veces?",
+    "uk": "Чи шкодить занурення руки того, хто прокинувся від нічного сну, в малу воду до триразового її миття?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يكره غمس يد القائم من النوم في الإناء قبل غسلها ثلاثاً، ولا ينجس الماء ولا تُسلب طهوريته.",
         "en": "Dipping the hand into the vessel on waking, before washing it three times, is disliked; the water is neither made impure nor stripped of its purifying power.",
         "ru": "Погружение руки в сосуд после сна до троекратного мытья нежелательно; вода не становится нечистой и не теряет очищающей силы.",
-        "es": "Sumergir la mano en el recipiente al despertar, antes de lavarla tres veces, se detesta; el agua ni se vuelve impura ni pierde su poder purificador."
+        "es": "Sumergir la mano en el recipiente al despertar, antes de lavarla tres veces, se detesta; el agua ni se vuelve impura ni pierde su poder purificador.",
+        "uk": "Небажано занурювати руку в посудину тому, хто прокинувся від сну, до триразового її миття; вода не стає нечистою і не втрачає очищувальності."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يُندب غسل اليدين قبل إدخالهما الإناء للقائم من النوم، ولا ينجس الماء إلا بتحقّق النجاسة.",
         "en": "Washing the hands before putting them into the vessel is recommended on waking, and the water is not made impure unless an impurity is certain.",
         "ru": "Желательно вымыть руки перед погружением их в сосуд после сна; вода не становится нечистой, пока нечистота не установлена достоверно.",
-        "es": "Se recomienda lavarse las manos antes de meterlas en el recipiente al despertar; el agua no se vuelve impura salvo que la impureza sea cierta."
+        "es": "Se recomienda lavarse las manos antes de meterlas en el recipiente al despertar; el agua no se vuelve impura salvo que la impureza sea cierta.",
+        "uk": "Бажано вимити руки перед зануренням їх у посудину тому, хто прокинувся від сну; вода не стає нечистою, доки нечистота не встановлена достовірно."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يكره للقائم من النوم غمس يده في الإناء قبل غسلها ثلاثاً، ولا يصير الماء مستعملاً بذلك.",
         "en": "It is disliked for one waking from sleep to dip his hand into the vessel before washing it three times, and the water does not thereby become used water.",
         "ru": "Пробудившемуся нежелательно погружать руку в сосуд до троекратного мытья, и вода от этого не становится использованной.",
-        "es": "Se detesta que quien despierta sumerja la mano en el recipiente antes de lavarla tres veces, y el agua no pasa por ello a ser agua usada."
+        "es": "Se detesta que quien despierta sumerja la mano en el recipiente antes de lavarla tres veces, y el agua no pasa por ello a ser agua usada.",
+        "uk": "Тому, хто прокинувся від сну, небажано занурювати руку в посудину до триразового її миття, і вода від цього не стає використаною."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يكره غمس القائم من نوم الليل يده في الماء القليل قبل غسلها ثلاثاً، ويصير الماء طاهراً لا يرفع الحدث.",
         "en": "It is disliked for one waking from night sleep to dip his hand into a small quantity of water before washing it three times, and the water becomes pure but no longer removes hadath.",
         "ru": "Проснувшемуся после ночного сна нежелательно погружать руку в малую воду до троекратного мытья, и вода становится чистой, но хадас не устраняет.",
-        "es": "Se detesta que quien despierta del sueño nocturno sumerja la mano en agua escasa antes de lavarla tres veces, y el agua queda pura pero ya no elimina el hadath."
+        "es": "Se detesta que quien despierta del sueño nocturno sumerja la mano en agua escasa antes de lavarla tres veces, y el agua queda pura pero ya no elimina el hadath.",
+        "uk": "Тому, хто прокинувся від нічного сну, небажано занурювати руку в малу воду до триразового її миття, і вода стає чистою, що не знімає хадасу."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

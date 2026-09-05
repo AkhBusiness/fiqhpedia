@@ -1,157 +1,157 @@
 {
- "ref": "F52",
- "id": "sawm-4",
- "bookId": "sawm",
- "seq": 5,
- "chapter": {
-  "ar": "وجوب الصيام ورؤية الهلال",
-  "en": "The Obligation of Fasting and Sighting the Crescent",
-  "ru": "Обязательность поста и наблюдение полумесяца",
-  "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
-  "uk": "Обов'язковість посту та спостереження півмісяця"
- },
- "title": {
-  "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
-  "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
-  "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
-  "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
-  "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
- },
- "summary": {
-  "ar": "هل يجوز الاعتماد على الحسابات الفلكية وحدها في إثبات دخول شهر رمضان أم تشترط الرؤية البصرية؟",
-  "en": "Is it permissible to rely solely on astronomical calculations to confirm the entry of Ramadan, or is visual sighting required?",
-  "ru": "Допустимо ли полагаться исключительно на астрономические расчеты для подтверждения вступления Рамадана, или требуется визуальное наблюдение?",
-  "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
-  "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
- },
- "rulings": {
-  "hanafi": {
-   "text": {
-    "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحسابين.",
-    "en": "Astronomical calculation is not relied upon to confirm crescents; rather, the standard is visual sighting based on the Prophet's saying: \"Fast upon seeing it and break fast upon seeing it,\" and the words of astronomers are disregarded.",
-    "ru": "Астрономические расчеты не учитываются при установлении полумесяцев; значение имеет визуальное наблюдение на основе слов Пророка, а слова астрономов не принимаются во внимание.",
-    "es": "No se confía en el cálculo astronómico para confirmar las lunas nuevas; la norma es la observación visual basada en las palabras del Profeta, y se ignoran las palabras de los astrónomos.",
-    "uk": "Астрономічні розрахунки не беруться до уваги при встановленні півмісяців; значення має візуальне спостереження на основі слів Пророка, а слова астрономів до уваги не беруться."
-   },
-   "sources": [
-    {
-     "ar": "الهداية",
-     "en": "Al-Hidāyah",
-     "ru": "«Аль-Хидая»",
-     "es": "Al-Hidāyah",
-     "uk": "«Аль-Хідая»"
-    },
-    {
-     "ar": "رد المحتار",
-     "en": "Radd al-Muḥtār",
-     "ru": "«Радд аль-Мухтар»",
-     "es": "Radd al-Muḥtār",
-     "uk": "«Радд аль-Мухтар»"
-    },
-    {
-     "ar": "تبيين الحقائق",
-     "en": "Tabyīn al-Ḥaqāʾiq",
-     "ru": "«Табйин аль-Хакаик»",
-     "es": "Tabyīn al-Ḥaqāʾiq",
-     "uk": "«Табйін аль-Хакаїк»"
-    }
-   ]
+  "ref": "F52",
+  "id": "sawm-4",
+  "bookId": "sawm",
+  "seq": 5,
+  "chapter": {
+    "ar": "وجوب الصيام ورؤية الهلال",
+    "en": "The Obligation of Fasting and Sighting the Crescent",
+    "ru": "Обязательность поста и наблюдение полумесяца",
+    "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+    "uk": "Обов'язковість посту та спостереження півмісяця"
   },
-  "maliki": {
-   "text": {
-    "ar": "لا يلتفت إلى قول الحسابين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان، والمطالب الشرعية متعلقة بالرؤية بالعين أو إتمام العدة.",
-    "en": "The statements of calculators are ignored, and astronomical calculations are not used to establish Ramadan; legal demands are linked to visual sighting or completing the count.",
-    "ru": "Слова вычислителей игнорируются, и астрономические расчеты не используются для установления Рамадана; шариатские требования связаны с визуальным наблюдением или завершением счета.",
-    "es": "Las declaraciones de los calculadores se ignoran y no se recurre al cálculo astronómico para establecer Ramadán; las exigencias legales están ligadas a la observación visual o completar la cuenta.",
-    "uk": "Слова обчислювачів ігноруються, і астрономічні розрахунки не використовуються для встановлення Рамадану; шаріатські вимоги пов'язані з візуальним спостереженням або завершенням рахунку."
-   },
-   "sources": [
-    {
-     "ar": "المدونة",
-     "en": "Al-Mudawwanah",
-     "ru": "«Аль-Мудаввана»",
-     "es": "Al-Mudawwanah",
-     "uk": "«Аль-Мудаввана»"
-    },
-    {
-     "ar": "الشرح الكبير",
-     "en": "Al-Sharḥ al-Kabīr",
-     "ru": "«Аш-Шарх аль-Кабир»",
-     "es": "Al-Sharḥ al-Kabīr",
-     "uk": "«Аш-Шарх аль-Кабір»"
-    },
-    {
-     "ar": "مواهب الجليل",
-     "en": "Mawāhib al-Jalīl",
-     "ru": "«Мавахиб аль-Джалиль»",
-     "es": "Mawāhib al-Jalīl",
-     "uk": "«Мавагіб аль-Джаліль»"
-    }
-   ]
+  "title": {
+    "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
+    "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
+    "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
+    "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
+    "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
   },
-  "shafii": {
-   "text": {
-    "ar": "لا عبرة بحساب الحسابين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
-    "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
-    "ru": "Расчеты астрономов не имеют значения при подтверждении полумесяца, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
-    "es": "Los cálculos de los astrónomos no tienen relevancia para confirmar la media luna, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
-    "uk": "Розрахунки астрономів не мають значення при підтвердженні півмісяця, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець зв'язав постанову виключно зі спостереженням або завершенням рахунку."
-   },
-   "sources": [
-    {
-     "ar": "الأم",
-     "en": "Al-Umm",
-     "ru": "«Аль-Умм»",
-     "es": "Al-Umm",
-     "uk": "«Аль-Умм»"
-    },
-    {
-     "ar": "منهاج الطالبين",
-     "en": "Minhāj al-Ṭālibīn",
-     "ru": "«Минхадж ат-Талибин»",
-     "es": "Minhāj al-Ṭālibīn",
-     "uk": "«Мінхадж ат-Талібін»"
-    },
-    {
-     "ar": "المجموع",
-     "en": "Al-Majmūʿ",
-     "ru": "«Аль-Маджму»",
-     "es": "Al-Majmūʿ",
-     "uk": "«Аль-Маджму»"
-    }
-   ]
+  "summary": {
+    "ar": "هل يجوز الاعتماد على الحسابات الفلكية وحدها في إثبات دخول شهر رمضان أم تشترط الرؤية البصرية؟",
+    "en": "Is it permissible to rely solely on astronomical calculations to confirm the entry of Ramadan, or is visual sighting required?",
+    "ru": "Допустимо ли полагаться исключительно на астрономические расчеты для подтверждения вступления Рамадана, или требуется визуальное наблюдение?",
+    "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
+    "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
   },
-  "hanbali": {
-   "text": {
-    "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان، ولا يثبت الهلال إلا بالرؤية البصرية أو إتمام شعبان ثلاثين يوماً، لقوله ﷺ: «فإن غم عليكم فاقدروا له» أي أكملوا العدة ثلاثين.",
-    "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Sha'ban as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
-    "ru": "Запрещено полагаться на астрономические расчеты при подтверждении вступления Рамадана, и полумесяц подтверждается только визуальным наблюдением или завершением Шабана в тридцать дней согласно словам Пророка.",
-    "es": "Está prohibido confiar en el cálculo astronómico para confirmar la entrada de Ramadán, y la media luna solo se prueba mediante observación visual o completando Sha'ban a treinta días, basándose en el dicho del Profeta.",
-    "uk": "Заборонено покладатися на астрономічні розрахунки при підтвердженні настання Рамадану, і півмісяць підтверджується лише візуальним спостереженням або завершенням Шабана в тридцять днів згідно зі словами Пророка."
-   },
-   "sources": [
-    {
-     "ar": "المغني",
-     "en": "Al-Mughnī",
-     "ru": "«Аль-Мугни»",
-     "es": "Al-Mughnī",
-     "uk": "«Аль-Мугні»"
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحسابين.",
+        "en": "Astronomical calculation is not relied upon to confirm crescents; rather, the standard is visual sighting based on the Prophet's saying: \"Fast upon seeing it and break fast upon seeing it,\" and the words of astronomers are disregarded.",
+        "ru": "Астрономические расчёты не принимаются при установлении полумесяцев; значение имеет только визуальное наблюдение, согласно словам Пророка ﷺ: «Поститесь при виде его и разговляйтесь при виде его», а слова звездочётов и вычислителей во внимание не принимаются.",
+        "es": "No se confía en el cálculo astronómico para establecer las lunas nuevas; lo determinante es el avistamiento visual, según el dicho del Profeta ﷺ: «Ayunad al verla y romped el ayuno al verla», y no se tienen en cuenta las palabras de los astrólogos ni de los calculadores.",
+        "uk": "Астрономічні розрахунки не приймаються при встановленні півмісяців; значення має лише візуальне спостереження, згідно зі словами Пророка ﷺ: «Постіть, побачивши його, і розговляйтеся, побачивши його», а слова звіздарів та обчислювачів до уваги не беруться."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
     },
-    {
-     "ar": "الكافي",
-     "en": "Al-Kāfī",
-     "ru": "«Аль-Кафи»",
-     "es": "Al-Kāfī",
-     "uk": "«Аль-Кафі»"
+    "maliki": {
+      "text": {
+        "ar": "لا يلتفت إلى قول الحسابين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان، والمطالب الشرعية متعلقة بالرؤية بالعين أو إتمام العدة.",
+        "en": "The statements of calculators are ignored, and astronomical calculations are not used to establish Ramadan; legal demands are linked to visual sighting or completing the count.",
+        "ru": "Слова вычислителей игнорируются, и астрономические расчеты не используются для установления Рамадана; шариатские требования связаны с визуальным наблюдением или завершением счета.",
+        "es": "Las declaraciones de los calculadores se ignoran y no se recurre al cálculo astronómico para establecer Ramadán; las exigencias legales están ligadas a la observación visual o completar la cuenta.",
+        "uk": "Слова обчислювачів ігноруються, і астрономічні розрахунки не використовуються для встановлення Рамадану; шаріатські вимоги пов'язані з візуальним спостереженням або завершенням рахунку."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
     },
-    {
-     "ar": "كشاف القناع",
-     "en": "Kashshāf al-Qināʿ",
-     "ru": "«Кашшаф аль-Кина»",
-     "es": "Kashshāf al-Qināʿ",
-     "uk": "«Кашшаф аль-Кіна»"
+    "shafii": {
+      "text": {
+        "ar": "لا عبرة بحساب الحسابين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
+        "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
+        "ru": "Расчеты астрономов не имеют значения при подтверждении полумесяца, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
+        "es": "Los cálculos de los astrónomos no tienen relevancia para confirmar la media luna, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
+        "uk": "Розрахунки астрономів не мають значення при підтвердженні півмісяця, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець зв'язав постанову виключно зі спостереженням або завершенням рахунку."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان، ولا يثبت الهلال إلا بالرؤية البصرية أو إتمام شعبان ثلاثين يوماً، لقوله ﷺ: «فإن غم عليكم فاقدروا له» أي أكملوا العدة ثلاثين.",
+        "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Sha'ban as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
+        "ru": "Запрещено полагаться на астрономические расчёты при установлении наступления месяца Рамадан; полумесяц подтверждается только визуальным наблюдением или завершением Шаабана тридцатью днями, согласно словам Пророка ﷺ: «Если же он будет скрыт от вас, то отмерьте ему», то есть доведите счёт до тридцати.",
+        "es": "Está prohibido confiar en el cálculo astronómico para establecer la entrada del mes de Ramadán; la luna nueva solo se establece mediante el avistamiento visual o completando Shaʿbān con treinta días, según el dicho del Profeta ﷺ: «Y si se os oculta, entonces calculadlo», es decir, completad la cuenta hasta treinta.",
+        "uk": "Заборонено покладатися на астрономічні розрахунки при встановленні настання місяця Рамадан; півмісяць підтверджується лише візуальним спостереженням або завершенням Шаабану тридцятьма днями, згідно зі словами Пророка ﷺ: «Якщо ж він буде прихований від вас, то відміряйте йому», тобто доведіть лік до тридцяти."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
     }
-   ]
   }
- }
 }

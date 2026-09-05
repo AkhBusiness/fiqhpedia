@@ -8,6 +8,7 @@ import {
   glossaryAnchor,
   type Lang,
   normalizeSearch,
+  schools,
   ui,
   LANGS,
 } from "@/lib/fiqh-data"
@@ -16,17 +17,33 @@ interface GlossarySectionProps {
   lang: Lang
 }
 
-/** The three scholarly senses, in the order they are traditionally given. */
-function senses(term: GlossaryTerm, lang: Lang) {
+/** Text of the one-line gloss, only when it adds to the scholarly senses. */
+function gloss(term: GlossaryTerm, lang: Lang) {
+  return (term.briefDefinition ?? term.definition)?.[lang]?.trim() ?? ""
+}
+
+/** لغةً and شرعاً: one text each. اصطلاحاً is per school and rendered apart. */
+function plainSenses(term: GlossaryTerm, lang: Lang) {
   return [
     { key: "linguistic", label: ui.glossaryLinguistic[lang], text: term.linguistic?.[lang] },
-    { key: "technical", label: ui.glossaryTechnical[lang], text: term.technical?.[lang] },
     { key: "legal", label: ui.glossaryLegal[lang], text: term.legal?.[lang] },
   ].filter((s) => s.text && s.text.trim())
 }
 
+/** اصطلاحاً: the four schools in their fixed order, each with its sources. */
+function schoolSenses(term: GlossaryTerm, lang: Lang) {
+  return schools
+    .map((s) => ({ school: s, sense: term.technical?.[s.key] }))
+    .filter((x) => x.sense?.text?.[lang]?.trim())
+}
+
 function TermCard({ term, lang, flash }: { term: GlossaryTerm; lang: Lang; flash: boolean }) {
-  const parts = senses(term, lang)
+  const brief = gloss(term, lang)
+  const plain = plainSenses(term, lang)
+  const bySchool = schoolSenses(term, lang)
+  const hasScholarly = plain.length > 0 || bySchool.length > 0
+  const linguistic = plain.filter((s) => s.key === "linguistic")
+  const legal = plain.filter((s) => s.key === "legal")
 
   return (
     <article
@@ -46,20 +63,66 @@ function TermCard({ term, lang, flash }: { term: GlossaryTerm; lang: Lang; flash
         </span>
       </header>
 
-      {parts.length > 0 ? (
+      {hasScholarly ? (
         <dl className="flex flex-col gap-3">
-          {parts.map((s) => (
+          {brief ? (
+            <div className="flex flex-col gap-1">
+              <dt className="text-xs font-bold uppercase tracking-wide text-primary">
+                {ui.glossaryGeneral[lang]}
+              </dt>
+              <dd className="text-pretty text-sm leading-relaxed text-muted-foreground">{brief}</dd>
+            </div>
+          ) : null}
+
+          {linguistic.map((s) => (
             <div key={s.key} className="flex flex-col gap-1">
               <dt className="text-xs font-bold uppercase tracking-wide text-primary">{s.label}</dt>
               <dd className="text-pretty text-sm leading-relaxed text-muted-foreground">{s.text}</dd>
             </div>
           ))}
+
+          {legal.map((s) => (
+            <div key={s.key} className="flex flex-col gap-1">
+              <dt className="text-xs font-bold uppercase tracking-wide text-primary">{s.label}</dt>
+              <dd className="text-pretty text-sm leading-relaxed text-muted-foreground">{s.text}</dd>
+            </div>
+          ))}
+
+          {bySchool.length > 0 ? (
+            <div className="flex flex-col gap-2">
+              <dt className="text-xs font-bold uppercase tracking-wide text-primary">
+                {ui.glossaryTechnical[lang]}
+              </dt>
+              <dd className="flex flex-col gap-2">
+                {bySchool.map(({ school, sense }) => (
+                  <div
+                    key={school.key}
+                    className={`rounded-xl border bg-white/[0.02] p-3 ${school.color.border}`}
+                  >
+                    <div className="mb-1 flex items-center gap-2">
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${school.color.badgeBg} ${school.color.badgeText}`}
+                      >
+                        {school.name[lang]}
+                      </span>
+                    </div>
+                    <p className="text-pretty text-sm leading-relaxed text-muted-foreground">
+                      {sense!.text[lang]}
+                    </p>
+                    {sense!.sources?.length ? (
+                      <p className="mt-1.5 text-xs text-muted-foreground/70">
+                        {ui.reference[lang]}: {sense!.sources.map((r) => r[lang]).join(" · ")}
+                      </p>
+                    ) : null}
+                  </div>
+                ))}
+              </dd>
+            </div>
+          ) : null}
         </dl>
       ) : (
         <div className="flex flex-col gap-2">
-          <p className="text-pretty text-sm leading-relaxed text-muted-foreground">
-            {term.definition[lang]}
-          </p>
+          <p className="text-pretty text-sm leading-relaxed text-muted-foreground">{brief}</p>
           <p className="text-xs text-muted-foreground/70">{ui.glossaryPending[lang]}</p>
         </div>
       )}
@@ -99,11 +162,12 @@ export function GlossarySection({ lang }: GlossarySectionProps) {
     return glossary.filter((t) => {
       const hay = normalizeSearch(
         LANGS.flatMap((l) => [
-          t.term[l],
-          t.definition[l],
+          t.term[l] ?? "",
+          t.definition?.[l] ?? "",
+          t.briefDefinition?.[l] ?? "",
           t.linguistic?.[l] ?? "",
-          t.technical?.[l] ?? "",
           t.legal?.[l] ?? "",
+          ...Object.values(t.technical ?? {}).map((s) => s?.text?.[l] ?? ""),
         ]).join(" "),
       )
       return q.split(" ").every((tok) => hay.includes(tok))

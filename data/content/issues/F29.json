@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم حدّ الماء الكثير والقليل وأثر النجاسة فيه",
     "en": "Ruling on the threshold between much and little water and the effect of impurity",
     "ru": "Постановление о границе между большой и малой водой и действии нечистоты",
-    "es": "Norma sobre el umbral entre agua abundante y escasa y el efecto de la impureza"
+    "es": "Norma sobre el umbral entre agua abundante y escasa y el efecto de la impureza",
+    "uk": "Постанова про межу між великою та малою водою і дію нечистоти в ній"
   },
   "summary": {
     "ar": "ما حدّ الماء الكثير والقليل، وهل ينجس القليل بوقوع النجاسة وإن لم يتغيّر؟",
     "en": "Where lies the threshold between much and little water, and does little water become impure on contact even without any change?",
     "ru": "Где граница между большой и малой водой, и становится ли малая вода нечистой при контакте без изменения?",
-    "es": "¿Dónde está el umbral entre agua abundante y escasa, y se vuelve impura el agua escasa al contacto aunque no cambie?"
+    "es": "¿Dónde está el umbral entre agua abundante y escasa, y se vuelve impura el agua escasa al contacto aunque no cambie?",
+    "uk": "Де межа між великою та малою водою, і чи стає мала вода нечистою від потрапляння нечистоти, навіть якщо не змінилася?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "الكثير ما إذا حُرّك أحد طرفيه لم يتحرّك الآخر، وينجس القليل بملاقاة النجاسة وإن لم يتغيّر.",
         "en": "Much water is that whose far side does not stir when one side is moved; little water becomes impure on contact with an impurity even without any change.",
         "ru": "Большая вода — та, у которой при движении одного края другой не колеблется; малая становится нечистой при соприкосновении с нечистотой даже без изменения.",
-        "es": "Agua abundante es aquella cuyo extremo opuesto no se agita al mover un lado; la escasa se vuelve impura al contacto con la impureza aunque no cambie."
+        "es": "Agua abundante es aquella cuyo extremo opuesto no se agita al mover un lado; la escasa se vuelve impura al contacto con la impureza aunque no cambie.",
+        "uk": "Велика вода — та, у якої при русі одного краю не рухається інший; мала стає нечистою від зіткнення з нечистотою, навіть якщо не змінилася."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "لا فرق بين كثير الماء وقليله، فلا ينجس بملاقاة النجاسة إلا إذا تغيّر طعمه أو لونه أو ريحه.",
         "en": "No distinction is drawn between much and little water: it becomes impure only when its taste, colour, or smell is altered.",
         "ru": "Между большой и малой водой различия нет: она становится нечистой лишь при изменении вкуса, цвета или запаха.",
-        "es": "No se distingue entre agua abundante y escasa: solo se vuelve impura si cambia su sabor, su color o su olor."
+        "es": "No se distingue entre agua abundante y escasa: solo se vuelve impura si cambia su sabor, su color o su olor.",
+        "uk": "Немає різниці між великою і малою водою: вона не стає нечистою від зіткнення з нечистотою, хіба що зміниться її смак, колір або запах."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "الكثير ما بلغ قلّتين فأكثر فلا ينجس إلا بالتغيّر، والقليل ما دونهما فينجس بمجرد الملاقاة.",
         "en": "Much water is two qullahs or more and becomes impure only through alteration; little water is below that and becomes impure by mere contact.",
         "ru": "Большая вода — два кулля и более, она становится нечистой только при изменении; малая — менее того и становится нечистой от одного соприкосновения.",
-        "es": "Agua abundante son dos qullas o más y solo se vuelve impura por alteración; la escasa es menos que eso y se vuelve impura por el mero contacto."
+        "es": "Agua abundante son dos qullas o más y solo se vuelve impura por alteración; la escasa es menos que eso y se vuelve impura por el mero contacto.",
+        "uk": "Велика вода — та, що сягнула двох кулл і більше, вона не стає нечистою інакше, як зміною; мала — менша за них і стає нечистою від самого зіткнення."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "الحدّ الفاصل القلّتان، فالكثير ما بلغهما ولا ينجس إلا بالتغيّر، والقليل ما دونهما فينجس بالملاقاة.",
         "en": "The dividing line is two qullahs: water reaching it is much and becomes impure only through alteration, while less than that is little and becomes impure by contact.",
         "ru": "Разделительная черта — два кулля: достигшая их вода большая и становится нечистой лишь при изменении, а меньшая — малая и становится нечистой от соприкосновения.",
-        "es": "La línea divisoria son dos qullas: el agua que las alcanza es abundante y solo se vuelve impura por alteración; la menor es escasa y se vuelve impura al contacto."
+        "es": "La línea divisoria son dos qullas: el agua que las alcanza es abundante y solo se vuelve impura por alteración; la menor es escasa y se vuelve impura al contacto.",
+        "uk": "Розділова межа — дві кулли: велика — та, що сягнула їх, і вона не стає нечистою інакше, як зміною; мала — менша за них і стає нечистою від зіткнення."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

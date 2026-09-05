@@ -1,89 +1,143 @@
 {
- "ref": "M5",
- "id": "wisdom-of-fasting",
- "chapter": {
-  "ar": "باب الفقه والأحكام الشرعية",
-  "en": "Chapter on Jurisprudence and Legal Rulings",
-  "ru": "Глава о фикхе и шариатских постановлениях",
-  "es": "Capítulo sobre jurisprudencia y normas islámicas",
-  "uk": "Розділ про фікх та шаріатські приписи"
- },
- "title": {
-  "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
-  "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",
-  "ru": "Мудрость поста в месяц Рамадан и его влияние на физическое здоровье",
-  "es": "La sabiduría del ayuno de Ramadán y su impacto en la salud física",
-  "uk": "Мудрість посту в місяць Рамадан та його вплив на фізичне здоров'я"
- },
- "excerpt": {
-  "ar": "مقال يبين الحكم الشرعية والغايات الروحية من صيام رمضان، ويتناول أثره الصحّي على البدن وفق المعطيات الطبية الحديثة.",
-  "en": "An article explaining the religious wisdom and spiritual goals of fasting Ramadan, addressing its physical health impacts according to modern medical findings.",
-  "ru": "Статья, разъясняющая религиозную мудрость и духовные цели поста в Рамадан, а также его влияние на здоровье согласно современным медицинским данным.",
-  "es": "Artículo que explica la sabiduría religiosa y los objetivos espirituales del ayuno de Ramadán, abordando su impacto en la salud física según hallazgos médicos modernos.",
-  "uk": "Стаття, що пояснює релігійну мудрість та духовні цілі посту в Рамадан, а також його вплив на фізичне здоров'я згідно з сучасними медичними даними."
- },
- "relatedRefs": [],
- "sections": [
-  {
-   "id": "intro",
-   "heading": { "ar": "مقدمة", "en": "Introduction", "ru": "Введение", "es": "Introducción", "uk": "Вступ" },
-   "body": {
-    "ar": "فرض الله جل وعلا صيام شهر رمضان على الأمة الإسلامية وجعله ركناً من أركان الدين العظام، لما يشتمل عليه من المصالح العاجلة والآجلة للعباد.\n\nوتتنوع حكم الصيام لتشمل تزكية النفس وتربيتها، إلى جانب المظاهر الصحية التي تشهد بدقة التشريع الإسلامي ورعايته لحفظ البدن.",
-    "en": "Allah Almighty mandated the fasting of Ramadan upon the Islamic nation as a fundamental pillar of faith, encompassing immediate and long-term benefits for humans.\n\nThe wisdom behind fasting encompasses spiritual purification and soul discipline, alongside physical health aspects that demonstrate the precision of Islamic law.",
-    "ru": "Всевышний Аллах предписал пост в месяц Рамадан исламской общине, сделав его великим столпом веры из-за содержащейся в нем пользы.\n\nМудрость поста включает духовное очищение и воспитание души, а также аспекты здоровья, свидетельствующие о точности шариата.",
-    "es": "Dios Todopoderoso prescribió el ayuno de Ramadán a la nación islámica como un pilar fundamental de la fe, abarcando beneficios inmediatos y a largo plazo.\n\nLa sabiduría del ayuno abarca la purificación espiritual y la disciplina del alma, junto con aspectos de salud física que demuestran la precisión de la ley islámica.",
-    "uk": "Всевишній Аллах приписав піст у місяць Рамадан ісламській громаді, зробивши його великим стовпом віри через користь для людей.\n\nМудрість посту включає духовне очищення та виховання душі, а також аспекти здоров'я, що свідчать про точність шаріату."
-   }
+  "ref": "M5",
+  "id": "wisdom-of-fasting",
+  "chapter": {
+    "ar": "باب الفقه والأحكام الشرعية",
+    "en": "Chapter on Jurisprudence and Legal Rulings",
+    "ru": "Глава о фикхе и шариатских постановлениях",
+    "es": "Capítulo sobre jurisprudencia y normas islámicas",
+    "uk": "Розділ про фікх та шаріатські приписи"
   },
-  {
-   "id": "spiritual_wisdom",
-   "heading": { "ar": "الحكم الشرعية والروحية للصيام", "en": "Religious and Spiritual Wisdom of Fasting", "ru": "Религиозная и духовная мудрость поста", "es": "Sabiduría religiosa y espiritual del ayuno", "uk": "Релігійна та духовна мудрість посту" },
-   "body": {
-    "ar": "تتمثل الغاية الكبرى من الصيام في تحقيق التقوى ومراقبة الله تعالى، كما جاء في قوله تعالى ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ﴾ سورة البقرة: ١٨٣.\n\nكما يعود الصيام المسلم على الصبر وضبط النفس وكسر حدة الشهوات، ويذكره بحال الفقراء والمحتاجين فيتحرك قلبه بالرحمة والجود.",
-    "en": "The supreme objective of fasting is achieving piety and God-consciousness, as stated in the Holy Quran in Surah Al-Baqarah: 183.\n\nFasting also trains the Muslim in patience, self-control, restraining desires, and reminds one of the poor, moving the heart to compassion and charity.",
-    "ru": "Главная цель поста — достижение богобоязненности и осознания присутствия Аллаха, как сказано в Священном Коране в суре Аль-Бакара: 183.\n\nПост также приучает мусульманина к терпению, самообладанию и сдерживанию страстей, напоминая о бедных и побуждая к милосердию.",
-    "es": "El objetivo supremo del ayuno es alcanzar la piedad y la conciencia de Dios, como se establece en el Sagrado Corán en la sura Al-Baqarah: 183.\n\nEl ayuno también entrena al musulmán en la paciencia, el autocontrol y la contención de deseos, recordando a los pobres y moviendo el corazón a la compasión.",
-    "uk": "Головна мета посту — досягнення богобоязливості та усвідомлення присутності Аллаха, як сказано у Священному Корані у сурі Аль-Бакара: 183.\n\nПіст також привчає мусульманина до терпіння, самовладання та стримування пристрастей, нагадуючи про бідних та спонукаючи до милосердя."
-   }
+  "title": {
+    "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
+    "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",
+    "ru": "Мудрость поста в месяц Рамадан и его влияние на физическое здоровье",
+    "es": "La sabiduría del ayuno de Ramadán y su impacto en la salud física",
+    "uk": "Мудрість посту в місяць Рамадан та його вплив на фізичне здоров'я"
   },
-  {
-   "id": "health_impact",
-   "heading": { "ar": "الأثر الصحي للصيام على الجسم", "en": "Physical Health Impact of Fasting", "ru": "Влияние поста на физическое здоровье", "es": "Impacto del ayuno en la salud física", "uk": "Вплив посту на фізичне здоров'я" },
-   "body": {
-    "ar": "ينفي العلم الطبي المعتمد كون الصيام المعتدل مضراً بالأشخاص الأصحاء، بل تؤكد الدراسات دوره في تخفيف العبء عن الجهاز الهضمي وتحسين التمثيل الغذائي.\n\nيساهم الصيام في تنشيط التجديد الخلوي وضبط مستويات السكر والدهون في الدم، مما يقلل من مخاطر الأمراض المزمنة عند الالتزام بالنظام الغذائي المتوازن.",
-    "en": "Sound medical science refutes that moderate fasting is harmful to healthy individuals, with studies confirming its role in easing digestive burden and improving metabolism.\n\nFasting contributes to cellular renewal and regulation of blood sugar and lipid levels, reducing risks of chronic diseases when paired with balanced nutrition.",
-    "ru": "Авторитетная медицина отрицает вред умеренного поста для здоровых людей, подтверждая его роль в разгрузке пищеварительной системы и улучшении обмена веществ.\n\nПост способствует клеточному обновлению и регуляции уровня сахара и липидов в крови, снижая риски хронических заболеваний при сбалансированном питании.",
-    "es": "La ciencia médica acreditada niega que el ayuno moderado sea perjudicial para personas sanas, confirmando su papel en aliviar el sistema digestivo y mejorar el metabolismo.\n\nEl ayuno contribuye a la renovación celular y la regulación de niveles de azúcar y lípidos en sangre, reduciendo riesgos de enfermedades crónicas con nutrición balanceada.",
-    "uk": "Авторитетна медицина заперечує шкоду помірного посту для здорових людей, підтверджуючи його роль у розвантаженні травної системи та поліпшенні обміну речовин.\n\nПіст сприяє клітинному оновленню та регуляції рівня цукру і ліпідів у крові, знижуючи ризики хронічних захворювань при збалансованому харчуванні."
-   }
+  "excerpt": {
+    "ar": "مقال يبين الحكم الشرعية والغايات الروحية من صيام رمضان، ويتناول أثره الصحّي على البدن وفق المعطيات الطبية الحديثة.",
+    "en": "An article explaining the religious wisdom and spiritual goals of fasting Ramadan, addressing its physical health impacts according to modern medical findings.",
+    "ru": "Статья, разъясняющая религиозную мудрость и духовные цели поста в Рамадан, а также его влияние на здоровье согласно современным медицинским данным.",
+    "es": "Artículo que explica la sabiduría religiosa y los objetivos espirituales del ayuno de Ramadán, abordando su impacto en la salud física según hallazgos médicos modernos.",
+    "uk": "Стаття, що пояснює релігійну мудрість та духовні цілі посту в Рамадан, а також його вплив на фізичне здоров'я згідно з сучасними медичними даними."
   },
-  {
-   "id": "legal_concessions",
-   "heading": { "ar": "الرخص الشرعية لمراعاة الصحة", "en": "Legal Concessions Safeguarding Health", "ru": "Шариатские облегчения для сохранения здоровья", "es": "Concesiones legales para salvaguardar la salud", "uk": "Шаріатські полегшення для збереження здоров'я" },
-   "body": {
-    "ar": "أباحت الشريعة الإسلامية الفطر للمريض والمسافر دفعاً للمشقة والضرر، كما جاء في قوله تعالى ﴿فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ﴾ سورة البقرة: ١٨٤.\n\nوتؤكد هذه الرخص على قاعدة رفع الحرج في الدين، وأن حفظ النفس والمحافظة على الصحة البدنية من المقاصد الكلية للشريعة الإسلامية.",
-    "en": "Islamic law granted permission to break fast for the sick and traveler to prevent hardship and harm, as stated in Surah Al-Baqarah: 184.\n\nThese concessions emphasize the principle of removing hardship in religion, proving that preserving life and physical health are higher objectives of Islamic law.",
-    "ru": "Шариат разрешил разговение больным и путешественникам для предотвращения вреда, как сказано в суре Аль-Бакара: 184.\n\nЭти облегчения подчеркивают принцип устранения затруднений в религии и доказательство того, что сохранение здоровья является высшей целью шариата.",
-    "es": "La ley islámica otorgó concesiones para romper el ayuno al enfermo y viajero para evitar dificultades y daños, como se señala en la sura Al-Baqarah: 184.\n\nEstas concesiones enfatizan el principio de eliminar la dificultad en la religión, demostrando que preservar la salud física es un objetivo superior de la ley islámica.",
-    "uk": "Шаріат дозволив розговіння хворим та подорожуючим для запобігання шкоді, як сказано у сурі Аль-Бакара: 184.\n\nЦі полегшення підкреслюють принцип усунення труднощів у релігії та доказ того, що збереження здоров'я є вищою метою шаріату."
-   }
-  },
-  {
-   "id": "close",
-   "heading": { "ar": "خاتمة", "en": "Conclusion", "ru": "Заключение", "es": "Conclusión", "uk": "Висновок" },
-   "body": {
-    "ar": "يجمع صيام رمضان بين تحقيق العبودية الخالصة لله تعالى والحفاظ على سلامة البدن، مما يبرز شمول الشريعة الإسلامية ورعايتها لمصالح الإنسان الروحية والمادية.",
-    "en": "Fasting Ramadan combines sincere worship of Allah with physical health preservation, highlighting the comprehensiveness of Islamic law for human well-being.",
-    "ru": "Пост в Рамадан сочетает искреннее служение Аллаху с сохранением физического здоровья, подчеркивая всеобъемлющий характер исламского шариата.",
-    "es": "El ayuno de Ramadán combina la adoración sincera a Dios con la preservación de la salud física, destacando la integralidad de la ley islámica.",
-    "uk": "Піст у Рамадан поєднує щире служіння Аллаху із збереженням фізичного здоров'я, підкреслюючи всеохоплюючий характер ісламського шаріату."
-   }
-  }
- ],
- "sources": [
-  { "ar": "صحيح البخاري", "en": "Ṣaḥīḥ al-Bukhārī", "ru": "«Сахих аль-Бухари»", "es": "Ṣaḥīḥ al-Bukhārī", "uk": "«Сахіх аль-Бухарі»" },
-  { "ar": "صحيح مسلم", "en": "Ṣaḥīḥ Muslim", "ru": "«Сахих Муслим»", "es": "Ṣaḥīḥ Muslim", "uk": "«Сахіх Муслім»" },
-  { "ar": "تفسير ابن كثير", "en": "Tafsīr Ibn Kathīr", "ru": "«Тафсир Ибн Касира»", "es": "Tafsīr Ibn Kathīr", "uk": "«Тафсір Ібн Касіра»" },
-  { "ar": "زاد المعاد في هدي خير العباد", "en": "Zād al-Maʿād fī Hady Khayr al-ʿIbād", "ru": "«Зад аль-Ма‘ад»", "es": "Zād al-Maʿād fī Hady Khayr al-ʿIbād", "uk": "«Зад аль-Ма‘ад»" }
- ]
+  "relatedRefs": [],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "مقدمة",
+        "en": "Introduction",
+        "ru": "Введение",
+        "es": "Introducción",
+        "uk": "Вступ"
+      },
+      "body": {
+        "ar": "فرض الله جل وعلا صيام شهر رمضان على الأمة الإسلامية وجعله ركناً من أركان الدين العظام، لما يشتمل عليه من المصالح العاجلة والآجلة للعباد.\n\nوتتنوع حكم الصيام لتشمل تزكية النفس وتربيتها، إلى جانب المظاهر الصحية التي تشهد بدقة التشريع الإسلامي ورعايته لحفظ البدن.",
+        "en": "Allah, Exalted is He, made the fast of the month of Ramadan obligatory upon the Muslim nation and made it one of the great pillars of the religion, for the immediate and future benefits it holds for His servants.\n\nThe wisdoms of fasting are varied, encompassing the purification and training of the soul, alongside the health aspects that bear witness to the precision of Islamic law and its care for preserving the body.",
+        "ru": "Всевышний Аллах предписал исламской общине пост в месяц Рамадан и сделал его одним из великих столпов религии ради той ближайшей и отдалённой пользы, которую он несёт рабам.\n\nМудрости поста разнообразны: они включают очищение и воспитание души, а также оздоровительные стороны, свидетельствующие о точности исламского законодательства и его заботе о сохранении тела.",
+        "es": "Allah, Exaltado sea, prescribió a la comunidad islámica el ayuno del mes de Ramadán y lo hizo uno de los grandes pilares de la religión, por los beneficios inmediatos y futuros que encierra para los siervos.\n\nLas sabidurías del ayuno son diversas: abarcan la purificación y la educación del alma, junto con los aspectos de salud que dan testimonio de la precisión de la legislación islámica y de su cuidado por la preservación del cuerpo.",
+        "uk": "Всевишній Аллаг приписав ісламській громаді піст у місяць Рамадан і зробив його одним із великих стовпів релігії заради тієї найближчої та віддаленої користі, яку він несе рабам.\n\nМудрості посту різноманітні: вони охоплюють очищення та виховання душі, а також оздоровчі сторони, що свідчать про точність ісламського законодавства та його турботу про збереження тіла."
+      }
+    },
+    {
+      "id": "spiritual_wisdom",
+      "heading": {
+        "ar": "الحكم الشرعية والروحية للصيام",
+        "en": "Religious and Spiritual Wisdom of Fasting",
+        "ru": "Религиозная и духовная мудрость поста",
+        "es": "Sabiduría religiosa y espiritual del ayuno",
+        "uk": "Релігійна та духовна мудрість посту"
+      },
+      "body": {
+        "ar": "تتمثل الغاية الكبرى من الصيام في تحقيق التقوى ومراقبة الله تعالى، كما جاء في قوله تعالى ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ﴾ سورة البقرة: ١٨٣.\n\nكما يعود الصيام المسلم على الصبر وضبط النفس وكسر حدة الشهوات، ويذكره بحال الفقراء والمحتاجين فيتحرك قلبه بالرحمة والجود.",
+        "en": "The supreme objective of fasting is achieving piety and God-consciousness, as stated in the Holy Quran in Surah Al-Baqarah: 183.\n\nFasting also trains the Muslim in patience, self-control, restraining desires, and reminds one of the poor, moving the heart to compassion and charity.",
+        "ru": "Главная цель поста — достижение богобоязненности и осознания присутствия Аллаха, как сказано в Священном Коране в суре Аль-Бакара: 183.\n\nПост также приучает мусульманина к терпению, самообладанию и сдерживанию страстей, напоминая о бедных и побуждая к милосердию.",
+        "es": "El objetivo supremo del ayuno es alcanzar la piedad y la conciencia de Dios, como se establece en el Sagrado Corán en la sura Al-Baqarah: 183.\n\nEl ayuno también entrena al musulmán en la paciencia, el autocontrol y la contención de deseos, recordando a los pobres y moviendo el corazón a la compasión.",
+        "uk": "Головна мета посту — досягнення богобоязливості та усвідомлення присутності Аллаха, як сказано у Священному Корані у сурі Аль-Бакара: 183.\n\nПіст також привчає мусульманина до терпіння, самовладання та стримування пристрастей, нагадуючи про бідних та спонукаючи до милосердя."
+      }
+    },
+    {
+      "id": "health_impact",
+      "heading": {
+        "ar": "الأثر الصحي للصيام على الجسم",
+        "en": "Physical Health Impact of Fasting",
+        "ru": "Влияние поста на физическое здоровье",
+        "es": "Impacto del ayuno en la salud física",
+        "uk": "Вплив посту на фізичне здоров'я"
+      },
+      "body": {
+        "ar": "ينفي العلم الطبي المعتمد كون الصيام المعتدل مضراً بالأشخاص الأصحاء، بل تؤكد الدراسات دوره في تخفيف العبء عن الجهاز الهضمي وتحسين التمثيل الغذائي.\n\nيساهم الصيام في تنشيط التجديد الخلوي وضبط مستويات السكر والدهون في الدم، مما يقلل من مخاطر الأمراض المزمنة عند الالتزام بالنظام الغذائي المتوازن.",
+        "en": "Sound medical science refutes that moderate fasting is harmful to healthy individuals, with studies confirming its role in easing digestive burden and improving metabolism.\n\nFasting contributes to cellular renewal and regulation of blood sugar and lipid levels, reducing risks of chronic diseases when paired with balanced nutrition.",
+        "ru": "Авторитетная медицина отрицает вред умеренного поста для здоровых людей, подтверждая его роль в разгрузке пищеварительной системы и улучшении обмена веществ.\n\nПост способствует клеточному обновлению и регуляции уровня сахара и липидов в крови, снижая риски хронических заболеваний при сбалансированном питании.",
+        "es": "La ciencia médica acreditada niega que el ayuno moderado sea perjudicial para personas sanas, confirmando su papel en aliviar el sistema digestivo y mejorar el metabolismo.\n\nEl ayuno contribuye a la renovación celular y la regulación de niveles de azúcar y lípidos en sangre, reduciendo riesgos de enfermedades crónicas con nutrición balanceada.",
+        "uk": "Авторитетна медицина заперечує шкоду помірного посту для здорових людей, підтверджуючи його роль у розвантаженні травної системи та поліпшенні обміну речовин.\n\nПіст сприяє клітинному оновленню та регуляції рівня цукру і ліпідів у крові, знижуючи ризики хронічних захворювань при збалансованому харчуванні."
+      }
+    },
+    {
+      "id": "legal_concessions",
+      "heading": {
+        "ar": "الرخص الشرعية لمراعاة الصحة",
+        "en": "Legal Concessions Safeguarding Health",
+        "ru": "Шариатские облегчения для сохранения здоровья",
+        "es": "Concesiones legales para salvaguardar la salud",
+        "uk": "Шаріатські полегшення для збереження здоров'я"
+      },
+      "body": {
+        "ar": "أباحت الشريعة الإسلامية الفطر للمريض والمسافر دفعاً للمشقة والضرر، كما جاء في قوله تعالى ﴿فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ﴾ سورة البقرة: ١٨٤.\n\nوتؤكد هذه الرخص على قاعدة رفع الحرج في الدين، وأن حفظ النفس والمحافظة على الصحة البدنية من المقاصد الكلية للشريعة الإسلامية.",
+        "en": "Islamic law granted permission to break fast for the sick and traveler to prevent hardship and harm, as stated in Surah Al-Baqarah: 184.\n\nThese concessions emphasize the principle of removing hardship in religion, proving that preserving life and physical health are higher objectives of Islamic law.",
+        "ru": "Шариат разрешил разговение больным и путешественникам для предотвращения вреда, как сказано в суре Аль-Бакара: 184.\n\nЭти облегчения подчеркивают принцип устранения затруднений в религии и доказательство того, что сохранение здоровья является высшей целью шариата.",
+        "es": "La ley islámica otorgó concesiones para romper el ayuno al enfermo y viajero para evitar dificultades y daños, como se señala en la sura Al-Baqarah: 184.\n\nEstas concesiones enfatizan el principio de eliminar la dificultad en la religión, demostrando que preservar la salud física es un objetivo superior de la ley islámica.",
+        "uk": "Шаріат дозволив розговіння хворим та подорожуючим для запобігання шкоді, як сказано у сурі Аль-Бакара: 184.\n\nЦі полегшення підкреслюють принцип усунення труднощів у релігії та доказ того, що збереження здоров'я є вищою метою шаріату."
+      }
+    },
+    {
+      "id": "close",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Conclusion",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "يجمع صيام رمضان بين تحقيق العبودية الخالصة لله تعالى والحفاظ على سلامة البدن، مما يبرز شمول الشريعة الإسلامية ورعايتها لمصالح الإنسان الروحية والمادية.",
+        "en": "The fast of Ramadan combines the realisation of sincere servitude to Allah, Exalted is He, with the preservation of the body's wellbeing, which brings out the comprehensiveness of Islamic law and its care for the spiritual and material interests of the human being.",
+        "ru": "Пост в Рамадан соединяет осуществление искреннего служения Всевышнему Аллаху с сохранением здоровья тела, что раскрывает всеобъемлющий характер исламского законодательства и его заботу о духовных и материальных интересах человека.",
+        "es": "El ayuno de Ramadán une la realización de la servidumbre sincera a Allah, Exaltado sea, con la preservación de la salud del cuerpo, lo que pone de relieve la amplitud de la legislación islámica y su cuidado por los intereses espirituales y materiales del ser humano.",
+        "uk": "Піст у Рамадан поєднує здійснення щирого служіння Всевишньому Аллагу зі збереженням здоров'я тіла, що розкриває всеохопний характер ісламського законодавства та його турботу про духовні й матеріальні інтереси людини."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "صحيح البخاري",
+      "en": "Ṣaḥīḥ al-Bukhārī",
+      "ru": "«Сахих аль-Бухари»",
+      "es": "Ṣaḥīḥ al-Bukhārī",
+      "uk": "«Сахіх аль-Бухарі»"
+    },
+    {
+      "ar": "صحيح مسلم",
+      "en": "Ṣaḥīḥ Muslim",
+      "ru": "«Сахих Муслим»",
+      "es": "Ṣaḥīḥ Muslim",
+      "uk": "«Сахіх Муслім»"
+    },
+    {
+      "ar": "تفسير ابن كثير",
+      "en": "Tafsīr Ibn Kathīr",
+      "ru": "«Тафсир Ибн Касира»",
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
+    },
+    {
+      "ar": "زاد المعاد في هدي خير العباد",
+      "en": "Zād al-Maʿād fī Hady Khayr al-ʿIbād",
+      "ru": "«Зад аль-Ма‘ад»",
+      "es": "Zād al-Maʿād fī Hady Khayr al-ʿIbād",
+      "uk": "«Зад аль-Ма‘ад»"
+    }
+  ]
 }

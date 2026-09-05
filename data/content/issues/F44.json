@@ -7,19 +7,22 @@
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
     "ru": "Раздел об условиях молитвы",
-    "es": "Capítulo de las condiciones de la oración"
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
   },
   "title": {
     "ar": "حكم حدّ عورة المرأة الحرّة البالغة في الصلاة",
     "en": "Ruling on the awrah of a free adult woman in prayer",
     "ru": "Постановление об аурате свободной совершеннолетней женщины в молитве",
-    "es": "Norma sobre el awrah de la mujer libre y adulta en la oración"
+    "es": "Norma sobre el awrah de la mujer libre y adulta en la oración",
+    "uk": "Постанова про межі аврату вільної повнолітньої жінки в молитві"
   },
   "summary": {
     "ar": "ما حدّ عورة المرأة الحرّة البالغة في الصلاة، وما الذي يُباح كشفه منها؟",
     "en": "What is the awrah of a free adult woman in prayer, and what may she leave uncovered?",
     "ru": "Каков аурат свободной совершеннолетней женщины в молитве и что ей дозволено открывать?",
-    "es": "¿Cuál es el awrah de la mujer libre y adulta en la oración, y qué le está permitido descubrir?"
+    "es": "¿Cuál es el awrah de la mujer libre y adulta en la oración, y qué le está permitido descubrir?",
+    "uk": "Які межі аврату вільної повнолітньої жінки в молитві, і що з нього дозволено відкривати?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "عورة المرأة الحرّة في الصلاة جميع بدنها إلا الوجه والكفّين والقدمين، فتصحّ صلاتها بكشفها.",
         "en": "The awrah of a free woman in prayer is her whole body except the face, the hands, and the feet; her prayer is valid with these uncovered.",
         "ru": "Аурат свободной женщины в молитве — всё её тело, кроме лица, кистей и ступней; молитва действительна с открытыми ими.",
-        "es": "El awrah de la mujer libre en la oración es todo su cuerpo salvo el rostro, las manos y los pies; su oración vale con ellos descubiertos."
+        "es": "El awrah de la mujer libre en la oración es todo su cuerpo salvo el rostro, las manos y los pies; su oración vale con ellos descubiertos.",
+        "uk": "Аврат вільної жінки в молитві — усе її тіло, крім обличчя, кистей і стоп; її молитва дійсна з їх відкриттям."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "عورتها جميع بدنها إلا الوجه والكفّين، وكشف القدمين أو الشعر لا يبطل الصلاة وتُعاد في الوقت.",
         "en": "Her awrah is her whole body except the face and the hands; uncovering the feet or the hair does not invalidate the prayer, though it is repeated within its time.",
         "ru": "Её аурат — всё тело, кроме лица и кистей; открытие ступней или волос не делает молитву недействительной, но её повторяют в пределах времени.",
-        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos; descubrir los pies o el cabello no invalida la oración, aunque se repite dentro de su tiempo."
+        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos; descubrir los pies o el cabello no invalida la oración, aunque se repite dentro de su tiempo.",
+        "uk": "Її аврат — усе тіло, крім обличчя і кистей; відкриття стоп або волосся не робить молитву недійсною, але її повторюють у межах часу."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "عورتها جميع بدنها إلا الوجه والكفّين ظاهرهما وباطنهما إلى الكوعين.",
         "en": "Her awrah is her whole body except the face and the hands, their backs and palms alike, up to the wrists.",
         "ru": "Её аурат — всё тело, кроме лица и кистей, с тыльной и внутренней стороны, до запястий.",
-        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos, dorso y palma por igual, hasta las muñecas."
+        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos, dorso y palma por igual, hasta las muñecas.",
+        "uk": "Її аврат — усе тіло, крім обличчя і кистей, із зовнішнього та внутрішнього боку, до зап'ястків."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "المرأة الحرّة البالغة كلّها عورة في الصلاة إلا وجهها، فيجب عليها ستر الكفّين والقدمين.",
         "en": "A free adult woman is entirely awrah in prayer except her face, so she must cover her hands and her feet.",
         "ru": "Свободная совершеннолетняя женщина целиком аурат в молитве, кроме лица, поэтому она обязана закрывать кисти и ступни.",
-        "es": "La mujer libre y adulta es enteramente awrah en la oración salvo su rostro, por lo que debe cubrir manos y pies."
+        "es": "La mujer libre y adulta es enteramente awrah en la oración salvo su rostro, por lo que debe cubrir manos y pies.",
+        "uk": "Вільна повнолітня жінка вся є авратом у молитві, крім обличчя, тому вона зобов'язана закривати кисті та стопи."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم تقسيم المياه إلى طهور وطاهر ونجس",
     "en": "Ruling on classifying water as tahur, pure, or impure",
     "ru": "Постановление о делении воды на тахур, чистую и нечистую",
-    "es": "Norma sobre la clasificación del agua en tahur, pura e impura"
+    "es": "Norma sobre la clasificación del agua en tahur, pura e impura",
+    "uk": "Постанова про поділ вод на очищувальну, чисту та нечисту"
   },
   "summary": {
     "ar": "إلى كم قسم تنقسم المياه عند الأئمة الأربعة، وما ضابط كل قسم؟",
     "en": "Into how many categories do the four imams divide water, and what defines each?",
     "ru": "На сколько категорий делят воду четыре имама и чем определяется каждая?",
-    "es": "¿En cuántas categorías dividen el agua los cuatro imanes y qué define cada una?"
+    "es": "¿En cuántas categorías dividen el agua los cuatro imanes y qué define cada una?",
+    "uk": "На скільки видів поділяють води чотири імами і чим визначається кожен вид?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "تنقسم المياه إلى طاهر مطهر وهو المطلق، وطاهر غير مطهر وهو المستعمل، وماء نجس.",
         "en": "Water divides into pure and purifying, which is absolute water; pure but not purifying, which is used water; and impure water.",
         "ru": "Вода делится на чистую очищающую — абсолютную; чистую неочищающую — использованную; и нечистую воду.",
-        "es": "El agua se divide en pura purificadora, que es la absoluta; pura no purificadora, que es la usada; y agua impura."
+        "es": "El agua se divide en pura purificadora, que es la absoluta; pura no purificadora, que es la usada; y agua impura.",
+        "uk": "Води поділяються на чисту очищувальну — це абсолютна; чисту неочищувальну — це використана; та нечисту воду."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "تنقسم المياه إلى مطلق طهور يصح التطهير به، ومضاف طاهر غير مطهر، وماء نجس تغيّر بنجاسة.",
         "en": "Water divides into absolute tahur, valid for purification; mixed water, pure but not purifying; and impure water altered by najasah.",
         "ru": "Вода делится на абсолютную тахур, пригодную для очищения; смешанную — чистую, но неочищающую; и нечистую, изменённую наджасой.",
-        "es": "El agua se divide en absoluta tahur, válida para purificar; añadida, pura pero no purificadora; y agua impura alterada por najasah."
+        "es": "El agua se divide en absoluta tahur, válida para purificar; añadida, pura pero no purificadora; y agua impura alterada por najasah.",
+        "uk": "Води поділяються на абсолютну очищувальну, якою дійсне очищення; змішану — чисту, але неочищувальну; та нечисту воду, змінену нечистотою."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "تنقسم المياه إلى طهور مطهر، وطاهر غير مطهر وهو المستعمل والمتغير بطاهر، وماء نجس.",
         "en": "Water divides into tahur; pure but not purifying, being used water or water altered by a pure substance; and impure water.",
         "ru": "Вода делится на тахур; чистую неочищающую — использованную или изменённую чистым веществом; и нечистую воду.",
-        "es": "El agua se divide en tahur; pura no purificadora, que es la usada o alterada por una sustancia pura; y agua impura."
+        "es": "El agua se divide en tahur; pura no purificadora, que es la usada o alterada por una sustancia pura; y agua impura.",
+        "uk": "Води поділяються на очищувальну; чисту неочищувальну — це використана і змінена чистою речовиною; та нечисту воду."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "تنقسم المياه إلى ثلاثة أقسام: طهور يرفع الحدث، وطاهر لا يرفع الحدث، وماء نجس.",
         "en": "Water divides into three categories: tahur, which removes hadath; pure, which does not remove hadath; and impure water.",
         "ru": "Вода делится на три категории: тахур, устраняющую хадас; чистую, не устраняющую хадас; и нечистую воду.",
-        "es": "El agua se divide en tres categorías: tahur, que elimina el hadath; pura, que no lo elimina; y agua impura."
+        "es": "El agua se divide en tres categorías: tahur, que elimina el hadath; pura, que no lo elimina; y agua impura.",
+        "uk": "Води поділяються на три види: очищувальна, що знімає хадас; чиста, що не знімає хадасу; та нечиста вода."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

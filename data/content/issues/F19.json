@@ -7,19 +7,22 @@
     "ar": "باب صلاة الجمعة",
     "en": "Chapter of Friday Prayer",
     "ru": "Раздел о пятничной молитве",
-    "es": "Capítulo de la oración del viernes"
+    "es": "Capítulo de la oración del viernes",
+    "uk": "Розділ про п'ятничну молитву"
   },
   "title": {
     "ar": "اشتراط المصر والمدينة لانعقاد صلاة الجمعة",
     "en": "Condition of the Town for the Validity of Friday Prayer",
     "ru": "Условие города для действительности пятничной молитвы",
-    "es": "La condición de la ciudad y la población para la celebración de la oración del viernes"
+    "es": "La condición de la ciudad y la población para la celebración de la oración del viernes",
+    "uk": "Умова міста та поселення для чинності п'ятничної молитви"
   },
   "summary": {
     "ar": "هل تشترط الإقامة في المصر الكبير لصحة الجمعة؟",
     "en": "Is residing in a large city required for Jumuʿah validity?",
     "ru": "Является ли проживание в крупном городе условием для пятничной молитвы?",
-    "es": "¿Se exige la residencia en una gran ciudad para la validez de la oración del viernes?"
+    "es": "¿Se exige la residencia en una gran ciudad para la validez de la oración del viernes?",
+    "uk": "Чи вимагається проживання у великому місті для дійсності п'ятничної молитви?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
         "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
         "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях.",
-        "es": "Se exige para la validez de la oración del viernes que se celebre en una ciudad con mezquita congregacional o en sus afueras, y no es válida en las aldeas."
+        "es": "Se exige para la validez de la oración del viernes que se celebre en una ciudad con mezquita congregacional o en sus afueras, y no es válida en las aldeas.",
+        "uk": "Для дійсності п'ятничної молитви вимагається, щоб вона здійснювалася у великому місті з соборною мечеттю або в його передмісті, і вона недійсна в селах."
       },
       "sources": [
         {
           "ar": "الدر المختار",
           "en": "Al-Durr al-Mukhtār",
           "ru": "«Ад-Дурр аль-Мухтар»",
-          "es": "Al-Durr al-Mukhtār"
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "تشترط الإقامة في بلد الاستيطان سواء كان مصراً كبيراً أم قرية مبنية يستقر بها أهلها.",
         "en": "Residence in a settled village or city is required for Friday prayer, regardless of size.",
         "ru": "Условием является проживание в населенном пункте, будь то крупный город или построенная деревня.",
-        "es": "Se exige la residencia en una localidad de asentamiento, sea una gran ciudad o una aldea edificada en la que sus habitantes se hayan establecido."
+        "es": "Se exige la residencia en una localidad de asentamiento, sea una gran ciudad o una aldea edificada en la que sus habitantes se hayan establecido.",
+        "uk": "Вимагається проживання в осілому поселенні, чи то велике місто, чи забудоване село, в якому осіли його мешканці."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "التاج والإكليل",
           "en": "Al-Tāj wa-al-Iklīl",
           "ru": "«Ат-Тадж ва-ль-Иклиль»",
-          "es": "Al-Tāj wa-al-Iklīl"
+          "es": "Al-Tāj wa-al-Iklīl",
+          "uk": "«Ат-Тадж ва-ль-Іклиль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
         "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
         "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов.",
-        "es": "La oración del viernes es válida en las aldeas y en los edificios construidos, a condición de que residan cuarenta hombres legalmente responsables con los que se celebre el viernes."
+        "es": "La oración del viernes es válida en las aldeas y en los edificios construidos, a condición de que residan cuarenta hombres legalmente responsables con los que se celebre el viernes.",
+        "uk": "П'ятнична молитва дійсна в селах і зведених будівлях за умови осілого проживання сорока повнолітніх чоловіків, якими вона чиниться."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "روضة الطالبين",
           "en": "Rawḍat al-Ṭālibīn",
           "ru": "«Равдат ат-Талибин»",
-          "es": "Rawḍat al-Ṭālibīn"
+          "es": "Rawḍat al-Ṭālibīn",
+          "uk": "«Равдат ат-Талібін»"
         },
         {
           "ar": "نهاية المحتاج",
           "en": "Nihāyat al-Muḥtāj",
           "ru": "«Нихаят аль-Мухтадж»",
-          "es": "Nihāyat al-Muḥtāj"
+          "es": "Nihāyat al-Muḥtāj",
+          "uk": "«Ніхаят аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
         "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
         "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен.",
-        "es": "Se exige celebrarla en un asentamiento de edificios agrupados, y no se exige que sea una gran ciudad determinada."
+        "es": "Se exige celebrarla en un asentamiento de edificios agrupados, y no se exige que sea una gran ciudad determinada.",
+        "uk": "Вимагається здійснювати її в осілому поселенні із з'єднаних будівель, і не вимагається, щоб це було саме визначене велике місто."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         },
         {
           "ar": "شرح منتهى الإرادات",
           "en": "Sharḥ Muntahā al-Irādāt",
           "ru": "«Шарх Мунтаха аль-Ирадат»",
-          "es": "Sharḥ Muntahā al-Irādāt"
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
         }
       ]
     }

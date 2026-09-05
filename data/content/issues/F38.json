@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم موت الحيوان المائي كالسمك في الماء",
     "en": "Ruling on the death of aquatic animals such as fish in water",
     "ru": "Постановление о гибели водных животных, таких как рыба, в воде",
-    "es": "Norma sobre la muerte de animales acuáticos, como los peces, en el agua"
+    "es": "Norma sobre la muerte de animales acuáticos, como los peces, en el agua",
+    "uk": "Постанова про загибель водяної тварини, як риба, у воді"
   },
   "summary": {
     "ar": "هل ينجس الماء بموت الحيوان المائي فيه كالسمك ونحوه؟",
     "en": "Does water become impure when an aquatic animal such as a fish dies in it?",
     "ru": "Становится ли вода нечистой, если в ней погибло водное животное, например рыба?",
-    "es": "¿Se vuelve impura el agua si muere en ella un animal acuático, como un pez?"
+    "es": "¿Se vuelve impura el agua si muere en ella un animal acuático, como un pez?",
+    "uk": "Чи стає вода нечистою від загибелі в ній водяної тварини, як риба тощо?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "لا ينجس الماء بموت ما يعيش في الماء كالسمك والسرطان، وتبقى طهوريته قائمة بلا كراهة.",
         "en": "Water is not made impure by the death of what lives in water, such as fish and crabs; its purifying power remains and its use is not disliked.",
         "ru": "Вода не становится нечистой от гибели того, что живёт в воде, — рыбы или краба; её очищающая сила сохраняется без нежелательности.",
-        "es": "El agua no se vuelve impura por la muerte de lo que vive en ella, como peces y cangrejos; conserva su poder purificador sin reparo alguno."
+        "es": "El agua no se vuelve impura por la muerte de lo que vive en ella, como peces y cangrejos; conserva su poder purificador sin reparo alguno.",
+        "uk": "Вода не стає нечистою від загибелі того, що живе у воді, як риба та краб; її очищувальність зберігається без небажаності."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "الحيوان المائي كالسمك طاهر حيّاً وميّتاً، فلا ينجس الماء بموته فيه ويظل طهوراً يرفع الحدث.",
         "en": "An aquatic animal such as a fish is pure both alive and dead, so water is not made impure by its dying in it and stays tahur, removing hadath.",
         "ru": "Водное животное вроде рыбы чисто и живым, и мёртвым, поэтому вода не становится нечистой от его гибели и остаётся тахур, устраняя хадас.",
-        "es": "Un animal acuático como el pez es puro vivo y muerto, de modo que el agua no se vuelve impura por su muerte y sigue siendo tahur, eliminando el hadath."
+        "es": "Un animal acuático como el pez es puro vivo y muerto, de modo que el agua no se vuelve impura por su muerte y sigue siendo tahur, eliminando el hadath.",
+        "uk": "Водяна тварина, як риба, чиста живою і мертвою, тому вода не стає нечистою від її загибелі в ній і залишається очищувальною, що знімає хадас."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "ميتة ما لا يعيش إلا في الماء كالسمك طاهرة، فلا تنجّس الماء بموتها فيه ويصح التطهير به.",
         "en": "The carcass of a creature that lives only in water, such as a fish, is pure, so it does not make the water impure and purification with it remains valid.",
         "ru": "Падаль существа, живущего только в воде, вроде рыбы, чиста, поэтому она не оскверняет воду и очищение ею остаётся действительным.",
-        "es": "El cadáver de una criatura que solo vive en el agua, como el pez, es puro, de modo que no la vuelve impura y la purificación con ella sigue siendo válida."
+        "es": "El cadáver de una criatura que solo vive en el agua, como el pez, es puro, de modo que no la vuelve impura y la purificación con ella sigue siendo válida.",
+        "uk": "Мертве тіло того, що живе лише у воді, як риба, чисте, тому воно не оскверняє воду своєю загибеллю в ній, і очищення нею дійсне."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "لا ينجس الماء بموت الحيوان الذي يعيش في الماء كالسمك ونحوه، وتبقى طهوريته بلا كراهة.",
         "en": "Water is not made impure by the death of an animal that lives in water, such as a fish and its like; its purifying power remains and its use is not disliked.",
         "ru": "Вода не становится нечистой от гибели животного, живущего в воде, — рыбы и ей подобных; её очищающая сила сохраняется без нежелательности.",
-        "es": "El agua no se vuelve impura por la muerte de un animal que vive en ella, como el pez y sus semejantes; conserva su poder purificador sin reparo."
+        "es": "El agua no se vuelve impura por la muerte de un animal que vive en ella, como el pez y sus semejantes; conserva su poder purificador sin reparo.",
+        "uk": "Вода не стає нечистою від загибелі тварини, що живе у воді, як риба тощо; її очищувальність зберігається без небажаності."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

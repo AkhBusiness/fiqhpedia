@@ -5,19 +5,22 @@
     "ar": "باب بدء الخلق",
     "en": "Chapter on the Beginning of Creation",
     "ru": "Раздел о начале сотворения",
-    "es": "Capítulo sobre el inicio de la creación"
+    "es": "Capítulo sobre el inicio de la creación",
+    "uk": "Розділ про початок творення"
   },
   "title": {
     "ar": "بدء الخلق وخلق السماوات والأرض والملائكة والجانّ",
     "en": "The beginning of creation: the heavens, the earth, the angels, and the jinn",
     "ru": "Начало сотворения: небеса, земля, ангелы и джинны",
-    "es": "El inicio de la creación: los cielos, la tierra, los ángeles y los genios"
+    "es": "El inicio de la creación: los cielos, la tierra, los ángeles y los genios",
+    "uk": "Початок творення: небеса, земля, ангели та джини"
   },
   "excerpt": {
     "ar": "كيف كان بدء خلق الكون والسماوات والأرض والملائكة والجانّ في المصادر الإسلامية؟",
     "en": "How did the creation of the universe, the heavens, the earth, the angels, and the jinn begin, according to the Islamic sources?",
     "ru": "Как началось сотворение Вселенной, небес, земли, ангелов и джиннов по исламским источникам?",
-    "es": "¿Cómo comenzó la creación del universo, los cielos, la tierra, los ángeles y los genios según las fuentes islámicas?"
+    "es": "¿Cómo comenzó la creación del universo, los cielos, la tierra, los ángeles y los genios según las fuentes islámicas?",
+    "uk": "Як почалося творення Всесвіту, небес, землі, ангелів і джинів за ісламськими джерелами?"
   },
   "relatedRefs": [],
   "sections": [
@@ -33,7 +36,8 @@
         "ar": "كان الله تبارك وتعالى وحده في الأزل ولم يكن شيء قبله ولا معه، والأزلية صفة خاصة بالله سبحانه وتعالى وحده، وكل ما سوى الله مخلوق حادث مسبوق بالعدم. وخلق الله جل جلاله العرش والماء كأول المخلوقات، فكان عرشه العظيم فوق الماء قبل خلق بقية الكائنات. ثم أمر الله عز وجل القلم فكتب مقادير الخلائق كلها وأحداث الكائنات في اللوح المحفوظ قبل خلق السماوات والأرض بخمسين ألف سنة.\n\nوبعد ذلك خلق الله عز وجل السماوات والأرض وما بينهما في ستة أيام متتابعة لحكمة إلهية جليلة، وجعل الأرض مستقراً للخلائق وبسطها، وجعل السماوات سقفاً محفوظاً ومرفوعاً بلا عمد، وزيّن السماء الدنيا بالمصابيح والكواكب والنجوم التي تجري لمستقر لها.\n\nوقبل خلق الإنسان، خلق الله تبارك وتعالى الملائكة المقربين من نور خالص لا شائبة فيه، وجعل طبيعتهم وقدرتهم على الطاعة المطلقة والتسبيح المستمر دون ملل أو فتور، يسبحون الليل والنهار ولا يعصون الله ما أمرهم ويفعلون ما يؤمرون.\n\nكما خلق الله عز وجل الجانّ قبل خلق آدم عليه السلام بأحقاب طويلة من مارج من نار، وهو طرف اللهب الصافي الذي لا دخان فيه، وأسكنهم الأرض ليعمروها ويستقروا فيها.\n\nفلما استقر الجانّ في الأرض وقع بينهم الفساد العريض وسفك الدماء باطلاً والتظالم، فبعث الله عز وجل جنداً من الملائكة لطردهم وإجلاء شياطينهم إلى جزائر البحار وأطراف الجبال، تمهيداً لبدء خلق الإنسان واستخلافه في الأرض ليقيم شريعة الله وعبادته.",
         "en": "Allah the Exalted alone existed in eternity, with nothing before Him and nothing alongside Him. Eternity belongs to Him alone; everything besides Him is created and preceded by non-existence. He created the Throne and the water as the first of creation, and His mighty Throne stood over the water before all else came to be. Then He commanded the Pen, which wrote the decrees of every creature and every event in the Preserved Tablet fifty thousand years before the heavens and the earth were made.\n\nAfterwards He created the heavens, the earth, and all that lies between them in six successive days by a wisdom of His own. He spread out the earth as a settled dwelling, raised the heavens as a guarded canopy without pillars, and adorned the lowest heaven with lamps, planets, and stars that run to an appointed place.\n\nBefore mankind He created the angels brought near, from pure light untouched by any admixture, giving them a nature of unbroken obedience and ceaseless praise without weariness or slackening. They glorify Him night and day, never disobeying what He commands and doing what they are ordered.\n\nHe also created the jinn long ages before Adam, from a smokeless tongue of flame, and settled them upon the earth to inhabit it.\n\nWhen the jinn had settled there, wide corruption, unlawful bloodshed, and mutual wrongdoing spread among them. So Allah sent a host of angels to drive them out and banish their devils to the islands of the seas and the edges of the mountains, clearing the ground for the creation of man and his stewardship on earth, to establish the worship of Allah.",
         "ru": "Аллах Всевышний пребывал один в вечности: ничего не было ни до Него, ни вместе с Ним. Вечность принадлежит Ему одному, а всё, кроме Него, сотворено и предварено небытием. Первыми творениями Он сотворил Трон и воду, и Его великий Трон был над водой прежде всего прочего. Затем Он повелел Перу, и оно записало предопределения всех творений и всех событий в Хранимой скрижали за пятьдесят тысяч лет до сотворения небес и земли.\n\nПосле этого Он сотворил небеса, землю и всё, что между ними, за шесть последовательных дней по Своей мудрости. Землю Он расстелил обителью для творений, небеса поднял охраняемым сводом без опор, а ближайшее небо украсил светильниками, планетами и звёздами, текущими к назначенному пределу.\n\nДо человека Он сотворил приближённых ангелов из чистого света без всякой примеси, наделив их природой безраздельного повиновения и непрестанного славословия без усталости и ослабления. Они славят Его ночью и днём, не ослушиваются Его повелений и делают то, что им велено.\n\nДжиннов Он сотворил за долгие века до Адама, из чистого языка пламени без дыма, и поселил их на земле, чтобы они населяли её.\n\nКогда джинны утвердились на земле, среди них распространились широкое нечестие, беззаконное кровопролитие и взаимное притеснение. Тогда Аллах направил войско ангелов, чтобы изгнать их и оттеснить их шайтанов на морские острова и в горные окраины, готовя землю к сотворению человека и его наместничеству, дабы утвердилось поклонение Аллаху.",
-        "es": "Allah el Altísimo existía solo en la eternidad: nada había antes de Él ni junto a Él. La eternidad Le pertenece únicamente a Él, y todo lo demás es creado y precedido por la no existencia. Creó el Trono y el agua como primeras criaturas, y Su Trono inmenso estaba sobre el agua antes de que existiera lo demás. Luego ordenó al Cálamo, que escribió los decretos de todas las criaturas y de todos los sucesos en la Tabla Protegida cincuenta mil años antes de crear los cielos y la tierra.\n\nDespués creó los cielos, la tierra y cuanto hay entre ambos en seis días sucesivos, por una sabiduría Suya. Extendió la tierra como morada estable, elevó los cielos como bóveda protegida sin columnas y adornó el cielo más bajo con lámparas, planetas y estrellas que corren hacia un término fijado.\n\nAntes del ser humano creó a los ángeles allegados, de luz pura sin mezcla alguna, dándoles una naturaleza de obediencia absoluta y alabanza incesante, sin fatiga ni desmayo. Lo glorifican noche y día, no desobedecen lo que les ordena y hacen lo que se les manda.\n\nCreó también a los genios largas edades antes de Adán, de una llama pura sin humo, y los estableció en la tierra para que la habitaran.\n\nCuando los genios se asentaron, se extendió entre ellos una amplia corrupción, el derramamiento ilícito de sangre y la opresión mutua. Entonces Allah envió un ejército de ángeles para expulsarlos y desterrar a sus demonios a las islas de los mares y a los confines de las montañas, preparando la tierra para la creación del hombre y su califato en ella, para que se estableciera la adoración de Allah."
+        "es": "Allah el Altísimo existía solo en la eternidad: nada había antes de Él ni junto a Él. La eternidad Le pertenece únicamente a Él, y todo lo demás es creado y precedido por la no existencia. Creó el Trono y el agua como primeras criaturas, y Su Trono inmenso estaba sobre el agua antes de que existiera lo demás. Luego ordenó al Cálamo, que escribió los decretos de todas las criaturas y de todos los sucesos en la Tabla Protegida cincuenta mil años antes de crear los cielos y la tierra.\n\nDespués creó los cielos, la tierra y cuanto hay entre ambos en seis días sucesivos, por una sabiduría Suya. Extendió la tierra como morada estable, elevó los cielos como bóveda protegida sin columnas y adornó el cielo más bajo con lámparas, planetas y estrellas que corren hacia un término fijado.\n\nAntes del ser humano creó a los ángeles allegados, de luz pura sin mezcla alguna, dándoles una naturaleza de obediencia absoluta y alabanza incesante, sin fatiga ni desmayo. Lo glorifican noche y día, no desobedecen lo que les ordena y hacen lo que se les manda.\n\nCreó también a los genios largas edades antes de Adán, de una llama pura sin humo, y los estableció en la tierra para que la habitaran.\n\nCuando los genios se asentaron, se extendió entre ellos una amplia corrupción, el derramamiento ilícito de sangre y la opresión mutua. Entonces Allah envió un ejército de ángeles para expulsarlos y desterrar a sus demonios a las islas de los mares y a los confines de las montañas, preparando la tierra para la creación del hombre y su califato en ella, para que se estableciera la adoración de Allah.",
+        "uk": "Аллаг Всевишній перебував один у вічності: нічого не було ні до Нього, ні разом із Ним. Вічність належить Йому одному, а все, крім Нього, створене і передоване небуттям. Першими творіннями Він створив Трон і воду, і Його великий Трон був над водою перш за все інше. Потім Він наказав Перу, і воно записало приречення всіх творінь і всіх подій у Збереженій скрижалі за п'ятдесят тисяч років до створення небес і землі.\n\nПісля цього Він створив небеса, землю і все, що між ними, за шість послідовних днів за Своєю мудрістю. Землю Він розстелив оселею для творінь, небеса підняв охоронюваним склепінням без опор, а найближче небо прикрасив світильниками, планетами та зорями, що біжать до призначеної межі.\n\nДо людини Він створив наближених ангелів із чистого світла без жодної домішки, наділивши їх природою цілковитої покори і безупинного славослов'я без утоми чи ослаблення. Вони славлять Його вночі і вдень, не ослухуються Його наказів і роблять те, що їм велено.\n\nДжинів Він створив за довгі віки до Адама, з чистого язика полум'я без диму, і поселив їх на землі, щоб вони її населяли.\n\nКоли джини утвердилися на землі, серед них поширилися велике нечестя, беззаконне кровопролиття і взаємне гноблення. Тоді Аллаг послав військо ангелів, щоб вигнати їх і відтіснити їхніх шайтанів на морські острови та в гірські околиці, готуючи землю до створення людини та її намісництва, аби утвердилося поклоніння Аллагу."
       }
     }
   ],
@@ -42,19 +46,22 @@
       "ar": "تفسير ابن كثير",
       "en": "Tafsīr Ibn Kathīr",
       "ru": "«Тафсир Ибн Касира»",
-      "es": "Tafsīr Ibn Kathīr"
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
     },
     {
       "ar": "البداية والنهاية",
       "en": "Al-Bidāyah wa-al-Nihāyah",
       "ru": "«Аль-Бидая ва-н-Нихая»",
-      "es": "Al-Bidāyah wa-al-Nihāyah"
+      "es": "Al-Bidāyah wa-al-Nihāyah",
+      "uk": "«Аль-Бідая ва-н-Ніхая»"
     },
     {
       "ar": "جامع البيان",
       "en": "Jāmiʿ al-Bayān",
       "ru": "«Джами аль-Баян»",
-      "es": "Jāmiʿ al-Bayān"
+      "es": "Jāmiʿ al-Bayān",
+      "uk": "«Джамі аль-Баян»"
     }
   ]
 }

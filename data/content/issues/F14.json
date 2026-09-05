@@ -7,19 +7,22 @@
     "ar": "باب صفة الصلاة",
     "en": "Chapter of the Description of the Prayer",
     "ru": "Раздел об описании молитвы",
-    "es": "Capítulo de la descripción de la oración"
+    "es": "Capítulo de la descripción de la oración",
+    "uk": "Розділ про опис молитви"
   },
   "title": {
     "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
     "en": "Ruling on the Follower Reciting Al-Fatiha Behind the Imam",
     "ru": "Постановление о чтении Аль-Фатихи молящимся за имамом",
-    "es": "La norma sobre la recitación de al-Fátiha por el seguidor detrás del imam en la oración silenciosa y en la audible"
+    "es": "La norma sobre la recitación de al-Fátiha por el seguidor detrás del imam en la oración silenciosa y en la audible",
+    "uk": "Постанова про читання аль-Фатіги тим, хто молиться за імамом, у тихій і голосній молитві"
   },
   "summary": {
     "ar": "اختلفت المذاهب الأربعة في وجوب أو كراهة قراءة المأموم للفاتحة خلف الإمام بحسب نوع الصلاة (سرية أم جهرية).",
     "en": "The four schools differ on whether a follower must recite Al-Fatiha behind the Imam in silent/audible prayers.",
     "ru": "Четыре мазхаба расходятся во мнениях относительно обязательности чтения Аль-Фатихи за имамом.",
-    "es": "Las cuatro escuelas difieren sobre la obligatoriedad o el carácter desaconsejable de que el seguidor recite al-Fátiha detrás del imam según el tipo de oración (silenciosa o audible)."
+    "es": "Las cuatro escuelas difieren sobre la obligatoriedad o el carácter desaconsejable de que el seguidor recite al-Fátiha detrás del imam según el tipo de oración (silenciosa o audible).",
+    "uk": "Чотири мазгаби розійшлися щодо обов'язковості чи небажаності читання аль-Фатіги за імамом залежно від виду молитви (тихої чи голосної)."
   },
   "rulings": {
     "hanafi": {
@@ -27,14 +30,16 @@
         "ar": "تكره قراءة المأموم للفاتحة خلف الإمام تحريماً في السرية والجهرية، وقراءة الإمام له قراءة.",
         "en": "Prohibited/disliked for the follower to recite Fatiha behind Imam in both silent and loud prayers; Imam's recitation suffices.",
         "ru": "Запрещено (порицаемо) молящемуся за имамом читать Аль-Фатиху в тихих и громких молитвах; чтения имама достаточно.",
-        "es": "Es desaconsejable con desaconsejo prohibitivo que el seguidor recite al-Fátiha detrás del imam, en la silenciosa y en la audible; la recitación del imam es recitación para él."
+        "es": "Es desaconsejable con desaconsejo prohibitivo que el seguidor recite al-Fátiha detrás del imam, en la silenciosa y en la audible; la recitación del imam es recitación para él.",
+        "uk": "Читання аль-Фатіги за імамом небажане з небажаністю, близькою до заборони, у тихій і голосній молитві; читання імама є читанням і для нього."
       },
       "sources": [
         {
           "ar": "الدر المختار",
           "en": "Al-Durr al-Mukhtār",
           "ru": "«Ад-Дурр аль-Мухтар»",
-          "es": "Al-Durr al-Mukhtār"
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
         }
       ]
     },
@@ -43,14 +48,16 @@
         "ar": "تستحب قراءة الفاتحة للمأموم في الصلاة السرية، وتكره في الجهرية إلا إذا لم يسمع قراءة الإمام فتستحب.",
         "en": "Recommended for the follower in silent prayers, disliked in loud prayers unless the Imam is inaudible.",
         "ru": "Желательно читать в тихих молитвах, порицаемо в громких, если только не слышно имама.",
-        "es": "Es recomendable que el seguidor recite al-Fátiha en la oración silenciosa, y es desaconsejable en la audible, salvo si no oye la recitación del imam, en cuyo caso es recomendable."
+        "es": "Es recomendable que el seguidor recite al-Fátiha en la oración silenciosa, y es desaconsejable en la audible, salvo si no oye la recitación del imam, en cuyo caso es recomendable.",
+        "uk": "Читання аль-Фатіги тим, хто молиться за імамом, бажане в тихій молитві і небажане в голосній, крім випадку, коли він не чує читання імама, — тоді бажане."
       },
       "sources": [
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },
@@ -59,14 +66,16 @@
         "ar": "تجب قراءة الفاتحة على المأموم في كل ركعة، سواء كانت الصلاة سرية أم جهرية.",
         "en": "Recitation of Al-Fatiha is an absolute obligation upon the follower in every rak'ah, silent or loud.",
         "ru": "Чтение Аль-Фатихи обязательно для каждого молящегося в каждом ракаате, в тихих и громких молитвах.",
-        "es": "Es obligatorio que el seguidor recite al-Fátiha en cada rakʿah, sea la oración silenciosa o audible."
+        "es": "Es obligatorio que el seguidor recite al-Fátiha en cada rakʿah, sea la oración silenciosa o audible.",
+        "uk": "Читання аль-Фатіги обов'язкове для того, хто молиться за імамом, у кожному ракааті, чи то тиха молитва, чи голосна."
       },
       "sources": [
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         }
       ]
     },
@@ -75,14 +84,16 @@
         "ar": "تسن القراءة للمأموم في السرية وفي سكتات الإمام في الجهرية، ولا تجب عليه، فإن لم يسكت الإمام أنصت له.",
         "en": "Recommended in silent prayers and during Imam's pauses in loud prayers; not obligatory. If Imam doesn't pause, he listens.",
         "ru": "Желательно читать в тихих молитвах и паузах имама в громких. Если паузы нет — обязан слушать.",
-        "es": "Es sunna que el seguidor recite en la silenciosa y en las pausas del imam en la audible, y no le es obligatorio; si el imam no hace pausa, le escucha en silencio."
+        "es": "Es sunna que el seguidor recite en la silenciosa y en las pausas del imam en la audible, y no le es obligatorio; si el imam no hace pausa, le escucha en silencio.",
+        "uk": "Читання є сунною для того, хто молиться за імамом, у тихій молитві та в паузах імама в голосній, і не обов'язкове для нього; якщо імам не робить паузи, він мовчки слухає."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         }
       ]
     }

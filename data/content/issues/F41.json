@@ -7,19 +7,22 @@
     "ar": "باب شروط الصلاة",
     "en": "Chapter of the Conditions of Prayer",
     "ru": "Раздел об условиях молитвы",
-    "es": "Capítulo de las condiciones de la oración"
+    "es": "Capítulo de las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
   },
   "title": {
     "ar": "وقت صلاة الظهر بدايةً ونهايةً",
     "en": "The time of the noon prayer, from its beginning to its end",
     "ru": "Время полуденной молитвы: её начало и конец",
-    "es": "El tiempo de la oración del mediodía, desde su inicio hasta su fin"
+    "es": "El tiempo de la oración del mediodía, desde su inicio hasta su fin",
+    "uk": "Час полуденної молитви (зугр): початок і кінець"
   },
   "summary": {
     "ar": "متى يبدأ وقت صلاة الظهر ومتى ينتهي عند الأئمة الأربعة؟",
     "en": "When does the time of the noon prayer begin and when does it end according to the four imams?",
     "ru": "Когда начинается и когда заканчивается время полуденной молитвы по мнению четырёх имамов?",
-    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del mediodía según los cuatro imanes?"
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del mediodía según los cuatro imanes?",
+    "uk": "Коли починається і коли закінчується час молитви зугр за чотирма імамами?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثليه سوى فيء الزوال.",
         "en": "It begins when the sun passes its zenith and lasts until a thing's shadow reaches twice its length, apart from the shadow at noon.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не станет вдвое длиннее его, не считая полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra alcanza el doble de su objeto, sin contar la sombra del mediodía."
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra alcanza el doble de su objeto, sin contar la sombra del mediodía.",
+        "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не стане вдвічі довшою за неї, не рахуючи полуденної тіні."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر إلى الغروب.",
         "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer until sunset.",
         "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой до заката.",
-        "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde hasta la puesta."
+        "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde hasta la puesta.",
+        "uk": "Починається з відхилення сонця від зеніту; обраний час — доки тінь речі не зрівняється з нею, потім він спільний з асром до заходу."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله سوى فيء الزوال.",
         "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, apart from the shadow at noon.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, не считая полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, sin contar la sombra del mediodía."
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, sin contar la sombra del mediodía.",
+        "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не зрівняється з нею, не рахуючи полуденної тіні."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله بعد فيء الزوال.",
         "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, counted after the shadow at noon.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, считая после полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, contada tras la sombra del mediodía."
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, contada tras la sombra del mediodía.",
+        "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не зрівняється з нею, після полуденної тіні."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

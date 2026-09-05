@@ -7,19 +7,22 @@
     "ar": "باب سجود السهو",
     "en": "Chapter of the Prostration of Forgetfulness",
     "ru": "Раздел о земном поклоне за забывчивость",
-    "es": "Capítulo de la postración por olvido"
+    "es": "Capítulo de la postración por olvido",
+    "uk": "Розділ про земний уклін за забудькуватість"
   },
   "title": {
     "ar": "موضع سجود السهو بالنسبة للتسليم من الصلاة",
     "en": "The Timing of the Prostration of Forgetfulness Relative to Salām",
     "ru": "Место совершения земного поклона за забывчивость относительно таслима",
-    "es": "El lugar de la postración por olvido respecto al saludo final de la oración"
+    "es": "El lugar de la postración por olvido respecto al saludo final de la oración",
+    "uk": "Місце земного уклону за забудькуватість відносно таслі́му з молитви"
   },
   "summary": {
     "ar": "هل يكون سجود السهو قبل السلام أم بعده؟",
     "en": "Is the prostration of forgetfulness performed before or after Salām?",
     "ru": "Совершается ли поклон за забывчивость до или после таслима?",
-    "es": "¿La postración por olvido se hace antes del saludo final o después?"
+    "es": "¿La postración por olvido se hace antes del saludo final o después?",
+    "uk": "Земний уклін за забудькуватість здійснюється до таслі́му чи після нього?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "سجود السهو يكون كله بعد السلام مطلقاً سواء كان لنقص في الصلاة أم لزيادة.",
         "en": "The prostration of forgetfulness is performed entirely after Salām, whether for addition or omission.",
         "ru": "Земной поклон за забывчивость совершается исключительно после таслима, независимо от прибавки или упущения.",
-        "es": "La postración por olvido se hace toda después del saludo final, de forma absoluta, sea por una omisión en la oración o por un añadido."
+        "es": "La postración por olvido se hace toda después del saludo final, de forma absoluta, sea por una omisión en la oración o por un añadido.",
+        "uk": "Земний уклін за забудькуватість здійснюється весь після таслі́му безумовно, чи то за упущення в молитві, чи за додаток."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "بدائع الصنائع",
           "en": "Badāʾiʿ al-Ṣanāʾiʿ",
           "ru": "«Бадаи ас-Санаи»",
-          "es": "Badāʾiʿ al-Ṣanāʾiʿ"
+          "es": "Badāʾiʿ al-Ṣanāʾiʿ",
+          "uk": "«Бадаї ас-Санаї»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "يكون سجود السهو قبل السلام للنقص وبعد السلام للزيادة فإن اجتمعا فقبل السلام تغليباً.",
         "en": "Sujūd al-Sahw is before Salām for omissions, after for additions, and before if combined.",
         "ru": "Поклон за забывчивость делается до таслима при упущении и после при прибавке.",
-        "es": "La postración por olvido se hace antes del saludo final por omisión y después del saludo por añadido; si se dan ambos, antes del saludo por prevalencia."
+        "es": "La postración por olvido se hace antes del saludo final por omisión y después del saludo por añadido; si se dan ambos, antes del saludo por prevalencia.",
+        "uk": "Земний уклін за забудькуватість здійснюється до таслі́му за упущення і після таслі́му за додаток; якщо ж зійшлися обидва — до таслі́му за переважанням."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "الخرشي على خليل",
           "en": "Al-Kharashī ʿalā Khalīl",
           "ru": "«Аль-Хараши аля Халиль»",
-          "es": "Al-Kharashī ʿalā Khalīl"
+          "es": "Al-Kharashī ʿalā Khalīl",
+          "uk": "«Аль-Харашı аля Халіль»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "سجود السهو كله قبل السلام مباشرة في جميع الأحوال والأسباب في المذهب.",
         "en": "The prostration of forgetfulness is always performed immediately before the Salām in all cases.",
         "ru": "Земной поклон за забывчивость совершается непосредственно перед таслимом во всех случаях.",
-        "es": "La postración por olvido se hace toda inmediatamente antes del saludo final, en todos los casos y por todas las causas, en la escuela."
+        "es": "La postración por olvido se hace toda inmediatamente antes del saludo final, en todos los casos y por todas las causas, en la escuela.",
+        "uk": "Земний уклін за забудькуватість здійснюється весь безпосередньо перед таслі́мом у всіх випадках і з усіх причин у мазгабі."
       },
       "sources": [
         {
           "ar": "روضة الطالبين",
           "en": "Rawḍat al-Ṭālibīn",
           "ru": "«Равдат ат-Талибин»",
-          "es": "Rawḍat al-Ṭālibīn"
+          "es": "Rawḍat al-Ṭālibīn",
+          "uk": "«Равдат ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "تحفة المحتاج",
           "en": "Tuḥfat al-Muḥtāj",
           "ru": "«Тухфат аль-Мухтадж»",
-          "es": "Tuḥfat al-Muḥtāj"
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "يسن السجود قبل السلام إلا إن سلم عن نقص ركعات أو نسي سجوداً قبل السلام.",
         "en": "Prostration is before Salām except if one gives Salām missing units or forgot prior prostration.",
         "ru": "Желательно делать поклон до таслима, кроме случаев завершения молитвы с недостатком ракаатов.",
-        "es": "Es sunna la postración antes del saludo final, salvo si se saludó faltando rakʿas o se olvidó una postración antes del saludo."
+        "es": "Es sunna la postración antes del saludo final, salvo si se saludó faltando rakʿas o se olvidó una postración antes del saludo.",
+        "uk": "Сунною є уклін до таслі́му, крім випадку, коли дав таслі́м із нестачею ракаатів або забув уклін до таслі́му."
       },
       "sources": [
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "شرح منتهى الإرادات",
           "en": "Sharḥ Muntahā al-Irādāt",
           "ru": "«Шарх Мунтаха аль-Ирадат»",
-          "es": "Sharḥ Muntahā al-Irādāt"
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
         },
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         }
       ]
     }

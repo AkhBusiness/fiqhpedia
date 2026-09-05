@@ -7,19 +7,22 @@
     "ar": "باب المياه",
     "en": "Chapter of Waters",
     "ru": "Раздел о водах",
-    "es": "Capítulo sobre las aguas"
+    "es": "Capítulo sobre las aguas",
+    "uk": "Розділ про води"
   },
   "title": {
     "ar": "حكم سؤر الهرّ وما دونها في الخلقة من الطوّافين",
     "en": "Ruling on water left over by cats and by smaller roaming animals",
     "ru": "Постановление об остатке воды после кошек и меньших домашних животных",
-    "es": "Norma sobre el sobrante de agua de gatos y de animales menores que rondan la casa"
+    "es": "Norma sobre el sobrante de agua de gatos y de animales menores que rondan la casa",
+    "uk": "Постанова про залишок води після кішки та менших за неї істот, що снують серед людей"
   },
   "summary": {
     "ar": "هل سؤر الهرّ وما دونها في الخلقة طاهر، أم يُكره استعماله مع وجود غيره؟",
     "en": "Is water left over by a cat or a smaller creature pure, or is using it disliked when other water is available?",
     "ru": "Чист ли остаток воды после кошки или меньшего существа, или его использование нежелательно при наличии другой воды?",
-    "es": "¿Es puro el sobrante de agua de un gato o de un animal menor, o se detesta usarlo habiendo otra agua?"
+    "es": "¿Es puro el sobrante de agua de un gato o de un animal menor, o se detesta usarlo habiendo otra agua?",
+    "uk": "Чи чистий залишок води після кішки та менших за неї істот, чи його використання небажане за наявності іншої води?"
   },
   "rulings": {
     "hanafi": {
@@ -27,26 +30,30 @@
         "ar": "سؤر الهرّ وما دونها في الخلقة طاهر، لكن يكره التوضؤ به مع وجود غيره، فإن لم يوجد توضّأ به ولم يتيمّم.",
         "en": "Water left over by a cat or a smaller creature is pure, but performing wudu with it is disliked when other water is at hand; if none is, one uses it and does not resort to tayammum.",
         "ru": "Остаток воды после кошки или меньшего существа чист, но совершать им омовение нежелательно при наличии другой воды; если её нет, им омываются и к таяммуму не прибегают.",
-        "es": "El sobrante de agua de un gato o de un animal menor es puro, pero hacer el wudu con él se detesta si hay otra agua; si no la hay, se usa y no se recurre al tayammum."
+        "es": "El sobrante de agua de un gato o de un animal menor es puro, pero hacer el wudu con él se detesta si hay otra agua; si no la hay, se usa y no se recurre al tayammum.",
+        "uk": "Залишок води після кішки та менших за неї істот чистий, але робити ним омовіння небажано за наявності іншої води; якщо ж її немає, ним роблять омовіння і не вдаються до таяммуму."
       },
       "sources": [
         {
           "ar": "الهداية",
           "en": "Al-Hidāyah",
           "ru": "«Аль-Хидая»",
-          "es": "Al-Hidāyah"
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
         },
         {
           "ar": "رد المحتار",
           "en": "Radd al-Muḥtār",
           "ru": "«Радд аль-Мухтар»",
-          "es": "Radd al-Muḥtār"
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
         },
         {
           "ar": "مراقي الفلاح",
           "en": "Marāqī al-Falāḥ",
           "ru": "«Мараки аль-Фалях»",
-          "es": "Marāqī al-Falāḥ"
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
         }
       ]
     },
@@ -55,26 +62,30 @@
         "ar": "سؤر الهرّ وما دونها طهور يصح رفع الحدث به بلا كراهة، لأنها من الطوّافين علينا والطوّافات.",
         "en": "Water left over by a cat or a smaller creature is tahur and removes hadath without any dislike, since such animals are among those that go about among us.",
         "ru": "Остаток воды после кошки или меньшего существа — тахур, устраняет хадас без нежелательности, ибо эти животные из тех, что снуют среди нас.",
-        "es": "El sobrante de agua de un gato o de un animal menor es tahur y elimina el hadath sin reparo, pues son de los que van y vienen entre nosotros."
+        "es": "El sobrante de agua de un gato o de un animal menor es tahur y elimina el hadath sin reparo, pues son de los que van y vienen entre nosotros.",
+        "uk": "Залишок води після кішки та менших за неї істот — очищувальний, ним дійсне зняття хадасу без небажаності, бо це ті, що снують серед нас."
       },
       "sources": [
         {
           "ar": "الشرح الكبير",
           "en": "Al-Sharḥ al-Kabīr",
           "ru": "«Аш-Шарх аль-Кабир»",
-          "es": "Al-Sharḥ al-Kabīr"
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         },
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         },
         {
           "ar": "منح الجليل",
           "en": "Minaḥ al-Jalīl",
           "ru": "«Минах аль-Джалиль»",
-          "es": "Minaḥ al-Jalīl"
+          "es": "Minaḥ al-Jalīl",
+          "uk": "«Мінах аль-Джаліль»"
         }
       ]
     },
@@ -83,26 +94,30 @@
         "ar": "سؤر الهرّ وما دونها في الخلقة كالفأرة طاهر مطهّر يرفع الحدث بلا كراهة، للحديث الوارد في الهرّ.",
         "en": "Water left over by a cat or a smaller creature such as a mouse is pure and purifying and removes hadath without dislike, on the strength of the hadith about the cat.",
         "ru": "Остаток воды после кошки или меньшего существа, вроде мыши, чист и очищающ и устраняет хадас без нежелательности — согласно хадису о кошке.",
-        "es": "El sobrante de agua de un gato o de un animal menor, como un ratón, es puro y purificador y elimina el hadath sin reparo, por el hadiz sobre el gato."
+        "es": "El sobrante de agua de un gato o de un animal menor, como un ratón, es puro y purificador y elimina el hadath sin reparo, por el hadiz sobre el gato.",
+        "uk": "Залишок води після кішки та менших за неї істот, як миша, чистий і очищувальний, знімає хадас без небажаності — згідно з хадисом про кішку."
       },
       "sources": [
         {
           "ar": "منهاج الطالبين",
           "en": "Minhāj al-Ṭālibīn",
           "ru": "«Минхадж ат-Талибин»",
-          "es": "Minhāj al-Ṭālibīn"
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
         },
         {
           "ar": "المجموع",
           "en": "Al-Majmūʿ",
           "ru": "«Аль-Маджму»",
-          "es": "Al-Majmūʿ"
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         },
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -111,26 +126,30 @@
         "ar": "سؤر الهرّ وما دونها في الخلقة طاهر مطهّر يرفع الحدث، ولا يكره استعماله.",
         "en": "Water left over by a cat or a smaller creature is pure and purifying, removes hadath, and its use is not disliked.",
         "ru": "Остаток воды после кошки или меньшего существа чист и очищающ, устраняет хадас, и его использование не нежелательно.",
-        "es": "El sobrante de agua de un gato o de un animal menor es puro y purificador, elimina el hadath, y su uso no se detesta."
+        "es": "El sobrante de agua de un gato o de un animal menor es puro y purificador, elimina el hadath, y su uso no se detesta.",
+        "uk": "Залишок води після кішки та менших за неї істот чистий і очищувальний, знімає хадас, і його використання не є небажаним."
       },
       "sources": [
         {
           "ar": "زاد المستقنع",
           "en": "Zād al-Mustaqniʿ",
           "ru": "«Зад аль-Мустакни»",
-          "es": "Zād al-Mustaqniʿ"
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
         },
         {
           "ar": "كشاف القناع",
           "en": "Kashshāf al-Qināʿ",
           "ru": "«Кашшаф аль-Кина»",
-          "es": "Kashshāf al-Qināʿ"
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
         },
         {
           "ar": "الإنصاف",
           "en": "Al-Inṣāf",
           "ru": "«Аль-Инсаф»",
-          "es": "Al-Inṣāf"
+          "es": "Al-Inṣāf",
+          "uk": "«Аль-Інсаф»"
         }
       ]
     }

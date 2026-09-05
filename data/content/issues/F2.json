@@ -7,13 +7,15 @@
     "ar": "نطق المسلم الجديد بالشهادتين بغير اللغة العربية",
     "en": "A new Muslim pronouncing the shahada in a language other than Arabic",
     "ru": "Произнесение шахады новообращённым на языке, отличном от арабского",
-    "es": "La pronunciación de los dos testimonios por el nuevo musulmán en una lengua distinta del árabe"
+    "es": "La pronunciación de los dos testimonios por el nuevo musulmán en una lengua distinta del árabe",
+    "uk": "Промовляння двох свідчень новим мусульманином не арабською мовою"
   },
   "summary": {
     "ar": "هل يصح إسلام من نطق بالشهادتين بلغته الأم، أم يُشترط النطق باللفظ العربي؟",
     "en": "Is the Islam of one who pronounces the shahada in his native tongue valid, or is the Arabic wording required?",
     "ru": "Действителен ли ислам произнёсшего шахаду на родном языке, или требуется арабская формулировка?",
-    "es": "¿Es válido el islam de quien pronuncia la shahada en su lengua materna, o se exige la pronunciación de la fórmula árabe?"
+    "es": "¿Es válido el islam de quien pronuncia la shahada en su lengua materna, o se exige la pronunciación de la fórmula árabe?",
+    "uk": "Чи дійсний іслам того, хто промовив свідчення рідною мовою, чи вимагається арабське формулювання?"
   },
   "rulings": {
     "hanafi": {
@@ -21,14 +23,16 @@
         "ar": "يصح إسلامه بالنطق بمعناهما بلغته فوراً ولو كان قادراً على تعلم العربية.",
         "en": "His Islam is valid by uttering their meaning in his own language immediately, even if he is able to learn Arabic.",
         "ru": "Его ислам действителен при немедленном произнесении их смысла на своём языке, даже если он способен выучить арабский.",
-        "es": "Su islam es válido al pronunciar su significado en su lengua de inmediato, aunque sea capaz de aprender árabe."
+        "es": "Su islam es válido al pronunciar su significado en su lengua de inmediato, aunque sea capaz de aprender árabe.",
+        "uk": "Його іслам дійсний за негайного промовляння їхнього змісту своєю мовою, навіть якщо він здатний вивчити арабську."
       },
       "sources": [
         {
           "ar": "الدر المختار",
           "en": "Al-Durr al-Mukhtār",
           "ru": "«Ад-Дурр аль-Мухтар»",
-          "es": "Al-Durr al-Mukhtār"
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
         }
       ]
     },
@@ -37,14 +41,16 @@
         "ar": "يصح إسلامه بلغته إن عجز عن العربية، وتلزم الترجمة الدقيقة للمعنى.",
         "en": "His Islam is valid in his language if he is unable to use Arabic, and an accurate translation of the meaning is required.",
         "ru": "Его ислам действителен на его языке при неспособности к арабскому, и требуется точный перевод смысла.",
-        "es": "Su islam es válido en su lengua si no puede hacerlo en árabe, y se exige una traducción exacta del significado."
+        "es": "Su islam es válido en su lengua si no puede hacerlo en árabe, y se exige una traducción exacta del significado.",
+        "uk": "Його іслам дійсний його мовою, якщо він неспроможний до арабської, і вимагається точний переклад змісту."
       },
       "sources": [
         {
           "ar": "حاشية الدسوقي",
           "en": "Ḥāshiyat al-Dasūqī",
           "ru": "«Хашият ад-Дасуки»",
-          "es": "Ḥāshiyat al-Dasūqī"
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },
@@ -53,14 +59,16 @@
         "ar": "يصح إسلامه بالترجمة فوراً عجز أم قدر، لأن الواجب هو جزم القلب بالمعنى.",
         "en": "His Islam is valid by translation immediately, whether able or unable, because what is required is the heart's firm resolve upon the meaning.",
         "ru": "Его ислам действителен через перевод немедленно, способен он или нет, ибо требуется твёрдая убеждённость сердца в смысле.",
-        "es": "Su islam es válido mediante la traducción de inmediato, sea capaz o no, porque lo obligatorio es la certeza del corazón sobre el significado."
+        "es": "Su islam es válido mediante la traducción de inmediato, sea capaz o no, porque lo obligatorio es la certeza del corazón sobre el significado.",
+        "uk": "Його іслам дійсний через переклад негайно, спроможний він чи ні, бо обов'язковою є тверда переконаність серця у змісті."
       },
       "sources": [
         {
           "ar": "مغني المحتاج",
           "en": "Mughnī al-Muḥtāj",
           "ru": "«Мугни аль-Мухтадж»",
-          "es": "Mughnī al-Muḥtāj"
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },
@@ -69,14 +77,16 @@
         "ar": "يصح إسلامه بأي لغة تؤدي المعنى المقصود ولا يشترط اللفظ العربي.",
         "en": "His Islam is valid in any language that conveys the intended meaning, and the Arabic wording is not a condition.",
         "ru": "Его ислам действителен на любом языке, передающем нужный смысл, и арабская формулировка не является условием.",
-        "es": "Su islam es válido en cualquier lengua que transmita el significado pretendido, y no se exige la fórmula árabe."
+        "es": "Su islam es válido en cualquier lengua que transmita el significado pretendido, y no se exige la fórmula árabe.",
+        "uk": "Його іслам дійсний будь-якою мовою, що передає потрібний зміст, і арабське формулювання не є умовою."
       },
       "sources": [
         {
           "ar": "مطالب أولي النهى",
           "en": "Maṭālib Ūlī al-Nuhā",
           "ru": "«Маталиб ули ан-Нуха»",
-          "es": "Maṭālib Ūlī al-Nuhā"
+          "es": "Maṭālib Ūlī al-Nuhā",
+          "uk": "«Маталіб улі ан-Нуха»"
         }
       ]
     }
