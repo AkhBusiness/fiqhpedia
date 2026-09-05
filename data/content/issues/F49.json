@@ -6,21 +6,21 @@
   "chapter": {
     "ar": "وجوب الصيام ورؤية الهلال",
     "en": "The Obligation of Fasting and Sighting the Crescent",
-    "ru": "Обязательность поста и наблюдение полумесяца",
+    "ru": "Обязательность поста и наблюдение новолуния",
     "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
     "uk": "Обов'язковість посту та спостереження молодика"
   },
   "title": {
     "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
     "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
-    "ru": "Постановление об установлении полумесяца Рамадана свидетельством одного или двух справедливых свидетелей",
+    "ru": "Постановление об установлении новолуния Рамадана свидетельством одного или двух справедливых свидетелей",
     "es": "Norma sobre la confirmación de la media luna de Ramadán mediante el testimonio de uno o dos testigos justos",
     "uk": "Постанова про підтвердження молодика Рамадану свідченням одного або двох справедливих свідків"
   },
   "summary": {
     "ar": "هل يثبت هلال شهر رمضان برؤية عدل واحد أم يشترط اثنان؟",
     "en": "Is the crescent of Ramadan confirmed by the sighting of a single just witness, or are two required?",
-    "ru": "Устанавливается ли полумесяц Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
+    "ru": "Устанавливается ли новолуние Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
     "es": "¿Se confirma la media luna de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
     "uk": "Чи підтверджується молодик Рамадану свідченням одного справедливого свідка, чи потрібно двоє?"
   },
@@ -29,7 +29,7 @@
       "text": {
         "ar": "يثبت هلال رمضان بخبر العدل الواحد، ذكراً كان أو أنثى، إن كان بالسماء علّة من غيم أو غبار؛ فإن كانت السماء مصحية لم يُقبل إلا خبر جمع عظيم يقع العلم بخبرهم. والأصل في قبول الواحد حديث ابن عمر رضي الله عنهما: «تراءى الناس الهلال، فأخبرت رسول الله ﷺ أني رأيته، فصام وأمر الناس بصيامه».",
         "en": "The crescent of Ramadan is established by the report of a single upright witness, male or female, if there is an obstruction in the sky such as cloud or dust; but if the sky is clear, nothing is accepted except the report of a large body of people whose report yields certain knowledge. The basis for accepting a single witness is the hadith of Ibn ʿUmar: “The people were looking for the crescent, and I informed the Messenger of Allah ﷺ that I had seen it, so he fasted and ordered the people to fast.”",
-        "ru": "Полумесяц Рамадана подтверждается сообщением одного справедливого свидетеля, мужчины или женщины, если на небе есть помеха — облака или пыль; если же небо ясное, принимается лишь сообщение большого числа людей, чьё известие порождает достоверное знание. Основанием для принятия одного свидетеля служит хадис Ибн Умара: «Люди высматривали полумесяц, и я сообщил Посланнику Аллаха ﷺ, что видел его; тогда он стал поститься и велел людям поститься».",
+        "ru": "Новолуние Рамадана подтверждается сообщением одного справедливого свидетеля, мужчины или женщины, если на небе есть помеха — облака или пыль; если же небо ясное, принимается лишь сообщение большого числа людей, чьё известие порождает достоверное знание. Основанием для принятия одного свидетеля служит хадис Ибн Умара: «Люди высматривали новолуние, и я сообщил Посланнику Аллаха ﷺ, что видел его; тогда он стал поститься и велел людям поститься».",
         "es": "La luna nueva de Ramadán se establece con el informe de un solo testigo íntegro, hombre o mujer, si hay un impedimento en el cielo como nubes o polvo; pero si el cielo está despejado, no se acepta sino el informe de un grupo numeroso cuyo testimonio produce conocimiento cierto. La base para aceptar a un solo testigo es el hadiz de Ibn ʿUmar: «La gente buscaba la luna nueva, e informé al Mensajero de Allah ﷺ de que la había visto; entonces ayunó y ordenó a la gente ayunar».",
         "uk": "Молодик Рамадану підтверджується повідомленням одного справедливого свідка, чоловіка чи жінки, якщо на небі є перешкода — хмари або пил; якщо ж небо ясне, приймається лише повідомлення великого числа людей, чия звістка породжує достовірне знання. Підставою для прийняття одного свідка є хадис Ібн Умара: «Люди виглядали молодик, і я повідомив Посланця Аллаха ﷺ, що бачив його; тоді він став постити і наказав людям постити»."
       },
@@ -61,7 +61,7 @@
       "text": {
         "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويشترط في العدل الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
         "en": "The crescent of Ramadan is not established by the testimony of a single just witness; rather, the testimony of two just men or widespread report is required. A just witness must be male, free, and of probity, and the sighting of an impious or unknown person does not suffice.",
-        "ru": "Полумесяц Рамадана не подтверждается свидетельством одного справедливого свидетеля; требуется свидетельство двух справедливых мужчин либо широко распространённое сообщение. Справедливый свидетель должен быть мужчиной, свободным и добропорядочным, а наблюдения нечестивца или неизвестного лица недостаточно.",
+        "ru": "Новолуние Рамадана не подтверждается свидетельством одного справедливого свидетеля; требуется свидетельство двух справедливых мужчин либо широко распространённое сообщение. Справедливый свидетель должен быть мужчиной, свободным и добропорядочным, а наблюдения нечестивца или неизвестного лица недостаточно.",
         "es": "La luna nueva de Ramadán no se establece con el testimonio de un solo testigo justo; se requiere el testimonio de dos hombres justos o una transmisión generalizada. En el testigo justo se exige ser varón, libre y de probidad, y no basta el avistamiento de un impío ni de un desconocido.",
         "uk": "Півмісяць Рамадану не підтверджується свідченням одного справедливого свідка; вимагається свідчення двох справедливих чоловіків або широко поширене повідомлення. Справедливий свідок має бути чоловіком, вільним і доброчесним, а спостереження нечестивця чи невідомої особи недостатньо."
       },
@@ -125,7 +125,7 @@
       "text": {
         "ar": "يثبت هلال رمضان برؤية عدل واحد ولو كان عبداً أو أنثى، لأن النبي ﷺ قَبِل في رؤية الهلال خبر الواحد، كما في حديث ابن عمر وفي حديث الأعرابي الذي رواه ابن عباس رضي الله عنهم.",
         "en": "The crescent of Ramadan is established by the sighting of a single upright witness, even a slave or a woman, because the Prophet ﷺ accepted the report of one individual regarding the sighting, as in the hadith of Ibn ʿUmar and the hadith of the Bedouin narrated by Ibn ʿAbbās.",
-        "ru": "Полумесяц Рамадана подтверждается свидетельством одного справедливого свидетеля, даже раба или женщины, поскольку Пророк ﷺ принял сообщение одного человека о наблюдении — как в хадисе Ибн Умара и в хадисе о бедуине, переданном Ибн Аббасом.",
+        "ru": "Новолуние Рамадана подтверждается свидетельством одного справедливого свидетеля, даже раба или женщины, поскольку Пророк ﷺ принял сообщение одного человека о наблюдении — как в хадисе Ибн Умара и в хадисе о бедуине, переданном Ибн Аббасом.",
         "es": "La luna nueva de Ramadán se establece con el testimonio de un solo testigo íntegro, aunque sea esclavo o mujer, porque el Profeta ﷺ aceptó el informe de un solo individuo sobre el avistamiento, como en el hadiz de Ibn ʿUmar y en el hadiz del beduino narrado por Ibn ʿAbbās.",
         "uk": "Молодик Рамадану підтверджується свідченням одного справедливого свідка, навіть раба чи жінки, оскільки Пророк ﷺ прийняв повідомлення однієї людини про спостереження — як у хадисі Ібн Умара та в хадисі про бедуїна, переданому Ібн Аббасом."
       },

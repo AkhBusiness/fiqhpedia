@@ -946,6 +946,76 @@
       "ru": "Читать этот аят на вашем языке",
       "es": "Leer esta aleya en tu idioma",
       "uk": "Читати цей аят вашою мовою"
+    },
+    "searchScopeLabel": {
+      "ar": "نطاق البحث",
+      "en": "Search in",
+      "ru": "Искать в",
+      "es": "Buscar en",
+      "uk": "Шукати в"
+    },
+    "searchScopeAll": {
+      "ar": "كل الأبواب",
+      "en": "All books",
+      "ru": "Всех книгах",
+      "es": "Todos los libros",
+      "uk": "Усіх книгах"
+    },
+    "searchScopeBook": {
+      "ar": "هذا الباب",
+      "en": "This book",
+      "ru": "Этой книге",
+      "es": "Este libro",
+      "uk": "Цій книзі"
+    },
+    "searchScopeChapter": {
+      "ar": "هذا الفصل",
+      "en": "This chapter",
+      "ru": "Этой главе",
+      "es": "Este capítulo",
+      "uk": "Цьому розділі"
+    },
+    "globalSearch": {
+      "ar": "بحث في الموقع",
+      "en": "Search the site",
+      "ru": "Поиск по сайту",
+      "es": "Buscar en el sitio",
+      "uk": "Пошук по сайту"
+    },
+    "globalSearchPlaceholder": {
+      "ar": "ابحث في الموقع كلّه: مسائل وأدلة ومقالات ومفردات…",
+      "en": "Search the whole site: issues, proofs, articles, terms…",
+      "ru": "Поиск по всему сайту: вопросы, доказательства, статьи, термины…",
+      "es": "Busca en todo el sitio: cuestiones, pruebas, artículos, términos…",
+      "uk": "Пошук по всьому сайту: питання, докази, статті, терміни…"
+    },
+    "globalSearchHint": {
+      "ar": "يشمل الفقه والعقيدة والمقالات والمفردات والأسئلة",
+      "en": "Covers fiqh, creed, articles, glossary and questions",
+      "ru": "Охватывает фикх, вероучение, статьи, словарь и вопросы",
+      "es": "Abarca fiqh, credo, artículos, glosario y preguntas",
+      "uk": "Охоплює фікг, віровчення, статті, словник і запитання"
+    },
+    "searchFiqhOnly": {
+      "ar": "هذا البحث في مسائل الفقه وحدها",
+      "en": "This search covers fiqh issues only",
+      "ru": "Этот поиск охватывает только вопросы фикха",
+      "es": "Esta búsqueda cubre solo las cuestiones de fiqh",
+      "uk": "Цей пошук охоплює лише питання фікгу"
+    },
+    "noSearchResults": {
+      "ar": "لا نتائج في هذا النطاق — جرّب توسيعه",
+      "en": "No results in this scope — try widening it",
+      "ru": "Нет результатов в этой области — попробуйте расширить",
+      "es": "Sin resultados en este ámbito — prueba a ampliarlo",
+      "uk": "Немає результатів у цій області — спробуйте розширити"
+    },
+    "glossarySchoolNote": {
+      "ar": "التعريف الاصطلاحي معروض حسب اختيارك للمذهب",
+      "en": "The technical definition follows your school selection",
+      "ru": "Терминологическое определение соответствует выбранному мазхабу",
+      "es": "La definición técnica sigue tu selección de escuela",
+      "uk": "Термінологічне визначення відповідає обраному мазгабу"
     }
   },
   "books": [
@@ -1065,7 +1135,7 @@
       "key": "shafii",
       "name": {
         "ar": "الشافعي",
-        "en": "Shafi'i",
+        "en": "Shāfiʿī",
         "ru": "Шафиитский",
         "es": "Shafiʿí",
         "uk": "Шафіїтський"
@@ -1751,7 +1821,7 @@
       },
       "definition": {
         "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
-        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
+        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qurʾān is transmitted this way.",
         "ru": "Передача сообщения множеством независимых передатчиков, сговор которых о лжи невозможен, что даёт достоверное знание. Так передан Коран.",
         "es": "La transmisión de una noticia por tantos narradores independientes que resulta imposible que se hayan puesto de acuerdo en una mentira, lo cual produce un conocimiento cierto. El Corán se transmite de esta manera.",
         "uk": "Передача повідомлення такою кількістю незалежних передавачів, що їхня змова про брехню неможлива, і це дає достовірне знання. Коран переданий саме так."
@@ -1819,7 +1889,7 @@
       },
       "definition": {
         "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
-        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
+        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qurʾān and Sunnah.",
         "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны.",
         "es": "El acuerdo de los sabios cualificados de una época sobre una norma legal; es una de las fuentes de la legislación después del Corán y la Sunna.",
         "uk": "Одностайна згода вчених-муджтагідів громади певної епохи щодо шаріатської постанови; одне з джерел законодавства після Корану та Сунни."
@@ -1846,9 +1916,9 @@
       "id": "sunnah-muakkadah",
       "term": {
         "ar": "سُنَّةٌ مُؤَكَّدَةٌ",
-        "en": "Sunnah Mu'akkadah",
+        "en": "Sunnah Muʾakkadah",
         "ru": "Сунна Муаккада",
-        "es": "Sunnah Mu'akkadah",
+        "es": "Sunnah Muʾakkadah",
         "uk": "Сунна Муаккада"
       },
       "briefDefinition": {
@@ -1861,7 +1931,7 @@
       "linguistic": {
         "ar": "الطريقة المتبعة والسيرة المستمرة محمودة كانت أو مذمومة.",
         "en": "The followed path and continuous practice, whether praiseworthy or blameworthy.",
-        "ru": "Следуемый путь и постоянная практика, будь она похвальной или порицаемой.",
+        "ru": "Следуемый путь и постоянная практика, будь она похвальной или нежелательной.",
         "es": "El camino seguido y la práctica continua, ya sea elogiable o censurable.",
         "uk": "Шлях, за яким слідують, і постійна практика, будь вона схвальною чи осудливою."
       },
@@ -2625,7 +2695,7 @@
       },
       "intro": {
         "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
-        "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
+        "en": "The core sequence of postures within one unit (rakʿah) of prayer.",
         "ru": "Основная последовательность положений в одном ракаате молитвы.",
         "es": "La secuencia básica de posturas dentro de una unidad (rakʿah) de la oración.",
         "uk": "Основна послідовність положень в одному ракааті молитви."
@@ -2657,7 +2727,7 @@
           },
           "text": {
             "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
-            "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
+            "en": "While standing, recite al-Fatihah and a passage of the Qurʾān.",
             "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана.",
             "es": "De pie, recita al-Fátiha y un pasaje del Corán.",
             "uk": "Стоячи, прочитайте суру «аль-Фатіга» та уривок із Корану."
@@ -2689,9 +2759,9 @@
           },
           "text": {
             "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
-            "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
+            "en": "Rise upright saying 'Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd'.",
             "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд».",
-            "es": "Incorpórate erguido diciendo «Sami'Allahu liman hamidah, Rabbana wa lakal-hamd».",
+            "es": "Incorpórate erguido diciendo «Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd».",
             "uk": "Випряміться, кажучи «Самі Аллаху ліман хамідаг, Раббана ва лякаль-хамд»."
           }
         },
@@ -2705,9 +2775,9 @@
           },
           "text": {
             "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
-            "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
+            "en": "Prostrate on seven points saying 'Subhana Rabbiya al-Aʿlā' — two prostrations per unit.",
             "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат.",
-            "es": "Postra sobre siete puntos diciendo «Subhana Rabbiyal-A'la» — dos postraciones por unidad.",
+            "es": "Postra sobre siete puntos diciendo «Subhana Rabbiya al-Aʿlā» — dos postraciones por unidad.",
             "uk": "Здійсніть земний уклін на семи частинах тіла, кажучи «Субхана Раббі аль-Аля» — по два уклони на ракаат."
           }
         }
@@ -2821,7 +2891,7 @@
           },
           "text": {
             "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
-            "en": "Wipe the head once (or part of it in Hanafi/Shafi'i), then wipe inside and outside of ears.",
+            "en": "Wipe the head once (or part of it in Hanafi/Shāfiʿī), then wipe inside and outside of ears.",
             "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей.",
             "es": "Pasar la mano por toda la cabeza (o parte de ella según los shafiíes y hanafíes) una vez, luego pasar la mano por el exterior e interior de las orejas con agua nueva.",
             "uk": "Протирання всієї голови (або її частини — у шафіїтів і ганафітів) один раз, потім протирання зовнішньої та внутрішньої частини вух новою водою."
@@ -2889,7 +2959,7 @@
       },
       "answer": {
         "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
-        "en": "No. You can accept Islam in any language you understand and learn the Qur'an and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
+        "en": "No. You can accept Islam in any language you understand and learn the Qurʾān and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
         "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием.",
         "es": "No. Puedes abrazar el islam en cualquier idioma que entiendas, y aprender el Corán y la oración gradualmente. Aprender algo de árabe para la oración es recomendable y útil, pero no es una condición para hacerte musulmán.",
         "uk": "Ні. Прийняти іслам можна будь-якою зрозумілою вам мовою, а Коран і молитву вивчати поступово. Трохи арабської для молитви — бажано й корисно, але це не умова прийняття ісламу."
@@ -2937,8 +3007,8 @@
       },
       "answer": {
         "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
-        "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
-        "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
+        "en": "You gradually take on the five essential elements: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
+        "ru": "Постепенно вы принимаете пять обязательных составных частей: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
         "es": "Vas asumiendo gradualmente los cinco pilares: el testimonio de fe, las cinco oraciones diarias, el zakat (para quien alcance el mínimo exigido), el ayuno de Ramadán y la peregrinación para quien pueda. La prioridad más inmediata es aprender y comenzar la oración.",
         "uk": "Ви поступово беретеся за п'ять обов'язкових складових ісламу: свідчення віри, п'ять щоденних молитв, закят для тих, хто має нісаб, піст у Рамадан і хадж для спроможних. Найважливіше — почати з молитви і навчитися їй."
       }
@@ -2961,7 +3031,7 @@
       },
       "answer": {
         "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
-        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qur'an and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qurʾān and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
         "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма.",
         "es": "Sus diferencias están en asuntos secundarios e interpretativos, no en los fundamentos, y todas se remontan al Corán y la Sunna; esta variedad es una misericordia y una amplitud. El principiante puede simplemente aprender según los sabios de confianza de su localidad, sin fanatismo.",
         "uk": "Їхні розбіжності — у другорядних питаннях іджтигаду, а не в основах, і всі вони сходять до Корану та Сунни; це милість і простір. Початківцю досить учитися за надійними вченими своєї країни, без фанатизму."

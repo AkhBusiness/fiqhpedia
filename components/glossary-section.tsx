@@ -8,12 +8,20 @@ import {
   glossaryAnchor,
   type Lang,
   normalizeSearch,
+  type SchoolKey,
   schools,
   ui,
   LANGS,
 } from "@/lib/fiqh-data"
 
 interface GlossarySectionProps {
+  /**
+   * Which schools the reader has chosen to see, or undefined for all.
+   * The glossary follows the same choice as the fiqh cards: a reader who
+   * has picked one school came to find that school's definition, and four
+   * definitions stacked under one term is the thing they filtered away.
+   */
+  visibleSchools?: SchoolKey[]
   lang: Lang
 }
 
@@ -37,10 +45,22 @@ function schoolSenses(term: GlossaryTerm, lang: Lang) {
     .filter((x) => x.sense?.text?.[lang]?.trim())
 }
 
-function TermCard({ term, lang, flash }: { term: GlossaryTerm; lang: Lang; flash: boolean }) {
+function TermCard({
+  term,
+  lang,
+  flash,
+  visibleSchools,
+}: {
+  term: GlossaryTerm
+  lang: Lang
+  flash: boolean
+  visibleSchools?: SchoolKey[]
+}) {
   const brief = gloss(term, lang)
   const plain = plainSenses(term, lang)
-  const bySchool = schoolSenses(term, lang)
+  const bySchool = schoolSenses(term, lang).filter(
+    (x) => !visibleSchools || visibleSchools.includes(x.school.key),
+  )
   const hasScholarly = plain.length > 0 || bySchool.length > 0
   const linguistic = plain.filter((s) => s.key === "linguistic")
   const legal = plain.filter((s) => s.key === "legal")
@@ -94,6 +114,11 @@ function TermCard({ term, lang, flash }: { term: GlossaryTerm; lang: Lang; flash
                 {ui.glossaryTechnical[lang]}
               </dt>
               <dd className="flex flex-col gap-2">
+                {visibleSchools && visibleSchools.length < schools.length ? (
+                  <p className="text-[11px] text-muted-foreground/70">
+                    {ui.glossarySchoolNote[lang]}
+                  </p>
+                ) : null}
                 {bySchool.map(({ school, sense }) => (
                   <div
                     key={school.key}
@@ -130,7 +155,7 @@ function TermCard({ term, lang, flash }: { term: GlossaryTerm; lang: Lang; flash
   )
 }
 
-export function GlossarySection({ lang }: GlossarySectionProps) {
+export function GlossarySection({ lang, visibleSchools }: GlossarySectionProps) {
   const [query, setQuery] = useState("")
   const [target, setTarget] = useState<string | null>(null)
 
@@ -218,7 +243,13 @@ export function GlossarySection({ lang }: GlossarySectionProps) {
       {visible.length > 0 ? (
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           {visible.map((t) => (
-            <TermCard key={t.id} term={t} lang={lang} flash={t.id === target} />
+            <TermCard
+              key={t.id}
+              term={t}
+              lang={lang}
+              flash={t.id === target}
+              visibleSchools={visibleSchools}
+            />
           ))}
         </div>
       ) : (

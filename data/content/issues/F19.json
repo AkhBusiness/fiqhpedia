@@ -28,8 +28,8 @@
     "hanafi": {
       "text": {
         "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
-        "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
-        "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях.",
+        "en": "For the validity of the Friday prayer it is required that it be held in a town with a congregational mosque or in its outskirts, and it is not valid in villages.",
+        "ru": "Для действительности пятничной молитвы требуется, чтобы она совершалась в городе с соборной мечетью или в его окрестностях, и она недействительна в деревнях.",
         "es": "Se exige para la validez de la oración del viernes que se celebre en una ciudad con mezquita congregacional o en sus afueras, y no es válida en las aldeas.",
         "uk": "Для дійсності п'ятничної молитви вимагається, щоб вона здійснювалася у великому місті з соборною мечеттю або в його передмісті, і вона недійсна в селах."
       },
@@ -92,8 +92,8 @@
     "shafii": {
       "text": {
         "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
-        "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
-        "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов.",
+        "en": "The Friday prayer is valid in villages and built settlements, on condition that forty legally responsible resident men are present, by whom the Friday prayer is constituted.",
+        "ru": "Пятничная молитва действительна в деревнях и возведённых строениях при условии оседлого проживания сорока дееспособных мужчин, которыми она и совершается.",
         "es": "La oración del viernes es válida en las aldeas y en los edificios construidos, a condición de que residan cuarenta hombres legalmente responsables con los que se celebre el viernes.",
         "uk": "П'ятнична молитва дійсна в селах і зведених будівлях за умови осілого проживання сорока повнолітніх чоловіків, якими вона чиниться."
       },
@@ -124,8 +124,8 @@
     "hanbali": {
       "text": {
         "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
-        "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
-        "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен.",
+        "en": "Residence in a settlement of adjoining buildings is required; a large city is not mandatory.",
+        "ru": "Условием является проживание в смежных постройках; статус крупного города не обязателен.",
         "es": "Se exige celebrarla en un asentamiento de edificios agrupados, y no se exige que sea una gran ciudad determinada.",
         "uk": "Вимагається здійснювати її в осілому поселенні із з'єднаних будівель, і не вимагається, щоб це було саме визначене велике місто."
       },

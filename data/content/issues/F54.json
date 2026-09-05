@@ -19,7 +19,7 @@
   },
   "summary": {
     "ar": "هل المضمضة والاستنشاق واجبان مع غسل الوجه في الوضوء أم سنة، وما حدود غسل الوجه؟",
-    "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they sunnah, and what are the boundaries of washing the face?",
+    "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they Sunnah, and what are the boundaries of washing the face?",
     "ru": "Являются ли полоскание рта и носа обязательными вместе с мытьем лица при омовении или сунной, и каковы границы мытья лица?",
     "es": "¿Son obligatorios el enjuague bucal y nasal junto con el lavado de la cara en la ablución o son sunnah, y cuáles son los límites de lavar la cara?",
     "uk": "Чи є полоскання рота та носа обов'язковими разом із миттям обличчя під час омивання чи сунною, і які межі миття обличчя?"
@@ -28,7 +28,7 @@
     "hanafi": {
       "text": {
         "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنة مؤكدة في الوضوء وفرض في الغسل، وحدود الوجه طولاً من منابت الشعر المعتاد إلى أسفل الذقن، وعرضاً ما بين الأذنين.",
-        "en": "Washing the face is obligatory; rinsing the mouth and the nose are emphasised sunnah in the ablution and obligatory in the full bath. The face extends lengthwise from the usual hairline to the bottom of the chin, and breadthwise from ear to ear.",
+        "en": "Washing the face is obligatory; rinsing the mouth and the nose are emphasized Sunnah in the ablution and obligatory in the full bath. The face extends lengthwise from the usual hairline to the bottom of the chin, and breadthwise from ear to ear.",
         "ru": "Мытьё лица является фардом; полоскание рта и носа — подтверждённая сунна в омовении и фард в полном омовении. Границы лица: в длину от обычной линии роста волос до низа подбородка, в ширину — от уха до уха.",
         "es": "Lavar el rostro es obligatorio; enjuagar la boca y la nariz son sunna enfatizada en la ablución y obligatorios en el baño completo. El rostro se extiende a lo largo desde el nacimiento habitual del cabello hasta la parte baja del mentón, y a lo ancho de oreja a oreja.",
         "uk": "Миття обличчя є обов'язковим; полоскання рота й носа — підтверджена сунна в омовінні та обов'язок у повному обмиванні. Межі обличчя: у довжину від звичайної лінії росту волосся до низу підборіддя, у ширину — від вуха до вуха."
@@ -124,8 +124,8 @@
     "hanbali": {
       "text": {
         "ar": "غسل الوجه ركن من أركان الوضوء، والمضمضة والاستنشاق واجبان في الوضوء والغسل ولا يصح الوضوء بدونهما.",
-        "en": "Washing the face is a pillar of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
-        "ru": "Мытье лица — столп омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
+        "en": "Washing the face is a essential element of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
+        "ru": "Мытье лица — обязательная составная часть омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
         "es": "Lavar la cara es un pilar de la ablución, y el enjuague bucal y nasal son obligatorios en la ablución y el ghusl; la ablución no es válida sin ellos.",
         "uk": "Миття обличчя — обов'язкова складова омивання, а полоскання рота та носа — обов'язкові дії в омиванні та гуслі, і омивання без них недійсне."
       },

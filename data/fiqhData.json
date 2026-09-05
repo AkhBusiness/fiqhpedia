@@ -946,6 +946,76 @@
       "ru": "Читать этот аят на вашем языке",
       "es": "Leer esta aleya en tu idioma",
       "uk": "Читати цей аят вашою мовою"
+    },
+    "searchScopeLabel": {
+      "ar": "نطاق البحث",
+      "en": "Search in",
+      "ru": "Искать в",
+      "es": "Buscar en",
+      "uk": "Шукати в"
+    },
+    "searchScopeAll": {
+      "ar": "كل الأبواب",
+      "en": "All books",
+      "ru": "Всех книгах",
+      "es": "Todos los libros",
+      "uk": "Усіх книгах"
+    },
+    "searchScopeBook": {
+      "ar": "هذا الباب",
+      "en": "This book",
+      "ru": "Этой книге",
+      "es": "Este libro",
+      "uk": "Цій книзі"
+    },
+    "searchScopeChapter": {
+      "ar": "هذا الفصل",
+      "en": "This chapter",
+      "ru": "Этой главе",
+      "es": "Este capítulo",
+      "uk": "Цьому розділі"
+    },
+    "globalSearch": {
+      "ar": "بحث في الموقع",
+      "en": "Search the site",
+      "ru": "Поиск по сайту",
+      "es": "Buscar en el sitio",
+      "uk": "Пошук по сайту"
+    },
+    "globalSearchPlaceholder": {
+      "ar": "ابحث في الموقع كلّه: مسائل وأدلة ومقالات ومفردات…",
+      "en": "Search the whole site: issues, proofs, articles, terms…",
+      "ru": "Поиск по всему сайту: вопросы, доказательства, статьи, термины…",
+      "es": "Busca en todo el sitio: cuestiones, pruebas, artículos, términos…",
+      "uk": "Пошук по всьому сайту: питання, докази, статті, терміни…"
+    },
+    "globalSearchHint": {
+      "ar": "يشمل الفقه والعقيدة والمقالات والمفردات والأسئلة",
+      "en": "Covers fiqh, creed, articles, glossary and questions",
+      "ru": "Охватывает фикх, вероучение, статьи, словарь и вопросы",
+      "es": "Abarca fiqh, credo, artículos, glosario y preguntas",
+      "uk": "Охоплює фікг, віровчення, статті, словник і запитання"
+    },
+    "searchFiqhOnly": {
+      "ar": "هذا البحث في مسائل الفقه وحدها",
+      "en": "This search covers fiqh issues only",
+      "ru": "Этот поиск охватывает только вопросы фикха",
+      "es": "Esta búsqueda cubre solo las cuestiones de fiqh",
+      "uk": "Цей пошук охоплює лише питання фікгу"
+    },
+    "noSearchResults": {
+      "ar": "لا نتائج في هذا النطاق — جرّب توسيعه",
+      "en": "No results in this scope — try widening it",
+      "ru": "Нет результатов в этой области — попробуйте расширить",
+      "es": "Sin resultados en este ámbito — prueba a ampliarlo",
+      "uk": "Немає результатів у цій області — спробуйте розширити"
+    },
+    "glossarySchoolNote": {
+      "ar": "التعريف الاصطلاحي معروض حسب اختيارك للمذهب",
+      "en": "The technical definition follows your school selection",
+      "ru": "Терминологическое определение соответствует выбранному мазхабу",
+      "es": "La definición técnica sigue tu selección de escuela",
+      "uk": "Термінологічне визначення відповідає обраному мазгабу"
     }
   },
   "books": [
@@ -1065,7 +1135,7 @@
       "key": "shafii",
       "name": {
         "ar": "الشافعي",
-        "en": "Shafi'i",
+        "en": "Shāfiʿī",
         "ru": "Шафиитский",
         "es": "Shafiʿí",
         "uk": "Шафіїтський"
@@ -1751,7 +1821,7 @@
       },
       "definition": {
         "ar": "نقل الخبر عن جمع كثير يستحيل تواطؤهم على الكذب، مما يفيد العلم اليقيني. والقرآن منقول بالتواتر.",
-        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qur'an is transmitted this way.",
+        "en": "Transmission of a report by so many independent narrators that their collusion on a lie is impossible, yielding certain knowledge. The Qurʾān is transmitted this way.",
         "ru": "Передача сообщения множеством независимых передатчиков, сговор которых о лжи невозможен, что даёт достоверное знание. Так передан Коран.",
         "es": "La transmisión de una noticia por tantos narradores independientes que resulta imposible que se hayan puesto de acuerdo en una mentira, lo cual produce un conocimiento cierto. El Corán se transmite de esta manera.",
         "uk": "Передача повідомлення такою кількістю незалежних передавачів, що їхня змова про брехню неможлива, і це дає достовірне знання. Коран переданий саме так."
@@ -1819,7 +1889,7 @@
       },
       "definition": {
         "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
-        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qur'an and Sunnah.",
+        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qurʾān and Sunnah.",
         "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны.",
         "es": "El acuerdo de los sabios cualificados de una época sobre una norma legal; es una de las fuentes de la legislación después del Corán y la Sunna.",
         "uk": "Одностайна згода вчених-муджтагідів громади певної епохи щодо шаріатської постанови; одне з джерел законодавства після Корану та Сунни."
@@ -1846,9 +1916,9 @@
       "id": "sunnah-muakkadah",
       "term": {
         "ar": "سُنَّةٌ مُؤَكَّدَةٌ",
-        "en": "Sunnah Mu'akkadah",
+        "en": "Sunnah Muʾakkadah",
         "ru": "Сунна Муаккада",
-        "es": "Sunnah Mu'akkadah",
+        "es": "Sunnah Muʾakkadah",
         "uk": "Сунна Муаккада"
       },
       "briefDefinition": {
@@ -1861,7 +1931,7 @@
       "linguistic": {
         "ar": "الطريقة المتبعة والسيرة المستمرة محمودة كانت أو مذمومة.",
         "en": "The followed path and continuous practice, whether praiseworthy or blameworthy.",
-        "ru": "Следуемый путь и постоянная практика, будь она похвальной или порицаемой.",
+        "ru": "Следуемый путь и постоянная практика, будь она похвальной или нежелательной.",
         "es": "El camino seguido y la práctica continua, ya sea elogiable o censurable.",
         "uk": "Шлях, за яким слідують, і постійна практика, будь вона схвальною чи осудливою."
       },
@@ -2625,7 +2695,7 @@
       },
       "intro": {
         "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
-        "en": "The core sequence of postures within one unit (rak'ah) of prayer.",
+        "en": "The core sequence of postures within one unit (rakʿah) of prayer.",
         "ru": "Основная последовательность положений в одном ракаате молитвы.",
         "es": "La secuencia básica de posturas dentro de una unidad (rakʿah) de la oración.",
         "uk": "Основна послідовність положень в одному ракааті молитви."
@@ -2657,7 +2727,7 @@
           },
           "text": {
             "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
-            "en": "While standing, recite al-Fatihah and a passage of the Qur'an.",
+            "en": "While standing, recite al-Fatihah and a passage of the Qurʾān.",
             "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана.",
             "es": "De pie, recita al-Fátiha y un pasaje del Corán.",
             "uk": "Стоячи, прочитайте суру «аль-Фатіга» та уривок із Корану."
@@ -2689,9 +2759,9 @@
           },
           "text": {
             "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
-            "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
+            "en": "Rise upright saying 'Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd'.",
             "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд».",
-            "es": "Incorpórate erguido diciendo «Sami'Allahu liman hamidah, Rabbana wa lakal-hamd».",
+            "es": "Incorpórate erguido diciendo «Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd».",
             "uk": "Випряміться, кажучи «Самі Аллаху ліман хамідаг, Раббана ва лякаль-хамд»."
           }
         },
@@ -2705,9 +2775,9 @@
           },
           "text": {
             "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
-            "en": "Prostrate on seven points saying 'Subhana Rabbiyal-A'la' — two prostrations per unit.",
+            "en": "Prostrate on seven points saying 'Subhana Rabbiya al-Aʿlā' — two prostrations per unit.",
             "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат.",
-            "es": "Postra sobre siete puntos diciendo «Subhana Rabbiyal-A'la» — dos postraciones por unidad.",
+            "es": "Postra sobre siete puntos diciendo «Subhana Rabbiya al-Aʿlā» — dos postraciones por unidad.",
             "uk": "Здійсніть земний уклін на семи частинах тіла, кажучи «Субхана Раббі аль-Аля» — по два уклони на ракаат."
           }
         }
@@ -2821,7 +2891,7 @@
           },
           "text": {
             "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
-            "en": "Wipe the head once (or part of it in Hanafi/Shafi'i), then wipe inside and outside of ears.",
+            "en": "Wipe the head once (or part of it in Hanafi/Shāfiʿī), then wipe inside and outside of ears.",
             "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей.",
             "es": "Pasar la mano por toda la cabeza (o parte de ella según los shafiíes y hanafíes) una vez, luego pasar la mano por el exterior e interior de las orejas con agua nueva.",
             "uk": "Протирання всієї голови (або її частини — у шафіїтів і ганафітів) один раз, потім протирання зовнішньої та внутрішньої частини вух новою водою."
@@ -2889,7 +2959,7 @@
       },
       "answer": {
         "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
-        "en": "No. You can accept Islam in any language you understand and learn the Qur'an and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
+        "en": "No. You can accept Islam in any language you understand and learn the Qurʾān and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
         "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием.",
         "es": "No. Puedes abrazar el islam en cualquier idioma que entiendas, y aprender el Corán y la oración gradualmente. Aprender algo de árabe para la oración es recomendable y útil, pero no es una condición para hacerte musulmán.",
         "uk": "Ні. Прийняти іслам можна будь-якою зрозумілою вам мовою, а Коран і молитву вивчати поступово. Трохи арабської для молитви — бажано й корисно, але це не умова прийняття ісламу."
@@ -2937,8 +3007,8 @@
       },
       "answer": {
         "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
-        "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
-        "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
+        "en": "You gradually take on the five essential elements: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
+        "ru": "Постепенно вы принимаете пять обязательных составных частей: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
         "es": "Vas asumiendo gradualmente los cinco pilares: el testimonio de fe, las cinco oraciones diarias, el zakat (para quien alcance el mínimo exigido), el ayuno de Ramadán y la peregrinación para quien pueda. La prioridad más inmediata es aprender y comenzar la oración.",
         "uk": "Ви поступово беретеся за п'ять обов'язкових складових ісламу: свідчення віри, п'ять щоденних молитв, закят для тих, хто має нісаб, піст у Рамадан і хадж для спроможних. Найважливіше — почати з молитви і навчитися їй."
       }
@@ -2961,7 +3031,7 @@
       },
       "answer": {
         "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
-        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qur'an and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qurʾān and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
         "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма.",
         "es": "Sus diferencias están en asuntos secundarios e interpretativos, no en los fundamentos, y todas se remontan al Corán y la Sunna; esta variedad es una misericordia y una amplitud. El principiante puede simplemente aprender según los sabios de confianza de su localidad, sin fanatismo.",
         "uk": "Їхні розбіжності — у другорядних питаннях іджтигаду, а не в основах, і всі вони сходять до Корану та Сунни; це милість і простір. Початківцю досить учитися за надійними вченими своєї країни, без фанатизму."
@@ -3333,8 +3403,8 @@
       },
       "summary": {
         "ar": "هل النطق بالشهادتين شرط لصحة الإسلام أم ركن، وما حكم من صدّق بقلبه دون نطق؟",
-        "en": "Is uttering the shahada a condition for the validity of Islam or a pillar, and what of one who believes in his heart without uttering it?",
-        "ru": "Является ли произнесение шахады условием действительности ислама или его столпом, и как быть с уверовавшим сердцем без произнесения?",
+        "en": "Is uttering the shahada a condition for the validity of Islam or a essential element, and what of one who believes in his heart without uttering it?",
+        "ru": "Является ли произнесение шахады условием действительности ислама или его обязательной составной частью, и как быть с уверовавшим сердцем без произнесения?",
         "es": "¿Es pronunciar la shahada una condición para la validez del islam o un pilar, y qué ocurre con quien cree en su corazón sin pronunciarla?",
         "uk": "Чи є промовляння двох свідчень умовою дійсності ісламу чи його обов'язковою складовою, і як бути з тим, хто увірував серцем без промовляння?"
       },
@@ -3591,9 +3661,9 @@
         "hanbali": {
           "text": {
             "ar": "من تركها كسلاً ودعي إليها وضاق وقت التي بعدها يكفر ويُقتل كفراً لا حدّاً.",
-            "en": "The relied-upon position is that whoever abandons it out of laziness, is called to it, and lets the time of the following prayer narrow, becomes a disbeliever, and he is executed as an apostate, not as a prescribed punishment.",
+            "en": "Whoever abandons it out of laziness, is called to it, and lets the time of the following prayer run out becomes a disbeliever, and he is executed as an apostate, not as a prescribed punishment.",
             "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим, и его казнят как вероотступника, а не в порядке установленного наказания.",
-            "es": "La postura acreditada es que quien la abandona por pereza, es llamado a ella y deja que se estreche el tiempo de la oración siguiente, incurre en incredulidad, y se le ejecuta por apostasía, no como pena prescrita.",
+            "es": "Quien la abandona por pereza, es llamado a ella y deja que se agote el tiempo de la siguiente oración, incurre en incredulidad, y se le ejecuta por apostasía, no como pena prescrita.",
             "uk": "Той, хто залишає її через лінощі, кого закликали до неї, і хто допускає, щоб звузився час наступної молитви, стає невірним, і його стратять як віровідступника, а не в порядку встановленого покарання."
           },
           "sources": [
@@ -5191,7 +5261,7 @@
         "maliki": {
           "text": {
             "ar": "لا فرق بين كثير الماء وقليله، فلا ينجس بملاقاة النجاسة إلا إذا تغيّر طعمه أو لونه أو ريحه.",
-            "en": "No distinction is drawn between much and little water: it becomes impure only when its taste, colour, or smell is altered.",
+            "en": "No distinction is drawn between much and little water: it becomes impure only when its taste, color, or smell is altered.",
             "ru": "Между большой и малой водой различия нет: она становится нечистой лишь при изменении вкуса, цвета или запаха.",
             "es": "No se distingue entre agua abundante y escasa: solo se vuelve impura si cambia su sabor, su color o su olor.",
             "uk": "Немає різниці між великою і малою водою: вона не стає нечистою від зіткнення з нечистотою, хіба що зміниться її смак, колір або запах."
@@ -5348,7 +5418,7 @@
         "maliki": {
           "text": {
             "ar": "لا ينجس الماء بوقوع النجاسة فيه قليلاً كان أو كثيراً، ما لم يتغيّر طعمه أو لونه أو ريحه.",
-            "en": "Water does not become impure when an impurity falls into it, whether it be little or much, unless its taste, colour, or smell is altered.",
+            "en": "Water does not become impure when an impurity falls into it, whether it be little or much, unless its taste, color, or smell is altered.",
             "ru": "Вода не становится нечистой от попадания нечистоты, малая она или большая, пока не изменится её вкус, цвет или запах.",
             "es": "El agua no se vuelve impura cuando cae en ella una impureza, sea poca o mucha, salvo que cambie su sabor, su color o su olor.",
             "uk": "Вода не стає нечистою від потрапляння в неї нечистоти, мала вона чи велика, доки не зміниться її смак, колір або запах."
@@ -6766,8 +6836,8 @@
           "text": {
             "ar": "يحرم استعمالها في الطهارة وغيرها، وتصح الطهارة بها مع الحرمة.",
             "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition.",
-            "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению.",
-            "es": "Está prohibido usarlos para la purificación y para otros fines, y la purificación con ellos es válida pese a la prohibición, según la postura acreditada.",
+            "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет.",
+            "es": "Está prohibido usarlos para la purificación y para otros fines, y la purificación con ellos es válida pese a la prohibición.",
             "uk": "Їх використання для очищення та іншого заборонене, але очищення ними дійсне попри заборону."
           },
           "sources": [
@@ -6814,7 +6884,7 @@
       "number": 22,
       "chapter": {
         "ar": "باب الاستنجاء",
-        "en": "Chapter of Cleansing after Relief (Istinjā’)",
+        "en": "Chapter of Cleansing after Relief (Istinjāʾ)",
         "ru": "Раздел об очищении после нужды (истинджа)",
         "es": "Capítulo de la limpieza tras las necesidades (istinŷāʾ)",
         "uk": "Розділ про очищення після потреби (істінджа)"
@@ -6929,7 +6999,7 @@
       },
       "summary": {
         "ar": "هل المضمضة والاستنشاق واجبان مع غسل الوجه في الوضوء أم سنة، وما حدود غسل الوجه؟",
-        "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they sunnah, and what are the boundaries of washing the face?",
+        "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they Sunnah, and what are the boundaries of washing the face?",
         "ru": "Являются ли полоскание рта и носа обязательными вместе с мытьем лица при омовении или сунной, и каковы границы мытья лица?",
         "es": "¿Son obligatorios el enjuague bucal y nasal junto con el lavado de la cara en la ablución o son sunnah, y cuáles son los límites de lavar la cara?",
         "uk": "Чи є полоскання рота та носа обов'язковими разом із миттям обличчя під час омивання чи сунною, і які межі миття обличчя?"
@@ -6938,7 +7008,7 @@
         "hanafi": {
           "text": {
             "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنة مؤكدة في الوضوء وفرض في الغسل، وحدود الوجه طولاً من منابت الشعر المعتاد إلى أسفل الذقن، وعرضاً ما بين الأذنين.",
-            "en": "Washing the face is obligatory; rinsing the mouth and the nose are emphasised sunnah in the ablution and obligatory in the full bath. The face extends lengthwise from the usual hairline to the bottom of the chin, and breadthwise from ear to ear.",
+            "en": "Washing the face is obligatory; rinsing the mouth and the nose are emphasized Sunnah in the ablution and obligatory in the full bath. The face extends lengthwise from the usual hairline to the bottom of the chin, and breadthwise from ear to ear.",
             "ru": "Мытьё лица является фардом; полоскание рта и носа — подтверждённая сунна в омовении и фард в полном омовении. Границы лица: в длину от обычной линии роста волос до низа подбородка, в ширину — от уха до уха.",
             "es": "Lavar el rostro es obligatorio; enjuagar la boca y la nariz son sunna enfatizada en la ablución y obligatorios en el baño completo. El rostro se extiende a lo largo desde el nacimiento habitual del cabello hasta la parte baja del mentón, y a lo ancho de oreja a oreja.",
             "uk": "Миття обличчя є обов'язковим; полоскання рота й носа — підтверджена сунна в омовінні та обов'язок у повному обмиванні. Межі обличчя: у довжину від звичайної лінії росту волосся до низу підборіддя, у ширину — від вуха до вуха."
@@ -7034,8 +7104,8 @@
         "hanbali": {
           "text": {
             "ar": "غسل الوجه ركن من أركان الوضوء، والمضمضة والاستنشاق واجبان في الوضوء والغسل ولا يصح الوضوء بدونهما.",
-            "en": "Washing the face is a pillar of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
-            "ru": "Мытье лица — столп омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
+            "en": "Washing the face is a essential element of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
+            "ru": "Мытье лица — обязательная составная часть омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
             "es": "Lavar la cara es un pilar de la ablución, y el enjuague bucal y nasal son obligatorios en la ablución y el ghusl; la ablución no es válida sin ellos.",
             "uk": "Миття обличчя — обов'язкова складова омивання, а полоскання рота та носа — обов'язкові дії в омиванні та гуслі, і омивання без них недійсне."
           },
@@ -7079,8 +7149,8 @@
       },
       "summary": {
         "ar": "هل النية شرط أو ركن في صحة الوضوء، وهل تسقط سهواً؟",
-        "en": "Is intention a condition or a pillar for the validity of ablution, and does it lapse through forgetfulness?",
-        "ru": "Является ли намерение условием или столпом действительности омовения и отпадает ли оно по забывчивости?",
+        "en": "Is intention a condition or a essential element for the validity of ablution, and does it lapse through forgetfulness?",
+        "ru": "Является ли намерение условием или обязательной составной частью действительности омовения и отпадает ли оно по забывчивости?",
         "es": "¿Es la intención una condición o un pilar para la validez de la ablución, y decae por olvido?",
         "uk": "Чи є намір умовою або обов'язковою складовою дійсності омовіння, і чи відпадає він через забудькуватість?"
       },
@@ -7088,7 +7158,7 @@
         "hanafi": {
           "text": {
             "ar": "سنة مؤكدة وليست شرطاً لصحة الوضوء؛ فيصح الوضوء بغير نية.",
-            "en": "A confirmed sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
+            "en": "A confirmed Sunnah and not a condition for the validity of ablution; ablution is valid without intention.",
             "ru": "Подтверждённая сунна, а не условие действительности омовения; вуду действительно без намерения.",
             "es": "Es una sunna confirmada y no una condición para la validez de la ablución; la ablución es válida sin intención.",
             "uk": "Підтверджена сунна, а не умова дійсності омовіння; омовіння дійсне без наміру."
@@ -7124,8 +7194,8 @@
         "shafii": {
           "text": {
             "ar": "ركن أول من أركان الوضوء ومحلها القلب عند غسل أول جزء من الوجه.",
-            "en": "The first pillar among the pillars of ablution; its place is the heart at washing the first part of the face.",
-            "ru": "Первый из столпов омовения; его место — сердце при мытье первой части лица.",
+            "en": "The first essential element among the essential elements of ablution; its place is the heart at washing the first part of the face.",
+            "ru": "Первый из обязательных составных частей омовения; его место — сердце при мытье первой части лица.",
             "es": "Es el primer pilar de los pilares de la ablución; su lugar es el corazón al lavar la primera parte del rostro.",
             "uk": "Перший зі обов'язкових складових омовіння; його місце — серце при митті першої частини обличчя."
           },
@@ -7225,10 +7295,10 @@
         "shafii": {
           "text": {
             "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
-            "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
-            "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды.",
-            "es": "La carne de camello no anula la ablución acreditada; tocar a una mujer ajena la anula por el mero contacto de piel con piel sin barrera.",
-            "uk": "Верблюже м'ясо не порушує омовіння за усталеною новою думкою; дотик до сторонньої жінки порушує його вже самим дотиком шкіри до шкіри без перепони."
+            "en": "Camel meat does not break the ablution; touching a non-maḥram woman breaks it by the mere contact of skin with skin without a barrier.",
+            "ru": "Верблюжье мясо не нарушает омовение; прикосновение к посторонней женщине нарушает его самим соприкосновением кожи с кожей без преграды.",
+            "es": "La carne de camello no anula la ablución; tocar a una mujer ajena la anula por el mero contacto de piel con piel sin barrera.",
+            "uk": "Верблюже м'ясо не порушує омовіння; дотик до сторонньої жінки порушує його самим дотиком шкіри до шкіри без перепони."
           },
           "sources": [
             {
@@ -7560,9 +7630,9 @@
         "hanbali": {
           "text": {
             "ar": "إزالة النجاسة لا تكون إلا بالماء الطهور، فلا تطهر بالمائعات كالسبيرتو وإن زالت العين.",
-            "en": "The relied-upon view is that removing impurity is only by purifying water; it is not purified by liquids such as spirit even if the substance is gone.",
-            "ru": "Утверждённое мнение: удаление нечистоты только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло.",
-            "es": "La postura acreditada es que la eliminación de la impureza solo se hace con agua purificante; no se purifica con líquidos como el alcohol aunque desaparezca la sustancia.",
+            "en": "Removing an impurity is only done with purifying water; it is not purified by liquids such as spirit, even if the substance is gone.",
+            "ru": "Устранение нечистоты происходит только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло.",
+            "es": "La eliminación de la impureza solo se hace con agua purificante; no se purifica con líquidos como el alcohol aunque desaparezca la sustancia.",
             "uk": "Усталена думка: усунення нечистоти буває лише очищувальною водою; вона не очищується рідинами, як спирт, навіть якщо речовина зникла."
           },
           "sources": [
@@ -7775,8 +7845,8 @@
         "maliki": {
           "text": {
             "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
-            "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
-            "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр.",
+            "en": "It is recommended to say the tathwīb — “Prayer is better than sleep” — twice in the second adhān of the dawn prayer and in no other.",
+            "ru": "Желательно произносить тасвиб — «Молитва лучше сна» — дважды во втором азане утренней молитвы и не в каком-либо другом.",
             "es": "Es recomendable el tathwīb, decir «la oración es mejor que el sueño» dos veces, en el segundo adhán del fajr y no en otro.",
             "uk": "Бажано промовляти тасвіб — «молитва краща за сон» — двічі в другому азані фаджру і не в іншому."
           },
@@ -7839,9 +7909,9 @@
         "hanbali": {
           "text": {
             "ar": "يسن التثويب في أذان الفجر الثاني خاصة.",
-            "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
-            "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу.",
-            "es": "Es sunna el tathwīb en el segundo adhán del fajr en particular, y es una de las sunnas del adhán acreditadas en la escuela.",
+            "en": "The tathwīb is Sunnah specifically in the second call to prayer for Fajr.",
+            "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр.",
+            "es": "Es sunna el tathwīb en el segundo adhán del fajr en particular.",
             "uk": "Тасвіб є сунною саме в другому азані фаджру, і це одна з усталених у мазгабі сунн азану."
           },
           "sources": [
@@ -8373,7 +8443,7 @@
             "ar": "يبدأ بمغيب الشفق الأحمر ويمتدّ إلى طلوع الفجر الصادق، وتأخيرها إلى ثلث الليل مستحبّ.",
             "en": "It begins when the red twilight is gone and lasts until true dawn; delaying it to the first third of the night is recommended.",
             "ru": "Начинается с исчезновения красной зари и длится до истинного рассвета; желательно откладывать её до первой трети ночи.",
-            "es": "Comienza al desaparecer el crepúsculo blanco y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche.",
+            "es": "Comienza al desaparecer el crepúsculo rojo y dura hasta el alba verdadera; se recomienda retrasarla al primer tercio de la noche.",
             "uk": "Починається зі зникненням червоної заграви і триває до сходу істинної зорі, а відкладати її до третини ночі бажано."
           },
           "sources": [
@@ -9304,9 +9374,9 @@
       },
       "summary": {
         "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع والرفع منه وفي هيئة الرفع.",
-        "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
-        "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона.",
-        "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren en levantarlas al inclinarse, al incorporarse de la inclinación y en la forma de levantarlas.",
+        "en": "The imams agree on the legitimacy of raising the hands at the opening takbīr, and differ over raising them at the bowing, at rising from it, and over the manner of raising.",
+        "ru": "Имамы согласны в законности поднимания рук при вступительном такбире и расходятся в поднимании их при поясном поклоне, при выпрямлении из него и в самом способе поднимания.",
+        "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren sobre levantarlas al inclinarse, al incorporarse y sobre la forma de levantarlas.",
         "uk": "Імами згодні щодо законності піднімання рук при вступному такбірі, але розходяться щодо піднімання їх при поясному уклоні, при випрямленні з нього та щодо способу піднімання."
       },
       "rulings": {
@@ -9331,9 +9401,9 @@
         "maliki": {
           "text": {
             "ar": "رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
-            "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
-            "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется.",
-            "es": "La postura acreditada es levantar las manos a la altura de los hombros solo en el takbir de apertura, y es desaconsejable levantarlas en el resto de los descensos y ascensos.",
+            "en": "The hands are raised to shoulder level only at the opening takbīr, and raising them at the other descents and risings is disliked.",
+            "ru": "Руки поднимаются до уровня плеч только при вступительном такбире, а поднимать их при остальных наклонах и выпрямлениях нежелательно.",
+            "es": "Las manos se levantan a la altura de los hombros solo en el takbir de apertura, y levantarlas en el resto de los descensos y ascensos es reprobable.",
             "uk": "Усталена думка — піднімання рук до рівня плечей лише при вступному такбірі; піднімати їх при решті нахилів і випрямлень небажано."
           },
           "sources": [
@@ -9374,8 +9444,8 @@
         "hanbali": {
           "text": {
             "ar": "يسن رفع اليدين حذو المنكبين أو فروع الأذنين في ثلاثة مواضع: تكبيرة الإحرام، وعند الركوع، وعند الرفع منه.",
-            "en": "Recommended to raise hands to shoulders or earlobes in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
-            "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление.",
+            "en": "Recommended to raise hands to shoulders or the tops of the ears in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
+            "ru": "Желательно поднимать руки до уровня плеч или верхушек ушей в 3 местах: начальный такбир, поклон и выпрямление.",
             "es": "Es sunna levantar las manos a la altura de los hombros o de la parte superior de las orejas en tres lugares: el takbir de apertura, al inclinarse y al incorporarse de la inclinación.",
             "uk": "Сунною є піднімання рук до рівня плечей або верхівок вух у трьох місцях: при вступному такбірі, при поясному уклоні та при випрямленні з нього."
           },
@@ -9569,7 +9639,7 @@
       },
       "summary": {
         "ar": "اختلف الفقهاء في محل وضع اليدين وحكم سدلهما على الجوانب في صلاة الفريضة.",
-        "en": "Jurists differ on where to place hands while standing and whether leaving them at the sides is permissible or sunnah.",
+        "en": "Jurists differ on where to place hands while standing and whether leaving them at the sides is permissible or Sunnah.",
         "ru": "Ученые разошлись во мнениях о месте складывания рук и опускании их вдоль тела.",
         "es": "Los juristas difieren sobre dónde colocar las manos y sobre la norma de dejarlas caer a los lados en la oración obligatoria.",
         "uk": "Правознавці розійшлися щодо місця складання рук і щодо постанови про опускання їх уздовж тіла в обов'язковій молитві."
@@ -9621,8 +9691,8 @@
         "shafii": {
           "text": {
             "ar": "يسن وضع الكف الأيمن على ظهر الأيسر تحت الصدر وفوق السرّة مائلاً إلى جهة اليسار للرجل والمرأة.",
-            "en": "Recommended to place right hand over left wrist above the navel and below the chest, slightly to the left.",
-            "ru": "Желательно класть правую руку на левую выше пупка и ниже груди, чуть левее.",
+            "en": "It is Sunnah to place the right palm over the back of the left hand, below the chest and above the navel, inclined slightly to the left, for both men and women.",
+            "ru": "Сунной является класть правую ладонь на тыльную сторону левой кисти, ниже груди и выше пупка, слегка склонив влево, — как для мужчин, так и для женщин.",
             "es": "Es sunna colocar la palma derecha sobre el dorso de la izquierda bajo el pecho y por encima del ombligo, ligeramente hacia el lado izquierdo, tanto para el hombre como para la mujer.",
             "uk": "Сунною є класти праву долоню на тильний бік лівої нижче грудей і вище пупка, трохи ліворуч, для чоловіка й жінки."
           },
@@ -9670,15 +9740,15 @@
       },
       "title": {
         "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
-        "en": "Ruling on the Follower Reciting Al-Fatiha Behind the Imam",
-        "ru": "Постановление о чтении Аль-Фатихи молящимся за имамом",
+        "en": "Ruling on the Follower Reciting al-Fātiḥah Behind the imam in the Silent and the Audible Prayer",
+        "ru": "Постановление о чтении аль-Фатихи тем, кто молится за имамом, в тихой и громкой молитве",
         "es": "La norma sobre la recitación de al-Fátiha por el seguidor detrás del imam en la oración silenciosa y en la audible",
         "uk": "Постанова про читання аль-Фатіха тим, хто молиться за імамом, у тихій і голосній молитві"
       },
       "summary": {
         "ar": "اختلفت المذاهب الأربعة في وجوب أو كراهة قراءة المأموم للفاتحة خلف الإمام بحسب نوع الصلاة (سرية أم جهرية).",
-        "en": "The four schools differ on whether a follower must recite Al-Fatiha behind the Imam in silent/audible prayers.",
-        "ru": "Четыре мазхаба расходятся во мнениях относительно обязательности чтения Аль-Фатихи за имамом.",
+        "en": "The four schools differ over whether the follower's recitation of al-Fātiḥah behind the imam is obligatory or disliked, according to the type of prayer — silent or audible.",
+        "ru": "Четыре мазхаба разошлись относительно обязательности или нежелательности чтения аль-Фатихи тем, кто молится за имамом, в зависимости от вида молитвы — тихой или громкой.",
         "es": "Las cuatro escuelas difieren sobre la obligatoriedad o el carácter desaconsejable de que el seguidor recite al-Fátiha detrás del imam según el tipo de oración (silenciosa o audible).",
         "uk": "Чотири мазгаби розійшлися щодо обов'язковості чи небажаності читання аль-Фатіха за імамом залежно від виду молитви (тихої чи голосної)."
       },
@@ -9686,8 +9756,8 @@
         "hanafi": {
           "text": {
             "ar": "تكره قراءة المأموم للفاتحة خلف الإمام تحريماً في السرية والجهرية، وقراءة الإمام له قراءة.",
-            "en": "Prohibited/disliked for the follower to recite Fatiha behind Imam in both silent and loud prayers; Imam's recitation suffices.",
-            "ru": "Запрещено (порицаемо) молящемуся за имамом читать Аль-Фатиху в тихих и громких молитвах; чтения имама достаточно.",
+            "en": "Prohibitively disliked (makrūh taḥrīman) for the follower to recite Fatiha behind imam in both silent and loud prayers; imam's recitation suffices.",
+            "ru": "Крайне нежелательно (макрух тахриман) молящемуся за имамом читать Аль-Фатиху в тихих и громких молитвах; чтения имама достаточно.",
             "es": "Es desaconsejable con desaconsejo prohibitivo que el seguidor recite al-Fátiha detrás del imam, en la silenciosa y en la audible; la recitación del imam es recitación para él.",
             "uk": "Читання аль-Фатіха за імамом небажане з небажаністю, близькою до заборони, у тихій і голосній молитві; читання імама є читанням і для нього."
           },
@@ -9704,8 +9774,8 @@
         "maliki": {
           "text": {
             "ar": "تستحب قراءة الفاتحة للمأموم في الصلاة السرية، وتكره في الجهرية إلا إذا لم يسمع قراءة الإمام فتستحب.",
-            "en": "Recommended for the follower in silent prayers, disliked in loud prayers unless the Imam is inaudible.",
-            "ru": "Желательно читать в тихих молитвах, порицаемо в громких, если только не слышно имама.",
+            "en": "It is recommended for the follower to recite al-Fātiḥah in the silent prayer, and it is disliked in the audible one; but if he cannot hear the imam's recitation, reciting becomes recommended again.",
+            "ru": "Тому, кто молится за имамом, желательно читать аль-Фатиху в тихой молитве, и это нежелательно в громкой; но если он не слышит чтения имама, то чтение вновь становится желательным.",
             "es": "Es recomendable que el seguidor recite al-Fátiha en la oración silenciosa, y es desaconsejable en la audible, salvo si no oye la recitación del imam, en cuyo caso es recomendable.",
             "uk": "Читання аль-Фатіха тим, хто молиться за імамом, бажане в тихій молитві і небажане в голосній, крім випадку, коли він не чує читання імама, — тоді бажане."
           },
@@ -9722,7 +9792,7 @@
         "shafii": {
           "text": {
             "ar": "تجب قراءة الفاتحة على المأموم في كل ركعة، سواء كانت الصلاة سرية أم جهرية.",
-            "en": "Recitation of Al-Fatiha is an absolute obligation upon the follower in every rak'ah, silent or loud.",
+            "en": "Recitation of Al-Fatiha is an absolute obligation upon the follower in every rakʿah, silent or loud.",
             "ru": "Чтение Аль-Фатихи обязательно для каждого молящегося в каждом ракаате, в тихих и громких молитвах.",
             "es": "Es obligatorio que el seguidor recite al-Fátiha en cada rakʿah, sea la oración silenciosa o audible.",
             "uk": "Читання аль-Фатіха обов'язкове для муктаді, у кожному ракааті, чи то тиха молитва, чи голосна."
@@ -9740,7 +9810,7 @@
         "hanbali": {
           "text": {
             "ar": "تسن القراءة للمأموم في السرية وفي سكتات الإمام في الجهرية، ولا تجب عليه، فإن لم يسكت الإمام أنصت له.",
-            "en": "Recommended in silent prayers and during Imam's pauses in loud prayers; not obligatory. If Imam doesn't pause, he listens.",
+            "en": "Recommended in silent prayers and during imam's pauses in loud prayers; not obligatory. If the imam does not pause, he listens.",
             "ru": "Желательно читать в тихих молитвах и паузах имама в громких. Если паузы нет — обязан слушать.",
             "es": "Es sunna que el seguidor recite en la silenciosa y en las pausas del imam en la audible, y no le es obligatorio; si el imam no hace pausa, le escucha en silencio.",
             "uk": "Читання є сунною для того, хто молиться за імамом, у тихій молитві та в паузах імама в голосній, і не обов'язкове для нього; якщо імам не робить паузи, він мовчки слухає."
@@ -9778,7 +9848,7 @@
       },
       "summary": {
         "ar": "ما حكم قراءة ما تيسّر من القرآن بعد سورة الفاتحة في الصلاة؟",
-        "en": "What is the ruling on reciting whatever is easy of the Qur'an after al-Fatiha in the prayer?",
+        "en": "What is the ruling on reciting whatever is easy of the Qurʾān after al-Fatiha in the prayer?",
         "ru": "Каково постановление о чтении посильного из Корана после аль-Фатихи в молитве?",
         "es": "¿Cuál es la norma sobre recitar lo que resulte fácil del Corán tras al-Fatiha en la oración?",
         "uk": "Яка постанова щодо читання посильного з Корану після аль-Фатіха в молитві?"
@@ -9819,7 +9889,7 @@
         "maliki": {
           "text": {
             "ar": "قراءة سورة بعد الفاتحة في الأوليين سنّة مؤكّدة، وتُكره في الأخريين، ولا تُشرع في صلاة الجنازة.",
-            "en": "Reciting a sura after al-Fatiha in the first two units is a stressed sunna; it is disliked in the last two and not prescribed in the funeral prayer.",
+            "en": "Reciting a sura after al-Fatiha in the first two units is a stressed Sunnah; it is disliked in the last two and not prescribed in the funeral prayer.",
             "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — подтверждённая сунна; в последних двух нежелательно и не предписано в погребальной молитве.",
             "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna confirmada; se detesta en las dos últimas y no se prescribe en la oración fúnebre.",
             "uk": "Читання сури після аль-Фатіха в перших двох ракатах — підтверджена сунна; в останніх двох небажано і не передбачено в поховальній молитві."
@@ -9851,7 +9921,7 @@
         "shafii": {
           "text": {
             "ar": "قراءة السورة بعد الفاتحة في الأوليين سنّة للمنفرد والإمام وللمأموم فيما يُسرّ فيه، ولا تُطلب في الأخريين.",
-            "en": "Reciting the sura after al-Fatiha in the first two units is a sunna for one praying alone, for the imam, and for the follower where the recitation is silent; it is not called for in the last two.",
+            "en": "Reciting the sura after al-Fatiha in the first two units is a Sunnah for one praying alone, for the imam, and for the follower where the recitation is silent; it is not called for in the last two.",
             "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна для молящегося в одиночку, имама и следующего там, где чтение тихое; в последних двух не требуется.",
             "es": "Recitar la sura tras al-Fatiha en las dos primeras unidades es sunna para quien reza solo, para el imam y para el seguidor donde la recitación es en voz baja; no se pide en las dos últimas.",
             "uk": "Читання сури після аль-Фатіха в перших двох ракатах — сунна для того, хто молиться сам, для імама і для того, хто слідує там, де читання тихе; в останніх двох не вимагається."
@@ -9883,7 +9953,7 @@
         "hanbali": {
           "text": {
             "ar": "تُسنّ قراءة سورة بعد الفاتحة في الأوليين، وتُكره في الأخريين، وتُسنّ للمأموم في السرّية دون الجهرية.",
-            "en": "Reciting a sura after al-Fatiha in the first two units is a sunna, disliked in the last two, and a sunna for the follower in the silent prayers but not the audible ones.",
+            "en": "Reciting a sura after al-Fatiha in the first two units is a Sunnah, disliked in the last two, and a Sunnah for the follower in the silent prayers but not the audible ones.",
             "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна, в последних двух нежелательно, и сунна для следующего в тихих молитвах, но не в громких.",
             "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna, se detesta en las dos últimas y es sunna para el seguidor en las oraciones silenciosas, no en las audibles.",
             "uk": "Читання сури після аль-Фатіха в перших двох ракатах — сунна, в останніх двох небажано, і сунна для того, хто слідує в тихих молитвах, але не в гучних."
@@ -10165,7 +10235,7 @@
         "shafii": {
           "text": {
             "ar": "القصر رخصة جائزة للمسافر إذا بلغت مسافة سفره مرحلتين، والإتمام أفضل، إلا أن تبلغ ثلاث مراحل فأكثر فالقصر أفضل.",
-            "en": "Shortening is a permitted concession for the traveller once his journey reaches two stages; completing the prayer is better, unless it reaches three stages or more, in which case shortening is better.",
+            "en": "Shortening is a permitted concession for the traveler once his journey reaches two stages; completing the prayer is better, unless it reaches three stages or more, in which case shortening is better.",
             "ru": "Сокращение — дозволенное облегчение для путника, когда его путь достигает двух переходов; совершать молитву полностью лучше, если только путь не достигнет трёх переходов и более — тогда лучше сокращать.",
             "es": "El acortamiento es una concesión permitida para el viajero cuando su viaje alcanza dos etapas; completar la oración es mejor, salvo que alcance tres etapas o más, en cuyo caso acortar es mejor.",
             "uk": "Скорочення — дозволене полегшення для подорожнього, коли його шлях сягає двох переходів; виконувати молитву повністю краще, якщо тільки шлях не сягне трьох переходів і більше — тоді краще скорочувати."
@@ -10258,8 +10328,8 @@
         "hanafi": {
           "text": {
             "ar": "يشترط لصحة صلاة الجمعة أن تقام في مصر جامع أو في فنائه ولا تصح في القرى.",
-            "en": "Friday prayer validity requires a large town or its outskirts; it is invalid in small villages.",
-            "ru": "Для действительности пятничной молитвы требуется крупный город, и она недействительна в деревнях.",
+            "en": "For the validity of the Friday prayer it is required that it be held in a town with a congregational mosque or in its outskirts, and it is not valid in villages.",
+            "ru": "Для действительности пятничной молитвы требуется, чтобы она совершалась в городе с соборной мечетью или в его окрестностях, и она недействительна в деревнях.",
             "es": "Se exige para la validez de la oración del viernes que se celebre en una ciudad con mezquita congregacional o en sus afueras, y no es válida en las aldeas.",
             "uk": "Для дійсності п'ятничної молитви вимагається, щоб вона здійснювалася у великому місті з соборною мечеттю або в його передмісті, і вона недійсна в селах."
           },
@@ -10322,8 +10392,8 @@
         "shafii": {
           "text": {
             "ar": "تصح الجمعة في القرى والأبنية المقامة بشرط استيطان أربعين رجلاً مكلفاً تنعقد بهم الجمعة.",
-            "en": "Jumuʿah is valid in villages provided forty resident legally accountable men are present.",
-            "ru": "Пятничная молитва действительна в деревнях при условии постоянного проживания сорока мукаллафов.",
+            "en": "The Friday prayer is valid in villages and built settlements, on condition that forty legally responsible resident men are present, by whom the Friday prayer is constituted.",
+            "ru": "Пятничная молитва действительна в деревнях и возведённых строениях при условии оседлого проживания сорока дееспособных мужчин, которыми она и совершается.",
             "es": "La oración del viernes es válida en las aldeas y en los edificios construidos, a condición de que residan cuarenta hombres legalmente responsables con los que se celebre el viernes.",
             "uk": "П'ятнична молитва дійсна в селах і зведених будівлях за умови осілого проживання сорока повнолітніх чоловіків, якими вона чиниться."
           },
@@ -10354,8 +10424,8 @@
         "hanbali": {
           "text": {
             "ar": "تشترط إقامتها في استيطان في أبنية مجتمعة ولا يشترط أن تكون المصر الكبير المخصوص.",
-            "en": "Residence in a permanent settlement of built structures is required; a large city is not mandatory.",
-            "ru": "Условием является проживание в постоянных строениях; статус крупного города не обязателен.",
+            "en": "Residence in a settlement of adjoining buildings is required; a large city is not mandatory.",
+            "ru": "Условием является проживание в смежных постройках; статус крупного города не обязателен.",
             "es": "Se exige celebrarla en un asentamiento de edificios agrupados, y no se exige que sea una gran ciudad determinada.",
             "uk": "Вимагається здійснювати її в осілому поселенні із з'єднаних будівель, і не вимагається, щоб це було саме визначене велике місто."
           },
@@ -10393,7 +10463,7 @@
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
-        "ru": "Обязательность поста и наблюдение полумесяца",
+        "ru": "Обязательность поста и наблюдение новолуния",
         "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
         "uk": "Обов'язковість посту та спостереження молодика"
       },
@@ -10522,21 +10592,21 @@
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
-        "ru": "Обязательность поста и наблюдение полумесяца",
+        "ru": "Обязательность поста и наблюдение новолуния",
         "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
         "uk": "Обов'язковість посту та спостереження молодика"
       },
       "title": {
         "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
         "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
-        "ru": "Постановление об установлении полумесяца Рамадана свидетельством одного или двух справедливых свидетелей",
+        "ru": "Постановление об установлении новолуния Рамадана свидетельством одного или двух справедливых свидетелей",
         "es": "Norma sobre la confirmación de la media luna de Ramadán mediante el testimonio de uno o dos testigos justos",
         "uk": "Постанова про підтвердження молодика Рамадану свідченням одного або двох справедливих свідків"
       },
       "summary": {
         "ar": "هل يثبت هلال شهر رمضان برؤية عدل واحد أم يشترط اثنان؟",
         "en": "Is the crescent of Ramadan confirmed by the sighting of a single just witness, or are two required?",
-        "ru": "Устанавливается ли полумесяц Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
+        "ru": "Устанавливается ли новолуние Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
         "es": "¿Se confirma la media luna de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
         "uk": "Чи підтверджується молодик Рамадану свідченням одного справедливого свідка, чи потрібно двоє?"
       },
@@ -10545,7 +10615,7 @@
           "text": {
             "ar": "يثبت هلال رمضان بخبر العدل الواحد، ذكراً كان أو أنثى، إن كان بالسماء علّة من غيم أو غبار؛ فإن كانت السماء مصحية لم يُقبل إلا خبر جمع عظيم يقع العلم بخبرهم. والأصل في قبول الواحد حديث ابن عمر رضي الله عنهما: «تراءى الناس الهلال، فأخبرت رسول الله ﷺ أني رأيته، فصام وأمر الناس بصيامه».",
             "en": "The crescent of Ramadan is established by the report of a single upright witness, male or female, if there is an obstruction in the sky such as cloud or dust; but if the sky is clear, nothing is accepted except the report of a large body of people whose report yields certain knowledge. The basis for accepting a single witness is the hadith of Ibn ʿUmar: “The people were looking for the crescent, and I informed the Messenger of Allah ﷺ that I had seen it, so he fasted and ordered the people to fast.”",
-            "ru": "Полумесяц Рамадана подтверждается сообщением одного справедливого свидетеля, мужчины или женщины, если на небе есть помеха — облака или пыль; если же небо ясное, принимается лишь сообщение большого числа людей, чьё известие порождает достоверное знание. Основанием для принятия одного свидетеля служит хадис Ибн Умара: «Люди высматривали полумесяц, и я сообщил Посланнику Аллаха ﷺ, что видел его; тогда он стал поститься и велел людям поститься».",
+            "ru": "Новолуние Рамадана подтверждается сообщением одного справедливого свидетеля, мужчины или женщины, если на небе есть помеха — облака или пыль; если же небо ясное, принимается лишь сообщение большого числа людей, чьё известие порождает достоверное знание. Основанием для принятия одного свидетеля служит хадис Ибн Умара: «Люди высматривали новолуние, и я сообщил Посланнику Аллаха ﷺ, что видел его; тогда он стал поститься и велел людям поститься».",
             "es": "La luna nueva de Ramadán se establece con el informe de un solo testigo íntegro, hombre o mujer, si hay un impedimento en el cielo como nubes o polvo; pero si el cielo está despejado, no se acepta sino el informe de un grupo numeroso cuyo testimonio produce conocimiento cierto. La base para aceptar a un solo testigo es el hadiz de Ibn ʿUmar: «La gente buscaba la luna nueva, e informé al Mensajero de Allah ﷺ de que la había visto; entonces ayunó y ordenó a la gente ayunar».",
             "uk": "Молодик Рамадану підтверджується повідомленням одного справедливого свідка, чоловіка чи жінки, якщо на небі є перешкода — хмари або пил; якщо ж небо ясне, приймається лише повідомлення великого числа людей, чия звістка породжує достовірне знання. Підставою для прийняття одного свідка є хадис Ібн Умара: «Люди виглядали молодик, і я повідомив Посланця Аллаха ﷺ, що бачив його; тоді він став постити і наказав людям постити»."
           },
@@ -10577,7 +10647,7 @@
           "text": {
             "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويشترط في العدل الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
             "en": "The crescent of Ramadan is not established by the testimony of a single just witness; rather, the testimony of two just men or widespread report is required. A just witness must be male, free, and of probity, and the sighting of an impious or unknown person does not suffice.",
-            "ru": "Полумесяц Рамадана не подтверждается свидетельством одного справедливого свидетеля; требуется свидетельство двух справедливых мужчин либо широко распространённое сообщение. Справедливый свидетель должен быть мужчиной, свободным и добропорядочным, а наблюдения нечестивца или неизвестного лица недостаточно.",
+            "ru": "Новолуние Рамадана не подтверждается свидетельством одного справедливого свидетеля; требуется свидетельство двух справедливых мужчин либо широко распространённое сообщение. Справедливый свидетель должен быть мужчиной, свободным и добропорядочным, а наблюдения нечестивца или неизвестного лица недостаточно.",
             "es": "La luna nueva de Ramadán no se establece con el testimonio de un solo testigo justo; se requiere el testimonio de dos hombres justos o una transmisión generalizada. En el testigo justo se exige ser varón, libre y de probidad, y no basta el avistamiento de un impío ni de un desconocido.",
             "uk": "Півмісяць Рамадану не підтверджується свідченням одного справедливого свідка; вимагається свідчення двох справедливих чоловіків або широко поширене повідомлення. Справедливий свідок має бути чоловіком, вільним і доброчесним, а спостереження нечестивця чи невідомої особи недостатньо."
           },
@@ -10641,7 +10711,7 @@
           "text": {
             "ar": "يثبت هلال رمضان برؤية عدل واحد ولو كان عبداً أو أنثى، لأن النبي ﷺ قَبِل في رؤية الهلال خبر الواحد، كما في حديث ابن عمر وفي حديث الأعرابي الذي رواه ابن عباس رضي الله عنهم.",
             "en": "The crescent of Ramadan is established by the sighting of a single upright witness, even a slave or a woman, because the Prophet ﷺ accepted the report of one individual regarding the sighting, as in the hadith of Ibn ʿUmar and the hadith of the Bedouin narrated by Ibn ʿAbbās.",
-            "ru": "Полумесяц Рамадана подтверждается свидетельством одного справедливого свидетеля, даже раба или женщины, поскольку Пророк ﷺ принял сообщение одного человека о наблюдении — как в хадисе Ибн Умара и в хадисе о бедуине, переданном Ибн Аббасом.",
+            "ru": "Новолуние Рамадана подтверждается свидетельством одного справедливого свидетеля, даже раба или женщины, поскольку Пророк ﷺ принял сообщение одного человека о наблюдении — как в хадисе Ибн Умара и в хадисе о бедуине, переданном Ибн Аббасом.",
             "es": "La luna nueva de Ramadán se establece con el testimonio de un solo testigo íntegro, aunque sea esclavo o mujer, porque el Profeta ﷺ aceptó el informe de un solo individuo sobre el avistamiento, como en el hadiz de Ibn ʿUmar y en el hadiz del beduino narrado por Ibn ʿAbbās.",
             "uk": "Молодик Рамадану підтверджується свідченням одного справедливого свідка, навіть раба чи жінки, оскільки Пророк ﷺ прийняв повідомлення однієї людини про спостереження — як у хадисі Ібн Умара та в хадисі про бедуїна, переданому Ібн Аббасом."
           },
@@ -10679,21 +10749,21 @@
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
-        "ru": "Обязательность поста и наблюдение полумесяца",
+        "ru": "Обязательность поста и наблюдение новолуния",
         "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
         "uk": "Обов'язковість посту та спостереження молодика"
       },
       "title": {
         "ar": "حكم إتمام شعبان ثلاثين يوماً إذا حُجب الهلال ليلة الثلاثين",
-        "en": "Ruling on Completing Sha'ban Thirty Days if the Crescent is Blocked on the Thirtieth Night",
-        "ru": "Постановление о завершении Шабана тридцатью днями при скрытии полумесяца в тридцатую ночь",
-        "es": "Norma sobre completar Sha'ban treinta días si la media luna está oculta en la trigésima noche",
+        "en": "Ruling on Completing Shaʿbān Thirty Days if the Crescent is Blocked on the Thirtieth Night",
+        "ru": "Постановление о завершении Шабана тридцатью днями при скрытии новолуния в тридцатую ночь",
+        "es": "Norma sobre completar Shaʿbān treinta días si la media luna está oculta en la trigésima noche",
         "uk": "Постанова про завершення Шаабана тридцятьма днями при приховуванні молодика в тридцяту ніч"
       },
       "summary": {
         "ar": "ما الحكم إذا غمّ هلال رمضان ولم يُرَ ليلة الثلاثين من شعبان؟",
-        "en": "What is the ruling if the crescent of Ramadan is obscured and not seen on the thirtieth night of Sha'ban?",
-        "ru": "Каково постановление, если полумесяц Рамадана скрыт и не был увиден в тридцатую ночь Шабана?",
+        "en": "What is the ruling if the crescent of Ramadan is obscured and not seen on the thirtieth night of Shaʿbān?",
+        "ru": "Каково постановление, если новолуние Рамадана скрыт и не был увиден в тридцатую ночь Шабана?",
         "es": "¿Cuál es la norma si la media luna de Ramadán está oculta y no se ve en la trigésima noche?",
         "uk": "Яка постанова, якщо молодик Рамадана прихований і не був побачений на тридцяту ніч Шаабана?"
       },
@@ -10701,9 +10771,9 @@
         "hanafi": {
           "text": {
             "ar": "إذا غُمّ الهلال ليلة الثلاثين من شعبان، وجب إتمام شهر شعبان ثلاثين يوماً، ولا يجوز صوم يوم الشك تطوعاً أو احتياطاً للفرض.",
-            "en": "If the crescent is obscured on the thirtieth night of Sha'ban, it is obligatory to complete Sha'ban as thirty days, and fasting the day of doubt as voluntary or precautionary is not permissible.",
-            "ru": "Если полумесяц скрыт в тридцатую ночь Шабана, обязательно завершить Шабан тридцатью днями, и недопустимо поститься в день сомнения добровольно или из предосторожности.",
-            "es": "Si la media luna está oculta en la trigésima noche de Sha'ban, es obligatorio completar Sha'ban a treinta días, y no es permisible ayunar el día de la duda como voluntario o por precaución.",
+            "en": "If the crescent is obscured on the thirtieth night of Shaʿbān, it is obligatory to complete Shaʿbān as thirty days, and fasting the day of doubt as voluntary or precautionary is not permissible.",
+            "ru": "Если новолуние скрыт в тридцатую ночь Шабана, обязательно завершить Шабан тридцатью днями, и недопустимо поститься в день сомнения добровольно или из предосторожности.",
+            "es": "Si la media luna está oculta en la trigésima noche de Shaʿbān, es obligatorio completar Shaʿbān a treinta días, y no es permisible ayunar el día de la duda como voluntario o por precaución.",
             "uk": "Якщо молодик прихований у тридцяту ніч Шаабана, обов'язково завершити Шаабан тридцятьма днями, і неприпустимо постити день сумніву добровільно чи з перестороги."
           },
           "sources": [
@@ -10726,9 +10796,9 @@
         "maliki": {
           "text": {
             "ar": "يجب إتمام شعبان ثلاثين يوماً إذا حالت دون رؤية الهلال غيم أو قتر ليلة الثلاثين، ويحرم صيام يوم الشك عن رمضان.",
-            "en": "It is obligatory to complete Sha'ban thirty days if clouds or dust obstruct sighting the crescent on the thirtieth night, and fasting the day of doubt for Ramadan is prohibited.",
-            "ru": "Обязательно завершить Шабан тридцатью днями, если облака или пыль препятствуют видимости полумесяца в тридцатую ночь, а поститься в день сомнения запрещено.",
-            "es": "Es obligatorio completar Sha'ban treinta días si nubes o polvo impiden ver la media luna en la trigésima noche, y se prohíbe ayunar el día de la duda.",
+            "en": "It is obligatory to complete Shaʿbān thirty days if clouds or dust obstruct sighting the crescent on the thirtieth night, and fasting the day of doubt for Ramadan is prohibited.",
+            "ru": "Обязательно завершить Шабан тридцатью днями, если облака или пыль препятствуют видимости новолуния в тридцатую ночь, а поститься в день сомнения запрещено.",
+            "es": "Es obligatorio completar Shaʿbān treinta días si nubes o polvo impiden ver la media luna en la trigésima noche, y se prohíbe ayunar el día de la duda.",
             "uk": "Обов'язково завершити Шаабан тридцятьма днями, якщо хмари чи пил перешкоджають видимості молодика в тридцяту ніч, а постити день сумніву заборонено."
           },
           "sources": [
@@ -10758,9 +10828,9 @@
         "shafii": {
           "text": {
             "ar": "إذا حال دون رؤية الهلال غيم أو قتر ليلة الثلاثين من شعبان وجب إتمام الشهر ثلاثين يوماً لقوله ﷺ: «فإن غم عليكم فاقدروا له».",
-            "en": "If clouds or dust obstruct sighting the crescent on the thirtieth night of Sha'ban, completing the month as thirty days is obligatory, based on the Prophet's saying: \"If it is obscured, then estimate for it.\"",
-            "ru": "Если облака или пыль препятствуют видимости полумесяца в тридцатую ночь Шабана, обязательно завершить месяц тридцатью днями согласно словам Пророка: «Если он скрыт от вас, то отмеряйте его».",
-            "es": "Si nubes o polvo impiden ver la media luna en la trigésima noche de Sha'ban, es obligatorio completar el mes a treinta días, basándose en el dicho del Profeta: \"Si está oculto para vosotros, entonces estimadlo\".",
+            "en": "If clouds or dust obstruct sighting the crescent on the thirtieth night of Shaʿbān, completing the month as thirty days is obligatory, based on the Prophet's saying: \"If it is obscured, then estimate for it.\"",
+            "ru": "Если облака или пыль препятствуют видимости новолуния в тридцатую ночь Шабана, обязательно завершить месяц тридцатью днями согласно словам Пророка: «Если он скрыт от вас, то отмеряйте его».",
+            "es": "Si nubes o polvo impiden ver la media luna en la trigésima noche de Shaʿbān, es obligatorio completar el mes a treinta días, basándose en el dicho del Profeta: \"Si está oculto para vosotros, entonces estimadlo\".",
             "uk": "Якщо хмари чи пил перешкоджають видимості молодика в тридцяту ніч Шаабана, обов'язково завершити місяць тридцятьма днями згідно зі словами Пророка ﷺ: «Якщо він прихований від вас, то відміряйте його», тобто доведіть лік до тридцяти."
           },
           "sources": [
@@ -10790,9 +10860,9 @@
         "hanbali": {
           "text": {
             "ar": "إذا حال ليلة الثلاثين من شعبان غيم أو قتر وجب صومه بنية رمضان احتياطاً ولا يجب إتمام شعبان ثلاثين يوماً.",
-            "en": "If clouds or dust obstruct the thirtieth night of Sha'ban, it is obligatory to fast it with the intention of Ramadan out of precaution, and completing Sha'ban as thirty days is not obligatory.",
+            "en": "If clouds or dust obstruct the thirtieth night of Shaʿbān, it is obligatory to fast it with the intention of Ramadan out of precaution, and completing Shaʿbān as thirty days is not obligatory.",
             "ru": "Если в тридцатую ночь Шабана мешают облака или пыль, обязательно поститься в этот день с намерением Рамадана из предосторожности, и завершение Шабана тридцатью днями не является обязательным.",
-            "es": "Si nubes o polvo obstruyen la trigésima noche de Sha'ban, es obligatorio ayunarlo con la intención de Ramadán por precaución, y no es obligatorio completar Sha'ban a treinta días.",
+            "es": "Si nubes o polvo obstruyen la trigésima noche de Shaʿbān, es obligatorio ayunarlo con la intención de Ramadán por precaución, y no es obligatorio completar Shaʿbān a treinta días.",
             "uk": "Якщо в тридцяту ніч Шаабана заважають хмари чи пил, обов'язково постити в цей день з наміром Рамадану з перестороги, і завершення Шаабана тридцятьма днями не є обов'язковим."
           },
           "sources": [
@@ -10829,21 +10899,21 @@
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
-        "ru": "Обязательность поста и наблюдение полумесяца",
+        "ru": "Обязательность поста и наблюдение новолуния",
         "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
         "uk": "Обов'язковість посту та спостереження молодика"
       },
       "title": {
         "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
         "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
-        "ru": "Постановление о различении мест восхода полумесяца и всеобщей видимости для разных стран",
+        "ru": "Постановление о различении мест восхода новолуния и всеобщей видимости для разных стран",
         "es": "Norma sobre la diferencia de los lugares de salida de la luna y la generalización del avistamiento en los países",
         "uk": "Постанова про різницю місць сходження молодика та загальність видимості в країнах"
       },
       "summary": {
         "ar": "هل يلزم أهل بلد الصيام برؤية الهلال في بلد آخر إذا اختلفت مطالعهم، أم لكل بلد حكمهم؟",
         "en": "Must the people of one country fast upon the sighting of the crescent in another country if their moonrise locations differ, or does each country have its own ruling?",
-        "ru": "Обязаны ли жители одной страны соблюдать пост при появлении полумесяца в другой стране, если места их восхода различаются, или у каждой страны свое постановление?",
+        "ru": "Обязаны ли жители одной страны соблюдать пост при появлении новолуния в другой стране, если места их восхода различаются, или у каждой страны свое постановление?",
         "es": "¿Deben los habitantes de un país ayunar al avistarse la media luna de Ramadán en otro país si sus lugares de salida difieren, o cada país tiene su propia norma?",
         "uk": "Чи зобов'язані жителі однієї країни дотримуватися посту при появі молодика в іншій країні, якщо місця їх сходу відрізняються, чи кожна країна має свою постанову?"
       },
@@ -10852,7 +10922,7 @@
           "text": {
             "ar": "لا اعتبار باختلاف المطالع، فإذا ثبتت رؤية الهلال بطريق شرعي في أي بلد لزم الصوم والإفطار سائر البلدان والأقطار دون اشتراط التقارب.",
             "en": "The difference in moonrise locations is not taken into account; if the crescent is proven in any country, it applies to all countries regardless of distance.",
-            "ru": "Различие мест восхода не принимается во внимание; если полумесяц подтвержден в любой стране, это обязательно для всех остальных стран.",
+            "ru": "Различие мест восхода не принимается во внимание; если новолуние подтвержден в любой стране, это обязательно для всех остальных стран.",
             "es": "La diferencia en los lugares de salida no se toma en cuenta; si se prueba la media luna en cualquier país, se aplica a todos los demás países.",
             "uk": "Різниця місць сходу не береться до уваги; якщо молодик підтверджено в будь-якій країні, це обов'язково для всіх інших країн."
           },
@@ -10948,7 +11018,7 @@
           "text": {
             "ar": "لا يُعتبر اختلاف المطالع، فإذا رُئي الهلال وثبت في بلد لزم صومه جميع المسلمين في سائر البلدان لعموم الخطاب.",
             "en": "Difference in moonrises is not considered; if the crescent is sighted and proven in one country, fasting becomes obligatory upon all Muslims worldwide due to general address.",
-            "ru": "Различие мест восхода не учитывается; если полумесяц увиден и подтвержден в одной стране, пост обязателен для всех мусульман.",
+            "ru": "Различие мест восхода не учитывается; если новолуние увиден и подтвержден в одной стране, пост обязателен для всех мусульман.",
             "es": "La diferencia en los lugares de salida no se considera; si la media luna se ve y se prueba en un país, el ayuno es obligatorio para todos los musulmanes.",
             "uk": "Різниця місць сходу не враховується; якщо молодик побачено та підтверджено в одній країні, піст є обов'язковим для всіх мусульман."
           },
@@ -10986,7 +11056,7 @@
       "chapter": {
         "ar": "وجوب الصيام ورؤية الهلال",
         "en": "The Obligation of Fasting and Sighting the Crescent",
-        "ru": "Обязательность поста и наблюдение полумесяца",
+        "ru": "Обязательность поста и наблюдение новолуния",
         "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
         "uk": "Обов'язковість посту та спостереження молодика"
       },
@@ -11009,7 +11079,7 @@
           "text": {
             "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحسابين.",
             "en": "Astronomical calculation is not relied upon to confirm crescents; rather, the standard is visual sighting based on the Prophet's saying: \"Fast upon seeing it and break fast upon seeing it,\" and the words of astronomers are disregarded.",
-            "ru": "Астрономические расчёты не принимаются при установлении полумесяцев; значение имеет только визуальное наблюдение, согласно словам Пророка ﷺ: «Поститесь при виде его и разговляйтесь при виде его», а слова звездочётов и вычислителей во внимание не принимаются.",
+            "ru": "Астрономические расчёты не принимаются при установлении новолуниив; значение имеет только визуальное наблюдение, согласно словам Пророка ﷺ: «Поститесь при виде его и разговляйтесь при виде его», а слова звездочётов и вычислителей во внимание не принимаются.",
             "es": "No se confía en el cálculo astronómico para establecer las lunas nuevas; lo determinante es el avistamiento visual, según el dicho del Profeta ﷺ: «Ayunad al verla y romped el ayuno al verla», y no se tienen en cuenta las palabras de los astrólogos ni de los calculadores.",
             "uk": "Астрономічні розрахунки не приймаються при встановленні молодикив; значення має лише візуальне спостереження, згідно зі словами Пророка ﷺ: «Постіть, побачивши його, і розговляйтеся, побачивши його», а слова звіздарів та обчислювачів до уваги не беруться."
           },
@@ -11073,7 +11143,7 @@
           "text": {
             "ar": "لا عبرة بحساب الحسابين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
             "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
-            "ru": "Расчеты астрономов не имеют значения при подтверждении полумесяца, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
+            "ru": "Расчеты астрономов не имеют значения при подтверждении новолуния, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
             "es": "Los cálculos de los astrónomos no tienen relevancia para confirmar la media luna, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
             "uk": "Розрахунки звіздарів не мають значення при підтвердженні молодика, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець шаріату зв'язав постанову виключно зі спостереженням або завершенням рахунку."
           },
@@ -11104,8 +11174,8 @@
         "hanbali": {
           "text": {
             "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان، ولا يثبت الهلال إلا بالرؤية البصرية أو إتمام شعبان ثلاثين يوماً، لقوله ﷺ: «فإن غم عليكم فاقدروا له» أي أكملوا العدة ثلاثين.",
-            "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Sha'ban as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
-            "ru": "Запрещено полагаться на астрономические расчёты при установлении наступления месяца Рамадан; полумесяц подтверждается только визуальным наблюдением или завершением Шаабана тридцатью днями, согласно словам Пророка ﷺ: «Если же он будет скрыт от вас, то отмерьте ему», то есть доведите счёт до тридцати.",
+            "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Shaʿbān as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
+            "ru": "Запрещено полагаться на астрономические расчёты при установлении наступления месяца Рамадан; новолуние подтверждается только визуальным наблюдением или завершением Шаабана тридцатью днями, согласно словам Пророка ﷺ: «Если же он будет скрыт от вас, то отмерьте ему», то есть доведите счёт до тридцати.",
             "es": "Está prohibido confiar en el cálculo astronómico para establecer la entrada del mes de Ramadán; la luna nueva solo se establece mediante el avistamiento visual o completando Shaʿbān con treinta días, según el dicho del Profeta ﷺ: «Y si se os oculta, entonces calculadlo», es decir, completad la cuenta hasta treinta.",
             "uk": "Заборонено покладатися на астрономічні розрахунки при встановленні настання місяця Рамадан; молодик підтверджується лише візуальним спостереженням або завершенням Шаабану тридцятьма днями, згідно зі словами Пророка ﷺ: «Якщо ж він буде прихований від вас, то відміряйте йому», тобто доведіть лік до тридцяти."
           },
@@ -11165,9 +11235,9 @@
         "hanafi": {
           "text": {
             "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
-            "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-day for Ramadan, voluntary fasts, and specific duties.",
-            "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днем до зенита для Рамадана, добровольного поста и определённой обязанности.",
-            "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes del mediodía para Ramadán, ayuno voluntario y deber específico.",
+            "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-morning (al-ḍuḥā al-kubrā) for Ramadan, voluntary fasts, and specific duties.",
+            "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днём до большой духы — примерно до середины между восходом солнца и зенитом для Рамадана, добровольного поста и определённой обязанности.",
+            "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes de media mañana (al-ḍuḥā al-kubrā) para Ramadán, ayuno voluntario y deber específico.",
             "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до великої духи — приблизно до середини між сходом сонця та зенітом для Рамадану, добровільного посту та визначеного обов'язку."
           },
           "sources": [
@@ -11229,10 +11299,10 @@
         "shafii": {
           "text": {
             "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
-            "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr.",
-            "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра.",
-            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr.",
-            "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру."
+            "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr based on his saying ﷺ: “Whoever does not resolve upon the fast before dawn, there is no fast for him.”",
+            "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра на основе слов Пророка ﷺ: «Кто не вознамерился твёрдо поститься до рассвета, для того нет поста».",
+            "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr según su dicho ﷺ: «Quien no resuelve firmemente el ayuno antes del alba, no tiene ayuno».",
+            "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру на основі слів Пророка ﷺ: «Хто не вирішив твердо постити до світанку, для того немає посту»."
           },
           "sources": [
             {
@@ -11322,9 +11392,9 @@
         "hanafi": {
           "text": {
             "ar": "لا تجزئ نية واحدة في أول الشهر عن جميعه، بل تشترط النية لكل يوم من رمضان، غير أنه يصح أداؤها في النهار قبل الضحوة الكبرى ولا يشترط تبييتها من الليل.",
-            "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-day.",
-            "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днем до зенита.",
-            "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes del mediodía.",
+            "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-morning (al-ḍuḥā al-kubrā).",
+            "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днём до большой духы — примерно до середины между восходом солнца и зенитом.",
+            "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes de media mañana (al-ḍuḥā al-kubrā).",
             "uk": "Одного наміру на початку місяця недостатньо для всього посту; потрібен намір на кожен день, хоча він дійсний і вдень до великої духи — приблизно до середини між сходом сонця та зенітом."
           },
           "sources": [
@@ -11386,10 +11456,10 @@
         "shafii": {
           "text": {
             "ar": "لا تكفي نية واحدة لجميع الشهر، بل يشترط تعيين النية وتبييتها من الليل لكل يوم مستقل برأسه.",
-            "en": "Shafi'is do not suffice with a single intention for the entire month; rather, specifying and nightly forming the intention for each independent day is required.",
-            "ru": "Шафииты не ограничиваются одним намерением на весь месяц, а требуют конкретизации и ночного намерения на каждый отдельный день.",
-            "es": "Los shafiíes no se conforman con una sola intención para todo el mes, sino que se requiere especificar y formar la intención desde la noche para cada día independiente.",
-            "uk": "Шафіїти не обмежуються одним наміром на весь місяць, а вимагають конкретизації та нічного наміру на кожен окремий день."
+            "en": "A single intention does not suffice for the whole month; rather, the intention must be specified and made during the night for each day independently.",
+            "ru": "Одного намерения на весь месяц недостаточно; напротив, требуется определить намерение и составить его ночью для каждого дня в отдельности.",
+            "es": "Una sola intención no basta para todo el mes; más bien, se exige precisar la intención y formularla de noche para cada día por separado.",
+            "uk": "Одного наміру на весь місяць недостатньо; натомість вимагається визначити намір і скласти його вночі для кожного дня окремо."
           },
           "sources": [
             {
@@ -12180,7 +12250,7 @@
           },
           "body": {
             "ar": "والناظر في تاريخ الأديان بإنصافٍ يدرك أن الإسلام لم يأتِ ليهدم ما قبله من جهود الأنبياء، بل جاء ليتوّج ذلك البناء، ويصحّح ما طرأ عليه من تشويهٍ بشري، ويعيد بوصلة الإنسان إلى وجهتها الأولى والأخيرة: عبادة إلهٍ واحد، بلا شريك ولا وسيط.",
-            "en": "Whoever looks at the history of religions fairly recognises that Islam did not come to demolish the labour of the prophets before it, but to crown that edifice, to correct the human distortion that had entered it, and to return man's compass to its first and final direction: the worship of one God, without partner and without intermediary.",
+            "en": "Whoever looks at the history of religions fairly recognizes that Islam did not come to demolish the labour of the prophets before it, but to crown that edifice, to correct the human distortion that had entered it, and to return man's compass to its first and final direction: the worship of one God, without partner and without intermediary.",
             "ru": "Всякий, кто беспристрастно взглянет на историю религий, увидит, что ислам пришёл не разрушать труд прежних пророков, а увенчать это здание, исправить проникшее в него человеческое искажение и вернуть компас человека к его первому и последнему направлению: поклонению единому Богу, без сотоварища и без посредника.",
             "es": "Quien observa con imparcialidad la historia de las religiones comprende que el islam no vino a derribar la labor previa de los profetas, sino a coronar ese edificio, a corregir la distorsión humana que se había introducido en él y a devolver la brújula del ser humano a su dirección primera y última: la adoración de un Dios único, sin socio ni intermediario.",
             "uk": "Хто неупереджено погляне на історію релігій, той побачить, що іслам прийшов не руйнувати працю попередніх пророків, а увінчати цю будівлю, виправити людське спотворення, що в неї проникло, і повернути компас людини до її першого й останнього напрямку: поклоніння єдиному Богу, без співучасника і без посередника."
@@ -12376,7 +12446,7 @@
           },
           "body": {
             "ar": "تجتمع أدلّة المخطوطات والنقد النصّي على إقرار أكاديمي ولاهوتي بوقوع التغيير والتعارض في أسفار العهدين. وهو ما يوضّح، في نظر المسلم، الحاجة إلى كتاب محفوظ بحفظ إلهي لا تعتريه هذه العلل، وهو القرآن الكريم.",
-            "en": "The manuscript evidence and the work of textual criticism converge on an academic and theological acknowledgement that change and disagreement entered the books of both Testaments. This, in the Muslim's view, makes plain the need for a scripture kept by divine preservation and free of such defects: the Qur'an.",
+            "en": "The manuscript evidence and the work of textual criticism converge on an academic and theological acknowledgement that change and disagreement entered the books of both Testaments. This, in the Muslim's view, makes plain the need for a scripture kept by divine preservation and free of such defects: the Qurʾān.",
             "ru": "Рукописные свидетельства и труды текстологов сходятся в академическом и богословском признании того, что в книги обоих Заветов вошли изменения и расхождения. Для мусульманина это и объясняет нужду в Писании, хранимом божественным хранением и свободном от таких изъянов, — в Коране.",
             "es": "Las pruebas manuscritas y el trabajo de la crítica textual convergen en un reconocimiento académico y teológico de que el cambio y la discrepancia entraron en los libros de ambos Testamentos. Esto, a ojos del musulmán, deja clara la necesidad de una escritura guardada por preservación divina y libre de tales defectos: el Corán.",
             "uk": "Рукописні свідчення та праці текстологів сходяться в академічному та богословському визнанні того, що в книги обох Заповітів увійшли зміни та розбіжності. Для мусульманина це і пояснює потребу в Писанні, збереженому божественним збереженням і вільному від таких вад, — у Священному Корані."
@@ -12471,7 +12541,7 @@
           },
           "body": {
             "ar": "ينطلق الدليل من مقدّمة ظاهرة: أن الأجرام المشاهدة متغيّرة متحوّلة، وكل متغيّر حادث مسبوق بالعدم.\n\nوقد أشار القرآن إلى هذا المعنى في قوله تعالى ﴿أَمْ خُلِقُوا مِنْ غَيْرِ شَيْءٍ أَمْ هُمُ الْخَالِقُونَ﴾، سورة الطور: ٣٥.\n\nفإذا كان الشيء لا يخلق نفسه، ولا يوجد بلا موجِد، لزم عقلاً أن له خالقاً أحدثه بعد العدم.",
-            "en": "The proof begins from a plain premise: the bodies we observe change and alter, and whatever changes is originated and preceded by non-existence.\n\nThe Qur'an points to this in Sūrat al-Ṭūr, verse 35.\n\nSince a thing cannot bring itself into being, nor come to be without a bringer, reason requires a Creator who brought it into being after non-existence.",
+            "en": "The proof begins from a plain premise: the bodies we observe change and alter, and whatever changes is originated and preceded by non-existence.\n\nThe Qurʾān points to this in Sūrat al-Ṭūr, verse 35.\n\nSince a thing cannot bring itself into being, nor come to be without a bringer, reason requires a Creator who brought it into being after non-existence.",
             "ru": "Доказательство исходит из очевидной посылки: наблюдаемые тела изменяются, а всё изменяющееся возникло, и ему предшествовало небытие.\n\nНа это указывает Коран в суре «ат-Тур», аят 35.\n\nПоскольку вещь не приводит себя в бытие и не возникает без приводящего, разум требует Творца, создавшего её из небытия.",
             "es": "La prueba parte de una premisa evidente: los cuerpos que observamos cambian, y todo lo que cambia es originado y precedido por la no existencia.\n\nEl Corán apunta a ello en la sura at-Tur, aleya 35.\n\nComo una cosa no se trae a sí misma a la existencia ni surge sin quien la traiga, la razón exige un Creador que la originó tras la nada.",
             "uk": "Доказ виходить з очевидної посилки: тіла, які ми спостерігаємо, змінюються, а все змінне виникло, і йому передувало небуття.\n\nНа це вказує Коран у сурі «ат-Тур», аят 35.\n\nОскільки річ не приводить себе в буття і не виникає без того, хто її приводить, розум вимагає Творця, який створив її з небуття."
@@ -12579,10 +12649,10 @@
       },
       "excerpt": {
         "ar": "مقال يبين الحِكَم الشرعية والغايات الروحية من صيام رمضان، ويتناول أثره الصحّي على البدن وفق المعطيات الطبية الحديثة.",
-        "en": "An article explaining the religious wisdom and spiritual goals of fasting Ramadan, addressing its physical health impacts according to modern medical findings.",
-        "ru": "Статья, разъясняющая религиозную мудрость и духовные цели поста в Рамадан, а также его влияние на здоровье согласно современным медицинским данным.",
-        "es": "Artículo que explica la sabiduría religiosa y los objetivos espirituales del ayuno de Ramadán, abordando su impacto en la salud física según hallazgos médicos modernos.",
-        "uk": "Стаття, що пояснює релігійну мудрість та духовні цілі посту в Рамадан, а також його вплив на фізичне здоров'я згідно з сучасними медичними даними."
+        "en": "An article setting out the legal wisdoms and spiritual aims of fasting Ramadan, and treating its bodily health effects and the balance the Sharia strikes between the two.",
+        "ru": "Статья, излагающая шариатские мудрости и духовные цели поста в Рамадан и рассматривающая его влияние на здоровье тела и то равновесие, которое устанавливает между ними шариат.",
+        "es": "Un artículo que expone las sabidurías legales y los fines espirituales del ayuno de Ramadán, y trata su efecto sobre la salud del cuerpo y el equilibrio que la Sharía establece entre ambos.",
+        "uk": "Стаття, що викладає шаріатські мудрості та духовні цілі посту в Рамадан і розглядає його вплив на здоров'я тіла та ту рівновагу, яку встановлює між ними шаріат."
       },
       "relatedRefs": [],
       "sections": [

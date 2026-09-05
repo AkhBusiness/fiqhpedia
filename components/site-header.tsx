@@ -1,6 +1,6 @@
 "use client"
 
-import { BookOpen, LayoutGrid, Moon, Sun } from "lucide-react"
+import { BookOpen, LayoutGrid, Moon, Search, Sun } from "lucide-react"
 import { Flag } from "@/components/flag"
 import { type Lang, langLabels, ui } from "@/lib/fiqh-data"
 
@@ -10,6 +10,8 @@ interface SiteHeaderProps {
   theme: "dark" | "light"
   onThemeToggle: () => void
   onOpenOnboarding: () => void
+  /** Opens the site-wide search. Distinct from the fiqh tab's own filter. */
+  onOpenSearch: () => void
 }
 
 export function SiteHeader({
@@ -18,6 +20,7 @@ export function SiteHeader({
   theme,
   onThemeToggle,
   onOpenOnboarding,
+  onOpenSearch,
 }: SiteHeaderProps) {
   return (
     <header className="sticky top-0 z-30 border-b border-white/10 bg-background/70 backdrop-blur-xl">
@@ -100,6 +103,16 @@ export function SiteHeader({
               )
             })}
           </div>
+
+          <button
+            type="button"
+            onClick={onOpenSearch}
+            aria-label={ui.globalSearch[lang]}
+            title={ui.globalSearch[lang]}
+            className="flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
+          >
+            <Search className="size-4.5" aria-hidden="true" />
+          </button>
 
           <button
             type="button"

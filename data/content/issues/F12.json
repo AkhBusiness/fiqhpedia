@@ -19,9 +19,9 @@
   },
   "summary": {
     "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع والرفع منه وفي هيئة الرفع.",
-    "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
-    "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона.",
-    "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren en levantarlas al inclinarse, al incorporarse de la inclinación y en la forma de levantarlas.",
+    "en": "The imams agree on the legitimacy of raising the hands at the opening takbīr, and differ over raising them at the bowing, at rising from it, and over the manner of raising.",
+    "ru": "Имамы согласны в законности поднимания рук при вступительном такбире и расходятся в поднимании их при поясном поклоне, при выпрямлении из него и в самом способе поднимания.",
+    "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren sobre levantarlas al inclinarse, al incorporarse y sobre la forma de levantarlas.",
     "uk": "Імами згодні щодо законності піднімання рук при вступному такбірі, але розходяться щодо піднімання їх при поясному уклоні, при випрямленні з нього та щодо способу піднімання."
   },
   "rulings": {
@@ -46,9 +46,9 @@
     "maliki": {
       "text": {
         "ar": "رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
-        "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
-        "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется.",
-        "es": "La postura acreditada es levantar las manos a la altura de los hombros solo en el takbir de apertura, y es desaconsejable levantarlas en el resto de los descensos y ascensos.",
+        "en": "The hands are raised to shoulder level only at the opening takbīr, and raising them at the other descents and risings is disliked.",
+        "ru": "Руки поднимаются до уровня плеч только при вступительном такбире, а поднимать их при остальных наклонах и выпрямлениях нежелательно.",
+        "es": "Las manos se levantan a la altura de los hombros solo en el takbir de apertura, y levantarlas en el resto de los descensos y ascensos es reprobable.",
         "uk": "Усталена думка — піднімання рук до рівня плечей лише при вступному такбірі; піднімати їх при решті нахилів і випрямлень небажано."
       },
       "sources": [
@@ -89,8 +89,8 @@
     "hanbali": {
       "text": {
         "ar": "يسن رفع اليدين حذو المنكبين أو فروع الأذنين في ثلاثة مواضع: تكبيرة الإحرام، وعند الركوع، وعند الرفع منه.",
-        "en": "Recommended to raise hands to shoulders or earlobes in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
-        "ru": "Желательно поднимать руки до уровня плеч или ушей в 3 местах: начальный такбир, поклон и выпрямление.",
+        "en": "Recommended to raise hands to shoulders or the tops of the ears in three positions: Opening Takbeer, Bowing, and Rising from Bowing.",
+        "ru": "Желательно поднимать руки до уровня плеч или верхушек ушей в 3 местах: начальный такбир, поклон и выпрямление.",
         "es": "Es sunna levantar las manos a la altura de los hombros o de la parte superior de las orejas en tres lugares: el takbir de apertura, al inclinarse y al incorporarse de la inclinación.",
         "uk": "Сунною є піднімання рук до рівня плечей або верхівок вух у трьох місцях: при вступному такбірі, при поясному уклоні та при випрямленні з нього."
       },

@@ -28,9 +28,9 @@
     "hanafi": {
       "text": {
         "ar": "لا تجزئ نية واحدة في أول الشهر عن جميعه، بل تشترط النية لكل يوم من رمضان، غير أنه يصح أداؤها في النهار قبل الضحوة الكبرى ولا يشترط تبييتها من الليل.",
-        "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-day.",
-        "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днем до зенита.",
-        "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes del mediodía.",
+        "en": "A single intention at the beginning of the month does not suffice for all of it; rather, intention is required for each day, though it is valid during the day before mid-morning (al-ḍuḥā al-kubrā).",
+        "ru": "Одного намерения в начале месяца недостаточно для всего поста; требуется намерение на каждый день, хотя оно действительно и днём до большой духы — примерно до середины между восходом солнца и зенитом.",
+        "es": "Una sola intención al principio del mes no basta para todo él; se requiere la intención para cada día, aunque es válida durante el día antes de media mañana (al-ḍuḥā al-kubrā).",
         "uk": "Одного наміру на початку місяця недостатньо для всього посту; потрібен намір на кожен день, хоча він дійсний і вдень до великої духи — приблизно до середини між сходом сонця та зенітом."
       },
       "sources": [
@@ -92,10 +92,10 @@
     "shafii": {
       "text": {
         "ar": "لا تكفي نية واحدة لجميع الشهر، بل يشترط تعيين النية وتبييتها من الليل لكل يوم مستقل برأسه.",
-        "en": "Shafi'is do not suffice with a single intention for the entire month; rather, specifying and nightly forming the intention for each independent day is required.",
-        "ru": "Шафииты не ограничиваются одним намерением на весь месяц, а требуют конкретизации и ночного намерения на каждый отдельный день.",
-        "es": "Los shafiíes no se conforman con una sola intención para todo el mes, sino que se requiere especificar y formar la intención desde la noche para cada día independiente.",
-        "uk": "Шафіїти не обмежуються одним наміром на весь місяць, а вимагають конкретизації та нічного наміру на кожен окремий день."
+        "en": "A single intention does not suffice for the whole month; rather, the intention must be specified and made during the night for each day independently.",
+        "ru": "Одного намерения на весь месяц недостаточно; напротив, требуется определить намерение и составить его ночью для каждого дня в отдельности.",
+        "es": "Una sola intención no basta para todo el mes; más bien, se exige precisar la intención y formularla de noche para cada día por separado.",
+        "uk": "Одного наміру на весь місяць недостатньо; натомість вимагається визначити намір і скласти його вночі для кожного дня окремо."
       },
       "sources": [
         {

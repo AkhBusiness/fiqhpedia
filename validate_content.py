@@ -58,6 +58,16 @@ PLACEHOLDER_TOKENS = re.compile(r"\b(TODO|TBD|FIXME|XXX)\b")
 CYRILLIC = re.compile(r"[\u0400-\u04FF]")
 LATIN_LOOKALIKE = re.compile(r"[A-Za-z\u0131]")
 
+# قاعدة المشروع: العين ʿ (U+02BF) والهمزة ʾ (U+02BE) — لا فاصلة عليا ولا قوس اقتباس.
+# تُفحص داخل الكلمات اللاتينية وحدها، فالفاصلة العليا مشروعة في «don't» الإنجليزية
+# وفي «обов'язок» الأوكرانية، وإنما الخطأ أن تنوب عن العين أو الهمزة داخل نقلٍ صوتي.
+# الأقواس المائلة والعكسية لا تصحّ داخل كلمة بحال.
+TRANSLIT_QUOTE = re.compile(r"[A-Za-z][\u2019\u2018`\u02bc](?=[A-Za-z])")
+# أمّا الفاصلة العليا الآسكي فمشروعة في اختصارات الإنجليزية وملكيّتها،
+# فتُستثنى لواحقها وحدها ويُنبَّه على ما عداها.
+ASCII_APOSTROPHE = re.compile(r"[A-Za-z]'(?=[A-Za-z])")
+CONTRACTION = re.compile(r"'(?:t|s|re|ve|ll|d|m|em)\b", re.IGNORECASE)
+
 # Scripts we expect per language, to catch a translation pasted into the
 # wrong slot (e.g. Arabic text sitting in the "en" field).
 SCRIPT_RANGES = {
@@ -100,6 +110,18 @@ def check_localized(obj, where, *, required=True, allow_pending_wording=False):
             continue
         if "\ufffd" in val:
             err(f"{where}.{lang}: contains corrupted character (U+FFFD) — {val[:50]}")
+        if lang in ("en", "es"):
+            m = TRANSLIT_QUOTE.search(val)
+            if not m:
+                for cand in ASCII_APOSTROPHE.finditer(val):
+                    if not CONTRACTION.match(val[cand.end() - 1:]):
+                        m = cand
+                        break
+            if m:
+                err(
+                    f"{where}.{lang}: apostrophe standing in for ʿayn/hamza in a "
+                    f"transliteration — use ʿ (U+02BF) or ʾ (U+02BE) — {val[max(0, m.start() - 12):m.end() + 12]}"
+                )
         if lang in ("ru", "uk"):
             # A Latin or Turkish look-alike inside a Cyrillic word (а/a, і/i, і/ı).
             # The eye cannot see it, but it silently breaks search and sorting.

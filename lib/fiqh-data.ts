@@ -626,6 +626,7 @@ export interface SearchResults {
   articles: Article[]
   terms: GlossaryTerm[]
   faqs: Faq[]
+  guides: Guide[]
 }
 
 /**
@@ -638,7 +639,7 @@ export interface SearchResults {
  */
 export function searchAll(query: string): SearchResults {
   const q = query.trim()
-  if (!q) return { issues: [], proofs: [], articles: [], terms: [], faqs: [] }
+  if (!q) return { issues: [], proofs: [], articles: [], terms: [], faqs: [], guides: [] }
 
   const langParts = (fields: (Localized | undefined)[]) =>
     fields.flatMap((f) => (f ? LANGS.map((l) => f[l] ?? "") : []))
@@ -649,7 +650,16 @@ export function searchAll(query: string): SearchResults {
       matches([p.ref, ...langParts([p.title, p.tagline, p.conclusion])].join(" "), q),
     ),
     articles: articles.filter((a) =>
-      matches([a.ref, ...langParts([a.title, a.excerpt])].join(" "), q),
+      matches(
+        [
+          a.ref,
+          ...langParts([a.title, a.excerpt]),
+          // The body too: a reader searching a phrase they remember from an
+          // article should land on it, not be told the site has nothing.
+          ...a.sections.flatMap((sec) => langParts([sec.heading, sec.body])),
+        ].join(" "),
+        q,
+      ),
     ),
     terms: glossary.filter((t) =>
       matches(
@@ -664,5 +674,14 @@ export function searchAll(query: string): SearchResults {
       ),
     ),
     faqs: faqs.filter((f) => matches(langParts([f.question, f.answer]).join(" "), q)),
+    guides: guides.filter((g) =>
+      matches(
+        [
+          ...langParts([g.title, g.intro]),
+          ...g.steps.flatMap((st) => langParts([st.title, st.text])),
+        ].join(" "),
+        q,
+      ),
+    ),
   }
 }

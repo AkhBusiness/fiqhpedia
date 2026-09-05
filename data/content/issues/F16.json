@@ -60,8 +60,8 @@
     "maliki": {
       "text": {
         "ar": "يندب التثويب بقول الصلاة خير من النوم مرتين في أذان الفجر الثاني دون غيره.",
-        "en": "Tathwīb is recommended twice during the second call for the Fajr prayer specifically.",
-        "ru": "Желательно произносить Тасвиб дважды во втором азане утренней молитвы Фаджр.",
+        "en": "It is recommended to say the tathwīb — “Prayer is better than sleep” — twice in the second adhān of the dawn prayer and in no other.",
+        "ru": "Желательно произносить тасвиб — «Молитва лучше сна» — дважды во втором азане утренней молитвы и не в каком-либо другом.",
         "es": "Es recomendable el tathwīb, decir «la oración es mejor que el sueño» dos veces, en el segundo adhán del fajr y no en otro.",
         "uk": "Бажано промовляти тасвіб — «молитва краща за сон» — двічі в другому азані фаджру і не в іншому."
       },
@@ -124,9 +124,9 @@
     "hanbali": {
       "text": {
         "ar": "يسن التثويب في أذان الفجر الثاني خاصة.",
-        "en": "Tathwīb is Sunnah specifically in the second Fajr call to prayer according to the school.",
-        "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр согласно мазхабу.",
-        "es": "Es sunna el tathwīb en el segundo adhán del fajr en particular, y es una de las sunnas del adhán acreditadas en la escuela.",
+        "en": "The tathwīb is Sunnah specifically in the second call to prayer for Fajr.",
+        "ru": "Тасвиб является сунной именно во втором азане молитвы Фаджр.",
+        "es": "Es sunna el tathwīb en el segundo adhán del fajr en particular.",
         "uk": "Тасвіб є сунною саме в другому азані фаджру, і це одна з усталених у мазгабі сунн азану."
       },
       "sources": [

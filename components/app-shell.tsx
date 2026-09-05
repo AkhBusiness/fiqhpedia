@@ -13,6 +13,7 @@ import { SchoolSelectorModal, type SchoolFilter } from "@/components/school-sele
 import { TheologySection } from "@/components/theology-section"
 import { LearnSection } from "@/components/learn-section"
 import { HomeSection } from "@/components/home-section"
+import { GlobalSearch } from "@/components/global-search"
 import { GlossarySection } from "@/components/glossary-section"
 import { ViewModeToggle } from "@/components/view-mode-toggle"
 import { ShareCardModal } from "@/components/share-card-modal"
@@ -47,6 +48,7 @@ export function AppShell({ lang, section }: AppShellProps) {
     router.push(section === "home" ? `/${next}` : `/${next}/${section}`)
 
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
+  const [globalSearchOpen, setGlobalSearchOpen] = useState(false)
   const {
     theme, setTheme,
     activeCategory, setActiveCategory,
@@ -142,17 +144,32 @@ export function AppShell({ lang, section }: AppShellProps) {
 
   const searching = query.trim().length > 0
 
-  // A query escapes the open book. Sitting on Prayer and typing "tayammum"
-  // used to return nothing, because the filter ran inside the active book
-  // first — the reader was told the site had no such issue while it sat one
-  // tab away. Book order is kept so grouped results read in site order.
+  /**
+   * How wide a query reaches. A search used to always escape the open book,
+   * so a reader sitting on Prayer could not ask "only within Prayer" — the
+   * book tabs went inert the moment a letter was typed. The scope is now the
+   * reader's to set: it starts at "all" so nothing is hidden by default, and
+   * narrows on request.
+   */
+  const [searchScope, setSearchScope] = useState<"all" | "book" | "chapter">("all")
+
+  // Narrowing to a chapter is meaningless once the reader leaves it.
+  useEffect(() => {
+    if (searchScope === "chapter" && !activeChapter) setSearchScope("book")
+  }, [activeChapter, searchScope])
+
   const visibleIssues = useMemo(() => {
     const bookOrder = new Map(categories.map((c, n) => [c.id, n]))
+    const inScope = (i: (typeof issues)[number]) => {
+      if (searchScope === "all") return true
+      if (i.categoryId !== activeCategory) return false
+      return searchScope !== "chapter" || i.chapter?.ar === activeChapter
+    }
     const base =
       scope === "saved"
         ? issues.filter((i) => isBookmarked(i.id))
         : searching
-          ? issues
+          ? issues.filter(inScope)
           : issues.filter(
               (i) =>
                 i.categoryId === activeCategory &&
@@ -165,7 +182,7 @@ export function AppShell({ lang, section }: AppShellProps) {
           (bookOrder.get(a.categoryId) ?? 0) - (bookOrder.get(b.categoryId) ?? 0) ||
           a.number - b.number,
       )
-  }, [activeCategory, activeChapter, scope, query, searching, isBookmarked])
+  }, [activeCategory, activeChapter, scope, query, searching, searchScope, isBookmarked])
 
   /** Matches outside the fiqh tab, so a search is never silently partial. */
   const otherHits = useMemo(() => {
@@ -185,7 +202,7 @@ export function AppShell({ lang, section }: AppShellProps) {
   const activeCategoryName =
     scope === "saved"
       ? ui.savedItems[lang]
-      : searching
+      : searching && searchScope === "all"
         ? ui.searchAllBooks[lang]
         : categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""
 
@@ -209,9 +226,35 @@ export function AppShell({ lang, section }: AppShellProps) {
         aria-hidden="true"
         className="pointer-events-none fixed inset-x-0 top-0 -z-10 h-[420px] bg-[radial-gradient(60%_100%_at_50%_0%,rgba(255,255,255,0.06),transparent_70%)]"
       />
+      <GlobalSearch
+        lang={lang}
+        open={globalSearchOpen}
+        onClose={() => setGlobalSearchOpen(false)}
+        onNavigate={(target, anchor) => {
+          go(target)
+          if (target === "fiqh") {
+            // Clear any narrowing, or the card the reader picked may sit
+            // outside the open book and never appear.
+            setQuery("")
+            setScope("all")
+            setActiveChapter("")
+          }
+          if (anchor) {
+            requestAnimationFrame(() => {
+              requestAnimationFrame(() => {
+                document
+                  .getElementById(anchor)
+                  ?.scrollIntoView({ behavior: "smooth", block: "start" })
+              })
+            })
+          }
+        }}
+      />
+
       <SiteHeader
         lang={lang}
         onLangChange={setLang}
+        onOpenSearch={() => setGlobalSearchOpen(true)}
         theme={theme}
         onThemeToggle={() => setTheme(theme === "dark" ? "light" : "dark")}
         onOpenOnboarding={() => setOnboardingOpen(true)}
@@ -223,7 +266,7 @@ export function AppShell({ lang, section }: AppShellProps) {
         <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
           <CategoryTabs
             lang={lang}
-            activeId={scope === "saved" || searching ? "" : activeCategory}
+            activeId={scope === "saved" || (searching && searchScope === "all") ? "" : activeCategory}
             counts={counts}
             activeChapter={activeChapter}
             onSelectChapter={setActiveChapter}
@@ -243,6 +286,10 @@ export function AppShell({ lang, section }: AppShellProps) {
               onScopeChange={setScope}
               savedCount={savedCount}
               resultCount={visibleIssues.length}
+              searchScope={searchScope}
+              onSearchScopeChange={setSearchScope}
+              bookName={categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""}
+              chapterName={activeChapter}
             />
 
             <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
@@ -334,7 +381,7 @@ export function AppShell({ lang, section }: AppShellProps) {
           ) : section === "articles" ? (
             <ArticlesSection lang={lang} />
           ) : section === "glossary" ? (
-            <GlossarySection lang={lang} />
+            <GlossarySection lang={lang} visibleSchools={visibleSchools} />
           ) : (
             <LearnSection lang={lang} />
           )}
