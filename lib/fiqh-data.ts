@@ -21,15 +21,17 @@ import fiqhData from "@/data/fiqhData.json"
  * Adding a language is one edit here plus its entries in fiqhData.json;
  * nothing else in the codebase hardcodes the list.
  */
-export const LANGS = ["ar", "en", "ru"] as const
+export const LANGS = ["ar", "en", "ru", "es", "uk"] as const
 export type Lang = (typeof LANGS)[number]
 
 /**
  * Languages whose assets exist (flag, locale entry) but whose content is not
  * translated yet. Kept out of LANGS so the picker never offers a language
  * that would render an empty page. Move the key into LANGS to ship it.
+ *
+ * Empty since 2026-09-05: all five languages are complete and audited.
  */
-export const PENDING_LANGS = ["es", "uk"] as const
+export const PENDING_LANGS = [] as const
 export type PendingLang = (typeof PENDING_LANGS)[number]
 
 /** Fallback order used when a field is missing a language. */

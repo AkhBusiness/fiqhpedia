@@ -31,7 +31,7 @@
         "en": "The conditions for the obligation of fasting Ramadan are: Islam, sanity, and puberty, together with capability and health; it is not obligatory upon a child, an insane person, or one who is incapable, and it is obligatory upon the capable resident.",
         "ru": "Условия обязательности поста в Рамадан таковы: ислам, разум и совершеннолетие, наряду со способностью и здоровьем; он не обязателен для ребёнка, безумного или неспособного, и обязателен для способного резидента.",
         "es": "Las condiciones para la obligación del ayuno de Ramadán son: el islam, la sanidad mental y la pubertad, junto con la capacidad y la salud; no es obligatorio para un niño, un demente o un incapaz, y es obligatorio para el residente capaz.",
-        "uk": "Умови обов'язковості посту в Рамадан такі: іслам, розум та повноліття, разом зі спроможністю та здоров'ям; він не є обов'язковим для дитини, божевільного чи нездатного, і є обов'язковим для спроможного резидента."
+        "uk": "Умови обов'язковості посту в Рамадан такі: іслам, розум та повноліття, разом зі спроможністю та здоров'ям; він не є обов'язковим для дитини, божевільного чи нездатного, і є обов'язковим для спроможного, хто не перебуває в подорожі."
       },
       "sources": [
         {
@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "شروط وجوب الصيام ثلاثة أصول كبرى: العقل، والبلوغ، والقدرة (مع الإسلام وخلوّ المرأة من الحيض والنفاس)، فلا يجب على فاقد أحدها.",
-        "en": "The conditions for the obligation of fasting are three major principles: sanity, puberty, and capability (along with Islam and a woman's freedom from menstruation and postpartum bleeding); it is not obligatory upon one who lacks any of them.",
-        "ru": "Условия обязательности поста — три основных начала: разум, совершеннолетие и способность (наряду с исламом и отсутствием у женщины менструации и послеродового кровотечения), и он не обязателен для того, кто лишён одного из них.",
-        "es": "Las condiciones para la obligación del ayuno son tres principios mayores: la sanidad mental, la pubertad y la capacidad (junto con el islam y la ausencia de menstruación y loquios en la mujer); no es obligatorio para quien carece de alguno de ellos.",
-        "uk": "Умови обов'язковості посту — три основні засади: розум, повноліття та спроможність (разом з ісламом та відсутністю у жінки менструації і післяпологової кровотечі), і він не є обов'язковим для того, хто позбавлений будь-якої з них."
+        "ar": "شروط وجوب الصيام ثلاثة شروط: العقل، والبلوغ، والقدرة (مع الإسلام وخلوّ المرأة من الحيض والنفاس)، فلا يجب على فاقد أحدها.",
+        "en": "The conditions for the obligation of fasting are three conditions: sanity, puberty, and capability (along with Islam and a woman's freedom from menstruation and postpartum bleeding); it is not obligatory upon one who lacks any of them.",
+        "ru": "Условия обязательности поста — три условия: разум, совершеннолетие и способность (наряду с исламом и отсутствием у женщины менструации и послеродового кровотечения), и он не обязателен для того, кто лишён одного из них.",
+        "es": "Las condiciones para la obligación del ayuno son tres condiciones: la sanidad mental, la pubertad y la capacidad (junto con el islam y la ausencia de menstruación y loquios en la mujer); no es obligatorio para quien carece de alguno de ellos.",
+        "uk": "Умови обов'язковості посту — три умови: розум, повноліття та спроможність (разом з ісламом та відсутністю у жінки менструації і післяпологової кровотечі), і він не є обов'язковим для того, хто позбавлений будь-якої з них."
       },
       "sources": [
         {

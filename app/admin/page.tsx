@@ -38,7 +38,7 @@ const LANG_LABEL: Record<Lang, string> = {
   uk: "الأوكرانية",
 }
 /** لغتان لم تُطلقا بعد — نقصهما تنبيه لا خطأ يمنع الحفظ، كما في validate_content.py */
-const PENDING_LANGS: readonly Lang[] = ["es", "uk"]
+const PENDING_LANGS: readonly Lang[] = []
 const emptyLoc = (): Loc => ({ ar: "", en: "", ru: "", es: "", uk: "" })
 
 const SCHOOLS = [

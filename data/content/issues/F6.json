@@ -63,10 +63,10 @@
     },
     "shafii": {
       "text": {
-        "ar": "لا ينقض لحم الإبل الوضوء على الجديد المعتمد، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
+        "ar": "لا ينقض لحم الإبل الوضوء، ولمس المرأة الأجنبية ينقض بمجرد التقاء البشرتين بلا حائل.",
         "en": "Camel meat does not break ablution per the relied-upon later position; touching a non-maram woman breaks it by the mere contact of skin without a barrier.",
         "ru": "Верблюжье мясо не нарушает омовение по утверждённому позднему мнению; прикосновение к посторонней женщине нарушает уже при соприкосновении кожи без преграды.",
-        "es": "La carne de camello no anula la ablución según la postura nueva acreditada; tocar a una mujer ajena la anula por el mero contacto de piel con piel sin barrera.",
+        "es": "La carne de camello no anula la ablución acreditada; tocar a una mujer ajena la anula por el mero contacto de piel con piel sin barrera.",
         "uk": "Верблюже м'ясо не порушує омовіння за усталеною новою думкою; дотик до сторонньої жінки порушує його вже самим дотиком шкіри до шкіри без перепони."
       },
       "sources": [
@@ -76,6 +76,13 @@
           "ru": "«Тухфат аль-Мухтадж»",
           "es": "Tuḥfat al-Muḥtāj",
           "uk": "«Тухфат аль-Мухтадж»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         }
       ]
     },

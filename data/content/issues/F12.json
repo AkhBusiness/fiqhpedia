@@ -18,7 +18,7 @@
     "uk": "Постанова про піднімання рук при вступному такбірі та його місця в молитві"
   },
   "summary": {
-    "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع الرفع منه وفي هيئة الرفع.",
+    "ar": "اتفق الأئمة على مشروعية رفع اليدين عند تكبيرة الإحرام، واختلفوا في رفعها عند الركوع والرفع منه وفي هيئة الرفع.",
     "en": "Scholars agree on raising hands for Opening Takbeer, but differ regarding bowing, rising, and hand positions.",
     "ru": "Ученые согласны в поднятии рук при начальном такбире, но расходятся во мнениях относительно поясного поклона.",
     "es": "Los imames coinciden en la legitimidad de levantar las manos en el takbir de apertura, y difieren en levantarlas al inclinarse, al incorporarse de la inclinación y en la forma de levantarlas.",
@@ -45,7 +45,7 @@
     },
     "maliki": {
       "text": {
-        "ar": "المعتمد رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
+        "ar": "رفع اليدين حذو المنكبين عند تكبيرة الإحرام فقط، ويكره رفعها في بقية الخفض والرفع.",
         "en": "Relied view is raising hands to shoulder level only during the opening Takbeer; disliked elsewhere.",
         "ru": "Согласно мазхабу, руки поднимаются до уровня плеч только при начальном такбире; в остальном не рекомендуется.",
         "es": "La postura acreditada es levantar las manos a la altura de los hombros solo en el takbir de apertura, y es desaconsejable levantarlas en el resto de los descensos y ascensos.",
@@ -58,6 +58,13 @@
           "ru": "«Аш-Шарх аль-Кабир»",
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },

@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "الماء المستعمل في طهارة مستحبة كتجديد الوضوء وغسل الجمعة يصير طاهراً لا يرفع الحدث.",
-        "en": "Water used in a recommended purification, such as renewing wudu or the Friday bath, becomes pure but no longer removes hadath.",
-        "ru": "Вода, использованная в желательном очищении — обновлении омовения или пятничном гусле, — становится чистой, но хадас уже не устраняет.",
-        "es": "El agua usada en una purificación recomendada, como renovar el wudu o el baño del viernes, queda pura pero ya no elimina el hadath.",
-        "uk": "Вода, використана в бажаному очищенні, як оновлення омовіння та п'ятничне обмивання, стає чистою, що не знімає хадасу."
+        "ar": "الماء المستعمل في طهارة مستحبة كتجديد الوضوء وغسل الجمعة طهور يرفع الحدث، مع كراهة استعماله.",
+        "en": "Water used in a recommended purification, such as renewing the ablution or the Friday bath, remains purifying and lifts ritual impurity, though its use is disliked.",
+        "ru": "Вода, использованная в желательном очищении — как обновление омовения или пятничное полное омовение, — остаётся очищающей и снимает хадас, хотя её использование нежелательно.",
+        "es": "El agua usada en una purificación recomendada, como renovar la ablución o el baño del viernes, sigue siendo purificante y levanta la impureza ritual, aunque su uso es reprobable.",
+        "uk": "Вода, використана в бажаному очищенні — як оновлення омовіння чи п'ятничне обмивання, — залишається очищувальною і знімає хадас, хоча її використання небажане."
       },
       "sources": [
         {

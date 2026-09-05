@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "عورتها جميع بدنها إلا الوجه والكفّين، وكشف القدمين أو الشعر لا يبطل الصلاة وتُعاد في الوقت.",
-        "en": "Her awrah is her whole body except the face and the hands; uncovering the feet or the hair does not invalidate the prayer, though it is repeated within its time.",
-        "ru": "Её аурат — всё тело, кроме лица и кистей; открытие ступней или волос не делает молитву недействительной, но её повторяют в пределах времени.",
-        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos; descubrir los pies o el cabello no invalida la oración, aunque se repite dentro de su tiempo.",
-        "uk": "Її аврат — усе тіло, крім обличчя і кистей; відкриття стоп або волосся не робить молитву недійсною, але її повторюють у межах часу."
+        "ar": "عورتها جميع بدنها إلا الوجه والكفّين، وكشف القدمين أو الشعر لا يبطل الصلاة وتُعاد في الوقت لأنهما من العورة المخفّفة.",
+        "en": "Her awrah is her whole body except the face and the hands; uncovering the feet or the hair does not invalidate the prayer, though it is repeated within its time because they are part of the lighter ʿawrah.",
+        "ru": "Её аурат — всё тело, кроме лица и кистей; открытие ступней или волос не делает молитву недействительной, но её повторяют в пределах времени поскольку они относятся к облегчённой авре.",
+        "es": "Su awrah es todo su cuerpo salvo el rostro y las manos; descubrir los pies o el cabello no invalida la oración, aunque se repite dentro de su tiempo porque forman parte de la ʿawrah leve.",
+        "uk": "Її аврат — усе тіло, крім обличчя і кистей; відкриття стоп або волосся не робить молитву недійсною, але її повторюють у межах часу оскільки вони належать до полегшеної аври."
       },
       "sources": [
         {
@@ -95,7 +95,7 @@
         "en": "Her awrah is her whole body except the face and the hands, their backs and palms alike, up to the wrists.",
         "ru": "Её аурат — всё тело, кроме лица и кистей, с тыльной и внутренней стороны, до запястий.",
         "es": "Su awrah es todo su cuerpo salvo el rostro y las manos, dorso y palma por igual, hasta las muñecas.",
-        "uk": "Її аврат — усе тіло, крім обличчя і кистей, із зовнішнього та внутрішнього боку, до зап'ястків."
+        "uk": "Її аврат — усе тіло, крім обличчя і кистей, із зовнішнього та внутрішнього боку, до зап'ястя."
       },
       "sources": [
         {

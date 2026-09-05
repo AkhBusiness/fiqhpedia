@@ -1,157 +1,157 @@
 {
- "ref": "F50",
- "id": "sawm-2",
- "bookId": "sawm",
- "seq": 4,
- "chapter": {
-  "ar": "وجوب الصيام ورؤية الهلال",
-  "en": "The Obligation of Fasting and Sighting the Crescent",
-  "ru": "Обязательность поста и наблюдение полумесяца",
-  "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
-  "uk": "Обов'язковість посту та спостереження півмісяця"
- },
- "title": {
-  "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
-  "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
-  "ru": "Постановление о различении мест восхода полумесяца и всеобщей видимости для разных стран",
-  "es": "Norma sobre la diferencia de los lugares de salida de la luna y la generalización del avistamiento en los países",
-  "uk": "Постанова про різницю місць сходження півмісяця та загальність видимості в країнах"
- },
- "summary": {
-  "ar": "هل يلزم أهل بلد الصيام برؤية الهلال في بلد آخر إذا اختلفت مطالعهم، أم لكل بلد حكمهم؟",
-  "en": "Must the people of one country fast upon the sighting of the crescent in another country if their moonrise locations differ, or does each country have its own ruling?",
-  "ru": "Обязаны ли жители одной страны соблюдать пост при появлении полумесяца в другой стране, если места их восхода различаются, или у каждой страны свое постановление?",
-  "es": "¿Deben los habitantes de un país ayunar al avistarse la media luna de Ramadán en otro país si sus lugares de salida difieren, o cada país tiene su propia norma?",
-  "uk": "Чи зобов'язані жителі однієї країни дотримуватися посту при появі півмісяця в іншій країні, якщо місця їх сходу відрізняються, чи кожна країна має свою постанову?"
- },
- "rulings": {
-  "hanafi": {
-   "text": {
-    "ar": "لا اعتبار باختلاف المطالع، فإذا ثبتت رؤية الهلال بطريق شرعي في أي بلد لزم الصوم والإفطار سائر البلدان والأقطار دون اشتراط التقارب.",
-    "en": "The difference in moonrise locations is not taken into account; if the crescent is proven in any country, it applies to all countries regardless of distance.",
-    "ru": "Различие мест восхода не принимается во внимание; если полумесяц подтвержден в любой стране, это обязательно для всех остальных стран.",
-    "es": "La diferencia en los lugares de salida no se toma en cuenta; si se prueba la media luna en cualquier país, se aplica a todos los demás países.",
-    "uk": "Різниця місць сходу не береться до уваги; якщо півмісяць підтверджено в будь-якій країні, це обов'язково для всіх інших країн."
-   },
-   "sources": [
-    {
-     "ar": "الهداية",
-     "en": "Al-Hidāyah",
-     "ru": "«Аль-Хидая»",
-     "es": "Al-Hidāyah",
-     "uk": "«Аль-Хідая»"
-    },
-    {
-     "ar": "رد المحتار",
-     "en": "Radd al-Muḥtār",
-     "ru": "«Радд аль-Мухтар»",
-     "es": "Radd al-Muḥtār",
-     "uk": "«Радд аль-Мухтар»"
-    },
-    {
-     "ar": "تبيين الحقائق",
-     "en": "Tabyīn al-Ḥaqāʾiq",
-     "ru": "«Табйин аль-Хакаик»",
-     "es": "Tabyīn al-Ḥaqāʾiq",
-     "uk": "«Табйін аль-Хакаїк»"
-    }
-   ]
+  "ref": "F50",
+  "id": "sawm-2",
+  "bookId": "sawm",
+  "seq": 4,
+  "chapter": {
+    "ar": "وجوب الصيام ورؤية الهلال",
+    "en": "The Obligation of Fasting and Sighting the Crescent",
+    "ru": "Обязательность поста и наблюдение полумесяца",
+    "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+    "uk": "Обов'язковість посту та спостереження молодика"
   },
-  "maliki": {
-   "text": {
-    "ar": "لا يثبت صيام أهل بلد برؤية بلد آخر إذا بعد ما بينهما بحيث يختلف المطلع، وأما إذا تقارب البلدان فالرؤية لأحدهما رؤية للآخر.",
-    "en": "Fasting is not established for the people of a country by the sighting of another if the distance between them is far such that moonrises differ; if close, sighting for one is for the other.",
-    "ru": "Пост жителей одной страны не устанавливается по видимости в другой при большом расстоянии между ними; если они близки, то видимость для одного распространяется на другого.",
-    "es": "El ayuno de un país no se establece por el avistamiento de otro si la distancia es lejana de modo que los lugares de salida difieren; si están cerca, el avistamiento de uno vale para el otro.",
-    "uk": "Піст жителів однієї країни не встановлюється за видимістю в іншій при великій відстані між ними; якщо вони близькі, видимість для одного поширюється на іншого."
-   },
-   "sources": [
-    {
-     "ar": "المدونة",
-     "en": "Al-Mudawwanah",
-     "ru": "«Аль-Мудаввана»",
-     "es": "Al-Mudawwanah",
-     "uk": "«Аль-Мудаввана»"
-    },
-    {
-     "ar": "الشرح الكبير",
-     "en": "Al-Sharḥ al-Kabīr",
-     "ru": "«Аш-Шарх аль-Кабир»",
-     "es": "Al-Sharḥ al-Kabīr",
-     "uk": "«Аш-Шарх аль-Кабір»"
-    },
-    {
-     "ar": "مواهب الجليل",
-     "en": "Mawāhib al-Jalīl",
-     "ru": "«Мавахиб аль-Джалиль»",
-     "es": "Mawāhib al-Jalīl",
-     "uk": "«Мавагіб аль-Джаліль»"
-    }
-   ]
+  "title": {
+    "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
+    "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
+    "ru": "Постановление о различении мест восхода полумесяца и всеобщей видимости для разных стран",
+    "es": "Norma sobre la diferencia de los lugares de salida de la luna y la generalización del avistamiento en los países",
+    "uk": "Постанова про різницю місць сходження молодика та загальність видимості в країнах"
   },
-  "shafii": {
-   "text": {
-    "ar": "يُعتبر اختلاف المطالع، فلا يلزم أهل بلد رؤية أهل بلد آخر إذا باعد ما بينهما مسافة القصر أو اختلفت المطالع اختلافاً بيّناً.",
-    "en": "The difference in moonrises matters; the people of one country are not bound by the sighting of another if the distance is vast or moonrises significantly differ.",
-    "ru": "Различие мест восхода учитывается; жителей одной страны не обязывает видимость в другой при большом расстоянии или существенном различии мест восхода.",
-    "es": "Se toma en cuenta la diferencia de los lugares de salida; los habitantes de un país no están obligados por el avistamiento de otro si la distancia es grande.",
-    "uk": "Різниця місць сходу враховується; жителів однієї країни не зобов'язує видимість в іншій при великій відстані або суттєвій різниці місць сходу."
-   },
-   "sources": [
-    {
-     "ar": "الأم",
-     "en": "Al-Umm",
-     "ru": "«Аль-Умм»",
-     "es": "Al-Umm",
-     "uk": "«Аль-Умм»"
-    },
-    {
-     "ar": "منهاج الطالبين",
-     "en": "Minhāj al-Ṭālibīn",
-     "ru": "«Минхадж ат-Талибин»",
-     "es": "Minhāj al-Ṭālibīn",
-     "uk": "«Мінхадж ат-Талібін»"
-    },
-    {
-     "ar": "المجموع",
-     "en": "Al-Majmūʿ",
-     "ru": "«Аль-Маджму»",
-     "es": "Al-Majmūʿ",
-     "uk": "«Аль-Маджму»"
-    }
-   ]
+  "summary": {
+    "ar": "هل يلزم أهل بلد الصيام برؤية الهلال في بلد آخر إذا اختلفت مطالعهم، أم لكل بلد حكمهم؟",
+    "en": "Must the people of one country fast upon the sighting of the crescent in another country if their moonrise locations differ, or does each country have its own ruling?",
+    "ru": "Обязаны ли жители одной страны соблюдать пост при появлении полумесяца в другой стране, если места их восхода различаются, или у каждой страны свое постановление?",
+    "es": "¿Deben los habitantes de un país ayunar al avistarse la media luna de Ramadán en otro país si sus lugares de salida difieren, o cada país tiene su propia norma?",
+    "uk": "Чи зобов'язані жителі однієї країни дотримуватися посту при появі молодика в іншій країні, якщо місця їх сходу відрізняються, чи кожна країна має свою постанову?"
   },
-  "hanbali": {
-   "text": {
-    "ar": "لا يُعتبر اختلاف المطالع، فإذا رُئي الهلال وثبت في بلد لزم صومه جميع المسلمين في سائر البلدان لعموم الخطاب.",
-    "en": "Difference in moonrises is not considered; if the crescent is sighted and proven in one country, fasting becomes obligatory upon all Muslims worldwide due to general address.",
-    "ru": "Различие мест восхода не учитывается; если полумесяц увиден и подтвержден в одной стране, пост обязателен для всех мусульман.",
-    "es": "La diferencia en los lugares de salida no se considera; si la media luna se ve y se prueba en un país, el ayuno es obligatorio para todos los musulmanes.",
-    "uk": "Різниця місць сходу не враховується; якщо півмісяць побачено та підтверджено в одній країні, піст є обов'язковим для всіх мусульман."
-   },
-   "sources": [
-    {
-     "ar": "المغني",
-     "en": "Al-Mughnī",
-     "ru": "«Аль-Мугни»",
-     "es": "Al-Mughnī",
-     "uk": "«Аль-Мугні»"
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا اعتبار باختلاف المطالع، فإذا ثبتت رؤية الهلال بطريق شرعي في أي بلد لزم الصوم والإفطار سائر البلدان والأقطار دون اشتراط التقارب.",
+        "en": "The difference in moonrise locations is not taken into account; if the crescent is proven in any country, it applies to all countries regardless of distance.",
+        "ru": "Различие мест восхода не принимается во внимание; если полумесяц подтвержден в любой стране, это обязательно для всех остальных стран.",
+        "es": "La diferencia en los lugares de salida no se toma en cuenta; si se prueba la media luna en cualquier país, se aplica a todos los demás países.",
+        "uk": "Різниця місць сходу не береться до уваги; якщо молодик підтверджено в будь-якій країні, це обов'язково для всіх інших країн."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
     },
-    {
-     "ar": "الكافي",
-     "en": "Al-Kāfī",
-     "ru": "«Аль-Кафи»",
-     "es": "Al-Kāfī",
-     "uk": "«Аль-Кафі»"
+    "maliki": {
+      "text": {
+        "ar": "لا يثبت صيام أهل بلد برؤية بلد آخر إذا بعد ما بينهما بحيث يختلف المطلع، وأما إذا تقارب البلدان فالرؤية لأحدهما رؤية للآخر.",
+        "en": "Fasting is not established for the people of a country by the sighting of another if the distance between them is far such that moonrises differ; if close, sighting for one is for the other.",
+        "ru": "Пост жителей одной страны не устанавливается по видимости в другой при большом расстоянии между ними; если они близки, то видимость для одного распространяется на другого.",
+        "es": "El ayuno de un país no se establece por el avistamiento de otro si la distancia es lejana de modo que los lugares de salida difieren; si están cerca, el avistamiento de uno vale para el otro.",
+        "uk": "Піст жителів однієї країни не встановлюється за видимістю в іншій при великій відстані між ними; якщо вони близькі, видимість для одного поширюється на іншого."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
     },
-    {
-     "ar": "كشاف القناع",
-     "en": "Kashshāf al-Qināʿ",
-     "ru": "«Кашшаф аль-Кина»",
-     "es": "Kashshāf al-Qināʿ",
-     "uk": "«Кашшаф аль-Кіна»"
+    "shafii": {
+      "text": {
+        "ar": "يُعتبر اختلاف المطالع، فلا يلزم أهل بلد رؤية أهل بلد آخر إذا باعد ما بينهما مسافة القصر أو اختلفت المطالع اختلافاً بيّناً.",
+        "en": "The difference in moonrises matters; the people of one country are not bound by the sighting of another if the distance is vast or moonrises significantly differ.",
+        "ru": "Различие мест восхода учитывается; жителей одной страны не обязывает видимость в другой при большом расстоянии или существенном различии мест восхода.",
+        "es": "Se toma en cuenta la diferencia de los lugares de salida; los habitantes de un país no están obligados por el avistamiento de otro si la distancia es grande.",
+        "uk": "Різниця місць сходу враховується; жителів однієї країни не зобов'язує видимість в іншій при великій відстані або суттєвій різниці місць сходу."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا يُعتبر اختلاف المطالع، فإذا رُئي الهلال وثبت في بلد لزم صومه جميع المسلمين في سائر البلدان لعموم الخطاب.",
+        "en": "Difference in moonrises is not considered; if the crescent is sighted and proven in one country, fasting becomes obligatory upon all Muslims worldwide due to general address.",
+        "ru": "Различие мест восхода не учитывается; если полумесяц увиден и подтвержден в одной стране, пост обязателен для всех мусульман.",
+        "es": "La diferencia en los lugares de salida no se considera; si la media luna se ve y se prueba en un país, el ayuno es obligatorio para todos los musulmanes.",
+        "uk": "Різниця місць сходу не враховується; якщо молодик побачено та підтверджено в одній країні, піст є обов'язковим для всіх мусульман."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
     }
-   ]
   }
- }
 }

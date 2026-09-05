@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى غياب الشفق، وهو البياض عند أبي حنيفة.",
-        "en": "It begins when the sun's disc has set and lasts until the twilight is gone, the twilight being the whiteness according to Abu Hanifa.",
-        "ru": "Начинается с захода солнечного диска и длится до исчезновения зари, а заря — это белизна по мнению Абу Ханифы.",
-        "es": "Comienza cuando el disco solar se ha puesto y dura hasta desaparecer el crepúsculo, que es la blancura según Abu Hanifa.",
-        "uk": "Починається із заходом сонячного диска і триває до зникнення заграви, а заграва — це білість, за Абу Ханіфою."
+        "ar": "يبدأ بغروب قرص الشمس ويمتدّ إلى مغيب الشفق الأحمر.",
+        "en": "It begins with the setting of the sun's disc and extends until the disappearance of the red twilight.",
+        "ru": "Начинается с захода солнечного диска и длится до исчезновения красной зари.",
+        "es": "Comienza con la puesta del disco solar y se extiende hasta la desaparición del crepúsculo rojo.",
+        "uk": "Починається із заходом сонячного диска і триває до зникнення червоної заграви."
       },
       "sources": [
         {

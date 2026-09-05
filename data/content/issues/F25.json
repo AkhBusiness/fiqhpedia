@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يجوز التوضؤ بالماء المسخّن مطلقاً بلا كراهة، إلا المسخّن بالشمس في إناء منطبع فيكره خشية الضرر.",
-        "en": "Ablution with heated water is valid without dislike, except water heated by the sun in a beaten-metal vessel, which is disliked for fear of harm.",
-        "ru": "Омовение нагретой водой действительно без нежелательности, кроме воды, нагретой солнцем в кованом металлическом сосуде: она нежелательна из опасения вреда.",
-        "es": "La ablución con agua calentada es válida sin reparo, salvo la calentada al sol en un recipiente de metal batido, que se detesta por temor al daño.",
-        "uk": "Дозволено омовіння нагрітою водою безумовно, без небажаності, крім нагрітої сонцем у кованому посуді — вона небажана через побоювання шкоди."
+        "ar": "يجوز التوضّؤ بالماء المسخّن مطلقاً بلا كراهة، سواء سُخّن بالنار أو بالشمس.",
+        "en": "Performing the ablution with heated water is permitted without any dislike, whether it was heated by fire or by the sun.",
+        "ru": "Совершать омовение нагретой водой дозволено без всякой нежелательности, была ли она нагрета огнём или солнцем.",
+        "es": "Hacer la ablución con agua calentada está permitido sin reprobación alguna, tanto si se calentó con fuego como con el sol.",
+        "uk": "Здійснювати омовіння нагрітою водою дозволено без жодної небажаності, чи то вона нагріта вогнем, чи сонцем."
       },
       "sources": [
         {

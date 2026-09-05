@@ -1,150 +1,150 @@
 {
- "ref": "F54",
- "id": "taharah-28",
- "bookId": "taharah",
- "seq": 1,
- "chapter": {
-  "ar": "باب فرض الوضوء",
-  "en": "Chapter of the Obligation of Ablution",
-  "ru": "Раздел об обязательности омовения",
-  "es": "Capítulo de la obligatoriedad de la ablución",
-  "uk": "Розділ про обов'язковість омивання"
- },
- "title": {
-  "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
-  "en": "Ruling on Washing the Face and the Ruling on Mouth-rinsing and Sniffing Water with it in Ablution",
-  "ru": "Постановление о мытье лица, а также о полоскании рта и носа при этом при омовении",
-  "es": "Norma sobre lavar la cara y la norma sobre enjuagar la boca y aspirar agua por la nariz en la ablución",
-  "uk": "Постанова про миття обличчя, а також про полоскання рота та носа при цьому під час омивання"
- },
- "summary": {
-  "ar": "هل المضمضة والاستنشاق واجبان مع غسل الوجه في الوضوء أم سنة، وما حدود غسل الوجه؟",
-  "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they sunnah, and what are the boundaries of washing the face?",
-  "ru": "Являются ли полоскание рта и носа обязательными вместе с мытьем лица при омовении или сунной, и каковы границы мытья лица?",
-  "es": "¿Son obligatorios el enjuague bucal y nasal junto con el lavado de la cara en la ablución o son sunnah, y cuáles son los límites de lavar la cara?",
-  "uk": "Чи є полоскання рота та носа обов'язковими разом із миттям обличчя під час омивання чи сунною, і які межі миття обличчя?"
- },
- "rulings": {
-  "hanafi": {
-   "text": {
-    "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنة مؤكدة (ليستا فرضاً)، وحدود الوجه طولاً من منابت الشعر المعتاد إلى أسفل الذقن، وعرضاً ما بين الأذنين.",
-    "en": "Washing the face is an obligation, and mouth-rinsing and sniffing water are an emphasized Sunnah (not obligatory). The facial boundaries lengthwise are from the normal hairline to the bottom of the chin, and widthwise from ear to ear.",
-    "ru": "Мытье лица — обязанность, а полоскание рта и носа — подтвержденная сунна (не обязательны). Границы лица: по длине от обычной линии волос до нижней челюсти, по ширине — между ушами.",
-    "es": "Lavar la cara es una obligación, y el enjuague bucal y nasal son una Sunnah enfatizada (no obligatorios). Los límites de la cara: de largo desde el nacimiento habitual del cabello hasta la barbilla, y de ancho entre las orejas.",
-    "uk": "Миття обличчя — обов'язок, а полоскання рота та носа — підтверджена сунна (не обов'язкові). Межі обличчя: по довжині від звичайної лінії волосся до підборіддя, по ширині — між вухами."
-   },
-   "sources": [
-    {
-     "ar": "الهداية",
-     "en": "Al-Hidāyah",
-     "ru": "«Аль-Хидая»",
-     "es": "Al-Hidāyah",
-     "uk": "«Аль-Хідая»"
-    },
-    {
-     "ar": "رد المحتار",
-     "en": "Radd al-Muḥtār",
-     "ru": "«Радд аль-Мухтар»",
-     "es": "Radd al-Muḥtār",
-     "uk": "«Радд аль-Мухтар»"
-    },
-    {
-     "ar": "تبيين الحقائق",
-     "en": "Tabyīn al-Ḥaqāʾiq",
-     "ru": "«Табйин аль-Хакаик»",
-     "es": "Tabyīn al-Ḥaqāʾiq",
-     "uk": "«Табйін аль-Хакаїк»"
-    }
-   ]
+  "ref": "F54",
+  "id": "taharah-28",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب فرض الوضوء",
+    "en": "Chapter of the Obligation of Ablution",
+    "ru": "Раздел об обязательности омовения",
+    "es": "Capítulo de la obligatoriedad de la ablución",
+    "uk": "Розділ про обов'язковість омивання"
   },
-  "maliki": {
-   "text": {
-    "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنتان من سنن الوضوء وليستا من فرضه، ويجب استيعاب الوجه بالغسل لمرة واحدة.",
-    "en": "Washing the face is an obligation, and mouth-rinsing and sniffing water are two sunnahs of ablution and not part of its obligations. It is obligatory to cover the entire face with water once.",
-    "ru": "Мытье лица — обязанность, а полоскание рта и носа — две сунны омовения, а не его обязанности. Необходимо охватить водой все лицо один раз.",
-    "es": "Lavar la cara es una obligación, y el enjuague bucal y nasal son dos sunnahs de la ablución y no parte de sus obligaciones. Es obligatorio cubrir toda la cara con agua una vez.",
-    "uk": "Миття обличчя — обов'язок, а полоскання рота та носа — дві сунни омивання, а не його обов'язки. Обов'язково покрити водою все обличчя одноразово."
-   },
-   "sources": [
-    {
-     "ar": "المدونة",
-     "en": "Al-Mudawwanah",
-     "ru": "«Аль-Мудаввана»",
-     "es": "Al-Mudawwanah",
-     "uk": "«Аль-Мудаввана»"
-    },
-    {
-     "ar": "الشرح الكبير",
-     "en": "Al-Sharḥ al-Kabīr",
-     "ru": "«Аш-Шарх аль-Кабир»",
-     "es": "Al-Sharḥ al-Kabīr",
-     "uk": "«Аш-Шарх аль-Кабір»"
-    },
-    {
-     "ar": "مواهب الجليل",
-     "en": "Mawāhib al-Jalīl",
-     "ru": "«Мавахиб аль-Джалиль»",
-     "es": "Mawāhib al-Jalīl",
-     "uk": "«Мавагіб аль-Джаліль»"
-    }
-   ]
+  "title": {
+    "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
+    "en": "Ruling on Washing the Face and the Ruling on Mouth-rinsing and Sniffing Water with it in Ablution",
+    "ru": "Постановление о мытье лица, а также о полоскании рта и носа при этом при омовении",
+    "es": "Norma sobre lavar la cara y la norma sobre enjuagar la boca y aspirar agua por la nariz en la ablución",
+    "uk": "Постанова про миття обличчя, а також про полоскання рота та носа при цьому під час омивання"
   },
-  "shafii": {
-   "text": {
-    "ar": "غسل الوجه فرض من فروض الوضوء، والمضمضة والاستنشاق سنتان مستقلتان وليستا من الواجبات في غسل الوجه، ولو تركها صح الوضوء.",
-    "en": "Washing the face is an obligatory pillar of ablution, while mouth-rinsing and sniffing water are two independent sunnahs and not part of the obligations of washing the face; omitting them does not invalidate ablution.",
-    "ru": "Мытье лица — обязательный столп омовения, а полоскание рта и носа — две независимые сунны, а не обязанности при мытье лица; их оставление не делает омовение недействительным.",
-    "es": "Lavar la cara es un pilar obligatorio de la ablución, mientras que el enjuague bucal y nasal son dos sunnahs independientes y no parte de las obligaciones; omitirlos no invalida la ablución.",
-    "uk": "Миття обличчя — обов'язковий стовп омивання, а полоскання рота та носа — дві незалежні сунни, а не обов'язки при митті обличчя; їх залишення не робить омивання недійсним."
-   },
-   "sources": [
-    {
-     "ar": "الأم",
-     "en": "Al-Umm",
-     "ru": "«Аль-Умм»",
-     "es": "Al-Umm",
-     "uk": "«Аль-Умм»"
-    },
-    {
-     "ar": "منهاج الطالبين",
-     "en": "Minhāj al-Ṭālibīn",
-     "ru": "«Минхадж ат-Талибин»",
-     "es": "Minhāj al-Ṭālibīn",
-     "uk": "«Мінхадж ат-Талібін»"
-    },
-    {
-     "ar": "المجموع",
-     "en": "Al-Majmūʿ",
-     "ru": "«Аль-Маджму»",
-     "es": "Al-Majmūʿ",
-     "uk": "«Аль-Маджму»"
-    }
-   ]
+  "summary": {
+    "ar": "هل المضمضة والاستنشاق واجبان مع غسل الوجه في الوضوء أم سنة، وما حدود غسل الوجه؟",
+    "en": "Are mouth-rinsing and sniffing water obligatory along with washing the face in ablution or are they sunnah, and what are the boundaries of washing the face?",
+    "ru": "Являются ли полоскание рта и носа обязательными вместе с мытьем лица при омовении или сунной, и каковы границы мытья лица?",
+    "es": "¿Son obligatorios el enjuague bucal y nasal junto con el lavado de la cara en la ablución o son sunnah, y cuáles son los límites de lavar la cara?",
+    "uk": "Чи є полоскання рота та носа обов'язковими разом із миттям обличчя під час омивання чи сунною, і які межі миття обличчя?"
   },
-  "hanbali": {
-   "text": {
-    "ar": "غسل الوجه ركن من أركان الوضوء، والمضمضة والاستنشاق واجبان في الوضوء والغسل ولا يصح الوضوء بدونهما.",
-    "en": "Washing the face is a pillar of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
-    "ru": "Мытье лица — столп омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
-    "es": "Lavar la cara es un pilar de la ablución, y el enjuague bucal y nasal son obligatorios en la ablución y el ghusl; la ablución no es válida sin ellos.",
-    "uk": "Миття обличчя — стовп омивання, а полоскання рота та носа — обов'язкові дії в омиванні та гуслі, і омивання без них недійсне."
-   },
-   "sources": [
-    {
-     "ar": "المغني",
-     "en": "Al-Mughnī",
-     "ru": "«Аль-Мугни»",
-     "es": "Al-Mughnī",
-     "uk": "«Аль-Мугні»"
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنة مؤكدة في الوضوء وفرض في الغسل، وحدود الوجه طولاً من منابت الشعر المعتاد إلى أسفل الذقن، وعرضاً ما بين الأذنين.",
+        "en": "Washing the face is obligatory; rinsing the mouth and the nose are emphasised sunnah in the ablution and obligatory in the full bath. The face extends lengthwise from the usual hairline to the bottom of the chin, and breadthwise from ear to ear.",
+        "ru": "Мытьё лица является фардом; полоскание рта и носа — подтверждённая сунна в омовении и фард в полном омовении. Границы лица: в длину от обычной линии роста волос до низа подбородка, в ширину — от уха до уха.",
+        "es": "Lavar el rostro es obligatorio; enjuagar la boca y la nariz son sunna enfatizada en la ablución y obligatorios en el baño completo. El rostro se extiende a lo largo desde el nacimiento habitual del cabello hasta la parte baja del mentón, y a lo ancho de oreja a oreja.",
+        "uk": "Миття обличчя є обов'язковим; полоскання рота й носа — підтверджена сунна в омовінні та обов'язок у повному обмиванні. Межі обличчя: у довжину від звичайної лінії росту волосся до низу підборіддя, у ширину — від вуха до вуха."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
     },
-    {
-     "ar": "كشاف القناع",
-     "en": "Kashshāf al-Qināʿ",
-     "ru": "«Кашшаф аль-Кина»",
-     "es": "Kashshāf al-Qināʿ",
-     "uk": "«Кашшаф аль-Кіна»"
+    "maliki": {
+      "text": {
+        "ar": "غسل الوجه فرض، والمضمضة والاستنشاق سنتان من سنن الوضوء وليستا من فرضه، ويجب استيعاب الوجه بالغسل لمرة واحدة.",
+        "en": "Washing the face is an obligation, and mouth-rinsing and sniffing water are two sunnahs of ablution and not part of its obligations. It is obligatory to cover the entire face with water once.",
+        "ru": "Мытье лица — обязанность, а полоскание рта и носа — две сунны омовения, а не его обязанности. Необходимо охватить водой все лицо один раз.",
+        "es": "Lavar la cara es una obligación, y el enjuague bucal y nasal son dos sunnahs de la ablución y no parte de sus obligaciones. Es obligatorio cubrir toda la cara con agua una vez.",
+        "uk": "Миття обличчя — обов'язок, а полоскання рота та носа — дві сунни омивання, а не його обов'язки. Обов'язково покрити водою все обличчя одноразово."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "غسل الوجه فرض من فروض الوضوء، والمضمضة والاستنشاق سنتان مستقلتان وليستا من الواجبات في غسل الوجه، ولو تركها صح الوضوء.",
+        "en": "Washing the face is an obligatory pillar of ablution, while mouth-rinsing and sniffing water are two independent sunnahs and not part of the obligations of washing the face; omitting them does not invalidate ablution.",
+        "ru": "Мытье лица — обязательный столп омовения, а полоскание рта и носа — две независимые сунны, а не обязанности при мытье лица; их оставление не делает омовение недействительным.",
+        "es": "Lavar la cara es un pilar obligatorio de la ablución, mientras que el enjuague bucal y nasal son dos sunnahs independientes y no parte de las obligaciones; omitirlos no invalida la ablución.",
+        "uk": "Миття обличчя — обов'язковий стовп омивання, а полоскання рота та носа — дві незалежні сунни, а не обов'язки при митті обличчя; їх залишення не робить омивання недійсним."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "غسل الوجه ركن من أركان الوضوء، والمضمضة والاستنشاق واجبان في الوضوء والغسل ولا يصح الوضوء بدونهما.",
+        "en": "Washing the face is a pillar of ablution, and mouth-rinsing and sniffing water are obligatory in both ablution and ghusl; ablution is not valid without them.",
+        "ru": "Мытье лица — столп омовения, а полоскание рта и носа — обязательные действия в омовении и гусле, и омовение без них недействительно.",
+        "es": "Lavar la cara es un pilar de la ablución, y el enjuague bucal y nasal son obligatorios en la ablución y el ghusl; la ablución no es válida sin ellos.",
+        "uk": "Миття обличчя — обов'язкова складова омивання, а полоскання рота та носа — обов'язкові дії в омиванні та гуслі, і омивання без них недійсне."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
     }
-   ]
   }
- }
 }

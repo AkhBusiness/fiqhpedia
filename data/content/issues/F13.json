@@ -45,11 +45,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "المشهور والمعتمد سدل اليدين إرسالهما على الجانبين في الفرض، ويكره القبض إلا إذا قصد به الاتباع لا الاستناد.",
-        "en": "The famous relied opinion is Sadl (leaving hands at the sides) in obligatory prayers.",
-        "ru": "Известное мнение — опускание рук вдоль тела (садль) в обязательных молитвах.",
-        "es": "Lo conocido y acreditado es el sadl, dejar caer las manos a los lados en la oración obligatoria; el qabḍ es desaconsejable salvo que se haga por seguimiento de la sunna y no por apoyarse.",
-        "uk": "Відоме й усталене — опускання рук (садль) уздовж тіла в обов'язковій молитві; складання небажане, крім як із наміром наслідування сунни, а не опори."
+        "ar": "سدل اليدين، أي إرسالهما على الجانبين، في صلاة الفرض؛ ويكره القبض فيها إن قصد الاعتماد، ويجوز في النفل.",
+        "en": "The hands are let down, that is, left hanging at the sides, in the obligatory prayer; clasping them in it is disliked if support is intended, and it is permitted in voluntary prayer.",
+        "ru": "Руки опускаются, то есть остаются вдоль тела, в обязательной молитве; складывать их в ней нежелательно, если имеется в виду опора, а в добровольной молитве это дозволено.",
+        "es": "Las manos se dejan caer, es decir, colgando a los lados, en la oración obligatoria; juntarlas en ella es reprobable si se pretende apoyo, y está permitido en la oración voluntaria.",
+        "uk": "Руки опускаються, тобто лишаються вздовж тіла, в обов'язковій молитві; складати їх у ній небажано, якщо мається на увазі опора, а в добровільній молитві це дозволено."
       },
       "sources": [
         {
@@ -58,6 +58,13 @@
           "ru": "«Минах аль-Джалиль»",
           "es": "Minaḥ al-Jalīl",
           "uk": "«Мінах аль-Джаліль»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
         }
       ]
     },

@@ -45,11 +45,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "الأصل التطهير بالماء، والنجاسة تُعفى إذا زالت عينها، ويقوم غير الماء مقامه عند بعضهم في إزالة الأثر.",
-        "en": "The basis is purification with water; impurity is excused once its substance is gone, and for some, other than water may take its place in removing the trace.",
-        "ru": "Основа — очищение водой; нечистота прощается, когда её вещество исчезло, и, по некоторым, не вода может заменить её в удалении следа.",
-        "es": "La base es la purificación con agua; la impureza queda dispensada una vez eliminada su sustancia, y según algunos, lo distinto del agua puede sustituirla en eliminar el rastro.",
-        "uk": "Основа — очищення водою; нечистота прощається, коли зникла її речовина, і, за деякими, не вода може заступити її в усуненні сліду."
+        "ar": "لا تطهر النجاسة إلا بالماء المطلق، فلا يقوم غيره من المائعات مقامه كالمنظفات والسبيرتو وإن أزالت العين والأثر.",
+        "en": "An impurity is not purified except with unmixed water; no other liquid takes its place, such as detergents or spirit, even if they remove the substance and the trace.",
+        "ru": "Нечистота очищается только чистой водой; никакая иная жидкость не заменяет её — ни моющие средства, ни спирт, — даже если они устраняют вещество и след.",
+        "es": "La impureza no se purifica sino con agua absoluta; ningún otro líquido ocupa su lugar, como los detergentes o el alcohol, aunque eliminen la sustancia y el rastro.",
+        "uk": "Нечистота очищується лише чистою водою; жодна інша рідина не заступає її — ні мийні засоби, ні спирт, — навіть якщо вони усувають речовину і слід."
       },
       "sources": [
         {
@@ -58,6 +58,13 @@
           "ru": "«Аш-Шарх аль-Кабир»",
           "es": "Al-Sharḥ al-Kabīr",
           "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
         }
       ]
     },
@@ -81,7 +88,7 @@
     },
     "hanbali": {
       "text": {
-        "ar": "المعتمد أن إزالة النجاسة لا تكون إلا بالماء الطهور، فلا تطهر بالمائعات كالسبيرتو وإن زالت العين.",
+        "ar": "إزالة النجاسة لا تكون إلا بالماء الطهور، فلا تطهر بالمائعات كالسبيرتو وإن زالت العين.",
         "en": "The relied-upon view is that removing impurity is only by purifying water; it is not purified by liquids such as spirit even if the substance is gone.",
         "ru": "Утверждённое мнение: удаление нечистоты только очищающей водой; она не очищается жидкостями, как спирт, даже если вещество исчезло.",
         "es": "La postura acreditada es que la eliminación de la impureza solo se hace con agua purificante; no se purifica con líquidos como el alcohol aunque desaparezca la sustancia.",
@@ -94,6 +101,13 @@
           "ru": "«Кашшаф аль-Кина»",
           "es": "Kashshāf al-Qināʿ",
           "uk": "«Кашшаф аль-Кіна»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
         }
       ]
     }

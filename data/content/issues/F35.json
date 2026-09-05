@@ -31,7 +31,7 @@
         "en": "When tahur water cannot be told from impure water, one weighs the signs for purification and drinking if the greater part is pure; if the two are equal, one performs tayammum.",
         "ru": "Если вода тахур неотличима от нечистой, взвешивают признаки для очищения и питья, когда большая часть чиста; при равенстве совершают таяммум.",
         "es": "Si el agua tahur no se distingue de la impura, se sopesan los indicios para purificarse y beber cuando la mayor parte es pura; si se igualan, se hace el tayammum.",
-        "uk": "Якщо очищувальна вода не відрізняється від нечистої, зважують ознаки для очищення та пиття, коли більшість чиста; якщо ж порівну — роблять таяммум."
+        "uk": "Якщо очищувальна вода не відрізняється від нечистої, шукають переважне припущення для очищення та пиття, коли більшість чиста; якщо ж порівну — роблять таяммум."
       },
       "sources": [
         {
@@ -63,7 +63,7 @@
         "en": "One may perform wudu from whichever of the two vessels he wishes when they cannot be told apart, so long as neither has been altered by an impurity, and weighing the signs is not required of him.",
         "ru": "При неразличимости можно совершить омовение из любого из двух сосудов, если ни один не изменён нечистотой, и взвешивать признаки не обязательно.",
         "es": "Ante la confusión puede hacer el wudu con cualquiera de los dos recipientes, mientras ninguno haya sido alterado por una impureza, y no se le exige sopesar los indicios.",
-        "uk": "За нерозрізнення роблять омовіння з будь-якої з двох посудин, якщо жодна не змінена нечистотою, і зважувати ознаки не обов'язково."
+        "uk": "За нерозрізнення роблять омовіння з будь-якої з двох посудин, якщо жодна не змінена нечистотою, і шукати переважне припущення не обов'язково."
       },
       "sources": [
         {
@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يلزمه اجتناب الإناءين المشتبهين ويحرم التحرّي فيهما، فيتيمّم بعد إراقتهما أو خلطهما.",
-        "en": "One must avoid both indistinguishable vessels, and weighing the signs between them is forbidden; he performs tayammum after pouring them away or mixing them.",
-        "ru": "Следует избегать обоих неразличимых сосудов, взвешивать признаки между ними запрещено; таяммум совершают после того, как их вылили или смешали.",
-        "es": "Debe evitar ambos recipientes indistinguibles, y sopesar los indicios entre ellos está prohibido; hace el tayammum tras verterlos o mezclarlos.",
-        "uk": "Належить уникати обох нерозрізнюваних посудин, а зважувати ознаки між ними заборонено; таяммум роблять після того, як їх вилили або змішали."
+        "ar": "يلزمه اجتناب الإناءين المشتبهين ويحرم التحرّي فيهما، فيتيمّم ولا تُشترط إراقتهما ولا خلطهما؛ فإن بلغ الطهور قلّتين وأمكن خلطهما في إناء يسعهما وجب الخلط والاستعمال.",
+        "en": "He must avoid the two indistinguishable vessels and may not weigh probabilities between them, so he performs tayammum, and neither pouring them out nor mixing them is a condition; but if the pure water reaches two qullas and they can be mixed in a vessel that holds them, mixing and using it becomes obligatory.",
+        "ru": "Он обязан избегать обоих неразличимых сосудов, и взвешивать вероятности между ними запрещено, поэтому он совершает таяммум; ни выливание их, ни смешивание не является условием. Но если чистая вода достигает двух кулл и их можно смешать в вмещающем сосуде, смешивание и использование становятся обязательными.",
+        "es": "Debe evitar los dos recipientes indistinguibles y le está prohibido sopesar probabilidades entre ellos, así que hace tayammum, y no es condición ni verterlos ni mezclarlos; pero si el agua pura alcanza dos qullas y pueden mezclarse en un recipiente que las contenga, mezclar y usarla se vuelve obligatorio.",
+        "uk": "Він мусить уникати обох нерозрізнюваних посудин, і зважувати ймовірності між ними заборонено, тож він робить таяммум; ні виливання їх, ні змішування не є умовою. Але якщо чиста вода сягає двох кулл і їх можна змішати в посудині, що їх вміщує, змішування та використання стають обов'язковими."
       },
       "sources": [
         {

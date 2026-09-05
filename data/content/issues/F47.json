@@ -63,7 +63,7 @@
         "en": "One who sees it must face it exactly, and the distant must face its direction; his prayer is not void by a slight turn to right or left.",
         "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; его молитва не пропадает от лёгкого отклонения вправо или влево.",
         "es": "Quien la ve debe orientarse exactamente a ella, y el lejano a su dirección; su oración no se anula por una leve desviación a un lado.",
-        "uk": "Той, хто бачить, має спрямовуватися точно на неї, а далекий — у її бік; його молитва не пропадає від легкого відхилення вбік."
+        "uk": "Той, хто бачить, має спрямовуватися точно на неї, а далекий — у її бік; його молитва не стає недійсною від легкого відхилення вбік."
       },
       "sources": [
         {
@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يفرض على المعاين إصابة عينها وعلى البعيد جهتها، ولا تبطل بالانحراف اليسير لحديث «ما بين المشرق والمغرب قبلة».",
-        "en": "One who sees it must face it exactly and one far away its direction; a slight deviation does not void the prayer, on the hadith «What lies between east and west is a qibla».",
-        "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; лёгкое отклонение молитву не аннулирует, по хадису «Что между востоком и западом — кибла».",
-        "es": "Quien la ve debe orientarse exactamente y el lejano a su dirección; una leve desviación no anula la oración, por el hadiz «Lo que hay entre el oriente y el occidente es alquibla».",
-        "uk": "Той, хто бачить, має спрямовуватися точно, а далекий — у її бік; легке відхилення молитву не анулює, за хадисом «Те, що між сходом і заходом, — кибла»."
+        "ar": "يفرض على المعاين إصابة عينها وعلى البعيد جهتها، ولا تبطل بالانحراف اليسير لحديث «ما بين المشرق والمغرب قبلة» — أي أن ما بين طرفي الجهة مجزئ لمن كانت قبلته بينهما، فيُعتبر في كل بلد بحسب جهة قبلته — أي أن ما بين طرفي الجهة مجزئ لمن كانت قبلته بينهما، فيُعتبر في كل بلد بحسب جهة قبلته.",
+        "en": "One who sees it must face it exactly and one far away its direction; a slight deviation does not void the prayer, on the hadith «What lies between east and west is a qibla» — meaning that what lies between the two edges of the direction suffices for one whose qibla falls between them, so it is reckoned in each land according to the direction of its qibla.",
+        "ru": "Видящий обязан направляться точно на неё, а дальний — в её сторону; лёгкое отклонение молитву не аннулирует, по хадису «Что между востоком и западом — кибла» — то есть находящееся между краями стороны достаточно для того, чья кибла лежит между ними, и это учитывается в каждой стране по направлению её киблы.",
+        "es": "Quien la ve debe orientarse exactamente y el lejano a su dirección; una leve desviación no anula la oración, por el hadiz «Lo que hay entre el oriente y el occidente es alquibla» — es decir, lo que está entre los dos extremos de la dirección basta para quien tiene su alquibla entre ellos, y se considera en cada país según la dirección de su alquibla.",
+        "uk": "Той, хто бачить, має спрямовуватися точно, а далекий — у її бік; легке відхилення молитву не робить її недійсною, за хадисом «Те, що між сходом і заходом, — кибла» — тобто те, що лежить між краями сторони, достатнє для того, чия кибла лежить між ними, і це враховується в кожній країні за напрямком її кибли."
       },
       "sources": [
         {

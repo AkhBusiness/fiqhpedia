@@ -1,157 +1,157 @@
 {
- "ref": "F53",
- "id": "sawm-5",
- "bookId": "sawm",
- "seq": 1,
- "chapter": {
-  "ar": "أركان الصيام وشروطه",
-  "en": "The Pillars and Conditions of Fasting",
-  "ru": "Столпы и условия поста",
-  "es": "Los pilares y condiciones del ayuno",
-  "uk": "Стовпи та умови посту"
- },
- "title": {
-  "ar": "حكم اشتراط تبييت النية من الليل لصوم رمضان",
-  "en": "Ruling on the Condition of Intending Fasting Ramadan from the Night Before",
-  "ru": "Постановление об условии намерения поститься в Рамадан с ночи",
-  "es": "Norma sobre la condición de la intención de ayunar Ramadán desde la noche anterior",
-  "uk": "Постанова про умову наміру постити в Рамадан з ночі"
- },
- "summary": {
-  "ar": "هل يشترط تبييت النية لكل يوم من أيام رمضان من الليل أم يكفي نية واحدة في أوله؟",
-  "en": "Is it required to form the intention from the night for each day of Ramadan, or is a single intention at the beginning sufficient?",
-  "ru": "Требуется ли ночное намерение на каждый день Рамадана, или достаточно одного намерения в начале?",
-  "es": "¿Se requiere formar la intención desde la noche para cada día de Ramadán, o basta con una sola intención al principio?",
-  "uk": "Чи вимагається нічний намір на кожен день Рамадану, чи достатньо одного наміру на початку?"
- },
- "rulings": {
-  "hanafi": {
-   "text": {
-    "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
-    "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-day for Ramadan, voluntary fasts, and specific duties.",
-    "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днем до зенита для Рамадана, добровольного поста и определённой обязанности.",
-    "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes del mediodía para Ramadán, ayuno voluntario y deber específico.",
-    "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до зеніту для Рамадану, добровільного посту та визначеного обов'язку."
-   },
-   "sources": [
-    {
-     "ar": "الهداية",
-     "en": "Al-Hidāyah",
-     "ru": "«Аль-Хидая»",
-     "es": "Al-Hidāyah",
-     "uk": "«Аль-Хідая»"
-    },
-    {
-     "ar": "رد المحتار",
-     "en": "Radd al-Muḥtār",
-     "ru": "«Радд аль-Мухтар»",
-     "es": "Radd al-Muḥtār",
-     "uk": "«Радд аль-Мухтар»"
-    },
-    {
-     "ar": "تبيين الحقائق",
-     "en": "Tabyīn al-Ḥaqāʾiq",
-     "ru": "«Табйин аль-Хакаик»",
-     "es": "Tabyīn al-Ḥaqāʾiq",
-     "uk": "«Табйін аль-Хакаїк»"
-    }
-   ]
+  "ref": "F53",
+  "id": "sawm-5",
+  "bookId": "sawm",
+  "seq": 1,
+  "chapter": {
+    "ar": "أركان الصيام وشروطه",
+    "en": "The Pillars and Conditions of Fasting",
+    "ru": "Столпы и условия поста",
+    "es": "Los pilares y condiciones del ayuno",
+    "uk": "Стовпи та умови посту"
   },
-  "maliki": {
-   "text": {
-    "ar": "تكفي نية واحدة في أول شهر رمضان لكل أداء يجب تتابعه، ولا يجب تبييت النية لكل ليلة على حدة إلا إن انقطع الصوم بمرض أو سفر فتجب إعادة النية.",
-    "en": "A single intention at the beginning of Ramadan is sufficient for all consecutive days, and a nightly intention for each night is not required unless interrupted by illness or travel.",
-    "ru": "Одного намерения в начале месяца Рамадан достаточно для всех непрерывных дней, и ночное намерение на каждую ночь не требуется, если пост не прерывался болезнью или путешествием.",
-    "es": "Una sola intención al principio de Ramadán es suficiente para todos los días consecutivos, y no se requiere la intención nocturna para cada noche a menos que se interrumpa por enfermedad o viaje.",
-    "uk": "Одного наміру на початку місяця Рамадан достатньо для всіх безперервних днів, і нічний намір на кожну ніч не вимагається, якщо піст не переривався хворобою чи подорожжю."
-   },
-   "sources": [
-    {
-     "ar": "المدونة",
-     "en": "Al-Mudawwanah",
-     "ru": "«Аль-Мудаввана»",
-     "es": "Al-Mudawwanah",
-     "uk": "«Аль-Мудаввана»"
-    },
-    {
-     "ar": "الشرح الكبير",
-     "en": "Al-Sharḥ al-Kabīr",
-     "ru": "«Аш-Шарх аль-Кабир»",
-     "es": "Al-Sharḥ al-Kabīr",
-     "uk": "«Аш-Шарх аль-Кабір»"
-    },
-    {
-     "ar": "مواهب الجليل",
-     "en": "Mawāhib al-Jalīl",
-     "ru": "«Мавахиб аль-Джалиль»",
-     "es": "Mawāhib al-Jalīl",
-     "uk": "«Мавагіб аль-Джаліль»"
-    }
-   ]
+  "title": {
+    "ar": "حكم اشتراط تبييت النية من الليل لصوم رمضان",
+    "en": "Ruling on the Condition of Intending Fasting Ramadan from the Night Before",
+    "ru": "Постановление об условии намерения поститься в Рамадан с ночи",
+    "es": "Norma sobre la condición de la intención de ayunar Ramadán desde la noche anterior",
+    "uk": "Постанова про умову наміру постити в Рамадан з ночі"
   },
-  "shafii": {
-   "text": {
-    "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يبيّت الصيام قبل الفجر فلا صيام له».",
-    "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr.",
-    "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра.",
-    "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr.",
-    "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру."
-   },
-   "sources": [
-    {
-     "ar": "الأم",
-     "en": "Al-Umm",
-     "ru": "«Аль-Умм»",
-     "es": "Al-Umm",
-     "uk": "«Аль-Умм»"
-    },
-    {
-     "ar": "منهاج الطالبين",
-     "en": "Minhāj al-Ṭālibīn",
-     "ru": "«Минхадж ат-Талибин»",
-     "es": "Minhāj al-Ṭālibīn",
-     "uk": "«Мінхадж ат-Талібін»"
-    },
-    {
-     "ar": "المجموع",
-     "en": "Al-Majmūʿ",
-     "ru": "«Аль-Маджму»",
-     "es": "Al-Majmūʿ",
-     "uk": "«Аль-Маджму»"
-    }
-   ]
+  "summary": {
+    "ar": "هل يشترط تبييت النية لكل يوم من أيام رمضان من الليل أم يكفي نية واحدة في أوله؟",
+    "en": "Is it required to form the intention from the night for each day of Ramadan, or is a single intention at the beginning sufficient?",
+    "ru": "Требуется ли ночное намерение на каждый день Рамадана, или достаточно одного намерения в начале?",
+    "es": "¿Se requiere formar la intención desde la noche para cada día de Ramadán, o basta con una sola intención al principio?",
+    "uk": "Чи вимагається нічний намір на кожен день Рамадану, чи достатньо одного наміру на початку?"
   },
-  "hanbali": {
-   "text": {
-    "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، ولا يصح الصيام الواجب إلا بالنية قبل طلوع الفجر لكل يوم على حدة.",
-    "en": "Forming the intention from the night is obligatory for each day of Ramadan, and obligatory fasting is not valid except with an intention before the break of dawn for each day separately.",
-    "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
-    "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
-    "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
-   },
-   "sources": [
-    {
-     "ar": "المغني",
-     "en": "Al-Mughnī",
-     "ru": "«Аль-Мугни»",
-     "es": "Al-Mughnī",
-     "uk": "«Аль-Мугні»"
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا يشترط التبييت في كل يوم من رمضان، بل يصح الصيام بنية من الليل أو النهار قبل الضحوة الكبرى لصوم رمضان والنفل والواجب المعين.",
+        "en": "Nightly intention is not required for each day of Ramadan; rather, fasting is valid with an intention from the night or day before mid-day for Ramadan, voluntary fasts, and specific duties.",
+        "ru": "Ночное намерение не обязательно на каждый день Рамадана, пост действителен с намерением с ночи или днем до зенита для Рамадана, добровольного поста и определённой обязанности.",
+        "es": "No se requiere la intención nocturna para cada día de Ramadán; el ayuno es válido con la intención desde la noche o el día antes del mediodía para Ramadán, ayuno voluntario y deber específico.",
+        "uk": "Нічний намір не обов'язковий на кожен день Рамадану, піст дійсний з наміром з ночі або вдень до великої духи — приблизно до середини між сходом сонця та зенітом для Рамадану, добровільного посту та визначеного обов'язку."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
     },
-    {
-     "ar": "الكافي",
-     "en": "Al-Kāfī",
-     "ru": "«Аль-Кафи»",
-     "es": "Al-Kāfī",
-     "uk": "«Аль-Кафі»"
+    "maliki": {
+      "text": {
+        "ar": "تكفي نية واحدة في أول شهر رمضان لكل أداء يجب تتابعه، ولا يجب تبييت النية لكل ليلة على حدة إلا إن انقطع الصوم بمرض أو سفر فتجب إعادة النية.",
+        "en": "A single intention at the beginning of Ramadan is sufficient for all consecutive days, and a nightly intention for each night is not required unless interrupted by illness or travel.",
+        "ru": "Одного намерения в начале месяца Рамадан достаточно для всех непрерывных дней, и ночное намерение на каждую ночь не требуется, если пост не прерывался болезнью или путешествием.",
+        "es": "Una sola intención al principio de Ramadán es suficiente para todos los días consecutivos, y no se requiere la intención nocturna para cada noche a menos que se interrumpa por enfermedad o viaje.",
+        "uk": "Одного наміру на початку місяця Рамадан достатньо для всіх безперервних днів, і нічний намір на кожну ніч не вимагається, якщо піст не переривався хворобою чи подорожжю."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
     },
-    {
-     "ar": "كشاف القناع",
-     "en": "Kashshāf al-Qināʿ",
-     "ru": "«Кашшаф аль-Кина»",
-     "es": "Kashshāf al-Qināʿ",
-     "uk": "«Кашшаф аль-Кіна»"
+    "shafii": {
+      "text": {
+        "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، وتعيينها، ولا يصح الصيام الفرض إلا بالنية قبل الفجر لقوله ﷺ: «من لم يُجمِع الصيام قبل الفجر فلا صيام له».",
+        "en": "Forming the intention from the night is obligatory for every day of Ramadan, along with specification, and obligatory fasting is only valid with intention before Fajr.",
+        "ru": "Ночное намерение обязательно на каждый день Рамадана с его конкретизацией, и обязательный пост действителен только с намерением до фаджра.",
+        "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán y especificarla; el ayuno obligatorio solo es válido con la intención antes del Fajr.",
+        "uk": "Нічний намір обов'язковий на кожен день Рамадану з його конкретизацією, і обов'язковий піст дійсний лише з наміром до фаджру."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يجب تبييت النية من الليل لكل يوم من أيام رمضان، ولا يصح الصيام الواجب إلا بالنية قبل طلوع الفجر لكل يوم على حدة.",
+        "en": "Forming the intention from the night is obligatory for each day of Ramadan, and obligatory fasting is not valid except with an intention before the break of dawn for each day separately.",
+        "ru": "Ночное намерение обязательно на каждый день Рамадана, и обязательный пост недействителен без намерения до наступления рассвета на каждый день отдельно.",
+        "es": "Es obligatorio formar la intención desde la noche para cada día de Ramadán, y el ayuno obligatorio no es válido sino con la intención antes del alba para cada día por separado.",
+        "uk": "Нічний намір обов'язковий на кожен день Рамадану, і обов'язковий піст недійсний без наміру до настання світанку на кожен день окремо."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
     }
-   ]
   }
- }
 }

@@ -15,7 +15,7 @@
     "en": "Is uttering the shahada a condition for the validity of Islam or a pillar, and what of one who believes in his heart without uttering it?",
     "ru": "Является ли произнесение шахады условием действительности ислама или его столпом, и как быть с уверовавшим сердцем без произнесения?",
     "es": "¿Es pronunciar la shahada una condición para la validez del islam o un pilar, y qué ocurre con quien cree en su corazón sin pronunciarla?",
-    "uk": "Чи є промовляння двох свідчень умовою дійсності ісламу чи його стовпом, і як бути з тим, хто увірував серцем без промовляння?"
+    "uk": "Чи є промовляння двох свідчень умовою дійсності ісламу чи його обов'язковою складовою, і як бути з тим, хто увірував серцем без промовляння?"
   },
   "rulings": {
     "hanafi": {
@@ -56,11 +56,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "النطق بالشهادتين ركن وشرط أساسي لجريان أحكام الإسلام ظاهراً وباطناً.",
-        "en": "Uttering the two testimonies is a pillar and an essential condition for the operation of Islam's rulings both outwardly and inwardly.",
-        "ru": "Произнесение шахады — столп и основное условие действия норм ислама внешне и внутренне.",
-        "es": "Pronunciar los dos testimonios es un pilar y una condición esencial para que rijan las normas del islam, exterior e interiormente.",
-        "uk": "Промовляння двох свідчень — стовп і основна умова чинності норм ісламу зовні та всередині."
+        "ar": "حقيقة الإيمان التصديق بالقلب، والنطق بالشهادتين شرط لجريان أحكام الإسلام في الظاهر، فلا يُحكم بإسلام القادر عليه ما لم ينطق.",
+        "en": "The reality of faith is assent in the heart, and uttering the two testimonies is a condition for the outward application of the rulings of Islam; so one capable of uttering it is not judged a Muslim until he does.",
+        "ru": "Сущность веры — принятие сердцем, а произнесение двух свидетельств является условием применения норм ислама во внешнем; поэтому способный произнести их не признаётся мусульманином, пока не произнесёт.",
+        "es": "La realidad de la fe es el asentimiento del corazón, y pronunciar los dos testimonios es condición para la aplicación externa de las normas del islam; por eso quien es capaz de pronunciarlos no es juzgado musulmán hasta que lo haga.",
+        "uk": "Суть віри — прийняття серцем, а промовляння двох свідчень є умовою застосування норм ісламу у зовнішньому; тому спроможний промовити їх не визнається мусульманином, доки не промовить."
       },
       "sources": [
         {
@@ -69,6 +69,13 @@
           "ru": "«Тухфат аль-Мухтадж»",
           "es": "Tuḥfat al-Muḥtāj",
           "uk": "«Тухфат аль-Мухтадж»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
         }
       ]
     },

@@ -54,6 +54,10 @@ PLACEHOLDERS = re.compile(
 # رموز برمجية بالأحرف الكبيرة فقط: «todo» كلمة إسبانية عادية (= كل).
 PLACEHOLDER_TOKENS = re.compile(r"\b(TODO|TBD|FIXME|XXX)\b")
 
+# حروف لاتينية وتركية تشبه السيريلية رسماً وتختلف عنها ترميزاً.
+CYRILLIC = re.compile(r"[\u0400-\u04FF]")
+LATIN_LOOKALIKE = re.compile(r"[A-Za-z\u0131]")
+
 # Scripts we expect per language, to catch a translation pasted into the
 # wrong slot (e.g. Arabic text sitting in the "en" field).
 SCRIPT_RANGES = {
@@ -96,6 +100,12 @@ def check_localized(obj, where, *, required=True, allow_pending_wording=False):
             continue
         if "\ufffd" in val:
             err(f"{where}.{lang}: contains corrupted character (U+FFFD) — {val[:50]}")
+        if lang in ("ru", "uk"):
+            # A Latin or Turkish look-alike inside a Cyrillic word (а/a, і/i, і/ı).
+            # The eye cannot see it, but it silently breaks search and sorting.
+            for word in val.split():
+                if CYRILLIC.search(word) and LATIN_LOOKALIKE.search(word):
+                    err(f"{where}.{lang}: Latin look-alike inside a Cyrillic word — {word}")
         if not allow_pending_wording and (PLACEHOLDERS.search(val) or PLACEHOLDER_TOKENS.search(val)):
             err(f"{where}.{lang}: contains placeholder text — {val[:50]}")
         if val != val.strip():

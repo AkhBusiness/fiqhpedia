@@ -63,11 +63,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يحرم استعمالها في الطهارة وغيرها، وتصح الطهارة بها مع الحرمة على المعتمد.",
-        "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition per the relied-upon view.",
+        "ar": "يحرم استعمالها في الطهارة وغيرها، وتصح الطهارة بها مع الحرمة.",
+        "en": "Using them for purification and otherwise is forbidden, yet purification with them is valid despite the prohibition.",
         "ru": "Их использование для очищения и иного запретно, но очищение ими действительно, несмотря на запрет, по утверждённому мнению.",
         "es": "Está prohibido usarlos para la purificación y para otros fines, y la purificación con ellos es válida pese a la prohibición, según la postura acreditada.",
-        "uk": "Їх використання для очищення та іншого заборонене, але очищення ними дійсне попри заборону, за усталеною думкою."
+        "uk": "Їх використання для очищення та іншого заборонене, але очищення ними дійсне попри заборону."
       },
       "sources": [
         {
@@ -76,6 +76,13 @@
           "ru": "«Тухфат аль-Мухтадж»",
           "es": "Tuḥfat al-Muḥtāj",
           "uk": "«Тухфат аль-Мухтадж»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
         }
       ]
     },

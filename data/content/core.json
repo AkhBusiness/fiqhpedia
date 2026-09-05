@@ -26,16 +26,14 @@
       "short": "ES",
       "label": "Español",
       "flag": "🇪🇸",
-      "flagCode": "es",
-      "pending": true
+      "flagCode": "es"
     },
     {
       "key": "uk",
       "short": "UK",
       "label": "Українська",
       "flag": "🇺🇦",
-      "flagCode": "ua",
-      "pending": true
+      "flagCode": "ua"
     }
   ],
   "ui": {
@@ -1141,7 +1139,7 @@
         "en": "By rational necessity there exists an eternal Originator, preceded by no non-existence and independent of all else — God — the maker of every originated thing and the cause of every cause.",
         "ru": "По рациональной необходимости существует предвечный Создатель, которому не предшествовало небытие и который не нуждается ни в чём ином, — Бог, Творец всякого возникшего и Причина всех причин.",
         "es": "Por necesidad racional existe un Originador eterno, no precedido por la no existencia e independiente de todo lo demás — Dios —, el hacedor de todo lo originado y la causa de toda causa.",
-        "uk": "Отже, за раціональною необхідністю існує предвічний Спричинювач, якому не передувало небуття і який не потребує нікого іншого, — Аллаг Пресвятий, Творець усього виниклого і Причина всіх причин."
+        "uk": "Отже, за раціональною необхідністю існує предвічний Спричинювач, якому не передувало небуття і який не потребує нікого іншого, — Аллах Пресвятий, Творець усього виниклого і Причина всіх причин."
       }
     },
     {
@@ -1200,7 +1198,7 @@
         "en": "Origination from nothing therefore belongs to God alone, and His being unique in it indicates that He alone is divine and deserving of worship.",
         "ru": "Творение из небытия принадлежит одному лишь Аллаху, и Его единственность в этом указывает, что лишь Он — Бог, достойный поклонения.",
         "es": "El origen desde la nada, por tanto, pertenece únicamente a Dios, y Su singularidad en ello indica que solo Él es divino y merecedor de adoración.",
-        "uk": "Створення з небуття належить лише Аллагу, і Його єдиність у цьому вказує на Його єдиність у божественності та гідності поклоніння."
+        "uk": "Створення з небуття належить лише Аллаху, і Його єдиність у цьому вказує на Його єдиність у божественності та гідності поклоніння."
       }
     },
     {
@@ -1739,7 +1737,7 @@
         "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
         "ru": "Намерение сердца совершить поклонение ради Аллаха — условие действительности большинства обрядов: молитвы, поста, омовения.",
         "es": "La intención del corazón de realizar un acto de adoración buscando la cercanía de Dios; es condición para la validez de la mayoría de los actos de adoración, como la oración, el ayuno y la ablución.",
-        "uk": "Намір серця здійснити поклоніння задля наближення до Аллага; є умовою дійсності більшості обрядів, як-от молитви, посту та омовіння."
+        "uk": "Намір серця здійснити поклоніння задля наближення до Аллаха; є умовою дійсності більшості обрядів, як-от молитви, посту та омовіння."
       }
     },
     {
@@ -2019,21 +2017,21 @@
         "en": "What the Lawgiver has obligated upon every legally accountable individual personally, not waived by another's performance.",
         "ru": "То, что Законодатель предписал каждому мукалляфу лично, и не снимается исполнением другого человека.",
         "es": "Lo que el Legislador ha impuesto a cada persona responsable individualmente, sin eximirse por la acción de otro.",
-        "uk": "Те, що Законодавець приписав кожному мукалляфу особисто, і що не знімається виконанням іншої особи."
+        "uk": "Те, що Законодавець шаріату приписав кожному мукалляфу особисто, і що не знімається виконанням іншої особи."
       },
       "linguistic": {
         "ar": "الفرض التقدير والقطع والوجوب، والعين ذات الشيء وشخصه، والمراد الواجب المنسوب لعين المكلف بذاته.",
         "en": "Farḍ means estimation and obligation, while ʿayn means the essence or individual, signifying obligation linked specifically to the person.",
         "ru": "Фард означает предписание и обязательность, а айн — сущность или личность, что означает обязанность, возложенную лично на человека.",
         "es": "Farḍ significa estimación u obligación, y ʿayn la esencia o persona, refiriéndose a la obligación vinculada a la persona misma.",
-        "uk": "Фард означає припис і обов'язковість, а айн — сутність чи особу, що означає обов'язок, покладений особисто на людину."
+        "uk": "Фард означає припис і обов'язковість, а айн — сутність чи особу, що означає фард, покладений особисто на людину."
       },
       "legal": {
         "ar": "ما طلب الشارع المكلف بفعله طلباً جازماً على سبيل الحتم واللزام بحيث يأثم تاركه مطلقاً.",
         "en": "What the Lawgiver decisively demands every accountable individual to perform, making its abandonment unconditionally sinful.",
         "ru": "То, исполнение чего Законодатель категорически потребовал от мукалляфа, так что за его оставление налагается грех.",
         "es": "Lo que el Legislador exige de manera decisiva que cada persona responsable realice, haciendo que su omisión sea un pecado.",
-        "uk": "Те, виконання чого Законодавець категорично зажадав від мукалляфа, так що за його залишення накладається гріх."
+        "uk": "Те, виконання чого Законодавець шаріату категорично зажадав від мукалляфа, так що за його залишення накладається гріх."
       },
       "technical": {
         "hanafi": {
@@ -2099,7 +2097,7 @@
             "en": "What the Lawgiver made strictly mandatory upon every individual person without being waived by one for another.",
             "ru": "То, что Законодатель сделал строго обязательным для каждого человека лично, без снятия обязанности одним за другого.",
             "es": "Lo que el Legislador hizo estrictamente obligatorio para cada persona individualmente, sin eximirse por la actuación de otra.",
-            "uk": "Те, що Законодавець зробив суворо обов'язковим для кожної людини особисто, без знімання обов'язку одним за іншого."
+            "uk": "Те, що Законодавець шаріату зробив суворо обов'язковим для кожної людини особисто, без знімання обов'язку одним за іншого."
           },
           "sources": [
             {
@@ -2530,7 +2528,7 @@
             "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
             "ru": "Скажите «Бисмиллях», затем трижды вымойте кисти рук.",
             "es": "Di «Bismillah», luego lava ambas manos hasta las muñecas tres veces.",
-            "uk": "Скажіть «Бісміллаг», потім тричі вимийте кисті рук до зап'ястків."
+            "uk": "Скажіть «Бісміллаг», потім тричі вимийте кисті рук до зап'ястя."
           }
         },
         {
@@ -2646,7 +2644,7 @@
             "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
             "ru": "Встаньте лицом к кибле, поднимите руки и скажите «Аллаху Акбар».",
             "es": "Ponte de pie frente a la quibla, levanta las manos y di «Allahu Akbar».",
-            "uk": "Станьте обличчям до кибли, підніміть руки і скажіть «Аллагу Акбар»."
+            "uk": "Станьте обличчям до кибли, підніміть руки і скажіть «Аллаху Акбар»."
           }
         },
         {
@@ -2694,7 +2692,7 @@
             "en": "Rise upright saying 'Sami'Allahu liman hamidah, Rabbana wa lakal-hamd'.",
             "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд».",
             "es": "Incorpórate erguido diciendo «Sami'Allahu liman hamidah, Rabbana wa lakal-hamd».",
-            "uk": "Випряміться, кажучи «Самі Аллагу ліман хамідаг, Раббана ва лякаль-хамд»."
+            "uk": "Випряміться, кажучи «Самі Аллаху ліман хамідаг, Раббана ва лякаль-хамд»."
           }
         },
         {
@@ -2762,7 +2760,7 @@
             "en": "Wash both hands up to the wrists three times, interlacing fingers.",
             "ru": "Троекратное мытье кистей рук до запястий с переплетением пальцев.",
             "es": "Lavar ambas manos hasta las muñecas tres veces, entrelazando los dedos.",
-            "uk": "Триразове миття кистей рук до зап'ястків із переплетенням пальців (це підтверджена сунна)."
+            "uk": "Триразове миття кистей рук до зап'ястя із переплетенням пальців (це підтверджена сунна)."
           }
         },
         {
@@ -2870,7 +2868,7 @@
         "en": "It is instant: sincerely pronouncing the testimony of faith — 'I bear witness that there is no god but Allah, and Muhammad is His Messenger' — makes you Muslim. No cleric or paperwork is required; any later documentation is merely administrative.",
         "ru": "Это происходит мгновенно: искреннее произнесение свидетельства веры — «Свидетельствую, что нет божества, кроме Аллаха, и Мухаммад — Его посланник» — делает вас мусульманином. Не требуется ни имам, ни документы; последующее оформление лишь административное.",
         "es": "Es instantáneo: pronunciar con sinceridad el testimonio de fe — «Atestiguo que no hay más dios que Allah, y que Muhammad es Su Mensajero» — te convierte en musulmán. No se requiere clérigo ni papeleo; cualquier documentación posterior es meramente administrativa.",
-        "uk": "Це відбувається миттєво: щире промовляння свідчення віри — «Свідчу, що немає божества, крім Аллага, і Мухаммад — Його посланець» — робить вас мусульманином. Не потрібні ні шейх, ні документи; подальше оформлення — лише адміністративне."
+        "uk": "Це відбувається миттєво: щире промовляння свідчення віри — «Свідчу, що немає божества, крім Аллаха, і Мухаммад — Його посланець» — робить вас мусульманином. Не потрібні ні шейх, ні документи; подальше оформлення — лише адміністративне."
       }
     },
     {
@@ -2942,7 +2940,7 @@
         "en": "You gradually take on the five pillars: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
         "ru": "Постепенно вы принимаете пять столпов: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
         "es": "Vas asumiendo gradualmente los cinco pilares: el testimonio de fe, las cinco oraciones diarias, el zakat (para quien alcance el mínimo exigido), el ayuno de Ramadán y la peregrinación para quien pueda. La prioridad más inmediata es aprender y comenzar la oración.",
-        "uk": "Ви поступово беретеся за п'ять стовпів ісламу: свідчення віри, п'ять щоденних молитв, закят для тих, хто має нісаб, піст у Рамадан і хадж для спроможних. Найважливіше — почати з молитви і навчитися їй."
+        "uk": "Ви поступово беретеся за п'ять обов'язкових складових ісламу: свідчення віри, п'ять щоденних молитв, закят для тих, хто має нісаб, піст у Рамадан і хадж для спроможних. Найважливіше — почати з молитви і навчитися їй."
       }
     },
     {
@@ -2990,7 +2988,7 @@
         "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
         "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии.",
         "es": "No. El islam ordena la bondad hacia los padres y los familiares aunque no sean musulmanes, salvo que te pidan desobedecer a Dios. Tratarlos bien está en el corazón mismo de la religión.",
-        "uk": "Ні. Навпаки, іслам наказує шанувати батьків і бути добрим до родичів, навіть якщо вони немусульмани, доки від вас не вимагають непослуху Аллагу. Гарне ставлення до них — суть релігії."
+        "uk": "Ні. Навпаки, іслам наказує шанувати батьків і бути добрим до родичів, навіть якщо вони немусульмани, доки від вас не вимагають непослуху Аллаху. Гарне ставлення до них — суть релігії."
       }
     }
   ],
