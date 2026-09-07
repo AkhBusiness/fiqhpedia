@@ -1,0 +1,161 @@
+{
+  "ref": "F74",
+  "id": "salah-28",
+  "bookId": "salah",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter on the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo sobre la descripción de la oración",
+    "uk": "Розділ про опис молитви"
+  },
+  "title": {
+    "ar": "حكم التأمين والجهر به بعد الفاتحة",
+    "en": "The Ruling on Saying Āmīn and on Saying It Aloud after al-Fātiḥah",
+    "ru": "Постановление о произнесении «Амин» и о его произнесении вслух после аль-Фатихи",
+    "es": "La norma sobre decir āmīn y sobre decirlo en voz alta tras al-Fātiḥah",
+    "uk": "Постанова про виголошення «Амін» та про його виголошення вголос після аль-Фатіхи"
+  },
+  "summary": {
+    "ar": "ما حكم قول «آمين» بعد الفاتحة، وهل يُجهر به أم يُسرّ؟",
+    "en": "What is the ruling on saying “āmīn” after al-Fātiḥah, and is it said aloud or silently?",
+    "ru": "Каково постановление о произнесении «амин» после аль-Фатихи, и произносится ли оно вслух или про себя?",
+    "es": "¿Cuál es la norma sobre decir «āmīn» tras al-Fātiḥah, y se dice en voz alta o en voz baja?",
+    "uk": "Яка постанова про виголошення «амін» після аль-Фатіхи, і чи виголошується воно вголос чи про себе?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "التأمين سنة للإمام والمأموم والمنفرد عقب الفاتحة، ويُسنّ الإسرار به في الجهرية والسرّية.",
+        "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone after al-Fātiḥah, and saying it silently is a sunnah in both the audible and the silent prayer.",
+        "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку после аль-Фатихи, и произносить его про себя — сунна и в громкой, и в тихой молитве.",
+        "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo tras al-Fātiḥah, y decirlo en voz baja es sunnah tanto en la oración audible como en la silenciosa.",
+        "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, після аль-Фатіхи, і виголошувати його про себе — сунна і в гучній, і в тихій молитві."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ التأمين سرّاً للمأموم والمنفرد، ويؤمّن الإمام سرّاً في السرّية ولا يؤمّن في الجهرية.",
+        "en": "Saying āmīn silently is a sunnah for the follower and one praying alone; the imam says it silently in the silent prayer and does not say it in the audible prayer.",
+        "ru": "Произносить «амин» про себя — сунна для следующего за имамом и молящегося в одиночку; имам произносит его про себя в тихой молитве и не произносит в громкой.",
+        "es": "Decir āmīn en voz baja es sunnah para el seguidor y quien reza solo; el imam lo dice en voz baja en la oración silenciosa y no lo dice en la audible.",
+        "uk": "Виголошувати «амін» про себе — сунна для того, хто молиться за імамом, і того, хто молиться самотою; імам виголошує його про себе в тихій молитві й не виголошує в гучній."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "التأمين سنة للإمام والمأموم والمنفرد عقب الفاتحة، ويُجهر به في الجهرية للجميع، ويُسرّ به في السرّية.",
+        "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone after al-Fātiḥah; it is said aloud by all in the audible prayer and silently in the silent one.",
+        "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку после аль-Фатихи; в громкой молитве его произносят вслух все, а в тихой — про себя.",
+        "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo tras al-Fātiḥah; se dice en voz alta por todos en la oración audible y en voz baja en la silenciosa.",
+        "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, після аль-Фатіхи; у гучній молитві його виголошують уголос усі, а в тихій — про себе."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ التأمين للإمام والمأموم والمنفرد، ويُجهر به الإمام والمأموم في الجهرية لحديث وائل بن حُجر رضي الله عنه، ويُسرّ به في السرّية.",
+        "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone; the imam and the follower say it aloud in the audible prayer, on the strength of the hadith of Wāʾil ibn Ḥujr, and silently in the silent prayer.",
+        "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку; имам и следующий за ним произносят его вслух в громкой молитве — на основании хадиса Ваиля ибн Худжра — и про себя в тихой.",
+        "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo; el imam y el seguidor lo dicen en voz alta en la oración audible, por el hadiz de Wāʾil ibn Ḥujr, y en voz baja en la silenciosa.",
+        "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою; імам і той, хто молиться за ним, виголошують його вголос у гучній молитві — на підставі хадиса Ваїля ібн Худжра — і про себе в тихій."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

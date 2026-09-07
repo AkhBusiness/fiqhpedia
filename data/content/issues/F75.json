@@ -1,0 +1,165 @@
+{
+  "ref": "F75",
+  "id": "salah-29",
+  "bookId": "salah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter on the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo sobre la descripción de la oración",
+    "uk": "Розділ про опис молитви"
+  },
+  "title": {
+    "ar": "أقلّ ما يُجزئ من الانحناء في الركوع",
+    "en": "The Least Bending That Suffices for the Bowing",
+    "ru": "Наименьший наклон, которого достаточно для поясного поклона",
+    "es": "La menor inclinación que basta para la reverencia",
+    "uk": "Найменший нахил, якого достатньо для поясного уклону"
+  },
+  "summary": {
+    "ar": "ما القدر الأدنى من الانحناء الذي يتحقّق به الركوع للقادر على القيام؟",
+    "en": "What is the least degree of bending by which the bowing is realised for one able to stand?",
+    "ru": "Какова наименьшая степень наклона, при которой поясной поклон считается совершённым для способного стоять?",
+    "es": "¿Cuál es el menor grado de inclinación con el que se realiza la reverencia para quien puede permanecer de pie?",
+    "uk": "Який найменший ступінь нахилу, при якому поясний уклін вважається здійсненим для того, хто здатний стояти?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "أقلّ ما يُجزئ أن ينحني بحيث لو مدّ يديه نالتا ركبتيه، أو يكون إلى الركوع أقرب منه إلى القيام.",
+        "en": "The least that suffices is to bend such that, were he to stretch out his hands, they would reach his knees, or that he be nearer to bowing than to standing.",
+        "ru": "Наименьшее, чего достаточно, — согнуться так, что если бы он вытянул руки, они достали бы до колен, либо чтобы он был ближе к поклону, чем к стоянию.",
+        "es": "Lo menos que basta es inclinarse de modo que, si extendiera las manos, alcanzarían sus rodillas, o que esté más cerca de la reverencia que de estar de pie.",
+        "uk": "Найменше, чого достатньо, — зігнутися так, що якби він витягнув руки, вони дістали б колін, або щоб він був ближче до уклону, ніж до стояння."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "أقلّ ما يُجزئ أن ينحني حتى تمسّ راحتاه ركبتيه لو وضعهما عليهما، ولا تُشترط تسوية الظهر.",
+        "en": "The least that suffices is to bend until his palms would touch his knees were he to place them upon them, and levelling the back is not a condition.",
+        "ru": "Наименьшее, чего достаточно, — согнуться так, чтобы его ладони коснулись колен, если бы он положил их на них, и выпрямление спины не является условием.",
+        "es": "Lo menos que basta es inclinarse hasta que sus palmas tocarían sus rodillas si las pusiera sobre ellas, y nivelar la espalda no es condición.",
+        "uk": "Найменше, чого достатньо, — зігнутися так, щоб його долоні торкнулися колін, якби він поклав їх на них, і вирівнювання спини не є умовою."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "أقلّ ما يُجزئ مستوي الخلقة أن ينحني بحيث تنال راحتاه ركبتيه لو أراد وضعهما عليهما، من غير أن يثني ركبتيه.",
+        "en": "For one of ordinary build, the least that suffices is to bend such that his palms would reach his knees were he to intend placing them upon them, without bending his knees.",
+        "ru": "Для человека обычного сложения наименьшее, чего достаточно, — согнуться так, чтобы его ладони достали до колен, если бы он захотел положить их на них, не сгибая коленей.",
+        "es": "Para quien es de constitución normal, lo menos que basta es inclinarse de modo que sus palmas alcanzarían sus rodillas si quisiera ponerlas sobre ellas, sin doblar las rodillas.",
+        "uk": "Для людини звичайної будови найменше, чого достатньо, — зігнутися так, щоб його долоні дістали колін, якби він захотів покласти їх на них, не згинаючи колін."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "أقلّ ما يُجزئ القائم أن ينحني حتى تمسّ يداه ركبتيه لو وضعهما عليهما، وتسوية الظهر سنة لا شرط.",
+        "en": "For one standing, the least that suffices is to bend until his hands would touch his knees were he to place them upon them; levelling the back is a sunnah, not a condition.",
+        "ru": "Для стоящего наименьшее, чего достаточно, — согнуться так, чтобы его руки коснулись колен, если бы он положил их на них; выпрямление спины — сунна, а не условие.",
+        "es": "Para quien está de pie, lo menos que basta es inclinarse hasta que sus manos tocarían sus rodillas si las pusiera sobre ellas; nivelar la espalda es sunnah, no condición.",
+        "uk": "Для того, хто стоїть, найменше, чого достатньо, — зігнутися так, щоб його руки торкнулися колін, якби він поклав їх на них; вирівнювання спини — сунна, а не умова."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

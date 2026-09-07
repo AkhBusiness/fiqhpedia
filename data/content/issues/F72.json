@@ -1,0 +1,161 @@
+{
+  "ref": "F72",
+  "id": "salah-26",
+  "bookId": "salah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter on the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo sobre la descripción de la oración",
+    "uk": "Розділ про опис молитви"
+  },
+  "title": {
+    "ar": "صيغة دعاء الاستفتاح وحكم الجهر به",
+    "en": "The Wording of the Opening Supplication and the Ruling on Saying It Aloud",
+    "ru": "Формулировка вступительной мольбы и постановление о её произнесении вслух",
+    "es": "La fórmula de la súplica de apertura y la norma sobre decirla en voz alta",
+    "uk": "Формулювання вступної мольби та постанова про її виголошення вголос"
+  },
+  "summary": {
+    "ar": "ما صيغة دعاء الاستفتاح عند كل مذهب، وهل يُجهر به أم يُسرّ؟",
+    "en": "What is the wording of the opening supplication in each school, and is it said aloud or silently?",
+    "ru": "Каково формулирование вступительной мольбы в каждом мазхабе, и произносится ли она вслух или про себя?",
+    "es": "¿Cuál es la fórmula de la súplica de apertura en cada escuela, y se dice en voz alta o en voz baja?",
+    "uk": "Яке формулювання вступної мольби в кожному мазгабі, і чи виголошується вона вголос чи про себе?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "صيغة الاستفتاح: «سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلَا إِلَهَ غَيْرُكَ»، ويُسنّ الإسرار به للإمام والمأموم والمنفرد، ويُكره الجهر به.",
+        "en": "The wording is: “Glory be to You, O Allah, and praise; blessed is Your name, exalted is Your majesty, and there is no god but You.” Saying it silently is a sunnah for the imam, the follower and one praying alone, and saying it aloud is disliked.",
+        "ru": "Формулировка: «Пречист Ты, о Аллах, и хвала Тебе; благословенно имя Твоё, превыше всего величие Твоё, и нет божества, кроме Тебя». Произносить её про себя — сунна для имама, следующего за ним и молящегося в одиночку, а вслух — нежелательно.",
+        "es": "La fórmula es: «Glorificado seas, oh Allah, y alabado; bendito sea Tu nombre, excelsa Tu majestad, y no hay dios sino Tú». Decirla en voz baja es sunnah para el imam, el seguidor y quien reza solo, y decirla en voz alta es reprobable.",
+        "uk": "Формулювання: «Пречистий Ти, о Аллаху, і хвала Тобі; благословенне ім'я Твоє, превисока велич Твоя, і немає божества, крім Тебе». Виголошувати її про себе — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, а вголос — небажано."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "makruh",
+      "text": {
+        "ar": "يُكره دعاء الاستفتاح في الفريضة، ويُبدأ بالقراءة عقب التكبير؛ ويُندب في النفل ويُسرّ به.",
+        "en": "The opening supplication is disliked in the obligatory prayer, and the recitation begins straight after the takbīr; it is recommended in voluntary prayer and said silently.",
+        "ru": "Вступительная мольба нежелательна в обязательной молитве, и чтение начинается сразу после такбира; она желательна в добровольной молитве и произносится про себя.",
+        "es": "La súplica de apertura es reprobable en la oración obligatoria, y la recitación comienza justo después del takbīr; es recomendable en la oración voluntaria y se dice en voz baja.",
+        "uk": "Вступна мольба небажана в обов'язковій молитві, і читання починається одразу після такбіру; вона бажана в добровільній молитві й виголошується про себе."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "صيغة الاستفتاح: «وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ»، ويُسنّ الإسرار به لجميع المصلّين في السرّية والجهرية.",
+        "en": "The wording is: “I have turned my face to Him who originated the heavens and the earth, upright and submitting, and I am not of those who associate.” Saying it silently is a sunnah for all who pray, in both the silent and the audible prayers.",
+        "ru": "Формулировка: «Я обратил лицо своё к Тому, Кто сотворил небеса и землю, будучи ханифом и предавшимся, и я не из многобожников». Произносить её про себя — сунна для всех молящихся, и в тихих, и в громких молитвах.",
+        "es": "La fórmula es: «He vuelto mi rostro hacia Quien originó los cielos y la tierra, siendo ḥanīf y sometido, y no soy de los que asocian». Decirla en voz baja es sunnah para todos los orantes, tanto en las oraciones silenciosas como en las audibles.",
+        "uk": "Формулювання: «Я звернув обличчя своє до Того, Хто створив небеса й землю, будучи ганіфом і відданим, і я не з багатобожників». Виголошувати її про себе — сунна для всіх, хто молиться, і в тихих, і в гучних молитвах."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "صيغة الاستفتاح: «سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلَا إِلَهَ غَيْرُكَ»، ويُسنّ الإسرار به دائماً للإمام والمأموم والمنفرد، إذ لم يُنقل الجهر به عن النبي ﷺ وأصحابه.",
+        "en": "The wording is: “Glory be to You, O Allah, and praise; blessed is Your name, exalted is Your majesty, and there is no god but You.” Saying it silently is always a sunnah for the imam, the follower and one praying alone, since saying it aloud was not transmitted from the Prophet ﷺ or his Companions.",
+        "ru": "Формулировка: «Пречист Ты, о Аллах, и хвала Тебе; благословенно имя Твоё, превыше всего величие Твоё, и нет божества, кроме Тебя». Произносить её про себя — всегда сунна для имама, следующего за ним и молящегося в одиночку, поскольку произнесение вслух не передано ни от Пророка ﷺ, ни от его сподвижников.",
+        "es": "La fórmula es: «Glorificado seas, oh Allah, y alabado; bendito sea Tu nombre, excelsa Tu majestad, y no hay dios sino Tú». Decirla en voz baja es siempre sunnah para el imam, el seguidor y quien reza solo, pues decirla en voz alta no se ha transmitido del Profeta ﷺ ni de sus Compañeros.",
+        "uk": "Формулювання: «Пречистий Ти, о Аллаху, і хвала Тобі; благословенне ім'я Твоє, превисока велич Твоя, і немає божества, крім Тебе». Виголошувати її про себе — завжди сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, оскільки виголошення вголос не передане ні від Пророка ﷺ, ні від його сподвижників."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

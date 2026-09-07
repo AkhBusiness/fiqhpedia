@@ -1,0 +1,161 @@
+{
+  "ref": "F69",
+  "id": "salah-23",
+  "bookId": "salah",
+  "seq": 12,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter on the Conditions of the Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo sobre las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "حكم من صلّى بالتحرّي ثم تبيّن له خطؤه في القبلة",
+    "en": "The Ruling on One Who Prays by Best Judgement and Then Learns He Faced the Wrong Direction",
+    "ru": "Постановление о том, кто помолился по своему суждению, а затем узнал, что ошибся в направлении киблы",
+    "es": "Norma sobre quien reza según su mejor juicio y luego descubre que erró la dirección de la alquibla",
+    "uk": "Постанова про того, хто помолився за своїм судженням, а потім дізнався, що помилився в напрямку кибли"
+  },
+  "summary": {
+    "ar": "هل تصحّ صلاة من اجتهد في القبلة ثم تبيّن أنه صلّى إلى غير جهتها، وهل تلزمه الإعادة؟",
+    "en": "Is the prayer valid for one who used his best judgement about the qibla and then found he had prayed away from it, and must he repeat it?",
+    "ru": "Действительна ли молитва того, кто приложил усилие в определении киблы, а затем обнаружил, что молился не в её сторону, и обязан ли он повторить?",
+    "es": "¿Es válida la oración de quien se esforzó por determinar la alquibla y luego descubrió que rezó fuera de su dirección, y debe repetirla?",
+    "uk": "Чи дійсна молитва того, хто доклав зусиль у визначенні кибли, а потім виявив, що молився не в її бік, і чи зобов'язаний він повторити?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "من تحرّى جهة القبلة واجتهد ثم صلّى فتبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه، لأنه أتى بما في وسعه.",
+        "en": "Whoever seeks out the direction of the qibla by his best judgement and prays, then learns of his error, his prayer is valid and no repetition is due, for he did what lay within his capacity.",
+        "ru": "Тот, кто приложил усилие в определении стороны киблы и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется, ибо он сделал то, что было в его силах.",
+        "es": "Quien busca la dirección de la alquibla con su mejor juicio y reza, y luego descubre su error, su oración es válida y no le corresponde repetirla, pues hizo cuanto estaba en su capacidad.",
+        "uk": "Той, хто доклав зусиль у визначенні сторони кибли й помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається, бо він зробив те, що було в його силах."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mandub",
+      "text": {
+        "ar": "من اجتهد وصلّى ثم تبيّن له الخطأ أجزأته صلاته ولا إعادة عليه بعد خروج الوقت، وتُستحبّ له الإعادة في الوقت.",
+        "en": "Whoever uses his best judgement and prays, then learns of his error, his prayer suffices and no repetition is due once the time has passed; repeating it within the time is recommended.",
+        "ru": "Тому, кто приложил усилие и помолился, а затем узнал об ошибке, молитва засчитывается, и повторение не требуется по истечении времени; повторить её в отведённое время желательно.",
+        "es": "A quien se esfuerza y reza, y luego descubre su error, le basta su oración y no debe repetirla pasado el tiempo; repetirla dentro del tiempo es recomendable.",
+        "uk": "Тому, хто доклав зусиль і помолився, а потім дізнався про помилку, молитва зараховується, і повторення не вимагається після закінчення часу; повторити її у відведений час бажано."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "من صلّى بالاجتهاد ثم تيقّن الخطأ وجبت عليه إعادة الصلاة في الوقت وبعده، لأن استقبال القبلة شرط تبيّن عدم تحقّقه.",
+        "en": "Whoever prays by his best judgement and then becomes certain of the error must repeat the prayer, within its time and after it, because facing the qibla is a condition that has been shown not to have been met.",
+        "ru": "Тот, кто помолился по своему суждению, а затем убедился в ошибке, обязан повторить молитву — и в её время, и после него, — поскольку обращение к кибле есть условие, невыполнение которого выяснилось.",
+        "es": "Quien reza según su juicio y luego se cerciora del error debe repetir la oración, dentro de su tiempo y después de él, porque orientarse a la alquibla es una condición cuya falta ha quedado en evidencia.",
+        "uk": "Той, хто помолився за своїм судженням, а потім переконався в помилці, зобов'язаний повторити молитву — і в її час, і після нього, — оскільки обернення до кибли є умовою, невиконання якої з'ясувалося."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "من كان عارفاً بأدلّة القبلة فتحرّى وصلّى ثم تبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه بحال، لقوله تعالى: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ ولحديث عامر بن ربيعة رضي الله عنه.",
+        "en": "One who knows the indications of the qibla, seeks it out by his best judgement and prays, then learns of his error, his prayer is valid and no repetition is due in any case — on the strength of the Qurʾānic verse (al-Baqarah 115) and the hadith of ʿĀmir ibn Rabīʿah.",
+        "ru": "Тот, кто знает признаки киблы, приложил усилие и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется ни в каком случае, на основании коранического аята (аль-Бакара, 115) и хадиса Амира ибн Рабии.",
+        "es": "Quien conoce los indicios de la alquibla, la busca con su mejor juicio y reza, y luego descubre su error, su oración es válida y no debe repetirla en ningún caso, por la aleya coránica (al-Baqarah 115) y el hadiz de ʿĀmir ibn Rabīʿah.",
+        "uk": "Той, хто знає ознаки кибли, доклав зусиль і помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається в жодному разі, на підставі коранічного аяту (аль-Бакара, 115) та хадиса Аміра ібн Рабії."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

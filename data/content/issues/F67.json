@@ -1,0 +1,161 @@
+{
+  "ref": "F67",
+  "id": "salah-21",
+  "bookId": "salah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter on the Conditions of the Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo sobre las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "أوقات النهي عن الصلاة وعددها",
+    "en": "The Times in Which Prayer Is Forbidden, and How Many They Are",
+    "ru": "Времена, в которые запрещена молитва, и их количество",
+    "es": "Los tiempos en que se prohíbe la oración y su número",
+    "uk": "Часи, в які заборонена молитва, та їх кількість"
+  },
+  "summary": {
+    "ar": "ما أوقات النهي عن الصلاة، وكم عددها عند كل مذهب؟",
+    "en": "What are the times in which prayer is forbidden, and how many are they in each school?",
+    "ru": "Каковы времена, в которые запрещена молитва, и сколько их в каждом мазхабе?",
+    "es": "¿Cuáles son los tiempos en que se prohíbe la oración, y cuántos son en cada escuela?",
+    "uk": "Які часи, в які заборонена молитва, і скільки їх у кожному мазгабі?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "makruh",
+      "text": {
+        "ar": "أوقات النهي ثلاثة يُكره فيها كراهة تحريم: عند طلوع الشمس حتى ترتفع، وعند استوائها حتى تزول، وعند اصفرارها حتى تغرب — إلا عصر يومه؛ ويُكره التنفّل بعد صلاة الفجر وبعد صلاة العصر.",
+        "en": "The forbidden times are three, prohibitively disliked: at sunrise until the sun has risen, at its zenith until it declines, and at its yellowing until it sets — except that day's ʿaṣr; and voluntary prayer is disliked after the fajr and the ʿaṣr prayers.",
+        "ru": "Времён запрета три, и в них молитва запретно нежелательна: при восходе солнца, пока оно не поднимется, в зените, пока не склонится, и при его пожелтении, пока не зайдёт, — кроме асра того же дня; и добровольная молитва нежелательна после фаджра и после асра.",
+        "es": "Los tiempos prohibidos son tres, reprobables con carácter prohibitivo: al salir el sol hasta que se eleva, en su cenit hasta que declina, y al amarillear hasta que se pone — salvo el ʿaṣr de ese mismo día; y la oración voluntaria es reprobable tras el fajr y tras el ʿaṣr.",
+        "uk": "Часів заборони три, і в них молитва заборонено небажана: при сході сонця, доки воно не підніметься, у зеніті, доки не схилиться, і при його пожовтінні, доки не зайде, — крім асру того самого дня; і добровільна молитва небажана після фаджру та після асру."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "makruh",
+      "text": {
+        "ar": "أوقات النهي وقتان للنفل: بعد صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وبعد صلاة العصر حتى تُصلَّى المغرب؛ وتشتدّ الكراهة عند الطلوع والغروب وحال الخطبة.",
+        "en": "The forbidden times are two, for voluntary prayer: after the fajr prayer until the sun has risen the height of a spear, and after the ʿaṣr prayer until the maghrib is prayed; and the dislike is stronger at sunrise, at sunset, and during the sermon.",
+        "ru": "Времён запрета два — для добровольной молитвы: после молитвы фаджр, пока солнце не поднимется на высоту копья, и после молитвы аср, пока не будет совершён магриб; и нежелательность усиливается при восходе, закате и во время хутбы.",
+        "es": "Los tiempos prohibidos son dos, para la oración voluntaria: tras la oración del fajr hasta que el sol se eleve la altura de una lanza, y tras la oración del ʿaṣr hasta que se rece el magrib; y la reprobación se agrava al salir y ponerse el sol y durante el sermón.",
+        "uk": "Часів заборони два — для добровільної молитви: після молитви фаджр, доки сонце не підніметься на висоту списа, і після молитви аср, доки не буде здійснено маґріб; і небажаність посилюється при сході, заході та під час хутби."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "makruh",
+      "text": {
+        "ar": "أوقات النهي خمسة: بعد صلاة الصبح حتى ترتفع الشمس قِيدَ رمح، وعند الاستواء إلا يوم الجمعة، وبعد صلاة العصر حتى تغرب، وعند الطلوع، وعند الغروب؛ وتختصّ الكراهة بالنفل المطلق الذي لا سبب له.",
+        "en": "The forbidden times are five: after the ṣubḥ prayer until the sun has risen the height of a spear, at the zenith except on Friday, after the ʿaṣr prayer until it sets, at sunrise, and at sunset; and the dislike applies only to unrestricted voluntary prayer that has no occasioning cause.",
+        "ru": "Времён запрета пять: после молитвы субх, пока солнце не поднимется на высоту копья, в зените — кроме пятницы, после молитвы аср, пока оно не зайдёт, при восходе и при закате; и нежелательность относится лишь к безусловной добровольной молитве, не имеющей повода.",
+        "es": "Los tiempos prohibidos son cinco: tras la oración del ṣubḥ hasta que el sol se eleve la altura de una lanza, en el cenit salvo el viernes, tras la oración del ʿaṣr hasta que se ponga, al salir el sol y al ponerse; y la reprobación se limita a la oración voluntaria absoluta que no tiene causa.",
+        "uk": "Часів заборони п'ять: після молитви субх, доки сонце не підніметься на висоту списа, у зеніті — крім п'ятниці, після молитви аср, доки воно не зайде, при сході та при заході; і небажаність стосується лише безумовної добровільної молитви, що не має приводу."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "makruh",
+      "text": {
+        "ar": "أوقات النهي ثلاثة إجمالاً وخمسة تفصيلاً: من صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وعند قيامها حتى تزول، ومن صلاة العصر حتى تغرب؛ وتُستثنى الفوائت وركعتا الفجر والطواف.",
+        "en": "The forbidden times are three in outline and five in detail: from the fajr prayer until the sun has risen the height of a spear, at its standing still until it declines, and from the ʿaṣr prayer until it sets; missed obligatory prayers, the two units of the fajr, and the circumambulation are excepted.",
+        "ru": "Времён запрета три в общем и пять в подробности: от молитвы фаджр, пока солнце не поднимется на высоту копья, при его стоянии, пока не склонится, и от молитвы аср, пока оно не зайдёт; исключаются пропущенные обязательные молитвы, два ракаата фаджра и таваф.",
+        "es": "Los tiempos prohibidos son tres en conjunto y cinco en detalle: desde la oración del fajr hasta que el sol se eleve la altura de una lanza, en su detención hasta que declina, y desde la oración del ʿaṣr hasta que se pone; se exceptúan las oraciones obligatorias pendientes, los dos rakʿah del fajr y la circunvalación.",
+        "uk": "Часів заборони три загалом і п'ять у подробиці: від молитви фаджр, доки сонце не підніметься на висоту списа, при його стоянні, доки не схилиться, і від молитви аср, доки воно не зайде; виключаються пропущені обов'язкові молитви, два ракаати фаджру та таваф."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

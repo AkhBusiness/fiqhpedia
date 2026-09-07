@@ -10005,10 +10005,172 @@
       }
     },
     {
+      "id": "salah-20",
+      "ref": "F66",
+      "bookId": "salah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب الأذان والإقامة",
+        "en": "Chapter on the Adhān and the Iqāmah",
+        "ru": "Раздел об азане и икаме",
+        "es": "Capítulo sobre el adhān y la iqāmah",
+        "uk": "Розділ про азан та ікаму"
+      },
+      "title": {
+        "ar": "صيغة الإقامة وحكم إفراد كلماتها",
+        "en": "The Wording of the Iqāmah and the Ruling on Saying Its Phrases Once",
+        "ru": "Формулировка икамы и постановление о произнесении её фраз по одному разу",
+        "es": "La fórmula de la iqāmah y la norma sobre decir sus frases una sola vez",
+        "uk": "Формулювання ікáми та постанова про виголошення її фраз по одному разу"
+      },
+      "summary": {
+        "ar": "ما صيغة الإقامة عند المذاهب الأربعة، وهل تُفرَد كلماتها أم تُثنّى؟",
+        "en": "What is the wording of the iqāmah in the four schools, and are its phrases said once or twice?",
+        "ru": "Какова формулировка икамы у четырёх мазхабов, и произносятся ли её фразы один раз или дважды?",
+        "es": "¿Cuál es la fórmula de la iqāmah en las cuatro escuelas, y sus frases se dicen una vez o dos?",
+        "uk": "Яке формулювання ікáми у чотирьох мазгабах, і чи виголошуються її фрази один раз чи двічі?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "الإقامة مثنى مثنى كالأذان مع زيادة «قد قامت الصلاة» مرّتين، فتكون سبع عشرة كلمة، ويُكره إفراد كلماتها.",
+            "en": "The iqāmah is said twice over, like the adhān, with “qad qāmat al-ṣalāh” added twice, making seventeen phrases; saying its phrases once is disliked.",
+            "ru": "Икама произносится по два раза, как и азан, с добавлением «кад камати-с-салях» дважды, что составляет семнадцать фраз; произносить её фразы по одному разу нежелательно.",
+            "es": "La iqāmah se dice dos veces, como el adhān, añadiendo «qad qāmat al-ṣalāh» dos veces, lo que suma diecisiete frases; decir sus frases una sola vez es reprobable.",
+            "uk": "Ікáма виголошується по два рази, як і азан, з додаванням «кад каматі-с-салях» двічі, що складає сімнадцять фраз; виголошувати її фрази по одному разу небажано."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "تُفرَد كلمات الإقامة كلّها فتكون عشر كلمات، ويُفرَد فيها «قد قامت الصلاة» مرّة واحدة، ولا يُثنّى إلا التكبير في أوّلها وآخرها.",
+            "en": "All the phrases of the iqāmah are said once, making ten phrases, including “qad qāmat al-ṣalāh” once; only the takbīr at its beginning and end is said twice.",
+            "ru": "Все фразы икамы произносятся по одному разу, что составляет десять фраз, включая «кад камати-с-салях» один раз; дважды произносится лишь такбир в начале и в конце.",
+            "es": "Todas las frases de la iqāmah se dicen una vez, sumando diez frases, incluida «qad qāmat al-ṣalāh» una sola vez; solo el takbīr al principio y al final se dice dos veces.",
+            "uk": "Усі фрази ікáми виголошуються по одному разу, що складає десять фраз, включно з «кад каматі-с-салях» один раз; двічі виголошується лише такбір на початку та в кінці."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة، ويُستثنى التكبير في أوّلها وآخرها و«قد قامت الصلاة» فتُثنّى.",
+            "en": "The phrases of the iqāmah are said once, making eleven phrases, except the takbīr at its beginning and end and “qad qāmat al-ṣalāh”, which are said twice.",
+            "ru": "Фразы икамы произносятся по одному разу, что составляет одиннадцать фраз, кроме такбира в начале и в конце и «кад камати-с-салях», которые произносятся дважды.",
+            "es": "Las frases de la iqāmah se dicen una vez, sumando once frases, salvo el takbīr al principio y al final y «qad qāmat al-ṣalāh», que se dicen dos veces.",
+            "uk": "Фрази ікáми виголошуються по одному разу, що складає одинадцять фраз, крім такбіру на початку та в кінці і «кад каматі-с-салях», які виголошуються двічі."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة، ويُستثنى التكبير في أوّلها وآخرها و«قد قامت الصلاة» فتُثنّى، لحديث أنس رضي الله عنه: «أُمِرَ بلالٌ أن يَشفَعَ الأذانَ وأن يُوتِرَ الإقامةَ».",
+            "en": "The phrases of the iqāmah are said once, making eleven phrases, except the takbīr at its beginning and end and “qad qāmat al-ṣalāh”, which are said twice, based on the hadith of Anas: “Bilāl was ordered to make the adhān in pairs and the iqāmah singly.”",
+            "ru": "Фразы икамы произносятся по одному разу, что составляет одиннадцать фраз, кроме такбира в начале и в конце и «кад камати-с-салях», которые произносятся дважды, согласно хадису Анаса: «Билялю было велено произносить азан парами, а икаму — по одному разу».",
+            "es": "Las frases de la iqāmah se dicen una vez, sumando once frases, salvo el takbīr al principio y al final y «qad qāmat al-ṣalāh», que se dicen dos veces, según el hadiz de Anas: «Se le ordenó a Bilāl decir el adhān por pares y la iqāmah una sola vez».",
+            "uk": "Фрази ікáми виголошуються по одному разу, що складає одинадцять фраз, крім такбіру на початку та в кінці і «кад каматі-с-салях», які виголошуються двічі, згідно з хадисом Анаса: «Білялю було наказано виголошувати азан парами, а ікáму — по одному разу»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "salah-11",
       "ref": "F41",
       "bookId": "salah",
-      "number": 3,
+      "number": 4,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10165,7 +10327,7 @@
       "id": "salah-4",
       "ref": "F15",
       "bookId": "salah",
-      "number": 4,
+      "number": 5,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10322,7 +10484,7 @@
       "id": "salah-12",
       "ref": "F42",
       "bookId": "salah",
-      "number": 5,
+      "number": 6,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10479,7 +10641,7 @@
       "id": "salah-13",
       "ref": "F43",
       "bookId": "salah",
-      "number": 6,
+      "number": 7,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10636,7 +10798,7 @@
       "id": "salah-10",
       "ref": "F40",
       "bookId": "salah",
-      "number": 7,
+      "number": 8,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10790,10 +10952,338 @@
       }
     },
     {
+      "id": "salah-21",
+      "ref": "F67",
+      "bookId": "salah",
+      "number": 9,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "أوقات النهي عن الصلاة وعددها",
+        "en": "The Times in Which Prayer Is Forbidden, and How Many They Are",
+        "ru": "Времена, в которые запрещена молитва, и их количество",
+        "es": "Los tiempos en que se prohíbe la oración y su número",
+        "uk": "Часи, в які заборонена молитва, та їх кількість"
+      },
+      "summary": {
+        "ar": "ما أوقات النهي عن الصلاة، وكم عددها عند كل مذهب؟",
+        "en": "What are the times in which prayer is forbidden, and how many are they in each school?",
+        "ru": "Каковы времена, в которые запрещена молитва, и сколько их в каждом мазхабе?",
+        "es": "¿Cuáles son los tiempos en que se prohíbe la oración, y cuántos son en cada escuela?",
+        "uk": "Які часи, в які заборонена молитва, і скільки їх у кожному мазгабі?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "makruh",
+          "text": {
+            "ar": "أوقات النهي ثلاثة يُكره فيها كراهة تحريم: عند طلوع الشمس حتى ترتفع، وعند استوائها حتى تزول، وعند اصفرارها حتى تغرب — إلا عصر يومه؛ ويُكره التنفّل بعد صلاة الفجر وبعد صلاة العصر.",
+            "en": "The forbidden times are three, prohibitively disliked: at sunrise until the sun has risen, at its zenith until it declines, and at its yellowing until it sets — except that day's ʿaṣr; and voluntary prayer is disliked after the fajr and the ʿaṣr prayers.",
+            "ru": "Времён запрета три, и в них молитва запретно нежелательна: при восходе солнца, пока оно не поднимется, в зените, пока не склонится, и при его пожелтении, пока не зайдёт, — кроме асра того же дня; и добровольная молитва нежелательна после фаджра и после асра.",
+            "es": "Los tiempos prohibidos son tres, reprobables con carácter prohibitivo: al salir el sol hasta que se eleva, en su cenit hasta que declina, y al amarillear hasta que se pone — salvo el ʿaṣr de ese mismo día; y la oración voluntaria es reprobable tras el fajr y tras el ʿaṣr.",
+            "uk": "Часів заборони три, і в них молитва заборонено небажана: при сході сонця, доки воно не підніметься, у зеніті, доки не схилиться, і при його пожовтінні, доки не зайде, — крім асру того самого дня; і добровільна молитва небажана після фаджру та після асру."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "makruh",
+          "text": {
+            "ar": "أوقات النهي وقتان للنفل: بعد صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وبعد صلاة العصر حتى تُصلَّى المغرب؛ وتشتدّ الكراهة عند الطلوع والغروب وحال الخطبة.",
+            "en": "The forbidden times are two, for voluntary prayer: after the fajr prayer until the sun has risen the height of a spear, and after the ʿaṣr prayer until the maghrib is prayed; and the dislike is stronger at sunrise, at sunset, and during the sermon.",
+            "ru": "Времён запрета два — для добровольной молитвы: после молитвы фаджр, пока солнце не поднимется на высоту копья, и после молитвы аср, пока не будет совершён магриб; и нежелательность усиливается при восходе, закате и во время хутбы.",
+            "es": "Los tiempos prohibidos son dos, para la oración voluntaria: tras la oración del fajr hasta que el sol se eleve la altura de una lanza, y tras la oración del ʿaṣr hasta que se rece el magrib; y la reprobación se agrava al salir y ponerse el sol y durante el sermón.",
+            "uk": "Часів заборони два — для добровільної молитви: після молитви фаджр, доки сонце не підніметься на висоту списа, і після молитви аср, доки не буде здійснено маґріб; і небажаність посилюється при сході, заході та під час хутби."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "makruh",
+          "text": {
+            "ar": "أوقات النهي خمسة: بعد صلاة الصبح حتى ترتفع الشمس قِيدَ رمح، وعند الاستواء إلا يوم الجمعة، وبعد صلاة العصر حتى تغرب، وعند الطلوع، وعند الغروب؛ وتختصّ الكراهة بالنفل المطلق الذي لا سبب له.",
+            "en": "The forbidden times are five: after the ṣubḥ prayer until the sun has risen the height of a spear, at the zenith except on Friday, after the ʿaṣr prayer until it sets, at sunrise, and at sunset; and the dislike applies only to unrestricted voluntary prayer that has no occasioning cause.",
+            "ru": "Времён запрета пять: после молитвы субх, пока солнце не поднимется на высоту копья, в зените — кроме пятницы, после молитвы аср, пока оно не зайдёт, при восходе и при закате; и нежелательность относится лишь к безусловной добровольной молитве, не имеющей повода.",
+            "es": "Los tiempos prohibidos son cinco: tras la oración del ṣubḥ hasta que el sol se eleve la altura de una lanza, en el cenit salvo el viernes, tras la oración del ʿaṣr hasta que se ponga, al salir el sol y al ponerse; y la reprobación se limita a la oración voluntaria absoluta que no tiene causa.",
+            "uk": "Часів заборони п'ять: після молитви субх, доки сонце не підніметься на висоту списа, у зеніті — крім п'ятниці, після молитви аср, доки воно не зайде, при сході та при заході; і небажаність стосується лише безумовної добровільної молитви, що не має приводу."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "makruh",
+          "text": {
+            "ar": "أوقات النهي ثلاثة إجمالاً وخمسة تفصيلاً: من صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وعند قيامها حتى تزول، ومن صلاة العصر حتى تغرب؛ وتُستثنى الفوائت وركعتا الفجر والطواف.",
+            "en": "The forbidden times are three in outline and five in detail: from the fajr prayer until the sun has risen the height of a spear, at its standing still until it declines, and from the ʿaṣr prayer until it sets; missed obligatory prayers, the two units of the fajr, and the circumambulation are excepted.",
+            "ru": "Времён запрета три в общем и пять в подробности: от молитвы фаджр, пока солнце не поднимется на высоту копья, при его стоянии, пока не склонится, и от молитвы аср, пока оно не зайдёт; исключаются пропущенные обязательные молитвы, два ракаата фаджра и таваф.",
+            "es": "Los tiempos prohibidos son tres en conjunto y cinco en detalle: desde la oración del fajr hasta que el sol se eleve la altura de una lanza, en su detención hasta que declina, y desde la oración del ʿaṣr hasta que se pone; se exceptúan las oraciones obligatorias pendientes, los dos rakʿah del fajr y la circunvalación.",
+            "uk": "Часів заборони три загалом і п'ять у подробиці: від молитви фаджр, доки сонце не підніметься на висоту списа, при його стоянні, доки не схилиться, і від молитви аср, доки воно не зайде; виключаються пропущені обов'язкові молитви, два ракаати фаджру та таваф."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
+      "id": "salah-22",
+      "ref": "F68",
+      "bookId": "salah",
+      "number": 10,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حدّ عورة الرجل في الصلاة",
+        "en": "The Extent of a Man's ʿAwrah in the Prayer",
+        "ru": "Границы аврата мужчины в молитве",
+        "es": "El límite de la ʿawrah del hombre en la oración",
+        "uk": "Межі аврату чоловіка в молитві"
+      },
+      "summary": {
+        "ar": "ما حدّ عورة الرجل التي يجب سترها لصحّة الصلاة؟",
+        "en": "What extent of a man's ʿawrah must be covered for the prayer to be valid?",
+        "ru": "Какую часть аврата мужчины обязательно покрыть, чтобы молитва была действительной?",
+        "es": "¿Qué extensión de la ʿawrah del hombre debe cubrirse para que la oración sea válida?",
+        "uk": "Яку частину аврату чоловіка обов'язково покрити, щоб молитва була дійсною?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "عورة الرجل في الصلاة ما تحت السرّة إلى ما تحت الركبة، والركبة من العورة دون السرّة.",
+            "en": "A man's ʿawrah in the prayer is from below the navel to below the knee; the knee is part of the ʿawrah and the navel is not.",
+            "ru": "Аврат мужчины в молитве — от места ниже пупка до места ниже колена; колено входит в аврат, а пупок — нет.",
+            "es": "La ʿawrah del hombre en la oración va desde debajo del ombligo hasta debajo de la rodilla; la rodilla forma parte de la ʿawrah y el ombligo no.",
+            "uk": "Аврат чоловіка в молитві — від місця нижче пупка до місця нижче коліна; коліно входить до аврату, а пупок — ні."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "عورة الرجل المغلّظة السوأتان، والمخفّفة ما بين السرّة والركبة؛ فتبطل الصلاة بكشف المغلّظة، ويُكره كشف المخفّفة وتُعاد الصلاة في الوقت.",
+            "en": "A man's grave ʿawrah is the two private parts, and the lighter ʿawrah is what lies between the navel and the knee; the prayer is invalidated by uncovering the grave, while uncovering the lighter is disliked and the prayer is repeated within its time.",
+            "ru": "Тяжкий аврат мужчины — два срамных места, а облегчённый — то, что между пупком и коленом; молитва становится недействительной при обнажении тяжкого, а обнажение облегчённого нежелательно, и молитва повторяется в её время.",
+            "es": "La ʿawrah grave del hombre son las dos partes íntimas, y la leve es lo que hay entre el ombligo y la rodilla; la oración se invalida al descubrir la grave, mientras que descubrir la leve es reprobable y la oración se repite dentro de su tiempo.",
+            "uk": "Тяжкий аврат чоловіка — два соромні місця, а полегшений — те, що між пупком і коліном; молитва стає недійсною при оголенні тяжкого, а оголення полегшеного небажане, і молитва повторюється в її час."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "عورة الرجل في الصلاة ما بين السرّة والركبة، وليست السرّة ولا الركبة منها، ويجب ستر جزء منهما ليتحقّق ستر ما بينهما.",
+            "en": "A man's ʿawrah in the prayer is what lies between the navel and the knee; neither the navel nor the knee is part of it, and part of each must be covered so that what lies between them is certainly covered.",
+            "ru": "Аврат мужчины в молитве — то, что между пупком и коленом; ни пупок, ни колено в него не входят, и часть каждого из них обязательно покрыть, чтобы достоверно покрыть то, что между ними.",
+            "es": "La ʿawrah del hombre en la oración es lo que hay entre el ombligo y la rodilla; ni el ombligo ni la rodilla forman parte de ella, y debe cubrirse parte de ambos para asegurar la cobertura de lo que queda en medio.",
+            "uk": "Аврат чоловіка в молитві — те, що між пупком і коліном; ні пупок, ні коліно до нього не входять, і частину кожного з них обов'язково покрити, щоб достовірно покрити те, що між ними."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "عورة الرجل البالغ في الصلاة ما بين السرّة والركبة، وليستا منها، ويجب مع ذلك ستر أحد العاتقين مع القدرة.",
+            "en": "The ʿawrah of an adult man in the prayer is what lies between the navel and the knee, neither of which is part of it; and covering one of the shoulders is also obligatory when he is able.",
+            "ru": "Аврат совершеннолетнего мужчины в молитве — то, что между пупком и коленом, и они в него не входят; и вместе с этим обязательно покрыть одно из плеч при наличии возможности.",
+            "es": "La ʿawrah del hombre adulto en la oración es lo que hay entre el ombligo y la rodilla, sin que ninguno forme parte de ella; y además es obligatorio cubrir uno de los hombros si puede.",
+            "uk": "Аврат повнолітнього чоловіка в молитві — те, що між пупком і коліном, і вони до нього не входять; і разом із цим обов'язково покрити одне з плечей за наявності можливості."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "salah-14",
       "ref": "F44",
       "bookId": "salah",
-      "number": 8,
+      "number": 11,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -10954,7 +11444,7 @@
       "id": "salah-16",
       "ref": "F46",
       "bookId": "salah",
-      "number": 9,
+      "number": 12,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -11111,7 +11601,7 @@
       "id": "salah-9",
       "ref": "F39",
       "bookId": "salah",
-      "number": 10,
+      "number": 13,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -11268,7 +11758,7 @@
       "id": "salah-17",
       "ref": "F47",
       "bookId": "salah",
-      "number": 11,
+      "number": 14,
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter of the Conditions of Prayer",
@@ -11426,10 +11916,496 @@
       }
     },
     {
+      "id": "salah-23",
+      "ref": "F69",
+      "bookId": "salah",
+      "number": 15,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم من صلّى بالتحرّي ثم تبيّن له خطؤه في القبلة",
+        "en": "The Ruling on One Who Prays by Best Judgement and Then Learns He Faced the Wrong Direction",
+        "ru": "Постановление о том, кто помолился по своему суждению, а затем узнал, что ошибся в направлении киблы",
+        "es": "Norma sobre quien reza según su mejor juicio y luego descubre que erró la dirección de la alquibla",
+        "uk": "Постанова про того, хто помолився за своїм судженням, а потім дізнався, що помилився в напрямку кибли"
+      },
+      "summary": {
+        "ar": "هل تصحّ صلاة من اجتهد في القبلة ثم تبيّن أنه صلّى إلى غير جهتها، وهل تلزمه الإعادة؟",
+        "en": "Is the prayer valid for one who used his best judgement about the qibla and then found he had prayed away from it, and must he repeat it?",
+        "ru": "Действительна ли молитва того, кто приложил усилие в определении киблы, а затем обнаружил, что молился не в её сторону, и обязан ли он повторить?",
+        "es": "¿Es válida la oración de quien se esforzó por determinar la alquibla y luego descubrió que rezó fuera de su dirección, y debe repetirla?",
+        "uk": "Чи дійсна молитва того, хто доклав зусиль у визначенні кибли, а потім виявив, що молився не в її бік, і чи зобов'язаний він повторити?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "من تحرّى جهة القبلة واجتهد ثم صلّى فتبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه، لأنه أتى بما في وسعه.",
+            "en": "Whoever seeks out the direction of the qibla by his best judgement and prays, then learns of his error, his prayer is valid and no repetition is due, for he did what lay within his capacity.",
+            "ru": "Тот, кто приложил усилие в определении стороны киблы и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется, ибо он сделал то, что было в его силах.",
+            "es": "Quien busca la dirección de la alquibla con su mejor juicio y reza, y luego descubre su error, su oración es válida y no le corresponde repetirla, pues hizo cuanto estaba en su capacidad.",
+            "uk": "Той, хто доклав зусиль у визначенні сторони кибли й помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається, бо він зробив те, що було в його силах."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mandub",
+          "text": {
+            "ar": "من اجتهد وصلّى ثم تبيّن له الخطأ أجزأته صلاته ولا إعادة عليه بعد خروج الوقت، وتُستحبّ له الإعادة في الوقت.",
+            "en": "Whoever uses his best judgement and prays, then learns of his error, his prayer suffices and no repetition is due once the time has passed; repeating it within the time is recommended.",
+            "ru": "Тому, кто приложил усилие и помолился, а затем узнал об ошибке, молитва засчитывается, и повторение не требуется по истечении времени; повторить её в отведённое время желательно.",
+            "es": "A quien se esfuerza y reza, y luego descubre su error, le basta su oración y no debe repetirla pasado el tiempo; repetirla dentro del tiempo es recomendable.",
+            "uk": "Тому, хто доклав зусиль і помолився, а потім дізнався про помилку, молитва зараховується, і повторення не вимагається після закінчення часу; повторити її у відведений час бажано."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "من صلّى بالاجتهاد ثم تيقّن الخطأ وجبت عليه إعادة الصلاة في الوقت وبعده، لأن استقبال القبلة شرط تبيّن عدم تحقّقه.",
+            "en": "Whoever prays by his best judgement and then becomes certain of the error must repeat the prayer, within its time and after it, because facing the qibla is a condition that has been shown not to have been met.",
+            "ru": "Тот, кто помолился по своему суждению, а затем убедился в ошибке, обязан повторить молитву — и в её время, и после него, — поскольку обращение к кибле есть условие, невыполнение которого выяснилось.",
+            "es": "Quien reza según su juicio y luego se cerciora del error debe repetir la oración, dentro de su tiempo y después de él, porque orientarse a la alquibla es una condición cuya falta ha quedado en evidencia.",
+            "uk": "Той, хто помолився за своїм судженням, а потім переконався в помилці, зобов'язаний повторити молитву — і в її час, і після нього, — оскільки обернення до кибли є умовою, невиконання якої з'ясувалося."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "من كان عارفاً بأدلّة القبلة فتحرّى وصلّى ثم تبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه بحال، لقوله تعالى: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ ولحديث عامر بن ربيعة رضي الله عنه.",
+            "en": "One who knows the indications of the qibla, seeks it out by his best judgement and prays, then learns of his error, his prayer is valid and no repetition is due in any case — on the strength of the Qurʾānic verse (al-Baqarah 115) and the hadith of ʿĀmir ibn Rabīʿah.",
+            "ru": "Тот, кто знает признаки киблы, приложил усилие и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется ни в каком случае, на основании коранического аята (аль-Бакара, 115) и хадиса Амира ибн Рабии.",
+            "es": "Quien conoce los indicios de la alquibla, la busca con su mejor juicio y reza, y luego descubre su error, su oración es válida y no debe repetirla en ningún caso, por la aleya coránica (al-Baqarah 115) y el hadiz de ʿĀmir ibn Rabīʿah.",
+            "uk": "Той, хто знає ознаки кибли, доклав зусиль і помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається в жодному разі, на підставі коранічного аяту (аль-Бакара, 115) та хадиса Аміра ібн Рабії."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
+      "id": "salah-24",
+      "ref": "F70",
+      "bookId": "salah",
+      "number": 16,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم اشتراط مقارنة النية لتكبيرة الإحرام",
+        "en": "Whether the Intention Must Coincide with the Opening Takbīr",
+        "ru": "Требуется ли одновременность намерения со вступительным такбиром",
+        "es": "Si la intención debe coincidir con el takbīr de apertura",
+        "uk": "Чи має намір збігатися зі вступним такбіром"
+      },
+      "summary": {
+        "ar": "هل تُشترط مقارنة النية لتكبيرة الإحرام، أم تُجزئ النية المتقدّمة عليها بزمن يسير؟",
+        "en": "Must the intention coincide with the opening takbīr, or does an intention formed a short while before it suffice?",
+        "ru": "Требуется ли, чтобы намерение совпало со вступительным такбиром, или достаточно намерения, составленного незадолго до него?",
+        "es": "¿Debe la intención coincidir con el takbīr de apertura, o basta una intención formada poco antes?",
+        "uk": "Чи має намір збігатися зі вступним такбіром, чи достатньо наміру, складеного незадовго до нього?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا تُشترط مقارنة النية لتكبيرة الإحرام، بل يصحّ تقدّمها عليه بزمن يسير ما لم يفصل بينهما عملٌ أجنبيّ كالكلام والأكل.",
+            "en": "The intention need not coincide with the opening takbīr; it is valid for it to precede the takbīr by a short while, so long as no extraneous act such as speech or eating comes between them.",
+            "ru": "Одновременность намерения со вступительным такбиром не требуется; намерение может предшествовать такбиру на короткое время, если между ними не вклинилось постороннее действие — речь или еда.",
+            "es": "No se requiere que la intención coincida con el takbīr de apertura; es válido que lo preceda por un breve lapso, siempre que no se interponga un acto ajeno como hablar o comer.",
+            "uk": "Одночасність наміру зі вступним такбіром не вимагається; намір може передувати такбіру на короткий час, якщо між ними не вклинилася стороння дія — мова чи їжа."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تجب مقارنة النية للتكبير أو تقدّمها عليه بزمن يسير جدّاً متّصل به، فإن تقدّمت بزمن كثير أو وقع فاصل لم تصحّ الصلاة.",
+            "en": "The intention must coincide with the takbīr, or precede it by a very short span joined to it; if it precedes by a long span or an interruption occurs, the prayer is not valid.",
+            "ru": "Обязательна одновременность намерения с такбиром либо его предшествование на очень короткое, непосредственно примыкающее время; если оно предшествует на долгое время или произошёл разрыв, молитва недействительна.",
+            "es": "Es obligatorio que la intención coincida con el takbīr, o que lo preceda por un lapso muy breve unido a él; si lo precede por un lapso largo o media una interrupción, la oración no es válida.",
+            "uk": "Обов'язкова одночасність наміру з такбіром або його передування на дуже короткий, безпосередньо прилеглий час; якщо воно передує на тривалий час або стався розрив, молитва недійсна."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تُشترط مقارنة النية لتكبيرة الإحرام، فيجب اقترانها بابتداء التكبير واستصحابها إلى انتهائه.",
+            "en": "The intention must coincide with the opening takbīr: it must accompany the beginning of the takbīr and be sustained to its end.",
+            "ru": "Требуется одновременность намерения со вступительным такбиром: оно должно сопровождать начало такбира и сохраняться до его конца.",
+            "es": "Se requiere que la intención coincida con el takbīr de apertura: debe acompañar el comienzo del takbīr y mantenerse hasta su final.",
+            "uk": "Вимагається одночасність наміру зі вступним такбіром: він має супроводжувати початок такбіру й зберігатися до його кінця."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا تُشترط مقارنة النية لتكبيرة الإحرام، بل يجوز تقدّمها عليه بزمن يسير ما لم يفسخها، ومقارنتها للتكبير أفضل.",
+            "en": "The intention need not coincide with the opening takbīr; it may precede it by a short while so long as he does not revoke it, and coinciding with the takbīr is better.",
+            "ru": "Одновременность намерения со вступительным такбиром не требуется; оно может предшествовать ему на короткое время, если он его не отменил, а совпадение с такбиром лучше.",
+            "es": "No se requiere que la intención coincida con el takbīr de apertura; puede precederlo por un breve lapso mientras no la revoque, y coincidir con el takbīr es mejor.",
+            "uk": "Одночасність наміру зі вступним такбіром не вимагається; він може передувати йому на короткий час, якщо він його не скасував, а збіг із такбіром кращий."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
+      "id": "salah-25",
+      "ref": "F71",
+      "bookId": "salah",
+      "number": 17,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم التلفّظ بالنية في الصلاة",
+        "en": "The Ruling on Uttering the Intention Aloud in the Prayer",
+        "ru": "Постановление о произнесении намерения языком в молитве",
+        "es": "La norma sobre pronunciar la intención con la lengua en la oración",
+        "uk": "Постанова про виголошення наміру язиком у молитві"
+      },
+      "summary": {
+        "ar": "ما حكم التلفّظ بالنية باللسان عند الشروع في الصلاة، أم يُكتفى بمحلّها وهو القلب؟",
+        "en": "What is the ruling on uttering the intention with the tongue when beginning the prayer, or does its seat in the heart suffice?",
+        "ru": "Каково постановление о произнесении намерения языком при начале молитвы, или достаточно его места — сердца?",
+        "es": "¿Cuál es la norma sobre pronunciar la intención con la lengua al comenzar la oración, o basta con su sede, que es el corazón?",
+        "uk": "Яка постанова про виголошення наміру язиком на початку молитви, чи достатньо його місця — серця?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mandub",
+          "text": {
+            "ar": "محلّ النية القلب، ويُستحبّ التلفّظ بها باللسان ليجتمع عزم القلب مع فعل اللسان، ودفعاً للوساوس.",
+            "en": "The seat of the intention is the heart, and uttering it with the tongue is recommended, so that the heart's resolve is joined to the tongue's act, and to keep intrusive thoughts at bay.",
+            "ru": "Место намерения — сердце, а произносить его языком желательно, чтобы решимость сердца соединилась с действием языка и чтобы отогнать наваждения.",
+            "es": "La sede de la intención es el corazón, y pronunciarla con la lengua es recomendable, para que la resolución del corazón se una al acto de la lengua y para apartar las obsesiones.",
+            "uk": "Місце наміру — серце, а виголошувати його язиком бажано, щоб рішучість серця поєдналася з дією язика і щоб відігнати нав'язливі думки."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "makruh",
+          "text": {
+            "ar": "محلّ النية القلب، والتلفّظ بها خلاف الأولى لعدم ثبوته عن النبي ﷺ، ويُستحبّ للموسوس خاصّة دفعاً للشكّ.",
+            "en": "The seat of the intention is the heart, and uttering it is contrary to what is preferable, since it is not established from the Prophet ﷺ; it is recommended only for one afflicted with obsessive doubt, to drive that doubt away.",
+            "ru": "Место намерения — сердце, а произносить его — вопреки предпочтительному, поскольку это не установлено от Пророка ﷺ; оно желательно лишь для страдающего навязчивым сомнением, чтобы отогнать это сомнение.",
+            "es": "La sede de la intención es el corazón, y pronunciarla es contrario a lo preferible, pues no está establecido del Profeta ﷺ; se recomienda solo a quien padece dudas obsesivas, para apartarlas.",
+            "uk": "Місце наміру — серце, а виголошувати його — всупереч кращому, оскільки це не встановлено від Пророка ﷺ; воно бажане лише для того, хто страждає на нав'язливий сумнів, щоб відігнати цей сумнів."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ التلفّظ بالنية سرّاً قبل التكبير ليُعين اللسانُ القلبَ، فتحضر النية بجميع أجزائها عند تكبيرة الإحرام.",
+            "en": "It is a sunnah to utter the intention quietly before the takbīr, so that the tongue assists the heart and the intention is present in all its parts at the opening takbīr.",
+            "ru": "Сунной является произнести намерение про себя перед такбиром, чтобы язык помог сердцу и намерение присутствовало во всех своих частях при вступительном такбире.",
+            "es": "Es sunnah pronunciar la intención en voz baja antes del takbīr, para que la lengua asista al corazón y la intención esté presente en todas sus partes en el takbīr de apertura.",
+            "uk": "Сунною є виголосити намір про себе перед такбіром, щоб язик допоміг серцю і намір був присутній у всіх своїх частинах при вступному такбірі."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mandub",
+          "text": {
+            "ar": "محلّ النية القلب، ويُستحبّ التلفّظ بها سرّاً ليوافق اللسانُ القلبَ، ولا يُشرع الجهر بها بحال.",
+            "en": "The seat of the intention is the heart, and uttering it quietly is recommended so that the tongue agrees with the heart; saying it aloud is not prescribed in any case.",
+            "ru": "Место намерения — сердце, и желательно произносить его про себя, чтобы язык согласовался с сердцем; произносить его вслух не предписано ни в каком случае.",
+            "es": "La sede de la intención es el corazón, y se recomienda pronunciarla en voz baja para que la lengua concuerde con el corazón; decirla en voz alta no está prescrito en ningún caso.",
+            "uk": "Місце наміру — серце, і бажано виголошувати його про себе, щоб язик узгоджувався із серцем; виголошувати його вголос не приписано в жодному разі."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 12,
+      "number": 18,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -11541,7 +12517,7 @@
       "id": "salah-15",
       "ref": "F45",
       "bookId": "salah",
-      "number": 13,
+      "number": 19,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -11706,7 +12682,7 @@
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 14,
+      "number": 20,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -11815,10 +12791,335 @@
       }
     },
     {
+      "id": "salah-26",
+      "ref": "F72",
+      "bookId": "salah",
+      "number": 21,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter on the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo sobre la descripción de la oración",
+        "uk": "Розділ про опис молитви"
+      },
+      "title": {
+        "ar": "صيغة دعاء الاستفتاح وحكم الجهر به",
+        "en": "The Wording of the Opening Supplication and the Ruling on Saying It Aloud",
+        "ru": "Формулировка вступительной мольбы и постановление о её произнесении вслух",
+        "es": "La fórmula de la súplica de apertura y la norma sobre decirla en voz alta",
+        "uk": "Формулювання вступної мольби та постанова про її виголошення вголос"
+      },
+      "summary": {
+        "ar": "ما صيغة دعاء الاستفتاح عند كل مذهب، وهل يُجهر به أم يُسرّ؟",
+        "en": "What is the wording of the opening supplication in each school, and is it said aloud or silently?",
+        "ru": "Каково формулирование вступительной мольбы в каждом мазхабе, и произносится ли она вслух или про себя?",
+        "es": "¿Cuál es la fórmula de la súplica de apertura en cada escuela, y se dice en voz alta o en voz baja?",
+        "uk": "Яке формулювання вступної мольби в кожному мазгабі, і чи виголошується вона вголос чи про себе?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "صيغة الاستفتاح: «سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلَا إِلَهَ غَيْرُكَ»، ويُسنّ الإسرار به للإمام والمأموم والمنفرد، ويُكره الجهر به.",
+            "en": "The wording is: “Glory be to You, O Allah, and praise; blessed is Your name, exalted is Your majesty, and there is no god but You.” Saying it silently is a sunnah for the imam, the follower and one praying alone, and saying it aloud is disliked.",
+            "ru": "Формулировка: «Пречист Ты, о Аллах, и хвала Тебе; благословенно имя Твоё, превыше всего величие Твоё, и нет божества, кроме Тебя». Произносить её про себя — сунна для имама, следующего за ним и молящегося в одиночку, а вслух — нежелательно.",
+            "es": "La fórmula es: «Glorificado seas, oh Allah, y alabado; bendito sea Tu nombre, excelsa Tu majestad, y no hay dios sino Tú». Decirla en voz baja es sunnah para el imam, el seguidor y quien reza solo, y decirla en voz alta es reprobable.",
+            "uk": "Формулювання: «Пречистий Ти, о Аллаху, і хвала Тобі; благословенне ім'я Твоє, превисока велич Твоя, і немає божества, крім Тебе». Виголошувати її про себе — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, а вголос — небажано."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "makruh",
+          "text": {
+            "ar": "يُكره دعاء الاستفتاح في الفريضة، ويُبدأ بالقراءة عقب التكبير؛ ويُندب في النفل ويُسرّ به.",
+            "en": "The opening supplication is disliked in the obligatory prayer, and the recitation begins straight after the takbīr; it is recommended in voluntary prayer and said silently.",
+            "ru": "Вступительная мольба нежелательна в обязательной молитве, и чтение начинается сразу после такбира; она желательна в добровольной молитве и произносится про себя.",
+            "es": "La súplica de apertura es reprobable en la oración obligatoria, y la recitación comienza justo después del takbīr; es recomendable en la oración voluntaria y se dice en voz baja.",
+            "uk": "Вступна мольба небажана в обов'язковій молитві, і читання починається одразу після такбіру; вона бажана в добровільній молитві й виголошується про себе."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "صيغة الاستفتاح: «وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ»، ويُسنّ الإسرار به لجميع المصلّين في السرّية والجهرية.",
+            "en": "The wording is: “I have turned my face to Him who originated the heavens and the earth, upright and submitting, and I am not of those who associate.” Saying it silently is a sunnah for all who pray, in both the silent and the audible prayers.",
+            "ru": "Формулировка: «Я обратил лицо своё к Тому, Кто сотворил небеса и землю, будучи ханифом и предавшимся, и я не из многобожников». Произносить её про себя — сунна для всех молящихся, и в тихих, и в громких молитвах.",
+            "es": "La fórmula es: «He vuelto mi rostro hacia Quien originó los cielos y la tierra, siendo ḥanīf y sometido, y no soy de los que asocian». Decirla en voz baja es sunnah para todos los orantes, tanto en las oraciones silenciosas como en las audibles.",
+            "uk": "Формулювання: «Я звернув обличчя своє до Того, Хто створив небеса й землю, будучи ганіфом і відданим, і я не з багатобожників». Виголошувати її про себе — сунна для всіх, хто молиться, і в тихих, і в гучних молитвах."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "صيغة الاستفتاح: «سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَى جَدُّكَ، وَلَا إِلَهَ غَيْرُكَ»، ويُسنّ الإسرار به دائماً للإمام والمأموم والمنفرد، إذ لم يُنقل الجهر به عن النبي ﷺ وأصحابه.",
+            "en": "The wording is: “Glory be to You, O Allah, and praise; blessed is Your name, exalted is Your majesty, and there is no god but You.” Saying it silently is always a sunnah for the imam, the follower and one praying alone, since saying it aloud was not transmitted from the Prophet ﷺ or his Companions.",
+            "ru": "Формулировка: «Пречист Ты, о Аллах, и хвала Тебе; благословенно имя Твоё, превыше всего величие Твоё, и нет божества, кроме Тебя». Произносить её про себя — всегда сунна для имама, следующего за ним и молящегося в одиночку, поскольку произнесение вслух не передано ни от Пророка ﷺ, ни от его сподвижников.",
+            "es": "La fórmula es: «Glorificado seas, oh Allah, y alabado; bendito sea Tu nombre, excelsa Tu majestad, y no hay dios sino Tú». Decirla en voz baja es siempre sunnah para el imam, el seguidor y quien reza solo, pues decirla en voz alta no se ha transmitido del Profeta ﷺ ni de sus Compañeros.",
+            "uk": "Формулювання: «Пречистий Ти, о Аллаху, і хвала Тобі; благословенне ім'я Твоє, превисока велич Твоя, і немає божества, крім Тебе». Виголошувати її про себе — завжди сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, оскільки виголошення вголос не передане ні від Пророка ﷺ, ні від його сподвижників."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
+      "id": "salah-27",
+      "ref": "F73",
+      "bookId": "salah",
+      "number": 22,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter on the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo sobre la descripción de la oración",
+        "uk": "Розділ про опис молитви"
+      },
+      "title": {
+        "ar": "حكم البسملة في الفاتحة والجهر بها",
+        "en": "Whether the Basmalah Is Part of al-Fātiḥah, and the Ruling on Saying It Aloud",
+        "ru": "Является ли басмала частью аль-Фатихи и постановление о её произнесении вслух",
+        "es": "Si la basmalah forma parte de al-Fātiḥah y la norma sobre decirla en voz alta",
+        "uk": "Чи є басмала частиною аль-Фатіхи та постанова про її виголошення вголос"
+      },
+      "summary": {
+        "ar": "هل البسملة آية من الفاتحة، وما حكم الجهر بها أو الإسرار في الصلاة؟",
+        "en": "Is the basmalah a verse of al-Fātiḥah, and is it said aloud or silently in the prayer?",
+        "ru": "Является ли басмала аятом аль-Фатихи, и произносится ли она вслух или про себя в молитве?",
+        "es": "¿Es la basmalah una aleya de al-Fātiḥah, y se dice en voz alta o en voz baja en la oración?",
+        "uk": "Чи є басмала аятом аль-Фатіхи, і чи виголошується вона вголос чи про себе в молитві?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "البسملة ليست آية من الفاتحة، وتُسنّ قراءتها سرّاً قبل الفاتحة في كل ركعة للإمام والمنفرد، ويُسرّ بها ولو في الصلاة الجهرية.",
+            "en": "The basmalah is not a verse of al-Fātiḥah; reciting it silently before al-Fātiḥah in every unit is a sunnah for the imam and one praying alone, and it is said silently even in the audible prayer.",
+            "ru": "Басмала не является аятом аль-Фатихи; читать её про себя перед аль-Фатихой в каждом ракаате — сунна для имама и молящегося в одиночку, и она произносится про себя даже в громкой молитве.",
+            "es": "La basmalah no es una aleya de al-Fātiḥah; recitarla en voz baja antes de al-Fātiḥah en cada rakʿah es sunnah para el imam y quien reza solo, y se dice en voz baja incluso en la oración audible.",
+            "uk": "Басмала не є аятом аль-Фатіхи; читати її про себе перед аль-Фатіхою в кожному ракааті — сунна для імама й того, хто молиться самотою, і вона виголошується про себе навіть у гучній молитві."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "makruh",
+          "text": {
+            "ar": "تُكره قراءة البسملة قبل الفاتحة أو السورة في الفريضة سرّاً وجهراً للإمام والمأموم والمنفرد، وتُندب في النفل سرّاً.",
+            "en": "Reciting the basmalah before al-Fātiḥah or the sūrah in the obligatory prayer is disliked, whether silently or aloud, for the imam, the follower and one praying alone; it is recommended silently in voluntary prayer.",
+            "ru": "Чтение басмалы перед аль-Фатихой или сурой в обязательной молитве нежелательно — и про себя, и вслух — для имама, следующего за ним и молящегося в одиночку; оно желательно про себя в добровольной молитве.",
+            "es": "Recitar la basmalah antes de al-Fātiḥah o de la sūrah en la oración obligatoria es reprobable, en voz baja o alta, para el imam, el seguidor y quien reza solo; es recomendable en voz baja en la oración voluntaria.",
+            "uk": "Читання басмали перед аль-Фатіхою або сурою в обов'язковій молитві небажане — і про себе, і вголос — для імама, того, хто молиться за ним, і того, хто молиться самотою; воно бажане про себе в добровільній молитві."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "البسملة آية كاملة من الفاتحة، فتجب قراءتها معها لصحّة الصلاة، ويُجهر بها في الجهرية ويُسرّ بها في السرّية.",
+            "en": "The basmalah is a full verse of al-Fātiḥah, so reciting it with the sūrah is obligatory for the prayer's validity; it is said aloud in the audible prayer and silently in the silent one.",
+            "ru": "Басмала — полный аят аль-Фатихи, поэтому её чтение вместе с сурой обязательно для действительности молитвы; она произносится вслух в громкой молитве и про себя в тихой.",
+            "es": "La basmalah es una aleya completa de al-Fātiḥah, por lo que recitarla con la sūrah es obligatorio para la validez de la oración; se dice en voz alta en la oración audible y en voz baja en la silenciosa.",
+            "uk": "Басмала — повний аят аль-Фатіхи, тож її читання разом із сурою обов'язкове для дійсності молитви; вона виголошується вголос у гучній молитві та про себе в тихій."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "البسملة آية من الفاتحة تُقرأ معها، ويُسنّ الإسرار بها دائماً للإمام والمنفرد في الجهرية والسرّية، ولا يُسنّ الجهر بها.",
+            "en": "The basmalah is a verse of al-Fātiḥah recited with it; saying it silently is always a sunnah for the imam and one praying alone, in both the audible and the silent prayer, and saying it aloud is not a sunnah.",
+            "ru": "Басмала — аят аль-Фатихи, читаемый вместе с ней; произносить её про себя — всегда сунна для имама и молящегося в одиночку, и в громкой, и в тихой молитве, а произносить вслух — не сунна.",
+            "es": "La basmalah es una aleya de al-Fātiḥah que se recita con ella; decirla en voz baja es siempre sunnah para el imam y quien reza solo, tanto en la oración audible como en la silenciosa, y decirla en voz alta no es sunnah.",
+            "uk": "Басмала — аят аль-Фатіхи, що читається разом із нею; виголошувати її про себе — завжди сунна для імама й того, хто молиться самотою, і в гучній, і в тихій молитві, а виголошувати вголос — не сунна."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 15,
+      "number": 23,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -11923,7 +13224,7 @@
       "id": "salah-18",
       "ref": "F48",
       "bookId": "salah",
-      "number": 16,
+      "number": 24,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -12081,10 +13382,338 @@
       }
     },
     {
+      "id": "salah-28",
+      "ref": "F74",
+      "bookId": "salah",
+      "number": 25,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter on the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo sobre la descripción de la oración",
+        "uk": "Розділ про опис молитви"
+      },
+      "title": {
+        "ar": "حكم التأمين والجهر به بعد الفاتحة",
+        "en": "The Ruling on Saying Āmīn and on Saying It Aloud after al-Fātiḥah",
+        "ru": "Постановление о произнесении «Амин» и о его произнесении вслух после аль-Фатихи",
+        "es": "La norma sobre decir āmīn y sobre decirlo en voz alta tras al-Fātiḥah",
+        "uk": "Постанова про виголошення «Амін» та про його виголошення вголос після аль-Фатіхи"
+      },
+      "summary": {
+        "ar": "ما حكم قول «آمين» بعد الفاتحة، وهل يُجهر به أم يُسرّ؟",
+        "en": "What is the ruling on saying “āmīn” after al-Fātiḥah, and is it said aloud or silently?",
+        "ru": "Каково постановление о произнесении «амин» после аль-Фатихи, и произносится ли оно вслух или про себя?",
+        "es": "¿Cuál es la norma sobre decir «āmīn» tras al-Fātiḥah, y se dice en voz alta o en voz baja?",
+        "uk": "Яка постанова про виголошення «амін» після аль-Фатіхи, і чи виголошується воно вголос чи про себе?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "التأمين سنة للإمام والمأموم والمنفرد عقب الفاتحة، ويُسنّ الإسرار به في الجهرية والسرّية.",
+            "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone after al-Fātiḥah, and saying it silently is a sunnah in both the audible and the silent prayer.",
+            "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку после аль-Фатихи, и произносить его про себя — сунна и в громкой, и в тихой молитве.",
+            "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo tras al-Fātiḥah, y decirlo en voz baja es sunnah tanto en la oración audible como en la silenciosa.",
+            "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, після аль-Фатіхи, і виголошувати його про себе — сунна і в гучній, і в тихій молитві."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ التأمين سرّاً للمأموم والمنفرد، ويؤمّن الإمام سرّاً في السرّية ولا يؤمّن في الجهرية.",
+            "en": "Saying āmīn silently is a sunnah for the follower and one praying alone; the imam says it silently in the silent prayer and does not say it in the audible prayer.",
+            "ru": "Произносить «амин» про себя — сунна для следующего за имамом и молящегося в одиночку; имам произносит его про себя в тихой молитве и не произносит в громкой.",
+            "es": "Decir āmīn en voz baja es sunnah para el seguidor y quien reza solo; el imam lo dice en voz baja en la oración silenciosa y no lo dice en la audible.",
+            "uk": "Виголошувати «амін» про себе — сунна для того, хто молиться за імамом, і того, хто молиться самотою; імам виголошує його про себе в тихій молитві й не виголошує в гучній."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "التأمين سنة للإمام والمأموم والمنفرد عقب الفاتحة، ويُجهر به في الجهرية للجميع، ويُسرّ به في السرّية.",
+            "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone after al-Fātiḥah; it is said aloud by all in the audible prayer and silently in the silent one.",
+            "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку после аль-Фатихи; в громкой молитве его произносят вслух все, а в тихой — про себя.",
+            "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo tras al-Fātiḥah; se dice en voz alta por todos en la oración audible y en voz baja en la silenciosa.",
+            "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою, після аль-Фатіхи; у гучній молитві його виголошують уголос усі, а в тихій — про себе."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ التأمين للإمام والمأموم والمنفرد، ويُجهر به الإمام والمأموم في الجهرية لحديث وائل بن حُجر رضي الله عنه، ويُسرّ به في السرّية.",
+            "en": "Saying āmīn is a sunnah for the imam, the follower and one praying alone; the imam and the follower say it aloud in the audible prayer, on the strength of the hadith of Wāʾil ibn Ḥujr, and silently in the silent prayer.",
+            "ru": "Произнесение «амин» — сунна для имама, следующего за ним и молящегося в одиночку; имам и следующий за ним произносят его вслух в громкой молитве — на основании хадиса Ваиля ибн Худжра — и про себя в тихой.",
+            "es": "Decir āmīn es sunnah para el imam, el seguidor y quien reza solo; el imam y el seguidor lo dicen en voz alta en la oración audible, por el hadiz de Wāʾil ibn Ḥujr, y en voz baja en la silenciosa.",
+            "uk": "Виголошення «амін» — сунна для імама, того, хто молиться за ним, і того, хто молиться самотою; імам і той, хто молиться за ним, виголошують його вголос у гучній молитві — на підставі хадиса Ваїля ібн Худжра — і про себе в тихій."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
+      "id": "salah-29",
+      "ref": "F75",
+      "bookId": "salah",
+      "number": 26,
+      "chapter": {
+        "ar": "باب صفة الصلاة",
+        "en": "Chapter on the Description of the Prayer",
+        "ru": "Раздел об описании молитвы",
+        "es": "Capítulo sobre la descripción de la oración",
+        "uk": "Розділ про опис молитви"
+      },
+      "title": {
+        "ar": "أقلّ ما يُجزئ من الانحناء في الركوع",
+        "en": "The Least Bending That Suffices for the Bowing",
+        "ru": "Наименьший наклон, которого достаточно для поясного поклона",
+        "es": "La menor inclinación que basta para la reverencia",
+        "uk": "Найменший нахил, якого достатньо для поясного уклону"
+      },
+      "summary": {
+        "ar": "ما القدر الأدنى من الانحناء الذي يتحقّق به الركوع للقادر على القيام؟",
+        "en": "What is the least degree of bending by which the bowing is realised for one able to stand?",
+        "ru": "Какова наименьшая степень наклона, при которой поясной поклон считается совершённым для способного стоять?",
+        "es": "¿Cuál es el menor grado de inclinación con el que se realiza la reverencia para quien puede permanecer de pie?",
+        "uk": "Який найменший ступінь нахилу, при якому поясний уклін вважається здійсненим для того, хто здатний стояти?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "أقلّ ما يُجزئ أن ينحني بحيث لو مدّ يديه نالتا ركبتيه، أو يكون إلى الركوع أقرب منه إلى القيام.",
+            "en": "The least that suffices is to bend such that, were he to stretch out his hands, they would reach his knees, or that he be nearer to bowing than to standing.",
+            "ru": "Наименьшее, чего достаточно, — согнуться так, что если бы он вытянул руки, они достали бы до колен, либо чтобы он был ближе к поклону, чем к стоянию.",
+            "es": "Lo menos que basta es inclinarse de modo que, si extendiera las manos, alcanzarían sus rodillas, o que esté más cerca de la reverencia que de estar de pie.",
+            "uk": "Найменше, чого достатньо, — зігнутися так, що якби він витягнув руки, вони дістали б колін, або щоб він був ближче до уклону, ніж до стояння."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "أقلّ ما يُجزئ أن ينحني حتى تمسّ راحتاه ركبتيه لو وضعهما عليهما، ولا تُشترط تسوية الظهر.",
+            "en": "The least that suffices is to bend until his palms would touch his knees were he to place them upon them, and levelling the back is not a condition.",
+            "ru": "Наименьшее, чего достаточно, — согнуться так, чтобы его ладони коснулись колен, если бы он положил их на них, и выпрямление спины не является условием.",
+            "es": "Lo menos que basta es inclinarse hasta que sus palmas tocarían sus rodillas si las pusiera sobre ellas, y nivelar la espalda no es condición.",
+            "uk": "Найменше, чого достатньо, — зігнутися так, щоб його долоні торкнулися колін, якби він поклав їх на них, і вирівнювання спини не є умовою."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "أقلّ ما يُجزئ مستوي الخلقة أن ينحني بحيث تنال راحتاه ركبتيه لو أراد وضعهما عليهما، من غير أن يثني ركبتيه.",
+            "en": "For one of ordinary build, the least that suffices is to bend such that his palms would reach his knees were he to intend placing them upon them, without bending his knees.",
+            "ru": "Для человека обычного сложения наименьшее, чего достаточно, — согнуться так, чтобы его ладони достали до колен, если бы он захотел положить их на них, не сгибая коленей.",
+            "es": "Para quien es de constitución normal, lo menos que basta es inclinarse de modo que sus palmas alcanzarían sus rodillas si quisiera ponerlas sobre ellas, sin doblar las rodillas.",
+            "uk": "Для людини звичайної будови найменше, чого достатньо, — зігнутися так, щоб його долоні дістали колін, якби він захотів покласти їх на них, не згинаючи колін."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "أقلّ ما يُجزئ القائم أن ينحني حتى تمسّ يداه ركبتيه لو وضعهما عليهما، وتسوية الظهر سنة لا شرط.",
+            "en": "For one standing, the least that suffices is to bend until his hands would touch his knees were he to place them upon them; levelling the back is a sunnah, not a condition.",
+            "ru": "Для стоящего наименьшее, чего достаточно, — согнуться так, чтобы его руки коснулись колен, если бы он положил их на них; выпрямление спины — сунна, а не условие.",
+            "es": "Para quien está de pie, lo menos que basta es inclinarse hasta que sus manos tocarían sus rodillas si las pusiera sobre ellas; nivelar la espalda es sunnah, no condición.",
+            "uk": "Для того, хто стоїть, найменше, чого достатньо, — зігнутися так, щоб його руки торкнулися колін, якби він поклав їх на них; вирівнювання спини — сунна, а не умова."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 17,
+      "number": 27,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -12241,7 +13870,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 18,
+      "number": 28,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -12402,7 +14031,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 19,
+      "number": 29,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",
@@ -14917,6 +16546,126 @@
           "uk": "«Зад аль-Ма‘ад»"
         }
       ]
+    },
+    {
+      "id": "christian-schisms",
+      "ref": "M6",
+      "chapter": {
+        "ar": "باب نقد الأديان والمذاهب",
+        "en": "Chapter on the Critique of Religions and Doctrines",
+        "ru": "Раздел про критику религий и вероучений",
+        "es": "Capítulo sobre la crítica de las religiones y doctrinas",
+        "uk": "Розділ про критику релігій та віровчень"
+      },
+      "title": {
+        "ar": "أسباب تفرّق النصارى إلى فرق متعدّدة، وكيف عالج الإسلام هذا الاختلاف",
+        "en": "Why the Christians Split into Many Denominations, and How Islam Settled the Dispute",
+        "ru": "Причины разделения христиан на множество течений и как ислам разрешил это разногласие",
+        "es": "Por qué los cristianos se dividieron en múltiples confesiones y cómo el islam zanjó la disputa",
+        "uk": "Чому християни розділилися на численні конфесії та як іслам вирішив це розходження"
+      },
+      "excerpt": {
+        "ar": "الأسباب التاريخية والعَقَدية لتشعّب النصارى إلى طوائف كبرى، وكيف جاء القرآن بالقول الفصل في حقيقة المسيح عليه السلام.",
+        "en": "The historical and doctrinal reasons the Christians branched into major denominations, and how the Qurʾān settled the matter of the Messiah, peace be upon him.",
+        "ru": "Исторические и вероучительные причины разделения христиан на крупные течения и то, как Коран вынес окончательное слово о Мессии, мир ему.",
+        "es": "Las razones históricas y doctrinales por las que los cristianos se ramificaron en grandes confesiones, y cómo el Corán zanjó la cuestión del Mesías, la paz sea con él.",
+        "uk": "Історичні та віровчительні причини розділення християн на великі течії і те, як Коран виніс остаточне слово про Месію, мир йому."
+      },
+      "relatedRefs": [],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "شهد تاريخ النصارى انقسامات حادّة أفضت إلى طوائف كبرى — الأرثوذكس والكاثوليك والبروتستانت — ومدار أكثرها على الخلاف في طبيعة المسيح عليه السلام وفي عقيدة التثليث.\n\nوقد أشار القرآن إلى هذا التفرّق وإلى ما دخل الكتب السابقة من تبديل، وبيّن أن الرسالة الخاتمة جاءت مهيمنةً على ما قبلها مصحّحةً لما دخله.",
+            "en": "The history of the Christians saw sharp divisions that issued in major denominations — Orthodox, Catholic and Protestant — most of them turning on disagreement over the nature of the Messiah, peace be upon him, and over the doctrine of the Trinity.\n\nThe Qurʾān pointed to this division and to the alteration that entered the earlier scriptures, and made clear that the final message came as a criterion over what preceded it, correcting what had crept in.",
+            "ru": "История христиан знала острые расколы, которые привели к возникновению крупных течений — православия, католицизма и протестантизма, — и большинство из них вращалось вокруг разногласия о природе Мессии, мир ему, и о догмате Троицы.\n\nКоран указал на это разделение и на искажение, вошедшее в прежние Писания, и разъяснил, что завершающее послание пришло как мерило для предшествующего, исправляя то, что в него проникло.",
+            "es": "La historia de los cristianos conoció divisiones agudas que desembocaron en grandes confesiones — ortodoxos, católicos y protestantes —, y la mayoría giraba en torno al desacuerdo sobre la naturaleza del Mesías, la paz sea con él, y sobre el dogma de la Trinidad.\n\nEl Corán señaló esta división y la alteración que entró en las escrituras anteriores, y aclaró que el mensaje final vino como criterio sobre lo precedente, corrigiendo lo que se había infiltrado.",
+            "uk": "Історія християн знала гострі розколи, що призвели до виникнення великих конфесій — православ'я, католицизму та протестантизму, — і більшість із них оберталася навколо розходження про природу Месії, мир йому, та про догмат Трійці.\n\nКоран указав на це розділення та на перекручування, що ввійшло в попередні Писання, і роз'яснив, що завершальне послання прийшло як мірило для попереднього, виправляючи те, що в нього проникло."
+          }
+        },
+        {
+          "id": "causes",
+          "heading": {
+            "ar": "أسباب التفرّق والانقسام",
+            "en": "The Causes of the Division",
+            "ru": "Причины разделения и раскола",
+            "es": "Las causas de la división y el sectarismo",
+            "uk": "Причини розколу та поділу"
+          },
+          "body": {
+            "ar": "يعود التفرّق الأكبر إلى الصراعات اللاهوتية في المجامع الكنسية — كمجمع نيقية سنة ٣٢٥ للميلاد ومجمع خلقيدونية سنة ٤٥١ — حول طبيعة المسيح عليه السلام وطبيعة الروح القدس.\n\nويُضاف إلى ذلك غياب السند المتّصل: فالنصّ الأصلي بلغة المسيح عليه السلام — الآرامية — لم يصل، وكُتبت الأناجيل باليونانية بعد رفعه بعقود، ونُسبت إلى مؤلّفيها في القرن الثاني لا حين كتابتها. فانفتح باب التأويل على مصراعيه.\n\nثم إن الأناجيل نفسها تختلف في نقل الأحداث؛ ومن أظهر ذلك اختلاف نسب المسيح عليه السلام بين إنجيل متّى (١: ١–١٦) وإنجيل لوقا (٣: ٢٣–٣٨) في عدد الأجيال وأسماء الآباء.",
+            "en": "The greatest division goes back to the theological struggles at the Church councils — Nicaea in 325 CE and Chalcedon in 451 — over the nature of the Messiah, peace be upon him, and the nature of the Holy Spirit.\n\nTo this is added the absence of an unbroken chain of transmission: the original text in the language the Messiah spoke — Aramaic — did not survive; the Gospels were written in Greek decades after him, and were attributed to their authors in the second century rather than when they were written. The door of interpretation was thrown wide open.\n\nThe Gospels themselves then differ in reporting events; among the clearest instances is the difference in the genealogy of the Messiah between Matthew (1:1–16) and Luke (3:23–38), in the number of generations and the names of the forefathers.",
+            "ru": "Наибольший раскол восходит к богословским спорам на церковных соборах — Никейском 325 года и Халкидонском 451 года — о природе Мессии, мир ему, и о природе Святого Духа.\n\nК этому добавляется отсутствие непрерывной цепи передачи: изначальный текст на языке, которым говорил Мессия, — арамейском — не сохранился; Евангелия были написаны по-гречески спустя десятилетия после него, а имена их авторов были им присвоены во втором веке, а не при написании. Дверь толкования распахнулась настежь.\n\nЗатем и сами Евангелия расходятся в передаче событий; из яснейших примеров — расхождение в родословии Мессии между Матфеем (1:1–16) и Лукой (3:23–38) в числе поколений и именах предков.",
+            "es": "La mayor división se remonta a las pugnas teológicas en los concilios eclesiásticos — Nicea en 325 d. C. y Calcedonia en 451 — sobre la naturaleza del Mesías, la paz sea con él, y la naturaleza del Espíritu Santo.\n\nA esto se añade la ausencia de una cadena de transmisión ininterrumpida: el texto original en la lengua que hablaba el Mesías — el arameo — no se conservó; los Evangelios se escribieron en griego décadas después de él, y se atribuyeron a sus autores en el siglo segundo, no cuando fueron escritos. La puerta de la interpretación quedó abierta de par en par.\n\nLuego los propios Evangelios difieren al referir los hechos; de los casos más claros es la discrepancia en la genealogía del Mesías entre Mateo (1:1–16) y Lucas (3:23–38), en el número de generaciones y los nombres de los antepasados.",
+            "uk": "Найбільший розкол сягає богословських змагань на церковних соборах — Нікейському 325 року та Халкідонському 451 року — про природу Месії, мир йому, і про природу Святого Духа.\n\nДо цього додається відсутність безперервного ланцюга передачі: первісний текст мовою, якою говорив Месія, — арамейською — не зберігся; Євангелія були написані грецькою через десятиліття після нього, а імена їхніх авторів було їм присвоєно у другому столітті, а не при написанні. Двері тлумачення розчинилися навстіж.\n\nПотім і самі Євангелія розходяться в переданні подій; з найясніших прикладів — розходження в родоводі Месії між Матвієм (1:1–16) та Лукою (3:23–38) у числі поколінь та іменах предків."
+          }
+        },
+        {
+          "id": "islamic-answer",
+          "heading": {
+            "ar": "كيف رفع الإسلام هذا النزاع",
+            "en": "How Islam Lifted the Dispute",
+            "ru": "Как ислам снял этот спор",
+            "es": "Cómo el islam zanjó esta disputa",
+            "uk": "Як іслам зняв цю суперечку"
+          },
+          "body": {
+            "ar": "رفع الإسلام هذا النزاع بإعادة التوحيد الخالص، وتنزيه الله عن الشريك والولد، قال تعالى: ﴿مَا اتَّخَذَ اللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُ مِنْ إِلَٰهٍ﴾ سورة المؤمنون: ٩١.\n\nوبيّن القرآن حقيقة عيسى ابن مريم عليه السلام: أنه عبد الله ورسوله، لا أكثر ولا أقلّ، قال تعالى: ﴿مَّا الْمَسِيحُ ابْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ الرُّسُلُ﴾ سورة المائدة: ٧٥.\n\nوجعل الله القرآن مهيمناً على ما قبله، محفوظاً من الزيادة والنقصان، فصار المرجع الذي تُردّ إليه تلك الخلافات لا يُنازَع في نصّه.",
+            "en": "Islam lifted this dispute by restoring pure monotheism and declaring God free of any partner or child — Sūrat al-Muʾminūn, verse 91.\n\nThe Qurʾān set out the reality of Jesus son of Mary, peace be upon him: that he is the servant of God and His messenger, no more and no less — Sūrat al-Māʾidah, verse 75.\n\nAnd God made the Qurʾān a criterion over what came before it, preserved from addition and loss, so that it became the reference to which those disputes are returned, its text not itself in contention.",
+            "ru": "Ислам снял этот спор, восстановив чистое единобожие и провозгласив Бога свободным от сотоварища и от сына — сура «аль-Муминун», аят 91.\n\nКоран изложил истину об Исе, сыне Марьям, мир ему: что он раб Божий и Его посланник, не более и не менее — сура «аль-Маида», аят 75.\n\nИ Бог сделал Коран мерилом для предшествующего, сохранённым от добавления и утраты, так что он стал тем источником, к которому возвращают эти разногласия, а его собственный текст не оспаривается.",
+            "es": "El islam zanjó esta disputa restaurando el monoteísmo puro y declarando a Dios libre de socio y de hijo — sura al-Muʾminūn, aleya 91.\n\nEl Corán expuso la realidad de Jesús hijo de María, la paz sea con él: que es siervo de Dios y Su mensajero, ni más ni menos — sura al-Māʾidah, aleya 75.\n\nY Dios hizo del Corán un criterio sobre lo que le precedió, preservado de añadidura y merma, de modo que se convirtió en la referencia a la que se devuelven esas disputas, sin que su propio texto esté en litigio.",
+            "uk": "Іслам зняв цю суперечку, відновивши чисте єдинобожжя та проголосивши Бога вільним від співучасника й від сина — сура «аль-Мумінун», аят 91.\n\nКоран виклав істину про Ісу, сина Мар'ям, мир йому: що він раб Божий і Його посланець, не більше й не менше — сура «аль-Маїда», аят 75.\n\nІ Бог зробив Коран мірилом для попереднього, збереженим від додавання та втрати, тож він став тим джерелом, до якого повертають ці розходження, а його власний текст не оспорюється."
+          }
+        },
+        {
+          "id": "closing",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Closing",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "يدلّ النظر التاريخي والنصّي معاً على أن تفرّق النصارى لم يكن حادثاً عارضاً، بل ثمرةَ انقطاع السند ودخول التبديل على النصّ. وأن الرسالة الخاتمة جاءت بما يرفع هذا الاختلاف من أصله: توحيدٌ خالص، ونبيٌّ يُعرَف قدره فلا يُرفع فوق منزلته ولا يُهضم حقّه، وكتابٌ محفوظ يُرجع إليه.",
+            "en": "Historical and textual scrutiny together indicate that the division of the Christians was no passing accident, but the fruit of a broken chain of transmission and of alteration entering the text. And that the final message came with what lifts this disagreement at its root: pure monotheism; a prophet known for what he is, neither raised above his station nor denied his due; and a preserved book to return to.",
+            "ru": "Исторический и текстологический взгляд вместе указывают, что разделение христиан не было случайностью, но плодом прерванной цепи передачи и вошедшего в текст искажения. И что завершающее послание пришло с тем, что снимает это разногласие в его корне: чистое единобожие; пророк, известный тем, кто он есть, не вознесённый выше своего положения и не лишённый должного; и сохранённая книга, к которой возвращаются.",
+            "es": "El examen histórico y el textual indican juntos que la división de los cristianos no fue un accidente pasajero, sino fruto de una cadena de transmisión rota y de la alteración que entró en el texto. Y que el mensaje final vino con lo que zanja este desacuerdo de raíz: monoteísmo puro; un profeta conocido por lo que es, ni elevado por encima de su rango ni privado de su derecho; y un libro preservado al que remitirse.",
+            "uk": "Історичний і текстологічний погляд разом указують, що розділення християн не було випадковістю, але плодом перерваного ланцюга передачі та перекручування, що ввійшло в текст. І що завершальне послання прийшло з тим, що знімає це розходження в його корені: чисте єдинобожжя; пророк, відомий тим, ким він є, не піднесений вище свого становища й не позбавлений належного; і збережена книга, до якої повертаються."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        },
+        {
+          "ar": "الجواب الصحيح",
+          "en": "Al-Jawāb al-Ṣaḥīḥ",
+          "ru": "«Аль-Джаваб ас-Сахих»",
+          "es": "Al-Jawāb al-Ṣaḥīḥ",
+          "uk": "«Аль-Джаваб ас-Сахіх»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ],
+      "addedAt": "2026-09-07"
     }
   ]
 }

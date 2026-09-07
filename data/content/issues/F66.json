@@ -1,0 +1,161 @@
+{
+  "ref": "F66",
+  "id": "salah-20",
+  "bookId": "salah",
+  "seq": 3,
+  "chapter": {
+    "ar": "باب الأذان والإقامة",
+    "en": "Chapter on the Adhān and the Iqāmah",
+    "ru": "Раздел об азане и икаме",
+    "es": "Capítulo sobre el adhān y la iqāmah",
+    "uk": "Розділ про азан та ікаму"
+  },
+  "title": {
+    "ar": "صيغة الإقامة وحكم إفراد كلماتها",
+    "en": "The Wording of the Iqāmah and the Ruling on Saying Its Phrases Once",
+    "ru": "Формулировка икамы и постановление о произнесении её фраз по одному разу",
+    "es": "La fórmula de la iqāmah y la norma sobre decir sus frases una sola vez",
+    "uk": "Формулювання ікáми та постанова про виголошення її фраз по одному разу"
+  },
+  "summary": {
+    "ar": "ما صيغة الإقامة عند المذاهب الأربعة، وهل تُفرَد كلماتها أم تُثنّى؟",
+    "en": "What is the wording of the iqāmah in the four schools, and are its phrases said once or twice?",
+    "ru": "Какова формулировка икамы у четырёх мазхабов, и произносятся ли её фразы один раз или дважды?",
+    "es": "¿Cuál es la fórmula de la iqāmah en las cuatro escuelas, y sus frases se dicen una vez o dos?",
+    "uk": "Яке формулювання ікáми у чотирьох мазгабах, і чи виголошуються її фрази один раз чи двічі?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "الإقامة مثنى مثنى كالأذان مع زيادة «قد قامت الصلاة» مرّتين، فتكون سبع عشرة كلمة، ويُكره إفراد كلماتها.",
+        "en": "The iqāmah is said twice over, like the adhān, with “qad qāmat al-ṣalāh” added twice, making seventeen phrases; saying its phrases once is disliked.",
+        "ru": "Икама произносится по два раза, как и азан, с добавлением «кад камати-с-салях» дважды, что составляет семнадцать фраз; произносить её фразы по одному разу нежелательно.",
+        "es": "La iqāmah se dice dos veces, como el adhān, añadiendo «qad qāmat al-ṣalāh» dos veces, lo que suma diecisiete frases; decir sus frases una sola vez es reprobable.",
+        "uk": "Ікáма виголошується по два рази, як і азан, з додаванням «кад каматі-с-салях» двічі, що складає сімнадцять фраз; виголошувати її фрази по одному разу небажано."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "تُفرَد كلمات الإقامة كلّها فتكون عشر كلمات، ويُفرَد فيها «قد قامت الصلاة» مرّة واحدة، ولا يُثنّى إلا التكبير في أوّلها وآخرها.",
+        "en": "All the phrases of the iqāmah are said once, making ten phrases, including “qad qāmat al-ṣalāh” once; only the takbīr at its beginning and end is said twice.",
+        "ru": "Все фразы икамы произносятся по одному разу, что составляет десять фраз, включая «кад камати-с-салях» один раз; дважды произносится лишь такбир в начале и в конце.",
+        "es": "Todas las frases de la iqāmah se dicen una vez, sumando diez frases, incluida «qad qāmat al-ṣalāh» una sola vez; solo el takbīr al principio y al final se dice dos veces.",
+        "uk": "Усі фрази ікáми виголошуються по одному разу, що складає десять фраз, включно з «кад каматі-с-салях» один раз; двічі виголошується лише такбір на початку та в кінці."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة، ويُستثنى التكبير في أوّلها وآخرها و«قد قامت الصلاة» فتُثنّى.",
+        "en": "The phrases of the iqāmah are said once, making eleven phrases, except the takbīr at its beginning and end and “qad qāmat al-ṣalāh”, which are said twice.",
+        "ru": "Фразы икамы произносятся по одному разу, что составляет одиннадцать фраз, кроме такбира в начале и в конце и «кад камати-с-салях», которые произносятся дважды.",
+        "es": "Las frases de la iqāmah se dicen una vez, sumando once frases, salvo el takbīr al principio y al final y «qad qāmat al-ṣalāh», que se dicen dos veces.",
+        "uk": "Фрази ікáми виголошуються по одному разу, що складає одинадцять фраз, крім такбіру на початку та в кінці і «кад каматі-с-салях», які виголошуються двічі."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة، ويُستثنى التكبير في أوّلها وآخرها و«قد قامت الصلاة» فتُثنّى، لحديث أنس رضي الله عنه: «أُمِرَ بلالٌ أن يَشفَعَ الأذانَ وأن يُوتِرَ الإقامةَ».",
+        "en": "The phrases of the iqāmah are said once, making eleven phrases, except the takbīr at its beginning and end and “qad qāmat al-ṣalāh”, which are said twice, based on the hadith of Anas: “Bilāl was ordered to make the adhān in pairs and the iqāmah singly.”",
+        "ru": "Фразы икамы произносятся по одному разу, что составляет одиннадцать фраз, кроме такбира в начале и в конце и «кад камати-с-салях», которые произносятся дважды, согласно хадису Анаса: «Билялю было велено произносить азан парами, а икаму — по одному разу».",
+        "es": "Las frases de la iqāmah se dicen una vez, sumando once frases, salvo el takbīr al principio y al final y «qad qāmat al-ṣalāh», que se dicen dos veces, según el hadiz de Anas: «Se le ordenó a Bilāl decir el adhān por pares y la iqāmah una sola vez».",
+        "uk": "Фрази ікáми виголошуються по одному разу, що складає одинадцять фраз, крім такбіру на початку та в кінці і «кад каматі-с-салях», які виголошуються двічі, згідно з хадисом Анаса: «Білялю було наказано виголошувати азан парами, а ікáму — по одному разу»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

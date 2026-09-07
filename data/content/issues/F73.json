@@ -1,0 +1,162 @@
+{
+  "ref": "F73",
+  "id": "salah-27",
+  "bookId": "salah",
+  "seq": 5,
+  "chapter": {
+    "ar": "باب صفة الصلاة",
+    "en": "Chapter on the Description of the Prayer",
+    "ru": "Раздел об описании молитвы",
+    "es": "Capítulo sobre la descripción de la oración",
+    "uk": "Розділ про опис молитви"
+  },
+  "title": {
+    "ar": "حكم البسملة في الفاتحة والجهر بها",
+    "en": "Whether the Basmalah Is Part of al-Fātiḥah, and the Ruling on Saying It Aloud",
+    "ru": "Является ли басмала частью аль-Фатихи и постановление о её произнесении вслух",
+    "es": "Si la basmalah forma parte de al-Fātiḥah y la norma sobre decirla en voz alta",
+    "uk": "Чи є басмала частиною аль-Фатіхи та постанова про її виголошення вголос"
+  },
+  "summary": {
+    "ar": "هل البسملة آية من الفاتحة، وما حكم الجهر بها أو الإسرار في الصلاة؟",
+    "en": "Is the basmalah a verse of al-Fātiḥah, and is it said aloud or silently in the prayer?",
+    "ru": "Является ли басмала аятом аль-Фатихи, и произносится ли она вслух или про себя в молитве?",
+    "es": "¿Es la basmalah una aleya de al-Fātiḥah, y se dice en voz alta o en voz baja en la oración?",
+    "uk": "Чи є басмала аятом аль-Фатіхи, і чи виголошується вона вголос чи про себе в молитві?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "البسملة ليست آية من الفاتحة، وتُسنّ قراءتها سرّاً قبل الفاتحة في كل ركعة للإمام والمنفرد، ويُسرّ بها ولو في الصلاة الجهرية.",
+        "en": "The basmalah is not a verse of al-Fātiḥah; reciting it silently before al-Fātiḥah in every unit is a sunnah for the imam and one praying alone, and it is said silently even in the audible prayer.",
+        "ru": "Басмала не является аятом аль-Фатихи; читать её про себя перед аль-Фатихой в каждом ракаате — сунна для имама и молящегося в одиночку, и она произносится про себя даже в громкой молитве.",
+        "es": "La basmalah no es una aleya de al-Fātiḥah; recitarla en voz baja antes de al-Fātiḥah en cada rakʿah es sunnah para el imam y quien reza solo, y se dice en voz baja incluso en la oración audible.",
+        "uk": "Басмала не є аятом аль-Фатіхи; читати її про себе перед аль-Фатіхою в кожному ракааті — сунна для імама й того, хто молиться самотою, і вона виголошується про себе навіть у гучній молитві."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "makruh",
+      "text": {
+        "ar": "تُكره قراءة البسملة قبل الفاتحة أو السورة في الفريضة سرّاً وجهراً للإمام والمأموم والمنفرد، وتُندب في النفل سرّاً.",
+        "en": "Reciting the basmalah before al-Fātiḥah or the sūrah in the obligatory prayer is disliked, whether silently or aloud, for the imam, the follower and one praying alone; it is recommended silently in voluntary prayer.",
+        "ru": "Чтение басмалы перед аль-Фатихой или сурой в обязательной молитве нежелательно — и про себя, и вслух — для имама, следующего за ним и молящегося в одиночку; оно желательно про себя в добровольной молитве.",
+        "es": "Recitar la basmalah antes de al-Fātiḥah o de la sūrah en la oración obligatoria es reprobable, en voz baja o alta, para el imam, el seguidor y quien reza solo; es recomendable en voz baja en la oración voluntaria.",
+        "uk": "Читання басмали перед аль-Фатіхою або сурою в обов'язковій молитві небажане — і про себе, і вголос — для імама, того, хто молиться за ним, і того, хто молиться самотою; воно бажане про себе в добровільній молитві."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "البسملة آية كاملة من الفاتحة، فتجب قراءتها معها لصحّة الصلاة، ويُجهر بها في الجهرية ويُسرّ بها في السرّية.",
+        "en": "The basmalah is a full verse of al-Fātiḥah, so reciting it with the sūrah is obligatory for the prayer's validity; it is said aloud in the audible prayer and silently in the silent one.",
+        "ru": "Басмала — полный аят аль-Фатихи, поэтому её чтение вместе с сурой обязательно для действительности молитвы; она произносится вслух в громкой молитве и про себя в тихой.",
+        "es": "La basmalah es una aleya completa de al-Fātiḥah, por lo que recitarla con la sūrah es obligatorio para la validez de la oración; se dice en voz alta en la oración audible y en voz baja en la silenciosa.",
+        "uk": "Басмала — повний аят аль-Фатіхи, тож її читання разом із сурою обов'язкове для дійсності молитви; вона виголошується вголос у гучній молитві та про себе в тихій."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "البسملة آية من الفاتحة تُقرأ معها، ويُسنّ الإسرار بها دائماً للإمام والمنفرد في الجهرية والسرّية، ولا يُسنّ الجهر بها.",
+        "en": "The basmalah is a verse of al-Fātiḥah recited with it; saying it silently is always a sunnah for the imam and one praying alone, in both the audible and the silent prayer, and saying it aloud is not a sunnah.",
+        "ru": "Басмала — аят аль-Фатихи, читаемый вместе с ней; произносить её про себя — всегда сунна для имама и молящегося в одиночку, и в громкой, и в тихой молитве, а произносить вслух — не сунна.",
+        "es": "La basmalah es una aleya de al-Fātiḥah que se recita con ella; decirla en voz baja es siempre sunnah para el imam y quien reza solo, tanto en la oración audible como en la silenciosa, y decirla en voz alta no es sunnah.",
+        "uk": "Басмала — аят аль-Фатіхи, що читається разом із нею; виголошувати її про себе — завжди сунна для імама й того, хто молиться самотою, і в гучній, і в тихій молитві, а виголошувати вголос — не сунна."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "ref": "F71",
+  "id": "salah-25",
+  "bookId": "salah",
+  "seq": 15,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter on the Conditions of the Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo sobre las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "حكم التلفّظ بالنية في الصلاة",
+    "en": "The Ruling on Uttering the Intention Aloud in the Prayer",
+    "ru": "Постановление о произнесении намерения языком в молитве",
+    "es": "La norma sobre pronunciar la intención con la lengua en la oración",
+    "uk": "Постанова про виголошення наміру язиком у молитві"
+  },
+  "summary": {
+    "ar": "ما حكم التلفّظ بالنية باللسان عند الشروع في الصلاة، أم يُكتفى بمحلّها وهو القلب؟",
+    "en": "What is the ruling on uttering the intention with the tongue when beginning the prayer, or does its seat in the heart suffice?",
+    "ru": "Каково постановление о произнесении намерения языком при начале молитвы, или достаточно его места — сердца?",
+    "es": "¿Cuál es la norma sobre pronunciar la intención con la lengua al comenzar la oración, o basta con su sede, que es el corazón?",
+    "uk": "Яка постанова про виголошення наміру язиком на початку молитви, чи достатньо його місця — серця?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mandub",
+      "text": {
+        "ar": "محلّ النية القلب، ويُستحبّ التلفّظ بها باللسان ليجتمع عزم القلب مع فعل اللسان، ودفعاً للوساوس.",
+        "en": "The seat of the intention is the heart, and uttering it with the tongue is recommended, so that the heart's resolve is joined to the tongue's act, and to keep intrusive thoughts at bay.",
+        "ru": "Место намерения — сердце, а произносить его языком желательно, чтобы решимость сердца соединилась с действием языка и чтобы отогнать наваждения.",
+        "es": "La sede de la intención es el corazón, y pronunciarla con la lengua es recomendable, para que la resolución del corazón se una al acto de la lengua y para apartar las obsesiones.",
+        "uk": "Місце наміру — серце, а виголошувати його язиком бажано, щоб рішучість серця поєдналася з дією язика і щоб відігнати нав'язливі думки."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "makruh",
+      "text": {
+        "ar": "محلّ النية القلب، والتلفّظ بها خلاف الأولى لعدم ثبوته عن النبي ﷺ، ويُستحبّ للموسوس خاصّة دفعاً للشكّ.",
+        "en": "The seat of the intention is the heart, and uttering it is contrary to what is preferable, since it is not established from the Prophet ﷺ; it is recommended only for one afflicted with obsessive doubt, to drive that doubt away.",
+        "ru": "Место намерения — сердце, а произносить его — вопреки предпочтительному, поскольку это не установлено от Пророка ﷺ; оно желательно лишь для страдающего навязчивым сомнением, чтобы отогнать это сомнение.",
+        "es": "La sede de la intención es el corazón, y pronunciarla es contrario a lo preferible, pues no está establecido del Profeta ﷺ; se recomienda solo a quien padece dudas obsesivas, para apartarlas.",
+        "uk": "Місце наміру — серце, а виголошувати його — всупереч кращому, оскільки це не встановлено від Пророка ﷺ; воно бажане лише для того, хто страждає на нав'язливий сумнів, щоб відігнати цей сумнів."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ التلفّظ بالنية سرّاً قبل التكبير ليُعين اللسانُ القلبَ، فتحضر النية بجميع أجزائها عند تكبيرة الإحرام.",
+        "en": "It is a sunnah to utter the intention quietly before the takbīr, so that the tongue assists the heart and the intention is present in all its parts at the opening takbīr.",
+        "ru": "Сунной является произнести намерение про себя перед такбиром, чтобы язык помог сердцу и намерение присутствовало во всех своих частях при вступительном такбире.",
+        "es": "Es sunnah pronunciar la intención en voz baja antes del takbīr, para que la lengua asista al corazón y la intención esté presente en todas sus partes en el takbīr de apertura.",
+        "uk": "Сунною є виголосити намір про себе перед такбіром, щоб язик допоміг серцю і намір був присутній у всіх своїх частинах при вступному такбірі."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mandub",
+      "text": {
+        "ar": "محلّ النية القلب، ويُستحبّ التلفّظ بها سرّاً ليوافق اللسانُ القلبَ، ولا يُشرع الجهر بها بحال.",
+        "en": "The seat of the intention is the heart, and uttering it quietly is recommended so that the tongue agrees with the heart; saying it aloud is not prescribed in any case.",
+        "ru": "Место намерения — сердце, и желательно произносить его про себя, чтобы язык согласовался с сердцем; произносить его вслух не предписано ни в каком случае.",
+        "es": "La sede de la intención es el corazón, y se recomienda pronunciarla en voz baja para que la lengua concuerde con el corazón; decirla en voz alta no está prescrito en ningún caso.",
+        "uk": "Місце наміру — серце, і бажано виголошувати його про себе, щоб язик узгоджувався із серцем; виголошувати його вголос не приписано в жодному разі."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
