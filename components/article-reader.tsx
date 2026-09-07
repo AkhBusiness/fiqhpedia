@@ -86,7 +86,7 @@ export function ArticleReader({ proof, lang, onClose }: ArticleReaderProps) {
 
   return (
     <div
-      className="animate-modal-overlay fixed inset-0 z-40 flex flex-col bg-zinc-950/95 backdrop-blur-2xl"
+      className="animate-modal-overlay fixed inset-0 z-40 flex flex-col bg-background/95 text-foreground backdrop-blur-2xl"
       role="dialog"
       aria-modal="true"
       aria-label={proof.title[lang]}

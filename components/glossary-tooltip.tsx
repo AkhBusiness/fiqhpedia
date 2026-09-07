@@ -94,7 +94,7 @@ export function GlossaryTooltip({ term, lang, children }: GlossaryTooltipProps) 
         <span
           id={popId}
           role="tooltip"
-          className="animate-modal-panel absolute bottom-full left-1/2 z-50 mb-2 w-64 -translate-x-1/2 rounded-2xl border border-white/15 bg-zinc-950/85 p-4 text-start shadow-2xl shadow-black/60 backdrop-blur-2xl"
+          className="animate-modal-panel absolute bottom-full left-1/2 z-50 mb-2 w-64 -translate-x-1/2 rounded-2xl border border-white/15 bg-popover/95 p-4 text-start shadow-2xl shadow-black/60 backdrop-blur-2xl"
         >
           <span className="mb-1.5 flex items-center gap-2">
             <BookOpen className="size-3.5 text-primary" aria-hidden="true" />
@@ -114,7 +114,7 @@ export function GlossaryTooltip({ term, lang, children }: GlossaryTooltipProps) 
           </a>
           <span
             aria-hidden="true"
-            className="absolute left-1/2 top-full size-3 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-white/15 bg-zinc-950/85"
+            className="absolute left-1/2 top-full size-3 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-white/15 bg-popover/95"
           />
         </span>
       ) : null}

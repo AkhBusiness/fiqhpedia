@@ -89,7 +89,7 @@ export function FilterBar({
           onClick={() => onScopeChange("all")}
           aria-pressed={scope === "all"}
           className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 ${
-            scope === "all" ? "bg-white text-black shadow-sm" : "text-zinc-400 hover:text-white"
+            scope === "all" ? "bg-primary text-primary-foreground shadow-sm" : "text-zinc-400 hover:text-white"
           }`}
         >
           <LayoutList className="size-4" aria-hidden="true" />
@@ -100,7 +100,7 @@ export function FilterBar({
           onClick={() => onScopeChange("saved")}
           aria-pressed={scope === "saved"}
           className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 ${
-            scope === "saved" ? "bg-white text-black shadow-sm" : "text-zinc-400 hover:text-white"
+            scope === "saved" ? "bg-primary text-primary-foreground shadow-sm" : "text-zinc-400 hover:text-white"
           }`}
         >
           <Bookmark className={`size-4 ${scope === "saved" ? "fill-current" : ""}`} aria-hidden="true" />
@@ -138,7 +138,7 @@ export function FilterBar({
               aria-pressed={searchScope === sc.key}
               className={`max-w-[14rem] truncate rounded-full px-3.5 py-1 text-xs font-semibold transition-all duration-200 ${
                 searchScope === sc.key
-                  ? "bg-white text-black shadow-sm"
+                  ? "bg-primary text-primary-foreground shadow-sm"
                   : "text-zinc-400 hover:text-white"
               }`}
             >

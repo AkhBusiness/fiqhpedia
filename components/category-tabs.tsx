@@ -52,15 +52,15 @@ export function CategoryTabs({
                     aria-current={active ? "page" : undefined}
                     className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm whitespace-nowrap transition-all duration-300 lg:w-full lg:justify-between lg:rounded-xl lg:px-3 lg:py-2 ${
                       active
-                        ? "bg-white font-semibold text-black shadow-[0_1px_3px_rgba(0,0,0,0.3)]"
-                        : "font-medium text-zinc-400 hover:text-white"
+                        ? "bg-primary font-semibold text-primary-foreground shadow-sm"
+                        : "font-medium text-muted-foreground hover:text-foreground"
                     }`}
                   >
                     <span>{cat.name[lang]}</span>
                     {count > 0 && (
                       <span
                         className={`text-[11px] font-semibold tabular-nums ${
-                          active ? "text-black/50" : "text-zinc-500"
+                          active ? "text-primary-foreground/60" : "text-muted-foreground"
                         }`}
                       >
                         {count}
@@ -83,12 +83,12 @@ export function CategoryTabs({
                   aria-current={activeChapter === "" ? "true" : undefined}
                   className={`rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:rounded-lg lg:px-3 lg:py-1.5 lg:text-start ${
                     activeChapter === ""
-                      ? "font-semibold text-white"
-                      : "font-medium text-zinc-500 hover:text-zinc-300"
+                      ? "font-semibold text-foreground"
+                      : "font-medium text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   {ALL_CHAPTERS[lang]}
-                  <span className="ms-1.5 text-[10px] tabular-nums text-zinc-600">
+                  <span className="ms-1.5 text-[10px] tabular-nums text-muted-foreground/70">
                     {chapters.reduce((n, c) => n + c.count, 0)}
                   </span>
                 </button>
@@ -103,12 +103,12 @@ export function CategoryTabs({
                       aria-current={on ? "true" : undefined}
                       className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:justify-between lg:rounded-lg lg:px-3 lg:py-1.5 ${
                         on
-                          ? "bg-white/15 font-semibold text-white"
-                          : "font-medium text-zinc-500 hover:text-zinc-300"
+                          ? "bg-primary font-semibold text-primary-foreground"
+                          : "font-medium text-muted-foreground hover:text-foreground"
                       }`}
                     >
                       <span className="lg:truncate">{ch.name[lang]}</span>
-                      <span className="text-[10px] tabular-nums text-zinc-600">{ch.count}</span>
+                      <span className="text-[10px] tabular-nums text-muted-foreground/70">{ch.count}</span>
                     </button>
                   </li>
                 )

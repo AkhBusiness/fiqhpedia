@@ -47,29 +47,31 @@
 
 :root {
   color-scheme: light;
-  /* Warm paper (#FDF5E6) rather than pure white. The site is read in long
-     unbroken passages, and a bright white ground tires the eye. The whole
-     set is warmed with it: a page this colour under pure-white cards would
-     leave the cards floating as bright patches, and pure-black text on it
-     keeps the same harsh contrast the change was meant to soften. */
-  --background: oklch(0.9723 0.0216 83.26);
-  --foreground: oklch(0.24 0.012 70);
-  --card: oklch(0.988 0.008 83);
-  --card-foreground: oklch(0.24 0.012 70);
-  --popover: oklch(0.988 0.008 83);
-  --popover-foreground: oklch(0.24 0.012 70);
-  --primary: oklch(0.28 0.014 70);
-  --primary-foreground: oklch(0.985 0.01 83);
-  --secondary: oklch(0.945 0.018 83);
-  --secondary-foreground: oklch(0.28 0.014 70);
-  --muted: oklch(0.945 0.018 83);
-  --muted-foreground: oklch(0.48 0.015 70);
-  --accent: oklch(0.945 0.018 83);
-  --accent-foreground: oklch(0.28 0.014 70);
+  /* Snow (#FFFAFA): a whisper of warmth off pure white. The page is the
+     lightest surface; cards sit a step *below* it rather than above, so
+     they read as panels on a sheet instead of white blocks floating on a
+     tinted ground. */
+  --background: oklch(0.9889 0.0053 17.25);
+  --foreground: oklch(0.22 0.006 20);
+  --card: oklch(0.968 0.005 20);
+  --card-foreground: oklch(0.22 0.006 20);
+  --popover: oklch(0.985 0.004 20);
+  --popover-foreground: oklch(0.22 0.006 20);
+  /* The accent that gives the light theme its pulse: buttons, active tabs
+     and links. A single-colour page reads as unfinished, and the dark theme
+     had white to lean on — this is its counterpart. */
+  --primary: oklch(0.47 0.11 172);
+  --primary-foreground: oklch(0.99 0.004 20);
+  --secondary: oklch(0.945 0.006 20);
+  --secondary-foreground: oklch(0.28 0.008 20);
+  --muted: oklch(0.95 0.005 20);
+  --muted-foreground: oklch(0.45 0.012 20);
+  --accent: oklch(0.93 0.02 172);
+  --accent-foreground: oklch(0.32 0.09 172);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.885 0.016 83);
-  --input: oklch(0.885 0.016 83);
-  --ring: oklch(0.66 0.03 83);
+  --border: oklch(0.895 0.006 20);
+  --input: oklch(0.895 0.006 20);
+  --ring: oklch(0.47 0.11 172);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -185,10 +187,23 @@
    * whole control darker and more definite, not fainter.
    */
   :root:not(.dark) {
-    .bg-white\/5,
-    .bg-white\/\[0\.04\],
+    /* Panels: on the dark theme these are near-transparent white washes that
+       read as raised surfaces. On a light page a 2% white wash is invisible,
+       so the ruling cards dissolve into the sheet. Here they become a real
+       tint a step below the page, giving each card an edge to sit on. */
+    .bg-white\/\[0\.02\],
     .bg-white\/\[0\.03\] {
+      background-color: var(--card);
+    }
+    .bg-white\/5,
+    .bg-white\/\[0\.04\] {
       background-color: color-mix(in oklch, var(--foreground) 5%, transparent);
+    }
+    .bg-white\/\[0\.06\] {
+      background-color: color-mix(in oklch, var(--foreground) 7%, transparent);
+    }
+    .bg-white\/15 {
+      background-color: color-mix(in oklch, var(--primary) 14%, transparent);
     }
     .border-white\/10 {
       border-color: color-mix(in oklch, var(--foreground) 12%, transparent);

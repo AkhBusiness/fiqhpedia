@@ -151,7 +151,7 @@ export function SchoolSelectorModal({
                     <span className="mt-0.5 block text-xs font-medium text-muted-foreground">{l.short}</span>
                   </span>
                   {active ? (
-                    <span className="flex size-5 items-center justify-center rounded-full bg-white text-black">
+                    <span className="flex size-5 items-center justify-center rounded-full bg-primary text-primary-foreground">
                       <Check className="size-3.5" aria-hidden="true" />
                     </span>
                   ) : null}

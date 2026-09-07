@@ -153,7 +153,7 @@ export function ShareCardModal({ issue, lang, visibleSchools, onClose }: ShareCa
             type="button"
             onClick={handleDownload}
             disabled={busy}
-            className="flex items-center justify-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-black transition-opacity hover:opacity-90 disabled:opacity-60"
+            className="flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-bold text-primary-foreground transition-opacity hover:opacity-90 disabled:opacity-60"
           >
             {busy ? (
               <>

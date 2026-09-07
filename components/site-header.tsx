@@ -97,7 +97,7 @@ export function SiteHeader({
                   title={l.label}
                   className={`flex shrink-0 items-center justify-center gap-1.5 rounded-full px-2.5 py-1.5 text-xs font-semibold transition-all duration-200 sm:px-3 ${
                     active
-                      ? "bg-white text-black shadow-sm"
+                      ? "bg-primary text-primary-foreground shadow-sm"
                       : "text-zinc-400 hover:text-white"
                   }`}
                 >

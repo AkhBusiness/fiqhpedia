@@ -130,7 +130,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
       onClick={onClose}
     >
       <div
-        className="flex max-h-[75vh] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/95 shadow-2xl backdrop-blur-xl"
+        className="flex max-h-[75vh] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-white/10 bg-popover/95 shadow-2xl backdrop-blur-xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="relative shrink-0 border-b border-white/10">

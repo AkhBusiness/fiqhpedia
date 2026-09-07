@@ -50,7 +50,7 @@ export function ViewModeToggle({ lang, value, onChange }: ViewModeToggleProps) {
             aria-pressed={active}
             title={o.hint}
             className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all duration-200 ${
-              active ? "bg-white text-black shadow-sm" : "text-muted-foreground hover:text-foreground"
+              active ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
             }`}
           >
             <Icon className="size-3.5" aria-hidden="true" />

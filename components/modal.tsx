@@ -50,7 +50,7 @@ export function Modal({
         aria-modal="true"
         aria-label={title}
         onClick={(e) => e.stopPropagation()}
-        className={`animate-modal-panel relative flex max-h-[90dvh] w-full ${size} flex-col overflow-hidden rounded-t-3xl border border-white/10 bg-zinc-950/80 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:rounded-3xl`}
+        className={`animate-modal-panel relative flex max-h-[90dvh] w-full ${size} flex-col overflow-hidden rounded-t-3xl border border-white/10 bg-popover/90 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:rounded-3xl`}
       >
         <div className="flex items-start justify-between gap-4 border-b border-white/10 p-5">
           <div className="min-w-0">

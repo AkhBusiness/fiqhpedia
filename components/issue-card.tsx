@@ -255,7 +255,7 @@ export function IssueCard({
               <div
                 className={`mb-3 flex items-center gap-2 ${
                   isSplit
-                    ? "sticky top-[118px] z-10 -mx-4 -mt-4 rounded-t-xl bg-zinc-950/80 px-4 py-2.5 backdrop-blur-md"
+                    ? "sticky top-[118px] z-10 -mx-4 -mt-4 rounded-t-xl bg-popover/90 px-4 py-2.5 backdrop-blur-md"
                     : ""
                 }`}
               >
