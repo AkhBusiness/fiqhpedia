@@ -1079,6 +1079,34 @@
       "ru": "Определение этой степени добавляется",
       "es": "La definición de este grado se está añadiendo",
       "uk": "Визначення цього ступеня додається"
+    },
+    "newTag": {
+      "ar": "جديد",
+      "en": "New",
+      "ru": "Новое",
+      "es": "Nuevo",
+      "uk": "Нове"
+    },
+    "newTagTitle": {
+      "ar": "أُضيفت خلال الأيام السبعة الماضية",
+      "en": "Added within the last seven days",
+      "ru": "Добавлено за последние семь дней",
+      "es": "Añadido en los últimos siete días",
+      "uk": "Додано протягом останніх семи днів"
+    },
+    "chapterProgress": {
+      "ar": "من",
+      "en": "of",
+      "ru": "из",
+      "es": "de",
+      "uk": "з"
+    },
+    "chapterOngoing": {
+      "ar": "يُستكمل تباعاً",
+      "en": "being completed in stages",
+      "ru": "пополняется постепенно",
+      "es": "se completa por etapas",
+      "uk": "поповнюється поступово"
     }
   },
   "books": [

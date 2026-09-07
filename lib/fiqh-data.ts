@@ -155,6 +155,12 @@ export interface SchoolRuling {
 
 export interface Issue {
   id: string
+  /**
+   * ISO date of the commit that first added this entry, injected by
+   * build_data.py from git rather than written by hand — a hand-kept date is
+   * forgotten and then marks old material as new. Drives the "new" badge.
+   */
+  addedAt?: string
   /** Permanent site-wide citation ref (e.g. "F12"). Never reused or renumbered. */
   ref: string
   categoryId: string
@@ -317,6 +323,7 @@ interface RawSchoolRuling {
 
 interface RawIssue {
   id: string
+  addedAt?: string
   ref: string
   bookId: string
   number: number
@@ -478,6 +485,55 @@ export const gradeLabels = (data.gradeLabels ?? {}) as Record<string, Localized>
  */
 export const natureLabels = (data.natureLabels ?? {}) as Record<string, Localized>
 
+/** How long an entry keeps its "new" badge. */
+export const NEW_FOR_DAYS = 7
+
+/**
+ * Whether an entry still counts as newly added.
+ *
+ * Seven days rather than two: the site is static and a reader may not return
+ * for several days, and a badge that has already expired by their next visit
+ * proves nothing about the work being done.
+ */
+export function isRecentlyAdded(addedAt?: string, now: Date = new Date()) {
+  if (!addedAt) return false
+  const then = new Date(`${addedAt}T00:00:00Z`)
+  if (Number.isNaN(then.getTime())) return false
+  const days = (now.getTime() - then.getTime()) / 86_400_000
+  if (days < 0 || days >= NEW_FOR_DAYS) return false
+  // A badge on everything is a badge on nothing. The repository itself is
+  // only days old, so a plain date test marks the whole encyclopedia new
+  // and tells the reader nothing. The badge is therefore suppressed unless
+  // the recent entries are a genuine minority of what is published.
+  return recentShare() <= NEW_MAX_SHARE
+}
+
+/** Ceiling on how much of the site may wear the badge at once. */
+const NEW_MAX_SHARE = 0.4
+let recentShareCache: number | null = null
+
+function recentShare() {
+  if (recentShareCache !== null) return recentShareCache
+  const now = Date.now()
+  const fresh = issues.filter((i) => {
+    if (!i.addedAt) return false
+    const t = new Date(`${i.addedAt}T00:00:00Z`).getTime()
+    if (Number.isNaN(t)) return false
+    const days = (now - t) / 86_400_000
+    return days >= 0 && days < NEW_FOR_DAYS
+  }).length
+  recentShareCache = issues.length ? fresh / issues.length : 0
+  return recentShareCache
+}
+
+/** Entries added most recently first — for a "what's new" list. */
+export function recentlyAdded(limit = 10) {
+  return issues
+    .filter((i) => i.addedAt)
+    .sort((a, b) => (b.addedAt ?? "").localeCompare(a.addedAt ?? ""))
+    .slice(0, limit)
+}
+
 /**
  * The glossary entry that defines a grade, when one has been written.
  * The definitions live in the glossary rather than beside the labels
@@ -562,6 +618,7 @@ export const issues: Issue[] = data.issues.map((i) => ({
   ref: i.ref,
   categoryId: i.bookId,
   number: i.number,
+  addedAt: i.addedAt,
   ...(i.chapter ? { chapter: i.chapter } : {}),
   title: i.title,
   summary: i.summary,

@@ -160,6 +160,27 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* A single stray wide element used to widen the whole document, leaving
+     phone readers panning left and right to reach the text. Clipping at the
+     root turns any future overflow into a local problem instead of one that
+     moves the page under the reader. */
+  html,
+  body {
+    @apply overflow-x-hidden;
+    max-width: 100%;
+  }
+  /* Long unbroken strings — URLs, transliterated titles — must wrap rather
+     than force the line wider than the screen. */
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  li,
+  dd,
+  dt {
+    overflow-wrap: anywhere;
+  }
 }
 
 @keyframes modal-overlay-in {

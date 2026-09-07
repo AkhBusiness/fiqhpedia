@@ -1079,6 +1079,34 @@
       "ru": "Определение этой степени добавляется",
       "es": "La definición de este grado se está añadiendo",
       "uk": "Визначення цього ступеня додається"
+    },
+    "newTag": {
+      "ar": "جديد",
+      "en": "New",
+      "ru": "Новое",
+      "es": "Nuevo",
+      "uk": "Нове"
+    },
+    "newTagTitle": {
+      "ar": "أُضيفت خلال الأيام السبعة الماضية",
+      "en": "Added within the last seven days",
+      "ru": "Добавлено за последние семь дней",
+      "es": "Añadido en los últimos siete días",
+      "uk": "Додано протягом останніх семи днів"
+    },
+    "chapterProgress": {
+      "ar": "من",
+      "en": "of",
+      "ru": "из",
+      "es": "de",
+      "uk": "з"
+    },
+    "chapterOngoing": {
+      "ar": "يُستكمل تباعاً",
+      "en": "being completed in stages",
+      "ru": "пополняется постепенно",
+      "es": "se completa por etapas",
+      "uk": "поповнюється поступово"
     }
   },
   "books": [
@@ -5018,111 +5046,6 @@
       }
     },
     {
-      "id": "iman-3",
-      "ref": "F3",
-      "bookId": "iman",
-      "number": 3,
-      "title": {
-        "ar": "أثر ترك الصلاة كسلاً على بقاء وصف الإسلام",
-        "en": "The effect of abandoning prayer out of laziness on retaining the description of Islam",
-        "ru": "Влияние оставления молитвы по лени на сохранение статуса мусульманина",
-        "es": "El efecto de abandonar la oración por pereza sobre la permanencia de la condición de musulmán",
-        "uk": "Вплив залишення молитви через лінощі на збереження статусу мусульманина"
-      },
-      "summary": {
-        "ar": "هل يكفر تارك الصلاة تهاونًا وكسلاً مع إقراره بوجوبها، أم يبقى مسلمًا فاسقًا؟",
-        "en": "Does one who abandons prayer out of negligence and laziness, while affirming its obligation, become a disbeliever, or remain a sinful Muslim?",
-        "ru": "Становится ли неверующим оставивший молитву по небрежности и лени, признавая её обязательность, или остаётся грешным мусульманином?",
-        "es": "¿Incurre en incredulidad quien abandona la oración por negligencia y pereza, reconociendo su obligatoriedad, o sigue siendo un musulmán pecador?",
-        "uk": "Чи стає невірним той, хто залишає молитву через недбалість і лінощі, визнаючи її обов'язковість, чи залишається грішним мусульманином?"
-      },
-      "rulings": {
-        "hanafi": {
-          "text": {
-            "ar": "لا يكفر بتركها كسلاً مع إقراره بوجوبها، بل يحبس ويعزر حتى يصلي.",
-            "en": "He does not disbelieve by abandoning it out of laziness while affirming its obligation; rather he is imprisoned and disciplined until he prays.",
-            "ru": "Он не становится неверующим, оставляя её по лени при признании обязательности; его заключают и наказывают, пока не начнёт молиться.",
-            "es": "No incurre en incredulidad por abandonarla por pereza reconociendo su obligatoriedad; más bien se le encarcela y se le aplica una pena disciplinaria hasta que rece.",
-            "uk": "Він не стає невірним, залишаючи її через лінощі при визнанні її обов'язковості; його ув'язнюють і карають, доки не почне молитися."
-          },
-          "sources": [
-            {
-              "ar": "العناية",
-              "en": "Al-ʿInāyah",
-              "ru": "«Аль-Инайя»",
-              "es": "Al-ʿInāyah",
-              "uk": "«Аль-Інайя»"
-            }
-          ],
-          "grade": "haram"
-        },
-        "maliki": {
-          "text": {
-            "ar": "لا يكفر بتركها كسلاً، ولكنه يُقتل حداً بشروطه إن أصر على تركها.",
-            "en": "He does not disbelieve by abandoning it out of laziness, but is executed as a legal penalty, under its conditions, if he persists in abandoning it.",
-            "ru": "Он не становится неверующим, оставляя её по лени, но казнится как мера наказания при её условиях, если упорствует в оставлении.",
-            "es": "No incurre en incredulidad por abandonarla por pereza, pero se le ejecuta como pena legal, con sus condiciones, si persiste en abandonarla.",
-            "uk": "Він не стає невірним, залишаючи її через лінощі, але його страчують як покарання хадд за його умов, якщо він уперто її залишає."
-          },
-          "sources": [
-            {
-              "ar": "التاج والإكليل",
-              "en": "Al-Tāj wa-al-Iklīl",
-              "ru": "«Ат-Тадж ва-ль-Иклиль»",
-              "es": "Al-Tāj wa-al-Iklīl",
-              "uk": "«Ат-Тадж ва-ль-Іклиль»"
-            }
-          ],
-          "grade": "haram"
-        },
-        "shafii": {
-          "text": {
-            "ar": "عاصٍ ومرتكب لكبيرة ولا يكفر بتركها كسلاً، ويقتل حداً كالمسلم العاصي.",
-            "en": "He is a sinner committing a major sin and does not disbelieve by abandoning it out of laziness; he is executed as a penalty, like a disobedient Muslim.",
-            "ru": "Он грешник, совершивший тяжкий грех, и не становится неверующим, оставляя её по лени; казнится как наказание, подобно ослушавшемуся мусульманину.",
-            "es": "Es un desobediente que comete un pecado mayor y no incurre en incredulidad por abandonarla por pereza; se le ejecuta como pena legal, al igual que al musulmán desobediente.",
-            "uk": "Він грішник, що вчинив тяжкий гріх, і не стає невірним, залишаючи її через лінощі; його страчують як покарання хадд, подібно до неслухняного мусульманина."
-          },
-          "sources": [
-            {
-              "ar": "روضة الطالبين",
-              "en": "Rawḍat al-Ṭālibīn",
-              "ru": "«Равдат ат-Талибин»",
-              "es": "Rawḍat al-Ṭālibīn",
-              "uk": "«Равдат ат-Талібін»"
-            }
-          ],
-          "grade": "haram"
-        },
-        "hanbali": {
-          "text": {
-            "ar": "من تركها كسلاً ودعي إليها وضاق وقت التي بعدها يكفر ويُقتل كفراً لا حدّاً.",
-            "en": "Whoever abandons it out of laziness, is called to it, and lets the time of the following prayer run out becomes a disbeliever, and he is executed as an apostate, not as a prescribed punishment.",
-            "ru": "Утверждённое мнение: тот, кто оставляет её по лени, призван к ней и допускает истечение времени следующей молитвы, становится неверующим, и его казнят как вероотступника, а не в порядке установленного наказания.",
-            "es": "Quien la abandona por pereza, es llamado a ella y deja que se agote el tiempo de la siguiente oración, incurre en incredulidad, y se le ejecuta por apostasía, no como pena prescrita.",
-            "uk": "Той, хто залишає її через лінощі, кого закликали до неї, і хто допускає, щоб звузився час наступної молитви, стає невірним, і його стратять як віровідступника, а не в порядку встановленого покарання."
-          },
-          "sources": [
-            {
-              "ar": "الإنصاف",
-              "en": "Al-Inṣāf",
-              "ru": "«Аль-Инсаф»",
-              "es": "Al-Inṣāf",
-              "uk": "«Аль-Інсаф»"
-            },
-            {
-              "ar": "كشاف القناع",
-              "en": "Kashshāf al-Qināʿ",
-              "ru": "«Кашшаф аль-Кина»",
-              "es": "Kashshāf al-Qināʿ",
-              "uk": "«Кашшаф аль-Кіна»"
-            }
-          ],
-          "grade": "haram"
-        }
-      }
-    },
-    {
       "id": "taharah-9",
       "ref": "F20",
       "bookId": "taharah",
@@ -8597,7 +8520,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "taharah-30",
@@ -8758,7 +8682,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "taharah-28",
@@ -9077,7 +9002,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "taharah-32",
@@ -9239,7 +9165,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "taharah-1",
@@ -13879,7 +13806,8 @@
           ],
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "sawm-8",
@@ -14040,7 +13968,8 @@
           ],
           "grade": "haram"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "sawm-9",
@@ -14201,7 +14130,8 @@
           ],
           "grade": "haram"
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     },
     {
       "id": "sawm-10",
@@ -14359,7 +14289,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-07"
     }
   ],
   "articles": [

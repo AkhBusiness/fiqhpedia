@@ -52,13 +52,17 @@ export function SiteHeader({
             aria-haspopup="dialog"
             aria-label={ui.browseMode[lang]}
             title={ui.browseMode[lang]}
-            className="flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white"
           >
             <LayoutGrid className="size-4.5" aria-hidden="true" />
           </button>
 
+          {/* Five languages at a 44px floor came to 220px that could not
+              shrink, which pushed the whole page wider than a phone screen
+              and left the reader panning sideways. The row now scrolls
+              within itself and the floor applies only from sm upward. */}
           <div
-            className="flex items-center gap-0.5 rounded-full border border-white/10 bg-white/5 p-1 backdrop-blur-md"
+            className="flex min-w-0 max-w-[52vw] items-center gap-0.5 overflow-x-auto rounded-full border border-white/10 bg-white/5 p-1 backdrop-blur-md [scrollbar-width:none] sm:max-w-none [&::-webkit-scrollbar]:hidden"
             role="group"
             aria-label={ui.language[lang]}
           >
@@ -72,7 +76,7 @@ export function SiteHeader({
                     key={l.key}
                     title={`${l.label} — ${ui.comingSoon[lang]}`}
                     aria-disabled="true"
-                    className="flex min-w-11 cursor-default items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold text-zinc-600 sm:min-w-0"
+                    className="flex shrink-0 cursor-default items-center justify-center gap-1.5 rounded-full px-2.5 py-1.5 text-xs font-semibold text-zinc-600 sm:px-3"
                   >
                     <span className="opacity-40">
                       <Flag code={l.flagCode} size={16} />
@@ -91,7 +95,7 @@ export function SiteHeader({
                   onClick={() => onLangChange(l.key as Lang)}
                   aria-pressed={active}
                   title={l.label}
-                  className={`flex min-w-11 items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all duration-200 sm:min-w-0 ${
+                  className={`flex shrink-0 items-center justify-center gap-1.5 rounded-full px-2.5 py-1.5 text-xs font-semibold transition-all duration-200 sm:px-3 ${
                     active
                       ? "bg-white text-black shadow-sm"
                       : "text-zinc-400 hover:text-white"
@@ -109,7 +113,7 @@ export function SiteHeader({
             onClick={onOpenSearch}
             aria-label={ui.globalSearch[lang]}
             title={ui.globalSearch[lang]}
-            className="flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
           >
             <Search className="size-4.5" aria-hidden="true" />
           </button>
@@ -119,7 +123,7 @@ export function SiteHeader({
             onClick={onThemeToggle}
             aria-label={ui.theme[lang]}
             title={ui.theme[lang]}
-            className="flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
           >
             {theme === "dark" ? (
               <Sun className="size-4.5" aria-hidden="true" />

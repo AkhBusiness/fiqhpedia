@@ -37,12 +37,73 @@ def load(path: Path):
         return json.load(fh, object_pairs_hook=OrderedDict)
 
 
+def stamp_added(records, folder):
+    """
+    يضع `addedAt` من أوّل كوميت أضاف الملف.
+
+    والمادة المستوردة دفعةً واحدة عند إنشاء المستودع تُستثنى: تاريخها هو
+    تاريخ الاستيراد لا تاريخ كتابتها، فلو حُسبت جديدة لظهر الوسم على
+    الموسوعة كلّها فأفرغه من معناه. فما وقع في أوّل كوميت لا يحمل تاريخاً،
+    و«الجديد» يُقاس على ما أُضيف بعد ذلك.
+    """
+    import subprocess
+    from datetime import date
+
+    def run(args):
+        try:
+            r = subprocess.run(args, capture_output=True, text=True, timeout=15)
+            return r.stdout if r.returncode == 0 else ""
+        except Exception:
+            return ""
+
+    # أوّل كوميت في المستودع: ما دخل فيه مادةٌ مؤسِّسة لا إضافة يومية.
+    roots = run(["git", "rev-list", "--max-parents=0", "HEAD"]).split()
+    seed = set()
+    if roots:
+        seed = set(run(["git", "ls-tree", "-r", "--name-only", roots[-1]]).split())
+
+    # مسار git نسبيّ من جذر المستودع، و`folder` مطلق — فتُوحَّد الصيغة،
+    # وإلا لم يطابق شيءٌ شيئاً وعاد كل ملفّ يبدو إضافةً جديدة.
+    repo_root = Path(run(["git", "rev-parse", "--show-toplevel"]).strip() or ".")
+
+    for rec in records:
+        path = folder / f"{rec['ref']}.json"
+        try:
+            rel = str(path.resolve().relative_to(repo_root.resolve()))
+        except ValueError:
+            rel = str(path)
+        if rel in seed:
+            rec.pop("addedAt", None)
+            continue
+        lines = [l for l in run(
+            ["git", "log", "--diff-filter=A", "--follow", "--format=%cs", "--", rel]
+        ).split() if l]
+        # ملفّ لم يُودَع بعد: هو جديد بالضرورة.
+        rec["addedAt"] = lines[-1] if lines else date.today().isoformat()
+
+
 def main() -> int:
     data = load(SRC / "core.json")
     chapters = load(SRC / "chapters.json")
 
     issues = [load(p) for p in sorted((SRC / "issues").glob("*.json"))]
     articles = [load(p) for p in sorted((SRC / "articles").glob("*.json"))]
+
+    # المسودّات: تبقى كاملة على القرص ولا تدخل الموقع. تُستعمل لمادة تنتظر
+    # مراجعاً مختصّاً — كمسائل التكفير والردّة — فتُحجب عن القارئ دون أن
+    # يُحذف عملها. وكان هذا موصوفاً في CLAUDE.md وغير منفَّذ هنا، فالحقل
+    # يُكتب ولا يفعل شيئاً والمادة تُنشر وصاحبها يحسبها محجوبة.
+    # تاريخ أول ظهور الملف في git، يُحقن آلياً ليُبنى عليه وسم «جديد».
+    # لا يُكتب باليد: تاريخٌ يدويّ يُنسى تحديثه فيبقى الوسم على مادة قديمة،
+    # وسجلّ git لا يكذب.
+    stamp_added(issues, SRC / "issues")
+    stamp_added(articles, SRC / "articles")
+
+    drafts = [i["ref"] for i in issues if i.get("draft")]
+    issues = [i for i in issues if not i.get("draft")]
+    articles = [a for a in articles if not a.get("draft")]
+    if drafts:
+        print(f"مسودّات محجوبة عن الموقع: {', '.join(drafts)}")
 
     refs = [i["ref"] for i in issues]
     dupes = {r for r in refs if refs.count(r) > 1}
