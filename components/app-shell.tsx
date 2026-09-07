@@ -375,7 +375,28 @@ export function AppShell({ lang, section }: AppShellProps) {
       ) : (
         <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
           {section === "home" ? (
-            <HomeSection lang={lang} onGo={go} />
+            <HomeSection
+              lang={lang}
+              onGo={go}
+              onOpenIssue={(id) => {
+                // Clear any narrowing first: the chosen entry may sit outside
+                // the open book, and would otherwise be filtered away on
+                // arrival — the reader taps a title and lands on nothing.
+                setQuery("")
+                setScope("all")
+                setActiveChapter("")
+                const target = issues.find((i) => i.id === id)
+                if (target) setActiveCategory(target.categoryId)
+                go("fiqh")
+                // The card carries its ref as the DOM id, not its id.
+                const anchor = target?.ref ?? id
+                requestAnimationFrame(() =>
+                  requestAnimationFrame(() =>
+                    document.getElementById(anchor)?.scrollIntoView({ behavior: "smooth", block: "start" }),
+                  ),
+                )
+              }}
+            />
           ) : section === "aqidah" ? (
             <TheologySection lang={lang} />
           ) : section === "articles" ? (

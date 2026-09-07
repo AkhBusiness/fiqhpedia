@@ -47,24 +47,29 @@
 
 :root {
   color-scheme: light;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* Warm paper (#FDF5E6) rather than pure white. The site is read in long
+     unbroken passages, and a bright white ground tires the eye. The whole
+     set is warmed with it: a page this colour under pure-white cards would
+     leave the cards floating as bright patches, and pure-black text on it
+     keeps the same harsh contrast the change was meant to soften. */
+  --background: oklch(0.9723 0.0216 83.26);
+  --foreground: oklch(0.24 0.012 70);
+  --card: oklch(0.988 0.008 83);
+  --card-foreground: oklch(0.24 0.012 70);
+  --popover: oklch(0.988 0.008 83);
+  --popover-foreground: oklch(0.24 0.012 70);
+  --primary: oklch(0.28 0.014 70);
+  --primary-foreground: oklch(0.985 0.01 83);
+  --secondary: oklch(0.945 0.018 83);
+  --secondary-foreground: oklch(0.28 0.014 70);
+  --muted: oklch(0.945 0.018 83);
+  --muted-foreground: oklch(0.48 0.015 70);
+  --accent: oklch(0.945 0.018 83);
+  --accent-foreground: oklch(0.28 0.014 70);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: oklch(0.885 0.016 83);
+  --input: oklch(0.885 0.016 83);
+  --ring: oklch(0.66 0.03 83);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -169,6 +174,42 @@
     @apply overflow-x-hidden;
     max-width: 100%;
   }
+  /*
+   * The interactive chrome was written for the dark theme: some ninety
+   * places use `text-zinc-400 hover:text-white` over `bg-white/5`. On the
+   * warm light ground that reads as a pale button whose label turns white —
+   * that is, vanishes — the moment the pointer arrives.
+   *
+   * Rather than rewrite each call site, the light theme reverses the pair:
+   * the surface darkens and the label goes light, so hovering makes the
+   * whole control darker and more definite, not fainter.
+   */
+  :root:not(.dark) {
+    .bg-white\/5,
+    .bg-white\/\[0\.04\],
+    .bg-white\/\[0\.03\] {
+      background-color: color-mix(in oklch, var(--foreground) 5%, transparent);
+    }
+    .border-white\/10 {
+      border-color: color-mix(in oklch, var(--foreground) 12%, transparent);
+    }
+    .border-white\/25 {
+      border-color: color-mix(in oklch, var(--foreground) 28%, transparent);
+    }
+    .text-zinc-400 {
+      color: var(--muted-foreground);
+    }
+    /* The hover pair, inverted: darken the surface and lighten the label. */
+    .hover\:text-white:hover {
+      color: var(--primary-foreground);
+      background-color: var(--primary);
+      border-color: var(--primary);
+    }
+    .hover\:bg-white\/10:hover {
+      background-color: color-mix(in oklch, var(--foreground) 12%, transparent);
+    }
+  }
+
   /* Long unbroken strings — URLs, transliterated titles — must wrap rather
      than force the line wider than the screen. */
   p,

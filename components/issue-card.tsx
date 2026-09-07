@@ -149,7 +149,12 @@ export function IssueCard({
             {isRecentlyAdded(issue.addedAt) ? (
               <span
                 title={ui.newTagTitle[lang]}
-                className="rounded-md border border-emerald-400/30 bg-emerald-400/10 px-2 py-0.5 text-[11px] font-bold text-emerald-300"
+                /* Solid green, not an outline: the grade badges are all
+                   outlined chips, and farḍ is green among them — an outlined
+                   green "new" sat beside an outlined green "farḍ" and read
+                   as another grade. Filling it makes it a different kind of
+                   thing at a glance. */
+                className="rounded-md bg-emerald-500 px-2 py-0.5 text-[11px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
               >
                 {ui.newTag[lang]}
               </span>

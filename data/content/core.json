@@ -1107,6 +1107,20 @@
       "ru": "пополняется постепенно",
       "es": "se completa por etapas",
       "uk": "поповнюється поступово"
+    },
+    "recentTitle": {
+      "ar": "أحدث ما أُضيف",
+      "en": "Recently added",
+      "ru": "Недавно добавлено",
+      "es": "Añadido recientemente",
+      "uk": "Нещодавно додано"
+    },
+    "recentDesc": {
+      "ar": "الموسوعة تكبر باستمرار — هذه آخر المسائل المنشورة.",
+      "en": "The encyclopedia keeps growing — these are the latest entries published.",
+      "ru": "Энциклопедия постоянно растёт — вот последние опубликованные вопросы.",
+      "es": "La enciclopedia sigue creciendo: estas son las últimas cuestiones publicadas.",
+      "uk": "Енциклопедія постійно зростає — це останні опубліковані питання."
     }
   },
   "books": [
