@@ -375,9 +375,20 @@ def main():
         # البنية الجديدة (prompts/glossary-single.md): تعريف موجز + لغةً +
         # شرعاً + اصطلاحاً لكل مذهب بمراجعه. القديمة (تعريف واحد عام) ما
         # زالت مقبولة للمفردات الثمان الأولى لحين ترحيلها.
+        #
+        # ومفردات المقالات صنف ثالث: «التثليث» و«المجامع الكنسية» و«الآرامية»
+        # وقائعُ ومصطلحاتٌ لا مسائلُ خلاف، فلا يختلف معناها بالمذهب ولا شرعيّ
+        # لها يقابل لغويّها. فيلزمها التعريف الموجز والمراجع وحدها، ويُشترط
+        # الاصطلاح بالمذاهب حين يكون للمفردة معنى شرعيّ — أي حين توجد `legal`.
         if "technical" in g or "briefDefinition" in g:
             check_localized(g.get("briefDefinition"), f"{where}.briefDefinition")
-            check_localized(g.get("linguistic"), f"{where}.linguistic")
+            if g.get("linguistic") is not None:
+                check_localized(g.get("linguistic"), f"{where}.linguistic")
+            fiqh_term = "legal" in g or "technical" in g
+            if not fiqh_term:
+                if not g.get("sources"):
+                    err(f"{where}.sources: an article term needs at least one work")
+                continue
             check_localized(g.get("legal"), f"{where}.legal")
             technical = g.get("technical")
             if not isinstance(technical, dict):

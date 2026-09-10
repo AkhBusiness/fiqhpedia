@@ -3938,6 +3938,671 @@
           ]
         }
       }
+    },
+    {
+      "id": "tathlith",
+      "term": {
+        "ar": "التَّثْلِيث",
+        "en": "The Trinity",
+        "ru": "Троица",
+        "es": "La Trinidad",
+        "uk": "Трійця"
+      },
+      "briefDefinition": {
+        "ar": "عقيدةٌ نصرانية تجعل الإله ثلاثةَ أقانيم في ذاتٍ واحدة: الأب والابن والروح القدس. وقد نفاها القرآن ودعا إلى توحيدٍ خالص.",
+        "en": "A Christian doctrine holding God to be three hypostases in one essence — Father, Son and Holy Spirit. The Qurʾān denies it and calls to a pure monotheism.",
+        "ru": "Христианское учение, полагающее Бога тремя ипостасями в одной сущности — Отец, Сын и Святой Дух. Коран отрицает его и призывает к чистому единобожию.",
+        "es": "Doctrina cristiana que sostiene que Dios es tres hipóstasis en una sola esencia — Padre, Hijo y Espíritu Santo. El Corán la niega y llama a un monoteísmo puro.",
+        "uk": "Християнське вчення, що вважає Бога трьома іпостасями в одній сутності — Отець, Син і Святий Дух. Коран заперечує його і закликає до чистого єдинобожжя."
+      },
+      "linguistic": {
+        "ar": "جعل الشيء ثلاثة، من الثلاثة.",
+        "en": "Making a thing threefold, from “three”.",
+        "ru": "Утроение чего-либо, от слова «три».",
+        "es": "Hacer algo triple, de «tres».",
+        "uk": "Потроєння чогось, від слова «три»."
+      },
+      "sources": [
+        {
+          "ar": "الجواب الصحيح",
+          "en": "Al-Jawāb al-Ṣaḥīḥ",
+          "ru": "«Аль-Джаваб ас-Сахих»",
+          "es": "Al-Jawāb al-Ṣaḥīḥ",
+          "uk": "«Аль-Джаваб ас-Сахіх»"
+        },
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "aqanim",
+      "term": {
+        "ar": "الأقَانِيم",
+        "en": "Hypostases",
+        "ru": "Ипостаси",
+        "es": "Hipóstasis",
+        "uk": "Іпостасі"
+      },
+      "briefDefinition": {
+        "ar": "مفردها أُقنوم، وهو في اصطلاح النصارى الوجهُ أو الشخص من الأقانيم الثلاثة التي يقولون إن الذات الإلهية واحدة فيها.",
+        "en": "Singular hypostasis: in Christian usage, one of the three persons in which they hold the one divine essence to subsist.",
+        "ru": "Единственное число — ипостась: в христианском словоупотреблении одно из трёх лиц, в которых, по их учению, пребывает единая божественная сущность.",
+        "es": "En singular, hipóstasis: en el uso cristiano, una de las tres personas en las que sostienen que subsiste la única esencia divina.",
+        "uk": "Однина — іпостась: у християнському вжитку одна з трьох осіб, у яких, за їхнім ученням, перебуває єдина божественна сутність."
+      },
+      "sources": [
+        {
+          "ar": "الجواب الصحيح",
+          "en": "Al-Jawāb al-Ṣaḥīḥ",
+          "ru": "«Аль-Джаваб ас-Сахих»",
+          "es": "Al-Jawāb al-Ṣaḥīḥ",
+          "uk": "«Аль-Джаваб ас-Сахіх»"
+        }
+      ]
+    },
+    {
+      "id": "church-councils",
+      "term": {
+        "ar": "المَجَامِع الكَنَسِيَّة",
+        "en": "The Church Councils",
+        "ru": "Церковные соборы",
+        "es": "Los concilios eclesiásticos",
+        "uk": "Церковні собори"
+      },
+      "briefDefinition": {
+        "ar": "اجتماعات لرجال الكنيسة تُقرَّر فيها العقيدة بالتصويت. وأشهرها نيقية سنة ٣٢٥ وقرّرت ألوهية المسيح، والقسطنطينية سنة ٣٨١ وقرّرت ألوهية الروح القدس، وخلقيدونية سنة ٤٥١ وقرّرت الطبيعتين.",
+        "en": "Assemblies of churchmen at which doctrine was settled by vote. The best known are Nicaea in 325, which decided the divinity of the Messiah; Constantinople in 381, the divinity of the Holy Spirit; and Chalcedon in 451, the two natures.",
+        "ru": "Собрания церковных деятелей, на которых вероучение устанавливалось голосованием. Известнейшие из них: Никейский 325 года, постановивший божественность Мессии; Константинопольский 381 года — божественность Святого Духа; Халкидонский 451 года — две природы.",
+        "es": "Asambleas de eclesiásticos en las que la doctrina se fijaba por votación. Los más conocidos son Nicea en 325, que decidió la divinidad del Mesías; Constantinopla en 381, la del Espíritu Santo; y Calcedonia en 451, las dos naturalezas.",
+        "uk": "Зібрання церковних діячів, на яких віровчення встановлювалося голосуванням. Найвідоміші з них: Нікейський 325 року, що постановив божественність Месії; Константинопольський 381 року — божественність Святого Духа; Халкідонський 451 року — дві природи."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        },
+        {
+          "ar": "الجواب الصحيح",
+          "en": "Al-Jawāb al-Ṣaḥīḥ",
+          "ru": "«Аль-Джаваб ас-Сахих»",
+          "es": "Al-Jawāb al-Ṣaḥīḥ",
+          "uk": "«Аль-Джаваб ас-Сахіх»"
+        }
+      ]
+    },
+    {
+      "id": "church",
+      "term": {
+        "ar": "الكَنِيسَة",
+        "en": "The Church",
+        "ru": "Церковь",
+        "es": "La Iglesia",
+        "uk": "Церква"
+      },
+      "briefDefinition": {
+        "ar": "تُطلق على معبد النصارى، وعلى المؤسّسة الدينية التي تتولّى تقرير العقيدة وتفسير النصّ — وهذا المعنى الثاني هو المقصود في مباحث نقد الأديان.",
+        "en": "Used both of the Christian place of worship and of the religious institution that settles doctrine and interprets the text — the second sense is what is meant in the critique of religions.",
+        "ru": "Употребляется и о христианском храме, и о религиозном учреждении, которое устанавливает вероучение и толкует текст, — второе значение и имеется в виду в разборе религий.",
+        "es": "Se usa tanto para el templo cristiano como para la institución religiosa que fija la doctrina e interpreta el texto — este segundo sentido es el que se entiende en la crítica de las religiones.",
+        "uk": "Уживається і про християнський храм, і про релігійну установу, що встановлює віровчення й тлумачить текст, — саме друге значення мається на увазі в розборі релігій."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "christian-denominations",
+      "term": {
+        "ar": "الأُرْثُوذُكْس والكَاثُولِيك والبُرُوتِسْتَانْت",
+        "en": "Orthodox, Catholic and Protestant",
+        "ru": "Православные, католики и протестанты",
+        "es": "Ortodoxos, católicos y protestantes",
+        "uk": "Православні, католики та протестанти"
+      },
+      "briefDefinition": {
+        "ar": "الطوائف النصرانية الكبرى الثلاث. انفصلت الشرقية عن الغربية سنة ١٠٥٤، ثم خرجت البروتستانتية على الكاثوليكية سنة ١٥١٧ — وسبب الانفصالين سلطةُ البابا ومصدرُ التشريع، لا طبيعةُ المسيح، فالثلاث متّفقة على قرارات المجامع الأولى.",
+        "en": "The three major Christian communions. The Eastern parted from the Western in 1054, and Protestantism broke from Catholicism in 1517 — both splits over the authority of the pope and the source of law, not the nature of the Messiah, for the three agree on the rulings of the early councils.",
+        "ru": "Три крупнейшие христианские конфессии. Восточная отделилась от Западной в 1054 году, а протестантизм отделился от католичества в 1517 году — оба раскола из-за власти папы и источника закона, а не природы Мессии, ибо три конфессии согласны в решениях ранних соборов.",
+        "es": "Las tres grandes confesiones cristianas. La oriental se separó de la occidental en 1054, y el protestantismo se separó del catolicismo en 1517 — ambas rupturas por la autoridad del papa y la fuente de la ley, no por la naturaleza del Mesías, pues las tres coinciden en las decisiones de los primeros concilios.",
+        "uk": "Три найбільші християнські конфесії. Східна відділилася від Західної 1054 року, а протестантизм відділився від католицтва 1517 року — обидва розколи через владу папи та джерело закону, а не природу Месії, бо три конфесії згодні в рішеннях ранніх соборів."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "tawrat-injil",
+      "term": {
+        "ar": "التَّوْرَاة والإنْجِيل",
+        "en": "The Torah and the Gospel",
+        "ru": "Тора и Евангелие",
+        "es": "La Torá y el Evangelio",
+        "uk": "Тора та Євангеліє"
+      },
+      "briefDefinition": {
+        "ar": "التوراة ما أُنزل على موسى عليه السلام، والإنجيل ما أُنزل على عيسى عليه السلام. والمسلمون يؤمنون بأصلهما المنزَّل، ويرون أن ما بأيدي الناس اليوم دخله التبديل.",
+        "en": "The Torah is what was sent down to Moses, and the Gospel what was sent down to Jesus, peace be upon them. Muslims believe in what was revealed of each, and hold that what people have today has been altered.",
+        "ru": "Тора — то, что было ниспослано Моисею, а Евангелие — то, что было ниспослано Иисусу, мир им. Мусульмане веруют в ниспосланное из них и считают, что то, что имеется у людей ныне, подверглось изменению.",
+        "es": "La Torá es lo que fue revelado a Moisés, y el Evangelio lo que fue revelado a Jesús, la paz sea con ellos. Los musulmanes creen en lo revelado de ambos y sostienen que lo que la gente posee hoy ha sido alterado.",
+        "uk": "Тора — те, що було зіслане Мойсею, а Євангеліє — те, що було зіслане Ісусу, мир їм. Мусульмани вірують у зіслане з них і вважають, що те, що люди мають нині, зазнало зміни."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "two-testaments",
+      "term": {
+        "ar": "العَهْد القَدِيم والعَهْد الجَدِيد",
+        "en": "The Old and the New Testament",
+        "ru": "Ветхий и Новый Завет",
+        "es": "El Antiguo y el Nuevo Testamento",
+        "uk": "Старий і Новий Заповіт"
+      },
+      "briefDefinition": {
+        "ar": "قسما الكتاب المقدّس عند النصارى: القديم يضمّ أسفار اليهود، والجديد يضمّ الأناجيل الأربعة وما معها من رسائل.",
+        "en": "The two parts of the Christian Bible: the Old contains the books of the Jews, and the New the four Gospels and the letters that accompany them.",
+        "ru": "Две части христианской Библии: Ветхий содержит книги иудеев, а Новый — четыре Евангелия и сопутствующие им послания.",
+        "es": "Las dos partes de la Biblia cristiana: el Antiguo contiene los libros de los judíos, y el Nuevo los cuatro Evangelios y las cartas que los acompañan.",
+        "uk": "Дві частини християнської Біблії: Старий містить книги юдеїв, а Новий — чотири Євангелія та супровідні послання."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "tahrif",
+      "term": {
+        "ar": "التَّحْرِيف",
+        "en": "Alteration of Scripture",
+        "ru": "Искажение Писания",
+        "es": "La alteración de la Escritura",
+        "uk": "Перекручування Писання"
+      },
+      "briefDefinition": {
+        "ar": "تغييرُ نصّ الكتاب المنزَّل بالزيادة أو النقص أو تبديل المعنى. وهو ما يقرّره المسلمون في الكتب السابقة، ويشهد له اختلاف المخطوطات نفسها.",
+        "en": "Changing the text of a revealed book by addition, omission or a shift of meaning. Muslims hold this of the earlier scriptures, and the divergence of the manuscripts themselves bears it out.",
+        "ru": "Изменение текста ниспосланной книги добавлением, убавлением или сдвигом смысла. Мусульмане утверждают это о прежних Писаниях, и расхождение самих рукописей свидетельствует о том.",
+        "es": "Cambiar el texto de un libro revelado por adición, omisión o desplazamiento del sentido. Los musulmanes lo sostienen de las escrituras anteriores, y la divergencia de los propios manuscritos lo corrobora.",
+        "uk": "Зміна тексту зісланої книги додаванням, відніманням чи зсувом значення. Мусульмани стверджують це про попередні Писання, і розбіжність самих рукописів це підтверджує."
+      },
+      "linguistic": {
+        "ar": "الإمالة والعدول عن الوجه؛ من حَرَفَ الشيءَ إذا أماله.",
+        "en": "Bending and turning aside; from ḥarafa, to incline a thing.",
+        "ru": "Отклонение и уклонение в сторону; от «харафа» — наклонить нечто.",
+        "es": "Desviar y torcer; de ḥarafa, inclinar algo.",
+        "uk": "Відхилення та ухилення вбік; від «харафа» — нахилити щось."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        },
+        {
+          "ar": "الجواب الصحيح",
+          "en": "Al-Jawāb al-Ṣaḥīḥ",
+          "ru": "«Аль-Джаваб ас-Сахих»",
+          "es": "Al-Jawāb al-Ṣaḥīḥ",
+          "uk": "«Аль-Джаваб ас-Сахіх»"
+        }
+      ]
+    },
+    {
+      "id": "manuscripts",
+      "term": {
+        "ar": "المَخْطُوطَات",
+        "en": "The Manuscripts",
+        "ru": "Рукописи",
+        "es": "Los manuscritos",
+        "uk": "Рукописи"
+      },
+      "briefDefinition": {
+        "ar": "النسخ المكتوبة باليد التي وصلت من الكتب القديمة. ولمّا لم يكن للنصارى سندٌ متّصل، صار اختلاف المخطوطات بينها هو الدليل على ما دخل النصّ.",
+        "en": "The hand-written copies that have come down of the ancient books. Since the Christians had no unbroken chain of transmission, the divergence among the manuscripts is itself the evidence of what entered the text.",
+        "ru": "Рукописные копии, дошедшие от древних книг. Поскольку у христиан не было непрерывной цепи передачи, расхождение между рукописями само служит доказательством того, что вошло в текст.",
+        "es": "Las copias manuscritas que han llegado de los libros antiguos. Como los cristianos no tenían una cadena de transmisión ininterrumpida, la divergencia entre los manuscritos es en sí la prueba de lo que entró en el texto.",
+        "uk": "Рукописні копії, що дійшли від давніх книг. Оскільки в християн не було безперервного ланцюга передачі, розбіжність між рукописами сама є доказом того, що ввійшло в текст."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "aramaic",
+      "term": {
+        "ar": "الآرَامِيَّة",
+        "en": "Aramaic",
+        "ru": "Арамейский язык",
+        "es": "El arameo",
+        "uk": "Арамейська мова"
+      },
+      "briefDefinition": {
+        "ar": "اللغة التي تكلّم بها المسيح عليه السلام وأهل الشام في زمنه. ولم يُدوَّن بها شيء من الأناجيل، وإنما كُتبت باليونانية بعد رفعه بعقود.",
+        "en": "The language the Messiah, peace be upon him, and the people of Syria spoke in his time. None of the Gospels was written down in it; they were written in Greek decades after him.",
+        "ru": "Язык, на котором говорил Мессия, мир ему, и жители Шама в его время. Ни одно из Евангелий не было записано на нём; они были написаны по-гречески спустя десятилетия после него.",
+        "es": "La lengua que hablaba el Mesías, la paz sea con él, y la gente de Siria en su tiempo. Ninguno de los Evangelios se escribió en ella; se escribieron en griego décadas después de él.",
+        "uk": "Мова, якою говорив Месія, мир йому, і мешканці Шаму в його час. Жодне з Євангелій не було записане нею; вони були написані грецькою через десятиліття після нього."
+      },
+      "sources": [
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
+    },
+    {
+      "id": "sanad",
+      "term": {
+        "ar": "السَّنَد والتَّوَاتُر",
+        "en": "Chain of Transmission and Mass Transmission",
+        "ru": "Цепь передачи и массовая передача",
+        "es": "La cadena de transmisión y la transmisión masiva",
+        "uk": "Ланцюг передачі та масова передача"
+      },
+      "briefDefinition": {
+        "ar": "السند سلسلة الرواة الذين نقلوا النصّ واحداً عن واحد بأسمائهم. والتواتر أن ينقله في كل طبقة جمعٌ يستحيل تواطؤهم على الكذب — وبه حُفظ القرآن، وبفقده دخل التبديل على غيره.",
+        "en": "The chain is the named line of transmitters who passed the text on one from another. Mass transmission is its being carried in every generation by a body too large to have agreed upon a lie — by it the Qurʾān was preserved, and by its absence alteration entered other scriptures.",
+        "ru": "Цепь — это поимённый ряд передатчиков, донёсших текст один от другого. Массовая передача — это когда его несёт в каждом поколении число людей, слишком большое, чтобы сговориться на лжи; ею был сохранён Коран, а её отсутствием вошло изменение в иные Писания.",
+        "es": "La cadena es la línea nominal de transmisores que pasaron el texto uno de otro. La transmisión masiva es que lo lleve en cada generación un conjunto demasiado numeroso para haberse concertado en una mentira; por ella se preservó el Corán, y por su ausencia entró la alteración en otras escrituras.",
+        "uk": "Ланцюг — це поіменний ряд передавачів, які донесли текст один від одного. Масова передача — це коли його несе в кожному поколінні число людей, надто велике, щоб змовитися на брехні; нею був збережений Коран, а її відсутністю ввійшла зміна в інші Писання."
+      },
+      "sources": [
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "fitrah",
+      "term": {
+        "ar": "الفِطْرَة",
+        "en": "Innate Disposition",
+        "ru": "Врождённое естество",
+        "es": "La disposición innata",
+        "uk": "Вроджене єство"
+      },
+      "briefDefinition": {
+        "ar": "الخِلقة الأولى التي فُطر عليها الناس، وفيها ميلٌ إلى معرفة الخالق وتوحيده قبل أن يعلّمهم أحد.",
+        "en": "The original constitution people are created upon, carrying a leaning toward knowing the Creator and holding Him one, before anyone teaches them.",
+        "ru": "Изначальное устроение, на котором сотворены люди, несущее склонность к познанию Творца и признанию Его единственности прежде всякого научения.",
+        "es": "La constitución originaria sobre la que son creadas las personas, que lleva una inclinación a conocer al Creador y afirmar Su unicidad antes de que nadie las enseñe.",
+        "uk": "Первісний устрій, на якому створені люди, що несе схильність до пізнання Творця й визнання Його єдиності перш за будь-яке навчання."
+      },
+      "linguistic": {
+        "ar": "الشقّ والابتداء؛ من فَطَرَ الشيءَ إذا شقّه وابتدأ خلقه.",
+        "en": "Splitting and beginning; from faṭara, to cleave a thing and originate it.",
+        "ru": "Раскалывание и начинание; от «фатара» — расколоть нечто и положить ему начало.",
+        "es": "Hendir y comenzar; de faṭara, hender algo y originarlo.",
+        "uk": "Розколювання та започаткування; від «фатара» — розколоти щось і покласти йому початок."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "hanifiyyah",
+      "term": {
+        "ar": "الحَنِيفِيَّة",
+        "en": "The Ḥanīfiyyah",
+        "ru": "Ханифия",
+        "es": "La ḥanīfiyya",
+        "uk": "Ганіфія"
+      },
+      "briefDefinition": {
+        "ar": "ملّة إبراهيم عليه السلام: إفراد الله بالعبادة والإعراض عن كل ما سواه. وبها وُصف المسلمون في القرآن.",
+        "en": "The way of Abraham, peace be upon him: devoting worship to God alone and turning away from all besides Him. The Qurʾān describes the Muslims by it.",
+        "ru": "Путь Авраама, мир ему: посвящение поклонения одному Богу и отвращение от всего, кроме Него. Им Коран описывает мусульман.",
+        "es": "La vía de Abraham, la paz sea con él: consagrar el culto solo a Dios y apartarse de todo lo demás. El Corán describe con ella a los musulmanes.",
+        "uk": "Шлях Авраама, мир йому: присвячення поклоніння одному Богу і відвернення від усього іншого. Ним Коран описує мусульман."
+      },
+      "linguistic": {
+        "ar": "من الحَنَف، وهو الميل عن الباطل إلى الحقّ.",
+        "en": "From ḥanaf: inclining away from falsehood toward the truth.",
+        "ru": "От «ханаф» — склонение от лжи к истине.",
+        "es": "De ḥanaf: inclinarse de la falsedad hacia la verdad.",
+        "uk": "Від «ханаф» — схиляння від неправди до істини."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "wahy",
+      "term": {
+        "ar": "الوَحْي",
+        "en": "Revelation",
+        "ru": "Откровение",
+        "es": "La revelación",
+        "uk": "Одкровення"
+      },
+      "briefDefinition": {
+        "ar": "إعلامُ الله نبيَّه بما يريد تبليغه، إمّا بواسطة المَلَك وإمّا من غير واسطة. وهو مصدر الشرائع كلّها.",
+        "en": "God's making known to His prophet what He wills to convey, whether through an angel or without an intermediary. It is the source of every revealed law.",
+        "ru": "Сообщение Богом Своему пророку того, что Он желает донести, — через ангела или без посредника. Оно есть источник всех ниспосланных законов.",
+        "es": "El dar a conocer Dios a Su profeta lo que desea transmitir, sea por medio de un ángel o sin intermediario. Es la fuente de toda ley revelada.",
+        "uk": "Сповіщення Богом Своєму пророкові того, що Він бажає донести, — через ангела чи без посередника. Воно є джерелом усіх зісланих законів."
+      },
+      "linguistic": {
+        "ar": "الإعلام في خفاء وسرعة.",
+        "en": "Making known swiftly and in secret.",
+        "ru": "Быстрое и тайное извещение.",
+        "es": "Dar a conocer con rapidez y en secreto.",
+        "uk": "Швидке й таємне сповіщення."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "malaikah",
+      "term": {
+        "ar": "المَلَائِكَة",
+        "en": "The Angels",
+        "ru": "Ангелы",
+        "es": "Los ángeles",
+        "uk": "Ангели"
+      },
+      "briefDefinition": {
+        "ar": "خلقٌ من نور، لا يوصفون بذكورة ولا أنوثة، ولا يعصون الله ما أمرهم. ولهم وظائف موكَّلة: منهم حامل الوحي، ومنهم الموكَّل بالقطر والنبات.",
+        "en": "A creation made of light, described neither as male nor female, who do not disobey God in what He commands them. Each has a charge: one bears the revelation, another is charged with rain and growth.",
+        "ru": "Творения из света, не описываемые ни мужским, ни женским полом, не ослушивающиеся Бога в том, что Он им повелевает. У каждого своё поручение: один несёт откровение, другой поставлен над дождём и растениями.",
+        "es": "Una creación hecha de luz, no descrita como masculina ni femenina, que no desobedece a Dios en lo que les ordena. Cada uno tiene un cargo: uno porta la revelación, otro está encargado de la lluvia y la vegetación.",
+        "uk": "Створіння зі світла, не описувані ні чоловічою, ні жіночою статтю, що не непокоряться Богові в тому, що Він їм наказує. У кожного своє доручення: один несе одкровення, інший поставлений над дощем і рослинами."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        }
+      ]
+    },
+    {
+      "id": "jinn",
+      "term": {
+        "ar": "الجَانّ",
+        "en": "The Jinn",
+        "ru": "Джинны",
+        "es": "Los yinn",
+        "uk": "Джини"
+      },
+      "briefDefinition": {
+        "ar": "خلقٌ من نار، مكلَّفون كالإنس، منهم المؤمن ومنهم الكافر، وهم غائبون عن الأبصار. خُلقوا قبل آدم عليه السلام.",
+        "en": "A creation made of fire, held responsible as humans are, some believing and some not, hidden from sight. They were created before Adam, peace be upon him.",
+        "ru": "Творения из огня, обязанные перед Богом, как и люди: среди них есть верующие и неверующие; они сокрыты от взоров. Сотворены прежде Адама, мир ему.",
+        "es": "Una creación hecha de fuego, responsable como los humanos, entre ellos hay creyentes e incrédulos, ocultos a la vista. Fueron creados antes de Adán, la paz sea con él.",
+        "uk": "Створіння з вогню, відповідальні, як і люди: серед них є віруючі й невіруючі; вони приховані від очей. Створені раніше за Адама, мир йому."
+      },
+      "linguistic": {
+        "ar": "من الجنّ وهو السَّتر؛ سُمّوا به لاستتارهم عن العيون.",
+        "en": "From janna, to cover; so named because they are veiled from sight.",
+        "ru": "От «джанна» — покрывать; названы так за сокрытость от глаз.",
+        "es": "De janna, cubrir; llamados así por estar velados a la vista.",
+        "uk": "Від «джанна» — покривати; названі так за прихованість від очей."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        }
+      ]
+    },
+    {
+      "id": "marij",
+      "term": {
+        "ar": "مَارِج مِن نَار",
+        "en": "A Smokeless Flame",
+        "ru": "Чистое пламя без дыма",
+        "es": "Una llama sin humo",
+        "uk": "Чисте полум'я без диму"
+      },
+      "briefDefinition": {
+        "ar": "طرف اللهب الصافي الذي لا دخان فيه، وهو ما خُلق منه الجانّ.",
+        "en": "The pure tip of a flame with no smoke in it, from which the jinn were created.",
+        "ru": "Чистый край пламени без дыма, из которого были сотворены джинны.",
+        "es": "El extremo puro de la llama sin humo alguno, del que fueron creados los yinn.",
+        "uk": "Чистий край полум'я без диму, з якого були створені джини."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "arsh",
+      "term": {
+        "ar": "العَرْش",
+        "en": "The Throne",
+        "ru": "Трон",
+        "es": "El Trono",
+        "uk": "Трон"
+      },
+      "briefDefinition": {
+        "ar": "أعظم المخلوقات وأعلاها، خلقه الله قبل السماوات والأرض وكان على الماء. ولا يُعلم كيفيته.",
+        "en": "The greatest and highest of created things, which God made before the heavens and the earth, and which was upon the water. Its manner is not known.",
+        "ru": "Величайшее и высочайшее из творений, которое Бог сотворил прежде небес и земли и которое было над водой. Образ его неизвестен.",
+        "es": "La mayor y más alta de las cosas creadas, que Dios hizo antes de los cielos y la tierra, y que estaba sobre el agua. Su modo no se conoce.",
+        "uk": "Найбільше й найвище з творінь, яке Бог створив раніше за небеса й землю і яке було над водою. Спосіб його невідомий."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        }
+      ]
+    },
+    {
+      "id": "lawh-mahfuz",
+      "term": {
+        "ar": "اللَّوْح المَحْفُوظ",
+        "en": "The Preserved Tablet",
+        "ru": "Хранимая скрижаль",
+        "es": "La Tabla Preservada",
+        "uk": "Збережена скрижаль"
+      },
+      "briefDefinition": {
+        "ar": "كتابٌ عند الله كُتبت فيه مقادير الخلق قبل أن يخلق السماوات والأرض بخمسين ألف سنة.",
+        "en": "A book with God in which the decrees of creation were written fifty thousand years before He created the heavens and the earth.",
+        "ru": "Книга у Бога, в которой были записаны предопределения творения за пятьдесят тысяч лет до сотворения небес и земли.",
+        "es": "Un libro junto a Dios en el que se escribieron los decretos de la creación cincuenta mil años antes de que creara los cielos y la tierra.",
+        "uk": "Книга в Бога, у якій були записані визначення творіння за п'ятдесят тисяч років до створення небес і землі."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        }
+      ]
+    },
+    {
+      "id": "azal",
+      "term": {
+        "ar": "الأَزَل",
+        "en": "Beginninglessness",
+        "ru": "Безначальность",
+        "es": "La eternidad sin principio",
+        "uk": "Безпочатковість"
+      },
+      "briefDefinition": {
+        "ar": "ألّا يكون للشيء أوّل. وهي صفة لله وحده؛ وكلّ ما سواه محدَثٌ مسبوقٌ بالعدم.",
+        "en": "That a thing has no beginning. It belongs to God alone; everything besides Him is originated and preceded by non-existence.",
+        "ru": "То, что у вещи нет начала. Это свойство одного лишь Бога; всё, кроме Него, возникло и было предварено небытием.",
+        "es": "Que algo no tenga principio. Es propio de Dios solo; todo lo demás es originado y precedido por la inexistencia.",
+        "uk": "Те, що річ не має початку. Це властивість лише Бога; усе, крім Нього, виникло й було передоване небуттям."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        }
+      ]
+    },
+    {
+      "id": "muhaymin",
+      "term": {
+        "ar": "المُهَيْمِن",
+        "en": "Guardian over Scripture",
+        "ru": "Хранитель Писания",
+        "es": "Guardián de la Escritura",
+        "uk": "Охоронець Писання"
+      },
+      "briefDefinition": {
+        "ar": "وصفٌ للقرآن: أنه الشاهد على الكتب قبله، الحاكم عليها، يُصدّق ما بقي منها على أصله ويكشف ما دخله من تبديل.",
+        "en": "A description of the Qurʾān: that it is witness over the books before it and judge upon them, confirming what remains of them as revealed and disclosing what alteration has entered them.",
+        "ru": "Описание Корана: что он свидетель над книгами до него и судья над ними, подтверждающий то, что осталось от них в первоначальном виде, и раскрывающий вошедшее в них изменение.",
+        "es": "Una descripción del Corán: que es testigo sobre los libros anteriores y juez sobre ellos, confirmando lo que de ellos permanece como fue revelado y revelando la alteración que en ellos entró.",
+        "uk": "Опис Корана: що він свідок над книгами до нього і суддя над ними, підтверджуючи те, що лишилося від них у первісному вигляді, і розкриваючи зміну, що в них увійшла."
+      },
+      "linguistic": {
+        "ar": "من الهيمنة، وهي الرقابة والحفظ والشهادة على الشيء.",
+        "en": "From haymanah: watching over, guarding and bearing witness upon a thing.",
+        "ru": "От «хаймана» — надзор, охрана и свидетельствование о чём-либо.",
+        "es": "De haymana: vigilar, guardar y dar testimonio sobre algo.",
+        "uk": "Від «хаймана» — нагляд, охорона та свідчення про щось."
+      },
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "إظهار الحق",
+          "en": "Iẓhār al-Ḥaqq",
+          "ru": "«Изхар аль-Хакк»",
+          "es": "Iẓhār al-Ḥaqq",
+          "uk": "«Ізхар аль-Хакк»"
+        }
+      ]
     }
   ],
   "guides": [
