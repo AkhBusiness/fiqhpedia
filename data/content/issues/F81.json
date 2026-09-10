@@ -1,0 +1,161 @@
+{
+  "ref": "F81",
+  "id": "taharah-38",
+  "bookId": "taharah",
+  "seq": 11,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم الذكر والدعاء بعد الوضوء",
+    "en": "The Ruling on the Remembrance and Supplication after the Ablution",
+    "ru": "Постановление о поминании и мольбе после омовения",
+    "es": "La norma sobre el recuerdo y la súplica tras la ablución",
+    "uk": "Постанова про згадування та благання після омивання"
+  },
+  "summary": {
+    "ar": "ما حكم الذكر والدعاء الوارد عقب الفراغ من الوضوء، وما صيغته؟",
+    "en": "What is the ruling on the transmitted remembrance and supplication on finishing the ablution, and what is its wording?",
+    "ru": "Каково постановление о переданном поминании и мольбе по завершении омовения, и каково их формулирование?",
+    "es": "¿Cuál es la norma sobre el recuerdo y la súplica transmitidos al terminar la ablución, y cuál es su fórmula?",
+    "uk": "Яка постанова про передане згадування та благання після завершення омивання, і яке їх формулювання?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُستحبّ للمتوضّئ بعد فراغه أن يقول: «أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمّداً عبده ورسوله، اللهمّ اجعلني من التوّابين واجعلني من المتطهّرين».",
+        "en": "It is recommended for one who has finished the ablution to say: “I bear witness that there is no god but God alone, having no partner, and I bear witness that Muḥammad is His servant and His messenger. O God, make me of those who turn to You in repentance, and make me of those who keep themselves pure.”",
+        "ru": "Тому, кто завершил омовение, желательно сказать: «Свидетельствую, что нет божества, кроме Бога Единого, у Которого нет сотоварища, и свидетельствую, что Мухаммад — Его раб и Его посланник. О Боже, сделай меня из кающихся и сделай меня из очищающихся».",
+        "es": "A quien ha terminado la ablución se le recomienda decir: «Atestiguo que no hay dios sino Dios, Único, sin socio alguno, y atestiguo que Muḥammad es Su siervo y Su mensajero. Oh Dios, hazme de los que se vuelven a Ti arrepentidos y hazme de los que se purifican».",
+        "uk": "Тому, хто завершив омивання, бажано сказати: «Свідчу, що немає божества, крім Бога Єдиного, у Якого немає співтовариша, і свідчу, що Мухаммад — Його раб і Його посланець. О Боже, зроби мене з тих, хто кається, і зроби мене з тих, хто очищається»."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُستحبّ الذكر والدعاء عقب الوضوء بالشهادتين والدعاء المأثور، وهو من آداب الوضوء ومندوباته.",
+        "en": "The remembrance and supplication after the ablution — the two testimonies and the transmitted supplication — are recommended, and they are among the manners and recommended acts of the ablution.",
+        "ru": "Поминание и мольба после омовения — два свидетельства и переданная мольба — желательны, и они относятся к правилам приличия и желательным действиям омовения.",
+        "es": "El recuerdo y la súplica tras la ablución — los dos testimonios y la súplica transmitida — son recomendables, y forman parte de los modales y los actos recomendables de la ablución.",
+        "uk": "Згадування та благання після омивання — два свідчення й передане благання — бажані, і вони належать до правил пристойності та бажаних дій омивання."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ الإتيان بالشهادتين والدعاء المأثور عقب الوضوء مستقبلاً القبلة رافعاً يديه، لثبوته في السنّة.",
+        "en": "It is a sunnah to say the two testimonies and the transmitted supplication after the ablution, facing the qibla and raising the hands, since it is established in the Sunnah.",
+        "ru": "Сунной является произнести два свидетельства и переданную мольбу после омовения, обратившись к кибле и подняв руки, поскольку это установлено в Сунне.",
+        "es": "Es sunnah decir los dos testimonios y la súplica transmitida tras la ablución, orientado a la alquibla y alzando las manos, pues está establecido en la Sunnah.",
+        "uk": "Сунною є промовити два свідчення й передане благання після омивання, повернувшись до кибли та піднявши руки, оскільки це встановлено в Сунні."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُستحبّ الذكر والدعاء عقب الوضوء بالشهادتين وبقوله: «اللهمّ اجعلني من التوّابين واجعلني من المتطهّرين».",
+        "en": "The remembrance and supplication after the ablution are recommended: the two testimonies, and the words “O God, make me of those who turn to You in repentance, and make me of those who keep themselves pure.”",
+        "ru": "Поминание и мольба после омовения желательны: два свидетельства и слова «О Боже, сделай меня из кающихся и сделай меня из очищающихся».",
+        "es": "El recuerdo y la súplica tras la ablución son recomendables: los dos testimonios y las palabras «Oh Dios, hazme de los que se vuelven a Ti arrepentidos y hazme de los que se purifican».",
+        "uk": "Згадування та благання після омивання бажані: два свідчення й слова «О Боже, зроби мене з тих, хто кається, і зроби мене з тих, хто очищається»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

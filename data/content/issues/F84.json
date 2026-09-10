@@ -1,0 +1,161 @@
+{
+  "ref": "F84",
+  "id": "taharah-41",
+  "bookId": "taharah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب نواقض الوضوء",
+    "en": "Chapter of Ablution Nullifiers",
+    "ru": "Раздел о нарушителях омовения",
+    "es": "Capítulo de los anuladores de la ablución",
+    "uk": "Розділ про порушники омовіння"
+  },
+  "title": {
+    "ar": "حكم زوال العقل بسكر أو إغماء أو جنون",
+    "en": "Loss of Reason through Intoxication, Fainting or Insanity",
+    "ru": "Утрата разума вследствие опьянения, обморока или безумия",
+    "es": "La pérdida de la razón por embriaguez, desmayo o locura",
+    "uk": "Втрата розуму внаслідок сп'яніння, непритомності чи божевілля"
+  },
+  "summary": {
+    "ar": "هل ينقض الوضوءَ زوالُ العقل بالإغماء أو الجنون أو السكر أو التخدير؟",
+    "en": "Does loss of reason through fainting, insanity, intoxication or anaesthesia break the ablution?",
+    "ru": "Нарушает ли омовение утрата разума вследствие обморока, безумия, опьянения или наркоза?",
+    "es": "¿Rompe la ablución la pérdida de la razón por desmayo, locura, embriaguez o anestesia?",
+    "uk": "Чи порушує омивання втрата розуму внаслідок непритомності, божевілля, сп'яніння чи наркозу?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "text": {
+        "ar": "ينقض الوضوء كلّ ما أزال العقل أو غيّبه من جنون أو إغماء أو سُكر، قلّ زوال العقل أو كثر.",
+        "en": "The ablution is broken by whatever removes or veils reason — insanity, fainting or intoxication — whether the loss of reason is brief or long.",
+        "ru": "Омовение нарушается всем, что удаляет или застилает разум — безумием, обмороком или опьянением, — краткой будет утрата разума или долгой.",
+        "es": "La ablución se rompe por cuanto quita o vela la razón — locura, desmayo o embriaguez —, sea breve o larga la pérdida de la razón.",
+        "uk": "Омивання порушується всім, що усуває чи застилає розум — божевіллям, непритомністю чи сп'янінням, — короткою буде втрата розуму чи довгою."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "text": {
+        "ar": "ينقض الوضوء زوال العقل بجنون أو إغماء أو سُكر أو غشية، لأنه أبلغ من النوم الناقض.",
+        "en": "The ablution is broken by loss of reason through insanity, fainting, intoxication or a swoon, since it is more complete than the sleep that breaks it.",
+        "ru": "Омовение нарушается утратой разума вследствие безумия, обморока, опьянения или беспамятства, поскольку она полнее того сна, который его нарушает.",
+        "es": "La ablución se rompe por la pérdida de la razón por locura, desmayo, embriaguez o desvanecimiento, pues es más completa que el sueño que la rompe.",
+        "uk": "Омивання порушується втратою розуму внаслідок божевілля, непритомності, сп'яніння чи забуття, оскільки вона повніша за той сон, що його порушує."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "text": {
+        "ar": "ينقض الوضوء الجنون والإغماء والسُّكر وكلّ ما أزال العقل، طال الزمن أو قصُر، لغياب التمييز.",
+        "en": "The ablution is broken by insanity, fainting, intoxication and whatever removes reason, whether the time is long or short, because discernment is absent.",
+        "ru": "Омовение нарушается безумием, обмороком, опьянением и всем, что удаляет разум, долгим будет время или коротким, ибо отсутствует различение.",
+        "es": "La ablución se rompe por la locura, el desmayo, la embriaguez y cuanto quita la razón, sea largo o breve el tiempo, pues falta el discernimiento.",
+        "uk": "Омивання порушується божевіллям, непритомністю, сп'янінням і всім, що усуває розум, довгим буде час чи коротким, бо відсутнє розрізнення."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "text": {
+        "ar": "ينقض الوضوء كلّ زوال للعقل من جنون أو إغماء أو سُكر أو تخدير تامّ، لأنه مظنّة خروج حدث لا يشعر به.",
+        "en": "The ablution is broken by every loss of reason — insanity, fainting, intoxication or full anaesthesia — because it is the likely occasion of a discharge he would not feel.",
+        "ru": "Омовение нарушается всякой утратой разума — безумием, обмороком, опьянением или полным наркозом, — ибо это вероятный случай истечения, которого человек не почувствует.",
+        "es": "La ablución se rompe por toda pérdida de la razón — locura, desmayo, embriaguez o anestesia completa —, pues es ocasión probable de una emisión que no se percibiría.",
+        "uk": "Омивання порушується всякою втратою розуму — божевіллям, непритомністю, сп'янінням чи повним наркозом, — бо це ймовірний випадок витікання, якого людина не відчує."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

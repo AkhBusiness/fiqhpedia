@@ -10005,10 +10005,172 @@
       "addedAt": "2026-09-10"
     },
     {
+      "id": "taharah-38",
+      "ref": "F81",
+      "bookId": "taharah",
+      "number": 33,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم الذكر والدعاء بعد الوضوء",
+        "en": "The Ruling on the Remembrance and Supplication after the Ablution",
+        "ru": "Постановление о поминании и мольбе после омовения",
+        "es": "La norma sobre el recuerdo y la súplica tras la ablución",
+        "uk": "Постанова про згадування та благання після омивання"
+      },
+      "summary": {
+        "ar": "ما حكم الذكر والدعاء الوارد عقب الفراغ من الوضوء، وما صيغته؟",
+        "en": "What is the ruling on the transmitted remembrance and supplication on finishing the ablution, and what is its wording?",
+        "ru": "Каково постановление о переданном поминании и мольбе по завершении омовения, и каково их формулирование?",
+        "es": "¿Cuál es la norma sobre el recuerdo y la súplica transmitidos al terminar la ablución, y cuál es su fórmula?",
+        "uk": "Яка постанова про передане згадування та благання після завершення омивання, і яке їх формулювання?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُستحبّ للمتوضّئ بعد فراغه أن يقول: «أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمّداً عبده ورسوله، اللهمّ اجعلني من التوّابين واجعلني من المتطهّرين».",
+            "en": "It is recommended for one who has finished the ablution to say: “I bear witness that there is no god but God alone, having no partner, and I bear witness that Muḥammad is His servant and His messenger. O God, make me of those who turn to You in repentance, and make me of those who keep themselves pure.”",
+            "ru": "Тому, кто завершил омовение, желательно сказать: «Свидетельствую, что нет божества, кроме Бога Единого, у Которого нет сотоварища, и свидетельствую, что Мухаммад — Его раб и Его посланник. О Боже, сделай меня из кающихся и сделай меня из очищающихся».",
+            "es": "A quien ha terminado la ablución se le recomienda decir: «Atestiguo que no hay dios sino Dios, Único, sin socio alguno, y atestiguo que Muḥammad es Su siervo y Su mensajero. Oh Dios, hazme de los que se vuelven a Ti arrepentidos y hazme de los que se purifican».",
+            "uk": "Тому, хто завершив омивання, бажано сказати: «Свідчу, що немає божества, крім Бога Єдиного, у Якого немає співтовариша, і свідчу, що Мухаммад — Його раб і Його посланець. О Боже, зроби мене з тих, хто кається, і зроби мене з тих, хто очищається»."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُستحبّ الذكر والدعاء عقب الوضوء بالشهادتين والدعاء المأثور، وهو من آداب الوضوء ومندوباته.",
+            "en": "The remembrance and supplication after the ablution — the two testimonies and the transmitted supplication — are recommended, and they are among the manners and recommended acts of the ablution.",
+            "ru": "Поминание и мольба после омовения — два свидетельства и переданная мольба — желательны, и они относятся к правилам приличия и желательным действиям омовения.",
+            "es": "El recuerdo y la súplica tras la ablución — los dos testimonios y la súplica transmitida — son recomendables, y forman parte de los modales y los actos recomendables de la ablución.",
+            "uk": "Згадування та благання після омивання — два свідчення й передане благання — бажані, і вони належать до правил пристойності та бажаних дій омивання."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ الإتيان بالشهادتين والدعاء المأثور عقب الوضوء مستقبلاً القبلة رافعاً يديه، لثبوته في السنّة.",
+            "en": "It is a sunnah to say the two testimonies and the transmitted supplication after the ablution, facing the qibla and raising the hands, since it is established in the Sunnah.",
+            "ru": "Сунной является произнести два свидетельства и переданную мольбу после омовения, обратившись к кибле и подняв руки, поскольку это установлено в Сунне.",
+            "es": "Es sunnah decir los dos testimonios y la súplica transmitida tras la ablución, orientado a la alquibla y alzando las manos, pues está establecido en la Sunnah.",
+            "uk": "Сунною є промовити два свідчення й передане благання після омивання, повернувшись до кибли та піднявши руки, оскільки це встановлено в Сунні."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُستحبّ الذكر والدعاء عقب الوضوء بالشهادتين وبقوله: «اللهمّ اجعلني من التوّابين واجعلني من المتطهّرين».",
+            "en": "The remembrance and supplication after the ablution are recommended: the two testimonies, and the words “O God, make me of those who turn to You in repentance, and make me of those who keep themselves pure.”",
+            "ru": "Поминание и мольба после омовения желательны: два свидетельства и слова «О Боже, сделай меня из кающихся и сделай меня из очищающихся».",
+            "es": "El recuerdo y la súplica tras la ablución son recomendables: los dos testimonios y las palabras «Oh Dios, hazme de los que se vuelven a Ti arrepentidos y hazme de los que se purifican».",
+            "uk": "Згадування та благання після омивання бажані: два свідчення й слова «О Боже, зроби мене з тих, хто кається, і зроби мене з тих, хто очищається»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 33,
+      "number": 34,
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10116,7 +10278,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 34,
+      "number": 35,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -10221,10 +10383,658 @@
       }
     },
     {
+      "id": "taharah-39",
+      "ref": "F82",
+      "bookId": "taharah",
+      "number": 36,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омовіння"
+      },
+      "title": {
+        "ar": "حكم الخارج من السبيلين ونقضه للوضوء",
+        "en": "What Issues from the Two Passages, and Whether It Breaks the Ablution",
+        "ru": "Выходящее из двух путей и нарушает ли оно омовение",
+        "es": "Lo que sale de las dos vías y si rompe la ablución",
+        "uk": "Те, що виходить із двох шляхів, і чи порушує воно омивання"
+      },
+      "summary": {
+        "ar": "ما الخارج من السبيلين الناقض للوضوء، وهل ينقض قليله وكثيره؟",
+        "en": "What issuing from the two passages breaks the ablution, and does a small amount break it as a large one does?",
+        "ru": "Что из выходящего из двух путей нарушает омовение, и нарушает ли малое так же, как многое?",
+        "es": "¿Qué sale de las dos vías rompe la ablución, y la rompe lo poco como lo mucho?",
+        "uk": "Що з того, що виходить із двох шляхів, порушує омивання, і чи порушує мале так само, як велике?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء كلّ خارج من السبيلين — كالبول والغائط والريح والمذي والودي — قليلاً كان أو كثيراً.",
+            "en": "The ablution is broken by everything that issues from the two passages — urine, faeces, wind, prostatic fluid and the residue after urination — whether little or much.",
+            "ru": "Омовение нарушается всем, что выходит из двух путей — мочой, калом, газами, предсеменной жидкостью и остатком после мочеиспускания, — малым или многим.",
+            "es": "La ablución se rompe por todo lo que sale de las dos vías — orina, heces, ventosidad, líquido preseminal y el residuo tras orinar —, sea poco o mucho.",
+            "uk": "Омивання порушується всім, що виходить із двох шляхів — сечею, калом, газами, передсім'яною рідиною та залишком після сечовипускання, — малим чи великим."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء الخارج المعتاد من السبيلين — كالبول والغائط والريح والمذي والودي — إذا خرج على وجه الصحّة والاعتياد.",
+            "en": "The ablution is broken by what customarily issues from the two passages — urine, faeces, wind, prostatic fluid and the residue after urination — when it issues in the ordinary way and in health.",
+            "ru": "Омовение нарушается тем, что обычно выходит из двух путей — мочой, калом, газами, предсеменной жидкостью и остатком после мочеиспускания, — если оно выходит обычным образом и при здоровье.",
+            "es": "La ablución se rompe por lo que sale habitualmente de las dos vías — orina, heces, ventosidad, líquido preseminal y el residuo tras orinar —, cuando sale del modo ordinario y en estado de salud.",
+            "uk": "Омивання порушується тим, що звично виходить із двох шляхів — сечею, калом, газами, передсім'яною рідиною та залишком після сечовипускання, — якщо воно виходить звичайним чином і при здоров'ї."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء كلّ خارج من قُبُل أو دُبُر عدا المنيّ، طاهراً كان الخارج أو نجساً، ريحاً أو غيره.",
+            "en": "The ablution is broken by everything that issues from the front or the rear passage except semen, whether what issues is pure or impure, wind or otherwise.",
+            "ru": "Омовение нарушается всем, что выходит из переднего или заднего прохода, кроме семени, — чистым оно будет или нечистым, газами или иным.",
+            "es": "La ablución se rompe por todo lo que sale de la vía delantera o trasera salvo el semen, sea puro o impuro lo que sale, ventosidad u otra cosa.",
+            "uk": "Омивання порушується всім, що виходить із переднього чи заднього проходу, крім сімені, — чистим воно буде чи нечистим, газами чи іншим."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء كلّ خارج من السبيلين من بول أو غائط أو ريح أو مذي أو ودي.",
+            "en": "The ablution is broken by everything that issues from the two passages: urine, faeces, wind, prostatic fluid or the residue after urination.",
+            "ru": "Омовение нарушается всем, что выходит из двух путей: мочой, калом, газами, предсеменной жидкостью или остатком после мочеиспускания.",
+            "es": "La ablución se rompe por todo lo que sale de las dos vías: orina, heces, ventosidad, líquido preseminal o el residuo tras orinar.",
+            "uk": "Омивання порушується всім, що виходить із двох шляхів: сечею, калом, газами, передсім'яною рідиною чи залишком після сечовипускання."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-40",
+      "ref": "F83",
+      "bookId": "taharah",
+      "number": 37,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омовіння"
+      },
+      "title": {
+        "ar": "حكم النوم الناقض للوضوء وضابط المستغرق منه",
+        "en": "When Sleep Breaks the Ablution, and How Deep Sleep Is Measured",
+        "ru": "Когда сон нарушает омовение и чем измеряется глубокий сон",
+        "es": "Cuándo el sueño rompe la ablución y cómo se mide el sueño profundo",
+        "uk": "Коли сон порушує омивання і чим вимірюється глибокий сон"
+      },
+      "summary": {
+        "ar": "متى يكون النوم ناقضاً للوضوء، وما ضابط اليسير منه والمستغرق؟",
+        "en": "When does sleep break the ablution, and what distinguishes light sleep from deep sleep?",
+        "ru": "Когда сон нарушает омовение, и что отличает лёгкий сон от глубокого?",
+        "es": "¿Cuándo rompe el sueño la ablución, y qué distingue el sueño ligero del profundo?",
+        "uk": "Коли сон порушує омивання, і що відрізняє легкий сон від глибокого?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "الناقض هو النوم مضطجعاً أو متّكئاً بحيث لو أُزيل ما يعتمد عليه لسقط، أمّا النوم قاعداً ممكِّناً مقعدته من الأرض فلا ينقض قلّ أو كثر.",
+            "en": "What breaks the ablution is sleeping while lying down or leaning such that he would fall were his support removed; sleeping seated with the seat settled on the ground does not break it, whether brief or long.",
+            "ru": "Нарушает омовение сон лёжа или облокотившись так, что человек упал бы, если убрать опору; сон же сидя, когда седалище утверждено на земле, не нарушает его — ни краткий, ни долгий.",
+            "es": "Rompe la ablución dormir tendido o apoyado de modo que caería si se le retirase el apoyo; dormir sentado con el asiento asentado en el suelo no la rompe, sea breve o largo.",
+            "uk": "Порушує омивання сон лежачи або спершись так, що людина впала б, якби прибрати опору; сон же сидячи, коли сідниці утверджені на землі, не порушує його — ні короткий, ні довгий."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "الناقض هو النوم الثقيل المستغرق الذي يذهب معه الإحساس، ولو قصُر أو كان في حال القعود؛ وأمّا الخفيف الذي يبقى معه الإحساس فلا ينقض.",
+            "en": "What breaks the ablution is heavy, engulfing sleep in which awareness is lost, even if brief or while seated; light sleep in which awareness remains does not break it.",
+            "ru": "Нарушает омовение тяжёлый, поглощающий сон, при котором утрачивается чувствование, даже если он краток или в положении сидя; лёгкий же сон, при котором чувствование сохраняется, не нарушает его.",
+            "es": "Rompe la ablución el sueño pesado y absorbente en el que se pierde la conciencia, aunque sea breve o estando sentado; el sueño ligero en que la conciencia permanece no la rompe.",
+            "uk": "Порушує омивання важкий, поглинаючий сон, при якому втрачається відчуття, навіть якщо він короткий або в положенні сидячи; легкий же сон, при якому відчуття зберігається, не порушує його."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "الناقض هو النوم غير ممكِّن المقعدة من الأرض، وأمّا النوم قاعداً ممكِّناً مقعدته فلا ينقض ولو طال.",
+            "en": "What breaks the ablution is sleeping without the seat settled on the ground; sleeping seated with the seat settled does not break it, even if prolonged.",
+            "ru": "Нарушает омовение сон, при котором седалище не утверждено на земле; сон же сидя с утверждённым седалищем не нарушает его, даже если он затянулся.",
+            "es": "Rompe la ablución dormir sin el asiento asentado en el suelo; dormir sentado con el asiento asentado no la rompe, aunque se prolongue.",
+            "uk": "Порушує омивання сон, при якому сідниці не утверджені на землі; сон же сидячи з утвердженими сідницями не порушує його, навіть якщо він затягнувся."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "الناقض هو النوم الكثير المستغرق الذي لا يبقى معه شعور، قاعداً كان أو مضطجعاً؛ وأمّا اليسير من قاعد أو قائم فلا ينقض.",
+            "en": "What breaks the ablution is much, engulfing sleep in which no awareness remains, whether seated or lying down; a little sleep while seated or standing does not break it.",
+            "ru": "Нарушает омовение долгий, поглощающий сон, при котором не остаётся сознания, сидя или лёжа; малый же сон сидя или стоя не нарушает его.",
+            "es": "Rompe la ablución el sueño mucho y absorbente en el que no queda conciencia, sentado o tendido; el poco sueño estando sentado o de pie no la rompe.",
+            "uk": "Порушує омивання довгий, поглинаючий сон, при якому не залишається свідомості, сидячи чи лежачи; малий же сон сидячи чи стоячи не порушує його."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-41",
+      "ref": "F84",
+      "bookId": "taharah",
+      "number": 38,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омовіння"
+      },
+      "title": {
+        "ar": "حكم زوال العقل بسكر أو إغماء أو جنون",
+        "en": "Loss of Reason through Intoxication, Fainting or Insanity",
+        "ru": "Утрата разума вследствие опьянения, обморока или безумия",
+        "es": "La pérdida de la razón por embriaguez, desmayo o locura",
+        "uk": "Втрата розуму внаслідок сп'яніння, непритомності чи божевілля"
+      },
+      "summary": {
+        "ar": "هل ينقض الوضوءَ زوالُ العقل بالإغماء أو الجنون أو السكر أو التخدير؟",
+        "en": "Does loss of reason through fainting, insanity, intoxication or anaesthesia break the ablution?",
+        "ru": "Нарушает ли омовение утрата разума вследствие обморока, безумия, опьянения или наркоза?",
+        "es": "¿Rompe la ablución la pérdida de la razón por desmayo, locura, embriaguez o anestesia?",
+        "uk": "Чи порушує омивання втрата розуму внаслідок непритомності, божевілля, сп'яніння чи наркозу?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء كلّ ما أزال العقل أو غيّبه من جنون أو إغماء أو سُكر، قلّ زوال العقل أو كثر.",
+            "en": "The ablution is broken by whatever removes or veils reason — insanity, fainting or intoxication — whether the loss of reason is brief or long.",
+            "ru": "Омовение нарушается всем, что удаляет или застилает разум — безумием, обмороком или опьянением, — краткой будет утрата разума или долгой.",
+            "es": "La ablución se rompe por cuanto quita o vela la razón — locura, desmayo o embriaguez —, sea breve o larga la pérdida de la razón.",
+            "uk": "Омивання порушується всім, що усуває чи застилає розум — божевіллям, непритомністю чи сп'янінням, — короткою буде втрата розуму чи довгою."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء زوال العقل بجنون أو إغماء أو سُكر أو غشية، لأنه أبلغ من النوم الناقض.",
+            "en": "The ablution is broken by loss of reason through insanity, fainting, intoxication or a swoon, since it is more complete than the sleep that breaks it.",
+            "ru": "Омовение нарушается утратой разума вследствие безумия, обморока, опьянения или беспамятства, поскольку она полнее того сна, который его нарушает.",
+            "es": "La ablución se rompe por la pérdida de la razón por locura, desmayo, embriaguez o desvanecimiento, pues es más completa que el sueño que la rompe.",
+            "uk": "Омивання порушується втратою розуму внаслідок божевілля, непритомності, сп'яніння чи забуття, оскільки вона повніша за той сон, що його порушує."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء الجنون والإغماء والسُّكر وكلّ ما أزال العقل، طال الزمن أو قصُر، لغياب التمييز.",
+            "en": "The ablution is broken by insanity, fainting, intoxication and whatever removes reason, whether the time is long or short, because discernment is absent.",
+            "ru": "Омовение нарушается безумием, обмороком, опьянением и всем, что удаляет разум, долгим будет время или коротким, ибо отсутствует различение.",
+            "es": "La ablución se rompe por la locura, el desmayo, la embriaguez y cuanto quita la razón, sea largo o breve el tiempo, pues falta el discernimiento.",
+            "uk": "Омивання порушується божевіллям, непритомністю, сп'янінням і всім, що усуває розум, довгим буде час чи коротким, бо відсутнє розрізнення."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء كلّ زوال للعقل من جنون أو إغماء أو سُكر أو تخدير تامّ، لأنه مظنّة خروج حدث لا يشعر به.",
+            "en": "The ablution is broken by every loss of reason — insanity, fainting, intoxication or full anaesthesia — because it is the likely occasion of a discharge he would not feel.",
+            "ru": "Омовение нарушается всякой утратой разума — безумием, обмороком, опьянением или полным наркозом, — ибо это вероятный случай истечения, которого человек не почувствует.",
+            "es": "La ablución se rompe por toda pérdida de la razón — locura, desmayo, embriaguez o anestesia completa —, pues es ocasión probable de una emisión que no se percibiría.",
+            "uk": "Омивання порушується всякою втратою розуму — божевіллям, непритомністю, сп'янінням чи повним наркозом, — бо це ймовірний випадок витікання, якого людина не відчує."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-42",
+      "ref": "F85",
+      "bookId": "taharah",
+      "number": 39,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омовіння"
+      },
+      "title": {
+        "ar": "حكم مسّ الفرج بلا حائل ونقضه للوضوء",
+        "en": "Touching the Private Part without a Barrier, and Whether It Breaks the Ablution",
+        "ru": "Прикосновение к половому органу без преграды и нарушает ли оно омовение",
+        "es": "Tocar las partes íntimas sin barrera y si ello rompe la ablución",
+        "uk": "Доторк до статевого органа без перепони і чи порушує він омивання"
+      },
+      "summary": {
+        "ar": "هل ينقض الوضوءَ مسُّ الفرج ببطن الكفّ بلا حائل؟",
+        "en": "Does touching the private part with the inside of the hand, without a barrier, break the ablution?",
+        "ru": "Нарушает ли омовение прикосновение к половому органу внутренней стороной ладони без преграды?",
+        "es": "¿Rompe la ablución tocar las partes íntimas con la palma de la mano sin barrera?",
+        "uk": "Чи порушує омивання доторк до статевого органа внутрішнім боком долоні без перепони?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا ينقض مسّ الفرج الوضوء بحال، بحائل أو بغيره، فرجَ نفسه أو غيره، لحديث طلق بن علي رضي الله عنه: «إنّما هو بَضْعة منك».",
+            "en": "Touching the private part does not break the ablution in any case, with or without a barrier, one's own or another's — on the strength of the hadith of Ṭalq ibn ʿAlī: “It is only a part of you.”",
+            "ru": "Прикосновение к половому органу не нарушает омовения ни в каком случае — с преградой или без неё, к своему или чужому, — на основании хадиса Тальк ибн Али: «Это лишь часть тебя».",
+            "es": "Tocar las partes íntimas no rompe la ablución en ningún caso, con barrera o sin ella, las propias o las de otro — por el hadiz de Ṭalq ibn ʿAlī: «No es sino una parte de ti».",
+            "uk": "Доторк до статевого органа не порушує омивання в жодному разі — з перепоною чи без неї, свого чи чужого, — на підставі хадиса Тальк ібн Алі: «Це лише частина тебе»."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "لا ينقض مسّ الفرج الوضوء إلا أن يكون بشهوة معتادة، فإن مسّه بغير شهوة لم ينتقض وضوءه.",
+            "en": "Touching the private part does not break the ablution unless it is done with ordinary desire; if touched without desire, the ablution is not broken.",
+            "ru": "Прикосновение к половому органу не нарушает омовения, кроме как с обычным вожделением; если прикоснуться без вожделения, омовение не нарушается.",
+            "es": "Tocar las partes íntimas no rompe la ablución salvo que sea con deseo habitual; si se toca sin deseo, la ablución no se rompe.",
+            "uk": "Доторк до статевого органа не порушує омивання, крім як із звичним потягом; якщо доторкнутися без потягу, омивання не порушується."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء مسّ فرج الآدميّ ببطن الكفّ أو بطون الأصابع بلا حائل، لحديث بُسرة بنت صفوان رضي الله عنها: «من مسّ ذكره فليتوضّأ».",
+            "en": "The ablution is broken by touching a human's private part with the inside of the hand or the insides of the fingers, without a barrier — on the strength of the hadith of Busrah bint Ṣafwān: “Whoever touches his private part, let him perform the ablution.”",
+            "ru": "Омовение нарушается прикосновением к половому органу человека внутренней стороной ладони или внутренними сторонами пальцев без преграды — на основании хадиса Бусры бинт Сафван: «Кто прикоснулся к своему половому органу, пусть совершит омовение».",
+            "es": "La ablución se rompe al tocar las partes íntimas de un ser humano con la palma de la mano o el interior de los dedos, sin barrera — por el hadiz de Busrah bint Ṣafwān: «Quien toque sus partes íntimas, que haga la ablución».",
+            "uk": "Омивання порушується доторком до статевого органа людини внутрішнім боком долоні чи внутрішніми боками пальців без перепони — на підставі хадиса Бусри бінт Сафван: «Хто доторкнувся до свого статевого органа, хай здійснить омивання»."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "ينقض الوضوء مسّ الفرج المتّصل — قُبُلاً كان أو دُبُراً — ببطن الكفّ بلا حائل، لحديث بُسرة بنت صفوان رضي الله عنها.",
+            "en": "The ablution is broken by touching an attached private part — front or rear — with the inside of the hand, without a barrier, on the strength of the hadith of Busrah bint Ṣafwān.",
+            "ru": "Омовение нарушается прикосновением к присоединённому половому органу — переднему или заднему — внутренней стороной ладони без преграды, на основании хадиса Бусры бинт Сафван.",
+            "es": "La ablución se rompe al tocar las partes íntimas unidas al cuerpo — delanteras o traseras — con la palma de la mano, sin barrera, por el hadiz de Busrah bint Ṣafwān.",
+            "uk": "Омивання порушується доторком до приєднаного статевого органа — переднього чи заднього — внутрішнім боком долоні без перепони, на підставі хадиса Бусри бінт Сафван."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 35,
+      "number": 40,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -10326,7 +11136,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 36,
+      "number": 41,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -10431,7 +11241,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 37,
+      "number": 42,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
