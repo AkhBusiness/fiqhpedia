@@ -419,44 +419,49 @@ const SCHOOL_COLORS: Record<SchoolKey, School["color"]> = {
   },
 }
 
-const PROOF_ACCENTS: Record<string, TheologyProof["accent"]> = {
-  huduth: {
-    text: "text-amber-400",
+/**
+ * Colour by chapter, not by proof.
+ *
+ * Four of the eleven proofs used to carry a colour each and the remaining
+ * seven fell through to a grey default, so the section looked half-finished
+ * — and the four colours meant nothing anyway: amber and blue said no more
+ * about contingency and design than any other pair would have. Now the three
+ * chapters of the creed each hold one colour, so the colour carries the
+ * grouping instead of decorating it.
+ */
+const CHAPTER_ACCENTS: Record<string, TheologyProof["accent"]> = {
+  // الإلهيات — إثبات الخالق ووحدانيته
+  ilahiyyat: {
+    text: "text-amber-600 dark:text-amber-400",
     border: "border-amber-500/40",
     dot: "bg-amber-500",
     ring: "hover:border-amber-500/70",
     glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-amber-500/40",
   },
-  khalq: {
-    text: "text-emerald-400",
+  // النبوّات — الحاجة إليها ووحدة مصدرها
+  nubuwwat: {
+    text: "text-emerald-600 dark:text-emerald-400",
     border: "border-emerald-500/40",
     dot: "bg-emerald-500",
     ring: "hover:border-emerald-500/70",
     glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-emerald-500/40",
   },
-  itqan: {
-    text: "text-blue-400",
+  // القرآن وصلة العبد بربّه
+  quran_sila: {
+    text: "text-blue-600 dark:text-blue-400",
     border: "border-blue-500/40",
     dot: "bg-blue-500",
     ring: "hover:border-blue-500/70",
     glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-blue-500/40",
   },
-  fitrah: {
-    text: "text-cyan-400",
-    border: "border-cyan-500/40",
-    dot: "bg-cyan-500",
-    ring: "hover:border-cyan-500/70",
-    glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-cyan-500/40",
-  },
 }
 
-/** Fallback accent so a newly added proof id still renders gracefully. */
 const DEFAULT_PROOF_ACCENT: TheologyProof["accent"] = {
-  text: "text-zinc-300",
-  border: "border-white/20",
-  dot: "bg-zinc-400",
-  ring: "hover:border-white/40",
-  glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-white/20",
+  text: "text-foreground",
+  border: "border-border",
+  dot: "bg-muted-foreground",
+  ring: "hover:border-primary/50",
+  glow: "hover:shadow-[0_0_30px_-8px] hover:shadow-primary/30",
 }
 
 const DEFAULT_SCHOOL_COLOR: School["color"] = {
@@ -637,7 +642,7 @@ export const theologyProofs: TheologyProof[] = data.theology.map((p) => ({
   chapter: p.chapter,
   title: p.title,
   tagline: p.tagline,
-  accent: PROOF_ACCENTS[p.id] ?? DEFAULT_PROOF_ACCENT,
+  accent: CHAPTER_ACCENTS[p.chapterId ?? ""] ?? DEFAULT_PROOF_ACCENT,
   premises: p.premises,
   quran: p.quran,
   conclusion: p.conclusion,

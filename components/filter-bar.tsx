@@ -59,7 +59,7 @@ export function FilterBar({
           onChange={(e) => onQueryChange(e.target.value)}
           placeholder={ui.searchPlaceholder[lang]}
           aria-label={ui.searchPlaceholder[lang]}
-          className="h-11 w-full rounded-full border border-white/10 bg-white/[0.04] ps-10 pe-10 text-base text-foreground placeholder:text-muted-foreground/70 backdrop-blur-md transition-colors focus:border-white/25 focus:outline-none focus:ring-2 focus:ring-white/10"
+          className="h-11 w-full rounded-full border border-white/10 bg-white/[0.06] ps-10 pe-10 text-base text-foreground placeholder:text-muted-foreground/70 backdrop-blur-md transition-colors focus:border-white/25 focus:outline-none focus:ring-2 focus:ring-white/10"
         />
         {query ? (
           <button

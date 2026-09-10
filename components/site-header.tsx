@@ -23,7 +23,7 @@ export function SiteHeader({
   onOpenSearch,
 }: SiteHeaderProps) {
   return (
-    <header className="sticky top-0 z-30 border-b border-white/10 bg-background/70 backdrop-blur-xl">
+    <header className="sticky top-0 z-30 border-y border-white/10 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3.5 sm:px-6 lg:py-5">
         <div className="flex min-w-0 items-center gap-3">
           <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-foreground">
