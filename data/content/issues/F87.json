@@ -1,0 +1,165 @@
+{
+  "ref": "F87",
+  "id": "taharah-44",
+  "bookId": "taharah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب الغسل",
+    "en": "Chapter on the Full Bath (Ghusl)",
+    "ru": "Раздел о полном омовении (гусль)",
+    "es": "Capítulo sobre el baño ritual (ghusl)",
+    "uk": "Розділ про повне обмивання (ґусль)"
+  },
+  "title": {
+    "ar": "فروض الغسل المجزئ",
+    "en": "What the Full Bath Requires for It to Suffice",
+    "ru": "Что обязательно в полном омовении, чтобы оно было достаточным",
+    "es": "Lo obligatorio del baño ritual para que baste",
+    "uk": "Що обов'язкове в повному обмиванні, щоб воно було достатнім"
+  },
+  "summary": {
+    "ar": "ما الذي يجب في الغسل ليرتفع به الحدث الأكبر؟ وهل تجب فيه النية والمضمضة والاستنشاق؟",
+    "en": "What is required in the full bath for the major impurity to be lifted? Are the intention and the rinsing of the mouth and nose obligatory in it?",
+    "ru": "Что обязательно в полном омовении, чтобы им было снято большое осквернение? Обязательны ли в нём намерение и полоскание рта и носа?",
+    "es": "¿Qué es obligatorio en el baño ritual para que se levante la impureza mayor? ¿Son obligatorias en él la intención y el enjuague de boca y nariz?",
+    "uk": "Що обов'язкове в повному обмиванні, щоб ним було знято велике осквернення? Чи обов'язкові в ньому намір і полоскання рота й носа?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "فروض الغسل ثلاثة: المضمضة، والاستنشاق، وتعميم البدن بالماء حتى ما تحت الشعر. والنية سنة لا شرط لصحّته.",
+        "en": "The obligations of the full bath are three: rinsing the mouth, rinsing the nose, and covering the whole body with water, including what lies beneath the hair. The intention is a sunnah, not a condition of its validity.",
+        "ru": "Обязанностей полного омовения три: полоскание рта, полоскание носа и покрытие водой всего тела, включая то, что под волосами. Намерение — сунна, а не условие его действительности.",
+        "es": "Las obligaciones del baño ritual son tres: enjuagar la boca, enjuagar la nariz y cubrir todo el cuerpo con agua, incluso lo que hay bajo el cabello. La intención es sunnah, no condición de su validez.",
+        "uk": "Обов'язків повного обмивання три: полоскання рота, полоскання носа та покриття водою всього тіла, включно з тим, що під волоссям. Намір — сунна, а не умова його дійсності."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "فرضا الغسل: النية مقارنةً لأوّله، وتعميم الجسد بالماء مع الدلك والموالاة. ولا تجب فيه المضمضة ولا الاستنشاق.",
+        "en": "The obligations of the full bath are two: the intention, formed together with its beginning, and covering the body with water along with rubbing and continuity. Rinsing the mouth and the nose is not obligatory in it.",
+        "ru": "Обязанностей полного омовения две: намерение, совпадающее с его началом, и покрытие тела водой вместе с растиранием и непрерывностью. Полоскание рта и носа в нём не обязательно.",
+        "es": "Las obligaciones del baño ritual son dos: la intención, formada junto con su comienzo, y cubrir el cuerpo con agua junto con el frotamiento y la continuidad. Enjuagar la boca y la nariz no es obligatorio en él.",
+        "uk": "Обов'язків повного обмивання два: намір, що збігається з його початком, і покриття тіла водою разом із розтиранням та безперервністю. Полоскання рота й носа в ньому не обов'язкове."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "ركنا الغسل: النية عند أوّل غسل جزء من البدن، وتعميم البدن كلّه بالماء شعراً وبشراً. ولا تجب فيه المضمضة ولا الاستنشاق.",
+        "en": "The two essentials of the full bath are: the intention, at the washing of the first part of the body, and covering the whole body with water, both hair and skin. Rinsing the mouth and the nose is not obligatory in it.",
+        "ru": "Два столпа полного омовения: намерение при омовении первой части тела и покрытие водой всего тела — и волос, и кожи. Полоскание рта и носа в нём не обязательно.",
+        "es": "Los dos pilares del baño ritual son: la intención, al lavar la primera parte del cuerpo, y cubrir todo el cuerpo con agua, cabello y piel. Enjuagar la boca y la nariz no es obligatorio en él.",
+        "uk": "Два стовпи повного обмивання: намір при обмиванні першої частини тіла та покриття водою всього тіла — і волосся, і шкіри. Полоскання рота й носа в ньому не обов'язкове."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "فرض الغسل تعميم البدن بالماء مع النية، ويجب معه المضمضة والاستنشاق وإيصال الماء إلى ما تحت الشعر ولو كثُف.",
+        "en": "The obligation of the full bath is to cover the whole body with water, with the intention; and rinsing the mouth and the nose, and bringing the water beneath the hair however thick it is, are obligatory with it.",
+        "ru": "Обязанность полного омовения — покрыть водой всё тело с намерением; и вместе с этим обязательны полоскание рта и носа и доведение воды до того, что под волосами, сколь бы густыми они ни были.",
+        "es": "La obligación del baño ritual es cubrir todo el cuerpo con agua, con la intención; y con ella son obligatorios enjuagar la boca y la nariz y hacer llegar el agua bajo el cabello por espeso que sea.",
+        "uk": "Обов'язок повного обмивання — покрити водою все тіло з наміром; і разом із цим обов'язкові полоскання рота й носа та доведення води до того, що під волоссям, хоч би яким густим воно було."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

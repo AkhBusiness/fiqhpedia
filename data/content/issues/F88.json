@@ -1,0 +1,161 @@
+{
+  "ref": "F88",
+  "id": "taharah-45",
+  "bookId": "taharah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب الغسل",
+    "en": "Chapter on the Full Bath (Ghusl)",
+    "ru": "Раздел о полном омовении (гусль)",
+    "es": "Capítulo sobre el baño ritual (ghusl)",
+    "uk": "Розділ про повне обмивання (ґусль)"
+  },
+  "title": {
+    "ar": "صفة الغسل الكامل على هدي النبي ﷺ",
+    "en": "The Complete Form of the Full Bath, after the Practice of the Prophet ﷺ",
+    "ru": "Полная форма омовения по образцу Пророка ﷺ",
+    "es": "La forma completa del baño ritual según la práctica del Profeta ﷺ",
+    "uk": "Повна форма обмивання за прикладом Пророка ﷺ"
+  },
+  "summary": {
+    "ar": "ما صفة الغسل الكامل المستحبّ وخطواته عند كل مذهب؟",
+    "en": "What is the recommended complete form of the full bath, and what are its steps in each school?",
+    "ru": "Какова желательная полная форма омовения и каковы её шаги в каждом мазхабе?",
+    "es": "¿Cuál es la forma completa y recomendable del baño ritual, y cuáles son sus pasos en cada escuela?",
+    "uk": "Яка бажана повна форма обмивання і які її кроки в кожному мазгабі?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يبدأ بغسل كفّيه ثلاثاً، ثم يُزيل ما على بدنه من أذى، ثم يتوضّأ وضوءه للصلاة — ويؤخّر غسل رجليه إن كان يقف في ماء مجتمع — ثم يُفيض الماء على رأسه ثلاثاً، ثم على شقّه الأيمن فالأيسر مع تعميم البدن بالدلك.",
+        "en": "He begins by washing his hands three times, then removes any filth on his body, then performs the ablution as for prayer — delaying the washing of the feet if he is standing in gathered water — then pours water over his head three times, then over his right side and then his left, covering the body and rubbing it.",
+        "ru": "Он начинает с троекратного мытья кистей, затем удаляет с тела нечистоты, затем совершает омовение, как для молитвы, — откладывая мытьё ног, если стоит в собравшейся воде, — затем трижды льёт воду на голову, затем на правую сторону и на левую, охватывая тело и растирая его.",
+        "es": "Comienza lavándose las manos tres veces, luego retira la suciedad de su cuerpo, luego hace la ablución como para la oración — retrasando el lavado de los pies si está de pie en agua acumulada —, luego vierte agua sobre su cabeza tres veces, después sobre su lado derecho y luego el izquierdo, cubriendo el cuerpo y frotándolo.",
+        "uk": "Він починає з триразового миття кистей, потім видаляє з тіла нечистоти, потім здійснює омивання, як для молитви, — відкладаючи миття ніг, якщо стоїть у зібраній воді, — потім тричі ллє воду на голову, потім на правий бік і на лівий, охоплюючи тіло й розтираючи його."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُستحبّ أن يتوضّأ أوّلاً ويؤخّر غسل رجليه إلى آخره، ثم يُفيض الماء على رأسه ثلاثاً، ثم يعمّ جسده بالماء مع المبالغة في الدلك والموالاة.",
+        "en": "It is recommended that he perform the ablution first, delaying the washing of the feet to the end, then pour water over his head three times, then cover his body with water, rubbing thoroughly and keeping the washing continuous.",
+        "ru": "Желательно, чтобы он сначала совершил омовение, отложив мытьё ног до конца, затем трижды полил голову водой, затем охватил тело водой, тщательно растирая и сохраняя непрерывность.",
+        "es": "Se recomienda que haga primero la ablución, dejando el lavado de los pies para el final, luego vierta agua sobre su cabeza tres veces, y luego cubra su cuerpo con agua frotando bien y manteniendo la continuidad.",
+        "uk": "Бажано, щоб він спочатку здійснив омивання, відклавши миття ніг до кінця, потім тричі полив голову водою, потім охопив тіло водою, ретельно розтираючи й зберігаючи безперервність."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "صفته المأثورة: يغسل كفّيه، ثم يُزيل ما على بدنه من أذى، ثم يتوضّأ وضوءه للصلاة، ثم يُدخل أصابعه في أصول شعره حتى يرويها، ثم يصبّ الماء على رأسه ثلاثاً، ثم يعمّ سائر بدنه مبتدئاً بشقّه الأيمن مع الدلك والموالاة.",
+        "en": "Its transmitted form: he washes his hands, removes any filth on his body, performs the ablution as for prayer, works his fingers into the roots of his hair until they are wetted, pours water over his head three times, then covers the rest of his body beginning with the right side, rubbing and keeping the washing continuous.",
+        "ru": "Его переданная форма: он моет кисти, удаляет с тела нечистоты, совершает омовение, как для молитвы, вводит пальцы в корни волос, пока они не увлажнятся, трижды льёт воду на голову, затем охватывает остальное тело, начиная с правой стороны, растирая и сохраняя непрерывность.",
+        "es": "Su forma transmitida: se lava las manos, retira la suciedad de su cuerpo, hace la ablución como para la oración, introduce los dedos en las raíces del cabello hasta empaparlas, vierte agua sobre su cabeza tres veces, y luego cubre el resto del cuerpo empezando por su lado derecho, frotando y manteniendo la continuidad.",
+        "uk": "Його передана форма: він миє кисті, видаляє з тіла нечистоти, здійснює омивання, як для молитви, вводить пальці в коріння волосся, доки воно не зволожиться, тричі ллє воду на голову, потім охоплює решту тіла, починаючи з правого боку, розтираючи й зберігаючи безперервність."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "السنّة أن يبدأ بغسل يديه، ثم يغسل فرجه وما أصابه من أذى، ثم يتوضّأ وضوءه للصلاة، ثم يحثي على رأسه ثلاث حثيات يُروي بها أصول الشعر، ثم يُفيض الماء على سائر بدنه مبتدئاً بشقّه الأيمن، دالكاً ما استطاع موالياً.",
+        "en": "The sunnah is that he begin by washing his hands, then wash his private parts and whatever filth is on them, then perform the ablution as for prayer, then pour three handfuls over his head, wetting the roots of the hair, then pour water over the rest of his body beginning with the right side, rubbing what he can and keeping the washing continuous.",
+        "ru": "Сунна в том, чтобы он начал с мытья рук, затем вымыл срамные места и то, что на них из нечистот, затем совершил омовение, как для молитвы, затем вылил на голову три пригоршни, увлажняя корни волос, затем полил остальное тело, начиная с правой стороны, растирая, сколько может, и сохраняя непрерывность.",
+        "es": "La sunnah es que empiece lavándose las manos, luego lave sus partes íntimas y la suciedad que haya en ellas, luego haga la ablución como para la oración, luego eche sobre su cabeza tres puñados de agua mojando las raíces del cabello, y luego vierta agua sobre el resto del cuerpo empezando por su lado derecho, frotando cuanto pueda y manteniendo la continuidad.",
+        "uk": "Сунна в тому, щоб він почав із миття рук, потім вимив соромні місця й те, що на них із нечистот, потім здійснив омивання, як для молитви, потім вилив на голову три жмені, зволожуючи коріння волосся, потім полив решту тіла, починаючи з правого боку, розтираючи, скільки може, і зберігаючи безперервність."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

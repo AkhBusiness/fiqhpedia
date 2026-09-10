@@ -11713,10 +11713,500 @@
       "addedAt": "2026-09-10"
     },
     {
+      "id": "taharah-43",
+      "ref": "F86",
+      "bookId": "taharah",
+      "number": 40,
+      "chapter": {
+        "ar": "باب الغسل",
+        "en": "Chapter on the Full Bath (Ghusl)",
+        "ru": "Раздел о полном омовении (гусль)",
+        "es": "Capítulo sobre el baño ritual (ghusl)",
+        "uk": "Розділ про повне обмивання (ґусль)"
+      },
+      "title": {
+        "ar": "أحكام غسل الحائض والنفساء بعد انقطاع الدم",
+        "en": "The Full Bath of a Woman after Menstruation or Post-natal Bleeding Ends",
+        "ru": "Полное омовение женщины после прекращения менструации или послеродового кровотечения",
+        "es": "El baño ritual de la mujer tras cesar la menstruación o los loquios",
+        "uk": "Повне обмивання жінки після припинення менструації чи післяпологової кровотечі"
+      },
+      "summary": {
+        "ar": "متى يجب الغسل على الحائض والنفساء، وبماذا يُعرف انقطاع الدم، وما الواجب في الغسل؟",
+        "en": "When does the full bath become obligatory for a woman after menstruation or post-natal bleeding, how is the end of the bleeding known, and what must the bath include?",
+        "ru": "Когда полное омовение становится обязательным для женщины после менструации или послеродового кровотечения, по чему узнаётся прекращение крови и что обязательно в омовении?",
+        "es": "¿Cuándo es obligatorio el baño ritual para la mujer tras la menstruación o los loquios, cómo se conoce el cese de la sangre y qué es obligatorio en el baño?",
+        "uk": "Коли повне обмивання стає обов'язковим для жінки після менструації чи післяпологової кровотечі, як пізнається припинення крові і що є обов'язковим в обмиванні?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب الغسل على الحائض والنفساء بانقطاع الدم — إمّا ببلوغه أكثر المدّة وإمّا برؤية الطهر بالجفاف أو القصّة البيضاء — ويلزم في الغسل تعميم البدن بالماء مع المضمضة والاستنشاق.",
+            "en": "The full bath becomes obligatory once the bleeding ends — either by reaching its maximum term or by the sign of purity, dryness or the white discharge — and the bath must cover the whole body with water, together with rinsing the mouth and the nose.",
+            "ru": "Полное омовение становится обязательным с прекращением крови — либо по достижении наибольшего срока, либо по признаку чистоты: сухости или белым выделениям, — и в омовении обязательно охватить водой всё тело вместе с полосканием рта и носа.",
+            "es": "El baño ritual es obligatorio al cesar la sangre — bien por alcanzar su plazo máximo, bien por la señal de pureza, la sequedad o el flujo blanco — y en el baño debe cubrirse todo el cuerpo con agua, junto con enjuagar la boca y la nariz.",
+            "uk": "Повне обмивання стає обов'язковим із припиненням крові — чи то після досягнення найбільшого строку, чи то за ознакою чистоти: сухістю або білими виділеннями, — і в обмиванні обов'язково охопити водою все тіло разом із полосканням рота й носа."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب الغسل على الحائض والنفساء بانقطاع الدم انقطاعاً تامّاً ورؤية علامة الطهر، ويُسنّ الدلك وتعميم البدن والموالاة.",
+            "en": "The full bath becomes obligatory once the bleeding has wholly ceased and the sign of purity is seen; rubbing the body, covering it entirely and keeping the washing continuous are sunnah.",
+            "ru": "Полное омовение становится обязательным при полном прекращении крови и появлении признака чистоты; растирание тела, полное его покрытие водой и непрерывность омовения — сунна.",
+            "es": "El baño ritual es obligatorio cuando la sangre ha cesado por completo y se ve la señal de pureza; frotar el cuerpo, cubrirlo entero y mantener la continuidad son sunnah.",
+            "uk": "Повне обмивання стає обов'язковим при повному припиненні крові та появі ознаки чистоти; розтирання тіла, повне його покриття водою та безперервність — сунна."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب الغسل على الحائض والنفساء بانقطاع الدم ورؤية الطهر، ويجب تعميم البدن بالماء حتى أصول الشعر، مع نيّة رفع حدث الحيض أو النفاس.",
+            "en": "The full bath becomes obligatory once the bleeding ends and purity is seen; the whole body must be covered with water down to the roots of the hair, with the intention of lifting the major impurity of menstruation or post-natal bleeding.",
+            "ru": "Полное омовение становится обязательным с прекращением крови и появлением чистоты; обязательно охватить водой всё тело до корней волос с намерением снять большое осквернение менструации или послеродового кровотечения.",
+            "es": "El baño ritual es obligatorio al cesar la sangre y verse la pureza; debe cubrirse todo el cuerpo con agua hasta las raíces del cabello, con la intención de levantar la impureza mayor de la menstruación o los loquios.",
+            "uk": "Повне обмивання стає обов'язковим із припиненням крові та появою чистоти; обов'язково охопити водою все тіло до коріння волосся з наміром зняти велике осквернення менструації чи післяпологової кровотечі."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب الغسل بانقطاع دم الحيض والنفاس متى تحقّق الطهر بالقصّة البيضاء أو الجفاف، ويجب استيعاب البدن بالماء ونقضُ الشعر إن لم يصل الماء إلى أصوله دونه.",
+            "en": "The full bath becomes obligatory once the bleeding of menstruation or of childbirth has ended and purity is established by the white discharge or by dryness; the whole body must be covered with water, and the hair undone if the water would not otherwise reach its roots.",
+            "ru": "Полное омовение становится обязательным с прекращением крови менструации или родов, когда чистота установлена белыми выделениями или сухостью; обязательно охватить водой всё тело и распустить волосы, если иначе вода не дойдёт до их корней.",
+            "es": "El baño ritual es obligatorio al cesar la sangre de la menstruación o del parto, una vez establecida la pureza por el flujo blanco o por la sequedad; debe cubrirse todo el cuerpo con agua y soltarse el cabello si de otro modo el agua no llegaría a sus raíces.",
+            "uk": "Повне обмивання стає обов'язковим із припиненням крові менструації чи пологів, коли чистота встановлена білими виділеннями або сухістю; обов'язково охопити водою все тіло та розпустити волосся, якщо інакше вода не дійде до його коріння."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-44",
+      "ref": "F87",
+      "bookId": "taharah",
+      "number": 41,
+      "chapter": {
+        "ar": "باب الغسل",
+        "en": "Chapter on the Full Bath (Ghusl)",
+        "ru": "Раздел о полном омовении (гусль)",
+        "es": "Capítulo sobre el baño ritual (ghusl)",
+        "uk": "Розділ про повне обмивання (ґусль)"
+      },
+      "title": {
+        "ar": "فروض الغسل المجزئ",
+        "en": "What the Full Bath Requires for It to Suffice",
+        "ru": "Что обязательно в полном омовении, чтобы оно было достаточным",
+        "es": "Lo obligatorio del baño ritual para que baste",
+        "uk": "Що обов'язкове в повному обмиванні, щоб воно було достатнім"
+      },
+      "summary": {
+        "ar": "ما الذي يجب في الغسل ليرتفع به الحدث الأكبر؟ وهل تجب فيه النية والمضمضة والاستنشاق؟",
+        "en": "What is required in the full bath for the major impurity to be lifted? Are the intention and the rinsing of the mouth and nose obligatory in it?",
+        "ru": "Что обязательно в полном омовении, чтобы им было снято большое осквернение? Обязательны ли в нём намерение и полоскание рта и носа?",
+        "es": "¿Qué es obligatorio en el baño ritual para que se levante la impureza mayor? ¿Son obligatorias en él la intención y el enjuague de boca y nariz?",
+        "uk": "Що обов'язкове в повному обмиванні, щоб ним було знято велике осквернення? Чи обов'язкові в ньому намір і полоскання рота й носа?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "فروض الغسل ثلاثة: المضمضة، والاستنشاق، وتعميم البدن بالماء حتى ما تحت الشعر. والنية سنة لا شرط لصحّته.",
+            "en": "The obligations of the full bath are three: rinsing the mouth, rinsing the nose, and covering the whole body with water, including what lies beneath the hair. The intention is a sunnah, not a condition of its validity.",
+            "ru": "Обязанностей полного омовения три: полоскание рта, полоскание носа и покрытие водой всего тела, включая то, что под волосами. Намерение — сунна, а не условие его действительности.",
+            "es": "Las obligaciones del baño ritual son tres: enjuagar la boca, enjuagar la nariz y cubrir todo el cuerpo con agua, incluso lo que hay bajo el cabello. La intención es sunnah, no condición de su validez.",
+            "uk": "Обов'язків повного обмивання три: полоскання рота, полоскання носа та покриття водою всього тіла, включно з тим, що під волоссям. Намір — сунна, а не умова його дійсності."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "فرضا الغسل: النية مقارنةً لأوّله، وتعميم الجسد بالماء مع الدلك والموالاة. ولا تجب فيه المضمضة ولا الاستنشاق.",
+            "en": "The obligations of the full bath are two: the intention, formed together with its beginning, and covering the body with water along with rubbing and continuity. Rinsing the mouth and the nose is not obligatory in it.",
+            "ru": "Обязанностей полного омовения две: намерение, совпадающее с его началом, и покрытие тела водой вместе с растиранием и непрерывностью. Полоскание рта и носа в нём не обязательно.",
+            "es": "Las obligaciones del baño ritual son dos: la intención, formada junto con su comienzo, y cubrir el cuerpo con agua junto con el frotamiento y la continuidad. Enjuagar la boca y la nariz no es obligatorio en él.",
+            "uk": "Обов'язків повного обмивання два: намір, що збігається з його початком, і покриття тіла водою разом із розтиранням та безперервністю. Полоскання рота й носа в ньому не обов'язкове."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "ركنا الغسل: النية عند أوّل غسل جزء من البدن، وتعميم البدن كلّه بالماء شعراً وبشراً. ولا تجب فيه المضمضة ولا الاستنشاق.",
+            "en": "The two essentials of the full bath are: the intention, at the washing of the first part of the body, and covering the whole body with water, both hair and skin. Rinsing the mouth and the nose is not obligatory in it.",
+            "ru": "Два столпа полного омовения: намерение при омовении первой части тела и покрытие водой всего тела — и волос, и кожи. Полоскание рта и носа в нём не обязательно.",
+            "es": "Los dos pilares del baño ritual son: la intención, al lavar la primera parte del cuerpo, y cubrir todo el cuerpo con agua, cabello y piel. Enjuagar la boca y la nariz no es obligatorio en él.",
+            "uk": "Два стовпи повного обмивання: намір при обмиванні першої частини тіла та покриття водою всього тіла — і волосся, і шкіри. Полоскання рота й носа в ньому не обов'язкове."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "فرض الغسل تعميم البدن بالماء مع النية، ويجب معه المضمضة والاستنشاق وإيصال الماء إلى ما تحت الشعر ولو كثُف.",
+            "en": "The obligation of the full bath is to cover the whole body with water, with the intention; and rinsing the mouth and the nose, and bringing the water beneath the hair however thick it is, are obligatory with it.",
+            "ru": "Обязанность полного омовения — покрыть водой всё тело с намерением; и вместе с этим обязательны полоскание рта и носа и доведение воды до того, что под волосами, сколь бы густыми они ни были.",
+            "es": "La obligación del baño ritual es cubrir todo el cuerpo con agua, con la intención; y con ella son obligatorios enjuagar la boca y la nariz y hacer llegar el agua bajo el cabello por espeso que sea.",
+            "uk": "Обов'язок повного обмивання — покрити водою все тіло з наміром; і разом із цим обов'язкові полоскання рота й носа та доведення води до того, що під волоссям, хоч би яким густим воно було."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-45",
+      "ref": "F88",
+      "bookId": "taharah",
+      "number": 42,
+      "chapter": {
+        "ar": "باب الغسل",
+        "en": "Chapter on the Full Bath (Ghusl)",
+        "ru": "Раздел о полном омовении (гусль)",
+        "es": "Capítulo sobre el baño ritual (ghusl)",
+        "uk": "Розділ про повне обмивання (ґусль)"
+      },
+      "title": {
+        "ar": "صفة الغسل الكامل على هدي النبي ﷺ",
+        "en": "The Complete Form of the Full Bath, after the Practice of the Prophet ﷺ",
+        "ru": "Полная форма омовения по образцу Пророка ﷺ",
+        "es": "La forma completa del baño ritual según la práctica del Profeta ﷺ",
+        "uk": "Повна форма обмивання за прикладом Пророка ﷺ"
+      },
+      "summary": {
+        "ar": "ما صفة الغسل الكامل المستحبّ وخطواته عند كل مذهب؟",
+        "en": "What is the recommended complete form of the full bath, and what are its steps in each school?",
+        "ru": "Какова желательная полная форма омовения и каковы её шаги в каждом мазхабе?",
+        "es": "¿Cuál es la forma completa y recomendable del baño ritual, y cuáles son sus pasos en cada escuela?",
+        "uk": "Яка бажана повна форма обмивання і які її кроки в кожному мазгабі?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يبدأ بغسل كفّيه ثلاثاً، ثم يُزيل ما على بدنه من أذى، ثم يتوضّأ وضوءه للصلاة — ويؤخّر غسل رجليه إن كان يقف في ماء مجتمع — ثم يُفيض الماء على رأسه ثلاثاً، ثم على شقّه الأيمن فالأيسر مع تعميم البدن بالدلك.",
+            "en": "He begins by washing his hands three times, then removes any filth on his body, then performs the ablution as for prayer — delaying the washing of the feet if he is standing in gathered water — then pours water over his head three times, then over his right side and then his left, covering the body and rubbing it.",
+            "ru": "Он начинает с троекратного мытья кистей, затем удаляет с тела нечистоты, затем совершает омовение, как для молитвы, — откладывая мытьё ног, если стоит в собравшейся воде, — затем трижды льёт воду на голову, затем на правую сторону и на левую, охватывая тело и растирая его.",
+            "es": "Comienza lavándose las manos tres veces, luego retira la suciedad de su cuerpo, luego hace la ablución como para la oración — retrasando el lavado de los pies si está de pie en agua acumulada —, luego vierte agua sobre su cabeza tres veces, después sobre su lado derecho y luego el izquierdo, cubriendo el cuerpo y frotándolo.",
+            "uk": "Він починає з триразового миття кистей, потім видаляє з тіла нечистоти, потім здійснює омивання, як для молитви, — відкладаючи миття ніг, якщо стоїть у зібраній воді, — потім тричі ллє воду на голову, потім на правий бік і на лівий, охоплюючи тіло й розтираючи його."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُستحبّ أن يتوضّأ أوّلاً ويؤخّر غسل رجليه إلى آخره، ثم يُفيض الماء على رأسه ثلاثاً، ثم يعمّ جسده بالماء مع المبالغة في الدلك والموالاة.",
+            "en": "It is recommended that he perform the ablution first, delaying the washing of the feet to the end, then pour water over his head three times, then cover his body with water, rubbing thoroughly and keeping the washing continuous.",
+            "ru": "Желательно, чтобы он сначала совершил омовение, отложив мытьё ног до конца, затем трижды полил голову водой, затем охватил тело водой, тщательно растирая и сохраняя непрерывность.",
+            "es": "Se recomienda que haga primero la ablución, dejando el lavado de los pies para el final, luego vierta agua sobre su cabeza tres veces, y luego cubra su cuerpo con agua frotando bien y manteniendo la continuidad.",
+            "uk": "Бажано, щоб він спочатку здійснив омивання, відклавши миття ніг до кінця, потім тричі полив голову водою, потім охопив тіло водою, ретельно розтираючи й зберігаючи безперервність."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "صفته المأثورة: يغسل كفّيه، ثم يُزيل ما على بدنه من أذى، ثم يتوضّأ وضوءه للصلاة، ثم يُدخل أصابعه في أصول شعره حتى يرويها، ثم يصبّ الماء على رأسه ثلاثاً، ثم يعمّ سائر بدنه مبتدئاً بشقّه الأيمن مع الدلك والموالاة.",
+            "en": "Its transmitted form: he washes his hands, removes any filth on his body, performs the ablution as for prayer, works his fingers into the roots of his hair until they are wetted, pours water over his head three times, then covers the rest of his body beginning with the right side, rubbing and keeping the washing continuous.",
+            "ru": "Его переданная форма: он моет кисти, удаляет с тела нечистоты, совершает омовение, как для молитвы, вводит пальцы в корни волос, пока они не увлажнятся, трижды льёт воду на голову, затем охватывает остальное тело, начиная с правой стороны, растирая и сохраняя непрерывность.",
+            "es": "Su forma transmitida: se lava las manos, retira la suciedad de su cuerpo, hace la ablución como para la oración, introduce los dedos en las raíces del cabello hasta empaparlas, vierte agua sobre su cabeza tres veces, y luego cubre el resto del cuerpo empezando por su lado derecho, frotando y manteniendo la continuidad.",
+            "uk": "Його передана форма: він миє кисті, видаляє з тіла нечистоти, здійснює омивання, як для молитви, вводить пальці в коріння волосся, доки воно не зволожиться, тричі ллє воду на голову, потім охоплює решту тіла, починаючи з правого боку, розтираючи й зберігаючи безперервність."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "السنّة أن يبدأ بغسل يديه، ثم يغسل فرجه وما أصابه من أذى، ثم يتوضّأ وضوءه للصلاة، ثم يحثي على رأسه ثلاث حثيات يُروي بها أصول الشعر، ثم يُفيض الماء على سائر بدنه مبتدئاً بشقّه الأيمن، دالكاً ما استطاع موالياً.",
+            "en": "The sunnah is that he begin by washing his hands, then wash his private parts and whatever filth is on them, then perform the ablution as for prayer, then pour three handfuls over his head, wetting the roots of the hair, then pour water over the rest of his body beginning with the right side, rubbing what he can and keeping the washing continuous.",
+            "ru": "Сунна в том, чтобы он начал с мытья рук, затем вымыл срамные места и то, что на них из нечистот, затем совершил омовение, как для молитвы, затем вылил на голову три пригоршни, увлажняя корни волос, затем полил остальное тело, начиная с правой стороны, растирая, сколько может, и сохраняя непрерывность.",
+            "es": "La sunnah es que empiece lavándose las manos, luego lave sus partes íntimas y la suciedad que haya en ellas, luego haga la ablución como para la oración, luego eche sobre su cabeza tres puñados de agua mojando las raíces del cabello, y luego vierta agua sobre el resto del cuerpo empezando por su lado derecho, frotando cuanto pueda y manteniendo la continuidad.",
+            "uk": "Сунна в тому, щоб він почав із миття рук, потім вимив соромні місця й те, що на них із нечистот, потім здійснив омивання, як для молитви, потім вилив на голову три жмені, зволожуючи коріння волосся, потім полив решту тіла, починаючи з правого боку, розтираючи, скільки може, і зберігаючи безперервність."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 40,
+      "number": 43,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -11818,7 +12308,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 41,
+      "number": 44,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -11923,7 +12413,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 42,
+      "number": 45,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -14730,10 +15220,334 @@
       "addedAt": "2026-09-10"
     },
     {
+      "id": "salah-30",
+      "ref": "F89",
+      "bookId": "salah",
+      "number": 18,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم العاجز عن ستر العورة في الصلاة",
+        "en": "One Who Cannot Cover His ʿAwrah in the Prayer",
+        "ru": "Тот, кто не может прикрыть аврат в молитве",
+        "es": "Quien no puede cubrir su ʿawrah en la oración",
+        "uk": "Той, хто не може прикрити аврат у молитві"
+      },
+      "summary": {
+        "ar": "من لم يجد ما يستر به عورته: أيصلّي عارياً؟ وقائماً أم قاعداً؟ وهل تلزمه الإعادة؟",
+        "en": "One who finds nothing to cover his ʿawrah: does he pray uncovered, standing or seated, and must he repeat the prayer?",
+        "ru": "Тот, кто не находит, чем прикрыть аврат: молится ли он нагим, стоя или сидя, и обязан ли повторить молитву?",
+        "es": "Quien no halla con qué cubrir su ʿawrah: ¿reza desnudo, de pie o sentado, y debe repetir la oración?",
+        "uk": "Той, хто не знаходить, чим прикрити аврат: чи молиться він нагим, стоячи чи сидячи, і чи мусить повторити молитву?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي قاعداً يومئ بالركوع والسجود، لأن سترها بالقعود أولى من كشفها بالقيام، ولا إعادة عليه.",
+            "en": "He prays seated, gesturing for the bowing and the prostration, since covering the ʿawrah by sitting is better than uncovering it by standing; and he does not repeat the prayer.",
+            "ru": "Он молится сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше его обнажения при стоянии; и он не повторяет молитву.",
+            "es": "Reza sentado, señalando con la cabeza la inclinación y la postración, pues cubrir la ʿawrah sentándose es mejor que descubrirla de pie; y no repite la oración.",
+            "uk": "Він молиться сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще за його оголення при стоянні; і він не повторює молитву."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي عارياً قائماً بركوع وسجود تامّين، وصلاته صحيحة ولا إعادة عليه إن وجد سترة بعد فراغه.",
+            "en": "He prays uncovered and standing, with a full bowing and prostration; his prayer is valid and he does not repeat it if he finds a covering after he has finished.",
+            "ru": "Он молится нагим стоя, с полным поясным и земным поклоном; его молитва действительна, и он не повторяет её, если найдёт покров после её завершения.",
+            "es": "Reza desnudo y de pie, con inclinación y postración completas; su oración es válida y no la repite si halla con qué cubrirse después de terminar.",
+            "uk": "Він молиться нагим стоячи, з повним поясним та земним уклоном; його молитва дійсна, і він не повторює її, якщо знайде покрив після завершення."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي عارياً قائماً إن قدر، بركوع وسجود تامّين، ولا إعادة عليه، لأنه أدّى ما وجب عليه بحسب حاله.",
+            "en": "He prays uncovered and standing if he is able, with a full bowing and prostration, and he does not repeat the prayer, for he performed what was required of him in his condition.",
+            "ru": "Он молится нагим стоя, если способен, с полным поясным и земным поклоном, и не повторяет молитву, ибо исполнил то, что было обязательно для него в его положении.",
+            "es": "Reza desnudo y de pie si puede, con inclinación y postración completas, y no repite la oración, pues cumplió lo que le era obligatorio según su estado.",
+            "uk": "Він молиться нагим стоячи, якщо здатний, з повним поясним та земним уклоном, і не повторює молитву, бо виконав те, що було обов'язковим для нього в його становищі."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي عارياً قاعداً يومئ بالركوع والسجود، لأن ستر عورته بالقعود أولى من قيامه عارياً، ولا إعادة عليه.",
+            "en": "He prays uncovered and seated, gesturing for the bowing and the prostration, since covering his ʿawrah by sitting is better than standing uncovered; and he does not repeat the prayer.",
+            "ru": "Он молится нагим сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше, чем стоять нагим; и он не повторяет молитву.",
+            "es": "Reza desnudo y sentado, señalando la inclinación y la postración, pues cubrir su ʿawrah sentándose es mejor que estar de pie desnudo; y no repite la oración.",
+            "uk": "Він молиться нагим сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще, ніж стояти нагим; і він не повторює молитву."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "salah-31",
+      "ref": "F90",
+      "bookId": "salah",
+      "number": 19,
+      "chapter": {
+        "ar": "باب شروط الصلاة",
+        "en": "Chapter on the Conditions of the Prayer",
+        "ru": "Раздел об условиях молитвы",
+        "es": "Capítulo sobre las condiciones de la oración",
+        "uk": "Розділ про умови молитви"
+      },
+      "title": {
+        "ar": "حكم من لم يجد إلا ثوباً نجساً",
+        "en": "One Who Has Only an Impure Garment",
+        "ru": "Тот, у кого есть лишь нечистая одежда",
+        "es": "Quien solo dispone de una prenda impura",
+        "uk": "Той, хто має лише нечистий одяг"
+      },
+      "summary": {
+        "ar": "من لم يجد لصلاته إلا ثوباً نجساً: أيصلّي فيه أم يصلّي عارياً؟",
+        "en": "One who has only an impure garment for his prayer: does he pray in it, or pray uncovered?",
+        "ru": "Тот, у кого для молитвы есть лишь нечистая одежда: молится ли он в ней или нагим?",
+        "es": "Quien solo tiene una prenda impura para su oración: ¿reza con ella o reza desnudo?",
+        "uk": "Той, хто має для молитви лише нечистий одяг: чи молиться він у ньому, чи нагим?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي فيه ولا يصلّي عارياً، لأن ستر العورة فرض واجتناب النجاسة شرط، ودرءُ كشف العورة مقدَّم.",
+            "en": "He prays in it and does not pray uncovered, because covering the ʿawrah is an obligation while avoiding impurity is a condition, and preventing the exposure of the ʿawrah takes precedence.",
+            "ru": "Он молится в ней и не молится нагим, ибо прикрытие аврата — обязанность, а избегание нечистоты — условие, и предотвращение обнажения аврата имеет преимущество.",
+            "es": "Reza con ella y no reza desnudo, porque cubrir la ʿawrah es una obligación mientras que evitar la impureza es una condición, y evitar que se descubra la ʿawrah tiene prioridad.",
+            "uk": "Він молиться в ньому і не молиться нагим, бо прикриття аврату — обов'язок, а уникнення нечистоти — умова, і запобігання оголенню аврату має перевагу."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي فيه ولا إعادة عليه إن ضاق الوقت، وتُستحبّ له الإعادة في الوقت إن اتّسع.",
+            "en": "He prays in it and does not repeat the prayer if the time is short; repeating it within the time is recommended if the time is ample.",
+            "ru": "Он молится в ней и не повторяет молитву, если время стеснено; повторить её в отведённое время желательно, если времени достаточно.",
+            "es": "Reza con ella y no repite la oración si el tiempo es escaso; se le recomienda repetirla dentro del tiempo si este es amplio.",
+            "uk": "Він молиться в ньому і не повторює молитву, якщо час стиснутий; повторити її у відведений час бажано, якщо часу достатньо."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي فيه ولا يصلّي عارياً، لأن طهارة الثوب شرط عجز عنه، وستر العورة مقدَّم عليها.",
+            "en": "He prays in it and does not pray uncovered, because the purity of the garment is a condition he is unable to meet, and covering the ʿawrah takes precedence over it.",
+            "ru": "Он молится в ней и не молится нагим, ибо чистота одежды — условие, которое он не в силах исполнить, а прикрытие аврата имеет перед ним преимущество.",
+            "es": "Reza con ella y no reza desnudo, porque la pureza de la prenda es una condición que no puede cumplir, y cubrir la ʿawrah tiene prioridad sobre ella.",
+            "uk": "Він молиться в ньому і не молиться нагим, бо чистота одягу — умова, яку він не в змозі виконати, а прикриття аврату має перед нею перевагу."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يصلّي فيه ولا يصلّي عارياً، لأن طهارة الثوب شرط يسقط بالعجز، وستر العورة آكد منه.",
+            "en": "He prays in it and does not pray uncovered, because the purity of the garment is a condition that lapses through inability, while covering the ʿawrah is the more emphasised of the two.",
+            "ru": "Он молится в ней и не молится нагим, ибо чистота одежды — условие, отпадающее при неспособности, тогда как прикрытие аврата важнее.",
+            "es": "Reza con ella y no reza desnudo, porque la pureza de la prenda es una condición que decae por incapacidad, mientras que cubrir la ʿawrah es lo más enfatizado de los dos.",
+            "uk": "Він молиться в ньому і не молиться нагим, бо чистота одягу — умова, що відпадає при нездатності, тоді як прикриття аврату є важливішим."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
       "id": "salah-1",
       "ref": "F12",
       "bookId": "salah",
-      "number": 18,
+      "number": 20,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -14845,7 +15659,7 @@
       "id": "salah-15",
       "ref": "F45",
       "bookId": "salah",
-      "number": 19,
+      "number": 21,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -15010,7 +15824,7 @@
       "id": "salah-2",
       "ref": "F13",
       "bookId": "salah",
-      "number": 20,
+      "number": 22,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -15122,7 +15936,7 @@
       "id": "salah-26",
       "ref": "F72",
       "bookId": "salah",
-      "number": 21,
+      "number": 23,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -15284,7 +16098,7 @@
       "id": "salah-27",
       "ref": "F73",
       "bookId": "salah",
-      "number": 22,
+      "number": 24,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -15447,7 +16261,7 @@
       "id": "salah-3",
       "ref": "F14",
       "bookId": "salah",
-      "number": 23,
+      "number": 25,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -15552,7 +16366,7 @@
       "id": "salah-18",
       "ref": "F48",
       "bookId": "salah",
-      "number": 24,
+      "number": 26,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter of the Description of the Prayer",
@@ -15713,7 +16527,7 @@
       "id": "salah-28",
       "ref": "F74",
       "bookId": "salah",
-      "number": 25,
+      "number": 27,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -15875,7 +16689,7 @@
       "id": "salah-29",
       "ref": "F75",
       "bookId": "salah",
-      "number": 26,
+      "number": 28,
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -16041,7 +16855,7 @@
       "id": "salah-6",
       "ref": "F17",
       "bookId": "salah",
-      "number": 27,
+      "number": 29,
       "chapter": {
         "ar": "باب سجود السهو",
         "en": "Chapter of the Prostration of Forgetfulness",
@@ -16198,7 +17012,7 @@
       "id": "salah-7",
       "ref": "F18",
       "bookId": "salah",
-      "number": 28,
+      "number": 30,
       "chapter": {
         "ar": "باب صلاة المسافر",
         "en": "Chapter of the Traveler's Prayer",
@@ -16359,7 +17173,7 @@
       "id": "salah-8",
       "ref": "F19",
       "bookId": "salah",
-      "number": 29,
+      "number": 31,
       "chapter": {
         "ar": "باب صلاة الجمعة",
         "en": "Chapter of Friday Prayer",

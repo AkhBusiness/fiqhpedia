@@ -23,10 +23,66 @@ const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
   return map
 })()
 
+/**
+ * Cyrillic stem → term, for matching a declined form against a nominative
+ * entry. Built from each word of a term rather than the whole phrase,
+ * because the text is scanned token by token and a two-word term such as
+ * `Церковні собори` would otherwise never meet its entry.
+ */
+/**
+ * Endings that Russian and Ukrainian nouns and adjectives take when they are
+ * declined. The glossary holds each term in the nominative — `Церковні
+ * собори` — while the prose has it in whatever case the sentence needs:
+ * `церковних соборах`. An exact match therefore found almost nothing in
+ * precisely the two languages the article glossary was built for.
+ */
+const SLAVIC_ENDINGS = [
+  "ами", "ями", "ові", "еві", "ах", "ях", "ам", "ям", "ов", "ев", "ів", "їв",
+  "ий", "ій", "ые", "ые", "их", "іх", "ым", "им", "ім", "ой", "ей", "ею", "ою",
+  "а", "я", "у", "ю", "е", "є", "и", "і", "ы", "о", "ь",
+]
+
+/** The invariant head of a Slavic word: enough to match across cases. */
+function slavicStem(w: string): string {
+  for (const e of SLAVIC_ENDINGS) {
+    if (w.length - e.length >= 4 && w.endsWith(e)) return w.slice(0, -e.length)
+  }
+  return w
+}
+
+const GENERIC_QUALIFIERS = new Set([
+  "чисте", "чистое", "чистий", "чистый",
+  "збережена", "збережений", "хранимая", "хранимый",
+  "старий", "новий", "старый", "новый",
+  "святий", "святой", "великий", "велика",
+])
+
+const STEM_INDEX: Record<string, GlossaryTerm> = (() => {
+  const map: Record<string, GlossaryTerm> = {}
+  for (const t of glossary) {
+    for (const l of ["ru", "uk"] as const) {
+      const words = normalize(t.term[l]).split(/[\s,]+/).filter(Boolean)
+      for (const w of words) {
+        // Short words are skipped: their stems collide across unrelated terms.
+        if (w.length < 5) continue
+        // So are ordinary adjectives that merely qualify the head noun —
+        // `чисте` in "чисте полум'я" and `збережена` in "Збережена
+        // скрижаль" are everyday words, and keying on them lit up every
+        // sentence that happened to describe something as pure or preserved.
+        if (words.length > 1 && GENERIC_QUALIFIERS.has(w)) continue
+        const stem = slavicStem(w)
+        if (!(stem in map)) map[stem] = t
+      }
+    }
+  }
+  return map
+})()
+
 // Leading Arabic clitics: definite article + conjunction/preposition combos.
 const AR_PREFIXES = ["وبال", "فبال", "بال", "كال", "فال", "وال", "لل", "ال", "و", "ف", "ب", "ك", "ل"]
 
-/** Resolve a raw token to a glossary term, tolerating Arabic prefixes. */
+
+/** Resolve a raw token to a glossary term, tolerating inflection. */
 function matchToken(raw: string): GlossaryTerm | undefined {
   const key = normalize(raw)
   if (!key) return undefined
@@ -38,6 +94,11 @@ function matchToken(raw: string): GlossaryTerm | undefined {
       const stripped = NORMALIZED_INDEX[key.slice(p.length)]
       if (stripped) return stripped
     }
+  }
+  // Cyrillic: match on the stem so a declined form still resolves.
+  if (/[\u0400-\u04FF]/.test(key)) {
+    const byStem = STEM_INDEX[slavicStem(key)]
+    if (byStem) return byStem
   }
   return undefined
 }

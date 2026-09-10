@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react"
 import { BookOpen, Clock, Maximize2, X } from "lucide-react"
+import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   type Article,
   articles,
@@ -22,7 +23,7 @@ function readingMinutes(article: Article, lang: Lang): number {
 }
 
 /** Render a body block: blank lines split paragraphs, **text** goes bold. */
-function Prose({ text }: { text: string }) {
+function Prose({ text, lang }: { text: string; lang: Lang }) {
   return (
     <>
       {text.split("\n\n").map((para, i) => (
@@ -30,10 +31,12 @@ function Prose({ text }: { text: string }) {
           {para.split(/(\*\*[^*]+\*\*)/g).map((chunk, j) =>
             chunk.startsWith("**") && chunk.endsWith("**") ? (
               <strong key={j} className="font-bold text-foreground">
-                {chunk.slice(2, -2)}
+                {/* Glossary terms are marked inside bold runs too: a term is
+                    no less in need of explanation for being emphasised. */}
+                <GlossaryText text={chunk.slice(2, -2)} lang={lang} />
               </strong>
             ) : (
-              <span key={j}>{chunk}</span>
+              <GlossaryText key={j} text={chunk} lang={lang} />
             ),
           )}
         </p>
@@ -247,7 +250,7 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
                         {s.heading[lang]}
                       </h2>
                     ) : null}
-                    <Prose text={s.body[lang]} />
+                    <Prose text={s.body[lang]} lang={lang} />
                   </section>
                 ))}
 

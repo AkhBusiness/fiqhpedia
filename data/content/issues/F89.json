@@ -1,0 +1,161 @@
+{
+  "ref": "F89",
+  "id": "salah-30",
+  "bookId": "salah",
+  "seq": 18,
+  "chapter": {
+    "ar": "باب شروط الصلاة",
+    "en": "Chapter on the Conditions of the Prayer",
+    "ru": "Раздел об условиях молитвы",
+    "es": "Capítulo sobre las condiciones de la oración",
+    "uk": "Розділ про умови молитви"
+  },
+  "title": {
+    "ar": "حكم العاجز عن ستر العورة في الصلاة",
+    "en": "One Who Cannot Cover His ʿAwrah in the Prayer",
+    "ru": "Тот, кто не может прикрыть аврат в молитве",
+    "es": "Quien no puede cubrir su ʿawrah en la oración",
+    "uk": "Той, хто не може прикрити аврат у молитві"
+  },
+  "summary": {
+    "ar": "من لم يجد ما يستر به عورته: أيصلّي عارياً؟ وقائماً أم قاعداً؟ وهل تلزمه الإعادة؟",
+    "en": "One who finds nothing to cover his ʿawrah: does he pray uncovered, standing or seated, and must he repeat the prayer?",
+    "ru": "Тот, кто не находит, чем прикрыть аврат: молится ли он нагим, стоя или сидя, и обязан ли повторить молитву?",
+    "es": "Quien no halla con qué cubrir su ʿawrah: ¿reza desnudo, de pie o sentado, y debe repetir la oración?",
+    "uk": "Той, хто не знаходить, чим прикрити аврат: чи молиться він нагим, стоячи чи сидячи, і чи мусить повторити молитву?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يصلّي قاعداً يومئ بالركوع والسجود، لأن سترها بالقعود أولى من كشفها بالقيام، ولا إعادة عليه.",
+        "en": "He prays seated, gesturing for the bowing and the prostration, since covering the ʿawrah by sitting is better than uncovering it by standing; and he does not repeat the prayer.",
+        "ru": "Он молится сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше его обнажения при стоянии; и он не повторяет молитву.",
+        "es": "Reza sentado, señalando con la cabeza la inclinación y la postración, pues cubrir la ʿawrah sentándose es mejor que descubrirla de pie; y no repite la oración.",
+        "uk": "Він молиться сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще за його оголення при стоянні; і він не повторює молитву."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يصلّي عارياً قائماً بركوع وسجود تامّين، وصلاته صحيحة ولا إعادة عليه إن وجد سترة بعد فراغه.",
+        "en": "He prays uncovered and standing, with a full bowing and prostration; his prayer is valid and he does not repeat it if he finds a covering after he has finished.",
+        "ru": "Он молится нагим стоя, с полным поясным и земным поклоном; его молитва действительна, и он не повторяет её, если найдёт покров после её завершения.",
+        "es": "Reza desnudo y de pie, con inclinación y postración completas; su oración es válida y no la repite si halla con qué cubrirse después de terminar.",
+        "uk": "Він молиться нагим стоячи, з повним поясним та земним уклоном; його молитва дійсна, і він не повторює її, якщо знайде покрив після завершення."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يصلّي عارياً قائماً إن قدر، بركوع وسجود تامّين، ولا إعادة عليه، لأنه أدّى ما وجب عليه بحسب حاله.",
+        "en": "He prays uncovered and standing if he is able, with a full bowing and prostration, and he does not repeat the prayer, for he performed what was required of him in his condition.",
+        "ru": "Он молится нагим стоя, если способен, с полным поясным и земным поклоном, и не повторяет молитву, ибо исполнил то, что было обязательно для него в его положении.",
+        "es": "Reza desnudo y de pie si puede, con inclinación y postración completas, y no repite la oración, pues cumplió lo que le era obligatorio según su estado.",
+        "uk": "Він молиться нагим стоячи, якщо здатний, з повним поясним та земним уклоном, і не повторює молитву, бо виконав те, що було обов'язковим для нього в його становищі."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يصلّي عارياً قاعداً يومئ بالركوع والسجود، لأن ستر عورته بالقعود أولى من قيامه عارياً، ولا إعادة عليه.",
+        "en": "He prays uncovered and seated, gesturing for the bowing and the prostration, since covering his ʿawrah by sitting is better than standing uncovered; and he does not repeat the prayer.",
+        "ru": "Он молится нагим сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше, чем стоять нагим; и он не повторяет молитву.",
+        "es": "Reza desnudo y sentado, señalando la inclinación y la postración, pues cubrir su ʿawrah sentándose es mejor que estar de pie desnudo; y no repite la oración.",
+        "uk": "Він молиться нагим сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще, ніж стояти нагим; і він не повторює молитву."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
