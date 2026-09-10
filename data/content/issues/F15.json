@@ -28,9 +28,9 @@
     "hanafi": {
       "text": {
         "ar": "يبدأ إذا صار ظلّ كل شيء مثليه سوى فيء الزوال، ويمتدّ إلى غروب الشمس.",
-        "en": "It begins when a thing's shadow reaches twice its length, apart from the shadow at noon, and lasts until sunset.",
+        "en": "It begins when a thing's shadow reaches twice its length, apart from the shadow at zenith, and lasts until sunset.",
         "ru": "Начинается, когда тень предмета становится вдвое длиннее его, не считая полуденной тени, и длится до заката.",
-        "es": "Comienza cuando la sombra alcanza el doble de su objeto, sin contar la del mediodía, y dura hasta la puesta del sol.",
+        "es": "Comienza cuando la sombra alcanza el doble de su objeto, sin contar la del cenit, y dura hasta la puesta del sol.",
         "uk": "Починається, коли тінь кожної речі стає вдвічі довшою за неї, не рахуючи полуденної тіні, і триває до заходу сонця."
       },
       "sources": [
@@ -92,9 +92,9 @@
     "shafii": {
       "text": {
         "ar": "يبدأ بزيادة الظلّ على مثله أدنى زيادة بعد فيء الزوال، ويمتدّ إلى غروب الشمس.",
-        "en": "It begins the moment a thing's shadow exceeds its length, counted after the shadow at noon, and lasts until sunset.",
+        "en": "It begins the moment a thing's shadow exceeds its length, counted after the shadow at zenith, and lasts until sunset.",
         "ru": "Начинается, как только тень чуть превысит предмет, считая после полуденной тени, и длится до заката.",
-        "es": "Comienza en cuanto la sombra supera mínimamente al objeto, contada tras la del mediodía, y dura hasta la puesta del sol.",
+        "es": "Comienza en cuanto la sombra supera mínimamente al objeto, contada tras la del cenit, y dura hasta la puesta del sol.",
         "uk": "Починається з найменшого перевищення тінню довжини речі після полуденної тіні і триває до заходу сонця."
       },
       "sources": [
@@ -124,9 +124,9 @@
     "hanbali": {
       "text": {
         "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
-        "en": "It begins when a thing's shadow equals its length, counted after the shadow at noon; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
+        "en": "It begins when a thing's shadow equals its length, counted after the shadow at zenith; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
         "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
-        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del mediodía; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta.",
+        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del cenit; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta.",
         "uk": "Починається, коли тінь речі зрівняється з нею після полуденної тіні; обраний час — до пожовтіння сонця, а вимушений — до заходу."
       },
       "sources": [

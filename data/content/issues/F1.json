@@ -2,6 +2,13 @@
   "ref": "F1",
   "id": "iman-1",
   "bookId": "iman",
+  "chapter": {
+    "ar": "باب الإيمان والشهادتين",
+    "en": "Chapter on Faith and the Two Testimonies",
+    "ru": "Раздел о вере и двух свидетельствах",
+    "es": "Capítulo sobre la fe y los dos testimonios",
+    "uk": "Розділ про віру та два свідчення"
+  },
   "seq": 1,
   "title": {
     "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",

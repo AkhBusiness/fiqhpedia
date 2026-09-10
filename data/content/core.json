@@ -283,7 +283,7 @@
       "uk": "Подвійне порівняння"
     },
     "dualComparisonDesc": {
-      "ar": "اختر مذهبين للمقارنة جنبًا إلى جنب",
+      "ar": "اختر مذهبين للمقارنة جنباً إلى جنب",
       "en": "Pick two schools to compare side by side",
       "ru": "Выберите два мазхаба для сравнения",
       "es": "Elige dos escuelas para compararlas lado a lado",
@@ -731,7 +731,7 @@
       "uk": "Показати всі мазгаби"
     },
     "showAllSchoolsDesc": {
-      "ar": "عرض المذاهب الأربعة جنبًا إلى جنب",
+      "ar": "عرض المذاهب الأربعة جنباً إلى جنب",
       "en": "Display all four schools side by side",
       "ru": "Показать все четыре мазхаба рядом",
       "es": "Mostrar las cuatro escuelas lado a lado",
@@ -1291,7 +1291,7 @@
           "uk": "Усе, що виникло, потребує причини, яка виводить його з небуття в буття, адже саме по собі його буття не переважає над небуттям."
         },
         {
-          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلًا، فلزم الانتهاء إلى مُحدِثٍ أوّلٍ قديمٍ غير حادث.",
+          "ar": "التسلسل في الأسباب إلى ما لا نهاية باطلٌ عقلاً، فلزم الانتهاء إلى مُحدِثٍ أوّلٍ قديمٍ غير حادث.",
           "en": "An infinite regress of causes is rationally impossible, so it must terminate in a first Originator who is eternal and not Himself originated.",
           "ru": "Бесконечная цепь причин рационально невозможна, поэтому она должна завершаться первым Создателем, предвечным и Сам не возникшим.",
           "es": "Una cadena infinita de causas es racionalmente imposible, así que debe terminar en un Originador primero, eterno y no originado Él mismo.",
@@ -1344,7 +1344,7 @@
       },
       "premises": [
         {
-          "ar": "المخلوقات لم تكن شيئًا مذكورًا، ثم وُجدت على صفاتٍ مخصوصة من بين احتمالاتٍ لا تُحصى.",
+          "ar": "المخلوقات لم تكن شيئاً مذكوراً، ثم وُجدت على صفاتٍ مخصوصة من بين احتمالاتٍ لا تُحصى.",
           "en": "Created things were nothing at all, then came to exist with particular attributes selected from innumerable alternatives.",
           "ru": "Творения не были ничем упоминаемым, а затем возникли с определёнными свойствами из бесчисленных возможностей.",
           "es": "Las criaturas no eran nada en absoluto, y luego llegaron a existir con atributos particulares elegidos entre alternativas incontables.",
@@ -1358,7 +1358,7 @@
           "uk": "Надання переваги буттю над небуттям і одній властивості над рівнозначними може походити лише від того, хто обирає, маючи знання і волю."
         },
         {
-          "ar": "والعاجزُ عن إيجاد نفسه أعجزُ عن إيجاد غيره، فامتنع أن يكون المُوجِد شيئًا من المخلوقات.",
+          "ar": "والعاجزُ عن إيجاد نفسه أعجزُ عن إيجاد غيره، فامتنع أن يكون المُوجِد شيئاً من المخلوقات.",
           "en": "Whatever cannot bring itself into being is less able to bring another into being; so the Originator cannot be any created thing.",
           "ru": "Неспособный привести себя в бытие тем менее способен создать другое; поэтому Создателем не может быть ничто из творений.",
           "es": "Lo que no puede traerse a sí mismo a la existencia es aún menos capaz de traer a otro a la existencia, por lo que el Originador no puede ser ninguna cosa creada.",
@@ -1418,7 +1418,7 @@
           "uk": "Всесвіт рухається за точними законами та сталим ладом — у небесних тілах, у живих істотах і в атомі."
         },
         {
-          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علمًا وحكمةً وقصدًا.",
+          "ar": "الإحكام والانتظام مع تناسب الغايات يمتنع صدوره عن العشوائية، ويستلزم علماً وحكمةً وقصداً.",
           "en": "Precision and regularity, together with the fitness of ends, cannot arise from randomness and necessitate knowledge, wisdom, and purpose.",
           "ru": "Точность и регулярность вместе с целесообразностью не могут возникнуть от случайности и требуют знания, мудрости и намерения.",
           "es": "La precisión y la regularidad, junto con la adecuación de los fines, no pueden surgir del azar y requieren conocimiento, sabiduría y propósito.",
@@ -1531,14 +1531,14 @@
       },
       "premises": [
         {
-          "ar": "لو كان للعالم صانعان لكان كلٌّ منهما قادرًا على الإرادة المستقلّة في التدبير.",
+          "ar": "لو كان للعالم صانعان لكان كلٌّ منهما قادراً على الإرادة المستقلّة في التدبير.",
           "en": "If the universe had two makers, each would be capable of an independent will in governing it.",
           "ru": "Если бы у мира было два творца, каждый обладал бы независимой волей в управлении им.",
           "es": "Si el universo tuviera dos hacedores, cada uno sería capaz de una voluntad independiente al gobernarlo.",
           "uk": "Якби у світу було двоє творців, кожен із них мав би незалежну волю в управлінні ним."
         },
         {
-          "ar": "فلو اختلفت إرادتاهما لتعذّر نفاذهما معًا، ولو نفذت إرادة أحدهما دون الآخر لانتفت قدرة المغلوب.",
+          "ar": "فلو اختلفت إرادتاهما لتعذّر نفاذهما معاً، ولو نفذت إرادة أحدهما دون الآخر لانتفت قدرة المغلوب.",
           "en": "Were their wills to differ, both could not be carried out; and if one prevailed, the other's power would be negated.",
           "ru": "Если бы их воли разошлись, обе не могли бы осуществиться; а если возобладала бы одна, могущество другого было бы отвергнуто.",
           "es": "Si sus voluntades difirieran, ninguna de las dos podría cumplirse; y si prevaleciera una, el poder de la otra quedaría anulado.",
@@ -1605,7 +1605,7 @@
           "uk": "Розум осягає буття Творця і Його досконалість, але сам по собі не визначає подробиць поклоніння і закону, які Йому угодні."
         },
         {
-          "ar": "وخلق الإنسان مكلَّفًا مسؤولًا مع ترك البيان يناقض الحكمة ويقطع الحجّة عليه.",
+          "ar": "وخلق الإنسان مكلَّفاً مسؤولاً مع ترك البيان يناقض الحكمة ويقطع الحجّة عليه.",
           "en": "To create man accountable while leaving him without clarification would contradict wisdom and remove the basis of his accountability.",
           "ru": "Сотворить человека ответственным, оставив без разъяснения, противоречило бы мудрости и лишило бы основания его ответственность.",
           "es": "Crear al hombre responsable y dejarlo sin aclaración contradiría la sabiduría y anularía el fundamento de su responsabilidad.",
@@ -1739,7 +1739,7 @@
           "uk": "Посланці змінювали один одного з двох причин: втрата або спотворення попереднього послання та зверненість його лише до одного народу, а не до інших."
         },
         {
-          "ar": "فإذا حُفظت رسالةٌ من التبديل وجاءت عامّةً لجميع الناس، ارتفعت العلّتان معًا.",
+          "ar": "فإذا حُفظت رسالةٌ من التبديل وجاءت عامّةً لجميع الناس، ارتفعت العلّتان معاً.",
           "en": "If a message is preserved from alteration and comes addressed to all mankind, both causes are removed together.",
           "ru": "Если послание сохранено от искажения и обращено ко всем людям, обе причины устраняются разом.",
           "es": "Si un mensaje se preserva de la alteración y llega dirigido a toda la humanidad, ambas causas quedan eliminadas juntas.",
@@ -1866,7 +1866,7 @@
       },
       "premises": [
         {
-          "ar": "نُقل القرآن بالتواتر حفظًا في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
+          "ar": "نُقل القرآن بالتواتر حفظاً في الصدور وكتابةً في السطور، في كل طبقةٍ عن جمعٍ يمتنع تواطؤهم على الكذب.",
           "en": "The Qurʾān was transmitted by mass narration, memorised in hearts and written in lines, in every generation by a body too large to have colluded upon falsehood.",
           "ru": "Коран передавался массово — заучиванием в сердцах и записью на страницах — в каждом поколении множеством людей, чей сговор о лжи невозможен.",
           "es": "El Corán se transmitió de forma masiva — memorizado en los corazones y escrito en líneas — en cada generación por un grupo demasiado numeroso para haberse puesto de acuerdo en una falsedad.",
@@ -1918,7 +1918,7 @@
         "uk": "Доказ відсутності посередника"
       },
       "tagline": {
-        "ar": "افتقار الدعاء إلى واسطةٍ يستلزم نقصًا في المدعوّ",
+        "ar": "افتقار الدعاء إلى واسطةٍ يستلزم نقصاً في المدعوّ",
         "en": "Needing an intermediary would imply deficiency in the One called upon",
         "ru": "Нужда в посреднике подразумевала бы изъян у Того, к Кому взывают",
         "es": "Necesitar un intermediario implicaría una deficiencia en Quien es invocado",
@@ -1952,7 +1952,7 @@
         "url": "https://quran.com/2/186"
       },
       "conclusion": {
-        "ar": "فتنزيه الخالق عن النقص يقتضي أن يكون الاتصال به مباشرًا، وأن الواسطة في الدعاء منتفيةٌ لا محذوفةٌ تعبّدًا.",
+        "ar": "فتنزيه الخالق عن النقص يقتضي أن يكون الاتصال به مباشراً، وأن الواسطة في الدعاء منتفيةٌ لا محذوفةٌ تعبّداً.",
         "en": "Declaring the Creator free of deficiency therefore entails that access to Him is direct, and that intermediation in supplication is negated by reason, not merely omitted by ritual.",
         "ru": "Признание Творца свободным от изъяна влечёт, что связь с Ним непосредственна, а посредничество в мольбе отвергается разумом, а не просто опускается обрядом.",
         "es": "Declarar al Creador libre de deficiencia exige, por tanto, que el acceso a Él sea directo, y que la intermediación en la súplica quede negada por la razón, no simplemente omitida por ritual.",
@@ -1983,7 +1983,7 @@
         "en": "A state of ritual impurity that prevents prayer until removed. The minor state is lifted by ablution (wudu), the major by a full bath (ghusl).",
         "ru": "Состояние ритуальной нечистоты, мешающее молитве. Малый хадас снимается омовением (вуду), большой — полным омовением (гусль).",
         "es": "Un estado de impureza ritual que impide la oración hasta que se elimina. El estado menor se levanta con la ablución menor (wuḍūʾ), y el mayor con el baño completo (gusl).",
-        "uk": "Стан ритуальної нечистоти, що перешкоджає молитві тощо і знімається омовінням або повним обмиванням. Малий хадас знімається омовінням (вуду), великий — повним обмиванням (ґусль)."
+        "uk": "Стан ритуальної нечистоти, що перешкоджає молитві тощо і знімається омиванням або повним обмиванням. Малий хадас знімається омиванням (вуду), великий — повним обмиванням (ґусль)."
       }
     },
     {
@@ -2000,7 +2000,7 @@
         "en": "The heart's intention to perform an act of worship for God's sake — a condition for the validity of most acts such as prayer, fasting, and ablution.",
         "ru": "Намерение сердца совершить поклонение ради Аллаха — условие действительности большинства обрядов: молитвы, поста, омовения.",
         "es": "La intención del corazón de realizar un acto de adoración buscando la cercanía de Dios; es condición para la validez de la mayoría de los actos de adoración, como la oración, el ayuno y la ablución.",
-        "uk": "Намір серця здійснити поклоніння задля наближення до Аллаха; є умовою дійсності більшості обрядів, як-от молитви, посту та омовіння."
+        "uk": "Намір серця здійснити поклоніння задля наближення до Аллаха; є умовою дійсності більшості обрядів, як-от молитви, посту та омивання."
       }
     },
     {
@@ -2082,7 +2082,7 @@
       },
       "definition": {
         "ar": "اتفاق مجتهدي الأمة في عصر من العصور على حكم شرعي، وهو أحد أصول التشريع بعد القرآن والسنة.",
-        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qurʾān and Sunnah.",
+        "en": "The consensus of the qualified scholars of an era on a legal ruling — a source of law after the Qurʾān and sunnah.",
         "ru": "Единогласное мнение авторитетных учёных эпохи по правовому вопросу — источник права после Корана и Сунны.",
         "es": "El acuerdo de los sabios cualificados de una época sobre una norma legal; es una de las fuentes de la legislación después del Corán y la Sunna.",
         "uk": "Одностайна згода вчених-муджтагідів громади певної епохи щодо шаріатської постанови; одне з джерел законодавства після Корану та Сунни."
@@ -2109,9 +2109,9 @@
       "id": "sunnah-muakkadah",
       "term": {
         "ar": "سُنَّةٌ مُؤَكَّدَةٌ",
-        "en": "Sunnah Muʾakkadah",
+        "en": "sunnah Muʾakkadah",
         "ru": "Сунна Муаккада",
-        "es": "Sunnah Muʾakkadah",
+        "es": "sunnah Muʾakkadah",
         "uk": "Сунна Муаккада"
       },
       "briefDefinition": {
@@ -2203,7 +2203,7 @@
         "shafii": {
           "text": {
             "ar": "ما طُلب فعله طلباً غير جازم مع تأكد أمره والمواظبة على إظهاره في العبادات.",
-            "en": "What was requested without decisive obligation, with emphasized importance and consistent public performance in acts of worship.",
+            "en": "What was requested without decisive obligation, with emphasised importance and consistent public performance in acts of worship.",
             "ru": "То, совершение чего предписано нестрогим образом, с подчеркиванием важности и регулярным совершением в поклонении.",
             "es": "Lo solicitado de manera no imperativa, con énfasis en su importancia y constancia en su práctica en los actos de culto.",
             "uk": "Те, вчинення чого приписано несуворим чином, із підкресленням важливості та регулярним чиненням у поклонінні."
@@ -3012,9 +3012,9 @@
       "id": "sunnah-grade",
       "term": {
         "ar": "سُنَّةٌ",
-        "en": "Sunnah",
+        "en": "sunnah",
         "ru": "Сунна",
-        "es": "Sunnah",
+        "es": "sunnah",
         "uk": "Сунна"
       },
       "briefDefinition": {
@@ -3949,14 +3949,14 @@
         "en": "Steps of Wudu (Ablution)",
         "ru": "Шаги омовения (вуду)",
         "es": "Pasos de la ablución menor (Wudu)",
-        "uk": "Кроки омовіння (вуду)"
+        "uk": "Кроки омивання (вуду)"
       },
       "intro": {
         "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
         "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
         "ru": "Практическое пошаговое руководство по правильному омовению перед молитвой.",
         "es": "El método práctico, paso a paso, para realizar una ablución válida antes de la oración.",
-        "uk": "Практичний покроковий спосіб здійснити дійсне омовіння перед молитвою."
+        "uk": "Практичний покроковий спосіб здійснити дійсне омивання перед молитвою."
       },
       "steps": [
         {
@@ -4181,14 +4181,14 @@
         "en": "Method of Minor Purification (Wudu)",
         "ru": "Способ совершения малого омывания (Уду)",
         "es": "Descripción de la ablución menor completa y la suficiente",
-        "uk": "Опис повного та достатнього омовіння"
+        "uk": "Опис повного та достатнього омивання"
       },
       "intro": {
         "ar": "الخطوات العملية للوضوء مستوفية الفرائض والسنن وفق الفقه الإسلامي",
         "en": "Practical steps for Wudu including obligatory and recommended actions",
         "ru": "Практические шаги малого омывания, включая обязательные и желательные действия",
         "es": "Pasos prácticos de la ablución menor, incluyendo los actos obligatorios y los recomendados",
-        "uk": "Практичні кроки омовіння, що охоплюють обов'язкові та бажані дії згідно з ісламським фікгом"
+        "uk": "Практичні кроки омивання, що охоплюють обов'язкові та бажані дії згідно з ісламським фікгом"
       },
       "steps": [
         {
@@ -4421,7 +4421,7 @@
       },
       "answer": {
         "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
-        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qurʾān and Sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qurʾān and sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
         "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма.",
         "es": "Sus diferencias están en asuntos secundarios e interpretativos, no en los fundamentos, y todas se remontan al Corán y la Sunna; esta variedad es una misericordia y una amplitud. El principiante puede simplemente aprender según los sabios de confianza de su localidad, sin fanatismo.",
         "uk": "Їхні розбіжності — у другорядних питаннях іджтигаду, а не в основах, і всі вони сходять до Корану та Сунни; це милість і простір. Початківцю досить учитися за надійними вченими своєї країни, без фанатизму."
@@ -4795,9 +4795,9 @@
     },
     "sunnah": {
       "ar": "سنة",
-      "en": "Sunnah",
+      "en": "sunnah",
       "ru": "Сунна",
-      "es": "Sunnah",
+      "es": "sunnah",
       "uk": "Сунна"
     },
     "mandub": {

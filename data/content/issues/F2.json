@@ -2,6 +2,13 @@
   "ref": "F2",
   "id": "iman-2",
   "bookId": "iman",
+  "chapter": {
+    "ar": "باب الإيمان والشهادتين",
+    "en": "Chapter on Faith and the Two Testimonies",
+    "ru": "Раздел о вере и двух свидетельствах",
+    "es": "Capítulo sobre la fe y los dos testimonios",
+    "uk": "Розділ про віру та два свідчення"
+  },
   "seq": 2,
   "title": {
     "ar": "نطق المسلم الجديد بالشهادتين بغير اللغة العربية",

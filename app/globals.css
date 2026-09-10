@@ -57,21 +57,23 @@
   --card-foreground: oklch(0.22 0.006 20);
   --popover: oklch(0.985 0.004 20);
   --popover-foreground: oklch(0.22 0.006 20);
-  /* The accent that gives the light theme its pulse: buttons, active tabs
-     and links. A single-colour page reads as unfinished, and the dark theme
-     had white to lean on — this is its counterpart. */
-  --primary: oklch(0.47 0.11 172);
+  /* Buttons, active tabs and links. A muted near-black rather than a colour:
+     the page is a warm off-white, and a coloured accent competed with the
+     school accents that already carry meaning on every ruling card. This
+     keeps the chrome quiet so the colour that remains is the colour that
+     says something. */
+  --primary: oklch(0.28 0.006 20);
   --primary-foreground: oklch(0.99 0.004 20);
   --secondary: oklch(0.945 0.006 20);
   --secondary-foreground: oklch(0.28 0.008 20);
   --muted: oklch(0.95 0.005 20);
   --muted-foreground: oklch(0.45 0.012 20);
-  --accent: oklch(0.93 0.02 172);
-  --accent-foreground: oklch(0.32 0.09 172);
+  --accent: oklch(0.94 0.004 20);
+  --accent-foreground: oklch(0.28 0.006 20);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.895 0.006 20);
   --input: oklch(0.895 0.006 20);
-  --ring: oklch(0.47 0.11 172);
+  --ring: oklch(0.45 0.008 20);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);

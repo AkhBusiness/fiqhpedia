@@ -27,8 +27,8 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "الواجب مسح ربع الرأس، ومسح الأذنين سنة مؤكدة يُمسحان بماء الرأس أو بماء جديد.",
-        "en": "What is obligatory is wiping a quarter of the head, and wiping the ears is an emphasised sunnah, done with the water of the head or with fresh water.",
+        "ar": "فرض مسح ربع الرأس، ومسح الأذنين سنة مؤكدة يُمسحان بماء الرأس أو بماء جديد.",
+        "en": "What is a farḍ is wiping a quarter of the head, and wiping the ears is an emphasised sunnah, done with the water of the head or with fresh water.",
         "ru": "Обязательным является протирание четверти головы, а протирание ушей — подтверждённая сунна, совершаемая водой головы или свежей водой.",
         "es": "Lo obligatorio es frotar un cuarto de la cabeza, y frotar las orejas es una sunnah enfatizada, hecha con el agua de la cabeza o con agua nueva.",
         "uk": "Обов'язковим є протирання чверті голови, а протирання вух — підтверджена сунна, що здійснюється водою голови або свіжою водою."
@@ -56,7 +56,8 @@
           "uk": "«Табйін аль-Хакаїк»"
         }
       ],
-      "grade": "wajib"
+      "grade": "fard",
+      "nature": "rukn"
     },
     "maliki": {
       "text": {
@@ -89,7 +90,8 @@
           "uk": "«Мавагіб аль-Джаліль»"
         }
       ],
-      "grade": "wajib"
+      "grade": "fard",
+      "nature": "rukn"
     },
     "shafii": {
       "text": {
@@ -156,7 +158,8 @@
           "uk": "«Кашшаф аль-Кіна»"
         }
       ],
-      "grade": "wajib"
+      "grade": "fard",
+      "nature": "rukn"
     }
   }
 }

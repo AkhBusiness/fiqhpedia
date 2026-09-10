@@ -3,6 +3,13 @@
   "draft": true,
   "id": "iman-3",
   "bookId": "iman",
+  "chapter": {
+    "ar": "باب الإيمان والشهادتين",
+    "en": "Chapter on Faith and the Two Testimonies",
+    "ru": "Раздел о вере и двух свидетельствах",
+    "es": "Capítulo sobre la fe y los dos testimonios",
+    "uk": "Розділ про віру та два свідчення"
+  },
   "seq": 3,
   "title": {
     "ar": "أثر ترك الصلاة كسلاً على بقاء وصف الإسلام",
@@ -12,7 +19,7 @@
     "uk": "Вплив залишення молитви через лінощі на збереження статусу мусульманина"
   },
   "summary": {
-    "ar": "هل يكفر تارك الصلاة تهاونًا وكسلاً مع إقراره بوجوبها، أم يبقى مسلمًا فاسقًا؟",
+    "ar": "هل يكفر تارك الصلاة تهاوناً وكسلاً مع إقراره بوجوبها، أم يبقى مسلماً فاسقاً؟",
     "en": "Does one who abandons prayer out of negligence and laziness, while affirming its obligation, become a disbeliever, or remain a sinful Muslim?",
     "ru": "Становится ли неверующим оставивший молитву по небрежности и лени, признавая её обязательность, или остаётся грешным мусульманином?",
     "es": "¿Incurre en incredulidad quien abandona la oración por negligencia y pereza, reconociendo su obligatoriedad, o sigue siendo un musulmán pecador?",

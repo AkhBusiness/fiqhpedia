@@ -14,14 +14,14 @@
     "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
     "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
     "ru": "Постановление об установлении новолуния Рамадана свидетельством одного или двух справедливых свидетелей",
-    "es": "Norma sobre la confirmación de la media luna de Ramadán mediante el testimonio de uno o dos testigos justos",
+    "es": "Norma sobre la confirmación de la luna nueva de Ramadán mediante el testimonio de uno o dos testigos justos",
     "uk": "Постанова про підтвердження молодика Рамадану свідченням одного або двох справедливих свідків"
   },
   "summary": {
     "ar": "هل يثبت هلال شهر رمضان برؤية عدل واحد أم يشترط اثنان؟",
     "en": "Is the crescent of Ramadan confirmed by the sighting of a single just witness, or are two required?",
     "ru": "Устанавливается ли новолуние Рамадана свидетельством одного справедливого свидетеля, или требуется двое?",
-    "es": "¿Se confirma la media luna de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
+    "es": "¿Se confirma la luna nueva de Ramadán con el testimonio de un solo testigo justo, o se requieren dos?",
     "uk": "Чи підтверджується молодик Рамадану свідченням одного справедливого свідка, чи потрібно двоє?"
   },
   "rulings": {
@@ -59,7 +59,7 @@
     },
     "maliki": {
       "text": {
-        "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويشترط في العدل الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
+        "ar": "لا يثبت هلال رمضان بشهادة عدل واحد، بل يشترط شهادة رجلين عدلين أو الاستفاضة، ويُشترط في الشاهد الذكورة والحرية والعدالة، ولا يكتفى برؤية الفاسق أو المجهول.",
         "en": "The crescent of Ramadan is not established by the testimony of a single just witness; rather, the testimony of two just men or widespread report is required. A just witness must be male, free, and of probity, and the sighting of an impious or unknown person does not suffice.",
         "ru": "Новолуние Рамадана не подтверждается свидетельством одного справедливого свидетеля; требуется свидетельство двух справедливых мужчин либо широко распространённое сообщение. Справедливый свидетель должен быть мужчиной, свободным и добропорядочным, а наблюдения нечестивца или неизвестного лица недостаточно.",
         "es": "La luna nueva de Ramadán no se establece con el testimonio de un solo testigo justo; se requiere el testimonio de dos hombres justos o una transmisión generalizada. En el testigo justo se exige ser varón, libre y de probidad, y no basta el avistamiento de un impío ni de un desconocido.",

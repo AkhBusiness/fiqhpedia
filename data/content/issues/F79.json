@@ -28,7 +28,7 @@
     "hanafi": {
       "grade": "sunnah",
       "text": {
-        "ar": "الترتيب بين أعضاء الوضوء سنة مؤكّدة لا فرض، فلو نكّس المتوضّئ — كأن غسل رجليه قبل وجهه — صحّ وضوءه مع الكراهة.",
+        "ar": "الترتيب بين أعضاء الوضوء سنة مؤكّدة لا فرض، فلو نكّس المتوضّئ — كأن غسل رجليه قبل وجهه — صحّ وضوؤه مع الكراهة.",
         "en": "Keeping the order of the limbs is an emphasised sunnah, not an obligation: if one reverses it — washing the feet before the face — the ablution is valid, though disliked.",
         "ru": "Соблюдение порядка между органами омовения — подтверждённая сунна, а не обязанность: если человек нарушит его, вымыв ноги прежде лица, омовение действительно, хотя и нежелательно.",
         "es": "Guardar el orden entre los miembros es sunnah enfatizada, no obligación: si alguien lo invierte, lavando los pies antes del rostro, la ablución es válida, aunque reprobable.",
@@ -61,7 +61,7 @@
     "maliki": {
       "grade": "sunnah",
       "text": {
-        "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوءه، ويُستحبّ له إعادة ما نكّسه إن لم يطُل الفصل.",
+        "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوؤه، ويُستحبّ له إعادة ما نكّسه إن لم يطُل الفصل.",
         "en": "Keeping the order among the obligatory acts of the ablution is a sunnah: whoever reverses it, his ablution is valid, and it is recommended that he repeat what he reversed if the interval has not grown long.",
         "ru": "Соблюдение порядка между обязательными действиями омовения — сунна: кто нарушит его, у того омовение действительно, и ему желательно повторить нарушенное, если перерыв не затянулся.",
         "es": "Guardar el orden entre los actos obligatorios de la ablución es sunnah: quien lo invierta, su ablución es válida, y se le recomienda repetir lo invertido si el intervalo no se ha alargado.",
@@ -129,11 +129,11 @@
       "grade": "fard",
       "nature": "rukn",
       "text": {
-        "ar": "الترتيب فرض من فروض الوضوء، ولا يصحّ بدونه، لقوله ﷺ: «ابدؤوا بما بدأ الله به»، فمن خالفه بطل وضوءه.",
-        "en": "The order is one of the obligations of the ablution and it is not valid without it, on the strength of his saying ﷺ: “Begin with what God began with”; whoever departs from it, his ablution is void.",
-        "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, на основании его слов ﷺ: «Начинайте с того, с чего начал Аллах»; кто нарушит её, у того омовение недействительно.",
-        "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, por su dicho ﷺ: «Comenzad por donde comenzó Dios»; quien se aparte de él, su ablución queda anulada.",
-        "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, на підставі його слів ﷺ: «Починайте з того, з чого почав Аллаг»; хто порушить її, у того омивання недійсне."
+        "ar": "الترتيب فرض من فروض الوضوء، ولا يصحّ بدونه، لقوله ﷺ: «ابدؤوا بما بدأ الله به» رواه النسائي، فمن خالفه بطل وضوؤه.",
+        "en": "The order is one of the obligations of the ablution and it is not valid without it, on the strength of his saying ﷺ: “Begin with what Allah began with”, related by al-Nasāʾī; whoever departs from it, his ablution is void.",
+        "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, на основании его слов ﷺ: «Начинайте с того, с чего начал Аллах», передал ан-Насаи; кто нарушит её, у того омовение недействительно.",
+        "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, por su dicho ﷺ: «Comenzad por donde comenzó Allah», narrado por al-Nasāʾī; quien se aparte de él, su ablución queda anulada.",
+        "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, на підставі його слів ﷺ: «Починайте з того, з чого почав Аллах», переказав ан-Насаї; хто порушить її, у того омивання недійсне."
       },
       "sources": [
         {

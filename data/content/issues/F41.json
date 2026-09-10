@@ -12,25 +12,25 @@
   },
   "title": {
     "ar": "وقت صلاة الظهر بدايةً ونهايةً",
-    "en": "The time of the noon prayer, from its beginning to its end",
+    "en": "The time of the zenith prayer, from its beginning to its end",
     "ru": "Время полуденной молитвы: её начало и конец",
-    "es": "El tiempo de la oración del mediodía, desde su inicio hasta su fin",
+    "es": "El tiempo de la oración del cenit, desde su inicio hasta su fin",
     "uk": "Час полуденної молитви (зугр): початок і кінець"
   },
   "summary": {
     "ar": "متى يبدأ وقت صلاة الظهر ومتى ينتهي عند الأئمة الأربعة؟",
-    "en": "When does the time of the noon prayer begin and when does it end according to the four imams?",
+    "en": "When does the time of the zenith prayer begin and when does it end according to the four imams?",
     "ru": "Когда начинается и когда заканчивается время полуденной молитвы по мнению четырёх имамов?",
-    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del mediodía según los cuatro imanes?",
+    "es": "¿Cuándo empieza y cuándo termina el tiempo de la oración del cenit según los cuatro imanes?",
     "uk": "Коли починається і коли закінчується час молитви зугр за чотирма імамами?"
   },
   "rulings": {
     "hanafi": {
       "text": {
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثليه سوى فيء الزوال.",
-        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow reaches twice its length, apart from the shadow at noon.",
+        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow reaches twice its length, apart from the shadow at zenith.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не станет вдвое длиннее его, не считая полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra alcanza el doble de su objeto, sin contar la sombra del mediodía.",
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra alcanza el doble de su objeto, sin contar la sombra del cenit.",
         "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не стане вдвічі довшою за неї, не рахуючи полуденної тіні."
       },
       "sources": [
@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ الشيء مثله، ثم يشترك مع العصر إلى الغروب.",
-        "en": "It begins when the sun passes its zenith; its preferred time runs until a thing's shadow equals its length, after which it is shared with the afternoon prayer until sunset.",
-        "ru": "Начинается с прохождения солнцем зенита; предпочтительное время — пока тень не сравняется с предметом, затем оно делится с послеполуденной молитвой до заката.",
-        "es": "Comienza al pasar el sol el cenit; su tiempo preferido dura hasta que la sombra iguala al objeto, y luego se comparte con la oración de la tarde hasta la puesta.",
-        "uk": "Починається з відхилення сонця від зеніту; обраний час — доки тінь речі не зрівняється з нею, потім він спільний з асром до заходу."
+        "ar": "يبدأ بزوال الشمس، ووقته المختار إلى أن يصير ظلّ كل شيء مثله، ثم يشترك مع العصر بقدر إحداهما، ووقته الضروري إلى الغروب.",
+        "en": "It begins with the sun's decline from the zenith; its chosen time lasts until each thing's shadow equals it, then it is shared with the ʿaṣr for the span of one prayer, and its time of necessity extends to sunset.",
+        "ru": "Начинается с отклонения солнца от зенита; избранное время длится, пока тень вещи не сравняется с нею, затем оно разделяется с асром на длительность одной молитвы, а вынужденное время простирается до заката.",
+        "es": "Comienza con el declive del sol desde el cenit; su tiempo elegido dura hasta que la sombra de cada cosa la iguala, luego se comparte con el ʿaṣr por el espacio de una oración, y su tiempo de necesidad se extiende hasta la puesta del sol.",
+        "uk": "Починається з відхилення сонця від зеніту; обраний час триває, доки тінь речі не зрівняється з нею, потім він розділяється з асром на тривалість однієї молитви, а вимушений час простягається до заходу."
       },
       "sources": [
         {
@@ -92,9 +92,9 @@
     "shafii": {
       "text": {
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله سوى فيء الزوال.",
-        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, apart from the shadow at noon.",
+        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, apart from the shadow at zenith.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, не считая полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, sin contar la sombra del mediodía.",
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, sin contar la sombra del cenit.",
         "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не зрівняється з нею, не рахуючи полуденної тіні."
       },
       "sources": [
@@ -124,9 +124,9 @@
     "hanbali": {
       "text": {
         "ar": "يبدأ بزوال الشمس ويمتدّ حتى يصير ظلّ كل شيء مثله بعد فيء الزوال.",
-        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, counted after the shadow at noon.",
+        "en": "It begins when the sun passes its zenith and lasts until a thing's shadow equals its length, counted after the shadow at zenith.",
         "ru": "Начинается с прохождения солнцем зенита и длится, пока тень предмета не сравняется с ним, считая после полуденной тени.",
-        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, contada tras la sombra del mediodía.",
+        "es": "Comienza cuando el sol pasa el cenit y dura hasta que la sombra iguala a su objeto, contada tras la sombra del cenit.",
         "uk": "Починається з відхилення сонця від зеніту і триває, доки тінь кожної речі не зрівняється з нею, після полуденної тіні."
       },
       "sources": [

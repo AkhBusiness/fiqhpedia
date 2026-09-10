@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحسابين.",
+        "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة، بل العبرة بالرؤية البصرية لقوله ﷺ: «صوموا لرؤيته وأفطروا لرؤيته»، ولا عبرة بقول المنجمين والحاسبين.",
         "en": "Astronomical calculation is not relied upon to confirm crescents; rather, the standard is visual sighting based on the Prophet's saying: \"Fast upon seeing it and break fast upon seeing it,\" and the words of astronomers are disregarded.",
-        "ru": "Астрономические расчёты не принимаются при установлении новолуниив; значение имеет только визуальное наблюдение, согласно словам Пророка ﷺ: «Поститесь при виде его и разговляйтесь при виде его», а слова звездочётов и вычислителей во внимание не принимаются.",
+        "ru": "Астрономические расчёты не принимаются при установлении новолуний; значение имеет только визуальное наблюдение, согласно словам Пророка ﷺ: «Поститесь при виде его и разговляйтесь при виде его», а слова звездочётов и вычислителей во внимание не принимаются.",
         "es": "No se confía en el cálculo astronómico para establecer las lunas nuevas; lo determinante es el avistamiento visual, según el dicho del Profeta ﷺ: «Ayunad al verla y romped el ayuno al verla», y no se tienen en cuenta las palabras de los astrólogos ni de los calculadores.",
-        "uk": "Астрономічні розрахунки не приймаються при встановленні молодикив; значення має лише візуальне спостереження, згідно зі словами Пророка ﷺ: «Постіть, побачивши його, і розговляйтеся, побачивши його», а слова звіздарів та обчислювачів до уваги не беруться."
+        "uk": "Астрономічні розрахунки не приймаються при встановленні молодиків; значення має лише візуальне спостереження, згідно зі словами Пророка ﷺ: «Постіть, побачивши його, і розговляйтеся, побачивши його», а слова звіздарів та обчислювачів до уваги не беруться."
       },
       "sources": [
         {
@@ -60,7 +60,7 @@
     },
     "maliki": {
       "text": {
-        "ar": "لا يلتفت إلى قول الحسابين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان، والمطالب الشرعية متعلقة بالرؤية بالعين أو إتمام العدة.",
+        "ar": "لا يلتفت إلى قول الحاسبين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان، والمطالب الشرعية متعلقة بالرؤية بالعين أو إتمام العدة.",
         "en": "The statements of calculators are ignored, and astronomical calculations are not used to establish Ramadan; legal demands are linked to visual sighting or completing the count.",
         "ru": "Слова вычислителей игнорируются, и астрономические расчеты не используются для установления Рамадана; шариатские требования связаны с визуальным наблюдением или завершением счета.",
         "es": "Las declaraciones de los calculadores se ignoran y no se recurre al cálculo astronómico para establecer Ramadán; las exigencias legales están ligadas a la observación visual o completar la cuenta.",
@@ -93,10 +93,10 @@
     },
     "shafii": {
       "text": {
-        "ar": "لا عبرة بحساب الحسابين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
+        "ar": "لا عبرة بحساب الحاسبين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
         "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
         "ru": "Расчеты астрономов не имеют значения при подтверждении новолуния, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
-        "es": "Los cálculos de los astrónomos no tienen relevancia para confirmar la media luna, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
+        "es": "Los cálculos de los astrólogos no tienen relevancia para confirmar la luna nueva, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
         "uk": "Розрахунки звіздарів не мають значення при підтвердженні молодика, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець шаріату зв'язав постанову виключно зі спостереженням або завершенням рахунку."
       },
       "sources": [
