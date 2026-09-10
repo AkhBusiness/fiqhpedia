@@ -8535,7 +8535,7 @@
           "grade": "wajib"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "taharah-30",
@@ -8697,7 +8697,7 @@
           "grade": "wajib"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "taharah-28",
@@ -9017,13 +9017,179 @@
           "grade": "sunnah"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-33",
+      "ref": "F76",
+      "bookId": "taharah",
+      "number": 27,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم غسل اليدين إلى المرفقين ودخول المرفقين في الغسل",
+        "en": "Washing the Arms to the Elbows, and Whether the Elbows Are Included",
+        "ru": "Мытьё рук до локтей и входят ли локти в омовение",
+        "es": "Lavar los brazos hasta los codos, y si los codos entran en el lavado",
+        "uk": "Миття рук до ліктів і чи входять лікті в омивання"
+      },
+      "summary": {
+        "ar": "ما حكم غسل اليدين إلى المرفقين في الوضوء، وهل المرفقان داخلان في الغسل الواجب؟",
+        "en": "What is the ruling on washing the arms to the elbows in the ablution, and are the elbows part of what must be washed?",
+        "ru": "Каково постановление о мытье рук до локтей при омовении, и входят ли локти в то, что обязательно вымыть?",
+        "es": "¿Cuál es la norma sobre lavar los brazos hasta los codos en la ablución, y entran los codos en lo que debe lavarse?",
+        "uk": "Яка постанова про миття рук до ліктів під час омивання, і чи входять лікті в те, що обов'язково вимити?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل اليدين إلى المرفقين فرض من فروض الوضوء، والمرفقان داخلان في الغسل.",
+            "en": "Washing the arms to the elbows is one of the obligations of the ablution, and the elbows are included in what is washed.",
+            "ru": "Мытьё рук до локтей — одна из обязанностей омовения, и локти входят в то, что моется.",
+            "es": "Lavar los brazos hasta los codos es una de las obligaciones de la ablución, y los codos entran en lo que se lava.",
+            "uk": "Миття рук до ліктів — один з обов'язків омивання, і лікті входять у те, що миється."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل اليدين مع المرفقين فرض في الوضوء، ويجب استيعابهما بالماء.",
+            "en": "Washing the arms together with the elbows is an obligation in the ablution, and the water must cover them entirely.",
+            "ru": "Мытьё рук вместе с локтями — обязанность в омовении, и вода должна полностью их охватить.",
+            "es": "Lavar los brazos junto con los codos es una obligación en la ablución, y el agua debe cubrirlos por completo.",
+            "uk": "Миття рук разом із ліктями — обов'язок в омиванні, і вода має повністю їх охопити."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل اليدين مع المرفقين فرض من فروض الوضوء، ودخولهما في الغسل واجب لقوله تعالى: ﴿وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ﴾ سورة المائدة: ٦.",
+            "en": "Washing the arms together with the elbows is one of the obligations of the ablution, and including them is required — Sūrat al-Māʾidah, verse 6.",
+            "ru": "Мытьё рук вместе с локтями — одна из обязанностей омовения, и включение их обязательно — сура «аль-Маида», аят 6.",
+            "es": "Lavar los brazos junto con los codos es una de las obligaciones de la ablución, e incluirlos es obligatorio — sura al-Māʾidah, aleya 6.",
+            "uk": "Миття рук разом із ліктями — один з обов'язків омивання, і включення їх обов'язкове — сура «аль-Маїда», аят 6."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل اليدين مع المرفقين فرض من فروض الوضوء، والمرفقان داخلان في المغسول وجوباً، لفعله ﷺ بياناً للآية.",
+            "en": "Washing the arms together with the elbows is one of the obligations of the ablution, and the elbows must be included, since the Prophet ﷺ did so in explanation of the verse.",
+            "ru": "Мытьё рук вместе с локтями — одна из обязанностей омовения, и локти обязательно входят в омываемое, поскольку Пророк ﷺ поступал так, разъясняя аят.",
+            "es": "Lavar los brazos junto con los codos es una de las obligaciones de la ablución, y los codos deben incluirse, pues el Profeta ﷺ lo hizo como explicación de la aleya.",
+            "uk": "Миття рук разом із ліктями — один з обов'язків омивання, і лікті обов'язково входять у те, що миється, оскільки Пророк ﷺ чинив так, роз'яснюючи аят."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
     },
     {
       "id": "taharah-32",
       "ref": "F65",
       "bookId": "taharah",
-      "number": 27,
+      "number": 28,
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -9180,13 +9346,669 @@
           "grade": "wajib"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-34",
+      "ref": "F77",
+      "bookId": "taharah",
+      "number": 29,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم غسل الرجلين إلى الكعبين ودخول الكعبين في الغسل",
+        "en": "Washing the Feet to the Ankles, and Whether the Ankles Are Included",
+        "ru": "Мытьё ног до щиколоток и входят ли щиколотки в омовение",
+        "es": "Lavar los pies hasta los tobillos, y si los tobillos entran en el lavado",
+        "uk": "Миття ніг до щиколоток і чи входять щиколотки в омивання"
+      },
+      "summary": {
+        "ar": "ما حكم غسل الرجلين إلى الكعبين في الوضوء، وهل الكعبان داخلان في الغسل الواجب؟",
+        "en": "What is the ruling on washing the feet to the ankles in the ablution, and are the ankles part of what must be washed?",
+        "ru": "Каково постановление о мытье ног до щиколоток при омовении, и входят ли щиколотки в то, что обязательно вымыть?",
+        "es": "¿Cuál es la norma sobre lavar los pies hasta los tobillos en la ablución, y entran los tobillos en lo que debe lavarse?",
+        "uk": "Яка постанова про миття ніг до щиколоток під час омивання, і чи входять щиколотки в те, що обов'язково вимити?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل الرجلين إلى الكعبين فرض من فروض الوضوء، والكعبان — وهما العظمان الناتئان عند مفصل الساق والقدم — داخلان في الغسل.",
+            "en": "Washing the feet to the ankles is one of the obligations of the ablution, and the ankles — the two bones protruding at the joint of the leg and the foot — are included in what is washed.",
+            "ru": "Мытьё ног до щиколоток — одна из обязанностей омовения, и щиколотки — две кости, выступающие у сустава голени и стопы, — входят в то, что моется.",
+            "es": "Lavar los pies hasta los tobillos es una de las obligaciones de la ablución, y los tobillos — los dos huesos que sobresalen en la articulación de la pierna y el pie — entran en lo que se lava.",
+            "uk": "Миття ніг до щиколоток — один з обов'язків омивання, і щиколотки — дві кістки, що виступають біля суглоба гомілки та стопи, — входять у те, що миється."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل الرجلين مع الكعبين فرض في الوضوء، ويجب استيعابهما بالماء.",
+            "en": "Washing the feet together with the ankles is an obligation in the ablution, and the water must cover them entirely.",
+            "ru": "Мытьё ног вместе с щиколотками — обязанность в омовении, и вода должна полностью их охватить.",
+            "es": "Lavar los pies junto con los tobillos es una obligación en la ablución, y el agua debe cubrirlos por completo.",
+            "uk": "Миття ніг разом із щиколотками — обов'язок в омиванні, і вода має повністю їх охопити."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل الرجلين مع الكعبين فرض من فروض الوضوء، ودخولهما في الغسل واجب لقوله تعالى: ﴿وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ﴾ سورة المائدة: ٦.",
+            "en": "Washing the feet together with the ankles is one of the obligations of the ablution, and including them is required — Sūrat al-Māʾidah, verse 6.",
+            "ru": "Мытьё ног вместе с щиколотками — одна из обязанностей омовения, и включение их обязательно — сура «аль-Маида», аят 6.",
+            "es": "Lavar los pies junto con los tobillos es una de las obligaciones de la ablución, e incluirlos es obligatorio — sura al-Māʾidah, aleya 6.",
+            "uk": "Миття ніг разом із щиколотками — один з обов'язків омивання, і включення їх обов'язкове — сура «аль-Маїда», аят 6."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "غسل الرجلين مع الكعبين فرض من فروض الوضوء، والكعبان داخلان في المغسول وجوباً، لفعله ﷺ بياناً للآية.",
+            "en": "Washing the feet together with the ankles is one of the obligations of the ablution, and the ankles must be included, since the Prophet ﷺ did so in explanation of the verse.",
+            "ru": "Мытьё ног вместе с щиколотками — одна из обязанностей омовения, и щиколотки обязательно входят в омываемое, поскольку Пророк ﷺ поступал так, разъясняя аят.",
+            "es": "Lavar los pies junto con los tobillos es una de las obligaciones de la ablución, y los tobillos deben incluirse, pues el Profeta ﷺ lo hizo como explicación de la aleya.",
+            "uk": "Миття ніг разом із щиколотками — один з обов'язків омивання, і щиколотки обов'язково входять у те, що миється, оскільки Пророк ﷺ чинив так, роз'яснюючи аят."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-35",
+      "ref": "F78",
+      "bookId": "taharah",
+      "number": 30,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم تثليث غسل الأعضاء ومسح الرأس في الوضوء",
+        "en": "Washing the Limbs Three Times, and Wiping the Head Three Times",
+        "ru": "Троекратное мытьё органов и троекратное протирание головы",
+        "es": "Lavar los miembros tres veces y pasar la mano por la cabeza tres veces",
+        "uk": "Триразове миття органів і триразове протирання голови"
+      },
+      "summary": {
+        "ar": "ما حكم غسل الأعضاء ثلاثاً في الوضوء، وهل يُثلَّث مسح الرأس كذلك؟",
+        "en": "What is the ruling on washing the limbs three times in the ablution, and is the head likewise wiped three times?",
+        "ru": "Каково постановление о троекратном мытье органов при омовении, и протирается ли голова также трижды?",
+        "es": "¿Cuál es la norma sobre lavar los miembros tres veces en la ablución, y se pasa la mano por la cabeza también tres veces?",
+        "uk": "Яка постанова про триразове миття органів під час омивання, і чи протирається голова так само тричі?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "تثليث غسل الأعضاء — الوجه واليدين والرجلين — سنة مؤكّدة، وأما الرأس فيُمسح مرّة واحدة، وتُكره الزيادة على الثلاث.",
+            "en": "Washing the limbs three times — the face, the arms and the feet — is an emphasised sunnah; the head, however, is wiped once, and exceeding three is disliked.",
+            "ru": "Троекратное мытьё органов — лица, рук и ног — подтверждённая сунна; голова же протирается один раз, а превышение трёх нежелательно.",
+            "es": "Lavar los miembros tres veces — el rostro, los brazos y los pies — es sunnah enfatizada; la cabeza, en cambio, se pasa una sola vez, y exceder las tres es reprobable.",
+            "uk": "Триразове миття органів — обличчя, рук і ніг — підтверджена сунна; голова ж протирається один раз, а перевищення трьох небажане."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُندب تثليث غسل الأعضاء — الوجه واليدين والرجلين — وتُكره الزيادة عليها، وأما الرأس فيُمسح مرّة واحدة ويُكره تثليث مسحه.",
+            "en": "Washing the limbs three times — the face, the arms and the feet — is recommended, and exceeding that is disliked; the head is wiped once, and wiping it three times is disliked.",
+            "ru": "Троекратное мытьё органов — лица, рук и ног — желательно, а превышение нежелательно; голова протирается один раз, и троекратное её протирание нежелательно.",
+            "es": "Se recomienda lavar los miembros tres veces — el rostro, los brazos y los pies — y excederlo es reprobable; la cabeza se pasa una sola vez, y pasarla tres veces es reprobable.",
+            "uk": "Триразове миття органів — обличчя, рук і ніг — бажане, а перевищення небажане; голова протирається один раз, і триразове її протирання небажане."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ التثليث في أفعال الوضوء كلّها غسلاً ومسحاً، فيُثلَّث غسل الأعضاء ويُثلَّث مسح الرأس والأذنين.",
+            "en": "Doing all the acts of the ablution three times is a sunnah, both the washing and the wiping: the limbs are washed three times and the head and ears are wiped three times.",
+            "ru": "Сунной является троекратное совершение всех действий омовения — и мытья, и протирания: органы моются трижды, а голова и уши протираются трижды.",
+            "es": "Es sunnah repetir tres veces todos los actos de la ablución, tanto el lavado como el pasar la mano: los miembros se lavan tres veces y la cabeza y las orejas se pasan tres veces.",
+            "uk": "Сунною є триразове здійснення всіх дій омивання — і миття, і протирання: органи миються тричі, а голова та вуха протираються тричі."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ تثليث غسل الأعضاء — الوجه واليدين والرجلين — ولا يُسنّ تثليث مسح الرأس بل يُمسح مرّة واحدة، وتُكره الزيادة على الثلاث.",
+            "en": "Washing the limbs three times — the face, the arms and the feet — is a sunnah, but wiping the head three times is not: it is wiped once, and exceeding three is disliked.",
+            "ru": "Сунной является троекратное мытьё органов — лица, рук и ног, — но троекратное протирание головы не сунна: она протирается один раз, а превышение трёх нежелательно.",
+            "es": "Es sunnah lavar los miembros tres veces — el rostro, los brazos y los pies —, pero no lo es pasar la mano por la cabeza tres veces: se pasa una sola vez, y exceder las tres es reprobable.",
+            "uk": "Сунною є триразове миття органів — обличчя, рук і ніг, — але триразове протирання голови не сунна: вона протирається один раз, а перевищення трьох небажане."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-36",
+      "ref": "F79",
+      "bookId": "taharah",
+      "number": 31,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم الترتيب بين أعضاء الوضوء",
+        "en": "Whether the Order of the Limbs in the Ablution Must Be Kept",
+        "ru": "Обязательна ли последовательность между органами омовения",
+        "es": "Si debe guardarse el orden entre los miembros de la ablución",
+        "uk": "Чи обов'язкова послідовність між органами омивання"
+      },
+      "summary": {
+        "ar": "هل يجب الترتيب بين أعضاء الوضوء كما وردت في الآية، أم يصحّ الوضوء بتقديم بعضها على بعض؟",
+        "en": "Must the limbs be washed in the order given in the verse, or is the ablution valid if some are washed before others?",
+        "ru": "Обязательно ли мыть органы в порядке, указанном в аяте, или омовение действительно, если одни вымыты раньше других?",
+        "es": "¿Deben lavarse los miembros en el orden de la aleya, o es válida la ablución si unos se lavan antes que otros?",
+        "uk": "Чи обов'язково мити органи в порядку, зазначеному в аяті, чи омивання дійсне, якщо одні вимиті раніше за інших?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "الترتيب بين أعضاء الوضوء سنة مؤكّدة لا فرض، فلو نكّس المتوضّئ — كأن غسل رجليه قبل وجهه — صحّ وضوءه مع الكراهة.",
+            "en": "Keeping the order of the limbs is an emphasised sunnah, not an obligation: if one reverses it — washing the feet before the face — the ablution is valid, though disliked.",
+            "ru": "Соблюдение порядка между органами омовения — подтверждённая сунна, а не обязанность: если человек нарушит его, вымыв ноги прежде лица, омовение действительно, хотя и нежелательно.",
+            "es": "Guardar el orden entre los miembros es sunnah enfatizada, no obligación: si alguien lo invierte, lavando los pies antes del rostro, la ablución es válida, aunque reprobable.",
+            "uk": "Дотримання порядку між органами омивання — підтверджена сунна, а не обов'язок: якщо людина порушить його, вимивши ноги перед обличчям, омивання дійсне, хоча й небажане."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوءه، ويُستحبّ له إعادة ما نكّسه إن لم يطُل الفصل.",
+            "en": "Keeping the order among the obligatory acts of the ablution is a sunnah: whoever reverses it, his ablution is valid, and it is recommended that he repeat what he reversed if the interval has not grown long.",
+            "ru": "Соблюдение порядка между обязательными действиями омовения — сунна: кто нарушит его, у того омовение действительно, и ему желательно повторить нарушенное, если перерыв не затянулся.",
+            "es": "Guardar el orden entre los actos obligatorios de la ablución es sunnah: quien lo invierta, su ablución es válida, y se le recomienda repetir lo invertido si el intervalo no se ha alargado.",
+            "uk": "Дотримання порядку між обов'язковими діями омивання — сунна: хто порушить його, у того омивання дійсне, і йому бажано повторити порушене, якщо перерва не затягнулася."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "الترتيب فرض من فروض الوضوء، فلا يصحّ بدونه لوروده مرتَّباً في الآية، فمن قدّم عضواً على محلّه لم يُعتدّ به.",
+            "en": "The order is one of the obligations of the ablution and it is not valid without it, since the verse sets it out in sequence; whoever washes a limb out of its place, that washing does not count.",
+            "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, поскольку аят приводит её по порядку; тот, кто вымоет орган не на своём месте, тому это не засчитывается.",
+            "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, pues la aleya lo expone en secuencia; a quien lave un miembro fuera de su lugar, no se le cuenta.",
+            "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, оскільки аят подає її по порядку; тому, хто вимиє орган не на своєму місці, це не зараховується."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "الترتيب فرض من فروض الوضوء، ولا يصحّ بدونه، لقوله ﷺ: «ابدؤوا بما بدأ الله به»، فمن خالفه بطل وضوءه.",
+            "en": "The order is one of the obligations of the ablution and it is not valid without it, on the strength of his saying ﷺ: “Begin with what God began with”; whoever departs from it, his ablution is void.",
+            "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, на основании его слов ﷺ: «Начинайте с того, с чего начал Аллах»; кто нарушит её, у того омовение недействительно.",
+            "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, por su dicho ﷺ: «Comenzad por donde comenzó Dios»; quien se aparte de él, su ablución queda anulada.",
+            "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, на підставі його слів ﷺ: «Починайте з того, з чого почав Аллаг»; хто порушить її, у того омивання недійсне."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-37",
+      "ref": "F80",
+      "bookId": "taharah",
+      "number": 32,
+      "chapter": {
+        "ar": "باب صفة الوضوء",
+        "en": "Chapter on the Description of the Ablution",
+        "ru": "Раздел об описании омовения",
+        "es": "Capítulo sobre la descripción de la ablución",
+        "uk": "Розділ про опис омивання"
+      },
+      "title": {
+        "ar": "حكم الموالاة بين أعضاء الوضوء",
+        "en": "Whether the Limbs Must Be Washed Without Interruption",
+        "ru": "Обязательна ли непрерывность между органами омовения",
+        "es": "Si los miembros deben lavarse sin interrupción",
+        "uk": "Чи обов'язкова безперервність між органами омивання"
+      },
+      "summary": {
+        "ar": "هل تجب الموالاة بين غسل الأعضاء، بألّا يجفّ العضو قبل غسل ما يليه؟",
+        "en": "Must the limbs be washed without interruption, so that one does not dry before the next is washed?",
+        "ru": "Обязательно ли мыть органы без перерыва, чтобы один не высох прежде, чем вымыт следующий?",
+        "es": "¿Deben lavarse los miembros sin interrupción, de modo que uno no se seque antes de lavar el siguiente?",
+        "uk": "Чи обов'язково мити органи без перерви, щоб один не висох перш ніж вимитий наступний?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "الموالاة بين أعضاء الوضوء سنة لا فرض، فلو جفّ العضو أو طال الفصل صحّ الوضوء، مع الكراهة إن كان بلا عذر.",
+            "en": "Washing the limbs without interruption is a sunnah, not an obligation: if a limb dries or the interval grows long, the ablution is valid, though disliked if there was no excuse.",
+            "ru": "Непрерывность между органами омовения — сунна, а не обязанность: если орган высохнет или промежуток затянется, омовение действительно, хотя и нежелательно при отсутствии причины.",
+            "es": "La continuidad entre los miembros de la ablución es sunnah, no obligación: si un miembro se seca o el intervalo se alarga, la ablución es válida, aunque reprobable si fue sin excusa.",
+            "uk": "Безперервність між органами омивання — сунна, а не обов'язок: якщо орган висохне або проміжок затягнеться, омивання дійсне, хоча й небажане за відсутності причини."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "الموالاة فرض في الوضوء مع الذكر والقدرة، وحدّها ألّا يجفّ العضو المغسول قبله في زمن معتدل، فإن جفّت الأعضاء لطول الفصل وجبت إعادة الوضوء.",
+            "en": "Washing without interruption is an obligation in the ablution for one who remembers and is able; its measure is that the limb washed before does not dry in a moderate span. If the limbs dry through a long interval, the ablution must be repeated.",
+            "ru": "Непрерывность — обязанность в омовении для того, кто помнит и способен; её мера в том, чтобы ранее вымытый орган не высох за умеренное время. Если органы высохли из-за долгого перерыва, омовение надлежит повторить.",
+            "es": "La continuidad es obligación en la ablución para quien recuerda y puede; su medida es que el miembro lavado antes no se seque en un lapso moderado. Si los miembros se secan por un intervalo largo, debe repetirse la ablución.",
+            "uk": "Безперервність — обов'язок в омиванні для того, хто пам'ятає і здатний; її міра в тому, щоб раніше вимитий орган не висох за помірний час. Якщо органи висохли через довгу перерву, омивання належить повторити."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "الموالاة سنة في الوضوء لا فرض، فيجوز تفريق غسل الأعضاء ولو جفّ العضو السابق، ويصحّ الوضوء مع تركها.",
+            "en": "Washing without interruption is a sunnah in the ablution, not an obligation: the washing of the limbs may be spread out even if the earlier limb dries, and the ablution is valid without it.",
+            "ru": "Непрерывность — сунна в омовении, а не обязанность: мытьё органов может быть разделено, даже если предыдущий орган высохнет, и омовение без неё действительно.",
+            "es": "La continuidad es sunnah en la ablución, no obligación: el lavado de los miembros puede espaciarse aunque el miembro anterior se seque, y la ablución es válida sin ella.",
+            "uk": "Безперервність — сунна в омиванні, а не обов'язок: миття органів може бути розділене, навіть якщо попередній орган висохне, і омивання без неї дійсне."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "الموالاة شرط لصحّة الوضوء مع الذكر والقدرة، ومعناها ألّا يؤخّر غسل عضو حتى يجفّ الذي قبله في زمن معتدل بلا عذر.",
+            "en": "Washing without interruption is a condition for the validity of the ablution, for one who remembers and is able; it means not delaying the washing of a limb until the one before it dries in a moderate span, without excuse.",
+            "ru": "Непрерывность — условие действительности омовения для того, кто помнит и способен; она означает не откладывать мытьё органа до высыхания предыдущего за умеренное время без причины.",
+            "es": "La continuidad es condición para la validez de la ablución, para quien recuerda y puede; significa no demorar el lavado de un miembro hasta que el anterior se seque en un lapso moderado, sin excusa.",
+            "uk": "Безперервність — умова дійсності омивання для того, хто пам'ятає і здатний; вона означає не відкладати миття органа до висихання попереднього за помірний час без причини."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
     },
     {
       "id": "taharah-1",
       "ref": "F4",
       "bookId": "taharah",
-      "number": 28,
+      "number": 33,
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -9294,7 +10116,7 @@
       "id": "taharah-3",
       "ref": "F6",
       "bookId": "taharah",
-      "number": 29,
+      "number": 34,
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -9402,7 +10224,7 @@
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 30,
+      "number": 35,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -9504,7 +10326,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 31,
+      "number": 36,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -9609,7 +10431,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 32,
+      "number": 37,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -10178,7 +11000,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-11",
@@ -11125,7 +11947,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-22",
@@ -11291,7 +12113,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-14",
@@ -12089,7 +12911,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-24",
@@ -12251,7 +13073,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-25",
@@ -12413,7 +13235,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-1",
@@ -12964,7 +13786,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-27",
@@ -13127,7 +13949,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-3",
@@ -13555,7 +14377,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-29",
@@ -13721,7 +14543,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "salah-6",
@@ -15450,7 +16272,7 @@
           "nature": "shart"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "sawm-8",
@@ -15612,7 +16434,7 @@
           "grade": "haram"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "sawm-9",
@@ -15774,7 +16596,7 @@
           "grade": "haram"
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     },
     {
       "id": "sawm-10",
@@ -15933,7 +16755,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     }
   ],
   "articles": [
@@ -16679,7 +17501,7 @@
           "uk": "«Тафсір Ібн Касіра»"
         }
       ],
-      "addedAt": "2026-09-07"
+      "addedAt": "2026-09-10"
     }
   ]
 }

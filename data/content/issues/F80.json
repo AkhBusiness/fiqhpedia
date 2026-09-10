@@ -1,0 +1,163 @@
+{
+  "ref": "F80",
+  "id": "taharah-37",
+  "bookId": "taharah",
+  "seq": 10,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم الموالاة بين أعضاء الوضوء",
+    "en": "Whether the Limbs Must Be Washed Without Interruption",
+    "ru": "Обязательна ли непрерывность между органами омовения",
+    "es": "Si los miembros deben lavarse sin interrupción",
+    "uk": "Чи обов'язкова безперервність між органами омивання"
+  },
+  "summary": {
+    "ar": "هل تجب الموالاة بين غسل الأعضاء، بألّا يجفّ العضو قبل غسل ما يليه؟",
+    "en": "Must the limbs be washed without interruption, so that one does not dry before the next is washed?",
+    "ru": "Обязательно ли мыть органы без перерыва, чтобы один не высох прежде, чем вымыт следующий?",
+    "es": "¿Deben lavarse los miembros sin interrupción, de modo que uno no se seque antes de lavar el siguiente?",
+    "uk": "Чи обов'язково мити органи без перерви, щоб один не висох перш ніж вимитий наступний?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "الموالاة بين أعضاء الوضوء سنة لا فرض، فلو جفّ العضو أو طال الفصل صحّ الوضوء، مع الكراهة إن كان بلا عذر.",
+        "en": "Washing the limbs without interruption is a sunnah, not an obligation: if a limb dries or the interval grows long, the ablution is valid, though disliked if there was no excuse.",
+        "ru": "Непрерывность между органами омовения — сунна, а не обязанность: если орган высохнет или промежуток затянется, омовение действительно, хотя и нежелательно при отсутствии причины.",
+        "es": "La continuidad entre los miembros de la ablución es sunnah, no obligación: si un miembro se seca o el intervalo se alarga, la ablución es válida, aunque reprobable si fue sin excusa.",
+        "uk": "Безперервність між органами омивання — сунна, а не обов'язок: якщо орган висохне або проміжок затягнеться, омивання дійсне, хоча й небажане за відсутності причини."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "الموالاة فرض في الوضوء مع الذكر والقدرة، وحدّها ألّا يجفّ العضو المغسول قبله في زمن معتدل، فإن جفّت الأعضاء لطول الفصل وجبت إعادة الوضوء.",
+        "en": "Washing without interruption is an obligation in the ablution for one who remembers and is able; its measure is that the limb washed before does not dry in a moderate span. If the limbs dry through a long interval, the ablution must be repeated.",
+        "ru": "Непрерывность — обязанность в омовении для того, кто помнит и способен; её мера в том, чтобы ранее вымытый орган не высох за умеренное время. Если органы высохли из-за долгого перерыва, омовение надлежит повторить.",
+        "es": "La continuidad es obligación en la ablución para quien recuerda y puede; su medida es que el miembro lavado antes no se seque en un lapso moderado. Si los miembros se secan por un intervalo largo, debe repetirse la ablución.",
+        "uk": "Безперервність — обов'язок в омиванні для того, хто пам'ятає і здатний; її міра в тому, щоб раніше вимитий орган не висох за помірний час. Якщо органи висохли через довгу перерву, омивання належить повторити."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "الموالاة سنة في الوضوء لا فرض، فيجوز تفريق غسل الأعضاء ولو جفّ العضو السابق، ويصحّ الوضوء مع تركها.",
+        "en": "Washing without interruption is a sunnah in the ablution, not an obligation: the washing of the limbs may be spread out even if the earlier limb dries, and the ablution is valid without it.",
+        "ru": "Непрерывность — сунна в омовении, а не обязанность: мытьё органов может быть разделено, даже если предыдущий орган высохнет, и омовение без неё действительно.",
+        "es": "La continuidad es sunnah en la ablución, no obligación: el lavado de los miembros puede espaciarse aunque el miembro anterior se seque, y la ablución es válida sin ella.",
+        "uk": "Безперервність — сунна в омиванні, а не обов'язок: миття органів може бути розділене, навіть якщо попередній орган висохне, і омивання без неї дійсне."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "الموالاة شرط لصحّة الوضوء مع الذكر والقدرة، ومعناها ألّا يؤخّر غسل عضو حتى يجفّ الذي قبله في زمن معتدل بلا عذر.",
+        "en": "Washing without interruption is a condition for the validity of the ablution, for one who remembers and is able; it means not delaying the washing of a limb until the one before it dries in a moderate span, without excuse.",
+        "ru": "Непрерывность — условие действительности омовения для того, кто помнит и способен; она означает не откладывать мытьё органа до высыхания предыдущего за умеренное время без причины.",
+        "es": "La continuidad es condición para la validez de la ablución, para quien recuerda y puede; significa no demorar el lavado de un miembro hasta que el anterior se seque en un lapso moderado, sin excusa.",
+        "uk": "Безперервність — умова дійсності омивання для того, хто пам'ятає і здатний; вона означає не відкладати миття органа до висихання попереднього за помірний час без причини."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

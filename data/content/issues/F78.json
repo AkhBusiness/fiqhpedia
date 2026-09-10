@@ -1,0 +1,161 @@
+{
+  "ref": "F78",
+  "id": "taharah-35",
+  "bookId": "taharah",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم تثليث غسل الأعضاء ومسح الرأس في الوضوء",
+    "en": "Washing the Limbs Three Times, and Wiping the Head Three Times",
+    "ru": "Троекратное мытьё органов и троекратное протирание головы",
+    "es": "Lavar los miembros tres veces y pasar la mano por la cabeza tres veces",
+    "uk": "Триразове миття органів і триразове протирання голови"
+  },
+  "summary": {
+    "ar": "ما حكم غسل الأعضاء ثلاثاً في الوضوء، وهل يُثلَّث مسح الرأس كذلك؟",
+    "en": "What is the ruling on washing the limbs three times in the ablution, and is the head likewise wiped three times?",
+    "ru": "Каково постановление о троекратном мытье органов при омовении, и протирается ли голова также трижды?",
+    "es": "¿Cuál es la norma sobre lavar los miembros tres veces en la ablución, y se pasa la mano por la cabeza también tres veces?",
+    "uk": "Яка постанова про триразове миття органів під час омивання, і чи протирається голова так само тричі?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "تثليث غسل الأعضاء — الوجه واليدين والرجلين — سنة مؤكّدة، وأما الرأس فيُمسح مرّة واحدة، وتُكره الزيادة على الثلاث.",
+        "en": "Washing the limbs three times — the face, the arms and the feet — is an emphasised sunnah; the head, however, is wiped once, and exceeding three is disliked.",
+        "ru": "Троекратное мытьё органов — лица, рук и ног — подтверждённая сунна; голова же протирается один раз, а превышение трёх нежелательно.",
+        "es": "Lavar los miembros tres veces — el rostro, los brazos y los pies — es sunnah enfatizada; la cabeza, en cambio, se pasa una sola vez, y exceder las tres es reprobable.",
+        "uk": "Триразове миття органів — обличчя, рук і ніг — підтверджена сунна; голова ж протирається один раз, а перевищення трьох небажане."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُندب تثليث غسل الأعضاء — الوجه واليدين والرجلين — وتُكره الزيادة عليها، وأما الرأس فيُمسح مرّة واحدة ويُكره تثليث مسحه.",
+        "en": "Washing the limbs three times — the face, the arms and the feet — is recommended, and exceeding that is disliked; the head is wiped once, and wiping it three times is disliked.",
+        "ru": "Троекратное мытьё органов — лица, рук и ног — желательно, а превышение нежелательно; голова протирается один раз, и троекратное её протирание нежелательно.",
+        "es": "Se recomienda lavar los miembros tres veces — el rostro, los brazos y los pies — y excederlo es reprobable; la cabeza se pasa una sola vez, y pasarla tres veces es reprobable.",
+        "uk": "Триразове миття органів — обличчя, рук і ніг — бажане, а перевищення небажане; голова протирається один раз, і триразове її протирання небажане."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ التثليث في أفعال الوضوء كلّها غسلاً ومسحاً، فيُثلَّث غسل الأعضاء ويُثلَّث مسح الرأس والأذنين.",
+        "en": "Doing all the acts of the ablution three times is a sunnah, both the washing and the wiping: the limbs are washed three times and the head and ears are wiped three times.",
+        "ru": "Сунной является троекратное совершение всех действий омовения — и мытья, и протирания: органы моются трижды, а голова и уши протираются трижды.",
+        "es": "Es sunnah repetir tres veces todos los actos de la ablución, tanto el lavado como el pasar la mano: los miembros se lavan tres veces y la cabeza y las orejas se pasan tres veces.",
+        "uk": "Сунною є триразове здійснення всіх дій омивання — і миття, і протирання: органи миються тричі, а голова та вуха протираються тричі."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ تثليث غسل الأعضاء — الوجه واليدين والرجلين — ولا يُسنّ تثليث مسح الرأس بل يُمسح مرّة واحدة، وتُكره الزيادة على الثلاث.",
+        "en": "Washing the limbs three times — the face, the arms and the feet — is a sunnah, but wiping the head three times is not: it is wiped once, and exceeding three is disliked.",
+        "ru": "Сунной является троекратное мытьё органов — лица, рук и ног, — но троекратное протирание головы не сунна: она протирается один раз, а превышение трёх нежелательно.",
+        "es": "Es sunnah lavar los miembros tres veces — el rostro, los brazos y los pies —, pero no lo es pasar la mano por la cabeza tres veces: se pasa una sola vez, y exceder las tres es reprobable.",
+        "uk": "Сунною є триразове миття органів — обличчя, рук і ніг, — але триразове протирання голови не сунна: вона протирається один раз, а перевищення трьох небажане."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

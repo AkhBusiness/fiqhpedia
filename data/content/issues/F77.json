@@ -1,0 +1,165 @@
+{
+  "ref": "F77",
+  "id": "taharah-34",
+  "bookId": "taharah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم غسل الرجلين إلى الكعبين ودخول الكعبين في الغسل",
+    "en": "Washing the Feet to the Ankles, and Whether the Ankles Are Included",
+    "ru": "Мытьё ног до щиколоток и входят ли щиколотки в омовение",
+    "es": "Lavar los pies hasta los tobillos, y si los tobillos entran en el lavado",
+    "uk": "Миття ніг до щиколоток і чи входять щиколотки в омивання"
+  },
+  "summary": {
+    "ar": "ما حكم غسل الرجلين إلى الكعبين في الوضوء، وهل الكعبان داخلان في الغسل الواجب؟",
+    "en": "What is the ruling on washing the feet to the ankles in the ablution, and are the ankles part of what must be washed?",
+    "ru": "Каково постановление о мытье ног до щиколоток при омовении, и входят ли щиколотки в то, что обязательно вымыть?",
+    "es": "¿Cuál es la norma sobre lavar los pies hasta los tobillos en la ablución, y entran los tobillos en lo que debe lavarse?",
+    "uk": "Яка постанова про миття ніг до щиколоток під час омивання, і чи входять щиколотки в те, що обов'язково вимити?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "غسل الرجلين إلى الكعبين فرض من فروض الوضوء، والكعبان — وهما العظمان الناتئان عند مفصل الساق والقدم — داخلان في الغسل.",
+        "en": "Washing the feet to the ankles is one of the obligations of the ablution, and the ankles — the two bones protruding at the joint of the leg and the foot — are included in what is washed.",
+        "ru": "Мытьё ног до щиколоток — одна из обязанностей омовения, и щиколотки — две кости, выступающие у сустава голени и стопы, — входят в то, что моется.",
+        "es": "Lavar los pies hasta los tobillos es una de las obligaciones de la ablución, y los tobillos — los dos huesos que sobresalen en la articulación de la pierna y el pie — entran en lo que se lava.",
+        "uk": "Миття ніг до щиколоток — один з обов'язків омивання, і щиколотки — дві кістки, що виступають біля суглоба гомілки та стопи, — входять у те, що миється."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "غسل الرجلين مع الكعبين فرض في الوضوء، ويجب استيعابهما بالماء.",
+        "en": "Washing the feet together with the ankles is an obligation in the ablution, and the water must cover them entirely.",
+        "ru": "Мытьё ног вместе с щиколотками — обязанность в омовении, и вода должна полностью их охватить.",
+        "es": "Lavar los pies junto con los tobillos es una obligación en la ablución, y el agua debe cubrirlos por completo.",
+        "uk": "Миття ніг разом із щиколотками — обов'язок в омиванні, і вода має повністю їх охопити."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "غسل الرجلين مع الكعبين فرض من فروض الوضوء، ودخولهما في الغسل واجب لقوله تعالى: ﴿وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ﴾ سورة المائدة: ٦.",
+        "en": "Washing the feet together with the ankles is one of the obligations of the ablution, and including them is required — Sūrat al-Māʾidah, verse 6.",
+        "ru": "Мытьё ног вместе с щиколотками — одна из обязанностей омовения, и включение их обязательно — сура «аль-Маида», аят 6.",
+        "es": "Lavar los pies junto con los tobillos es una de las obligaciones de la ablución, e incluirlos es obligatorio — sura al-Māʾidah, aleya 6.",
+        "uk": "Миття ніг разом із щиколотками — один з обов'язків омивання, і включення їх обов'язкове — сура «аль-Маїда», аят 6."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "غسل الرجلين مع الكعبين فرض من فروض الوضوء، والكعبان داخلان في المغسول وجوباً، لفعله ﷺ بياناً للآية.",
+        "en": "Washing the feet together with the ankles is one of the obligations of the ablution, and the ankles must be included, since the Prophet ﷺ did so in explanation of the verse.",
+        "ru": "Мытьё ног вместе с щиколотками — одна из обязанностей омовения, и щиколотки обязательно входят в омываемое, поскольку Пророк ﷺ поступал так, разъясняя аят.",
+        "es": "Lavar los pies junto con los tobillos es una de las obligaciones de la ablución, y los tobillos deben incluirse, pues el Profeta ﷺ lo hizo como explicación de la aleya.",
+        "uk": "Миття ніг разом із щиколотками — один з обов'язків омивання, і щиколотки обов'язково входять у те, що миється, оскільки Пророк ﷺ чинив так, роз'яснюючи аят."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

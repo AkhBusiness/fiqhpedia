@@ -186,108 +186,7 @@
    * the surface darkens and the label goes light, so hovering makes the
    * whole control darker and more definite, not fainter.
    */
-  :root:not(.dark) {
-    /*
-     * The whole interface is drawn in translucent white: `border-white/10`
-     * for edges, `bg-white/[0.02]` for panels, `hover:border-white/25` for
-     * the response to a pointer. Over the dark theme those read as faint
-     * light; over a light page they are white on white, so edges vanish,
-     * panels dissolve into the sheet and hovering changes nothing.
-     *
-     * Every one of them is restated here against the text colour instead of
-     * white. Hover states are included deliberately: covering only the
-     * resting state leaves cards that look right until the pointer arrives
-     * and then do nothing — which is worse than a flat card, because it
-     * reads as broken rather than plain.
-     */
-    .bg-white\/\[0\.02\],
-    .bg-white\/\[0\.03\] {
-      background-color: var(--card);
-    }
-    .bg-white\/5,
-    .bg-white\/\[0\.04\],
-    .bg-white\/\[0\.05\] {
-      background-color: color-mix(in oklch, var(--foreground) 5%, transparent);
-    }
-    .bg-white\/\[0\.06\] {
-      background-color: color-mix(in oklch, var(--foreground) 7%, transparent);
-    }
-    .bg-white\/15 {
-      background-color: color-mix(in oklch, var(--primary) 14%, transparent);
-    }
-    .border-white\/5 {
-      border-color: color-mix(in oklch, var(--foreground) 8%, transparent);
-    }
-    .border-white\/10 {
-      border-color: color-mix(in oklch, var(--foreground) 13%, transparent);
-    }
-    .border-white\/15 {
-      border-color: color-mix(in oklch, var(--foreground) 17%, transparent);
-    }
-    .border-white\/20 {
-      border-color: color-mix(in oklch, var(--foreground) 22%, transparent);
-    }
-    .border-white\/30 {
-      border-color: color-mix(in oklch, var(--foreground) 32%, transparent);
-    }
-    .bg-white\/20 {
-      background-color: color-mix(in oklch, var(--foreground) 18%, transparent);
-    }
-    .border-white\/25 {
-      border-color: color-mix(in oklch, var(--foreground) 28%, transparent);
-    }
-    .divide-white\/5 > * + * {
-      border-color: color-mix(in oklch, var(--foreground) 9%, transparent);
-    }
-    .text-zinc-400,
-    .text-zinc-500 {
-      color: var(--muted-foreground);
-    }
-    .text-zinc-300 {
-      color: var(--foreground);
-    }
 
-    /* ── الاستجابة للمؤشّر ─────────────────────────────────── */
-    .hover\:bg-white\/\[0\.06\]:hover,
-    .hover\:bg-white\/10:hover {
-      background-color: color-mix(in oklch, var(--foreground) 8%, transparent);
-    }
-    .hover\:bg-white\/\[0\.04\]:hover {
-      background-color: color-mix(in oklch, var(--foreground) 6%, transparent);
-    }
-    .hover\:bg-white\/\[0\.03\]:hover,
-    .hover\:bg-white\/\[0\.05\]:hover,
-    .hover\:bg-white\/5:hover {
-      background-color: color-mix(in oklch, var(--foreground) 6%, transparent);
-    }
-    .hover\:bg-white\/\[0\.07\]:hover,
-    .hover\:bg-white\/\[0\.08\]:hover {
-      background-color: color-mix(in oklch, var(--foreground) 9%, transparent);
-    }
-    /* Focus ring and focus border, likewise stated in white. */
-    .focus\:ring-white\/10:focus {
-      --tw-ring-color: color-mix(in oklch, var(--primary) 30%, transparent);
-    }
-    .focus\:border-white\/25:focus {
-      border-color: var(--primary);
-    }
-    .hover\:border-white\/20:hover,
-    .hover\:border-white\/25:hover,
-    .hover\:border-white\/30:hover,
-    .hover\:border-white\/40:hover {
-      border-color: color-mix(in oklch, var(--foreground) 35%, transparent);
-    }
-    .hover\:text-zinc-300:hover {
-      color: var(--foreground);
-    }
-    /* The one inversion: a control whose label turns white would vanish, so
-       the surface darkens and the label lightens instead. */
-    .hover\:text-white:hover {
-      color: var(--primary-foreground);
-      background-color: var(--primary);
-      border-color: var(--primary);
-    }
-  }
 
 
   /* Long unbroken strings — URLs, transliterated titles — must wrap rather
@@ -331,3 +230,114 @@
 .animate-modal-panel {
   animation: modal-panel-in 0.28s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
+/*
+ * الوضع الفاتح: إعادة نصّ الأبيض الشفّاف على لون النصّ.
+ *
+ * خارج `@layer base` عمداً، ومسبوقة بـ`html:not(.dark)`. فقواعد الطبقة
+ * تخسر أمام أدوات Tailwind مهما تأخّرت في الملف — وقد كُتبت هذه القاعدة
+ * داخلها فظهرت في المخرج ولم تفز، فبقيت الحدود مختفية والمؤشّر بلا أثر
+ * والشيفرة تبدو صحيحة. والسابقة ترفع الخصوصية فوق الأدوات فتفوز.
+ */
+
+/*
+* The whole interface is drawn in translucent white: `border-white/10`
+* for edges, `bg-white/[0.02]` for panels, `hover:border-white/25` for
+* the response to a pointer. Over the dark theme those read as faint
+* light; over a light page they are white on white, so edges vanish,
+* panels dissolve into the sheet and hovering changes nothing.
+*
+* Every one of them is restated here against the text colour instead of
+* white. Hover states are included deliberately: covering only the
+* resting state leaves cards that look right until the pointer arrives
+* and then do nothing — which is worse than a flat card, because it
+* reads as broken rather than plain.
+*/
+html:not(.dark) .bg-white\/\[0\.02\],
+html:not(.dark) .bg-white\/\[0\.03\] {
+  background-color: var(--card);
+  }
+html:not(.dark) .bg-white\/5,
+html:not(.dark) .bg-white\/\[0\.04\],
+html:not(.dark) .bg-white\/\[0\.05\] {
+  background-color: color-mix(in oklch, var(--foreground) 5%, transparent);
+  }
+html:not(.dark) .bg-white\/\[0\.06\] {
+  background-color: color-mix(in oklch, var(--foreground) 7%, transparent);
+  }
+html:not(.dark) .bg-white\/15 {
+  background-color: color-mix(in oklch, var(--primary) 14%, transparent);
+  }
+html:not(.dark) .border-white\/5 {
+  border-color: color-mix(in oklch, var(--foreground) 8%, transparent);
+  }
+html:not(.dark) .border-white\/10 {
+  border-color: color-mix(in oklch, var(--foreground) 13%, transparent);
+  }
+html:not(.dark) .border-white\/15 {
+  border-color: color-mix(in oklch, var(--foreground) 17%, transparent);
+  }
+html:not(.dark) .border-white\/20 {
+  border-color: color-mix(in oklch, var(--foreground) 22%, transparent);
+  }
+html:not(.dark) .border-white\/30 {
+  border-color: color-mix(in oklch, var(--foreground) 32%, transparent);
+  }
+html:not(.dark) .bg-white\/20 {
+  background-color: color-mix(in oklch, var(--foreground) 18%, transparent);
+  }
+html:not(.dark) .border-white\/25 {
+  border-color: color-mix(in oklch, var(--foreground) 28%, transparent);
+  }
+html:not(.dark) .divide-white\/5 > * + * {
+  border-color: color-mix(in oklch, var(--foreground) 9%, transparent);
+  }
+html:not(.dark) .text-zinc-400,
+html:not(.dark) .text-zinc-500 {
+  color: var(--muted-foreground);
+  }
+html:not(.dark) .text-zinc-300 {
+  color: var(--foreground);
+  }
+
+/* ── الاستجابة للمؤشّر ─────────────────────────────────── */
+html:not(.dark) .hover\:bg-white\/\[0\.06\]:hover,
+html:not(.dark) .hover\:bg-white\/10:hover {
+  background-color: color-mix(in oklch, var(--foreground) 8%, transparent);
+  }
+html:not(.dark) .hover\:bg-white\/\[0\.04\]:hover {
+  background-color: color-mix(in oklch, var(--foreground) 6%, transparent);
+  }
+html:not(.dark) .hover\:bg-white\/\[0\.03\]:hover,
+html:not(.dark) .hover\:bg-white\/\[0\.05\]:hover,
+html:not(.dark) .hover\:bg-white\/5:hover {
+  background-color: color-mix(in oklch, var(--foreground) 6%, transparent);
+  }
+html:not(.dark) .hover\:bg-white\/\[0\.07\]:hover,
+html:not(.dark) .hover\:bg-white\/\[0\.08\]:hover {
+  background-color: color-mix(in oklch, var(--foreground) 9%, transparent);
+  }
+/* Focus ring and focus border, likewise stated in white. */
+html:not(.dark) .focus\:ring-white\/10:focus {
+  --tw-ring-color: color-mix(in oklch, var(--primary) 30%, transparent);
+  }
+html:not(.dark) .focus\:border-white\/25:focus {
+  border-color: var(--primary);
+  }
+html:not(.dark) .hover\:border-white\/20:hover,
+html:not(.dark) .hover\:border-white\/25:hover,
+html:not(.dark) .hover\:border-white\/30:hover,
+html:not(.dark) .hover\:border-white\/40:hover {
+  border-color: color-mix(in oklch, var(--foreground) 35%, transparent);
+  }
+html:not(.dark) .hover\:text-zinc-300:hover {
+  color: var(--foreground);
+  }
+/* The one inversion: a control whose label turns white would vanish, so
+  the surface darkens and the label lightens instead. */
+html:not(.dark) .hover\:text-white:hover {
+  color: var(--primary-foreground);
+  background-color: var(--primary);
+  border-color: var(--primary);
+  }
+

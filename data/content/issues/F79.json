@@ -1,0 +1,163 @@
+{
+  "ref": "F79",
+  "id": "taharah-36",
+  "bookId": "taharah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب صفة الوضوء",
+    "en": "Chapter on the Description of the Ablution",
+    "ru": "Раздел об описании омовения",
+    "es": "Capítulo sobre la descripción de la ablución",
+    "uk": "Розділ про опис омивання"
+  },
+  "title": {
+    "ar": "حكم الترتيب بين أعضاء الوضوء",
+    "en": "Whether the Order of the Limbs in the Ablution Must Be Kept",
+    "ru": "Обязательна ли последовательность между органами омовения",
+    "es": "Si debe guardarse el orden entre los miembros de la ablución",
+    "uk": "Чи обов'язкова послідовність між органами омивання"
+  },
+  "summary": {
+    "ar": "هل يجب الترتيب بين أعضاء الوضوء كما وردت في الآية، أم يصحّ الوضوء بتقديم بعضها على بعض؟",
+    "en": "Must the limbs be washed in the order given in the verse, or is the ablution valid if some are washed before others?",
+    "ru": "Обязательно ли мыть органы в порядке, указанном в аяте, или омовение действительно, если одни вымыты раньше других?",
+    "es": "¿Deben lavarse los miembros en el orden de la aleya, o es válida la ablución si unos se lavan antes que otros?",
+    "uk": "Чи обов'язково мити органи в порядку, зазначеному в аяті, чи омивання дійсне, якщо одні вимиті раніше за інших?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "الترتيب بين أعضاء الوضوء سنة مؤكّدة لا فرض، فلو نكّس المتوضّئ — كأن غسل رجليه قبل وجهه — صحّ وضوءه مع الكراهة.",
+        "en": "Keeping the order of the limbs is an emphasised sunnah, not an obligation: if one reverses it — washing the feet before the face — the ablution is valid, though disliked.",
+        "ru": "Соблюдение порядка между органами омовения — подтверждённая сунна, а не обязанность: если человек нарушит его, вымыв ноги прежде лица, омовение действительно, хотя и нежелательно.",
+        "es": "Guardar el orden entre los miembros es sunnah enfatizada, no obligación: si alguien lo invierte, lavando los pies antes del rostro, la ablución es válida, aunque reprobable.",
+        "uk": "Дотримання порядку між органами омивання — підтверджена сунна, а не обов'язок: якщо людина порушить його, вимивши ноги перед обличчям, омивання дійсне, хоча й небажане."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوءه، ويُستحبّ له إعادة ما نكّسه إن لم يطُل الفصل.",
+        "en": "Keeping the order among the obligatory acts of the ablution is a sunnah: whoever reverses it, his ablution is valid, and it is recommended that he repeat what he reversed if the interval has not grown long.",
+        "ru": "Соблюдение порядка между обязательными действиями омовения — сунна: кто нарушит его, у того омовение действительно, и ему желательно повторить нарушенное, если перерыв не затянулся.",
+        "es": "Guardar el orden entre los actos obligatorios de la ablución es sunnah: quien lo invierta, su ablución es válida, y se le recomienda repetir lo invertido si el intervalo no se ha alargado.",
+        "uk": "Дотримання порядку між обов'язковими діями омивання — сунна: хто порушить його, у того омивання дійсне, і йому бажано повторити порушене, якщо перерва не затягнулася."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "الترتيب فرض من فروض الوضوء، فلا يصحّ بدونه لوروده مرتَّباً في الآية، فمن قدّم عضواً على محلّه لم يُعتدّ به.",
+        "en": "The order is one of the obligations of the ablution and it is not valid without it, since the verse sets it out in sequence; whoever washes a limb out of its place, that washing does not count.",
+        "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, поскольку аят приводит её по порядку; тот, кто вымоет орган не на своём месте, тому это не засчитывается.",
+        "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, pues la aleya lo expone en secuencia; a quien lave un miembro fuera de su lugar, no se le cuenta.",
+        "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, оскільки аят подає її по порядку; тому, хто вимиє орган не на своєму місці, це не зараховується."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "الترتيب فرض من فروض الوضوء، ولا يصحّ بدونه، لقوله ﷺ: «ابدؤوا بما بدأ الله به»، فمن خالفه بطل وضوءه.",
+        "en": "The order is one of the obligations of the ablution and it is not valid without it, on the strength of his saying ﷺ: “Begin with what God began with”; whoever departs from it, his ablution is void.",
+        "ru": "Последовательность — одна из обязанностей омовения, и без неё оно недействительно, на основании его слов ﷺ: «Начинайте с того, с чего начал Аллах»; кто нарушит её, у того омовение недействительно.",
+        "es": "El orden es una de las obligaciones de la ablución y sin él no es válida, por su dicho ﷺ: «Comenzad por donde comenzó Dios»; quien se aparte de él, su ablución queda anulada.",
+        "uk": "Послідовність — один з обов'язків омивання, і без неї воно недійсне, на підставі його слів ﷺ: «Починайте з того, з чого почав Аллаг»; хто порушить її, у того омивання недійсне."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

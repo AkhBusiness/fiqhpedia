@@ -57,7 +57,9 @@ NATURES = {"rukn", "shart", "sabab", "mani"}
 # Text that means "not written yet" and must never ship.
 PLACEHOLDERS = re.compile(
     r"\b(lorem ipsum|placeholder|coming soon)\b"
-    r"|قريبا|قريباً|قيد الإعداد|نص تجريبي",
+    # «قريباً» وحدها أو مسبوقة بأدوات الوعد. وهي في الفقه ظرف زمن مشروع
+    # («إن كان قريباً»)، فتقييدها يمنع إنذاراً كاذباً على نصّ صحيح.
+    r"|^\s*قريبا[ًٍ]?\s*$|(?:سيُضاف|سيتوفّر|سيتوفر|متاح)\s+قريبا|قيد الإعداد|نص تجريبي",
     re.IGNORECASE,
 )
 # رموز برمجية بالأحرف الكبيرة فقط: «todo» كلمة إسبانية عادية (= كل).
