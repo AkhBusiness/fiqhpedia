@@ -1,0 +1,157 @@
+{
+  "ref": "F91",
+  "id": "taharah-46",
+  "bookId": "taharah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "أقلّ الحيض وأكثره وأقلّ الطهر بينهما",
+    "en": "The Shortest and Longest Menstruation, and the Shortest Purity Between Two",
+    "ru": "Наименьший и наибольший срок менструации и наименьшая чистота между двумя",
+    "es": "La menstruación más corta y la más larga, y la pureza mínima entre dos",
+    "uk": "Найменший і найбільший строк менструації та найменша чистота між двома"
+  },
+  "summary": {
+    "ar": "ما أقلّ مدّة الحيض وأكثرها، وما أقلّ الطهر الفاصل بين حيضتين؟",
+    "en": "What is the shortest and the longest span of menstruation, and the shortest purity that separates two menstruations?",
+    "ru": "Каков наименьший и наибольший срок менструации и наименьшая чистота, разделяющая две менструации?",
+    "es": "¿Cuál es el plazo más corto y el más largo de la menstruación, y la pureza mínima que separa dos menstruaciones?",
+    "uk": "Який найменший і найбільший строк менструації та найменша чистота, що розділяє дві менструації?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "أقلّ الحيض ثلاثة أيام بلياليها، وأكثره عشرة أيام بلياليها، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً، ولا حدّ لأكثره.",
+        "en": "The shortest menstruation is three days with their nights, the longest ten days with their nights; the shortest purity between two menstruations is fifteen days, and there is no limit to its longest.",
+        "ru": "Наименьшая менструация — трое суток, наибольшая — десять суток; наименьшая чистота между двумя менструациями — пятнадцать дней, а наибольшая не ограничена.",
+        "es": "La menstruación más corta es de tres días con sus noches, la más larga de diez días con sus noches; la pureza mínima entre dos menstruaciones es de quince días, y no hay límite para la máxima.",
+        "uk": "Найменша менструація — три доби, найбільша — десять діб; найменша чистота між двома менструаціями — п'ятнадцять днів, а найбільша не обмежена."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا حدّ لأقلّ الحيض فتكفي الدفقة، وأكثره خمسة عشر يوماً، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً.",
+        "en": "There is no lower limit to menstruation — a single flow suffices; its longest is fifteen days, and the shortest purity between two menstruations is fifteen days.",
+        "ru": "Нижнего предела у менструации нет — достаточно одного истечения; наибольшая — пятнадцать дней, а наименьшая чистота между двумя менструациями — пятнадцать дней.",
+        "es": "No hay límite inferior para la menstruación: basta un solo flujo; la más larga es de quince días, y la pureza mínima entre dos menstruaciones es de quince días.",
+        "uk": "Нижньої межі менструації немає — достатньо одного витікання; найбільша — п'ятнадцять днів, а найменша чистота між двома менструаціями — п'ятнадцять днів."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "أقلّ الحيض يوم وليلة، وأكثره خمسة عشر يوماً بلياليها، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً بلياليها.",
+        "en": "The shortest menstruation is a day and a night, the longest fifteen days with their nights; and the shortest purity between two menstruations is fifteen days with their nights.",
+        "ru": "Наименьшая менструация — сутки, наибольшая — пятнадцать суток; а наименьшая чистота между двумя менструациями — пятнадцать суток.",
+        "es": "La menstruación más corta es de un día y una noche, la más larga de quince días con sus noches; y la pureza mínima entre dos menstruaciones es de quince días con sus noches.",
+        "uk": "Найменша менструація — доба, найбільша — п'ятнадцять діб; а найменша чистота між двома менструаціями — п'ятнадцять діб."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "أقلّ الحيض يوم وليلة، وأكثره خمسة عشر يوماً، وأقلّ الطهر بين الحيضتين ثلاثة عشر يوماً.",
+        "en": "The shortest menstruation is a day and a night, the longest fifteen days; and the shortest purity between two menstruations is thirteen days.",
+        "ru": "Наименьшая менструация — сутки, наибольшая — пятнадцать дней; а наименьшая чистота между двумя менструациями — тринадцать дней.",
+        "es": "La menstruación más corta es de un día y una noche, la más larga de quince días; y la pureza mínima entre dos menstruaciones es de trece días.",
+        "uk": "Найменша менструація — доба, найбільша — п'ятнадцять днів; а найменша чистота між двома менструаціями — тринадцять днів."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

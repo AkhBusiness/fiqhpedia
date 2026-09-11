@@ -1,0 +1,161 @@
+{
+  "ref": "F93",
+  "id": "taharah-48",
+  "bookId": "taharah",
+  "seq": 12,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "حكم قضاء الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+    "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
+    "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
+    "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
+    "uk": "Чи мусить жінка, що стала чистою наприкінці часу, здійснити й попередню з двох поєднуваних молитов"
+  },
+  "summary": {
+    "ar": "إذا طهرت في وقت العصر أو العشاء، أتلزمها صلاة الوقت وحدها، أم تلزمها معها الظهر أو المغرب؟",
+    "en": "If she becomes pure during the time of ʿaṣr or ʿishāʾ, is only that prayer due of her, or is ẓuhr or maghrib due together with it?",
+    "ru": "Если она стала чистой во время асра или иша, обязана ли она только этой молитвой, или вместе с ней и зухром или магрибом?",
+    "es": "Si se purifica durante el tiempo de ʿaṣr o ʿishāʾ, ¿le es obligatoria solo esa oración, o también el ẓuhr o el maghrib junto con ella?",
+    "uk": "Якщо вона стала чистою під час асру чи іша, чи зобов'язана вона лише цією молитвою, чи разом із нею й зугром або маґрібом?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "لا تلزمها إلا الصلاة التي طهرت في وقتها، فلا تقضي الظهر مع العصر ولا المغرب مع العشاء، لأن وقت الأولى خرج وهي حائض غير مخاطَبة بها.",
+        "en": "Only the prayer in whose time she became pure is due of her; she does not pray ẓuhr with ʿaṣr nor maghrib with ʿishāʾ, since the earlier prayer's time ended while she was still menstruating and not addressed by it.",
+        "ru": "Она обязана только той молитвой, во время которой стала чистой; она не совершает зухр вместе с асром и магриб вместе с иша, поскольку время первой истекло, когда она ещё была в менструации и не была ею обязана.",
+        "es": "Solo le es obligatoria la oración en cuyo tiempo se purificó; no reza el ẓuhr con el ʿaṣr ni el maghrib con el ʿishāʾ, pues el tiempo de la primera salió estando ella aún menstruante y no obligada.",
+        "uk": "Вона зобов'язана лише тією молитвою, під час якої стала чистою; вона не здійснює зугр разом з асром і маґріб разом з іша, оскільки час першої минув, коли вона ще була в менструації й не була нею зобов'язана."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تقضي الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقت الثانية وقتٌ لهما معاً عند العذر.",
+        "en": "She prays ẓuhr with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse the time of the second belongs to both.",
+        "ru": "Она совершает зухр вместе с асром, если стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине время второй принадлежит обеим.",
+        "es": "Reza el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa el tiempo de la segunda es tiempo de ambas.",
+        "uk": "Вона здійснює зугр разом з асром, якщо стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини час другої належить обом."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تلزمها الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقت الثانية وقتٌ للأولى عند العذر كما في الجمع.",
+        "en": "Ẓuhr is due with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse the time of the second serves the first, as in joining prayers.",
+        "ru": "Зухр обязателен вместе с асром, если она стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине время второй служит и первой, как при соединении молитв.",
+        "es": "Le es obligatorio el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa el tiempo de la segunda sirve a la primera, como al juntar oraciones.",
+        "uk": "Зугр обов'язковий разом з асром, якщо вона стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини час другої служить і першій, як при поєднанні молитов."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تلزمها الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقتهما يصير وقتاً واحداً في حال العذر.",
+        "en": "Ẓuhr is due with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse their two times become one.",
+        "ru": "Зухр обязателен вместе с асром, если она стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине их два времени становятся одним.",
+        "es": "Le es obligatorio el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa sus dos tiempos se hacen uno.",
+        "uk": "Зугр обов'язковий разом з асром, якщо вона стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини їхні два часи стають одним."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

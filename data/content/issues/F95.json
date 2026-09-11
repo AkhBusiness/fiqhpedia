@@ -1,0 +1,161 @@
+{
+  "ref": "F95",
+  "id": "taharah-50",
+  "bookId": "taharah",
+  "seq": 14,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "حكم صوم من طهرت قبل الفجر ولم تغتسل إلا بعده",
+    "en": "The Fast of a Woman Who Becomes Pure Before Dawn but Bathes Only After It",
+    "ru": "Пост женщины, ставшей чистой до рассвета, но совершившей омовение лишь после него",
+    "es": "El ayuno de la mujer que se purifica antes del alba pero se baña solo después",
+    "uk": "Піст жінки, що стала чистою до світанку, але обмилася лише після нього"
+  },
+  "summary": {
+    "ar": "إذا انقطع الدم قبل الفجر الصادق ولم تغتسل إلا بعده، أيصحّ صومها ذلك اليوم؟",
+    "en": "If the bleeding stopped before true dawn and she bathed only after it, is her fast that day valid?",
+    "ru": "Если кровотечение прекратилось до истинного рассвета, а омовение она совершила лишь после него, действителен ли её пост в тот день?",
+    "es": "Si la sangre cesó antes del alba verdadera y se bañó solo después, ¿es válido su ayuno ese día?",
+    "uk": "Якщо кровотеча припинилася до істинного світанку, а обмилася вона лише після нього, чи дійсний її піст того дня?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر: فإن كان الانقطاع لتمام العشرة صحّ وإن لم يتّسع الوقت للغسل، وإن كان لدون العشرة فيُشترط أن يبقى من الليل ما يسع الغسل والتحريمة.",
+        "en": "Her fast is valid if the bleeding stopped before dawn: if it stopped at the full ten days it is valid even with no time left for the bath, but if before ten, enough of the night must remain for the bath and the opening takbīr.",
+        "ru": "Её пост действителен, если кровотечение прекратилось до рассвета: если оно прекратилось по истечении полных десяти дней, пост действителен даже без времени на омовение; если же раньше десяти, должно остаться ночи на омовение и вступительный такбир.",
+        "es": "Su ayuno es válido si la sangre cesó antes del alba: si cesó al cumplirse los diez días, es válido aunque no quede tiempo para el baño; si antes de los diez, debe quedar de la noche lo suficiente para el baño y el takbīr de apertura.",
+        "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку: якщо вона припинилася після повних десяти днів, піст дійсний навіть без часу на обмивання; якщо ж раніше десяти, має лишитися ночі на обмивання і вступний такбір."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ولو أخّرت الغسل إلى ما بعده، لأن الطهارة من الحدث الأكبر شرط للصلاة لا للصوم.",
+        "en": "Her fast is valid if the bleeding stopped before dawn even if she delayed the bath until after it, since purity from major impurity is a condition of prayer, not of fasting.",
+        "ru": "Её пост действителен, если кровотечение прекратилось до рассвета, даже если омовение она отложила на потом, ибо чистота от большого осквернения — условие молитвы, а не поста.",
+        "es": "Su ayuno es válido si la sangre cesó antes del alba aunque retrasara el baño hasta después, pues la pureza de la impureza mayor es condición de la oración, no del ayuno.",
+        "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку, навіть якщо обмивання вона відклала на потім, бо чистота від великого осквернення — умова молитви, а не посту."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ونوت الصوم ولو أخّرت الغسل، لأن شرط الصوم انقطاع الدم قبل الفجر لا الاغتسال قبله.",
+        "en": "Her fast is valid if the bleeding stopped before dawn and she intended the fast, even if she delayed the bath, since the condition of the fast is that the bleeding stop before dawn, not that she bathe before it.",
+        "ru": "Её пост действителен, если кровотечение прекратилось до рассвета и она вознамерилась поститься, даже если отложила омовение, ибо условие поста — прекращение крови до рассвета, а не омовение до него.",
+        "es": "Su ayuno es válido si la sangre cesó antes del alba y tuvo la intención de ayunar, aunque retrasara el baño, pues la condición del ayuno es que cese la sangre antes del alba, no que se bañe antes.",
+        "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку і вона мала намір постити, навіть якщо відклала обмивання, бо умова посту — припинення крові до світанку, а не обмивання до нього."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ونوت الصوم وإن لم تغتسل إلا بعده، وحكمها حكم الجنب يصبح صائماً ثم يغتسل.",
+        "en": "Her fast is valid if the bleeding stopped before dawn and she intended the fast, even if she bathed only after it; her case is that of one in major impurity who begins the day fasting and bathes afterwards.",
+        "ru": "Её пост действителен, если кровотечение прекратилось до рассвета и она вознамерилась поститься, даже если омылась лишь после; её положение — как положение человека в большом осквернении, который встречает день постящимся, а затем омывается.",
+        "es": "Su ayuno es válido si la sangre cesó antes del alba y tuvo la intención de ayunar, aunque se bañara solo después; su caso es el de quien está en impureza mayor, amanece ayunando y luego se baña.",
+        "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку і вона мала намір постити, навіть якщо обмилася лише після; її становище — як у того, хто в великому оскверненні зустрічає день постячи, а потім обмивається."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

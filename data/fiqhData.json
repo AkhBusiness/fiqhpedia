@@ -12525,6 +12525,812 @@
       }
     },
     {
+      "id": "taharah-46",
+      "ref": "F91",
+      "bookId": "taharah",
+      "number": 46,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "أقلّ الحيض وأكثره وأقلّ الطهر بينهما",
+        "en": "The Shortest and Longest Menstruation, and the Shortest Purity Between Two",
+        "ru": "Наименьший и наибольший срок менструации и наименьшая чистота между двумя",
+        "es": "La menstruación más corta y la más larga, y la pureza mínima entre dos",
+        "uk": "Найменший і найбільший строк менструації та найменша чистота між двома"
+      },
+      "summary": {
+        "ar": "ما أقلّ مدّة الحيض وأكثرها، وما أقلّ الطهر الفاصل بين حيضتين؟",
+        "en": "What is the shortest and the longest span of menstruation, and the shortest purity that separates two menstruations?",
+        "ru": "Каков наименьший и наибольший срок менструации и наименьшая чистота, разделяющая две менструации?",
+        "es": "¿Cuál es el plazo más corto y el más largo de la menstruación, y la pureza mínima que separa dos menstruaciones?",
+        "uk": "Який найменший і найбільший строк менструації та найменша чистота, що розділяє дві менструації?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "أقلّ الحيض ثلاثة أيام بلياليها، وأكثره عشرة أيام بلياليها، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً، ولا حدّ لأكثره.",
+            "en": "The shortest menstruation is three days with their nights, the longest ten days with their nights; the shortest purity between two menstruations is fifteen days, and there is no limit to its longest.",
+            "ru": "Наименьшая менструация — трое суток, наибольшая — десять суток; наименьшая чистота между двумя менструациями — пятнадцать дней, а наибольшая не ограничена.",
+            "es": "La menstruación más corta es de tres días con sus noches, la más larga de diez días con sus noches; la pureza mínima entre dos menstruaciones es de quince días, y no hay límite para la máxima.",
+            "uk": "Найменша менструація — три доби, найбільша — десять діб; найменша чистота між двома менструаціями — п'ятнадцять днів, а найбільша не обмежена."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا حدّ لأقلّ الحيض فتكفي الدفقة، وأكثره خمسة عشر يوماً، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً.",
+            "en": "There is no lower limit to menstruation — a single flow suffices; its longest is fifteen days, and the shortest purity between two menstruations is fifteen days.",
+            "ru": "Нижнего предела у менструации нет — достаточно одного истечения; наибольшая — пятнадцать дней, а наименьшая чистота между двумя менструациями — пятнадцать дней.",
+            "es": "No hay límite inferior para la menstruación: basta un solo flujo; la más larga es de quince días, y la pureza mínima entre dos menstruaciones es de quince días.",
+            "uk": "Нижньої межі менструації немає — достатньо одного витікання; найбільша — п'ятнадцять днів, а найменша чистота між двома менструаціями — п'ятнадцять днів."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "أقلّ الحيض يوم وليلة، وأكثره خمسة عشر يوماً بلياليها، وأقلّ الطهر بين الحيضتين خمسة عشر يوماً بلياليها.",
+            "en": "The shortest menstruation is a day and a night, the longest fifteen days with their nights; and the shortest purity between two menstruations is fifteen days with their nights.",
+            "ru": "Наименьшая менструация — сутки, наибольшая — пятнадцать суток; а наименьшая чистота между двумя менструациями — пятнадцать суток.",
+            "es": "La menstruación más corta es de un día y una noche, la más larga de quince días con sus noches; y la pureza mínima entre dos menstruaciones es de quince días con sus noches.",
+            "uk": "Найменша менструація — доба, найбільша — п'ятнадцять діб; а найменша чистота між двома менструаціями — п'ятнадцять діб."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "أقلّ الحيض يوم وليلة، وأكثره خمسة عشر يوماً، وأقلّ الطهر بين الحيضتين ثلاثة عشر يوماً.",
+            "en": "The shortest menstruation is a day and a night, the longest fifteen days; and the shortest purity between two menstruations is thirteen days.",
+            "ru": "Наименьшая менструация — сутки, наибольшая — пятнадцать дней; а наименьшая чистота между двумя менструациями — тринадцать дней.",
+            "es": "La menstruación más corta es de un día y una noche, la más larga de quince días; y la pureza mínima entre dos menstruaciones es de trece días.",
+            "uk": "Найменша менструація — доба, найбільша — п'ятнадцять днів; а найменша чистота між двома менструаціями — тринадцять днів."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-47",
+      "ref": "F92",
+      "bookId": "taharah",
+      "number": 47,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "حكم من طهرت وقد بقي من الوقت ما يسع ركعة",
+        "en": "A Woman Who Becomes Pure with Time Left for One Unit of Prayer",
+        "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат",
+        "es": "La mujer que se purifica cuando queda tiempo para un solo rakʿah",
+        "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат"
+      },
+      "summary": {
+        "ar": "إذا طهرت الحائض أو النفساء وقد بقي من وقت الصلاة ما يسع ركعة فأكثر، أتلزمها تلك الصلاة أداءً؟",
+        "en": "If a woman becomes pure from menstruation or post-natal bleeding with enough of the prayer's time left for one unit or more, must she perform that prayer as its due?",
+        "ru": "Если женщина стала чистой после менструации или послеродового кровотечения, когда до конца времени молитвы осталось на один ракаат или более, обязана ли она совершить эту молитву как своевременную?",
+        "es": "Si la mujer se purifica de la menstruación o los loquios cuando queda del tiempo de la oración lo suficiente para un rakʿah o más, ¿está obligada a realizar esa oración en su tiempo?",
+        "uk": "Якщо жінка стала чистою після менструації чи післяпологової кровотечі, коли до кінця часу молитви лишилося на один ракаат або більше, чи зобов'язана вона здійснити цю молитву як своєчасну?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "من طهرت وقد بقي من الوقت قدر التحريمة لزمتها الصلاة، لأن إدراك جزء من الوقت كإدراكه كلّه.",
+            "en": "A woman who becomes pure with as much time left as suffices for the opening takbīr must perform that prayer, since catching part of the time is as catching all of it.",
+            "ru": "Женщина, ставшая чистой, когда времени осталось хотя бы на вступительный такбир, обязана совершить эту молитву, ибо застать часть времени — всё равно что застать его целиком.",
+            "es": "La mujer que se purifica cuando queda tiempo para el takbīr de apertura debe realizar esa oración, pues alcanzar parte del tiempo es como alcanzarlo entero.",
+            "uk": "Жінка, що стала чистою, коли часу лишилося хоча б на вступний такбір, зобов'язана здійснити цю молитву, бо застати частину часу — те саме, що застати його цілком."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تلزمها الصلاة إذا بقي من وقتها ما يسع ركعة تامّة بعد طهارتها.",
+            "en": "The prayer is due of her if, after her purification, enough of its time remains for one complete unit.",
+            "ru": "Молитва обязательна для неё, если после очищения осталось времени на один полный ракаат.",
+            "es": "La oración le es obligatoria si, tras purificarse, queda de su tiempo lo suficiente para un rakʿah completo.",
+            "uk": "Молитва обов'язкова для неї, якщо після очищення лишилося часу на один повний ракаат."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "من طهرت وقد بقي من الوقت ما يسع ركعة لزمتها تلك الصلاة أداءً.",
+            "en": "A woman who becomes pure with enough of the time left for one unit must perform that prayer as its due.",
+            "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат, обязана совершить эту молитву как своевременную.",
+            "es": "La mujer que se purifica cuando queda tiempo para un rakʿah debe realizar esa oración en su tiempo.",
+            "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат, зобов'язана здійснити цю молитву як своєчасну."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "من طهرت قبل خروج الوقت بقدر ركعة لزمتها الصلاة أداءً.",
+            "en": "A woman who becomes pure before the time ends, with as much left as one unit, must perform the prayer as its due.",
+            "ru": "Женщина, ставшая чистой до истечения времени, когда его осталось на один ракаат, обязана совершить молитву как своевременную.",
+            "es": "La mujer que se purifica antes de que salga el tiempo, quedando lo de un rakʿah, debe realizar la oración en su tiempo.",
+            "uk": "Жінка, що стала чистою до закінчення часу, коли його лишилося на один ракаат, зобов'язана здійснити молитву як своєчасну."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-48",
+      "ref": "F93",
+      "bookId": "taharah",
+      "number": 48,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "حكم قضاء الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+        "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
+        "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
+        "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
+        "uk": "Чи мусить жінка, що стала чистою наприкінці часу, здійснити й попередню з двох поєднуваних молитов"
+      },
+      "summary": {
+        "ar": "إذا طهرت في وقت العصر أو العشاء، أتلزمها صلاة الوقت وحدها، أم تلزمها معها الظهر أو المغرب؟",
+        "en": "If she becomes pure during the time of ʿaṣr or ʿishāʾ, is only that prayer due of her, or is ẓuhr or maghrib due together with it?",
+        "ru": "Если она стала чистой во время асра или иша, обязана ли она только этой молитвой, или вместе с ней и зухром или магрибом?",
+        "es": "Si se purifica durante el tiempo de ʿaṣr o ʿishāʾ, ¿le es obligatoria solo esa oración, o también el ẓuhr o el maghrib junto con ella?",
+        "uk": "Якщо вона стала чистою під час асру чи іша, чи зобов'язана вона лише цією молитвою, чи разом із нею й зугром або маґрібом?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "لا تلزمها إلا الصلاة التي طهرت في وقتها، فلا تقضي الظهر مع العصر ولا المغرب مع العشاء، لأن وقت الأولى خرج وهي حائض غير مخاطَبة بها.",
+            "en": "Only the prayer in whose time she became pure is due of her; she does not pray ẓuhr with ʿaṣr nor maghrib with ʿishāʾ, since the earlier prayer's time ended while she was still menstruating and not addressed by it.",
+            "ru": "Она обязана только той молитвой, во время которой стала чистой; она не совершает зухр вместе с асром и магриб вместе с иша, поскольку время первой истекло, когда она ещё была в менструации и не была ею обязана.",
+            "es": "Solo le es obligatoria la oración en cuyo tiempo se purificó; no reza el ẓuhr con el ʿaṣr ni el maghrib con el ʿishāʾ, pues el tiempo de la primera salió estando ella aún menstruante y no obligada.",
+            "uk": "Вона зобов'язана лише тією молитвою, під час якої стала чистою; вона не здійснює зугр разом з асром і маґріб разом з іша, оскільки час першої минув, коли вона ще була в менструації й не була нею зобов'язана."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تقضي الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقت الثانية وقتٌ لهما معاً عند العذر.",
+            "en": "She prays ẓuhr with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse the time of the second belongs to both.",
+            "ru": "Она совершает зухр вместе с асром, если стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине время второй принадлежит обеим.",
+            "es": "Reza el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa el tiempo de la segunda es tiempo de ambas.",
+            "uk": "Вона здійснює зугр разом з асром, якщо стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини час другої належить обом."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تلزمها الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقت الثانية وقتٌ للأولى عند العذر كما في الجمع.",
+            "en": "Ẓuhr is due with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse the time of the second serves the first, as in joining prayers.",
+            "ru": "Зухр обязателен вместе с асром, если она стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине время второй служит и первой, как при соединении молитв.",
+            "es": "Le es obligatorio el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa el tiempo de la segunda sirve a la primera, como al juntar oraciones.",
+            "uk": "Зугр обов'язковий разом з асром, якщо вона стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини час другої служить і першій, як при поєднанні молитов."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تلزمها الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقتهما يصير وقتاً واحداً في حال العذر.",
+            "en": "Ẓuhr is due with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse their two times become one.",
+            "ru": "Зухр обязателен вместе с асром, если она стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине их два времени становятся одним.",
+            "es": "Le es obligatorio el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa sus dos tiempos se hacen uno.",
+            "uk": "Зугр обов'язковий разом з асром, якщо вона стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини їхні два часи стають одним."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-49",
+      "ref": "F94",
+      "bookId": "taharah",
+      "number": 49,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "حكم الصلاة التي طرأ الحيض بعد دخول وقتها وقبل أدائها",
+        "en": "A Prayer Whose Time Had Begun When Menstruation Set In Before It Was Performed",
+        "ru": "Молитва, время которой уже наступило, когда началась менструация до её совершения",
+        "es": "La oración cuyo tiempo había entrado cuando sobrevino la menstruación antes de realizarla",
+        "uk": "Молитва, час якої вже настав, коли почалася менструація до її здійснення"
+      },
+      "summary": {
+        "ar": "إذا دخل الوقت وهي طاهرة ثم حاضت قبل أن تصلّي، أتقضي تلك الصلاة بعد طهرها؟",
+        "en": "If the time began while she was pure and then menstruation set in before she prayed, must she make up that prayer after becoming pure?",
+        "ru": "Если время наступило, когда она была чиста, а затем до молитвы началась менструация, должна ли она восполнить эту молитву после очищения?",
+        "es": "Si el tiempo entró estando ella pura y luego sobrevino la menstruación antes de rezar, ¿debe recuperar esa oración tras purificarse?",
+        "uk": "Якщо час настав, коли вона була чиста, а потім до молитви почалася менструація, чи мусить вона відшкодувати цю молитву після очищення?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا تقضيها، لأن الوجوب إنما يستقرّ في آخر الوقت، فإذا حاضت في أثنائه سقط عنها.",
+            "en": "She does not make it up, since the obligation only settles at the end of the time; if she menstruated within it, it fell from her.",
+            "ru": "Она её не восполняет, ибо обязанность утверждается лишь в конце времени; если менструация началась в его течение, обязанность с неё снята.",
+            "es": "No la recupera, pues la obligación solo se asienta al final del tiempo; si menstruó en su transcurso, cayó de ella.",
+            "uk": "Вона її не відшкодовує, бо обов'язок утверджується лише наприкінці часу; якщо менструація почалася в його перебігу, обов'язок із неї знято."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا تقضيها إذا حاضت في الوقت الموسَّع، إلا أن تكون أخّرتها حتى ضاق الوقت عن أدائها بطهارتها، فتقضيها.",
+            "en": "She does not make it up if she menstruated within the extended time — unless she had delayed it until the time no longer sufficed to perform it with her purification, in which case she makes it up.",
+            "ru": "Она её не восполняет, если менструация началась в расширенном времени, — кроме случая, когда она откладывала молитву, пока времени не перестало хватать на её совершение с очищением; тогда восполняет.",
+            "es": "No la recupera si menstruó dentro del tiempo amplio, salvo que la hubiera retrasado hasta que el tiempo ya no bastara para realizarla con su purificación; entonces la recupera.",
+            "uk": "Вона її не відшкодовує, якщо менструація почалася в розширеному часі, — крім випадку, коли вона відкладала молитву, доки часу перестало вистачати на її здійснення з очищенням; тоді відшкодовує."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تقضيها إذا كان قد مضى من الوقت ما يسع الصلاة وطهارتها وتمكّنت من أدائها فلم تفعل.",
+            "en": "She makes it up if enough of the time had passed to accommodate the prayer and her purification, and she was able to perform it but did not.",
+            "ru": "Она её восполняет, если прошло времени достаточно для молитвы и очищения, и она могла её совершить, но не совершила.",
+            "es": "La recupera si había transcurrido del tiempo lo suficiente para la oración y su purificación, y pudo realizarla pero no lo hizo.",
+            "uk": "Вона її відшкодовує, якщо минуло часу достатньо для молитви й очищення, і вона могла її здійснити, але не здійснила."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تقضيها إذا مضى من الوقت قدر ركعة قبل أن تحيض، لأن من أدرك ركعة من الوقت استقرّ عليه وجوب الصلاة.",
+            "en": "She makes it up if as much as one unit's worth of the time had passed before she menstruated, since whoever catches one unit of the time has the prayer settled upon them.",
+            "ru": "Она её восполняет, если до менструации прошло времени на один ракаат, ибо на том, кто застал ракаат времени, обязанность молитвы утвердилась.",
+            "es": "La recupera si había transcurrido lo de un rakʿah del tiempo antes de menstruar, pues a quien alcanza un rakʿah del tiempo se le asienta la obligación de la oración.",
+            "uk": "Вона її відшкодовує, якщо до менструації минуло часу на один ракаат, бо на тому, хто застав ракаат часу, обов'язок молитви утвердився."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
+      "id": "taharah-50",
+      "ref": "F95",
+      "bookId": "taharah",
+      "number": 50,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "حكم صوم من طهرت قبل الفجر ولم تغتسل إلا بعده",
+        "en": "The Fast of a Woman Who Becomes Pure Before Dawn but Bathes Only After It",
+        "ru": "Пост женщины, ставшей чистой до рассвета, но совершившей омовение лишь после него",
+        "es": "El ayuno de la mujer que se purifica antes del alba pero se baña solo después",
+        "uk": "Піст жінки, що стала чистою до світанку, але обмилася лише після нього"
+      },
+      "summary": {
+        "ar": "إذا انقطع الدم قبل الفجر الصادق ولم تغتسل إلا بعده، أيصحّ صومها ذلك اليوم؟",
+        "en": "If the bleeding stopped before true dawn and she bathed only after it, is her fast that day valid?",
+        "ru": "Если кровотечение прекратилось до истинного рассвета, а омовение она совершила лишь после него, действителен ли её пост в тот день?",
+        "es": "Si la sangre cesó antes del alba verdadera y se bañó solo después, ¿es válido su ayuno ese día?",
+        "uk": "Якщо кровотеча припинилася до істинного світанку, а обмилася вона лише після нього, чи дійсний її піст того дня?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر: فإن كان الانقطاع لتمام العشرة صحّ وإن لم يتّسع الوقت للغسل، وإن كان لدون العشرة فيُشترط أن يبقى من الليل ما يسع الغسل والتحريمة.",
+            "en": "Her fast is valid if the bleeding stopped before dawn: if it stopped at the full ten days it is valid even with no time left for the bath, but if before ten, enough of the night must remain for the bath and the opening takbīr.",
+            "ru": "Её пост действителен, если кровотечение прекратилось до рассвета: если оно прекратилось по истечении полных десяти дней, пост действителен даже без времени на омовение; если же раньше десяти, должно остаться ночи на омовение и вступительный такбир.",
+            "es": "Su ayuno es válido si la sangre cesó antes del alba: si cesó al cumplirse los diez días, es válido aunque no quede tiempo para el baño; si antes de los diez, debe quedar de la noche lo suficiente para el baño y el takbīr de apertura.",
+            "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку: якщо вона припинилася після повних десяти днів, піст дійсний навіть без часу на обмивання; якщо ж раніше десяти, має лишитися ночі на обмивання і вступний такбір."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ولو أخّرت الغسل إلى ما بعده، لأن الطهارة من الحدث الأكبر شرط للصلاة لا للصوم.",
+            "en": "Her fast is valid if the bleeding stopped before dawn even if she delayed the bath until after it, since purity from major impurity is a condition of prayer, not of fasting.",
+            "ru": "Её пост действителен, если кровотечение прекратилось до рассвета, даже если омовение она отложила на потом, ибо чистота от большого осквернения — условие молитвы, а не поста.",
+            "es": "Su ayuno es válido si la sangre cesó antes del alba aunque retrasara el baño hasta después, pues la pureza de la impureza mayor es condición de la oración, no del ayuno.",
+            "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку, навіть якщо обмивання вона відклала на потім, бо чистота від великого осквернення — умова молитви, а не посту."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ونوت الصوم ولو أخّرت الغسل، لأن شرط الصوم انقطاع الدم قبل الفجر لا الاغتسال قبله.",
+            "en": "Her fast is valid if the bleeding stopped before dawn and she intended the fast, even if she delayed the bath, since the condition of the fast is that the bleeding stop before dawn, not that she bathe before it.",
+            "ru": "Её пост действителен, если кровотечение прекратилось до рассвета и она вознамерилась поститься, даже если отложила омовение, ибо условие поста — прекращение крови до рассвета, а не омовение до него.",
+            "es": "Su ayuno es válido si la sangre cesó antes del alba y tuvo la intención de ayunar, aunque retrasara el baño, pues la condición del ayuno es que cese la sangre antes del alba, no que se bañe antes.",
+            "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку і вона мала намір постити, навіть якщо відклала обмивання, бо умова посту — припинення крові до світанку, а не обмивання до нього."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ صومها إذا انقطع الدم قبل الفجر ونوت الصوم وإن لم تغتسل إلا بعده، وحكمها حكم الجنب يصبح صائماً ثم يغتسل.",
+            "en": "Her fast is valid if the bleeding stopped before dawn and she intended the fast, even if she bathed only after it; her case is that of one in major impurity who begins the day fasting and bathes afterwards.",
+            "ru": "Её пост действителен, если кровотечение прекратилось до рассвета и она вознамерилась поститься, даже если омылась лишь после; её положение — как положение человека в большом осквернении, который встречает день постящимся, а затем омывается.",
+            "es": "Su ayuno es válido si la sangre cesó antes del alba y tuvo la intención de ayunar, aunque se bañara solo después; su caso es el de quien está en impureza mayor, amanece ayunando y luego se baña.",
+            "uk": "Її піст дійсний, якщо кровотеча припинилася до світанку і вона мала намір постити, навіть якщо обмилася лише після; її становище — як у того, хто в великому оскверненні зустрічає день постячи, а потім обмивається."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-10"
+    },
+    {
       "id": "salah-5",
       "ref": "F16",
       "bookId": "salah",

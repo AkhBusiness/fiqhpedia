@@ -1,0 +1,161 @@
+{
+  "ref": "F92",
+  "id": "taharah-47",
+  "bookId": "taharah",
+  "seq": 11,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "حكم من طهرت وقد بقي من الوقت ما يسع ركعة",
+    "en": "A Woman Who Becomes Pure with Time Left for One Unit of Prayer",
+    "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат",
+    "es": "La mujer que se purifica cuando queda tiempo para un solo rakʿah",
+    "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат"
+  },
+  "summary": {
+    "ar": "إذا طهرت الحائض أو النفساء وقد بقي من وقت الصلاة ما يسع ركعة فأكثر، أتلزمها تلك الصلاة أداءً؟",
+    "en": "If a woman becomes pure from menstruation or post-natal bleeding with enough of the prayer's time left for one unit or more, must she perform that prayer as its due?",
+    "ru": "Если женщина стала чистой после менструации или послеродового кровотечения, когда до конца времени молитвы осталось на один ракаат или более, обязана ли она совершить эту молитву как своевременную?",
+    "es": "Si la mujer se purifica de la menstruación o los loquios cuando queda del tiempo de la oración lo suficiente para un rakʿah o más, ¿está obligada a realizar esa oración en su tiempo?",
+    "uk": "Якщо жінка стала чистою після менструації чи післяпологової кровотечі, коли до кінця часу молитви лишилося на один ракаат або більше, чи зобов'язана вона здійснити цю молитву як своєчасну?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "من طهرت وقد بقي من الوقت قدر التحريمة لزمتها الصلاة، لأن إدراك جزء من الوقت كإدراكه كلّه.",
+        "en": "A woman who becomes pure with as much time left as suffices for the opening takbīr must perform that prayer, since catching part of the time is as catching all of it.",
+        "ru": "Женщина, ставшая чистой, когда времени осталось хотя бы на вступительный такбир, обязана совершить эту молитву, ибо застать часть времени — всё равно что застать его целиком.",
+        "es": "La mujer que se purifica cuando queda tiempo para el takbīr de apertura debe realizar esa oración, pues alcanzar parte del tiempo es como alcanzarlo entero.",
+        "uk": "Жінка, що стала чистою, коли часу лишилося хоча б на вступний такбір, зобов'язана здійснити цю молитву, бо застати частину часу — те саме, що застати його цілком."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تلزمها الصلاة إذا بقي من وقتها ما يسع ركعة تامّة بعد طهارتها.",
+        "en": "The prayer is due of her if, after her purification, enough of its time remains for one complete unit.",
+        "ru": "Молитва обязательна для неё, если после очищения осталось времени на один полный ракаат.",
+        "es": "La oración le es obligatoria si, tras purificarse, queda de su tiempo lo suficiente para un rakʿah completo.",
+        "uk": "Молитва обов'язкова для неї, якщо після очищення лишилося часу на один повний ракаат."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "من طهرت وقد بقي من الوقت ما يسع ركعة لزمتها تلك الصلاة أداءً.",
+        "en": "A woman who becomes pure with enough of the time left for one unit must perform that prayer as its due.",
+        "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат, обязана совершить эту молитву как своевременную.",
+        "es": "La mujer que se purifica cuando queda tiempo para un rakʿah debe realizar esa oración en su tiempo.",
+        "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат, зобов'язана здійснити цю молитву як своєчасну."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "من طهرت قبل خروج الوقت بقدر ركعة لزمتها الصلاة أداءً.",
+        "en": "A woman who becomes pure before the time ends, with as much left as one unit, must perform the prayer as its due.",
+        "ru": "Женщина, ставшая чистой до истечения времени, когда его осталось на один ракаат, обязана совершить молитву как своевременную.",
+        "es": "La mujer que se purifica antes de que salga el tiempo, quedando lo de un rakʿah, debe realizar la oración en su tiempo.",
+        "uk": "Жінка, що стала чистою до закінчення часу, коли його лишилося на один ракаат, зобов'язана здійснити молитву як своєчасну."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

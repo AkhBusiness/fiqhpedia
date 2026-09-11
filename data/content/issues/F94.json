@@ -1,0 +1,161 @@
+{
+  "ref": "F94",
+  "id": "taharah-49",
+  "bookId": "taharah",
+  "seq": 13,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "حكم الصلاة التي طرأ الحيض بعد دخول وقتها وقبل أدائها",
+    "en": "A Prayer Whose Time Had Begun When Menstruation Set In Before It Was Performed",
+    "ru": "Молитва, время которой уже наступило, когда началась менструация до её совершения",
+    "es": "La oración cuyo tiempo había entrado cuando sobrevino la menstruación antes de realizarla",
+    "uk": "Молитва, час якої вже настав, коли почалася менструація до її здійснення"
+  },
+  "summary": {
+    "ar": "إذا دخل الوقت وهي طاهرة ثم حاضت قبل أن تصلّي، أتقضي تلك الصلاة بعد طهرها؟",
+    "en": "If the time began while she was pure and then menstruation set in before she prayed, must she make up that prayer after becoming pure?",
+    "ru": "Если время наступило, когда она была чиста, а затем до молитвы началась менструация, должна ли она восполнить эту молитву после очищения?",
+    "es": "Si el tiempo entró estando ella pura y luego sobrevino la menstruación antes de rezar, ¿debe recuperar esa oración tras purificarse?",
+    "uk": "Якщо час настав, коли вона була чиста, а потім до молитви почалася менструація, чи мусить вона відшкодувати цю молитву після очищення?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "لا تقضيها، لأن الوجوب إنما يستقرّ في آخر الوقت، فإذا حاضت في أثنائه سقط عنها.",
+        "en": "She does not make it up, since the obligation only settles at the end of the time; if she menstruated within it, it fell from her.",
+        "ru": "Она её не восполняет, ибо обязанность утверждается лишь в конце времени; если менструация началась в его течение, обязанность с неё снята.",
+        "es": "No la recupera, pues la obligación solo se asienta al final del tiempo; si menstruó en su transcurso, cayó de ella.",
+        "uk": "Вона її не відшкодовує, бо обов'язок утверджується лише наприкінці часу; якщо менструація почалася в його перебігу, обов'язок із неї знято."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mubah",
+      "text": {
+        "ar": "لا تقضيها إذا حاضت في الوقت الموسَّع، إلا أن تكون أخّرتها حتى ضاق الوقت عن أدائها بطهارتها، فتقضيها.",
+        "en": "She does not make it up if she menstruated within the extended time — unless she had delayed it until the time no longer sufficed to perform it with her purification, in which case she makes it up.",
+        "ru": "Она её не восполняет, если менструация началась в расширенном времени, — кроме случая, когда она откладывала молитву, пока времени не перестало хватать на её совершение с очищением; тогда восполняет.",
+        "es": "No la recupera si menstruó dentro del tiempo amplio, salvo que la hubiera retrasado hasta que el tiempo ya no bastara para realizarla con su purificación; entonces la recupera.",
+        "uk": "Вона її не відшкодовує, якщо менструація почалася в розширеному часі, — крім випадку, коли вона відкладала молитву, доки часу перестало вистачати на її здійснення з очищенням; тоді відшкодовує."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تقضيها إذا كان قد مضى من الوقت ما يسع الصلاة وطهارتها وتمكّنت من أدائها فلم تفعل.",
+        "en": "She makes it up if enough of the time had passed to accommodate the prayer and her purification, and she was able to perform it but did not.",
+        "ru": "Она её восполняет, если прошло времени достаточно для молитвы и очищения, и она могла её совершить, но не совершила.",
+        "es": "La recupera si había transcurrido del tiempo lo suficiente para la oración y su purificación, y pudo realizarla pero no lo hizo.",
+        "uk": "Вона її відшкодовує, якщо минуло часу достатньо для молитви й очищення, і вона могла її здійснити, але не здійснила."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تقضيها إذا مضى من الوقت قدر ركعة قبل أن تحيض، لأن من أدرك ركعة من الوقت استقرّ عليه وجوب الصلاة.",
+        "en": "She makes it up if as much as one unit's worth of the time had passed before she menstruated, since whoever catches one unit of the time has the prayer settled upon them.",
+        "ru": "Она её восполняет, если до менструации прошло времени на один ракаат, ибо на том, кто застал ракаат времени, обязанность молитвы утвердилась.",
+        "es": "La recupera si había transcurrido lo de un rakʿah del tiempo antes de menstruar, pues a quien alcanza un rakʿah del tiempo se le asienta la obligación de la oración.",
+        "uk": "Вона її відшкодовує, якщо до менструації минуло часу на один ракаат, бо на тому, хто застав ракаат часу, обов'язок молитви утвердився."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
