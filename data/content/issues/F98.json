@@ -1,0 +1,161 @@
+{
+  "ref": "F98",
+  "id": "taharah-53",
+  "bookId": "taharah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب نواقض الوضوء",
+    "en": "Chapter of Ablution Nullifiers",
+    "ru": "Раздел о нарушителях омовения",
+    "es": "Capítulo de los anuladores de la ablución",
+    "uk": "Розділ про порушники омивання"
+  },
+  "title": {
+    "ar": "حكم من شكّ في الحدث بعد يقين الطهارة أو عكسه",
+    "en": "Doubting Impurity After Certainty of Purity, or the Reverse",
+    "ru": "Сомнение в осквернении после уверенности в чистоте, или наоборот",
+    "es": "Dudar de la impureza tras tener certeza de la pureza, o a la inversa",
+    "uk": "Сумнів в оскверненні після впевненості в чистоті, або навпаки"
+  },
+  "summary": {
+    "ar": "من تيقّن الطهارة ثم شكّ هل أحدث، أو تيقّن الحدث ثم شكّ هل تطهّر — على أيّهما يبني؟",
+    "en": "One who was certain of purity and then doubted whether he broke it, or was certain of impurity and then doubted whether he had purified — which does he act upon?",
+    "ru": "Тот, кто был уверен в чистоте, а затем усомнился, не нарушил ли её, или был уверен в осквернении, а затем усомнился, не очистился ли, — на что он опирается?",
+    "es": "Quien tenía certeza de la pureza y luego dudó si la rompió, o tenía certeza de la impureza y luego dudó si se purificó: ¿sobre cuál se basa?",
+    "uk": "Той, хто був упевнений у чистоті, а потім засумнівався, чи не порушив її, або був упевнений в оскверненні, а потім засумнівався, чи не очистився, — на що він спирається?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبني على ما تيقّنه: فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث، لأن اليقين لا يزول بالشكّ.",
+        "en": "He acts upon what he was certain of: one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure, since certainty is not removed by doubt.",
+        "ru": "Он опирается на то, в чём был уверен: уверенный в чистоте и сомневающийся в осквернении — чист, уверенный в осквернении и сомневающийся в чистоте — осквернён, ибо уверенность не устраняется сомнением.",
+        "es": "Se basa en aquello de lo que tenía certeza: quien tiene certeza de la pureza y duda de la impureza está puro, y quien tiene certeza de la impureza y duda de la pureza está impuro, pues la certeza no se elimina con la duda.",
+        "uk": "Він спирається на те, в чому був упевнений: упевнений у чистоті й той, хто сумнівається в оскверненні, — чистий, упевнений в оскверненні й той, хто сумнівається в чистоті, — осквернений, бо впевненість не усувається сумнівом."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "من تيقّن الطهارة وشكّ في الحدث خارج الصلاة وجب عليه الوضوء، وإن كان الشكّ في أثناء الصلاة مضى فيها وبنى على الطهارة. ومن تيقّن الحدث وشكّ في الطهارة وجب عليه الوضوء.",
+        "en": "One certain of purity who doubts impurity outside the prayer must perform ablution; if the doubt arises during the prayer, he continues and acts upon purity. One certain of impurity who doubts purity must perform ablution.",
+        "ru": "Уверенный в чистоте и сомневающийся в осквернении вне молитвы обязан совершить омовение; если сомнение возникло во время молитвы, он продолжает её, опираясь на чистоту. Уверенный в осквернении и сомневающийся в чистоте обязан совершить омовение.",
+        "es": "Quien tiene certeza de la pureza y duda de la impureza fuera de la oración debe hacer la ablución; si la duda surge durante la oración, la continúa y se basa en la pureza. Quien tiene certeza de la impureza y duda de la pureza debe hacer la ablución.",
+        "uk": "Упевнений у чистоті й той, хто сумнівається в оскверненні поза молитвою, зобов'язаний здійснити омивання; якщо сумнів виник під час молитви, він продовжує її, спираючись на чистоту. Упевнений в оскверненні й той, хто сумнівається в чистоті, зобов'язаний здійснити омивання."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبني على اليقين ولا يلتفت إلى الشكّ، لقوله ﷺ: «لا ينصرف حتى يسمع صوتاً أو يجد ريحاً»؛ فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث.",
+        "en": "He acts upon certainty and pays no heed to doubt, on the strength of his saying ﷺ: “Let him not leave until he hears a sound or smells an odour”; one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure.",
+        "ru": "Он опирается на уверенность и не обращает внимания на сомнение, согласно его словам ﷺ: «Пусть не уходит, пока не услышит звук или не почувствует запах»; уверенный в чистоте и сомневающийся в осквернении — чист, уверенный в осквернении и сомневающийся в чистоте — осквернён.",
+        "es": "Se basa en la certeza y no atiende a la duda, por su dicho ﷺ: «Que no se retire hasta oír un sonido o percibir un olor»; quien tiene certeza de la pureza y duda de la impureza está puro, y quien tiene certeza de la impureza y duda de la pureza está impuro.",
+        "uk": "Він спирається на впевненість і не зважає на сумнів, згідно з його словами ﷺ: «Хай не йде, доки не почує звук або не відчує запах»; упевнений у чистоті й той, хто сумнівається в оскверненні, — чистий, упевнений в оскверненні й той, хто сумнівається в чистоті, — осквернений."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبني على اليقين ويطرح الشكّ: فمن تيقّن الطهارة وشكّ في الحدث عمل بالطهارة وصحّت صلاته، ومن تيقّن الحدث وشكّ في الطهارة عمل بالحدث ووجب عليه الوضوء.",
+        "en": "He acts upon certainty and sets doubt aside: one certain of purity who doubts impurity acts upon purity and his prayer is valid, and one certain of impurity who doubts purity acts upon impurity and must perform ablution.",
+        "ru": "Он опирается на уверенность и отбрасывает сомнение: уверенный в чистоте и сомневающийся в осквернении действует по чистоте, и его молитва действительна; уверенный в осквернении и сомневающийся в чистоте действует по осквернению и обязан совершить омовение.",
+        "es": "Se basa en la certeza y deja de lado la duda: quien tiene certeza de la pureza y duda de la impureza actúa según la pureza y su oración es válida, y quien tiene certeza de la impureza y duda de la pureza actúa según la impureza y debe hacer la ablución.",
+        "uk": "Він спирається на впевненість і відкидає сумнів: упевнений у чистоті й той, хто сумнівається в оскверненні, діє за чистотою, і його молитва дійсна; упевнений в оскверненні й той, хто сумнівається в чистоті, діє за осквернення й зобов'язаний здійснити омивання."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

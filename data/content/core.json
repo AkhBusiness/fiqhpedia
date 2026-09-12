@@ -4603,6 +4603,671 @@
           "uk": "«Ізхар аль-Хакк»"
         }
       ]
+    },
+    {
+      "id": "tahur",
+      "term": {
+        "ar": "الطَّهُور",
+        "en": "Ṭahūr",
+        "ru": "Тахур",
+        "es": "Ṭahūr",
+        "uk": "Тагур"
+      },
+      "briefDefinition": {
+        "ar": "الماء الطاهر في نفسه المطهِّر لغيره، وهو الذي يصحّ به رفع الحدث وإزالة النجاسة.",
+        "en": "Water that is pure in itself and purifying of other things: the water with which ritual impurity may be lifted and filth removed.",
+        "ru": "Вода, чистая сама по себе и очищающая другое: та вода, которой снимается ритуальное осквернение и устраняется нечистота.",
+        "es": "El agua pura en sí misma y purificadora de otras cosas: aquella con la que se levanta la impureza ritual y se elimina la suciedad.",
+        "uk": "Вода, чиста сама по собі й очищувальна для іншого: та вода, якою знімається ритуальне осквернення й усувається нечистота."
+      },
+      "linguistic": {
+        "ar": "صيغة مبالغة من الطهارة، تدلّ على ما يتكرّر منه التطهير، كالصَّبور لمن يتكرّر منه الصبر.",
+        "en": "An intensive form from ṭahārah, denoting that from which purification repeatedly proceeds — as ṣabūr denotes one from whom patience repeatedly proceeds.",
+        "ru": "Усилительная форма от «тахара», означающая то, от чего очищение исходит многократно, — как «сабур» означает того, от кого многократно исходит терпение.",
+        "es": "Forma intensiva de ṭahāra, que designa aquello de lo que la purificación procede repetidamente, como ṣabūr designa a quien la paciencia procede repetidamente.",
+        "uk": "Підсилювальна форма від «тагара», що означає те, від чого очищення походить багаторазово, — як «сабур» означає того, від кого багаторазово походить терпіння."
+      },
+      "legal": {
+        "ar": "الماء الباقي على أصل خلقته، لم يتغيّر بما يسلبه اسم الماء المطلق، فيرفع الحدث ويزيل النجس.",
+        "en": "Water remaining in its original created state, unaltered by anything that would strip it of the name of unrestricted water; it lifts ritual impurity and removes filth.",
+        "ru": "Вода, оставшаяся в своём первоначальном сотворённом состоянии, не изменённая тем, что лишило бы её названия абсолютной воды; она снимает осквернение и устраняет нечистоту.",
+        "es": "El agua que permanece en su estado original de creación, no alterada por nada que le quite el nombre de agua absoluta; levanta la impureza ritual y elimina la suciedad.",
+        "uk": "Вода, що залишилася у своєму первісному створеному стані, не змінена тим, що позбавило б її назви абсолютної води; вона знімає осквернення й усуває нечистоту."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "الماء المطلق الذي لم يُستعمل في رفع حدث ولم يخالطه ما يغلب عليه؛ فالمستعمل طاهر غير طهور، والماء الكثير لا ينجّسه شيء ما لم يتغيّر.",
+            "en": "Unrestricted water not yet used to lift ritual impurity and not mixed with anything that overpowers it; used water is pure but not purifying, and a large body of water is not made impure by anything unless it changes.",
+            "ru": "Абсолютная вода, ещё не использованная для снятия осквернения и не смешанная с тем, что её пересиливает; использованная вода чиста, но не очищает, а большое количество воды ничем не оскверняется, пока не изменится.",
+            "es": "El agua absoluta aún no usada para levantar la impureza ritual ni mezclada con algo que la domine; el agua usada es pura pero no purificadora, y una gran cantidad de agua no se vuelve impura por nada mientras no cambie.",
+            "uk": "Абсолютна вода, ще не використана для зняття осквернення й не змішана з тим, що її пересилює; використана вода чиста, але не очищувальна, а велика кількість води нічим не оскверняється, доки не зміниться."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الماء الباقي على أوصاف خلقته، لا يخرجه عن الطهورية إلا تغيّر أحد أوصافه — لونه أو طعمه أو ريحه — بما يخالطه من طاهر أو نجس، ولا فرق في ذلك بين القليل والكثير.",
+            "en": "Water remaining in the qualities of its creation; nothing takes it out of purifying status except a change in one of its qualities — colour, taste or odour — by something pure or impure mixed into it, with no distinction between a small and a large quantity.",
+            "ru": "Вода, сохраняющая свойства своего сотворения; ничто не выводит её из состояния очищающей, кроме изменения одного из её свойств — цвета, вкуса или запаха — примесью чистого или нечистого, без различия между малым и большим количеством.",
+            "es": "El agua que conserva las cualidades de su creación; nada la saca del estado purificador salvo el cambio de una de sus cualidades — color, sabor u olor — por algo puro o impuro mezclado en ella, sin distinción entre poca y mucha cantidad.",
+            "uk": "Вода, що зберігає властивості свого створення; ніщо не виводить її зі стану очищувальної, крім зміни однієї з її властивостей — кольору, смаку чи запаху — домішкою чистого або нечистого, без різниці між малою та великою кількістю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الماء المطلق الذي يقع عليه اسم الماء بلا قيد، ما لم يُستعمل في رفع حدث أو يتغيّر تغيّراً فاحشاً بمخالط طاهر أو يبلغ دون القلّتين وقد لاقى نجاسة.",
+            "en": "Unrestricted water on which the name of water falls without qualification, so long as it has not been used to lift ritual impurity, nor changed markedly by a pure admixture, nor been of less than two qullahs and met with filth.",
+            "ru": "Абсолютная вода, к которой прилагается название воды без оговорки, пока она не использована для снятия осквернения, не изменилась заметно от чистой примеси и не была менее двух кулл при соприкосновении с нечистотой.",
+            "es": "El agua absoluta a la que corresponde el nombre de agua sin restricción, mientras no se haya usado para levantar la impureza ritual, ni cambiado notablemente por una mezcla pura, ni sea menor de dos qullas y haya tocado suciedad.",
+            "uk": "Абсолютна вода, до якої прикладається назва води без застереження, доки вона не використана для зняття осквернення, не змінилася помітно від чистої домішки й не була менша за дві кулли при дотику до нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء الباقي على خلقته حقيقةً أو حكماً، لم يتغيّر بطاهر يخالطه، ولم يُستعمل في رفع حدث أو إزالة نجس، ولم يبلغ دون القلّتين مع ملاقاة نجاسة.",
+            "en": "Water remaining in its created state in reality or in effect, not changed by a pure admixture, not used to lift ritual impurity or remove filth, and not of less than two qullahs while meeting with filth.",
+            "ru": "Вода, сохраняющая своё сотворённое состояние в действительности или по правовому положению, не изменённая чистой примесью, не использованная для снятия осквернения или устранения нечистоты и не бывшая менее двух кулл при соприкосновении с нечистотой.",
+            "es": "El agua que conserva su estado de creación en realidad o en efecto, no cambiada por una mezcla pura, no usada para levantar la impureza ritual ni eliminar suciedad, y no menor de dos qullas mientras toca suciedad.",
+            "uk": "Вода, що зберігає свій створений стан насправді або за правовим станом, не змінена чистою домішкою, не використана для зняття осквернення чи усунення нечистоти й не була менша за дві кулли при дотику до нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tahir",
+      "term": {
+        "ar": "الطَّاهِر",
+        "en": "Ṭāhir",
+        "ru": "Тахир",
+        "es": "Ṭāhir",
+        "uk": "Тагір"
+      },
+      "briefDefinition": {
+        "ar": "ما كان نظيفاً في ذاته من النجاسة، ويجوز استعماله في الأكل والشرب واللباس، لكنه لا يصلح لرفع الحدث.",
+        "en": "That which is clean in itself of filth, and may be used for food, drink and clothing, yet does not serve to lift ritual impurity.",
+        "ru": "То, что само по себе чисто от нечистоты и может использоваться для еды, питья и одежды, но не годится для снятия ритуального осквернения.",
+        "es": "Lo que es limpio en sí mismo de suciedad y puede usarse para comer, beber y vestir, pero no sirve para levantar la impureza ritual.",
+        "uk": "Те, що саме по собі чисте від нечистоти й може використовуватися для їжі, пиття та одягу, але не годиться для зняття ритуального осквернення."
+      },
+      "linguistic": {
+        "ar": "النقيّ من الدنس؛ اسم فاعل من طَهُرَ إذا نقي وسلم من الوسخ.",
+        "en": "That which is free of defilement; the active participle of ṭahura, to be clean and free of dirt.",
+        "ru": "Свободное от скверны; причастие от «тахура» — быть чистым и свободным от грязи.",
+        "es": "Lo que está libre de mancilla; participio activo de ṭahura, estar limpio y libre de suciedad.",
+        "uk": "Вільне від скверни; дієприкметник від «тагура» — бути чистим і вільним від бруду."
+      },
+      "legal": {
+        "ar": "قسيم النجس، وهو كلّ ما لم تُحكم بنجاسته شرعاً؛ وإن كان ماءً فهو الطاهر غير الطهور: يُشرب ويُطبخ به ولا يُتوضّأ به.",
+        "en": "The counterpart of the impure: everything not ruled impure by the Law; and if it is water, it is the pure-but-not-purifying — drunk and cooked with, but not used for ablution.",
+        "ru": "Противоположность нечистого: всё, что не признано нечистым по шариату; а если это вода, то она чистая, но не очищающая — её пьют и на ней готовят, но ею не совершают омовения.",
+        "es": "La contraparte de lo impuro: todo lo que la Ley no ha declarado impuro; y si es agua, es la pura-pero-no-purificadora: se bebe y se cocina con ella, pero no se hace la ablución.",
+        "uk": "Протилежність нечистого: усе, що не визнане нечистим за шаріатом; а якщо це вода, то вона чиста, але не очищувальна — її п'ють і на ній готують, але нею не здійснюють омивання."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "الماء المستعمل في رفع الحدث أو في قربة، أو الذي خالطه طاهر فغلب عليه وأخرجه عن طبعه، أو ما عُصر من نبات؛ فهو طاهر لا يرفع الحدث.",
+            "en": "Water used to lift ritual impurity or in an act of devotion, or mixed with something pure that overpowered it and took it out of its nature, or pressed from a plant: pure, yet it does not lift ritual impurity.",
+            "ru": "Вода, использованная для снятия осквернения или в акте поклонения, либо смешанная с чистым, что пересилило её и вывело из её природы, либо выжатая из растения: она чиста, но не снимает осквернения.",
+            "es": "El agua usada para levantar la impureza ritual o en un acto de devoción, o mezclada con algo puro que la dominó y la sacó de su naturaleza, o exprimida de una planta: es pura, pero no levanta la impureza ritual.",
+            "uk": "Вода, використана для зняття осквернення або в акті поклоніння, або змішана з чистим, що пересилило її й вивело з її природи, або вичавлена з рослини: вона чиста, але не знімає осквернення."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الماء الذي تغيّر بطاهر ملازم له غالباً كالزعفران والصابون؛ يُستعمل في العادات ولا يُتطهّر به.",
+            "en": "Water changed by something pure that usually adheres to it, such as saffron or soap; used for ordinary purposes, but not for purification.",
+            "ru": "Вода, изменённая чистым, обычно прилипающим к ней, как шафран или мыло; используется в обиходе, но не для очищения.",
+            "es": "El agua cambiada por algo puro que habitualmente se le adhiere, como azafrán o jabón; se usa para fines ordinarios, pero no para purificarse.",
+            "uk": "Вода, змінена чистим, що зазвичай прилипає до неї, як шафран чи мило; використовується в побуті, але не для очищення."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الماء المستعمل في فرض الطهارة، أو المتغيّر بمخالط طاهر تغيّراً يمنع إطلاق اسم الماء عليه؛ فهو طاهر في نفسه غير مطهِّر لغيره.",
+            "en": "Water used in an obligatory purification, or changed by a pure admixture so that the name of water no longer applies to it unqualified: pure in itself, not purifying of other things.",
+            "ru": "Вода, использованная в обязательном очищении или изменённая чистой примесью так, что название воды к ней уже не прилагается без оговорки: чистая сама по себе, не очищающая другое.",
+            "es": "El agua usada en una purificación obligatoria, o cambiada por una mezcla pura de modo que el nombre de agua ya no se le aplica sin restricción: pura en sí misma, no purificadora de otras cosas.",
+            "uk": "Вода, використана в обов'язковому очищенні або змінена чистою домішкою так, що назва води до неї вже не прикладається без застереження: чиста сама по собі, не очищувальна для іншого."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء المتغيّر بمخالط طاهر، أو المستعمل في رفع حدث أو غسل مستحبّ، أو ما انغمست فيه يدُ قائمٍ من نوم الليل قبل غسلها؛ طاهر لا يرفع حدثاً ولا يزيل نجساً.",
+            "en": "Water changed by a pure admixture, or used to lift ritual impurity or in a recommended bath, or into which a person newly woken from the night's sleep dipped his hand before washing it: pure, lifting no ritual impurity and removing no filth.",
+            "ru": "Вода, изменённая чистой примесью, или использованная для снятия осквернения либо в желательном омовении, или в которую проснувшийся от ночного сна погрузил руку до её мытья: чистая, не снимающая осквернения и не устраняющая нечистоты.",
+            "es": "El agua cambiada por una mezcla pura, o usada para levantar la impureza ritual o en un baño recomendable, o en la que quien despierta del sueño nocturno sumergió la mano antes de lavarla: pura, sin levantar impureza ritual ni eliminar suciedad.",
+            "uk": "Вода, змінена чистою домішкою, або використана для зняття осквернення чи в бажаному обмиванні, або в яку той, хто прокинувся від нічного сну, занурив руку до її миття: чиста, що не знімає осквернення й не усуває нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharri",
+      "term": {
+        "ar": "التَّحَرِّي",
+        "en": "Taḥarrī",
+        "ru": "Тахарри",
+        "es": "Taḥarrī",
+        "uk": "Тахаррі"
+      },
+      "briefDefinition": {
+        "ar": "بذل الجهد في طلب الصواب عند اشتباه الأمور، بالنظر في الأمارات والقرائن حتى يغلب الظنّ بأحدها.",
+        "en": "Striving to reach what is right when matters are indistinguishable, by examining the signs and indications until one of them becomes the more probable.",
+        "ru": "Усилие в поиске верного, когда вещи неразличимы, через рассмотрение признаков и указаний, пока одно из них не станет более вероятным.",
+        "es": "Esforzarse por alcanzar lo correcto cuando las cosas son indistinguibles, examinando las señales e indicios hasta que uno de ellos resulte más probable.",
+        "uk": "Зусилля в пошуку правильного, коли речі нерозрізнювані, через розгляд ознак і вказівок, доки одна з них не стане ймовірнішою."
+      },
+      "linguistic": {
+        "ar": "طلب الأحرى والأليق؛ من تحرّى الأمرَ إذا توخّاه وقصد أولاه بالصواب.",
+        "en": "Seeking the more fitting and the more suitable; from taḥarrā, to aim carefully at a matter and pursue what is nearest to right in it.",
+        "ru": "Поиск более подобающего и более подходящего; от «тахарра» — тщательно стремиться к делу и добиваться в нём наиболее верного.",
+        "es": "Buscar lo más adecuado y conveniente; de taḥarrā, apuntar con cuidado a un asunto y perseguir lo más cercano a lo correcto en él.",
+        "uk": "Пошук належнішого й доречнішого; від «тахарра» — ретельно прагнути до справи й домагатися в ній найвірнішого."
+      },
+      "legal": {
+        "ar": "الاجتهاد في تعيين الحقّ من المشتبهات بغلبة الظنّ، كتحرّي القبلة والطاهر من الثياب والآنية، وهو مشروع عند العجز عن اليقين.",
+        "en": "Exercising judgement to identify the right one among indistinguishable options by predominant supposition — as in seeking the qibla, or the pure among garments and vessels; legitimate when certainty cannot be had.",
+        "ru": "Приложение усилия для определения верного среди неразличимого по преобладающему предположению — как при поиске киблы или чистого среди одежд и сосудов; дозволено при невозможности достичь уверенности.",
+        "es": "Ejercer el juicio para determinar lo correcto entre lo indistinguible por suposición predominante, como al buscar la alquibla o lo puro entre las prendas y los recipientes; legítimo cuando no cabe la certeza.",
+        "uk": "Докладання зусиль для визначення правильного серед нерозрізнюваного за переважним припущенням — як при пошуку кибли або чистого серед одягу та посудин; дозволене за неможливості досягти впевненості."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "يُعمل به في القبلة عند فقد الأمارات، وفي الثياب المشتبهة، وفي الأواني إن كان الطاهر أكثر؛ فإن تساوى الطاهر والنجس أو غلب النجس لم يتحرَّ وتيمّم.",
+            "en": "Applied to the qibla when signs are lacking, to indistinguishable garments, and to vessels when the pure outnumber the impure; but if pure and impure are equal, or the impure outnumber, he does not use it and performs dry ablution instead.",
+            "ru": "Применяется к кибле при отсутствии признаков, к неразличимым одеждам и к сосудам, если чистых больше; если же чистых и нечистых поровну или нечистых больше, он не прибегает к тахарри, а совершает таяммум.",
+            "es": "Se aplica a la alquibla cuando faltan señales, a las prendas indistinguibles y a los recipientes cuando los puros son más; pero si puros e impuros son iguales o los impuros son más, no lo usa y hace tayammum.",
+            "uk": "Застосовується до кибли за відсутності ознак, до нерозрізнюваного одягу та до посудин, якщо чистих більше; якщо ж чистих і нечистих порівну або нечистих більше, він не вдається до тахаррі, а здійснює таяммум."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُعمل به في القبلة والثياب، أما الآنية المشتبهة فلا يتحرّى، بل يتوضّأ من كل إناء ويصلّي، فيصلّي بعدد الأواني وزيادة.",
+            "en": "Applied to the qibla and to garments; but with indistinguishable vessels he does not use it, rather performing ablution from each vessel and praying, so that he prays as many times as there are vessels, and one more.",
+            "ru": "Применяется к кибле и одеждам; при неразличимых же сосудах он не прибегает к тахарри, а совершает омовение из каждого сосуда и молится — столько раз, сколько сосудов, и ещё один.",
+            "es": "Se aplica a la alquibla y a las prendas; pero con los recipientes indistinguibles no lo usa, sino que hace la ablución de cada uno y reza, tantas veces como recipientes hay, y una más.",
+            "uk": "Застосовується до кибли та одягу; при нерозрізнюваних же посудинах він не вдається до тахаррі, а здійснює омивання з кожної посудини й молиться — стільки разів, скільки посудин, і ще один."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»",
+              "es": "Al-Tāj wa-al-Iklīl",
+              "uk": "«Ат-Тадж ва-ль-Іклиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُسمّى الاجتهاد بالعلامات، ويُعمل به في القبلة والثياب والآنية إذا كان لكلٍّ أصلٌ في الطهارة، لا فيما أصله النجاسة كالبول والماء.",
+            "en": "Called exercising judgement by signs; applied to the qibla, to garments and to vessels when each option has a presumption of purity — not to what is impure by origin, such as urine and water together.",
+            "ru": "Называется иджтихадом по признакам; применяется к кибле, одеждам и сосудам, когда за каждым из них есть презумпция чистоты, — но не к тому, что нечисто по происхождению, как моча и вода.",
+            "es": "Llamado ejercicio del juicio por señales; se aplica a la alquibla, a las prendas y a los recipientes cuando cada opción tiene presunción de pureza, no a lo que es impuro de origen, como la orina y el agua.",
+            "uk": "Зветься іджтихадом за ознаками; застосовується до кибли, одягу та посудин, коли за кожним із них є презумпція чистоти, — але не до того, що нечисте за походженням, як сеча та вода."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُعمل به في القبلة عند فقد الأمارات، ولا يُعمل به في الأواني والثياب المشتبهة؛ بل يجتنب الأواني ويتيمّم، ويصلّي في الثياب بعدد النجس وزيادة.",
+            "en": "Applied to the qibla when signs are lacking, but not to indistinguishable vessels and garments: he avoids the vessels and performs dry ablution, and prays in the garments as many times as the impure ones number, and one more.",
+            "ru": "Применяется к кибле при отсутствии признаков, но не к неразличимым сосудам и одеждам: сосудов он избегает и совершает таяммум, а в одеждах молится столько раз, сколько нечистых, и ещё один.",
+            "es": "Se aplica a la alquibla cuando faltan señales, pero no a los recipientes y prendas indistinguibles: evita los recipientes y hace tayammum, y reza con las prendas tantas veces como impuras hay, y una más.",
+            "uk": "Застосовується до кибли за відсутності ознак, але не до нерозрізнюваних посудин і одягу: посудин він уникає й здійснює таяммум, а в одязі молиться стільки разів, скільки нечистого, і ще один."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "faridah-nafilah",
+      "term": {
+        "ar": "الفَرِيضَة والنَّافِلَة",
+        "en": "Farīḍah and Nāfilah",
+        "ru": "Фарида и нафиля",
+        "es": "Farīḍah y nāfilah",
+        "uk": "Фаріда та нафіля"
+      },
+      "briefDefinition": {
+        "ar": "الفريضة ما ألزم الله به إلزاماً، والنافلة ما زاد على الفريضة ممّا يُتقرّب به ولا إثم في تركه.",
+        "en": "The farīḍah is what God has made binding; the nāfilah is what exceeds the farīḍah of acts by which one draws near to Him, with no sin in leaving it.",
+        "ru": "Фарида — то, что Бог сделал обязательным; нафиля — то, что сверх фариды из дел приближения к Нему, и в оставлении которого нет греха.",
+        "es": "La farīḍah es lo que Dios ha hecho obligatorio; la nāfilah es lo que excede a la farīḍah entre los actos con que uno se acerca a Él, sin pecado en dejarla.",
+        "uk": "Фаріда — те, що Бог зробив обов'язковим; нафіля — те, що понад фаріду з діл наближення до Нього, і в залишенні якого немає гріха."
+      },
+      "linguistic": {
+        "ar": "الفريضة من الفَرْض وهو القطع والتقدير، والنافلة من النَّفْل وهو الزيادة والغنيمة.",
+        "en": "Farīḍah is from farḍ, cutting and apportioning; nāfilah is from nafl, increase and spoil.",
+        "ru": "«Фарида» — от «фард», отсечение и установление меры; «нафиля» — от «нафль», прибавка и добыча.",
+        "es": "Farīḍah viene de farḍ, cortar y asignar; nāfilah de nafl, aumento y botín.",
+        "uk": "«Фаріда» — від «фард», відсікання та встановлення міри; «нафіля» — від «нафль», приріст і здобич."
+      },
+      "legal": {
+        "ar": "الفريضة ما تعلّق به الطلب الجازم بدليل، كالصلوات الخمس، والنافلة ما طُلب طلباً غير جازم زيادةً على الفرض، كالسنن الرواتب وقيام الليل.",
+        "en": "The farīḍah is what a decisive demand attaches to by proof, such as the five daily prayers; the nāfilah is what is asked for without insistence, beyond the obligatory, such as the regular sunnah prayers and the night vigil.",
+        "ru": "Фарида — то, к чему привязано решительное требование по доказательству, как пять ежедневных молитв; нафиля — то, что испрашивается без настойчивости сверх обязательного, как регулярные сунны и ночная молитва.",
+        "es": "La farīḍah es aquello a lo que se vincula una exigencia tajante por prueba, como las cinco oraciones diarias; la nāfilah es lo que se pide sin insistencia, más allá de lo obligatorio, como las sunnas regulares y la vigilia nocturna.",
+        "uk": "Фаріда — те, до чого прив'язана рішуча вимога за доказом, як п'ять щоденних молитов; нафіля — те, що вимагається без наполягання понад обов'язкове, як регулярні сунни та нічна молитва."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "يُفرّق بين الفرض بدليل قطعي، والواجب بدليل ظنّي كالوتر، والنافلة تشمل السنن المؤكّدة وغير المؤكّدة والمندوبات.",
+            "en": "A distinction is drawn between the farḍ, by decisive proof, and the wājib, by probable proof — such as the witr prayer; the nāfilah includes the emphasised and non-emphasised sunnahs and the recommended acts.",
+            "ru": "Различается фард — по категорическому доказательству, и ваджиб — по предположительному, как витр; нафиля же включает подтверждённые и неподтверждённые сунны и желательные действия.",
+            "es": "Se distingue entre el farḍ, por prueba categórica, y el wājib, por prueba probable, como el witr; la nāfilah incluye las sunnas enfatizadas y no enfatizadas y los actos recomendables.",
+            "uk": "Розрізняється фард — за категоричним доказом, і ваджіб — за ймовірним, як вітр; нафіля ж включає підтверджені та непідтверджені сунни й бажані дії."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الفريضة والواجب سواء، والنافلة ثلاث مراتب: السنّة كالوتر، والفضيلة، والنافلة المطلقة.",
+            "en": "The farīḍah and the wājib are one; the nāfilah is of three ranks — the sunnah, such as the witr; the faḍīlah; and the unrestricted nāfilah.",
+            "ru": "Фарида и ваджиб — одно; нафиля же трёх ступеней: сунна, как витр; фадыля; и безусловная нафиля.",
+            "es": "La farīḍah y el wājib son lo mismo; la nāfilah tiene tres rangos: la sunnah, como el witr; la faḍīlah; y la nāfilah absoluta.",
+            "uk": "Фаріда й ваджіб — одне; нафіля ж трьох ступенів: сунна, як вітр; фадиля; і безумовна нафіля."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الفريضة والواجب مترادفان، والنافلة تُطلق على كل ما عدا الفرض من السنن الراتبة وغيرها، وهي مرادفة للسنّة والمندوب.",
+            "en": "The farīḍah and the wājib are synonyms; the nāfilah covers everything other than the obligatory, whether regular sunnahs or otherwise, and is synonymous with sunnah and mandūb.",
+            "ru": "Фарида и ваджиб — синонимы; нафиля охватывает всё, кроме обязательного, — регулярные сунны и прочее, — и синонимична сунне и мандубу.",
+            "es": "La farīḍah y el wājib son sinónimos; la nāfilah abarca todo lo que no es obligatorio, sean sunnas regulares u otras, y es sinónima de sunnah y mandūb.",
+            "uk": "Фаріда й ваджіб — синоніми; нафіля охоплює все, крім обов'язкового, — регулярні сунни та інше, — і синонімічна сунні й мандубу."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الفريضة والواجب سواء في الأصل، والنافلة ما عدا الفرض من الرواتب والوتر والتراويح، وآكدها الوتر.",
+            "en": "The farīḍah and the wājib are one in principle; the nāfilah is what is other than the obligatory — the regular sunnahs, the witr and the tarāwīḥ — the most emphasised being the witr.",
+            "ru": "Фарида и ваджиб в основе одно; нафиля — всё, кроме обязательного: регулярные сунны, витр и таравих, — и наиболее подтверждённая из них витр.",
+            "es": "La farīḍah y el wājib son en principio lo mismo; la nāfilah es lo distinto de lo obligatorio: las sunnas regulares, el witr y el tarāwīḥ, siendo el witr el más enfatizado.",
+            "uk": "Фаріда й ваджіб в основі одне; нафіля — усе, крім обов'язкового: регулярні сунни, вітр і таравіх, — і найбільш підтверджений із них вітр."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "qada",
+      "term": {
+        "ar": "القَضَاء",
+        "en": "Qaḍāʾ",
+        "ru": "Када",
+        "es": "Qaḍāʾ",
+        "uk": "Када"
+      },
+      "briefDefinition": {
+        "ar": "فعل العبادة بعد خروج وقتها المحدَّد لها شرعاً، ويقابله الأداء وهو فعلها في وقتها.",
+        "en": "Performing an act of worship after the time appointed for it by the Law has passed; its counterpart is adāʾ, performing it within its time.",
+        "ru": "Совершение поклонения после выхода времени, установленного для него шариатом; его противоположность — ада, совершение в отведённое время.",
+        "es": "Realizar un acto de culto una vez pasado el tiempo que la Ley le asigna; su contraparte es el adāʾ, realizarlo dentro de su tiempo.",
+        "uk": "Здійснення поклоніння після виходу часу, встановленого для нього шаріатом; його протилежність — ада, здійснення у відведений час."
+      },
+      "linguistic": {
+        "ar": "الإتمام والإكمال والفراغ من الشيء؛ ومنه ﴿فَإِذَا قَضَيْتُمُ الصَّلَاةَ﴾ سورة النساء: ١٠٣.",
+        "en": "Completing, finishing and being done with a thing; hence the Qurʾānic usage in Sūrat al-Nisāʾ, verse 103.",
+        "ru": "Завершение, окончание и исполнение дела; отсюда коранический оборот в суре «ан-Ниса», аят 103.",
+        "es": "Completar, terminar y concluir algo; de ahí el uso coránico en la sura al-Nisāʾ, aleya 103.",
+        "uk": "Завершення, закінчення та виконання справи; звідси коранічний зворот у сурі «ан-Ніса», аят 103."
+      },
+      "legal": {
+        "ar": "إيقاع العبادة الموقّتة بعد خروج وقتها لعذر أو لغيره، كصلاة فاتت وصيام رمضان لمن أفطر.",
+        "en": "Performing a time-bound act of worship after its time has passed, whether for an excuse or otherwise — such as a missed prayer, or the fast of Ramadan for one who broke it.",
+        "ru": "Совершение ограниченного временем поклонения после выхода его времени, по уважительной причине или без неё, — как пропущенная молитва или пост Рамадана для того, кто его нарушил.",
+        "es": "Realizar un acto de culto sujeto a tiempo una vez pasado este, por excusa o sin ella, como una oración omitida o el ayuno de Ramadán para quien lo rompió.",
+        "uk": "Здійснення обмеженого часом поклоніння після виходу його часу, з поважної причини чи без неї, — як пропущена молитва або піст Рамадану для того, хто його порушив."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "تسليم مثل الواجب بعد خروج الوقت؛ ويجب ترتيب الفوائت إن كانت دون ستّ، فلا يصلّي الوقتية قبلها ما لم يضق الوقت.",
+            "en": "Delivering the like of what was due after the time has passed; the missed prayers must be made up in order if they are fewer than six, so the current prayer is not performed before them unless the time is short.",
+            "ru": "Возмещение подобного обязательному после выхода времени; пропущенные молитвы должны восполняться по порядку, если их менее шести, так что своевременная молитва не совершается раньше них, если время не стеснено.",
+            "es": "Entregar el equivalente de lo debido después de que pase el tiempo; las oraciones omitidas deben recuperarse en orden si son menos de seis, de modo que la del momento no se reza antes que ellas salvo que el tiempo apremie.",
+            "uk": "Відшкодування подібного обов'язковому після виходу часу; пропущені молитви мають відшкодовуватися по порядку, якщо їх менше шести, тож своєчасна молитва не здійснюється раніше за них, якщо час не стиснутий."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "فعل العبادة بعد وقتها، ويجب ترتيب اليسير من الفوائت — وهو أربع صلوات فأقلّ — مع الحاضرة، ويجب الفور في قضاء الفوائت.",
+            "en": "Performing the act after its time; the few missed prayers — four or fewer — must be ordered with the current one, and missed prayers must be made up promptly.",
+            "ru": "Совершение поклонения после его времени; немногие пропущенные молитвы — четыре и менее — должны быть упорядочены с текущей, и пропущенные молитвы должны восполняться безотлагательно.",
+            "es": "Realizar el acto después de su tiempo; las pocas omitidas — cuatro o menos — deben ordenarse con la del momento, y las omitidas deben recuperarse sin demora.",
+            "uk": "Здійснення поклоніння після його часу; нечисленні пропущені молитви — чотири й менше — мають бути впорядковані з поточною, і пропущені молитви мають відшкодовуватися невідкладно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "فعل العبادة كلّها أو بعضها بعد وقتها، ويجب الفور فيما فات بغير عذر، ويُندب الترتيب بين الفوائت وتقديمها على الحاضرة إن اتّسع وقتها.",
+            "en": "Performing all or part of the act after its time; what was missed without excuse must be made up promptly, and ordering the missed prayers and placing them before the current one is recommended if its time is ample.",
+            "ru": "Совершение всего поклонения или его части после его времени; пропущенное без уважительной причины должно восполняться безотлагательно, а упорядочение пропущенных и их совершение до текущей желательно, если её время позволяет.",
+            "es": "Realizar todo el acto o parte de él después de su tiempo; lo omitido sin excusa debe recuperarse sin demora, y ordenar las omitidas y anteponerlas a la del momento es recomendable si su tiempo es amplio.",
+            "uk": "Здійснення всього поклоніння або його частини після його часу; пропущене без поважної причини має відшкодовуватися невідкладно, а впорядкування пропущених і здійснення їх до поточної бажане, якщо її час дозволяє."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "فعل العبادة بعد وقتها، ويجب قضاء الفوائت فوراً ومرتَّبةً، ولو كثُرت، ما لم يخف فوات الحاضرة أو يلحقه بذلك ضرر.",
+            "en": "Performing the act after its time; missed prayers must be made up promptly and in order, however many, unless he fears missing the current prayer or would be harmed by it.",
+            "ru": "Совершение поклонения после его времени; пропущенные молитвы должны восполняться безотлагательно и по порядку, сколько бы их ни было, если только он не опасается пропустить текущую или не понесёт от этого вреда.",
+            "es": "Realizar el acto después de su tiempo; las omitidas deben recuperarse sin demora y en orden, por muchas que sean, salvo que tema perder la del momento o sufra daño por ello.",
+            "uk": "Здійснення поклоніння після його часу; пропущені молитви мають відшкодовуватися невідкладно й по порядку, хоч би скільки їх було, якщо тільки він не боїться пропустити поточну або не зазнає від цього шкоди."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
     }
   ],
   "guides": [

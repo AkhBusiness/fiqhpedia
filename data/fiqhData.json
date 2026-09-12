@@ -4603,6 +4603,671 @@
           "uk": "«Ізхар аль-Хакк»"
         }
       ]
+    },
+    {
+      "id": "tahur",
+      "term": {
+        "ar": "الطَّهُور",
+        "en": "Ṭahūr",
+        "ru": "Тахур",
+        "es": "Ṭahūr",
+        "uk": "Тагур"
+      },
+      "briefDefinition": {
+        "ar": "الماء الطاهر في نفسه المطهِّر لغيره، وهو الذي يصحّ به رفع الحدث وإزالة النجاسة.",
+        "en": "Water that is pure in itself and purifying of other things: the water with which ritual impurity may be lifted and filth removed.",
+        "ru": "Вода, чистая сама по себе и очищающая другое: та вода, которой снимается ритуальное осквернение и устраняется нечистота.",
+        "es": "El agua pura en sí misma y purificadora de otras cosas: aquella con la que se levanta la impureza ritual y se elimina la suciedad.",
+        "uk": "Вода, чиста сама по собі й очищувальна для іншого: та вода, якою знімається ритуальне осквернення й усувається нечистота."
+      },
+      "linguistic": {
+        "ar": "صيغة مبالغة من الطهارة، تدلّ على ما يتكرّر منه التطهير، كالصَّبور لمن يتكرّر منه الصبر.",
+        "en": "An intensive form from ṭahārah, denoting that from which purification repeatedly proceeds — as ṣabūr denotes one from whom patience repeatedly proceeds.",
+        "ru": "Усилительная форма от «тахара», означающая то, от чего очищение исходит многократно, — как «сабур» означает того, от кого многократно исходит терпение.",
+        "es": "Forma intensiva de ṭahāra, que designa aquello de lo que la purificación procede repetidamente, como ṣabūr designa a quien la paciencia procede repetidamente.",
+        "uk": "Підсилювальна форма від «тагара», що означає те, від чого очищення походить багаторазово, — як «сабур» означає того, від кого багаторазово походить терпіння."
+      },
+      "legal": {
+        "ar": "الماء الباقي على أصل خلقته، لم يتغيّر بما يسلبه اسم الماء المطلق، فيرفع الحدث ويزيل النجس.",
+        "en": "Water remaining in its original created state, unaltered by anything that would strip it of the name of unrestricted water; it lifts ritual impurity and removes filth.",
+        "ru": "Вода, оставшаяся в своём первоначальном сотворённом состоянии, не изменённая тем, что лишило бы её названия абсолютной воды; она снимает осквернение и устраняет нечистоту.",
+        "es": "El agua que permanece en su estado original de creación, no alterada por nada que le quite el nombre de agua absoluta; levanta la impureza ritual y elimina la suciedad.",
+        "uk": "Вода, що залишилася у своєму первісному створеному стані, не змінена тим, що позбавило б її назви абсолютної води; вона знімає осквернення й усуває нечистоту."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "الماء المطلق الذي لم يُستعمل في رفع حدث ولم يخالطه ما يغلب عليه؛ فالمستعمل طاهر غير طهور، والماء الكثير لا ينجّسه شيء ما لم يتغيّر.",
+            "en": "Unrestricted water not yet used to lift ritual impurity and not mixed with anything that overpowers it; used water is pure but not purifying, and a large body of water is not made impure by anything unless it changes.",
+            "ru": "Абсолютная вода, ещё не использованная для снятия осквернения и не смешанная с тем, что её пересиливает; использованная вода чиста, но не очищает, а большое количество воды ничем не оскверняется, пока не изменится.",
+            "es": "El agua absoluta aún no usada para levantar la impureza ritual ni mezclada con algo que la domine; el agua usada es pura pero no purificadora, y una gran cantidad de agua no se vuelve impura por nada mientras no cambie.",
+            "uk": "Абсолютна вода, ще не використана для зняття осквернення й не змішана з тим, що її пересилює; використана вода чиста, але не очищувальна, а велика кількість води нічим не оскверняється, доки не зміниться."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الماء الباقي على أوصاف خلقته، لا يخرجه عن الطهورية إلا تغيّر أحد أوصافه — لونه أو طعمه أو ريحه — بما يخالطه من طاهر أو نجس، ولا فرق في ذلك بين القليل والكثير.",
+            "en": "Water remaining in the qualities of its creation; nothing takes it out of purifying status except a change in one of its qualities — colour, taste or odour — by something pure or impure mixed into it, with no distinction between a small and a large quantity.",
+            "ru": "Вода, сохраняющая свойства своего сотворения; ничто не выводит её из состояния очищающей, кроме изменения одного из её свойств — цвета, вкуса или запаха — примесью чистого или нечистого, без различия между малым и большим количеством.",
+            "es": "El agua que conserva las cualidades de su creación; nada la saca del estado purificador salvo el cambio de una de sus cualidades — color, sabor u olor — por algo puro o impuro mezclado en ella, sin distinción entre poca y mucha cantidad.",
+            "uk": "Вода, що зберігає властивості свого створення; ніщо не виводить її зі стану очищувальної, крім зміни однієї з її властивостей — кольору, смаку чи запаху — домішкою чистого або нечистого, без різниці між малою та великою кількістю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الماء المطلق الذي يقع عليه اسم الماء بلا قيد، ما لم يُستعمل في رفع حدث أو يتغيّر تغيّراً فاحشاً بمخالط طاهر أو يبلغ دون القلّتين وقد لاقى نجاسة.",
+            "en": "Unrestricted water on which the name of water falls without qualification, so long as it has not been used to lift ritual impurity, nor changed markedly by a pure admixture, nor been of less than two qullahs and met with filth.",
+            "ru": "Абсолютная вода, к которой прилагается название воды без оговорки, пока она не использована для снятия осквернения, не изменилась заметно от чистой примеси и не была менее двух кулл при соприкосновении с нечистотой.",
+            "es": "El agua absoluta a la que corresponde el nombre de agua sin restricción, mientras no se haya usado para levantar la impureza ritual, ni cambiado notablemente por una mezcla pura, ni sea menor de dos qullas y haya tocado suciedad.",
+            "uk": "Абсолютна вода, до якої прикладається назва води без застереження, доки вона не використана для зняття осквернення, не змінилася помітно від чистої домішки й не була менша за дві кулли при дотику до нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء الباقي على خلقته حقيقةً أو حكماً، لم يتغيّر بطاهر يخالطه، ولم يُستعمل في رفع حدث أو إزالة نجس، ولم يبلغ دون القلّتين مع ملاقاة نجاسة.",
+            "en": "Water remaining in its created state in reality or in effect, not changed by a pure admixture, not used to lift ritual impurity or remove filth, and not of less than two qullahs while meeting with filth.",
+            "ru": "Вода, сохраняющая своё сотворённое состояние в действительности или по правовому положению, не изменённая чистой примесью, не использованная для снятия осквернения или устранения нечистоты и не бывшая менее двух кулл при соприкосновении с нечистотой.",
+            "es": "El agua que conserva su estado de creación en realidad o en efecto, no cambiada por una mezcla pura, no usada para levantar la impureza ritual ni eliminar suciedad, y no menor de dos qullas mientras toca suciedad.",
+            "uk": "Вода, що зберігає свій створений стан насправді або за правовим станом, не змінена чистою домішкою, не використана для зняття осквернення чи усунення нечистоти й не була менша за дві кулли при дотику до нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tahir",
+      "term": {
+        "ar": "الطَّاهِر",
+        "en": "Ṭāhir",
+        "ru": "Тахир",
+        "es": "Ṭāhir",
+        "uk": "Тагір"
+      },
+      "briefDefinition": {
+        "ar": "ما كان نظيفاً في ذاته من النجاسة، ويجوز استعماله في الأكل والشرب واللباس، لكنه لا يصلح لرفع الحدث.",
+        "en": "That which is clean in itself of filth, and may be used for food, drink and clothing, yet does not serve to lift ritual impurity.",
+        "ru": "То, что само по себе чисто от нечистоты и может использоваться для еды, питья и одежды, но не годится для снятия ритуального осквернения.",
+        "es": "Lo que es limpio en sí mismo de suciedad y puede usarse para comer, beber y vestir, pero no sirve para levantar la impureza ritual.",
+        "uk": "Те, що саме по собі чисте від нечистоти й може використовуватися для їжі, пиття та одягу, але не годиться для зняття ритуального осквернення."
+      },
+      "linguistic": {
+        "ar": "النقيّ من الدنس؛ اسم فاعل من طَهُرَ إذا نقي وسلم من الوسخ.",
+        "en": "That which is free of defilement; the active participle of ṭahura, to be clean and free of dirt.",
+        "ru": "Свободное от скверны; причастие от «тахура» — быть чистым и свободным от грязи.",
+        "es": "Lo que está libre de mancilla; participio activo de ṭahura, estar limpio y libre de suciedad.",
+        "uk": "Вільне від скверни; дієприкметник від «тагура» — бути чистим і вільним від бруду."
+      },
+      "legal": {
+        "ar": "قسيم النجس، وهو كلّ ما لم تُحكم بنجاسته شرعاً؛ وإن كان ماءً فهو الطاهر غير الطهور: يُشرب ويُطبخ به ولا يُتوضّأ به.",
+        "en": "The counterpart of the impure: everything not ruled impure by the Law; and if it is water, it is the pure-but-not-purifying — drunk and cooked with, but not used for ablution.",
+        "ru": "Противоположность нечистого: всё, что не признано нечистым по шариату; а если это вода, то она чистая, но не очищающая — её пьют и на ней готовят, но ею не совершают омовения.",
+        "es": "La contraparte de lo impuro: todo lo que la Ley no ha declarado impuro; y si es agua, es la pura-pero-no-purificadora: se bebe y se cocina con ella, pero no se hace la ablución.",
+        "uk": "Протилежність нечистого: усе, що не визнане нечистим за шаріатом; а якщо це вода, то вона чиста, але не очищувальна — її п'ють і на ній готують, але нею не здійснюють омивання."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "الماء المستعمل في رفع الحدث أو في قربة، أو الذي خالطه طاهر فغلب عليه وأخرجه عن طبعه، أو ما عُصر من نبات؛ فهو طاهر لا يرفع الحدث.",
+            "en": "Water used to lift ritual impurity or in an act of devotion, or mixed with something pure that overpowered it and took it out of its nature, or pressed from a plant: pure, yet it does not lift ritual impurity.",
+            "ru": "Вода, использованная для снятия осквернения или в акте поклонения, либо смешанная с чистым, что пересилило её и вывело из её природы, либо выжатая из растения: она чиста, но не снимает осквернения.",
+            "es": "El agua usada para levantar la impureza ritual o en un acto de devoción, o mezclada con algo puro que la dominó y la sacó de su naturaleza, o exprimida de una planta: es pura, pero no levanta la impureza ritual.",
+            "uk": "Вода, використана для зняття осквернення або в акті поклоніння, або змішана з чистим, що пересилило її й вивело з її природи, або вичавлена з рослини: вона чиста, але не знімає осквернення."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الماء الذي تغيّر بطاهر ملازم له غالباً كالزعفران والصابون؛ يُستعمل في العادات ولا يُتطهّر به.",
+            "en": "Water changed by something pure that usually adheres to it, such as saffron or soap; used for ordinary purposes, but not for purification.",
+            "ru": "Вода, изменённая чистым, обычно прилипающим к ней, как шафран или мыло; используется в обиходе, но не для очищения.",
+            "es": "El agua cambiada por algo puro que habitualmente se le adhiere, como azafrán o jabón; se usa para fines ordinarios, pero no para purificarse.",
+            "uk": "Вода, змінена чистим, що зазвичай прилипає до неї, як шафран чи мило; використовується в побуті, але не для очищення."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الماء المستعمل في فرض الطهارة، أو المتغيّر بمخالط طاهر تغيّراً يمنع إطلاق اسم الماء عليه؛ فهو طاهر في نفسه غير مطهِّر لغيره.",
+            "en": "Water used in an obligatory purification, or changed by a pure admixture so that the name of water no longer applies to it unqualified: pure in itself, not purifying of other things.",
+            "ru": "Вода, использованная в обязательном очищении или изменённая чистой примесью так, что название воды к ней уже не прилагается без оговорки: чистая сама по себе, не очищающая другое.",
+            "es": "El agua usada en una purificación obligatoria, o cambiada por una mezcla pura de modo que el nombre de agua ya no se le aplica sin restricción: pura en sí misma, no purificadora de otras cosas.",
+            "uk": "Вода, використана в обов'язковому очищенні або змінена чистою домішкою так, що назва води до неї вже не прикладається без застереження: чиста сама по собі, не очищувальна для іншого."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء المتغيّر بمخالط طاهر، أو المستعمل في رفع حدث أو غسل مستحبّ، أو ما انغمست فيه يدُ قائمٍ من نوم الليل قبل غسلها؛ طاهر لا يرفع حدثاً ولا يزيل نجساً.",
+            "en": "Water changed by a pure admixture, or used to lift ritual impurity or in a recommended bath, or into which a person newly woken from the night's sleep dipped his hand before washing it: pure, lifting no ritual impurity and removing no filth.",
+            "ru": "Вода, изменённая чистой примесью, или использованная для снятия осквернения либо в желательном омовении, или в которую проснувшийся от ночного сна погрузил руку до её мытья: чистая, не снимающая осквернения и не устраняющая нечистоты.",
+            "es": "El agua cambiada por una mezcla pura, o usada para levantar la impureza ritual o en un baño recomendable, o en la que quien despierta del sueño nocturno sumergió la mano antes de lavarla: pura, sin levantar impureza ritual ni eliminar suciedad.",
+            "uk": "Вода, змінена чистою домішкою, або використана для зняття осквернення чи в бажаному обмиванні, або в яку той, хто прокинувся від нічного сну, занурив руку до її миття: чиста, що не знімає осквернення й не усуває нечистоти."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharri",
+      "term": {
+        "ar": "التَّحَرِّي",
+        "en": "Taḥarrī",
+        "ru": "Тахарри",
+        "es": "Taḥarrī",
+        "uk": "Тахаррі"
+      },
+      "briefDefinition": {
+        "ar": "بذل الجهد في طلب الصواب عند اشتباه الأمور، بالنظر في الأمارات والقرائن حتى يغلب الظنّ بأحدها.",
+        "en": "Striving to reach what is right when matters are indistinguishable, by examining the signs and indications until one of them becomes the more probable.",
+        "ru": "Усилие в поиске верного, когда вещи неразличимы, через рассмотрение признаков и указаний, пока одно из них не станет более вероятным.",
+        "es": "Esforzarse por alcanzar lo correcto cuando las cosas son indistinguibles, examinando las señales e indicios hasta que uno de ellos resulte más probable.",
+        "uk": "Зусилля в пошуку правильного, коли речі нерозрізнювані, через розгляд ознак і вказівок, доки одна з них не стане ймовірнішою."
+      },
+      "linguistic": {
+        "ar": "طلب الأحرى والأليق؛ من تحرّى الأمرَ إذا توخّاه وقصد أولاه بالصواب.",
+        "en": "Seeking the more fitting and the more suitable; from taḥarrā, to aim carefully at a matter and pursue what is nearest to right in it.",
+        "ru": "Поиск более подобающего и более подходящего; от «тахарра» — тщательно стремиться к делу и добиваться в нём наиболее верного.",
+        "es": "Buscar lo más adecuado y conveniente; de taḥarrā, apuntar con cuidado a un asunto y perseguir lo más cercano a lo correcto en él.",
+        "uk": "Пошук належнішого й доречнішого; від «тахарра» — ретельно прагнути до справи й домагатися в ній найвірнішого."
+      },
+      "legal": {
+        "ar": "الاجتهاد في تعيين الحقّ من المشتبهات بغلبة الظنّ، كتحرّي القبلة والطاهر من الثياب والآنية، وهو مشروع عند العجز عن اليقين.",
+        "en": "Exercising judgement to identify the right one among indistinguishable options by predominant supposition — as in seeking the qibla, or the pure among garments and vessels; legitimate when certainty cannot be had.",
+        "ru": "Приложение усилия для определения верного среди неразличимого по преобладающему предположению — как при поиске киблы или чистого среди одежд и сосудов; дозволено при невозможности достичь уверенности.",
+        "es": "Ejercer el juicio para determinar lo correcto entre lo indistinguible por suposición predominante, como al buscar la alquibla o lo puro entre las prendas y los recipientes; legítimo cuando no cabe la certeza.",
+        "uk": "Докладання зусиль для визначення правильного серед нерозрізнюваного за переважним припущенням — як при пошуку кибли або чистого серед одягу та посудин; дозволене за неможливості досягти впевненості."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "يُعمل به في القبلة عند فقد الأمارات، وفي الثياب المشتبهة، وفي الأواني إن كان الطاهر أكثر؛ فإن تساوى الطاهر والنجس أو غلب النجس لم يتحرَّ وتيمّم.",
+            "en": "Applied to the qibla when signs are lacking, to indistinguishable garments, and to vessels when the pure outnumber the impure; but if pure and impure are equal, or the impure outnumber, he does not use it and performs dry ablution instead.",
+            "ru": "Применяется к кибле при отсутствии признаков, к неразличимым одеждам и к сосудам, если чистых больше; если же чистых и нечистых поровну или нечистых больше, он не прибегает к тахарри, а совершает таяммум.",
+            "es": "Se aplica a la alquibla cuando faltan señales, a las prendas indistinguibles y a los recipientes cuando los puros son más; pero si puros e impuros son iguales o los impuros son más, no lo usa y hace tayammum.",
+            "uk": "Застосовується до кибли за відсутності ознак, до нерозрізнюваного одягу та до посудин, якщо чистих більше; якщо ж чистих і нечистих порівну або нечистих більше, він не вдається до тахаррі, а здійснює таяммум."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُعمل به في القبلة والثياب، أما الآنية المشتبهة فلا يتحرّى، بل يتوضّأ من كل إناء ويصلّي، فيصلّي بعدد الأواني وزيادة.",
+            "en": "Applied to the qibla and to garments; but with indistinguishable vessels he does not use it, rather performing ablution from each vessel and praying, so that he prays as many times as there are vessels, and one more.",
+            "ru": "Применяется к кибле и одеждам; при неразличимых же сосудах он не прибегает к тахарри, а совершает омовение из каждого сосуда и молится — столько раз, сколько сосудов, и ещё один.",
+            "es": "Se aplica a la alquibla y a las prendas; pero con los recipientes indistinguibles no lo usa, sino que hace la ablución de cada uno y reza, tantas veces como recipientes hay, y una más.",
+            "uk": "Застосовується до кибли та одягу; при нерозрізнюваних же посудинах він не вдається до тахаррі, а здійснює омивання з кожної посудини й молиться — стільки разів, скільки посудин, і ще один."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "التاج والإكليل",
+              "en": "Al-Tāj wa-al-Iklīl",
+              "ru": "«Ат-Тадж ва-ль-Иклиль»",
+              "es": "Al-Tāj wa-al-Iklīl",
+              "uk": "«Ат-Тадж ва-ль-Іклиль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُسمّى الاجتهاد بالعلامات، ويُعمل به في القبلة والثياب والآنية إذا كان لكلٍّ أصلٌ في الطهارة، لا فيما أصله النجاسة كالبول والماء.",
+            "en": "Called exercising judgement by signs; applied to the qibla, to garments and to vessels when each option has a presumption of purity — not to what is impure by origin, such as urine and water together.",
+            "ru": "Называется иджтихадом по признакам; применяется к кибле, одеждам и сосудам, когда за каждым из них есть презумпция чистоты, — но не к тому, что нечисто по происхождению, как моча и вода.",
+            "es": "Llamado ejercicio del juicio por señales; se aplica a la alquibla, a las prendas y a los recipientes cuando cada opción tiene presunción de pureza, no a lo que es impuro de origen, como la orina y el agua.",
+            "uk": "Зветься іджтихадом за ознаками; застосовується до кибли, одягу та посудин, коли за кожним із них є презумпція чистоти, — але не до того, що нечисте за походженням, як сеча та вода."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُعمل به في القبلة عند فقد الأمارات، ولا يُعمل به في الأواني والثياب المشتبهة؛ بل يجتنب الأواني ويتيمّم، ويصلّي في الثياب بعدد النجس وزيادة.",
+            "en": "Applied to the qibla when signs are lacking, but not to indistinguishable vessels and garments: he avoids the vessels and performs dry ablution, and prays in the garments as many times as the impure ones number, and one more.",
+            "ru": "Применяется к кибле при отсутствии признаков, но не к неразличимым сосудам и одеждам: сосудов он избегает и совершает таяммум, а в одеждах молится столько раз, сколько нечистых, и ещё один.",
+            "es": "Se aplica a la alquibla cuando faltan señales, pero no a los recipientes y prendas indistinguibles: evita los recipientes y hace tayammum, y reza con las prendas tantas veces como impuras hay, y una más.",
+            "uk": "Застосовується до кибли за відсутності ознак, але не до нерозрізнюваних посудин і одягу: посудин він уникає й здійснює таяммум, а в одязі молиться стільки разів, скільки нечистого, і ще один."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "faridah-nafilah",
+      "term": {
+        "ar": "الفَرِيضَة والنَّافِلَة",
+        "en": "Farīḍah and Nāfilah",
+        "ru": "Фарида и нафиля",
+        "es": "Farīḍah y nāfilah",
+        "uk": "Фаріда та нафіля"
+      },
+      "briefDefinition": {
+        "ar": "الفريضة ما ألزم الله به إلزاماً، والنافلة ما زاد على الفريضة ممّا يُتقرّب به ولا إثم في تركه.",
+        "en": "The farīḍah is what God has made binding; the nāfilah is what exceeds the farīḍah of acts by which one draws near to Him, with no sin in leaving it.",
+        "ru": "Фарида — то, что Бог сделал обязательным; нафиля — то, что сверх фариды из дел приближения к Нему, и в оставлении которого нет греха.",
+        "es": "La farīḍah es lo que Dios ha hecho obligatorio; la nāfilah es lo que excede a la farīḍah entre los actos con que uno se acerca a Él, sin pecado en dejarla.",
+        "uk": "Фаріда — те, що Бог зробив обов'язковим; нафіля — те, що понад фаріду з діл наближення до Нього, і в залишенні якого немає гріха."
+      },
+      "linguistic": {
+        "ar": "الفريضة من الفَرْض وهو القطع والتقدير، والنافلة من النَّفْل وهو الزيادة والغنيمة.",
+        "en": "Farīḍah is from farḍ, cutting and apportioning; nāfilah is from nafl, increase and spoil.",
+        "ru": "«Фарида» — от «фард», отсечение и установление меры; «нафиля» — от «нафль», прибавка и добыча.",
+        "es": "Farīḍah viene de farḍ, cortar y asignar; nāfilah de nafl, aumento y botín.",
+        "uk": "«Фаріда» — від «фард», відсікання та встановлення міри; «нафіля» — від «нафль», приріст і здобич."
+      },
+      "legal": {
+        "ar": "الفريضة ما تعلّق به الطلب الجازم بدليل، كالصلوات الخمس، والنافلة ما طُلب طلباً غير جازم زيادةً على الفرض، كالسنن الرواتب وقيام الليل.",
+        "en": "The farīḍah is what a decisive demand attaches to by proof, such as the five daily prayers; the nāfilah is what is asked for without insistence, beyond the obligatory, such as the regular sunnah prayers and the night vigil.",
+        "ru": "Фарида — то, к чему привязано решительное требование по доказательству, как пять ежедневных молитв; нафиля — то, что испрашивается без настойчивости сверх обязательного, как регулярные сунны и ночная молитва.",
+        "es": "La farīḍah es aquello a lo que se vincula una exigencia tajante por prueba, como las cinco oraciones diarias; la nāfilah es lo que se pide sin insistencia, más allá de lo obligatorio, como las sunnas regulares y la vigilia nocturna.",
+        "uk": "Фаріда — те, до чого прив'язана рішуча вимога за доказом, як п'ять щоденних молитов; нафіля — те, що вимагається без наполягання понад обов'язкове, як регулярні сунни та нічна молитва."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "يُفرّق بين الفرض بدليل قطعي، والواجب بدليل ظنّي كالوتر، والنافلة تشمل السنن المؤكّدة وغير المؤكّدة والمندوبات.",
+            "en": "A distinction is drawn between the farḍ, by decisive proof, and the wājib, by probable proof — such as the witr prayer; the nāfilah includes the emphasised and non-emphasised sunnahs and the recommended acts.",
+            "ru": "Различается фард — по категорическому доказательству, и ваджиб — по предположительному, как витр; нафиля же включает подтверждённые и неподтверждённые сунны и желательные действия.",
+            "es": "Se distingue entre el farḍ, por prueba categórica, y el wājib, por prueba probable, como el witr; la nāfilah incluye las sunnas enfatizadas y no enfatizadas y los actos recomendables.",
+            "uk": "Розрізняється фард — за категоричним доказом, і ваджіб — за ймовірним, як вітр; нафіля ж включає підтверджені та непідтверджені сунни й бажані дії."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الفريضة والواجب سواء، والنافلة ثلاث مراتب: السنّة كالوتر، والفضيلة، والنافلة المطلقة.",
+            "en": "The farīḍah and the wājib are one; the nāfilah is of three ranks — the sunnah, such as the witr; the faḍīlah; and the unrestricted nāfilah.",
+            "ru": "Фарида и ваджиб — одно; нафиля же трёх ступеней: сунна, как витр; фадыля; и безусловная нафиля.",
+            "es": "La farīḍah y el wājib son lo mismo; la nāfilah tiene tres rangos: la sunnah, como el witr; la faḍīlah; y la nāfilah absoluta.",
+            "uk": "Фаріда й ваджіб — одне; нафіля ж трьох ступенів: сунна, як вітр; фадиля; і безумовна нафіля."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الفريضة والواجب مترادفان، والنافلة تُطلق على كل ما عدا الفرض من السنن الراتبة وغيرها، وهي مرادفة للسنّة والمندوب.",
+            "en": "The farīḍah and the wājib are synonyms; the nāfilah covers everything other than the obligatory, whether regular sunnahs or otherwise, and is synonymous with sunnah and mandūb.",
+            "ru": "Фарида и ваджиб — синонимы; нафиля охватывает всё, кроме обязательного, — регулярные сунны и прочее, — и синонимична сунне и мандубу.",
+            "es": "La farīḍah y el wājib son sinónimos; la nāfilah abarca todo lo que no es obligatorio, sean sunnas regulares u otras, y es sinónima de sunnah y mandūb.",
+            "uk": "Фаріда й ваджіб — синоніми; нафіля охоплює все, крім обов'язкового, — регулярні сунни та інше, — і синонімічна сунні й мандубу."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الفريضة والواجب سواء في الأصل، والنافلة ما عدا الفرض من الرواتب والوتر والتراويح، وآكدها الوتر.",
+            "en": "The farīḍah and the wājib are one in principle; the nāfilah is what is other than the obligatory — the regular sunnahs, the witr and the tarāwīḥ — the most emphasised being the witr.",
+            "ru": "Фарида и ваджиб в основе одно; нафиля — всё, кроме обязательного: регулярные сунны, витр и таравих, — и наиболее подтверждённая из них витр.",
+            "es": "La farīḍah y el wājib son en principio lo mismo; la nāfilah es lo distinto de lo obligatorio: las sunnas regulares, el witr y el tarāwīḥ, siendo el witr el más enfatizado.",
+            "uk": "Фаріда й ваджіб в основі одне; нафіля — усе, крім обов'язкового: регулярні сунни, вітр і таравіх, — і найбільш підтверджений із них вітр."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "qada",
+      "term": {
+        "ar": "القَضَاء",
+        "en": "Qaḍāʾ",
+        "ru": "Када",
+        "es": "Qaḍāʾ",
+        "uk": "Када"
+      },
+      "briefDefinition": {
+        "ar": "فعل العبادة بعد خروج وقتها المحدَّد لها شرعاً، ويقابله الأداء وهو فعلها في وقتها.",
+        "en": "Performing an act of worship after the time appointed for it by the Law has passed; its counterpart is adāʾ, performing it within its time.",
+        "ru": "Совершение поклонения после выхода времени, установленного для него шариатом; его противоположность — ада, совершение в отведённое время.",
+        "es": "Realizar un acto de culto una vez pasado el tiempo que la Ley le asigna; su contraparte es el adāʾ, realizarlo dentro de su tiempo.",
+        "uk": "Здійснення поклоніння після виходу часу, встановленого для нього шаріатом; його протилежність — ада, здійснення у відведений час."
+      },
+      "linguistic": {
+        "ar": "الإتمام والإكمال والفراغ من الشيء؛ ومنه ﴿فَإِذَا قَضَيْتُمُ الصَّلَاةَ﴾ سورة النساء: ١٠٣.",
+        "en": "Completing, finishing and being done with a thing; hence the Qurʾānic usage in Sūrat al-Nisāʾ, verse 103.",
+        "ru": "Завершение, окончание и исполнение дела; отсюда коранический оборот в суре «ан-Ниса», аят 103.",
+        "es": "Completar, terminar y concluir algo; de ahí el uso coránico en la sura al-Nisāʾ, aleya 103.",
+        "uk": "Завершення, закінчення та виконання справи; звідси коранічний зворот у сурі «ан-Ніса», аят 103."
+      },
+      "legal": {
+        "ar": "إيقاع العبادة الموقّتة بعد خروج وقتها لعذر أو لغيره، كصلاة فاتت وصيام رمضان لمن أفطر.",
+        "en": "Performing a time-bound act of worship after its time has passed, whether for an excuse or otherwise — such as a missed prayer, or the fast of Ramadan for one who broke it.",
+        "ru": "Совершение ограниченного временем поклонения после выхода его времени, по уважительной причине или без неё, — как пропущенная молитва или пост Рамадана для того, кто его нарушил.",
+        "es": "Realizar un acto de culto sujeto a tiempo una vez pasado este, por excusa o sin ella, como una oración omitida o el ayuno de Ramadán para quien lo rompió.",
+        "uk": "Здійснення обмеженого часом поклоніння після виходу його часу, з поважної причини чи без неї, — як пропущена молитва або піст Рамадану для того, хто його порушив."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "تسليم مثل الواجب بعد خروج الوقت؛ ويجب ترتيب الفوائت إن كانت دون ستّ، فلا يصلّي الوقتية قبلها ما لم يضق الوقت.",
+            "en": "Delivering the like of what was due after the time has passed; the missed prayers must be made up in order if they are fewer than six, so the current prayer is not performed before them unless the time is short.",
+            "ru": "Возмещение подобного обязательному после выхода времени; пропущенные молитвы должны восполняться по порядку, если их менее шести, так что своевременная молитва не совершается раньше них, если время не стеснено.",
+            "es": "Entregar el equivalente de lo debido después de que pase el tiempo; las oraciones omitidas deben recuperarse en orden si son menos de seis, de modo que la del momento no se reza antes que ellas salvo que el tiempo apremie.",
+            "uk": "Відшкодування подібного обов'язковому після виходу часу; пропущені молитви мають відшкодовуватися по порядку, якщо їх менше шести, тож своєчасна молитва не здійснюється раніше за них, якщо час не стиснутий."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "فعل العبادة بعد وقتها، ويجب ترتيب اليسير من الفوائت — وهو أربع صلوات فأقلّ — مع الحاضرة، ويجب الفور في قضاء الفوائت.",
+            "en": "Performing the act after its time; the few missed prayers — four or fewer — must be ordered with the current one, and missed prayers must be made up promptly.",
+            "ru": "Совершение поклонения после его времени; немногие пропущенные молитвы — четыре и менее — должны быть упорядочены с текущей, и пропущенные молитвы должны восполняться безотлагательно.",
+            "es": "Realizar el acto después de su tiempo; las pocas omitidas — cuatro o menos — deben ordenarse con la del momento, y las omitidas deben recuperarse sin demora.",
+            "uk": "Здійснення поклоніння після його часу; нечисленні пропущені молитви — чотири й менше — мають бути впорядковані з поточною, і пропущені молитви мають відшкодовуватися невідкладно."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "فعل العبادة كلّها أو بعضها بعد وقتها، ويجب الفور فيما فات بغير عذر، ويُندب الترتيب بين الفوائت وتقديمها على الحاضرة إن اتّسع وقتها.",
+            "en": "Performing all or part of the act after its time; what was missed without excuse must be made up promptly, and ordering the missed prayers and placing them before the current one is recommended if its time is ample.",
+            "ru": "Совершение всего поклонения или его части после его времени; пропущенное без уважительной причины должно восполняться безотлагательно, а упорядочение пропущенных и их совершение до текущей желательно, если её время позволяет.",
+            "es": "Realizar todo el acto o parte de él después de su tiempo; lo omitido sin excusa debe recuperarse sin demora, y ordenar las omitidas y anteponerlas a la del momento es recomendable si su tiempo es amplio.",
+            "uk": "Здійснення всього поклоніння або його частини після його часу; пропущене без поважної причини має відшкодовуватися невідкладно, а впорядкування пропущених і здійснення їх до поточної бажане, якщо її час дозволяє."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "فعل العبادة بعد وقتها، ويجب قضاء الفوائت فوراً ومرتَّبةً، ولو كثُرت، ما لم يخف فوات الحاضرة أو يلحقه بذلك ضرر.",
+            "en": "Performing the act after its time; missed prayers must be made up promptly and in order, however many, unless he fears missing the current prayer or would be harmed by it.",
+            "ru": "Совершение поклонения после его времени; пропущенные молитвы должны восполняться безотлагательно и по порядку, сколько бы их ни было, если только он не опасается пропустить текущую или не понесёт от этого вреда.",
+            "es": "Realizar el acto después de su tiempo; las omitidas deben recuperarse sin demora y en orden, por muchas que sean, salvo que tema perder la del momento o sufra daño por ello.",
+            "uk": "Здійснення поклоніння після його часу; пропущені молитви мають відшкодовуватися невідкладно й по порядку, хоч би скільки їх було, якщо тільки він не боїться пропустити поточну або не зазнає від цього шкоди."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "الإنصاف",
+              "en": "Al-Inṣāf",
+              "ru": "«Аль-Инсаф»",
+              "es": "Al-Inṣāf",
+              "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
     }
   ],
   "guides": [
@@ -9214,7 +9879,7 @@
           "grade": "wajib"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-30",
@@ -9376,7 +10041,7 @@
           "grade": "wajib"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-28",
@@ -9696,7 +10361,7 @@
           "grade": "sunnah"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-33",
@@ -9862,7 +10527,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-32",
@@ -10028,7 +10693,7 @@
           "nature": "rukn"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-34",
@@ -10194,7 +10859,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-35",
@@ -10356,7 +11021,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-36",
@@ -10520,7 +11185,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-37",
@@ -10684,7 +11349,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-38",
@@ -10846,7 +11511,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-1",
@@ -11224,7 +11889,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-40",
@@ -11386,7 +12051,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-41",
@@ -11548,7 +12213,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-42",
@@ -11710,13 +12375,499 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
+    },
+    {
+      "id": "taharah-53",
+      "ref": "F98",
+      "bookId": "taharah",
+      "number": 40,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омивання"
+      },
+      "title": {
+        "ar": "حكم من شكّ في الحدث بعد يقين الطهارة أو عكسه",
+        "en": "Doubting Impurity After Certainty of Purity, or the Reverse",
+        "ru": "Сомнение в осквернении после уверенности в чистоте, или наоборот",
+        "es": "Dudar de la impureza tras tener certeza de la pureza, o a la inversa",
+        "uk": "Сумнів в оскверненні після впевненості в чистоті, або навпаки"
+      },
+      "summary": {
+        "ar": "من تيقّن الطهارة ثم شكّ هل أحدث، أو تيقّن الحدث ثم شكّ هل تطهّر — على أيّهما يبني؟",
+        "en": "One who was certain of purity and then doubted whether he broke it, or was certain of impurity and then doubted whether he had purified — which does he act upon?",
+        "ru": "Тот, кто был уверен в чистоте, а затем усомнился, не нарушил ли её, или был уверен в осквернении, а затем усомнился, не очистился ли, — на что он опирается?",
+        "es": "Quien tenía certeza de la pureza y luego dudó si la rompió, o tenía certeza de la impureza y luego dudó si se purificó: ¿sobre cuál se basa?",
+        "uk": "Той, хто був упевнений у чистоті, а потім засумнівався, чи не порушив її, або був упевнений в оскверненні, а потім засумнівався, чи не очистився, — на що він спирається?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبني على ما تيقّنه: فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث، لأن اليقين لا يزول بالشكّ.",
+            "en": "He acts upon what he was certain of: one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure, since certainty is not removed by doubt.",
+            "ru": "Он опирается на то, в чём был уверен: уверенный в чистоте и сомневающийся в осквернении — чист, уверенный в осквернении и сомневающийся в чистоте — осквернён, ибо уверенность не устраняется сомнением.",
+            "es": "Se basa en aquello de lo que tenía certeza: quien tiene certeza de la pureza y duda de la impureza está puro, y quien tiene certeza de la impureza y duda de la pureza está impuro, pues la certeza no se elimina con la duda.",
+            "uk": "Він спирається на те, в чому був упевнений: упевнений у чистоті й той, хто сумнівається в оскверненні, — чистий, упевнений в оскверненні й той, хто сумнівається в чистоті, — осквернений, бо впевненість не усувається сумнівом."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "من تيقّن الطهارة وشكّ في الحدث خارج الصلاة وجب عليه الوضوء، وإن كان الشكّ في أثناء الصلاة مضى فيها وبنى على الطهارة. ومن تيقّن الحدث وشكّ في الطهارة وجب عليه الوضوء.",
+            "en": "One certain of purity who doubts impurity outside the prayer must perform ablution; if the doubt arises during the prayer, he continues and acts upon purity. One certain of impurity who doubts purity must perform ablution.",
+            "ru": "Уверенный в чистоте и сомневающийся в осквернении вне молитвы обязан совершить омовение; если сомнение возникло во время молитвы, он продолжает её, опираясь на чистоту. Уверенный в осквернении и сомневающийся в чистоте обязан совершить омовение.",
+            "es": "Quien tiene certeza de la pureza y duda de la impureza fuera de la oración debe hacer la ablución; si la duda surge durante la oración, la continúa y se basa en la pureza. Quien tiene certeza de la impureza y duda de la pureza debe hacer la ablución.",
+            "uk": "Упевнений у чистоті й той, хто сумнівається в оскверненні поза молитвою, зобов'язаний здійснити омивання; якщо сумнів виник під час молитви, він продовжує її, спираючись на чистоту. Упевнений в оскверненні й той, хто сумнівається в чистоті, зобов'язаний здійснити омивання."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبني على اليقين ولا يلتفت إلى الشكّ، لقوله ﷺ: «لا ينصرف حتى يسمع صوتاً أو يجد ريحاً»؛ فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث.",
+            "en": "He acts upon certainty and pays no heed to doubt, on the strength of his saying ﷺ: “Let him not leave until he hears a sound or smells an odour”; one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure.",
+            "ru": "Он опирается на уверенность и не обращает внимания на сомнение, согласно его словам ﷺ: «Пусть не уходит, пока не услышит звук или не почувствует запах»; уверенный в чистоте и сомневающийся в осквернении — чист, уверенный в осквернении и сомневающийся в чистоте — осквернён.",
+            "es": "Se basa en la certeza y no atiende a la duda, por su dicho ﷺ: «Que no se retire hasta oír un sonido o percibir un olor»; quien tiene certeza de la pureza y duda de la impureza está puro, y quien tiene certeza de la impureza y duda de la pureza está impuro.",
+            "uk": "Він спирається на впевненість і не зважає на сумнів, згідно з його словами ﷺ: «Хай не йде, доки не почує звук або не відчує запах»; упевнений у чистоті й той, хто сумнівається в оскверненні, — чистий, упевнений в оскверненні й той, хто сумнівається в чистоті, — осквернений."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبني على اليقين ويطرح الشكّ: فمن تيقّن الطهارة وشكّ في الحدث عمل بالطهارة وصحّت صلاته، ومن تيقّن الحدث وشكّ في الطهارة عمل بالحدث ووجب عليه الوضوء.",
+            "en": "He acts upon certainty and sets doubt aside: one certain of purity who doubts impurity acts upon purity and his prayer is valid, and one certain of impurity who doubts purity acts upon impurity and must perform ablution.",
+            "ru": "Он опирается на уверенность и отбрасывает сомнение: уверенный в чистоте и сомневающийся в осквернении действует по чистоте, и его молитва действительна; уверенный в осквернении и сомневающийся в чистоте действует по осквернению и обязан совершить омовение.",
+            "es": "Se basa en la certeza y deja de lado la duda: quien tiene certeza de la pureza y duda de la impureza actúa según la pureza y su oración es válida, y quien tiene certeza de la impureza y duda de la pureza actúa según la impureza y debe hacer la ablución.",
+            "uk": "Він спирається на впевненість і відкидає сумнів: упевнений у чистоті й той, хто сумнівається в оскверненні, діє за чистотою, і його молитва дійсна; упевнений в оскверненні й той, хто сумнівається в чистоті, діє за осквернення й зобов'язаний здійснити омивання."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-12"
+    },
+    {
+      "id": "taharah-54",
+      "ref": "F99",
+      "bookId": "taharah",
+      "number": 41,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омивання"
+      },
+      "title": {
+        "ar": "حكم من أحدث في أثناء الصلاة: أيبني أم يستأنف؟",
+        "en": "One Whose Ablution Breaks During the Prayer: Does He Continue or Start Again?",
+        "ru": "Тот, у кого омовение нарушилось во время молитвы: продолжает ли он или начинает заново?",
+        "es": "Quien pierde la ablución durante la oración: ¿continúa o empieza de nuevo?",
+        "uk": "Той, у кого омивання порушилося під час молитви: чи продовжує він, чи починає заново?"
+      },
+      "summary": {
+        "ar": "إذا سبقه الحدث في الصلاة من غير عمد، أيتطهّر ويبني على ما صلّى، أم يستأنف الصلاة من أوّلها؟",
+        "en": "If impurity overtakes him during the prayer without intent, does he purify and continue from where he was, or start the prayer again from the beginning?",
+        "ru": "Если во время молитвы у него ненамеренно нарушилось омовение, очищается ли он и продолжает с того места, или начинает молитву с начала?",
+        "es": "Si durante la oración le sobreviene la impureza sin querer, ¿se purifica y continúa desde donde estaba, o empieza la oración desde el principio?",
+        "uk": "Якщо під час молитви в нього ненавмисно порушилося омивання, чи очищається він і продовжує з того місця, чи починає молитву з початку?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "من سبقه الحدث في صلاته بغير عمد جاز له أن يتطهّر ويبني على ما صلّى، بشرط ألّا يأتي بما ينافي الصلاة سوى المشي إلى الطهارة؛ والاستئناف أفضل.",
+            "en": "One overtaken by impurity during his prayer without intent may purify and continue from where he was, provided he does nothing incompatible with prayer other than walking to purify; starting again is better.",
+            "ru": "Тот, у кого во время молитвы ненамеренно нарушилось омовение, может очиститься и продолжить с того места, при условии, что не совершит ничего несовместимого с молитвой, кроме ходьбы для очищения; начать заново — лучше.",
+            "es": "Quien pierde la ablución durante la oración sin querer puede purificarse y continuar desde donde estaba, siempre que no haga nada incompatible con la oración salvo caminar para purificarse; empezar de nuevo es mejor.",
+            "uk": "Той, у кого під час молитви ненавмисно порушилося омивання, може очиститися й продовжити з того місця, за умови, що не вчинить нічого несумісного з молитвою, крім ходьби для очищення; почати заново — краще."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تبطل الصلاة بالحدث عمداً كان أو سهواً أو غلبةً، ويجب عليه أن يتطهّر ويستأنف الصلاة من أوّلها، ولا يبني.",
+            "en": "The prayer is void by impurity, whether deliberate, forgetful or involuntary; he must purify and start the prayer again from the beginning, and may not continue.",
+            "ru": "Молитва становится недействительной при осквернении — намеренном, по забывчивости или непроизвольном; он обязан очиститься и начать молитву с начала, а продолжать не может.",
+            "es": "La oración queda anulada por la impureza, sea deliberada, por olvido o involuntaria; debe purificarse y empezar la oración desde el principio, sin continuarla.",
+            "uk": "Молитва стає недійсною через осквернення — навмисне, через забудькуватість чи мимовільне; він зобов'язаний очиститися й почати молитву з початку, а продовжувати не може."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تبطل صلاته بالحدث عمداً كان أو سهواً أو غلبةً، وتلزمه الطهارة واستئناف الصلاة من أوّلها، ولا يبني على ما مضى.",
+            "en": "His prayer is void by impurity, whether deliberate, forgetful or involuntary; he must purify and start the prayer again from the beginning, and does not continue from where he was.",
+            "ru": "Его молитва становится недействительной при осквернении — намеренном, по забывчивости или непроизвольном; он обязан очиститься и начать молитву с начала, не продолжая с того места.",
+            "es": "Su oración queda anulada por la impureza, sea deliberada, por olvido o involuntaria; debe purificarse y empezar la oración desde el principio, sin continuar desde donde estaba.",
+            "uk": "Його молитва стає недійсною через осквернення — навмисне, через забудькуватість чи мимовільне; він зобов'язаний очиститися й почати молитву з початку, не продовжуючи з того місця."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تبطل الصلاة بالحدث عمداً كان أو سهواً أو غلبةً، ويجب عليه أن يتوضّأ ويستأنف الصلاة من أوّلها، ولا يصحّ البناء.",
+            "en": "The prayer is void by impurity, whether deliberate, forgetful or involuntary; he must perform ablution and start the prayer again from the beginning, and continuing is not valid.",
+            "ru": "Молитва становится недействительной при осквернении — намеренном, по забывчивости или непроизвольном; он обязан совершить омовение и начать молитву с начала, а продолжение недействительно.",
+            "es": "La oración queda anulada por la impureza, sea deliberada, por olvido o involuntaria; debe hacer la ablución y empezar la oración desde el principio, y continuarla no es válido.",
+            "uk": "Молитва стає недійсною через осквернення — навмисне, через забудькуватість чи мимовільне; він зобов'язаний здійснити омивання й почати молитву з початку, а продовження недійсне."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-12"
+    },
+    {
+      "id": "taharah-55",
+      "ref": "F100",
+      "bookId": "taharah",
+      "number": 42,
+      "chapter": {
+        "ar": "باب نواقض الوضوء",
+        "en": "Chapter of Ablution Nullifiers",
+        "ru": "Раздел о нарушителях омовения",
+        "es": "Capítulo de los anuladores de la ablución",
+        "uk": "Розділ про порушники омивання"
+      },
+      "title": {
+        "ar": "حكم من نسي أنه محدث فصلّى ثم تذكّر",
+        "en": "One Who Forgot He Was Impure, Prayed, and Then Remembered",
+        "ru": "Тот, кто забыл, что был осквернён, помолился и затем вспомнил",
+        "es": "Quien olvidó que estaba impuro, rezó y luego lo recordó",
+        "uk": "Той, хто забув, що був осквернений, помолився й потім згадав"
+      },
+      "summary": {
+        "ar": "من صلّى ناسياً أنه على غير طهارة — أصغر أو أكبر — ثم تذكّر بعد الصلاة، أتلزمه الإعادة؟",
+        "en": "One who prayed having forgotten he was without purity — minor or major — and remembered after the prayer: must he repeat it?",
+        "ru": "Тот, кто помолился, забыв, что был без чистоты — малой или большой, — и вспомнил после молитвы: обязан ли он повторить её?",
+        "es": "Quien rezó habiendo olvidado que carecía de pureza —menor o mayor— y lo recordó tras la oración: ¿debe repetirla?",
+        "uk": "Той, хто помолився, забувши, що був без чистоти — малої чи великої, — і згадав після молитви: чи мусить він повторити її?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "صلاته باطلة، وتلزمه إعادتها بعد التطهّر، تذكّر في الوقت أو بعده، لأن الطهارة شرط لا يسقط بالنسيان.",
+            "en": "His prayer is void, and he must repeat it after purifying — whether he remembered within the time or after it — since purity is a condition that forgetfulness does not lift.",
+            "ru": "Его молитва недействительна, и он обязан повторить её после очищения — вспомнил ли он в отведённое время или после, — ибо чистота есть условие, которого забывчивость не снимает.",
+            "es": "Su oración es nula y debe repetirla tras purificarse, tanto si lo recordó dentro del tiempo como después, pues la pureza es una condición que el olvido no levanta.",
+            "uk": "Його молитва недійсна, і він зобов'язаний повторити її після очищення — чи згадав він у відведений час, чи після, — бо чистота є умовою, якої забудькуватість не знімає."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "صلاته باطلة، وتلزمه إعادتها متى تذكّر ولو بعد خروج الوقت، لأن طهارة الحدث شرط صحّة لا يسقط بالنسيان.",
+            "en": "His prayer is void, and he must repeat it whenever he remembers, even after the time has passed, since purity from impurity is a condition of validity that forgetfulness does not lift.",
+            "ru": "Его молитва недействительна, и он обязан повторить её, когда бы ни вспомнил, даже по истечении времени, ибо чистота от осквернения есть условие действительности, которого забывчивость не снимает.",
+            "es": "Su oración es nula y debe repetirla cuando lo recuerde, aunque haya pasado el tiempo, pues la pureza de la impureza es una condición de validez que el olvido no levanta.",
+            "uk": "Його молитва недійсна, і він зобов'язаний повторити її, коли б не згадав, навіть після закінчення часу, бо чистота від осквернення є умовою дійсності, якої забудькуватість не знімає."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "صلاته باطلة، ويلزمه قضاؤها متى تذكّر، لقوله ﷺ: «لا تُقبل صلاة بغير طهور»؛ والنسيان يُسقط الإثم ولا يُصحّح الصلاة.",
+            "en": "His prayer is void, and he must make it up whenever he remembers, on the strength of his saying ﷺ: “No prayer is accepted without purity”; forgetfulness lifts the sin but does not make the prayer valid.",
+            "ru": "Его молитва недействительна, и он обязан восполнить её, когда бы ни вспомнил, согласно его словам ﷺ: «Не принимается молитва без очищения»; забывчивость снимает грех, но не делает молитву действительной.",
+            "es": "Su oración es nula y debe recuperarla cuando lo recuerde, por su dicho ﷺ: «No se acepta oración sin pureza»; el olvido levanta el pecado pero no hace válida la oración.",
+            "uk": "Його молитва недійсна, і він зобов'язаний відшкодувати її, коли б не згадав, згідно з його словами ﷺ: «Не приймається молитва без очищення»; забудькуватість знімає гріх, але не робить молитву дійсною."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "صلاته باطلة، وتلزمه إعادتها متى تذكّر، لقوله ﷺ: «من نسي صلاةً أو نام عنها فليصلّها إذا ذكرها»؛ والشرط لا يسقط بالنسيان.",
+            "en": "His prayer is void, and he must repeat it whenever he remembers, on the strength of his saying ﷺ: “Whoever forgets a prayer or sleeps through it, let him pray it when he remembers it”; a condition is not lifted by forgetfulness.",
+            "ru": "Его молитва недействительна, и он обязан повторить её, когда бы ни вспомнил, согласно его словам ﷺ: «Кто забыл молитву или проспал её, пусть совершит её, когда вспомнит»; условие не снимается забывчивостью.",
+            "es": "Su oración es nula y debe repetirla cuando lo recuerde, por su dicho ﷺ: «Quien olvide una oración o se duerma sin hacerla, que la rece cuando la recuerde»; una condición no se levanta por olvido.",
+            "uk": "Його молитва недійсна, і він зобов'язаний повторити її, коли б не згадав, згідно з його словами ﷺ: «Хто забув молитву або проспав її, хай здійснить її, коли згадає»; умова не знімається забудькуватістю."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-43",
       "ref": "F86",
       "bookId": "taharah",
-      "number": 40,
+      "number": 43,
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -11872,13 +13023,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-44",
       "ref": "F87",
       "bookId": "taharah",
-      "number": 41,
+      "number": 44,
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -12038,13 +13189,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-45",
       "ref": "F88",
       "bookId": "taharah",
-      "number": 42,
+      "number": 45,
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -12200,13 +13351,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-2",
       "ref": "F5",
       "bookId": "taharah",
-      "number": 43,
+      "number": 46,
       "chapter": {
         "ar": "باب المسح على الخفين",
         "en": "Chapter of Wiping over Footgear",
@@ -12308,7 +13459,7 @@
       "id": "taharah-4",
       "ref": "F7",
       "bookId": "taharah",
-      "number": 44,
+      "number": 47,
       "chapter": {
         "ar": "باب التيمم",
         "en": "Chapter of Dry Ablution (Tayammum)",
@@ -12413,7 +13564,7 @@
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 45,
+      "number": 48,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -12528,7 +13679,7 @@
       "id": "taharah-46",
       "ref": "F91",
       "bookId": "taharah",
-      "number": 46,
+      "number": 49,
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -12680,13 +13831,171 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
+    },
+    {
+      "id": "taharah-51",
+      "ref": "F96",
+      "bookId": "taharah",
+      "number": 50,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "سنّ البلوغ وسنّ اليأس",
+        "en": "The Age of Maturity and the Age of Menopause",
+        "ru": "Возраст совершеннолетия и возраст менопаузы",
+        "es": "La edad de madurez y la edad de la menopausia",
+        "uk": "Вік повноліття та вік менопаузи"
+      },
+      "summary": {
+        "ar": "متى يُحكم بالبلوغ بالسنّ إذا لم تظهر علاماته، ومتى تبلغ المرأة سنّ اليأس فينقطع حكم الحيض؟",
+        "en": "At what age is maturity reckoned when its signs have not appeared, and at what age does a woman reach menopause so that the rulings of menstruation cease?",
+        "ru": "В каком возрасте устанавливается совершеннолетие, если его признаки не появились, и в каком возрасте женщина достигает менопаузы, так что постановления менструации прекращаются?",
+        "es": "¿A qué edad se considera alcanzada la madurez si no han aparecido sus signos, y a qué edad llega la mujer a la menopausia de modo que cesan las normas de la menstruación?",
+        "uk": "У якому віці встановлюється повноліття, якщо його ознаки не з'явилися, і в якому віці жінка досягає менопаузи, так що постанови менструації припиняються?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يُحكم بالبلوغ بتمام خمس عشرة سنة للذكر والأنثى، وسنّ اليأس تمام خمس وخمسين سنة.",
+            "en": "Maturity is reckoned at the completion of fifteen years for male and female alike, and the age of menopause is the completion of fifty-five years.",
+            "ru": "Совершеннолетие устанавливается по достижении полных пятнадцати лет для мужчины и женщины, а возраст менопаузы — полные пятьдесят пять лет.",
+            "es": "La madurez se considera alcanzada al cumplir quince años, tanto el varón como la mujer, y la edad de la menopausia es al cumplir cincuenta y cinco años.",
+            "uk": "Повноліття встановлюється після повних п'ятнадцяти років для чоловіка й жінки, а вік менопаузи — повні п'ятдесят п'ять років."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُحكم بالبلوغ بتمام ثماني عشرة سنة للذكر والأنثى، وسنّ اليأس لا يُضبط بعددٍ حتماً بل يُرجع فيه إلى عادة النساء، وما بعد السبعين يأسٌ قطعاً.",
+            "en": "Maturity is reckoned at the completion of eighteen years for male and female alike; the age of menopause is not fixed by a set number but referred to the custom of women, and beyond seventy it is menopause beyond doubt.",
+            "ru": "Совершеннолетие устанавливается по достижении полных восемнадцати лет для мужчины и женщины; возраст же менопаузы не ограничен определённым числом, а определяется по обыкновению женщин, а после семидесяти это менопауза без сомнения.",
+            "es": "La madurez se considera alcanzada al cumplir dieciocho años, tanto el varón como la mujer; la edad de la menopausia no se fija con un número, sino que se remite a la costumbre de las mujeres, y pasados los setenta es menopausia sin duda.",
+            "uk": "Повноліття встановлюється після повних вісімнадцяти років для чоловіка й жінки; вік же менопаузи не обмежений певним числом, а визначається за звичаєм жінок, а після сімдесяти це менопауза без сумніву."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُحكم بالبلوغ باستكمال خمس عشرة سنة قمرية للذكر والأنثى، وأمّا الحيض فلا حدّ لآخره ما دام الدم بصفاته، وغالبه إلى نحو الخمسين.",
+            "en": "Maturity is reckoned at the completion of fifteen lunar years for male and female alike; as for menstruation, it has no fixed end so long as the blood bears its characteristics, though it usually continues to about fifty.",
+            "ru": "Совершеннолетие устанавливается по завершении пятнадцати лунных лет для мужчины и женщины; менструация же не имеет установленного конца, пока кровь сохраняет свои признаки, хотя обычно она длится примерно до пятидесяти.",
+            "es": "La madurez se considera alcanzada al completar quince años lunares, tanto el varón como la mujer; la menstruación, en cambio, no tiene un final fijo mientras la sangre conserve sus características, aunque por lo común dura hasta cerca de los cincuenta.",
+            "uk": "Повноліття встановлюється після завершення п'ятнадцяти місячних років для чоловіка й жінки; менструація ж не має встановленого кінця, поки кров зберігає свої ознаки, хоча зазвичай вона триває приблизно до п'ятдесяти."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُحكم بالبلوغ بتمام خمس عشرة سنة للذكر والأنثى، وسنّ اليأس تمام خمسين سنة، فما رأته بعدها من دم فهو دم فساد لا حيض.",
+            "en": "Maturity is reckoned at the completion of fifteen years for male and female alike, and the age of menopause is the completion of fifty years; whatever blood she sees after that is irregular bleeding, not menstruation.",
+            "ru": "Совершеннолетие устанавливается по достижении полных пятнадцати лет для мужчины и женщины, а возраст менопаузы — полные пятьдесят лет; кровь, которую она видит после этого, — это кровь недуга, а не менструация.",
+            "es": "La madurez se considera alcanzada al cumplir quince años, tanto el varón como la mujer, y la edad de la menopausia es al cumplir cincuenta años; la sangre que vea después es sangre de trastorno, no menstruación.",
+            "uk": "Повноліття встановлюється після повних п'ятнадцяти років для чоловіка й жінки, а вік менопаузи — повні п'ятдесят років; кров, яку вона бачить після цього, — це кров недуги, а не менструація."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-47",
       "ref": "F92",
       "bookId": "taharah",
-      "number": 47,
+      "number": 51,
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -12842,13 +14151,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-48",
       "ref": "F93",
       "bookId": "taharah",
-      "number": 48,
+      "number": 52,
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -13004,13 +14313,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-49",
       "ref": "F94",
       "bookId": "taharah",
-      "number": 49,
+      "number": 53,
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -13166,13 +14475,13 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "taharah-50",
       "ref": "F95",
       "bookId": "taharah",
-      "number": 50,
+      "number": 54,
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -13328,7 +14637,169 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
+    },
+    {
+      "id": "taharah-52",
+      "ref": "F97",
+      "bookId": "taharah",
+      "number": 55,
+      "chapter": {
+        "ar": "باب الحيض والنفاس",
+        "en": "Chapter on Menstruation and Post-natal Bleeding",
+        "ru": "Раздел о менструации и послеродовом кровотечении",
+        "es": "Capítulo sobre la menstruación y los loquios",
+        "uk": "Розділ про менструацію та післяпологову кровотечу"
+      },
+      "title": {
+        "ar": "متى تستأنف المرأة الصلاة والصوم بعد الطهر",
+        "en": "When a Woman Resumes Prayer and Fasting After Becoming Pure",
+        "ru": "Когда женщина возобновляет молитву и пост после очищения",
+        "es": "Cuándo reanuda la mujer la oración y el ayuno tras purificarse",
+        "uk": "Коли жінка відновлює молитву та піст після очищення"
+      },
+      "summary": {
+        "ar": "بمجرّد انقطاع الدم، متى تستأنف الصلاة ومتى تستأنف الصوم، وهل يُشترط الغسل لهما على السواء؟",
+        "en": "Once the bleeding has stopped, when does she resume prayer and when fasting — and is the full bath a condition for both alike?",
+        "ru": "Как только кровь прекратилась, когда она возобновляет молитву и когда пост, и является ли полное омовение условием для обоих в равной мере?",
+        "es": "Una vez cesada la sangre, ¿cuándo reanuda la oración y cuándo el ayuno, y es el baño ritual condición para ambos por igual?",
+        "uk": "Щойно кров припинилася, коли вона відновлює молитву й коли піст, і чи є повне обмивання умовою для обох однаково?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر، ولا يُشترط له الغسل إن كان الانقطاع لتمام العشرة، فإن كان لدونها فيُشترط أن يبقى من الليل ما يسع الغسل والتحريمة. وأمّا الصلاة فلا تستأنفها إلا بعد الغسل، أو التيمم عند العجز.",
+            "en": "She resumes fasting once the bleeding stops before dawn, and the bath is not a condition for it if the stop came at the full ten days; if earlier, enough of the night must remain for the bath and the opening takbīr. Prayer, however, she resumes only after the bath, or dry ablution when unable.",
+            "ru": "Она возобновляет пост с прекращением крови до рассвета, и омовение не является условием, если прекращение пришлось на полные десять дней; если раньше, должно остаться ночи на омовение и вступительный такбир. Молитву же она возобновляет лишь после омовения или таяммума при неспособности.",
+            "es": "Reanuda el ayuno al cesar la sangre antes del alba, sin que el baño sea condición si el cese ocurrió a los diez días completos; si antes, debe quedar de la noche lo suficiente para el baño y el takbīr de apertura. La oración, en cambio, la reanuda solo tras el baño, o el tayammum si no puede.",
+            "uk": "Вона відновлює піст із припиненням крові до світанку, і обмивання не є умовою, якщо припинення припало на повні десять днів; якщо раніше, має лишитися ночі на обмивання та вступний такбір. Молитву ж вона відновлює лише після обмивання або таяммуму за нездатності."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تستأنف الصوم بمجرّد رؤية الطهر قبل الفجر ولا يُشترط له الغسل، وتستأنف الصلاة بالطهر لكن يتوقّف أداؤها على الغسل، فإن ضاق الوقت اغتسلت وصلّت فوراً.",
+            "en": "She resumes fasting as soon as she sees the sign of purity before dawn, with no bath required for it; she resumes prayer upon purity, but its performance waits on the bath, and if the time is short she bathes and prays at once.",
+            "ru": "Она возобновляет пост, как только увидит признак чистоты до рассвета, без омовения; молитву она возобновляет с очищением, но её совершение ждёт омовения, и если времени мало, она омывается и молится тотчас.",
+            "es": "Reanuda el ayuno en cuanto ve la señal de pureza antes del alba, sin que se requiera baño; reanuda la oración con la pureza, pero su realización aguarda al baño, y si el tiempo apremia se baña y reza de inmediato.",
+            "uk": "Вона відновлює піст, щойно побачить ознаку чистоти до світанку, без обмивання; молитву вона відновлює з очищенням, але її здійснення чекає на обмивання, і якщо часу мало, вона обмивається й молиться негайно."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر مع النية ولو أخّرت الغسل، ويستقرّ عليها وجوب الصلاة بالطهر إن بقي من الوقت قدر ركعة، وتصلّي فور الغسل.",
+            "en": "She resumes fasting once the bleeding stops before dawn, with the intention, even if she delays the bath; the obligation of prayer settles upon her at purity if a unit's worth of the time remains, and she prays as soon as she has bathed.",
+            "ru": "Она возобновляет пост с прекращением крови до рассвета при наличии намерения, даже если отложит омовение; обязанность молитвы утверждается на ней с очищением, если осталось времени на один ракаат, и она молится сразу после омовения.",
+            "es": "Reanuda el ayuno al cesar la sangre antes del alba, con la intención, aunque retrase el baño; la obligación de la oración recae sobre ella con la pureza si queda del tiempo lo de un rakʿah, y reza en cuanto se ha bañado.",
+            "uk": "Вона відновлює піст із припиненням крові до світанку за наявності наміру, навіть якщо відкладе обмивання; обов'язок молитви утверджується на ній з очищенням, якщо лишилося часу на один ракаат, і вона молиться одразу після обмивання."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تستأنف الصوم بالطهر قبل الفجر مع النية ولا يضرّ تأخير الغسل كالجنب، وتجب عليها الصلاة بالطهر إن بقي من الوقت قدر ركعة، وعليها المبادرة بالغسل لتؤدّيها في وقتها.",
+            "en": "She resumes fasting upon purity before dawn, with the intention, and delaying the bath does no harm — as with one in major impurity; prayer becomes due upon purity if a unit's worth of the time remains, and she must hasten to bathe so as to pray within the time.",
+            "ru": "Она возобновляет пост с очищением до рассвета при наличии намерения, и отсрочка омовения не вредит — как у находящегося в большом осквернении; молитва становится обязательной с очищением, если осталось времени на один ракаат, и ей надлежит поспешить с омовением, чтобы совершить её вовремя.",
+            "es": "Reanuda el ayuno con la pureza antes del alba, con la intención, y retrasar el baño no perjudica, como en el caso de quien está en impureza mayor; la oración le es obligatoria con la pureza si queda del tiempo lo de un rakʿah, y debe apresurarse a bañarse para rezar en su tiempo.",
+            "uk": "Вона відновлює піст з очищенням до світанку за наявності наміру, і відкладення обмивання не шкодить — як у того, хто в великому оскверненні; молитва стає обов'язковою з очищенням, якщо лишилося часу на один ракаат, і їй належить поспішити з обмиванням, щоб здійснити її вчасно."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-5",
@@ -13651,7 +15122,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-19",
@@ -14735,7 +16206,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-22",
@@ -14901,7 +16372,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-14",
@@ -15699,7 +17170,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-24",
@@ -15861,7 +17332,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-25",
@@ -16023,7 +17494,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-30",
@@ -16185,7 +17656,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-31",
@@ -16347,7 +17818,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-1",
@@ -16898,7 +18369,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-27",
@@ -17061,7 +18532,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-3",
@@ -17489,7 +18960,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-29",
@@ -17655,7 +19126,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "salah-6",
@@ -19384,7 +20855,7 @@
           "nature": "shart"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "sawm-8",
@@ -19546,7 +21017,7 @@
           "grade": "haram"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "sawm-9",
@@ -19708,7 +21179,7 @@
           "grade": "haram"
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     },
     {
       "id": "sawm-10",
@@ -19867,7 +21338,7 @@
           ]
         }
       },
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     }
   ],
   "articles": [
@@ -20665,7 +22136,7 @@
           "uk": "«Тафсір Ібн Касіра»"
         }
       ],
-      "addedAt": "2026-09-10"
+      "addedAt": "2026-09-12"
     }
   ]
 }

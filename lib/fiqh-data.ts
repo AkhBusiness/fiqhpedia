@@ -514,7 +514,7 @@ export function isRecentlyAdded(addedAt?: string, now: Date = new Date()) {
 }
 
 /** Ceiling on how much of the site may wear the badge at once. */
-const NEW_MAX_SHARE = 0.4
+const NEW_MAX_SHARE = 0.5
 let recentShareCache: number | null = null
 
 function recentShare() {

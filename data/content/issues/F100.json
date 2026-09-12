@@ -1,0 +1,161 @@
+{
+  "ref": "F100",
+  "id": "taharah-55",
+  "bookId": "taharah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب نواقض الوضوء",
+    "en": "Chapter of Ablution Nullifiers",
+    "ru": "Раздел о нарушителях омовения",
+    "es": "Capítulo de los anuladores de la ablución",
+    "uk": "Розділ про порушники омивання"
+  },
+  "title": {
+    "ar": "حكم من نسي أنه محدث فصلّى ثم تذكّر",
+    "en": "One Who Forgot He Was Impure, Prayed, and Then Remembered",
+    "ru": "Тот, кто забыл, что был осквернён, помолился и затем вспомнил",
+    "es": "Quien olvidó que estaba impuro, rezó y luego lo recordó",
+    "uk": "Той, хто забув, що був осквернений, помолився й потім згадав"
+  },
+  "summary": {
+    "ar": "من صلّى ناسياً أنه على غير طهارة — أصغر أو أكبر — ثم تذكّر بعد الصلاة، أتلزمه الإعادة؟",
+    "en": "One who prayed having forgotten he was without purity — minor or major — and remembered after the prayer: must he repeat it?",
+    "ru": "Тот, кто помолился, забыв, что был без чистоты — малой или большой, — и вспомнил после молитвы: обязан ли он повторить её?",
+    "es": "Quien rezó habiendo olvidado que carecía de pureza —menor o mayor— y lo recordó tras la oración: ¿debe repetirla?",
+    "uk": "Той, хто помолився, забувши, що був без чистоти — малої чи великої, — і згадав після молитви: чи мусить він повторити її?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "صلاته باطلة، وتلزمه إعادتها بعد التطهّر، تذكّر في الوقت أو بعده، لأن الطهارة شرط لا يسقط بالنسيان.",
+        "en": "His prayer is void, and he must repeat it after purifying — whether he remembered within the time or after it — since purity is a condition that forgetfulness does not lift.",
+        "ru": "Его молитва недействительна, и он обязан повторить её после очищения — вспомнил ли он в отведённое время или после, — ибо чистота есть условие, которого забывчивость не снимает.",
+        "es": "Su oración es nula y debe repetirla tras purificarse, tanto si lo recordó dentro del tiempo como después, pues la pureza es una condición que el olvido no levanta.",
+        "uk": "Його молитва недійсна, і він зобов'язаний повторити її після очищення — чи згадав він у відведений час, чи після, — бо чистота є умовою, якої забудькуватість не знімає."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "صلاته باطلة، وتلزمه إعادتها متى تذكّر ولو بعد خروج الوقت، لأن طهارة الحدث شرط صحّة لا يسقط بالنسيان.",
+        "en": "His prayer is void, and he must repeat it whenever he remembers, even after the time has passed, since purity from impurity is a condition of validity that forgetfulness does not lift.",
+        "ru": "Его молитва недействительна, и он обязан повторить её, когда бы ни вспомнил, даже по истечении времени, ибо чистота от осквернения есть условие действительности, которого забывчивость не снимает.",
+        "es": "Su oración es nula y debe repetirla cuando lo recuerde, aunque haya pasado el tiempo, pues la pureza de la impureza es una condición de validez que el olvido no levanta.",
+        "uk": "Його молитва недійсна, і він зобов'язаний повторити її, коли б не згадав, навіть після закінчення часу, бо чистота від осквернення є умовою дійсності, якої забудькуватість не знімає."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "صلاته باطلة، ويلزمه قضاؤها متى تذكّر، لقوله ﷺ: «لا تُقبل صلاة بغير طهور»؛ والنسيان يُسقط الإثم ولا يُصحّح الصلاة.",
+        "en": "His prayer is void, and he must make it up whenever he remembers, on the strength of his saying ﷺ: “No prayer is accepted without purity”; forgetfulness lifts the sin but does not make the prayer valid.",
+        "ru": "Его молитва недействительна, и он обязан восполнить её, когда бы ни вспомнил, согласно его словам ﷺ: «Не принимается молитва без очищения»; забывчивость снимает грех, но не делает молитву действительной.",
+        "es": "Su oración es nula y debe recuperarla cuando lo recuerde, por su dicho ﷺ: «No se acepta oración sin pureza»; el olvido levanta el pecado pero no hace válida la oración.",
+        "uk": "Його молитва недійсна, і він зобов'язаний відшкодувати її, коли б не згадав, згідно з його словами ﷺ: «Не приймається молитва без очищення»; забудькуватість знімає гріх, але не робить молитву дійсною."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "صلاته باطلة، وتلزمه إعادتها متى تذكّر، لقوله ﷺ: «من نسي صلاةً أو نام عنها فليصلّها إذا ذكرها»؛ والشرط لا يسقط بالنسيان.",
+        "en": "His prayer is void, and he must repeat it whenever he remembers, on the strength of his saying ﷺ: “Whoever forgets a prayer or sleeps through it, let him pray it when he remembers it”; a condition is not lifted by forgetfulness.",
+        "ru": "Его молитва недействительна, и он обязан повторить её, когда бы ни вспомнил, согласно его словам ﷺ: «Кто забыл молитву или проспал её, пусть совершит её, когда вспомнит»; условие не снимается забывчивостью.",
+        "es": "Su oración es nula y debe repetirla cuando lo recuerde, por su dicho ﷺ: «Quien olvide una oración o se duerma sin hacerla, que la rece cuando la recuerde»; una condición no se levanta por olvido.",
+        "uk": "Його молитва недійсна, і він зобов'язаний повторити її, коли б не згадав, згідно з його словами ﷺ: «Хто забув молитву або проспав її, хай здійснить її, коли згадає»; умова не знімається забудькуватістю."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

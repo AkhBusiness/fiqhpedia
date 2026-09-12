@@ -1,0 +1,157 @@
+{
+  "ref": "F96",
+  "id": "taharah-51",
+  "bookId": "taharah",
+  "seq": 2,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "سنّ البلوغ وسنّ اليأس",
+    "en": "The Age of Maturity and the Age of Menopause",
+    "ru": "Возраст совершеннолетия и возраст менопаузы",
+    "es": "La edad de madurez y la edad de la menopausia",
+    "uk": "Вік повноліття та вік менопаузи"
+  },
+  "summary": {
+    "ar": "متى يُحكم بالبلوغ بالسنّ إذا لم تظهر علاماته، ومتى تبلغ المرأة سنّ اليأس فينقطع حكم الحيض؟",
+    "en": "At what age is maturity reckoned when its signs have not appeared, and at what age does a woman reach menopause so that the rulings of menstruation cease?",
+    "ru": "В каком возрасте устанавливается совершеннолетие, если его признаки не появились, и в каком возрасте женщина достигает менопаузы, так что постановления менструации прекращаются?",
+    "es": "¿A qué edad se considera alcanzada la madurez si no han aparecido sus signos, y a qué edad llega la mujer a la menopausia de modo que cesan las normas de la menstruación?",
+    "uk": "У якому віці встановлюється повноліття, якщо його ознаки не з'явилися, і в якому віці жінка досягає менопаузи, так що постанови менструації припиняються?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يُحكم بالبلوغ بتمام خمس عشرة سنة للذكر والأنثى، وسنّ اليأس تمام خمس وخمسين سنة.",
+        "en": "Maturity is reckoned at the completion of fifteen years for male and female alike, and the age of menopause is the completion of fifty-five years.",
+        "ru": "Совершеннолетие устанавливается по достижении полных пятнадцати лет для мужчины и женщины, а возраст менопаузы — полные пятьдесят пять лет.",
+        "es": "La madurez se considera alcanzada al cumplir quince años, tanto el varón como la mujer, y la edad de la menopausia es al cumplir cincuenta y cinco años.",
+        "uk": "Повноліття встановлюється після повних п'ятнадцяти років для чоловіка й жінки, а вік менопаузи — повні п'ятдесят п'ять років."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يُحكم بالبلوغ بتمام ثماني عشرة سنة للذكر والأنثى، وسنّ اليأس لا يُضبط بعددٍ حتماً بل يُرجع فيه إلى عادة النساء، وما بعد السبعين يأسٌ قطعاً.",
+        "en": "Maturity is reckoned at the completion of eighteen years for male and female alike; the age of menopause is not fixed by a set number but referred to the custom of women, and beyond seventy it is menopause beyond doubt.",
+        "ru": "Совершеннолетие устанавливается по достижении полных восемнадцати лет для мужчины и женщины; возраст же менопаузы не ограничен определённым числом, а определяется по обыкновению женщин, а после семидесяти это менопауза без сомнения.",
+        "es": "La madurez se considera alcanzada al cumplir dieciocho años, tanto el varón como la mujer; la edad de la menopausia no se fija con un número, sino que se remite a la costumbre de las mujeres, y pasados los setenta es menopausia sin duda.",
+        "uk": "Повноліття встановлюється після повних вісімнадцяти років для чоловіка й жінки; вік же менопаузи не обмежений певним числом, а визначається за звичаєм жінок, а після сімдесяти це менопауза без сумніву."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يُحكم بالبلوغ باستكمال خمس عشرة سنة قمرية للذكر والأنثى، وأمّا الحيض فلا حدّ لآخره ما دام الدم بصفاته، وغالبه إلى نحو الخمسين.",
+        "en": "Maturity is reckoned at the completion of fifteen lunar years for male and female alike; as for menstruation, it has no fixed end so long as the blood bears its characteristics, though it usually continues to about fifty.",
+        "ru": "Совершеннолетие устанавливается по завершении пятнадцати лунных лет для мужчины и женщины; менструация же не имеет установленного конца, пока кровь сохраняет свои признаки, хотя обычно она длится примерно до пятидесяти.",
+        "es": "La madurez se considera alcanzada al completar quince años lunares, tanto el varón como la mujer; la menstruación, en cambio, no tiene un final fijo mientras la sangre conserve sus características, aunque por lo común dura hasta cerca de los cincuenta.",
+        "uk": "Повноліття встановлюється після завершення п'ятнадцяти місячних років для чоловіка й жінки; менструація ж не має встановленого кінця, поки кров зберігає свої ознаки, хоча зазвичай вона триває приблизно до п'ятдесяти."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُحكم بالبلوغ بتمام خمس عشرة سنة للذكر والأنثى، وسنّ اليأس تمام خمسين سنة، فما رأته بعدها من دم فهو دم فساد لا حيض.",
+        "en": "Maturity is reckoned at the completion of fifteen years for male and female alike, and the age of menopause is the completion of fifty years; whatever blood she sees after that is irregular bleeding, not menstruation.",
+        "ru": "Совершеннолетие устанавливается по достижении полных пятнадцати лет для мужчины и женщины, а возраст менопаузы — полные пятьдесят лет; кровь, которую она видит после этого, — это кровь недуга, а не менструация.",
+        "es": "La madurez se considera alcanzada al cumplir quince años, tanto el varón como la mujer, y la edad de la menopausia es al cumplir cincuenta años; la sangre que vea después es sangre de trastorno, no menstruación.",
+        "uk": "Повноліття встановлюється після повних п'ятнадцяти років для чоловіка й жінки, а вік менопаузи — повні п'ятдесят років; кров, яку вона бачить після цього, — це кров недуги, а не менструація."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

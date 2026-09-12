@@ -1,0 +1,161 @@
+{
+  "ref": "F97",
+  "id": "taharah-52",
+  "bookId": "taharah",
+  "seq": 15,
+  "chapter": {
+    "ar": "باب الحيض والنفاس",
+    "en": "Chapter on Menstruation and Post-natal Bleeding",
+    "ru": "Раздел о менструации и послеродовом кровотечении",
+    "es": "Capítulo sobre la menstruación y los loquios",
+    "uk": "Розділ про менструацію та післяпологову кровотечу"
+  },
+  "title": {
+    "ar": "متى تستأنف المرأة الصلاة والصوم بعد الطهر",
+    "en": "When a Woman Resumes Prayer and Fasting After Becoming Pure",
+    "ru": "Когда женщина возобновляет молитву и пост после очищения",
+    "es": "Cuándo reanuda la mujer la oración y el ayuno tras purificarse",
+    "uk": "Коли жінка відновлює молитву та піст після очищення"
+  },
+  "summary": {
+    "ar": "بمجرّد انقطاع الدم، متى تستأنف الصلاة ومتى تستأنف الصوم، وهل يُشترط الغسل لهما على السواء؟",
+    "en": "Once the bleeding has stopped, when does she resume prayer and when fasting — and is the full bath a condition for both alike?",
+    "ru": "Как только кровь прекратилась, когда она возобновляет молитву и когда пост, и является ли полное омовение условием для обоих в равной мере?",
+    "es": "Una vez cesada la sangre, ¿cuándo reanuda la oración y cuándo el ayuno, y es el baño ritual condición para ambos por igual?",
+    "uk": "Щойно кров припинилася, коли вона відновлює молитву й коли піст, і чи є повне обмивання умовою для обох однаково?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر، ولا يُشترط له الغسل إن كان الانقطاع لتمام العشرة، فإن كان لدونها فيُشترط أن يبقى من الليل ما يسع الغسل والتحريمة. وأمّا الصلاة فلا تستأنفها إلا بعد الغسل، أو التيمم عند العجز.",
+        "en": "She resumes fasting once the bleeding stops before dawn, and the bath is not a condition for it if the stop came at the full ten days; if earlier, enough of the night must remain for the bath and the opening takbīr. Prayer, however, she resumes only after the bath, or dry ablution when unable.",
+        "ru": "Она возобновляет пост с прекращением крови до рассвета, и омовение не является условием, если прекращение пришлось на полные десять дней; если раньше, должно остаться ночи на омовение и вступительный такбир. Молитву же она возобновляет лишь после омовения или таяммума при неспособности.",
+        "es": "Reanuda el ayuno al cesar la sangre antes del alba, sin que el baño sea condición si el cese ocurrió a los diez días completos; si antes, debe quedar de la noche lo suficiente para el baño y el takbīr de apertura. La oración, en cambio, la reanuda solo tras el baño, o el tayammum si no puede.",
+        "uk": "Вона відновлює піст із припиненням крові до світанку, і обмивання не є умовою, якщо припинення припало на повні десять днів; якщо раніше, має лишитися ночі на обмивання та вступний такбір. Молитву ж вона відновлює лише після обмивання або таяммуму за нездатності."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تستأنف الصوم بمجرّد رؤية الطهر قبل الفجر ولا يُشترط له الغسل، وتستأنف الصلاة بالطهر لكن يتوقّف أداؤها على الغسل، فإن ضاق الوقت اغتسلت وصلّت فوراً.",
+        "en": "She resumes fasting as soon as she sees the sign of purity before dawn, with no bath required for it; she resumes prayer upon purity, but its performance waits on the bath, and if the time is short she bathes and prays at once.",
+        "ru": "Она возобновляет пост, как только увидит признак чистоты до рассвета, без омовения; молитву она возобновляет с очищением, но её совершение ждёт омовения, и если времени мало, она омывается и молится тотчас.",
+        "es": "Reanuda el ayuno en cuanto ve la señal de pureza antes del alba, sin que se requiera baño; reanuda la oración con la pureza, pero su realización aguarda al baño, y si el tiempo apremia se baña y reza de inmediato.",
+        "uk": "Вона відновлює піст, щойно побачить ознаку чистоти до світанку, без обмивання; молитву вона відновлює з очищенням, але її здійснення чекає на обмивання, і якщо часу мало, вона обмивається й молиться негайно."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر مع النية ولو أخّرت الغسل، ويستقرّ عليها وجوب الصلاة بالطهر إن بقي من الوقت قدر ركعة، وتصلّي فور الغسل.",
+        "en": "She resumes fasting once the bleeding stops before dawn, with the intention, even if she delays the bath; the obligation of prayer settles upon her at purity if a unit's worth of the time remains, and she prays as soon as she has bathed.",
+        "ru": "Она возобновляет пост с прекращением крови до рассвета при наличии намерения, даже если отложит омовение; обязанность молитвы утверждается на ней с очищением, если осталось времени на один ракаат, и она молится сразу после омовения.",
+        "es": "Reanuda el ayuno al cesar la sangre antes del alba, con la intención, aunque retrase el baño; la obligación de la oración recae sobre ella con la pureza si queda del tiempo lo de un rakʿah, y reza en cuanto se ha bañado.",
+        "uk": "Вона відновлює піст із припиненням крові до світанку за наявності наміру, навіть якщо відкладе обмивання; обов'язок молитви утверджується на ній з очищенням, якщо лишилося часу на один ракаат, і вона молиться одразу після обмивання."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تستأنف الصوم بالطهر قبل الفجر مع النية ولا يضرّ تأخير الغسل كالجنب، وتجب عليها الصلاة بالطهر إن بقي من الوقت قدر ركعة، وعليها المبادرة بالغسل لتؤدّيها في وقتها.",
+        "en": "She resumes fasting upon purity before dawn, with the intention, and delaying the bath does no harm — as with one in major impurity; prayer becomes due upon purity if a unit's worth of the time remains, and she must hasten to bathe so as to pray within the time.",
+        "ru": "Она возобновляет пост с очищением до рассвета при наличии намерения, и отсрочка омовения не вредит — как у находящегося в большом осквернении; молитва становится обязательной с очищением, если осталось времени на один ракаат, и ей надлежит поспешить с омовением, чтобы совершить её вовремя.",
+        "es": "Reanuda el ayuno con la pureza antes del alba, con la intención, y retrasar el baño no perjudica, como en el caso de quien está en impureza mayor; la oración le es obligatoria con la pureza si queda del tiempo lo de un rakʿah, y debe apresurarse a bañarse para rezar en su tiempo.",
+        "uk": "Вона відновлює піст з очищенням до світанку за наявності наміру, і відкладення обмивання не шкодить — як у того, хто в великому оскверненні; молитва стає обов'язковою з очищенням, якщо лишилося часу на один ракаат, і їй належить поспішити з обмиванням, щоб здійснити її вчасно."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
