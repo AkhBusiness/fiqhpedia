@@ -1,0 +1,166 @@
+{
+  "ref": "F103",
+  "addedAt": "2026-09-15",
+  "id": "taharah-58",
+  "bookId": "taharah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "نية التيمم وهل يرفع الحدث أم يبيح الصلاة",
+    "en": "The Intention for the Dry Ablution: Does It Lift Impurity or Only Permit the Prayer?",
+    "ru": "Намерение для таяммума: снимает ли он осквернение или лишь дозволяет молитву?",
+    "es": "La intención del tayammum: ¿levanta la impureza o solo permite la oración?",
+    "uk": "Намір для таяммуму: чи знімає він осквернення, чи лише дозволяє молитву?"
+  },
+  "summary": {
+    "ar": "بماذا يَنوي المتيمّم، وهل تيممه يرفع الحدث كالوضوء أم يبيح له الصلاة والحدث باقٍ؟",
+    "en": "What does one intend in the dry ablution, and does it lift impurity as the ablution does, or merely permit the prayer while the impurity remains?",
+    "ru": "Что намеревается совершающий таяммум, и снимает ли он осквернение, как омовение, или лишь дозволяет молитву, а осквернение остаётся?",
+    "es": "¿Qué intención se hace en el tayammum, y levanta la impureza como la ablución, o solo permite la oración quedando la impureza?",
+    "uk": "Що має на увазі той, хто здійснює таяммум, і чи знімає він осквернення, як омивання, чи лише дозволяє молитву, а осквернення лишається?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "التيمم يرفع الحدث ما دام العذر قائماً، فينوي به الطهارة من الحدث أو استباحة الصلاة، ويصلّي به ما شاء من الفرائض والنوافل.",
+        "en": "The dry ablution lifts the impurity so long as the excuse remains; he intends by it purification from impurity or the permitting of prayer, and with it he prays whatever obligatory and voluntary prayers he wishes.",
+        "ru": "Таяммум снимает осквернение, пока сохраняется причина; им намереваются очищение от осквернения или дозволение молитвы, и с ним совершают любые обязательные и добровольные молитвы.",
+        "es": "El tayammum levanta la impureza mientras subsista la excusa; con él se intenta la purificación de la impureza o la licitud de la oración, y con él reza cuantas oraciones obligatorias y voluntarias quiera.",
+        "uk": "Таяммум знімає осквернення, поки зберігається причина; ним мають намір очищення від осквернення або дозволення молитви, і з ним здійснюють будь-які обов'язкові та добровільні молитви."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "التيمم مبيح للصلاة لا رافع للحدث، فلا تصحّ نية رفع الحدث، بل ينوي استباحة الصلاة أو ما منعه الحدث.",
+        "en": "The dry ablution permits the prayer and does not lift the impurity; the intention of lifting impurity is therefore not valid, and he intends instead the permitting of the prayer or of what the impurity barred.",
+        "ru": "Таяммум дозволяет молитву и не снимает осквернение; поэтому намерение снять осквернение недействительно, а намереваются дозволение молитвы или того, что осквернение запретило.",
+        "es": "El tayammum permite la oración y no levanta la impureza; por ello la intención de levantar la impureza no es válida, sino que se intenta la licitud de la oración o de lo que la impureza vedaba.",
+        "uk": "Таяммум дозволяє молитву і не знімає осквернення; тому намір зняти осквернення недійсний, а мають намір дозволення молитви або того, що осквернення заборонило."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "التيمم مبيح للصلاة لا رافع للحدث، فينوي استباحة فرض الصلاة ليصلّي فرضاً واحداً وما شاء من النوافل، ولا تصحّ نية رفع الحدث.",
+        "en": "The dry ablution permits the prayer and does not lift the impurity; he intends the permitting of an obligatory prayer, so as to pray one obligatory prayer and whatever voluntary prayers he wishes, and the intention of lifting impurity is not valid.",
+        "ru": "Таяммум дозволяет молитву и не снимает осквернение; намереваются дозволение обязательной молитвы, чтобы совершить одну обязательную и любые добровольные, а намерение снять осквернение недействительно.",
+        "es": "El tayammum permite la oración y no levanta la impureza; se intenta la licitud de una oración obligatoria, para rezar una obligatoria y cuantas voluntarias quiera, y la intención de levantar la impureza no es válida.",
+        "uk": "Таяммум дозволяє молитву і не знімає осквернення; мають намір дозволення обов'язкової молитви, щоб здійснити одну обов'язкову й будь-які добровільні, а намір зняти осквернення недійсний."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "shart",
+      "text": {
+        "ar": "التيمم مبيح للصلاة والحدث باقٍ، فينوي استباحة الصلاة أو عبادةٍ تفتقر إلى طهارة، ولو نوى رفع الحدث لم يصحّ تيممه.",
+        "en": "The dry ablution permits the prayer while the impurity remains; he intends the permitting of the prayer, or of an act of worship that requires purity — and if he intends the lifting of impurity, his dry ablution is not valid.",
+        "ru": "Таяммум дозволяет молитву, а осквернение остаётся; намереваются дозволение молитвы или поклонения, требующего чистоты, — и если намереваются снять осквернение, таяммум недействителен.",
+        "es": "El tayammum permite la oración quedando la impureza; se intenta la licitud de la oración o de un acto de culto que requiera pureza —y si se intenta levantar la impureza, el tayammum no es válido.",
+        "uk": "Таяммум дозволяє молитву, а осквернення лишається; мають намір дозволення молитви або поклоніння, що вимагає чистоти, — і якщо мають намір зняти осквернення, таяммум недійсний."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "ref": "F101",
+  "addedAt": "2026-09-15",
+  "id": "taharah-56",
+  "bookId": "taharah",
+  "seq": 2,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "ما يصحّ التيمم به من التراب وما تصاعد على وجه الأرض",
+    "en": "What the Dry Ablution May Be Performed With: Earth and What Lies on Its Surface",
+    "ru": "Чем можно совершать таяммум: земля и то, что находится на её поверхности",
+    "es": "Con qué es válido el tayammum: la tierra y lo que se halla en su superficie",
+    "uk": "Чим можна здійснювати таяммум: земля і те, що лежить на її поверхні"
+  },
+  "summary": {
+    "ar": "أيُشترط في التيمم التراب الذي له غبار، أم يصحّ بكلّ ما كان من جنس الأرض كالرمل والحجر؟",
+    "en": "Must the dry ablution be with earth that carries dust, or is it valid with anything of the earth's kind, such as sand and stone?",
+    "ru": "Требуется ли для таяммума земля, несущая пыль, или он действителен со всем, что относится к роду земли, — песком и камнем?",
+    "es": "¿Se requiere para el tayammum tierra que lleve polvo, o es válido con todo lo que sea del género de la tierra, como la arena y la piedra?",
+    "uk": "Чи потрібна для таяммуму земля, що несе пил, чи він дійсний з усім, що належить до роду землі, — піском і каменем?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ التيمم بكلّ ما كان من جنس الأرض طاهراً — كالتراب والرمل والحجر والجصّ — سواء كان عليه غبار أم لا.",
+        "en": "The dry ablution is valid with anything pure of the earth's kind — earth, sand, stone, gypsum — whether it carries dust or not.",
+        "ru": "Таяммум действителен со всем чистым, что относится к роду земли, — землёй, песком, камнем, гипсом, — несёт оно пыль или нет.",
+        "es": "El tayammum es válido con todo lo puro del género de la tierra —tierra, arena, piedra, yeso—, lleve polvo o no.",
+        "uk": "Таяммум дійсний з усім чистим, що належить до роду землі, — землею, піском, каменем, гіпсом, — несе воно пил чи ні."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصحّ التيمم بكلّ ما تصاعد على وجه الأرض ممّا هو من جنسها ولم تُغيّره صناعة — كالتراب والرمل والحصى والحجارة — ولا يُشترط الغبار.",
+        "en": "The dry ablution is valid with anything lying on the surface of the earth that is of its kind and unaltered by manufacture — earth, sand, gravel, stones — and dust is not required.",
+        "ru": "Таяммум действителен со всем, что лежит на поверхности земли, относится к её роду и не изменено производством, — землёй, песком, галькой, камнями, — и пыль не требуется.",
+        "es": "El tayammum es válido con todo lo que se halla en la superficie de la tierra, siendo de su género y no alterado por manufactura —tierra, arena, grava, piedras—, y no se requiere polvo.",
+        "uk": "Таяммум дійсний з усім, що лежить на поверхні землі, належить до її роду й не змінене виробництвом, — землею, піском, галькою, камінням, — і пил не потрібен."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "mubah",
+      "text": {
+        "ar": "لا يصحّ التيمم إلا بالتراب الطاهر الخالص الذي له غبار يعلق باليد، فلا يصحّ بالحجر الأملس ولا بالرمل الذي لا غبار فيه.",
+        "en": "The dry ablution is valid only with pure unmixed earth carrying dust that clings to the hand; it is not valid with smooth stone, nor with sand that carries no dust.",
+        "ru": "Таяммум действителен только с чистой несмешанной землёй, несущей пыль, которая пристаёт к руке; он недействителен с гладким камнем и с песком, не несущим пыли.",
+        "es": "El tayammum solo es válido con tierra pura y sin mezcla que lleve polvo adherente a la mano; no es válido con piedra lisa ni con arena sin polvo.",
+        "uk": "Таяммум дійсний лише з чистою незмішаною землею, що несе пил, який пристає до руки; він недійсний з гладким каменем і з піском без пилу."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يُشترط أن يكون التيمم بتراب طاهر له غبار يعلق باليد، لقوله تعالى: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ﴾ سورة المائدة: ٦.",
+        "en": "It is a condition that the dry ablution be with pure earth carrying dust that clings to the hand — Sūrat al-Māʾidah, verse 6.",
+        "ru": "Условием является то, чтобы таяммум совершался чистой землёй, несущей пыль, которая пристаёт к руке, — сура «аль-Маида», аят 6.",
+        "es": "Es condición que el tayammum sea con tierra pura que lleve polvo adherente a la mano — sura al-Māʾidah, aleya 6.",
+        "uk": "Умовою є те, щоб таяммум здійснювався чистою землею, що несе пил, який пристає до руки, — сура «аль-Маїда», аят 6."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

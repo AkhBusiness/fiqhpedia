@@ -1,0 +1,166 @@
+{
+  "ref": "F102",
+  "addedAt": "2026-09-15",
+  "id": "taharah-57",
+  "bookId": "taharah",
+  "seq": 3,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "صفة التيمم وعدد ضرباته",
+    "en": "The Form of the Dry Ablution and How Many Strikes It Takes",
+    "ru": "Форма таяммума и число ударов в нём",
+    "es": "La forma del tayammum y el número de golpes en él",
+    "uk": "Форма таяммуму та кількість ударів у ньому"
+  },
+  "summary": {
+    "ar": "كم ضربةً يُضرب على الأرض في التيمم، وإلى أين يمسح اليدين: إلى الكوعين أم إلى المرفقين؟",
+    "en": "How many strikes on the earth does the dry ablution take, and how far are the arms wiped — to the wrists or to the elbows?",
+    "ru": "Сколько ударов о землю совершается в таяммуме и докуда протираются руки — до запястий или до локтей?",
+    "es": "¿Cuántos golpes en la tierra lleva el tayammum, y hasta dónde se pasan las manos: hasta las muñecas o hasta los codos?",
+    "uk": "Скільки ударів об землю здійснюється в таяммумі й доки протираються руки — до зап'ястків чи до ліктів?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "التيمم ضربتان: ضربة يمسح بها وجهه كلّه، وضربة يمسح بها يديه مع المرفقين، وكلتاهما فرض.",
+        "en": "The dry ablution is two strikes: one with which he wipes his whole face, and one with which he wipes his arms including the elbows; both are obligatory.",
+        "ru": "Таяммум — это два удара: один, которым он протирает всё лицо, и один, которым протирает руки вместе с локтями; оба обязательны.",
+        "es": "El tayammum son dos golpes: uno con el que se pasa por todo el rostro y otro con el que se pasa por los brazos incluidos los codos; ambos son obligatorios.",
+        "uk": "Таяммум — це два удари: один, яким він протирає все обличчя, і один, яким протирає руки разом із ліктями; обидва обов'язкові."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "الفرض ضربة واحدة يمسح بها وجهه ويديه إلى الكوعين، وتُسنّ ضربة ثانية يمسح بها من الكوعين إلى المرفقين.",
+        "en": "What is obligatory is one strike with which he wipes his face and his hands to the wrists; a second strike, wiping from the wrists to the elbows, is a sunnah.",
+        "ru": "Обязателен один удар, которым он протирает лицо и кисти до запястий; второй удар, протирающий от запястий до локтей, — сунна.",
+        "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos hasta las muñecas; un segundo golpe, pasando de las muñecas a los codos, es sunnah.",
+        "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті до зап'ястків; другий удар, що протирає від зап'ястків до ліктів, — сунна."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "التيمم ضربتان لا يُجزئ أقلّ منهما: ضربة للوجه، وضربة لليدين مع المرفقين؛ ولا بدّ من نقل التراب بالضرب أو ما يقوم مقامه.",
+        "en": "The dry ablution is two strikes and no fewer: one for the face and one for the arms including the elbows; and the earth must be transferred by the strike or by what stands in its place.",
+        "ru": "Таяммум — это два удара, и меньшего не довольно: один для лица и один для рук вместе с локтями; и землю необходимо перенести ударом или тем, что его заменяет.",
+        "es": "El tayammum son dos golpes y no menos: uno para el rostro y otro para los brazos incluidos los codos; y la tierra debe transferirse con el golpe o con lo que ocupe su lugar.",
+        "uk": "Таяммум — це два удари, і меншого не досить: один для обличчя й один для рук разом із ліктями; і землю необхідно перенести ударом або тим, що його замінює."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "nature": "rukn",
+      "text": {
+        "ar": "الفرض ضربة واحدة يمسح بها وجهه وكفّيه، لحديث عمّار بن ياسر رضي الله عنه: «إنما كان يكفيك أن تضرب بيديك الأرض ثم تنفخ ثم تمسح بهما وجهك وكفّيك».",
+        "en": "What is obligatory is a single strike with which he wipes his face and his hands — on the strength of the hadith of ʿAmmār ibn Yāsir: “It would have sufficed you to strike the earth with your hands, then blow, then wipe your face and your hands with them.”",
+        "ru": "Обязателен один удар, которым он протирает лицо и кисти, — на основании хадиса Аммара ибн Ясира: «Тебе довольно было ударить руками о землю, затем подуть, затем протереть ими лицо и кисти».",
+        "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos, por el hadiz de ʿAmmār ibn Yāsir: «Te habría bastado golpear la tierra con las manos, luego soplar, luego pasarlas por el rostro y las manos».",
+        "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті, — на підставі хадиса Аммара ібн Ясіра: «Тобі досить було вдарити руками об землю, потім подмухати, потім протерти ними обличчя й кисті»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

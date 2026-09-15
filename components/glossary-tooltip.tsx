@@ -10,18 +10,51 @@ import { type GlossaryTerm, glossary, glossaryAnchor, type Lang, normalizeSearch
 
 /** Shared with the search box: one folding rule for the whole site, so a
  *  term highlighted inline is the same term the search box finds. */
-const normalize = normalizeSearch
+/**
+ * Search normalisation, plus the Arabic case endings that `normalizeSearch`
+ * keeps: a ruling writes طهوراً with its tanwīn, and the entry is الطهور.
+ */
+const normalize = (s: string) =>
+  normalizeSearch(s).replace(/[\u064B-\u0652]/g, "").replace(/[اًٌٍ]$/, "")
 
 /** Normalized surface form (any language) → glossary term. */
 const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
   const map: Record<string, GlossaryTerm> = {}
+  const add = (k: string, t: GlossaryTerm) => {
+    if (k.length >= 3 && !(k in map)) map[k] = t
+  }
+  // Full surface forms first, for every entry, so that a bare word never
+  // takes precedence over an entry whose own name it is: `الفرض` must find
+  // `fard`, not `fard-ayn`, however the entries happen to be ordered.
   for (const t of glossary) {
     for (const l of LANGS) {
-      map[normalize(t.term[l])] = t
+      add(normalize(t.term[l]), t)
+    }
+  }
+  for (const t of glossary) {
+    // The Arabic entry is written with its definite article — الطهور — while
+    // the rulings say طهور bare, or الطاهر as طاهر. Stripping the article
+    // only from the text was not enough: the index had nothing bare to meet
+    // it. Both the bare form and, for a compound entry, each of its words
+    // are indexed, so الفريضة والنافلة is found by either half.
+    for (const w of normalize(t.term.ar).split(/\s+و?/).filter(Boolean)) {
+      add(w, t)
+      if (w.startsWith("ال")) add(w.slice(2), t)
     }
   }
   return map
 })()
+
+/**
+ * Arabic verb forms of a term's root, for entries whose noun rarely appears
+ * as such. A ruling says تقضي and يقضي far more often than القضاء, and a
+ * reader meeting the verb needs the definition just as much.
+ */
+const AR_VERB_STEMS: Record<string, string> = {
+  qada: "قض",
+  taharri: "تحر",
+  tahur: "طهر",
+}
 
 /**
  * Cyrillic stem → term, for matching a declined form against a nominative
@@ -93,6 +126,15 @@ function matchToken(raw: string): GlossaryTerm | undefined {
     if (key.startsWith(p) && key.length - p.length >= 2) {
       const stripped = NORMALIZED_INDEX[key.slice(p.length)]
       if (stripped) return stripped
+    }
+  }
+  // Arabic verb forms: تقضي and يقضي point at القضاء.
+  if (/^[\u0621-\u064A]+$/.test(key) && key.length >= 4) {
+    for (const [id, stem] of Object.entries(AR_VERB_STEMS)) {
+      if (/^[يتنأ]/.test(key) && key.slice(1).startsWith(stem)) {
+        const term = glossary.find((t) => t.id === id)
+        if (term) return term
+      }
     }
   }
   // Cyrillic: match on the stem so a declined form still resolves.

@@ -9724,6 +9724,7 @@
       "ref": "F62",
       "bookId": "taharah",
       "number": 23,
+      "addedAt": "2026-09-08",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -9878,14 +9879,14 @@
           ],
           "grade": "wajib"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-30",
       "ref": "F63",
       "bookId": "taharah",
       "number": 24,
+      "addedAt": "2026-09-08",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10040,8 +10041,7 @@
           ],
           "grade": "wajib"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-28",
@@ -10206,6 +10206,7 @@
       "ref": "F64",
       "bookId": "taharah",
       "number": 26,
+      "addedAt": "2026-09-08",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10360,14 +10361,14 @@
           ],
           "grade": "sunnah"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-33",
       "ref": "F76",
       "bookId": "taharah",
       "number": 27,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10526,14 +10527,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-32",
       "ref": "F65",
       "bookId": "taharah",
       "number": 28,
+      "addedAt": "2026-09-08",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10692,14 +10693,14 @@
           "grade": "fard",
           "nature": "rukn"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-34",
       "ref": "F77",
       "bookId": "taharah",
       "number": 29,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -10858,14 +10859,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-35",
       "ref": "F78",
       "bookId": "taharah",
       "number": 30,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -11020,14 +11021,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-36",
       "ref": "F79",
       "bookId": "taharah",
       "number": 31,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -11184,14 +11185,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-37",
       "ref": "F80",
       "bookId": "taharah",
       "number": 32,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -11348,14 +11349,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-38",
       "ref": "F81",
       "bookId": "taharah",
       "number": 33,
+      "addedAt": "2026-09-11",
       "chapter": {
         "ar": "باب صفة الوضوء",
         "en": "Chapter on the Description of the Ablution",
@@ -11510,8 +11511,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-1",
@@ -11734,6 +11734,7 @@
       "ref": "F82",
       "bookId": "taharah",
       "number": 36,
+      "addedAt": "2026-09-11",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -11888,14 +11889,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-40",
       "ref": "F83",
       "bookId": "taharah",
       "number": 37,
+      "addedAt": "2026-09-11",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12050,14 +12051,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-41",
       "ref": "F84",
       "bookId": "taharah",
       "number": 38,
+      "addedAt": "2026-09-11",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12212,14 +12213,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-42",
       "ref": "F85",
       "bookId": "taharah",
       "number": 39,
+      "addedAt": "2026-09-11",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12374,14 +12375,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-53",
       "ref": "F98",
       "bookId": "taharah",
       "number": 40,
+      "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12536,14 +12537,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-54",
       "ref": "F99",
       "bookId": "taharah",
       "number": 41,
+      "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12698,14 +12699,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-55",
       "ref": "F100",
       "bookId": "taharah",
       "number": 42,
+      "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب نواقض الوضوء",
         "en": "Chapter of Ablution Nullifiers",
@@ -12860,14 +12861,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-43",
       "ref": "F86",
       "bookId": "taharah",
       "number": 43,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -13022,14 +13023,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-44",
       "ref": "F87",
       "bookId": "taharah",
       "number": 44,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -13188,14 +13189,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-45",
       "ref": "F88",
       "bookId": "taharah",
       "number": 45,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الغسل",
         "en": "Chapter on the Full Bath (Ghusl)",
@@ -13350,8 +13351,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-2",
@@ -13561,10 +13561,990 @@
       }
     },
     {
+      "id": "taharah-56",
+      "ref": "F101",
+      "bookId": "taharah",
+      "number": 48,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "ما يصحّ التيمم به من التراب وما تصاعد على وجه الأرض",
+        "en": "What the Dry Ablution May Be Performed With: Earth and What Lies on Its Surface",
+        "ru": "Чем можно совершать таяммум: земля и то, что находится на её поверхности",
+        "es": "Con qué es válido el tayammum: la tierra y lo que se halla en su superficie",
+        "uk": "Чим можна здійснювати таяммум: земля і те, що лежить на її поверхні"
+      },
+      "summary": {
+        "ar": "أيُشترط في التيمم التراب الذي له غبار، أم يصحّ بكلّ ما كان من جنس الأرض كالرمل والحجر؟",
+        "en": "Must the dry ablution be with earth that carries dust, or is it valid with anything of the earth's kind, such as sand and stone?",
+        "ru": "Требуется ли для таяммума земля, несущая пыль, или он действителен со всем, что относится к роду земли, — песком и камнем?",
+        "es": "¿Se requiere para el tayammum tierra que lleve polvo, o es válido con todo lo que sea del género de la tierra, como la arena y la piedra?",
+        "uk": "Чи потрібна для таяммуму земля, що несе пил, чи він дійсний з усім, що належить до роду землі, — піском і каменем?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ التيمم بكلّ ما كان من جنس الأرض طاهراً — كالتراب والرمل والحجر والجصّ — سواء كان عليه غبار أم لا.",
+            "en": "The dry ablution is valid with anything pure of the earth's kind — earth, sand, stone, gypsum — whether it carries dust or not.",
+            "ru": "Таяммум действителен со всем чистым, что относится к роду земли, — землёй, песком, камнем, гипсом, — несёт оно пыль или нет.",
+            "es": "El tayammum es válido con todo lo puro del género de la tierra —tierra, arena, piedra, yeso—, lleve polvo o no.",
+            "uk": "Таяммум дійсний з усім чистим, що належить до роду землі, — землею, піском, каменем, гіпсом, — несе воно пил чи ні."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصحّ التيمم بكلّ ما تصاعد على وجه الأرض ممّا هو من جنسها ولم تُغيّره صناعة — كالتراب والرمل والحصى والحجارة — ولا يُشترط الغبار.",
+            "en": "The dry ablution is valid with anything lying on the surface of the earth that is of its kind and unaltered by manufacture — earth, sand, gravel, stones — and dust is not required.",
+            "ru": "Таяммум действителен со всем, что лежит на поверхности земли, относится к её роду и не изменено производством, — землёй, песком, галькой, камнями, — и пыль не требуется.",
+            "es": "El tayammum es válido con todo lo que se halla en la superficie de la tierra, siendo de su género y no alterado por manufactura —tierra, arena, grava, piedras—, y no se requiere polvo.",
+            "uk": "Таяммум дійсний з усім, що лежить на поверхні землі, належить до її роду й не змінене виробництвом, — землею, піском, галькою, камінням, — і пил не потрібен."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "mubah",
+          "text": {
+            "ar": "لا يصحّ التيمم إلا بالتراب الطاهر الخالص الذي له غبار يعلق باليد، فلا يصحّ بالحجر الأملس ولا بالرمل الذي لا غبار فيه.",
+            "en": "The dry ablution is valid only with pure unmixed earth carrying dust that clings to the hand; it is not valid with smooth stone, nor with sand that carries no dust.",
+            "ru": "Таяммум действителен только с чистой несмешанной землёй, несущей пыль, которая пристаёт к руке; он недействителен с гладким камнем и с песком, не несущим пыли.",
+            "es": "El tayammum solo es válido con tierra pura y sin mezcla que lleve polvo adherente a la mano; no es válido con piedra lisa ni con arena sin polvo.",
+            "uk": "Таяммум дійсний лише з чистою незмішаною землею, що несе пил, який пристає до руки; він недійсний з гладким каменем і з піском без пилу."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يُشترط أن يكون التيمم بتراب طاهر له غبار يعلق باليد، لقوله تعالى: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ﴾ سورة المائدة: ٦.",
+            "en": "It is a condition that the dry ablution be with pure earth carrying dust that clings to the hand — Sūrat al-Māʾidah, verse 6.",
+            "ru": "Условием является то, чтобы таяммум совершался чистой землёй, несущей пыль, которая пристаёт к руке, — сура «аль-Маида», аят 6.",
+            "es": "Es condición que el tayammum sea con tierra pura que lleve polvo adherente a la mano — sura al-Māʾidah, aleya 6.",
+            "uk": "Умовою є те, щоб таяммум здійснювався чистою землею, що несе пил, який пристає до руки, — сура «аль-Маїда», аят 6."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-57",
+      "ref": "F102",
+      "bookId": "taharah",
+      "number": 49,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "صفة التيمم وعدد ضرباته",
+        "en": "The Form of the Dry Ablution and How Many Strikes It Takes",
+        "ru": "Форма таяммума и число ударов в нём",
+        "es": "La forma del tayammum y el número de golpes en él",
+        "uk": "Форма таяммуму та кількість ударів у ньому"
+      },
+      "summary": {
+        "ar": "كم ضربةً يُضرب على الأرض في التيمم، وإلى أين يمسح اليدين: إلى الكوعين أم إلى المرفقين؟",
+        "en": "How many strikes on the earth does the dry ablution take, and how far are the arms wiped — to the wrists or to the elbows?",
+        "ru": "Сколько ударов о землю совершается в таяммуме и докуда протираются руки — до запястий или до локтей?",
+        "es": "¿Cuántos golpes en la tierra lleva el tayammum, y hasta dónde se pasan las manos: hasta las muñecas o hasta los codos?",
+        "uk": "Скільки ударів об землю здійснюється в таяммумі й доки протираються руки — до зап'ястків чи до ліктів?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "التيمم ضربتان: ضربة يمسح بها وجهه كلّه، وضربة يمسح بها يديه مع المرفقين، وكلتاهما فرض.",
+            "en": "The dry ablution is two strikes: one with which he wipes his whole face, and one with which he wipes his arms including the elbows; both are obligatory.",
+            "ru": "Таяммум — это два удара: один, которым он протирает всё лицо, и один, которым протирает руки вместе с локтями; оба обязательны.",
+            "es": "El tayammum son dos golpes: uno con el que se pasa por todo el rostro y otro con el que se pasa por los brazos incluidos los codos; ambos son obligatorios.",
+            "uk": "Таяммум — це два удари: один, яким він протирає все обличчя, і один, яким протирає руки разом із ліктями; обидва обов'язкові."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "الفرض ضربة واحدة يمسح بها وجهه ويديه إلى الكوعين، وتُسنّ ضربة ثانية يمسح بها من الكوعين إلى المرفقين.",
+            "en": "What is obligatory is one strike with which he wipes his face and his hands to the wrists; a second strike, wiping from the wrists to the elbows, is a sunnah.",
+            "ru": "Обязателен один удар, которым он протирает лицо и кисти до запястий; второй удар, протирающий от запястий до локтей, — сунна.",
+            "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos hasta las muñecas; un segundo golpe, pasando de las muñecas a los codos, es sunnah.",
+            "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті до зап'ястків; другий удар, що протирає від зап'ястків до ліктів, — сунна."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "التيمم ضربتان لا يُجزئ أقلّ منهما: ضربة للوجه، وضربة لليدين مع المرفقين؛ ولا بدّ من نقل التراب بالضرب أو ما يقوم مقامه.",
+            "en": "The dry ablution is two strikes and no fewer: one for the face and one for the arms including the elbows; and the earth must be transferred by the strike or by what stands in its place.",
+            "ru": "Таяммум — это два удара, и меньшего не довольно: один для лица и один для рук вместе с локтями; и землю необходимо перенести ударом или тем, что его заменяет.",
+            "es": "El tayammum son dos golpes y no menos: uno para el rostro y otro para los brazos incluidos los codos; y la tierra debe transferirse con el golpe o con lo que ocupe su lugar.",
+            "uk": "Таяммум — це два удари, і меншого не досить: один для обличчя й один для рук разом із ліктями; і землю необхідно перенести ударом або тим, що його замінює."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "rukn",
+          "text": {
+            "ar": "الفرض ضربة واحدة يمسح بها وجهه وكفّيه، لحديث عمّار بن ياسر رضي الله عنه: «إنما كان يكفيك أن تضرب بيديك الأرض ثم تنفخ ثم تمسح بهما وجهك وكفّيك».",
+            "en": "What is obligatory is a single strike with which he wipes his face and his hands — on the strength of the hadith of ʿAmmār ibn Yāsir: “It would have sufficed you to strike the earth with your hands, then blow, then wipe your face and your hands with them.”",
+            "ru": "Обязателен один удар, которым он протирает лицо и кисти, — на основании хадиса Аммара ибн Ясира: «Тебе довольно было ударить руками о землю, затем подуть, затем протереть ими лицо и кисти».",
+            "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos, por el hadiz de ʿAmmār ibn Yāsir: «Te habría bastado golpear la tierra con las manos, luego soplar, luego pasarlas por el rostro y las manos».",
+            "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті, — на підставі хадиса Аммара ібн Ясіра: «Тобі досить було вдарити руками об землю, потім подмухати, потім протерти ними обличчя й кисті»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-58",
+      "ref": "F103",
+      "bookId": "taharah",
+      "number": 50,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "نية التيمم وهل يرفع الحدث أم يبيح الصلاة",
+        "en": "The Intention for the Dry Ablution: Does It Lift Impurity or Only Permit the Prayer?",
+        "ru": "Намерение для таяммума: снимает ли он осквернение или лишь дозволяет молитву?",
+        "es": "La intención del tayammum: ¿levanta la impureza o solo permite la oración?",
+        "uk": "Намір для таяммуму: чи знімає він осквернення, чи лише дозволяє молитву?"
+      },
+      "summary": {
+        "ar": "بماذا يَنوي المتيمّم، وهل تيممه يرفع الحدث كالوضوء أم يبيح له الصلاة والحدث باقٍ؟",
+        "en": "What does one intend in the dry ablution, and does it lift impurity as the ablution does, or merely permit the prayer while the impurity remains?",
+        "ru": "Что намеревается совершающий таяммум, и снимает ли он осквернение, как омовение, или лишь дозволяет молитву, а осквернение остаётся?",
+        "es": "¿Qué intención se hace en el tayammum, y levanta la impureza como la ablución, o solo permite la oración quedando la impureza?",
+        "uk": "Що має на увазі той, хто здійснює таяммум, і чи знімає він осквернення, як омивання, чи лише дозволяє молитву, а осквернення лишається?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "التيمم يرفع الحدث ما دام العذر قائماً، فينوي به الطهارة من الحدث أو استباحة الصلاة، ويصلّي به ما شاء من الفرائض والنوافل.",
+            "en": "The dry ablution lifts the impurity so long as the excuse remains; he intends by it purification from impurity or the permitting of prayer, and with it he prays whatever obligatory and voluntary prayers he wishes.",
+            "ru": "Таяммум снимает осквернение, пока сохраняется причина; им намереваются очищение от осквернения или дозволение молитвы, и с ним совершают любые обязательные и добровольные молитвы.",
+            "es": "El tayammum levanta la impureza mientras subsista la excusa; con él se intenta la purificación de la impureza o la licitud de la oración, y con él reza cuantas oraciones obligatorias y voluntarias quiera.",
+            "uk": "Таяммум знімає осквернення, поки зберігається причина; ним мають намір очищення від осквернення або дозволення молитви, і з ним здійснюють будь-які обов'язкові та добровільні молитви."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "التيمم مبيح للصلاة لا رافع للحدث، فلا تصحّ نية رفع الحدث، بل ينوي استباحة الصلاة أو ما منعه الحدث.",
+            "en": "The dry ablution permits the prayer and does not lift the impurity; the intention of lifting impurity is therefore not valid, and he intends instead the permitting of the prayer or of what the impurity barred.",
+            "ru": "Таяммум дозволяет молитву и не снимает осквернение; поэтому намерение снять осквернение недействительно, а намереваются дозволение молитвы или того, что осквернение запретило.",
+            "es": "El tayammum permite la oración y no levanta la impureza; por ello la intención de levantar la impureza no es válida, sino que se intenta la licitud de la oración o de lo que la impureza vedaba.",
+            "uk": "Таяммум дозволяє молитву і не знімає осквернення; тому намір зняти осквернення недійсний, а мають намір дозволення молитви або того, що осквернення заборонило."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "التيمم مبيح للصلاة لا رافع للحدث، فينوي استباحة فرض الصلاة ليصلّي فرضاً واحداً وما شاء من النوافل، ولا تصحّ نية رفع الحدث.",
+            "en": "The dry ablution permits the prayer and does not lift the impurity; he intends the permitting of an obligatory prayer, so as to pray one obligatory prayer and whatever voluntary prayers he wishes, and the intention of lifting impurity is not valid.",
+            "ru": "Таяммум дозволяет молитву и не снимает осквернение; намереваются дозволение обязательной молитвы, чтобы совершить одну обязательную и любые добровольные, а намерение снять осквернение недействительно.",
+            "es": "El tayammum permite la oración y no levanta la impureza; se intenta la licitud de una oración obligatoria, para rezar una obligatoria y cuantas voluntarias quiera, y la intención de levantar la impureza no es válida.",
+            "uk": "Таяммум дозволяє молитву і не знімає осквернення; мають намір дозволення обов'язкової молитви, щоб здійснити одну обов'язкову й будь-які добровільні, а намір зняти осквернення недійсний."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "nature": "shart",
+          "text": {
+            "ar": "التيمم مبيح للصلاة والحدث باقٍ، فينوي استباحة الصلاة أو عبادةٍ تفتقر إلى طهارة، ولو نوى رفع الحدث لم يصحّ تيممه.",
+            "en": "The dry ablution permits the prayer while the impurity remains; he intends the permitting of the prayer, or of an act of worship that requires purity — and if he intends the lifting of impurity, his dry ablution is not valid.",
+            "ru": "Таяммум дозволяет молитву, а осквернение остаётся; намереваются дозволение молитвы или поклонения, требующего чистоты, — и если намереваются снять осквернение, таяммум недействителен.",
+            "es": "El tayammum permite la oración quedando la impureza; se intenta la licitud de la oración o de un acto de culto que requiera pureza —y si se intenta levantar la impureza, el tayammum no es válido.",
+            "uk": "Таяммум дозволяє молитву, а осквернення лишається; мають намір дозволення молитви або поклоніння, що вимагає чистоти, — і якщо мають намір зняти осквернення, таяммум недійсний."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-59",
+      "ref": "F104",
+      "bookId": "taharah",
+      "number": 51,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "كم فرضاً يُصلّى بالتيمم الواحد",
+        "en": "How Many Obligatory Prayers May Be Prayed with One Dry Ablution",
+        "ru": "Сколько обязательных молитв можно совершить одним таяммумом",
+        "es": "Cuántas oraciones obligatorias pueden rezarse con un solo tayammum",
+        "uk": "Скільки обов'язкових молитов можна здійснити одним таяммумом"
+      },
+      "summary": {
+        "ar": "أيصلّي المتيمّم أكثر من فريضة بتيمّم واحد، أم يجدّد التيمم لكلّ فريضة؟",
+        "en": "May one pray more than one obligatory prayer with a single dry ablution, or must it be renewed for each?",
+        "ru": "Можно ли совершить более одной обязательной молитвы одним таяммумом, или его следует обновлять для каждой?",
+        "es": "¿Puede rezarse más de una oración obligatoria con un solo tayammum, o debe renovarse para cada una?",
+        "uk": "Чи можна здійснити більше однієї обов'язкової молитви одним таяммумом, чи його слід оновлювати для кожної?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يصلّي بتيمّمه ما شاء من الفرائض والنوافل، لأنه رافع للحدث، ولا يبطل إلا بناقض أو بالقدرة على الماء.",
+            "en": "With his dry ablution he prays whatever obligatory and voluntary prayers he wishes, since it lifts the impurity; it is void only by a nullifier or by his becoming able to use water.",
+            "ru": "Со своим таяммумом он совершает любые обязательные и добровольные молитвы, поскольку он снимает осквернение; он недействителен лишь при нарушителе или при возможности использовать воду.",
+            "es": "Con su tayammum reza cuantas oraciones obligatorias y voluntarias quiera, pues levanta la impureza; solo se anula por un anulador o por poder usar el agua.",
+            "uk": "Зі своїм таяммумом він здійснює будь-які обов'язкові та добровільні молитви, оскільки він знімає осквернення; він недійсний лише при порушнику або при можливості використати воду."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "لا يصلّي بالتيمم الواحد إلا فريضةً واحدة، ويتيمّم لكلّ مكتوبة، وله أن يصلّي معها ما تبعها من النوافل.",
+            "en": "With one dry ablution he prays only one obligatory prayer, and he performs it anew for each prescribed prayer; he may pray with it the voluntary prayers attached to that one.",
+            "ru": "Одним таяммумом он совершает лишь одну обязательную молитву и совершает его заново для каждой предписанной; вместе с ней он может совершить примыкающие к ней добровольные.",
+            "es": "Con un solo tayammum reza únicamente una oración obligatoria, y lo renueva para cada oración prescrita; con ella puede rezar las voluntarias que la acompañan.",
+            "uk": "Одним таяммумом він здійснює лише одну обов'язкову молитву і здійснює його наново для кожної приписаної; разом із нею він може здійснити прилеглі до неї добровільні."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "لا يجمع بين فريضتين بتيمّم واحد، بل يتيمّم لكلّ فريضة، وله أن يصلّي بتيمّمها ما شاء من النوافل قبلها وبعدها.",
+            "en": "He does not join two obligatory prayers on one dry ablution; he performs it for each obligatory prayer, and with it may pray whatever voluntary prayers he wishes before and after.",
+            "ru": "Он не объединяет две обязательные молитвы одним таяммумом, а совершает его для каждой обязательной, и с ним может совершить любые добровольные до и после неё.",
+            "es": "No junta dos oraciones obligatorias con un solo tayammum, sino que lo hace para cada obligatoria, y con él puede rezar cuantas voluntarias quiera antes y después.",
+            "uk": "Він не поєднує дві обов'язкові молитви одним таяммумом, а здійснює його для кожної обов'язкової, і з ним може здійснити будь-які добровільні до і після неї."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "التيمم مقيَّد بالوقت، فيصلّي به في الوقت ما شاء من الفرائض والنوافل، ويبطل بخروج وقت الصلاة التي تيمّم لها.",
+            "en": "The dry ablution is bound to the prayer time: within that time he prays with it whatever obligatory and voluntary prayers he wishes, and it is void once the time of the prayer he performed it for has gone.",
+            "ru": "Таяммум привязан ко времени молитвы: в пределах этого времени он совершает с ним любые обязательные и добровольные молитвы, и он недействителен по выходе времени той молитвы, для которой был совершён.",
+            "es": "El tayammum está ligado al tiempo de la oración: dentro de ese tiempo reza con él cuantas obligatorias y voluntarias quiera, y se anula al salir el tiempo de la oración para la que lo hizo.",
+            "uk": "Таяммум прив'язаний до часу молитви: у межах цього часу він здійснює з ним будь-які обов'язкові та добровільні молитви, і він недійсний після виходу часу тієї молитви, для якої був здійснений."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-60",
+      "ref": "F105",
+      "bookId": "taharah",
+      "number": 52,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "نواقض التيمم ومتى يبطل",
+        "en": "What Voids the Dry Ablution, and When",
+        "ru": "Что делает таяммум недействительным и когда",
+        "es": "Qué anula el tayammum y cuándo",
+        "uk": "Що робить таяммум недійсним і коли"
+      },
+      "summary": {
+        "ar": "ما الذي يبطل التيمم: نواقض الوضوء، ووجود الماء، وخروج الوقت؟",
+        "en": "What voids the dry ablution: the nullifiers of the ablution, the finding of water, and the passing of the prayer time?",
+        "ru": "Что делает таяммум недействительным: нарушители омовения, нахождение воды и выход времени молитвы?",
+        "es": "¿Qué anula el tayammum: los anuladores de la ablución, hallar agua y salir el tiempo de la oración?",
+        "uk": "Що робить таяммум недійсним: порушники омивання, знаходження води та вихід часу молитви?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبالقدرة على ماءٍ كافٍ، ولا يبطل بخروج وقت الصلاة.",
+            "en": "The dry ablution is voided by everything that breaks the ablution, and by becoming able to use sufficient water; it is not voided by the passing of the prayer time.",
+            "ru": "Таяммум становится недействительным от всего, что нарушает омовение, и от возможности использовать достаточную воду; он не становится недействительным от выхода времени молитвы.",
+            "es": "El tayammum se anula por todo lo que rompe la ablución y por poder usar agua suficiente; no se anula por salir el tiempo de la oración.",
+            "uk": "Таяммум стає недійсним від усього, що порушує омивання, і від можливості використати достатню воду; він не стає недійсним від виходу часу молитви."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبطل التيمم بنواقض الوضوء، وبوجود الماء قبل الدخول في الصلاة، وبطول الفصل بينه وبين الصلاة، وبأداء الفريضة التي تيمّم لها.",
+            "en": "The dry ablution is voided by the nullifiers of the ablution, by finding water before entering the prayer, by a long gap between it and the prayer, and by performing the obligatory prayer for which it was made.",
+            "ru": "Таяммум становится недействительным от нарушителей омовения, от нахождения воды до вступления в молитву, от длительного промежутка между ним и молитвой и от совершения той обязательной молитвы, для которой он был сделан.",
+            "es": "El tayammum se anula por los anuladores de la ablución, por hallar agua antes de entrar en la oración, por un largo intervalo entre él y la oración, y al realizar la oración obligatoria para la que se hizo.",
+            "uk": "Таяммум стає недійсним від порушників омивання, від знаходження води до вступу в молитву, від тривалого проміжку між ним і молитвою та від здійснення тієї обов'язкової молитви, для якої він був зроблений."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبرؤية الماء قبل الإحرام بالصلاة لمن تيمّم لفقده، وبالردّة.",
+            "en": "The dry ablution is voided by everything that breaks the ablution, by sighting water before entering the prayer for one who performed it for want of water, and by apostasy.",
+            "ru": "Таяммум становится недействительным от всего, что нарушает омовение, от вида воды до вступления в молитву для того, кто совершил его из-за её отсутствия, и от вероотступничества.",
+            "es": "El tayammum se anula por todo lo que rompe la ablución, por ver agua antes de entrar en la oración quien lo hizo por falta de ella, y por la apostasía.",
+            "uk": "Таяммум стає недійсним від усього, що порушує омивання, від вигляду води до вступу в молитву для того, хто здійснив його через її відсутність, і від віровідступництва."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "mubah",
+          "text": {
+            "ar": "يبطل التيمم بما ينقض الوضوء، وبوجود الماء أو زوال العذر، وبخروج وقت الصلاة التي تيمّم لها.",
+            "en": "The dry ablution is voided by what breaks the ablution, by the finding of water or the ceasing of the excuse, and by the passing of the time of the prayer for which it was made.",
+            "ru": "Таяммум становится недействительным от того, что нарушает омовение, от нахождения воды или прекращения причины и от выхода времени той молитвы, для которой он был сделан.",
+            "es": "El tayammum se anula por lo que rompe la ablución, por hallar agua o cesar la excusa, y por salir el tiempo de la oración para la que se hizo.",
+            "uk": "Таяммум стає недійсним від того, що порушує омивання, від знаходження води або припинення причини та від виходу часу тієї молитви, для якої він був зроблений."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-61",
+      "ref": "F106",
+      "bookId": "taharah",
+      "number": 53,
+      "addedAt": "2026-09-15",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "حدّ طلب الماء الواجب قبل التيمم",
+        "en": "How Far One Must Search for Water Before the Dry Ablution",
+        "ru": "Насколько далеко нужно искать воду перед таяммумом",
+        "es": "Hasta dónde debe buscarse agua antes del tayammum",
+        "uk": "Наскільки далеко треба шукати воду перед таяммумом"
+      },
+      "summary": {
+        "ar": "أيجب على فاقد الماء أن يطلبه قبل أن يتيمّم، وإلى أيّ حدّ يبلغ في طلبه؟",
+        "en": "Must one who has no water search for it before performing the dry ablution, and how far must the search reach?",
+        "ru": "Обязан ли не имеющий воды искать её перед таяммумом, и докуда должен доходить поиск?",
+        "es": "¿Debe quien carece de agua buscarla antes del tayammum, y hasta dónde ha de llegar la búsqueda?",
+        "uk": "Чи зобов'язаний той, хто не має води, шукати її перед таяммумом, і доки має сягати пошук?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "لا يجب طلب الماء إلا إذا غلب على ظنّه وجوده قريباً منه نحو ميل، فإن لم يغلب على ظنّه تيمّم من غير طلب.",
+            "en": "Searching for water is required only if he strongly supposes it to be near him, about a mile off; if he has no such supposition, he performs the dry ablution without searching.",
+            "ru": "Поиск воды обязателен лишь тогда, когда он с преобладающим предположением считает её близкой — примерно на расстоянии мили; если такого предположения нет, он совершает таяммум без поиска.",
+            "es": "Buscar agua solo es obligatorio si presume con fuerza que está cerca de él, a cosa de una milla; si no tiene tal presunción, hace el tayammum sin buscar.",
+            "uk": "Пошук води обов'язковий лише тоді, коли він із переважним припущенням вважає її близькою — приблизно за милю; якщо такого припущення немає, він здійснює таяммум без пошуку."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "إن تيقّن عدم الماء لم يطلبه، وإن شكّ وجب الطلب فيما قرب منه، وإن تيقّن وجوده وجب طلبه ما لم يخرج الوقت أو يخف على نفسه.",
+            "en": "If he is certain there is no water, he does not search; if he is in doubt, he must search what is near him; and if he is certain it is there, he must go for it, so long as the prayer time does not run out and he does not fear for himself.",
+            "ru": "Если он уверен, что воды нет, он не ищет; если сомневается, обязан искать вблизи себя; а если уверен в её наличии, обязан идти за ней, пока не выйдет время молитвы и пока не опасается за себя.",
+            "es": "Si tiene certeza de que no hay agua, no busca; si duda, debe buscar en lo cercano; y si tiene certeza de que la hay, debe ir por ella, mientras no salga el tiempo de la oración ni tema por sí mismo.",
+            "uk": "Якщо він упевнений, що води немає, він не шукає; якщо сумнівається, зобов'язаний шукати поблизу себе; а якщо впевнений у її наявності, зобов'язаний іти по неї, поки не вийде час молитви й поки не боїться за себе."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يجب الطلب بعد دخول الوقت بنفسه أو بمن يأذن له: في حدّ الغوث — وهو ما يبلغه الصوت — ثم في حدّ القرب إن أمِن على نفسه وماله.",
+            "en": "The search is required once the prayer time has come in, by himself or by someone he authorises: within the reach of a call — as far as a voice carries — and then within the nearer distance, if he is safe as to himself and his property.",
+            "ru": "Поиск обязателен после наступления времени молитвы — лично или через того, кому он поручит: в пределах зова, куда доносится голос, а затем в пределах ближней округи, если он в безопасности за себя и своё имущество.",
+            "es": "La búsqueda es obligatoria una vez entrado el tiempo de la oración, por sí mismo o por quien autorice: dentro del alcance de la llamada —hasta donde llega la voz— y luego en la cercanía, si está seguro respecto de sí y de sus bienes.",
+            "uk": "Пошук обов'язковий після настання часу молитви — особисто або через того, кому він доручить: у межах поклику, куди доноситься голос, а потім у межах ближньої округи, якщо він у безпеці щодо себе та свого майна."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يجب طلب الماء في رحله وعند رفقته وفيما قرب منه عرفاً، فإن لم يجد أو خاف خروج الوقت أو الضرر تيمّم ولا يلزمه التباعد.",
+            "en": "He must search for water in his baggage, among his companions, and in what is customarily near him; if he finds none, or fears the prayer time will pass or that he will come to harm, he performs the dry ablution and need not go far.",
+            "ru": "Он обязан искать воду в своей поклаже, у своих спутников и в том, что по обычаю близко к нему; если не находит, или боится выхода времени молитвы либо вреда, он совершает таяммум и не обязан удаляться.",
+            "es": "Debe buscar agua en su equipaje, entre sus compañeros y en lo que por costumbre le es cercano; si no la halla, o teme que salga el tiempo o sufrir daño, hace el tayammum y no ha de alejarse.",
+            "uk": "Він зобов'язаний шукати воду у своєму вантажі, у своїх супутників і в тому, що за звичаєм близьке до нього; якщо не знаходить, або боїться виходу часу молитви чи шкоди, він здійснює таяммум і не зобов'язаний віддалятися."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 48,
+      "number": 54,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -13679,7 +14659,8 @@
       "id": "taharah-46",
       "ref": "F91",
       "bookId": "taharah",
-      "number": 49,
+      "number": 55,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -13830,14 +14811,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-51",
       "ref": "F96",
       "bookId": "taharah",
-      "number": 50,
+      "number": 56,
+      "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -13988,14 +14969,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-47",
       "ref": "F92",
       "bookId": "taharah",
-      "number": 51,
+      "number": 57,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -14150,14 +15131,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-48",
       "ref": "F93",
       "bookId": "taharah",
-      "number": 52,
+      "number": 58,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -14312,14 +15293,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-49",
       "ref": "F94",
       "bookId": "taharah",
-      "number": 53,
+      "number": 59,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -14474,14 +15455,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-50",
       "ref": "F95",
       "bookId": "taharah",
-      "number": 54,
+      "number": 60,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -14636,14 +15617,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "taharah-52",
       "ref": "F97",
       "bookId": "taharah",
-      "number": 55,
+      "number": 61,
+      "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",
         "en": "Chapter on Menstruation and Post-natal Bleeding",
@@ -14798,8 +15779,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-5",
@@ -14967,6 +15947,7 @@
       "ref": "F66",
       "bookId": "salah",
       "number": 2,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب الأذان والإقامة",
         "en": "Chapter on the Adhān and the Iqāmah",
@@ -15121,8 +16102,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-19",
@@ -16051,6 +17031,7 @@
       "ref": "F67",
       "bookId": "salah",
       "number": 9,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -16205,14 +17186,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-22",
       "ref": "F68",
       "bookId": "salah",
       "number": 10,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -16371,8 +17352,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-14",
@@ -17015,6 +17995,7 @@
       "ref": "F69",
       "bookId": "salah",
       "number": 15,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -17169,14 +18150,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-24",
       "ref": "F70",
       "bookId": "salah",
       "number": 16,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -17331,14 +18312,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-25",
       "ref": "F71",
       "bookId": "salah",
       "number": 17,
+      "addedAt": "2026-09-09",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -17493,14 +18474,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-30",
       "ref": "F89",
       "bookId": "salah",
       "number": 18,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -17655,14 +18636,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-31",
       "ref": "F90",
       "bookId": "salah",
       "number": 19,
+      "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب شروط الصلاة",
         "en": "Chapter on the Conditions of the Prayer",
@@ -17817,8 +18798,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-1",
@@ -18214,6 +19194,7 @@
       "ref": "F72",
       "bookId": "salah",
       "number": 23,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -18368,14 +19349,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-27",
       "ref": "F73",
       "bookId": "salah",
       "number": 24,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -18531,8 +19512,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-3",
@@ -18805,6 +19785,7 @@
       "ref": "F74",
       "bookId": "salah",
       "number": 27,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -18959,14 +19940,14 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-29",
       "ref": "F75",
       "bookId": "salah",
       "number": 28,
+      "addedAt": "2026-09-10",
       "chapter": {
         "ar": "باب صفة الصلاة",
         "en": "Chapter on the Description of the Prayer",
@@ -19125,8 +20106,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "salah-6",
@@ -20700,6 +21680,7 @@
       "ref": "F61",
       "bookId": "sawm",
       "number": 8,
+      "addedAt": "2026-09-07",
       "chapter": {
         "ar": "أركان الصيام وشروطه",
         "en": "The Pillars and Conditions of Fasting",
@@ -20854,14 +21835,14 @@
           ],
           "nature": "shart"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "sawm-8",
       "ref": "F58",
       "bookId": "sawm",
       "number": 9,
+      "addedAt": "2026-09-07",
       "chapter": {
         "ar": "المفطرات",
         "en": "The Invalidators of the Fast",
@@ -21016,14 +21997,14 @@
           ],
           "grade": "haram"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "sawm-9",
       "ref": "F59",
       "bookId": "sawm",
       "number": 10,
+      "addedAt": "2026-09-07",
       "chapter": {
         "ar": "المفطرات",
         "en": "The Invalidators of the Fast",
@@ -21178,14 +22159,14 @@
           ],
           "grade": "haram"
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     },
     {
       "id": "sawm-10",
       "ref": "F60",
       "bookId": "sawm",
       "number": 11,
+      "addedAt": "2026-09-07",
       "chapter": {
         "ar": "المفطرات",
         "en": "The Invalidators of the Fast",
@@ -21337,8 +22318,7 @@
             }
           ]
         }
-      },
-      "addedAt": "2026-09-12"
+      }
     }
   ],
   "articles": [
@@ -22136,7 +23116,7 @@
           "uk": "«Тафсір Ібн Касіра»"
         }
       ],
-      "addedAt": "2026-09-12"
+      "addedAt": "2026-09-15"
     }
   ]
 }

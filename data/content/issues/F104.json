@@ -1,0 +1,162 @@
+{
+  "ref": "F104",
+  "addedAt": "2026-09-15",
+  "id": "taharah-59",
+  "bookId": "taharah",
+  "seq": 5,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "كم فرضاً يُصلّى بالتيمم الواحد",
+    "en": "How Many Obligatory Prayers May Be Prayed with One Dry Ablution",
+    "ru": "Сколько обязательных молитв можно совершить одним таяммумом",
+    "es": "Cuántas oraciones obligatorias pueden rezarse con un solo tayammum",
+    "uk": "Скільки обов'язкових молитов можна здійснити одним таяммумом"
+  },
+  "summary": {
+    "ar": "أيصلّي المتيمّم أكثر من فريضة بتيمّم واحد، أم يجدّد التيمم لكلّ فريضة؟",
+    "en": "May one pray more than one obligatory prayer with a single dry ablution, or must it be renewed for each?",
+    "ru": "Можно ли совершить более одной обязательной молитвы одним таяммумом, или его следует обновлять для каждой?",
+    "es": "¿Puede rezarse más de una oración obligatoria con un solo tayammum, o debe renovarse para cada una?",
+    "uk": "Чи можна здійснити більше однієї обов'язкової молитви одним таяммумом, чи його слід оновлювати для кожної?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يصلّي بتيمّمه ما شاء من الفرائض والنوافل، لأنه رافع للحدث، ولا يبطل إلا بناقض أو بالقدرة على الماء.",
+        "en": "With his dry ablution he prays whatever obligatory and voluntary prayers he wishes, since it lifts the impurity; it is void only by a nullifier or by his becoming able to use water.",
+        "ru": "Со своим таяммумом он совершает любые обязательные и добровольные молитвы, поскольку он снимает осквернение; он недействителен лишь при нарушителе или при возможности использовать воду.",
+        "es": "Con su tayammum reza cuantas oraciones obligatorias y voluntarias quiera, pues levanta la impureza; solo se anula por un anulador o por poder usar el agua.",
+        "uk": "Зі своїм таяммумом він здійснює будь-які обов'язкові та добровільні молитви, оскільки він знімає осквернення; він недійсний лише при порушнику або при можливості використати воду."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "لا يصلّي بالتيمم الواحد إلا فريضةً واحدة، ويتيمّم لكلّ مكتوبة، وله أن يصلّي معها ما تبعها من النوافل.",
+        "en": "With one dry ablution he prays only one obligatory prayer, and he performs it anew for each prescribed prayer; he may pray with it the voluntary prayers attached to that one.",
+        "ru": "Одним таяммумом он совершает лишь одну обязательную молитву и совершает его заново для каждой предписанной; вместе с ней он может совершить примыкающие к ней добровольные.",
+        "es": "Con un solo tayammum reza únicamente una oración obligatoria, y lo renueva para cada oración prescrita; con ella puede rezar las voluntarias que la acompañan.",
+        "uk": "Одним таяммумом він здійснює лише одну обов'язкову молитву і здійснює його наново для кожної приписаної; разом із нею він може здійснити прилеглі до неї добровільні."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "لا يجمع بين فريضتين بتيمّم واحد، بل يتيمّم لكلّ فريضة، وله أن يصلّي بتيمّمها ما شاء من النوافل قبلها وبعدها.",
+        "en": "He does not join two obligatory prayers on one dry ablution; he performs it for each obligatory prayer, and with it may pray whatever voluntary prayers he wishes before and after.",
+        "ru": "Он не объединяет две обязательные молитвы одним таяммумом, а совершает его для каждой обязательной, и с ним может совершить любые добровольные до и после неё.",
+        "es": "No junta dos oraciones obligatorias con un solo tayammum, sino que lo hace para cada obligatoria, y con él puede rezar cuantas voluntarias quiera antes y después.",
+        "uk": "Він не поєднує дві обов'язкові молитви одним таяммумом, а здійснює його для кожної обов'язкової, і з ним може здійснити будь-які добровільні до і після неї."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "التيمم مقيَّد بالوقت، فيصلّي به في الوقت ما شاء من الفرائض والنوافل، ويبطل بخروج وقت الصلاة التي تيمّم لها.",
+        "en": "The dry ablution is bound to the prayer time: within that time he prays with it whatever obligatory and voluntary prayers he wishes, and it is void once the time of the prayer he performed it for has gone.",
+        "ru": "Таяммум привязан ко времени молитвы: в пределах этого времени он совершает с ним любые обязательные и добровольные молитвы, и он недействителен по выходе времени той молитвы, для которой был совершён.",
+        "es": "El tayammum está ligado al tiempo de la oración: dentro de ese tiempo reza con él cuantas obligatorias y voluntarias quiera, y se anula al salir el tiempo de la oración para la que lo hizo.",
+        "uk": "Таяммум прив'язаний до часу молитви: у межах цього часу він здійснює з ним будь-які обов'язкові та добровільні молитви, і він недійсний після виходу часу тієї молитви, для якої був здійснений."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

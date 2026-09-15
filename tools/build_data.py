@@ -67,6 +67,12 @@ def stamp_added(records, folder):
     repo_root = Path(run(["git", "rev-parse", "--show-toplevel"]).strip() or ".")
 
     for rec in records:
+        # تاريخ مكتوب في الملف يُقدَّم على الاستنتاج من git: الملفّات تُبنى
+        # في بيئة لا تُودَع فيها، فكان `git log` لا يجدها فيضع تاريخ اليوم
+        # على الدفعة كلّها — فيظهر وسم «جديد» على الجميع ثم يختفي عن الجميع
+        # دفعةً واحدة بدل أن يخبو تدريجياً.
+        if rec.get("addedAt"):
+            continue
         path = folder / f"{rec['ref']}.json"
         try:
             rel = str(path.resolve().relative_to(repo_root.resolve()))

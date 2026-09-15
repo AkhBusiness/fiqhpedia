@@ -1,0 +1,162 @@
+{
+  "ref": "F106",
+  "addedAt": "2026-09-15",
+  "id": "taharah-61",
+  "bookId": "taharah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "حدّ طلب الماء الواجب قبل التيمم",
+    "en": "How Far One Must Search for Water Before the Dry Ablution",
+    "ru": "Насколько далеко нужно искать воду перед таяммумом",
+    "es": "Hasta dónde debe buscarse agua antes del tayammum",
+    "uk": "Наскільки далеко треба шукати воду перед таяммумом"
+  },
+  "summary": {
+    "ar": "أيجب على فاقد الماء أن يطلبه قبل أن يتيمّم، وإلى أيّ حدّ يبلغ في طلبه؟",
+    "en": "Must one who has no water search for it before performing the dry ablution, and how far must the search reach?",
+    "ru": "Обязан ли не имеющий воды искать её перед таяммумом, и докуда должен доходить поиск?",
+    "es": "¿Debe quien carece de agua buscarla antes del tayammum, y hasta dónde ha de llegar la búsqueda?",
+    "uk": "Чи зобов'язаний той, хто не має води, шукати її перед таяммумом, і доки має сягати пошук?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "لا يجب طلب الماء إلا إذا غلب على ظنّه وجوده قريباً منه نحو ميل، فإن لم يغلب على ظنّه تيمّم من غير طلب.",
+        "en": "Searching for water is required only if he strongly supposes it to be near him, about a mile off; if he has no such supposition, he performs the dry ablution without searching.",
+        "ru": "Поиск воды обязателен лишь тогда, когда он с преобладающим предположением считает её близкой — примерно на расстоянии мили; если такого предположения нет, он совершает таяммум без поиска.",
+        "es": "Buscar agua solo es obligatorio si presume con fuerza que está cerca de él, a cosa de una milla; si no tiene tal presunción, hace el tayammum sin buscar.",
+        "uk": "Пошук води обов'язковий лише тоді, коли він із переважним припущенням вважає її близькою — приблизно за милю; якщо такого припущення немає, він здійснює таяммум без пошуку."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "إن تيقّن عدم الماء لم يطلبه، وإن شكّ وجب الطلب فيما قرب منه، وإن تيقّن وجوده وجب طلبه ما لم يخرج الوقت أو يخف على نفسه.",
+        "en": "If he is certain there is no water, he does not search; if he is in doubt, he must search what is near him; and if he is certain it is there, he must go for it, so long as the prayer time does not run out and he does not fear for himself.",
+        "ru": "Если он уверен, что воды нет, он не ищет; если сомневается, обязан искать вблизи себя; а если уверен в её наличии, обязан идти за ней, пока не выйдет время молитвы и пока не опасается за себя.",
+        "es": "Si tiene certeza de que no hay agua, no busca; si duda, debe buscar en lo cercano; y si tiene certeza de que la hay, debe ir por ella, mientras no salga el tiempo de la oración ni tema por sí mismo.",
+        "uk": "Якщо він упевнений, що води немає, він не шукає; якщо сумнівається, зобов'язаний шукати поблизу себе; а якщо впевнений у її наявності, зобов'язаний іти по неї, поки не вийде час молитви й поки не боїться за себе."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يجب الطلب بعد دخول الوقت بنفسه أو بمن يأذن له: في حدّ الغوث — وهو ما يبلغه الصوت — ثم في حدّ القرب إن أمِن على نفسه وماله.",
+        "en": "The search is required once the prayer time has come in, by himself or by someone he authorises: within the reach of a call — as far as a voice carries — and then within the nearer distance, if he is safe as to himself and his property.",
+        "ru": "Поиск обязателен после наступления времени молитвы — лично или через того, кому он поручит: в пределах зова, куда доносится голос, а затем в пределах ближней округи, если он в безопасности за себя и своё имущество.",
+        "es": "La búsqueda es obligatoria una vez entrado el tiempo de la oración, por sí mismo o por quien autorice: dentro del alcance de la llamada —hasta donde llega la voz— y luego en la cercanía, si está seguro respecto de sí y de sus bienes.",
+        "uk": "Пошук обов'язковий після настання часу молитви — особисто або через того, кому він доручить: у межах поклику, куди доноситься голос, а потім у межах ближньої округи, якщо він у безпеці щодо себе та свого майна."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يجب طلب الماء في رحله وعند رفقته وفيما قرب منه عرفاً، فإن لم يجد أو خاف خروج الوقت أو الضرر تيمّم ولا يلزمه التباعد.",
+        "en": "He must search for water in his baggage, among his companions, and in what is customarily near him; if he finds none, or fears the prayer time will pass or that he will come to harm, he performs the dry ablution and need not go far.",
+        "ru": "Он обязан искать воду в своей поклаже, у своих спутников и в том, что по обычаю близко к нему; если не находит, или боится выхода времени молитвы либо вреда, он совершает таяммум и не обязан удаляться.",
+        "es": "Debe buscar agua en su equipaje, entre sus compañeros y en lo que por costumbre le es cercano; si no la halla, o teme que salga el tiempo o sufrir daño, hace el tayammum y no ha de alejarse.",
+        "uk": "Він зобов'язаний шукати воду у своєму вантажі, у своїх супутників і в тому, що за звичаєм близьке до нього; якщо не знаходить, або боїться виходу часу молитви чи шкоди, він здійснює таяммум і не зобов'язаний віддалятися."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

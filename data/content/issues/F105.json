@@ -1,0 +1,162 @@
+{
+  "ref": "F105",
+  "addedAt": "2026-09-15",
+  "id": "taharah-60",
+  "bookId": "taharah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "نواقض التيمم ومتى يبطل",
+    "en": "What Voids the Dry Ablution, and When",
+    "ru": "Что делает таяммум недействительным и когда",
+    "es": "Qué anula el tayammum y cuándo",
+    "uk": "Що робить таяммум недійсним і коли"
+  },
+  "summary": {
+    "ar": "ما الذي يبطل التيمم: نواقض الوضوء، ووجود الماء، وخروج الوقت؟",
+    "en": "What voids the dry ablution: the nullifiers of the ablution, the finding of water, and the passing of the prayer time?",
+    "ru": "Что делает таяммум недействительным: нарушители омовения, нахождение воды и выход времени молитвы?",
+    "es": "¿Qué anula el tayammum: los anuladores de la ablución, hallar agua y salir el tiempo de la oración?",
+    "uk": "Що робить таяммум недійсним: порушники омивання, знаходження води та вихід часу молитви?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبالقدرة على ماءٍ كافٍ، ولا يبطل بخروج وقت الصلاة.",
+        "en": "The dry ablution is voided by everything that breaks the ablution, and by becoming able to use sufficient water; it is not voided by the passing of the prayer time.",
+        "ru": "Таяммум становится недействительным от всего, что нарушает омовение, и от возможности использовать достаточную воду; он не становится недействительным от выхода времени молитвы.",
+        "es": "El tayammum se anula por todo lo que rompe la ablución y por poder usar agua suficiente; no se anula por salir el tiempo de la oración.",
+        "uk": "Таяммум стає недійсним від усього, що порушує омивання, і від можливості використати достатню воду; він не стає недійсним від виходу часу молитви."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبطل التيمم بنواقض الوضوء، وبوجود الماء قبل الدخول في الصلاة، وبطول الفصل بينه وبين الصلاة، وبأداء الفريضة التي تيمّم لها.",
+        "en": "The dry ablution is voided by the nullifiers of the ablution, by finding water before entering the prayer, by a long gap between it and the prayer, and by performing the obligatory prayer for which it was made.",
+        "ru": "Таяммум становится недействительным от нарушителей омовения, от нахождения воды до вступления в молитву, от длительного промежутка между ним и молитвой и от совершения той обязательной молитвы, для которой он был сделан.",
+        "es": "El tayammum se anula por los anuladores de la ablución, por hallar agua antes de entrar en la oración, por un largo intervalo entre él y la oración, y al realizar la oración obligatoria para la que se hizo.",
+        "uk": "Таяммум стає недійсним від порушників омивання, від знаходження води до вступу в молитву, від тривалого проміжку між ним і молитвою та від здійснення тієї обов'язкової молитви, для якої він був зроблений."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبرؤية الماء قبل الإحرام بالصلاة لمن تيمّم لفقده، وبالردّة.",
+        "en": "The dry ablution is voided by everything that breaks the ablution, by sighting water before entering the prayer for one who performed it for want of water, and by apostasy.",
+        "ru": "Таяммум становится недействительным от всего, что нарушает омовение, от вида воды до вступления в молитву для того, кто совершил его из-за её отсутствия, и от вероотступничества.",
+        "es": "El tayammum se anula por todo lo que rompe la ablución, por ver agua antes de entrar en la oración quien lo hizo por falta de ella, y por la apostasía.",
+        "uk": "Таяммум стає недійсним від усього, що порушує омивання, від вигляду води до вступу в молитву для того, хто здійснив його через її відсутність, і від віровідступництва."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "mubah",
+      "text": {
+        "ar": "يبطل التيمم بما ينقض الوضوء، وبوجود الماء أو زوال العذر، وبخروج وقت الصلاة التي تيمّم لها.",
+        "en": "The dry ablution is voided by what breaks the ablution, by the finding of water or the ceasing of the excuse, and by the passing of the time of the prayer for which it was made.",
+        "ru": "Таяммум становится недействительным от того, что нарушает омовение, от нахождения воды или прекращения причины и от выхода времени той молитвы, для которой он был сделан.",
+        "es": "El tayammum se anula por lo que rompe la ablución, por hallar agua o cesar la excusa, y por salir el tiempo de la oración para la que se hizo.",
+        "uk": "Таяммум стає недійсним від того, що порушує омивання, від знаходження води або припинення причини та від виходу часу тієї молитви, для якої він був зроблений."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
