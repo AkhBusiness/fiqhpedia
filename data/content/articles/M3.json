@@ -2,12 +2,13 @@
   "id": "tahrif-scriptures",
   "ref": "M3",
   "chapter": {
-    "ar": "باب نقد النصوص المقدّسة",
-    "en": "Chapter on the Criticism of Sacred Texts",
-    "ru": "Раздел о критике священных текстов",
-    "es": "Capítulo sobre la crítica de los textos sagrados",
-    "uk": "Розділ про критику священних текстів"
+    "ar": "تاريخ الأديان ونصوصها",
+    "en": "The History of Religions and Their Texts",
+    "ru": "История религий и их текстов",
+    "es": "La historia de las religiones y sus textos",
+    "uk": "Історія релігій та їхніх текстів"
   },
+  "seq": 1,
   "title": {
     "ar": "كيف تغيّرت التوراة والإنجيل في ضوء النقد النصّي؟",
     "en": "How the Torah and the Gospel changed, in the light of textual criticism",

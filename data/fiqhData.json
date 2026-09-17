@@ -1121,6 +1121,13 @@
       "ru": "Энциклопедия постоянно растёт — вот последние опубликованные вопросы.",
       "es": "La enciclopedia sigue creciendo: estas son las últimas cuestiones publicadas.",
       "uk": "Енциклопедія постійно зростає — це останні опубліковані питання."
+    },
+    "allChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
     }
   },
   "books": [
@@ -23135,6 +23142,14 @@
     {
       "id": "seeking-truth",
       "ref": "M1",
+      "chapter": {
+        "ar": "مسائل الوجود الكبرى",
+        "en": "The Great Questions of Existence",
+        "ru": "Великие вопросы бытия",
+        "es": "Las grandes cuestiones de la existencia",
+        "uk": "Великі питання буття"
+      },
+      "seq": 2,
       "title": {
         "ar": "رحلة البحث عن الحق: كيف نقرأ تاريخ الأديان ولماذا كان الإسلام هو الرسالة الخاتمة؟",
         "en": "The Search for Truth: How to Read the History of Religions, and Why Islam Is the Final Message",
@@ -23245,12 +23260,13 @@
       "id": "bad-al-khalq",
       "ref": "M2",
       "chapter": {
-        "ar": "باب بدء الخلق",
-        "en": "Chapter on the Beginning of Creation",
-        "ru": "Раздел о начале сотворения",
-        "es": "Capítulo sobre el inicio de la creación",
-        "uk": "Розділ про початок творення"
+        "ar": "الخلق والكون",
+        "en": "Creation and the Cosmos",
+        "ru": "Творение и мироздание",
+        "es": "La creación y el cosmos",
+        "uk": "Творіння та світобудова"
       },
+      "seq": 1,
       "title": {
         "ar": "بدء الخلق وخلق السماوات والأرض والملائكة والجانّ",
         "en": "The beginning of creation: the heavens, the earth, the angels, and the jinn",
@@ -23364,12 +23380,13 @@
       "id": "tahrif-scriptures",
       "ref": "M3",
       "chapter": {
-        "ar": "باب نقد النصوص المقدّسة",
-        "en": "Chapter on the Criticism of Sacred Texts",
-        "ru": "Раздел о критике священных текстов",
-        "es": "Capítulo sobre la crítica de los textos sagrados",
-        "uk": "Розділ про критику священних текстів"
+        "ar": "تاريخ الأديان ونصوصها",
+        "en": "The History of Religions and Their Texts",
+        "ru": "История религий и их текстов",
+        "es": "La historia de las religiones y sus textos",
+        "uk": "Історія релігій та їхніх текстів"
       },
+      "seq": 1,
       "title": {
         "ar": "كيف تغيّرت التوراة والإنجيل في ضوء النقد النصّي؟",
         "en": "How the Torah and the Gospel changed, in the light of textual criticism",
@@ -23523,12 +23540,13 @@
       "id": "proof-of-creation",
       "ref": "M4",
       "chapter": {
-        "ar": "باب أدلة التوحيد والإيمان",
-        "en": "Chapter on the Proofs of Monotheism and Faith",
-        "ru": "Раздел о доказательствах единобожия и веры",
-        "es": "Capítulo sobre las pruebas del monoteísmo y la fe",
-        "uk": "Розділ про докази єдинобожжя та віри"
+        "ar": "مسائل الوجود الكبرى",
+        "en": "The Great Questions of Existence",
+        "ru": "Великие вопросы бытия",
+        "es": "Las grandes cuestiones de la existencia",
+        "uk": "Великі питання буття"
       },
+      "seq": 1,
       "title": {
         "ar": "دليل الخلق واستحالة التسلسل في الإيجاد",
         "en": "The proof of creation and the impossibility of an infinite regress",
@@ -23667,14 +23685,15 @@
     },
     {
       "ref": "M5",
-      "id": "wisdom-of-fasting",
       "chapter": {
-        "ar": "باب الفقه والأحكام الشرعية",
-        "en": "Chapter on Jurisprudence and Legal Rulings",
-        "ru": "Глава о фикхе и шариатских постановлениях",
-        "es": "Capítulo sobre jurisprudencia y normas islámicas",
-        "uk": "Розділ про фікх та шаріатські приписи"
+        "ar": "حِكَم التشريع",
+        "en": "The Wisdoms of the Law",
+        "ru": "Мудрости законоположений",
+        "es": "Las sabidurías de la Ley",
+        "uk": "Мудрості законоположень"
       },
+      "seq": 1,
+      "id": "wisdom-of-fasting",
       "title": {
         "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
         "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",
@@ -23812,12 +23831,13 @@
       "id": "christian-schisms",
       "ref": "M6",
       "chapter": {
-        "ar": "باب نقد الأديان والفِرَق",
-        "en": "Chapter on the Critique of Religions and Sects",
-        "ru": "Раздел про критику религий и течений",
-        "es": "Capítulo sobre la crítica de las religiones y sectas",
-        "uk": "Розділ про критику релігій та течій"
+        "ar": "تاريخ الأديان ونصوصها",
+        "en": "The History of Religions and Their Texts",
+        "ru": "История религий и их текстов",
+        "es": "La historia de las religiones y sus textos",
+        "uk": "Історія релігій та їхніх текстів"
       },
+      "seq": 2,
       "title": {
         "ar": "أسباب تفرّق النصارى إلى فرق متعدّدة، وكيف عالج الإسلام هذا الاختلاف",
         "en": "Why the Christians Split into Many Denominations, and How Islam Settled the Dispute",
@@ -23932,12 +23952,13 @@
       "id": "quran-preservation",
       "ref": "M7",
       "chapter": {
-        "ar": "باب القرآن وعلومه",
-        "en": "Chapter on the Qurʾān and Its Sciences",
-        "ru": "Раздел о Коране и его науках",
-        "es": "Capítulo sobre el Corán y sus ciencias",
-        "uk": "Розділ про Коран та його науки"
+        "ar": "تاريخ الأديان ونصوصها",
+        "en": "The History of Religions and Their Texts",
+        "ru": "История религий и их текстов",
+        "es": "La historia de las religiones y sus textos",
+        "uk": "Історія релігій та їхніх текстів"
       },
+      "seq": 3,
       "title": {
         "ar": "حفظ القرآن: الإسناد والمخطوطات",
         "en": "The Preservation of the Qurʾān: Transmission and Manuscripts",

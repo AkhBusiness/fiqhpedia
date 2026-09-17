@@ -5,6 +5,7 @@ import { BookOpen, Clock, Maximize2, X } from "lucide-react"
 import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   type Article,
+  articleChapters,
   articles,
   type Lang,
   rtlLangs,
@@ -47,6 +48,10 @@ function Prose({ text, lang }: { text: string; lang: Lang }) {
 
 export function ArticlesSection({ lang }: ArticlesSectionProps) {
   const [reading, setReading] = useState<Article | null>(null)
+  // Chapter filter. Kept out of the URL: an article is cited by its ref, and
+  // a filter in the address would make two links to the same reading.
+  const [chapter, setChapter] = useState("")
+  const shown = chapter ? articles.filter((a) => a.chapter?.ar === chapter) : articles
   const scrollRef = useRef<HTMLDivElement | null>(null)
   const [activeId, setActiveId] = useState<string>("")
   const isRtl = rtlLangs.includes(lang)
@@ -131,12 +136,44 @@ export function ArticlesSection({ lang }: ArticlesSectionProps) {
       <div className="mb-6">
         <h2 className="text-xl font-bold text-foreground sm:text-2xl">{ui.articlesSection[lang]}</h2>
         <p className="mt-0.5 text-sm text-muted-foreground">
-          {articles.length} {ui.articlesCount[lang]}
+          {shown.length} {ui.articlesCount[lang]}
         </p>
       </div>
 
+      {/* Chapters, shown only once there are enough articles for the grouping
+          to mean anything — with three or four, a filter is noise. */}
+      {articleChapters.length > 1 && articles.length >= 5 ? (
+        <div className="mb-5 flex flex-wrap gap-1.5">
+          <button
+            type="button"
+            onClick={() => setChapter("")}
+            className={`rounded-full px-3.5 py-1.5 text-xs font-semibold transition-colors ${
+              chapter === ""
+                ? "bg-primary text-primary-foreground"
+                : "border border-white/10 bg-white/5 text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            {ui.allChapters[lang]}
+          </button>
+          {articleChapters.map((c) => (
+            <button
+              key={c.ar}
+              type="button"
+              onClick={() => setChapter(chapter === c.ar ? "" : c.ar)}
+              className={`rounded-full px-3.5 py-1.5 text-xs font-semibold transition-colors ${
+                chapter === c.ar
+                  ? "bg-primary text-primary-foreground"
+                  : "border border-white/10 bg-white/5 text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              {c[lang]}
+            </button>
+          ))}
+        </div>
+      ) : null}
+
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-        {articles.map((article) => (
+        {shown.map((article) => (
           <article
             key={article.id}
             id={article.ref}

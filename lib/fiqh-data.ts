@@ -196,6 +196,8 @@ export interface Article {
   ref: string
   /** Optional chapter label, for articles that sit in a traditional باب. */
   chapter?: Localized
+  /** Position within the chapter, so an argument precedes what builds on it. */
+  seq?: number
   title: Localized
   excerpt: Localized
   /** Refs of proofs that argue the same ground more formally. */
@@ -604,7 +606,51 @@ export const countries: Country[] = data.countries.map((c) => ({
   school: SCHOOL_KEYS.includes(c.school as SchoolKey) ? (c.school as SchoolKey) : null,
 }))
 
-export const articles: Article[] = data.articles ?? []
+/**
+ * Articles in reading order: by chapter as the chapters are listed, then by
+ * `seq` within each. An argument should come before what builds on it —
+ * the proof of a Creator before the account of what He created.
+ */
+export const articles: Article[] = (() => {
+  const list = (data.articles ?? []) as Article[]
+  // Chapters run from what assumes least of the reader to what assumes most:
+  // a rational argument first, then the history open to anyone's inspection,
+  // then what is reported on the authority of revelation, then the wisdoms
+  // behind its rulings. Deriving the order from whichever article happens to
+  // be filed first would put the reported before the argued.
+  const PREFERRED = [
+    "مسائل الوجود الكبرى",
+    "تاريخ الأديان ونصوصها",
+    "الخلق والكون",
+    "حِكَم التشريع",
+  ]
+  const chapterOrder = new Map<string, number>(PREFERRED.map((c, i) => [c, i]))
+  for (const a of list) {
+    const key = a.chapter?.ar ?? ""
+    if (!chapterOrder.has(key)) chapterOrder.set(key, chapterOrder.size)
+  }
+  return [...list].sort(
+    (a, b) =>
+      (chapterOrder.get(a.chapter?.ar ?? "") ?? 0) -
+        (chapterOrder.get(b.chapter?.ar ?? "") ?? 0) ||
+      (a.seq ?? 99) - (b.seq ?? 99) ||
+      a.ref.localeCompare(b.ref, undefined, { numeric: true }),
+  )
+})()
+
+/** The article chapters, in the order articles are listed. */
+export const articleChapters: Localized[] = (() => {
+  const seen = new Set<string>()
+  const out: Localized[] = []
+  for (const a of articles) {
+    const key = a.chapter?.ar
+    if (key && !seen.has(key)) {
+      seen.add(key)
+      out.push(a.chapter as Localized)
+    }
+  }
+  return out
+})()
 
 export const categories: Category[] = data.books
 

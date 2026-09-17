@@ -2,12 +2,13 @@
   "id": "christian-schisms",
   "ref": "M6",
   "chapter": {
-    "ar": "باب نقد الأديان والفِرَق",
-    "en": "Chapter on the Critique of Religions and Sects",
-    "ru": "Раздел про критику религий и течений",
-    "es": "Capítulo sobre la crítica de las religiones y sectas",
-    "uk": "Розділ про критику релігій та течій"
+    "ar": "تاريخ الأديان ونصوصها",
+    "en": "The History of Religions and Their Texts",
+    "ru": "История религий и их текстов",
+    "es": "La historia de las religiones y sus textos",
+    "uk": "Історія релігій та їхніх текстів"
   },
+  "seq": 2,
   "title": {
     "ar": "أسباب تفرّق النصارى إلى فرق متعدّدة، وكيف عالج الإسلام هذا الاختلاف",
     "en": "Why the Christians Split into Many Denominations, and How Islam Settled the Dispute",

@@ -1121,6 +1121,13 @@
       "ru": "Энциклопедия постоянно растёт — вот последние опубликованные вопросы.",
       "es": "La enciclopedia sigue creciendo: estas son las últimas cuestiones publicadas.",
       "uk": "Енциклопедія постійно зростає — це останні опубліковані питання."
+    },
+    "allChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
     }
   },
   "books": [

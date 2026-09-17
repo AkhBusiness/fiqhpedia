@@ -1,13 +1,14 @@
 {
   "ref": "M5",
-  "id": "wisdom-of-fasting",
   "chapter": {
-    "ar": "باب الفقه والأحكام الشرعية",
-    "en": "Chapter on Jurisprudence and Legal Rulings",
-    "ru": "Глава о фикхе и шариатских постановлениях",
-    "es": "Capítulo sobre jurisprudencia y normas islámicas",
-    "uk": "Розділ про фікх та шаріатські приписи"
+    "ar": "حِكَم التشريع",
+    "en": "The Wisdoms of the Law",
+    "ru": "Мудрости законоположений",
+    "es": "Las sabidurías de la Ley",
+    "uk": "Мудрості законоположень"
   },
+  "seq": 1,
+  "id": "wisdom-of-fasting",
   "title": {
     "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
     "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",

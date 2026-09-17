@@ -2,12 +2,13 @@
   "id": "bad-al-khalq",
   "ref": "M2",
   "chapter": {
-    "ar": "باب بدء الخلق",
-    "en": "Chapter on the Beginning of Creation",
-    "ru": "Раздел о начале сотворения",
-    "es": "Capítulo sobre el inicio de la creación",
-    "uk": "Розділ про початок творення"
+    "ar": "الخلق والكون",
+    "en": "Creation and the Cosmos",
+    "ru": "Творение и мироздание",
+    "es": "La creación y el cosmos",
+    "uk": "Творіння та світобудова"
   },
+  "seq": 1,
   "title": {
     "ar": "بدء الخلق وخلق السماوات والأرض والملائكة والجانّ",
     "en": "The beginning of creation: the heavens, the earth, the angels, and the jinn",

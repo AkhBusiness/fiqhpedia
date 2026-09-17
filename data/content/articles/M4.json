@@ -2,12 +2,13 @@
   "id": "proof-of-creation",
   "ref": "M4",
   "chapter": {
-    "ar": "باب أدلة التوحيد والإيمان",
-    "en": "Chapter on the Proofs of Monotheism and Faith",
-    "ru": "Раздел о доказательствах единобожия и веры",
-    "es": "Capítulo sobre las pruebas del monoteísmo y la fe",
-    "uk": "Розділ про докази єдинобожжя та віри"
+    "ar": "مسائل الوجود الكبرى",
+    "en": "The Great Questions of Existence",
+    "ru": "Великие вопросы бытия",
+    "es": "Las grandes cuestiones de la existencia",
+    "uk": "Великі питання буття"
   },
+  "seq": 1,
   "title": {
     "ar": "دليل الخلق واستحالة التسلسل في الإيجاد",
     "en": "The proof of creation and the impossibility of an infinite regress",

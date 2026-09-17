@@ -2,12 +2,13 @@
   "id": "quran-preservation",
   "ref": "M7",
   "chapter": {
-    "ar": "باب القرآن وعلومه",
-    "en": "Chapter on the Qurʾān and Its Sciences",
-    "ru": "Раздел о Коране и его науках",
-    "es": "Capítulo sobre el Corán y sus ciencias",
-    "uk": "Розділ про Коран та його науки"
+    "ar": "تاريخ الأديان ونصوصها",
+    "en": "The History of Religions and Their Texts",
+    "ru": "История религий и их текстов",
+    "es": "La historia de las religiones y sus textos",
+    "uk": "Історія релігій та їхніх текстів"
   },
+  "seq": 3,
   "title": {
     "ar": "حفظ القرآن: الإسناد والمخطوطات",
     "en": "The Preservation of the Qurʾān: Transmission and Manuscripts",
