@@ -1,0 +1,161 @@
+{
+  "ref": "F109",
+  "id": "nikah-3",
+  "bookId": "nikah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب الخطبة",
+    "en": "Chapter on the Betrothal",
+    "ru": "Раздел о сватовстве",
+    "es": "Capítulo sobre el compromiso matrimonial",
+    "uk": "Розділ про сватання"
+  },
+  "title": {
+    "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
+    "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
+    "ru": "Уединение с засватанной и поездка с ней до заключения договора",
+    "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
+    "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
+  },
+  "summary": {
+    "ar": "هل تحلّ الخلوة بالمخطوبة والسفر بها قبل عقد النكاح؟",
+    "en": "Is it lawful to be alone with the betrothed woman and to travel with her before the marriage contract?",
+    "ru": "Дозволено ли уединяться с засватанной и путешествовать с ней до заключения брачного договора?",
+    "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
+    "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "haram",
+      "text": {
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، ولا يحلّ له منها إلا النظر المباح.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded, and nothing of her is lawful to him but the sanctioned looking.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор, и дозволен ему из неё лишь разрешённый взгляд.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato, y no le es lícito de ella sino la mirada permitida.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір, і дозволений йому з неї лише дозволений погляд."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "haram",
+      "text": {
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، فهي كسائر الأجنبيات حتى يُعقد عليها، والخطبة وعدٌ بالنكاح لا يُبيح شيئاً من ذلك.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden; she is as any other woman who is a stranger to him until the contract is made over her, and the betrothal is a promise of marriage that permits none of this.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены; она как всякая посторонняя женщина, пока не заключён над ней договор, а сватовство — обещание брака, которое ничего из этого не дозволяет.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos; ella es como cualquier otra mujer ajena hasta que se celebre el contrato sobre ella, y el compromiso es una promesa de matrimonio que no permite nada de esto.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені; вона як усяка стороння жінка, доки не укладено над нею договір, а сватання — обіцянка шлюбу, яка нічого з цього не дозволяє."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "haram",
+      "text": {
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ والمخطوبة أجنبية لا يحلّ منها إلا النظر للحاجة.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and nothing of her is lawful but the looking that the need allows.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и дозволен из неё лишь взгляд по нужде.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y no le es lícito de ella sino la mirada que la necesidad permite.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і дозволений з неї лише погляд за потребою."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "haram",
+      "text": {
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأن الخطبة لا تُغيّر من أحكام الأجنبية شيئاً سوى إباحة النظر لمن أراد نكاحها.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden, since the betrothal changes nothing of the rulings that govern a woman who is a stranger to him, save that it permits the looking to one who intends to marry her.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены, ибо сватовство ничего не меняет в постановлениях о посторонней женщине, кроме того, что дозволяет взгляд тому, кто намерен на ней жениться.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues el compromiso no cambia nada de las normas sobre la mujer ajena, salvo que permite la mirada a quien pretende casarse con ella.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо сватання нічого не змінює в постановах про сторонню жінку, крім того, що дозволяє погляд тому, хто має намір з нею одружитися."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "quran-preservation",
+  "ref": "M7",
+  "chapter": {
+    "ar": "باب القرآن وعلومه",
+    "en": "Chapter on the Qurʾān and Its Sciences",
+    "ru": "Раздел о Коране и его науках",
+    "es": "Capítulo sobre el Corán y sus ciencias",
+    "uk": "Розділ про Коран та його науки"
+  },
+  "title": {
+    "ar": "حفظ القرآن: الإسناد والمخطوطات",
+    "en": "The Preservation of the Qurʾān: Transmission and Manuscripts",
+    "ru": "Сохранение Корана: передача и рукописи",
+    "es": "La preservación del Corán: transmisión y manuscritos",
+    "uk": "Збереження Корану: передача та рукописи"
+  },
+  "excerpt": {
+    "ar": "كيف حُفظ القرآن بركنين معاً — نقلٌ شفويّ متواتر وتدوينٌ مبكّر — وما تقوله المخطوطات الأولى.",
+    "en": "How the Qurʾān was preserved by two things at once — mass oral transmission and early writing down — and what the earliest manuscripts say.",
+    "ru": "Как Коран был сохранён двумя вещами разом — массовой устной передачей и ранней записью — и что говорят древнейшие рукописи.",
+    "es": "Cómo se preservó el Corán por dos vías a la vez —la transmisión oral masiva y la escritura temprana— y qué dicen los manuscritos más antiguos.",
+    "uk": "Як Коран був збережений двома речами водночас — масовою усною передачею та раннім записом — і що кажуть найдавніші рукописи."
+  },
+  "relatedRefs": [
+    "A8"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "es": "",
+        "uk": ""
+      },
+      "body": {
+        "ar": "حُفظ القرآن بركنين متلازمين لا بواحد: نقلٌ شفويّ متواتر عبر أسانيد متّصلة، وتدوينٌ خطّيّ بدأ في حياة النبي ﷺ. وأكثر ما يقع فيه الخلط أن يُنظر إلى أحدهما وحده، فيُقاس القرآن على كتب نُقلت بالكتابة وحدها.\n\nوهذا المقال يعرض الركنين، ثم ينظر في ما تقوله المخطوطات الأولى، ثم في ما أورده الباحثون الغربيون على النصّ.",
+        "en": "The Qurʾān was preserved by two things bound together, not by one: mass oral transmission through unbroken chains, and a written record that began in the lifetime of the Prophet ﷺ. Most of the confusion comes from looking at one of these alone, and so measuring the Qurʾān against books that came down in writing only.\n\nThis article sets out the two, then looks at what the earliest manuscripts say, and then at what Western scholars have raised against the text.",
+        "ru": "Коран был сохранён двумя связанными вещами, а не одной: массовой устной передачей через непрерывные цепи и письменной фиксацией, начавшейся ещё при жизни Пророка ﷺ. Большая часть путаницы происходит от того, что смотрят на одно из них в отдельности и тем самым мерят Коран мерой книг, дошедших только письменно.\n\nЭта статья излагает оба, затем смотрит, что говорят древнейшие рукописи, и затем — что западные исследователи выдвигали против текста.",
+        "es": "El Corán se preservó por dos cosas unidas, no por una: la transmisión oral masiva mediante cadenas ininterrumpidas y un registro escrito que comenzó en vida del Profeta ﷺ. La mayor parte de la confusión viene de mirar una sola de ellas, midiendo así el Corán con la vara de libros que llegaron solo por escrito.\n\nEste artículo expone ambas, luego mira qué dicen los manuscritos más antiguos, y después qué han planteado los investigadores occidentales contra el texto.",
+        "uk": "Коран був збережений двома пов'язаними речами, а не однією: масовою усною передачею через безперервні ланцюги та письмовою фіксацією, що почалася ще за життя Пророка ﷺ. Більша частина плутанини походить від того, що дивляться на одне з них окремо й тим самим міряють Коран мірою книг, які дійшли лише письмово.\n\nЦя стаття викладає обидва, потім дивиться, що кажуть найдавніші рукописи, і потім — що західні дослідники висували проти тексту."
+      }
+    },
+    {
+      "id": "oral",
+      "heading": {
+        "ar": "النقل الشفويّ والإسناد",
+        "en": "Oral Transmission and the Chain",
+        "ru": "Устная передача и цепь",
+        "es": "La transmisión oral y la cadena",
+        "uk": "Усна передача та ланцюг"
+      },
+      "body": {
+        "ar": "لم يكن حفظ القرآن حفظاً فردياً يتناقله آحاد، بل **تواتراً**: ينقله في كل طبقة جمعٌ عن جمعٍ يستحيل تواطؤهم على الكذب. وهذا وحده يفرّقه عمّا نُقل بخبر الواحد.\n\nوقد بقي هذا النقل متّصلاً إلى اليوم: يقرأ الطالب على شيخه القرآن كلّه سماعاً وعرضاً، ويُجيزه شيخه بسندٍ متّصل. فالنصّ لا يُتلقّى من مصحفٍ مطبوع، وإنما من صدرٍ عن صدر، والمصحف شاهدٌ عليه.\n\nوعلى هذا لو فُقدت المصاحف كلّها لبقي النصّ محفوظاً في صدور الحافظين، وهم في كل جيل ألوف. وهذا ما لا يُتصوّر في كتابٍ نُقل بالكتابة وحدها.",
+        "en": "The preservation of the Qurʾān was never the memorising of individuals passing it one to another; it was **mass transmission**: in every generation a body of people carried it from a body of people too large to have agreed upon a lie. This alone sets it apart from what came down on the report of single narrators.\n\nThat transmission has remained unbroken to this day: a student recites the whole of the Qurʾān to his teacher, hearing it and reciting it back, and the teacher licenses him with a connected chain. The text is not taken up from a printed copy; it passes from one breast to another, and the written copy stands witness over it.\n\nOn this footing, were every written copy to be lost, the text would remain preserved in the breasts of those who have memorised it — and in every generation they number in the thousands. This is not conceivable for a book that came down in writing alone.",
+        "ru": "Сохранение Корана никогда не было запоминанием отдельных людей, передающих его один другому; это была **массовая передача**: в каждом поколении его несло множество людей от множества, слишком большого, чтобы сговориться на лжи. Одно это отличает его от того, что дошло по сообщению единичных передатчиков.\n\nЭта передача осталась непрерывной до наших дней: ученик читает весь Коран своему учителю, слушая его и повторяя, и учитель даёт ему разрешение с непрерывной цепью. Текст не берётся из печатного свитка; он переходит от груди к груди, а письменный список свидетельствует о нём.\n\nПри таком положении, если бы все письменные списки были утрачены, текст остался бы сохранённым в грудях тех, кто выучил его наизусть, — а в каждом поколении их тысячи. Такое немыслимо для книги, дошедшей только письменно.",
+        "es": "La preservación del Corán nunca fue la memorización de individuos que se lo pasaban uno a otro; fue una **transmisión masiva**: en cada generación lo llevó un conjunto de personas desde un conjunto demasiado numeroso para haberse concertado en una mentira. Solo esto lo distingue de lo que llegó por el informe de narradores únicos.\n\nEsa transmisión ha permanecido ininterrumpida hasta hoy: el estudiante recita el Corán entero a su maestro, oyéndolo y devolviéndolo, y el maestro lo autoriza con una cadena conectada. El texto no se toma de un ejemplar impreso; pasa de un pecho a otro, y la copia escrita da testimonio de él.\n\nSobre esta base, si se perdieran todas las copias escritas, el texto seguiría preservado en los pechos de quienes lo han memorizado — y en cada generación son miles. Esto no es concebible para un libro que llegó solo por escrito.",
+        "uk": "Збереження Корану ніколи не було запам'ятовуванням окремих людей, що передавали його один одному; це була **масова передача**: у кожному поколінні його несла множина людей від множини, надто великої, щоб змовитися на брехні. Одне це відрізняє його від того, що дійшло за повідомленням поодиноких передавачів.\n\nЦя передача лишилася безперервною донині: учень читає весь Коран своєму вчителеві, слухаючи його й повторюючи, і вчитель дає йому дозвіл із безперервним ланцюгом. Текст не береться з друкованого сувою; він переходить від грудей до грудей, а письмовий список свідчить про нього.\n\nЗа такого стану, якби всі письмові списки були втрачені, текст лишився б збереженим у грудях тих, хто вивчив його напам'ять, — а в кожному поколінні їх тисячі. Таке немислиме для книги, що дійшла лише письмово."
+      }
+    },
+    {
+      "id": "manuscripts",
+      "heading": {
+        "ar": "ما تقوله المخطوطات الأولى",
+        "en": "What the Earliest Manuscripts Say",
+        "ru": "Что говорят древнейшие рукописи",
+        "es": "Qué dicen los manuscritos más antiguos",
+        "uk": "Що кажуть найдавніші рукописи"
+      },
+      "body": {
+        "ar": "بدأ التدوين في حياة النبي ﷺ على ما تيسّر من العُسُب واللِّخاف، ثم جُمع في عهد أبي بكر رضي الله عنه، ثم نُسخت المصاحف في عهد عثمان رضي الله عنه وأُرسلت إلى الأمصار.\n\nوقد بقيت من المصاحف الأولى قطعٌ في المتاحف، منها ما في جامعة برمنغهام وما في المكتبة الوطنية بباريس ومخطوطات صنعاء. ودُرست بالفحص الإشعاعيّ للرقّ، فجاءت تواريخها في القرن الأول للهجرة.\n\nوما فيها يوافق المصحف المتداول اليوم في ترتيب السور والآيات ونصّها. وما يُلحظ فيها من فروق يرجع إلى رسم المصحف الأول — كان بلا نقطٍ ولا شكل — لا إلى اختلاف في النصّ المقروء.",
+        "en": "The writing down began in the lifetime of the Prophet ﷺ on whatever came to hand — palm stalks and thin stones — then it was gathered in the time of Abū Bakr, and copies were made and sent to the great cities in the time of ʿUthmān.\n\nPortions of those earliest copies survive in museums, among them the leaves at the University of Birmingham, those in the National Library in Paris, and the Sanaa manuscripts. The parchment has been examined by radiocarbon dating, and the dates come out within the first century of the Hijra.\n\nWhat they contain agrees with the copy in circulation today in the order of the chapters and the verses and in their wording. Such differences as are noticed in them go back to the script of the earliest copies — which had neither dots nor vowel marks — and not to any difference in the text as recited.",
+        "ru": "Запись началась при жизни Пророка ﷺ на том, что было под рукой, — пальмовых черешках и тонких камнях, — затем она была собрана во времена Абу Бакра, а списки были сделаны и разосланы по городам во времена Усмана.\n\nЧасти этих древнейших списков сохранились в музеях, среди них листы в Бирмингемском университете, листы в Национальной библиотеке в Париже и санские рукописи. Пергамент был исследован радиоуглеродным методом, и датировки выходят в пределах первого века хиджры.\n\nТо, что в них содержится, согласуется с обращающимся сегодня списком в порядке сур и аятов и в их словах. Те различия, что в них замечаются, восходят к письму первых списков — в нём не было ни точек, ни огласовок, — а не к различию в читаемом тексте.",
+        "es": "La escritura comenzó en vida del Profeta ﷺ sobre lo que había a mano —peciolos de palma y piedras delgadas—, luego se reunió en tiempos de Abū Bakr, y se hicieron copias que se enviaron a las grandes ciudades en tiempos de ʿUthmān.\n\nDe aquellas copias más antiguas sobreviven porciones en museos, entre ellas las hojas de la Universidad de Birmingham, las de la Biblioteca Nacional de París y los manuscritos de Saná. El pergamino ha sido examinado por datación radiocarbónica, y las fechas salen dentro del primer siglo de la Hégira.\n\nLo que contienen concuerda con la copia en circulación hoy en el orden de las suras y las aleyas y en su texto. Las diferencias que se observan en ellas se remontan a la grafía de las primeras copias —que no tenía ni puntos ni signos vocálicos— y no a diferencia alguna en el texto recitado.",
+        "uk": "Запис почався за життя Пророка ﷺ на тому, що було під рукою, — пальмових черешках і тонких каменях, — потім він був зібраний за часів Абу Бакра, а списки були зроблені й розіслані по містах за часів Усмана.\n\nЧастини цих найдавніших списків збереглися в музеях, серед них аркуші в Бірмінгемському університеті, аркуші в Національній бібліотеці в Парижі та санські рукописи. Пергамент був досліджений радіовуглецевим методом, і датування виходять у межах першого століття гіджри.\n\nТе, що в них міститься, узгоджується з обіговим сьогодні списком у порядку сур і аятів та в їхніх словах. Ті відмінності, що в них помічаються, сягають письма перших списків — у ньому не було ні крапок, ні огласовок, — а не відмінності в читаному тексті."
+      }
+    },
+    {
+      "id": "critique",
+      "heading": {
+        "ar": "ما أُورد على النصّ والجواب عنه",
+        "en": "What Has Been Raised against the Text, and the Answer",
+        "ru": "Что выдвигалось против текста и ответ на это",
+        "es": "Lo que se ha planteado contra el texto y la respuesta",
+        "uk": "Що висувалося проти тексту та відповідь на це"
+      },
+      "body": {
+        "ar": "طبّق بعض الباحثين الغربيين على القرآن مناهج النقد النصّي التي وُضعت لدراسة العهد الجديد. وهذه المناهج قامت على أصلٍ واحد: أن النصّ نُقل بالنسخ، فيُقابَل بين النسخ ليُستخرج الأصل.\n\nوالإشكال أن هذا الأصل لا ينطبق على القرآن، لأن نقله لم يكن بالنسخ وحده. فالمصحف عند المسلمين شاهدٌ على المحفوظ لا مصدرٌ له، والقراءة تُتلقّى من شيخٍ لا من ورقة.\n\nومن هنا يُفهم ما يُثار من فروق في المخطوطات الأولى: هي فروق في **الرسم** لا في **المقروء**. فالمصحف الأول كُتب بلا نقطٍ ولا شكل، ليحتمل وجوه القراءات المتواترة كلّها؛ فما يبدو للناظر اختلافاً في الكلمة هو في الحقيقة خطٌّ واحد يحتمل قراءتين ثابتتين معاً.",
+        "en": "Some Western scholars have applied to the Qurʾān the methods of textual criticism developed for the study of the New Testament. Those methods rest on one premise: that the text came down by copying, so that the copies are compared in order to recover the original.\n\nThe difficulty is that this premise does not hold for the Qurʾān, since it did not come down by copying alone. For Muslims the written copy is a witness to what is memorised, not its source, and the recitation is taken from a teacher, not from a page.\n\nFrom this the differences raised about the earliest manuscripts are understood: they are differences of **script**, not of what is **recited**. The earliest copies were written without dots or vowel marks precisely so as to bear all the established readings; so what looks to an observer like a difference in a word is in truth one line of writing carrying two established readings at once.",
+        "ru": "Некоторые западные исследователи применили к Корану методы текстологии, разработанные для изучения Нового Завета. Эти методы опираются на одну посылку: что текст дошёл путём переписывания, так что списки сличают, дабы восстановить оригинал.\n\nЗатруднение в том, что эта посылка не действует для Корана, ибо он дошёл не одним лишь переписыванием. Для мусульман письменный список — свидетель о заученном, а не его источник, и чтение берётся от учителя, а не со страницы.\n\nОтсюда понимаются и те различия, что поднимают о древнейших рукописях: это различия **письма**, а не **читаемого**. Первые списки были написаны без точек и огласовок именно для того, чтобы вмещать все установленные чтения; так что кажущееся наблюдателю различием в слове есть на деле одно начертание, несущее два установленных чтения разом.",
+        "es": "Algunos investigadores occidentales han aplicado al Corán los métodos de crítica textual desarrollados para el estudio del Nuevo Testamento. Esos métodos descansan en una premisa: que el texto llegó por copia, de modo que se cotejan las copias para recobrar el original.\n\nLa dificultad es que esa premisa no vale para el Corán, pues no llegó solo por copia. Para los musulmanes la copia escrita es testigo de lo memorizado, no su fuente, y la recitación se toma de un maestro, no de una página.\n\nDe aquí se entienden las diferencias que se plantean sobre los manuscritos más antiguos: son diferencias de **grafía**, no de lo **recitado**. Las primeras copias se escribieron sin puntos ni signos vocálicos precisamente para sostener todas las lecturas establecidas; así que lo que al observador le parece una diferencia en una palabra es en verdad un solo trazo que porta dos lecturas establecidas a la vez.",
+        "uk": "Деякі західні дослідники застосували до Корану методи текстології, розроблені для вивчення Нового Завіту. Ці методи спираються на одну засновку: що текст дійшов шляхом переписування, тож списки звіряють, аби відновити оригінал.\n\nУтруднення в тому, що ця засновка не діє для Корану, бо він дійшов не самим лише переписуванням. Для мусульман письмовий список — свідок про завчене, а не його джерело, і читання береться від учителя, а не зі сторінки.\n\nЗвідси розуміються й ті відмінності, що піднімають про найдавніші рукописи: це відмінності **письма**, а не **читаного**. Перші списки були написані без крапок і огласовок саме для того, щоб вміщати всі встановлені читання; тож те, що спостерігачеві здається відмінністю в слові, є насправді одне накреслення, що несе два встановлені читання водночас."
+      }
+    },
+    {
+      "id": "closing",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Closing",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "فالركنان يشهد كلٌّ منهما للآخر: النقل الشفويّ يحفظ المقروء، والمخطوطات تشهد أن المكتوب لم يتغيّر. ولو انفرد أحدهما لبقي للناظر مجالُ شكّ، فاجتماعهما هو موضع الحجّة.",
+        "en": "Each of the two witnesses to the other: the oral transmission preserves what is recited, and the manuscripts testify that what was written has not changed. Were either to stand alone, room for doubt would remain; it is in their coming together that the proof lies.",
+        "ru": "Каждое из двух свидетельствует о другом: устная передача хранит читаемое, а рукописи свидетельствуют, что написанное не изменилось. Если бы одно из них стояло в одиночку, место для сомнения осталось бы; довод именно в их соединении.",
+        "es": "Cada uno de los dos da testimonio del otro: la transmisión oral guarda lo recitado, y los manuscritos atestiguan que lo escrito no ha cambiado. Si uno de ellos estuviera solo, quedaría lugar para la duda; la prueba está justamente en su concurrencia.",
+        "uk": "Кожне з двох свідчить про інше: усна передача зберігає читане, а рукописи свідчать, що написане не змінилося. Якби одне з них стояло самотою, місце для сумніву лишилося б; доказ саме в їхньому поєднанні."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "جامع البيان",
+      "en": "Jāmiʿ al-Bayān",
+      "ru": "«Джами аль-Баян»",
+      "es": "Jāmiʿ al-Bayān",
+      "uk": "«Джамі аль-Баян»"
+    },
+    {
+      "ar": "تفسير ابن كثير",
+      "en": "Tafsīr Ibn Kathīr",
+      "ru": "«Тафсир Ибн Касира»",
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
+    },
+    {
+      "ar": "البداية والنهاية",
+      "en": "Al-Bidāyah wa-al-Nihāyah",
+      "ru": "«Аль-Бидая ва-н-Нихая»",
+      "es": "Al-Bidāyah wa-al-Nihāyah",
+      "uk": "«Аль-Бідая ва-н-Ніхая»"
+    }
+  ]
+}

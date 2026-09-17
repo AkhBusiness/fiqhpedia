@@ -6404,6 +6404,168 @@
       }
     },
     {
+      "id": "iman-4",
+      "ref": "F110",
+      "bookId": "iman",
+      "number": 3,
+      "chapter": {
+        "ar": "باب الإيمان والشهادتين",
+        "en": "Chapter on Faith and the Two Testimonies",
+        "ru": "Раздел о вере и двух свидетельствах",
+        "es": "Capítulo sobre la fe y los dos testimonios",
+        "uk": "Розділ про віру та два свідчення"
+      },
+      "title": {
+        "ar": "حكم معاملة المسلم الجديد لوالديه غير المسلمين",
+        "en": "How a New Muslim Is to Treat Parents Who Are Not Muslim",
+        "ru": "Как новообращённому мусульманину относиться к родителям-немусульманам",
+        "es": "Cómo ha de tratar el nuevo musulmán a sus padres no musulmanes",
+        "uk": "Як новонаверненому мусульманинові ставитися до батьків-немусульман"
+      },
+      "summary": {
+        "ar": "ما حكم برّ الوالدين غير المسلمين والإحسان إليهما، وما حدّ طاعتهما؟",
+        "en": "What is the ruling on dutifulness and kindness to parents who are not Muslim, and how far does obedience to them extend?",
+        "ru": "Каково постановление о почтительности и благодеянии к родителям-немусульманам, и докуда простирается послушание им?",
+        "es": "¿Cuál es la norma sobre la piedad filial y la bondad hacia los padres no musulmanes, y hasta dónde llega la obediencia a ellos?",
+        "uk": "Яка постанова про шанобливість і благодіяння до батьків-немусульман, і доки сягає послух їм?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يجب الإحسان إلى الوالدين غير المسلمين بالقول والفعل والنفقة عند حاجتهما، وتجوز طاعتهما في غير معصية، ولا طاعة لهما في كفر، لقوله تعالى: ﴿وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
+            "en": "Kindness to parents who are not Muslim is obligatory — in word, in deed, and in maintaining them when they are in need. They are obeyed in what is no disobedience, and never in unbelief — Sūrat Luqmān, verse 15.",
+            "ru": "Благодеяние к родителям-немусульманам обязательно — словом, делом и содержанием при их нужде. Им повинуются в том, что не есть ослушание, и никогда — в неверии. Сура «Лукман», аят 15.",
+            "es": "La bondad hacia los padres no musulmanes es obligatoria: en la palabra, en la obra y en su manutención cuando la necesiten. Se les obedece en lo que no es desobediencia, y nunca en la incredulidad. Sura Luqmān, aleya 15.",
+            "uk": "Благодіяння до батьків-немусульман обов'язкове — словом, ділом і утриманням за їхньої потреби. Їм підкоряються в тому, що не є гріхом, і ніколи — у невірʼї. Сура «Лукман», аят 15."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "wajib",
+          "text": {
+            "ar": "تجب صلة الوالدين غير المسلمين وبرّهما بالإحسان والخدمة والرفق، ويحرم عقوقهما، ولا طاعة لهما إن أمرا بكفر أو معصية مع وجوب مصاحبتهما بالمعروف.",
+            "en": "Keeping ties with parents who are not Muslim and treating them well — in kindness, in service and in gentleness — is obligatory, and being undutiful to them is forbidden. They are not obeyed if they command unbelief or disobedience, while the duty to keep their company honourably remains.",
+            "ru": "Поддерживать связь с родителями-немусульманами и относиться к ним хорошо — благодеянием, услужением и мягкостью — обязательно, а непочтительность к ним запретна. Им не повинуются, если они велят неверие или ослушание, при том что обязанность достойно сопровождать их остаётся.",
+            "es": "Mantener el vínculo con los padres no musulmanes y tratarlos bien —con bondad, servicio y dulzura— es obligatorio, y faltarles es ilícito. No se les obedece si ordenan incredulidad o desobediencia, quedando el deber de acompañarlos honorablemente.",
+            "uk": "Підтримувати звʼязок із батьками-немусульманами й ставитися до них добре — благодіянням, служінням і лагідністю — обовʼязково, а непошана до них заборонена. Їм не підкоряються, якщо вони велять невірʼя чи гріх, і при цьому обовʼязок гідно супроводжувати їх лишається."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يجب برّ الوالدين غير المسلمين بالإنفاق عليهما عند الحاجة واللين في الخطاب والدعاء لهما بالهداية، ولا طاعة لهما في معصية.",
+            "en": "Dutifulness to parents who are not Muslim is obligatory: maintaining them when they are in need, gentleness of speech with them, and praying that they be guided. They are not obeyed in disobedience.",
+            "ru": "Почтительность к родителям-немусульманам обязательна: содержать их при нужде, говорить с ними мягко и молиться об их наставлении. Им не повинуются в ослушании.",
+            "es": "La piedad filial hacia los padres no musulmanes es obligatoria: mantenerlos cuando lo necesiten, hablarles con dulzura y pedir por su guía. No se les obedece en la desobediencia.",
+            "uk": "Шанобливість до батьків-немусульман обовʼязкова: утримувати їх за потреби, говорити з ними лагідно й молитися про їхнє настановлення. Їм не підкоряються в гріху."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "wajib",
+          "text": {
+            "ar": "يجب برّ الوالدين غير المسلمين بوجوه الإحسان كلّها من نفقة وخدمة ولين وزيارة، ويحرم عقوقهما، ولا طاعة لهما في معصية الله، لقوله تعالى: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
+            "en": "Dutifulness to parents who are not Muslim is obligatory in every form of kindness — maintenance, service, gentleness and visiting — and being undutiful to them is forbidden. They are not obeyed in disobedience to God. Sūrat Luqmān, verse 15.",
+            "ru": "Почтительность к родителям-немусульманам обязательна во всех видах благодеяния — содержание, услужение, мягкость и посещение, — а непочтительность к ним запретна. Им не повинуются в ослушании Бога. Сура «Лукман», аят 15.",
+            "es": "La piedad filial hacia los padres no musulmanes es obligatoria en toda forma de bondad —manutención, servicio, dulzura y visita—, y faltarles es ilícito. No se les obedece en la desobediencia a Dios. Sura Luqmān, aleya 15.",
+            "uk": "Шанобливість до батьків-немусульман обовʼязкова в усіх видах благодіяння — утримання, служіння, лагідність і відвідини, — а непошана до них заборонена. Їм не підкоряються в гріху перед Богом. Сура «Лукман», аят 15."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-17"
+    },
+    {
       "id": "taharah-9",
       "ref": "F20",
       "bookId": "taharah",
@@ -22319,6 +22481,654 @@
           ]
         }
       }
+    },
+    {
+      "id": "nikah-4",
+      "ref": "F111",
+      "bookId": "nikah",
+      "number": 1,
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "حكم النظر إلى المخطوبة وحدوده",
+        "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
+        "ru": "Взгляд на ту, к которой сватаются, и его пределы",
+        "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
+        "uk": "Погляд на ту, до якої сватаються, та його межі"
+      },
+      "summary": {
+        "ar": "ما حكم نظر الخاطب إلى مخطوبته قبل العقد، وما الذي يُباح له النظر إليه؟",
+        "en": "What is the ruling on a suitor looking at the woman he seeks to marry before the contract, and what may he look at?",
+        "ru": "Каково постановление о взгляде свата на ту, к которой он сватается, до договора, и на что ему дозволено смотреть?",
+        "es": "¿Cuál es la norma sobre que el pretendiente mire a la mujer antes del contrato, y qué le es lícito mirar?",
+        "uk": "Яка постанова про погляд свата на ту, до якої він сватається, до договору, і на що йому дозволено дивитися?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُندب للخاطب أن ينظر إلى مخطوبته، ويقتصر النظر على الوجه والكفّين: فالوجه يدلّ على الجمال، والكفّان على خصب البدن أو هزاله.",
+            "en": "It is recommended that a suitor look at the woman he seeks to marry, and the looking is confined to the face and the hands: the face shows her beauty, and the hands whether her body is full or spare.",
+            "ru": "Свату желательно посмотреть на ту, к которой он сватается, и взгляд ограничивается лицом и кистями рук: лицо показывает её красоту, а кисти — полно ли её тело или худощаво.",
+            "es": "Se recomienda al pretendiente mirar a la mujer con quien pretende casarse, y la mirada se limita al rostro y las manos: el rostro muestra su belleza, y las manos si su cuerpo es lleno o enjuto.",
+            "uk": "Сватові бажано подивитися на ту, до якої він сватається, і погляд обмежується обличчям та кистями рук: обличчя показує її красу, а кисті — чи повне її тіло, чи худорляве."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "mandub",
+          "text": {
+            "ar": "يُندب النظر إلى المخطوبة بإذنها أو بغير إذنها، ويقتصر على الوجه والكفّين ظاهرهما وباطنهما، ولا ينظر إلى غير ذلك من بدنها.",
+            "en": "It is recommended to look at the woman one seeks to marry, with or without her leave, and the looking is confined to the face and the hands, front and back; nothing else of her body is looked at.",
+            "ru": "Желательно посмотреть на ту, к которой сватаются, с её позволения или без него, и взгляд ограничивается лицом и кистями рук с обеих сторон; на иное из её тела не смотрят.",
+            "es": "Se recomienda mirar a la mujer a quien se pretende, con o sin su permiso, y la mirada se limita al rostro y las manos, por delante y por detrás; no se mira nada más de su cuerpo.",
+            "uk": "Бажано подивитися на ту, до якої сватаються, з її дозволу чи без нього, і погляд обмежується обличчям та кистями рук з обох боків; на інше з її тіла не дивляться."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ للخاطب النظر إلى المخطوبة قبل الخطبة ولو بغير إذنها، ويقتصر على الوجه والكفّين إلى الكوعين، لأنهما ليسا بعورة ويُستدلّ بهما على المحاسن.",
+            "en": "It is a sunnah for a suitor to look at the woman before making his offer, even without her leave, and the looking is confined to the face and the hands as far as the wrists, since these are not ʿawrah and by them her good qualities are judged.",
+            "ru": "Свату сунна посмотреть на ту, к которой он сватается, до сватовства, даже без её позволения, и взгляд ограничивается лицом и кистями до запястий, ибо они не аврат и по ним судят о её достоинствах.",
+            "es": "Es sunnah que el pretendiente mire a la mujer antes de la petición, aun sin su permiso, y la mirada se limita al rostro y las manos hasta las muñecas, pues no son ʿawrah y por ellas se juzgan sus prendas.",
+            "uk": "Сватові сунна подивитися на ту, до якої він сватається, до сватання, навіть без її дозволу, і погляд обмежується обличчям та кистями до зап'ястків, бо вони не аврат і за ними судять про її принади."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "sunnah",
+          "text": {
+            "ar": "يُسنّ للخاطب النظر إلى المخطوبة ولو بغير إذنها، وله أن ينظر إلى ما يظهر منها غالباً كالوجه والرقبة واليدين والقدمين.",
+            "en": "It is a sunnah for a suitor to look at the woman he seeks to marry, even without her leave, and he may look at what ordinarily shows of her — the face, the neck, the hands and the feet.",
+            "ru": "Свату сунна посмотреть на ту, к которой он сватается, даже без её позволения, и он может смотреть на то, что обычно из неё видно: лицо, шею, кисти и ступни.",
+            "es": "Es sunnah que el pretendiente mire a la mujer, aun sin su permiso, y puede mirar lo que de ella suele verse: el rostro, el cuello, las manos y los pies.",
+            "uk": "Сватові сунна подивитися на ту, до якої він сватається, навіть без її дозволу, і він може дивитися на те, що зазвичай з неї видно: обличчя, шию, кисті та ступні."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-17"
+    },
+    {
+      "id": "nikah-1",
+      "ref": "F107",
+      "bookId": "nikah",
+      "number": 2,
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "حكم الخطبة على خطبة الغير",
+        "en": "Making an Offer of Marriage over Another Man's Offer",
+        "ru": "Сватовство поверх сватовства другого",
+        "es": "Pedir en matrimonio sobre la petición de otro",
+        "uk": "Сватання поверх сватання іншого"
+      },
+      "summary": {
+        "ar": "متى تحرم خطبة الرجل على خطبة أخيه، وهل يصحّ العقد إن وقع؟",
+        "en": "When is it forbidden to make an offer of marriage over another man's offer, and is the contract valid if it goes through?",
+        "ru": "Когда запрещено свататься поверх сватовства другого, и действителен ли договор, если он состоялся?",
+        "es": "¿Cuándo está prohibido pedir en matrimonio sobre la petición de otro, y es válido el contrato si se celebra?",
+        "uk": "Коли заборонено свататися поверх сватання іншого, і чи дійсний договір, якщо він відбувся?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخطبة على خطبة الغير إذا حصل الركون والرضا من المخطوبة أو وليّها للأوّل؛ فإن لم يحصل رضا أو رُدّ الأوّل جازت. وإن وقع العقد مع التحريم صحّ مع الإثم.",
+            "en": "It is forbidden to make an offer over another's once the woman or her guardian has inclined to the first man and accepted him; if there was no acceptance, or the first was turned down, it is permitted. And if the contract is made despite the prohibition, it holds, though the man has sinned.",
+            "ru": "Запрещено свататься поверх сватовства другого, если невеста или её опекун склонились к первому и приняли его; если согласия не было или первому отказали, это дозволено. А если договор заключён вопреки запрету, он действителен, хотя человек согрешил.",
+            "es": "Está prohibido pedir sobre la petición de otro si la mujer o su tutor se han inclinado al primero y lo han aceptado; si no hubo aceptación, o el primero fue rechazado, es lícito. Y si el contrato se celebra pese a la prohibición, es válido, aunque el hombre haya pecado.",
+            "uk": "Заборонено свататися поверх сватання іншого, якщо наречена або її опікун схилилися до першого й прийняли його; якщо згоди не було або першому відмовили, це дозволено. А якщо договір укладено всупереч забороні, він дійсний, хоча людина згрішила."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخطبة على خطبة الغير إذا ركنت المرأة إلى الأوّل واتّفقا على الصداق، إلا أن يترك الأوّل أو يأذن. وإن وقع العقد صحّ مع الإثم.",
+            "en": "It is forbidden to make an offer over another's once the woman has inclined to the first man and they have agreed on the dower, unless the first withdraws or gives leave. And if the contract is made, it holds, though the man has sinned.",
+            "ru": "Запрещено свататься поверх сватовства другого, если женщина склонилась к первому и они договорились о приданом, — разве что первый отступится или позволит. А если договор заключён, он действителен, хотя человек согрешил.",
+            "es": "Está prohibido pedir sobre la petición de otro si la mujer se ha inclinado al primero y han acordado la dote, salvo que el primero desista o dé permiso. Y si el contrato se celebra, es válido, aunque el hombre haya pecado.",
+            "uk": "Заборонено свататися поверх сватання іншого, якщо жінка схилилася до першого й вони домовилися про придане, — хіба що перший відступиться або дозволить. А якщо договір укладено, він дійсний, хоча людина згрішила."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخطبة على خطبة الغير إذا أُجيب الأوّل إجابةً صريحة، لقوله ﷺ: «لا يخطب أحدكم على خطبة أخيه»؛ فإن كانت الإجابة تعريضاً أو سكتت أو رُدّ الأوّل لم تحرم. ويصحّ العقد إن وقع مع الإثم.",
+            "en": "It is forbidden to make an offer over another's once the first man has had an explicit acceptance — on the strength of his saying ﷺ: “Let none of you make an offer over his brother's offer.” If the answer was only a hint, or she kept silent, or the first was turned down, it is not forbidden. And the contract holds if made, though the man has sinned.",
+            "ru": "Запрещено свататься поверх сватовства другого, если первому ответили явным согласием, — согласно его словам ﷺ: «Пусть никто из вас не сватается поверх сватовства своего брата». Если ответ был лишь намёком, или она промолчала, или первому отказали, это не запрещено. А договор действителен, если заключён, хотя человек согрешил.",
+            "es": "Está prohibido pedir sobre la petición de otro si el primero recibió una aceptación explícita, por su dicho ﷺ: «Que ninguno de vosotros pida sobre la petición de su hermano». Si la respuesta fue solo una insinuación, o ella calló, o el primero fue rechazado, no está prohibido. Y el contrato es válido si se celebra, aunque el hombre haya pecado.",
+            "uk": "Заборонено свататися поверх сватання іншого, якщо першому відповіли явною згодою, — згідно з його словами ﷺ: «Хай ніхто з вас не сватається поверх сватання свого брата». Якщо відповідь була лише натяком, або вона промовчала, або першому відмовили, це не заборонено. А договір дійсний, якщо укладений, хоча людина згрішила."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخطبة على خطبة أخيه المسلم إذا أُجيب الأوّل صراحةً أو وُجد ركون إليه؛ فإن أذن الأوّل أو ترك أو رُدّ أو جُهل حاله جازت. وإن وقع العقد صحّ مع الإثم.",
+            "en": "It is forbidden to make an offer over the offer of one's Muslim brother once the first man has had an explicit acceptance, or an inclination to him is found; if the first gives leave, withdraws, is turned down, or his position is unknown, it is permitted. And if the contract is made, it holds, though the man has sinned.",
+            "ru": "Запрещено свататься поверх сватовства своего брата-мусульманина, если первому ответили явным согласием или обнаружилась склонность к нему; если первый позволит, отступится, получит отказ или его положение неизвестно, это дозволено. А если договор заключён, он действителен, хотя человек согрішил.",
+            "es": "Está prohibido pedir sobre la petición del hermano musulmán si el primero recibió aceptación explícita, o si se halla inclinación hacia él; si el primero da permiso, desiste, es rechazado, o se desconoce su situación, es lícito. Y si el contrato se celebra, es válido, aunque el hombre haya pecado.",
+            "uk": "Заборонено свататися поверх сватання свого брата-мусульманина, якщо першому відповіли явною згодою або виявилася схильність до нього; якщо перший дозволить, відступиться, отримає відмову або його становище невідоме, це дозволено. А якщо договір укладено, він дійсний, хоча людина згрішила."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-17"
+    },
+    {
+      "id": "nikah-2",
+      "ref": "F108",
+      "bookId": "nikah",
+      "number": 3,
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "خِطبة المعتدّة صراحةً والتعريض بها",
+        "en": "Offering Marriage to a Woman in Her Waiting Period, Openly or by Hint",
+        "ru": "Сватовство к женщине в период ожидания — прямо и намёком",
+        "es": "Pedir en matrimonio a la mujer en su período de espera, de forma clara o por insinuación",
+        "uk": "Сватання до жінки в період очікування — прямо й натяком"
+      },
+      "summary": {
+        "ar": "ما حكم التصريح بخطبة المرأة في عدّتها، وما حكم التعريض باختلاف نوع العدّة؟",
+        "en": "What is the ruling on offering marriage to a woman openly during her waiting period, and on hinting at it, according to the kind of waiting period?",
+        "ru": "Каково постановление о прямом сватовстве к женщине в период её ожидания и о намёке на это в зависимости от вида периода ожидания?",
+        "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
+        "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "haram",
+          "text": {
+            "ar": "يحرم التصريح بخطبة المعتدّة مطلقاً. ويحرم التعريض للمعتدّة من طلاق رجعيّ لبقاء النكاح، ويُباح للمعتدّة من وفاة أو من طلاق بائن.",
+            "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case. Hinting at it is forbidden to a revocably divorced woman, since the marriage still stands, and permitted to a widow or an irrevocably divorced woman.",
+            "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае. Намёк запрещён по отношению к разведённой отзывным разводом, поскольку брак ещё стоит, и дозволен по отношению к вдове или разведённой окончательно.",
+            "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso. Insinuarlo está prohibido a la divorciada de modo revocable, pues el matrimonio aún subsiste, y permitido a la viuda o a la divorciada de modo irrevocable.",
+            "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі. Натяк заборонений щодо розлученої відкличним розлученням, оскільки шлюб ще стоїть, і дозволений щодо вдови чи розлученої остаточно."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "haram",
+          "text": {
+            "ar": "يحرم التصريح بخطبة المعتدّة كيفما كانت عدّتها. ويجوز التعريض للمعتدّة من وفاة ومن طلاق بائن، ويحرم للمعتدّة الرجعية.",
+            "en": "Offering marriage openly to a woman in her waiting period is forbidden, whatever the kind of waiting period. Hinting is allowed to a widow and to an irrevocably divorced woman, and forbidden to a revocably divorced one.",
+            "ru": "Прямое сватовство к женщине в период ожидания запрещено, каким бы ни был вид этого периода. Намёк дозволен вдове и разведённой окончательно и запрещён разведённой отзывным разводом.",
+            "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido, sea cual sea el tipo de período. Insinuar se permite a la viuda y a la divorciada de modo irrevocable, y se prohíbe a la divorciada de modo revocable.",
+            "uk": "Пряме сватання до жінки в період очікування заборонене, яким би не був вид цього періоду. Натяк дозволений вдові й розлученій остаточно та заборонений розлученій відкличним розлученням."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "haram",
+          "text": {
+            "ar": "يحرم التصريح بخطبة كلّ معتدّة. ويُباح التعريض لمعتدّة الوفاة والبائن، لأنه لا سبيل للزوج الأوّل إليها؛ بخلاف الرجعية فإنها في حكم الزوجة فيحرم التعريض لها.",
+            "en": "Offering marriage openly to any woman in her waiting period is forbidden. Hinting is permitted to a widow and to an irrevocably divorced woman, since her first husband has no way back to her — unlike the revocably divorced woman, who is still in the position of a wife, so hinting to her is forbidden.",
+            "ru": "Прямое сватовство к любой женщине в период ожидания запрещено. Намёк дозволен вдове и разведённой окончательно, ибо у первого мужа нет к ней пути, — в отличие от разведённой отзывным разводом, которая ещё в положении жены, так что намёк ей запрещён.",
+            "es": "Pedir abiertamente en matrimonio a cualquier mujer en su período de espera está prohibido. Insinuar se permite a la viuda y a la divorciada de modo irrevocable, pues su primer marido no tiene vía hacia ella — a diferencia de la divorciada de modo revocable, que sigue en la posición de esposa, por lo que insinuarle está prohibido.",
+            "uk": "Пряме сватання до будь-якої жінки в період очікування заборонене. Натяк дозволений вдові й розлученій остаточно, бо в першого чоловіка немає до неї шляху, — на відміну від розлученої відкличним розлученням, яка ще в становищі дружини, тож натяк їй заборонений."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "haram",
+          "text": {
+            "ar": "يحرم التصريح بخطبة المعتدّة بكلّ حال. ويُباح التعريض لمعتدّة الوفاة والبائن، ولا يُباح للرجعية، لأنها زوجة يملك زوجها رجعتها.",
+            "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case. Hinting is permitted to a widow and to an irrevocably divorced woman, and not to a revocably divorced one, since she is a wife whom her husband may still take back.",
+            "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае. Намёк дозволен вдове и разведённой окончательно и не дозволен разведённой отзывным разводом, поскольку она жена, которую муж ещё вправе вернуть.",
+            "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso. Insinuar se permite a la viuda y a la divorciada de modo irrevocable, y no a la divorciada de modo revocable, pues es una esposa a quien su marido aún puede recobrar.",
+            "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі. Натяк дозволений вдові й розлученій остаточно та не дозволений розлученій відкличним розлученням, оскільки вона дружина, яку чоловік ще вправі повернути."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-17"
+    },
+    {
+      "id": "nikah-3",
+      "ref": "F109",
+      "bookId": "nikah",
+      "number": 4,
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
+        "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
+        "ru": "Уединение с засватанной и поездка с ней до заключения договора",
+        "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
+        "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
+      },
+      "summary": {
+        "ar": "هل تحلّ الخلوة بالمخطوبة والسفر بها قبل عقد النكاح؟",
+        "en": "Is it lawful to be alone with the betrothed woman and to travel with her before the marriage contract?",
+        "ru": "Дозволено ли уединяться с засватанной и путешествовать с ней до заключения брачного договора?",
+        "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
+        "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، ولا يحلّ له منها إلا النظر المباح.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded, and nothing of her is lawful to him but the sanctioned looking.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор, и дозволен ему из неё лишь разрешённый взгляд.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato, y no le es lícito de ella sino la mirada permitida.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір, і дозволений йому з неї лише дозволений погляд."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، فهي كسائر الأجنبيات حتى يُعقد عليها، والخطبة وعدٌ بالنكاح لا يُبيح شيئاً من ذلك.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden; she is as any other woman who is a stranger to him until the contract is made over her, and the betrothal is a promise of marriage that permits none of this.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены; она как всякая посторонняя женщина, пока не заключён над ней договор, а сватовство — обещание брака, которое ничего из этого не дозволяет.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos; ella es como cualquier otra mujer ajena hasta que se celebre el contrato sobre ella, y el compromiso es una promesa de matrimonio que no permite nada de esto.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені; вона як усяка стороння жінка, доки не укладено над нею договір, а сватання — обіцянка шлюбу, яка нічого з цього не дозволяє."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ والمخطوبة أجنبية لا يحلّ منها إلا النظر للحاجة.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and nothing of her is lawful but the looking that the need allows.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и дозволен из неё лишь взгляд по нужде.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y no le es lícito de ella sino la mirada que la necesidad permite.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і дозволений з неї лише погляд за потребою."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "haram",
+          "text": {
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأن الخطبة لا تُغيّر من أحكام الأجنبية شيئاً سوى إباحة النظر لمن أراد نكاحها.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden, since the betrothal changes nothing of the rulings that govern a woman who is a stranger to him, save that it permits the looking to one who intends to marry her.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены, ибо сватовство ничего не меняет в постановлениях о посторонней женщине, кроме того, что дозволяет взгляд тому, кто намерен на ней жениться.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues el compromiso no cambia nada de las normas sobre la mujer ajena, salvo que permite la mirada a quien pretende casarse con ella.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо сватання нічого не змінює в постановах про сторонню жінку, крім того, що дозволяє погляд тому, хто має намір з нею одружитися."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-09-17"
     }
   ],
   "articles": [
@@ -23116,7 +23926,146 @@
           "uk": "«Тафсір Ібн Касіра»"
         }
       ],
-      "addedAt": "2026-09-15"
+      "addedAt": "2026-09-17"
+    },
+    {
+      "id": "quran-preservation",
+      "ref": "M7",
+      "chapter": {
+        "ar": "باب القرآن وعلومه",
+        "en": "Chapter on the Qurʾān and Its Sciences",
+        "ru": "Раздел о Коране и его науках",
+        "es": "Capítulo sobre el Corán y sus ciencias",
+        "uk": "Розділ про Коран та його науки"
+      },
+      "title": {
+        "ar": "حفظ القرآن: الإسناد والمخطوطات",
+        "en": "The Preservation of the Qurʾān: Transmission and Manuscripts",
+        "ru": "Сохранение Корана: передача и рукописи",
+        "es": "La preservación del Corán: transmisión y manuscritos",
+        "uk": "Збереження Корану: передача та рукописи"
+      },
+      "excerpt": {
+        "ar": "كيف حُفظ القرآن بركنين معاً — نقلٌ شفويّ متواتر وتدوينٌ مبكّر — وما تقوله المخطوطات الأولى.",
+        "en": "How the Qurʾān was preserved by two things at once — mass oral transmission and early writing down — and what the earliest manuscripts say.",
+        "ru": "Как Коран был сохранён двумя вещами разом — массовой устной передачей и ранней записью — и что говорят древнейшие рукописи.",
+        "es": "Cómo se preservó el Corán por dos vías a la vez —la transmisión oral masiva y la escritura temprana— y qué dicen los manuscritos más antiguos.",
+        "uk": "Як Коран був збережений двома речами водночас — масовою усною передачею та раннім записом — і що кажуть найдавніші рукописи."
+      },
+      "relatedRefs": [
+        "A8"
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "حُفظ القرآن بركنين متلازمين لا بواحد: نقلٌ شفويّ متواتر عبر أسانيد متّصلة، وتدوينٌ خطّيّ بدأ في حياة النبي ﷺ. وأكثر ما يقع فيه الخلط أن يُنظر إلى أحدهما وحده، فيُقاس القرآن على كتب نُقلت بالكتابة وحدها.\n\nوهذا المقال يعرض الركنين، ثم ينظر في ما تقوله المخطوطات الأولى، ثم في ما أورده الباحثون الغربيون على النصّ.",
+            "en": "The Qurʾān was preserved by two things bound together, not by one: mass oral transmission through unbroken chains, and a written record that began in the lifetime of the Prophet ﷺ. Most of the confusion comes from looking at one of these alone, and so measuring the Qurʾān against books that came down in writing only.\n\nThis article sets out the two, then looks at what the earliest manuscripts say, and then at what Western scholars have raised against the text.",
+            "ru": "Коран был сохранён двумя связанными вещами, а не одной: массовой устной передачей через непрерывные цепи и письменной фиксацией, начавшейся ещё при жизни Пророка ﷺ. Большая часть путаницы происходит от того, что смотрят на одно из них в отдельности и тем самым мерят Коран мерой книг, дошедших только письменно.\n\nЭта статья излагает оба, затем смотрит, что говорят древнейшие рукописи, и затем — что западные исследователи выдвигали против текста.",
+            "es": "El Corán se preservó por dos cosas unidas, no por una: la transmisión oral masiva mediante cadenas ininterrumpidas y un registro escrito que comenzó en vida del Profeta ﷺ. La mayor parte de la confusión viene de mirar una sola de ellas, midiendo así el Corán con la vara de libros que llegaron solo por escrito.\n\nEste artículo expone ambas, luego mira qué dicen los manuscritos más antiguos, y después qué han planteado los investigadores occidentales contra el texto.",
+            "uk": "Коран був збережений двома пов'язаними речами, а не однією: масовою усною передачею через безперервні ланцюги та письмовою фіксацією, що почалася ще за життя Пророка ﷺ. Більша частина плутанини походить від того, що дивляться на одне з них окремо й тим самим міряють Коран мірою книг, які дійшли лише письмово.\n\nЦя стаття викладає обидва, потім дивиться, що кажуть найдавніші рукописи, і потім — що західні дослідники висували проти тексту."
+          }
+        },
+        {
+          "id": "oral",
+          "heading": {
+            "ar": "النقل الشفويّ والإسناد",
+            "en": "Oral Transmission and the Chain",
+            "ru": "Устная передача и цепь",
+            "es": "La transmisión oral y la cadena",
+            "uk": "Усна передача та ланцюг"
+          },
+          "body": {
+            "ar": "لم يكن حفظ القرآن حفظاً فردياً يتناقله آحاد، بل **تواتراً**: ينقله في كل طبقة جمعٌ عن جمعٍ يستحيل تواطؤهم على الكذب. وهذا وحده يفرّقه عمّا نُقل بخبر الواحد.\n\nوقد بقي هذا النقل متّصلاً إلى اليوم: يقرأ الطالب على شيخه القرآن كلّه سماعاً وعرضاً، ويُجيزه شيخه بسندٍ متّصل. فالنصّ لا يُتلقّى من مصحفٍ مطبوع، وإنما من صدرٍ عن صدر، والمصحف شاهدٌ عليه.\n\nوعلى هذا لو فُقدت المصاحف كلّها لبقي النصّ محفوظاً في صدور الحافظين، وهم في كل جيل ألوف. وهذا ما لا يُتصوّر في كتابٍ نُقل بالكتابة وحدها.",
+            "en": "The preservation of the Qurʾān was never the memorising of individuals passing it one to another; it was **mass transmission**: in every generation a body of people carried it from a body of people too large to have agreed upon a lie. This alone sets it apart from what came down on the report of single narrators.\n\nThat transmission has remained unbroken to this day: a student recites the whole of the Qurʾān to his teacher, hearing it and reciting it back, and the teacher licenses him with a connected chain. The text is not taken up from a printed copy; it passes from one breast to another, and the written copy stands witness over it.\n\nOn this footing, were every written copy to be lost, the text would remain preserved in the breasts of those who have memorised it — and in every generation they number in the thousands. This is not conceivable for a book that came down in writing alone.",
+            "ru": "Сохранение Корана никогда не было запоминанием отдельных людей, передающих его один другому; это была **массовая передача**: в каждом поколении его несло множество людей от множества, слишком большого, чтобы сговориться на лжи. Одно это отличает его от того, что дошло по сообщению единичных передатчиков.\n\nЭта передача осталась непрерывной до наших дней: ученик читает весь Коран своему учителю, слушая его и повторяя, и учитель даёт ему разрешение с непрерывной цепью. Текст не берётся из печатного свитка; он переходит от груди к груди, а письменный список свидетельствует о нём.\n\nПри таком положении, если бы все письменные списки были утрачены, текст остался бы сохранённым в грудях тех, кто выучил его наизусть, — а в каждом поколении их тысячи. Такое немыслимо для книги, дошедшей только письменно.",
+            "es": "La preservación del Corán nunca fue la memorización de individuos que se lo pasaban uno a otro; fue una **transmisión masiva**: en cada generación lo llevó un conjunto de personas desde un conjunto demasiado numeroso para haberse concertado en una mentira. Solo esto lo distingue de lo que llegó por el informe de narradores únicos.\n\nEsa transmisión ha permanecido ininterrumpida hasta hoy: el estudiante recita el Corán entero a su maestro, oyéndolo y devolviéndolo, y el maestro lo autoriza con una cadena conectada. El texto no se toma de un ejemplar impreso; pasa de un pecho a otro, y la copia escrita da testimonio de él.\n\nSobre esta base, si se perdieran todas las copias escritas, el texto seguiría preservado en los pechos de quienes lo han memorizado — y en cada generación son miles. Esto no es concebible para un libro que llegó solo por escrito.",
+            "uk": "Збереження Корану ніколи не було запам'ятовуванням окремих людей, що передавали його один одному; це була **масова передача**: у кожному поколінні його несла множина людей від множини, надто великої, щоб змовитися на брехні. Одне це відрізняє його від того, що дійшло за повідомленням поодиноких передавачів.\n\nЦя передача лишилася безперервною донині: учень читає весь Коран своєму вчителеві, слухаючи його й повторюючи, і вчитель дає йому дозвіл із безперервним ланцюгом. Текст не береться з друкованого сувою; він переходить від грудей до грудей, а письмовий список свідчить про нього.\n\nЗа такого стану, якби всі письмові списки були втрачені, текст лишився б збереженим у грудях тих, хто вивчив його напам'ять, — а в кожному поколінні їх тисячі. Таке немислиме для книги, що дійшла лише письмово."
+          }
+        },
+        {
+          "id": "manuscripts",
+          "heading": {
+            "ar": "ما تقوله المخطوطات الأولى",
+            "en": "What the Earliest Manuscripts Say",
+            "ru": "Что говорят древнейшие рукописи",
+            "es": "Qué dicen los manuscritos más antiguos",
+            "uk": "Що кажуть найдавніші рукописи"
+          },
+          "body": {
+            "ar": "بدأ التدوين في حياة النبي ﷺ على ما تيسّر من العُسُب واللِّخاف، ثم جُمع في عهد أبي بكر رضي الله عنه، ثم نُسخت المصاحف في عهد عثمان رضي الله عنه وأُرسلت إلى الأمصار.\n\nوقد بقيت من المصاحف الأولى قطعٌ في المتاحف، منها ما في جامعة برمنغهام وما في المكتبة الوطنية بباريس ومخطوطات صنعاء. ودُرست بالفحص الإشعاعيّ للرقّ، فجاءت تواريخها في القرن الأول للهجرة.\n\nوما فيها يوافق المصحف المتداول اليوم في ترتيب السور والآيات ونصّها. وما يُلحظ فيها من فروق يرجع إلى رسم المصحف الأول — كان بلا نقطٍ ولا شكل — لا إلى اختلاف في النصّ المقروء.",
+            "en": "The writing down began in the lifetime of the Prophet ﷺ on whatever came to hand — palm stalks and thin stones — then it was gathered in the time of Abū Bakr, and copies were made and sent to the great cities in the time of ʿUthmān.\n\nPortions of those earliest copies survive in museums, among them the leaves at the University of Birmingham, those in the National Library in Paris, and the Sanaa manuscripts. The parchment has been examined by radiocarbon dating, and the dates come out within the first century of the Hijra.\n\nWhat they contain agrees with the copy in circulation today in the order of the chapters and the verses and in their wording. Such differences as are noticed in them go back to the script of the earliest copies — which had neither dots nor vowel marks — and not to any difference in the text as recited.",
+            "ru": "Запись началась при жизни Пророка ﷺ на том, что было под рукой, — пальмовых черешках и тонких камнях, — затем она была собрана во времена Абу Бакра, а списки были сделаны и разосланы по городам во времена Усмана.\n\nЧасти этих древнейших списков сохранились в музеях, среди них листы в Бирмингемском университете, листы в Национальной библиотеке в Париже и санские рукописи. Пергамент был исследован радиоуглеродным методом, и датировки выходят в пределах первого века хиджры.\n\nТо, что в них содержится, согласуется с обращающимся сегодня списком в порядке сур и аятов и в их словах. Те различия, что в них замечаются, восходят к письму первых списков — в нём не было ни точек, ни огласовок, — а не к различию в читаемом тексте.",
+            "es": "La escritura comenzó en vida del Profeta ﷺ sobre lo que había a mano —peciolos de palma y piedras delgadas—, luego se reunió en tiempos de Abū Bakr, y se hicieron copias que se enviaron a las grandes ciudades en tiempos de ʿUthmān.\n\nDe aquellas copias más antiguas sobreviven porciones en museos, entre ellas las hojas de la Universidad de Birmingham, las de la Biblioteca Nacional de París y los manuscritos de Saná. El pergamino ha sido examinado por datación radiocarbónica, y las fechas salen dentro del primer siglo de la Hégira.\n\nLo que contienen concuerda con la copia en circulación hoy en el orden de las suras y las aleyas y en su texto. Las diferencias que se observan en ellas se remontan a la grafía de las primeras copias —que no tenía ni puntos ni signos vocálicos— y no a diferencia alguna en el texto recitado.",
+            "uk": "Запис почався за життя Пророка ﷺ на тому, що було під рукою, — пальмових черешках і тонких каменях, — потім він був зібраний за часів Абу Бакра, а списки були зроблені й розіслані по містах за часів Усмана.\n\nЧастини цих найдавніших списків збереглися в музеях, серед них аркуші в Бірмінгемському університеті, аркуші в Національній бібліотеці в Парижі та санські рукописи. Пергамент був досліджений радіовуглецевим методом, і датування виходять у межах першого століття гіджри.\n\nТе, що в них міститься, узгоджується з обіговим сьогодні списком у порядку сур і аятів та в їхніх словах. Ті відмінності, що в них помічаються, сягають письма перших списків — у ньому не було ні крапок, ні огласовок, — а не відмінності в читаному тексті."
+          }
+        },
+        {
+          "id": "critique",
+          "heading": {
+            "ar": "ما أُورد على النصّ والجواب عنه",
+            "en": "What Has Been Raised against the Text, and the Answer",
+            "ru": "Что выдвигалось против текста и ответ на это",
+            "es": "Lo que se ha planteado contra el texto y la respuesta",
+            "uk": "Що висувалося проти тексту та відповідь на це"
+          },
+          "body": {
+            "ar": "طبّق بعض الباحثين الغربيين على القرآن مناهج النقد النصّي التي وُضعت لدراسة العهد الجديد. وهذه المناهج قامت على أصلٍ واحد: أن النصّ نُقل بالنسخ، فيُقابَل بين النسخ ليُستخرج الأصل.\n\nوالإشكال أن هذا الأصل لا ينطبق على القرآن، لأن نقله لم يكن بالنسخ وحده. فالمصحف عند المسلمين شاهدٌ على المحفوظ لا مصدرٌ له، والقراءة تُتلقّى من شيخٍ لا من ورقة.\n\nومن هنا يُفهم ما يُثار من فروق في المخطوطات الأولى: هي فروق في **الرسم** لا في **المقروء**. فالمصحف الأول كُتب بلا نقطٍ ولا شكل، ليحتمل وجوه القراءات المتواترة كلّها؛ فما يبدو للناظر اختلافاً في الكلمة هو في الحقيقة خطٌّ واحد يحتمل قراءتين ثابتتين معاً.",
+            "en": "Some Western scholars have applied to the Qurʾān the methods of textual criticism developed for the study of the New Testament. Those methods rest on one premise: that the text came down by copying, so that the copies are compared in order to recover the original.\n\nThe difficulty is that this premise does not hold for the Qurʾān, since it did not come down by copying alone. For Muslims the written copy is a witness to what is memorised, not its source, and the recitation is taken from a teacher, not from a page.\n\nFrom this the differences raised about the earliest manuscripts are understood: they are differences of **script**, not of what is **recited**. The earliest copies were written without dots or vowel marks precisely so as to bear all the established readings; so what looks to an observer like a difference in a word is in truth one line of writing carrying two established readings at once.",
+            "ru": "Некоторые западные исследователи применили к Корану методы текстологии, разработанные для изучения Нового Завета. Эти методы опираются на одну посылку: что текст дошёл путём переписывания, так что списки сличают, дабы восстановить оригинал.\n\nЗатруднение в том, что эта посылка не действует для Корана, ибо он дошёл не одним лишь переписыванием. Для мусульман письменный список — свидетель о заученном, а не его источник, и чтение берётся от учителя, а не со страницы.\n\nОтсюда понимаются и те различия, что поднимают о древнейших рукописях: это различия **письма**, а не **читаемого**. Первые списки были написаны без точек и огласовок именно для того, чтобы вмещать все установленные чтения; так что кажущееся наблюдателю различием в слове есть на деле одно начертание, несущее два установленных чтения разом.",
+            "es": "Algunos investigadores occidentales han aplicado al Corán los métodos de crítica textual desarrollados para el estudio del Nuevo Testamento. Esos métodos descansan en una premisa: que el texto llegó por copia, de modo que se cotejan las copias para recobrar el original.\n\nLa dificultad es que esa premisa no vale para el Corán, pues no llegó solo por copia. Para los musulmanes la copia escrita es testigo de lo memorizado, no su fuente, y la recitación se toma de un maestro, no de una página.\n\nDe aquí se entienden las diferencias que se plantean sobre los manuscritos más antiguos: son diferencias de **grafía**, no de lo **recitado**. Las primeras copias se escribieron sin puntos ni signos vocálicos precisamente para sostener todas las lecturas establecidas; así que lo que al observador le parece una diferencia en una palabra es en verdad un solo trazo que porta dos lecturas establecidas a la vez.",
+            "uk": "Деякі західні дослідники застосували до Корану методи текстології, розроблені для вивчення Нового Завіту. Ці методи спираються на одну засновку: що текст дійшов шляхом переписування, тож списки звіряють, аби відновити оригінал.\n\nУтруднення в тому, що ця засновка не діє для Корану, бо він дійшов не самим лише переписуванням. Для мусульман письмовий список — свідок про завчене, а не його джерело, і читання береться від учителя, а не зі сторінки.\n\nЗвідси розуміються й ті відмінності, що піднімають про найдавніші рукописи: це відмінності **письма**, а не **читаного**. Перші списки були написані без крапок і огласовок саме для того, щоб вміщати всі встановлені читання; тож те, що спостерігачеві здається відмінністю в слові, є насправді одне накреслення, що несе два встановлені читання водночас."
+          }
+        },
+        {
+          "id": "closing",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Closing",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "فالركنان يشهد كلٌّ منهما للآخر: النقل الشفويّ يحفظ المقروء، والمخطوطات تشهد أن المكتوب لم يتغيّر. ولو انفرد أحدهما لبقي للناظر مجالُ شكّ، فاجتماعهما هو موضع الحجّة.",
+            "en": "Each of the two witnesses to the other: the oral transmission preserves what is recited, and the manuscripts testify that what was written has not changed. Were either to stand alone, room for doubt would remain; it is in their coming together that the proof lies.",
+            "ru": "Каждое из двух свидетельствует о другом: устная передача хранит читаемое, а рукописи свидетельствуют, что написанное не изменилось. Если бы одно из них стояло в одиночку, место для сомнения осталось бы; довод именно в их соединении.",
+            "es": "Cada uno de los dos da testimonio del otro: la transmisión oral guarda lo recitado, y los manuscritos atestiguan que lo escrito no ha cambiado. Si uno de ellos estuviera solo, quedaría lugar para la duda; la prueba está justamente en su concurrencia.",
+            "uk": "Кожне з двох свідчить про інше: усна передача зберігає читане, а рукописи свідчать, що написане не змінилося. Якби одне з них стояло самотою, місце для сумніву лишилося б; доказ саме в їхньому поєднанні."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "جامع البيان",
+          "en": "Jāmiʿ al-Bayān",
+          "ru": "«Джами аль-Баян»",
+          "es": "Jāmiʿ al-Bayān",
+          "uk": "«Джамі аль-Баян»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "البداية والنهاية",
+          "en": "Al-Bidāyah wa-al-Nihāyah",
+          "ru": "«Аль-Бидая ва-н-Нихая»",
+          "es": "Al-Bidāyah wa-al-Nihāyah",
+          "uk": "«Аль-Бідая ва-н-Ніхая»"
+        }
+      ],
+      "addedAt": "2026-09-17"
     }
   ]
 }

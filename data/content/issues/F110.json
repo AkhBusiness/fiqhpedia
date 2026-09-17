@@ -1,0 +1,161 @@
+{
+  "ref": "F110",
+  "id": "iman-4",
+  "bookId": "iman",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب الإيمان والشهادتين",
+    "en": "Chapter on Faith and the Two Testimonies",
+    "ru": "Раздел о вере и двух свидетельствах",
+    "es": "Capítulo sobre la fe y los dos testimonios",
+    "uk": "Розділ про віру та два свідчення"
+  },
+  "title": {
+    "ar": "حكم معاملة المسلم الجديد لوالديه غير المسلمين",
+    "en": "How a New Muslim Is to Treat Parents Who Are Not Muslim",
+    "ru": "Как новообращённому мусульманину относиться к родителям-немусульманам",
+    "es": "Cómo ha de tratar el nuevo musulmán a sus padres no musulmanes",
+    "uk": "Як новонаверненому мусульманинові ставитися до батьків-немусульман"
+  },
+  "summary": {
+    "ar": "ما حكم برّ الوالدين غير المسلمين والإحسان إليهما، وما حدّ طاعتهما؟",
+    "en": "What is the ruling on dutifulness and kindness to parents who are not Muslim, and how far does obedience to them extend?",
+    "ru": "Каково постановление о почтительности и благодеянии к родителям-немусульманам, и докуда простирается послушание им?",
+    "es": "¿Cuál es la norma sobre la piedad filial y la bondad hacia los padres no musulmanes, y hasta dónde llega la obediencia a ellos?",
+    "uk": "Яка постанова про шанобливість і благодіяння до батьків-немусульман, і доки сягає послух їм?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يجب الإحسان إلى الوالدين غير المسلمين بالقول والفعل والنفقة عند حاجتهما، وتجوز طاعتهما في غير معصية، ولا طاعة لهما في كفر، لقوله تعالى: ﴿وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
+        "en": "Kindness to parents who are not Muslim is obligatory — in word, in deed, and in maintaining them when they are in need. They are obeyed in what is no disobedience, and never in unbelief — Sūrat Luqmān, verse 15.",
+        "ru": "Благодеяние к родителям-немусульманам обязательно — словом, делом и содержанием при их нужде. Им повинуются в том, что не есть ослушание, и никогда — в неверии. Сура «Лукман», аят 15.",
+        "es": "La bondad hacia los padres no musulmanes es obligatoria: en la palabra, en la obra y en su manutención cuando la necesiten. Se les obedece en lo que no es desobediencia, y nunca en la incredulidad. Sura Luqmān, aleya 15.",
+        "uk": "Благодіяння до батьків-немусульман обов'язкове — словом, ділом і утриманням за їхньої потреби. Їм підкоряються в тому, що не є гріхом, і ніколи — у невірʼї. Сура «Лукман», аят 15."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "wajib",
+      "text": {
+        "ar": "تجب صلة الوالدين غير المسلمين وبرّهما بالإحسان والخدمة والرفق، ويحرم عقوقهما، ولا طاعة لهما إن أمرا بكفر أو معصية مع وجوب مصاحبتهما بالمعروف.",
+        "en": "Keeping ties with parents who are not Muslim and treating them well — in kindness, in service and in gentleness — is obligatory, and being undutiful to them is forbidden. They are not obeyed if they command unbelief or disobedience, while the duty to keep their company honourably remains.",
+        "ru": "Поддерживать связь с родителями-немусульманами и относиться к ним хорошо — благодеянием, услужением и мягкостью — обязательно, а непочтительность к ним запретна. Им не повинуются, если они велят неверие или ослушание, при том что обязанность достойно сопровождать их остаётся.",
+        "es": "Mantener el vínculo con los padres no musulmanes y tratarlos bien —con bondad, servicio y dulzura— es obligatorio, y faltarles es ilícito. No se les obedece si ordenan incredulidad o desobediencia, quedando el deber de acompañarlos honorablemente.",
+        "uk": "Підтримувати звʼязок із батьками-немусульманами й ставитися до них добре — благодіянням, служінням і лагідністю — обовʼязково, а непошана до них заборонена. Їм не підкоряються, якщо вони велять невірʼя чи гріх, і при цьому обовʼязок гідно супроводжувати їх лишається."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يجب برّ الوالدين غير المسلمين بالإنفاق عليهما عند الحاجة واللين في الخطاب والدعاء لهما بالهداية، ولا طاعة لهما في معصية.",
+        "en": "Dutifulness to parents who are not Muslim is obligatory: maintaining them when they are in need, gentleness of speech with them, and praying that they be guided. They are not obeyed in disobedience.",
+        "ru": "Почтительность к родителям-немусульманам обязательна: содержать их при нужде, говорить с ними мягко и молиться об их наставлении. Им не повинуются в ослушании.",
+        "es": "La piedad filial hacia los padres no musulmanes es obligatoria: mantenerlos cuando lo necesiten, hablarles con dulzura y pedir por su guía. No se les obedece en la desobediencia.",
+        "uk": "Шанобливість до батьків-немусульман обовʼязкова: утримувати їх за потреби, говорити з ними лагідно й молитися про їхнє настановлення. Їм не підкоряються в гріху."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "wajib",
+      "text": {
+        "ar": "يجب برّ الوالدين غير المسلمين بوجوه الإحسان كلّها من نفقة وخدمة ولين وزيارة، ويحرم عقوقهما، ولا طاعة لهما في معصية الله، لقوله تعالى: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
+        "en": "Dutifulness to parents who are not Muslim is obligatory in every form of kindness — maintenance, service, gentleness and visiting — and being undutiful to them is forbidden. They are not obeyed in disobedience to God. Sūrat Luqmān, verse 15.",
+        "ru": "Почтительность к родителям-немусульманам обязательна во всех видах благодеяния — содержание, услужение, мягкость и посещение, — а непочтительность к ним запретна. Им не повинуются в ослушании Бога. Сура «Лукман», аят 15.",
+        "es": "La piedad filial hacia los padres no musulmanes es obligatoria en toda forma de bondad —manutención, servicio, dulzura y visita—, y faltarles es ilícito. No se les obedece en la desobediencia a Dios. Sura Luqmān, aleya 15.",
+        "uk": "Шанобливість до батьків-немусульман обовʼязкова в усіх видах благодіяння — утримання, служіння, лагідність і відвідини, — а непошана до них заборонена. Їм не підкоряються в гріху перед Богом. Сура «Лукман», аят 15."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

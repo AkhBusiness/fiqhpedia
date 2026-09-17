@@ -1,0 +1,161 @@
+{
+  "ref": "F111",
+  "id": "nikah-4",
+  "bookId": "nikah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب الخطبة",
+    "en": "Chapter on the Betrothal",
+    "ru": "Раздел о сватовстве",
+    "es": "Capítulo sobre el compromiso matrimonial",
+    "uk": "Розділ про сватання"
+  },
+  "title": {
+    "ar": "حكم النظر إلى المخطوبة وحدوده",
+    "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
+    "ru": "Взгляд на ту, к которой сватаются, и его пределы",
+    "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
+    "uk": "Погляд на ту, до якої сватаються, та його межі"
+  },
+  "summary": {
+    "ar": "ما حكم نظر الخاطب إلى مخطوبته قبل العقد، وما الذي يُباح له النظر إليه؟",
+    "en": "What is the ruling on a suitor looking at the woman he seeks to marry before the contract, and what may he look at?",
+    "ru": "Каково постановление о взгляде свата на ту, к которой он сватается, до договора, и на что ему дозволено смотреть?",
+    "es": "¿Cuál es la norma sobre que el pretendiente mire a la mujer antes del contrato, y qué le es lícito mirar?",
+    "uk": "Яка постанова про погляд свата на ту, до якої він сватається, до договору, і на що йому дозволено дивитися?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُندب للخاطب أن ينظر إلى مخطوبته، ويقتصر النظر على الوجه والكفّين: فالوجه يدلّ على الجمال، والكفّان على خصب البدن أو هزاله.",
+        "en": "It is recommended that a suitor look at the woman he seeks to marry, and the looking is confined to the face and the hands: the face shows her beauty, and the hands whether her body is full or spare.",
+        "ru": "Свату желательно посмотреть на ту, к которой он сватается, и взгляд ограничивается лицом и кистями рук: лицо показывает её красоту, а кисти — полно ли её тело или худощаво.",
+        "es": "Se recomienda al pretendiente mirar a la mujer con quien pretende casarse, y la mirada se limita al rostro y las manos: el rostro muestra su belleza, y las manos si su cuerpo es lleno o enjuto.",
+        "uk": "Сватові бажано подивитися на ту, до якої він сватається, і погляд обмежується обличчям та кистями рук: обличчя показує її красу, а кисті — чи повне її тіло, чи худорляве."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "mandub",
+      "text": {
+        "ar": "يُندب النظر إلى المخطوبة بإذنها أو بغير إذنها، ويقتصر على الوجه والكفّين ظاهرهما وباطنهما، ولا ينظر إلى غير ذلك من بدنها.",
+        "en": "It is recommended to look at the woman one seeks to marry, with or without her leave, and the looking is confined to the face and the hands, front and back; nothing else of her body is looked at.",
+        "ru": "Желательно посмотреть на ту, к которой сватаются, с её позволения или без него, и взгляд ограничивается лицом и кистями рук с обеих сторон; на иное из её тела не смотрят.",
+        "es": "Se recomienda mirar a la mujer a quien se pretende, con o sin su permiso, y la mirada se limita al rostro y las manos, por delante y por detrás; no se mira nada más de su cuerpo.",
+        "uk": "Бажано подивитися на ту, до якої сватаються, з її дозволу чи без нього, і погляд обмежується обличчям та кистями рук з обох боків; на інше з її тіла не дивляться."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ للخاطب النظر إلى المخطوبة قبل الخطبة ولو بغير إذنها، ويقتصر على الوجه والكفّين إلى الكوعين، لأنهما ليسا بعورة ويُستدلّ بهما على المحاسن.",
+        "en": "It is a sunnah for a suitor to look at the woman before making his offer, even without her leave, and the looking is confined to the face and the hands as far as the wrists, since these are not ʿawrah and by them her good qualities are judged.",
+        "ru": "Свату сунна посмотреть на ту, к которой он сватается, до сватовства, даже без её позволения, и взгляд ограничивается лицом и кистями до запястий, ибо они не аврат и по ним судят о её достоинствах.",
+        "es": "Es sunnah que el pretendiente mire a la mujer antes de la petición, aun sin su permiso, y la mirada se limita al rostro y las manos hasta las muñecas, pues no son ʿawrah y por ellas se juzgan sus prendas.",
+        "uk": "Сватові сунна подивитися на ту, до якої він сватається, до сватання, навіть без її дозволу, і погляд обмежується обличчям та кистями до зап'ястків, бо вони не аврат і за ними судять про її принади."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "sunnah",
+      "text": {
+        "ar": "يُسنّ للخاطب النظر إلى المخطوبة ولو بغير إذنها، وله أن ينظر إلى ما يظهر منها غالباً كالوجه والرقبة واليدين والقدمين.",
+        "en": "It is a sunnah for a suitor to look at the woman he seeks to marry, even without her leave, and he may look at what ordinarily shows of her — the face, the neck, the hands and the feet.",
+        "ru": "Свату сунна посмотреть на ту, к которой он сватается, даже без её позволения, и он может смотреть на то, что обычно из неё видно: лицо, шею, кисти и ступни.",
+        "es": "Es sunnah que el pretendiente mire a la mujer, aun sin su permiso, y puede mirar lo que de ella suele verse: el rostro, el cuello, las manos y los pies.",
+        "uk": "Сватові сунна подивитися на ту, до якої він сватається, навіть без її дозволу, і він може дивитися на те, що зазвичай з неї видно: обличчя, шию, кисті та ступні."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
