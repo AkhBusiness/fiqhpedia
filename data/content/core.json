@@ -1128,6 +1128,132 @@
       "ru": "Все разделы",
       "es": "Todos los capítulos",
       "uk": "Усі розділи"
+    },
+    "timesTitle": {
+      "ar": "انظر الفرق بين المذاهب على ساعتك",
+      "en": "See the difference between the schools on your own clock",
+      "ru": "Посмотрите разницу между мазхабами на своих часах",
+      "es": "Vea la diferencia entre las escuelas en su propio reloj",
+      "uk": "Подивіться різницю між мазгабами на своєму годиннику"
+    },
+    "timesIntro": {
+      "ar": "يُحسب الوقت في متصفّحك من موقعك، ولا يُرسل موقعك إلى أحد.",
+      "en": "The time is computed in your browser from your location; your location is not sent anywhere.",
+      "ru": "Время вычисляется в вашем браузере по вашему местоположению; оно никуда не отправляется.",
+      "es": "La hora se calcula en su navegador a partir de su ubicación; su ubicación no se envía a ninguna parte.",
+      "uk": "Час обчислюється у вашому браузері за вашим місцезнаходженням; воно нікуди не надсилається."
+    },
+    "timesLocate": {
+      "ar": "اعرض وقت اليوم",
+      "en": "Show today's time",
+      "ru": "Показать время на сегодня",
+      "es": "Mostrar la hora de hoy",
+      "uk": "Показати час на сьогодні"
+    },
+    "timesLocating": {
+      "ar": "جارٍ تحديد الموقع…",
+      "en": "Locating…",
+      "ru": "Определение местоположения…",
+      "es": "Localizando…",
+      "uk": "Визначення місцезнаходження…"
+    },
+    "timesDenied": {
+      "ar": "تعذّر تحديد الموقع. الأحكام أعلاه تامّة بدونه.",
+      "en": "The location could not be determined. The rulings above are complete without it.",
+      "ru": "Определить местоположение не удалось. Постановления выше полны и без него.",
+      "es": "No se pudo determinar la ubicación. Las normas anteriores están completas sin ella.",
+      "uk": "Визначити місцезнаходження не вдалося. Постанови вище повні й без нього."
+    },
+    "timesToday": {
+      "ar": "وقت اليوم في موضعك",
+      "en": "Today's time where you are",
+      "ru": "Сегодняшнее время там, где вы",
+      "es": "La hora de hoy donde usted está",
+      "uk": "Сьогоднішній час там, де ви"
+    },
+    "timesFajr": {
+      "ar": "الفجر",
+      "en": "Fajr",
+      "ru": "Фаджр",
+      "es": "Fajr",
+      "uk": "Фаджр"
+    },
+    "timesSunrise": {
+      "ar": "الشروق",
+      "en": "Sunrise",
+      "ru": "Восход",
+      "es": "Salida del sol",
+      "uk": "Схід сонця"
+    },
+    "timesDhuhr": {
+      "ar": "الظهر",
+      "en": "Ẓuhr",
+      "ru": "Зухр",
+      "es": "Ẓuhr",
+      "uk": "Зугр"
+    },
+    "timesMaghrib": {
+      "ar": "المغرب",
+      "en": "Maghrib",
+      "ru": "Магриб",
+      "es": "Magrib",
+      "uk": "Маґріб"
+    },
+    "timesIsha": {
+      "ar": "العشاء",
+      "en": "ʿIshāʾ",
+      "ru": "Иша",
+      "es": "ʿIshāʾ",
+      "uk": "Іша"
+    },
+    "timesAsrMajority": {
+      "ar": "العصر عند المالكية والشافعية والحنابلة",
+      "en": "ʿAṣr for the Mālikīs, Shāfiʿīs and Ḥanbalīs",
+      "ru": "Аср у маликитов, шафиитов и ханбалитов",
+      "es": "ʿAṣr para malikíes, shafiíes y hanbalíes",
+      "uk": "Аср у малікітів, шафіїтів і ганбалітів"
+    },
+    "timesAsrHanafi": {
+      "ar": "العصر عند الحنفية",
+      "en": "ʿAṣr for the Ḥanafīs",
+      "ru": "Аср у ханафитов",
+      "es": "ʿAṣr para los hanafíes",
+      "uk": "Аср у ганафітів"
+    },
+    "timesFajrEnds": {
+      "ar": "(ينتهي به وقت الفجر)",
+      "en": "(the end of fajr's time)",
+      "ru": "(конец времени фаджра)",
+      "es": "(fin del tiempo del fajr)",
+      "uk": "(кінець часу фаджру)"
+    },
+    "timesDhuhrEnds": {
+      "ar": "(ينتهي به وقت الظهر)",
+      "en": "(the end of ẓuhr's time)",
+      "ru": "(конец времени зухра)",
+      "es": "(fin del tiempo del ẓuhr)",
+      "uk": "(кінець часу зугру)"
+    },
+    "timesMaghribEnds": {
+      "ar": "(ينتهي به وقت المغرب)",
+      "en": "(the end of maghrib's time)",
+      "ru": "(конец времени магриба)",
+      "es": "(fin del tiempo del magrib)",
+      "uk": "(кінець часу маґрібу)"
+    },
+    "timesAsrGap": {
+      "ar": "الفرق بين المذهبين اليوم في موضعك: {n} دقيقة.",
+      "en": "The difference between the two reckonings today, where you are: {n} minutes.",
+      "ru": "Разница между двумя расчётами сегодня там, где вы: {n} минут.",
+      "es": "La diferencia entre ambos cómputos hoy, donde usted está: {n} minutos.",
+      "uk": "Різниця між двома обчисленнями сьогодні там, де ви: {n} хвилин."
+    },
+    "timesDisclaimer": {
+      "ar": "حسابٌ فلكيّ بطريقة أم القرى، للإيضاح لا للاعتماد في الأداء؛ والمعتمد تقويم بلدك أو أذان مسجدك.",
+      "en": "An astronomical calculation on the Umm al-Qura convention, given to illustrate the point and not to be relied on for prayer; rely on your country's calendar or your mosque's call.",
+      "ru": "Астрономический расчёт по конвенции Умм аль-Кура, приведённый для пояснения, а не для опоры при совершении молитвы; опирайтесь на календарь вашей страны или азан вашей мечети.",
+      "es": "Un cálculo astronómico según la convención de Umm al-Qura, dado para ilustrar y no para basarse en él al rezar; base su oración en el calendario de su país o el adhán de su mezquita.",
+      "uk": "Астрономічний розрахунок за конвенцією Умм аль-Кура, наведений для пояснення, а не для опори при здійсненні молитви; спирайтеся на календар вашої країни або азан вашої мечеті."
     }
   },
   "books": [

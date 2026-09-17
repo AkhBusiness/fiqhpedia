@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { Bookmark, BookMarked, Check, Copy, Lightbulb, Pause, Share2, Volume2 } from "lucide-react"
 import { GradeBadge } from "@/components/grade-badge"
+import { PrayerTimesPanel } from "@/components/prayer-times-panel"
 import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   categories,
@@ -293,6 +294,27 @@ export function IssueCard({
           )
         })}
       </div>
+
+      {/* The timing issues carry a live clock: the rulings above say the
+          schools reckon ʿaṣr differently, and this shows how far apart that
+          falls today, where the reader is. */}
+      {TIMED_ISSUES[issue.ref] ? (
+        <PrayerTimesPanel lang={lang} prayer={TIMED_ISSUES[issue.ref]} />
+      ) : null}
     </article>
   )
+}
+
+/**
+ * Issues about when a prayer's time begins and ends, and which prayer each
+ * concerns. Keyed by ref rather than detected from the text: a ref is stable
+ * and reviewed, and a keyword match would eventually attach a clock to a
+ * ruling that merely mentions the ʿaṣr in passing.
+ */
+const TIMED_ISSUES: Record<string, "fajr" | "dhuhr" | "asr" | "maghrib" | "isha"> = {
+  F40: "fajr",
+  F41: "dhuhr",
+  F15: "asr",
+  F42: "maghrib",
+  F43: "isha",
 }
