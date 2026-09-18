@@ -1,0 +1,158 @@
+{
+  "ref": "F112",
+  "addedAt": "2026-09-18",
+  "id": "nikah-5",
+  "bookId": "nikah",
+  "seq": 1,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "أركان عقد النكاح وعددها عند الفقهاء",
+    "en": "The Pillars of the Marriage Contract and Their Number",
+    "ru": "Столпы брачного договора и их количество",
+    "es": "Los pilares del contrato de matrimonio y su número",
+    "uk": "Стовпи шлюбного договору та їхня кількість"
+  },
+  "summary": {
+    "ar": "ما أركان عقد النكاح التي لا يقوم العقد بدونها، وكم عددها، وما الذي يُعدّ منها ركناً وما يُعدّ شرطاً للصحّة؟",
+    "en": "What are the pillars without which a marriage contract does not stand, how many are there, and what counts as a pillar rather than a condition of validity?",
+    "ru": "Каковы столпы, без которых брачный договор не состоится, сколько их и что считается столпом, а что условием действительности?",
+    "es": "¿Cuáles son los pilares sin los que no se sostiene el contrato matrimonial, cuántos son y qué se cuenta como pilar y no como condición de validez?",
+    "uk": "Які стовпи, без яких шлюбний договір не постане, скільки їх і що вважається стовпом, а що умовою дійсності?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "ركن النكاح واحد لا غير، وهو الإيجاب والقبول. وما سواه — كالشاهدين والوليّ — شرطُ صحّةٍ لا ركن، والفرق بينهما أن الركن جزءٌ من ماهية العقد والشرط خارجٌ عنها.",
+        "en": "The pillar of marriage is one alone: offer and acceptance. Everything else — the two witnesses, the guardian — is a condition of validity, not a pillar; a pillar is part of the contract's very substance, whereas a condition lies outside it.",
+        "ru": "Столп брака только один — предложение и принятие. Всё остальное, как двое свидетелей и опекун, есть условие действительности, а не столп: столп составляет саму суть договора, а условие находится вне её.",
+        "es": "El pilar del matrimonio es uno solo: la oferta y la aceptación. Todo lo demás —los dos testigos, el tutor— es condición de validez y no pilar; el pilar forma parte de la sustancia misma del contrato, mientras que la condición le es externa.",
+        "uk": "Стовп шлюбу лише один — пропозиція та прийняття. Усе інше, як-от двоє свідків і опікун, є умовою дійсності, а не стовпом: стовп становить саму сутність договору, а умова перебуває поза нею."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "أركان النكاح خمسة: الوليّ، والصداق، والزوج، والزوجة، والصيغة. والإشهاد شرطٌ للدخول لا لانعقاد العقد، فيصحّ العقد بلا شهود ويُمنع الدخول حتى يُشهَد.",
+        "en": "The pillars of marriage are five: the guardian, the dower, the husband, the wife, and the formula. Witnessing is a condition for consummation, not for the contract's conclusion, so the contract is valid without witnesses while consummation is withheld until witnesses are present.",
+        "ru": "Столпов брака пять: опекун, брачный дар, муж, жена и формула. Свидетельствование есть условие вступления в супружескую близость, а не заключения договора: договор действителен без свидетелей, но близость откладывается, пока свидетели не будут привлечены.",
+        "es": "Los pilares del matrimonio son cinco: el tutor, la dote, el esposo, la esposa y la fórmula. El testimonio es condición para la consumación y no para la conclusión del contrato: el contrato es válido sin testigos, pero la consumación se retiene hasta que los haya.",
+        "uk": "Стовпів шлюбу п'ять: опікун, шлюбний дар, чоловік, дружина та формула. Свідчення є умовою для подружньої близькості, а не для укладення договору: договір дійсний без свідків, але близькість відкладається, доки свідків не буде залучено."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "أركان النكاح خمسة: الصيغة، والزوج، والزوجة، والوليّ، وشاهدا عدل. فالشهادة عندهم ركنٌ في العقد نفسه لا شرطٌ خارجَه، فلا ينعقد النكاح بحضرة غير عدلين.",
+        "en": "The pillars of marriage are five: the formula, the husband, the wife, the guardian, and two upright witnesses. Witnessing here is a pillar within the contract itself rather than a condition outside it, so no marriage is concluded except in the presence of two upright witnesses.",
+        "ru": "Столпов брака пять: формула, муж, жена, опекун и двое праведных свидетелей. Свидетельствование здесь есть столп самого договора, а не внешнее условие, поэтому брак не заключается иначе как в присутствии двоих праведных свидетелей.",
+        "es": "Los pilares del matrimonio son cinco: la fórmula, el esposo, la esposa, el tutor y dos testigos íntegros. Aquí el testimonio es un pilar del contrato mismo y no una condición externa, de modo que no se concluye matrimonio sino en presencia de dos testigos íntegros.",
+        "uk": "Стовпів шлюбу п'ять: формула, чоловік, дружина, опікун та двоє праведних свідків. Свідчення тут є стовпом самого договору, а не зовнішньою умовою, тож шлюб не укладається інакше як у присутності двох праведних свідків."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "أركان النكاح ثلاثة: الزوجان الخاليان من الموانع، والإيجاب، والقبول. والوليّ والشهود شرطا صحّةٍ لا ركنان.",
+        "en": "The pillars of marriage are three: the two spouses free of impediments, the offer, and the acceptance. The guardian and the witnesses are conditions of validity, not pillars.",
+        "ru": "Столпов брака три: оба супруга, свободные от препятствий, предложение и принятие. Опекун и свидетели суть условия действительности, а не столпы.",
+        "es": "Los pilares del matrimonio son tres: los dos cónyuges libres de impedimentos, la oferta y la aceptación. El tutor y los testigos son condiciones de validez, no pilares.",
+        "uk": "Стовпів шлюбу три: обоє з подружжя, вільні від перешкод, пропозиція та прийняття. Опікун і свідки є умовами дійсності, а не стовпами."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

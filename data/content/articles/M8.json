@@ -1,0 +1,149 @@
+{
+  "id": "beautiful-names",
+  "ref": "M8",
+  "chapter": {
+    "ar": "معرفة الله وصفاته",
+    "en": "Knowing God and His Attributes",
+    "ru": "Познание Бога и Его атрибутов",
+    "es": "El conocimiento de Dios y Sus atributos",
+    "uk": "Пізнання Бога та Його атрибутів"
+  },
+  "seq": 1,
+  "title": {
+    "ar": "الأسماء الحسنى: حقيقتها وعددها ومعناها",
+    "en": "The Beautiful Names of God: Their Reality, Their Number and Their Meaning",
+    "ru": "Прекрасные имена Бога: их суть, число и значение",
+    "es": "Los Bellos Nombres de Dios: su realidad, su número y su significado",
+    "uk": "Прекрасні імена Бога: їхня сутність, число та значення"
+  },
+  "excerpt": {
+    "ar": "ما الأسماء الحسنى، ولمَ لا تنحصر في تسعة وتسعين، ولمَ لا يُسمّى الله إلا بما سمّى به نفسه.",
+    "en": "What the Beautiful Names are, why they are not confined to ninety-nine, and why God is named only by what He has named Himself.",
+    "ru": "Что такое прекрасные имена, почему они не ограничены девяноста девятью и почему Бога называют лишь тем, чем Он назвал Себя Сам.",
+    "es": "Qué son los Bellos Nombres, por qué no se limitan a noventa y nueve y por qué a Dios sólo se le nombra con aquello con que Él se nombró a Sí mismo.",
+    "uk": "Що таке прекрасні імена, чому вони не обмежені дев'яноста дев'ятьма і чому Бога називають лише тим, чим Він назвав Себе Сам."
+  },
+  "relatedRefs": [
+    "A1"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "es": "",
+        "uk": ""
+      },
+      "body": {
+        "ar": "الأسماء الحسنى هي ما سمّى الله به نفسه من الأعلام والأوصاف. والإيمان بها ومعرفة معانيها أصلٌ في عقيدة المسلم، وعليها يقوم دعاؤه وتعبّده.\n\nوقد عُني علماء الإسلام بجمعها من الكتاب والسنّة وبيان معانيها، وبتحرير مسألتين كثُر فيهما الغلط: عددها، ومن أين تُؤخذ.",
+        "en": "The Beautiful Names are the proper names and descriptions by which God has named Himself. Believing in them and knowing what they mean is a foundation of a Muslim's creed, and on them rest his supplication and his worship.\n\nMuslim scholars gathered them from the Qurʾān and the sunnah and set out their meanings, and settled two questions in which error has been common: how many they are, and where they may be taken from.",
+        "ru": "Прекрасные имена — это имена собственные и описания, которыми Бог назвал Себя Сам. Вера в них и знание их смысла есть основа вероубеждения мусульманина, и на них держатся его мольба и его поклонение.\n\nМусульманские учёные собрали их из Корана и Сунны, изложили их значения и разрешили два вопроса, в которых часто ошибаются: сколько их и откуда они берутся.",
+        "es": "Los Bellos Nombres son los nombres propios y las descripciones con que Dios se ha nombrado a Sí mismo. Creer en ellos y conocer su significado es un fundamento del credo del musulmán, y sobre ellos descansan su súplica y su adoración.\n\nLos sabios del islam los reunieron del Corán y la sunnah, expusieron sus significados y resolvieron dos cuestiones en las que el error ha sido frecuente: cuántos son y de dónde se toman.",
+        "uk": "Прекрасні імена — це власні імена та описи, якими Бог назвав Себе Сам. Віра в них і знання їхнього змісту є основою віровчення мусульманина, і на них тримаються його благання та його поклоніння.\n\nМусульманські вчені зібрали їх із Корану та Сунни, виклали їхні значення й розв'язали два питання, у яких помилка є частою: скільки їх і звідки вони беруться."
+      }
+    },
+    {
+      "id": "meaning",
+      "heading": {
+        "ar": "ما تدلّ عليه الأسماء: عَلَمٌ ووصفُ كمال معاً",
+        "en": "What the Names Signify: a Proper Name and an Attribute of Perfection at Once",
+        "ru": "На что указывают имена: имя собственное и атрибут совершенства разом",
+        "es": "A qué apuntan los Nombres: nombre propio y atributo de perfección a la vez",
+        "uk": "На що вказують імена: власне ім'я та атрибут досконалості водночас"
+      },
+      "body": {
+        "ar": "يتميّز الاسم من أسماء الله بأنه يدلّ على أمرين معاً: على الذات، وعلى صفة كمالٍ قائمةٍ بها لا نقص فيها بوجه. فـ**العليم** يدلّ على الذات ويثبت علماً محيطاً، و**الرحيم** يدلّ على الذات ويثبت رحمةً واسعة. وهذا ما يفرّق الاسم عن اللقب المجرّد.\n\nوقد أمر الله عباده أن يدعوه بها: ﴿وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا﴾ سورة الأعراف: ١٨٠. والدعاء بها نوعان: دعاء مسألةٍ تُطلب فيه الحاجة باسمٍ يناسبها، ودعاء عبادةٍ يُثنى فيه على الله بمقتضاها.",
+        "en": "A name of God is distinguished by signifying two things at once: the Essence, and an attribute of perfection subsisting in it with no deficiency in any respect. **The All-Knowing** points to the Essence and affirms an all-encompassing knowledge; **the Merciful** points to the Essence and affirms a vast mercy. This is what separates a name from a mere title.\n\nGod has commanded His servants to call upon Him by them — Sūrat al-Aʿrāf, verse 180. Calling upon Him by them is of two kinds: the supplication of asking, in which a need is sought through the name that fits it, and the supplication of worship, in which God is praised by what the name entails.",
+        "ru": "Имя Бога отличается тем, что указывает на две вещи разом: на Сущность и на атрибут совершенства, ей присущий, без какого бы то ни было недостатка. **Всезнающий** указывает на Сущность и утверждает всеохватное знание; **Милосердный** указывает на Сущность и утверждает безграничную милость. Именно это отличает имя от простого титула.\n\nБог повелел Своим рабам взывать к Нему посредством них — сура «аль-Араф», аят 180. Такое взывание двояко: мольба-просьба, в которой нужда испрашивается именем, ей соответствующим, и мольба-поклонение, в которой Бога восхваляют сообразно тому, что имя заключает.",
+        "es": "Un nombre de Dios se distingue por significar dos cosas a la vez: la Esencia y un atributo de perfección que le es propio, sin deficiencia alguna. **El Omnisciente** apunta a la Esencia y afirma un conocimiento que todo lo abarca; **el Misericordioso** apunta a la Esencia y afirma una misericordia vasta. Esto es lo que separa un nombre de un mero título.\n\nDios ha ordenado a Sus siervos invocarlo por ellos —sura al-Aʿrāf, aleya 180—. Invocarlo así es de dos clases: la súplica de petición, en la que se pide una necesidad por el nombre que le corresponde, y la súplica de adoración, en la que se alaba a Dios conforme a lo que el nombre entraña.",
+        "uk": "Ім'я Бога вирізняється тим, що вказує на дві речі водночас: на Сутність і на атрибут досконалості, їй притаманний, без жодного недоліку. **Всезнаючий** вказує на Сутність і стверджує всеохопне знання; **Милосердний** вказує на Сутність і стверджує безмежну милість. Саме це відрізняє ім'я від простого титулу.\n\nБог наказав Своїм рабам звертатися до Нього через них — сура «аль-Араф», аят 180. Таке звернення двояке: благання-прохання, у якому потребу просять іменем, що їй відповідає, і благання-поклоніння, у якому Бога вихваляють згідно з тим, що ім'я містить."
+      }
+    },
+    {
+      "id": "count",
+      "heading": {
+        "ar": "العدد: لمَ لا تنحصر في تسعة وتسعين",
+        "en": "The Number: Why They Are Not Confined to Ninety-Nine",
+        "ru": "Число: почему они не ограничены девяноста девятью",
+        "es": "El número: por qué no se limitan a noventa y nueve",
+        "uk": "Число: чому вони не обмежені дев'яноста дев'ятьма"
+      },
+      "body": {
+        "ar": "يظنّ كثيرٌ من الناس أن أسماء الله محصورةٌ في تسعة وتسعين، استناداً إلى حديثٍ في الصحيحين: «إنّ لله تسعةً وتسعين اسماً، مائةً إلا واحداً، من أحصاها دخل الجنة». والذي حقّقه أهل العلم أن الحديث لا يفيد الحصر، وإنما يفيد أن من أحصى هذا العدد المعيّن فله الجنة — والإخبار بثواب عددٍ ليس نفياً لما وراءه.\n\nومن أظهر ما يدلّ على ذلك دعاءٌ مرويٌّ عن النبيّ ﷺ يسأل فيه ربّه بكلّ اسمٍ له: ما سمّى به نفسه، أو أنزله في كتابه، أو علّمه أحداً من خلقه، أو استأثر به في علم الغيب عنده. فأثبت أن لله أسماءً لم يُطلِع عليها أحداً، وما كان كذلك لا يدخل تحت عدّ.",
+        "en": "Many suppose that God's Names are confined to ninety-nine, relying on a hadith in the two authentic collections which states that God has ninety-nine Names, a hundred less one, and that whoever masters them enters the Garden. What the scholars established is that the hadith does not confine them; it states that whoever masters this particular number has the Garden — and naming the reward of a number is not a denial of what lies beyond it.\n\nAmong the clearest evidence for this is a supplication reported from the Prophet in which he asks his Lord by every Name that is His: what He has named Himself with, or sent down in His Book, or taught to any of His creation, or kept to Himself in the knowledge of the unseen. This establishes that God has Names He has disclosed to no one, and what is such cannot fall under a count.",
+        "ru": "Многие полагают, что имена Бога ограничены девяноста девятью, опираясь на хадис в двух достоверных сводах, где сказано, что у Бога девяносто девять имён, сто без одного, и что постигший их войдёт в Рай. Учёные же установили, что хадис не ограничивает: он говорит, что постигшему это определённое число уготован Рай, — а указание награды за некое число не есть отрицание того, что сверх него.\n\nЯснейшее тому свидетельство — переданная от Пророка мольба, в которой он просит Господа каждым именем, что Ему принадлежит: которым Он назвал Себя, или ниспослал в Своём Писании, или научил кого-либо из Своих творений, или оставил при Себе в знании сокровенного. Отсюда следует, что у Бога есть имена, которых Он никому не открыл, а такое не поддаётся счёту.",
+        "es": "Muchos suponen que los Nombres de Dios se limitan a noventa y nueve, apoyándose en un hadiz de las dos colecciones auténticas según el cual Dios tiene noventa y nueve nombres, cien menos uno, y quien los abarca entra en el Jardín. Lo que los sabios establecieron es que el hadiz no los limita: dice que quien abarca ese número determinado tiene el Jardín, y señalar la recompensa de un número no niega lo que hay más allá.\n\nEntre las pruebas más claras está una súplica transmitida del Profeta en la que pide a su Señor por todo Nombre que es Suyo: aquel con que se nombró a Sí mismo, o hizo descender en Su Libro, o enseñó a alguna de Sus criaturas, o se reservó en el conocimiento de lo oculto. Esto establece que Dios tiene Nombres que no ha revelado a nadie, y lo así velado no cae bajo cuenta alguna.",
+        "uk": "Багато хто гадає, що імена Бога обмежені дев'яноста дев'ятьма, спираючись на хадис у двох достовірних збірках, де сказано, що в Бога дев'яносто дев'ять імен, сто без одного, і що той, хто осягне їх, увійде до Раю. Учені ж встановили, що хадис не обмежує: він говорить, що тому, хто осягне це визначене число, уготовано Рай, — а вказівка нагороди за певне число не є запереченням того, що понад нього.\n\nНайяснішим свідченням цього є передане від Пророка благання, у якому він просить Господа кожним ім'ям, що Йому належить: яким Він назвав Себе, або зіслав у Своєму Писанні, або навчив когось зі Своїх творінь, або залишив при Собі у знанні потаємного. Звідси випливає, що в Бога є імена, яких Він нікому не відкрив, а таке не піддається лічбі."
+      }
+    },
+    {
+      "id": "tawqif",
+      "heading": {
+        "ar": "من أين تُؤخذ: لا يُسمّى الله إلا بما سمّى به نفسه",
+        "en": "Where They Are Taken From: God Is Named Only by What He Has Named Himself",
+        "ru": "Откуда они берутся: Бога называют лишь тем, чем Он назвал Себя Сам",
+        "es": "De dónde se toman: a Dios sólo se le nombra con aquello con que Él se nombró",
+        "uk": "Звідки вони беруться: Бога називають лише тим, чим Він назвав Себе Сам"
+      },
+      "body": {
+        "ar": "الذي عليه جمهور أهل السنّة أن الأسماء **توقيفية**: لا يُطلق على الله اسمٌ إلا ما ورد في القرآن أو في السنّة الصحيحة. فليس للعقل أن يشتقّ لله اسماً من عنده وإن بدا معناه صحيحاً، لأن الاسم إخبارٌ عن الغيب لا موضع فيه للاجتهاد.\n\nولهذا كان **ما يُخبَر به** عن الله أوسع ممّا **يُسمّى** به. فيصحّ أن يُقال: هو موجودٌ، وهو قديم — إخباراً عن حقيقة ثابتة. ولا يصحّ أن يُتّخذ «الموجود» و«القديم» اسمين من أسمائه، لأنهما لم يَرِدا كذلك. والخلط بين البابين هو مصدر أكثر ما يُنسب إلى الله من أسماءٍ لا أصل لها.",
+        "en": "The position of the great body of Sunni scholars is that the Names **depend on revelation**: no name is applied to God except one that occurs in the Qurʾān or in authentic sunnah. Reason may not derive a name for God of its own, however sound its meaning seems, because a name is a report about the unseen, and there is no room in that for independent judgement.\n\nHence **what may be predicated** of God is wider than **what He may be named** with. It is sound to say that He is existent and that He is pre-eternal, as a report of an established truth; it is not sound to take 'the Existent' and 'the Pre-eternal' as names of His, since they were not revealed as such. Confusing the two is the source of most of the names ascribed to God with no basis.",
+        "ru": "Мнение большинства учёных ахль ас-сунна таково, что имена **основаны на откровении**: Богу не приписывают имени, кроме того, что пришло в Коране или в достоверной Сунне. Разуму не дано вывести Богу имя от себя, каким бы верным ни казался его смысл, ибо имя есть сообщение о сокровенном, а в этом нет места самостоятельному суждению.\n\nПоэтому **то, что сообщают** о Боге, шире **того, чем Его называют**. Верно сказать, что Он существующий и что Он предвечный, — как сообщение об установленной истине; но неверно брать «Существующий» и «Предвечный» как Его имена, ибо они не пришли в таком качестве. Смешение этих двух областей и есть источник большинства имён, приписываемых Богу без основания.",
+        "es": "La posición de la gran mayoría de los sabios sunníes es que los Nombres **se fundan en la revelación**: no se aplica a Dios nombre alguno salvo el que consta en el Corán o en la sunnah auténtica. La razón no puede derivar por sí un nombre para Dios, por acertado que parezca su significado, pues el nombre es una noticia sobre lo oculto, y en ello no cabe el juicio propio.\n\nPor eso **lo que se predica** de Dios es más amplio que **aquello con que se le nombra**. Es correcto decir que Él es existente y preeterno, como noticia de una verdad establecida; no es correcto tomar «el Existente» y «el Preeterno» como nombres Suyos, pues no se revelaron como tales. Confundir ambos ámbitos es la fuente de la mayoría de los nombres atribuidos a Dios sin fundamento.",
+        "uk": "Думка більшості вчених ахль ас-сунна така, що імена **засновані на одкровенні**: Богові не приписують імені, крім того, що прийшло в Корані або в достовірній Сунні. Розумові не дано вивести Богові ім'я від себе, яким би слушним не видавався його зміст, бо ім'я є повідомленням про потаємне, а в цьому немає місця самостійному судженню.\n\nТому **те, що повідомляють** про Бога, ширше за **те, чим Його називають**. Правильно сказати, що Він існуючий і що Він передвічний, — як повідомлення про встановлену істину; але неправильно брати «Існуючий» і «Передвічний» як Його імена, бо вони не прийшли в такій якості. Змішування цих двох царин і є джерелом більшості імен, приписуваних Богові без підстави."
+      }
+    },
+    {
+      "id": "impact",
+      "heading": {
+        "ar": "أثر معرفتها: من الحفظ إلى العمل",
+        "en": "The Effect of Knowing Them: from Memorising to Acting",
+        "ru": "Действие их познания: от заучивания к делу",
+        "es": "El efecto de conocerlos: de la memorización a la acción",
+        "uk": "Дія їх пізнання: від заучування до вчинку"
+      },
+      "body": {
+        "ar": "إحصاء الأسماء ليس حفظاً للألفاظ وحده، بل فهمٌ لمعانيها وعملٌ بمقتضاها. فمن عرف أنه **الرزّاق** تعلّق به وحده في طلب رزقه، ومن عرف أنه **السميع البصير** راقبه في سرّه كما في علانيته.\n\nوثمرة ذلك تظهر في استقامة السلوك والتوكّل. فالعلم بالأسماء والصفات يورث الخشية والمحبّة والرجاء، وهي أعمال القلوب التي تقوم عليها العبودية وتزكية النفس.",
+        "en": "Mastering the Names is not memorising words alone but understanding what they mean and acting on what they require. Whoever knows that He is **the Provider** attaches himself to Him alone in seeking his provision; whoever knows that He is **the All-Hearing, the All-Seeing** is mindful of Him in private as in public.\n\nThe fruit of this appears in uprightness of conduct and in reliance. Knowledge of the Names and attributes gives rise to awe, love and hope — the works of the heart on which servitude and the purification of the soul rest.",
+        "ru": "Постижение имён — не заучивание слов, а понимание их смысла и поступок согласно тому, чего они требуют. Кто знает, что Он **Наделяющий уделом**, тот привязывается к Нему одному в поиске удела; кто знает, что Он **Всеслышащий, Всевидящий**, тот помнит о Нём втайне так же, как и явно.\n\nПлод этого виден в праведности поведения и в уповании. Знание имён и атрибутов рождает благоговение, любовь и надежду — дела сердца, на которых держатся служение и очищение души.",
+        "es": "Abarcar los Nombres no es memorizar palabras, sino entender su significado y obrar conforme a lo que exigen. Quien sabe que Él es **el Proveedor** se apega sólo a Él al buscar su sustento; quien sabe que Él es **el que todo lo Oye y todo lo Ve** lo tiene presente en lo secreto igual que en lo público.\n\nEl fruto de esto se ve en la rectitud de la conducta y en la confianza. El conocimiento de los Nombres y atributos engendra temor reverente, amor y esperanza: las obras del corazón sobre las que descansan la servidumbre y la purificación del alma.",
+        "uk": "Осягнення імен — не заучування слів, а розуміння їхнього змісту і вчинок згідно з тим, чого вони вимагають. Хто знає, що Він **Той, Хто наділяє уділом**, той прив'язується лише до Нього в пошуку уділу; хто знає, що Він **Всечуючий, Всевидячий**, той пам'ятає про Нього потай так само, як і явно.\n\nПлід цього видно у праведності поведінки та в уповані. Знання імен і атрибутів породжує благоговіння, любов і надію — діла серця, на яких тримаються служіння й очищення душі."
+      }
+    },
+    {
+      "id": "closing",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Conclusion",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "الإيمان بالأسماء الحسنى ومعرفة معانيها بابٌ إلى تعظيم الله ومحبّته. ومع ما ورد في إحصاء التسعة والتسعين من فضل، فإن أسماءه وكمالاته لا يحدّها عدّ ولا يحيط بها حصر — وفي ذلك بيانٌ لعجز الخلق عن إدراك حقيقة جلاله.",
+        "en": "Believing in the Beautiful Names and knowing their meanings is a door to revering God and loving Him. And though there is merit in mastering the ninety-nine, His Names and perfections are bounded by no count and encompassed by no limit — which shows how far creation falls short of grasping the reality of His majesty.",
+        "ru": "Вера в прекрасные имена и знание их смысла есть врата к почитанию Бога и любви к Нему. И хотя в постижении девяноста девяти есть достоинство, имена Его и совершенства не ограничены счётом и не объемлются пределом, — а в этом указание на бессилие творения постичь истину Его величия.",
+        "es": "Creer en los Bellos Nombres y conocer su significado es una puerta a venerar a Dios y amarlo. Y aunque hay mérito en abarcar los noventa y nueve, Sus Nombres y perfecciones no los ciñe cuenta ni los abarca límite: en ello se muestra cuán incapaz es lo creado de alcanzar la verdad de Su majestad.",
+        "uk": "Віра в прекрасні імена і знання їхнього змісту є брамою до шанування Бога та любові до Нього. І хоча в осягненні дев'яноста дев'яти є гідність, імена Його й досконалості не обмежені лічбою і не охоплюються межею, — а в цьому вказівка на безсилля творіння осягнути істину Його величі."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "مجموع الفتاوى",
+      "en": "Majmūʿ al-Fatāwā",
+      "ru": "«Маджму аль-фатава»",
+      "es": "Majmūʿ al-Fatāwā",
+      "uk": "«Маджму аль-фатава»"
+    },
+    {
+      "ar": "شرح الطحاوية",
+      "en": "Sharḥ al-Ṭaḥāwiyyah",
+      "ru": "«Шарх ат-Тахавия»",
+      "es": "Sharḥ al-Ṭaḥāwiyyah",
+      "uk": "«Шарх ат-Тахавія»"
+    }
+  ]
+}

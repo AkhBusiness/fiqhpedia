@@ -1,0 +1,158 @@
+{
+  "ref": "F114",
+  "addedAt": "2026-09-18",
+  "id": "nikah-7",
+  "bookId": "nikah",
+  "seq": 5,
+  "chapter": {
+    "ar": "باب الخطبة",
+    "en": "Chapter on the Betrothal",
+    "ru": "Раздел о сватовстве",
+    "es": "Capítulo sobre el compromiso matrimonial",
+    "uk": "Розділ про сватання"
+  },
+  "title": {
+    "ar": "أثر العدول عن الخِطبة فيما دُفع من هدايا",
+    "en": "The Effect of Withdrawing from a Betrothal on Gifts Already Given",
+    "ru": "Последствия отказа от сватовства для уже подаренных подарков",
+    "es": "El efecto de retirarse del compromiso sobre los regalos ya entregados",
+    "uk": "Наслідки відмови від сватання для вже подарованих подарунків"
+  },
+  "summary": {
+    "ar": "إذا عُدل عن الخِطبة، فهل يسترد الخاطب ما أهداه؟ وهل يختلف الحكم باختلاف من صدر منه العدول؟",
+    "en": "If a betrothal is withdrawn from, may the suitor take back what he gave? And does the ruling differ according to which side withdrew?",
+    "ru": "Если от сватовства отказались, вправе ли сват забрать подаренное? И меняется ли решение в зависимости от того, чья сторона отказалась?",
+    "es": "Si se retira el compromiso, ¿puede el pretendiente recuperar lo que regaló? ¿Y cambia la norma según cuál de las partes se retiró?",
+    "uk": "Якщо від сватання відмовилися, чи може сват забрати подароване? І чи змінюється рішення залежно від того, чия сторона відмовилася?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الهدايا هبةٌ تجري عليها أحكام الهبة العامّة، فللخاطب استرداد ما أهداه ما دام قائماً بعينه، سواء كان العدول منه أو منها. وما هلك أو استُهلك فلا يُسترد إلا أن تكون الهبة بشرط العوض.",
+        "en": "Such gifts are donations governed by the general rules of donation, so the suitor may take back what he gave so long as the thing itself remains, whichever side withdrew. What has perished or been consumed is not recovered unless the gift was made conditional on a counter-value.",
+        "ru": "Подарки суть дарение, к которому применяются общие правила дарения: сват может забрать подаренное, пока сама вещь цела, независимо от того, чья сторона отказалась. То, что погибло или израсходовано, не возвращается, если дарение не было обусловлено встречным возмещением.",
+        "es": "Los regalos son donación regida por las reglas generales de la donación, de modo que el pretendiente puede recuperar lo que entregó mientras la cosa misma subsista, sin importar qué parte se retiró. Lo que pereció o se consumió no se recupera, salvo que la donación se hiciera con condición de contraprestación.",
+        "uk": "Подарунки є даруванням, до якого застосовуються загальні правила дарування: сват може забрати подароване, доки сама річ ціла, незалежно від того, чия сторона відмовилася. Те, що загинуло чи витрачене, не повертається, якщо дарування не було обумовлене зустрічним відшкодуванням."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يُفرّق بحسب من صدر منه العدول: فإن كان العدول من الخاطب فلا يرجع في شيء من الهدايا أصلاً، وإن كان من المخطوبة فله استردادها قائمةً كانت أو مستهلَكةً بقيمتها أو ببدلها.",
+        "en": "A distinction is drawn according to which side withdrew: if the suitor withdrew he recovers nothing at all, and if the woman withdrew he recovers the gifts, whether they remain in substance or have been consumed, by their value or their replacement.",
+        "ru": "Различают по тому, чья сторона отказалась: если отказался сват, он не возвращает себе ничего вовсе; если отказалась невеста, он возвращает подарки — сохранившиеся в натуре или израсходованные — по их стоимости либо равноценной заменой.",
+        "es": "Se distingue según qué parte se retiró: si se retiró el pretendiente, no recupera nada en absoluto; si se retiró la prometida, recupera los regalos, subsistan en su ser o hayan sido consumidos, por su valor o su equivalente.",
+        "uk": "Розрізняють за тим, чия сторона відмовилася: якщо відмовився сват, він не повертає собі нічого взагалі; якщо відмовилася наречена, він повертає подарунки — збережені в натурі чи витрачені — за їхньою вартістю або рівноцінною заміною."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الأصل أنّ الواهب لا يرجع في هبته بعد القبض إلا الوالد فيما وهب لولده. وهدايا الخِطبة هبةٌ مشروطةٌ بتمام النكاح، فإذا لم يتمّ رجع الخاطب بعين الهدية إن كانت قائمة، وبقيمتها إن هلكت أو استُهلكت.",
+        "en": "The rule is that a donor does not take back his gift once delivered, except a father in what he gives his child. Betrothal gifts, however, are a donation conditional on the marriage being completed; if it is not, the suitor recovers the thing itself if it remains, or its value if it has perished or been consumed.",
+        "ru": "Правило таково, что даритель не забирает подаренное после передачи, кроме отца в том, что он подарил своему ребёнку. Подарки же при сватовстве суть дарение, обусловленное завершением брака: если брак не состоялся, сват возвращает саму вещь, если она цела, либо её стоимость, если она погибла или израсходована.",
+        "es": "La regla es que el donante no recupera su donación tras la entrega, salvo el padre en lo que dona a su hijo. Pero los regalos de compromiso son una donación condicionada a que el matrimonio se complete; si no se completa, el pretendiente recupera la cosa misma si subsiste, o su valor si pereció o se consumió.",
+        "uk": "Правило таке, що дарувальник не забирає подароване після передання, крім батька в тому, що він подарував своїй дитині. Подарунки ж при сватанні є даруванням, обумовленим завершенням шлюбу: якщо шлюб не відбувся, сват повертає саму річ, якщо вона ціла, або її вартість, якщо вона загинула чи витрачена."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا يجوز للواهب الرجوع في هبته بعد القبض، فلا يسترد الخاطب ما قُبض من الهدايا سواء كان العدول منه أو منها، إلا أن يكون قد شرط العوض أو جرى العُرف باستردادها.",
+        "en": "A donor may not take back his gift once it has been received, so the suitor recovers nothing of the gifts delivered, whichever side withdrew, unless he stipulated a counter-value or local custom is that they are returned.",
+        "ru": "Дарителю не дозволено забирать подаренное после его получения, поэтому сват не возвращает себе врученных подарков, чья бы сторона ни отказалась, если только он не оговорил встречного возмещения или если обычай не предписывает их возврата.",
+        "es": "No le es lícito al donante recuperar su donación una vez recibida, de modo que el pretendiente no recupera los regalos entregados, sea cual sea la parte que se retiró, salvo que hubiera estipulado una contraprestación o que la costumbre sea devolverlos.",
+        "uk": "Дарувальнику не дозволено забирати подароване після його одержання, тож сват не повертає собі вручених подарунків, чия б сторона не відмовилася, хіба що він обумовив зустрічне відшкодування або звичай приписує їх повертати."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

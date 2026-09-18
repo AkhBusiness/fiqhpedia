@@ -1,0 +1,158 @@
+{
+  "ref": "F116",
+  "addedAt": "2026-09-18",
+  "id": "nikah-9",
+  "bookId": "nikah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب الخطبة",
+    "en": "Chapter on the Betrothal",
+    "ru": "Раздел о сватовстве",
+    "es": "Capítulo sobre el compromiso matrimonial",
+    "uk": "Розділ про сватання"
+  },
+  "title": {
+    "ar": "عَضْل الوليّ وحكم تزويج السلطان عند عضله",
+    "en": "A Guardian's Withholding of Marriage, and the Ruler Giving Her in Marriage Instead",
+    "ru": "Воспрепятствование опекуна браку и выдача замуж правителем",
+    "es": "El impedimento del tutor al matrimonio y el casamiento por la autoridad",
+    "uk": "Перешкоджання опікуна шлюбові та видання заміж правителем"
+  },
+  "summary": {
+    "ar": "ما ضابط العَضْل المحرَّم، وما أثر امتناع الوليّ من تزويج المرأة بالكفء، وإلى من تنتقل الولاية إذا عضل؟",
+    "en": "What defines the forbidden withholding of marriage, what follows from a guardian refusing to marry a woman to a suitable match, and to whom does guardianship pass when he withholds?",
+    "ru": "Каков признак запретного воспрепятствования, что следует из отказа опекуна выдать женщину за соответствующего жениха и к кому переходит опекунство при его отказе?",
+    "es": "¿Cuál es el criterio del impedimento prohibido, qué se sigue de que el tutor se niegue a casar a la mujer con un pretendiente idóneo y a quién pasa la tutela cuando la impide?",
+    "uk": "Який критерій забороненого перешкоджання, що випливає з відмови опікуна видати жінку за відповідного жениха і до кого переходить опіка, коли він перешкоджає?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "العَضْل منع المرأة من التزويج بكفءٍ بمهر المثل. ولمّا كانت البالغة العاقلة تملك تزويج نفسها بلا وليّ، فعَضْل الوليّ لا يحول بينها وبين العقد بنفسها. فإن رُفع الأمر إلى القاضي زوّجها أو أذن لها رفعاً للضرر.",
+        "en": "Withholding means barring a woman from marrying a suitable match for a dower like that of her peers. Since an adult woman of sound mind may contract her own marriage without a guardian, his withholding does not stand between her and contracting it herself. If the matter is raised before the judge, he marries her off or gives her leave, so as to lift the harm.",
+        "ru": "Воспрепятствование — это недопущение женщины к браку с соответствующим женихом за дар, подобный дару её ровесниц. Поскольку совершеннолетняя разумная женщина вправе заключить брак сама, без опекуна, его отказ не встаёт между нею и самостоятельным заключением договора. Если дело доведено до судьи, он выдаёт её замуж или даёт ей дозволение, чтобы устранить вред.",
+        "es": "El impedimento es apartar a la mujer de casarse con un pretendiente idóneo por una dote como la de sus iguales. Puesto que la mujer adulta y cuerda puede contratar su propio matrimonio sin tutor, la negativa de este no se interpone entre ella y el contrato que celebra por sí misma. Si el asunto se eleva al juez, este la casa o le da la venia, para levantar el perjuicio.",
+        "uk": "Перешкоджання — це недопущення жінки до шлюбу з відповідним женихом за дар, подібний до дару її ровесниць. Оскільки повнолітня розумна жінка може укласти шлюб сама, без опікуна, його відмова не стає між нею та самостійним укладенням договору. Якщо справу піднесено до судді, він видає її заміж або дає їй дозвіл, щоб усунути шкоду."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "العَضْل محرَّم، ويثبت بامتناع الوليّ من تزويجها بالكفء الذي رضيت به. فإذا ثبت العَضْل عند القاضي انتقلت الولاية إلى السلطان أو القاضي ليزوّجها، ولا تنتقل إلى الوليّ الأبعد.",
+        "en": "Withholding is forbidden, and it is established by the guardian's refusal to marry her to a suitable match she has accepted. Once it is proved before the judge, guardianship passes to the ruler or the judge, who gives her in marriage; it does not pass to the next guardian in line.",
+        "ru": "Воспрепятствование запретно и устанавливается отказом опекуна выдать её за соответствующего жениха, которого она приняла. Когда оно доказано перед судьёй, опекунство переходит к правителю или судье, который выдаёт её замуж, и не переходит к следующему по очереди опекуну.",
+        "es": "El impedimento está prohibido y se establece por la negativa del tutor a casarla con un pretendiente idóneo que ella ha aceptado. Probado ante el juez, la tutela pasa al gobernante o al juez, que la casa; no pasa al tutor siguiente en el orden.",
+        "uk": "Перешкоджання заборонене і встановлюється відмовою опікуна видати її за відповідного жениха, якого вона прийняла. Коли воно доведене перед суддею, опіка переходить до правителя або судді, який видає її заміж, і не переходить до наступного за чергою опікуна."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يحرم على الوليّ عَضْلها إذا دعت إلى كفءٍ ورضيت به بمهر المثل. فإذا امتنع الوليّ الأقرب وتكرّر منه العَضْل انتقلت الولاية إلى السلطان دون الوليّ الأبعد، لأنّ العَضْل معصيةٌ والقاضي هو الذي يرفع الظلم.",
+        "en": "It is forbidden for a guardian to withhold her when she calls for a suitable match and accepts him for a dower like that of her peers. If the nearest guardian refuses and repeats his withholding, guardianship passes to the ruler rather than to the next guardian, since withholding is a sin and it is the judge who lifts injustice.",
+        "ru": "Опекуну запретно препятствовать ей, когда она просит соответствующего жениха и принимает его за дар, подобный дару её ровесниц. Если ближайший опекун отказывает и отказ повторяется, опекунство переходит к правителю, а не к следующему опекуну, ибо воспрепятствование есть грех, а устраняет несправедливость судья.",
+        "es": "Le está prohibido al tutor impedirla cuando ella pide un pretendiente idóneo y lo acepta por una dote como la de sus iguales. Si el tutor más cercano se niega y reitera su negativa, la tutela pasa al gobernante y no al tutor siguiente, pues el impedimento es un pecado y es el juez quien levanta la injusticia.",
+        "uk": "Опікунові заборонено перешкоджати їй, коли вона просить відповідного жениха і приймає його за дар, подібний до дару її ровесниць. Якщо найближчий опікун відмовляє і відмова повторюється, опіка переходить до правителя, а не до наступного опікуна, бо перешкоджання є гріхом, а усуває несправедливість суддя."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "العَضْل محرَّم، وهو منعها من الكفء إذا طلبت التزويج به. فإذا عضل الوليّ الأقرب انتقلت الولاية إلى الأبعد على ترتيب العصبات — الجدّ ثم الأخ — فإن عضلوا جميعاً أو تعذّروا زوّجها السلطان.",
+        "en": "Withholding is forbidden, and it is to bar her from a suitable match when she asks to be married to him. If the nearest guardian withholds, guardianship passes to the next in the agnatic order — the grandfather, then the brother — and if they all withhold or are unavailable, the ruler gives her in marriage.",
+        "ru": "Воспрепятствование запретно; это недопущение её к соответствующему жениху, когда она просит выдать её за него. Если ближайший опекун препятствует, опекунство переходит к следующему по порядку родства по мужской линии — к деду, затем к брату, — а если препятствуют все или их нет, её выдаёт замуж правитель.",
+        "es": "El impedimento está prohibido, y consiste en apartarla de un pretendiente idóneo cuando ella pide casarse con él. Si el tutor más cercano la impide, la tutela pasa al siguiente en el orden agnaticio —el abuelo, luego el hermano—, y si todos la impiden o no están disponibles, la casa el gobernante.",
+        "uk": "Перешкоджання заборонене; це недопущення її до відповідного жениха, коли вона просить видати її за нього. Якщо найближчий опікун перешкоджає, опіка переходить до наступного за порядком спорідненості по чоловічій лінії — до діда, потім до брата, — а якщо перешкоджають усі або їх немає, її видає заміж правитель."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

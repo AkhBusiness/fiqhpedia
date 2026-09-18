@@ -620,6 +620,7 @@ export const articles: Article[] = (() => {
   // be filed first would put the reported before the argued.
   const PREFERRED = [
     "مسائل الوجود الكبرى",
+    "معرفة الله وصفاته",
     "تاريخ الأديان ونصوصها",
     "الخلق والكون",
     "حِكَم التشريع",

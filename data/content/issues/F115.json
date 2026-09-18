@@ -1,0 +1,158 @@
+{
+  "ref": "F115",
+  "addedAt": "2026-09-18",
+  "id": "nikah-8",
+  "bookId": "nikah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب الخطبة",
+    "en": "Chapter on the Betrothal",
+    "ru": "Раздел о сватовстве",
+    "es": "Capítulo sobre el compromiso matrimonial",
+    "uk": "Розділ про сватання"
+  },
+  "title": {
+    "ar": "الكفاءة في النكاح: ما يُعتبر فيها وأثر فقدها",
+    "en": "Suitability in Marriage: What Counts in It and the Effect of Its Absence",
+    "ru": "Соответствие в браке: что в нём учитывается и последствия его отсутствия",
+    "es": "La idoneidad en el matrimonio: qué se considera en ella y el efecto de su ausencia",
+    "uk": "Відповідність у шлюбі: що в ній враховується та наслідки її відсутності"
+  },
+  "summary": {
+    "ar": "ما الخصال التي تُعتبر في الكفاءة بين الزوجين، ومن يملك حقّها، وما أثر فقدها في عقد النكاح؟",
+    "en": "Which qualities count towards suitability between the spouses, to whom does the right to it belong, and what effect does its absence have on the contract?",
+    "ru": "Какие качества учитываются при соответствии супругов, кому принадлежит право на него и как его отсутствие влияет на брачный договор?",
+    "es": "¿Qué cualidades se consideran en la idoneidad entre los cónyuges, a quién pertenece ese derecho y qué efecto tiene su ausencia en el contrato?",
+    "uk": "Які якості враховуються у відповідності подружжя, кому належить право на неї та як її відсутність впливає на шлюбний договір?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الكفاءة حقٌّ للزوجة وأوليائها، وتُعتبر في جانب الرجل في ستّة أمور: الديانة، والنسب، وإسلام الآباء، والحرّية، والمال، والحِرفة. وفقدها لا يمنع صحّة العقد، وإنما يثبت لهم طلب الفسخ عند القاضي ما لم يرضوا أو يظهر حمل.",
+        "en": "Suitability is a right of the wife and her guardians, and it is reckoned on the man's side in six matters: religion, lineage, the Islam of his forebears, freedom, means, and trade. Its absence does not bar the contract's validity; it gives them the right to seek annulment before the judge, unless they consent or a pregnancy appears.",
+        "ru": "Соответствие есть право жены и её опекунов и учитывается со стороны мужчины в шести вещах: религии, происхождении, исламе предков, свободе, достатке и ремесле. Его отсутствие не препятствует действительности договора, а лишь даёт им право требовать расторжения у судьи, пока они не согласятся или пока не обнаружится беременность.",
+        "es": "La idoneidad es un derecho de la esposa y de sus tutores, y se considera del lado del varón en seis aspectos: religión, linaje, islam de sus antepasados, libertad, medios y oficio. Su ausencia no impide la validez del contrato, sino que les da derecho a pedir la anulación ante el juez, mientras no consientan o no se advierta un embarazo.",
+        "uk": "Відповідність є правом дружини та її опікунів і враховується з боку чоловіка в шести речах: релігії, походженні, ісламі предків, свободі, статках і ремеслі. Її відсутність не перешкоджає дійсності договору, а лише дає їм право вимагати розірвання в судді, доки вони не погодяться або доки не виявиться вагітність."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "تُعتبر الكفاءة في أمرين اثنين: الديانة، والسلامة من العيوب الموجبة لخيار الفسخ. ولا يُعتبر النسب ولا الحِرفة ولا المال. وهي حقٌّ للزوجة ووليّها، فإن زُوّجت بغير كفء فلها الفسخ، وإن رضيت هي ووليّها صحّ العقد.",
+        "en": "Suitability is reckoned in two things: religion, and freedom from the defects that give rise to the option of annulment. Lineage, trade and wealth are not reckoned. It is a right of the wife and her guardian: if she is married to one who is unsuitable she may annul, and if she and her guardian both consent the contract stands.",
+        "ru": "Соответствие учитывается в двух вещах: религии и отсутствии пороков, дающих право на расторжение. Происхождение, ремесло и богатство не учитываются. Это право жены и её опекуна: если её выдали за несоответствующего, она вправе расторгнуть, а если согласны и она, и опекун, договор действителен.",
+        "es": "La idoneidad se considera en dos cosas: la religión y estar libre de los defectos que dan lugar a la opción de anulación. No se consideran el linaje, el oficio ni la riqueza. Es un derecho de la esposa y de su tutor: si se la casa con quien no es idóneo, ella puede anular, y si ambos consienten, el contrato se mantiene.",
+        "uk": "Відповідність враховується у двох речах: релігії та відсутності вад, що дають право на розірвання. Походження, ремесло й багатство не враховуються. Це право дружини та її опікуна: якщо її видали за невідповідного, вона може розірвати, а якщо згодні і вона, і опікун, договір лишається чинним."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الكفاءة حقٌّ للزوجة وأوليائها العصبات، وتُعتبر في خمس خصال: الديانة، والنسب، والحرّية، والحِرفة، والسلامة من العيوب المثبتة لخيار الفسخ، وفي وجهٍ يُضاف إليها اليسار بالمال. فإن تزوّجت غير كفء برضاها وإذن وليّها صحّ النكاح، وإن انفرد أحدهما بذلك فللآخر الفسخ.",
+        "en": "Suitability is a right of the wife and her agnatic guardians, reckoned in five qualities: religion, lineage, freedom, trade, and freedom from the defects that establish the option of annulment; and on one view means is added to these. If she marries one who is unsuitable with her own consent and her guardian's leave, the marriage stands; if either acted alone, the other may annul.",
+        "ru": "Соответствие есть право жены и её опекунов по мужской линии и учитывается в пяти качествах: религии, происхождении, свободе, ремесле и отсутствии пороков, дающих право на расторжение; а по одному мнению к ним добавляется и достаток. Если она вышла за несоответствующего с её согласия и дозволения опекуна, брак действителен; если же один из них поступил самочинно, другой вправе расторгнуть.",
+        "es": "La idoneidad es un derecho de la esposa y de sus tutores agnados, y se considera en cinco cualidades: religión, linaje, libertad, oficio y estar libre de los defectos que establecen la opción de anulación; y según un parecer se les añade la holgura económica. Si se casa con quien no es idóneo con su consentimiento y la venia de su tutor, el matrimonio se mantiene; si uno de ellos obró por su cuenta, el otro puede anular.",
+        "uk": "Відповідність є правом дружини та її опікунів по чоловічій лінії і враховується у п'яти якостях: релігії, походженні, свободі, ремеслі та відсутності вад, що встановлюють право на розірвання; а за одним поглядом до них додається й достаток. Якщо вона вийшла за невідповідного за своєю згодою та дозволом опікуна, шлюб лишається чинним; якщо ж хтось із них учинив самочинно, інший може розірвати."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "الكفاءة حقٌّ للزوجة ولجميع الأولياء العصبات، وتُعتبر في خمسة أمور: الديانة، والنسب، والحرّية، والحِرفة، واليسار بالمال. وفقدها لا يبطل العقد بل يثبت خيار الفسخ لمن لم يرضَ منهم، إلا الديانة ففيها روايةٌ بالبطلان إذا زُوّجت العفيفةُ فاسقاً.",
+        "en": "Suitability is a right of the wife and of all the agnatic guardians, reckoned in five matters: religion, lineage, freedom, trade and means. Its absence does not void the contract but gives the option of annulment to whichever of them did not consent — except in religion, where one narration holds the contract void if a chaste woman is married to a man of open sin.",
+        "ru": "Соответствие есть право жены и всех опекунов по мужской линии и учитывается в пяти вещах: религии, происхождении, свободе, ремесле и достатке. Его отсутствие не делает договор ничтожным, но даёт право на расторжение тому из них, кто не согласился, — кроме религии, где по одной передаче договор ничтожен, если целомудренную выдали за явного грешника.",
+        "es": "La idoneidad es un derecho de la esposa y de todos los tutores agnados, y se considera en cinco aspectos: religión, linaje, libertad, oficio y holgura económica. Su ausencia no anula el contrato, sino que da la opción de anulación a quien de ellos no consintió, salvo en la religión, donde según una transmisión el contrato es nulo si se casa a una mujer casta con un hombre de notoria impiedad.",
+        "uk": "Відповідність є правом дружини та всіх опікунів по чоловічій лінії і враховується у п'яти речах: релігії, походженні, свободі, ремеслі та достатку. Її відсутність не робить договір нікчемним, але дає право на розірвання тому з них, хто не погодився, — окрім релігії, де за одним переказом договір нікчемний, якщо цнотливу видали за явного грішника."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

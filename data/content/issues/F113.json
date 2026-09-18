@@ -1,0 +1,158 @@
+{
+  "ref": "F113",
+  "addedAt": "2026-09-18",
+  "id": "nikah-6",
+  "bookId": "nikah",
+  "seq": 2,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "صيغة الإيجاب والقبول والألفاظ التي ينعقد بها النكاح",
+    "en": "The Formula of Offer and Acceptance, and the Words by Which Marriage Is Concluded",
+    "ru": "Формула предложения и принятия и слова, которыми заключается брак",
+    "es": "La fórmula de oferta y aceptación y las palabras con las que se concluye el matrimonio",
+    "uk": "Формула пропозиції та прийняття і слова, якими укладається шлюб"
+  },
+  "summary": {
+    "ar": "هل ينعقد النكاح بلفظي النكاح والتزويج وحدهما، أم ينعقد بألفاظ أخرى كالهبة والتمليك والبيع؟",
+    "en": "Is marriage concluded only by the words for marrying and giving in marriage, or also by other words such as gift, transfer of ownership and sale?",
+    "ru": "Заключается ли брак только словами «никах» и «тазвидж» или же и другими словами, такими как дарение, передача во владение и продажа?",
+    "es": "¿Se concluye el matrimonio solo con los términos de casar y dar en matrimonio, o también con otros como donación, cesión de propiedad y venta?",
+    "uk": "Чи укладається шлюб лише словами «нікях» і «тазвідж», чи також іншими словами, як-от дарування, передання у власність і продаж?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "ينعقد النكاح صريحاً بلفظي النكاح والتزويج، وينعقد كذلك بكلّ لفظ يفيد تمليك العين في الحال على التأبيد — كالبيع والهبة والصدقة والتمليك — إذا قامت قرينة تدلّ على أنّ المراد النكاح.",
+        "en": "Marriage is concluded expressly by the words for marrying and for giving in marriage, and likewise by any word conveying immediate and permanent transfer of a thing itself — sale, gift, alms, conveyance — where the context shows that marriage is what is meant.",
+        "ru": "Брак заключается прямо словами «никах» и «тазвидж», а равно и любым словом, означающим немедленную и вечную передачу самой вещи во владение — продажей, дарением, милостыней, уступкой, — если обстоятельства указывают, что имеется в виду именно брак.",
+        "es": "El matrimonio se concluye de modo expreso con los términos de casar y dar en matrimonio, y asimismo con cualquier término que exprese la cesión inmediata y perpetua de la cosa misma —venta, donación, limosna, traspaso— cuando el contexto muestra que lo que se quiere decir es el matrimonio.",
+        "uk": "Шлюб укладається прямо словами «нікях» і «тазвідж», а так само й будь-яким словом, що означає негайне та довічне передання самої речі у власність — продажем, даруванням, милостинею, поступкою, — якщо обставини вказують, що йдеться саме про шлюб."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "ينعقد النكاح بلفظي النكاح والتزويج، وينعقد بغيرهما كالهبة والتمليك والبيع بشرط أن يُذكر معه الصداق. فإن لم يُذكر الصداق لم ينعقد إلا بلفظي النكاح والتزويج.",
+        "en": "Marriage is concluded by the words for marrying and for giving in marriage, and by others such as gift, conveyance and sale provided the dower is named along with them. If the dower is not named, it is concluded by no words but those two.",
+        "ru": "Брак заключается словами «никах» и «тазвидж», а также иными, как дарение, уступка и продажа, при условии, что вместе с ними назван брачный дар. Если дар не назван, брак заключается лишь этими двумя словами.",
+        "es": "El matrimonio se concluye con los términos de casar y dar en matrimonio, y con otros como donación, traspaso y venta siempre que junto a ellos se nombre la dote. Si la dote no se nombra, no se concluye sino con aquellos dos términos.",
+        "uk": "Шлюб укладається словами «нікях» і «тазвідж», а також іншими, як дарування, поступка та продаж, за умови, що разом із ними названо шлюбний дар. Якщо дар не названо, шлюб укладається лише цими двома словами."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا ينعقد النكاح إلا بلفظ الإنكاح أو التزويج وما اشتُقّ منهما بصيغة الماضي صريحاً، ولا ينعقد بألفاظ الكناية كالهبة والبيع والتمليك والصدقة ولو ذُكر معها الصداق.",
+        "en": "Marriage is concluded only by the express words for marrying or giving in marriage, or their derivatives in the past tense; it is not concluded by allusive words such as gift, sale, conveyance or alms, even if the dower is named with them.",
+        "ru": "Брак заключается только прямыми словами «инках» или «тазвидж» и производными от них в прошедшем времени; он не заключается иносказательными словами, такими как дарение, продажа, уступка или милостыня, даже если вместе с ними назван брачный дар.",
+        "es": "El matrimonio se concluye únicamente con los términos expresos de casar o dar en matrimonio y sus derivados en pretérito; no se concluye con términos alusivos como donación, venta, traspaso o limosna, aunque con ellos se nombre la dote.",
+        "uk": "Шлюб укладається лише прямими словами «інках» або «тазвідж» і похідними від них у минулому часі; він не укладається переносними словами, як-от дарування, продаж, поступка чи милостиня, навіть якщо разом із ними названо шлюбний дар."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "ينحصر انعقاد النكاح في لفظي الإنكاح والتزويج ومشتقاتهما الصريحة، فلا ينعقد بالهبة ولا البيع ولا التمليك ولو اقترن بها ذكر الصداق، لأنّ النكاح عقدٌ يتعيّن فيه لفظه الشرعيّ.",
+        "en": "The conclusion of marriage is confined to the express words for marrying and giving in marriage and their derivatives; it is not concluded by gift, sale or conveyance even if the dower is named with them, for marriage is a contract in which its own revealed wording is required.",
+        "ru": "Заключение брака ограничено прямыми словами «инках» и «тазвидж» и производными от них; он не заключается дарением, продажей или уступкой, даже если вместе с ними назван брачный дар, ибо брак есть договор, в котором требуется именно его установленное шариатом слово.",
+        "es": "La conclusión del matrimonio se limita a los términos expresos de casar y dar en matrimonio y sus derivados; no se concluye con donación, venta ni traspaso aunque con ellos se nombre la dote, pues el matrimonio es un contrato en el que se requiere su propio término revelado.",
+        "uk": "Укладення шлюбу обмежене прямими словами «інках» і «тазвідж» та похідними від них; він не укладається даруванням, продажем чи поступкою, навіть якщо разом із ними названо шлюбний дар, бо шлюб є договором, у якому вимагається саме його встановлене шаріатом слово."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
