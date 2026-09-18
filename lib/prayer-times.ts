@@ -137,11 +137,16 @@ function asrAltitude(factor: number, latitude: number, declination: number): num
 }
 
 function atHour(date: Date, hours: number, tzOffsetMinutes: number): Date {
-  const local = new Date(date)
-  local.setHours(0, 0, 0, 0)
-  // `hours` is in the local mean time of the longitude; the offset carries it
-  // to the clock the reader is actually looking at.
-  return new Date(local.getTime() + (hours * 60 - tzOffsetMinutes) * 60_000)
+  // The anchor must be midnight **in UTC** of the calendar day, not midnight on
+  // the reader's own clock. `setHours(0,0,0,0)` gives the latter, and it has the
+  // zone offset already baked into it — so subtracting `tzOffsetMinutes` below
+  // took it off a second time and every prayer came out `tzOffsetMinutes` early
+  // (three hours in the Kingdom: ʿaṣr read 12:51 instead of 15:51).
+  //
+  // `hours` is the time on the clock at the place being computed for, so the
+  // instant is that clock time carried back to UTC by one subtraction only.
+  const utcMidnight = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate())
+  return new Date(utcMidnight + (hours * 60 - tzOffsetMinutes) * 60_000)
 }
 
 export interface PrayerTimesInput {
