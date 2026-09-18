@@ -1,0 +1,158 @@
+{
+  "ref": "F117",
+  "addedAt": "2026-09-18",
+  "id": "nikah-10",
+  "bookId": "nikah",
+  "seq": 3,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "انعقاد النكاح بغير اللغة العربية",
+    "en": "Concluding a Marriage in a Language Other Than Arabic",
+    "ru": "Заключение брака не на арабском языке",
+    "es": "La conclusión del matrimonio en una lengua distinta del árabe",
+    "uk": "Укладення шлюбу мовою, іншою за арабську"
+  },
+  "summary": {
+    "ar": "هل يُشترط أن تكون صيغة الإيجاب والقبول بالعربية، وهل يختلف الحكم بين القادر على العربية والعاجز عنها؟",
+    "en": "Must the offer and acceptance be in Arabic, and does the ruling differ between one able to speak Arabic and one unable?",
+    "ru": "Обязана ли формула предложения и принятия быть на арабском, и различается ли решение для владеющего арабским и не владеющего им?",
+    "es": "¿Ha de ser en árabe la fórmula de oferta y aceptación, y difiere la norma entre quien sabe árabe y quien no?",
+    "uk": "Чи має формула пропозиції та прийняття бути арабською, і чи різниться рішення для того, хто володіє арабською, і того, хто нею не володіє?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "ينعقد النكاح بغير العربية مطلقاً، قدر العاقد على العربية أو عجز عنها، بشرط أن تدلّ الألفاظ المستعملة على معنى النكاح صراحةً أو كناية.",
+        "en": "Marriage is concluded in a language other than Arabic without restriction, whether the contracting party can speak Arabic or not, so long as the words used convey the meaning of marriage expressly or by allusion.",
+        "ru": "Брак заключается не на арабском языке без ограничения, владеет ли заключающий арабским или нет, лишь бы употреблённые слова передавали смысл брака прямо или иносказательно.",
+        "es": "El matrimonio se concluye en lengua distinta del árabe sin restricción, sepa o no árabe quien contrata, con tal de que las palabras empleadas expresen el sentido del matrimonio de modo directo o alusivo.",
+        "uk": "Шлюб укладається мовою, іншою за арабську, без обмеження, володіє той, хто укладає, арабською чи ні, аби лиш вжиті слова передавали зміст шлюбу прямо або переносно."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يصحّ النكاح بغير العربية لمن لا يحسنها، ويصحّ كذلك للقادر عليها إذا أدّت الألفاظ معنى النكاح والتزويج بدقّة، والعربية أولى وأفضل.",
+        "en": "Marriage is valid in a language other than Arabic for one who does not command it, and valid likewise for one who does, provided the words convey the meaning of marrying and giving in marriage precisely; Arabic remains preferable.",
+        "ru": "Брак действителен не на арабском для того, кто им не владеет, и равно для того, кто владеет, если слова точно передают смысл брака; арабский всё же предпочтительнее.",
+        "es": "El matrimonio es válido en lengua distinta del árabe para quien no la domina, e igualmente para quien sí, con tal de que las palabras expresen con precisión el sentido de casar y dar en matrimonio; el árabe sigue siendo preferible.",
+        "uk": "Шлюб дійсний мовою, іншою за арабську, для того, хто нею не володіє, і так само для того, хто володіє, якщо слова точно передають зміст шлюбу; арабська все ж є кращою."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يلزم القادرَ على العربية أن يأتي بالصيغة بها — بالإنكاح أو التزويج — ولا ينعقد نكاحه بغيرها. فإن عجز عنها صحّ عقده بلسانه بما يُترجم معنى اللفظين.",
+        "en": "One able to speak Arabic must pronounce the formula in it — by the word for marrying or for giving in marriage — and his marriage is not concluded in any other tongue. If he is unable, his contract is valid in his own tongue with what renders the meaning of those two words.",
+        "ru": "Владеющий арабским обязан произнести формулу на нём — словом «инках» или «тазвидж», — и его брак не заключается ни на каком ином языке. Если же он не владеет им, его договор действителен на его языке тем, что передаёт смысл этих двух слов.",
+        "es": "Quien sabe árabe ha de pronunciar en él la fórmula —con el término de casar o de dar en matrimonio— y su matrimonio no se concluye en otra lengua. Si no sabe, su contrato es válido en su propia lengua con lo que traduzca el sentido de esos dos términos.",
+        "uk": "Той, хто володіє арабською, зобов'язаний вимовити формулу нею — словом «інках» або «тазвідж», — і його шлюб не укладається жодною іншою мовою. Якщо ж він нею не володіє, його договір дійсний його мовою тим, що передає зміст цих двох слів."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يجب على القادر على العربية أن يعقد بها بلفظ النكاح أو التزويج، ولا يصحّ عقده بغيرها مع القدرة. فإن عجز صحّ نكاحه بلسانه بما يؤدّي معنى اللفظين.",
+        "en": "One able to speak Arabic must contract in it with the word for marrying or for giving in marriage, and his contract is not valid in another tongue while he is able. If he is unable, his marriage is valid in his own tongue with what conveys the meaning of those two words.",
+        "ru": "Владеющий арабским обязан заключить договор на нём словом «никах» или «тазвидж», и его договор недействителен на ином языке при наличии способности. Если же он не владеет им, его брак действителен на его языке тем, что передаёт смысл этих двух слов.",
+        "es": "Quien sabe árabe debe contratar en él con el término de casar o de dar en matrimonio, y su contrato no es válido en otra lengua mientras pueda. Si no puede, su matrimonio es válido en su propia lengua con lo que exprese el sentido de esos dos términos.",
+        "uk": "Той, хто володіє арабською, зобов'язаний укласти договір нею словом «нікях» або «тазвідж», і його договір недійсний іншою мовою за наявності здатності. Якщо ж він не володіє нею, його шлюб дійсний його мовою тим, що передає зміст цих двох слів."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

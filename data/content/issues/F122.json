@@ -1,0 +1,158 @@
+{
+  "ref": "F122",
+  "addedAt": "2026-09-18",
+  "id": "nikah-15",
+  "bookId": "nikah",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "تعيين الزوجين ورفع الجهالة",
+    "en": "Identifying the Spouses and Removing Ambiguity",
+    "ru": "Определение супругов и устранение неопределённости",
+    "es": "La identificación de los cónyuges y la eliminación de la ambigüedad",
+    "uk": "Визначення подружжя та усунення невизначеності"
+  },
+  "summary": {
+    "ar": "هل يُشترط تعيين الزوجين بالاسم أو الإشارة أو الوصف المميّز، وما أثر الجهالة بأحدهما في صحّة العقد؟",
+    "en": "Must each spouse be identified by name, by pointing, or by a distinguishing description, and what does ambiguity about either do to the contract's validity?",
+    "ru": "Требуется ли определить каждого из супругов по имени, указанием или отличительным описанием, и как неопределённость в одном из них влияет на действительность договора?",
+    "es": "¿Ha de identificarse a cada cónyuge por nombre, señalando o por descripción distintiva, y qué efecto tiene la ambigüedad sobre uno de ellos en la validez del contrato?",
+    "uk": "Чи треба визначити кожного з подружжя за ім'ям, вказівкою чи відмінним описом, і як невизначеність щодо одного з них впливає на дійсність договору?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يُشترط لصحّة النكاح تعيين الزوجين تعييناً ينفي الجهالة الفاحشة، بالاسم أو بالإشارة أو بالوصف المميّز. فلو قال الوليّ: «زوّجتك بنتي» وله بناتٌ متعدّدات، لم يصحّ العقد حتى تُعيَّن واحدةٌ منهنّ وقت العقد.",
+        "en": "For a marriage to be valid the spouses must be identified so as to remove gross ambiguity — by name, by pointing, or by a distinguishing description. Were the guardian to say “I have given you my daughter in marriage” while having several daughters, the contract is not valid until one of them is specified at the time of contracting.",
+        "ru": "Для действительности брака супруги должны быть определены так, чтобы устранить грубую неопределённость, — по имени, указанием или отличительным описанием. Если опекун скажет: «Я выдал за тебя свою дочь», имея несколько дочерей, договор недействителен, пока одна из них не будет определена во время заключения.",
+        "es": "Para la validez del matrimonio los cónyuges han de quedar identificados de modo que se elimine la ambigüedad grave: por nombre, señalando o por descripción distintiva. Si el tutor dijera «te he dado en matrimonio a mi hija» teniendo varias hijas, el contrato no es válido hasta que se especifique una de ellas en el momento de contratar.",
+        "uk": "Для дійсності шлюбу подружжя має бути визначене так, щоб усунути грубу невизначеність, — за ім'ям, вказівкою чи відмінним описом. Якщо опікун скаже: «Я видав за тебе свою дочку», маючи кількох дочок, договір недійсний, доки одна з них не буде визначена під час укладення."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "تعيين كلٍّ من الزوجين شرطٌ لصحّة العقد، بالاسم أو الإشارة أو الصفة الفارقة. فإن وقعت الجهالة — كأن يقول: «زوّجتك إحدى بناتي» — فالعقد باطل يُفسخ، ولا ينعقد إلا بتعيين المزوَّجة والمزوَّج له.",
+        "en": "Identifying each spouse is a condition of the contract's validity, by name, by pointing, or by a distinguishing attribute. If ambiguity occurs — as in saying “I have given you one of my daughters in marriage” — the contract is void and is annulled; it is concluded only by identifying the woman given and the man she is given to.",
+        "ru": "Определение каждого из супругов есть условие действительности договора — по имени, указанием или отличительным признаком. Если возникнет неопределённость, как во фразе «я выдал за тебя одну из моих дочерей», договор ничтожен и расторгается; он заключается лишь при определении выдаваемой и того, за кого её выдают.",
+        "es": "Identificar a cada cónyuge es condición de la validez del contrato, por nombre, señalando o por rasgo distintivo. Si se produce ambigüedad —como al decir «te he dado en matrimonio a una de mis hijas»— el contrato es nulo y se anula; sólo se concluye identificando a la mujer dada y al hombre a quien se la da.",
+        "uk": "Визначення кожного з подружжя є умовою дійсності договору — за ім'ям, вказівкою чи відмінною ознакою. Якщо виникне невизначеність, як у фразі «я видав за тебе одну з моїх дочок», договір нікчемний і розривається; він укладається лише при визначенні тієї, кого видають, і того, за кого видають."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يُشترط لصحّة العقد تعيين الزوجين تعييناً لا يحتمل اللبس: بالتسمية الصريحة، أو الإشارة الحاضرة، أو الوصف الخاصّ. فإن أطلق الوليّ فقال: «زوّجتك بنتي» وله بنتان فأكثر، فالعقد باطل للجهالة بالمعقود عليها.",
+        "en": "For the contract to be valid the spouses must be identified in a way that admits no confusion: by express naming, by pointing to one present, or by a particular description. Were the guardian to speak without restriction and say “I have given you my daughter in marriage” while having two daughters or more, the contract is void for ambiguity as to the woman contracted for.",
+        "ru": "Для действительности договора супруги должны быть определены так, чтобы не оставалось смешения: явным именованием, указанием на присутствующую или особым описанием. Если опекун выразится без уточнения: «Я выдал за тебя свою дочь», имея двух дочерей или более, договор ничтожен из-за неопределённости той, о ком договор.",
+        "es": "Para la validez del contrato los cónyuges han de identificarse de modo que no quepa confusión: por denominación expresa, señalando a la presente o por descripción particular. Si el tutor hablara sin precisar y dijera «te he dado en matrimonio a mi hija» teniendo dos hijas o más, el contrato es nulo por ambigüedad sobre la mujer contratada.",
+        "uk": "Для дійсності договору подружжя має бути визначене так, щоб не лишалося плутанини: явним іменуванням, вказівкою на присутню або особливим описом. Якщо опікун висловиться без уточнення: «Я видав за тебе свою дочку», маючи двох дочок або більше, договір нікчемний через невизначеність тієї, про кого договір."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "تعيين الزوجين شرطٌ لصحّة النكاح: بالإشارة إليهما، أو بتسميتهما باسمٍ يختصّ به ولا يُشاركه فيه غيره، أو بصفةٍ لا تشتبه بغيرها. فلو زوّجه «بنته» وله غيرها، أو قال: «زوّجتك إحدى بناتي»، لم يصحّ النكاح للجهالة بالمعقود عليه.",
+        "en": "Identifying the spouses is a condition of the marriage's validity: by pointing to them, by naming them with a name proper to them and shared by no one else, or by an attribute not confused with another's. Were he to give him “his daughter” while having others, or to say “I have given you one of my daughters in marriage,” the marriage is not valid for ambiguity as to the one contracted for.",
+        "ru": "Определение супругов есть условие действительности брака: указанием на них, именованием таким именем, которое принадлежит им и ни с кем не разделяется, или признаком, не смешиваемым с иным. Если он выдаст ему «свою дочь», имея других, или скажет: «Я выдал за тебя одну из моих дочерей», брак недействителен из-за неопределённости того, о ком договор.",
+        "es": "Identificar a los cónyuges es condición de la validez del matrimonio: señalándolos, nombrándolos con un nombre que les sea propio y que ningún otro comparta, o por un rasgo que no se confunda con otro. Si le diera «su hija» teniendo otras, o dijera «te he dado en matrimonio a una de mis hijas», el matrimonio no es válido por ambigüedad sobre la persona contratada.",
+        "uk": "Визначення подружжя є умовою дійсності шлюбу: вказівкою на них, іменуванням таким ім'ям, яке належить їм і ні з ким не поділяється, або ознакою, що не змішується з іншою. Якщо він видасть йому «свою дочку», маючи інших, або скаже: «Я видав за тебе одну з моїх дочок», шлюб недійсний через невизначеність того, про кого договір."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

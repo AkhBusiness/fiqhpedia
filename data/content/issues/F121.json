@@ -1,0 +1,158 @@
+{
+  "ref": "F121",
+  "addedAt": "2026-09-18",
+  "id": "nikah-14",
+  "bookId": "nikah",
+  "seq": 7,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "اشتراط الشهود في النكاح وصفاتهم",
+    "en": "The Requirement of Witnesses in Marriage and Their Qualifications",
+    "ru": "Условие свидетелей при браке и их качества",
+    "es": "El requisito de los testigos en el matrimonio y sus cualidades",
+    "uk": "Умова свідків при шлюбі та їхні якості"
+  },
+  "summary": {
+    "ar": "هل يُشترط الشهود لصحّة العقد، وما الصفات المعتبرة فيهما — كالعدالة والذكورة؟",
+    "en": "Are witnesses required for the contract's validity, and what qualifications count in them — such as uprightness and being male?",
+    "ru": "Требуются ли свидетели для действительности договора и какие качества в них учитываются — праведность, мужской пол?",
+    "es": "¿Se requieren testigos para la validez del contrato y qué cualidades cuentan en ellos, como la rectitud y el ser varón?",
+    "uk": "Чи потрібні свідки для дійсності договору та які якості в них враховуються — праведність, чоловіча стать?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "الشهادة شرطٌ لصحّة العقد، ويصحّ بحضور رجلين أو رجلٍ وامرأتين. ويُشترط فيهم: الحرّية، والعقل، والبلوغ، والإسلام إن كان الزوجان مسلمَين. ولا تُشترط العدالة، فينعقد بحضور الفاسقين.",
+        "en": "Witnessing is a condition of the contract's validity, and it is valid in the presence of two men or of one man and two women. Required of them are freedom, sound mind, majority, and Islam if both spouses are Muslim. Uprightness is not required, so it is concluded in the presence of men of open sin.",
+        "ru": "Свидетельство есть условие действительности договора, и он действителен в присутствии двух мужчин либо одного мужчины и двух женщин. От них требуются свобода, разум, совершеннолетие и ислам, если оба супруга мусульмане. Праведность не требуется, и договор заключается в присутствии явных грешников.",
+        "es": "El testimonio es condición de la validez del contrato, y éste vale en presencia de dos hombres o de un hombre y dos mujeres. Se les exige libertad, juicio, mayoría de edad e islam si ambos cónyuges son musulmanes. No se exige la rectitud, de modo que se concluye en presencia de hombres de notoria impiedad.",
+        "uk": "Свідчення є умовою дійсності договору, і він дійсний у присутності двох чоловіків або одного чоловіка та двох жінок. Від них вимагаються свобода, розум, повноліття та іслам, якщо обоє з подружжя мусульмани. Праведність не вимагається, і договір укладається в присутності явних грішників."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "الإشهاد شرطٌ لصحّة الدخول بالزوجة لا لصحّة أصل العقد، ويُندب حضورهما حال العقد. ويُشترط في الشاهدين: الذكورة، والعقل، والبلوغ، والإسلام، والعدالة. ولا تُقبل شهادة النساء في النكاح.",
+        "en": "Witnessing is a condition for the validity of consummation, not of the contract itself, though their presence at the contract is recommended. Required of the two witnesses are: being male, sound mind, majority, Islam, and uprightness. The testimony of women is not accepted in marriage.",
+        "ru": "Свидетельствование есть условие действительности супружеской близости, а не самого договора, хотя их присутствие при договоре желательно. От двух свидетелей требуются: мужской пол, разум, совершеннолетие, ислам и праведность. Свидетельство женщин в браке не принимается.",
+        "es": "El testimonio es condición de la validez de la consumación, no del contrato mismo, aunque su presencia en el contrato es recomendable. Se exige de los dos testigos: ser varón, juicio, mayoría de edad, islam y rectitud. El testimonio de mujeres no se acepta en el matrimonio.",
+        "uk": "Свідчення є умовою дійсності подружньої близькості, а не самого договору, хоча їхня присутність при договорі є бажаною. Від двох свідків вимагаються: чоловіча стать, розум, повноліття, іслам і праведність. Свідчення жінок у шлюбі не приймається."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الشهادة ركنٌ من أركان النكاح وشرطٌ لصحّته، فلا ينعقد إلا بحضور شاهدَين. ويُشترط فيهما: الذكورة، والعقل، والبلوغ، والإسلام، والعدالة، والسمع، والبصر، وفهم لغة العقد.",
+        "en": "Witnessing is a pillar of marriage and a condition of its validity, so it is not concluded except in the presence of two witnesses. Required of them are: being male, sound mind, majority, Islam, uprightness, hearing, sight, and understanding of the language of the contract.",
+        "ru": "Свидетельство есть столп брака и условие его действительности, и он не заключается иначе как в присутствии двух свидетелей. От них требуются: мужской пол, разум, совершеннолетие, ислам, праведность, слух, зрение и понимание языка договора.",
+        "es": "El testimonio es pilar del matrimonio y condición de su validez, de modo que no se concluye sino en presencia de dos testigos. Se les exige: ser varón, juicio, mayoría de edad, islam, rectitud, oído, vista y comprensión de la lengua del contrato.",
+        "uk": "Свідчення є стовпом шлюбу та умовою його дійсності, тож він не укладається інакше як у присутності двох свідків. Від них вимагаються: чоловіча стать, розум, повноліття, іслам, праведність, слух, зір і розуміння мови договору."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "الشهود شرطٌ لصحّة العقد، فلا يصحّ إلا برجلين مكلَّفَين مسلمَين عدلَين ولو في الظاهر. ولا تصحّ شهادة النساء في النكاح ولا شهادة الفسّاق.",
+        "en": "Witnesses are a condition of the contract's validity, and it is valid only with two men who are legally accountable, Muslim and upright, even if only outwardly. The testimony of women is not valid in marriage, nor that of men of open sin.",
+        "ru": "Свидетели есть условие действительности договора, и он действителен лишь с двумя мужчинами — дееспособными, мусульманами и праведными хотя бы внешне. Свидетельство женщин в браке недействительно, как и свидетельство явных грешников.",
+        "es": "Los testigos son condición de la validez del contrato, y éste sólo vale con dos hombres responsables, musulmanes y rectos, aunque sólo sea en lo aparente. El testimonio de mujeres no vale en el matrimonio, ni el de hombres de notoria impiedad.",
+        "uk": "Свідки є умовою дійсності договору, і він дійсний лише з двома чоловіками — дієздатними, мусульманами і праведними хоча б зовні. Свідчення жінок у шлюбі недійсне, як і свідчення явних грішників."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

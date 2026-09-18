@@ -1,0 +1,159 @@
+{
+  "ref": "F120",
+  "addedAt": "2026-09-18",
+  "id": "nikah-13",
+  "bookId": "nikah",
+  "seq": 6,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "ولاية الإجبار وحدودها",
+    "en": "Compulsory Guardianship and Its Limits",
+    "ru": "Принудительная опека и её пределы",
+    "es": "La tutela con facultad de compeler y sus límites",
+    "uk": "Примусова опіка та її межі"
+  },
+  "summary": {
+    "ar": "لمن تثبت ولاية الإجبار على تزويج المولّى عليها بغير إذنها، وما حدودها وشروطها؟",
+    "en": "To whom does the power to give a ward in marriage without her leave belong, and what are its limits and conditions?",
+    "ru": "Кому принадлежит право выдать подопечную замуж без её дозволения, и каковы его пределы и условия?",
+    "es": "¿A quién corresponde la facultad de casar a la tutelada sin su venia, y cuáles son sus límites y condiciones?",
+    "uk": "Кому належить право видати підопічну заміж без її дозволу, і які його межі та умови?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا تثبت ولاية الإجبار على البالغة العاقلة بحال، بكراً كانت أو ثيّباً، فلها القبول والردّ. وإنما تثبت على الصغير والصغيرة والمجنون، ويملكها الأب وسائر الأولياء؛ ويثبت للصغيرين خيار البلوغ إن كان المزوّج غير الأب والجدّ.",
+        "en": "No power of compulsion holds over an adult woman of sound mind in any case, virgin or previously married; acceptance and refusal are hers. It holds only over the male and female minor and the insane, and belongs to the father and the other guardians; and the two minors have the option of majority if the one who gave them in marriage was neither father nor grandfather.",
+        "ru": "Принуждение не имеет силы над совершеннолетней разумной женщиной ни в каком случае, будь она девицей или прежде замужней: согласие и отказ принадлежат ей. Оно распространяется лишь на малолетних и умалишённого и принадлежит отцу и прочим опекунам; а малолетние имеют право выбора по достижении совершеннолетия, если выдал их замуж не отец и не дед.",
+        "es": "No cabe compeler en ningún caso a la mujer adulta y cuerda, virgen o antes casada: la aceptación y el rechazo son suyos. Sólo cabe sobre el menor, la menor y el demente, y corresponde al padre y a los demás tutores; y los menores tienen la opción al llegar a la mayoría si quien los casó no fue el padre ni el abuelo.",
+        "uk": "Примус не має сили над повнолітньою розумною жінкою в жодному разі, чи то дівою, чи раніше заміжньою: згода й відмова належать їй. Він поширюється лише на малолітніх і божевільного і належить батькові та іншим опікунам; а малолітні мають право вибору по досягненні повноліття, якщо видав їх заміж не батько і не дід."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "تثبت ولاية الإجبار للأب خاصّة: على ولده وبنته الصغيرين، وعلى بنته البكر ولو بلغت ما لم تتزوّج أو يُطلقها من ولايته بالإشهاد، وعلى الثيّب الصغيرة، وعلى المجنون. ويُشترط لممارستها المصلحة وانتفاء الضرر الظاهر وأن يزوّجها كفئاً بمهر المثل.",
+        "en": "The power to compel belongs to the father alone: over his young son and daughter, over his virgin daughter even after majority so long as she has not married or been released from his guardianship by attested declaration, over the young previously married daughter, and over the insane. Its exercise requires her benefit, the absence of manifest harm, and that he marry her to a suitable match for a dower like her peers'.",
+        "ru": "Право принуждения принадлежит одному отцу: над малолетними сыном и дочерью, над девственной дочерью даже по достижении совершеннолетия, пока она не вышла замуж и не освобождена из-под его опеки засвидетельствованным объявлением, над малолетней прежде замужней и над умалишённым. Его осуществление требует её пользы, отсутствия явного вреда и того, чтобы он выдал её за соответствующего за дар, подобный дару её ровесниц.",
+        "es": "La facultad de compeler corresponde sólo al padre: sobre su hijo y su hija menores, sobre su hija virgen aun después de la mayoría mientras no se haya casado ni haya sido liberada de su tutela por declaración atestiguada, sobre la hija menor antes casada y sobre el demente. Su ejercicio exige el beneficio de ella, la ausencia de daño manifiesto y que la case con un idóneo por una dote como la de sus iguales.",
+        "uk": "Право примусу належить лише батькові: над малолітніми сином і дочкою, над дівочою дочкою навіть по досягненні повноліття, доки вона не вийшла заміж і не звільнена з-під його опіки засвідченим оголошенням, над малолітньою раніше заміжньою і над божевільним. Його здійснення вимагає її користі, відсутності явної шкоди і того, щоб він видав її за відповідного за дар, подібний до дару її ровесниць."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "تثبت ولاية الإجبار للأب والجدّ لأب خاصّة: على البكر صغيرةً كانت أو بالغة — ويُستحبّ استئذان البالغة — وعلى الثيّب الصغيرة وعلى المجنون. ويُشترط لصحّة إجبار البكر: ألا تكون بينها وبين الوليّ عداوةٌ ظاهرة، وأن يزوّجها كفئاً موسراً بمهر المثل حالاًّ من نقد البلد.",
+        "en": "The power to compel belongs to the father and the paternal grandfather alone: over the virgin, whether a minor or of age — though seeking the leave of one of age is recommended — over the young previously married daughter, and over the insane. Compelling a virgin is valid only if there is no manifest enmity between her and the guardian, and he marries her to a suitable man of means for a dower like her peers', payable at once in the currency of the town.",
+        "ru": "Право принуждения принадлежит отцу и деду по отцу: над девицей, малолетней или совершеннолетней — причём у совершеннолетней желательно испросить дозволения, — над малолетней прежде замужней и над умалишённым. Принуждение девицы действительно лишь при отсутствии явной вражды между нею и опекуном и если он выдаст её за соответствующего состоятельного за дар, подобный дару её ровесниц, уплачиваемый сразу в монете города.",
+        "es": "La facultad de compeler corresponde al padre y al abuelo paterno: sobre la virgen, menor o mayor de edad —aunque a la mayor conviene pedirle venia—, sobre la menor antes casada y sobre el demente. Compeler a la virgen sólo vale si no hay enemistad manifiesta entre ella y el tutor y si la casa con un idóneo acomodado por una dote como la de sus iguales, pagadera de inmediato en la moneda de la ciudad.",
+        "uk": "Право примусу належить батькові та дідові по батькові: над дівою, малолітньою чи повнолітньою — причому в повнолітньої бажано запитати дозволу, — над малолітньою раніше заміжньою і над божевільним. Примус діви дійсний лише за відсутності явної ворожнечі між нею та опікуном і якщо він видасть її за відповідного заможного за дар, подібний до дару її ровесниць, сплачуваний одразу в монеті міста."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "تثبت ولاية الإجبار للأب خاصّة — وفي وجهٍ لوصيّه — على الصغير والصغيرة والمجنون، وعلى البكر البالغة وإن كبرت، فله تزويجها بغير إذنها. وأمّا الثيّب البالغة فلا تُزوَّج إلا بإذنها الصريح. وغير الأب لا يزوّج البكر بنت تسعٍ فأكثر إلا باستئذانها.",
+        "en": "The power to compel belongs to the father alone — and on one view to the executor he appoints — over the male and female minor and the insane, and over the virgin who has reached majority however old she grows, so he may marry her off without her leave. As for the previously married woman of age, she is not given in marriage except by her express leave. A guardian other than the father may not give a virgin of nine years or more in marriage except with her leave.",
+        "ru": "Право принуждения принадлежит одному отцу — а по одному мнению и назначенному им душеприказчику — над малолетними и умалишённым, а также над девственницей, достигшей совершеннолетия, сколько бы лет ей ни было, и он вправе выдать её замуж без её дозволения. Что до совершеннолетней прежде замужней, её не выдают замуж иначе как с её прямого дозволения. Опекун, кроме отца, не выдаёт замуж девственницу девяти лет и старше иначе как с её дозволения.",
+        "es": "La facultad de compeler corresponde sólo al padre —y en un parecer a su albacea— sobre el menor, la menor y el demente, y sobre la virgen que ha alcanzado la mayoría por mayor que sea, de modo que puede casarla sin su venia. En cuanto a la mujer de edad antes casada, no se la casa sino con su venia expresa. Un tutor distinto del padre no casa a una virgen de nueve años o más sino con su venia.",
+        "uk": "Право примусу належить лише батькові — а за одним поглядом і призначеному ним виконавцеві заповіту — над малолітніми і божевільним, а також над дівою, яка досягла повноліття, хоч би скільки їй було років, і він може видати її заміж без її дозволу. Що ж до повнолітньої раніше заміжньої, її не видають заміж інакше як з її прямого дозволу. Опікун, крім батька, не видає заміж діву дев'яти років і старшу інакше як з її дозволу."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  },
+  "draft": true
+}

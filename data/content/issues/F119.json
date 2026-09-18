@@ -1,0 +1,158 @@
+{
+  "ref": "F119",
+  "addedAt": "2026-09-18",
+  "id": "nikah-12",
+  "bookId": "nikah",
+  "seq": 5,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "شروط الوليّ وترتيب الأولياء",
+    "en": "The Qualifications of the Guardian and the Order of Guardians",
+    "ru": "Условия опекуна и порядок опекунов",
+    "es": "Las condiciones del tutor y el orden de los tutores",
+    "uk": "Умови опікуна та порядок опікунів"
+  },
+  "summary": {
+    "ar": "ما الشروط التي تُعتبر في وليّ النكاح، وكيف تنتقل الولاية بين العصبات حتى تنتهي إلى السلطان؟",
+    "en": "What qualifications are required in a marriage guardian, and how does guardianship pass among the agnates until it ends with the ruler?",
+    "ru": "Какие условия учитываются в опекуне при браке и как опекунство переходит между агнатами, пока не завершится правителем?",
+    "es": "¿Qué condiciones se consideran en el tutor matrimonial y cómo pasa la tutela entre los agnados hasta terminar en el gobernante?",
+    "uk": "Які умови враховуються в опікуні при шлюбі та як опіка переходить між агнатами, доки не завершиться правителем?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يُشترط في الوليّ: العقل، والبلوغ، والحرّية، والإسلام إن كانت الزوجة مسلمة. ولا تُشترط الذكورة ولا العدالة. وترتيب الأولياء على ترتيب العصبات: الابن، ثم الأب، ثم الجدّ، ثم الأخ، فإن لم يوجدوا فذوو الأرحام، ثم السلطان.",
+        "en": "Required in a guardian are: sound mind, majority, freedom, and Islam if the wife is Muslim. Neither being male nor uprightness is required. Guardians follow the agnatic order: the son, then the father, then the grandfather, then the brother; failing them, the uterine relatives, then the ruler.",
+        "ru": "В опекуне требуются: разум, совершеннолетие, свобода и ислам, если жена мусульманка. Ни мужской пол, ни праведность не требуются. Опекуны идут в порядке агнатов: сын, затем отец, затем дед, затем брат; при их отсутствии — родственники по женской линии, затем правитель.",
+        "es": "Se requiere en el tutor: juicio, mayoría de edad, libertad e islam si la esposa es musulmana. No se requiere ser varón ni la rectitud. Los tutores siguen el orden agnaticio: el hijo, luego el padre, luego el abuelo, luego el hermano; a falta de ellos, los parientes uterinos, y después el gobernante.",
+        "uk": "В опікуні вимагаються: розум, повноліття, свобода та іслам, якщо дружина мусульманка. Ні чоловіча стать, ні праведність не вимагаються. Опікуни йдуть у порядку агнатів: син, потім батько, потім дід, потім брат; за їхньої відсутності — родичі по жіночій лінії, потім правитель."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة. وترتيب الأولياء: الابن، ثم الأب، ثم الأخ، ثم ابن الأخ، ثم الجدّ، ثم العمّ، ثم الوصيّ، ثم عامّة المسلمين أو السلطان.",
+        "en": "Required in a guardian are: being male, sound mind, majority, freedom, and Islam for a Muslim woman. The order runs: the son, then the father, then the brother, then the brother's son, then the grandfather, then the paternal uncle, then the testamentary executor, then the Muslims at large or the ruler.",
+        "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода и ислам для мусульманки. Порядок таков: сын, затем отец, затем брат, затем сын брата, затем дед, затем дядя по отцу, затем душеприказчик, затем мусульмане вообще или правитель.",
+        "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad e islam para una musulmana. El orden es: el hijo, luego el padre, luego el hermano, luego el hijo del hermano, luego el abuelo, luego el tío paterno, luego el albacea, luego los musulmanes en general o el gobernante.",
+        "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода та іслам для мусульманки. Порядок такий: син, потім батько, потім брат, потім син брата, потім дід, потім дядько по батькові, потім виконавець заповіту, потім мусульмани загалом або правитель."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة، والعدالة، والرشد. وترتيب الأولياء: الأب، ثم الجدّ لأب، ثم الأخ الشقيق، ثم الأخ لأب، ثم ابن الأخ، ثم العمّ. ولا ولاية للابن على أمّه إلا بسلطنةٍ أو وكالة.",
+        "en": "Required in a guardian are: being male, sound mind, majority, freedom, Islam for a Muslim woman, uprightness, and prudence. The order runs: the father, then the paternal grandfather, then the full brother, then the half-brother by the father, then the brother's son, then the paternal uncle. A son has no guardianship over his mother except as ruler or as her agent.",
+        "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода, ислам для мусульманки, праведность и рассудительность. Порядок таков: отец, затем дед по отцу, затем единоутробно-единокровный брат, затем брат по отцу, затем сын брата, затем дядя по отцу. У сына нет опекунства над матерью, кроме как в качестве правителя или её поверенного.",
+        "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad, islam para una musulmana, rectitud y sensatez. El orden es: el padre, luego el abuelo paterno, luego el hermano de padre y madre, luego el hermano de padre, luego el hijo del hermano, luego el tío paterno. El hijo no tiene tutela sobre su madre salvo como gobernante o como apoderado suyo.",
+        "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода, іслам для мусульманки, праведність і розсудливість. Порядок такий: батько, потім дід по батькові, потім рідний брат, потім брат по батькові, потім син брата, потім дядько по батькові. Син не має опіки над матір'ю, крім як правитель або її повірений."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة، والعدالة ولو ظاهرة، والرشد. وترتيب الأولياء: الأب، ثم وصيّه في النكاح، ثم الجدّ لأب وإن علا، ثم الابن وإن نزل، ثم الأخ الشقيق، ثم الأخ لأب، ثم أبناؤهما، ثم العمومة، ثم السلطان.",
+        "en": "Required in a guardian are: being male, sound mind, majority, freedom, Islam for a Muslim woman, uprightness even if only outward, and prudence. The order runs: the father, then the executor he appointed for the marriage, then the paternal grandfather however high, then the son however low, then the full brother, then the half-brother by the father, then their sons, then the paternal uncles, then the ruler.",
+        "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода, ислам для мусульманки, праведность хотя бы внешняя и рассудительность. Порядок таков: отец, затем назначенный им душеприказчик по браку, затем дед по отцу сколь угодно высоко, затем сын сколь угодно низко, затем родной брат, затем брат по отцу, затем их сыновья, затем дяди по отцу, затем правитель.",
+        "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad, islam para una musulmana, rectitud aunque sea externa, y sensatez. El orden es: el padre, luego el albacea que él designó para el matrimonio, luego el abuelo paterno por alto que sea, luego el hijo por bajo que sea, luego el hermano de padre y madre, luego el hermano de padre, luego los hijos de ambos, luego los tíos paternos, luego el gobernante.",
+        "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода, іслам для мусульманки, праведність хоча б зовнішня і розсудливість. Порядок такий: батько, потім призначений ним виконавець заповіту щодо шлюбу, потім дід по батькові хоч би як високо, потім син хоч би як низько, потім рідний брат, потім брат по батькові, потім їхні сини, потім дядьки по батькові, потім правитель."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

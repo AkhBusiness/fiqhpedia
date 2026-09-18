@@ -1,0 +1,158 @@
+{
+  "ref": "F118",
+  "addedAt": "2026-09-18",
+  "id": "nikah-11",
+  "bookId": "nikah",
+  "seq": 4,
+  "chapter": {
+    "ar": "باب أركان العقد",
+    "en": "Chapter on the Pillars of the Contract",
+    "ru": "Раздел о столпах договора",
+    "es": "Capítulo sobre los pilares del contrato",
+    "uk": "Розділ про стовпи договору"
+  },
+  "title": {
+    "ar": "اشتراط الوليّ وحكم تزويج المرأة نفسها",
+    "en": "The Requirement of a Guardian, and a Woman Contracting Her Own Marriage",
+    "ru": "Условие опекуна и заключение брака женщиной самостоятельно",
+    "es": "El requisito del tutor y la mujer que contrata su propio matrimonio",
+    "uk": "Умова опікуна та укладення шлюбу жінкою самостійно"
+  },
+  "summary": {
+    "ar": "هل يُشترط الوليّ لصحّة العقد، وهل يصحّ للبالغة العاقلة أن تزوّج نفسها أو غيرها بلا وليّ؟",
+    "en": "Is a guardian required for the contract's validity, and may an adult woman of sound mind give herself or another in marriage without one?",
+    "ru": "Требуется ли опекун для действительности договора, и вправе ли совершеннолетняя разумная женщина выдать замуж себя или другую без него?",
+    "es": "¿Se requiere tutor para la validez del contrato, y puede una mujer adulta y cuerda casarse a sí misma o a otra sin él?",
+    "uk": "Чи потрібен опікун для дійсності договору, і чи може повнолітня розумна жінка видати заміж себе або іншу без нього?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يصحّ نكاح البالغة العاقلة إذا زوّجت نفسها أو غيرها بغير إذن الوليّ، بكراً كانت أو ثيّباً؛ فالوليّ شرط كمالٍ لا شرط صحّة. فإن زوّجت نفسها من غير كفء أو بدون مهر المثل فللأولياء طلب الفسخ.",
+        "en": "The marriage of an adult woman of sound mind is valid if she gives herself or another in marriage without her guardian's leave, virgin or previously married; the guardian is a condition of completeness, not of validity. If she marries one who is unsuitable or for less than a dower like her peers', the guardians may seek annulment.",
+        "ru": "Брак совершеннолетней разумной женщины действителен, если она выдаст замуж себя или другую без дозволения опекуна, будь она девицей или прежде замужней; опекун есть условие полноты, а не действительности. Если же она выйдет за несоответствующего или за дар меньше дара её ровесниц, опекуны вправе требовать расторжения.",
+        "es": "El matrimonio de una mujer adulta y cuerda es válido si se casa a sí misma o casa a otra sin la venia del tutor, sea virgen o antes casada; el tutor es condición de perfección, no de validez. Si se casa con quien no es idóneo o por menos de la dote de sus iguales, los tutores pueden pedir la anulación.",
+        "uk": "Шлюб повнолітньої розумної жінки дійсний, якщо вона видасть заміж себе або іншу без дозволу опікуна, чи то дівою, чи раніше заміжньою; опікун є умовою повноти, а не дійсності. Якщо ж вона вийде за невідповідного або за дар, менший від дару її ровесниць, опікуни можуть вимагати розірвання."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        },
+        {
+          "ar": "تبيين الحقائق",
+          "en": "Tabyīn al-Ḥaqāʾiq",
+          "ru": "«Табйин аль-Хакаик»",
+          "es": "Tabyīn al-Ḥaqāʾiq",
+          "uk": "«Табйін аль-Хакаїк»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "الوليّ ركنٌ من أركان النكاح، فلا تزوّج المرأة نفسها ولا غيرها لا أصالةً ولا وكالةً، لحديث: «لا تُزوّج المرأةُ المرأةَ، ولا تُزوّج المرأةُ نفسَها». فإن عقدت بنفسها فالعقد باطل يُفسخ قبل الدخول وبعده.",
+        "en": "The guardian is a pillar of marriage, so a woman gives neither herself nor another in marriage, whether in her own right or as an agent, on the strength of the hadith: “A woman does not give a woman in marriage, nor does a woman give herself in marriage.” If she contracts it herself the contract is void and is annulled, before consummation and after.",
+        "ru": "Опекун есть столп брака, и женщина не выдаёт замуж ни себя, ни другую — ни от своего имени, ни по доверенности, — согласно хадису: «Женщина не выдаёт замуж женщину и не выдаёт замуж саму себя». Если она заключит договор сама, он ничтожен и расторгается до близости и после неё.",
+        "es": "El tutor es un pilar del matrimonio, de modo que la mujer no casa ni a sí misma ni a otra, ni por derecho propio ni por poder, en virtud del hadiz: «La mujer no casa a una mujer, ni se casa a sí misma». Si contrata ella misma, el contrato es nulo y se anula, antes de la consumación y después.",
+        "uk": "Опікун є стовпом шлюбу, тож жінка не видає заміж ні себе, ні іншу — ні від свого імені, ні за дорученням, — згідно з хадисом: «Жінка не видає заміж жінку і не видає заміж саму себе». Якщо вона укладе договір сама, він нікчемний і розривається до близькості й після неї."
+      },
+      "sources": [
+        {
+          "ar": "المدونة",
+          "en": "Al-Mudawwanah",
+          "ru": "«Аль-Мудаввана»",
+          "es": "Al-Mudawwanah",
+          "uk": "«Аль-Мудаввана»"
+        },
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "مواهب الجليل",
+          "en": "Mawāhib al-Jalīl",
+          "ru": "«Мавахиб аль-Джалиль»",
+          "es": "Mawāhib al-Jalīl",
+          "uk": "«Мавагіб аль-Джаліль»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "الوليّ ركنٌ وشرطٌ لصحّة العقد، فلا تزوّج المرأة نفسها ولا غيرها أصالةً ولا وكالةً؛ فإن فعلت فالعقد باطل مردود، لقوله ﷺ: «لا نكاح إلا بوليّ وشاهدَي عدل».",
+        "en": "The guardian is a pillar and a condition of the contract's validity, so a woman gives neither herself nor another in marriage, in her own right or as an agent; if she does, the contract is void and rejected, on the strength of his saying ﷺ: “There is no marriage save with a guardian and two upright witnesses.”",
+        "ru": "Опекун есть столп и условие действительности договора, и женщина не выдаёт замуж ни себя, ни другую — ни от своего имени, ни по доверенности; если сделает, договор ничтожен и отвергается, согласно слову Пророка ﷺ: «Нет брака, кроме как с опекуном и двумя праведными свидетелями».",
+        "es": "El tutor es pilar y condición de la validez del contrato, de modo que la mujer no casa ni a sí misma ni a otra, por derecho propio ni por poder; si lo hace, el contrato es nulo y rechazado, según su dicho ﷺ: «No hay matrimonio sino con tutor y dos testigos íntegros».",
+        "uk": "Опікун є стовпом і умовою дійсності договору, тож жінка не видає заміж ні себе, ні іншу — ні від свого імені, ні за дорученням; якщо зробить, договір нікчемний і відкинутий, згідно зі словом Пророка ﷺ: «Немає шлюбу, крім як з опікуном і двома праведними свідками»."
+      },
+      "sources": [
+        {
+          "ar": "الأم",
+          "en": "Al-Umm",
+          "ru": "«Аль-Умм»",
+          "es": "Al-Umm",
+          "uk": "«Аль-Умм»"
+        },
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "المجموع",
+          "en": "Al-Majmūʿ",
+          "ru": "«Аль-Маджму»",
+          "es": "Al-Majmūʿ",
+          "uk": "«Аль-Маджму»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "الوليّ شرطٌ لصحّة العقد، فلا يصحّ النكاح إلا به؛ فإن زوّجت المرأة نفسها أو غيرها فالعقد باطل، لقوله ﷺ: «أيّما امرأةٍ نُكحت بغير إذن وليّها فنكاحُها باطل».",
+        "en": "The guardian is a condition of the contract's validity, and no marriage is valid without him; if a woman gives herself or another in marriage the contract is void, on the strength of his saying ﷺ: “Any woman married without her guardian's leave, her marriage is void.”",
+        "ru": "Опекун есть условие действительности договора, и брак без него недействителен; если женщина выдаст замуж себя или другую, договор ничтожен, согласно слову Пророка ﷺ: «Любая женщина, выданная замуж без дозволения её опекуна, — брак её ничтожен».",
+        "es": "El tutor es condición de la validez del contrato, y no hay matrimonio válido sin él; si una mujer se casa a sí misma o casa a otra, el contrato es nulo, según su dicho ﷺ: «Cualquier mujer casada sin la venia de su tutor, su matrimonio es nulo».",
+        "uk": "Опікун є умовою дійсності договору, і шлюб без нього недійсний; якщо жінка видасть заміж себе або іншу, договір нікчемний, згідно зі словом Пророка ﷺ: «Будь-яка жінка, видана заміж без дозволу її опікуна, — шлюб її нікчемний»."
+      },
+      "sources": [
+        {
+          "ar": "المغني",
+          "en": "Al-Mughnī",
+          "ru": "«Аль-Мугни»",
+          "es": "Al-Mughnī",
+          "uk": "«Аль-Мугні»"
+        },
+        {
+          "ar": "الكافي",
+          "en": "Al-Kāfī",
+          "ru": "«Аль-Кафи»",
+          "es": "Al-Kāfī",
+          "uk": "«Аль-Кафі»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}
