@@ -157,5 +157,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-09-26",
+  "revisionNote": {
+    "ar": "أُعيدت صياغة قولَي الحنفية والشافعية، وكانا يُقرآن حصراً لكلّ ما يحلّ. والحكم لم يتغيّر.",
+    "en": "The Hanafi and Shafiʿi wordings were recast; they were being read as a limit on everything permitted. The ruling is unchanged.",
+    "ru": "Формулировки ханафитов и шафиитов переработаны: их читали как ограничение всего дозволенного. Само решение не изменилось.",
+    "es": "Se reformularon los enunciados hanafí y shafiʿí, que se leían como un límite de todo lo permitido. La norma no ha cambiado.",
+    "uk": "Формулювання ханафітів і шафіїтів перероблено: їх читали як обмеження всього дозволеного. Саме рішення не змінилося."
   }
 }

@@ -11,7 +11,7 @@ import {
   type Lang,
   type SchoolKey,
   schools,
-  ui, displayRef, isRecentlyAdded } from "@/lib/fiqh-data"
+  ui, displayRef, isRecentlyAdded, isRecentlyRevised } from "@/lib/fiqh-data"
 
 export type ViewMode = "academic" | "simplified"
 
@@ -158,6 +158,19 @@ export function IssueCard({
                 className="rounded-md bg-emerald-500 px-2 py-0.5 text-[11px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
               >
                 {ui.newTag[lang]}
+              </span>
+            ) : null}
+            {isRecentlyRevised(issue.revisedAt, issue.addedAt) ? (
+              <span
+                /* The note, not the generic string, is the point: "revised" on
+                   a ruling is read as the ruling having changed, and most
+                   revisions are wording. Amber and filled — filled to sit in
+                   the same family as the green "new" rather than among the
+                   outlined grade chips, amber to not be mistaken for it. */
+                title={issue.revisionNote?.[lang] ?? ui.revisedTagTitle[lang]}
+                className="rounded-md bg-amber-500 px-2 py-0.5 text-[11px] font-bold text-white shadow-sm dark:bg-amber-400 dark:text-amber-950"
+              >
+                {ui.revisedTag[lang]}
               </span>
             ) : null}
           </div>

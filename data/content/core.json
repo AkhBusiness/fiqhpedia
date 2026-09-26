@@ -1254,6 +1254,20 @@
       "ru": "Астрономический расчёт по конвенции Умм аль-Кура, приведённый для пояснения, а не для опоры при совершении молитвы; опирайтесь на календарь вашей страны или азан вашей мечети.",
       "es": "Un cálculo astronómico según la convención de Umm al-Qura, dado para ilustrar y no para basarse en él al rezar; base su oración en el calendario de su país o el adhán de su mezquita.",
       "uk": "Астрономічний розрахунок за конвенцією Умм аль-Кура, наведений для пояснення, а не для опори при здійсненні молитви; спирайтеся на календар вашої країни або азан вашої мечеті."
+    },
+    "revisedTag": {
+      "ar": "معدّلة",
+      "en": "Revised",
+      "ru": "Изменено",
+      "es": "Revisado",
+      "uk": "Змінено"
+    },
+    "revisedTagTitle": {
+      "ar": "عُدّلت خلال الأيام الثلاثة الماضية",
+      "en": "Revised within the last three days",
+      "ru": "Изменено за последние три дня",
+      "es": "Revisado en los últimos tres días",
+      "uk": "Змінено протягом останніх трьох днів"
     }
   },
   "books": [

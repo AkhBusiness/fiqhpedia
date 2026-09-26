@@ -161,6 +161,22 @@ export interface Issue {
    * forgotten and then marks old material as new. Drives the "new" badge.
    */
   addedAt?: string
+  /**
+   * ISO date of a **substantive** revision: a ruling corrected, a reference
+   * changed, or a wording that was being read to mean something it did not.
+   * Written by hand, never derived from git — git would fire on every typo and
+   * every translation touch-up, and a badge that appears for a comma teaches
+   * the reader to ignore it. Spelling, translation and formatting fixes carry
+   * no date at all. Drives the "revised" badge.
+   */
+  revisedAt?: string
+  /**
+   * One line saying what the revision was, shown on the badge. A "revised"
+   * mark on a fiqh entry reads as *the ruling changed*; without a stated
+   * reason the reader cannot tell a corrected ruling from a reworded one.
+   * Required whenever `revisedAt` is set.
+   */
+  revisionNote?: Localized
   /** Permanent site-wide citation ref (e.g. "F12"). Never reused or renumbered. */
   ref: string
   categoryId: string
@@ -531,6 +547,34 @@ function recentShare() {
   }).length
   recentShareCache = issues.length ? fresh / issues.length : 0
   return recentShareCache
+}
+
+/**
+ * How long an entry keeps its "revised" badge — shorter than the seven days of
+ * "new". "New" addresses a reader discovering the entry for the first time;
+ * "revised" addresses one who has already read it and needs telling that it
+ * moved. That second reader either returns soon or the mark is pointless.
+ */
+export const REVISED_FOR_DAYS = 3
+
+/**
+ * Whether an entry carries a recent substantive revision.
+ *
+ * An entry that is still new shows no revision badge: a reader meeting it for
+ * the first time has no earlier version to be corrected about, and the two
+ * badges side by side say nothing coherent. "New" wins.
+ */
+export function isRecentlyRevised(
+  revisedAt?: string,
+  addedAt?: string,
+  now: Date = new Date(),
+) {
+  if (!revisedAt) return false
+  if (isRecentlyAdded(addedAt, now)) return false
+  const then = new Date(`${revisedAt}T00:00:00Z`)
+  if (Number.isNaN(then.getTime())) return false
+  const days = (now.getTime() - then.getTime()) / 86_400_000
+  return days >= 0 && days < REVISED_FOR_DAYS
 }
 
 /** Entries added most recently first — for a "what's new" list. */
