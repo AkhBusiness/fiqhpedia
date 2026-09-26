@@ -28,11 +28,11 @@
     "hanafi": {
       "grade": "haram",
       "text": {
-        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، ولا يحلّ له منها إلا النظر المباح.",
-        "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded, and nothing of her is lawful to him but the sanctioned looking.",
-        "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор, и дозволен ему из неё лишь разрешённый взгляд.",
-        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato, y no le es lícito de ella sino la mirada permitida.",
-        "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір, і дозволений йому з неї лише дозволений погляд."
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، والخِطبة لا تزيده على أحكام الأجنبية شيئاً سوى إباحة النظر المشروع إليها.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded; the betrothal adds nothing to the rulings that govern a woman who is a stranger to him, save that it permits the sanctioned looking.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор; сватовство ничего не прибавляет к постановлениям о посторонней женщине, кроме дозволения разрешённого взгляда.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato; el compromiso no añade nada a las normas sobre la mujer ajena, salvo que permite la mirada autorizada.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір; сватання нічого не додає до постанов про сторонню жінку, крім дозволу на дозволений погляд."
       },
       "sources": [
         {
@@ -94,11 +94,11 @@
     "shafii": {
       "grade": "haram",
       "text": {
-        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ والمخطوبة أجنبية لا يحلّ منها إلا النظر للحاجة.",
-        "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and nothing of her is lawful but the looking that the need allows.",
-        "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и дозволен из неё лишь взгляд по нужде.",
-        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y no le es lícito de ella sino la mirada que la necesidad permite.",
-        "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і дозволений з неї лише погляд за потребою."
+        "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ فالمخطوبة أجنبية، والخِطبة لا تزيده على أحكام الأجنبية شيئاً سوى إباحة النظر إليها لحاجة الخِطبة.",
+        "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and the betrothal adds nothing to the rulings that govern a stranger, save that it permits the looking which the betrothal itself calls for.",
+        "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и сватовство ничего не прибавляет к постановлениям о посторонней, кроме дозволения того взгляда, которого требует само сватовство.",
+        "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y el compromiso no añade nada a las normas sobre la mujer ajena, salvo que permite la mirada que el propio compromiso requiere.",
+        "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і сватання нічого не додає до постанов про сторонню, крім дозволу на той погляд, якого вимагає саме сватання."
       },
       "sources": [
         {
