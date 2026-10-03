@@ -66,7 +66,12 @@ const PRECAUTION_MINUTES = {
   // the calendar has already closed it.
   sunrise: 16,
   dhuhr: 7,
-  asr: 8,
+  // ʿaṣr carries **no** margin. The 8 minutes once written here were tuned
+  // while the timezone bug in atHour was still in place, so they were measured
+  // against a shifted number; they only pushed ʿaṣr 8 minutes past the
+  // astronomy. Umm al-Qurā gives 15:40 for Makkah on 2026-09-18, which is the
+  // bare shadow calculation with nothing added.
+  asr: 0,
   maghrib: -2,
   isha: -4,
 }

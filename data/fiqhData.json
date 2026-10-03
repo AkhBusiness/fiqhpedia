@@ -1254,6 +1254,20 @@
       "ru": "Астрономический расчёт по конвенции Умм аль-Кура, приведённый для пояснения, а не для опоры при совершении молитвы; опирайтесь на календарь вашей страны или азан вашей мечети.",
       "es": "Un cálculo astronómico según la convención de Umm al-Qura, dado para ilustrar y no para basarse en él al rezar; base su oración en el calendario de su país o el adhán de su mezquita.",
       "uk": "Астрономічний розрахунок за конвенцією Умм аль-Кура, наведений для пояснення, а не для опори при здійсненні молитви; спирайтеся на календар вашої країни або азан вашої мечеті."
+    },
+    "revisedTag": {
+      "ar": "معدّلة",
+      "en": "Revised",
+      "ru": "Изменено",
+      "es": "Revisado",
+      "uk": "Змінено"
+    },
+    "revisedTagTitle": {
+      "ar": "عُدّلت خلال الأيام الثلاثة الماضية",
+      "en": "Revised within the last three days",
+      "ru": "Изменено за последние три дня",
+      "es": "Revisado en los últimos tres días",
+      "uk": "Змінено протягом останніх трьох днів"
     }
   },
   "books": [
@@ -6433,7 +6447,8 @@
           ],
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "iman-2",
@@ -6534,7 +6549,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "iman-4",
@@ -6854,7 +6870,8 @@
           ],
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-10",
@@ -7011,7 +7028,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-11",
@@ -7168,7 +7186,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-12",
@@ -7325,7 +7344,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-13",
@@ -7486,7 +7506,8 @@
           ],
           "grade": "makruh"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-15",
@@ -7643,7 +7664,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-14",
@@ -7804,7 +7826,8 @@
           ],
           "grade": "makruh"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-5",
@@ -7905,7 +7928,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-16",
@@ -8062,7 +8086,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-17",
@@ -8219,7 +8244,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-18",
@@ -8376,7 +8402,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-26",
@@ -8533,7 +8560,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-19",
@@ -8690,7 +8718,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-20",
@@ -8847,7 +8876,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-27",
@@ -9004,7 +9034,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-21",
@@ -9161,7 +9192,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-22",
@@ -9322,7 +9354,8 @@
           ],
           "grade": "mubah"
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-23",
@@ -9479,7 +9512,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-24",
@@ -9640,7 +9674,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-25",
@@ -9797,7 +9832,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "taharah-6",
@@ -9909,7 +9945,8 @@
           ],
           "grade": "haram"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-7",
@@ -10012,7 +10049,8 @@
           ],
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-29",
@@ -10494,7 +10532,8 @@
           "grade": "fard",
           "nature": "rukn"
         }
-      }
+      },
+      "addedAt": "2026-09-04"
     },
     {
       "id": "taharah-31",
@@ -11914,7 +11953,8 @@
           "grade": "fard",
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-3",
@@ -12022,7 +12062,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-39",
@@ -13748,7 +13789,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-4",
@@ -13853,7 +13895,8 @@
           ],
           "grade": "mubah"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-56",
@@ -14948,7 +14991,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "taharah-46",
@@ -16235,7 +16279,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-20",
@@ -16534,7 +16579,8 @@
           "grade": "fard",
           "nature": "rukn"
         }
-      }
+      },
+      "addedAt": "2026-09-04"
     },
     {
       "id": "salah-11",
@@ -16691,7 +16737,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-4",
@@ -16848,7 +16895,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-12",
@@ -17005,7 +17053,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-13",
@@ -17162,7 +17211,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-10",
@@ -17319,7 +17369,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-21",
@@ -17808,7 +17859,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-16",
@@ -17965,7 +18017,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "salah-9",
@@ -18122,7 +18175,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-17",
@@ -18283,7 +18337,8 @@
           ],
           "grade": "fard"
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "salah-23",
@@ -19205,7 +19260,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-15",
@@ -19370,7 +19426,8 @@
           "grade": "fard",
           "nature": "rukn"
         }
-      }
+      },
+      "addedAt": "2026-09-02"
     },
     {
       "id": "salah-2",
@@ -19482,7 +19539,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-26",
@@ -19912,7 +19970,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-18",
@@ -20073,7 +20132,8 @@
           ],
           "grade": "sunnah"
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "salah-28",
@@ -20558,7 +20618,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-7",
@@ -20719,7 +20780,8 @@
           ],
           "grade": "mandub"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "salah-8",
@@ -20880,7 +20942,8 @@
           ],
           "nature": "shart"
         }
-      }
+      },
+      "addedAt": "2026-09-01"
     },
     {
       "id": "sawm-7",
@@ -21017,7 +21080,8 @@
           "grade": "fard",
           "nature": "rukn"
         }
-      }
+      },
+      "addedAt": "2026-09-04"
     },
     {
       "id": "sawm-1",
@@ -21174,7 +21238,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "sawm-3",
@@ -21328,7 +21393,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "sawm-2",
@@ -21485,7 +21551,8 @@
             }
           ]
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "sawm-4",
@@ -21646,7 +21713,8 @@
           ],
           "grade": "haram"
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "sawm-5",
@@ -21807,7 +21875,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-03"
     },
     {
       "id": "sawm-6",
@@ -21968,7 +22037,8 @@
           ],
           "grade": "wajib"
         }
-      }
+      },
+      "addedAt": "2026-09-04"
     },
     {
       "id": "sawm-11",
@@ -23131,11 +23201,11 @@
         "hanafi": {
           "grade": "haram",
           "text": {
-            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، ولا يحلّ له منها إلا النظر المباح.",
-            "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded, and nothing of her is lawful to him but the sanctioned looking.",
-            "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор, и дозволен ему из неё лишь разрешённый взгляд.",
-            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato, y no le es lícito de ella sino la mirada permitida.",
-            "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір, і дозволений йому з неї лише дозволений погляд."
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لأنها أجنبية عن الخاطب حتى يتمّ العقد، والخِطبة لا تزيده على أحكام الأجنبية شيئاً سوى إباحة النظر المشروع إليها.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden, for she remains a stranger to her suitor until the contract is concluded; the betrothal adds nothing to the rulings that govern a woman who is a stranger to him, save that it permits the sanctioned looking.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор; сватовство ничего не прибавляет к постановлениям о посторонней женщине, кроме дозволения разрешённого взгляда.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, pues sigue siendo ajena a su pretendiente hasta que se celebre el contrato; el compromiso no añade nada a las normas sobre la mujer ajena, salvo que permite la mirada autorizada.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір; сватання нічого не додає до постанов про сторонню жінку, крім дозволу на дозволений погляд."
           },
           "sources": [
             {
@@ -23197,11 +23267,11 @@
         "shafii": {
           "grade": "haram",
           "text": {
-            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ والمخطوبة أجنبية لا يحلّ منها إلا النظر للحاجة.",
-            "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and nothing of her is lawful but the looking that the need allows.",
-            "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и дозволен из неё лишь взгляд по нужде.",
-            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y no le es lícito de ella sino la mirada que la necesidad permite.",
-            "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і дозволений з неї лише погляд за потребою."
+            "ar": "تحرم الخلوة بالمخطوبة والسفر بها، لقوله ﷺ: «لا يخلونّ رجل بامرأة إلا كان ثالثهما الشيطان»؛ فالمخطوبة أجنبية، والخِطبة لا تزيده على أحكام الأجنبية شيئاً سوى إباحة النظر إليها لحاجة الخِطبة.",
+            "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a woman, for the third of them is Satan.” The betrothed woman is a stranger to him, and the betrothal adds nothing to the rulings that govern a stranger, save that it permits the looking which the betrothal itself calls for.",
+            "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной, ибо третий с ними — сатана». Засватанная для него посторонняя, и сватовство ничего не прибавляет к постановлениям о посторонней, кроме дозволения того взгляда, которого требует само сватовство.",
+            "es": "Estar a solas con la prometida y viajar con ella están prohibidos, por su dicho ﷺ: «Que ningún hombre esté a solas con una mujer, pues el tercero de ambos es Satanás». La prometida le es ajena, y el compromiso no añade nada a las normas sobre la mujer ajena, salvo que permite la mirada que el propio compromiso requiere.",
+            "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою, бо третій із ними — сатана». Засватана для нього стороння, і сватання нічого не додає до постанов про сторонню, крім дозволу на той погляд, якого вимагає саме сватання."
           },
           "sources": [
             {
@@ -23261,7 +23331,1595 @@
           ]
         }
       },
+      "revisedAt": "2026-10-04",
+      "revisionNote": {
+        "ar": "أُعيدت صياغة قولَي الحنفية والشافعية، وكانا يُقرآن حصراً لكلّ ما يحلّ. والحكم لم يتغيّر.",
+        "en": "The Hanafi and Shafiʿi wordings were recast; they were being read as a limit on everything permitted. The ruling is unchanged.",
+        "ru": "Формулировки ханафитов и шафиитов переработаны: их читали как ограничение всего дозволенного. Само решение не изменилось.",
+        "es": "Se reformularon los enunciados hanafí y shafiʿí, que se leían como un límite de todo lo permitido. La norma no ha cambiado.",
+        "uk": "Формулювання ханафітів і шафіїтів перероблено: їх читали як обмеження всього дозволеного. Саме рішення не змінилося."
+      },
       "addedAt": "2026-09-17"
+    },
+    {
+      "id": "nikah-7",
+      "ref": "F114",
+      "bookId": "nikah",
+      "number": 5,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "أثر العدول عن الخِطبة فيما دُفع من هدايا",
+        "en": "The Effect of Withdrawing from a Betrothal on Gifts Already Given",
+        "ru": "Последствия отказа от сватовства для уже подаренных подарков",
+        "es": "El efecto de retirarse del compromiso sobre los regalos ya entregados",
+        "uk": "Наслідки відмови від сватання для вже подарованих подарунків"
+      },
+      "summary": {
+        "ar": "إذا عُدل عن الخِطبة، فهل يسترد الخاطب ما أهداه؟ وهل يختلف الحكم باختلاف من صدر منه العدول؟",
+        "en": "If a betrothal is withdrawn from, may the suitor take back what he gave? And does the ruling differ according to which side withdrew?",
+        "ru": "Если от сватовства отказались, вправе ли сват забрать подаренное? И меняется ли решение в зависимости от того, чья сторона отказалась?",
+        "es": "Si se retira el compromiso, ¿puede el pretendiente recuperar lo que regaló? ¿Y cambia la norma según cuál de las partes se retiró?",
+        "uk": "Якщо від сватання відмовилися, чи може сват забрати подароване? І чи змінюється рішення залежно від того, чия сторона відмовилася?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "الهدايا هبةٌ تجري عليها أحكام الهبة العامّة، فللخاطب استرداد ما أهداه ما دام قائماً بعينه، سواء كان العدول منه أو منها. وما هلك أو استُهلك فلا يُسترد إلا أن تكون الهبة بشرط العوض.",
+            "en": "Such gifts are donations governed by the general rules of donation, so the suitor may take back what he gave so long as the thing itself remains, whichever side withdrew. What has perished or been consumed is not recovered unless the gift was made conditional on a counter-value.",
+            "ru": "Подарки суть дарение, к которому применяются общие правила дарения: сват может забрать подаренное, пока сама вещь цела, независимо от того, чья сторона отказалась. То, что погибло или израсходовано, не возвращается, если дарение не было обусловлено встречным возмещением.",
+            "es": "Los regalos son donación regida por las reglas generales de la donación, de modo que el pretendiente puede recuperar lo que entregó mientras la cosa misma subsista, sin importar qué parte se retiró. Lo que pereció o se consumió no se recupera, salvo que la donación se hiciera con condición de contraprestación.",
+            "uk": "Подарунки є даруванням, до якого застосовуються загальні правила дарування: сват може забрати подароване, доки сама річ ціла, незалежно від того, чия сторона відмовилася. Те, що загинуло чи витрачене, не повертається, якщо дарування не було обумовлене зустрічним відшкодуванням."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُفرّق بحسب من صدر منه العدول: فإن كان العدول من الخاطب فلا يرجع في شيء من الهدايا أصلاً، وإن كان من المخطوبة فله استردادها قائمةً كانت أو مستهلَكةً بقيمتها أو ببدلها.",
+            "en": "A distinction is drawn according to which side withdrew: if the suitor withdrew he recovers nothing at all, and if the woman withdrew he recovers the gifts, whether they remain in substance or have been consumed, by their value or their replacement.",
+            "ru": "Различают по тому, чья сторона отказалась: если отказался сват, он не возвращает себе ничего вовсе; если отказалась невеста, он возвращает подарки — сохранившиеся в натуре или израсходованные — по их стоимости либо равноценной заменой.",
+            "es": "Se distingue según qué parte se retiró: si se retiró el pretendiente, no recupera nada en absoluto; si se retiró la prometida, recupera los regalos, subsistan en su ser o hayan sido consumidos, por su valor o su equivalente.",
+            "uk": "Розрізняють за тим, чия сторона відмовилася: якщо відмовився сват, він не повертає собі нічого взагалі; якщо відмовилася наречена, він повертає подарунки — збережені в натурі чи витрачені — за їхньою вартістю або рівноцінною заміною."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الأصل أنّ الواهب لا يرجع في هبته بعد القبض إلا الوالد فيما وهب لولده. وهدايا الخِطبة هبةٌ مشروطةٌ بتمام النكاح، فإذا لم يتمّ رجع الخاطب بعين الهدية إن كانت قائمة، وبقيمتها إن هلكت أو استُهلكت.",
+            "en": "The rule is that a donor does not take back his gift once delivered, except a father in what he gives his child. Betrothal gifts, however, are a donation conditional on the marriage being completed; if it is not, the suitor recovers the thing itself if it remains, or its value if it has perished or been consumed.",
+            "ru": "Правило таково, что даритель не забирает подаренное после передачи, кроме отца в том, что он подарил своему ребёнку. Подарки же при сватовстве суть дарение, обусловленное завершением брака: если брак не состоялся, сват возвращает саму вещь, если она цела, либо её стоимость, если она погибла или израсходована.",
+            "es": "La regla es que el donante no recupera su donación tras la entrega, salvo el padre en lo que dona a su hijo. Pero los regalos de compromiso son una donación condicionada a que el matrimonio se complete; si no se completa, el pretendiente recupera la cosa misma si subsiste, o su valor si pereció o se consumió.",
+            "uk": "Правило таке, що дарувальник не забирає подароване після передання, крім батька в тому, що він подарував своїй дитині. Подарунки ж при сватанні є даруванням, обумовленим завершенням шлюбу: якщо шлюб не відбувся, сват повертає саму річ, якщо вона ціла, або її вартість, якщо вона загинула чи витрачена."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا يجوز للواهب الرجوع في هبته بعد القبض، فلا يسترد الخاطب ما قُبض من الهدايا سواء كان العدول منه أو منها، إلا أن يكون قد شرط العوض أو جرى العُرف باستردادها.",
+            "en": "A donor may not take back his gift once it has been received, so the suitor recovers nothing of the gifts delivered, whichever side withdrew, unless he stipulated a counter-value or local custom is that they are returned.",
+            "ru": "Дарителю не дозволено забирать подаренное после его получения, поэтому сват не возвращает себе врученных подарков, чья бы сторона ни отказалась, если только он не оговорил встречного возмещения или если обычай не предписывает их возврата.",
+            "es": "No le es lícito al donante recuperar su donación una vez recibida, de modo que el pretendiente no recupera los regalos entregados, sea cual sea la parte que se retiró, salvo que hubiera estipulado una contraprestación o que la costumbre sea devolverlos.",
+            "uk": "Дарувальнику не дозволено забирати подароване після його одержання, тож сват не повертає собі вручених подарунків, чия б сторона не відмовилася, хіба що він обумовив зустрічне відшкодування або звичай приписує їх повертати."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-8",
+      "ref": "F115",
+      "bookId": "nikah",
+      "number": 6,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "الكفاءة في النكاح: ما يُعتبر فيها وأثر فقدها",
+        "en": "Suitability in Marriage: What Counts in It and the Effect of Its Absence",
+        "ru": "Соответствие в браке: что в нём учитывается и последствия его отсутствия",
+        "es": "La idoneidad en el matrimonio: qué se considera en ella y el efecto de su ausencia",
+        "uk": "Відповідність у шлюбі: що в ній враховується та наслідки її відсутності"
+      },
+      "summary": {
+        "ar": "ما الخصال التي تُعتبر في الكفاءة بين الزوجين، ومن يملك حقّها، وما أثر فقدها في عقد النكاح؟",
+        "en": "Which qualities count towards suitability between the spouses, to whom does the right to it belong, and what effect does its absence have on the contract?",
+        "ru": "Какие качества учитываются при соответствии супругов, кому принадлежит право на него и как его отсутствие влияет на брачный договор?",
+        "es": "¿Qué cualidades se consideran en la idoneidad entre los cónyuges, a quién pertenece ese derecho y qué efecto tiene su ausencia en el contrato?",
+        "uk": "Які якості враховуються у відповідності подружжя, кому належить право на неї та як її відсутність впливає на шлюбний договір?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "الكفاءة حقٌّ للزوجة وأوليائها، وتُعتبر في جانب الرجل في ستّة أمور: الديانة، والنسب، وإسلام الآباء، والحرّية، والمال، والحِرفة. وفقدها لا يمنع صحّة العقد، وإنما يثبت لهم طلب الفسخ عند القاضي ما لم يرضوا أو يظهر حمل.",
+            "en": "Suitability is a right of the wife and her guardians, and it is reckoned on the man's side in six matters: religion, lineage, the Islam of his forebears, freedom, means, and trade. Its absence does not bar the contract's validity; it gives them the right to seek annulment before the judge, unless they consent or a pregnancy appears.",
+            "ru": "Соответствие есть право жены и её опекунов и учитывается со стороны мужчины в шести вещах: религии, происхождении, исламе предков, свободе, достатке и ремесле. Его отсутствие не препятствует действительности договора, а лишь даёт им право требовать расторжения у судьи, пока они не согласятся или пока не обнаружится беременность.",
+            "es": "La idoneidad es un derecho de la esposa y de sus tutores, y se considera del lado del varón en seis aspectos: religión, linaje, islam de sus antepasados, libertad, medios y oficio. Su ausencia no impide la validez del contrato, sino que les da derecho a pedir la anulación ante el juez, mientras no consientan o no se advierta un embarazo.",
+            "uk": "Відповідність є правом дружини та її опікунів і враховується з боку чоловіка в шести речах: релігії, походженні, ісламі предків, свободі, статках і ремеслі. Її відсутність не перешкоджає дійсності договору, а лише дає їм право вимагати розірвання в судді, доки вони не погодяться або доки не виявиться вагітність."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تُعتبر الكفاءة في أمرين اثنين: الديانة، والسلامة من العيوب الموجبة لخيار الفسخ. ولا يُعتبر النسب ولا الحِرفة ولا المال. وهي حقٌّ للزوجة ووليّها، فإن زُوّجت بغير كفء فلها الفسخ، وإن رضيت هي ووليّها صحّ العقد.",
+            "en": "Suitability is reckoned in two things: religion, and freedom from the defects that give rise to the option of annulment. Lineage, trade and wealth are not reckoned. It is a right of the wife and her guardian: if she is married to one who is unsuitable she may annul, and if she and her guardian both consent the contract stands.",
+            "ru": "Соответствие учитывается в двух вещах: религии и отсутствии пороков, дающих право на расторжение. Происхождение, ремесло и богатство не учитываются. Это право жены и её опекуна: если её выдали за несоответствующего, она вправе расторгнуть, а если согласны и она, и опекун, договор действителен.",
+            "es": "La idoneidad se considera en dos cosas: la religión y estar libre de los defectos que dan lugar a la opción de anulación. No se consideran el linaje, el oficio ni la riqueza. Es un derecho de la esposa y de su tutor: si se la casa con quien no es idóneo, ella puede anular, y si ambos consienten, el contrato se mantiene.",
+            "uk": "Відповідність враховується у двох речах: релігії та відсутності вад, що дають право на розірвання. Походження, ремесло й багатство не враховуються. Це право дружини та її опікуна: якщо її видали за невідповідного, вона може розірвати, а якщо згодні і вона, і опікун, договір лишається чинним."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الكفاءة حقٌّ للزوجة وأوليائها العصبات، وتُعتبر في خمس خصال: الديانة، والنسب، والحرّية، والحِرفة، والسلامة من العيوب المثبتة لخيار الفسخ، وفي وجهٍ يُضاف إليها اليسار بالمال. فإن تزوّجت غير كفء برضاها وإذن وليّها صحّ النكاح، وإن انفرد أحدهما بذلك فللآخر الفسخ.",
+            "en": "Suitability is a right of the wife and her agnatic guardians, reckoned in five qualities: religion, lineage, freedom, trade, and freedom from the defects that establish the option of annulment; and on one view means is added to these. If she marries one who is unsuitable with her own consent and her guardian's leave, the marriage stands; if either acted alone, the other may annul.",
+            "ru": "Соответствие есть право жены и её опекунов по мужской линии и учитывается в пяти качествах: религии, происхождении, свободе, ремесле и отсутствии пороков, дающих право на расторжение; а по одному мнению к ним добавляется и достаток. Если она вышла за несоответствующего с её согласия и дозволения опекуна, брак действителен; если же один из них поступил самочинно, другой вправе расторгнуть.",
+            "es": "La idoneidad es un derecho de la esposa y de sus tutores agnados, y se considera en cinco cualidades: religión, linaje, libertad, oficio y estar libre de los defectos que establecen la opción de anulación; y según un parecer se les añade la holgura económica. Si se casa con quien no es idóneo con su consentimiento y la venia de su tutor, el matrimonio se mantiene; si uno de ellos obró por su cuenta, el otro puede anular.",
+            "uk": "Відповідність є правом дружини та її опікунів по чоловічій лінії і враховується у п'яти якостях: релігії, походженні, свободі, ремеслі та відсутності вад, що встановлюють право на розірвання; а за одним поглядом до них додається й достаток. Якщо вона вийшла за невідповідного за своєю згодою та дозволом опікуна, шлюб лишається чинним; якщо ж хтось із них учинив самочинно, інший може розірвати."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الكفاءة حقٌّ للزوجة ولجميع الأولياء العصبات، وتُعتبر في خمسة أمور: الديانة، والنسب، والحرّية، والحِرفة، واليسار بالمال. وفقدها لا يبطل العقد بل يثبت خيار الفسخ لمن لم يرضَ منهم، إلا الديانة ففيها روايةٌ بالبطلان إذا زُوّجت العفيفةُ فاسقاً.",
+            "en": "Suitability is a right of the wife and of all the agnatic guardians, reckoned in five matters: religion, lineage, freedom, trade and means. Its absence does not void the contract but gives the option of annulment to whichever of them did not consent — except in religion, where one narration holds the contract void if a chaste woman is married to a man of open sin.",
+            "ru": "Соответствие есть право жены и всех опекунов по мужской линии и учитывается в пяти вещах: религии, происхождении, свободе, ремесле и достатке. Его отсутствие не делает договор ничтожным, но даёт право на расторжение тому из них, кто не согласился, — кроме религии, где по одной передаче договор ничтожен, если целомудренную выдали за явного грешника.",
+            "es": "La idoneidad es un derecho de la esposa y de todos los tutores agnados, y se considera en cinco aspectos: religión, linaje, libertad, oficio y holgura económica. Su ausencia no anula el contrato, sino que da la opción de anulación a quien de ellos no consintió, salvo en la religión, donde según una transmisión el contrato es nulo si se casa a una mujer casta con un hombre de notoria impiedad.",
+            "uk": "Відповідність є правом дружини та всіх опікунів по чоловічій лінії і враховується у п'яти речах: релігії, походженні, свободі, ремеслі та достатку. Її відсутність не робить договір нікчемним, але дає право на розірвання тому з них, хто не погодився, — окрім релігії, де за одним переказом договір нікчемний, якщо цнотливу видали за явного грішника."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-9",
+      "ref": "F116",
+      "bookId": "nikah",
+      "number": 7,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب الخطبة",
+        "en": "Chapter on the Betrothal",
+        "ru": "Раздел о сватовстве",
+        "es": "Capítulo sobre el compromiso matrimonial",
+        "uk": "Розділ про сватання"
+      },
+      "title": {
+        "ar": "عَضْل الوليّ وحكم تزويج السلطان عند عضله",
+        "en": "A Guardian's Withholding of Marriage, and the Ruler Giving Her in Marriage Instead",
+        "ru": "Воспрепятствование опекуна браку и выдача замуж правителем",
+        "es": "El impedimento del tutor al matrimonio y el casamiento por la autoridad",
+        "uk": "Перешкоджання опікуна шлюбові та видання заміж правителем"
+      },
+      "summary": {
+        "ar": "ما ضابط العَضْل المحرَّم، وما أثر امتناع الوليّ من تزويج المرأة بالكفء، وإلى من تنتقل الولاية إذا عضل؟",
+        "en": "What defines the forbidden withholding of marriage, what follows from a guardian refusing to marry a woman to a suitable match, and to whom does guardianship pass when he withholds?",
+        "ru": "Каков признак запретного воспрепятствования, что следует из отказа опекуна выдать женщину за соответствующего жениха и к кому переходит опекунство при его отказе?",
+        "es": "¿Cuál es el criterio del impedimento prohibido, qué se sigue de que el tutor se niegue a casar a la mujer con un pretendiente idóneo y a quién pasa la tutela cuando la impide?",
+        "uk": "Який критерій забороненого перешкоджання, що випливає з відмови опікуна видати жінку за відповідного жениха і до кого переходить опіка, коли він перешкоджає?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "العَضْل منع المرأة من التزويج بكفءٍ بمهر المثل. ولمّا كانت البالغة العاقلة تملك تزويج نفسها بلا وليّ، فعَضْل الوليّ لا يحول بينها وبين العقد بنفسها. فإن رُفع الأمر إلى القاضي زوّجها أو أذن لها رفعاً للضرر.",
+            "en": "Withholding means barring a woman from marrying a suitable match for a dower like that of her peers. Since an adult woman of sound mind may contract her own marriage without a guardian, his withholding does not stand between her and contracting it herself. If the matter is raised before the judge, he marries her off or gives her leave, so as to lift the harm.",
+            "ru": "Воспрепятствование — это недопущение женщины к браку с соответствующим женихом за дар, подобный дару её ровесниц. Поскольку совершеннолетняя разумная женщина вправе заключить брак сама, без опекуна, его отказ не встаёт между нею и самостоятельным заключением договора. Если дело доведено до судьи, он выдаёт её замуж или даёт ей дозволение, чтобы устранить вред.",
+            "es": "El impedimento es apartar a la mujer de casarse con un pretendiente idóneo por una dote como la de sus iguales. Puesto que la mujer adulta y cuerda puede contratar su propio matrimonio sin tutor, la negativa de este no se interpone entre ella y el contrato que celebra por sí misma. Si el asunto se eleva al juez, este la casa o le da la venia, para levantar el perjuicio.",
+            "uk": "Перешкоджання — це недопущення жінки до шлюбу з відповідним женихом за дар, подібний до дару її ровесниць. Оскільки повнолітня розумна жінка може укласти шлюб сама, без опікуна, його відмова не стає між нею та самостійним укладенням договору. Якщо справу піднесено до судді, він видає її заміж або дає їй дозвіл, щоб усунути шкоду."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "العَضْل محرَّم، ويثبت بامتناع الوليّ من تزويجها بالكفء الذي رضيت به. فإذا ثبت العَضْل عند القاضي انتقلت الولاية إلى السلطان أو القاضي ليزوّجها، ولا تنتقل إلى الوليّ الأبعد.",
+            "en": "Withholding is forbidden, and it is established by the guardian's refusal to marry her to a suitable match she has accepted. Once it is proved before the judge, guardianship passes to the ruler or the judge, who gives her in marriage; it does not pass to the next guardian in line.",
+            "ru": "Воспрепятствование запретно и устанавливается отказом опекуна выдать её за соответствующего жениха, которого она приняла. Когда оно доказано перед судьёй, опекунство переходит к правителю или судье, который выдаёт её замуж, и не переходит к следующему по очереди опекуну.",
+            "es": "El impedimento está prohibido y se establece por la negativa del tutor a casarla con un pretendiente idóneo que ella ha aceptado. Probado ante el juez, la tutela pasa al gobernante o al juez, que la casa; no pasa al tutor siguiente en el orden.",
+            "uk": "Перешкоджання заборонене і встановлюється відмовою опікуна видати її за відповідного жениха, якого вона прийняла. Коли воно доведене перед суддею, опіка переходить до правителя або судді, який видає її заміж, і не переходить до наступного за чергою опікуна."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يحرم على الوليّ عَضْلها إذا دعت إلى كفءٍ ورضيت به بمهر المثل. فإذا امتنع الوليّ الأقرب وتكرّر منه العَضْل انتقلت الولاية إلى السلطان دون الوليّ الأبعد، لأنّ العَضْل معصيةٌ والقاضي هو الذي يرفع الظلم.",
+            "en": "It is forbidden for a guardian to withhold her when she calls for a suitable match and accepts him for a dower like that of her peers. If the nearest guardian refuses and repeats his withholding, guardianship passes to the ruler rather than to the next guardian, since withholding is a sin and it is the judge who lifts injustice.",
+            "ru": "Опекуну запретно препятствовать ей, когда она просит соответствующего жениха и принимает его за дар, подобный дару её ровесниц. Если ближайший опекун отказывает и отказ повторяется, опекунство переходит к правителю, а не к следующему опекуну, ибо воспрепятствование есть грех, а устраняет несправедливость судья.",
+            "es": "Le está prohibido al tutor impedirla cuando ella pide un pretendiente idóneo y lo acepta por una dote como la de sus iguales. Si el tutor más cercano se niega y reitera su negativa, la tutela pasa al gobernante y no al tutor siguiente, pues el impedimento es un pecado y es el juez quien levanta la injusticia.",
+            "uk": "Опікунові заборонено перешкоджати їй, коли вона просить відповідного жениха і приймає його за дар, подібний до дару її ровесниць. Якщо найближчий опікун відмовляє і відмова повторюється, опіка переходить до правителя, а не до наступного опікуна, бо перешкоджання є гріхом, а усуває несправедливість суддя."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "العَضْل محرَّم، وهو منعها من الكفء إذا طلبت التزويج به. فإذا عضل الوليّ الأقرب انتقلت الولاية إلى الأبعد على ترتيب العصبات — الجدّ ثم الأخ — فإن عضلوا جميعاً أو تعذّروا زوّجها السلطان.",
+            "en": "Withholding is forbidden, and it is to bar her from a suitable match when she asks to be married to him. If the nearest guardian withholds, guardianship passes to the next in the agnatic order — the grandfather, then the brother — and if they all withhold or are unavailable, the ruler gives her in marriage.",
+            "ru": "Воспрепятствование запретно; это недопущение её к соответствующему жениху, когда она просит выдать её за него. Если ближайший опекун препятствует, опекунство переходит к следующему по порядку родства по мужской линии — к деду, затем к брату, — а если препятствуют все или их нет, её выдаёт замуж правитель.",
+            "es": "El impedimento está prohibido, y consiste en apartarla de un pretendiente idóneo cuando ella pide casarse con él. Si el tutor más cercano la impide, la tutela pasa al siguiente en el orden agnaticio —el abuelo, luego el hermano—, y si todos la impiden o no están disponibles, la casa el gobernante.",
+            "uk": "Перешкоджання заборонене; це недопущення її до відповідного жениха, коли вона просить видати її за нього. Якщо найближчий опікун перешкоджає, опіка переходить до наступного за порядком спорідненості по чоловічій лінії — до діда, потім до брата, — а якщо перешкоджають усі або їх немає, її видає заміж правитель."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-5",
+      "ref": "F112",
+      "bookId": "nikah",
+      "number": 8,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "أركان عقد النكاح وعددها عند الفقهاء",
+        "en": "The Pillars of the Marriage Contract and Their Number",
+        "ru": "Столпы брачного договора и их количество",
+        "es": "Los pilares del contrato de matrimonio y su número",
+        "uk": "Стовпи шлюбного договору та їхня кількість"
+      },
+      "summary": {
+        "ar": "ما أركان عقد النكاح التي لا يقوم العقد بدونها، وكم عددها، وما الذي يُعدّ منها ركناً وما يُعدّ شرطاً للصحّة؟",
+        "en": "What are the pillars without which a marriage contract does not stand, how many are there, and what counts as a pillar rather than a condition of validity?",
+        "ru": "Каковы столпы, без которых брачный договор не состоится, сколько их и что считается столпом, а что условием действительности?",
+        "es": "¿Cuáles son los pilares sin los que no se sostiene el contrato matrimonial, cuántos son y qué se cuenta como pilar y no como condición de validez?",
+        "uk": "Які стовпи, без яких шлюбний договір не постане, скільки їх і що вважається стовпом, а що умовою дійсності?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "ركن النكاح واحد لا غير، وهو الإيجاب والقبول. وما سواه — كالشاهدين والوليّ — شرطُ صحّةٍ لا ركن، والفرق بينهما أن الركن جزءٌ من ماهية العقد والشرط خارجٌ عنها.",
+            "en": "The pillar of marriage is one alone: offer and acceptance. Everything else — the two witnesses, the guardian — is a condition of validity, not a pillar; a pillar is part of the contract's very substance, whereas a condition lies outside it.",
+            "ru": "Столп брака только один — предложение и принятие. Всё остальное, как двое свидетелей и опекун, есть условие действительности, а не столп: столп составляет саму суть договора, а условие находится вне её.",
+            "es": "El pilar del matrimonio es uno solo: la oferta y la aceptación. Todo lo demás —los dos testigos, el tutor— es condición de validez y no pilar; el pilar forma parte de la sustancia misma del contrato, mientras que la condición le es externa.",
+            "uk": "Стовп шлюбу лише один — пропозиція та прийняття. Усе інше, як-от двоє свідків і опікун, є умовою дійсності, а не стовпом: стовп становить саму сутність договору, а умова перебуває поза нею."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "أركان النكاح خمسة: الوليّ، والصداق، والزوج، والزوجة، والصيغة. والإشهاد شرطٌ للدخول لا لانعقاد العقد، فيصحّ العقد بلا شهود ويُمنع الدخول حتى يُشهَد.",
+            "en": "The pillars of marriage are five: the guardian, the dower, the husband, the wife, and the formula. Witnessing is a condition for consummation, not for the contract's conclusion, so the contract is valid without witnesses while consummation is withheld until witnesses are present.",
+            "ru": "Столпов брака пять: опекун, брачный дар, муж, жена и формула. Свидетельствование есть условие вступления в супружескую близость, а не заключения договора: договор действителен без свидетелей, но близость откладывается, пока свидетели не будут привлечены.",
+            "es": "Los pilares del matrimonio son cinco: el tutor, la dote, el esposo, la esposa y la fórmula. El testimonio es condición para la consumación y no para la conclusión del contrato: el contrato es válido sin testigos, pero la consumación se retiene hasta que los haya.",
+            "uk": "Стовпів шлюбу п'ять: опікун, шлюбний дар, чоловік, дружина та формула. Свідчення є умовою для подружньої близькості, а не для укладення договору: договір дійсний без свідків, але близькість відкладається, доки свідків не буде залучено."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "أركان النكاح خمسة: الصيغة، والزوج، والزوجة، والوليّ، وشاهدا عدل. فالشهادة عندهم ركنٌ في العقد نفسه لا شرطٌ خارجَه، فلا ينعقد النكاح بحضرة غير عدلين.",
+            "en": "The pillars of marriage are five: the formula, the husband, the wife, the guardian, and two upright witnesses. Witnessing here is a pillar within the contract itself rather than a condition outside it, so no marriage is concluded except in the presence of two upright witnesses.",
+            "ru": "Столпов брака пять: формула, муж, жена, опекун и двое праведных свидетелей. Свидетельствование здесь есть столп самого договора, а не внешнее условие, поэтому брак не заключается иначе как в присутствии двоих праведных свидетелей.",
+            "es": "Los pilares del matrimonio son cinco: la fórmula, el esposo, la esposa, el tutor y dos testigos íntegros. Aquí el testimonio es un pilar del contrato mismo y no una condición externa, de modo que no se concluye matrimonio sino en presencia de dos testigos íntegros.",
+            "uk": "Стовпів шлюбу п'ять: формула, чоловік, дружина, опікун та двоє праведних свідків. Свідчення тут є стовпом самого договору, а не зовнішньою умовою, тож шлюб не укладається інакше як у присутності двох праведних свідків."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "أركان النكاح ثلاثة: الزوجان الخاليان من الموانع، والإيجاب، والقبول. والوليّ والشهود شرطا صحّةٍ لا ركنان.",
+            "en": "The pillars of marriage are three: the two spouses free of impediments, the offer, and the acceptance. The guardian and the witnesses are conditions of validity, not pillars.",
+            "ru": "Столпов брака три: оба супруга, свободные от препятствий, предложение и принятие. Опекун и свидетели суть условия действительности, а не столпы.",
+            "es": "Los pilares del matrimonio son tres: los dos cónyuges libres de impedimentos, la oferta y la aceptación. El tutor y los testigos son condiciones de validez, no pilares.",
+            "uk": "Стовпів шлюбу три: обоє з подружжя, вільні від перешкод, пропозиція та прийняття. Опікун і свідки є умовами дійсності, а не стовпами."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-6",
+      "ref": "F113",
+      "bookId": "nikah",
+      "number": 9,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "صيغة الإيجاب والقبول والألفاظ التي ينعقد بها النكاح",
+        "en": "The Formula of Offer and Acceptance, and the Words by Which Marriage Is Concluded",
+        "ru": "Формула предложения и принятия и слова, которыми заключается брак",
+        "es": "La fórmula de oferta y aceptación y las palabras con las que se concluye el matrimonio",
+        "uk": "Формула пропозиції та прийняття і слова, якими укладається шлюб"
+      },
+      "summary": {
+        "ar": "هل ينعقد النكاح بلفظي النكاح والتزويج وحدهما، أم ينعقد بألفاظ أخرى كالهبة والتمليك والبيع؟",
+        "en": "Is marriage concluded only by the words for marrying and giving in marriage, or also by other words such as gift, transfer of ownership and sale?",
+        "ru": "Заключается ли брак только словами «никах» и «тазвидж» или же и другими словами, такими как дарение, передача во владение и продажа?",
+        "es": "¿Se concluye el matrimonio solo con los términos de casar y dar en matrimonio, o también con otros como donación, cesión de propiedad y venta?",
+        "uk": "Чи укладається шлюб лише словами «нікях» і «тазвідж», чи також іншими словами, як-от дарування, передання у власність і продаж?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "ينعقد النكاح صريحاً بلفظي النكاح والتزويج، وينعقد كذلك بكلّ لفظ يفيد تمليك العين في الحال على التأبيد — كالبيع والهبة والصدقة والتمليك — إذا قامت قرينة تدلّ على أنّ المراد النكاح.",
+            "en": "Marriage is concluded expressly by the words for marrying and for giving in marriage, and likewise by any word conveying immediate and permanent transfer of a thing itself — sale, gift, alms, conveyance — where the context shows that marriage is what is meant.",
+            "ru": "Брак заключается прямо словами «никах» и «тазвидж», а равно и любым словом, означающим немедленную и вечную передачу самой вещи во владение — продажей, дарением, милостыней, уступкой, — если обстоятельства указывают, что имеется в виду именно брак.",
+            "es": "El matrimonio se concluye de modo expreso con los términos de casar y dar en matrimonio, y asimismo con cualquier término que exprese la cesión inmediata y perpetua de la cosa misma —venta, donación, limosna, traspaso— cuando el contexto muestra que lo que se quiere decir es el matrimonio.",
+            "uk": "Шлюб укладається прямо словами «нікях» і «тазвідж», а так само й будь-яким словом, що означає негайне та довічне передання самої речі у власність — продажем, даруванням, милостинею, поступкою, — якщо обставини вказують, що йдеться саме про шлюб."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ينعقد النكاح بلفظي النكاح والتزويج، وينعقد بغيرهما كالهبة والتمليك والبيع بشرط أن يُذكر معه الصداق. فإن لم يُذكر الصداق لم ينعقد إلا بلفظي النكاح والتزويج.",
+            "en": "Marriage is concluded by the words for marrying and for giving in marriage, and by others such as gift, conveyance and sale provided the dower is named along with them. If the dower is not named, it is concluded by no words but those two.",
+            "ru": "Брак заключается словами «никах» и «тазвидж», а также иными, как дарение, уступка и продажа, при условии, что вместе с ними назван брачный дар. Если дар не назван, брак заключается лишь этими двумя словами.",
+            "es": "El matrimonio se concluye con los términos de casar y dar en matrimonio, y con otros como donación, traspaso y venta siempre que junto a ellos se nombre la dote. Si la dote no se nombra, no se concluye sino con aquellos dos términos.",
+            "uk": "Шлюб укладається словами «нікях» і «тазвідж», а також іншими, як дарування, поступка та продаж, за умови, що разом із ними названо шлюбний дар. Якщо дар не названо, шлюб укладається лише цими двома словами."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا ينعقد النكاح إلا بلفظ الإنكاح أو التزويج وما اشتُقّ منهما بصيغة الماضي صريحاً، ولا ينعقد بألفاظ الكناية كالهبة والبيع والتمليك والصدقة ولو ذُكر معها الصداق.",
+            "en": "Marriage is concluded only by the express words for marrying or giving in marriage, or their derivatives in the past tense; it is not concluded by allusive words such as gift, sale, conveyance or alms, even if the dower is named with them.",
+            "ru": "Брак заключается только прямыми словами «инках» или «тазвидж» и производными от них в прошедшем времени; он не заключается иносказательными словами, такими как дарение, продажа, уступка или милостыня, даже если вместе с ними назван брачный дар.",
+            "es": "El matrimonio se concluye únicamente con los términos expresos de casar o dar en matrimonio y sus derivados en pretérito; no se concluye con términos alusivos como donación, venta, traspaso o limosna, aunque con ellos se nombre la dote.",
+            "uk": "Шлюб укладається лише прямими словами «інках» або «тазвідж» і похідними від них у минулому часі; він не укладається переносними словами, як-от дарування, продаж, поступка чи милостиня, навіть якщо разом із ними названо шлюбний дар."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ينحصر انعقاد النكاح في لفظي الإنكاح والتزويج ومشتقاتهما الصريحة، فلا ينعقد بالهبة ولا البيع ولا التمليك ولو اقترن بها ذكر الصداق، لأنّ النكاح عقدٌ يتعيّن فيه لفظه الشرعيّ.",
+            "en": "The conclusion of marriage is confined to the express words for marrying and giving in marriage and their derivatives; it is not concluded by gift, sale or conveyance even if the dower is named with them, for marriage is a contract in which its own revealed wording is required.",
+            "ru": "Заключение брака ограничено прямыми словами «инках» и «тазвидж» и производными от них; он не заключается дарением, продажей или уступкой, даже если вместе с ними назван брачный дар, ибо брак есть договор, в котором требуется именно его установленное шариатом слово.",
+            "es": "La conclusión del matrimonio se limita a los términos expresos de casar y dar en matrimonio y sus derivados; no se concluye con donación, venta ni traspaso aunque con ellos se nombre la dote, pues el matrimonio es un contrato en el que se requiere su propio término revelado.",
+            "uk": "Укладення шлюбу обмежене прямими словами «інках» і «тазвідж» та похідними від них; він не укладається даруванням, продажем чи поступкою, навіть якщо разом із ними названо шлюбний дар, бо шлюб є договором, у якому вимагається саме його встановлене шаріатом слово."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-10",
+      "ref": "F117",
+      "bookId": "nikah",
+      "number": 10,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "انعقاد النكاح بغير اللغة العربية",
+        "en": "Concluding a Marriage in a Language Other Than Arabic",
+        "ru": "Заключение брака не на арабском языке",
+        "es": "La conclusión del matrimonio en una lengua distinta del árabe",
+        "uk": "Укладення шлюбу мовою, іншою за арабську"
+      },
+      "summary": {
+        "ar": "هل يُشترط أن تكون صيغة الإيجاب والقبول بالعربية، وهل يختلف الحكم بين القادر على العربية والعاجز عنها؟",
+        "en": "Must the offer and acceptance be in Arabic, and does the ruling differ between one able to speak Arabic and one unable?",
+        "ru": "Обязана ли формула предложения и принятия быть на арабском, и различается ли решение для владеющего арабским и не владеющего им?",
+        "es": "¿Ha de ser en árabe la fórmula de oferta y aceptación, y difiere la norma entre quien sabe árabe y quien no?",
+        "uk": "Чи має формула пропозиції та прийняття бути арабською, і чи різниться рішення для того, хто володіє арабською, і того, хто нею не володіє?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "ينعقد النكاح بغير العربية مطلقاً، قدر العاقد على العربية أو عجز عنها، بشرط أن تدلّ الألفاظ المستعملة على معنى النكاح صراحةً أو كناية.",
+            "en": "Marriage is concluded in a language other than Arabic without restriction, whether the contracting party can speak Arabic or not, so long as the words used convey the meaning of marriage expressly or by allusion.",
+            "ru": "Брак заключается не на арабском языке без ограничения, владеет ли заключающий арабским или нет, лишь бы употреблённые слова передавали смысл брака прямо или иносказательно.",
+            "es": "El matrimonio se concluye en lengua distinta del árabe sin restricción, sepa o no árabe quien contrata, con tal de que las palabras empleadas expresen el sentido del matrimonio de modo directo o alusivo.",
+            "uk": "Шлюб укладається мовою, іншою за арабську, без обмеження, володіє той, хто укладає, арабською чи ні, аби лиш вжиті слова передавали зміст шлюбу прямо або переносно."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يصحّ النكاح بغير العربية لمن لا يحسنها، ويصحّ كذلك للقادر عليها إذا أدّت الألفاظ معنى النكاح والتزويج بدقّة، والعربية أولى وأفضل.",
+            "en": "Marriage is valid in a language other than Arabic for one who does not command it, and valid likewise for one who does, provided the words convey the meaning of marrying and giving in marriage precisely; Arabic remains preferable.",
+            "ru": "Брак действителен не на арабском для того, кто им не владеет, и равно для того, кто владеет, если слова точно передают смысл брака; арабский всё же предпочтительнее.",
+            "es": "El matrimonio es válido en lengua distinta del árabe para quien no la domina, e igualmente para quien sí, con tal de que las palabras expresen con precisión el sentido de casar y dar en matrimonio; el árabe sigue siendo preferible.",
+            "uk": "Шлюб дійсний мовою, іншою за арабську, для того, хто нею не володіє, і так само для того, хто володіє, якщо слова точно передають зміст шлюбу; арабська все ж є кращою."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يلزم القادرَ على العربية أن يأتي بالصيغة بها — بالإنكاح أو التزويج — ولا ينعقد نكاحه بغيرها. فإن عجز عنها صحّ عقده بلسانه بما يُترجم معنى اللفظين.",
+            "en": "One able to speak Arabic must pronounce the formula in it — by the word for marrying or for giving in marriage — and his marriage is not concluded in any other tongue. If he is unable, his contract is valid in his own tongue with what renders the meaning of those two words.",
+            "ru": "Владеющий арабским обязан произнести формулу на нём — словом «инках» или «тазвидж», — и его брак не заключается ни на каком ином языке. Если же он не владеет им, его договор действителен на его языке тем, что передаёт смысл этих двух слов.",
+            "es": "Quien sabe árabe ha de pronunciar en él la fórmula —con el término de casar o de dar en matrimonio— y su matrimonio no se concluye en otra lengua. Si no sabe, su contrato es válido en su propia lengua con lo que traduzca el sentido de esos dos términos.",
+            "uk": "Той, хто володіє арабською, зобов'язаний вимовити формулу нею — словом «інках» або «тазвідж», — і його шлюб не укладається жодною іншою мовою. Якщо ж він нею не володіє, його договір дійсний його мовою тим, що передає зміст цих двох слів."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يجب على القادر على العربية أن يعقد بها بلفظ النكاح أو التزويج، ولا يصحّ عقده بغيرها مع القدرة. فإن عجز صحّ نكاحه بلسانه بما يؤدّي معنى اللفظين.",
+            "en": "One able to speak Arabic must contract in it with the word for marrying or for giving in marriage, and his contract is not valid in another tongue while he is able. If he is unable, his marriage is valid in his own tongue with what conveys the meaning of those two words.",
+            "ru": "Владеющий арабским обязан заключить договор на нём словом «никах» или «тазвидж», и его договор недействителен на ином языке при наличии способности. Если же он не владеет им, его брак действителен на его языке тем, что передаёт смысл этих двух слов.",
+            "es": "Quien sabe árabe debe contratar en él con el término de casar o de dar en matrimonio, y su contrato no es válido en otra lengua mientras pueda. Si no puede, su matrimonio es válido en su propia lengua con lo que exprese el sentido de esos dos términos.",
+            "uk": "Той, хто володіє арабською, зобов'язаний укласти договір нею словом «нікях» або «тазвідж», і його договір недійсний іншою мовою за наявності здатності. Якщо ж він не володіє нею, його шлюб дійсний його мовою тим, що передає зміст цих двох слів."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-11",
+      "ref": "F118",
+      "bookId": "nikah",
+      "number": 11,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "اشتراط الوليّ وحكم تزويج المرأة نفسها",
+        "en": "The Requirement of a Guardian, and a Woman Contracting Her Own Marriage",
+        "ru": "Условие опекуна и заключение брака женщиной самостоятельно",
+        "es": "El requisito del tutor y la mujer que contrata su propio matrimonio",
+        "uk": "Умова опікуна та укладення шлюбу жінкою самостійно"
+      },
+      "summary": {
+        "ar": "هل يُشترط الوليّ لصحّة العقد، وهل يصحّ للبالغة العاقلة أن تزوّج نفسها أو غيرها بلا وليّ؟",
+        "en": "Is a guardian required for the contract's validity, and may an adult woman of sound mind give herself or another in marriage without one?",
+        "ru": "Требуется ли опекун для действительности договора, и вправе ли совершеннолетняя разумная женщина выдать замуж себя или другую без него?",
+        "es": "¿Se requiere tutor para la validez del contrato, y puede una mujer adulta y cuerda casarse a sí misma o a otra sin él?",
+        "uk": "Чи потрібен опікун для дійсності договору, і чи може повнолітня розумна жінка видати заміж себе або іншу без нього?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يصحّ نكاح البالغة العاقلة إذا زوّجت نفسها أو غيرها بغير إذن الوليّ، بكراً كانت أو ثيّباً؛ فالوليّ شرط كمالٍ لا شرط صحّة. فإن زوّجت نفسها من غير كفء أو بدون مهر المثل فللأولياء طلب الفسخ.",
+            "en": "The marriage of an adult woman of sound mind is valid if she gives herself or another in marriage without her guardian's leave, virgin or previously married; the guardian is a condition of completeness, not of validity. If she marries one who is unsuitable or for less than a dower like her peers', the guardians may seek annulment.",
+            "ru": "Брак совершеннолетней разумной женщины действителен, если она выдаст замуж себя или другую без дозволения опекуна, будь она девицей или прежде замужней; опекун есть условие полноты, а не действительности. Если же она выйдет за несоответствующего или за дар меньше дара её ровесниц, опекуны вправе требовать расторжения.",
+            "es": "El matrimonio de una mujer adulta y cuerda es válido si se casa a sí misma o casa a otra sin la venia del tutor, sea virgen o antes casada; el tutor es condición de perfección, no de validez. Si se casa con quien no es idóneo o por menos de la dote de sus iguales, los tutores pueden pedir la anulación.",
+            "uk": "Шлюб повнолітньої розумної жінки дійсний, якщо вона видасть заміж себе або іншу без дозволу опікуна, чи то дівою, чи раніше заміжньою; опікун є умовою повноти, а не дійсності. Якщо ж вона вийде за невідповідного або за дар, менший від дару її ровесниць, опікуни можуть вимагати розірвання."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الوليّ ركنٌ من أركان النكاح، فلا تزوّج المرأة نفسها ولا غيرها لا أصالةً ولا وكالةً، لحديث: «لا تُزوّج المرأةُ المرأةَ، ولا تُزوّج المرأةُ نفسَها». فإن عقدت بنفسها فالعقد باطل يُفسخ قبل الدخول وبعده.",
+            "en": "The guardian is a pillar of marriage, so a woman gives neither herself nor another in marriage, whether in her own right or as an agent, on the strength of the hadith: “A woman does not give a woman in marriage, nor does a woman give herself in marriage.” If she contracts it herself the contract is void and is annulled, before consummation and after.",
+            "ru": "Опекун есть столп брака, и женщина не выдаёт замуж ни себя, ни другую — ни от своего имени, ни по доверенности, — согласно хадису: «Женщина не выдаёт замуж женщину и не выдаёт замуж саму себя». Если она заключит договор сама, он ничтожен и расторгается до близости и после неё.",
+            "es": "El tutor es un pilar del matrimonio, de modo que la mujer no casa ni a sí misma ni a otra, ni por derecho propio ni por poder, en virtud del hadiz: «La mujer no casa a una mujer, ni se casa a sí misma». Si contrata ella misma, el contrato es nulo y se anula, antes de la consumación y después.",
+            "uk": "Опікун є стовпом шлюбу, тож жінка не видає заміж ні себе, ні іншу — ні від свого імені, ні за дорученням, — згідно з хадисом: «Жінка не видає заміж жінку і не видає заміж саму себе». Якщо вона укладе договір сама, він нікчемний і розривається до близькості й після неї."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الوليّ ركنٌ وشرطٌ لصحّة العقد، فلا تزوّج المرأة نفسها ولا غيرها أصالةً ولا وكالةً؛ فإن فعلت فالعقد باطل مردود، لقوله ﷺ: «لا نكاح إلا بوليّ وشاهدَي عدل».",
+            "en": "The guardian is a pillar and a condition of the contract's validity, so a woman gives neither herself nor another in marriage, in her own right or as an agent; if she does, the contract is void and rejected, on the strength of his saying ﷺ: “There is no marriage save with a guardian and two upright witnesses.”",
+            "ru": "Опекун есть столп и условие действительности договора, и женщина не выдаёт замуж ни себя, ни другую — ни от своего имени, ни по доверенности; если сделает, договор ничтожен и отвергается, согласно слову Пророка ﷺ: «Нет брака, кроме как с опекуном и двумя праведными свидетелями».",
+            "es": "El tutor es pilar y condición de la validez del contrato, de modo que la mujer no casa ni a sí misma ni a otra, por derecho propio ni por poder; si lo hace, el contrato es nulo y rechazado, según su dicho ﷺ: «No hay matrimonio sino con tutor y dos testigos íntegros».",
+            "uk": "Опікун є стовпом і умовою дійсності договору, тож жінка не видає заміж ні себе, ні іншу — ні від свого імені, ні за дорученням; якщо зробить, договір нікчемний і відкинутий, згідно зі словом Пророка ﷺ: «Немає шлюбу, крім як з опікуном і двома праведними свідками»."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الوليّ شرطٌ لصحّة العقد، فلا يصحّ النكاح إلا به؛ فإن زوّجت المرأة نفسها أو غيرها فالعقد باطل، لقوله ﷺ: «أيّما امرأةٍ نُكحت بغير إذن وليّها فنكاحُها باطل».",
+            "en": "The guardian is a condition of the contract's validity, and no marriage is valid without him; if a woman gives herself or another in marriage the contract is void, on the strength of his saying ﷺ: “Any woman married without her guardian's leave, her marriage is void.”",
+            "ru": "Опекун есть условие действительности договора, и брак без него недействителен; если женщина выдаст замуж себя или другую, договор ничтожен, согласно слову Пророка ﷺ: «Любая женщина, выданная замуж без дозволения её опекуна, — брак её ничтожен».",
+            "es": "El tutor es condición de la validez del contrato, y no hay matrimonio válido sin él; si una mujer se casa a sí misma o casa a otra, el contrato es nulo, según su dicho ﷺ: «Cualquier mujer casada sin la venia de su tutor, su matrimonio es nulo».",
+            "uk": "Опікун є умовою дійсності договору, і шлюб без нього недійсний; якщо жінка видасть заміж себе або іншу, договір нікчемний, згідно зі словом Пророка ﷺ: «Будь-яка жінка, видана заміж без дозволу її опікуна, — шлюб її нікчемний»."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-12",
+      "ref": "F119",
+      "bookId": "nikah",
+      "number": 12,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "شروط الوليّ وترتيب الأولياء",
+        "en": "The Qualifications of the Guardian and the Order of Guardians",
+        "ru": "Условия опекуна и порядок опекунов",
+        "es": "Las condiciones del tutor y el orden de los tutores",
+        "uk": "Умови опікуна та порядок опікунів"
+      },
+      "summary": {
+        "ar": "ما الشروط التي تُعتبر في وليّ النكاح، وكيف تنتقل الولاية بين العصبات حتى تنتهي إلى السلطان؟",
+        "en": "What qualifications are required in a marriage guardian, and how does guardianship pass among the agnates until it ends with the ruler?",
+        "ru": "Какие условия учитываются в опекуне при браке и как опекунство переходит между агнатами, пока не завершится правителем?",
+        "es": "¿Qué condiciones se consideran en el tutor matrimonial y cómo pasa la tutela entre los agnados hasta terminar en el gobernante?",
+        "uk": "Які умови враховуються в опікуні при шлюбі та як опіка переходить між агнатами, доки не завершиться правителем?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يُشترط في الوليّ: العقل، والبلوغ، والحرّية، والإسلام إن كانت الزوجة مسلمة. ولا تُشترط الذكورة ولا العدالة. وترتيب الأولياء على ترتيب العصبات: الابن، ثم الأب، ثم الجدّ، ثم الأخ، فإن لم يوجدوا فذوو الأرحام، ثم السلطان.",
+            "en": "Required in a guardian are: sound mind, majority, freedom, and Islam if the wife is Muslim. Neither being male nor uprightness is required. Guardians follow the agnatic order: the son, then the father, then the grandfather, then the brother; failing them, the uterine relatives, then the ruler.",
+            "ru": "В опекуне требуются: разум, совершеннолетие, свобода и ислам, если жена мусульманка. Ни мужской пол, ни праведность не требуются. Опекуны идут в порядке агнатов: сын, затем отец, затем дед, затем брат; при их отсутствии — родственники по женской линии, затем правитель.",
+            "es": "Se requiere en el tutor: juicio, mayoría de edad, libertad e islam si la esposa es musulmana. No se requiere ser varón ni la rectitud. Los tutores siguen el orden agnaticio: el hijo, luego el padre, luego el abuelo, luego el hermano; a falta de ellos, los parientes uterinos, y después el gobernante.",
+            "uk": "В опікуні вимагаються: розум, повноліття, свобода та іслам, якщо дружина мусульманка. Ні чоловіча стать, ні праведність не вимагаються. Опікуни йдуть у порядку агнатів: син, потім батько, потім дід, потім брат; за їхньої відсутності — родичі по жіночій лінії, потім правитель."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة. وترتيب الأولياء: الابن، ثم الأب، ثم الأخ، ثم ابن الأخ، ثم الجدّ، ثم العمّ، ثم الوصيّ، ثم عامّة المسلمين أو السلطان.",
+            "en": "Required in a guardian are: being male, sound mind, majority, freedom, and Islam for a Muslim woman. The order runs: the son, then the father, then the brother, then the brother's son, then the grandfather, then the paternal uncle, then the testamentary executor, then the Muslims at large or the ruler.",
+            "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода и ислам для мусульманки. Порядок таков: сын, затем отец, затем брат, затем сын брата, затем дед, затем дядя по отцу, затем душеприказчик, затем мусульмане вообще или правитель.",
+            "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad e islam para una musulmana. El orden es: el hijo, luego el padre, luego el hermano, luego el hijo del hermano, luego el abuelo, luego el tío paterno, luego el albacea, luego los musulmanes en general o el gobernante.",
+            "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода та іслам для мусульманки. Порядок такий: син, потім батько, потім брат, потім син брата, потім дід, потім дядько по батькові, потім виконавець заповіту, потім мусульмани загалом або правитель."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة، والعدالة، والرشد. وترتيب الأولياء: الأب، ثم الجدّ لأب، ثم الأخ الشقيق، ثم الأخ لأب، ثم ابن الأخ، ثم العمّ. ولا ولاية للابن على أمّه إلا بسلطنةٍ أو وكالة.",
+            "en": "Required in a guardian are: being male, sound mind, majority, freedom, Islam for a Muslim woman, uprightness, and prudence. The order runs: the father, then the paternal grandfather, then the full brother, then the half-brother by the father, then the brother's son, then the paternal uncle. A son has no guardianship over his mother except as ruler or as her agent.",
+            "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода, ислам для мусульманки, праведность и рассудительность. Порядок таков: отец, затем дед по отцу, затем единоутробно-единокровный брат, затем брат по отцу, затем сын брата, затем дядя по отцу. У сына нет опекунства над матерью, кроме как в качестве правителя или её поверенного.",
+            "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad, islam para una musulmana, rectitud y sensatez. El orden es: el padre, luego el abuelo paterno, luego el hermano de padre y madre, luego el hermano de padre, luego el hijo del hermano, luego el tío paterno. El hijo no tiene tutela sobre su madre salvo como gobernante o como apoderado suyo.",
+            "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода, іслам для мусульманки, праведність і розсудливість. Порядок такий: батько, потім дід по батькові, потім рідний брат, потім брат по батькові, потім син брата, потім дядько по батькові. Син не має опіки над матір'ю, крім як правитель або її повірений."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة، والعدالة ولو ظاهرة، والرشد. وترتيب الأولياء: الأب، ثم وصيّه في النكاح، ثم الجدّ لأب وإن علا، ثم الابن وإن نزل، ثم الأخ الشقيق، ثم الأخ لأب، ثم أبناؤهما، ثم العمومة، ثم السلطان.",
+            "en": "Required in a guardian are: being male, sound mind, majority, freedom, Islam for a Muslim woman, uprightness even if only outward, and prudence. The order runs: the father, then the executor he appointed for the marriage, then the paternal grandfather however high, then the son however low, then the full brother, then the half-brother by the father, then their sons, then the paternal uncles, then the ruler.",
+            "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода, ислам для мусульманки, праведность хотя бы внешняя и рассудительность. Порядок таков: отец, затем назначенный им душеприказчик по браку, затем дед по отцу сколь угодно высоко, затем сын сколь угодно низко, затем родной брат, затем брат по отцу, затем их сыновья, затем дяди по отцу, затем правитель.",
+            "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad, islam para una musulmana, rectitud aunque sea externa, y sensatez. El orden es: el padre, luego el albacea que él designó para el matrimonio, luego el abuelo paterno por alto que sea, luego el hijo por bajo que sea, luego el hermano de padre y madre, luego el hermano de padre, luego los hijos de ambos, luego los tíos paternos, luego el gobernante.",
+            "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода, іслам для мусульманки, праведність хоча б зовнішня і розсудливість. Порядок такий: батько, потім призначений ним виконавець заповіту щодо шлюбу, потім дід по батькові хоч би як високо, потім син хоч би як низько, потім рідний брат, потім брат по батькові, потім їхні сини, потім дядьки по батькові, потім правитель."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-14",
+      "ref": "F121",
+      "bookId": "nikah",
+      "number": 13,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "اشتراط الشهود في النكاح وصفاتهم",
+        "en": "The Requirement of Witnesses in Marriage and Their Qualifications",
+        "ru": "Условие свидетелей при браке и их качества",
+        "es": "El requisito de los testigos en el matrimonio y sus cualidades",
+        "uk": "Умова свідків при шлюбі та їхні якості"
+      },
+      "summary": {
+        "ar": "هل يُشترط الشهود لصحّة العقد، وما الصفات المعتبرة فيهما — كالعدالة والذكورة؟",
+        "en": "Are witnesses required for the contract's validity, and what qualifications count in them — such as uprightness and being male?",
+        "ru": "Требуются ли свидетели для действительности договора и какие качества в них учитываются — праведность, мужской пол?",
+        "es": "¿Se requieren testigos para la validez del contrato y qué cualidades cuentan en ellos, como la rectitud y el ser varón?",
+        "uk": "Чи потрібні свідки для дійсності договору та які якості в них враховуються — праведність, чоловіча стать?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "الشهادة شرطٌ لصحّة العقد، ويصحّ بحضور رجلين أو رجلٍ وامرأتين. ويُشترط فيهم: الحرّية، والعقل، والبلوغ، والإسلام إن كان الزوجان مسلمَين. ولا تُشترط العدالة، فينعقد بحضور الفاسقين.",
+            "en": "Witnessing is a condition of the contract's validity, and it is valid in the presence of two men or of one man and two women. Required of them are freedom, sound mind, majority, and Islam if both spouses are Muslim. Uprightness is not required, so it is concluded in the presence of men of open sin.",
+            "ru": "Свидетельство есть условие действительности договора, и он действителен в присутствии двух мужчин либо одного мужчины и двух женщин. От них требуются свобода, разум, совершеннолетие и ислам, если оба супруга мусульмане. Праведность не требуется, и договор заключается в присутствии явных грешников.",
+            "es": "El testimonio es condición de la validez del contrato, y éste vale en presencia de dos hombres o de un hombre y dos mujeres. Se les exige libertad, juicio, mayoría de edad e islam si ambos cónyuges son musulmanes. No se exige la rectitud, de modo que se concluye en presencia de hombres de notoria impiedad.",
+            "uk": "Свідчення є умовою дійсності договору, і він дійсний у присутності двох чоловіків або одного чоловіка та двох жінок. Від них вимагаються свобода, розум, повноліття та іслам, якщо обоє з подружжя мусульмани. Праведність не вимагається, і договір укладається в присутності явних грішників."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الإشهاد شرطٌ لصحّة الدخول بالزوجة لا لصحّة أصل العقد، ويُندب حضورهما حال العقد. ويُشترط في الشاهدين: الذكورة، والعقل، والبلوغ، والإسلام، والعدالة. ولا تُقبل شهادة النساء في النكاح.",
+            "en": "Witnessing is a condition for the validity of consummation, not of the contract itself, though their presence at the contract is recommended. Required of the two witnesses are: being male, sound mind, majority, Islam, and uprightness. The testimony of women is not accepted in marriage.",
+            "ru": "Свидетельствование есть условие действительности супружеской близости, а не самого договора, хотя их присутствие при договоре желательно. От двух свидетелей требуются: мужской пол, разум, совершеннолетие, ислам и праведность. Свидетельство женщин в браке не принимается.",
+            "es": "El testimonio es condición de la validez de la consumación, no del contrato mismo, aunque su presencia en el contrato es recomendable. Se exige de los dos testigos: ser varón, juicio, mayoría de edad, islam y rectitud. El testimonio de mujeres no se acepta en el matrimonio.",
+            "uk": "Свідчення є умовою дійсності подружньої близькості, а не самого договору, хоча їхня присутність при договорі є бажаною. Від двох свідків вимагаються: чоловіча стать, розум, повноліття, іслам і праведність. Свідчення жінок у шлюбі не приймається."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "الشهادة ركنٌ من أركان النكاح وشرطٌ لصحّته، فلا ينعقد إلا بحضور شاهدَين. ويُشترط فيهما: الذكورة، والعقل، والبلوغ، والإسلام، والعدالة، والسمع، والبصر، وفهم لغة العقد.",
+            "en": "Witnessing is a pillar of marriage and a condition of its validity, so it is not concluded except in the presence of two witnesses. Required of them are: being male, sound mind, majority, Islam, uprightness, hearing, sight, and understanding of the language of the contract.",
+            "ru": "Свидетельство есть столп брака и условие его действительности, и он не заключается иначе как в присутствии двух свидетелей. От них требуются: мужской пол, разум, совершеннолетие, ислам, праведность, слух, зрение и понимание языка договора.",
+            "es": "El testimonio es pilar del matrimonio y condición de su validez, de modo que no se concluye sino en presencia de dos testigos. Se les exige: ser varón, juicio, mayoría de edad, islam, rectitud, oído, vista y comprensión de la lengua del contrato.",
+            "uk": "Свідчення є стовпом шлюбу та умовою його дійсності, тож він не укладається інакше як у присутності двох свідків. Від них вимагаються: чоловіча стать, розум, повноліття, іслам, праведність, слух, зір і розуміння мови договору."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الشهود شرطٌ لصحّة العقد، فلا يصحّ إلا برجلين مكلَّفَين مسلمَين عدلَين ولو في الظاهر. ولا تصحّ شهادة النساء في النكاح ولا شهادة الفسّاق.",
+            "en": "Witnesses are a condition of the contract's validity, and it is valid only with two men who are legally accountable, Muslim and upright, even if only outwardly. The testimony of women is not valid in marriage, nor that of men of open sin.",
+            "ru": "Свидетели есть условие действительности договора, и он действителен лишь с двумя мужчинами — дееспособными, мусульманами и праведными хотя бы внешне. Свидетельство женщин в браке недействительно, как и свидетельство явных грешников.",
+            "es": "Los testigos son condición de la validez del contrato, y éste sólo vale con dos hombres responsables, musulmanes y rectos, aunque sólo sea en lo aparente. El testimonio de mujeres no vale en el matrimonio, ni el de hombres de notoria impiedad.",
+            "uk": "Свідки є умовою дійсності договору, і він дійсний лише з двома чоловіками — дієздатними, мусульманами і праведними хоча б зовні. Свідчення жінок у шлюбі недійсне, як і свідчення явних грішників."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nikah-15",
+      "ref": "F122",
+      "bookId": "nikah",
+      "number": 14,
+      "addedAt": "2026-09-26",
+      "chapter": {
+        "ar": "باب أركان العقد",
+        "en": "Chapter on the Pillars of the Contract",
+        "ru": "Раздел о столпах договора",
+        "es": "Capítulo sobre los pilares del contrato",
+        "uk": "Розділ про стовпи договору"
+      },
+      "title": {
+        "ar": "تعيين الزوجين ورفع الجهالة",
+        "en": "Identifying the Spouses and Removing Ambiguity",
+        "ru": "Определение супругов и устранение неопределённости",
+        "es": "La identificación de los cónyuges y la eliminación de la ambigüedad",
+        "uk": "Визначення подружжя та усунення невизначеності"
+      },
+      "summary": {
+        "ar": "هل يُشترط تعيين الزوجين بالاسم أو الإشارة أو الوصف المميّز، وما أثر الجهالة بأحدهما في صحّة العقد؟",
+        "en": "Must each spouse be identified by name, by pointing, or by a distinguishing description, and what does ambiguity about either do to the contract's validity?",
+        "ru": "Требуется ли определить каждого из супругов по имени, указанием или отличительным описанием, и как неопределённость в одном из них влияет на действительность договора?",
+        "es": "¿Ha de identificarse a cada cónyuge por nombre, señalando o por descripción distintiva, y qué efecto tiene la ambigüedad sobre uno de ellos en la validez del contrato?",
+        "uk": "Чи треба визначити кожного з подружжя за ім'ям, вказівкою чи відмінним описом, і як невизначеність щодо одного з них впливає на дійсність договору?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يُشترط لصحّة النكاح تعيين الزوجين تعييناً ينفي الجهالة الفاحشة، بالاسم أو بالإشارة أو بالوصف المميّز. فلو قال الوليّ: «زوّجتك بنتي» وله بناتٌ متعدّدات، لم يصحّ العقد حتى تُعيَّن واحدةٌ منهنّ وقت العقد.",
+            "en": "For a marriage to be valid the spouses must be identified so as to remove gross ambiguity — by name, by pointing, or by a distinguishing description. Were the guardian to say “I have given you my daughter in marriage” while having several daughters, the contract is not valid until one of them is specified at the time of contracting.",
+            "ru": "Для действительности брака супруги должны быть определены так, чтобы устранить грубую неопределённость, — по имени, указанием или отличительным описанием. Если опекун скажет: «Я выдал за тебя свою дочь», имея несколько дочерей, договор недействителен, пока одна из них не будет определена во время заключения.",
+            "es": "Para la validez del matrimonio los cónyuges han de quedar identificados de modo que se elimine la ambigüedad grave: por nombre, señalando o por descripción distintiva. Si el tutor dijera «te he dado en matrimonio a mi hija» teniendo varias hijas, el contrato no es válido hasta que se especifique una de ellas en el momento de contratar.",
+            "uk": "Для дійсності шлюбу подружжя має бути визначене так, щоб усунути грубу невизначеність, — за ім'ям, вказівкою чи відмінним описом. Якщо опікун скаже: «Я видав за тебе свою дочку», маючи кількох дочок, договір недійсний, доки одна з них не буде визначена під час укладення."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "تبيين الحقائق",
+              "en": "Tabyīn al-Ḥaqāʾiq",
+              "ru": "«Табйин аль-Хакаик»",
+              "es": "Tabyīn al-Ḥaqāʾiq",
+              "uk": "«Табйін аль-Хакаїк»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تعيين كلٍّ من الزوجين شرطٌ لصحّة العقد، بالاسم أو الإشارة أو الصفة الفارقة. فإن وقعت الجهالة — كأن يقول: «زوّجتك إحدى بناتي» — فالعقد باطل يُفسخ، ولا ينعقد إلا بتعيين المزوَّجة والمزوَّج له.",
+            "en": "Identifying each spouse is a condition of the contract's validity, by name, by pointing, or by a distinguishing attribute. If ambiguity occurs — as in saying “I have given you one of my daughters in marriage” — the contract is void and is annulled; it is concluded only by identifying the woman given and the man she is given to.",
+            "ru": "Определение каждого из супругов есть условие действительности договора — по имени, указанием или отличительным признаком. Если возникнет неопределённость, как во фразе «я выдал за тебя одну из моих дочерей», договор ничтожен и расторгается; он заключается лишь при определении выдаваемой и того, за кого её выдают.",
+            "es": "Identificar a cada cónyuge es condición de la validez del contrato, por nombre, señalando o por rasgo distintivo. Si se produce ambigüedad —como al decir «te he dado en matrimonio a una de mis hijas»— el contrato es nulo y se anula; sólo se concluye identificando a la mujer dada y al hombre a quien se la da.",
+            "uk": "Визначення кожного з подружжя є умовою дійсності договору — за ім'ям, вказівкою чи відмінною ознакою. Якщо виникне невизначеність, як у фразі «я видав за тебе одну з моїх дочок», договір нікчемний і розривається; він укладається лише при визначенні тієї, кого видають, і того, за кого видають."
+          },
+          "sources": [
+            {
+              "ar": "المدونة",
+              "en": "Al-Mudawwanah",
+              "ru": "«Аль-Мудаввана»",
+              "es": "Al-Mudawwanah",
+              "uk": "«Аль-Мудаввана»"
+            },
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يُشترط لصحّة العقد تعيين الزوجين تعييناً لا يحتمل اللبس: بالتسمية الصريحة، أو الإشارة الحاضرة، أو الوصف الخاصّ. فإن أطلق الوليّ فقال: «زوّجتك بنتي» وله بنتان فأكثر، فالعقد باطل للجهالة بالمعقود عليها.",
+            "en": "For the contract to be valid the spouses must be identified in a way that admits no confusion: by express naming, by pointing to one present, or by a particular description. Were the guardian to speak without restriction and say “I have given you my daughter in marriage” while having two daughters or more, the contract is void for ambiguity as to the woman contracted for.",
+            "ru": "Для действительности договора супруги должны быть определены так, чтобы не оставалось смешения: явным именованием, указанием на присутствующую или особым описанием. Если опекун выразится без уточнения: «Я выдал за тебя свою дочь», имея двух дочерей или более, договор ничтожен из-за неопределённости той, о ком договор.",
+            "es": "Para la validez del contrato los cónyuges han de identificarse de modo que no quepa confusión: por denominación expresa, señalando a la presente o por descripción particular. Si el tutor hablara sin precisar y dijera «te he dado en matrimonio a mi hija» teniendo dos hijas o más, el contrato es nulo por ambigüedad sobre la mujer contratada.",
+            "uk": "Для дійсності договору подружжя має бути визначене так, щоб не лишалося плутанини: явним іменуванням, вказівкою на присутню або особливим описом. Якщо опікун висловиться без уточнення: «Я видав за тебе свою дочку», маючи двох дочок або більше, договір нікчемний через невизначеність тієї, про кого договір."
+          },
+          "sources": [
+            {
+              "ar": "الأم",
+              "en": "Al-Umm",
+              "ru": "«Аль-Умм»",
+              "es": "Al-Umm",
+              "uk": "«Аль-Умм»"
+            },
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "المجموع",
+              "en": "Al-Majmūʿ",
+              "ru": "«Аль-Маджму»",
+              "es": "Al-Majmūʿ",
+              "uk": "«Аль-Маджму»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "تعيين الزوجين شرطٌ لصحّة النكاح: بالإشارة إليهما، أو بتسميتهما باسمٍ يختصّ به ولا يُشاركه فيه غيره، أو بصفةٍ لا تشتبه بغيرها. فلو زوّجه «بنته» وله غيرها، أو قال: «زوّجتك إحدى بناتي»، لم يصحّ النكاح للجهالة بالمعقود عليه.",
+            "en": "Identifying the spouses is a condition of the marriage's validity: by pointing to them, by naming them with a name proper to them and shared by no one else, or by an attribute not confused with another's. Were he to give him “his daughter” while having others, or to say “I have given you one of my daughters in marriage,” the marriage is not valid for ambiguity as to the one contracted for.",
+            "ru": "Определение супругов есть условие действительности брака: указанием на них, именованием таким именем, которое принадлежит им и ни с кем не разделяется, или признаком, не смешиваемым с иным. Если он выдаст ему «свою дочь», имея других, или скажет: «Я выдал за тебя одну из моих дочерей», брак недействителен из-за неопределённости того, о ком договор.",
+            "es": "Identificar a los cónyuges es condición de la validez del matrimonio: señalándolos, nombrándolos con un nombre que les sea propio y que ningún otro comparta, o por un rasgo que no se confunda con otro. Si le diera «su hija» teniendo otras, o dijera «te he dado en matrimonio a una de mis hijas», el matrimonio no es válido por ambigüedad sobre la persona contratada.",
+            "uk": "Визначення подружжя є умовою дійсності шлюбу: вказівкою на них, іменуванням таким ім'ям, яке належить їм і ні з ким не поділяється, або ознакою, що не змішується з іншою. Якщо він видасть йому «свою дочку», маючи інших, або скаже: «Я видав за тебе одну з моїх дочок», шлюб недійсний через невизначеність того, про кого договір."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "الكافي",
+              "en": "Al-Kāfī",
+              "ru": "«Аль-Кафи»",
+              "es": "Al-Kāfī",
+              "uk": "«Аль-Кафі»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
     }
   ],
   "articles": [
@@ -23380,7 +25038,8 @@
             "uk": "Хто неупереджено погляне на історію релігій, той побачить, що іслам прийшов не руйнувати працю попередніх пророків, а увінчати цю будівлю, виправити людське спотворення, що в неї проникло, і повернути компас людини до її першого й останнього напрямку: поклоніння єдиному Богу, без співучасника і без посередника."
           }
         }
-      ]
+      ],
+      "addedAt": "2026-09-01"
     },
     {
       "id": "bad-al-khalq",
@@ -23500,7 +25159,8 @@
           "es": "Jāmiʿ al-Bayān",
           "uk": "«Джамі аль-Баян»"
         }
-      ]
+      ],
+      "addedAt": "2026-09-01"
     },
     {
       "id": "tahrif-scriptures",
@@ -23660,7 +25320,8 @@
           "es": "Al-Jawāb al-Ṣaḥīḥ",
           "uk": "«Аль-Джаваб ас-Сахіх»"
         }
-      ]
+      ],
+      "addedAt": "2026-09-02"
     },
     {
       "id": "proof-of-creation",
@@ -23807,7 +25468,8 @@
           "es": "Minhāj al-sunnah al-Nabawiyyah",
           "uk": "«Мінхадж ас-сунна ан-набавія»"
         }
-      ]
+      ],
+      "addedAt": "2026-09-03"
     },
     {
       "ref": "M5",
@@ -23951,7 +25613,8 @@
           "es": "Zād al-Maʿād fī Hady Khayr al-ʿIbād",
           "uk": "«Зад аль-Ма‘ад»"
         }
-      ]
+      ],
+      "addedAt": "2026-09-03"
     },
     {
       "id": "christian-schisms",
@@ -24072,7 +25735,7 @@
           "uk": "«Тафсір Ібн Касіра»"
         }
       ],
-      "addedAt": "2026-09-17"
+      "addedAt": "2026-09-07"
     },
     {
       "id": "quran-preservation",
@@ -24213,6 +25876,156 @@
         }
       ],
       "addedAt": "2026-09-17"
+    },
+    {
+      "id": "beautiful-names",
+      "ref": "M8",
+      "chapter": {
+        "ar": "معرفة الله وصفاته",
+        "en": "Knowing God and His Attributes",
+        "ru": "Познание Бога и Его атрибутов",
+        "es": "El conocimiento de Dios y Sus atributos",
+        "uk": "Пізнання Бога та Його атрибутів"
+      },
+      "seq": 1,
+      "title": {
+        "ar": "الأسماء الحسنى: حقيقتها وعددها ومعناها",
+        "en": "The Beautiful Names of God: Their Reality, Their Number and Their Meaning",
+        "ru": "Прекрасные имена Бога: их суть, число и значение",
+        "es": "Los Bellos Nombres de Dios: su realidad, su número y su significado",
+        "uk": "Прекрасні імена Бога: їхня сутність, число та значення"
+      },
+      "excerpt": {
+        "ar": "ما الأسماء الحسنى، ولمَ لا تنحصر في تسعة وتسعين، ولمَ لا يُسمّى الله إلا بما سمّى به نفسه.",
+        "en": "What the Beautiful Names are, why they are not confined to ninety-nine, and why God is named only by what He has named Himself.",
+        "ru": "Что такое прекрасные имена, почему они не ограничены девяноста девятью и почему Бога называют лишь тем, чем Он назвал Себя Сам.",
+        "es": "Qué son los Bellos Nombres, por qué no se limitan a noventa y nueve y por qué a Dios sólo se le nombra con aquello con que Él se nombró a Sí mismo.",
+        "uk": "Що таке прекрасні імена, чому вони не обмежені дев'яноста дев'ятьма і чому Бога називають лише тим, чим Він назвав Себе Сам."
+      },
+      "relatedRefs": [
+        "A1"
+      ],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "الأسماء الحسنى هي ما سمّى الله به نفسه من الأعلام والأوصاف. والإيمان بها ومعرفة معانيها أصلٌ في عقيدة المسلم، وعليها يقوم دعاؤه وتعبّده.\n\nوقد عُني علماء الإسلام بجمعها من الكتاب والسنّة وبيان معانيها، وبتحرير مسألتين كثُر فيهما الغلط: عددها، ومن أين تُؤخذ.",
+            "en": "The Beautiful Names are the proper names and descriptions by which God has named Himself. Believing in them and knowing what they mean is a foundation of a Muslim's creed, and on them rest his supplication and his worship.\n\nMuslim scholars gathered them from the Qurʾān and the sunnah and set out their meanings, and settled two questions in which error has been common: how many they are, and where they may be taken from.",
+            "ru": "Прекрасные имена — это имена собственные и описания, которыми Бог назвал Себя Сам. Вера в них и знание их смысла есть основа вероубеждения мусульманина, и на них держатся его мольба и его поклонение.\n\nМусульманские учёные собрали их из Корана и Сунны, изложили их значения и разрешили два вопроса, в которых часто ошибаются: сколько их и откуда они берутся.",
+            "es": "Los Bellos Nombres son los nombres propios y las descripciones con que Dios se ha nombrado a Sí mismo. Creer en ellos y conocer su significado es un fundamento del credo del musulmán, y sobre ellos descansan su súplica y su adoración.\n\nLos sabios del islam los reunieron del Corán y la sunnah, expusieron sus significados y resolvieron dos cuestiones en las que el error ha sido frecuente: cuántos son y de dónde se toman.",
+            "uk": "Прекрасні імена — це власні імена та описи, якими Бог назвав Себе Сам. Віра в них і знання їхнього змісту є основою віровчення мусульманина, і на них тримаються його благання та його поклоніння.\n\nМусульманські вчені зібрали їх із Корану та Сунни, виклали їхні значення й розв'язали два питання, у яких помилка є частою: скільки їх і звідки вони беруться."
+          }
+        },
+        {
+          "id": "meaning",
+          "heading": {
+            "ar": "ما تدلّ عليه الأسماء: عَلَمٌ ووصفُ كمال معاً",
+            "en": "What the Names Signify: a Proper Name and an Attribute of Perfection at Once",
+            "ru": "На что указывают имена: имя собственное и атрибут совершенства разом",
+            "es": "A qué apuntan los Nombres: nombre propio y atributo de perfección a la vez",
+            "uk": "На що вказують імена: власне ім'я та атрибут досконалості водночас"
+          },
+          "body": {
+            "ar": "يتميّز الاسم من أسماء الله بأنه يدلّ على أمرين معاً: على الذات، وعلى صفة كمالٍ قائمةٍ بها لا نقص فيها بوجه. فـ**العليم** يدلّ على الذات ويثبت علماً محيطاً، و**الرحيم** يدلّ على الذات ويثبت رحمةً واسعة. وهذا ما يفرّق الاسم عن اللقب المجرّد.\n\nوقد أمر الله عباده أن يدعوه بها: ﴿وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا﴾ سورة الأعراف: ١٨٠. والدعاء بها نوعان: دعاء مسألةٍ تُطلب فيه الحاجة باسمٍ يناسبها، ودعاء عبادةٍ يُثنى فيه على الله بمقتضاها.",
+            "en": "A name of God is distinguished by signifying two things at once: the Essence, and an attribute of perfection subsisting in it with no deficiency in any respect. **The All-Knowing** points to the Essence and affirms an all-encompassing knowledge; **the Merciful** points to the Essence and affirms a vast mercy. This is what separates a name from a mere title.\n\nGod has commanded His servants to call upon Him by them — Sūrat al-Aʿrāf, verse 180. Calling upon Him by them is of two kinds: the supplication of asking, in which a need is sought through the name that fits it, and the supplication of worship, in which God is praised by what the name entails.",
+            "ru": "Имя Бога отличается тем, что указывает на две вещи разом: на Сущность и на атрибут совершенства, ей присущий, без какого бы то ни было недостатка. **Всезнающий** указывает на Сущность и утверждает всеохватное знание; **Милосердный** указывает на Сущность и утверждает безграничную милость. Именно это отличает имя от простого титула.\n\nБог повелел Своим рабам взывать к Нему посредством них — сура «аль-Араф», аят 180. Такое взывание двояко: мольба-просьба, в которой нужда испрашивается именем, ей соответствующим, и мольба-поклонение, в которой Бога восхваляют сообразно тому, что имя заключает.",
+            "es": "Un nombre de Dios se distingue por significar dos cosas a la vez: la Esencia y un atributo de perfección que le es propio, sin deficiencia alguna. **El Omnisciente** apunta a la Esencia y afirma un conocimiento que todo lo abarca; **el Misericordioso** apunta a la Esencia y afirma una misericordia vasta. Esto es lo que separa un nombre de un mero título.\n\nDios ha ordenado a Sus siervos invocarlo por ellos —sura al-Aʿrāf, aleya 180—. Invocarlo así es de dos clases: la súplica de petición, en la que se pide una necesidad por el nombre que le corresponde, y la súplica de adoración, en la que se alaba a Dios conforme a lo que el nombre entraña.",
+            "uk": "Ім'я Бога вирізняється тим, що вказує на дві речі водночас: на Сутність і на атрибут досконалості, їй притаманний, без жодного недоліку. **Всезнаючий** вказує на Сутність і стверджує всеохопне знання; **Милосердний** вказує на Сутність і стверджує безмежну милість. Саме це відрізняє ім'я від простого титулу.\n\nБог наказав Своїм рабам звертатися до Нього через них — сура «аль-Араф», аят 180. Таке звернення двояке: благання-прохання, у якому потребу просять іменем, що їй відповідає, і благання-поклоніння, у якому Бога вихваляють згідно з тим, що ім'я містить."
+          }
+        },
+        {
+          "id": "count",
+          "heading": {
+            "ar": "العدد: لمَ لا تنحصر في تسعة وتسعين",
+            "en": "The Number: Why They Are Not Confined to Ninety-Nine",
+            "ru": "Число: почему они не ограничены девяноста девятью",
+            "es": "El número: por qué no se limitan a noventa y nueve",
+            "uk": "Число: чому вони не обмежені дев'яноста дев'ятьма"
+          },
+          "body": {
+            "ar": "يظنّ كثيرٌ من الناس أن أسماء الله محصورةٌ في تسعة وتسعين، استناداً إلى حديثٍ في الصحيحين: «إنّ لله تسعةً وتسعين اسماً، مائةً إلا واحداً، من أحصاها دخل الجنة». والذي حقّقه أهل العلم أن الحديث لا يفيد الحصر، وإنما يفيد أن من أحصى هذا العدد المعيّن فله الجنة — والإخبار بثواب عددٍ ليس نفياً لما وراءه.\n\nومن أظهر ما يدلّ على ذلك دعاءٌ مرويٌّ عن النبيّ ﷺ يسأل فيه ربّه بكلّ اسمٍ له: ما سمّى به نفسه، أو أنزله في كتابه، أو علّمه أحداً من خلقه، أو استأثر به في علم الغيب عنده. فأثبت أن لله أسماءً لم يُطلِع عليها أحداً، وما كان كذلك لا يدخل تحت عدّ.",
+            "en": "Many suppose that God's Names are confined to ninety-nine, relying on a hadith in the two authentic collections which states that God has ninety-nine Names, a hundred less one, and that whoever masters them enters the Garden. What the scholars established is that the hadith does not confine them; it states that whoever masters this particular number has the Garden — and naming the reward of a number is not a denial of what lies beyond it.\n\nAmong the clearest evidence for this is a supplication reported from the Prophet in which he asks his Lord by every Name that is His: what He has named Himself with, or sent down in His Book, or taught to any of His creation, or kept to Himself in the knowledge of the unseen. This establishes that God has Names He has disclosed to no one, and what is such cannot fall under a count.",
+            "ru": "Многие полагают, что имена Бога ограничены девяноста девятью, опираясь на хадис в двух достоверных сводах, где сказано, что у Бога девяносто девять имён, сто без одного, и что постигший их войдёт в Рай. Учёные же установили, что хадис не ограничивает: он говорит, что постигшему это определённое число уготован Рай, — а указание награды за некое число не есть отрицание того, что сверх него.\n\nЯснейшее тому свидетельство — переданная от Пророка мольба, в которой он просит Господа каждым именем, что Ему принадлежит: которым Он назвал Себя, или ниспослал в Своём Писании, или научил кого-либо из Своих творений, или оставил при Себе в знании сокровенного. Отсюда следует, что у Бога есть имена, которых Он никому не открыл, а такое не поддаётся счёту.",
+            "es": "Muchos suponen que los Nombres de Dios se limitan a noventa y nueve, apoyándose en un hadiz de las dos colecciones auténticas según el cual Dios tiene noventa y nueve nombres, cien menos uno, y quien los abarca entra en el Jardín. Lo que los sabios establecieron es que el hadiz no los limita: dice que quien abarca ese número determinado tiene el Jardín, y señalar la recompensa de un número no niega lo que hay más allá.\n\nEntre las pruebas más claras está una súplica transmitida del Profeta en la que pide a su Señor por todo Nombre que es Suyo: aquel con que se nombró a Sí mismo, o hizo descender en Su Libro, o enseñó a alguna de Sus criaturas, o se reservó en el conocimiento de lo oculto. Esto establece que Dios tiene Nombres que no ha revelado a nadie, y lo así velado no cae bajo cuenta alguna.",
+            "uk": "Багато хто гадає, що імена Бога обмежені дев'яноста дев'ятьма, спираючись на хадис у двох достовірних збірках, де сказано, що в Бога дев'яносто дев'ять імен, сто без одного, і що той, хто осягне їх, увійде до Раю. Учені ж встановили, що хадис не обмежує: він говорить, що тому, хто осягне це визначене число, уготовано Рай, — а вказівка нагороди за певне число не є запереченням того, що понад нього.\n\nНайяснішим свідченням цього є передане від Пророка благання, у якому він просить Господа кожним ім'ям, що Йому належить: яким Він назвав Себе, або зіслав у Своєму Писанні, або навчив когось зі Своїх творінь, або залишив при Собі у знанні потаємного. Звідси випливає, що в Бога є імена, яких Він нікому не відкрив, а таке не піддається лічбі."
+          }
+        },
+        {
+          "id": "tawqif",
+          "heading": {
+            "ar": "من أين تُؤخذ: لا يُسمّى الله إلا بما سمّى به نفسه",
+            "en": "Where They Are Taken From: God Is Named Only by What He Has Named Himself",
+            "ru": "Откуда они берутся: Бога называют лишь тем, чем Он назвал Себя Сам",
+            "es": "De dónde se toman: a Dios sólo se le nombra con aquello con que Él se nombró",
+            "uk": "Звідки вони беруться: Бога називають лише тим, чим Він назвав Себе Сам"
+          },
+          "body": {
+            "ar": "الذي عليه جمهور أهل السنّة أن الأسماء **توقيفية**: لا يُطلق على الله اسمٌ إلا ما ورد في القرآن أو في السنّة الصحيحة. فليس للعقل أن يشتقّ لله اسماً من عنده وإن بدا معناه صحيحاً، لأن الاسم إخبارٌ عن الغيب لا موضع فيه للاجتهاد.\n\nولهذا كان **ما يُخبَر به** عن الله أوسع ممّا **يُسمّى** به. فيصحّ أن يُقال: هو موجودٌ، وهو قديم — إخباراً عن حقيقة ثابتة. ولا يصحّ أن يُتّخذ «الموجود» و«القديم» اسمين من أسمائه، لأنهما لم يَرِدا كذلك. والخلط بين البابين هو مصدر أكثر ما يُنسب إلى الله من أسماءٍ لا أصل لها.",
+            "en": "The position of the great body of Sunni scholars is that the Names **depend on revelation**: no name is applied to God except one that occurs in the Qurʾān or in authentic sunnah. Reason may not derive a name for God of its own, however sound its meaning seems, because a name is a report about the unseen, and there is no room in that for independent judgement.\n\nHence **what may be predicated** of God is wider than **what He may be named** with. It is sound to say that He is existent and that He is pre-eternal, as a report of an established truth; it is not sound to take 'the Existent' and 'the Pre-eternal' as names of His, since they were not revealed as such. Confusing the two is the source of most of the names ascribed to God with no basis.",
+            "ru": "Мнение большинства учёных ахль ас-сунна таково, что имена **основаны на откровении**: Богу не приписывают имени, кроме того, что пришло в Коране или в достоверной Сунне. Разуму не дано вывести Богу имя от себя, каким бы верным ни казался его смысл, ибо имя есть сообщение о сокровенном, а в этом нет места самостоятельному суждению.\n\nПоэтому **то, что сообщают** о Боге, шире **того, чем Его называют**. Верно сказать, что Он существующий и что Он предвечный, — как сообщение об установленной истине; но неверно брать «Существующий» и «Предвечный» как Его имена, ибо они не пришли в таком качестве. Смешение этих двух областей и есть источник большинства имён, приписываемых Богу без основания.",
+            "es": "La posición de la gran mayoría de los sabios sunníes es que los Nombres **se fundan en la revelación**: no se aplica a Dios nombre alguno salvo el que consta en el Corán o en la sunnah auténtica. La razón no puede derivar por sí un nombre para Dios, por acertado que parezca su significado, pues el nombre es una noticia sobre lo oculto, y en ello no cabe el juicio propio.\n\nPor eso **lo que se predica** de Dios es más amplio que **aquello con que se le nombra**. Es correcto decir que Él es existente y preeterno, como noticia de una verdad establecida; no es correcto tomar «el Existente» y «el Preeterno» como nombres Suyos, pues no se revelaron como tales. Confundir ambos ámbitos es la fuente de la mayoría de los nombres atribuidos a Dios sin fundamento.",
+            "uk": "Думка більшості вчених ахль ас-сунна така, що імена **засновані на одкровенні**: Богові не приписують імені, крім того, що прийшло в Корані або в достовірній Сунні. Розумові не дано вивести Богові ім'я від себе, яким би слушним не видавався його зміст, бо ім'я є повідомленням про потаємне, а в цьому немає місця самостійному судженню.\n\nТому **те, що повідомляють** про Бога, ширше за **те, чим Його називають**. Правильно сказати, що Він існуючий і що Він передвічний, — як повідомлення про встановлену істину; але неправильно брати «Існуючий» і «Передвічний» як Його імена, бо вони не прийшли в такій якості. Змішування цих двох царин і є джерелом більшості імен, приписуваних Богові без підстави."
+          }
+        },
+        {
+          "id": "impact",
+          "heading": {
+            "ar": "أثر معرفتها: من الحفظ إلى العمل",
+            "en": "The Effect of Knowing Them: from Memorising to Acting",
+            "ru": "Действие их познания: от заучивания к делу",
+            "es": "El efecto de conocerlos: de la memorización a la acción",
+            "uk": "Дія їх пізнання: від заучування до вчинку"
+          },
+          "body": {
+            "ar": "إحصاء الأسماء ليس حفظاً للألفاظ وحده، بل فهمٌ لمعانيها وعملٌ بمقتضاها. فمن عرف أنه **الرزّاق** تعلّق به وحده في طلب رزقه، ومن عرف أنه **السميع البصير** راقبه في سرّه كما في علانيته.\n\nوثمرة ذلك تظهر في استقامة السلوك والتوكّل. فالعلم بالأسماء والصفات يورث الخشية والمحبّة والرجاء، وهي أعمال القلوب التي تقوم عليها العبودية وتزكية النفس.",
+            "en": "Mastering the Names is not memorising words alone but understanding what they mean and acting on what they require. Whoever knows that He is **the Provider** attaches himself to Him alone in seeking his provision; whoever knows that He is **the All-Hearing, the All-Seeing** is mindful of Him in private as in public.\n\nThe fruit of this appears in uprightness of conduct and in reliance. Knowledge of the Names and attributes gives rise to awe, love and hope — the works of the heart on which servitude and the purification of the soul rest.",
+            "ru": "Постижение имён — не заучивание слов, а понимание их смысла и поступок согласно тому, чего они требуют. Кто знает, что Он **Наделяющий уделом**, тот привязывается к Нему одному в поиске удела; кто знает, что Он **Всеслышащий, Всевидящий**, тот помнит о Нём втайне так же, как и явно.\n\nПлод этого виден в праведности поведения и в уповании. Знание имён и атрибутов рождает благоговение, любовь и надежду — дела сердца, на которых держатся служение и очищение души.",
+            "es": "Abarcar los Nombres no es memorizar palabras, sino entender su significado y obrar conforme a lo que exigen. Quien sabe que Él es **el Proveedor** se apega sólo a Él al buscar su sustento; quien sabe que Él es **el que todo lo Oye y todo lo Ve** lo tiene presente en lo secreto igual que en lo público.\n\nEl fruto de esto se ve en la rectitud de la conducta y en la confianza. El conocimiento de los Nombres y atributos engendra temor reverente, amor y esperanza: las obras del corazón sobre las que descansan la servidumbre y la purificación del alma.",
+            "uk": "Осягнення імен — не заучування слів, а розуміння їхнього змісту і вчинок згідно з тим, чого вони вимагають. Хто знає, що Він **Той, Хто наділяє уділом**, той прив'язується лише до Нього в пошуку уділу; хто знає, що Він **Всечуючий, Всевидячий**, той пам'ятає про Нього потай так само, як і явно.\n\nПлід цього видно у праведності поведінки та в уповані. Знання імен і атрибутів породжує благоговіння, любов і надію — діла серця, на яких тримаються служіння й очищення душі."
+          }
+        },
+        {
+          "id": "closing",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "الإيمان بالأسماء الحسنى ومعرفة معانيها بابٌ إلى تعظيم الله ومحبّته. ومع ما ورد في إحصاء التسعة والتسعين من فضل، فإن أسماءه وكمالاته لا يحدّها عدّ ولا يحيط بها حصر — وفي ذلك بيانٌ لعجز الخلق عن إدراك حقيقة جلاله.",
+            "en": "Believing in the Beautiful Names and knowing their meanings is a door to revering God and loving Him. And though there is merit in mastering the ninety-nine, His Names and perfections are bounded by no count and encompassed by no limit — which shows how far creation falls short of grasping the reality of His majesty.",
+            "ru": "Вера в прекрасные имена и знание их смысла есть врата к почитанию Бога и любви к Нему. И хотя в постижении девяноста девяти есть достоинство, имена Его и совершенства не ограничены счётом и не объемлются пределом, — а в этом указание на бессилие творения постичь истину Его величия.",
+            "es": "Creer en los Bellos Nombres y conocer su significado es una puerta a venerar a Dios y amarlo. Y aunque hay mérito en abarcar los noventa y nueve, Sus Nombres y perfecciones no los ciñe cuenta ni los abarca límite: en ello se muestra cuán incapaz es lo creado de alcanzar la verdad de Su majestad.",
+            "uk": "Віра в прекрасні імена і знання їхнього змісту є брамою до шанування Бога та любові до Нього. І хоча в осягненні дев'яноста дев'яти є гідність, імена Його й досконалості не обмежені лічбою і не охоплюються межею, — а в цьому вказівка на безсилля творіння осягнути істину Його величі."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "مجموع الفتاوى",
+          "en": "Majmūʿ al-Fatāwā",
+          "ru": "«Маджму аль-фатава»",
+          "es": "Majmūʿ al-Fatāwā",
+          "uk": "«Маджму аль-фатава»"
+        },
+        {
+          "ar": "شرح الطحاوية",
+          "en": "Sharḥ al-Ṭaḥāwiyyah",
+          "ru": "«Шарх ат-Тахавия»",
+          "es": "Sharḥ al-Ṭaḥāwiyyah",
+          "uk": "«Шарх ат-Тахавія»"
+        }
+      ],
+      "addedAt": "2026-09-26"
     }
   ]
 }
