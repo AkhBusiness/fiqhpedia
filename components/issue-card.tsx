@@ -1,7 +1,8 @@
 "use client"
 
+import { reportHref } from "@/lib/report"
 import { useEffect, useRef, useState } from "react"
-import { Bookmark, BookMarked, Check, Copy, Lightbulb, Pause, Share2, Volume2 } from "lucide-react"
+import { BookMarked, Bookmark, Check, Copy, Lightbulb, MessageSquareWarning, Pause, Share2, Volume2 } from "lucide-react"
 import { GradeBadge } from "@/components/grade-badge"
 import { PrayerTimesPanel } from "@/components/prayer-times-panel"
 import { GlossaryText } from "@/components/glossary-tooltip"
@@ -314,6 +315,11 @@ export function IssueCard({
       {TIMED_ISSUES[issue.ref] ? (
         <PrayerTimesPanel lang={lang} prayer={TIMED_ISSUES[issue.ref]} />
       ) : null}
+
+      {/* At the foot of the card, not among the header icons: that row
+          already squeezes the title into a sliver on a phone, and reporting
+          is something a reader reaches for after reading, not before. */}
+      <ReportLink issue={issue} lang={lang} />
     </article>
   )
 }
@@ -330,4 +336,28 @@ const TIMED_ISSUES: Record<string, "fajr" | "dhuhr" | "asr" | "maghrib" | "isha"
   F15: "asr",
   F42: "maghrib",
   F43: "isha",
+}
+
+/**
+ * Rendered only after mount: the link carries the page's own address, which
+ * the static HTML does not know, and a link that changes on hydration would
+ * flash or mismatch. Absent entirely when no destination is configured.
+ */
+function ReportLink({ issue, lang }: { issue: Issue; lang: Lang }) {
+  const [href, setHref] = useState<string | null>(null)
+  useEffect(() => setHref(reportHref(issue, lang)), [issue, lang])
+  if (!href) return null
+  return (
+    <div className="mt-4 flex justify-end border-t border-white/5 pt-3">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-xs text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
+      >
+        <MessageSquareWarning className="size-3.5" aria-hidden="true" />
+        {ui.reportError[lang]}
+      </a>
+    </div>
+  )
 }

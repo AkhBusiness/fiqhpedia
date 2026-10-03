@@ -1268,6 +1268,41 @@
       "ru": "Изменено за последние три дня",
       "es": "Revisado en los últimos tres días",
       "uk": "Змінено протягом останніх трьох днів"
+    },
+    "schoolHintText": {
+      "ar": "تعرض الموسوعة أقوال المذاهب الأربعة معاً. اختر مذهبك لترى قوله وحده.",
+      "en": "Every ruling shows all four schools side by side. Pick your school to see its view alone.",
+      "ru": "Каждое решение показано по всем четырём мазхабам. Выберите свой, чтобы видеть только его.",
+      "es": "Cada norma muestra las cuatro escuelas a la vez. Elige la tuya para ver solo su opinión.",
+      "uk": "Кожне рішення показано за всіма чотирма мазхабами. Оберіть свій, щоб бачити лише його."
+    },
+    "schoolHintAction": {
+      "ar": "اختر مذهبك",
+      "en": "Pick a school",
+      "ru": "Выбрать мазхаб",
+      "es": "Elegir escuela",
+      "uk": "Обрати мазхаб"
+    },
+    "reportError": {
+      "ar": "أبلغ عن خطأ في هذه المسألة",
+      "en": "Report a mistake in this entry",
+      "ru": "Сообщить об ошибке",
+      "es": "Informar de un error",
+      "uk": "Повідомити про помилку"
+    },
+    "reportSubject": {
+      "ar": "خطأ في المسألة",
+      "en": "Mistake in entry",
+      "ru": "Ошибка в статье",
+      "es": "Error en la entrada",
+      "uk": "Помилка в статті"
+    },
+    "reportPrompt": {
+      "ar": "ما الخطأ؟ (في أيّ مذهب، وفي أيّ لغة)",
+      "en": "What is wrong? (which school, which language)",
+      "ru": "В чём ошибка? (какой мазхаб, какой язык)",
+      "es": "¿Qué está mal? (qué escuela, qué idioma)",
+      "uk": "У чому помилка? (який мазхаб, яка мова)"
     }
   },
   "books": [

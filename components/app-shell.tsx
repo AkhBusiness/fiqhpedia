@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { useRouter } from "next/navigation"
-import { Library, RotateCcw, SlidersHorizontal } from "lucide-react"
+import { Library, RotateCcw, Scale, SlidersHorizontal, X } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
 import { CategoryTabs } from "@/components/category-tabs"
 import { IssueCard, type ViewMode } from "@/components/issue-card"
@@ -66,6 +66,28 @@ export function AppShell({ lang, section }: AppShellProps) {
   const [shareIssue, setShareIssue] = useState<Issue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
   const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
+  const [hintDismissed, setHintDismissed] = useState(true)
+  useEffect(() => {
+    try {
+      setHintDismissed(window.localStorage.getItem(HINT_KEY) === "1")
+    } catch {
+      setHintDismissed(false)
+    }
+  }, [])
+  const dismissHint = () => {
+    setHintDismissed(true)
+    try {
+      window.localStorage.setItem(HINT_KEY, "1")
+    } catch {
+      // Private browsing: it simply returns next visit.
+    }
+  }
+  const showSchoolHint =
+    prefHydrated &&
+    !hintDismissed &&
+    !pref.school &&
+    !pref.country &&
+    (section === "home" || section === "fiqh")
 
   const dir = rtlLangs.includes(lang) ? "rtl" : "ltr"
 
@@ -95,7 +117,11 @@ export function AppShell({ lang, section }: AppShellProps) {
     if (!prefHydrated || onboardingSettled) return
     setOnboardingSettled(true)
     if (pref.school) setFilter({ mode: "single", school: pref.school })
-    else if (!pref.country) setOnboardingOpen(true)
+    // No modal on arrival. It stood between every first-time reader and the
+    // page — including one who came from a shared link to a single ruling —
+    // and asked first for a language the URL had already settled. The
+    // invitation to pick a school is the banner below: visible, skippable,
+    // and never in the way of the content.
   }, [prefHydrated, onboardingSettled, pref.school, pref.country, setFilter, setOnboardingOpen, setOnboardingSettled])
 
   // Deep link: /#F12 switches to the right section and book, clears any
@@ -261,6 +287,20 @@ export function AppShell({ lang, section }: AppShellProps) {
       />
 
       <SectionTabs lang={lang} active={section} onSelect={go} />
+
+      {showSchoolHint ? (
+        <SchoolHint
+          lang={lang}
+          onPick={() => {
+            // Straight to the school step: the language is already chosen,
+            // by the address the reader is on.
+            setOnboardingStep(2)
+            setOnboardingOpen(true)
+            dismissHint()
+          }}
+          onDismiss={dismissHint}
+        />
+      ) : null}
 
       {section === "fiqh" ? (
         <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
@@ -447,6 +487,49 @@ export function AppShell({ lang, section }: AppShellProps) {
           // newcomers straight onto Iman rulings before they saw the home page.
         }}
       />
+    </div>
+  )
+}
+
+const HINT_KEY = "fiqh:school-hint-dismissed"
+
+/**
+ * The quiet replacement for the arrival modal. It says what choosing a school
+ * does — the encyclopedia shows all four by default, and a reader may not
+ * know that one can be singled out — and gets out of the way once answered
+ * or closed. It does not come back after being closed.
+ */
+function SchoolHint({
+  lang,
+  onPick,
+  onDismiss,
+}: {
+  lang: Lang
+  onPick: () => void
+  onDismiss: () => void
+}) {
+  return (
+    <div className="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
+      <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] py-2.5 ps-4 pe-2">
+        <Scale className="size-4 shrink-0 text-zinc-400" aria-hidden="true" />
+        <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">{ui.schoolHintText[lang]}</p>
+        <button
+          type="button"
+          onClick={onPick}
+          className="shrink-0 rounded-full bg-primary px-3.5 py-1.5 text-xs font-bold text-primary-foreground transition-opacity hover:opacity-90"
+        >
+          {ui.schoolHintAction[lang]}
+        </button>
+        <button
+          type="button"
+          onClick={onDismiss}
+          aria-label={ui.close[lang]}
+          title={ui.close[lang]}
+          className="flex size-8 shrink-0 items-center justify-center rounded-full text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
+        >
+          <X className="size-4" aria-hidden="true" />
+        </button>
+      </div>
     </div>
   )
 }
