@@ -11,6 +11,7 @@
 /* ------------------------------------------------------------------ */
 
 import fiqhData from "@/data/fiqhData.json"
+import coreData from "@/data/content/core.json"
 
 /* ------------------------------------------------------------------ */
 /* Types                                                               */
@@ -496,7 +497,35 @@ const DEFAULT_SCHOOL_COLOR: School["color"] = {
 /* Exported, fully-typed data — mapped dynamically from the JSON       */
 /* ------------------------------------------------------------------ */
 
-export const ui = data.ui as Record<string, Localized>
+/**
+ * Interface strings, read from their source and never from the built file.
+ *
+ * They used to come from data/fiqhData.json, which build_data.py copies them
+ * into. That file is committed, and the host serves the committed copy — it
+ * does not rebuild it. So a component that shipped together with a new string
+ * read a copy made before the string existed, got `undefined`, and the whole
+ * page fell over ("This page couldn't load", 2026-10-07). Code and its strings
+ * now travel in the same commit by construction.
+ *
+ * And a key that is still missing renders as nothing rather than throwing:
+ * one absent label must never take the page down with it. The miss is logged
+ * so it is found, not swallowed.
+ */
+const MISSING: Localized = { ar: "", en: "", ru: "", es: "", uk: "" }
+export const ui: Record<string, Localized> = new Proxy(
+  (coreData as { ui: Record<string, Localized> }).ui,
+  {
+    get(target, key, receiver) {
+      if (typeof key !== "string" || key in Object.prototype || key === "toJSON" || key === "then") {
+        return Reflect.get(target, key, receiver)
+      }
+      const value = target[key]
+      if (value) return value
+      if (typeof console !== "undefined") console.error(`ui: missing string "${key}"`)
+      return MISSING
+    },
+  },
+)
 
 /** Display name of each grade, per language. */
 export const gradeLabels = (data.gradeLabels ?? {}) as Record<string, Localized>
