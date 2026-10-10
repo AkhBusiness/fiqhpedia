@@ -1,0 +1,89 @@
+{
+  "about": [
+    {
+      "id": "what",
+      "heading": {
+        "ar": "ما تبيان؟",
+        "en": "What Tibyān is",
+        "ru": "Что такое «Тибьян»",
+        "es": "Qué es Tibyān",
+        "uk": "Що таке «Тібьян»"
+      },
+      "body": {
+        "ar": "موسوعة تعرض حكم كل مذهب من المذاهب الأربعة — الحنفي والمالكي والشافعي والحنبلي — في كل مسألة، بمراجعه، وبخمس لغات.\n\nغايتها أن يجد كل قارئ مذهبَه الذي يتبعه ويقرأ حكمه كما قرّره فقهاؤه، لا أن يوازن بين المذاهب ليرجّح. فالمذاهب الأربعة كلّها على الحق، والعامّي يتبع مذهباً ولا يختار بين الأقوال بنفسه.",
+        "en": "An encyclopedia that gives, for every question, the ruling of each of the four schools — Ḥanafī, Mālikī, Shāfiʿī and Ḥanbalī — with its references, in five languages.\n\nIts aim is that every reader finds the school they follow and reads its ruling as its own jurists settled it — not that readers weigh the schools against each other to pick a winner. All four are sound, and a layperson follows a school rather than choosing between opinions on their own.",
+        "ru": "Энциклопедия, в которой по каждому вопросу приводится решение каждого из четырёх мазхабов — ханафитского, маликитского, шафиитского и ханбалитского — со ссылками на источники, на пяти языках.\n\nЕё цель — чтобы каждый читатель нашёл свой мазхаб и прочитал его решение так, как его установили факихи этого мазхаба, а не сравнивал мазхабы, чтобы выбрать «сильнейшее» мнение. Все четыре мазхаба истинны, и простой мусульманин следует мазхабу, а не выбирает между мнениями сам.",
+        "es": "Una enciclopedia que ofrece, para cada cuestión, el dictamen de cada una de las cuatro escuelas — ḥanafī, mālikī, shāfiʿī y ḥanbalī — con sus referencias, en cinco idiomas.\n\nSu propósito es que cada lector encuentre la escuela que sigue y lea su dictamen tal como lo fijaron sus juristas, no que compare las escuelas para elegir la «mejor». Las cuatro son válidas, y quien no es especialista sigue una escuela en lugar de escoger entre opiniones por su cuenta.",
+        "uk": "Енциклопедія, що з кожного питання подає рішення кожного з чотирьох мазгабів — ханафітського, малікітського, шафіїтського та ханбалітського — з посиланнями на джерела, п'ятьма мовами.\n\nЇї мета — щоб кожен читач знайшов свій мазгаб і прочитав його рішення так, як його встановили факіги цього мазгабу, а не порівнював мазгаби, щоб обрати «найсильнішу» думку. Усі чотири мазгаби істинні, і простий мусульманин дотримується мазгабу, а не обирає між думками сам."
+      }
+    },
+    {
+      "id": "sources",
+      "heading": {
+        "ar": "من أين تؤخذ الأحكام؟",
+        "en": "Where the rulings come from",
+        "ru": "Откуда берутся решения",
+        "es": "De dónde proceden los dictámenes",
+        "uk": "Звідки беруться рішення"
+      },
+      "body": {
+        "ar": "كل حكم منسوب إلى كتاب من كتب المذهب المعتمدة — كالمدوّنة ومواهب الجليل للمالكية، والهداية وردّ المحتار للحنفية، والمجموع ومنهاج الطالبين للشافعية، والمغني وكشّاف القناع للحنابلة. القائمة الكاملة في صفحة المراجع.\n\nالقائمة مقفلة: لا يُستشهد بكتاب خارجها، وما ليس من كتب المذهب لا يُنسب إليه. والمعروض في كل مذهب هو المعتمد عنده، لا قولٌ مرجوح ولا رأي فردي.",
+        "en": "Every ruling is attributed to one of the school's recognised reference works — al-Mudawwanah and Mawāhib al-Jalīl for the Mālikīs, al-Hidāyah and Radd al-Muḥtār for the Ḥanafīs, al-Majmūʿ and Minhāj al-Ṭālibīn for the Shāfiʿīs, al-Mughnī and Kashshāf al-Qināʿ for the Ḥanbalīs, among others. The full list is on the Sources page.\n\nThe list is closed: nothing outside it is cited, and no book is attributed to a school it does not belong to. What is shown for each school is its authoritative position — not a minority view and not an individual opinion.",
+        "ru": "Каждое решение возводится к одной из признанных книг мазхаба — «Аль-Мудаввана» и «Мавахиб аль-Джалиль» у маликитов, «Аль-Хидая» и «Радд аль-Мухтар» у ханафитов, «Аль-Маджму» и «Минхадж ат-Талибин» у шафиитов, «Аль-Мугни» и «Кашшаф аль-Кина» у ханбалитов и другие. Полный список — на странице «Источники».\n\nСписок закрыт: книги вне его не цитируются, и ни одна книга не приписывается мазхабу, к которому не принадлежит. Для каждого мазхаба приводится его принятое (муʿтамад) мнение — не слабое и не частное.",
+        "es": "Cada dictamen se atribuye a una de las obras de referencia reconocidas de la escuela — al-Mudawwanah y Mawāhib al-Jalīl entre los mālikíes, al-Hidāyah y Radd al-Muḥtār entre los ḥanafíes, al-Majmūʿ y Minhāj al-Ṭālibīn entre los shāfiʿíes, al-Mughnī y Kashshāf al-Qināʿ entre los ḥanbalíes, y otras. La lista completa está en la página de Fuentes.\n\nLa lista es cerrada: no se cita nada fuera de ella, y ningún libro se atribuye a una escuela a la que no pertenece. Lo que se muestra de cada escuela es su posición autorizada, no una opinión minoritaria ni individual.",
+        "uk": "Кожне рішення зводиться до однієї з визнаних книг мазгабу — «Аль-Мудаввана» і «Мавагіб аль-Джаліль» у малікітів, «Аль-Гідая» і «Радд аль-Мухтар» у ханафітів, «Аль-Маджму» і «Мінгадж ат-Талібін» у шафіїтів, «Аль-Мугні» і «Кашшаф аль-Кіна» у ханбалітів та інші. Повний список — на сторінці «Джерела».\n\nСписок закритий: книги поза ним не цитуються, і жодна книга не приписується мазгабу, до якого не належить. Для кожного мазгабу подається його прийнята (муʿтамад) думка — не слабка й не приватна."
+      }
+    },
+    {
+      "id": "grades",
+      "heading": {
+        "ar": "ماذا تعني الشارات؟",
+        "en": "What the badges mean",
+        "ru": "Что означают пометки",
+        "es": "Qué significan las etiquetas",
+        "uk": "Що означають позначки"
+      },
+      "body": {
+        "ar": "بجوار اسم المذهب قد تجد درجة الحكم: فرض · واجب · سنّة · مندوب · مباح · مكروه · حرام. وقد تجد تكييفه: ركن · شرط · سبب · مانع. والنقر عليها يعرض تعريفها عند ذلك المذهب تحديداً، فالمصطلح الواحد يختلف معناه بين المذاهب.\n\nوكثير من المسائل بلا شارة عمداً: متى يبدأ وقت العصر، وكم حدّ الماء الكثير، وما تعريف المقيم — هذه لا حكم تكليفي لها، وشارةٌ عليها تضليل.",
+        "en": "Beside a school's name you may see the ruling's grade — obligatory (farḍ), required (wājib), sunnah, recommended, permissible, disliked, forbidden — or its structural role: pillar, condition, cause, impediment. Tapping it shows the definition as that particular school uses it, because one term can mean different things in different schools.\n\nMany questions carry no badge on purpose: when ʿaṣr begins, how much water counts as \"a lot\", who counts as a resident — these have no normative grade, and a badge on them would mislead.",
+        "ru": "Рядом с названием мазхаба может стоять степень решения — фард · ваджиб · сунна · мандуб · мубах · макрух · харам — или его правовая природа: рукн · шарт · сабаб · маниʿ. Нажатие показывает определение именно в этом мазхабе: один и тот же термин в разных мазхабах значит разное.\n\nМногие вопросы намеренно без пометки: когда наступает аср, сколько воды считается «много», кто считается оседлым — у них нет нормативной степени, и пометка на них ввела бы в заблуждение.",
+        "es": "Junto al nombre de la escuela puede aparecer el grado del dictamen — farḍ · wājib · sunnah · mandūb · mubāḥ · makrūh · ḥarām — o su naturaleza jurídica: pilar, condición, causa, impedimento. Al pulsarlo se muestra la definición tal como la usa esa escuela en concreto, porque un mismo término significa cosas distintas en escuelas distintas.\n\nMuchas cuestiones no llevan etiqueta a propósito: cuándo empieza el ʿaṣr, cuánta agua cuenta como «mucha», quién es residente — no tienen grado normativo, y una etiqueta induciría a error.",
+        "uk": "Поруч із назвою мазгабу може стояти ступінь рішення — фард · ваджиб · сунна · мандуб · мубах · макрух · харам — або його правова природа: рукн · шарт · сабаб · маніʿ. Натискання показує визначення саме в цьому мазгабі: той самий термін у різних мазгабах значить різне.\n\nБагато питань навмисно без позначки: коли настає аср, скільки води вважається «багато», хто вважається осілим — вони не мають нормативного ступеня, і позначка на них вводила б в оману."
+      }
+    },
+    {
+      "id": "review",
+      "heading": {
+        "ar": "كيف تُكتب وتُراجع؟",
+        "en": "How entries are written and reviewed",
+        "ru": "Как пишутся и проверяются статьи",
+        "es": "Cómo se escriben y revisan las entradas",
+        "uk": "Як пишуться й перевіряються статті"
+      },
+      "body": {
+        "ar": "تُكتب كل مسألة بالعربية أولاً من كتب المذهب، ثم تُراجع شرعياً، ثم تُترجم إلى الإنجليزية والروسية والإسبانية والأوكرانية ويراجع كل ترجمة ناطقٌ بلغتها. ولا تُنشر مسألة ناقصة في لغة من الخمس.\n\nوإذا صُحّح حكم أو بُدّل مرجع بعد النشر ظهر على المسألة وسم «معدّلة» ثلاثة أيام مع سبب التعديل. أما الإملاء والترجمة فلا وسم لها.",
+        "en": "Every entry is written in Arabic first, from the school's books, then reviewed for juristic accuracy, then translated into English, Russian, Spanish and Ukrainian, each translation checked by a native speaker. No entry is published with any of the five languages missing.\n\nIf a ruling is corrected or a reference replaced after publication, the entry shows a \"revised\" badge for three days, with the reason. Spelling and translation fixes carry no badge.",
+        "ru": "Каждая статья сначала пишется по-арабски на основе книг мазхаба, затем проверяется на правовую точность, затем переводится на английский, русский, испанский и украинский, и каждый перевод вычитывает носитель языка. Статья не публикуется, если не хватает хотя бы одного из пяти языков.\n\nЕсли после публикации исправлено решение или заменён источник, у статьи три дня стоит пометка «исправлено» с указанием причины. Правки орфографии и перевода пометки не получают.",
+        "es": "Cada entrada se escribe primero en árabe a partir de los libros de la escuela, luego se revisa su exactitud jurídica y después se traduce al inglés, ruso, español y ucraniano; cada traducción la revisa un hablante nativo. Ninguna entrada se publica si falta alguno de los cinco idiomas.\n\nSi tras la publicación se corrige un dictamen o se sustituye una referencia, la entrada muestra durante tres días la etiqueta «revisada» con el motivo. Las correcciones de ortografía o traducción no llevan etiqueta.",
+        "uk": "Кожна стаття спершу пишеться арабською на основі книг мазгабу, потім перевіряється на правову точність, потім перекладається англійською, російською, іспанською та українською, і кожен переклад вичитує носій мови. Стаття не публікується, якщо бракує хоча б однієї з п'яти мов.\n\nЯкщо після публікації виправлено рішення або замінено джерело, у статті три дні стоїть позначка «виправлено» із зазначенням причини. Правки орфографії та перекладу позначки не отримують."
+      }
+    },
+    {
+      "id": "notfatwa",
+      "heading": {
+        "ar": "ليست دار إفتاء",
+        "en": "Not a fatwa service",
+        "ru": "Это не фетва",
+        "es": "No es un servicio de fatwas",
+        "uk": "Це не фетва"
+      },
+      "body": {
+        "ar": "تبيان يعرض ما قرّره المذهب في المسألة بوجهها العام. وحالتك قد تحمل تفصيلاً يغيّر الحكم. فاسأل عالماً تثق به في بلدك عمّا يخصّك، وخذ من هنا ما تسأله عنه.\n\nوإن رأيت خطأً — في حكم أو نسبة أو ترجمة — فأسفل كل مسألة رابط للإبلاغ، ويُنظر في كل بلاغ.",
+        "en": "Tibyān presents what a school has settled on a question in its general form. Your own situation may carry a detail that changes the ruling. Ask a scholar you trust where you live about what concerns you, and bring what you read here to that conversation.\n\nIf you spot a mistake — in a ruling, an attribution or a translation — every entry has a report link at the bottom, and every report is looked into.",
+        "ru": "«Тибьян» излагает решение мазхаба по вопросу в его общем виде. В вашей ситуации может быть деталь, которая меняет решение. Спросите учёного, которому доверяете, там, где вы живёте, а прочитанное здесь принесите с собой как вопрос.\n\nЕсли вы заметили ошибку — в решении, в атрибуции или в переводе, — внизу каждой статьи есть ссылка для сообщения, и каждое сообщение рассматривается.",
+        "es": "Tibyān presenta lo que una escuela ha establecido sobre una cuestión en su forma general. Su situación puede tener un detalle que cambie el dictamen. Pregunte a un sabio de confianza en su lugar de residencia sobre lo que le concierne, y lleve a esa conversación lo que lea aquí.\n\nSi detecta un error — en un dictamen, una atribución o una traducción —, al pie de cada entrada hay un enlace para informar, y cada aviso se examina.",
+        "uk": "«Тібьян» викладає рішення мазгабу з питання в його загальному вигляді. У вашій ситуації може бути деталь, що змінює рішення. Запитайте вченого, якому довіряєте, там, де ви живете, а прочитане тут принесіть із собою як запитання.\n\nЯкщо ви помітили помилку — у рішенні, в атрибуції чи в перекладі, — внизу кожної статті є посилання для повідомлення, і кожне повідомлення розглядається."
+      }
+    }
+  ]
+}

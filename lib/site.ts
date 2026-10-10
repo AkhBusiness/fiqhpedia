@@ -36,3 +36,8 @@ export function sectionPath(lang: Lang, ref: string): string {
   const r = ref.trim().toUpperCase()
   return `/${lang}/${r[0] === "F" ? "fiqh" : r[0] === "M" ? "articles" : "aqidah"}`
 }
+
+/** Anchor of one reference work on the Sources page, from its Arabic name. */
+export function sourceAnchor(ar: string): string {
+  return `src-${ar.trim().replace(/\s+/g, "-")}`
+}

@@ -1436,6 +1436,62 @@
       "ru": "Попробуйте одно слово или другую формулировку, или откройте разделы:",
       "es": "Prueba con una sola palabra u otra formulación, o explora los libros:",
       "uk": "Спробуйте одне слово чи інше формулювання, або перегляньте розділи:"
+    },
+    "aboutSection": {
+      "ar": "منهجنا",
+      "en": "Our method",
+      "ru": "Наш подход",
+      "es": "Nuestro método",
+      "uk": "Наш підхід"
+    },
+    "aboutIntro": {
+      "ar": "ما هذا الموقع، ومن أين يأخذ أحكامه، وما الذي لا يدّعيه.",
+      "en": "What this site is, where its rulings come from, and what it does not claim.",
+      "ru": "Что это за сайт, откуда он берёт решения и на что не претендует.",
+      "es": "Qué es este sitio, de dónde toma sus dictámenes y qué no pretende.",
+      "uk": "Що це за сайт, звідки він бере рішення і на що не претендує."
+    },
+    "sourcesSection": {
+      "ar": "المراجع",
+      "en": "Sources",
+      "ru": "Источники",
+      "es": "Fuentes",
+      "uk": "Джерела"
+    },
+    "sourcesIntro": {
+      "ar": "الكتب التي تُنسب إليها الأحكام، كل مذهب بكتبه المعتمدة. القائمة مقفلة: لا يُستشهد بكتاب خارجها.",
+      "en": "The books the rulings are attributed to, each school with its recognised works. The list is closed: nothing outside it is cited.",
+      "ru": "Книги, к которым возводятся решения, — у каждого мазхаба свои признанные труды. Список закрыт: книги вне его не цитируются.",
+      "es": "Los libros a los que se atribuyen los dictámenes, cada escuela con sus obras reconocidas. La lista es cerrada: no se cita nada fuera de ella.",
+      "uk": "Книги, до яких зводяться рішення, — у кожного мазгабу свої визнані праці. Список закритий: книги поза ним не цитуються."
+    },
+    "citedIn": {
+      "ar": "يُستشهد به في {n} مسألة",
+      "en": "cited in {n} entries",
+      "ru": "цитируется в {n} статьях",
+      "es": "citado en {n} entradas",
+      "uk": "цитується в {n} статтях"
+    },
+    "worksTitle": {
+      "ar": "مصادر المقالات",
+      "en": "Sources for the articles",
+      "ru": "Источники статей",
+      "es": "Fuentes de los artículos",
+      "uk": "Джерела статей"
+    },
+    "worksDesc": {
+      "ar": "تفسير وحديث وسيرة وتاريخ — للمقالات والأدلة، لا للأحكام الفقهية.",
+      "en": "Exegesis, hadith, biography and history — for the articles and proofs, not for the fiqh rulings.",
+      "ru": "Тафсир, хадисы, жизнеописание и история — для статей и доказательств, не для решений фикха.",
+      "es": "Exégesis, hadiz, biografía e historia — para los artículos y las pruebas, no para los dictámenes de fiqh.",
+      "uk": "Тафсір, хадиси, життєпис та історія — для статей і доказів, не для рішень фікгу."
+    },
+    "sourceLinkTitle": {
+      "ar": "عن هذا الكتاب في صفحة المراجع",
+      "en": "About this book on the Sources page",
+      "ru": "Об этой книге на странице «Источники»",
+      "es": "Sobre este libro en la página de Fuentes",
+      "uk": "Про цю книгу на сторінці «Джерела»"
     }
   },
   "books": [

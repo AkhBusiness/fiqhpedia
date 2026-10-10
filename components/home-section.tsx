@@ -242,6 +242,8 @@ export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionPro
               ["aqidah", ui.homeIntentAqidah[lang]],
               ["articles", ui.homeIntentArticles[lang]],
               ["glossary", ui.glossarySection[lang]],
+              ["about", ui.aboutSection[lang]],
+              ["sources", ui.sourcesSection[lang]],
             ] as [Section, string][]
           ).map(([key, label]) => (
             <button

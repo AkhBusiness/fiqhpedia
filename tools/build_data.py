@@ -255,6 +255,30 @@ def main() -> int:
         json.dump(index, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
+    # صفحة «منهجنا» من data/content/pages.json، وصفحة «المراجع» من terms.json
+    # مع عدد المسائل التي يُستشهد فيها بكل كتاب — يُحسب هنا لا في المتصفّح.
+    pages_src = SRC / "pages.json"
+    pages = {k: v for k, v in load(pages_src).items() if not k.startswith("_")} if pages_src.exists() else {"about": []}
+    with (ROOT / "data" / "pages.json").open("w", encoding="utf-8") as fh:
+        json.dump(pages, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    terms = load(ROOT / "data" / "terms.json")
+    cited = {}
+    for i in ordered:
+        for r in i.get("rulings", {}).values():
+            for src in r.get("sources", []):
+                cited[src["ar"]] = cited.get(src["ar"], 0) + 1
+    books = [
+        {"ar": name, "school": meta["school"], "cited": cited.get(name, 0),
+         **{l: meta.get(l, name) for l in ("en", "ru", "es", "uk")}}
+        for name, meta in terms.get("books", {}).items()
+    ]
+    books.sort(key=lambda b: (-b["cited"], b["ar"]))
+    works = [{"ar": name, **{l: meta.get(l, name) for l in ("en", "ru", "es", "uk")}} for name, meta in terms.get("works", {}).items()]
+    with (ROOT / "data" / "sources.json").open("w", encoding="utf-8") as fh:
+        json.dump({"books": books, "works": works}, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
     # مرادفات البحث: تُنسخ كما هي بلا تعليق، فالموقع يحمّلها في كل صفحة.
     syn_src = SRC / "synonyms.json"
     synonyms = {k: v for k, v in load(syn_src).items() if not k.startswith("_")} if syn_src.exists() else {}

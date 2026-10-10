@@ -8,7 +8,7 @@ export const dynamic = "force-static"
 
 /** Every page the site has, for search engines. Regenerated at each build. */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const sections = ["", "/fiqh", "/aqidah", "/articles", "/glossary", "/learn"]
+  const sections = ["", "/fiqh", "/aqidah", "/articles", "/glossary", "/learn", "/about", "/sources"]
   const alt = (path: (l: Lang) => string) => ({
     languages: Object.fromEntries(LANGS.map((l) => [l, path(l)])),
   })

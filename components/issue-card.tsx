@@ -5,6 +5,8 @@ import { useEffect, useRef, useState } from "react"
 import { BookMarked, Bookmark, Check, Copy, Lightbulb, MessageSquareWarning, Pause, Share2, Volume2 } from "lucide-react"
 import { GradeBadge } from "@/components/grade-badge"
 import dynamic from "next/dynamic"
+import Link from "next/link"
+import { sourceAnchor } from "@/lib/site"
 import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   categories,
@@ -283,7 +285,18 @@ export function IssueCard({
                   <div className="min-w-0">
                     <span className="text-[13px] leading-normal text-muted-foreground">
                       <span className="font-semibold">{ui.reference[lang]}: </span>
-                      {r.references.map((ref) => ref[lang]).join(" — ")}
+                      {r.references.map((ref, n) => (
+                        <span key={n}>
+                          {n > 0 ? " — " : null}
+                          <Link
+                            href={`/${lang}/sources#${sourceAnchor(ref.ar)}`}
+                            title={ui.sourceLinkTitle[lang]}
+                            className="underline decoration-white/20 decoration-dotted underline-offset-4 hover:text-foreground hover:decoration-current"
+                          >
+                            {ref[lang]}
+                          </Link>
+                        </span>
+                      ))}
                     </span>
                   </div>
                 </div>

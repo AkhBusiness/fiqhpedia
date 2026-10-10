@@ -32,6 +32,8 @@ const HomeSection = dynamic(() => import("@/components/home-section").then((m) =
 const TheologySection = dynamic(() => import("@/components/theology-section").then((m) => m.TheologySection))
 const ArticlesSection = dynamic(() => import("@/components/articles-section").then((m) => m.ArticlesSection))
 const GlossarySection = dynamic(() => import("@/components/glossary-section").then((m) => m.GlossarySection))
+const AboutSection = dynamic(() => import("@/components/about-section").then((m) => m.AboutSection))
+const SourcesSection = dynamic(() => import("@/components/sources-section").then((m) => m.SourcesSection))
 const LearnSection = dynamic(() => import("@/components/learn-section").then((m) => m.LearnSection))
 const GlobalSearch = dynamic(() => import("@/components/global-search").then((m) => m.GlobalSearch), { ssr: false })
 const ShareCardModal = dynamic(() => import("@/components/share-card-modal").then((m) => m.ShareCardModal), { ssr: false })
@@ -315,6 +317,10 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
             <ArticlesSection lang={lang} />
           ) : section === "glossary" ? (
             <GlossarySection lang={lang} visibleSchools={visibleSchools} />
+          ) : section === "about" ? (
+            <AboutSection lang={lang} />
+          ) : section === "sources" ? (
+            <SourcesSection lang={lang} />
           ) : (
             <LearnSection lang={lang} />
           )}
@@ -323,7 +329,15 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
 
       <footer className="mt-4 border-t border-white/10">
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-          <p className="text-pretty text-center text-xs leading-relaxed text-muted-foreground">{ui.footer[lang]}</p>
+          <nav className="mb-3 flex flex-wrap justify-center gap-x-5 gap-y-1" aria-label={ui.aboutSection[lang]}>
+            <Link href={`/${lang}/about`} className="inline-flex min-h-11 items-center text-[13px] font-semibold text-muted-foreground hover:text-foreground">
+              {ui.aboutSection[lang]}
+            </Link>
+            <Link href={`/${lang}/sources`} className="inline-flex min-h-11 items-center text-[13px] font-semibold text-muted-foreground hover:text-foreground">
+              {ui.sourcesSection[lang]}
+            </Link>
+          </nav>
+          <p className="text-pretty text-center text-[13px] leading-relaxed text-muted-foreground">{ui.footer[lang]}</p>
         </div>
       </footer>
 
