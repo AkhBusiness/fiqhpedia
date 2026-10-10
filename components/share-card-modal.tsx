@@ -4,7 +4,7 @@ import { useRef, useState } from "react"
 import { toPng } from "html-to-image"
 import { BookOpen, Download, Loader2 } from "lucide-react"
 import { Modal } from "@/components/modal"
-import { categories, type Issue, type Lang, type SchoolKey, rtlLangs, schools, ui } from "@/lib/fiqh-data"
+import { categories, type FullIssue, type Issue, type Lang, type SchoolKey, rtlLangs, schools, ui } from "@/lib/fiqh-data"
 
 /** Concrete hex accents (html-to-image resolves these reliably). */
 const HEX: Record<SchoolKey, string> = {
@@ -15,7 +15,7 @@ const HEX: Record<SchoolKey, string> = {
 }
 
 interface ShareCardModalProps {
-  issue: Issue | null
+  issue: FullIssue | null
   lang: Lang
   visibleSchools?: SchoolKey[]
   onClose: () => void

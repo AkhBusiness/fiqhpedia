@@ -2,31 +2,64 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { useRouter } from "next/navigation"
-import { Library, RotateCcw, Scale, SlidersHorizontal, X } from "lucide-react"
+import dynamic from "next/dynamic"
+import Link from "next/link"
+import { ChevronLeft, ChevronRight, Library, RotateCcw, Scale, SlidersHorizontal, X } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
 import { CategoryTabs } from "@/components/category-tabs"
-import { IssueCard, type ViewMode } from "@/components/issue-card"
+import type { ViewMode } from "@/components/issue-card"
+import { IssueRow } from "@/components/issue-row"
 import type { Section } from "@/components/nav-modal"
-import { ArticlesSection } from "@/components/articles-section"
 import { SectionTabs } from "@/components/section-tabs"
-import { SchoolSelectorModal, type SchoolFilter } from "@/components/school-selector-modal"
-import { TheologySection } from "@/components/theology-section"
-import { LearnSection } from "@/components/learn-section"
-import { HomeSection } from "@/components/home-section"
-import { GlobalSearch } from "@/components/global-search"
-import { GlossarySection } from "@/components/glossary-section"
+import type { SchoolFilter } from "@/components/school-selector-modal"
 import { ViewModeToggle } from "@/components/view-mode-toggle"
-import { ShareCardModal } from "@/components/share-card-modal"
 import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
-import { categories, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, searchAll, ui , findByRef } from "@/lib/fiqh-data"
+import { categories, type FullArticle, type FullIssue, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, type TheologyProof, ui, findByRef } from "@/lib/fiqh-data"
+import { entryPath, sectionPath } from "@/lib/site"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { usePreference } from "@/hooks/use-preference"
 import { useAppState } from "@/components/app-state"
+
+/*
+ * Each section and each modal is its own chunk, fetched when first shown.
+ * The shell used to carry all of them on every page — the glossary, the
+ * guides, the share-card canvas, the country picker — so a reader opening
+ * one ruling downloaded the machinery of five tabs they had not opened.
+ * Sections keep server rendering (their HTML is in the page); modals are
+ * closed on arrival and need no HTML at all.
+ */
+const IssueCard = dynamic(() => import("@/components/issue-card").then((m) => m.IssueCard))
+const ArticleView = dynamic(() => import("@/components/article-view").then((m) => m.ArticleView))
+const ProofView = dynamic(() => import("@/components/proof-view").then((m) => m.ProofView))
+const HomeSection = dynamic(() => import("@/components/home-section").then((m) => m.HomeSection))
+const TheologySection = dynamic(() => import("@/components/theology-section").then((m) => m.TheologySection))
+const ArticlesSection = dynamic(() => import("@/components/articles-section").then((m) => m.ArticlesSection))
+const GlossarySection = dynamic(() => import("@/components/glossary-section").then((m) => m.GlossarySection))
+const LearnSection = dynamic(() => import("@/components/learn-section").then((m) => m.LearnSection))
+const GlobalSearch = dynamic(() => import("@/components/global-search").then((m) => m.GlobalSearch), { ssr: false })
+const ShareCardModal = dynamic(() => import("@/components/share-card-modal").then((m) => m.ShareCardModal), { ssr: false })
+const SchoolSelectorModal = dynamic(
+  () => import("@/components/school-selector-modal").then((m) => m.SchoolSelectorModal),
+  { ssr: false },
+)
+
+/** One entry rendered on its own page, in place of the section's list. */
+export type Entry =
+  | { kind: "issue"; issue: FullIssue }
+  | { kind: "article"; article: FullArticle }
+  | { kind: "proof"; proof: TheologyProof }
 
 interface AppShellProps {
   /** From the route. The URL is the source of truth for both. */
   lang: Lang
   section: Section
+  /**
+   * Set by the per-entry routes (/ar/f/F109 and friends). The shell keeps
+   * its header, tabs, search and modals; only the middle changes. Read at
+   * build time by a server component, so the full text arrives as a prop
+   * and never through the client bundle.
+   */
+  entry?: Entry
 }
 
 /**
@@ -36,7 +69,7 @@ interface AppShellProps {
  * shared link reopens the same section in the same language. Changing either
  * is a navigation, which is what makes the back button work between tabs.
  */
-export function AppShell({ lang, section }: AppShellProps) {
+export function AppShell({ lang, section, entry }: AppShellProps) {
   const router = useRouter()
 
   /** Navigate to a section, keeping the current language. */
@@ -45,7 +78,13 @@ export function AppShell({ lang, section }: AppShellProps) {
 
   /** Switch language, staying on the same section. */
   const setLang = (next: Lang) =>
-    router.push(section === "home" ? `/${next}` : `/${next}/${section}`)
+    router.push(
+      entry
+        ? entryPath(next, entryRef(entry))
+        : section === "home"
+          ? `/${next}`
+          : `/${next}/${section}`,
+    )
 
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
   const [globalSearchOpen, setGlobalSearchOpen] = useState(false)
@@ -63,7 +102,7 @@ export function AppShell({ lang, section }: AppShellProps) {
   // فلتر الفصل داخل الباب المفتوح. لا يُحفظ في التفضيلات: هو اختيار
   // لحظي أثناء التصفّح، لا إعداد يعود إليه الزائر في الزيارة التالية.
   const [activeChapter, setActiveChapter] = useState("")
-  const [shareIssue, setShareIssue] = useState<Issue | null>(null)
+  const [shareIssue, setShareIssue] = useState<FullIssue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
   const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
   const [hintDismissed, setHintDismissed] = useState(true)
@@ -124,42 +163,21 @@ export function AppShell({ lang, section }: AppShellProps) {
     // and never in the way of the content.
   }, [prefHydrated, onboardingSettled, pref.school, pref.country, setFilter, setOnboardingOpen, setOnboardingSettled])
 
-  // Deep link: /#F12 switches to the right section and book, clears any
-  // filter that would hide the target, then scrolls the card into view.
-  // A ref pointing at a proof is handled by TheologySection instead.
+  // Deep link: /#F12 was the only address an entry had. Each now has a page
+  // of its own, so the old form is carried there — a link someone shared or
+  // bookmarked last month keeps working, it just arrives somewhere better.
   useEffect(() => {
     const applyHash = () => {
       const key = window.location.hash.replace("#", "").trim().toUpperCase()
       if (!key) return
       const found = findByRef(key)
       if (!found) return
-
-      // Proofs and articles live in their own tabs; switch there and let
-      // that section's own hash listener open the reader.
-      if (found.kind === "proof") {
-        go("aqidah")
-        return
-      }
-      if (found.kind === "article") {
-        go("articles")
-        return
-      }
-
-      go("fiqh")
-      setActiveCategory(found.item.categoryId)
-      setScope("all")
-      setQuery("")
-
-      // Wait for the category switch to render before scrolling.
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          document.getElementById(key)?.scrollIntoView({ behavior: "smooth", block: "start" })
-        })
-      })
+      router.replace(entryPath(lang, found.kind === "proof" ? found.ref : found.item.ref))
     }
     applyHash()
     window.addEventListener("hashchange", applyHash)
     return () => window.removeEventListener("hashchange", applyHash)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const counts = useMemo(() => {
@@ -210,10 +228,25 @@ export function AppShell({ lang, section }: AppShellProps) {
       )
   }, [activeCategory, activeChapter, scope, query, searching, searchScope, isBookmarked])
 
-  /** Matches outside the fiqh tab, so a search is never silently partial. */
+  /**
+   * Matches outside the fiqh tab, so a search is never silently partial.
+   * The other sections' text is not in the shell; it is fetched the first
+   * time the reader types, and the counts fill in when it lands.
+   */
+  const [fullSearch, setFullSearch] = useState<((q: string) => import("@/lib/fiqh-data").SearchResults) | null>(null)
+  useEffect(() => {
+    if (!searching || fullSearch) return
+    let alive = true
+    import("@/lib/fiqh-full").then((m) => {
+      if (alive) setFullSearch(() => m.searchAllFull)
+    })
+    return () => {
+      alive = false
+    }
+  }, [searching, fullSearch])
   const otherHits = useMemo(() => {
-    if (!searching) return null
-    const r = searchAll(query)
+    if (!searching || !fullSearch) return null
+    const r = fullSearch(query)
     const items = ([
       { key: "aqidah", label: ui.aqidahSection[lang], count: r.proofs.length, go: "aqidah" },
       { key: "articles", label: ui.articlesSection[lang], count: r.articles.length, go: "articles" },
@@ -223,7 +256,7 @@ export function AppShell({ lang, section }: AppShellProps) {
       (i) => i.count > 0,
     )
     return items.length > 0 ? items : null
-  }, [searching, query, lang])
+  }, [searching, query, lang, fullSearch])
 
   const activeCategoryName =
     scope === "saved"
@@ -256,6 +289,7 @@ export function AppShell({ lang, section }: AppShellProps) {
         lang={lang}
         open={globalSearchOpen}
         onClose={() => setGlobalSearchOpen(false)}
+        onOpenEntry={(href) => router.push(href)}
         onNavigate={(target, anchor) => {
           go(target)
           if (target === "fiqh") {
@@ -302,7 +336,27 @@ export function AppShell({ lang, section }: AppShellProps) {
         />
       ) : null}
 
-      {section === "fiqh" ? (
+      {entry ? (
+        <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
+          <EntryNav lang={lang} entry={entry} />
+          {entry.kind === "issue" ? (
+            <IssueCard
+              issue={entry.issue}
+              lang={lang}
+              visibleSchools={visibleSchools}
+              layout={filter.mode === "dual" ? "split" : "grid"}
+              viewMode={viewMode}
+              bookmarked={isBookmarked(entry.issue.id)}
+              onToggleBookmark={toggle}
+              onShare={setShareIssue}
+            />
+          ) : entry.kind === "article" ? (
+            <ArticleView article={entry.article} lang={lang} />
+          ) : (
+            <ProofView proof={entry.proof} lang={lang} />
+          )}
+        </main>
+      ) : section === "fiqh" ? (
         <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
           <CategoryTabs
             lang={lang}
@@ -385,21 +439,17 @@ export function AppShell({ lang, section }: AppShellProps) {
             ) : null}
 
             {visibleIssues.length > 0 ? (
-              <div className="flex flex-col gap-6">
+              <ul className="flex list-none flex-col gap-3 p-0">
                 {visibleIssues.map((issue) => (
-                  <IssueCard
+                  <IssueRow
                     key={issue.id}
                     issue={issue}
                     lang={lang}
-                    visibleSchools={visibleSchools}
-                    layout={filter.mode === "dual" ? "split" : "grid"}
-                    viewMode={viewMode}
                     bookmarked={isBookmarked(issue.id)}
                     onToggleBookmark={toggle}
-                    onShare={setShareIssue}
                   />
                 ))}
-              </div>
+              </ul>
             ) : (
               <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-white/10 bg-white/[0.02] px-6 py-20 text-center backdrop-blur-md">
                 <span className="mb-4 flex size-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-muted-foreground">
@@ -419,22 +469,8 @@ export function AppShell({ lang, section }: AppShellProps) {
               lang={lang}
               onGo={go}
               onOpenIssue={(id) => {
-                // Clear any narrowing first: the chosen entry may sit outside
-                // the open book, and would otherwise be filtered away on
-                // arrival — the reader taps a title and lands on nothing.
-                setQuery("")
-                setScope("all")
-                setActiveChapter("")
                 const target = issues.find((i) => i.id === id)
-                if (target) setActiveCategory(target.categoryId)
-                go("fiqh")
-                // The card carries its ref as the DOM id, not its id.
-                const anchor = target?.ref ?? id
-                requestAnimationFrame(() =>
-                  requestAnimationFrame(() =>
-                    document.getElementById(anchor)?.scrollIntoView({ behavior: "smooth", block: "start" }),
-                  ),
-                )
+                if (target) router.push(entryPath(lang, target.ref))
               }}
             />
           ) : section === "aqidah" ? (
@@ -531,5 +567,28 @@ function SchoolHint({
         </button>
       </div>
     </section>
+  )
+}
+
+function entryRef(entry: Entry): string {
+  return entry.kind === "issue" ? entry.issue.ref : entry.kind === "article" ? entry.article.ref : entry.proof.ref
+}
+
+/** The way back to the list the entry belongs to, and the view controls an issue needs. */
+function EntryNav({ lang, entry }: { lang: Lang; entry: Entry }) {
+  const isRtl = rtlLangs.includes(lang)
+  const Back = isRtl ? ChevronRight : ChevronLeft
+  const ref = entryRef(entry)
+  return (
+    <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+      <Link
+        href={sectionPath(lang, ref)}
+        className="inline-flex min-h-11 items-center gap-1 rounded-full border border-white/10 bg-white/5 px-4 text-sm font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
+      >
+        <Back className="size-4" aria-hidden="true" />
+        {ui.backToIndex[lang]}
+      </Link>
+      <span className="text-[13px] text-muted-foreground">{ui.entryShareHint[lang]}</span>
+    </div>
   )
 }

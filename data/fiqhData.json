@@ -1303,6 +1303,20 @@
       "ru": "В чём ошибка? (какой мазхаб, какой язык)",
       "es": "¿Qué está mal? (qué escuela, qué idioma)",
       "uk": "У чому помилка? (який мазхаб, яка мова)"
+    },
+    "backToIndex": {
+      "ar": "العودة إلى القائمة",
+      "en": "Back to the list",
+      "ru": "К списку",
+      "es": "Volver a la lista",
+      "uk": "До списку"
+    },
+    "entryShareHint": {
+      "ar": "لهذه المادّة رابط دائم يمكنك مشاركته.",
+      "en": "This entry has a permanent link you can share.",
+      "ru": "У этой статьи есть постоянная ссылка, которой можно поделиться.",
+      "es": "Esta entrada tiene un enlace permanente que puedes compartir.",
+      "uk": "Ця стаття має постійне посилання, яким можна поділитися."
     }
   },
   "books": [

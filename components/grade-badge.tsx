@@ -1,11 +1,10 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { X } from "lucide-react"
 import {
   glossaryAnchor,
   gradeLabels,
-  gradeTerm,
   natureLabels,
   issues,
   type Issue,
@@ -15,6 +14,7 @@ import {
   type SchoolKey,
   schools,
   ui,
+  type GlossaryTerm,
 } from "@/lib/fiqh-data"
 
 /** Colour by weight: required green, encouraged indigo, discouraged amber. */
@@ -98,7 +98,18 @@ function GradePanel({
 }: GradeBadgeProps & { onClose: () => void }) {
   // The panel explains whichever was tapped; the grade leads when both exist.
   const subject = (grade ?? nature) as string
-  const term = gradeTerm(subject)
+  // The definition lives in the glossary, which is not in the page shell;
+  // it is fetched when the panel opens and fills in a moment later.
+  const [term, setTerm] = useState<GlossaryTerm | undefined>(undefined)
+  useEffect(() => {
+    let alive = true
+    import("@/lib/glossary-data").then((m) => {
+      if (alive) setTerm(m.gradeTerm(subject))
+    })
+    return () => {
+      alive = false
+    }
+  }, [subject])
   // The definition is the one held by the school whose ruling was tapped —
   // the same word carries different weight in each school, and showing the
   // wrong school's definition would be worse than showing none.
@@ -114,7 +125,7 @@ function GradePanel({
             (i) =>
               i.id !== issue.id &&
               i.chapter?.ar === issue.chapter?.ar &&
-              i.rulings[school]?.grade === grade,
+              i.grades?.[school] === grade,
           )
         : [],
     [grade, school, issue],
@@ -122,7 +133,7 @@ function GradePanel({
 
   const acrossSchools = schools.map((s) => ({
     school: s,
-    grade: issue.rulings[s.key]?.grade,
+    grade: issue.grades?.[s.key] ?? issue.rulings?.[s.key]?.grade,
   }))
 
   return (

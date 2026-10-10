@@ -1,0 +1,21 @@
+المرحلة ٢ — صفحة لكل مادّة · 2026-10-10
+
+انسخ محتوى الأرشيف فوق المستودع، ثم احذف هذه الملفات القديمة
+(نُقلت إلى app/(site)/ و app/(bare)/):
+
+  app/layout.tsx
+  app/page.tsx
+  app/admin/page.tsx
+  app/[lang]/page.tsx
+  app/[lang]/[section]/page.tsx
+
+في PowerShell من جذر المستودع:
+  Remove-Item app\layout.tsx, app\page.tsx
+  Remove-Item -Recurse app\admin, 'app\[lang]'
+
+ثم:
+  git add -A
+  git commit -m "صفحة لكل مادّة"
+  git push
+
+لا تحذف app\globals.css — ما زال مكانه.

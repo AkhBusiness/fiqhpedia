@@ -4,7 +4,8 @@ import { useEffect, useState } from "react"
 import { BookOpen, ListChecks, Maximize2, Quote, Sparkles } from "lucide-react"
 import { Modal } from "@/components/modal"
 import { ArticleReader } from "@/components/article-reader"
-import { type Lang, type Localized, type TheologyProof, theologyProofs, ui, displayRef } from "@/lib/fiqh-data"
+import { type Lang, type Localized, type TheologyProof, ui, displayRef } from "@/lib/fiqh-data"
+import { theologyProofs } from "@/lib/theology-data"
 
 /**
  * The proofs in the order they are written, split into their chapters.

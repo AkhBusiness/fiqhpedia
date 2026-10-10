@@ -10,8 +10,18 @@
 /* in the content file, then re-exports a fully typed API for the UI.  */
 /* ------------------------------------------------------------------ */
 
-import fiqhData from "@/data/fiqhData.json"
-import coreData from "@/data/content/core.json"
+import uiData from "@/data/ui.json"
+import indexData from "@/data/fiqhIndex.json"
+/*
+ * Two files, by weight. `core.json` is the shared material every page needs
+ * (interface strings, schools, books, glossary, proofs, guides). The index is
+ * every issue and article *without* its body — titles, summaries, chapters —
+ * so a list can be drawn and a search can begin. The bodies live in
+ * `fiqhData.json`, which `lib/fiqh-full.ts` loads on demand and which the
+ * per-entry pages read at build time. Before this split the whole
+ * encyclopedia (1.8 MB) rode along with every page, and a phone showed the
+ * first ruling after eighteen seconds.
+ */
 
 /* ------------------------------------------------------------------ */
 /* Types                                                               */
@@ -186,8 +196,20 @@ export interface Issue {
   chapter?: Localized
   title: Localized
   summary: Localized
-  rulings: Record<SchoolKey, SchoolRuling>
+  /**
+   * Present on a full entry (the per-entry page, search results loaded on
+   * demand). Absent on the index that every page carries — a list of titles
+   * does not need 727 KB of rulings behind it.
+   */
+  rulings?: Record<SchoolKey, SchoolRuling>
+  /** Each school's grade, present on both the index and a full entry. */
+  grades?: Partial<Record<SchoolKey, RulingGrade>>
 }
+
+/** An issue with its rulings — what the entry page and the search work on. */
+export type FullIssue = Issue & { rulings: Record<SchoolKey, SchoolRuling> }
+/** An article with its sections. */
+export type FullArticle = Article & { sections: ArticleSection[] }
 
 /** A country and the school it defaults to. `school: null` means the visitor
  *  is asked to pick one himself (the country follows more than one, or one
@@ -219,7 +241,10 @@ export interface Article {
   excerpt: Localized
   /** Refs of proofs that argue the same ground more formally. */
   relatedRefs: string[]
-  sections: ArticleSection[]
+  /** Present on a full entry; absent on the index every page carries. */
+  sections?: ArticleSection[]
+  /** Word count per language, computed at build time so the index can show a reading time without the body. */
+  words?: Record<string, number>
   /**
    * Works the article draws on. Unlike a ruling's `references`, these are not
    * school books: a narrative article may cite tafsīr, sīrah, or history.
@@ -340,19 +365,23 @@ interface RawSchoolRuling {
   source?: Localized
 }
 
-interface RawIssue {
+export interface RawIssue {
   id: string
   addedAt?: string
+  revisedAt?: string
+  revisionNote?: Localized
   ref: string
   bookId: string
   number: number
   chapter?: Localized
   title: Localized
   summary: Localized
-  rulings: Record<SchoolKey, RawSchoolRuling>
+  /** On the index only: each school's grade, so cross-references work without the rulings. */
+  grades?: Partial<Record<SchoolKey, RulingGrade>>
+  rulings?: Record<SchoolKey, RawSchoolRuling>
 }
 
-interface RawTheologyProof {
+export interface RawTheologyProof {
   id: string
   ref: string
   chapterId?: string
@@ -384,16 +413,12 @@ interface RawData {
   natureLabels?: Record<string, Localized>
   books: Category[]
   countries: RawCountry[]
-  articles?: Article[]
+  articles?: (Article & { words?: Record<string, number> })[]
   schools: { key: SchoolKey; name: Localized }[]
   issues: RawIssue[]
-  theology: RawTheologyProof[]
-  glossary: GlossaryTerm[]
-  guides: Guide[]
-  faqs: Faq[]
 }
 
-const data = fiqhData as RawData
+const data = { ...(uiData as unknown as RawData), issues: indexData.issues, articles: indexData.articles } as unknown as RawData
 
 /* ------------------------------------------------------------------ */
 /* Presentation-only accent maps (kept out of the content JSON)        */
@@ -448,7 +473,7 @@ const SCHOOL_COLORS: Record<SchoolKey, School["color"]> = {
  * chapters of the creed each hold one colour, so the colour carries the
  * grouping instead of decorating it.
  */
-const CHAPTER_ACCENTS: Record<string, TheologyProof["accent"]> = {
+export const CHAPTER_ACCENTS: Record<string, TheologyProof["accent"]> = {
   // الإلهيات — إثبات الخالق ووحدانيته
   ilahiyyat: {
     text: "text-amber-600 dark:text-amber-400",
@@ -475,7 +500,7 @@ const CHAPTER_ACCENTS: Record<string, TheologyProof["accent"]> = {
   },
 }
 
-const DEFAULT_PROOF_ACCENT: TheologyProof["accent"] = {
+export const DEFAULT_PROOF_ACCENT: TheologyProof["accent"] = {
   text: "text-foreground",
   border: "border-border",
   dot: "bg-muted-foreground",
@@ -513,7 +538,7 @@ const DEFAULT_SCHOOL_COLOR: School["color"] = {
  */
 const MISSING: Localized = { ar: "", en: "", ru: "", es: "", uk: "" }
 export const ui: Record<string, Localized> = new Proxy(
-  (coreData as { ui: Record<string, Localized> }).ui,
+  (uiData as { ui: Record<string, Localized> }).ui,
   {
     get(target, key, receiver) {
       if (typeof key !== "string" || key in Object.prototype || key === "toJSON" || key === "then") {
@@ -614,36 +639,24 @@ export function recentlyAdded(limit = 10) {
     .slice(0, limit)
 }
 
-/**
- * The glossary entry that defines a grade, when one has been written.
- * The definitions live in the glossary rather than beside the labels
- * because they differ by school, and the glossary already carries the
- * per-school shape and renders it.
- */
-export function gradeTerm(grade: string) {
-  // Matched exactly, never by prefix: `fard-ayn` and `sunnah-muakkadah` are
-  // separate entries of their own, and a prefix match would hand the badge
-  // for `fard` the definition of the individual obligation instead.
-  const id = GRADE_TERM_IDS[grade] ?? grade
-  return glossary.find((t) => t.id === id)
-}
 
 /** Grades whose glossary entry is filed under a different id. */
-const GRADE_TERM_IDS: Record<string, string> = { sunnah: "sunnah-grade" }
+export const GRADE_TERM_IDS: Record<string, string> = { sunnah: "sunnah-grade" }
 
 /** Resolve a citation ref like "F12" or "a3" (case-insensitive) to its entry. */
 export function findByRef(
   ref: string,
 ):
   | { kind: "issue"; item: Issue }
-  | { kind: "proof"; item: TheologyProof }
+  | { kind: "proof"; ref: string }
   | { kind: "article"; item: Article }
   | null {
   const key = ref.trim().toUpperCase()
   const issue = issues.find((i) => i.ref === key)
   if (issue) return { kind: "issue", item: issue }
-  const proof = theologyProofs.find((p) => p.ref === key)
-  if (proof) return { kind: "proof", item: proof }
+  // Proofs are not in the index every page carries; their page answers
+  // for them (and 404s for a ref that was never issued).
+  if (/^A\d+$/.test(key)) return { kind: "proof", ref: key }
   const article = articles.find((a) => a.ref === key)
   if (article) return { kind: "article", item: article }
   return null
@@ -738,68 +751,41 @@ function toReferences(r: RawSchoolRuling): Localized[] {
   return []
 }
 
-export const issues: Issue[] = data.issues.map((i) => ({
-  id: i.id,
-  ref: i.ref,
-  categoryId: i.bookId,
-  number: i.number,
-  addedAt: i.addedAt,
-  ...(i.chapter ? { chapter: i.chapter } : {}),
-  title: i.title,
-  summary: i.summary,
-  rulings: Object.fromEntries(
-    Object.entries(i.rulings).map(([key, r]) => [
-      key,
-      { ruling: r.text, grade: r.grade, nature: r.nature, references: toReferences(r) },
-    ]),
-  ) as Record<SchoolKey, SchoolRuling>,
-}))
-
-export const theologyProofs: TheologyProof[] = data.theology.map((p) => ({
-  id: p.id,
-  ref: p.ref,
-  chapterId: p.chapterId,
-  chapter: p.chapter,
-  title: p.title,
-  tagline: p.tagline,
-  accent: CHAPTER_ACCENTS[p.chapterId ?? ""] ?? DEFAULT_PROOF_ACCENT,
-  premises: p.premises,
-  quran: p.quran,
-  conclusion: p.conclusion,
-}))
-
-// Old entries carry `definition`, new ones `briefDefinition`. Fill whichever
-// is missing from the other so tooltips, search and the glossary page can
-// all read `definition` without guarding — an undefined here crashed the
-// glossary search on the first keystroke.
-export const glossary: GlossaryTerm[] = (data.glossary as GlossaryTerm[]).map((t) => {
-  const gloss = t.definition ?? t.briefDefinition
-  return { ...t, definition: gloss as Localized, briefDefinition: t.briefDefinition ?? gloss }
-})
-
-export const guides: Guide[] = data.guides
-
-export const faqs: Faq[] = data.faqs
-
-/* ------------------------------------------------------------------ */
-/* Glossary matching — find a term by its localized surface form       */
-/* ------------------------------------------------------------------ */
-
-/** Lookup map keyed by lower-cased surface form (all languages) → term. */
-const GLOSSARY_INDEX: Record<string, GlossaryTerm> = (() => {
-  const map: Record<string, GlossaryTerm> = {}
-  for (const t of glossary) {
-    for (const l of LANGS) {
-      map[t.term[l].toLowerCase()] = t
-    }
+export function toIssue(i: RawIssue): Issue {
+  return {
+    id: i.id,
+    ref: i.ref,
+    categoryId: i.bookId,
+    number: i.number,
+    addedAt: i.addedAt,
+    ...(i.revisedAt ? { revisedAt: i.revisedAt } : {}),
+    ...(i.revisionNote ? { revisionNote: i.revisionNote } : {}),
+    ...(i.chapter ? { chapter: i.chapter } : {}),
+    title: i.title,
+    summary: i.summary,
+    grades:
+      i.grades ??
+      (i.rulings
+        ? (Object.fromEntries(
+            Object.entries(i.rulings)
+              .filter(([, r]) => r.grade)
+              .map(([k, r]) => [k, r.grade as RulingGrade]),
+          ) as Partial<Record<SchoolKey, RulingGrade>>)
+        : undefined),
+    ...(i.rulings
+      ? {
+          rulings: Object.fromEntries(
+            Object.entries(i.rulings).map(([key, r]) => [
+              key,
+              { ruling: r.text, grade: r.grade, nature: r.nature, references: toReferences(r) },
+            ]),
+          ) as Record<SchoolKey, SchoolRuling>,
+        }
+      : {}),
   }
-  return map
-})()
-
-/** Return the glossary term whose surface form equals `word` (any lang). */
-export function findGlossaryTerm(word: string): GlossaryTerm | undefined {
-  return GLOSSARY_INDEX[word.trim().toLowerCase()]
 }
+
+export const issues: Issue[] = data.issues.map(toIssue)
 
 /**
  * Chapters of one book, in reading order, each with its issue count.
@@ -863,32 +849,37 @@ function buildHaystack(issue: Issue): string {
     parts.push(issue.title[l], issue.summary[l])
     if (issue.chapter) parts.push(issue.chapter[l])
     if (book) parts.push(book.name[l])
-    for (const s of schools) {
-      const r = issue.rulings[s.key]
-      parts.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
+    if (issue.rulings) {
+      for (const s of schools) {
+        const r = issue.rulings[s.key]
+        if (r) parts.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
+      }
     }
   }
   return normalizeSearch(parts.join(" \u0000 "))
 }
 
-const HAYSTACKS: Record<string, string> = Object.fromEntries(
-  issues.map((i) => [i.id, buildHaystack(i)]),
-)
+// Keyed by id *and* by whether rulings were present, so a full entry loaded
+// later is not answered from the haystack of its slim twin.
+const HAYSTACKS = new Map<string, string>()
+function haystackOf(issue: Issue): string {
+  const key = issue.id + (issue.rulings ? ":full" : ":index")
+  let h = HAYSTACKS.get(key)
+  if (!h) {
+    h = buildHaystack(issue)
+    HAYSTACKS.set(key, h)
+  }
+  return h
+}
 
 /** True when every whitespace-separated token in `query` is found. */
 export function issueMatchesQuery(issue: Issue, query: string): boolean {
   const q = normalizeSearch(query)
   if (!q) return true
-  const hay = HAYSTACKS[issue.id] ?? buildHaystack(issue)
+  const hay = haystackOf(issue)
   return q.split(" ").every((token) => hay.includes(token))
 }
 
-function matches(hay: string, query: string): boolean {
-  const q = normalizeSearch(query)
-  if (!q) return false
-  const h = normalizeSearch(hay)
-  return q.split(" ").every((token) => h.includes(token))
-}
 
 export interface SearchResults {
   issues: Issue[]
@@ -899,57 +890,34 @@ export interface SearchResults {
   guides: Guide[]
 }
 
+/** True when every token of `query` occurs in `hay`. */
+export function matches(hay: string, query: string): boolean {
+  const q = normalizeSearch(query)
+  if (!q) return false
+  const h = normalizeSearch(hay)
+  return q.split(" ").every((token) => h.includes(token))
+}
+
+export function langParts(fields: (Localized | undefined)[]): string[] {
+  return fields.flatMap((f) => (f ? LANGS.map((l) => f[l] ?? "") : []))
+}
+
 /**
- * Search every section at once.
- *
- * The fiqh tab used to search only the open book, so a reader sitting on
- * Prayer who typed "tayammum" was told there were no results while the
- * issue existed one tab away. Results are returned per section and the
- * caller decides how much of each to surface.
+ * Search issues and articles by what the index knows: titles, summaries,
+ * chapters. The full search — rulings, bodies, the glossary, proofs,
+ * guides — is `searchAllFull` in lib/fiqh-full.ts, loaded when the search
+ * dialog opens. The fiqh tab used to search only the open book, so a reader
+ * sitting on Prayer who typed "tayammum" was told there were no results
+ * while the issue existed one tab away; results are per section instead.
  */
-export function searchAll(query: string): SearchResults {
+export function searchIndex(query: string, pool: { issues: Issue[]; articles: Article[] } = { issues, articles }) {
   const q = query.trim()
-  if (!q) return { issues: [], proofs: [], articles: [], terms: [], faqs: [], guides: [] }
-
-  const langParts = (fields: (Localized | undefined)[]) =>
-    fields.flatMap((f) => (f ? LANGS.map((l) => f[l] ?? "") : []))
-
+  if (!q) return { issues: [] as Issue[], articles: [] as Article[] }
   return {
-    issues: issues.filter((i) => issueMatchesQuery(i, q)),
-    proofs: theologyProofs.filter((p) =>
-      matches([p.ref, ...langParts([p.title, p.tagline, p.conclusion])].join(" "), q),
-    ),
-    articles: articles.filter((a) =>
+    issues: pool.issues.filter((i) => issueMatchesQuery(i, q)),
+    articles: pool.articles.filter((a) =>
       matches(
-        [
-          a.ref,
-          ...langParts([a.title, a.excerpt]),
-          // The body too: a reader searching a phrase they remember from an
-          // article should land on it, not be told the site has nothing.
-          ...a.sections.flatMap((sec) => langParts([sec.heading, sec.body])),
-        ].join(" "),
-        q,
-      ),
-    ),
-    terms: glossary.filter((t) =>
-      matches(
-        langParts([
-          t.term,
-          t.definition,
-          t.linguistic,
-          t.legal,
-          ...Object.values(t.technical ?? {}).map((s) => s?.text),
-        ]).join(" "),
-        q,
-      ),
-    ),
-    faqs: faqs.filter((f) => matches(langParts([f.question, f.answer]).join(" "), q)),
-    guides: guides.filter((g) =>
-      matches(
-        [
-          ...langParts([g.title, g.intro]),
-          ...g.steps.flatMap((st) => langParts([st.title, st.text])),
-        ].join(" "),
+        [a.ref, ...langParts([a.title, a.excerpt]), ...(a.sections ?? []).flatMap((sec) => langParts([sec.heading, sec.body]))].join(" "),
         q,
       ),
     ),

@@ -4,20 +4,25 @@ import { reportHref } from "@/lib/report"
 import { useEffect, useRef, useState } from "react"
 import { BookMarked, Bookmark, Check, Copy, Lightbulb, MessageSquareWarning, Pause, Share2, Volume2 } from "lucide-react"
 import { GradeBadge } from "@/components/grade-badge"
-import { PrayerTimesPanel } from "@/components/prayer-times-panel"
+import dynamic from "next/dynamic"
 import { GlossaryText } from "@/components/glossary-tooltip"
 import {
   categories,
+  type FullIssue,
   type Issue,
   type Lang,
   type SchoolKey,
   schools,
   ui, displayRef, isRecentlyAdded, isRecentlyRevised } from "@/lib/fiqh-data"
 
+/* Five issues carry a clock; the other hundred and fifteen should not carry
+   the astronomy that drives it. */
+const PrayerTimesPanel = dynamic(() => import("@/components/prayer-times-panel").then((m) => m.PrayerTimesPanel))
+
 export type ViewMode = "academic" | "simplified"
 
 interface IssueCardProps {
-  issue: Issue
+  issue: FullIssue
   lang: Lang
   /** Which schools to display; defaults to all four */
   visibleSchools?: SchoolKey[]
@@ -27,7 +32,7 @@ interface IssueCardProps {
   viewMode?: ViewMode
   bookmarked: boolean
   onToggleBookmark: (id: string) => void
-  onShare?: (issue: Issue) => void
+  onShare?: (issue: FullIssue) => void
 }
 
 export function IssueCard({
@@ -343,7 +348,7 @@ const TIMED_ISSUES: Record<string, "fajr" | "dhuhr" | "asr" | "maghrib" | "isha"
  * the static HTML does not know, and a link that changes on hydration would
  * flash or mismatch. Absent entirely when no destination is configured.
  */
-function ReportLink({ issue, lang }: { issue: Issue; lang: Lang }) {
+function ReportLink({ issue, lang }: { issue: FullIssue; lang: Lang }) {
   const [href, setHref] = useState<string | null>(null)
   useEffect(() => setHref(reportHref(issue, lang)), [issue, lang])
   if (!href) return null

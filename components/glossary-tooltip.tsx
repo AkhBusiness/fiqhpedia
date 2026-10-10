@@ -2,7 +2,42 @@
 
 import { useEffect, useId, useRef, useState, type ReactNode } from "react"
 import { ArrowUpRight, BookOpen } from "lucide-react"
-import { type GlossaryTerm, glossary, glossaryAnchor, type Lang, normalizeSearch, ui, LANGS } from "@/lib/fiqh-data"
+import { type GlossaryTerm, glossaryAnchor, type Lang, normalizeSearch, ui, LANGS } from "@/lib/fiqh-data"
+
+/*
+ * The glossary arrives after the page, not with it. A ruling is readable
+ * before its terms are underlined, and the 134 KB of definitions would
+ * otherwise sit in front of every page's first paint. The text renders
+ * plain, then once with its links when the list lands — the same order a
+ * reader would want.
+ */
+let GLOSSARY: GlossaryTerm[] = []
+let loading: Promise<void> | null = null
+const listeners = new Set<() => void>()
+function loadGlossary(): Promise<void> {
+  if (!loading) {
+    loading = import("@/lib/glossary-data").then((m) => {
+      GLOSSARY = m.glossary
+      NORMALIZED_INDEX = buildNormalizedIndex(GLOSSARY)
+      STEM_INDEX = buildStemIndex(GLOSSARY)
+      listeners.forEach((fn) => fn())
+    })
+  }
+  return loading
+}
+function useGlossaryLoaded(): boolean {
+  const [ready, setReady] = useState(GLOSSARY.length > 0)
+  useEffect(() => {
+    if (GLOSSARY.length > 0) return
+    const fn = () => setReady(true)
+    listeners.add(fn)
+    loadGlossary()
+    return () => {
+      listeners.delete(fn)
+    }
+  }, [])
+  return ready
+}
 
 /* ------------------------------------------------------------------ */
 /* Text normalization for matching (strip Arabic diacritics + punct)   */
@@ -18,7 +53,8 @@ const normalize = (s: string) =>
   normalizeSearch(s).replace(/[\u064B-\u0652]/g, "").replace(/[اًٌٍ]$/, "")
 
 /** Normalized surface form (any language) → glossary term. */
-const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
+let NORMALIZED_INDEX: Record<string, GlossaryTerm> = {}
+function buildNormalizedIndex(glossary: GlossaryTerm[]): Record<string, GlossaryTerm> {
   const map: Record<string, GlossaryTerm> = {}
   const add = (k: string, t: GlossaryTerm) => {
     if (k.length >= 3 && !(k in map)) map[k] = t
@@ -43,7 +79,7 @@ const NORMALIZED_INDEX: Record<string, GlossaryTerm> = (() => {
     }
   }
   return map
-})()
+}
 
 /**
  * Arabic verb forms of a term's root, for entries whose noun rarely appears
@@ -90,7 +126,8 @@ const GENERIC_QUALIFIERS = new Set([
   "святий", "святой", "великий", "велика",
 ])
 
-const STEM_INDEX: Record<string, GlossaryTerm> = (() => {
+let STEM_INDEX: Record<string, GlossaryTerm> = {}
+function buildStemIndex(glossary: GlossaryTerm[]): Record<string, GlossaryTerm> {
   const map: Record<string, GlossaryTerm> = {}
   for (const t of glossary) {
     for (const l of ["ru", "uk"] as const) {
@@ -109,7 +146,7 @@ const STEM_INDEX: Record<string, GlossaryTerm> = (() => {
     }
   }
   return map
-})()
+}
 
 // Leading Arabic clitics: definite article + conjunction/preposition combos.
 const AR_PREFIXES = ["وبال", "فبال", "بال", "كال", "فال", "وال", "لل", "ال", "و", "ف", "ب", "ك", "ل"]
@@ -132,7 +169,7 @@ function matchToken(raw: string): GlossaryTerm | undefined {
   if (/^[\u0621-\u064A]+$/.test(key) && key.length >= 4) {
     for (const [id, stem] of Object.entries(AR_VERB_STEMS)) {
       if (/^[يتنأ]/.test(key) && key.slice(1).startsWith(stem)) {
-        const term = glossary.find((t) => t.id === id)
+        const term = GLOSSARY.find((t) => t.id === id)
         if (term) return term
       }
     }
@@ -237,7 +274,8 @@ interface GlossaryTextProps {
 }
 
 export function GlossaryText({ text, lang, enabled = true }: GlossaryTextProps) {
-  if (!enabled) return <>{text}</>
+  const ready = useGlossaryLoaded()
+  if (!enabled || !ready) return <>{text}</>
 
   const seen = new Set<string>()
   const parts = text.split(/(\s+)/)

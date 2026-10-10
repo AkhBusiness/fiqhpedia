@@ -1,0 +1,514 @@
+{
+  "guides": [
+    {
+      "id": "wudu-steps",
+      "bookId": "taharah",
+      "title": {
+        "ar": "خطوات الوضوء",
+        "en": "Steps of Wudu (Ablution)",
+        "ru": "Шаги омовения (вуду)",
+        "es": "Pasos de la ablución menor (Wudu)",
+        "uk": "Кроки омивання (вуду)"
+      },
+      "intro": {
+        "ar": "الطريقة العملية لأداء الوضوء الصحيح قبل الصلاة، خطوة بخطوة.",
+        "en": "A practical, step-by-step way to perform a valid ablution before prayer.",
+        "ru": "Практическое пошаговое руководство по правильному омовению перед молитвой.",
+        "es": "El método práctico, paso a paso, para realizar una ablución válida antes de la oración.",
+        "uk": "Практичний покроковий спосіб здійснити дійсне омивання перед молитвою."
+      },
+      "steps": [
+        {
+          "title": {
+            "ar": "النية",
+            "en": "Intention (Niyyah)",
+            "ru": "Намерение (нийя)",
+            "es": "Intención (Niyyah)",
+            "uk": "Намір (нійя)"
+          },
+          "text": {
+            "ar": "انوِ بقلبك رفع الحدث والطهارة للصلاة، دون التلفظ بها.",
+            "en": "Form the intention in your heart to purify yourself for prayer; no spoken formula is needed.",
+            "ru": "Намеревайтесь сердцем очиститься для молитвы; произносить вслух не нужно.",
+            "es": "Forma en tu corazón la intención de purificarte para la oración; no hace falta formularla en voz alta.",
+            "uk": "Утворіть у серці намір очиститися для молитви; промовляти вголос не потрібно."
+          }
+        },
+        {
+          "title": {
+            "ar": "التسمية وغسل الكفين",
+            "en": "Say Bismillah & wash hands",
+            "ru": "«Бисмиллях» и мытьё кистей",
+            "es": "Decir Bismillah y lavarse las manos",
+            "uk": "«Бісміллаг» і миття кистей"
+          },
+          "text": {
+            "ar": "قل: بسم الله، ثم اغسل كفيك ثلاث مرات.",
+            "en": "Say 'Bismillah', then wash both hands up to the wrists three times.",
+            "ru": "Скажите «Бисмиллях», затем трижды вымойте кисти рук.",
+            "es": "Di «Bismillah», luego lava ambas manos hasta las muñecas tres veces.",
+            "uk": "Скажіть «Бісміллаг», потім тричі вимийте кисті рук до зап'ястя."
+          }
+        },
+        {
+          "title": {
+            "ar": "المضمضة والاستنشاق",
+            "en": "Rinse mouth & nose",
+            "ru": "Полоскание рта и носа",
+            "es": "Enjuagar la boca y la nariz",
+            "uk": "Полоскання рота й носа"
+          },
+          "text": {
+            "ar": "تمضمض واستنشق الماء ثم استنثره ثلاث مرات.",
+            "en": "Rinse the mouth and draw water into the nose, then expel it — three times.",
+            "ru": "Прополощите рот и вдохните воду носом, затем высморкайтесь — трижды.",
+            "es": "Enjuaga la boca e introduce agua en la nariz, luego expúlsala — tres veces.",
+            "uk": "Прополощіть рот і втягніть воду носом, потім висякайтеся — тричі."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الوجه",
+            "en": "Wash the face",
+            "ru": "Мытьё лица",
+            "es": "Lavar el rostro",
+            "uk": "Миття обличчя"
+          },
+          "text": {
+            "ar": "اغسل وجهك كاملاً من منابت الشعر إلى الذقن وعرضاً بين الأذنين ثلاث مرات.",
+            "en": "Wash the whole face from hairline to chin and ear to ear, three times.",
+            "ru": "Вымойте всё лицо от линии волос до подбородка и от уха до уха — трижды.",
+            "es": "Lava todo el rostro desde el nacimiento del cabello hasta la barbilla y de oreja a oreja, tres veces.",
+            "uk": "Вимийте все обличчя від лінії волосся до підборіддя і від вуха до вуха — тричі."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل اليدين إلى المرفقين",
+            "en": "Wash arms to elbows",
+            "ru": "Мытьё рук до локтей",
+            "es": "Lavar los brazos hasta los codos",
+            "uk": "Миття рук до ліктів"
+          },
+          "text": {
+            "ar": "اغسل يديك من أطراف الأصابع إلى المرفقين، اليمنى ثم اليسرى، ثلاث مرات.",
+            "en": "Wash each arm from fingertips to and including the elbow — right then left, three times.",
+            "ru": "Вымойте руки от пальцев до локтей включительно — сначала правую, затем левую, трижды.",
+            "es": "Lava cada brazo desde la punta de los dedos hasta incluir el codo — el derecho y luego el izquierdo, tres veces.",
+            "uk": "Вимийте руки від кінчиків пальців до ліктів включно — спочатку праву, потім ліву, тричі."
+          }
+        },
+        {
+          "title": {
+            "ar": "مسح الرأس والأذنين",
+            "en": "Wipe head & ears",
+            "ru": "Протирание головы и ушей",
+            "es": "Pasar la mano por la cabeza y las orejas",
+            "uk": "Протирання голови та вух"
+          },
+          "text": {
+            "ar": "امسح رأسك بيديك مبلولتين من مقدمته إلى مؤخرته ثم امسح أذنيك، مرة واحدة.",
+            "en": "With wet hands wipe the head front to back, then wipe the ears — once.",
+            "ru": "Мокрыми руками протрите голову спереди назад, затем протрите уши — один раз.",
+            "es": "Con las manos húmedas, pasa la mano por la cabeza de adelante hacia atrás, luego por las orejas — una vez.",
+            "uk": "Мокрими руками протріть голову спереду назад, потім протріть вуха — один раз."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الرجلين إلى الكعبين",
+            "en": "Wash feet to ankles",
+            "ru": "Мытьё ног до щиколоток",
+            "es": "Lavar los pies hasta los tobillos",
+            "uk": "Миття ніг до кісточок"
+          },
+          "text": {
+            "ar": "اغسل رجليك إلى الكعبين مع تخليل الأصابع، اليمنى ثم اليسرى، ثلاث مرات.",
+            "en": "Wash both feet up to and including the ankles, rubbing between the toes — right then left, three times.",
+            "ru": "Вымойте ноги до щиколоток включительно, протирая между пальцами — правую, затем левую, трижды.",
+            "es": "Lava ambos pies hasta incluir los tobillos, frotando entre los dedos — el derecho y luego el izquierdo, tres veces.",
+            "uk": "Вимийте ноги до кісточок включно, протираючи між пальцями — праву, потім ліву, тричі."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salah-steps",
+      "bookId": "salah",
+      "title": {
+        "ar": "أركان الصلاة العملية",
+        "en": "The Prayer Sequence",
+        "ru": "Последовательность молитвы",
+        "es": "La secuencia de la oración",
+        "uk": "Послідовність молитви"
+      },
+      "intro": {
+        "ar": "التسلسل الأساسي لحركات ركعة واحدة في الصلاة.",
+        "en": "The core sequence of postures within one unit (rakʿah) of prayer.",
+        "ru": "Основная последовательность положений в одном ракаате молитвы.",
+        "es": "La secuencia básica de posturas dentro de una unidad (rakʿah) de la oración.",
+        "uk": "Основна послідовність положень в одному ракааті молитви."
+      },
+      "steps": [
+        {
+          "title": {
+            "ar": "تكبيرة الإحرام",
+            "en": "Opening Takbir",
+            "ru": "Вступительный такбир",
+            "es": "Takbir de apertura",
+            "uk": "Вступний такбір"
+          },
+          "text": {
+            "ar": "قف مستقبلاً القبلة وارفع يديك قائلاً: الله أكبر.",
+            "en": "Stand facing the qiblah, raise your hands and say 'Allahu Akbar'.",
+            "ru": "Встаньте лицом к кибле, поднимите руки и скажите «Аллаху Акбар».",
+            "es": "Ponte de pie frente a la quibla, levanta las manos y di «Allahu Akbar».",
+            "uk": "Станьте обличчям до кибли, підніміть руки і скажіть «Аллаху Акбар»."
+          }
+        },
+        {
+          "title": {
+            "ar": "القيام والقراءة",
+            "en": "Standing & recitation",
+            "ru": "Стояние и чтение",
+            "es": "De pie y recitación",
+            "uk": "Стояння та читання"
+          },
+          "text": {
+            "ar": "اقرأ الفاتحة وما تيسر من القرآن وأنت قائم.",
+            "en": "While standing, recite al-Fatihah and a passage of the Qurʾān.",
+            "ru": "Стоя, прочитайте суру «аль-Фатиха» и отрывок из Корана.",
+            "es": "De pie, recita al-Fátiha y un pasaje del Corán.",
+            "uk": "Стоячи, прочитайте суру «аль-Фатіга» та уривок із Корану."
+          }
+        },
+        {
+          "title": {
+            "ar": "الركوع",
+            "en": "Bowing (Ruku)",
+            "ru": "Поясной поклон (руку)",
+            "es": "Inclinación (Ruku)",
+            "uk": "Поясний уклін (руку)"
+          },
+          "text": {
+            "ar": "انحنِ حتى تستوي ظهرك قائلاً: سبحان ربي العظيم.",
+            "en": "Bow with a straight back, saying 'Subhana Rabbiyal-Azim'.",
+            "ru": "Поклонитесь с ровной спиной, говоря «Субхана Рабби аль-Азым».",
+            "es": "Inclínate con la espalda recta, diciendo «Subhana Rabbiyal-Azim».",
+            "uk": "Вклоніться з рівною спиною, кажучи «Субхана Раббі аль-Азим»."
+          }
+        },
+        {
+          "title": {
+            "ar": "الاعتدال",
+            "en": "Rising",
+            "ru": "Выпрямление",
+            "es": "Incorporarse",
+            "uk": "Випрямлення"
+          },
+          "text": {
+            "ar": "ارفع من الركوع معتدلاً قائلاً: سمع الله لمن حمده، ربنا ولك الحمد.",
+            "en": "Rise upright saying 'Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd'.",
+            "ru": "Выпрямитесь, говоря «Сами Аллаху лиман хамидах, Раббана ва лякаль-хамд».",
+            "es": "Incorpórate erguido diciendo «Samiʿ Allāhu liman hamidah, Rabbana wa lakal-hamd».",
+            "uk": "Випряміться, кажучи «Самі Аллаху ліман хамідаг, Раббана ва лякаль-хамд»."
+          }
+        },
+        {
+          "title": {
+            "ar": "السجود",
+            "en": "Prostration (Sujud)",
+            "ru": "Земной поклон (суджуд)",
+            "es": "Postración (Sujud)",
+            "uk": "Земний уклін (суджуд)"
+          },
+          "text": {
+            "ar": "اسجد على سبعة أعضاء قائلاً: سبحان ربي الأعلى، مرتين لكل ركعة.",
+            "en": "Prostrate on seven points saying 'Subhana Rabbiya al-Aʿlā' — two prostrations per unit.",
+            "ru": "Совершите земной поклон на семи частях тела, говоря «Субхана Рабби аль-Аля» — по два поклона на ракаат.",
+            "es": "Postra sobre siete puntos diciendo «Subhana Rabbiya al-Aʿlā» — dos postraciones por unidad.",
+            "uk": "Здійсніть земний уклін на семи частинах тіла, кажучи «Субхана Раббі аль-Аля» — по два уклони на ракаат."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-steps-detailed",
+      "bookId": "taharah",
+      "title": {
+        "ar": "صفة الوضوء الكامل والمجزئ",
+        "en": "Method of Minor Purification (Wudu)",
+        "ru": "Способ совершения малого омывания (Уду)",
+        "es": "Descripción de la ablución menor completa y la suficiente",
+        "uk": "Опис повного та достатнього омивання"
+      },
+      "intro": {
+        "ar": "الخطوات العملية للوضوء مستوفية الفرائض والسنن وفق الفقه الإسلامي",
+        "en": "Practical steps for Wudu including obligatory and recommended actions",
+        "ru": "Практические шаги малого омывания, включая обязательные и желательные действия",
+        "es": "Pasos prácticos de la ablución menor, incluyendo los actos obligatorios y los recomendados",
+        "uk": "Практичні кроки омивання, що охоплюють обов'язкові та бажані дії згідно з ісламським фікгом"
+      },
+      "steps": [
+        {
+          "title": {
+            "ar": "النية والتسمية",
+            "en": "Intention and Basmalah",
+            "ru": "Намерение и Басмала",
+            "es": "Intención y Basmala",
+            "uk": "Намір і басмала"
+          },
+          "text": {
+            "ar": "النية بالقلب لرفع الحدث الأصغر، ثم قول «بسم الله».",
+            "en": "Intend in the heart to remove minor impurity, then say 'Bismillah'.",
+            "ru": "Намерение в сердце снять малое осквернение, затем произнесение «Бисмиллях».",
+            "es": "La intención en el corazón de eliminar la impureza menor, luego decir «Bismillah».",
+            "uk": "Намір у серці зняти малий хадас, потім промовляння «Бісміллаг»."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الكفين",
+            "en": "Washing Hands",
+            "ru": "Мытье кистей рук",
+            "es": "Lavado de las manos",
+            "uk": "Миття кистей"
+          },
+          "text": {
+            "ar": "غسل الكفين إلى الرسغين ثلاث مرات مع تخليل الأصابع (وهي سنة مؤكدة).",
+            "en": "Wash both hands up to the wrists three times, interlacing fingers.",
+            "ru": "Троекратное мытье кистей рук до запястий с переплетением пальцев.",
+            "es": "Lavar ambas manos hasta las muñecas tres veces, entrelazando los dedos.",
+            "uk": "Триразове миття кистей рук до зап'ястя із переплетенням пальців (це підтверджена сунна)."
+          }
+        },
+        {
+          "title": {
+            "ar": "المضمضة والاستنشاق",
+            "en": "Rinsing Mouth and Nose",
+            "ru": "Полоскание рта и носа",
+            "es": "Enjuague de la boca y la nariz",
+            "uk": "Полоскання рота й носа"
+          },
+          "text": {
+            "ar": "المضمضة والاستنشاق بيمينه والاستنثار بيساره ثلاث مرات بغرفة واحدة أو غرفات.",
+            "en": "Rinse mouth and sniff water into nostrils three times using the right hand and blowing out with left.",
+            "ru": "Троекратное полоскание рта и втягивание воды в нос правой рукой и высмаркивание левой.",
+            "es": "Enjuagar la boca e introducir agua en la nariz con la mano derecha, expulsándola con la izquierda, tres veces, con una o varias tomas de agua.",
+            "uk": "Полоскання рота і втягування води в ніс правою рукою та висякування лівою — тричі, однією або кількома пригорщами."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الوجه",
+            "en": "Washing the Face",
+            "ru": "Мытье лица",
+            "es": "Lavado del rostro",
+            "uk": "Миття обличчя"
+          },
+          "text": {
+            "ar": "غسل الوجه كاملاً من منابت شعر الرأس إلى أسفل الذقن طولاً، ومن الأذن إلى الأذن عرضاً (ثلاثاً).",
+            "en": "Wash the entire face from hairline to chin vertically, and ear to ear horizontally (three times).",
+            "ru": "Троекратное мытье всего лица от линии волос до подбородка и от уха до уха.",
+            "es": "Lavar todo el rostro desde el nacimiento del cabello hasta la parte baja de la barbilla en longitud, y de oreja a oreja en anchura (tres veces).",
+            "uk": "Миття всього обличчя від лінії волосся до низу підборіддя вздовж і від вуха до вуха впоперек (тричі)."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل اليدين إلى المرفقين",
+            "en": "Washing Arms to Elbows",
+            "ru": "Мытье рук до локтей",
+            "es": "Lavado de los brazos hasta los codos",
+            "uk": "Миття рук до ліктів"
+          },
+          "text": {
+            "ar": "غسل اليد اليمنى ثم اليسرى من أطراف الأصابع مع إدخال المرفقين في الغسل (ثلاثاً).",
+            "en": "Wash right arm then left arm including the elbows (three times).",
+            "ru": "Троекратное мытье правой, затем левой руки, включая локти.",
+            "es": "Lavar la mano derecha y luego la izquierda desde la punta de los dedos, incluyendo los codos en el lavado (tres veces).",
+            "uk": "Миття правої, потім лівої руки від кінчиків пальців із включенням ліктів (тричі)."
+          }
+        },
+        {
+          "title": {
+            "ar": "مسح الرأس والأذنين",
+            "en": "Wiping Head and Ears",
+            "ru": "Протирание головы и ушей",
+            "es": "Paso de la mano por la cabeza y las orejas",
+            "uk": "Протирання голови та вух"
+          },
+          "text": {
+            "ar": "مسح جميع الرأس (أو بعضه عند الشافعية والحنفية) مرة واحدة، ثم مسح ظاهر الأذنين وباطنهما بماء جديد.",
+            "en": "Wipe the head once (or part of it in Hanafi/Shāfiʿī), then wipe inside and outside of ears.",
+            "ru": "Однократное протирание головы (или ее части у ханафитов/шафиитов), затем протирание ушей.",
+            "es": "Pasar la mano por toda la cabeza (o parte de ella según los shafiíes y hanafíes) una vez, luego pasar la mano por el exterior e interior de las orejas con agua nueva.",
+            "uk": "Протирання всієї голови (або її частини — у шафіїтів і ганафітів) один раз, потім протирання зовнішньої та внутрішньої частини вух новою водою."
+          }
+        },
+        {
+          "title": {
+            "ar": "غسل الرجلين إلى الكعبين",
+            "en": "Washing Feet to Ankles",
+            "ru": "Мытье ног до лодыжек",
+            "es": "Lavado de los pies hasta los tobillos",
+            "uk": "Миття ніг до кісточок"
+          },
+          "text": {
+            "ar": "غسل القدم اليمنى ثم اليسرى مع إدخال الكعبين وتخليل أصابع القدمين (ثلاثاً).",
+            "en": "Wash right foot then left foot up to and including the ankles, clean between toes (three times).",
+            "ru": "Троекратное мытье правой, затем левой ноги, включая лодыжки и между пальцами.",
+            "es": "Lavar el pie derecho y luego el izquierdo incluyendo los tobillos y frotando entre los dedos de los pies (tres veces).",
+            "uk": "Миття правої, потім лівої стопи із включенням кісточок і протиранням між пальцями ніг (тричі)."
+          }
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-conversion",
+      "category": {
+        "ar": "الدخول في الإسلام",
+        "en": "Conversion",
+        "ru": "Принятие ислама",
+        "es": "Conversión",
+        "uk": "Прийняття ісламу"
+      },
+      "question": {
+        "ar": "هل الدخول في الإسلام لحظي أم يحتاج إجراءات؟",
+        "en": "Is accepting Islam instant, or does it require a formal process?",
+        "ru": "Принятие ислама происходит мгновенно или нужна процедура?",
+        "es": "¿Es instantáneo abrazar el islam, o requiere trámites?",
+        "uk": "Прийняття ісламу відбувається миттєво чи потребує процедури?"
+      },
+      "answer": {
+        "ar": "الدخول في الإسلام لحظي بمجرد النطق بالشهادتين عن اقتناع: أشهد أن لا إله إلا الله وأشهد أن محمداً رسول الله. لا يشترط حضور شيخ ولا أوراق رسمية، وإنما توثيق الإسلام لاحقاً أمر تنظيمي فقط.",
+        "en": "It is instant: sincerely pronouncing the testimony of faith — 'I bear witness that there is no god but Allah, and Muhammad is His Messenger' — makes you Muslim. No cleric or paperwork is required; any later documentation is merely administrative.",
+        "ru": "Это происходит мгновенно: искреннее произнесение свидетельства веры — «Свидетельствую, что нет божества, кроме Аллаха, и Мухаммад — Его посланник» — делает вас мусульманином. Не требуется ни имам, ни документы; последующее оформление лишь административное.",
+        "es": "Es instantáneo: pronunciar con sinceridad el testimonio de fe — «Atestiguo que no hay más dios que Allah, y que Muhammad es Su Mensajero» — te convierte en musulmán. No se requiere clérigo ni papeleo; cualquier documentación posterior es meramente administrativa.",
+        "uk": "Це відбувається миттєво: щире промовляння свідчення віри — «Свідчу, що немає божества, крім Аллаха, і Мухаммад — Його посланець» — робить вас мусульманином. Не потрібні ні шейх, ні документи; подальше оформлення — лише адміністративне."
+      }
+    },
+    {
+      "id": "faq-arabic",
+      "category": {
+        "ar": "اللغة",
+        "en": "Language",
+        "ru": "Язык",
+        "es": "Idioma",
+        "uk": "Мова"
+      },
+      "question": {
+        "ar": "هل يجب أن أتعلم العربية لأعتنق الإسلام؟",
+        "en": "Do I need to learn Arabic to accept Islam?",
+        "ru": "Нужно ли учить арабский, чтобы принять ислам?",
+        "es": "¿Debo aprender árabe para abrazar el islam?",
+        "uk": "Чи треба вивчити арабську, щоб прийняти іслам?"
+      },
+      "answer": {
+        "ar": "لا. يمكنك الدخول في الإسلام بأي لغة تفهمها، وتتعلم القرآن والصلاة تدريجياً. تعلّم بعض العربية للصلاة مستحب ومفيد لكنه ليس شرطاً للإسلام.",
+        "en": "No. You can accept Islam in any language you understand and learn the Qurʾān and prayer gradually. Learning some Arabic for prayer is encouraged and helpful, but it is not a condition for becoming Muslim.",
+        "ru": "Нет. Принять ислам можно на любом понятном вам языке, а Коран и молитву изучать постепенно. Немного арабского для молитвы желательно и полезно, но не является условием.",
+        "es": "No. Puedes abrazar el islam en cualquier idioma que entiendas, y aprender el Corán y la oración gradualmente. Aprender algo de árabe para la oración es recomendable y útil, pero no es una condición para hacerte musulmán.",
+        "uk": "Ні. Прийняти іслам можна будь-якою зрозумілою вам мовою, а Коран і молитву вивчати поступово. Трохи арабської для молитви — бажано й корисно, але це не умова прийняття ісламу."
+      }
+    },
+    {
+      "id": "faq-past-sins",
+      "category": {
+        "ar": "التوبة",
+        "en": "Repentance",
+        "ru": "Покаяние",
+        "es": "Arrepentimiento",
+        "uk": "Покаяння"
+      },
+      "question": {
+        "ar": "ماذا يحدث لذنوبي السابقة عند إسلامي؟",
+        "en": "What happens to my past sins when I embrace Islam?",
+        "ru": "Что происходит с прошлыми грехами при принятии ислама?",
+        "es": "¿Qué ocurre con mis pecados anteriores al abrazar el islam?",
+        "uk": "Що стається з моїми попередніми гріхами при прийнятті ісламу?"
+      },
+      "answer": {
+        "ar": "الإسلام يهدم ما قبله، فمن أسلم غُفرت له ذنوبه السابقة كلها ويبدأ صفحة جديدة نقية، كما صح عن النبي صلى الله عليه وسلم.",
+        "en": "Islam erases what came before it. Upon accepting Islam all previous sins are forgiven and you begin with a clean slate, as affirmed by the Prophet (peace be upon him).",
+        "ru": "Ислам стирает всё, что было до него. С принятием ислама все прежние грехи прощаются, и вы начинаете с чистого листа, как сообщил Пророк (мир ему).",
+        "es": "El islam borra lo anterior a él. Al abrazar el islam se perdonan todos los pecados previos y empiezas de cero, como se confirma del Profeta (la paz sea con él).",
+        "uk": "Іслам стирає все, що було до нього. З прийняттям ісламу всі попередні гріхи прощаються, і ви починаєте з чистого аркуша, як достовірно передано від Пророка (мир йому)."
+      }
+    },
+    {
+      "id": "faq-five-pillars",
+      "category": {
+        "ar": "الأركان",
+        "en": "Foundations",
+        "ru": "Основы",
+        "es": "Fundamentos",
+        "uk": "Основи"
+      },
+      "question": {
+        "ar": "ما الذي يُطلب مني فعله بعد الإسلام مباشرة؟",
+        "en": "What am I expected to do right after becoming Muslim?",
+        "ru": "Что требуется делать сразу после принятия ислама?",
+        "es": "¿Qué se espera que haga justo después de hacerme musulmán?",
+        "uk": "Що від мене вимагається одразу після прийняття ісламу?"
+      },
+      "answer": {
+        "ar": "تبدأ بأركان الإسلام الخمسة تدريجياً: الشهادتان، ثم الصلوات الخمس، والزكاة لمن يملك نصابها، وصوم رمضان، وحج البيت لمن استطاع. الأهم البدء بالصلاة وتعلّمها.",
+        "en": "You gradually take on the five essential elements: the testimony of faith, the five daily prayers, zakah (for those who meet the threshold), fasting Ramadan, and Hajj for those able. The most immediate priority is learning and starting the prayer.",
+        "ru": "Постепенно вы принимаете пять обязательных составных частей: свидетельство веры, пять ежедневных молитв, закят (для имеющих достаток), пост в Рамадан и хадж для способных. Главный приоритет — научиться и начать молиться.",
+        "es": "Vas asumiendo gradualmente los cinco pilares: el testimonio de fe, las cinco oraciones diarias, el zakat (para quien alcance el mínimo exigido), el ayuno de Ramadán y la peregrinación para quien pueda. La prioridad más inmediata es aprender y comenzar la oración.",
+        "uk": "Ви поступово беретеся за п'ять обов'язкових складових ісламу: свідчення віри, п'ять щоденних молитв, закят для тих, хто має нісаб, піст у Рамадан і хадж для спроможних. Найважливіше — почати з молитви і навчитися їй."
+      }
+    },
+    {
+      "id": "faq-schools",
+      "category": {
+        "ar": "المذاهب",
+        "en": "Schools of law",
+        "ru": "Мазхабы",
+        "es": "Escuelas jurídicas",
+        "uk": "Мазгаби"
+      },
+      "question": {
+        "ar": "لماذا تختلف المذاهب الأربعة، وأيها أتبع؟",
+        "en": "Why do the four schools differ, and which should I follow?",
+        "ru": "Почему четыре мазхаба различаются и какому следовать?",
+        "es": "¿Por qué difieren las cuatro escuelas, y a cuál debo seguir?",
+        "uk": "Чому чотири мазгаби різняться і якого дотримуватися?"
+      },
+      "answer": {
+        "ar": "الاختلاف بينها في الفروع الاجتهادية لا في الأصول، وكلها تعود إلى القرآن والسنة، وهو رحمة وسعة. للمبتدئ أن يتعلم على مذهب علماء بلده الموثوقين دون تعصب.",
+        "en": "Their differences are in secondary, interpretive matters — not in fundamentals — and all trace back to the Qurʾān and sunnah; this variety is a mercy and flexibility. A beginner may simply learn according to the trusted scholars of their locale, without partisanship.",
+        "ru": "Их различия — во второстепенных, толковательных вопросах, а не в основах, и все восходят к Корану и Сунне; это милость и простор. Новичку достаточно учиться согласно надёжным учёным своей местности, без фанатизма.",
+        "es": "Sus diferencias están en asuntos secundarios e interpretativos, no en los fundamentos, y todas se remontan al Corán y la Sunna; esta variedad es una misericordia y una amplitud. El principiante puede simplemente aprender según los sabios de confianza de su localidad, sin fanatismo.",
+        "uk": "Їхні розбіжності — у другорядних питаннях іджтигаду, а не в основах, і всі вони сходять до Корану та Сунни; це милість і простір. Початківцю досить учитися за надійними вченими своєї країни, без фанатизму."
+      }
+    },
+    {
+      "id": "faq-family",
+      "category": {
+        "ar": "المفاهيم",
+        "en": "Misconceptions",
+        "ru": "Заблуждения",
+        "es": "Conceptos erróneos",
+        "uk": "Хибні уявлення"
+      },
+      "question": {
+        "ar": "هل يجب أن أقطع علاقتي بعائلتي غير المسلمة؟",
+        "en": "Must I cut ties with my non-Muslim family?",
+        "ru": "Должен ли я разорвать связь с немусульманской семьёй?",
+        "es": "¿Debo romper los lazos con mi familia no musulmana?",
+        "uk": "Чи мушу я розірвати стосунки зі своєю немусульманською родиною?"
+      },
+      "answer": {
+        "ar": "لا، بل يأمر الإسلام ببرّ الوالدين والإحسان إلى الأقارب ولو كانوا غير مسلمين، ما لم يُطلب منك معصية الله. حسن الخلق معهم من صميم الدين.",
+        "en": "No. Islam commands kindness to parents and relatives even if they are non-Muslim, unless they ask you to disobey God. Treating them well is at the heart of the faith.",
+        "ru": "Нет. Ислам предписывает доброту к родителям и родственникам, даже если они немусульмане, если они не призывают к ослушанию Бога. Хорошее отношение к ним — суть религии.",
+        "es": "No. El islam ordena la bondad hacia los padres y los familiares aunque no sean musulmanes, salvo que te pidan desobedecer a Dios. Tratarlos bien está en el corazón mismo de la religión.",
+        "uk": "Ні. Навпаки, іслам наказує шанувати батьків і бути добрим до родичів, навіть якщо вони немусульмани, доки від вас не вимагають непослуху Аллаху. Гарне ставлення до них — суть релігії."
+      }
+    }
+  ]
+}

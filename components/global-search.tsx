@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react"
 import { Search, X } from "lucide-react"
-import { glossaryAnchor, type Lang, searchAll, ui } from "@/lib/fiqh-data"
+import { glossaryAnchor, type Lang, type SearchResults, ui } from "@/lib/fiqh-data"
+import { entryPath } from "@/lib/site"
 import type { Section } from "@/components/nav-modal"
 
 interface GlobalSearchProps {
@@ -11,6 +12,8 @@ interface GlobalSearchProps {
   onClose: () => void
   /** Navigate to a section, optionally scrolling to an anchor within it. */
   onNavigate: (section: Section, anchor?: string) => void
+  /** Open an entry's own page. */
+  onOpenEntry: (href: string) => void
 }
 
 /** One line in the results list. */
@@ -21,6 +24,8 @@ interface Hit {
   title: string
   subtitle?: string
   anchor?: string
+  /** A page of its own — issues, articles and proofs. The row navigates there. */
+  href?: string
 }
 
 /**
@@ -32,7 +37,7 @@ interface Hit {
  * this at all", and so reaches creed, articles, glossary, guides and
  * questions as well.
  */
-export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchProps) {
+export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry }: GlobalSearchProps) {
   const [query, setQuery] = useState("")
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -54,9 +59,25 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
     return () => window.removeEventListener("keydown", onKey)
   }, [open, onClose])
 
+  // The bodies — rulings and article text — are not in the index every page
+  // carries. They arrive the first time the search opens, so a phrase the
+  // reader remembers from inside a ruling still finds it.
+  const [full, setFull] = useState<((q: string) => SearchResults) | null>(null)
+  useEffect(() => {
+    if (!open || full) return
+    let alive = true
+    import("@/lib/fiqh-full").then((m) => {
+      if (alive) setFull(() => m.searchAllFull)
+    })
+    return () => {
+      alive = false
+    }
+  }, [open, full])
+
   const hits = useMemo<Hit[]>(() => {
     if (query.trim().length < 2) return []
-    const r = searchAll(query)
+    if (!full) return []
+    const r = full(query)
     const out: Hit[] = []
     for (const i of r.issues.slice(0, 8)) {
       out.push({
@@ -66,6 +87,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
         title: i.title[lang],
         subtitle: i.chapter?.[lang],
         anchor: i.id,
+        href: entryPath(lang, i.ref),
       })
     }
     for (const p of r.proofs.slice(0, 5)) {
@@ -75,6 +97,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
         sectionLabel: ui.aqidahSection[lang],
         title: p.title[lang],
         subtitle: p.tagline[lang],
+        href: entryPath(lang, p.ref),
       })
     }
     for (const a of r.articles.slice(0, 5)) {
@@ -84,6 +107,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
         sectionLabel: ui.articlesSection[lang],
         title: a.title[lang],
         subtitle: a.excerpt[lang],
+        href: entryPath(lang, a.ref),
       })
     }
     for (const t of r.terms.slice(0, 6)) {
@@ -115,7 +139,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
       })
     }
     return out
-  }, [query, lang])
+  }, [query, lang, full])
 
   if (!open) return null
 
@@ -169,7 +193,8 @@ export function GlobalSearch({ lang, open, onClose, onNavigate }: GlobalSearchPr
                   <button
                     type="button"
                     onClick={() => {
-                      onNavigate(h.section, h.anchor)
+                      if (h.href) onOpenEntry(h.href)
+                      else onNavigate(h.section, h.anchor)
                       onClose()
                     }}
                     className="flex w-full flex-col gap-1 px-5 py-3 text-start transition-colors hover:bg-white/[0.06]"

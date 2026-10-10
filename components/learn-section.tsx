@@ -3,7 +3,8 @@
 import { HelpCircle, Route } from "lucide-react"
 import { FaqAccordion } from "@/components/faq-accordion"
 import { ProcessSteps } from "@/components/process-steps"
-import { faqs, guides, type Lang, ui } from "@/lib/fiqh-data"
+import { type Lang, ui } from "@/lib/fiqh-data"
+import { faqs, guides } from "@/lib/learn-data"
 
 interface LearnSectionProps {
   lang: Lang

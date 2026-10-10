@@ -1,0 +1,1863 @@
+{
+  "languages": [
+    {
+      "key": "ar",
+      "short": "AR",
+      "label": "العربية",
+      "flag": "🇸🇦",
+      "flagCode": "sa"
+    },
+    {
+      "key": "en",
+      "short": "EN",
+      "label": "English",
+      "flag": "🇬🇧",
+      "flagCode": "gb"
+    },
+    {
+      "key": "ru",
+      "short": "RU",
+      "label": "Русский",
+      "flag": "🇷🇺",
+      "flagCode": "ru"
+    },
+    {
+      "key": "es",
+      "short": "ES",
+      "label": "Español",
+      "flag": "🇪🇸",
+      "flagCode": "es"
+    },
+    {
+      "key": "uk",
+      "short": "UK",
+      "label": "Українська",
+      "flag": "🇺🇦",
+      "flagCode": "ua"
+    }
+  ],
+  "ui": {
+    "academicMode": {
+      "ar": "مع المراجع",
+      "en": "With sources",
+      "ru": "С источниками",
+      "es": "Con fuentes",
+      "uk": "З джерелами"
+    },
+    "allSchools": {
+      "ar": "جميع المذاهب",
+      "en": "All schools",
+      "ru": "Все мазхабы",
+      "es": "Todas las escuelas",
+      "uk": "Усі мазгаби"
+    },
+    "appSubtitle": {
+      "ar": "الإسلام من منابعه — فقهاً وعقيدةً وسيرة",
+      "en": "Islam from its own sources — law, creed, and history",
+      "ru": "Ислам по его собственным источникам: фикх, вероучение и жизнеописание",
+      "es": "El islam desde sus propias fuentes: fiqh, credo e historia",
+      "uk": "Іслам з його власних джерел: фікг, віровчення та життєпис"
+    },
+    "appTitle": {
+      "ar": "تبيان",
+      "en": "Tibyān",
+      "ru": "Тибьян",
+      "es": "Tibyán",
+      "uk": "Тіб'ян"
+    },
+    "apply": {
+      "ar": "تطبيق",
+      "en": "Apply",
+      "ru": "Применить",
+      "es": "Aplicar",
+      "uk": "Застосувати"
+    },
+    "aqidahSection": {
+      "ar": "العقيدة والبراهين",
+      "en": "Creed & Proofs",
+      "ru": "Вероучение и доводы",
+      "es": "Credo y Pruebas",
+      "uk": "Віровчення та докази"
+    },
+    "aqidahSectionDesc": {
+      "ar": "أدلة عقلية في وجود الخالق ووحدانيته والنبوة",
+      "en": "Rational proofs on the Creator, His oneness, and prophethood",
+      "ru": "Рациональные доводы о Творце, Его единственности и пророчестве",
+      "es": "Pruebas racionales sobre el Creador, Su unicidad y la profecía",
+      "uk": "Раціональні докази буття Творця, Його єдиності та пророцтва"
+    },
+    "articlesCount": {
+      "ar": "مقالة",
+      "en": "articles",
+      "ru": "статей",
+      "es": "artículo",
+      "uk": "статей"
+    },
+    "articlesSection": {
+      "ar": "مقالات",
+      "en": "Articles",
+      "ru": "Статьи",
+      "es": "Artículos",
+      "uk": "Статті"
+    },
+    "articlesSectionDesc": {
+      "ar": "قراءات موسّعة في العقيدة وتاريخ الرسالات",
+      "en": "Long-form readings on creed and the history of revelation",
+      "ru": "Развёрнутые чтения о вероучении и истории откровения",
+      "es": "Lecturas extensas sobre el credo y la historia de las revelaciones",
+      "uk": "Розгорнуті читання про віровчення та історію послань"
+    },
+    "back": {
+      "ar": "رجوع",
+      "en": "Back",
+      "ru": "Назад",
+      "es": "Atrás",
+      "uk": "Назад"
+    },
+    "bookmark": {
+      "ar": "حفظ",
+      "en": "Bookmark",
+      "ru": "Закладка",
+      "es": "Guardar",
+      "uk": "Зберегти"
+    },
+    "bookmarked": {
+      "ar": "محفوظ",
+      "en": "Saved",
+      "ru": "Сохранено",
+      "es": "Guardado",
+      "uk": "Збережено"
+    },
+    "browseMode": {
+      "ar": "طريقة العرض",
+      "en": "Browse mode",
+      "ru": "Режим просмотра",
+      "es": "Modo de exploración",
+      "uk": "Режим перегляду"
+    },
+    "cancel": {
+      "ar": "إلغاء",
+      "en": "Cancel",
+      "ru": "Отмена",
+      "es": "Cancelar",
+      "uk": "Скасувати"
+    },
+    "changeCountry": {
+      "ar": "تغيير البلد",
+      "en": "Change country",
+      "ru": "Изменить страну",
+      "es": "Cambiar país",
+      "uk": "Змінити країну"
+    },
+    "chapter": {
+      "ar": "باب",
+      "en": "Chapter",
+      "ru": "Раздел",
+      "es": "Capítulo",
+      "uk": "Розділ"
+    },
+    "chooseCountry": {
+      "ar": "اختر بلدك",
+      "en": "Choose your country",
+      "ru": "Выберите вашу страну",
+      "es": "Elige tu país",
+      "uk": "Оберіть свою країну"
+    },
+    "chooseCountryDesc": {
+      "ar": "نضبط المذهب المعروض تلقائياً حسب الغالب في بلدك، ويمكنك تغييره متى شئت.",
+      "en": "We set the displayed school to the one prevalent in your country. You can change it anytime.",
+      "ru": "Мы установим отображаемый мазхаб по распространённому в вашей стране. Вы можете изменить его в любой момент.",
+      "es": "Ajustamos automáticamente la escuela mostrada según la predominante en tu país. Puedes cambiarla cuando quieras.",
+      "uk": "Ми автоматично встановимо відображуваний мазгаб за поширеним у вашій країні. Ви можете змінити його будь-коли."
+    },
+    "chooseLanguage": {
+      "ar": "اختر لغتك",
+      "en": "Choose your language",
+      "ru": "Выберите ваш язык",
+      "es": "Elige tu idioma",
+      "uk": "Оберіть свою мову"
+    },
+    "chooseLanguageDesc": {
+      "ar": "حدد لغة الواجهة للمتابعة.",
+      "en": "Select the interface language to continue.",
+      "ru": "Выберите язык интерфейса, чтобы продолжить.",
+      "es": "Selecciona el idioma de la interfaz para continuar.",
+      "uk": "Оберіть мову інтерфейсу, щоб продовжити."
+    },
+    "chooseSchool": {
+      "ar": "اختر المذهب",
+      "en": "Choose School",
+      "ru": "Выбрать мазхаб",
+      "es": "Elige la escuela",
+      "uk": "Обрати мазгаб"
+    },
+    "clearSearch": {
+      "ar": "مسح البحث",
+      "en": "Clear search",
+      "ru": "Очистить поиск",
+      "es": "Borrar búsqueda",
+      "uk": "Очистити пошук"
+    },
+    "close": {
+      "ar": "إغلاق",
+      "en": "Close",
+      "ru": "Закрыть",
+      "es": "Cerrar",
+      "uk": "Закрити"
+    },
+    "comparing": {
+      "ar": "مقارنة بين",
+      "en": "Comparing",
+      "ru": "Сравнение",
+      "es": "Comparando",
+      "uk": "Порівняння"
+    },
+    "comparison": {
+      "ar": "المقارنة",
+      "en": "Comparison",
+      "ru": "Сравнение",
+      "es": "Comparación",
+      "uk": "Порівняння"
+    },
+    "conclusion": {
+      "ar": "الخلاصة العقلية",
+      "en": "Rational conclusion",
+      "ru": "Рациональный вывод",
+      "es": "Conclusión racional",
+      "uk": "Раціональний висновок"
+    },
+    "contents": {
+      "ar": "المحتويات",
+      "en": "Contents",
+      "ru": "Содержание",
+      "es": "Contenidos",
+      "uk": "Зміст"
+    },
+    "copied": {
+      "ar": "تم النسخ",
+      "en": "Copied",
+      "ru": "Скопировано",
+      "es": "Copiado",
+      "uk": "Скопійовано"
+    },
+    "copyCitation": {
+      "ar": "نسخ الاقتباس",
+      "en": "Copy citation",
+      "ru": "Копировать цитату",
+      "es": "Copiar cita",
+      "uk": "Копіювати цитату"
+    },
+    "copyLink": {
+      "ar": "نسخ الرابط",
+      "en": "Copy link",
+      "ru": "Копировать ссылку",
+      "es": "Copiar enlace",
+      "uk": "Копіювати посилання"
+    },
+    "countryNote": {
+      "ar": "هذا الاقتران إرشادي للعرض فقط، ولا يعني إلزام أهل البلد بمذهب.",
+      "en": "This mapping is a display default only; it does not bind anyone to a school.",
+      "ru": "Это сопоставление — лишь настройка отображения и никого не обязывает следовать мазхабу.",
+      "es": "Esta asociación es orientativa, solo para la visualización, y no significa que se obligue a la gente del país a seguir una escuela concreta.",
+      "uk": "Це зіставлення — лише налаштування відображення і нікого не зобов'язує дотримуватися певного мазгабу."
+    },
+    "deepDive": {
+      "ar": "قراءة موسّعة",
+      "en": "Deep dive",
+      "ru": "Подробнее",
+      "es": "Lectura extensa",
+      "uk": "Розгорнуте читання"
+    },
+    "downloadImage": {
+      "ar": "تحميل الصورة",
+      "en": "Download image",
+      "ru": "Скачать изображение",
+      "es": "Descargar imagen",
+      "uk": "Завантажити зображення"
+    },
+    "dualComparison": {
+      "ar": "مقارنة ثنائية",
+      "en": "Dual comparison",
+      "ru": "Двойное сравнение",
+      "es": "Comparación doble",
+      "uk": "Подвійне порівняння"
+    },
+    "dualComparisonDesc": {
+      "ar": "اختر مذهبين للمقارنة جنباً إلى جنب",
+      "en": "Pick two schools to compare side by side",
+      "ru": "Выберите два мазхаба для сравнения",
+      "es": "Elige dos escuelas para compararlas lado a lado",
+      "uk": "Оберіть два мазгаби для порівняння поруч"
+    },
+    "essentialTakeaway": {
+      "ar": "الخلاصة العملية",
+      "en": "Essential takeaway",
+      "ru": "Главное",
+      "es": "Conclusión práctica",
+      "uk": "Практичний висновок"
+    },
+    "faqSubtitle": {
+      "ar": "إجابات واضحة عن أكثر ما يشغل المستكشفين والمسلمين الجدد.",
+      "en": "Clear answers to what explorers and new Muslims ask most.",
+      "ru": "Понятные ответы на самые частые вопросы интересующихся и новообращённых.",
+      "es": "Respuestas claras a lo que más preguntan quienes exploran el islam y los nuevos musulmanes.",
+      "uk": "Зрозумілі відповіді на найчастіші запитання тих, хто цікавиться, і нових мусульман."
+    },
+    "faqTitle": {
+      "ar": "أسئلة ومفاهيم شائعة",
+      "en": "Questions & misconceptions",
+      "ru": "Вопросы и заблуждения",
+      "es": "Preguntas y conceptos comunes",
+      "uk": "Запитання та поширені хибні уявлення"
+    },
+    "filtering": {
+      "ar": "العرض الحالي",
+      "en": "Viewing",
+      "ru": "Просмотр",
+      "es": "Mostrando",
+      "uk": "Перегляд"
+    },
+    "fiqhSection": {
+      "ar": "الفقه والأحكام",
+      "en": "Fiqh & Rulings",
+      "ru": "Фикх и постановления",
+      "es": "Fiqh y Normas",
+      "uk": "Фікг і постанови"
+    },
+    "fiqhSectionDesc": {
+      "ar": "حكم كل مذهب من المذاهب الأربعة مع مراجعه",
+      "en": "Each of the four schools' rulings with its sources",
+      "ru": "Постановления каждого из четырёх мазхабов с источниками",
+      "es": "La norma de cada una de las cuatro escuelas con sus fuentes",
+      "uk": "Постанова кожного з чотирьох мазгабів із джерелами"
+    },
+    "footer": {
+      "ar": "موسوعة الفقه على المذاهب الأربعة — مرجع تعليمي لأحكام المذاهب الفقهية.",
+      "en": "Fiqh Encyclopedia of the Four Schools — an educational reference for the rulings of the schools of jurisprudence.",
+      "ru": "Энциклопедия фикха четырёх мазхабов — учебный справочник по постановлениям правовых школ.",
+      "es": "Enciclopedia del Fiqh de las Cuatro Escuelas — una referencia educativa sobre las normas de las escuelas jurídicas.",
+      "uk": "Енциклопедія фікгу чотирьох мазгабів — навчальний довідник з постанов правових шкіл."
+    },
+    "glossaryHint": {
+      "ar": "اضغط لعرض المعنى",
+      "en": "Tap to see the meaning",
+      "ru": "Нажмите, чтобы увидеть значение",
+      "es": "Toca para ver el significado",
+      "uk": "Натисніть, щоб побачити значення"
+    },
+    "homeIntentAqidah": {
+      "ar": "لماذا أؤمن أصلاً؟",
+      "en": "Why believe in the first place?",
+      "ru": "Почему вообще верить?",
+      "es": "¿Por qué creer, para empezar?",
+      "uk": "Чому взагалі вірити?"
+    },
+    "homeIntentAqidahDesc": {
+      "ar": "أدلة عقلية تبدأ من مقدمات يمكن مناقشتها، لا من التسليم.",
+      "en": "Rational proofs that begin from premises open to debate, not from assent.",
+      "ru": "Рациональные доводы, исходящие из обсуждаемых посылок, а не из согласия.",
+      "es": "Pruebas racionales que parten de premisas abiertas al debate, no de la mera aceptación.",
+      "uk": "Раціональні докази, що виходять із засновків, відкритих для обговорення, а не з простого прийняття."
+    },
+    "homeIntentArticles": {
+      "ar": "لماذا يختلف الفقهاء؟",
+      "en": "Why do jurists differ?",
+      "ru": "Почему правоведы расходятся?",
+      "es": "¿Por qué difieren los juristas?",
+      "uk": "Чому правознавці розходяться?"
+    },
+    "homeIntentArticlesDesc": {
+      "ar": "قراءات متّصلة تشرح الخلاف وتاريخ الرسالات قبل الدخول في التفاصيل.",
+      "en": "Continuous readings on why they differ and on the history of revelation, before the details.",
+      "ru": "Связные тексты о причинах расхождений и истории посланий — до деталей.",
+      "es": "Lecturas continuas que explican por qué difieren y la historia de las revelaciones, antes de entrar en los detalles.",
+      "uk": "Зв'язні читання, що пояснюють причини розбіжностей та історію послань — перш ніж заглиблюватися в деталі."
+    },
+    "homeIntentFiqh": {
+      "ar": "أريد حكم مسألة",
+      "en": "I want the ruling on a question",
+      "ru": "Мне нужно решение по вопросу",
+      "es": "Quiero la norma de una cuestión",
+      "uk": "Мені потрібна постанова з питання"
+    },
+    "homeIntentFiqhDesc": {
+      "ar": "حكم كل مذهب من الأربعة في مسألة واحدة، جنباً إلى جنب، مع مراجعه.",
+      "en": "Each of the four schools on one question, side by side, with its sources.",
+      "ru": "Каждый из четырёх мазхабов по одному вопросу, рядом, с источниками.",
+      "es": "La postura de cada una de las cuatro escuelas sobre una misma cuestión, lado a lado, con sus fuentes.",
+      "uk": "Позиція кожного з чотирьох мазгабів з одного питання, поруч, із джерелами."
+    },
+    "homeIntentLearn": {
+      "ar": "أسلمتُ حديثاً وأريد أن أتعلّم",
+      "en": "I am new to Islam and want to learn",
+      "ru": "Я недавно принял ислам и хочу учиться",
+      "es": "Me he convertido recientemente y quiero aprender",
+      "uk": "Я нещодавно прийняв іслам і хочу вчитися"
+    },
+    "homeIntentLearnDesc": {
+      "ar": "صفة الوضوء والصلاة خطوةً خطوة، وأسئلة شائعة، ومعاني المصطلحات.",
+      "en": "Wudu and prayer step by step, common questions, and the meaning of the terms.",
+      "ru": "Омовение и молитва шаг за шагом, частые вопросы и значения терминов.",
+      "es": "La forma de la ablución y la oración paso a paso, preguntas frecuentes y el significado de los términos.",
+      "uk": "Омовіння та молитва крок за кроком, часті запитання та значення термінів."
+    },
+    "homeLede": {
+      "ar": "موسوعة تعرض المعتمد عند المذاهب الأربعة بمصادره، وأدلة العقيدة، ودليلاً عملياً للعبادة.",
+      "en": "An encyclopedia presenting the settled position of the four schools with its sources, the proofs of creed, and a practical guide to worship.",
+      "ru": "Энциклопедия, излагающая утверждённые позиции четырёх мазхабов с источниками, доводы вероучения и практическое руководство по поклонению.",
+      "es": "Una enciclopedia que presenta la postura acreditada de las cuatro escuelas con sus fuentes, las pruebas del credo y una guía práctica para la adoración.",
+      "uk": "Енциклопедія, що подає усталені позиції чотирьох мазгабів із джерелами, докази віровчення та практичний посібник із поклоніння."
+    },
+    "homeNotBody": {
+      "ar": "ليس دار إفتاء. يعرض ما استقرّ عليه كل مذهب، ولا يعطيك حكماً في حالتك الخاصة. وللنازلة الخاصة يُسأل عالم.",
+      "en": "It is not a fatwa service. It presents what each school settled upon; it does not rule on your particular case. For that, ask a scholar.",
+      "ru": "Это не служба фетв. Сайт излагает утверждённое в каждом мазхабе и не выносит решения по вашему частному случаю. Для этого спросите учёного.",
+      "es": "No es un servicio de fetuas. Presenta lo que cada escuela ha establecido y no te da una norma para tu caso particular. Para un caso concreto, consulta a un sabio.",
+      "uk": "Це не служба фетв. Сайт подає те, на чому усталився кожен мазгаб, і не виносить постанови щодо вашого окремого випадку. Для цього запитайте вченого."
+    },
+    "homeNotTitle": {
+      "ar": "ما ليس هذا الموقع",
+      "en": "What this site is not",
+      "ru": "Чем этот сайт не является",
+      "es": "Lo que este sitio no es",
+      "uk": "Чим цей сайт не є"
+    },
+    "homeSection": {
+      "ar": "الرئيسية",
+      "en": "Home",
+      "ru": "Главная",
+      "es": "Inicio",
+      "uk": "Головна"
+    },
+    "homeSectionDesc": {
+      "ar": "نبذة عن الموقع وأين تبدأ",
+      "en": "What this site is and where to start",
+      "ru": "О сайте и с чего начать",
+      "es": "Una reseña del sitio y por dónde empezar",
+      "uk": "Про сайт і з чого почати"
+    },
+    "homeStartBrowsing": {
+      "ar": "تصفّح المسائل",
+      "en": "Browse the questions",
+      "ru": "Смотреть вопросы",
+      "es": "Explorar las cuestiones",
+      "uk": "Переглянути питання"
+    },
+    "homeWhereDesc": {
+      "ar": "اختر ما يشبه حالك.",
+      "en": "Pick whichever fits you.",
+      "ru": "Выберите то, что вам ближе.",
+      "es": "Elige lo que más se ajuste a tu situación.",
+      "uk": "Оберіть те, що вам ближче."
+    },
+    "homeWhereTitle": {
+      "ar": "أين تبدأ؟",
+      "en": "Where to start",
+      "ru": "С чего начать",
+      "es": "¿Por dónde empezar?",
+      "uk": "З чого почати?"
+    },
+    "homeWhyCountryBody": {
+      "ar": "لأن لكل بلد مذهباً غالباً يُفتى به فيه، فنعرض لك قوله أولاً لتعرف ما عليه من حولك. ولا يلزمك اختيار بلد، ولا يمنعك الاختيارُ من رؤية المذاهب الأربعة كلها متى شئت.",
+      "en": "Because each country has a prevailing school, we show you its position first so you know what those around you follow. You need not pick a country, and picking one never hides the other three.",
+      "ru": "В каждой стране есть преобладающий мазхаб, и мы показываем его позицию первой, чтобы вы знали, чему следуют вокруг вас. Выбирать страну необязательно, и выбор никогда не скрывает остальные три.",
+      "es": "Porque cada país tiene una escuela predominante en la que se emite fetua, te mostramos primero su postura para que sepas lo que siguen quienes te rodean. No es obligatorio elegir un país, y elegirlo nunca te oculta las otras tres escuelas.",
+      "uk": "У кожній країні є переважний мазгаб, за яким там виносять фетви, тож ми показуємо його позицію першою, щоб ви знали, чого дотримуються навколо вас. Обирати країну необов'язково, і вибір ніколи не приховує решту трьох мазгабів."
+    },
+    "homeWhyCountryTitle": {
+      "ar": "لماذا نسألك عن بلدك؟",
+      "en": "Why do we ask for your country?",
+      "ru": "Почему мы спрашиваем вашу страну?",
+      "es": "¿Por qué te preguntamos tu país?",
+      "uk": "Чому ми запитуємо вашу країну?"
+    },
+    "introduction": {
+      "ar": "مقدمة",
+      "en": "Introduction",
+      "ru": "Введение",
+      "es": "Introducción",
+      "uk": "Вступ"
+    },
+    "issue": {
+      "ar": "مسألة",
+      "en": "Issue",
+      "ru": "Вопрос",
+      "es": "cuestión",
+      "uk": "Питання"
+    },
+    "issuesCount": {
+      "ar": "مسألة",
+      "en": "issues",
+      "ru": "вопросов",
+      "es": "cuestión",
+      "uk": "питань"
+    },
+    "language": {
+      "ar": "اللغة",
+      "en": "Language",
+      "ru": "Язык",
+      "es": "Idioma",
+      "uk": "Мова"
+    },
+    "learnSection": {
+      "ar": "الدليل العملي",
+      "en": "Practical Guide",
+      "ru": "Практическое руководство",
+      "es": "Guía Práctica",
+      "uk": "Практичний посібник"
+    },
+    "learnSectionDesc": {
+      "ar": "خطوات عملية وأسئلة شائعة لكل من أراد التعلّم.",
+      "en": "Practical steps and common questions for anyone wanting to learn.",
+      "ru": "Практические шаги и частые вопросы для всех, кто хочет учиться.",
+      "es": "Pasos prácticos y preguntas frecuentes para quien quiera aprender.",
+      "uk": "Практичні кроки та часті запитання для всіх, хто хоче вчитися."
+    },
+    "linkCopied": {
+      "ar": "نُسخ الرابط",
+      "en": "Link copied",
+      "ru": "Ссылка скопирована",
+      "es": "Enlace copiado",
+      "uk": "Посилання скопійовано"
+    },
+    "listen": {
+      "ar": "استماع",
+      "en": "Listen",
+      "ru": "Прослушать",
+      "es": "Escuchar",
+      "uk": "Слухати"
+    },
+    "minRead": {
+      "ar": "دقيقة قراءة",
+      "en": "min read",
+      "ru": "мин чтения",
+      "es": "min de lectura",
+      "uk": "хв читання"
+    },
+    "noCountryMatch": {
+      "ar": "لا توجد نتائج",
+      "en": "No matches",
+      "ru": "Совпадений нет",
+      "es": "No hay resultados",
+      "uk": "Збігів немає"
+    },
+    "noIssues": {
+      "ar": "لا توجد مسائل في هذا الباب بعد.",
+      "en": "No issues in this section yet.",
+      "ru": "В этом разделе пока нет вопросов.",
+      "es": "Todavía no hay cuestiones en este capítulo.",
+      "uk": "У цьому розділі поки що немає питань."
+    },
+    "noResults": {
+      "ar": "لا توجد نتائج مطابقة لبحثك.",
+      "en": "No results match your search.",
+      "ru": "Нет результатов по вашему запросу.",
+      "es": "No hay resultados que coincidan con tu búsqueda.",
+      "uk": "Немає результатів за вашим запитом."
+    },
+    "noSaved": {
+      "ar": "لا توجد مسائل محفوظة بعد. اضغط على أيقونة الحفظ في أي مسألة.",
+      "en": "No saved issues yet. Tap the bookmark icon on any issue.",
+      "ru": "Пока нет сохранённых вопросов. Нажмите значок закладки у любого вопроса.",
+      "es": "Todavía no hay cuestiones guardadas. Toca el icono de guardar en cualquier cuestión.",
+      "uk": "Поки що немає збережених питань. Натисніть значок збереження біля будь-якого питання."
+    },
+    "openProof": {
+      "ar": "عرض الدليل",
+      "en": "View proof",
+      "ru": "Смотреть довод",
+      "es": "Ver la prueba",
+      "uk": "Переглянути доказ"
+    },
+    "pickSchoolForCountry": {
+      "ar": "بلدك فيه أكثر من مذهب — اختر ما يناسبك",
+      "en": "Your country follows more than one school — choose what suits you",
+      "ru": "В вашей стране несколько мазхабов — выберите подходящий",
+      "es": "Tu país sigue más de una escuela — elige la que prefieras",
+      "uk": "У вашій країні кілька мазгабів — оберіть той, що вам підходить"
+    },
+    "practicalGuides": {
+      "ar": "أدلة عملية",
+      "en": "Practical guides",
+      "ru": "Практические руководства",
+      "es": "Guías prácticas",
+      "uk": "Практичні посібники"
+    },
+    "premises": {
+      "ar": "المقدمات المنطقية",
+      "en": "Logical premises",
+      "ru": "Логические посылки",
+      "es": "Premisas lógicas",
+      "uk": "Логічні засновки"
+    },
+    "preparingImage": {
+      "ar": "جارٍ التحضير…",
+      "en": "Preparing…",
+      "ru": "Подготовка…",
+      "es": "Preparando…",
+      "uk": "Підготовка…"
+    },
+    "proofsCount": {
+      "ar": "دليل عقلي",
+      "en": "rational proofs",
+      "ru": "доказательств",
+      "es": "prueba racional",
+      "uk": "раціональних доказів"
+    },
+    "quickView": {
+      "ar": "عرض سريع",
+      "en": "Quick view",
+      "ru": "Быстрый просмотр",
+      "es": "Vista rápida",
+      "uk": "Швидкий перегляд"
+    },
+    "quranProof": {
+      "ar": "الدليل القرآني",
+      "en": "Quranic proof",
+      "ru": "Коранические доводы",
+      "es": "La prueba coránica",
+      "uk": "Коранічний доказ"
+    },
+    "readArticle": {
+      "ar": "قراءة المقالة",
+      "en": "Read article",
+      "ru": "Читать статью",
+      "es": "Leer el artículo",
+      "uk": "Читати статтю"
+    },
+    "refHint": {
+      "ar": "رقم مرجعي ثابت — يمكن مشاركته والرجوع إليه",
+      "en": "Permanent reference number — shareable and stable",
+      "ru": "Постоянный ссылочный номер — можно делиться и возвращаться",
+      "es": "Número de referencia permanente — se puede compartir y consultar de nuevo",
+      "uk": "Постійний посилальний номер — можна ділитися та повертатися"
+    },
+    "reference": {
+      "ar": "المرجع",
+      "en": "Reference",
+      "ru": "Источник",
+      "es": "Referencia",
+      "uk": "Джерело"
+    },
+    "relatedProofs": {
+      "ar": "أدلة ذات صلة",
+      "en": "Related proofs",
+      "ru": "Связанные доводы",
+      "es": "Pruebas relacionadas",
+      "uk": "Пов'язані докази"
+    },
+    "resetView": {
+      "ar": "إعادة الضبط",
+      "en": "Reset",
+      "ru": "Сбросить",
+      "es": "Restablecer",
+      "uk": "Скинути"
+    },
+    "ruling": {
+      "ar": "الحكم",
+      "en": "Ruling",
+      "ru": "Заключение",
+      "es": "Norma",
+      "uk": "Постанова"
+    },
+    "savedItems": {
+      "ar": "المحفوظات",
+      "en": "Saved",
+      "ru": "Сохранённые",
+      "es": "Guardados",
+      "uk": "Збережені"
+    },
+    "searchCountry": {
+      "ar": "ابحث عن بلد",
+      "en": "Search for a country",
+      "ru": "Поиск страны",
+      "es": "Buscar un país",
+      "uk": "Пошук країни"
+    },
+    "searchPlaceholder": {
+      "ar": "ابحث في المسائل والمذاهب والأبواب…",
+      "en": "Search issues, schools, and books…",
+      "ru": "Поиск по вопросам, мазхабам и разделам…",
+      "es": "Buscar cuestiones, escuelas y capítulos…",
+      "uk": "Пошук за питаннями, мазгабами та розділами…"
+    },
+    "searchResults": {
+      "ar": "نتيجة",
+      "en": "results",
+      "ru": "результатов",
+      "es": "resultado",
+      "uk": "результатів"
+    },
+    "sections": {
+      "ar": "الأقسام",
+      "en": "Sections",
+      "ru": "Разделы",
+      "es": "Secciones",
+      "uk": "Розділи"
+    },
+    "selectTwoSchools": {
+      "ar": "اختر مذهبين للمقارنة",
+      "en": "Select two schools to compare",
+      "ru": "Выберите два мазхаба для сравнения",
+      "es": "Elige dos escuelas para comparar",
+      "uk": "Оберіть два мазгаби для порівняння"
+    },
+    "share": {
+      "ar": "مشاركة",
+      "en": "Share",
+      "ru": "Поделиться",
+      "es": "Compartir",
+      "uk": "Поділитися"
+    },
+    "shareCard": {
+      "ar": "بطاقة للمشاركة",
+      "en": "Share card",
+      "ru": "Карточка для публикации",
+      "es": "Tarjeta para compartir",
+      "uk": "Картка для публікації"
+    },
+    "shareCardDesc": {
+      "ar": "احفظ صورة أنيقة جاهزة للنشر على وسائل التواصل.",
+      "en": "Save a polished image ready to post on social media.",
+      "ru": "Сохраните аккуратное изображение для публикации в соцсетях.",
+      "es": "Guarda una imagen elegante lista para publicar en redes sociales.",
+      "uk": "Збережіть охайне зображення, готове до публікації в соцмережах."
+    },
+    "showAllSchools": {
+      "ar": "عرض جميع المذاهب",
+      "en": "Show all schools",
+      "ru": "Показать все мазхабы",
+      "es": "Mostrar todas las escuelas",
+      "uk": "Показати всі мазгаби"
+    },
+    "showAllSchoolsDesc": {
+      "ar": "عرض المذاهب الأربعة جنباً إلى جنب",
+      "en": "Display all four schools side by side",
+      "ru": "Показать все четыре мазхаба рядом",
+      "es": "Mostrar las cuatro escuelas lado a lado",
+      "uk": "Показати всі чотири мазгаби поруч"
+    },
+    "simplifiedMode": {
+      "ar": "الحكم وحده",
+      "en": "Ruling only",
+      "ru": "Только постановление",
+      "es": "Solo la norma",
+      "uk": "Лише постанова"
+    },
+    "singleSchool": {
+      "ar": "مذهب واحد",
+      "en": "Single school",
+      "ru": "Один мазхаб",
+      "es": "Una sola escuela",
+      "uk": "Один мазгаб"
+    },
+    "singleSchoolDesc": {
+      "ar": "تصفية العرض على مذهب واحد فقط",
+      "en": "Filter the view to a single school",
+      "ru": "Отфильтровать по одному мазхабу",
+      "es": "Filtrar la vista a una sola escuela",
+      "uk": "Відфільтрувати перегляд за одним мазгабом"
+    },
+    "skipCountry": {
+      "ar": "تخطّي — أعرض كل المذاهب",
+      "en": "Skip — show all schools",
+      "ru": "Пропустить — показать все мазхабы",
+      "es": "Omitir — mostrar todas las escuelas",
+      "uk": "Пропустити — показати всі мазгаби"
+    },
+    "stepLabel": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг",
+      "es": "Paso",
+      "uk": "Крок"
+    },
+    "stepOf": {
+      "ar": "الخطوة",
+      "en": "Step",
+      "ru": "Шаг",
+      "es": "Paso",
+      "uk": "Крок"
+    },
+    "stepsLabel": {
+      "ar": "خطوة",
+      "en": "steps",
+      "ru": "шагов",
+      "es": "paso",
+      "uk": "кроків"
+    },
+    "stopListen": {
+      "ar": "إيقاف",
+      "en": "Stop",
+      "ru": "Стоп",
+      "es": "Detener",
+      "uk": "Зупинити"
+    },
+    "theme": {
+      "ar": "المظهر",
+      "en": "Theme",
+      "ru": "Тема",
+      "es": "Tema",
+      "uk": "Тема"
+    },
+    "viewMode": {
+      "ar": "طريقة العرض",
+      "en": "Display",
+      "ru": "Отображение",
+      "es": "Visualización",
+      "uk": "Відображення"
+    },
+    "welcomeDesc": {
+      "ar": "اختر طريقة العرض للبدء، ويمكنك تغييرها لاحقاً في أي وقت.",
+      "en": "Choose a view to begin — you can change it anytime.",
+      "ru": "Выберите режим просмотра — его можно изменить в любой момент.",
+      "es": "Elige un modo de vista para comenzar — puedes cambiarlo después en cualquier momento.",
+      "uk": "Оберіть режим перегляду, щоб почати — його можна змінити будь-коли."
+    },
+    "welcomeTitle": {
+      "ar": "كيف تريد تصفح المذاهب؟",
+      "en": "How would you like to browse the schools?",
+      "ru": "Как вы хотите просматривать мазхабы?",
+      "es": "¿Cómo quieres explorar las escuelas?",
+      "uk": "Як ви хочете переглядати мазгаби?"
+    },
+    "glossarySection": {
+      "ar": "المفردات",
+      "en": "Glossary",
+      "ru": "Словарь",
+      "es": "Glosario",
+      "uk": "Словник"
+    },
+    "glossarySectionDesc": {
+      "ar": "تعريف المصطلحات الفقهية لغةً واصطلاحاً وشرعاً",
+      "en": "Fiqh terms defined linguistically, technically, and in the Sharia",
+      "ru": "Фикховские термины: языковое, терминологическое и шариатское значение",
+      "es": "Términos de fiqh definidos lingüística, técnica y legalmente",
+      "uk": "Визначення фікгових термінів: мовне, термінологічне та шаріатське значення"
+    },
+    "glossaryLinguistic": {
+      "ar": "لغةً",
+      "en": "Linguistically",
+      "ru": "В языке",
+      "es": "Lingüísticamente",
+      "uk": "У мові"
+    },
+    "glossaryTechnical": {
+      "ar": "اصطلاحاً",
+      "en": "Technically",
+      "ru": "В терминологии",
+      "es": "Técnicamente",
+      "uk": "У термінології"
+    },
+    "glossaryLegal": {
+      "ar": "شرعاً",
+      "en": "In the Sharia",
+      "ru": "В шариате",
+      "es": "En la Sharía",
+      "uk": "У шаріаті"
+    },
+    "glossaryGeneral": {
+      "ar": "تعريف موجز",
+      "en": "Brief definition",
+      "ru": "Краткое определение",
+      "es": "Definición breve",
+      "uk": "Стисле визначення"
+    },
+    "glossaryOpen": {
+      "ar": "فتح في المفردات",
+      "en": "Open in glossary",
+      "ru": "Открыть в словаре",
+      "es": "Abrir en el glosario",
+      "uk": "Відкрити у словнику"
+    },
+    "glossarySearch": {
+      "ar": "ابحث في المفردات…",
+      "en": "Search terms…",
+      "ru": "Поиск по словарю…",
+      "es": "Buscar términos…",
+      "uk": "Пошук у словнику…"
+    },
+    "glossaryEmpty": {
+      "ar": "لا توجد مفردة مطابقة",
+      "en": "No matching term",
+      "ru": "Совпадений не найдено",
+      "es": "No hay términos coincidentes",
+      "uk": "Відповідного терміна не знайдено"
+    },
+    "glossaryCount": {
+      "ar": "مفردة",
+      "en": "terms",
+      "ru": "терминов",
+      "es": "términos",
+      "uk": "термінів"
+    },
+    "glossaryPending": {
+      "ar": "التعريف المفصّل قيد الإضافة",
+      "en": "The detailed definition is being added",
+      "ru": "Подробное определение готовится",
+      "es": "La definición detallada se está añadiendo",
+      "uk": "Докладне визначення готується"
+    },
+    "searchAllBooks": {
+      "ar": "البحث في كل الأبواب",
+      "en": "Searching every chapter",
+      "ru": "Поиск по всем разделам",
+      "es": "Buscando en todos los capítulos",
+      "uk": "Пошук у всіх розділах"
+    },
+    "searchOther": {
+      "ar": "نتائج في أقسام أخرى",
+      "en": "Results in other sections",
+      "ru": "Результаты в других разделах",
+      "es": "Resultados en otras secciones",
+      "uk": "Результати в інших розділах"
+    },
+    "comingSoon": {
+      "ar": "قريباً",
+      "en": "Soon",
+      "ru": "Скоро",
+      "es": "Pronto",
+      "uk": "Незабаром"
+    },
+    "betaTag": {
+      "ar": "تجريبي",
+      "en": "Beta",
+      "ru": "Бета",
+      "es": "Beta",
+      "uk": "Бета"
+    },
+    "betaNote": {
+      "ar": "الموقع قيد الإعداد والمحتوى يُراجَع",
+      "en": "The site is in progress and its content is under review",
+      "ru": "Сайт в разработке, содержание проверяется",
+      "es": "El sitio está en desarrollo y su contenido en revisión",
+      "uk": "Сайт у розробці, зміст перевіряється"
+    },
+    "references": {
+      "ar": "المراجع",
+      "en": "References",
+      "ru": "Источники",
+      "es": "Fuentes",
+      "uk": "Джерела"
+    },
+    "readVerse": {
+      "ar": "اقرأ الآية بلغتك",
+      "en": "Read this verse in your language",
+      "ru": "Читать этот аят на вашем языке",
+      "es": "Leer esta aleya en tu idioma",
+      "uk": "Читати цей аят вашою мовою"
+    },
+    "searchScopeLabel": {
+      "ar": "نطاق البحث",
+      "en": "Search in",
+      "ru": "Искать в",
+      "es": "Buscar en",
+      "uk": "Шукати в"
+    },
+    "searchScopeAll": {
+      "ar": "كل الأبواب",
+      "en": "All books",
+      "ru": "Всех книгах",
+      "es": "Todos los libros",
+      "uk": "Усіх книгах"
+    },
+    "searchScopeBook": {
+      "ar": "هذا الباب",
+      "en": "This book",
+      "ru": "Этой книге",
+      "es": "Este libro",
+      "uk": "Цій книзі"
+    },
+    "searchScopeChapter": {
+      "ar": "هذا الفصل",
+      "en": "This chapter",
+      "ru": "Этой главе",
+      "es": "Este capítulo",
+      "uk": "Цьому розділі"
+    },
+    "globalSearch": {
+      "ar": "بحث في الموقع",
+      "en": "Search the site",
+      "ru": "Поиск по сайту",
+      "es": "Buscar en el sitio",
+      "uk": "Пошук по сайту"
+    },
+    "globalSearchPlaceholder": {
+      "ar": "ابحث في الموقع كلّه: مسائل وأدلة ومقالات ومفردات…",
+      "en": "Search the whole site: issues, proofs, articles, terms…",
+      "ru": "Поиск по всему сайту: вопросы, доказательства, статьи, термины…",
+      "es": "Busca en todo el sitio: cuestiones, pruebas, artículos, términos…",
+      "uk": "Пошук по всьому сайту: питання, докази, статті, терміни…"
+    },
+    "globalSearchHint": {
+      "ar": "يشمل الفقه والعقيدة والمقالات والمفردات والأسئلة",
+      "en": "Covers fiqh, creed, articles, glossary and questions",
+      "ru": "Охватывает фикх, вероучение, статьи, словарь и вопросы",
+      "es": "Abarca fiqh, credo, artículos, glosario y preguntas",
+      "uk": "Охоплює фікг, віровчення, статті, словник і запитання"
+    },
+    "searchFiqhOnly": {
+      "ar": "هذا البحث في مسائل الفقه وحدها",
+      "en": "This search covers fiqh issues only",
+      "ru": "Этот поиск охватывает только вопросы фикха",
+      "es": "Esta búsqueda cubre solo las cuestiones de fiqh",
+      "uk": "Цей пошук охоплює лише питання фікгу"
+    },
+    "noSearchResults": {
+      "ar": "لا نتائج في هذا النطاق — جرّب توسيعه",
+      "en": "No results in this scope — try widening it",
+      "ru": "Нет результатов в этой области — попробуйте расширить",
+      "es": "Sin resultados en este ámbito — prueba a ampliarlo",
+      "uk": "Немає результатів у цій області — спробуйте розширити"
+    },
+    "glossarySchoolNote": {
+      "ar": "التعريف الاصطلاحي معروض حسب اختيارك للمذهب",
+      "en": "The technical definition follows your school selection",
+      "ru": "Терминологическое определение соответствует выбранному мазхабу",
+      "es": "La definición técnica sigue tu selección de escuela",
+      "uk": "Термінологічне визначення відповідає обраному мазгабу"
+    },
+    "aqidahChapters": {
+      "ar": "أبواب العقيدة",
+      "en": "Chapters of creed",
+      "ru": "Разделы вероучения",
+      "es": "Capítulos del credo",
+      "uk": "Розділи віровчення"
+    },
+    "aqidahAllChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
+    },
+    "proofsInChapter": {
+      "ar": "أدلة",
+      "en": "proofs",
+      "ru": "доказательств",
+      "es": "pruebas",
+      "uk": "доказів"
+    },
+    "academicModeHint": {
+      "ar": "يعرض مع كل حكم أسماء كتب المذهب التي أُخذ منها.",
+      "en": "Shows the school’s reference works beneath each ruling.",
+      "ru": "Показывает под каждым постановлением книги мазхаба, из которых оно взято.",
+      "es": "Muestra bajo cada norma las obras de referencia de la escuela.",
+      "uk": "Показує під кожною постановою книги мазгабу, з яких її взято."
+    },
+    "simplifiedModeHint": {
+      "ar": "يعرض نصّ الحكم وحده بلا أسماء الكتب — أوضح لمن يقرأ لأول مرة.",
+      "en": "Shows the ruling on its own, without the book titles — clearer on a first reading.",
+      "ru": "Показывает только текст постановления, без названий книг — понятнее при первом чтении.",
+      "es": "Muestra solo el texto de la norma, sin los títulos de los libros — más claro en una primera lectura.",
+      "uk": "Показує лише текст постанови, без назв книг — зрозуміліше при першому читанні."
+    },
+    "gradeWhatIs": {
+      "ar": "ما معنى هذه الدرجة؟",
+      "en": "What does this grade mean?",
+      "ru": "Что означает эта степень?",
+      "es": "¿Qué significa este grado?",
+      "uk": "Що означає цей ступінь?"
+    },
+    "gradeSameInChapter": {
+      "ar": "ما له الدرجة نفسها في هذا الباب",
+      "en": "Others of the same grade in this chapter",
+      "ru": "Другое той же степени в этом разделе",
+      "es": "Otros del mismo grado en este capítulo",
+      "uk": "Інше того ж ступеня в цьому розділі"
+    },
+    "gradeAcrossSchools": {
+      "ar": "درجتها عند المذاهب الأربعة",
+      "en": "Its grade in the four schools",
+      "ru": "Её степень в четырёх мазхабах",
+      "es": "Su grado en las cuatro escuelas",
+      "uk": "Її ступінь у чотирьох мазгабах"
+    },
+    "gradeNoDefinition": {
+      "ar": "تعريف هذه الدرجة قيد الإضافة",
+      "en": "The definition of this grade is being added",
+      "ru": "Определение этой степени добавляется",
+      "es": "La definición de este grado se está añadiendo",
+      "uk": "Визначення цього ступеня додається"
+    },
+    "newTag": {
+      "ar": "جديد",
+      "en": "New",
+      "ru": "Новое",
+      "es": "Nuevo",
+      "uk": "Нове"
+    },
+    "newTagTitle": {
+      "ar": "أُضيفت خلال الأيام السبعة الماضية",
+      "en": "Added within the last seven days",
+      "ru": "Добавлено за последние семь дней",
+      "es": "Añadido en los últimos siete días",
+      "uk": "Додано протягом останніх семи днів"
+    },
+    "chapterProgress": {
+      "ar": "من",
+      "en": "of",
+      "ru": "из",
+      "es": "de",
+      "uk": "з"
+    },
+    "chapterOngoing": {
+      "ar": "يُستكمل تباعاً",
+      "en": "being completed in stages",
+      "ru": "пополняется постепенно",
+      "es": "se completa por etapas",
+      "uk": "поповнюється поступово"
+    },
+    "recentTitle": {
+      "ar": "أحدث ما أُضيف",
+      "en": "Recently added",
+      "ru": "Недавно добавлено",
+      "es": "Añadido recientemente",
+      "uk": "Нещодавно додано"
+    },
+    "recentDesc": {
+      "ar": "الموسوعة تكبر باستمرار — هذه آخر المسائل المنشورة.",
+      "en": "The encyclopedia keeps growing — these are the latest entries published.",
+      "ru": "Энциклопедия постоянно растёт — вот последние опубликованные вопросы.",
+      "es": "La enciclopedia sigue creciendo: estas son las últimas cuestiones publicadas.",
+      "uk": "Енциклопедія постійно зростає — це останні опубліковані питання."
+    },
+    "allChapters": {
+      "ar": "كل الأبواب",
+      "en": "All chapters",
+      "ru": "Все разделы",
+      "es": "Todos los capítulos",
+      "uk": "Усі розділи"
+    },
+    "timesTitle": {
+      "ar": "انظر الفرق بين المذاهب على ساعتك",
+      "en": "See the difference between the schools on your own clock",
+      "ru": "Посмотрите разницу между мазхабами на своих часах",
+      "es": "Vea la diferencia entre las escuelas en su propio reloj",
+      "uk": "Подивіться різницю між мазгабами на своєму годиннику"
+    },
+    "timesIntro": {
+      "ar": "يُحسب الوقت في متصفّحك من موقعك، ولا يُرسل موقعك إلى أحد.",
+      "en": "The time is computed in your browser from your location; your location is not sent anywhere.",
+      "ru": "Время вычисляется в вашем браузере по вашему местоположению; оно никуда не отправляется.",
+      "es": "La hora se calcula en su navegador a partir de su ubicación; su ubicación no se envía a ninguna parte.",
+      "uk": "Час обчислюється у вашому браузері за вашим місцезнаходженням; воно нікуди не надсилається."
+    },
+    "timesLocate": {
+      "ar": "اعرض وقت اليوم",
+      "en": "Show today's time",
+      "ru": "Показать время на сегодня",
+      "es": "Mostrar la hora de hoy",
+      "uk": "Показати час на сьогодні"
+    },
+    "timesLocating": {
+      "ar": "جارٍ تحديد الموقع…",
+      "en": "Locating…",
+      "ru": "Определение местоположения…",
+      "es": "Localizando…",
+      "uk": "Визначення місцезнаходження…"
+    },
+    "timesDenied": {
+      "ar": "تعذّر تحديد الموقع. الأحكام أعلاه تامّة بدونه.",
+      "en": "The location could not be determined. The rulings above are complete without it.",
+      "ru": "Определить местоположение не удалось. Постановления выше полны и без него.",
+      "es": "No se pudo determinar la ubicación. Las normas anteriores están completas sin ella.",
+      "uk": "Визначити місцезнаходження не вдалося. Постанови вище повні й без нього."
+    },
+    "timesToday": {
+      "ar": "وقت اليوم في موضعك",
+      "en": "Today's time where you are",
+      "ru": "Сегодняшнее время там, где вы",
+      "es": "La hora de hoy donde usted está",
+      "uk": "Сьогоднішній час там, де ви"
+    },
+    "timesFajr": {
+      "ar": "الفجر",
+      "en": "Fajr",
+      "ru": "Фаджр",
+      "es": "Fajr",
+      "uk": "Фаджр"
+    },
+    "timesSunrise": {
+      "ar": "الشروق",
+      "en": "Sunrise",
+      "ru": "Восход",
+      "es": "Salida del sol",
+      "uk": "Схід сонця"
+    },
+    "timesDhuhr": {
+      "ar": "الظهر",
+      "en": "Ẓuhr",
+      "ru": "Зухр",
+      "es": "Ẓuhr",
+      "uk": "Зугр"
+    },
+    "timesMaghrib": {
+      "ar": "المغرب",
+      "en": "Maghrib",
+      "ru": "Магриб",
+      "es": "Magrib",
+      "uk": "Маґріб"
+    },
+    "timesIsha": {
+      "ar": "العشاء",
+      "en": "ʿIshāʾ",
+      "ru": "Иша",
+      "es": "ʿIshāʾ",
+      "uk": "Іша"
+    },
+    "timesAsrMajority": {
+      "ar": "العصر عند المالكية والشافعية والحنابلة",
+      "en": "ʿAṣr for the Mālikīs, Shāfiʿīs and Ḥanbalīs",
+      "ru": "Аср у маликитов, шафиитов и ханбалитов",
+      "es": "ʿAṣr para malikíes, shafiíes y hanbalíes",
+      "uk": "Аср у малікітів, шафіїтів і ганбалітів"
+    },
+    "timesAsrHanafi": {
+      "ar": "العصر عند الحنفية",
+      "en": "ʿAṣr for the Ḥanafīs",
+      "ru": "Аср у ханафитов",
+      "es": "ʿAṣr para los hanafíes",
+      "uk": "Аср у ганафітів"
+    },
+    "timesFajrEnds": {
+      "ar": "(ينتهي به وقت الفجر)",
+      "en": "(the end of fajr's time)",
+      "ru": "(конец времени фаджра)",
+      "es": "(fin del tiempo del fajr)",
+      "uk": "(кінець часу фаджру)"
+    },
+    "timesDhuhrEnds": {
+      "ar": "(ينتهي به وقت الظهر)",
+      "en": "(the end of ẓuhr's time)",
+      "ru": "(конец времени зухра)",
+      "es": "(fin del tiempo del ẓuhr)",
+      "uk": "(кінець часу зугру)"
+    },
+    "timesMaghribEnds": {
+      "ar": "(ينتهي به وقت المغرب)",
+      "en": "(the end of maghrib's time)",
+      "ru": "(конец времени магриба)",
+      "es": "(fin del tiempo del magrib)",
+      "uk": "(кінець часу маґрібу)"
+    },
+    "timesAsrGap": {
+      "ar": "الفرق بين المذهبين اليوم في موضعك: {n} دقيقة.",
+      "en": "The difference between the two reckonings today, where you are: {n} minutes.",
+      "ru": "Разница между двумя расчётами сегодня там, где вы: {n} минут.",
+      "es": "La diferencia entre ambos cómputos hoy, donde usted está: {n} minutos.",
+      "uk": "Різниця між двома обчисленнями сьогодні там, де ви: {n} хвилин."
+    },
+    "timesDisclaimer": {
+      "ar": "حسابٌ فلكيّ بطريقة أم القرى، للإيضاح لا للاعتماد في الأداء؛ والمعتمد تقويم بلدك أو أذان مسجدك.",
+      "en": "An astronomical calculation on the Umm al-Qura convention, given to illustrate the point and not to be relied on for prayer; rely on your country's calendar or your mosque's call.",
+      "ru": "Астрономический расчёт по конвенции Умм аль-Кура, приведённый для пояснения, а не для опоры при совершении молитвы; опирайтесь на календарь вашей страны или азан вашей мечети.",
+      "es": "Un cálculo astronómico según la convención de Umm al-Qura, dado para ilustrar y no para basarse en él al rezar; base su oración en el calendario de su país o el adhán de su mezquita.",
+      "uk": "Астрономічний розрахунок за конвенцією Умм аль-Кура, наведений для пояснення, а не для опори при здійсненні молитви; спирайтеся на календар вашої країни або азан вашої мечеті."
+    },
+    "revisedTag": {
+      "ar": "معدّلة",
+      "en": "Revised",
+      "ru": "Изменено",
+      "es": "Revisado",
+      "uk": "Змінено"
+    },
+    "revisedTagTitle": {
+      "ar": "عُدّلت خلال الأيام الثلاثة الماضية",
+      "en": "Revised within the last three days",
+      "ru": "Изменено за последние три дня",
+      "es": "Revisado en los últimos tres días",
+      "uk": "Змінено протягом останніх трьох днів"
+    },
+    "schoolHintText": {
+      "ar": "تعرض الموسوعة أقوال المذاهب الأربعة معاً. اختر مذهبك لترى قوله وحده.",
+      "en": "Every ruling shows all four schools side by side. Pick your school to see its view alone.",
+      "ru": "Каждое решение показано по всем четырём мазхабам. Выберите свой, чтобы видеть только его.",
+      "es": "Cada norma muestra las cuatro escuelas a la vez. Elige la tuya para ver solo su opinión.",
+      "uk": "Кожне рішення показано за всіма чотирма мазхабами. Оберіть свій, щоб бачити лише його."
+    },
+    "schoolHintAction": {
+      "ar": "اختر مذهبك",
+      "en": "Pick a school",
+      "ru": "Выбрать мазхаб",
+      "es": "Elegir escuela",
+      "uk": "Обрати мазхаб"
+    },
+    "reportError": {
+      "ar": "أبلغ عن خطأ في هذه المسألة",
+      "en": "Report a mistake in this entry",
+      "ru": "Сообщить об ошибке",
+      "es": "Informar de un error",
+      "uk": "Повідомити про помилку"
+    },
+    "reportSubject": {
+      "ar": "خطأ في المسألة",
+      "en": "Mistake in entry",
+      "ru": "Ошибка в статье",
+      "es": "Error en la entrada",
+      "uk": "Помилка в статті"
+    },
+    "reportPrompt": {
+      "ar": "ما الخطأ؟ (في أيّ مذهب، وفي أيّ لغة)",
+      "en": "What is wrong? (which school, which language)",
+      "ru": "В чём ошибка? (какой мазхаб, какой язык)",
+      "es": "¿Qué está mal? (qué escuela, qué idioma)",
+      "uk": "У чому помилка? (який мазхаб, яка мова)"
+    },
+    "backToIndex": {
+      "ar": "العودة إلى القائمة",
+      "en": "Back to the list",
+      "ru": "К списку",
+      "es": "Volver a la lista",
+      "uk": "До списку"
+    },
+    "entryShareHint": {
+      "ar": "لهذه المادّة رابط دائم يمكنك مشاركته.",
+      "en": "This entry has a permanent link you can share.",
+      "ru": "У этой статьи есть постоянная ссылка, которой можно поделиться.",
+      "es": "Esta entrada tiene un enlace permanente que puedes compartir.",
+      "uk": "Ця стаття має постійне посилання, яким можна поділитися."
+    }
+  },
+  "books": [
+    {
+      "id": "iman",
+      "name": {
+        "ar": "أحكام الإيمان",
+        "en": "Rulings on Faith",
+        "ru": "Нормы веры",
+        "es": "Normas de la Fe",
+        "uk": "Норми віри"
+      }
+    },
+    {
+      "id": "taharah",
+      "name": {
+        "ar": "الطهارة",
+        "en": "Purification",
+        "ru": "Очищение",
+        "es": "La Purificación",
+        "uk": "Очищення"
+      }
+    },
+    {
+      "id": "salah",
+      "name": {
+        "ar": "الصلاة",
+        "en": "Prayer",
+        "ru": "Молитва",
+        "es": "La Oración",
+        "uk": "Молитва"
+      }
+    },
+    {
+      "id": "zakah",
+      "name": {
+        "ar": "الزكاة",
+        "en": "Zakah",
+        "ru": "Закят",
+        "es": "El Zakat",
+        "uk": "Закят"
+      }
+    },
+    {
+      "id": "sawm",
+      "name": {
+        "ar": "الصوم",
+        "en": "Fasting",
+        "ru": "Пост",
+        "es": "El Ayuno",
+        "uk": "Піст"
+      }
+    },
+    {
+      "id": "hajj",
+      "name": {
+        "ar": "الحج والعمرة",
+        "en": "Hajj & Umrah",
+        "ru": "Хадж и умра",
+        "es": "El Hach y la Umra",
+        "uk": "Хадж та умра"
+      }
+    },
+    {
+      "id": "muamalat",
+      "name": {
+        "ar": "المعاملات",
+        "en": "Transactions",
+        "ru": "Сделки",
+        "es": "Las Transacciones",
+        "uk": "Угоди"
+      }
+    },
+    {
+      "id": "nikah",
+      "name": {
+        "ar": "النكاح",
+        "en": "Marriage",
+        "ru": "Брак",
+        "es": "El Matrimonio",
+        "uk": "Шлюб"
+      }
+    },
+    {
+      "id": "jinayat",
+      "name": {
+        "ar": "الجنايات",
+        "en": "Criminal Law",
+        "ru": "Уголовное право",
+        "es": "Derecho Penal",
+        "uk": "Кримінальне право"
+      }
+    }
+  ],
+  "schools": [
+    {
+      "key": "hanafi",
+      "name": {
+        "ar": "الحنفي",
+        "en": "Hanafi",
+        "ru": "Ханафитский",
+        "es": "Hanafí",
+        "uk": "Ханафітський"
+      }
+    },
+    {
+      "key": "maliki",
+      "name": {
+        "ar": "المالكي",
+        "en": "Maliki",
+        "ru": "Маликитский",
+        "es": "Malikí",
+        "uk": "Малікітський"
+      }
+    },
+    {
+      "key": "shafii",
+      "name": {
+        "ar": "الشافعي",
+        "en": "Shāfiʿī",
+        "ru": "Шафиитский",
+        "es": "Shafiʿí",
+        "uk": "Шафіїтський"
+      }
+    },
+    {
+      "key": "hanbali",
+      "name": {
+        "ar": "الحنبلي",
+        "en": "Hanbali",
+        "ru": "Ханбалитский",
+        "es": "Hanbalí",
+        "uk": "Ханбалітський"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "code": "SA",
+      "flag": "🇸🇦",
+      "name": {
+        "ar": "المملكة العربية السعودية",
+        "en": "Saudi Arabia",
+        "ru": "Саудовская Аравия",
+        "es": "Arabia Saudita",
+        "uk": "Саудівська Аравія"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "QA",
+      "flag": "🇶🇦",
+      "name": {
+        "ar": "قطر",
+        "en": "Qatar",
+        "ru": "Катар",
+        "es": "Catar",
+        "uk": "Катар"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "KW",
+      "flag": "🇰🇼",
+      "name": {
+        "ar": "الكويت",
+        "en": "Kuwait",
+        "ru": "Кувейт",
+        "es": "Kuwait",
+        "uk": "Кувейт"
+      },
+      "school": "hanbali"
+    },
+    {
+      "code": "MA",
+      "flag": "🇲🇦",
+      "name": {
+        "ar": "المغرب",
+        "en": "Morocco",
+        "ru": "Марокко",
+        "es": "Marruecos",
+        "uk": "Марокко"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "DZ",
+      "flag": "🇩🇿",
+      "name": {
+        "ar": "الجزائر",
+        "en": "Algeria",
+        "ru": "Алжир",
+        "es": "Argelia",
+        "uk": "Алжир"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "TN",
+      "flag": "🇹🇳",
+      "name": {
+        "ar": "تونس",
+        "en": "Tunisia",
+        "ru": "Тунис",
+        "es": "Túnez",
+        "uk": "Туніс"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "LY",
+      "flag": "🇱🇾",
+      "name": {
+        "ar": "ليبيا",
+        "en": "Libya",
+        "ru": "Ливия",
+        "es": "Libia",
+        "uk": "Лівія"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "MR",
+      "flag": "🇲🇷",
+      "name": {
+        "ar": "موريتانيا",
+        "en": "Mauritania",
+        "ru": "Мавритания",
+        "es": "Mauritania",
+        "uk": "Мавританія"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "AE",
+      "flag": "🇦🇪",
+      "name": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "ОАЭ",
+        "es": "Emiratos Árabes Unidos",
+        "uk": "Об'єднані Арабські Емірати"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "BH",
+      "flag": "🇧🇭",
+      "name": {
+        "ar": "البحرين",
+        "en": "Bahrain",
+        "ru": "Бахрейн",
+        "es": "Baréin",
+        "uk": "Бахрейн"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "SD",
+      "flag": "🇸🇩",
+      "name": {
+        "ar": "السودان",
+        "en": "Sudan",
+        "ru": "Судан",
+        "es": "Sudán",
+        "uk": "Судан"
+      },
+      "school": "maliki"
+    },
+    {
+      "code": "EG",
+      "flag": "🇪🇬",
+      "name": {
+        "ar": "مصر",
+        "en": "Egypt",
+        "ru": "Египет",
+        "es": "Egipto",
+        "uk": "Єгипет"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "YE",
+      "flag": "🇾🇪",
+      "name": {
+        "ar": "اليمن",
+        "en": "Yemen",
+        "ru": "Йемен",
+        "es": "Yemen",
+        "uk": "Ємен"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "ID",
+      "flag": "🇮🇩",
+      "name": {
+        "ar": "إندونيسيا",
+        "en": "Indonesia",
+        "ru": "Индонезия",
+        "es": "Indonesia",
+        "uk": "Індонезія"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "MY",
+      "flag": "🇲🇾",
+      "name": {
+        "ar": "ماليزيا",
+        "en": "Malaysia",
+        "ru": "Малайзия",
+        "es": "Malasia",
+        "uk": "Малайзія"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "SO",
+      "flag": "🇸🇴",
+      "name": {
+        "ar": "الصومال",
+        "en": "Somalia",
+        "ru": "Сомали",
+        "es": "Somalia",
+        "uk": "Сомалі"
+      },
+      "school": "shafii"
+    },
+    {
+      "code": "TR",
+      "flag": "🇹🇷",
+      "name": {
+        "ar": "تركيا",
+        "en": "Turkey",
+        "ru": "Турция",
+        "es": "Turquía",
+        "uk": "Туреччина"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "PK",
+      "flag": "🇵🇰",
+      "name": {
+        "ar": "باكستان",
+        "en": "Pakistan",
+        "ru": "Пакистан",
+        "es": "Pakistán",
+        "uk": "Пакистан"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "BD",
+      "flag": "🇧🇩",
+      "name": {
+        "ar": "بنغلاديش",
+        "en": "Bangladesh",
+        "ru": "Бангладеш",
+        "es": "Bangladés",
+        "uk": "Бангладеш"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "AF",
+      "flag": "🇦🇫",
+      "name": {
+        "ar": "أفغانستان",
+        "en": "Afghanistan",
+        "ru": "Афганистан",
+        "es": "Afganistán",
+        "uk": "Афганістан"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "JO",
+      "flag": "🇯🇴",
+      "name": {
+        "ar": "الأردن",
+        "en": "Jordan",
+        "ru": "Иордания",
+        "es": "Jordania",
+        "uk": "Йорданія"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "PS",
+      "flag": "🇵🇸",
+      "name": {
+        "ar": "فلسطين",
+        "en": "Palestine",
+        "ru": "Палестина",
+        "es": "Palestina",
+        "uk": "Палестина"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "SY",
+      "flag": "🇸🇾",
+      "name": {
+        "ar": "سوريا",
+        "en": "Syria",
+        "ru": "Сирия",
+        "es": "Siria",
+        "uk": "Сирія"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "IQ",
+      "flag": "🇮🇶",
+      "name": {
+        "ar": "العراق",
+        "en": "Iraq",
+        "ru": "Ирак",
+        "es": "Irak",
+        "uk": "Ірак"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "IN",
+      "flag": "🇮🇳",
+      "name": {
+        "ar": "الهند",
+        "en": "India",
+        "ru": "Индия",
+        "es": "India",
+        "uk": "Індія"
+      },
+      "school": "hanafi"
+    },
+    {
+      "code": "OM",
+      "flag": "🇴🇲",
+      "name": {
+        "ar": "سلطنة عمان",
+        "en": "Oman",
+        "ru": "Оман",
+        "es": "Omán",
+        "uk": "Оман"
+      },
+      "school": null
+    },
+    {
+      "code": "RU",
+      "flag": "🇷🇺",
+      "name": {
+        "ar": "روسيا",
+        "en": "Russia",
+        "ru": "Россия",
+        "es": "Rusia",
+        "uk": "Росія"
+      },
+      "school": null
+    }
+  ],
+  "gradeLabels": {
+    "fard": {
+      "ar": "فرض",
+      "en": "Farḍ (obligatory)",
+      "ru": "Фард (обязательное)",
+      "es": "Farḍ (obligatorio)",
+      "uk": "Фард (обов'язкове)"
+    },
+    "wajib": {
+      "ar": "واجب",
+      "en": "Wājib (required)",
+      "ru": "Ваджиб (требуемое)",
+      "es": "Wājib (requerido)",
+      "uk": "Ваджіб (вимагане)"
+    },
+    "sunnah": {
+      "ar": "سنة",
+      "en": "sunnah",
+      "ru": "Сунна",
+      "es": "sunnah",
+      "uk": "Сунна"
+    },
+    "mandub": {
+      "ar": "مندوب",
+      "en": "Mandūb (recommended)",
+      "ru": "Мандуб (желательное)",
+      "es": "Mandūb (recomendable)",
+      "uk": "Мандуб (бажане)"
+    },
+    "makruh": {
+      "ar": "مكروه",
+      "en": "Makrūh (disliked)",
+      "ru": "Макрух (нежелательное)",
+      "es": "Makrūh (reprobable)",
+      "uk": "Макрух (небажане)"
+    },
+    "haram": {
+      "ar": "حرام",
+      "en": "Ḥarām (forbidden)",
+      "ru": "Харам (запретное)",
+      "es": "Ḥarām (prohibido)",
+      "uk": "Харам (заборонене)"
+    },
+    "mubah": {
+      "ar": "مباح",
+      "en": "Mubāḥ (permitted)",
+      "ru": "Мубах (дозволенное)",
+      "es": "Mubāḥ (permitido)",
+      "uk": "Мубах (дозволене)"
+    }
+  },
+  "natureLabels": {
+    "rukn": {
+      "ar": "ركن",
+      "en": "Rukn (essential part)",
+      "ru": "Рукн (составная часть)",
+      "es": "Rukn (parte esencial)",
+      "uk": "Рукн (складова частина)"
+    },
+    "shart": {
+      "ar": "شرط",
+      "en": "Sharṭ (condition)",
+      "ru": "Шарт (условие)",
+      "es": "Sharṭ (condición)",
+      "uk": "Шарт (умова)"
+    },
+    "sabab": {
+      "ar": "سبب",
+      "en": "Sabab (cause)",
+      "ru": "Сабаб (причина)",
+      "es": "Sabab (causa)",
+      "uk": "Сабаб (причина)"
+    },
+    "mani": {
+      "ar": "مانع",
+      "en": "Māniʿ (impediment)",
+      "ru": "Мани (препятствие)",
+      "es": "Māniʿ (impedimento)",
+      "uk": "Мані (перешкода)"
+    }
+  }
+}

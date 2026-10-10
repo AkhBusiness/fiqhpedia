@@ -30,6 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "content"
 OUT = ROOT / "data" / "fiqhData.json"
+INDEX = ROOT / "data" / "fiqhIndex.json"
 
 
 def load(path: Path):
@@ -162,7 +163,55 @@ def main() -> int:
         json.dump(data, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
-    print(f"{OUT.relative_to(ROOT)} — {len(ordered)} مسألة · {len(articles)} مقالة")
+    # الفهرس الخفيف: كل شيء إلا متون الأحكام ونصوص المقالات. هو ما يُحمَّل
+    # في كل صفحة؛ أمّا المتون فتُقرأ وقت البناء لصفحة المادّة وحدها، أو تُحمَّل
+    # عند الطلب للبحث. كانت الموسوعة كلّها (727 ك.ب أحكاماً) تُرسَل لكل زائر
+    # ولو لم يفتح مسألة واحدة، فظهر المحتوى بعد ١٨ ثانية على الجوال.
+    # المفاتيح المشتركة (الواجهة والمسرد والأدلة…) تُقرأ من core.json مباشرةً،
+    # فلا تُكرَّر هنا — كانت تُحمَّل مرّتين.
+    index = {}
+    def slim_issue(i):
+        out = {k: v for k, v in i.items() if k != "rulings"}
+        # الدرجات وحدها تبقى في الفهرس: شارة الحكم تحيل إلى «مسائل أخرى بنفس
+        # الدرجة في هذا الباب»، وهذا يحتاج درجة كل مسألة لا نصّ حكمها.
+        grades = {k: r["grade"] for k, r in i.get("rulings", {}).items() if r.get("grade")}
+        if grades:
+            out["grades"] = grades
+        return out
+
+    index["issues"] = [slim_issue(i) for i in ordered]
+    slim_articles = []
+    for a in articles:
+        b = {k: v for k, v in a.items() if k != "sections"}
+        langs = set()
+        for sec in a.get("sections", []):
+            langs.update(sec.get("body", {}).keys())
+        b["words"] = {
+            l: sum(len(sec["body"].get(l, "").split()) for sec in a.get("sections", []))
+            for l in sorted(langs)
+        }
+        slim_articles.append(b)
+    index["articles"] = slim_articles
+    # تقسيم المادّة المشتركة بحسب من يحتاجها: نصوص الواجهة وأسماء المذاهب
+    # والكتب في كل صفحة؛ أمّا المسرد (١٣٤ ك.ب) والأدلة والدليل العملي فلا
+    # تُحمَّل إلا حين تُفتح، فلا تُثقل صفحةَ مسألةٍ لا تعرضها.
+    core_src = load(SRC / "core.json")
+    ui_part = {k: v for k, v in core_src.items() if k not in ("glossary", "theology", "guides", "faqs")}
+    for name, part in (
+        ("ui.json", ui_part),
+        ("glossary.json", {"glossary": core_src.get("glossary", [])}),
+        ("theology.json", {"theology": core_src.get("theology", [])}),
+        ("learn.json", {"guides": core_src.get("guides", []), "faqs": core_src.get("faqs", [])}),
+    ):
+        with (ROOT / "data" / name).open("w", encoding="utf-8") as fh:
+            json.dump(part, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+
+    with INDEX.open("w", encoding="utf-8") as fh:
+        json.dump(index, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+    print(f"{OUT.relative_to(ROOT)} — {len(ordered)} مسألة · {len(articles)} مقالة · فهرس {INDEX.stat().st_size // 1024} ك.ب من {OUT.stat().st_size // 1024}")
     return 0
 
 

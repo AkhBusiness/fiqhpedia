@@ -4,7 +4,6 @@ import { useEffect, useMemo, useState } from "react"
 import { BookMarked, Search, X } from "lucide-react"
 import {
   type GlossaryTerm,
-  glossary,
   glossaryAnchor,
   type Lang,
   normalizeSearch,
@@ -13,6 +12,7 @@ import {
   ui,
   LANGS,
 } from "@/lib/fiqh-data"
+import { glossary } from "@/lib/glossary-data"
 
 interface GlossarySectionProps {
   /**
