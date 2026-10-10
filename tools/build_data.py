@@ -207,6 +207,36 @@ def main() -> int:
             json.dump(part, fh, ensure_ascii=False, indent=2)
             fh.write("\n")
 
+    # مسألة مختارة للرئيسية: واحدة فيها درجة عند المذاهب الأربعة، تُعرض بأحكامها
+    # مختصرةً — فيفهم الزائر الموقع كلّه من مثال واحد بدل فقرة شرح. تُبدَّل مع
+    # كل بناء (حسب يوم السنة)، وتُكتب في ملف صغير لا يحمل غيرها.
+    from datetime import date as _date
+    def first_sentence(t):
+        for sep in ("، ", ". ", "؛ ", "; ", ", "):
+            i = t.find(sep)
+            if 0 < i < 140:
+                return t[: i + 1].rstrip("،;,. ")
+        return t if len(t) <= 140 else t[:137].rstrip() + "…"
+    candidates = [
+        i for i in ordered
+        if all(i.get("rulings", {}).get(s, {}).get("grade") for s in ("hanafi", "maliki", "shafii", "hanbali"))
+        and not i.get("draft")
+    ]
+    featured = None
+    if candidates:
+        pick = candidates[_date.today().timetuple().tm_yday % len(candidates)]
+        featured = {
+            "ref": pick["ref"], "id": pick["id"], "bookId": pick["bookId"],
+            "chapter": pick.get("chapter"), "title": pick["title"], "summary": pick["summary"],
+            "rulings": {
+                s: {"grade": r["grade"], "lead": {l: first_sentence(r["text"][l]) for l in r["text"]}}
+                for s, r in pick["rulings"].items()
+            },
+        }
+    with (ROOT / "data" / "featured.json").open("w", encoding="utf-8") as fh:
+        json.dump({"featured": featured}, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
     with INDEX.open("w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, indent=2)
         fh.write("\n")

@@ -1317,6 +1317,83 @@
       "ru": "У этой статьи есть постоянная ссылка, которой можно поделиться.",
       "es": "Esta entrada tiene un enlace permanente que puedes compartir.",
       "uk": "Ця стаття має постійне посилання, яким можна поділитися."
+    },
+    "homeSearchPlaceholder": {
+      "ar": "ابحث عن مسألة… مثل: حكم الخلوة بالمخطوبة",
+      "en": "Search a question… e.g. being alone with one's fiancée",
+      "ru": "Найти вопрос… например: уединение с невестой",
+      "es": "Busca una cuestión… p. ej. estar a solas con la prometida",
+      "uk": "Знайти питання… наприклад: усамітнення з нареченою"
+    },
+    "homeSearchHint": {
+      "ar": "بأيّ لغة من الخمس. تبحث في المسائل والمقالات والمفردات معاً.",
+      "en": "In any of the five languages. Searches rulings, articles and glossary at once.",
+      "ru": "На любом из пяти языков. Ищет сразу в решениях, статьях и глоссарии.",
+      "es": "En cualquiera de los cinco idiomas. Busca a la vez en normas, artículos y glosario.",
+      "uk": "Будь-якою з п'яти мов. Шукає одразу в рішеннях, статтях і глосарії."
+    },
+    "homeFeaturedTitle": {
+      "ar": "مثال على ما تجده هنا",
+      "en": "An example of what you will find",
+      "ru": "Пример того, что здесь есть",
+      "es": "Un ejemplo de lo que encontrarás",
+      "uk": "Приклад того, що тут є"
+    },
+    "homeFeaturedDesc": {
+      "ar": "كل مسألة تُعرض هكذا: المذاهب الأربعة جنباً إلى جنب، بمراجع كلٍّ منها.",
+      "en": "Every issue is shown this way: the four schools side by side, each with its sources.",
+      "ru": "Каждый вопрос показан так: четыре мазхаба рядом, каждый со своими источниками.",
+      "es": "Cada cuestión se muestra así: las cuatro escuelas una junto a otra, cada una con sus fuentes.",
+      "uk": "Кожне питання показано так: чотири мазхаби поряд, кожен зі своїми джерелами."
+    },
+    "homeReadFull": {
+      "ar": "اقرأ المسألة كاملة",
+      "en": "Read the full entry",
+      "ru": "Читать полностью",
+      "es": "Leer la entrada completa",
+      "uk": "Читати повністю"
+    },
+    "homeBooksTitle": {
+      "ar": "الأبواب",
+      "en": "The books",
+      "ru": "Разделы",
+      "es": "Los libros",
+      "uk": "Розділи"
+    },
+    "homeBooksDesc": {
+      "ar": "ما نُشر حتى الآن، باباً باباً.",
+      "en": "What is published so far, book by book.",
+      "ru": "Что опубликовано на сегодня, по разделам.",
+      "es": "Lo publicado hasta ahora, libro por libro.",
+      "uk": "Що опубліковано дотепер, за розділами."
+    },
+    "homeNewMuslimTitle": {
+      "ar": "أسلمتَ حديثاً؟",
+      "en": "New to Islam?",
+      "ru": "Недавно приняли ислам?",
+      "es": "¿Nuevo en el islam?",
+      "uk": "Нещодавно прийняли іслам?"
+    },
+    "homeNewMuslimBody": {
+      "ar": "ابدأ من هنا: صفة الوضوء والصلاة خطوةً خطوة، وأسئلة شائعة، ومعاني المصطلحات.",
+      "en": "Start here: how to make wudu and pray, step by step, common questions, and what the terms mean.",
+      "ru": "Начните здесь: омовение и молитва шаг за шагом, частые вопросы и значения терминов.",
+      "es": "Empieza aquí: cómo hacer la ablución y la oración paso a paso, preguntas frecuentes y el significado de los términos.",
+      "uk": "Почніть тут: омовіння та молитва крок за кроком, часті запитання та значення термінів."
+    },
+    "homeNewMuslimAction": {
+      "ar": "الدليل العملي",
+      "en": "The practical guide",
+      "ru": "Практическое руководство",
+      "es": "La guía práctica",
+      "uk": "Практичний посібник"
+    },
+    "homeAlso": {
+      "ar": "وفيه أيضاً",
+      "en": "Also here",
+      "ru": "А также",
+      "es": "También",
+      "uk": "А також"
     }
   },
   "books": [

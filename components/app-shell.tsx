@@ -88,6 +88,7 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
 
   const [schoolModalOpen, setSchoolModalOpen] = useState(false)
   const [globalSearchOpen, setGlobalSearchOpen] = useState(false)
+  const [searchSeed, setSearchSeed] = useState("")
   const {
     theme, setTheme,
     activeCategory, setActiveCategory,
@@ -126,7 +127,7 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
     !hintDismissed &&
     !pref.school &&
     !pref.country &&
-    (section === "home" || section === "fiqh")
+    section === "fiqh"
 
   const dir = rtlLangs.includes(lang) ? "rtl" : "ltr"
 
@@ -288,7 +289,11 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
       <GlobalSearch
         lang={lang}
         open={globalSearchOpen}
-        onClose={() => setGlobalSearchOpen(false)}
+        onClose={() => {
+          setGlobalSearchOpen(false)
+          setSearchSeed("")
+        }}
+        initialQuery={searchSeed}
         onOpenEntry={(href) => router.push(href)}
         onNavigate={(target, anchor) => {
           go(target)
@@ -472,6 +477,18 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
                 const target = issues.find((i) => i.id === id)
                 if (target) router.push(entryPath(lang, target.ref))
               }}
+              onSearch={(q) => {
+                setSearchSeed(q)
+                setGlobalSearchOpen(true)
+              }}
+              onOpenBook={(id) => {
+                setActiveCategory(id)
+                setActiveChapter("")
+                setScope("all")
+                setQuery("")
+                go("fiqh")
+              }}
+              counts={counts}
             />
           ) : section === "aqidah" ? (
             <TheologySection lang={lang} />

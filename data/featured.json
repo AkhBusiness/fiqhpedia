@@ -1,0 +1,70 @@
+{
+  "featured": {
+    "ref": "F52",
+    "id": "sawm-4",
+    "bookId": "sawm",
+    "chapter": {
+      "ar": "وجوب الصيام ورؤية الهلال",
+      "en": "The Obligation of Fasting and Sighting the Crescent",
+      "ru": "Обязательность поста и наблюдение новолуния",
+      "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+      "uk": "Обов'язковість посту та спостереження молодика"
+    },
+    "title": {
+      "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
+      "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
+      "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
+      "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
+      "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
+    },
+    "summary": {
+      "ar": "هل يجوز الاعتماد على الحسابات الفلكية وحدها في إثبات دخول شهر رمضان أم تشترط الرؤية البصرية؟",
+      "en": "Is it permissible to rely solely on astronomical calculations to confirm the entry of Ramadan, or is visual sighting required?",
+      "ru": "Допустимо ли полагаться исключительно на астрономические расчеты для подтверждения вступления Рамадана, или требуется визуальное наблюдение?",
+      "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
+      "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
+    },
+    "rulings": {
+      "hanafi": {
+        "grade": "haram",
+        "lead": {
+          "ar": "لا يُعْتمد على الحساب الفلكي في إثبات الأهلة",
+          "en": "Astronomical calculation is not relied upon to confirm crescents",
+          "ru": "Астрономические расчёты не принимаются при установлении новолуний",
+          "es": "No se confía en el cálculo astronómico para establecer las lunas nuevas",
+          "uk": "Астрономічні розрахунки не приймаються при встановленні молодиків"
+        }
+      },
+      "maliki": {
+        "grade": "haram",
+        "lead": {
+          "ar": "لا يلتفت إلى قول الحاسبين ولا يُعمد إلى الحساب الفلكي في إثبات رمضان",
+          "en": "The statements of calculators are ignored, and astronomical calculations are not used to establish Ramadan",
+          "ru": "Слова вычислителей игнорируются, и астрономические расчеты не используются для установления Рамадана",
+          "es": "Las declaraciones de los calculadores se ignoran y no se recurre al cálculo astronómico para establecer Ramadán",
+          "uk": "Слова обчислювачів ігноруються, і астрономічні розрахунки не використовуються для встановлення Рамадану"
+        }
+      },
+      "shafii": {
+        "grade": "haram",
+        "lead": {
+          "ar": "لا عبرة بحساب الحاسبين في إثبات الهلال",
+          "en": "The calculations of astronomers are of no consequence in confirming the crescent",
+          "ru": "Расчеты астрономов не имеют значения при подтверждении новолуния, и поститься в Рамадан по астрономическим расчетам недопустимо",
+          "es": "Los cálculos de los astrólogos no tienen relevancia para confirmar la luna nueva, y no es permisible ayunar Ramadán por cálculo astronómico",
+          "uk": "Розрахунки звіздарів не мають значення при підтвердженні молодика, і постити в Рамадан за астрономічними розрахунками неприпустимо"
+        }
+      },
+      "hanbali": {
+        "grade": "haram",
+        "lead": {
+          "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان",
+          "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden",
+          "ru": "Запрещено полагаться на астрономические расчёты при установлении наступления месяца Рамадан",
+          "es": "Está prohibido confiar en el cálculo astronómico para establecer la entrada del mes de Ramadán",
+          "uk": "Заборонено покладатися на астрономічні розрахунки при встановленні настання місяця Рамадан"
+        }
+      }
+    }
+  }
+}

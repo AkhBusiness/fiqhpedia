@@ -14,6 +14,8 @@ interface GlobalSearchProps {
   onNavigate: (section: Section, anchor?: string) => void
   /** Open an entry's own page. */
   onOpenEntry: (href: string) => void
+  /** Text to start with — what the reader typed into the home page box. */
+  initialQuery?: string
 }
 
 /** One line in the results list. */
@@ -37,11 +39,17 @@ interface Hit {
  * this at all", and so reaches creed, articles, glossary, guides and
  * questions as well.
  */
-export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry }: GlobalSearchProps) {
+export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, initialQuery = "" }: GlobalSearchProps) {
   const [query, setQuery] = useState("")
   const inputRef = useRef<HTMLInputElement>(null)
 
   // Focus on open; clear on close so the next open starts fresh.
+  // The seed may arrive after the dialog is already open — the home page
+  // opens it on focus, then hands over what was typed — so it is watched,
+  // not read once.
+  useEffect(() => {
+    if (open && initialQuery) setQuery(initialQuery)
+  }, [open, initialQuery])
   useEffect(() => {
     if (open) {
       const id = requestAnimationFrame(() => inputRef.current?.focus())
