@@ -1,0 +1,1524 @@
+{
+  "days": [
+    {
+      "date": "2026-10-04",
+      "added": [],
+      "revised": [
+        {
+          "kind": "issue",
+          "ref": "F109",
+          "title": {
+            "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
+            "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
+            "ru": "Уединение с засватанной и поездка с ней до заключения договора",
+            "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
+            "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
+          },
+          "note": {
+            "ar": "أُعيدت صياغة قولَي الحنفية والشافعية، وكانا يُقرآن حصراً لكلّ ما يحلّ. والحكم لم يتغيّر.",
+            "en": "The Hanafi and Shafiʿi wordings were recast; they were being read as a limit on everything permitted. The ruling is unchanged.",
+            "ru": "Формулировки ханафитов и шафиитов переработаны: их читали как ограничение всего дозволенного. Само решение не изменилось.",
+            "es": "Se reformularon los enunciados hanafí y shafiʿí, que se leían como un límite de todo lo permitido. La norma no ha cambiado.",
+            "uk": "Формулювання ханафітів і шафіїтів перероблено: їх читали як обмеження всього дозволеного. Саме рішення не змінилося."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F114",
+          "title": {
+            "ar": "أثر العدول عن الخِطبة فيما دُفع من هدايا",
+            "en": "The Effect of Withdrawing from a Betrothal on Gifts Already Given",
+            "ru": "Последствия отказа от сватовства для уже подаренных подарков",
+            "es": "El efecto de retirarse del compromiso sobre los regalos ya entregados",
+            "uk": "Наслідки відмови від сватання для вже подарованих подарунків"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F115",
+          "title": {
+            "ar": "الكفاءة في النكاح: ما يُعتبر فيها وأثر فقدها",
+            "en": "Suitability in Marriage: What Counts in It and the Effect of Its Absence",
+            "ru": "Соответствие в браке: что в нём учитывается и последствия его отсутствия",
+            "es": "La idoneidad en el matrimonio: qué se considera en ella y el efecto de su ausencia",
+            "uk": "Відповідність у шлюбі: що в ній враховується та наслідки її відсутності"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F116",
+          "title": {
+            "ar": "عَضْل الوليّ وحكم تزويج السلطان عند عضله",
+            "en": "A Guardian's Withholding of Marriage, and the Ruler Giving Her in Marriage Instead",
+            "ru": "Воспрепятствование опекуна браку и выдача замуж правителем",
+            "es": "El impedimento del tutor al matrimonio y el casamiento por la autoridad",
+            "uk": "Перешкоджання опікуна шлюбові та видання заміж правителем"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F112",
+          "title": {
+            "ar": "أركان عقد النكاح وعددها عند الفقهاء",
+            "en": "The Pillars of the Marriage Contract and Their Number",
+            "ru": "Столпы брачного договора и их количество",
+            "es": "Los pilares del contrato de matrimonio y su número",
+            "uk": "Стовпи шлюбного договору та їхня кількість"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F113",
+          "title": {
+            "ar": "صيغة الإيجاب والقبول والألفاظ التي ينعقد بها النكاح",
+            "en": "The Formula of Offer and Acceptance, and the Words by Which Marriage Is Concluded",
+            "ru": "Формула предложения и принятия и слова, которыми заключается брак",
+            "es": "La fórmula de oferta y aceptación y las palabras con las que se concluye el matrimonio",
+            "uk": "Формула пропозиції та прийняття і слова, якими укладається шлюб"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F117",
+          "title": {
+            "ar": "انعقاد النكاح بغير اللغة العربية",
+            "en": "Concluding a Marriage in a Language Other Than Arabic",
+            "ru": "Заключение брака не на арабском языке",
+            "es": "La conclusión del matrimonio en una lengua distinta del árabe",
+            "uk": "Укладення шлюбу мовою, іншою за арабську"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F118",
+          "title": {
+            "ar": "اشتراط الوليّ وحكم تزويج المرأة نفسها",
+            "en": "The Requirement of a Guardian, and a Woman Contracting Her Own Marriage",
+            "ru": "Условие опекуна и заключение брака женщиной самостоятельно",
+            "es": "El requisito del tutor y la mujer que contrata su propio matrimonio",
+            "uk": "Умова опікуна та укладення шлюбу жінкою самостійно"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F119",
+          "title": {
+            "ar": "شروط الوليّ وترتيب الأولياء",
+            "en": "The Qualifications of the Guardian and the Order of Guardians",
+            "ru": "Условия опекуна и порядок опекунов",
+            "es": "Las condiciones del tutor y el orden de los tutores",
+            "uk": "Умови опікуна та порядок опікунів"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F121",
+          "title": {
+            "ar": "اشتراط الشهود في النكاح وصفاتهم",
+            "en": "The Requirement of Witnesses in Marriage and Their Qualifications",
+            "ru": "Условие свидетелей при браке и их качества",
+            "es": "El requisito de los testigos en el matrimonio y sus cualidades",
+            "uk": "Умова свідків при шлюбі та їхні якості"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F122",
+          "title": {
+            "ar": "تعيين الزوجين ورفع الجهالة",
+            "en": "Identifying the Spouses and Removing Ambiguity",
+            "ru": "Определение супругов и устранение неопределённости",
+            "es": "La identificación de los cónyuges y la eliminación de la ambigüedad",
+            "uk": "Визначення подружжя та усунення невизначеності"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M8",
+          "title": {
+            "ar": "الأسماء الحسنى: حقيقتها وعددها ومعناها",
+            "en": "The Beautiful Names of God: Their Reality, Their Number and Their Meaning",
+            "ru": "Прекрасные имена Бога: их суть, число и значение",
+            "es": "Los Bellos Nombres de Dios: su realidad, su número y su significado",
+            "uk": "Прекрасні імена Бога: їхня сутність, число та значення"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-17",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F110",
+          "title": {
+            "ar": "حكم معاملة المسلم الجديد لوالديه غير المسلمين",
+            "en": "How a New Muslim Is to Treat Parents Who Are Not Muslim",
+            "ru": "Как новообращённому мусульманину относиться к родителям-немусульманам",
+            "es": "Cómo ha de tratar el nuevo musulmán a sus padres no musulmanes",
+            "uk": "Як новонаверненому мусульманинові ставитися до батьків-немусульман"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F111",
+          "title": {
+            "ar": "حكم النظر إلى المخطوبة وحدوده",
+            "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
+            "ru": "Взгляд на ту, к которой сватаются, и его пределы",
+            "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
+            "uk": "Погляд на ту, до якої сватаються, та його межі"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F107",
+          "title": {
+            "ar": "حكم الخطبة على خطبة الغير",
+            "en": "Making an Offer of Marriage over Another Man's Offer",
+            "ru": "Сватовство поверх сватовства другого",
+            "es": "Pedir en matrimonio sobre la petición de otro",
+            "uk": "Сватання поверх сватання іншого"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F108",
+          "title": {
+            "ar": "خِطبة المعتدّة صراحةً والتعريض بها",
+            "en": "Offering Marriage to a Woman in Her Waiting Period, Openly or by Hint",
+            "ru": "Сватовство к женщине в период ожидания — прямо и намёком",
+            "es": "Pedir en matrimonio a la mujer en su período de espera, de forma clara o por insinuación",
+            "uk": "Сватання до жінки в період очікування — прямо й натяком"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F109",
+          "title": {
+            "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
+            "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
+            "ru": "Уединение с засватанной и поездка с ней до заключения договора",
+            "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
+            "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M7",
+          "title": {
+            "ar": "حفظ القرآن: الإسناد والمخطوطات",
+            "en": "The Preservation of the Qurʾān: Transmission and Manuscripts",
+            "ru": "Сохранение Корана: передача и рукописи",
+            "es": "La preservación del Corán: transmisión y manuscritos",
+            "uk": "Збереження Корану: передача та рукописи"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-15",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F101",
+          "title": {
+            "ar": "ما يصحّ التيمم به من التراب وما تصاعد على وجه الأرض",
+            "en": "What the Dry Ablution May Be Performed With: Earth and What Lies on Its Surface",
+            "ru": "Чем можно совершать таяммум: земля и то, что находится на её поверхности",
+            "es": "Con qué es válido el tayammum: la tierra y lo que se halla en su superficie",
+            "uk": "Чим можна здійснювати таяммум: земля і те, що лежить на її поверхні"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F102",
+          "title": {
+            "ar": "صفة التيمم وعدد ضرباته",
+            "en": "The Form of the Dry Ablution and How Many Strikes It Takes",
+            "ru": "Форма таяммума и число ударов в нём",
+            "es": "La forma del tayammum y el número de golpes en él",
+            "uk": "Форма таяммуму та кількість ударів у ньому"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F103",
+          "title": {
+            "ar": "نية التيمم وهل يرفع الحدث أم يبيح الصلاة",
+            "en": "The Intention for the Dry Ablution: Does It Lift Impurity or Only Permit the Prayer?",
+            "ru": "Намерение для таяммума: снимает ли он осквернение или лишь дозволяет молитву?",
+            "es": "La intención del tayammum: ¿levanta la impureza o solo permite la oración?",
+            "uk": "Намір для таяммуму: чи знімає він осквернення, чи лише дозволяє молитву?"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F104",
+          "title": {
+            "ar": "كم فرضاً يُصلّى بالتيمم الواحد",
+            "en": "How Many Obligatory Prayers May Be Prayed with One Dry Ablution",
+            "ru": "Сколько обязательных молитв можно совершить одним таяммумом",
+            "es": "Cuántas oraciones obligatorias pueden rezarse con un solo tayammum",
+            "uk": "Скільки обов'язкових молитов можна здійснити одним таяммумом"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F105",
+          "title": {
+            "ar": "نواقض التيمم ومتى يبطل",
+            "en": "What Voids the Dry Ablution, and When",
+            "ru": "Что делает таяммум недействительным и когда",
+            "es": "Qué anula el tayammum y cuándo",
+            "uk": "Що робить таяммум недійсним і коли"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F106",
+          "title": {
+            "ar": "حدّ طلب الماء الواجب قبل التيمم",
+            "en": "How Far One Must Search for Water Before the Dry Ablution",
+            "ru": "Насколько далеко нужно искать воду перед таяммумом",
+            "es": "Hasta dónde debe buscarse agua antes del tayammum",
+            "uk": "Наскільки далеко треба шукати воду перед таяммумом"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-13",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F98",
+          "title": {
+            "ar": "حكم من شكّ في الحدث بعد يقين الطهارة أو عكسه",
+            "en": "Doubting Impurity After Certainty of Purity, or the Reverse",
+            "ru": "Сомнение в осквернении после уверенности в чистоте, или наоборот",
+            "es": "Dudar de la impureza tras tener certeza de la pureza, o a la inversa",
+            "uk": "Сумнів в оскверненні після впевненості в чистоті, або навпаки"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F99",
+          "title": {
+            "ar": "حكم من أحدث في أثناء الصلاة: أيبني أم يستأنف؟",
+            "en": "One Whose Ablution Breaks During the Prayer: Does He Continue or Start Again?",
+            "ru": "Тот, у кого омовение нарушилось во время молитвы: продолжает ли он или начинает заново?",
+            "es": "Quien pierde la ablución durante la oración: ¿continúa o empieza de nuevo?",
+            "uk": "Той, у кого омивання порушилося під час молитви: чи продовжує він, чи починає заново?"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F100",
+          "title": {
+            "ar": "حكم من نسي أنه محدث فصلّى ثم تذكّر",
+            "en": "One Who Forgot He Was Impure, Prayed, and Then Remembered",
+            "ru": "Тот, кто забыл, что был осквернён, помолился и затем вспомнил",
+            "es": "Quien olvidó que estaba impuro, rezó y luego lo recordó",
+            "uk": "Той, хто забув, що був осквернений, помолився й потім згадав"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F96",
+          "title": {
+            "ar": "سنّ البلوغ وسنّ اليأس",
+            "en": "The Age of Maturity and the Age of Menopause",
+            "ru": "Возраст совершеннолетия и возраст менопаузы",
+            "es": "La edad de madurez y la edad de la menopausia",
+            "uk": "Вік повноліття та вік менопаузи"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F97",
+          "title": {
+            "ar": "متى تستأنف المرأة الصلاة والصوم بعد الطهر",
+            "en": "When a Woman Resumes Prayer and Fasting After Becoming Pure",
+            "ru": "Когда женщина возобновляет молитву и пост после очищения",
+            "es": "Cuándo reanuda la mujer la oración y el ayuno tras purificarse",
+            "uk": "Коли жінка відновлює молитву та піст після очищення"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-12",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F86",
+          "title": {
+            "ar": "أحكام غسل الحائض والنفساء بعد انقطاع الدم",
+            "en": "The Full Bath of a Woman after Menstruation or Post-natal Bleeding Ends",
+            "ru": "Полное омовение женщины после прекращения менструации или послеродового кровотечения",
+            "es": "El baño ritual de la mujer tras cesar la menstruación o los loquios",
+            "uk": "Повне обмивання жінки після припинення менструації чи післяпологової кровотечі"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F87",
+          "title": {
+            "ar": "فروض الغسل المجزئ",
+            "en": "What the Full Bath Requires for It to Suffice",
+            "ru": "Что обязательно в полном омовении, чтобы оно было достаточным",
+            "es": "Lo obligatorio del baño ritual para que baste",
+            "uk": "Що обов'язкове в повному обмиванні, щоб воно було достатнім"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F88",
+          "title": {
+            "ar": "صفة الغسل الكامل على هدي النبي ﷺ",
+            "en": "The Complete Form of the Full Bath, after the Practice of the Prophet ﷺ",
+            "ru": "Полная форма омовения по образцу Пророка ﷺ",
+            "es": "La forma completa del baño ritual según la práctica del Profeta ﷺ",
+            "uk": "Повна форма обмивання за прикладом Пророка ﷺ"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F91",
+          "title": {
+            "ar": "أقلّ الحيض وأكثره وأقلّ الطهر بينهما",
+            "en": "The Shortest and Longest Menstruation, and the Shortest Purity Between Two",
+            "ru": "Наименьший и наибольший срок менструации и наименьшая чистота между двумя",
+            "es": "La menstruación más corta y la más larga, y la pureza mínima entre dos",
+            "uk": "Найменший і найбільший строк менструації та найменша чистота між двома"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F92",
+          "title": {
+            "ar": "حكم من طهرت وقد بقي من الوقت ما يسع ركعة",
+            "en": "A Woman Who Becomes Pure with Time Left for One Unit of Prayer",
+            "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат",
+            "es": "La mujer que se purifica cuando queda tiempo para un solo rakʿah",
+            "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F93",
+          "title": {
+            "ar": "حكم قضاء الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+            "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
+            "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
+            "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
+            "uk": "Чи мусить жінка, що стала чистою наприкінці часу, здійснити й попередню з двох поєднуваних молитов"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F94",
+          "title": {
+            "ar": "حكم الصلاة التي طرأ الحيض بعد دخول وقتها وقبل أدائها",
+            "en": "A Prayer Whose Time Had Begun When Menstruation Set In Before It Was Performed",
+            "ru": "Молитва, время которой уже наступило, когда началась менструация до её совершения",
+            "es": "La oración cuyo tiempo había entrado cuando sobrevino la menstruación antes de realizarla",
+            "uk": "Молитва, час якої вже настав, коли почалася менструація до її здійснення"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F95",
+          "title": {
+            "ar": "حكم صوم من طهرت قبل الفجر ولم تغتسل إلا بعده",
+            "en": "The Fast of a Woman Who Becomes Pure Before Dawn but Bathes Only After It",
+            "ru": "Пост женщины, ставшей чистой до рассвета, но совершившей омовение лишь после него",
+            "es": "El ayuno de la mujer que se purifica antes del alba pero se baña solo después",
+            "uk": "Піст жінки, що стала чистою до світанку, але обмилася лише після нього"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F89",
+          "title": {
+            "ar": "حكم العاجز عن ستر العورة في الصلاة",
+            "en": "One Who Cannot Cover His ʿAwrah in the Prayer",
+            "ru": "Тот, кто не может прикрыть аврат в молитве",
+            "es": "Quien no puede cubrir su ʿawrah en la oración",
+            "uk": "Той, хто не може прикрити аврат у молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F90",
+          "title": {
+            "ar": "حكم من لم يجد إلا ثوباً نجساً",
+            "en": "One Who Has Only an Impure Garment",
+            "ru": "Тот, у кого есть лишь нечистая одежда",
+            "es": "Quien solo dispone de una prenda impura",
+            "uk": "Той, хто має лише нечистий одяг"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-11",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F81",
+          "title": {
+            "ar": "حكم الذكر والدعاء بعد الوضوء",
+            "en": "The Ruling on the Remembrance and Supplication after the Ablution",
+            "ru": "Постановление о поминании и мольбе после омовения",
+            "es": "La norma sobre el recuerdo y la súplica tras la ablución",
+            "uk": "Постанова про згадування та благання після омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F82",
+          "title": {
+            "ar": "حكم الخارج من السبيلين ونقضه للوضوء",
+            "en": "What Issues from the Two Passages, and Whether It Breaks the Ablution",
+            "ru": "Выходящее из двух путей и нарушает ли оно омовение",
+            "es": "Lo que sale de las dos vías y si rompe la ablución",
+            "uk": "Те, що виходить із двох шляхів, і чи порушує воно омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F83",
+          "title": {
+            "ar": "حكم النوم الناقض للوضوء وضابط المستغرق منه",
+            "en": "When Sleep Breaks the Ablution, and How Deep Sleep Is Measured",
+            "ru": "Когда сон нарушает омовение и чем измеряется глубокий сон",
+            "es": "Cuándo el sueño rompe la ablución y cómo se mide el sueño profundo",
+            "uk": "Коли сон порушує омивання і чим вимірюється глибокий сон"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F84",
+          "title": {
+            "ar": "حكم زوال العقل بسكر أو إغماء أو جنون",
+            "en": "Loss of Reason through Intoxication, Fainting or Insanity",
+            "ru": "Утрата разума вследствие опьянения, обморока или безумия",
+            "es": "La pérdida de la razón por embriaguez, desmayo o locura",
+            "uk": "Втрата розуму внаслідок сп'яніння, непритомності чи божевілля"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F85",
+          "title": {
+            "ar": "حكم مسّ الفرج بلا حائل ونقضه للوضوء",
+            "en": "Touching the Private Part without a Barrier, and Whether It Breaks the Ablution",
+            "ru": "Прикосновение к половому органу без преграды и нарушает ли оно омовение",
+            "es": "Tocar las partes íntimas sin barrera y si ello rompe la ablución",
+            "uk": "Доторк до статевого органа без перепони і чи порушує він омивання"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-10",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F76",
+          "title": {
+            "ar": "حكم غسل اليدين إلى المرفقين ودخول المرفقين في الغسل",
+            "en": "Washing the Arms to the Elbows, and Whether the Elbows Are Included",
+            "ru": "Мытьё рук до локтей и входят ли локти в омовение",
+            "es": "Lavar los brazos hasta los codos, y si los codos entran en el lavado",
+            "uk": "Миття рук до ліктів і чи входять лікті в омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F77",
+          "title": {
+            "ar": "حكم غسل الرجلين إلى الكعبين ودخول الكعبين في الغسل",
+            "en": "Washing the Feet to the Ankles, and Whether the Ankles Are Included",
+            "ru": "Мытьё ног до щиколоток и входят ли щиколотки в омовение",
+            "es": "Lavar los pies hasta los tobillos, y si los tobillos entran en el lavado",
+            "uk": "Миття ніг до щиколоток і чи входять щиколотки в омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F78",
+          "title": {
+            "ar": "حكم تثليث غسل الأعضاء ومسح الرأس في الوضوء",
+            "en": "Washing the Limbs Three Times, and Whether the Head Is Wiped Three Times",
+            "ru": "Троекратное мытьё частей тела и протирается ли голова трижды",
+            "es": "Lavar los miembros tres veces, y si se pasa la mano por la cabeza tres veces",
+            "uk": "Триразове миття частин тіла і чи протирається голова тричі"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F79",
+          "title": {
+            "ar": "حكم الترتيب بين أعضاء الوضوء",
+            "en": "Whether the Order of the Limbs in the Ablution Must Be Kept",
+            "ru": "Обязательна ли последовательность между органами омовения",
+            "es": "Si debe guardarse el orden entre los miembros de la ablución",
+            "uk": "Чи обов'язкова послідовність між органами омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F80",
+          "title": {
+            "ar": "حكم الموالاة بين أعضاء الوضوء",
+            "en": "Whether the Limbs Must Be Washed Without Interruption",
+            "ru": "Обязательна ли непрерывность между органами омовения",
+            "es": "Si los miembros deben lavarse sin interrupción",
+            "uk": "Чи обов'язкова безперервність між органами омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F72",
+          "title": {
+            "ar": "صيغة دعاء الاستفتاح وحكم الجهر به",
+            "en": "The Wording of the Opening Supplication and the Ruling on Saying It Aloud",
+            "ru": "Формулировка вступительной мольбы и постановление о её произнесении вслух",
+            "es": "La fórmula de la súplica de apertura y la norma sobre decirla en voz alta",
+            "uk": "Формулювання вступної мольби та постанова про її виголошення вголос"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F73",
+          "title": {
+            "ar": "حكم البسملة في الفاتحة والجهر بها",
+            "en": "Whether the Basmalah Is Part of al-Fātiḥah, and the Ruling on Saying It Aloud",
+            "ru": "Является ли басмала частью аль-Фатихи и постановление о её произнесении вслух",
+            "es": "Si la basmalah forma parte de al-Fātiḥah y la norma sobre decirla en voz alta",
+            "uk": "Чи є басмала частиною аль-Фатіхи та постанова про її виголошення вголос"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F74",
+          "title": {
+            "ar": "حكم التأمين والجهر به بعد الفاتحة",
+            "en": "The Ruling on Saying Āmīn and on Saying It Aloud after al-Fātiḥah",
+            "ru": "Постановление о произнесении «Амин» и о его произнесении вслух после аль-Фатихи",
+            "es": "La norma sobre decir āmīn y sobre decirlo en voz alta tras al-Fātiḥah",
+            "uk": "Постанова про виголошення «Амін» та про його виголошення вголос після аль-Фатіхи"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F75",
+          "title": {
+            "ar": "أقلّ ما يُجزئ من الانحناء في الركوع",
+            "en": "The Least Bending That Suffices for the Bowing",
+            "ru": "Наименьший наклон, которого достаточно для поясного поклона",
+            "es": "La menor inclinación que basta para la reverencia",
+            "uk": "Найменший нахил, якого достатньо для поясного уклону"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-09",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F66",
+          "title": {
+            "ar": "صيغة الإقامة وحكم إفراد كلماتها",
+            "en": "The Wording of the Iqāmah and the Ruling on Saying Its Phrases Once",
+            "ru": "Формулировка икамы и постановление о произнесении её фраз по одному разу",
+            "es": "La fórmula de la iqāmah y la norma sobre decir sus frases una sola vez",
+            "uk": "Формулювання іками та постанова про виголошення її фраз по одному разу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F67",
+          "title": {
+            "ar": "أوقات النهي عن الصلاة وعددها",
+            "en": "The Times in Which Prayer Is Forbidden, and How Many They Are",
+            "ru": "Времена, в которые запрещена молитва, и их количество",
+            "es": "Los tiempos en que se prohíbe la oración y su número",
+            "uk": "Часи, в які заборонена молитва, та їх кількість"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F68",
+          "title": {
+            "ar": "حدّ عورة الرجل في الصلاة",
+            "en": "The Extent of a Man's ʿAwrah in the Prayer",
+            "ru": "Границы аврата мужчины в молитве",
+            "es": "El límite de la ʿawrah del hombre en la oración",
+            "uk": "Межі аврату чоловіка в молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F69",
+          "title": {
+            "ar": "حكم من صلّى بالتحرّي ثم تبيّن له خطؤه في القبلة",
+            "en": "The Ruling on One Who Prays by Best Judgement and Then Learns He Faced the Wrong Direction",
+            "ru": "Постановление о том, кто помолился по своему суждению, а затем узнал, что ошибся в направлении киблы",
+            "es": "Norma sobre quien reza según su mejor juicio y luego descubre que erró la dirección de la alquibla",
+            "uk": "Постанова про того, хто помолився за своїм судженням, а потім дізнався, що помилився в напрямку кибли"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F70",
+          "title": {
+            "ar": "حكم اشتراط مقارنة النية لتكبيرة الإحرام",
+            "en": "Whether the Intention Must Coincide with the Opening Takbīr",
+            "ru": "Требуется ли одновременность намерения со вступительным такбиром",
+            "es": "Si la intención debe coincidir con el takbīr de apertura",
+            "uk": "Чи має намір збігатися зі вступним такбіром"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F71",
+          "title": {
+            "ar": "حكم التلفّظ بالنية في الصلاة",
+            "en": "The Ruling on Uttering the Intention with the Tongue",
+            "ru": "Постановление о произнесении намерения языком в молитве",
+            "es": "La norma sobre pronunciar la intención con la lengua en la oración",
+            "uk": "Постанова про виголошення наміру язиком у молитві"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-08",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F62",
+          "title": {
+            "ar": "حكم التسمية في أول الوضوء",
+            "en": "Ruling on Saying the Basmalah at the Beginning of the Ablution",
+            "ru": "Постановление о произнесении басмалы в начале омовения",
+            "es": "Norma sobre decir la basmalah al comienzo de la ablución",
+            "uk": "Постанова про виголошення басмали на початку омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F63",
+          "title": {
+            "ar": "حكم غسل الكفّين للقائم من نوم الليل قبل إدخالهما الإناء",
+            "en": "Ruling on Washing the Hands, for One Newly Woken from the Night's Sleep, Before Putting Them into the Vessel",
+            "ru": "Постановление о мытье кистей рук проснувшимся от ночного сна перед погружением их в сосуд",
+            "es": "Norma sobre lavarse las manos, para quien despierta del sueño nocturno, antes de introducirlas en el recipiente",
+            "uk": "Постанова про миття кистей рук тим, хто прокинувся від нічного сну, перед зануренням їх у посудину"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F64",
+          "title": {
+            "ar": "حكم المبالغة في المضمضة والاستنشاق لغير الصائم",
+            "en": "Ruling on Going to Excess in Rinsing the Mouth and Nose for One Who Is Not Fasting",
+            "ru": "Постановление об усердии в полоскании рта и носа для не постящегося",
+            "es": "Norma sobre esmerarse en el enjuague de la boca y la nariz para quien no ayuna",
+            "uk": "Постанова про старанність у полосканні рота та носа для того, хто не постить"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F65",
+          "title": {
+            "ar": "مقدار مسح الرأس الواجب وحكم مسح الأذنين معه في الوضوء",
+            "en": "The Obligatory Extent of Wiping the Head, and the Ruling on Wiping the Ears with It",
+            "ru": "Обязательная мера протирания головы и постановление о протирании ушей вместе с ней",
+            "es": "La medida obligatoria del frotamiento de la cabeza y la norma sobre frotar las orejas con ella",
+            "uk": "Обов'язкова міра протирання голови та постанова про протирання вух разом із нею"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-07",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F61",
+          "title": {
+            "ar": "شروط وجوب صيام رمضان (البلوغ والعقل والقدرة)",
+            "en": "Conditions for the Obligation of Fasting Ramadan (Puberty, Sanity, and Capability)",
+            "ru": "Условия обязательности поста в Рамадан (совершеннолетие, разум и способность)",
+            "es": "Condiciones para la obligación del ayuno de Ramadán (pubertad, sanidad mental y capacidad)",
+            "uk": "Умови обов'язковості посту в Рамадан (повноліття, розум та спроможність)"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F58",
+          "title": {
+            "ar": "حكم الأكل والشرب عمداً في صيام رمضان وما يترتّب عليه",
+            "en": "Ruling on Deliberately Eating and Drinking While Fasting in Ramadan and What It Entails",
+            "ru": "Постановление о намеренном приёме пищи и питья во время поста в Рамадан и вытекающих из этого последствиях",
+            "es": "Norma sobre comer y beber intencionalmente durante el ayuno de Ramadán y lo que conlleva",
+            "uk": "Постанова про навмисне вживання їжі та пиття під час посту в Рамадан та наслідки цього"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F59",
+          "title": {
+            "ar": "حكم التدخين وما يُستنشق عمداً في نهار الصيام",
+            "en": "Ruling on Smoking and What is Intentionally Inhaled During the Day of Fasting",
+            "ru": "Постановление о курении и том, что намеренно вдыхается во время поста",
+            "es": "Norma sobre fumar y lo que se inhala intencionalmente durante el ayuno",
+            "uk": "Постанова про куріння та те, що навмисно вдихається під час посту"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F60",
+          "title": {
+            "ar": "حكم الأكل والشرب ناسياً في نهار الصيام",
+            "en": "Ruling on Eating and Drinking Forgetfully During the Day of Fasting",
+            "ru": "Постановление об употреблении пищи и питья по забывчивости во время поста",
+            "es": "Norma sobre comer y beber por olvido durante el día de ayuno",
+            "uk": "Постанова про вживання їжі та пиття через забудькуватість під час посту"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M6",
+          "title": {
+            "ar": "أسباب تفرّق النصارى إلى فرق متعدّدة، وكيف عالج الإسلام هذا الاختلاف",
+            "en": "Why the Christians Split into Many Denominations, and How Islam Settled the Dispute",
+            "ru": "Причины разделения христиан на множество течений и как ислам разрешил это разногласие",
+            "es": "Por qué los cristianos se dividieron en múltiples confesiones y cómo el islam zanjó la disputa",
+            "uk": "Чому християни розділилися на численні конфесії та як іслам вирішив це розходження"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-04",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F54",
+          "title": {
+            "ar": "حكم غسل الوجه وحكم المضمضة والاستنشاق معه في الوضوء",
+            "en": "Ruling on Washing the Face and the Ruling on Mouth-rinsing and Sniffing Water with it in Ablution",
+            "ru": "Постановление о мытье лица, а также о полоскании рта и носа при этом при омовении",
+            "es": "Norma sobre lavar la cara y la norma sobre enjuagar la boca y aspirar agua por la nariz en la ablución",
+            "uk": "Постанова про миття обличчя, а також про полоскання рота та носа при цьому під час омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F56",
+          "title": {
+            "ar": "حكم الصلوات الخمس المفروضة وأصل مشروعيتها",
+            "en": "Ruling on the Five Obligatory Prayers and Their Legal Basis",
+            "ru": "Постановление о пяти обязательных молитвах и их правовой основе",
+            "es": "Norma sobre las cinco oraciones obligatorias y su fundamento legal",
+            "uk": "Постанова про п'ять обов'язкових молитов та їхню правову основу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F57",
+          "title": {
+            "ar": "حكم صيام شهر رمضان وأصل مشروعيته",
+            "en": "Ruling on Fasting the Month of Ramadan and Its Legal Basis",
+            "ru": "Постановление о посте месяца Рамадан и его правовой основе",
+            "es": "Norma sobre el ayuno del mes de Ramadán y su fundamento legal",
+            "uk": "Постанова про піст місяця Рамадан та його правову основу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F55",
+          "title": {
+            "ar": "حكم الاكتفاء بنية واحدة لجميع شهر رمضان",
+            "en": "Ruling on Sufficiency of a Single Intention for the Entire Month of Ramadan",
+            "ru": "Постановление о достаточности одного намерения на весь месяц Рамадан",
+            "es": "Norma sobre la suficiencia de una sola intención para todo el mes de Ramadán",
+            "uk": "Постанова про достатність одного наміру на весь місяць Рамадан"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-03",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F46",
+          "title": {
+            "ar": "حكم الصلاة مع نجاسة يسيرة على الثوب أو البدن",
+            "en": "Ruling on praying with a slight impurity on the garment or the body",
+            "ru": "Постановление о молитве с незначительной нечистотой на одежде или теле",
+            "es": "Norma sobre orar con una impureza leve en la ropa o el cuerpo",
+            "uk": "Постанова про молитву з незначною нечистотою на одязі чи тілі"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F47",
+          "title": {
+            "ar": "حكم إصابة عين الكعبة للقريب وجهتها للبعيد",
+            "en": "Ruling on facing the Kaaba itself when near and its direction when far",
+            "ru": "Постановление о направлении на саму Каабу вблизи и в её сторону вдали",
+            "es": "Norma sobre orientarse a la Kaaba misma de cerca y a su dirección de lejos",
+            "uk": "Постанова про спрямування на саму Каабу зблизька і в її бік здалеку"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F48",
+          "title": {
+            "ar": "حكم قراءة سورة بعد الفاتحة في الصلاة",
+            "en": "Ruling on reciting a sura after al-Fatiha in the prayer",
+            "ru": "Постановление о чтении суры после аль-Фатихи в молитве",
+            "es": "Norma sobre recitar una sura después de al-Fatiha en la oración",
+            "uk": "Постанова про читання сури після аль-Фатіха в молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F49",
+          "title": {
+            "ar": "حكم ثبوت هلال رمضان بشهادة عدل واحد أم اثنين",
+            "en": "Ruling on Confirming the Crescent of Ramadan by the Testimony of One or Two Just Witnesses",
+            "ru": "Постановление об установлении новолуния Рамадана свидетельством одного или двух справедливых свидетелей",
+            "es": "Norma sobre la confirmación de la luna nueva de Ramadán mediante el testimonio de uno o dos testigos justos",
+            "uk": "Постанова про підтвердження молодика Рамадану свідченням одного або двох справедливих свідків"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F51",
+          "title": {
+            "ar": "حكم إتمام شعبان ثلاثين يوماً إذا حُجب الهلال ليلة الثلاثين",
+            "en": "Ruling on Completing Shaʿbān Thirty Days if the Crescent is Blocked on the Thirtieth Night",
+            "ru": "Постановление о завершении Шаабана тридцатью днями при скрытии новолуния в тридцатую ночь",
+            "es": "Norma sobre completar Shaʿbān treinta días si la luna nueva está oculta en la trigésima noche",
+            "uk": "Постанова про завершення Шаабана тридцятьма днями при приховуванні молодика в тридцяту ніч"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F50",
+          "title": {
+            "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
+            "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
+            "ru": "Постановление о различении мест восхода новолуния и всеобщей видимости для разных стран",
+            "es": "Norma sobre la diferencia de los horizontes de aparición (maṭāliʿ) de la luna y la generalización del avistamiento en los países",
+            "uk": "Постанова про різницю місць сходження молодика та загальність видимості в країнах"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F52",
+          "title": {
+            "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
+            "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
+            "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
+            "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
+            "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F53",
+          "title": {
+            "ar": "حكم اشتراط تبييت النية من الليل لصوم رمضان",
+            "en": "Ruling on the Condition of Intending Fasting Ramadan from the Night Before",
+            "ru": "Постановление об условии намерения поститься в Рамадан с ночи",
+            "es": "Norma sobre la condición de la intención de ayunar Ramadán desde la noche anterior",
+            "uk": "Постанова про умову наміру постити в Рамадан з ночі"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M4",
+          "title": {
+            "ar": "دليل الخلق واستحالة التسلسل في الإيجاد",
+            "en": "The proof of creation and the impossibility of an infinite regress",
+            "ru": "Доказательство сотворения и невозможность бесконечного ряда причин",
+            "es": "La prueba de la creación y la imposibilidad de una regresión infinita",
+            "uk": "Доказ створення та неможливість безкінечного ланцюга причин"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M5",
+          "title": {
+            "ar": "الحكمة من صيام شهر رمضان وآثاره على الصحة البدنية",
+            "en": "The Wisdom Behind Fasting Ramadan and Its Impact on Physical Health",
+            "ru": "Мудрость поста в месяц Рамадан и его влияние на физическое здоровье",
+            "es": "La sabiduría del ayuno de Ramadán y su impacto en la salud física",
+            "uk": "Мудрість посту в місяць Рамадан та його вплив на фізичне здоров'я"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-02",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F27",
+          "title": {
+            "ar": "حكم الماء المستعمل في طهارة مستحبة",
+            "en": "Ruling on water used in a recommended purification",
+            "ru": "Постановление о воде, использованной в желательном очищении",
+            "es": "Norma sobre el agua usada en una purificación recomendada",
+            "uk": "Постанова про воду, використану в бажаному очищенні"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F28",
+          "title": {
+            "ar": "أثر غمس القائم من نوم الليل يده في الماء القليل",
+            "en": "The Effect of a Person Newly Woken Dipping a Hand into a Small Quantity of Water",
+            "ru": "Влияние погружения руки проснувшимся от ночного сна в малое количество воды",
+            "es": "El efecto de que quien despierta del sueño nocturno sumerja la mano en agua escasa",
+            "uk": "Вплив занурення руки тим, хто прокинувся від нічного сну, в малу кількість води"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F29",
+          "title": {
+            "ar": "حكم حدّ الماء الكثير والقليل وأثر النجاسة فيه",
+            "en": "Ruling on the threshold between much and little water and the effect of impurity",
+            "ru": "Постановление о границе между большой и малой водой и действии нечистоты",
+            "es": "Norma sobre el umbral entre agua abundante y escasa y el efecto de la impureza",
+            "uk": "Постанова про межу між великою та малою водою і дію нечистоти в ній"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F37",
+          "title": {
+            "ar": "حكم الماء الذي وقعت فيه نجاسة ولم تغيّره",
+            "en": "Ruling on water an impurity has fallen into without altering it",
+            "ru": "Постановление о воде, в которую попала нечистота, не изменив её",
+            "es": "Norma sobre el agua en la que cae una impureza sin alterarla",
+            "uk": "Постанова про воду, в яку потрапила нечистота, не змінивши її"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F30",
+          "title": {
+            "ar": "حكم تطهير الماء المتنجّس وزوال تغيّره",
+            "en": "Ruling on purifying water that has become impure and the clearing of its alteration",
+            "ru": "Постановление об очищении осквернённой воды и исчезновении её изменения",
+            "es": "Norma sobre purificar el agua contaminada y la desaparición de su alteración",
+            "uk": "Постанова про очищення оскверненої води та зникнення її зміни"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F31",
+          "title": {
+            "ar": "حكم موت ما لا نفس له سائلة في الماء",
+            "en": "Ruling on the death in water of creatures without flowing blood",
+            "ru": "Постановление о гибели в воде существ без текучей крови",
+            "es": "Norma sobre la muerte en el agua de criaturas sin sangre fluida",
+            "uk": "Постанова про загибель у воді істот без текучої крові"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F38",
+          "title": {
+            "ar": "حكم موت الحيوان المائي كالسمك في الماء",
+            "en": "Ruling on the death of aquatic animals such as fish in water",
+            "ru": "Постановление о гибели водных животных, таких как рыба, в воде",
+            "es": "Norma sobre la muerte de animales acuáticos, como los peces, en el agua",
+            "uk": "Постанова про загибель водяної тварини, як риба, у воді"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F32",
+          "title": {
+            "ar": "حكم سؤر الآدمي وما يؤكل لحمه من البهائم",
+            "en": "Ruling on water left over by humans and by animals whose meat is eaten",
+            "ru": "Постановление об остатке воды после людей и животных, мясо которых дозволено",
+            "es": "Norma sobre el sobrante de agua de humanos y de animales cuya carne se come",
+            "uk": "Постанова про залишок води після людини та тварин, м'ясо яких дозволене"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F33",
+          "title": {
+            "ar": "حكم سؤر الهرّ وما دونها في الخلقة من الطوّافين",
+            "en": "Ruling on water left over by cats and by smaller roaming animals",
+            "ru": "Постановление об остатке воды после кошек и меньших домашних животных",
+            "es": "Norma sobre el sobrante de agua de gatos y de animales menores que rondan la casa",
+            "uk": "Постанова про залишок води після кішки та менших за неї істот, що снують серед людей"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F34",
+          "title": {
+            "ar": "حكم سؤر الكلب والخنزير وسباع البهائم",
+            "en": "Ruling on water left over by dogs, swine, and beasts of prey",
+            "ru": "Постановление об остатке воды после собак, свиней и хищных зверей",
+            "es": "Norma sobre el sobrante de agua de perros, cerdos y bestias de presa",
+            "uk": "Постанова про залишок води після собаки, свині та хижих тварин"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F35",
+          "title": {
+            "ar": "حكم اشتباه الماء الطهور بالماء النجس",
+            "en": "Ruling when tahur water cannot be told apart from impure water",
+            "ru": "Постановление о смешении воды тахур с нечистой водой",
+            "es": "Norma cuando el agua tahur no se distingue del agua impura",
+            "uk": "Постанова про нерозрізнення очищувальної води та нечистої"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F36",
+          "title": {
+            "ar": "حكم اشتباه الماء الطهور بالماء الطاهر",
+            "en": "Ruling when tahur water cannot be told from pure non-purifying water",
+            "ru": "Постановление о неразличимости воды тахур и чистой неочищающей воды",
+            "es": "Norma cuando el agua tahur no se distingue del agua pura no purificadora",
+            "uk": "Постанова про нерозрізнення очищувальної води та чистої неочищувальної"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F41",
+          "title": {
+            "ar": "وقت صلاة الظهر بدايةً ونهايةً",
+            "en": "The time of the zenith prayer, from its beginning to its end",
+            "ru": "Время полуденной молитвы: её начало и конец",
+            "es": "El tiempo de la oración del cenit, desde su inicio hasta su fin",
+            "uk": "Час полуденної молитви (зугр): початок і кінець"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F42",
+          "title": {
+            "ar": "وقت صلاة المغرب بدايةً ونهايةً",
+            "en": "The time of the sunset prayer, from its beginning to its end",
+            "ru": "Время закатной молитвы: её начало и конец",
+            "es": "El tiempo de la oración del ocaso, desde su inicio hasta su fin",
+            "uk": "Час вечірньої молитви (маґріб): початок і кінець"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F43",
+          "title": {
+            "ar": "وقت صلاة العشاء بدايةً ونهايةً",
+            "en": "The time of the night prayer, from its beginning to its end",
+            "ru": "Время ночной молитвы: её начало и конец",
+            "es": "El tiempo de la oración de la noche, desde su inicio hasta su fin",
+            "uk": "Час нічної молитви (іша): початок і кінець"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F40",
+          "title": {
+            "ar": "وقت صلاة الفجر بدايةً ونهايةً",
+            "en": "The time of the dawn prayer, from its beginning to its end",
+            "ru": "Время утренней молитвы: её начало и конец",
+            "es": "El tiempo de la oración del alba, desde su inicio hasta su fin",
+            "uk": "Час ранкової молитви (фаджр): початок і кінець"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F44",
+          "title": {
+            "ar": "حكم حدّ عورة المرأة الحرّة البالغة في الصلاة",
+            "en": "Ruling on the awrah of a free adult woman in prayer",
+            "ru": "Постановление об аурате свободной совершеннолетней женщины в молитве",
+            "es": "Norma sobre el awrah de la mujer libre y adulta en la oración",
+            "uk": "Постанова про межі аврату вільної повнолітньої жінки в молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F39",
+          "title": {
+            "ar": "حكم اشتباه الثياب الطاهرة بالثياب النجسة",
+            "en": "Ruling when pure garments cannot be told apart from impure ones",
+            "ru": "Постановление о неразличимости чистой и нечистой одежды",
+            "es": "Norma cuando la ropa pura no se distingue de la impura",
+            "uk": "Постанова про нерозрізнення чистого одягу та нечистого"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F45",
+          "title": {
+            "ar": "حكم صيغة تكبيرة الإحرام وما يقوم مقامها",
+            "en": "Ruling on the wording of the opening takbir and what may replace it",
+            "ru": "Постановление о формуле вступительного такбира и о том, что его заменяет",
+            "es": "Norma sobre la fórmula del takbir de apertura y lo que puede sustituirla",
+            "uk": "Постанова про формулу вступного такбіру і те, що його заміняє"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M3",
+          "title": {
+            "ar": "كيف تغيّرت التوراة والإنجيل في ضوء النقد النصّي؟",
+            "en": "How the Torah and the Gospel changed, in the light of textual criticism",
+            "ru": "Как изменялись Тора и Евангелие в свете текстологии",
+            "es": "Cómo cambiaron la Torá y el Evangelio a la luz de la crítica textual",
+            "uk": "Як змінювалися Тора та Євангеліє у світлі текстології"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
+      "date": "2026-09-01",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F1",
+          "title": {
+            "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
+            "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
+            "ru": "Правовая квалификация произнесения шахады для принятия ислама",
+            "es": "La caracterización jurídica de pronunciar los dos testimonios para entrar en el islam",
+            "uk": "Правова кваліфікація промовляння двох свідчень для прийняття ісламу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F2",
+          "title": {
+            "ar": "نطق المسلم الجديد بالشهادتين بغير اللغة العربية",
+            "en": "A new Muslim pronouncing the shahada in a language other than Arabic",
+            "ru": "Произнесение шахады новообращённым на языке, отличном от арабского",
+            "es": "La pronunciación de los dos testimonios por el nuevo musulmán en una lengua distinta del árabe",
+            "uk": "Промовляння двох свідчень новим мусульманином не арабською мовою"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F20",
+          "title": {
+            "ar": "حكم التطهير بالماء المطلق في رفع الحدث",
+            "en": "Ruling on purification with absolute water for hadath",
+            "ru": "Постановление об очищении абсолютной водой от хадаса",
+            "es": "Norma sobre la purificación con agua absoluta para el hadath",
+            "uk": "Постанова про очищення абсолютною водою для зняття хадасу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F21",
+          "title": {
+            "ar": "حكم تقسيم المياه إلى طهور وطاهر ونجس",
+            "en": "Ruling on classifying water as tahur, pure, or impure",
+            "ru": "Постановление о делении воды на тахур, чистую и нечистую",
+            "es": "Norma sobre la clasificación del agua en tahur, pura e impura",
+            "uk": "Постанова про поділ вод на очищувальну, чисту та нечисту"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F22",
+          "title": {
+            "ar": "حكم الماء الطهور المتغير بطاهر لم يخرجه عن طبيعته",
+            "en": "Ruling on tahur water altered by a pure substance that keeps its nature",
+            "ru": "Постановление о воде тахур, изменённой чистым веществом без утраты её природы",
+            "es": "Norma sobre el agua tahur alterada por una sustancia pura que conserva su naturaleza",
+            "uk": "Постанова про очищувальну воду, змінену чистою речовиною, що не вивела її з природного стану"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F23",
+          "title": {
+            "ar": "حكم الماء الطهور المتغير بطاهر يمازجه كالزعفران والصابون والسدر",
+            "en": "Ruling on tahur water altered by a pure substance that blends into it",
+            "ru": "Постановление о воде тахур, изменённой чистым веществом, смешавшимся с ней",
+            "es": "Norma sobre el agua tahur alterada por una sustancia pura que se mezcla con ella",
+            "uk": "Постанова про очищувальну воду, змінену чистою речовиною, що з нею змішується, як шафран, мило та сідр"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F24",
+          "title": {
+            "ar": "حكم الماء الطهور المتغيّر بمجاور لا يخالطه",
+            "en": "Ruling on tahur water altered by an adjacent substance that does not blend",
+            "ru": "Постановление о воде тахур, изменённой прилегающим веществом, не смешивающимся с ней",
+            "es": "Norma sobre el agua tahur alterada por una sustancia contigua que no se mezcla",
+            "uk": "Постанова про очищувальну воду, змінену сусідньою речовиною, що з нею не змішується"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F26",
+          "title": {
+            "ar": "حكم الماء الطهور المتغيّر بمقرّه أو ممرّه",
+            "en": "Ruling on tahur water altered by its bed or its channel",
+            "ru": "Постановление о воде тахур, изменённой её ложем или руслом",
+            "es": "Norma sobre el agua tahur alterada por su lecho o su cauce",
+            "uk": "Постанова про очищувальну воду, змінену своїм ложем або руслом"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F25",
+          "title": {
+            "ar": "حكم الماء الطهور المسخّن بالطاقة أو الشمس أو بنجس",
+            "en": "Ruling on tahur water heated by energy, by the sun, or by something impure",
+            "ru": "Постановление о воде тахур, нагретой энергией, солнцем или нечистым",
+            "es": "Norma sobre el agua tahur calentada con energía, con el sol o con algo impuro",
+            "uk": "Постанова про очищувальну воду, нагріту енергією, сонцем або нечистим"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F8",
+          "title": {
+            "ar": "حكم الماء المستعمل في رفع الحدث",
+            "en": "The ruling on water already used to remove ritual impurity",
+            "ru": "Постановление о воде, использованной для снятия осквернения",
+            "es": "La norma sobre el agua ya usada para eliminar la impureza ritual",
+            "uk": "Постанова про воду, використану для зняття хадасу"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F9",
+          "title": {
+            "ar": "حكم الطهارة بأواني الذهب والفضة",
+            "en": "The ruling on purifying with vessels of gold and silver",
+            "ru": "Постановление об очищении из сосудов из золота и серебра",
+            "es": "La norma sobre la purificación con recipientes de oro y plata",
+            "uk": "Постанова про очищення з посуду із золота та срібла"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F10",
+          "title": {
+            "ar": "حكم الاستجمار بالمنديل والأوراق الحديثة",
+            "en": "The ruling on cleansing with tissue and modern paper (istijmār)",
+            "ru": "Постановление об очищении салфеткой и современной бумагой",
+            "es": "La norma sobre la limpieza con pañuelos y papel modernos (istijmār)",
+            "uk": "Постанова про очищення серветками та сучасним папером (істіджмар)"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F4",
+          "title": {
+            "ar": "حكم النية في الوضوء وهل تسقط سهواً",
+            "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
+            "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости",
+            "es": "La norma sobre la intención (niyyah) en la ablución y si decae por olvido",
+            "uk": "Постанова про намір в омиванні і чи відпадає він через забудькуватість"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F6",
+          "title": {
+            "ar": "أثر أكل لحم الإبل ولمس المرأة على الوضوء",
+            "en": "The effect of eating camel meat and touching a woman on ablution",
+            "ru": "Влияние употребления верблюжьего мяса и прикосновения к женщине на омовение",
+            "es": "El efecto de comer carne de camello y de tocar a una mujer sobre la ablución",
+            "uk": "Вплив уживання верблюжого м'яса та дотику до жінки на омивання"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F5",
+          "title": {
+            "ar": "حكم المسح على الجورب الخفيف/الحديث",
+            "en": "The ruling on wiping over light/modern socks",
+            "ru": "Постановление о протирании лёгких/современных носков",
+            "es": "La norma sobre el frotamiento sobre los calcetines ligeros o modernos",
+            "uk": "Постанова про протирання легких або сучасних шкарпеток"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F7",
+          "title": {
+            "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+            "en": "The ruling on tayammum when water is present but there is fear of using it",
+            "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования",
+            "es": "La norma sobre el tayammum cuando hay agua pero se teme usarla",
+            "uk": "Постанова про таяммум за наявності води, коли є побоювання її використати"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F11",
+          "title": {
+            "ar": "تطهير النجاسة بغير الماء (كالمنظفات والسبيرتو)",
+            "en": "Purifying impurity with something other than water (detergents, alcohol)",
+            "ru": "Очищение нечистоты не водой (моющие средства, спирт)",
+            "es": "La purificación de la impureza con algo distinto del agua (como detergentes y alcohol)",
+            "uk": "Очищення нечистоти не водою (мийними засобами, спиртом тощо)"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F16",
+          "title": {
+            "ar": "حكم التثويب في أذان صلاة الفجر",
+            "en": "Ruling on Tathwīb in the Fajr Adhān",
+            "ru": "Постановление о тасвибе в азане предрассветной молитвы",
+            "es": "La norma sobre el tathwīb en el adhán de la oración del fajr",
+            "uk": "Постанова про тасвіб в азані ранкової молитви (фаджр)"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F15",
+          "title": {
+            "ar": "وقت صلاة العصر بدايةً ونهايةً",
+            "en": "The time of the afternoon prayer, from its beginning to its end",
+            "ru": "Время послеполуденной молитвы: её начало и конец",
+            "es": "El tiempo de la oración de la tarde, desde su inicio hasta su fin",
+            "uk": "Час післяполуденної молитви (аср): початок і кінець"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F12",
+          "title": {
+            "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
+            "en": "Ruling on Raising Hands During Takbeer and its Places in Prayer",
+            "ru": "Постановление о поднятии рук при такбире и его места в молитве",
+            "es": "La norma sobre levantar las manos en el takbir de apertura y sus lugares en la oración",
+            "uk": "Постанова про піднімання рук при вступному такбірі та його місця в молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F13",
+          "title": {
+            "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
+            "en": "Position of Hands While Standing in Prayer (Qabd vs Sadl)",
+            "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)",
+            "es": "La forma de colocar las manos durante la posición de pie en la oración (qabḍ y sadl)",
+            "uk": "Положення рук під час стояння в молитві (складання і опускання)"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F14",
+          "title": {
+            "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
+            "en": "Ruling on the Follower Reciting al-Fātiḥah Behind the imam in the Silent and the Audible Prayer",
+            "ru": "Постановление о чтении аль-Фатихи тем, кто молится за имамом, в тихой и громкой молитве",
+            "es": "La norma sobre la recitación de al-Fátiha por el seguidor detrás del imam en la oración silenciosa y en la audible",
+            "uk": "Постанова про читання аль-Фатіха тим, хто молиться за імамом, у тихій і голосній молитві"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F17",
+          "title": {
+            "ar": "موضع سجود السهو بالنسبة للتسليم من الصلاة",
+            "en": "The Timing of the Prostration of Forgetfulness Relative to Salām",
+            "ru": "Место совершения земного поклона за забывчивость относительно таслима",
+            "es": "El lugar de la postración por olvido respecto al saludo final de la oración",
+            "uk": "Місце земного уклону за забудькуватість відносно тасліму з молитви"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F18",
+          "title": {
+            "ar": "حكم قصر الصلاة الرباعية للمسافر",
+            "en": "Ruling on Shortening Four-Unit Prayers for the Traveler",
+            "ru": "Постановление о сокращении четырехракаатной молитвы для путника",
+            "es": "La norma sobre acortar la oración de cuatro rakʿas para el viajero",
+            "uk": "Постанова про скорочення чотириракаатної молитви для подорожнього"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F19",
+          "title": {
+            "ar": "اشتراط المصر والمدينة لانعقاد صلاة الجمعة",
+            "en": "Condition of the Town for the Validity of Friday Prayer",
+            "ru": "Условие города для действительности пятничной молитвы",
+            "es": "La condición de la ciudad y la población para la celebración de la oración del viernes",
+            "uk": "Умова міста та поселення для чинності п'ятничної молитви"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M1",
+          "title": {
+            "ar": "رحلة البحث عن الحق: كيف نقرأ تاريخ الأديان ولماذا كان الإسلام هو الرسالة الخاتمة؟",
+            "en": "The Search for Truth: How to Read the History of Religions, and Why Islam Is the Final Message",
+            "ru": "Поиск истины: как читать историю религий и почему ислам — завершающее послание",
+            "es": "El viaje en busca de la verdad: ¿cómo leer la historia de las religiones y por qué el islam fue el mensaje final?",
+            "uk": "Пошук істини: як читати історію релігій і чому іслам — завершальне послання"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M2",
+          "title": {
+            "ar": "بدء الخلق وخلق السماوات والأرض والملائكة والجانّ",
+            "en": "The beginning of creation: the heavens, the earth, the angels, and the jinn",
+            "ru": "Начало сотворения: небеса, земля, ангелы и джинны",
+            "es": "El inicio de la creación: los cielos, la tierra, los ángeles y los genios",
+            "uk": "Початок творення: небеса, земля, ангели та джини"
+          }
+        }
+      ],
+      "revised": []
+    }
+  ],
+  "totals": {
+    "issues": 120,
+    "articles": 8
+  }
+}

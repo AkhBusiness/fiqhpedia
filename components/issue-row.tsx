@@ -49,13 +49,13 @@ export function IssueRow({ issue, lang, bookmarked, onToggleBookmark }: IssueRow
               </span>
             ) : null}
             {fresh ? (
-              <span className="rounded-md bg-emerald-500 px-2 py-0.5 text-[13px] font-bold text-white dark:text-emerald-950">
+              <span className="rounded-md bg-emerald-700 px-2 py-0.5 text-[13px] font-bold text-white dark:bg-emerald-500 dark:text-emerald-950">
                 {ui.newTag[lang]}
               </span>
             ) : revised ? (
               <span
                 title={issue.revisionNote?.[lang] ?? ui.revisedTagTitle[lang]}
-                className="rounded-md bg-amber-500 px-2 py-0.5 text-[13px] font-bold text-white dark:bg-amber-400 dark:text-amber-950"
+                className="rounded-md bg-amber-700 px-2 py-0.5 text-[13px] font-bold text-white dark:bg-amber-400 dark:text-amber-950"
               >
                 {ui.revisedTag[lang]}
               </span>

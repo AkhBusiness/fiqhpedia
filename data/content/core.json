@@ -1492,6 +1492,55 @@
       "ru": "Об этой книге на странице «Источники»",
       "es": "Sobre este libro en la página de Fuentes",
       "uk": "Про цю книгу на сторінці «Джерела»"
+    },
+    "changelogSection": {
+      "ar": "سجلّ التحديثات",
+      "en": "Updates",
+      "ru": "Обновления",
+      "es": "Novedades",
+      "uk": "Оновлення"
+    },
+    "changelogIntro": {
+      "ar": "ما أُضيف إلى الموسوعة وما صُحّح فيها، يوماً بيوم. التصحيحات الفقهية وحدها تُسجَّل؛ الإملاء والترجمة لا.",
+      "en": "What was added to the encyclopedia and what was corrected, day by day. Only juristic corrections are logged; spelling and translation fixes are not.",
+      "ru": "Что добавлено в энциклопедию и что исправлено, день за днём. Записываются только правовые исправления; орфография и перевод — нет.",
+      "es": "Lo que se ha añadido a la enciclopedia y lo que se ha corregido, día a día. Solo se registran las correcciones jurídicas; no las de ortografía o traducción.",
+      "uk": "Що додано до енциклопедії і що виправлено, день за днем. Записуються лише правові виправлення; орфографія та переклад — ні."
+    },
+    "changelogAdded": {
+      "ar": "أُضيف",
+      "en": "Added",
+      "ru": "Добавлено",
+      "es": "Añadido",
+      "uk": "Додано"
+    },
+    "changelogRevised": {
+      "ar": "صُحّح",
+      "en": "Corrected",
+      "ru": "Исправлено",
+      "es": "Corregido",
+      "uk": "Виправлено"
+    },
+    "changelogEmpty": {
+      "ar": "لا تحديثات مسجَّلة بعد.",
+      "en": "No updates recorded yet.",
+      "ru": "Обновлений пока нет.",
+      "es": "Aún no hay novedades registradas.",
+      "uk": "Оновлень поки немає."
+    },
+    "changelogTotals": {
+      "ar": "{issues} مسألة · {articles} مقالة",
+      "en": "{issues} entries · {articles} articles",
+      "ru": "{issues} вопросов · {articles} статей",
+      "es": "{issues} cuestiones · {articles} artículos",
+      "uk": "{issues} питань · {articles} статей"
+    },
+    "showAllCount": {
+      "ar": "عرض الكل ({n})",
+      "en": "Show all ({n})",
+      "ru": "Показать все ({n})",
+      "es": "Mostrar todo ({n})",
+      "uk": "Показати всі ({n})"
     }
   },
   "books": [

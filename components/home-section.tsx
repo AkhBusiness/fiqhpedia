@@ -207,7 +207,12 @@ export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionPro
       {recent.length > 0 ? (
         <section>
           <h2 className="text-lg font-bold text-foreground sm:text-xl">{ui.recentTitle[lang]}</h2>
-          <p className="mt-1 text-sm text-muted-foreground">{ui.recentDesc[lang]}</p>
+          <p className="mt-1 text-sm text-muted-foreground">
+            {ui.recentDesc[lang]}{" "}
+            <Link href={`/${lang}/changelog`} className="font-semibold text-foreground/80 underline decoration-white/20 underline-offset-4 hover:text-foreground">
+              {ui.changelogSection[lang]}
+            </Link>
+          </p>
           <ul className="mt-4 flex list-none flex-col gap-1.5 p-0">
             {recent.map((i) => (
               <li key={i.id}>
@@ -222,7 +227,7 @@ export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionPro
                     ) : null}
                   </span>
                   {isRecentlyAdded(i.addedAt) ? (
-                    <span className="shrink-0 rounded-md bg-emerald-500 px-2 py-0.5 text-[13px] font-bold text-white dark:text-emerald-950">
+                    <span className="shrink-0 rounded-md bg-emerald-700 px-2 py-0.5 text-[13px] font-bold text-white dark:bg-emerald-500 dark:text-emerald-950">
                       {ui.newTag[lang]}
                     </span>
                   ) : null}

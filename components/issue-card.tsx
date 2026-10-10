@@ -156,23 +156,26 @@ export function IssueCard({
                  green "new" sat beside an outlined green "farḍ" and read
                  as another grade. Filling it makes it a different kind of
                  thing at a glance. */
-              className="rounded-md bg-emerald-500 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
+              className="rounded-md bg-emerald-700 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
             >
               {ui.newTag[lang]}
             </span>
           ) : null}
           {isRecentlyRevised(issue.revisedAt, issue.addedAt) ? (
-            <span
+            <Link
+              href={`/${lang}/changelog`}
               /* The note, not the generic string, is the point: "revised" on
                  a ruling is read as the ruling having changed, and most
                  revisions are wording. Amber and filled — filled to sit in
                  the same family as the green "new" rather than among the
-                 outlined grade chips, amber to not be mistaken for it. */
+                 outlined grade chips, amber to not be mistaken for it. The
+                 chip opens the log, where the note is readable, not only a
+                 hover title a phone never shows. */
               title={issue.revisionNote?.[lang] ?? ui.revisedTagTitle[lang]}
-              className="rounded-md bg-amber-500 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-amber-400 dark:text-amber-950"
+              className="rounded-md bg-amber-700 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-amber-400 dark:text-amber-950"
             >
               {ui.revisedTag[lang]}
-            </span>
+            </Link>
           ) : null}
         </div>
 

@@ -279,6 +279,23 @@ def main() -> int:
         json.dump({"books": books, "works": works}, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
+    # سجلّ التحديثات: من addedAt وrevisedAt/revisionNote، مجمَّعاً بالتاريخ
+    # تنازلياً. المسائل والمقالات معاً؛ الأدلة بلا تواريخ فلا تدخل.
+    days = {}
+    for kind, items in (("issue", ordered), ("article", articles)):
+        for it in items:
+            row = {"kind": kind, "ref": it["ref"], "title": it["title"]}
+            if it.get("addedAt"):
+                days.setdefault(it["addedAt"], {"added": [], "revised": []})["added"].append(row)
+            if it.get("revisedAt"):
+                days.setdefault(it["revisedAt"], {"added": [], "revised": []})["revised"].append(
+                    {**row, "note": it.get("revisionNote")}
+                )
+    changelog = [{"date": dt, **days[dt]} for dt in sorted(days, reverse=True)]
+    with (ROOT / "data" / "changelog.json").open("w", encoding="utf-8") as fh:
+        json.dump({"days": changelog, "totals": {"issues": len(ordered), "articles": len(articles)}}, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
     # مرادفات البحث: تُنسخ كما هي بلا تعليق، فالموقع يحمّلها في كل صفحة.
     syn_src = SRC / "synonyms.json"
     synonyms = {k: v for k, v in load(syn_src).items() if not k.startswith("_")} if syn_src.exists() else {}
