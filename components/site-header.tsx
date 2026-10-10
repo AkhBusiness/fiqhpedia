@@ -53,7 +53,7 @@ export function SiteHeader({
             aria-haspopup="dialog"
             aria-label={ui.browseMode[lang]}
             title={ui.browseMode[lang]}
-            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white"
+            className="flex size-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white"
           >
             <LayoutGrid className="size-4.5" aria-hidden="true" />
           </button>
@@ -65,7 +65,7 @@ export function SiteHeader({
             onClick={onOpenSearch}
             aria-label={ui.globalSearch[lang]}
             title={ui.globalSearch[lang]}
-            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
+            className="flex size-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
           >
             <Search className="size-4.5" aria-hidden="true" />
           </button>
@@ -75,7 +75,7 @@ export function SiteHeader({
             onClick={onThemeToggle}
             aria-label={ui.theme[lang]}
             title={ui.theme[lang]}
-            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
+            className="flex size-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-zinc-400 transition-all duration-200 hover:text-white"
           >
             {theme === "dark" ? (
               <Sun className="size-4.5" aria-hidden="true" />
@@ -142,7 +142,7 @@ function LanguageMenu({
         aria-expanded={open}
         aria-label={ui.language[lang]}
         title={ui.language[lang]}
-        className={`flex h-9 min-w-9 items-center justify-center gap-1.5 rounded-full border bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white sm:px-3 ${
+        className={`flex h-11 min-w-11 items-center justify-center gap-1.5 rounded-full border bg-white/5 text-zinc-400 transition-all duration-200 hover:border-white/25 hover:text-white sm:px-3 ${
           open ? "border-white/25 text-foreground" : "border-white/10"
         }`}
       >

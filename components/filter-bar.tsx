@@ -67,12 +67,12 @@ export function FilterBar({
             onClick={() => onQueryChange("")}
             aria-label={ui.clearSearch[lang]}
             title={ui.clearSearch[lang]}
-            className="absolute inset-y-0 end-2.5 my-auto flex size-7 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-white/10 hover:text-foreground"
+            className="absolute inset-y-0 end-1 my-auto flex size-11 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-white/10 hover:text-foreground"
           >
             <X className="size-4" aria-hidden="true" />
           </button>
         ) : (
-          <span className="pointer-events-none absolute inset-y-0 end-4 my-auto text-xs font-medium tabular-nums text-muted-foreground/70">
+          <span className="pointer-events-none absolute inset-y-0 end-4 my-auto text-xs font-medium tabular-nums text-muted-foreground">
             {resultCount} {ui.searchResults[lang]}
           </span>
         )}
@@ -88,7 +88,7 @@ export function FilterBar({
           type="button"
           onClick={() => onScopeChange("all")}
           aria-pressed={scope === "all"}
-          className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 ${
+          className={`flex items-center gap-1.5 rounded-full min-h-11 px-4 text-sm font-semibold transition-all duration-200 ${
             scope === "all" ? "bg-primary text-primary-foreground shadow-sm" : "text-zinc-400 hover:text-white"
           }`}
         >
@@ -99,7 +99,7 @@ export function FilterBar({
           type="button"
           onClick={() => onScopeChange("saved")}
           aria-pressed={scope === "saved"}
-          className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 ${
+          className={`flex items-center gap-1.5 rounded-full min-h-11 px-4 text-sm font-semibold transition-all duration-200 ${
             scope === "saved" ? "bg-primary text-primary-foreground shadow-sm" : "text-zinc-400 hover:text-white"
           }`}
         >
@@ -136,7 +136,7 @@ export function FilterBar({
               type="button"
               onClick={() => onSearchScopeChange(sc.key)}
               aria-pressed={searchScope === sc.key}
-              className={`max-w-[14rem] truncate rounded-full px-3.5 py-1 text-xs font-semibold transition-all duration-200 ${
+              className={`max-w-[14rem] truncate rounded-full min-h-11 px-3.5 text-[13px] font-semibold transition-all duration-200 ${
                 searchScope === sc.key
                   ? "bg-primary text-primary-foreground shadow-sm"
                   : "text-zinc-400 hover:text-white"

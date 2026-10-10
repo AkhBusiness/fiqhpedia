@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { AppStateProvider } from '@/components/app-state'
@@ -30,7 +29,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
   colorScheme: 'dark light',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
@@ -47,7 +45,6 @@ export default function RootLayout({
     <html lang="ar" dir="rtl" className="dark bg-background">
       <body className="antialiased">
         <AppStateProvider>{children}</AppStateProvider>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )

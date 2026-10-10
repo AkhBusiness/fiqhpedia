@@ -1,6 +1,6 @@
 "use client"
 
-import { type Category, categories, chaptersOf, type Lang } from "@/lib/fiqh-data"
+import { type Category, categories, chaptersOf, type Lang, ui } from "@/lib/fiqh-data"
 
 /** «كل الأبواب» — نصّ واجهة قصير، أبقيه هنا لا في fiqhData حتى لا يتضخّم. */
 const ALL_CHAPTERS: Record<string, string> = {
@@ -46,24 +46,37 @@ export function CategoryTabs({
               const count = counts[cat.id] ?? 0
               return (
                 <li key={cat.id} className="shrink-0 lg:w-full">
+                  {/* A book with nothing in it is still listed — the reader
+                      should see the plan — but it does not open. A tab that
+                      leads to an empty page reads as a broken site, not as
+                      work in progress; "soon" says which it is. */}
                   <button
                     type="button"
-                    onClick={() => onSelect(cat.id)}
+                    onClick={count > 0 ? () => onSelect(cat.id) : undefined}
+                    disabled={count === 0}
+                    aria-disabled={count === 0 || undefined}
+                    title={count === 0 ? ui.comingSoon[lang] : undefined}
                     aria-current={active ? "page" : undefined}
-                    className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm whitespace-nowrap transition-all duration-300 lg:w-full lg:justify-between lg:rounded-xl lg:px-3 lg:py-2 ${
+                    className={`flex min-h-11 items-center gap-1.5 rounded-full px-4 text-sm whitespace-nowrap transition-all duration-300 lg:w-full lg:justify-between lg:rounded-xl lg:px-3 ${
                       active
                         ? "bg-primary font-semibold text-primary-foreground shadow-sm"
-                        : "font-medium text-muted-foreground hover:text-foreground"
+                        : count === 0
+                          ? "cursor-default font-medium text-muted-foreground/50"
+                          : "font-medium text-muted-foreground hover:text-foreground"
                     }`}
                   >
                     <span>{cat.name[lang]}</span>
-                    {count > 0 && (
+                    {count > 0 ? (
                       <span
-                        className={`text-[11px] font-semibold tabular-nums ${
+                        className={`text-[13px] font-semibold tabular-nums ${
                           active ? "text-primary-foreground/60" : "text-muted-foreground"
                         }`}
                       >
                         {count}
+                      </span>
+                    ) : (
+                      <span className="rounded-full bg-white/10 px-1.5 py-0.5 text-[11px] font-bold text-muted-foreground/70">
+                        {ui.comingSoon[lang]}
                       </span>
                     )}
                   </button>
@@ -81,14 +94,14 @@ export function CategoryTabs({
                   type="button"
                   onClick={() => onSelectChapter("")}
                   aria-current={activeChapter === "" ? "true" : undefined}
-                  className={`rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:rounded-lg lg:px-3 lg:py-1.5 lg:text-start ${
+                  className={`min-h-11 rounded-full px-3 text-[13px] whitespace-nowrap transition-colors lg:w-full lg:rounded-lg lg:px-3 lg:text-start ${
                     activeChapter === ""
                       ? "font-semibold text-foreground"
                       : "font-medium text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   {ALL_CHAPTERS[lang]}
-                  <span className="ms-1.5 text-[10px] tabular-nums text-muted-foreground/70">
+                  <span className="ms-1.5 text-[12px] tabular-nums text-muted-foreground/70">
                     {chapters.reduce((n, c) => n + c.count, 0)}
                   </span>
                 </button>
@@ -101,14 +114,14 @@ export function CategoryTabs({
                       type="button"
                       onClick={() => onSelectChapter(on ? "" : ch.key)}
                       aria-current={on ? "true" : undefined}
-                      className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors lg:w-full lg:justify-between lg:rounded-lg lg:px-3 lg:py-1.5 ${
+                      className={`flex min-h-11 items-center gap-1.5 rounded-full px-3 text-[13px] whitespace-nowrap transition-colors lg:w-full lg:justify-between lg:rounded-lg lg:px-3 ${
                         on
                           ? "bg-primary font-semibold text-primary-foreground"
                           : "font-medium text-muted-foreground hover:text-foreground"
                       }`}
                     >
                       <span className="lg:truncate">{ch.name[lang]}</span>
-                      <span className="text-[10px] tabular-nums text-muted-foreground/70">{ch.count}</span>
+                      <span className="text-[12px] tabular-nums text-muted-foreground/70">{ch.count}</span>
                     </button>
                   </li>
                 )

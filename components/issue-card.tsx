@@ -121,7 +121,7 @@ export function IssueCard({
         : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
 
   const actionBtn =
-    "flex size-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-muted-foreground transition-all duration-200 hover:border-white/25 hover:text-foreground"
+    "flex size-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-muted-foreground transition-all duration-200 hover:border-white/25 hover:text-foreground"
 
   return (
     <article
@@ -230,7 +230,7 @@ export function IssueCard({
             aria-pressed={bookmarked}
             aria-label={bookmarked ? ui.bookmarked[lang] : ui.bookmark[lang]}
             title={bookmarked ? ui.bookmarked[lang] : ui.bookmark[lang]}
-            className={`flex size-9 items-center justify-center rounded-full border transition-all duration-200 ${
+            className={`flex size-11 items-center justify-center rounded-full border transition-all duration-200 ${
               bookmarked
                 ? "border-amber-500/40 bg-amber-500/15 text-amber-400"
                 : "border-white/10 bg-white/5 text-muted-foreground hover:border-white/25 hover:text-foreground"
@@ -353,7 +353,7 @@ function ReportLink({ issue, lang }: { issue: Issue; lang: Lang }) {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-xs text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
+        className="inline-flex items-center gap-1.5 min-h-11 rounded-lg px-2.5 text-[13px] text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
       >
         <MessageSquareWarning className="size-3.5" aria-hidden="true" />
         {ui.reportError[lang]}

@@ -49,7 +49,7 @@ export function ViewModeToggle({ lang, value, onChange }: ViewModeToggleProps) {
             onClick={() => onChange(o.key)}
             aria-pressed={active}
             title={o.hint}
-            className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all duration-200 ${
+            className={`flex items-center gap-1.5 rounded-full min-h-11 min-w-11 px-3 text-[13px] font-semibold transition-all duration-200 ${
               active ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
             }`}
           >

@@ -356,7 +356,7 @@ export function AppShell({ lang, section }: AppShellProps) {
                   type="button"
                   onClick={() => setSchoolModalOpen(true)}
                   aria-haspopup="dialog"
-                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-foreground backdrop-blur-md transition-all duration-200 hover:border-white/25 hover:bg-white/10"
+                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 min-h-11 px-4 text-sm font-semibold text-foreground backdrop-blur-md transition-all duration-200 hover:border-white/25 hover:bg-white/10"
                 >
                   <SlidersHorizontal className="size-4 text-muted-foreground" aria-hidden="true" />
                   <span className="text-muted-foreground">{ui.filtering[lang]}:</span>
@@ -375,7 +375,7 @@ export function AppShell({ lang, section }: AppShellProps) {
                     key={h.key}
                     type="button"
                     onClick={() => go(h.go)}
-                    className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
+                    className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 min-h-11 px-3.5 text-[13px] font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
                   >
                     {h.label}
                     <span className="tabular-nums text-muted-foreground">{h.count}</span>
@@ -509,14 +509,14 @@ function SchoolHint({
   onDismiss: () => void
 }) {
   return (
-    <div className="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
+    <section aria-label={ui.schoolHintAction[lang]} className="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
       <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] py-2.5 ps-4 pe-2">
         <Scale className="size-4 shrink-0 text-zinc-400" aria-hidden="true" />
         <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">{ui.schoolHintText[lang]}</p>
         <button
           type="button"
           onClick={onPick}
-          className="shrink-0 rounded-full bg-primary px-3.5 py-1.5 text-xs font-bold text-primary-foreground transition-opacity hover:opacity-90"
+          className="min-h-11 shrink-0 rounded-full bg-primary px-4 text-[13px] font-bold text-primary-foreground transition-opacity hover:opacity-90"
         >
           {ui.schoolHintAction[lang]}
         </button>
@@ -525,11 +525,11 @@ function SchoolHint({
           onClick={onDismiss}
           aria-label={ui.close[lang]}
           title={ui.close[lang]}
-          className="flex size-8 shrink-0 items-center justify-center rounded-full text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
+          className="flex size-11 shrink-0 items-center justify-center rounded-full text-zinc-500 transition-colors hover:bg-white/5 hover:text-foreground"
         >
           <X className="size-4" aria-hidden="true" />
         </button>
       </div>
-    </div>
+    </section>
   )
 }
