@@ -1,6 +1,7 @@
 "use client"
 
-import { type Category, categories, chaptersOf, type Lang, ui } from "@/lib/fiqh-data"
+import { type Category, categories, type Lang, ui } from "@/lib/fiqh-data"
+import { chaptersOf } from "@/lib/fiqh-index"
 
 /** «كل الأبواب» — نصّ واجهة قصير، أبقيه هنا لا في fiqhData حتى لا يتضخّم. */
 const ALL_CHAPTERS: Record<string, string> = {

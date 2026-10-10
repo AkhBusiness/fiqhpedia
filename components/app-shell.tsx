@@ -4,17 +4,13 @@ import { useEffect, useMemo, useState } from "react"
 import { useRouter } from "next/navigation"
 import dynamic from "next/dynamic"
 import Link from "next/link"
-import { ChevronLeft, ChevronRight, Library, RotateCcw, Scale, SlidersHorizontal, X } from "lucide-react"
+import { ChevronLeft, ChevronRight, Scale, X } from "lucide-react"
 import { SiteHeader } from "@/components/site-header"
-import { CategoryTabs } from "@/components/category-tabs"
 import type { ViewMode } from "@/components/issue-card"
-import { IssueRow } from "@/components/issue-row"
 import type { Section } from "@/components/nav-modal"
 import { SectionTabs } from "@/components/section-tabs"
 import type { SchoolFilter } from "@/components/school-selector-modal"
-import { ViewModeToggle } from "@/components/view-mode-toggle"
-import { FilterBar, type ScopeFilter } from "@/components/filter-bar"
-import { categories, type FullArticle, type FullIssue, type Issue, issues, issueMatchesQuery, type Lang, rtlLangs, schools, type TheologyProof, ui, findByRef } from "@/lib/fiqh-data"
+import { type FullArticle, type FullIssue, type Lang, type Localized, rtlLangs, schools, type TheologyProof, ui } from "@/lib/fiqh-data"
 import { entryPath, sectionPath } from "@/lib/site"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { usePreference } from "@/hooks/use-preference"
@@ -31,6 +27,7 @@ import { useAppState } from "@/components/app-state"
 const IssueCard = dynamic(() => import("@/components/issue-card").then((m) => m.IssueCard))
 const ArticleView = dynamic(() => import("@/components/article-view").then((m) => m.ArticleView))
 const ProofView = dynamic(() => import("@/components/proof-view").then((m) => m.ProofView))
+const FiqhSection = dynamic(() => import("@/components/fiqh-section").then((m) => m.FiqhSection))
 const HomeSection = dynamic(() => import("@/components/home-section").then((m) => m.HomeSection))
 const TheologySection = dynamic(() => import("@/components/theology-section").then((m) => m.TheologySection))
 const ArticlesSection = dynamic(() => import("@/components/articles-section").then((m) => m.ArticlesSection))
@@ -44,8 +41,14 @@ const SchoolSelectorModal = dynamic(
 )
 
 /** One entry rendered on its own page, in place of the section's list. */
+/** A neighbour in the chapter: enough for a link, computed at build time. */
+export interface Neighbour {
+  ref: string
+  title: Localized
+}
+
 export type Entry =
-  | { kind: "issue"; issue: FullIssue }
+  | { kind: "issue"; issue: FullIssue; prev: Neighbour | null; next: Neighbour | null }
   | { kind: "article"; article: FullArticle }
   | { kind: "proof"; proof: TheologyProof }
 
@@ -170,99 +173,18 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
     const applyHash = () => {
       const key = window.location.hash.replace("#", "").trim().toUpperCase()
       if (!key) return
-      const found = findByRef(key)
-      if (!found) return
-      router.replace(entryPath(lang, found.kind === "proof" ? found.ref : found.item.ref))
+      // The index is not on this page; fetch it for the one lookup.
+      import("@/lib/fiqh-index").then((m) => {
+        const found = m.findByRef(key)
+        if (!found) return
+        router.replace(entryPath(lang, found.kind === "proof" ? found.ref : found.item.ref))
+      })
     }
     applyHash()
     window.addEventListener("hashchange", applyHash)
     return () => window.removeEventListener("hashchange", applyHash)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
-  const counts = useMemo(() => {
-    const c: Record<string, number> = {}
-    for (const issue of issues) c[issue.categoryId] = (c[issue.categoryId] ?? 0) + 1
-    return c
-  }, [])
-
-  const searching = query.trim().length > 0
-
-  /**
-   * How wide a query reaches. A search used to always escape the open book,
-   * so a reader sitting on Prayer could not ask "only within Prayer" — the
-   * book tabs went inert the moment a letter was typed. The scope is now the
-   * reader's to set: it starts at "all" so nothing is hidden by default, and
-   * narrows on request.
-   */
-
-  // Narrowing to a chapter is meaningless once the reader leaves it.
-  useEffect(() => {
-    if (searchScope === "chapter" && !activeChapter) setSearchScope("book")
-  }, [activeChapter, searchScope])
-
-  const visibleIssues = useMemo(() => {
-    const bookOrder = new Map(categories.map((c, n) => [c.id, n]))
-    const inScope = (i: (typeof issues)[number]) => {
-      if (searchScope === "all") return true
-      if (i.categoryId !== activeCategory) return false
-      return searchScope !== "chapter" || i.chapter?.ar === activeChapter
-    }
-    const base =
-      scope === "saved"
-        ? issues.filter((i) => isBookmarked(i.id))
-        : searching
-          ? issues.filter(inScope)
-          : issues.filter(
-              (i) =>
-                i.categoryId === activeCategory &&
-                (!activeChapter || i.chapter?.ar === activeChapter),
-            )
-    return base
-      .filter((i) => issueMatchesQuery(i, query))
-      .sort(
-        (a, b) =>
-          (bookOrder.get(a.categoryId) ?? 0) - (bookOrder.get(b.categoryId) ?? 0) ||
-          a.number - b.number,
-      )
-  }, [activeCategory, activeChapter, scope, query, searching, searchScope, isBookmarked])
-
-  /**
-   * Matches outside the fiqh tab, so a search is never silently partial.
-   * The other sections' text is not in the shell; it is fetched the first
-   * time the reader types, and the counts fill in when it lands.
-   */
-  const [fullSearch, setFullSearch] = useState<((q: string) => import("@/lib/fiqh-data").SearchResults) | null>(null)
-  useEffect(() => {
-    if (!searching || fullSearch) return
-    let alive = true
-    import("@/lib/fiqh-full").then((m) => {
-      if (alive) setFullSearch(() => m.searchAllFull)
-    })
-    return () => {
-      alive = false
-    }
-  }, [searching, fullSearch])
-  const otherHits = useMemo(() => {
-    if (!searching || !fullSearch) return null
-    const r = fullSearch(query)
-    const items = ([
-      { key: "aqidah", label: ui.aqidahSection[lang], count: r.proofs.length, go: "aqidah" },
-      { key: "articles", label: ui.articlesSection[lang], count: r.articles.length, go: "articles" },
-      { key: "glossary", label: ui.glossarySection[lang], count: r.terms.length, go: "glossary" },
-      { key: "learn", label: ui.learnSection[lang], count: r.faqs.length, go: "learn" },
-    ] satisfies { key: string; label: string; count: number; go: Section }[]).filter(
-      (i) => i.count > 0,
-    )
-    return items.length > 0 ? items : null
-  }, [searching, query, lang, fullSearch])
-
-  const activeCategoryName =
-    scope === "saved"
-      ? ui.savedItems[lang]
-      : searching && searchScope === "all"
-        ? ui.searchAllBooks[lang]
-        : categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""
 
   const visibleSchools = useMemo(() => {
     if (filter.mode === "single") return [filter.school]
@@ -365,124 +287,16 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
           ) : (
             <ProofView proof={entry.proof} lang={lang} />
           )}
-          {entry.kind === "issue" ? <ChapterNav lang={lang} issue={entry.issue} /> : null}
+          {entry.kind === "issue" ? <ChapterNav lang={lang} prev={entry.prev} next={entry.next} /> : null}
         </main>
       ) : section === "fiqh" ? (
-        <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
-          <CategoryTabs
-            lang={lang}
-            activeId={scope === "saved" || (searching && searchScope === "all") ? "" : activeCategory}
-            counts={counts}
-            activeChapter={activeChapter}
-            onSelectChapter={setActiveChapter}
-            onSelect={(id) => {
-              setActiveCategory(id)
-              setActiveChapter("")
-              setScope("all")
-            }}
-          />
-
-          <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8 lg:min-w-0 lg:flex-1 lg:px-0 lg:pt-0">
-            <FilterBar
-              lang={lang}
-              query={query}
-              onQueryChange={setQuery}
-              scope={scope}
-              onScopeChange={setScope}
-              savedCount={savedCount}
-              resultCount={visibleIssues.length}
-              searchScope={searchScope}
-              onSearchScopeChange={setSearchScope}
-              bookName={categories.find((c) => c.id === activeCategory)?.name[lang] ?? ""}
-              chapterName={activeChapter}
-            />
-
-            <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
-              <div>
-                <h2 className="text-xl font-bold text-foreground sm:text-2xl">{activeCategoryName}</h2>
-                <p className="mt-0.5 text-sm text-muted-foreground">
-                  {visibleIssues.length} {ui.issuesCount[lang]}
-                </p>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-2">
-                <ViewModeToggle lang={lang} value={viewMode} onChange={setViewMode} />
-                {filter.mode !== "all" ? (
-                  <button
-                    type="button"
-                    onClick={() => setFilter({ mode: "all" })}
-                    className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs font-semibold text-zinc-400 transition-colors hover:text-white"
-                  >
-                    <RotateCcw className="size-3.5" aria-hidden="true" />
-                    {ui.resetView[lang]}
-                  </button>
-                ) : null}
-                <button
-                  type="button"
-                  onClick={() => setSchoolModalOpen(true)}
-                  aria-haspopup="dialog"
-                  className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 min-h-11 px-4 text-sm font-semibold text-foreground backdrop-blur-md transition-all duration-200 hover:border-white/25 hover:bg-white/10"
-                >
-                  <SlidersHorizontal className="size-4 text-muted-foreground" aria-hidden="true" />
-                  <span className="text-muted-foreground">{ui.filtering[lang]}:</span>
-                  <span className="max-w-[10rem] truncate">{filterLabel}</span>
-                </button>
-              </div>
-            </div>
-
-            {otherHits ? (
-              <div className="mb-6 flex flex-wrap items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 backdrop-blur-md">
-                <span className="text-xs font-semibold text-muted-foreground">
-                  {ui.searchOther[lang]}
-                </span>
-                {otherHits.map((h) => (
-                  <button
-                    key={h.key}
-                    type="button"
-                    onClick={() => go(h.go)}
-                    className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 min-h-11 px-3.5 text-[13px] font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
-                  >
-                    {h.label}
-                    <span className="tabular-nums text-muted-foreground">{h.count}</span>
-                  </button>
-                ))}
-              </div>
-            ) : null}
-
-            {visibleIssues.length > 0 ? (
-              <ul className="flex list-none flex-col gap-3 p-0">
-                {visibleIssues.map((issue) => (
-                  <IssueRow
-                    key={issue.id}
-                    issue={issue}
-                    lang={lang}
-                    bookmarked={isBookmarked(issue.id)}
-                    onToggleBookmark={toggle}
-                  />
-                ))}
-              </ul>
-            ) : (
-              <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-white/10 bg-white/[0.02] px-6 py-20 text-center backdrop-blur-md">
-                <span className="mb-4 flex size-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-muted-foreground">
-                  <Library className="size-7" aria-hidden="true" />
-                </span>
-                <p className="text-pretty text-sm text-muted-foreground">
-                  {scope === "saved" ? ui.noSaved[lang] : query ? ui.noResults[lang] : ui.noIssues[lang]}
-                </p>
-              </div>
-            )}
-          </main>
-        </div>
+        <FiqhSection lang={lang} go={go} filterLabel={filterLabel} onOpenSchoolModal={() => setSchoolModalOpen(true)} />
       ) : (
         <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
           {section === "home" ? (
             <HomeSection
               lang={lang}
               onGo={go}
-              onOpenIssue={(id) => {
-                const target = issues.find((i) => i.id === id)
-                if (target) router.push(entryPath(lang, target.ref))
-              }}
               onSearch={(q) => {
                 setSearchSeed(q)
                 setGlobalSearchOpen(true)
@@ -494,7 +308,6 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
                 setQuery("")
                 go("fiqh")
               }}
-              counts={counts}
             />
           ) : section === "aqidah" ? (
             <TheologySection lang={lang} />
@@ -602,22 +415,14 @@ function SchoolHint({
 /**
  * Previous and next issue within the same chapter, at the foot of the page.
  * A reader who arrived from a search or a shared link has no list to go
- * back to; the chapter is the natural thing to read on through.
+ * back to; the chapter is the natural thing to read on through. The pair is
+ * computed by the page at build time (`chapterNeighbours`), so this page
+ * does not carry the index to find two titles.
  */
-function ChapterNav({ lang, issue }: { lang: Lang; issue: FullIssue }) {
+function ChapterNav({ lang, prev, next }: { lang: Lang; prev: Neighbour | null; next: Neighbour | null }) {
   const isRtl = rtlLangs.includes(lang)
   const Prev = isRtl ? ChevronRight : ChevronLeft
   const Next = isRtl ? ChevronLeft : ChevronRight
-  const siblings = useMemo(
-    () =>
-      issues
-        .filter((i) => i.categoryId === issue.categoryId && (i.chapter?.ar ?? "") === (issue.chapter?.ar ?? ""))
-        .sort((a, b) => a.number - b.number),
-    [issue],
-  )
-  const at = siblings.findIndex((i) => i.id === issue.id)
-  const prev = at > 0 ? siblings[at - 1] : null
-  const next = at >= 0 && at < siblings.length - 1 ? siblings[at + 1] : null
   if (!prev && !next) return null
   const cls =
     "flex min-h-14 min-w-0 flex-1 flex-col gap-0.5 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"

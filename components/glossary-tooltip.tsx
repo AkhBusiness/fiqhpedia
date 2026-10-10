@@ -31,9 +31,19 @@ function useGlossaryLoaded(): boolean {
     if (GLOSSARY.length > 0) return
     const fn = () => setReady(true)
     listeners.add(fn)
-    loadGlossary()
+    // The underlines are an enhancement; the text reads fine without them.
+    // Fetching the glossary (50 KB) the instant the page hydrates put its
+    // parse and a re-render of every ruling inside the first second, where
+    // a tap is most likely to land. Wait for an idle moment instead.
+    const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number; cancelIdleCallback?: (id: number) => void }
+    let idle: number | undefined
+    let timer: ReturnType<typeof setTimeout> | undefined
+    if (w.requestIdleCallback) idle = w.requestIdleCallback(() => loadGlossary(), { timeout: 2500 })
+    else timer = setTimeout(() => loadGlossary(), 1200)
     return () => {
       listeners.delete(fn)
+      if (idle !== undefined && w.cancelIdleCallback) w.cancelIdleCallback(idle)
+      if (timer) clearTimeout(timer)
     }
   }, [])
   return ready

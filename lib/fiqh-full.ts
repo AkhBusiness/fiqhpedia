@@ -16,9 +16,9 @@ import {
   queryTokens,
   type RawIssue,
   type SearchResults,
-  searchIndex,
   toIssue,
 } from "@/lib/fiqh-data"
+import { searchIndex } from "@/lib/fiqh-index"
 import { glossary } from "@/lib/glossary-data"
 import { faqs, guides } from "@/lib/learn-data"
 import { theologyProofs } from "@/lib/theology-data"

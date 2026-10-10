@@ -12,25 +12,21 @@ import {
   isRecentlyAdded,
   type Lang,
   type Localized,
-  recentlyAdded,
   rtlLangs,
   type SchoolKey,
   schools,
   ui,
 } from "@/lib/fiqh-data"
+import { bookCounts, recentlyAdded } from "@/lib/fiqh-index"
 import { entryPath } from "@/lib/site"
 
 interface HomeSectionProps {
   lang: Lang
   onGo: (section: Section) => void
-  /** Jump to a particular issue. */
-  onOpenIssue?: (id: string) => void
   /** Open the site search with this text already typed. */
   onSearch: (query: string) => void
   /** Open the fiqh tab on one book. */
   onOpenBook: (bookId: string) => void
-  /** Published issues per book. */
-  counts: Record<string, number>
 }
 
 interface Featured {
@@ -54,7 +50,8 @@ const featured = (featuredJson as { featured: Featured | null }).featured
  * above all this ("why we ask your country", "this is not a fatwa service")
  * are still here, at the end, where a reader who wants them will look.
  */
-export function HomeSection({ lang, onGo, onOpenIssue, onSearch, onOpenBook, counts }: HomeSectionProps) {
+export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionProps) {
+  const counts = bookCounts()
   const [q, setQ] = useState("")
   const isRtl = rtlLangs.includes(lang)
   const Arrow = isRtl ? ArrowLeft : ArrowRight
@@ -216,12 +213,6 @@ export function HomeSection({ lang, onGo, onOpenIssue, onSearch, onOpenBook, cou
               <li key={i.id}>
                 <Link
                   href={entryPath(lang, i.ref)}
-                  onClick={(e) => {
-                    if (onOpenIssue) {
-                      e.preventDefault()
-                      onOpenIssue(i.id)
-                    }
-                  }}
                   className="flex min-h-12 w-full items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.02] px-4 py-2 text-start transition-colors hover:bg-white/[0.06]"
                 >
                   <span className="min-w-0 flex-1">

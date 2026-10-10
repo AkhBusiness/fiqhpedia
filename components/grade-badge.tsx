@@ -1,12 +1,11 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useState } from "react"
 import { X } from "lucide-react"
 import {
   glossaryAnchor,
   gradeLabels,
   natureLabels,
-  issues,
   type Issue,
   type Lang,
   type RulingGrade,
@@ -16,6 +15,7 @@ import {
   ui,
   type GlossaryTerm,
 } from "@/lib/fiqh-data"
+import { entryPath } from "@/lib/site"
 
 /** Colour by weight: required green, encouraged indigo, discouraged amber. */
 const GRADE_TONE: Record<RulingGrade, string> = {
@@ -118,18 +118,24 @@ function GradePanel({
     (term?.briefDefinition ?? term?.definition)?.[lang] ??
     ""
 
-  const sameGrade = useMemo(
-    () =>
-      grade
-        ? issues.filter(
-            (i) =>
-              i.id !== issue.id &&
-              i.chapter?.ar === issue.chapter?.ar &&
-              i.grades?.[school] === grade,
-          )
-        : [],
-    [grade, school, issue],
-  )
+  // The sister issues come from the index, fetched when the panel opens:
+  // the entry page does not carry the index, and the panel is a click away.
+  const [sameGrade, setSameGrade] = useState<Issue[]>([])
+  useEffect(() => {
+    if (!grade) return
+    let alive = true
+    import("@/lib/fiqh-index").then((m) => {
+      if (!alive) return
+      setSameGrade(
+        m.issues.filter(
+          (i) => i.id !== issue.id && i.chapter?.ar === issue.chapter?.ar && i.grades?.[school] === grade,
+        ),
+      )
+    })
+    return () => {
+      alive = false
+    }
+  }, [grade, school, issue])
 
   const acrossSchools = schools.map((s) => ({
     school: s,
@@ -231,7 +237,7 @@ function GradePanel({
                 {sameGrade.map((i) => (
                   <li key={i.id}>
                     <a
-                      href={`#${i.id}`}
+                      href={entryPath(lang, i.ref)}
                       onClick={onClose}
                       className="block rounded-lg px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-white/5 hover:text-foreground"
                     >

@@ -197,6 +197,20 @@ def main() -> int:
     # تُحمَّل إلا حين تُفتح، فلا تُثقل صفحةَ مسألةٍ لا تعرضها.
     core_src = load(SRC / "core.json")
     ui_part = {k: v for k, v in core_src.items() if k not in ("glossary", "theology", "guides", "faqs")}
+    # نصيب «الجديد» من المسائل يُحسب هنا لا في المتصفّح: الوسم يُكتم إذا شمل
+    # أكثر من نصف الموسوعة، وحسابه في المتصفّح كان يستلزم الفهرس كلّه في كل
+    # صفحة. يُقاس عند البناء، والبناء يجري عند كل دفع.
+    import datetime as _dt
+    today = _dt.date.today()
+    fresh = 0
+    for i in ordered:
+        try:
+            d = _dt.date.fromisoformat(str(i.get("addedAt", ""))[:10])
+        except ValueError:
+            continue
+        if 0 <= (today - d).days < 7:
+            fresh += 1
+    ui_part["newShare"] = round(fresh / len(ordered), 3) if ordered else 0
     for name, part in (
         ("ui.json", ui_part),
         ("glossary.json", {"glossary": core_src.get("glossary", [])}),

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { AppShell } from "@/components/app-shell"
 import { LANGS, type Lang, categories, schools } from "@/lib/fiqh-data"
 import { findIssue, fullIssues } from "@/lib/fiqh-full"
+import { chapterNeighbours } from "@/lib/fiqh-index"
 import { entryUrl, SITE_URL } from "@/lib/site"
 
 /**
@@ -54,5 +55,9 @@ export default async function IssuePage({ params }: { params: Params }) {
   if (!(LANGS as readonly string[]).includes(lang)) notFound()
   const issue = findIssue(ref)
   if (!issue) notFound()
-  return <AppShell lang={lang as Lang} section="fiqh" entry={{ kind: "issue", issue }} />
+  // Previous and next in the chapter, resolved here at build time so the
+  // page ships two titles rather than the index they came from.
+  const { prev, next } = chapterNeighbours(issue)
+  const slim = (i: typeof prev) => (i ? { ref: i.ref, title: i.title } : null)
+  return <AppShell lang={lang as Lang} section="fiqh" entry={{ kind: "issue", issue, prev: slim(prev), next: slim(next) }} />
 }

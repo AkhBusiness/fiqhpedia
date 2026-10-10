@@ -4,7 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import { Clock, ChevronLeft, ChevronRight } from "lucide-react"
 import { readingMinutes } from "@/components/article-view"
-import { articleChapters, articles, type Lang, rtlLangs, ui, displayRef } from "@/lib/fiqh-data"
+import { type Lang, rtlLangs, ui, displayRef } from "@/lib/fiqh-data"
+import { articleChapters, articles } from "@/lib/fiqh-index"
 import { entryPath } from "@/lib/site"
 
 interface ArticlesSectionProps {
