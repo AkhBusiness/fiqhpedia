@@ -19,17 +19,17 @@ import {
 
 /** Colour by weight: required green, encouraged indigo, discouraged amber. */
 const GRADE_TONE: Record<RulingGrade, string> = {
-  fard: "border-emerald-500/30 bg-emerald-500/10 text-emerald-400",
-  wajib: "border-emerald-500/30 bg-emerald-500/10 text-emerald-400",
-  sunnah: "border-indigo-500/30 bg-indigo-500/10 text-indigo-400",
-  mandub: "border-violet-500/30 bg-violet-500/10 text-violet-400",
-  mubah: "border-zinc-500/30 bg-zinc-500/10 text-zinc-400",
-  makruh: "border-amber-500/30 bg-amber-500/10 text-amber-400",
-  haram: "border-rose-500/30 bg-rose-500/10 text-rose-400",
+  fard: "border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400",
+  wajib: "border-emerald-500/30 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400",
+  sunnah: "border-indigo-500/30 bg-indigo-500/10 text-indigo-700 dark:text-indigo-400",
+  mandub: "border-violet-500/30 bg-violet-500/10 text-violet-700 dark:text-violet-400",
+  mubah: "border-zinc-500/30 bg-zinc-500/10 text-zinc-700 dark:text-zinc-400",
+  makruh: "border-amber-500/30 bg-amber-500/10 text-amber-700 dark:text-amber-400",
+  haram: "border-rose-500/30 bg-rose-500/10 text-rose-700 dark:text-rose-400",
 }
 
 /** The structural role is shown quieter: it qualifies, it does not rank. */
-const NATURE_TONE = "border-white/15 bg-white/5 text-zinc-400"
+const NATURE_TONE = "border-white/15 bg-white/5 text-zinc-600 dark:text-zinc-400"
 
 interface GradeBadgeProps {
   /** Absent on questions with no taklīfī grade — timings, measures, definitions. */
@@ -59,17 +59,17 @@ export function GradeBadge({ grade, nature, school, issue, lang }: GradeBadgePro
         type="button"
         onClick={() => setOpen(true)}
         title={ui.gradeWhatIs[lang]}
-        className="flex shrink-0 items-center gap-1 transition-opacity hover:opacity-75"
+        className="-mx-1 -my-2.5 flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-1 px-1 transition-opacity hover:opacity-75"
       >
         {grade ? (
           <span
-            className={`rounded-full border px-2.5 py-0.5 text-[11px] font-bold ${GRADE_TONE[grade]}`}
+            className={`rounded-full border px-2.5 py-0.5 text-[13px] font-bold ${GRADE_TONE[grade]}`}
           >
             {gradeLabels[grade]?.[lang] ?? grade}
           </span>
         ) : null}
         {nature ? (
-          <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${NATURE_TONE}`}>
+          <span className={`rounded-full border px-2 py-0.5 text-[13px] font-semibold ${NATURE_TONE}`}>
             {natureLabels[nature]?.[lang] ?? nature}
           </span>
         ) : null}
@@ -150,14 +150,14 @@ function GradePanel({
         <header className="flex shrink-0 items-center justify-between gap-3 border-b border-white/10 px-5 py-4">
           <div className="flex items-center gap-2">
             <span
-              className={`rounded-full border px-2.5 py-0.5 text-[11px] font-bold ${
+              className={`rounded-full border px-2.5 py-0.5 text-[13px] font-bold ${
                 grade ? GRADE_TONE[grade] : NATURE_TONE
               }`}
             >
               {(grade ? gradeLabels[subject] : natureLabels[subject])?.[lang] ?? subject}
             </span>
             {grade && nature ? (
-              <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${NATURE_TONE}`}>
+              <span className={`rounded-full border px-2 py-0.5 text-[13px] font-semibold ${NATURE_TONE}`}>
                 {natureLabels[nature]?.[lang] ?? nature}
               </span>
             ) : null}
@@ -177,7 +177,7 @@ function GradePanel({
 
         <div className="min-h-0 flex-1 overflow-y-auto px-5 py-4">
           <section className="mb-5">
-            <h4 className="mb-2 text-xs font-bold uppercase tracking-wide text-primary">
+            <h4 className="mb-2 text-[13px] font-bold text-primary">
               {ui.gradeWhatIs[lang]}
             </h4>
             {definition ? (
@@ -191,7 +191,7 @@ function GradePanel({
               <a
                 href={`#${glossaryAnchor(term.id)}`}
                 onClick={onClose}
-                className="mt-2 inline-block text-xs font-semibold text-primary hover:underline"
+                className="mt-2 inline-block text-[13px] font-semibold text-primary hover:underline"
               >
                 {ui.glossaryOpen[lang]}
               </a>
@@ -199,7 +199,7 @@ function GradePanel({
           </section>
 
           <section className="mb-5">
-            <h4 className="mb-2 text-xs font-bold uppercase tracking-wide text-primary">
+            <h4 className="mb-2 text-[13px] font-bold text-primary">
               {ui.gradeAcrossSchools[lang]}
             </h4>
             <ul className="flex flex-col gap-1.5">
@@ -210,12 +210,12 @@ function GradePanel({
                   </span>
                   {g ? (
                     <span
-                      className={`rounded-full border px-2 py-0.5 text-[11px] font-bold ${GRADE_TONE[g]}`}
+                      className={`rounded-full border px-2 py-0.5 text-[13px] font-bold ${GRADE_TONE[g]}`}
                     >
                       {gradeLabels[g]?.[lang] ?? g}
                     </span>
                   ) : (
-                    <span className="text-xs text-muted-foreground/50">—</span>
+                    <span className="text-[13px] text-muted-foreground/50">—</span>
                   )}
                 </li>
               ))}
@@ -224,7 +224,7 @@ function GradePanel({
 
           {sameGrade.length > 0 ? (
             <section>
-              <h4 className="mb-2 text-xs font-bold uppercase tracking-wide text-primary">
+              <h4 className="mb-2 text-[13px] font-bold text-primary">
                 {ui.gradeSameInChapter[lang]}
               </h4>
               <ul className="flex flex-col gap-1">

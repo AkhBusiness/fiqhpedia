@@ -126,122 +126,103 @@ export function IssueCard({
         : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
 
   const actionBtn =
-    "flex size-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-muted-foreground transition-all duration-200 hover:border-white/25 hover:text-foreground"
+    "inline-flex min-h-11 items-center justify-center gap-1 rounded-full border border-white/10 bg-white/5 px-1.5 text-[13px] font-semibold text-muted-foreground sm:gap-1.5 sm:px-3.5 transition-all duration-200 hover:border-white/25 hover:text-foreground"
 
   return (
     <article
       id={issue.ref}
       className="scroll-mt-40 overflow-hidden rounded-2xl border border-white/10 bg-card backdrop-blur-md"
     >
-      <div className="flex items-start gap-3 border-b border-white/10 p-4 sm:p-5">
-        <span className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-sm font-bold text-foreground">
-          {issue.number}
-        </span>
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-              {ui.issue[lang]} {issue.number}
+      <div className="border-b border-white/10 p-4 sm:p-5">
+        <div className="flex flex-wrap items-center gap-2">
+          <span
+            className="rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[13px] font-bold text-muted-foreground"
+            title={ui.refHint[lang]}
+          >
+            {displayRef(issue.ref, lang)}
+          </span>
+          {issue.chapter ? (
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[13px] font-semibold text-foreground/80">
+              {issue.chapter[lang]}
             </span>
+          ) : null}
+          {isRecentlyAdded(issue.addedAt) ? (
             <span
-              className="rounded-md border border-white/10 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[10px] font-bold text-muted-foreground"
-              title={ui.refHint[lang]}
+              title={ui.newTagTitle[lang]}
+              /* Solid green, not an outline: the grade badges are all
+                 outlined chips, and farḍ is green among them — an outlined
+                 green "new" sat beside an outlined green "farḍ" and read
+                 as another grade. Filling it makes it a different kind of
+                 thing at a glance. */
+              className="rounded-md bg-emerald-500 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
             >
-              {displayRef(issue.ref, lang)}
+              {ui.newTag[lang]}
             </span>
-            {issue.chapter ? (
-              <span className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[11px] font-semibold text-foreground/80">
-                {issue.chapter[lang]}
-              </span>
-            ) : null}
-            {isRecentlyAdded(issue.addedAt) ? (
-              <span
-                title={ui.newTagTitle[lang]}
-                /* Solid green, not an outline: the grade badges are all
-                   outlined chips, and farḍ is green among them — an outlined
-                   green "new" sat beside an outlined green "farḍ" and read
-                   as another grade. Filling it makes it a different kind of
-                   thing at a glance. */
-                className="rounded-md bg-emerald-500 px-2 py-0.5 text-[11px] font-bold text-white shadow-sm dark:bg-emerald-500 dark:text-emerald-950"
-              >
-                {ui.newTag[lang]}
-              </span>
-            ) : null}
-            {isRecentlyRevised(issue.revisedAt, issue.addedAt) ? (
-              <span
-                /* The note, not the generic string, is the point: "revised" on
-                   a ruling is read as the ruling having changed, and most
-                   revisions are wording. Amber and filled — filled to sit in
-                   the same family as the green "new" rather than among the
-                   outlined grade chips, amber to not be mistaken for it. */
-                title={issue.revisionNote?.[lang] ?? ui.revisedTagTitle[lang]}
-                className="rounded-md bg-amber-500 px-2 py-0.5 text-[11px] font-bold text-white shadow-sm dark:bg-amber-400 dark:text-amber-950"
-              >
-                {ui.revisedTag[lang]}
-              </span>
-            ) : null}
-          </div>
-          <h3 className="mt-1 text-balance text-base font-bold leading-snug text-foreground sm:text-lg">
-            {issue.title[lang]}
-          </h3>
-          {!simplified ? (
-            <p className="mt-1 text-pretty text-sm leading-relaxed text-muted-foreground">
-              <GlossaryText text={issue.summary[lang]} lang={lang} />
-            </p>
+          ) : null}
+          {isRecentlyRevised(issue.revisedAt, issue.addedAt) ? (
+            <span
+              /* The note, not the generic string, is the point: "revised" on
+                 a ruling is read as the ruling having changed, and most
+                 revisions are wording. Amber and filled — filled to sit in
+                 the same family as the green "new" rather than among the
+                 outlined grade chips, amber to not be mistaken for it. */
+              title={issue.revisionNote?.[lang] ?? ui.revisedTagTitle[lang]}
+              className="rounded-md bg-amber-500 px-2 py-0.5 text-[13px] font-bold text-white shadow-sm dark:bg-amber-400 dark:text-amber-950"
+            >
+              {ui.revisedTag[lang]}
+            </span>
           ) : null}
         </div>
 
-        {/* Utility actions */}
-        <div className="flex shrink-0 items-center gap-1">
-          <button
-            type="button"
-            onClick={handleCopy}
-            aria-label={copied ? ui.copied[lang] : ui.copyCitation[lang]}
-            title={copied ? ui.copied[lang] : ui.copyCitation[lang]}
-            className={actionBtn}
-          >
+        {/* The title takes the whole width. It used to share its row with
+            four round buttons, which on a phone left it a third of the
+            screen and three lines tall. */}
+        <h2 className="mt-2 text-balance text-xl font-bold leading-snug text-foreground sm:text-2xl">
+          {issue.title[lang]}
+        </h2>
+        {!simplified ? (
+          <p className="mt-2 text-pretty text-[15px] leading-[1.6] text-muted-foreground">
+            <GlossaryText text={issue.summary[lang]} lang={lang} />
+          </p>
+        ) : null}
+
+        {/* Labelled, not icon-only: a reader should not have to guess what
+            a speaker glyph does to a fiqh ruling. */}
+        <div className="mt-4 grid grid-cols-2 gap-1.5 min-[480px]:grid-cols-4 sm:flex sm:flex-wrap sm:gap-2">
+          <button type="button" onClick={handleCopy} aria-live="polite" className={actionBtn}>
             {copied ? (
               <Check className="size-4 text-emerald-400" aria-hidden="true" />
             ) : (
               <Copy className="size-4" aria-hidden="true" />
             )}
+            {copied ? ui.copied[lang] : ui.copyShort[lang]}
           </button>
-          {onShare ? (
-            <button
-              type="button"
-              onClick={() => onShare(issue)}
-              aria-label={ui.share[lang]}
-              title={ui.share[lang]}
-              className={actionBtn}
-            >
-              <Share2 className="size-4" aria-hidden="true" />
-            </button>
-          ) : null}
-          <button
-            type="button"
-            onClick={handleListen}
-            aria-label={speaking ? ui.stopListen[lang] : ui.listen[lang]}
-            title={speaking ? ui.stopListen[lang] : ui.listen[lang]}
-            className={actionBtn}
-          >
+          <button type="button" onClick={handleListen} className={actionBtn}>
             {speaking ? (
               <Pause className="size-4 text-cyan-400" aria-hidden="true" />
             ) : (
               <Volume2 className="size-4" aria-hidden="true" />
             )}
+            {speaking ? ui.stopListen[lang] : ui.listen[lang]}
           </button>
+          {onShare ? (
+            <button type="button" onClick={() => onShare(issue)} className={actionBtn}>
+              <Share2 className="size-4" aria-hidden="true" />
+              {ui.share[lang]}
+            </button>
+          ) : null}
           <button
             type="button"
             onClick={() => onToggleBookmark(issue.id)}
             aria-pressed={bookmarked}
-            aria-label={bookmarked ? ui.bookmarked[lang] : ui.bookmark[lang]}
-            title={bookmarked ? ui.bookmarked[lang] : ui.bookmark[lang]}
-            className={`flex size-11 items-center justify-center rounded-full border transition-all duration-200 ${
+            className={`inline-flex min-h-11 items-center justify-center gap-1 rounded-full border px-1.5 text-[13px] font-semibold transition-all duration-200 sm:gap-1.5 sm:px-3.5 ${
               bookmarked
-                ? "border-amber-500/40 bg-amber-500/15 text-amber-400"
+                ? "border-amber-500/40 bg-amber-500/15 text-amber-500"
                 : "border-white/10 bg-white/5 text-muted-foreground hover:border-white/25 hover:text-foreground"
             }`}
           >
             <Bookmark className={`size-4 ${bookmarked ? "fill-current" : ""}`} aria-hidden="true" />
+            {bookmarked ? ui.bookmarked[lang] : ui.bookmark[lang]}
           </button>
         </div>
       </div>
@@ -252,10 +233,10 @@ export function IssueCard({
           <div className="flex items-start gap-2.5 rounded-xl border border-amber-500/25 bg-amber-500/[0.07] p-3">
             <Lightbulb className="mt-0.5 size-4 shrink-0 text-amber-400" aria-hidden="true" />
             <div className="min-w-0">
-              <span className="block text-[10px] font-bold uppercase tracking-wide text-amber-400/90">
+              <span className="block text-[13px] font-bold text-amber-400/90">
                 {ui.essentialTakeaway[lang]}
               </span>
-              <p className="mt-0.5 text-pretty text-sm leading-relaxed text-foreground/90">
+              <p className="mt-0.5 text-pretty text-[15px] leading-[1.6] text-foreground/90">
                 <GlossaryText text={issue.summary[lang]} lang={lang} />
               </p>
             </div>
@@ -269,19 +250,19 @@ export function IssueCard({
           return (
             <div
               key={school.key}
-              className={`flex flex-col rounded-xl border ${school.color.border} bg-white/[0.02] p-4 backdrop-blur-sm transition-all duration-300 ${school.color.ring} ${school.color.glow}`}
+              className={`flex flex-col rounded-xl border ${school.color.border} bg-white/[0.02] p-3.5 transition-all duration-300 ${school.color.ring} ${school.color.glow}`}
             >
               {/* Sticky column header (synchronized across split columns) */}
               <div
                 className={`mb-3 flex items-center gap-2 ${
                   isSplit
-                    ? "sticky top-[118px] z-10 -mx-4 -mt-4 rounded-t-xl bg-popover/90 px-4 py-2.5 backdrop-blur-md"
+                    ? "sticky top-[118px] z-10 -mx-3.5 -mt-3.5 rounded-t-xl bg-popover/90 px-3.5 py-2.5 backdrop-blur-md"
                     : ""
                 }`}
               >
                 <span className={`size-2.5 rounded-full ${school.color.dot}`} aria-hidden="true" />
                 <span
-                  className={`rounded-md px-2 py-0.5 text-xs font-bold ${school.color.badgeBg} ${school.color.badgeText}`}
+                  className={`rounded-md px-2 py-0.5 text-[13px] font-bold ${school.color.badgeBg} ${school.color.badgeText}`}
                 >
                   {school.name[lang]}
                 </span>
@@ -291,19 +272,17 @@ export function IssueCard({
                 <GradeBadge grade={r.grade} nature={r.nature} school={school.key} issue={issue} lang={lang} />
               </div>
 
-              <p className="flex-1 text-pretty text-sm leading-relaxed text-foreground/90">
+              <p className="flex-1 text-pretty text-base leading-[1.6] text-foreground/90">
                 <GlossaryText text={r.ruling[lang]} lang={lang} />
               </p>
 
               {/* Classical citation — academic mode only */}
               {!simplified && r.references.length > 0 ? (
-                <div className="mt-3 flex items-start gap-1.5 border-t border-white/10 pt-3">
+                <div className="mt-3 flex items-start gap-1.5 border-t border-white/10 pt-2.5">
                   <BookMarked className={`mt-0.5 size-3.5 shrink-0 ${school.color.text}`} aria-hidden="true" />
                   <div className="min-w-0">
-                    <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">
-                      {ui.reference[lang]}
-                    </span>
-                    <span className="text-xs leading-snug text-muted-foreground">
+                    <span className="text-[13px] leading-normal text-muted-foreground">
+                      <span className="font-semibold">{ui.reference[lang]}: </span>
                       {r.references.map((ref) => ref[lang]).join(" — ")}
                     </span>
                   </div>

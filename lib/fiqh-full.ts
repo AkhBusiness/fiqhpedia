@@ -12,7 +12,8 @@ import {
   type FullArticle,
   type FullIssue,
   langParts,
-  matches,
+  matchScore,
+  queryTokens,
   type RawIssue,
   type SearchResults,
   searchIndex,
@@ -37,24 +38,34 @@ export function findArticle(ref: string): FullArticle | undefined {
   return fullArticles.find((a) => a.ref === key)
 }
 
-/** Search every section at once, bodies included. */
-export function searchAllFull(query: string): SearchResults {
+/**
+ * Search every section at once, bodies included. With `any`, pages that
+ * hold only some of the words are returned too, best first — the near
+ * results offered when nothing holds them all.
+ */
+export function searchAllFull(query: string, any = false): SearchResults {
   const q = query.trim()
-  if (!q) return { issues: [], proofs: [], articles: [], terms: [], faqs: [], guides: [] }
-  const { issues, articles } = searchIndex(q, { issues: fullIssues, articles: fullArticles as Article[] })
+  const empty = { issues: [], proofs: [], articles: [], terms: [], faqs: [], guides: [] }
+  if (!q) return empty
+  const groups = queryTokens(q)
+  if (!groups.length) return empty
+  const { issues, articles } = searchIndex(q, { issues: fullIssues, articles: fullArticles as Article[] }, any)
+  const rank = <T,>(pool: T[], hay: (x: T) => string): T[] =>
+    pool
+      .map((x) => [x, matchScore(hay(x), groups, any)] as const)
+      .filter(([, n]) => n > 0)
+      .sort((a, b) => b[1] - a[1])
+      .map(([x]) => x)
   return {
     issues,
     articles,
-    proofs: theologyProofs.filter((p) => matches([p.ref, ...langParts([p.title, p.tagline, p.conclusion])].join(" "), q)),
-    terms: glossary.filter((t) =>
-      matches(
-        langParts([t.term, t.definition, t.linguistic, t.legal, ...Object.values(t.technical ?? {}).map((s) => s?.text)]).join(" "),
-        q,
-      ),
+    proofs: rank(theologyProofs, (p) => [p.ref, ...langParts([p.title, p.tagline, p.conclusion])].join(" ")),
+    terms: rank(glossary, (t) =>
+      langParts([t.term, t.definition, t.linguistic, t.legal, ...Object.values(t.technical ?? {}).map((s) => s?.text)]).join(" "),
     ),
-    faqs: faqs.filter((f) => matches(langParts([f.question, f.answer]).join(" "), q)),
-    guides: guides.filter((g) =>
-      matches([...langParts([g.title, g.intro]), ...g.steps.flatMap((st) => langParts([st.title, st.text]))].join(" "), q),
+    faqs: rank(faqs, (f) => langParts([f.question, f.answer]).join(" ")),
+    guides: rank(guides, (g) =>
+      [...langParts([g.title, g.intro]), ...g.steps.flatMap((st) => langParts([st.title, st.text]))].join(" "),
     ),
   }
 }

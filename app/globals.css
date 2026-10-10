@@ -4,7 +4,33 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*
+ * IBM Plex Sans Arabic, subset to Arabic + basic Latin, served from this
+ * origin: no third-party request, nothing to block on. Chosen over the
+ * system stack because that stack is a different Arabic face on every
+ * phone — the same ruling set wider on one and tighter on another — and
+ * this one reads like a page of a book. Latin-script pages fall through to
+ * the system face by design; Plex Arabic carries only what it is named for.
+ */
+@font-face {
+  font-family: "Plex Arabic";
+  src: url("/fonts/IBMPlexSansArabic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+  unicode-range: U+0600-06FF, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}
+@font-face {
+  font-family: "Plex Arabic";
+  src: url("/fonts/IBMPlexSansArabic-Bold.woff2") format("woff2");
+  font-weight: 600 800;
+  font-style: normal;
+  font-display: optional;
+  unicode-range: U+0600-06FF, U+FD3E-FD3F, U+FDFA, U+FDFD;
+}
+
 @theme inline {
+  --font-sans: "Plex Arabic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans Arabic", sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);

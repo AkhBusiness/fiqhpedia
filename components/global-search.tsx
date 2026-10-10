@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react"
 import { Search, X } from "lucide-react"
-import { glossaryAnchor, type Lang, type SearchResults, ui } from "@/lib/fiqh-data"
+import { categories, glossaryAnchor, type Lang, type SearchResults, ui } from "@/lib/fiqh-data"
 import { entryPath } from "@/lib/site"
 import type { Section } from "@/components/nav-modal"
 
@@ -16,6 +16,8 @@ interface GlobalSearchProps {
   onOpenEntry: (href: string) => void
   /** Text to start with — what the reader typed into the home page box. */
   initialQuery?: string
+  /** Open the fiqh tab on one book — offered when a search finds nothing. */
+  onOpenBook?: (bookId: string) => void
 }
 
 /** One line in the results list. */
@@ -39,7 +41,7 @@ interface Hit {
  * this at all", and so reaches creed, articles, glossary, guides and
  * questions as well.
  */
-export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, initialQuery = "" }: GlobalSearchProps) {
+export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, initialQuery = "", onOpenBook }: GlobalSearchProps) {
   const [query, setQuery] = useState("")
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -70,7 +72,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
   // The bodies — rulings and article text — are not in the index every page
   // carries. They arrive the first time the search opens, so a phrase the
   // reader remembers from inside a ruling still finds it.
-  const [full, setFull] = useState<((q: string) => SearchResults) | null>(null)
+  const [full, setFull] = useState<((q: string, any?: boolean) => SearchResults) | null>(null)
   useEffect(() => {
     if (!open || full) return
     let alive = true
@@ -82,10 +84,17 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
     }
   }, [open, full])
 
-  const hits = useMemo<Hit[]>(() => {
-    if (query.trim().length < 2) return []
-    if (!full) return []
-    const r = full(query)
+  // Exact first: every word (or a synonym of it) on the page. When that
+  // finds nothing, the pages holding most of the words, labelled as such —
+  // a reader who typed five words and got "no results" rarely tries again.
+  const { hits, near } = useMemo<{ hits: Hit[]; near: boolean }>(() => {
+    if (query.trim().length < 2 || !full) return { hits: [], near: false }
+    let r = full(query)
+    let near = false
+    if (!r.issues.length && !r.articles.length && !r.proofs.length && !r.terms.length && !r.faqs.length && !r.guides.length) {
+      r = full(query, true)
+      near = true
+    }
     const out: Hit[] = []
     for (const i of r.issues.slice(0, 8)) {
       out.push({
@@ -146,7 +155,7 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
         subtitle: f.category[lang],
       })
     }
-    return out
+    return { hits: out, near }
   }, [query, lang, full])
 
   if (!open) return null
@@ -177,13 +186,13 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
             onChange={(e) => setQuery(e.target.value)}
             placeholder={ui.globalSearchPlaceholder[lang]}
             aria-label={ui.globalSearchPlaceholder[lang]}
-            className="h-14 w-full bg-transparent ps-11 pe-12 text-base text-foreground placeholder:text-muted-foreground/70 focus:outline-none"
+            className="h-14 w-full bg-transparent ps-11 pe-14 text-base text-foreground placeholder:text-muted-foreground/70 focus:outline-none [&::-webkit-search-cancel-button]:appearance-none"
           />
           <button
             type="button"
             onClick={onClose}
             aria-label={ui.close[lang]}
-            className="absolute inset-y-0 end-3 my-auto flex size-8 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-white/10 hover:text-foreground"
+            className="absolute inset-y-0 end-1.5 my-auto flex size-11 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-white/10 hover:text-foreground"
           >
             <X className="size-4" aria-hidden="true" />
           </button>
@@ -193,13 +202,39 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
           {!typing ? (
             <p className="p-6 text-sm text-muted-foreground">{ui.globalSearchHint[lang]}</p>
           ) : hits.length === 0 ? (
-            <p className="p-6 text-sm text-muted-foreground">{ui.noResults[lang]}</p>
+            <div className="p-6">
+              <p className="text-[15px] font-semibold text-foreground">{ui.noResults[lang]}</p>
+              <p className="mt-1 text-sm text-muted-foreground">{ui.noResultsTips[lang]}</p>
+              {onOpenBook ? (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {categories.map((c) => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      onClick={() => {
+                        onOpenBook(c.id)
+                        onClose()
+                      }}
+                      className="min-h-11 rounded-full border border-white/10 bg-white/5 px-4 text-[13px] font-semibold text-foreground transition-colors hover:border-white/25 hover:bg-white/10"
+                    >
+                      {c.name[lang]}
+                    </button>
+                  ))}
+                </div>
+              ) : null}
+            </div>
           ) : (
             <ul className="divide-y divide-white/5">
+              {near ? (
+                <li className="px-5 py-2.5 text-[13px] text-muted-foreground" aria-live="polite">
+                  {ui.nearResults[lang]}
+                </li>
+              ) : null}
               {hits.map((h) => (
                 <li key={h.key}>
                   <button
                     type="button"
+                    data-ref={h.href?.split("/").pop()}
                     onClick={() => {
                       if (h.href) onOpenEntry(h.href)
                       else onNavigate(h.section, h.anchor)
@@ -207,12 +242,12 @@ export function GlobalSearch({ lang, open, onClose, onNavigate, onOpenEntry, ini
                     }}
                     className="flex w-full flex-col gap-1 px-5 py-3 text-start transition-colors hover:bg-white/[0.06]"
                   >
-                    <span className="text-[11px] font-bold uppercase tracking-wide text-primary">
+                    <span className="text-[13px] font-bold text-primary">
                       {h.sectionLabel}
                     </span>
-                    <span className="text-sm font-semibold text-foreground">{h.title}</span>
+                    <span className="text-[15px] font-semibold text-foreground">{h.title}</span>
                     {h.subtitle ? (
-                      <span className="line-clamp-2 text-xs text-muted-foreground">
+                      <span className="line-clamp-2 text-[13px] text-muted-foreground">
                         {h.subtitle}
                       </span>
                     ) : null}

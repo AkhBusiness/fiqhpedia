@@ -25,7 +25,7 @@ export function SiteHeader({
 }: SiteHeaderProps) {
   return (
     <header className="sticky top-0 z-30 border-y border-white/10 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3.5 sm:px-6 lg:py-5">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-3.5 sm:gap-3 sm:px-6 lg:py-5">
         <div className="flex min-w-0 items-center gap-3">
           <span className="flex size-10 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-foreground">
             <BookOpen className="size-5" aria-hidden="true" />
@@ -37,12 +37,12 @@ export function SiteHeader({
               </h1>
               <span
                 title={ui.betaNote[lang]}
-                className="shrink-0 rounded-full border border-amber-500/40 bg-amber-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-amber-500 max-[359px]:hidden"
+                className="shrink-0 rounded-full border border-amber-500/40 bg-amber-500/15 px-2 py-0.5 text-[13px] font-bold text-amber-500 max-sm:hidden"
               >
                 {ui.betaTag[lang]}
               </span>
             </div>
-            <p className="hidden truncate text-xs text-muted-foreground sm:block">{ui.appSubtitle[lang]}</p>
+            <p className="hidden truncate text-[13px] text-muted-foreground sm:block">{ui.appSubtitle[lang]}</p>
           </div>
         </div>
 

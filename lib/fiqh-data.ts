@@ -12,6 +12,7 @@
 
 import uiData from "@/data/ui.json"
 import indexData from "@/data/fiqhIndex.json"
+import synonymsData from "@/data/synonyms.json"
 /*
  * Two files, by weight. `core.json` is the shared material every page needs
  * (interface strings, schools, books, glossary, proofs, guides). The index is
@@ -426,37 +427,37 @@ const data = { ...(uiData as unknown as RawData), issues: indexData.issues, arti
 
 const SCHOOL_COLORS: Record<SchoolKey, School["color"]> = {
   hanafi: {
-    text: "text-amber-500",
+    text: "text-amber-800 dark:text-amber-500",
     border: "border-amber-500/40",
     badgeBg: "bg-amber-500/15",
-    badgeText: "text-amber-500",
+    badgeText: "text-amber-800 dark:text-amber-500",
     dot: "bg-amber-500",
     ring: "hover:border-amber-500/70",
     glow: "hover:shadow-[0_0_24px_-6px] hover:shadow-amber-500/40",
   },
   maliki: {
-    text: "text-emerald-500",
+    text: "text-emerald-800 dark:text-emerald-500",
     border: "border-emerald-500/40",
     badgeBg: "bg-emerald-500/15",
-    badgeText: "text-emerald-500",
+    badgeText: "text-emerald-800 dark:text-emerald-500",
     dot: "bg-emerald-500",
     ring: "hover:border-emerald-500/70",
     glow: "hover:shadow-[0_0_24px_-6px] hover:shadow-emerald-500/40",
   },
   shafii: {
-    text: "text-blue-500",
+    text: "text-blue-700 dark:text-blue-500",
     border: "border-blue-500/40",
     badgeBg: "bg-blue-500/15",
-    badgeText: "text-blue-500",
+    badgeText: "text-blue-700 dark:text-blue-500",
     dot: "bg-blue-500",
     ring: "hover:border-blue-500/70",
     glow: "hover:shadow-[0_0_24px_-6px] hover:shadow-blue-500/40",
   },
   hanbali: {
-    text: "text-cyan-500",
+    text: "text-cyan-800 dark:text-cyan-500",
     border: "border-cyan-500/40",
     badgeBg: "bg-cyan-500/15",
-    badgeText: "text-cyan-500",
+    badgeText: "text-cyan-800 dark:text-cyan-500",
     dot: "bg-cyan-500",
     ring: "hover:border-cyan-500/70",
     glow: "hover:shadow-[0_0_24px_-6px] hover:shadow-cyan-500/40",
@@ -841,45 +842,204 @@ export function normalizeSearch(s: string): string {
     .trim()
 }
 
-/** Concatenated searchable text for one issue across every language. */
-function buildHaystack(issue: Issue): string {
+/* ------------------------------------------------------------------ */
+/* Search: tokens, stems, synonyms, scoring                            */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Words a query carries that no page is about. Dropped before matching,
+ * unless the whole query is made of them. "حكم" is here on purpose: it
+ * opens nearly every title, so it never narrows anything.
+ */
+const STOPWORDS = new Set(
+  (
+    "في على من عن الى و او هل ما ماذا اني انا انه انها هو هي ثم لو اذا مع بعد قبل كل عند حكم يجوز جائز " +
+    "ممكن اقدر يصح يصير لازم لي لك له لها بس كذا هذا هذه ذلك التي الذي ان قد لا ليس مو ايش وش ليش شو " +
+    "the a an is are of in on for to with what how when can i my does do it be at by or and if not " +
+    "и в на с что ли у к о по за из не это " +
+    "y el la de en es que un una los las al del se no " +
+    "і в на з що як у до не це"
+  ).split(" "),
+)
+
+const AR_PREFIXES = ["وبال", "فبال", "وال", "بال", "كال", "فال", "ولل", "لل", "ال", "و", "ف", "ب", "ل", "ك"]
+const AR_SUFFIXES = ["هما", "كما", "ات", "ان", "ين", "ون", "ها", "هم", "هن", "كم", "كن", "نا", "ية", "يه", "تي", "تك", "ته", "ه", "ك", "ي", "ا", "ت"]
+const CYR_SUFFIXES = ["ами", "ями", "ого", "его", "ому", "ему", "ыми", "ими", "ой", "ей", "ом", "ем", "ах", "ях", "ов", "ев", "ие", "ия", "ию", "ии", "ые", "ые", "а", "я", "ы", "и", "у", "ю", "е", "о"]
+const LAT_SUFFIXES = ["ing", "ed", "es", "s"]
+
+/**
+ * A light stem for matching, not for linguistics: strip one clitic prefix
+ * and one or two suffixes so "خطيبتي" and "صليت" and "الجوارب" meet
+ * their dictionary forms. Collisions are harmless — the stem is only
+ * compared with stems built the same way from the page text, and the
+ * plain substring match still runs first.
+ */
+export function stem(token: string): string {
+  let t = token
+  if (/^[\u0621-\u064A]+$/.test(t)) {
+    for (const p of AR_PREFIXES) {
+      if (t.startsWith(p) && t.length - p.length >= 3) {
+        t = t.slice(p.length)
+        break
+      }
+    }
+    for (let pass = 0; pass < 2; pass++) {
+      for (const sfx of AR_SUFFIXES) {
+        if (t.endsWith(sfx) && t.length - sfx.length >= 3) {
+          t = t.slice(0, -sfx.length)
+          break
+        }
+      }
+    }
+    // Imperfect-verb letters: ينقض / تنقض / نفطر → نقض / فطر.
+    if (/^[يتن]/.test(t) && t.length >= 4) t = t.slice(1)
+    return t
+  }
+  if (/[\u0400-\u04FF]/.test(t)) {
+    for (const sfx of CYR_SUFFIXES) {
+      if (t.endsWith(sfx) && t.length - sfx.length >= 4) return t.slice(0, -sfx.length)
+    }
+    return t
+  }
+  for (const sfx of LAT_SUFFIXES) {
+    if (t.endsWith(sfx) && t.length - sfx.length >= 4) return t.slice(0, -sfx.length)
+  }
+  return t
+}
+
+const SYNONYMS: Record<string, string[]> = (() => {
+  const out: Record<string, string[]> = {}
+  for (const [k, v] of Object.entries(synonymsData as Record<string, string[]>)) {
+    const key = stem(normalizeSearch(k))
+    out[key] = [...(out[key] ?? []), ...v.map(normalizeSearch)]
+  }
+  return out
+})()
+
+/** One query word and every form it may take on a page. */
+export interface TokenGroup {
+  forms: string[]
+  stems: string[]
+}
+
+/**
+ * Split a query into groups: each word plus its synonyms. A group matches
+ * when any of its forms occurs, and a page matches when every group does.
+ */
+export function queryTokens(query: string): TokenGroup[] {
+  const words = normalizeSearch(query).split(" ").filter(Boolean)
+  const kept = words.filter((w) => !STOPWORDS.has(w))
+  return (kept.length ? kept : words).map((w) => {
+    const st = stem(w)
+    const forms = [w, ...(SYNONYMS[st] ?? [])]
+    return { forms, stems: forms.map(stem) }
+  })
+}
+
+interface Field {
+  text: string
+  stems: Set<string>
+}
+function toField(parts: string[]): Field {
+  const text = normalizeSearch(parts.join(" \u0000 "))
+  return { text, stems: new Set(text.split(" ").map(stem)) }
+}
+function fieldHas(f: Field, g: TokenGroup): boolean {
+  for (const form of g.forms) if (f.text.includes(form)) return true
+  for (const st of g.stems) if (f.stems.has(st)) return true
+  return false
+}
+
+/** Title · chapter and book · summary · the rulings, weighted in that order. */
+interface IssueFields {
+  title: Field
+  meta: Field
+  summary: Field
+  body: Field
+}
+function buildFields(issue: Issue): IssueFields {
   const book = categories.find((c) => c.id === issue.categoryId)
-  const parts: string[] = [issue.ref]
+  const title: string[] = [issue.ref]
+  const meta: string[] = []
+  const summary: string[] = []
+  const body: string[] = []
   for (const l of LANGS) {
-    parts.push(issue.title[l], issue.summary[l])
-    if (issue.chapter) parts.push(issue.chapter[l])
-    if (book) parts.push(book.name[l])
+    title.push(issue.title[l])
+    summary.push(issue.summary[l])
+    if (issue.chapter) meta.push(issue.chapter[l])
+    if (book) meta.push(book.name[l])
     if (issue.rulings) {
       for (const s of schools) {
         const r = issue.rulings[s.key]
-        if (r) parts.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
+        if (r) body.push(s.name[l], r.ruling[l], ...r.references.map((ref) => ref[l]))
       }
     }
   }
-  return normalizeSearch(parts.join(" \u0000 "))
+  return { title: toField(title), meta: toField(meta), summary: toField(summary), body: toField(body) }
 }
 
 // Keyed by id *and* by whether rulings were present, so a full entry loaded
-// later is not answered from the haystack of its slim twin.
-const HAYSTACKS = new Map<string, string>()
-function haystackOf(issue: Issue): string {
+// later is not answered from the fields of its slim twin.
+const FIELDS = new Map<string, IssueFields>()
+function fieldsOf(issue: Issue): IssueFields {
   const key = issue.id + (issue.rulings ? ":full" : ":index")
-  let h = HAYSTACKS.get(key)
-  if (!h) {
-    h = buildHaystack(issue)
-    HAYSTACKS.set(key, h)
+  let f = FIELDS.get(key)
+  if (!f) {
+    f = buildFields(issue)
+    FIELDS.set(key, f)
   }
-  return h
+  return f
 }
 
-/** True when every whitespace-separated token in `query` is found. */
+const WEIGHTS: [keyof IssueFields, number][] = [
+  ["title", 4],
+  ["meta", 2],
+  ["summary", 1.5],
+  ["body", 1],
+]
+
+/**
+ * How well an issue answers the query. 0 when a group is missing (every
+ * word must be found, somewhere); with `any`, pages that hold only some of
+ * the words score too, ranked by how many — the "near results" shown when
+ * nothing holds them all.
+ */
+export function scoreIssue(issue: Issue, groups: TokenGroup[], any = false): number {
+  if (!groups.length) return 0
+  const f = fieldsOf(issue)
+  let score = 0
+  let found = 0
+  for (const g of groups) {
+    let best = 0
+    for (const [k, w] of WEIGHTS) if (fieldHas(f[k], g)) best = Math.max(best, w)
+    if (best === 0) {
+      if (!any) return 0
+      continue
+    }
+    found++
+    score += best
+  }
+  if (found === 0) return 0
+  // Among equals, the shorter title is the more specific page: "when ʿaṣr
+  // begins" over "making up ẓuhr with ʿaṣr for a woman purified late".
+  return found * 10 + score + 1 / (f.title.text.length + 1)
+}
+
+/** True when every word of `query` (or a synonym of it) is found. */
 export function issueMatchesQuery(issue: Issue, query: string): boolean {
-  const q = normalizeSearch(query)
-  if (!q) return true
-  const hay = haystackOf(issue)
-  return q.split(" ").every((token) => hay.includes(token))
+  if (!normalizeSearch(query)) return true
+  return scoreIssue(issue, queryTokens(query)) > 0
 }
 
+/** Rank a pool of issues; the index order breaks ties. */
+export function rankIssues<T extends Issue>(pool: T[], groups: TokenGroup[], any = false): T[] {
+  const scored: [T, number][] = []
+  for (const i of pool) {
+    const s = scoreIssue(i, groups, any)
+    if (s > 0) scored.push([i, s])
+  }
+  return scored.sort((a, b) => b[1] - a[1]).map(([i]) => i)
+}
 
 export interface SearchResults {
   issues: Issue[]
@@ -890,12 +1050,32 @@ export interface SearchResults {
   guides: Guide[]
 }
 
-/** True when every token of `query` occurs in `hay`. */
+const HAY_FIELDS = new Map<string, Field>()
+function hayField(hay: string): Field {
+  let f = HAY_FIELDS.get(hay)
+  if (!f) {
+    f = toField([hay])
+    if (HAY_FIELDS.size > 2000) HAY_FIELDS.clear()
+    HAY_FIELDS.set(hay, f)
+  }
+  return f
+}
+
+/** How many of the query's groups occur in `hay`; 0 unless all do (or `any`). */
+export function matchScore(hay: string, groups: TokenGroup[], any = false): number {
+  if (!groups.length) return 0
+  const f = hayField(hay)
+  let found = 0
+  for (const g of groups) {
+    if (fieldHas(f, g)) found++
+    else if (!any) return 0
+  }
+  return found
+}
+
+/** True when every word of `query` (or a synonym) occurs in `hay`. */
 export function matches(hay: string, query: string): boolean {
-  const q = normalizeSearch(query)
-  if (!q) return false
-  const h = normalizeSearch(hay)
-  return q.split(" ").every((token) => h.includes(token))
+  return matchScore(hay, queryTokens(query)) > 0
 }
 
 export function langParts(fields: (Localized | undefined)[]): string[] {
@@ -910,16 +1090,21 @@ export function langParts(fields: (Localized | undefined)[]): string[] {
  * sitting on Prayer who typed "tayammum" was told there were no results
  * while the issue existed one tab away; results are per section instead.
  */
-export function searchIndex(query: string, pool: { issues: Issue[]; articles: Article[] } = { issues, articles }) {
-  const q = query.trim()
-  if (!q) return { issues: [] as Issue[], articles: [] as Article[] }
+export function searchIndex(
+  query: string,
+  pool: { issues: Issue[]; articles: Article[] } = { issues, articles },
+  any = false,
+) {
+  const groups = queryTokens(query)
+  if (!groups.length) return { issues: [] as Issue[], articles: [] as Article[] }
+  const articleHay = (a: Article) =>
+    [a.ref, ...langParts([a.title, a.excerpt]), ...(a.sections ?? []).flatMap((sec) => langParts([sec.heading, sec.body]))].join(" ")
   return {
-    issues: pool.issues.filter((i) => issueMatchesQuery(i, q)),
-    articles: pool.articles.filter((a) =>
-      matches(
-        [a.ref, ...langParts([a.title, a.excerpt]), ...(a.sections ?? []).flatMap((sec) => langParts([sec.heading, sec.body]))].join(" "),
-        q,
-      ),
-    ),
+    issues: rankIssues(pool.issues, groups, any),
+    articles: pool.articles
+      .map((a) => [a, matchScore(articleHay(a), groups, any)] as const)
+      .filter(([, n]) => n > 0)
+      .sort((a, b) => b[1] - a[1])
+      .map(([a]) => a),
   }
 }

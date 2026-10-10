@@ -1394,6 +1394,48 @@
       "ru": "А также",
       "es": "También",
       "uk": "А також"
+    },
+    "copyShort": {
+      "ar": "نسخ",
+      "en": "Copy",
+      "ru": "Копировать",
+      "es": "Copiar",
+      "uk": "Копіювати"
+    },
+    "prevIssue": {
+      "ar": "المسألة السابقة",
+      "en": "Previous issue",
+      "ru": "Предыдущий вопрос",
+      "es": "Cuestión anterior",
+      "uk": "Попереднє питання"
+    },
+    "nextIssue": {
+      "ar": "المسألة التالية",
+      "en": "Next issue",
+      "ru": "Следующий вопрос",
+      "es": "Cuestión siguiente",
+      "uk": "Наступне питання"
+    },
+    "inChapterNav": {
+      "ar": "التنقّل في الباب",
+      "en": "Within this chapter",
+      "ru": "В этой главе",
+      "es": "En este capítulo",
+      "uk": "У цьому розділі"
+    },
+    "nearResults": {
+      "ar": "لا صفحة تجمع كل الكلمات — الأقرب إليها:",
+      "en": "No page has every word — the closest:",
+      "ru": "Ни одна страница не содержит все слова — ближайшие:",
+      "es": "Ninguna página tiene todas las palabras — las más cercanas:",
+      "uk": "Жодна сторінка не містить усіх слів — найближчі:"
+    },
+    "noResultsTips": {
+      "ar": "جرّب كلمة واحدة أو لفظاً آخر (مثلاً: «الجوارب» بدل «الشراب»)، أو تصفّح الأبواب:",
+      "en": "Try a single word or another wording, or browse the books:",
+      "ru": "Попробуйте одно слово или другую формулировку, или откройте разделы:",
+      "es": "Prueba con una sola palabra u otra formulación, o explora los libros:",
+      "uk": "Спробуйте одне слово чи інше формулювання, або перегляньте розділи:"
     }
   },
   "books": [

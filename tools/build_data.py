@@ -241,6 +241,13 @@ def main() -> int:
         json.dump(index, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
+    # مرادفات البحث: تُنسخ كما هي بلا تعليق، فالموقع يحمّلها في كل صفحة.
+    syn_src = SRC / "synonyms.json"
+    synonyms = {k: v for k, v in load(syn_src).items() if not k.startswith("_")} if syn_src.exists() else {}
+    with (ROOT / "data" / "synonyms.json").open("w", encoding="utf-8") as fh:
+        json.dump(synonyms, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
     print(f"{OUT.relative_to(ROOT)} — {len(ordered)} مسألة · {len(articles)} مقالة · فهرس {INDEX.stat().st_size // 1024} ك.ب من {OUT.stat().st_size // 1024}")
     return 0
 

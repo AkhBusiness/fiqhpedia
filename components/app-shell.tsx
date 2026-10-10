@@ -92,6 +92,8 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
   const {
     theme, setTheme,
     activeCategory, setActiveCategory,
+    activeChapter, setActiveChapter,
+    searchScope, setSearchScope,
     filter, setFilter,
     query, setQuery,
     scope, setScope,
@@ -100,9 +102,6 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
     onboardingStep, setOnboardingStep,
     onboardingSettled, setOnboardingSettled,
   } = useAppState()
-  // فلتر الفصل داخل الباب المفتوح. لا يُحفظ في التفضيلات: هو اختيار
-  // لحظي أثناء التصفّح، لا إعداد يعود إليه الزائر في الزيارة التالية.
-  const [activeChapter, setActiveChapter] = useState("")
   const [shareIssue, setShareIssue] = useState<FullIssue | null>(null)
   const { count: savedCount, toggle, isBookmarked } = useBookmarks()
   const { pref, hydrated: prefHydrated, save: savePref } = usePreference()
@@ -196,7 +195,6 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
    * reader's to set: it starts at "all" so nothing is hidden by default, and
    * narrows on request.
    */
-  const [searchScope, setSearchScope] = useState<"all" | "book" | "chapter">("all")
 
   // Narrowing to a chapter is meaningless once the reader leaves it.
   useEffect(() => {
@@ -281,7 +279,7 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
   }, [filter, lang])
 
   return (
-    <div dir={dir} className="relative min-h-dvh bg-background font-sans text-foreground">
+    <div dir={dir} className={`relative min-h-dvh bg-background font-sans text-foreground ${showSchoolHint ? "pb-24" : ""}`}>
       <div
         aria-hidden="true"
         className="pointer-events-none fixed inset-x-0 top-0 -z-10 h-[420px] bg-[radial-gradient(60%_100%_at_50%_0%,rgba(255,255,255,0.06),transparent_70%)]"
@@ -294,6 +292,13 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
           setSearchSeed("")
         }}
         initialQuery={searchSeed}
+        onOpenBook={(id) => {
+          setActiveCategory(id)
+          setActiveChapter("")
+          setScope("all")
+          setQuery("")
+          go("fiqh")
+        }}
         onOpenEntry={(href) => router.push(href)}
         onNavigate={(target, anchor) => {
           go(target)
@@ -360,6 +365,7 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
           ) : (
             <ProofView proof={entry.proof} lang={lang} />
           )}
+          {entry.kind === "issue" ? <ChapterNav lang={lang} issue={entry.issue} /> : null}
         </main>
       ) : section === "fiqh" ? (
         <div className="mx-auto flex max-w-6xl flex-col lg:flex-row lg:items-start lg:gap-8 lg:px-6 lg:pt-8">
@@ -562,10 +568,16 @@ function SchoolHint({
   onDismiss: () => void
 }) {
   return (
-    <section aria-label={ui.schoolHintAction[lang]} className="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
-      <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] py-2.5 ps-4 pe-2">
-        <Scale className="size-4 shrink-0 text-zinc-400" aria-hidden="true" />
-        <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">{ui.schoolHintText[lang]}</p>
+    /* Anchored to the bottom, not inserted above the page: it only appears
+       after hydration, and pushing the content down by a hundred pixels
+       just as the reader starts reading was the whole of our layout shift. */
+    <section
+      aria-label={ui.schoolHintAction[lang]}
+      className="fixed inset-x-0 bottom-0 z-20 px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-6"
+    >
+      <div className="mx-auto flex max-w-3xl items-center gap-3 rounded-2xl border border-white/15 bg-popover/95 py-2.5 ps-4 pe-2 shadow-2xl shadow-black/40 backdrop-blur-xl">
+        <Scale className="size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+        <p className="min-w-0 flex-1 text-sm leading-snug text-foreground/85">{ui.schoolHintText[lang]}</p>
         <button
           type="button"
           onClick={onPick}
@@ -584,6 +596,56 @@ function SchoolHint({
         </button>
       </div>
     </section>
+  )
+}
+
+/**
+ * Previous and next issue within the same chapter, at the foot of the page.
+ * A reader who arrived from a search or a shared link has no list to go
+ * back to; the chapter is the natural thing to read on through.
+ */
+function ChapterNav({ lang, issue }: { lang: Lang; issue: FullIssue }) {
+  const isRtl = rtlLangs.includes(lang)
+  const Prev = isRtl ? ChevronRight : ChevronLeft
+  const Next = isRtl ? ChevronLeft : ChevronRight
+  const siblings = useMemo(
+    () =>
+      issues
+        .filter((i) => i.categoryId === issue.categoryId && (i.chapter?.ar ?? "") === (issue.chapter?.ar ?? ""))
+        .sort((a, b) => a.number - b.number),
+    [issue],
+  )
+  const at = siblings.findIndex((i) => i.id === issue.id)
+  const prev = at > 0 ? siblings[at - 1] : null
+  const next = at >= 0 && at < siblings.length - 1 ? siblings[at + 1] : null
+  if (!prev && !next) return null
+  const cls =
+    "flex min-h-14 min-w-0 flex-1 flex-col gap-0.5 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"
+  return (
+    <nav aria-label={ui.inChapterNav[lang]} className="mt-6 flex gap-2">
+      {prev ? (
+        <Link href={entryPath(lang, prev.ref)} className={cls}>
+          <span className="flex items-center gap-1 text-[13px] text-muted-foreground">
+            <Prev className="size-3.5" aria-hidden="true" />
+            {ui.prevIssue[lang]}
+          </span>
+          <span className="line-clamp-2 text-[15px] font-semibold leading-snug text-foreground">{prev.title[lang]}</span>
+        </Link>
+      ) : (
+        <span className="flex-1" />
+      )}
+      {next ? (
+        <Link href={entryPath(lang, next.ref)} className={`${cls} items-end text-end`}>
+          <span className="flex items-center gap-1 text-[13px] text-muted-foreground">
+            {ui.nextIssue[lang]}
+            <Next className="size-3.5" aria-hidden="true" />
+          </span>
+          <span className="line-clamp-2 text-[15px] font-semibold leading-snug text-foreground">{next.title[lang]}</span>
+        </Link>
+      ) : (
+        <span className="flex-1" />
+      )}
+    </nav>
   )
 }
 

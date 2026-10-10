@@ -1,3 +1,4 @@
+import { preload } from "react-dom"
 import type { Metadata, Viewport } from "next"
 import "@/app/globals.css"
 import { AppStateProvider } from "@/components/app-state"
@@ -49,6 +50,15 @@ export default async function LangLayout({
   const { lang } = await params
   const l = ((LANGS as readonly string[]).includes(lang) ? lang : "ar") as Lang
   const dir = rtlLangs.includes(l) ? "rtl" : "ltr"
+  // The body face, fetched before the stylesheet asks for it: the first
+  // paint is in the final face, not the fallback. Only on Arabic pages —
+  // the Latin ones never use it. preload() rather than a raw <link>: React
+  // hoists links into <head> itself, and a hand-written one was emitted twice.
+  if (dir === "rtl") {
+    for (const w of ["Regular", "Bold"]) {
+      preload(`/fonts/IBMPlexSansArabic-${w}.woff2`, { as: "font", type: "font/woff2", crossOrigin: "anonymous" })
+    }
+  }
   return (
     <html lang={l} dir={dir} className="dark bg-background">
       <body className="antialiased">
