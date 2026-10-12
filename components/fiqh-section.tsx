@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
+import Link from "next/link"
 import { Library, RotateCcw, SlidersHorizontal } from "lucide-react"
 import { CategoryTabs } from "@/components/category-tabs"
 import { FilterBar } from "@/components/filter-bar"
@@ -152,6 +153,14 @@ export function FiqhSection({ lang, go, filterLabel, onOpenSchoolModal }: FiqhSe
                 <h2 className="text-xl font-bold text-foreground sm:text-2xl">{activeCategoryName}</h2>
                 <p className="mt-0.5 text-sm text-muted-foreground">
                   {visibleIssues.length} {ui.issuesCount[lang]}
+                  {scope !== "saved" && !(searching && searchScope === "all") ? (
+                    <>
+                      {" · "}
+                      <Link href={`/${lang}/fiqh/${activeCategory}`} className="font-semibold text-foreground/80 underline decoration-white/20 underline-offset-4 hover:text-foreground">
+                        {ui.bookMapTitle[lang]}
+                      </Link>
+                    </>
+                  ) : null}
                 </p>
               </div>
 

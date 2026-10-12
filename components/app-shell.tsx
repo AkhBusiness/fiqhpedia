@@ -26,6 +26,7 @@ import { useAppState } from "@/components/app-state"
  */
 const IssueCard = dynamic(() => import("@/components/issue-card").then((m) => m.IssueCard))
 const ArticleView = dynamic(() => import("@/components/article-view").then((m) => m.ArticleView))
+const BookView = dynamic(() => import("@/components/book-view").then((m) => m.BookView))
 const ProofView = dynamic(() => import("@/components/proof-view").then((m) => m.ProofView))
 const FiqhSection = dynamic(() => import("@/components/fiqh-section").then((m) => m.FiqhSection))
 const HomeSection = dynamic(() => import("@/components/home-section").then((m) => m.HomeSection))
@@ -54,6 +55,7 @@ export type Entry =
   | { kind: "issue"; issue: FullIssue; prev: Neighbour | null; next: Neighbour | null }
   | { kind: "article"; article: FullArticle }
   | { kind: "proof"; proof: TheologyProof }
+  | { kind: "book"; bookId: string }
 
 interface AppShellProps {
   /** From the route. The URL is the source of truth for both. */
@@ -86,7 +88,9 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
   const setLang = (next: Lang) =>
     router.push(
       entry
-        ? entryPath(next, entryRef(entry))
+        ? entry.kind === "book"
+          ? `/${next}/fiqh/${entry.bookId}`
+          : entryPath(next, entryRef(entry))
         : section === "home"
           ? `/${next}`
           : `/${next}/${section}`,
@@ -273,8 +277,10 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
 
       {entry ? (
         <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
-          <EntryNav lang={lang} entry={entry} />
-          {entry.kind === "issue" ? (
+          {entry.kind !== "book" ? <EntryNav lang={lang} entry={entry} /> : null}
+          {entry.kind === "book" ? (
+            <BookView bookId={entry.bookId} lang={lang} />
+          ) : entry.kind === "issue" ? (
             <IssueCard
               issue={entry.issue}
               lang={lang}
@@ -475,11 +481,17 @@ function ChapterNav({ lang, prev, next }: { lang: Lang; prev: Neighbour | null; 
 }
 
 function entryRef(entry: Entry): string {
-  return entry.kind === "issue" ? entry.issue.ref : entry.kind === "article" ? entry.article.ref : entry.proof.ref
+  return entry.kind === "issue"
+    ? entry.issue.ref
+    : entry.kind === "article"
+      ? entry.article.ref
+      : entry.kind === "proof"
+        ? entry.proof.ref
+        : entry.bookId
 }
 
 /** The way back to the list the entry belongs to, and the view controls an issue needs. */
-function EntryNav({ lang, entry }: { lang: Lang; entry: Entry }) {
+function EntryNav({ lang, entry }: { lang: Lang; entry: Exclude<Entry, { kind: "book" }> }) {
   const isRtl = rtlLangs.includes(lang)
   const Back = isRtl ? ChevronRight : ChevronLeft
   const ref = entryRef(entry)

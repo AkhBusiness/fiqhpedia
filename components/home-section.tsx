@@ -25,8 +25,8 @@ interface HomeSectionProps {
   onGo: (section: Section) => void
   /** Open the site search with this text already typed. */
   onSearch: (query: string) => void
-  /** Open the fiqh tab on one book. */
-  onOpenBook: (bookId: string) => void
+  /** Kept for the shell; the book tiles now link to the book pages. */
+  onOpenBook?: (bookId: string) => void
 }
 
 interface Featured {
@@ -50,7 +50,7 @@ const featured = (featuredJson as { featured: Featured | null }).featured
  * above all this ("why we ask your country", "this is not a fatwa service")
  * are still here, at the end, where a reader who wants them will look.
  */
-export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionProps) {
+export function HomeSection({ lang, onGo, onSearch }: HomeSectionProps) {
   const counts = bookCounts()
   const [q, setQ] = useState("")
   const isRtl = rtlLangs.includes(lang)
@@ -156,27 +156,27 @@ export function HomeSection({ lang, onGo, onSearch, onOpenBook }: HomeSectionPro
         <ul className="mt-4 grid list-none grid-cols-2 gap-2 p-0 sm:grid-cols-3">
           {books.map((c) => (
             <li key={c.id}>
-              <button
-                type="button"
-                onClick={() => onOpenBook(c.id)}
+              <Link
+                href={`/${lang}/fiqh/${c.id}`}
                 className="flex min-h-14 w-full items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-4 text-start transition-colors hover:border-white/25 hover:bg-white/[0.06]"
               >
                 <span className="text-sm font-semibold text-foreground">{c.name[lang]}</span>
                 <span className="tabular-nums text-sm text-muted-foreground">{counts[c.id]}</span>
-              </button>
+              </Link>
             </li>
           ))}
           {empty.map((c) => (
             <li key={c.id}>
-              <span
+              <Link
+                href={`/${lang}/fiqh/${c.id}`}
                 title={ui.comingSoon[lang]}
-                className="flex min-h-14 w-full items-center justify-between gap-2 rounded-xl border border-dashed border-white/10 px-4 text-start"
+                className="flex min-h-14 w-full items-center justify-between gap-2 rounded-xl border border-dashed border-white/10 px-4 text-start transition-colors hover:border-white/25"
               >
                 <span className="text-sm font-medium text-muted-foreground/60">{c.name[lang]}</span>
-                <span className="rounded-full bg-white/10 px-1.5 py-0.5 text-[11px] font-bold text-muted-foreground/70">
+                <span className="rounded-full bg-white/10 px-1.5 py-0.5 text-[13px] font-bold text-muted-foreground/70">
                   {ui.comingSoon[lang]}
                 </span>
-              </span>
+              </Link>
             </li>
           ))}
         </ul>

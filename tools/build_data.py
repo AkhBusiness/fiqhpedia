@@ -23,6 +23,7 @@
 كما هي، والترقيم يُشتقّ عند البناء.
 """
 import json
+import re
 import sys
 from collections import OrderedDict
 from pathlib import Path
@@ -87,6 +88,110 @@ def stamp_added(records, folder):
         ).split() if l]
         # ملفّ لم يُودَع بعد: هو جديد بالضرورة.
         rec["addedAt"] = lines[-1] if lines else date.today().isoformat()
+
+
+_AR_MARKS = re.compile(r"[\u064B-\u0652\u0670\u0640]")
+
+
+def _norm(name: str) -> str:
+    name = _AR_MARKS.sub("", name).strip()
+    for pre in ("باب ", "كتاب "):
+        if name.startswith(pre):
+            name = name[len(pre):]
+    return name.replace("ّ", "").replace("أ", "ا").replace("إ", "ا").replace("ة", "ه").replace("ى", "ي").strip()
+
+
+def parse_plan(path: Path, issues: list) -> list:
+    """Read the per-book chapter tables out of the plan file."""
+    if not path.exists():
+        return []
+    lines = path.read_text(encoding="utf-8").splitlines()
+    head = re.compile(r"^## .*`([a-z]+)`\s*·\s*(\d+)\s*مس\S*(?:\s+مكتوبة من\s+(\d+))?")
+    books = []
+    i = 0
+    while i < len(lines):
+        m = head.match(lines[i])
+        if not m:
+            i += 1
+            continue
+        book = {"id": m.group(1), "planned": int(m.group(3)) if m.group(3) else None, "chapters": []}
+        # first table after the heading, before the next heading
+        j = i + 1
+        cols = None
+        while j < len(lines) and not lines[j].startswith("## "):
+            row = lines[j]
+            if row.startswith("|"):
+                cells = [c.strip() for c in row.strip().strip("|").split("|")]
+                if cols is None:
+                    if any(c in ("الفصل", "الباب") for c in cells):
+                        cols = cells
+                elif not set(row) <= set("|-: "):
+                    name_i = next(k for k, c in enumerate(cols) if c in ("الفصل", "الباب"))
+                    name = re.sub(r"\*\([^)]*\)\*", "", cells[name_i]).strip()
+                    status = "⬜"
+                    if "الحالة" in cols:
+                        st = cells[cols.index("الحالة")]
+                        status = "✅" if "✅" in st else "⚠️" if "⚠️" in st else "⬜"
+                    elif "مكتوب" in cols:
+                        status = "✅" if re.search(r"F\d", cells[cols.index("مكتوب")]) else "⬜"
+                    planned = None
+                    if "مسائل" in cols and cells[cols.index("مسائل")].isdigit():
+                        planned = int(cells[cols.index("مسائل")])
+                    book["chapters"].append({"name": name, "status": status, "planned": planned})
+                else:
+                    pass
+            elif cols is not None and row.strip() == "":
+                break
+            j += 1
+        books.append(book)
+        i = j
+    # what is actually written, per chapter: each data chapter goes to the
+    # plan row whose words it shares most ("إزالة النجاسة" → "النجاسات",
+    # "نواقض الوضوء" → its own row, not "صفة الوضوء"). A data chapter no row
+    # claims gets a row of its own, so no issue ever disappears from its book.
+    def stems(name: str) -> set:
+        out = set()
+        for w in _norm(name).split():
+            w = w.lstrip("و")
+            if w.startswith("ال"):
+                w = w[2:]
+            for sfx in ("ات", "ان", "ين", "ون", "ها", "ه", "ي"):
+                if w.endswith(sfx) and len(w) - len(sfx) >= 3:
+                    w = w[: -len(sfx)]
+                    break
+            if len(w) >= 3 and w not in ("علي", "في", "من", "عن", "ما"):
+                out.add(w)
+        return out
+
+    for b in books:
+        mine = [x for x in issues if x["bookId"] == b["id"]]
+        by_chapter = {}
+        for x in mine:
+            by_chapter.setdefault(x["chapter"]["ar"] if x.get("chapter") else "", []).append(x)
+        for ch in b["chapters"]:
+            ch["written"], ch["refs"] = 0, []
+        for cname, xs in by_chapter.items():
+            best, score = None, 0.0
+            if cname:
+                cs = stems(cname)
+                for ch in b["chapters"]:
+                    ps = stems(ch["name"])
+                    j = len(cs & ps) / len(cs | ps) if cs | ps else 0
+                    if j > score:
+                        best, score = ch, j
+            if best is None or score < 0.34:
+                best = {"name": re.sub(r"^باب\s+", "", cname) or "—", "status": "✅", "planned": None, "written": 0, "refs": []}
+                b["chapters"].append(best)
+            best["chapter"] = xs[0].get("chapter")
+            best["refs"].extend(x["ref"] for x in xs)
+            best["written"] = len(best["refs"])
+            if best["status"] == "⬜":
+                best["status"] = "✅"
+        for ch in b["chapters"]:
+            if ch["written"] == 0 and ch["status"] == "✅":
+                ch["status"] = "⚠️"
+        b["written"] = len(mine)
+    return books
 
 
 def main() -> int:
@@ -277,6 +382,14 @@ def main() -> int:
     works = [{"ar": name, **{l: meta.get(l, name) for l in ("en", "ru", "es", "uk")}} for name, meta in terms.get("works", {}).items()]
     with (ROOT / "data" / "sources.json").open("w", encoding="utf-8") as fh:
         json.dump({"books": books, "works": works}, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+    # خريطة الأبواب: من خريطة-الأبواب.md — لكل كتاب عددُ المخطّط وفصولُه
+    # بحالتها (✅ ⚠️ ⬜)، ثم يُضاف المكتوب فعلاً من المسائل. المصدر الوحيد
+    # للخطة هو الملف نفسه، فلا تُكتب الفصول المخطّطة في مكان ثانٍ.
+    books_plan = parse_plan(ROOT / "خريطة-الأبواب.md", ordered)
+    with (ROOT / "data" / "books.json").open("w", encoding="utf-8") as fh:
+        json.dump({"books": books_plan}, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
     # سجلّ التحديثات: من addedAt وrevisedAt/revisionNote، مجمَّعاً بالتاريخ

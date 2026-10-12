@@ -1541,6 +1541,76 @@
       "ru": "Показать все ({n})",
       "es": "Mostrar todo ({n})",
       "uk": "Показати всі ({n})"
+    },
+    "bookPageTitle": {
+      "ar": "كتاب {book}",
+      "en": "The Book of {book}",
+      "ru": "Книга: {book}",
+      "es": "Libro de {book}",
+      "uk": "Книга: {book}"
+    },
+    "bookProgress": {
+      "ar": "{written} مسألة مكتوبة من {planned} مخطّطة",
+      "en": "{written} of {planned} planned entries written",
+      "ru": "Написано {written} из {planned} запланированных",
+      "es": "{written} de {planned} cuestiones previstas escritas",
+      "uk": "Написано {written} з {planned} запланованих"
+    },
+    "bookWrittenOnly": {
+      "ar": "{written} مسألة",
+      "en": "{written} entries",
+      "ru": "{written} вопросов",
+      "es": "{written} cuestiones",
+      "uk": "{written} питань"
+    },
+    "bookMapTitle": {
+      "ar": "خريطة الكتاب",
+      "en": "Map of the book",
+      "ru": "Карта книги",
+      "es": "Mapa del libro",
+      "uk": "Карта книги"
+    },
+    "bookMapDesc": {
+      "ar": "فصول الكتاب كما خُطّط لها، وما كُتب من كل فصل. الفصول الفارغة قادمة بالترتيب نفسه.",
+      "en": "The book's chapters as planned, and what has been written in each. Empty chapters are coming, in this order.",
+      "ru": "Главы книги по плану и что написано в каждой. Пустые главы — на очереди, в этом же порядке.",
+      "es": "Los capítulos del libro tal como se han planificado, y lo escrito en cada uno. Los capítulos vacíos están por venir, en este mismo orden.",
+      "uk": "Розділи книги за планом і що написано в кожному. Порожні розділи — на черзі, у цьому ж порядку."
+    },
+    "statusCovered": {
+      "ar": "مغطّى",
+      "en": "Covered",
+      "ru": "Есть",
+      "es": "Cubierto",
+      "uk": "Є"
+    },
+    "statusPartial": {
+      "ar": "جزئي",
+      "en": "Partial",
+      "ru": "Частично",
+      "es": "Parcial",
+      "uk": "Частково"
+    },
+    "statusEmpty": {
+      "ar": "قادم",
+      "en": "Coming",
+      "ru": "Скоро",
+      "es": "Próximamente",
+      "uk": "Скоро"
+    },
+    "bookEmptyBody": {
+      "ar": "لم تُكتب مسائل هذا الكتاب بعد. فصوله المخطّطة أدناه.",
+      "en": "No entries for this book yet. Its planned chapters are below.",
+      "ru": "Статей этой книги пока нет. Запланированные главы — ниже.",
+      "es": "Aún no hay cuestiones de este libro. Sus capítulos previstos están abajo.",
+      "uk": "Статей цієї книги поки немає. Заплановані розділи — нижче."
+    },
+    "allBooks": {
+      "ar": "كل الكتب",
+      "en": "All books",
+      "ru": "Все книги",
+      "es": "Todos los libros",
+      "uk": "Усі книги"
     }
   },
   "books": [

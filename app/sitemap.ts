@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { LANGS, type Lang } from "@/lib/fiqh-data"
+import { LANGS, type Lang, categories } from "@/lib/fiqh-data"
 import { theologyProofs } from "@/lib/theology-data"
 import { fullArticles, fullIssues } from "@/lib/fiqh-full"
 import { entryUrl, SITE_URL } from "@/lib/site"
@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const l of LANGS) {
     for (const s of sections) {
       out.push({ url: `${SITE_URL}/${l}${s}`, changeFrequency: "weekly", priority: s === "" ? 1 : 0.8, alternates: alt((x) => `${SITE_URL}/${x}${s}`) })
+    }
+    for (const c of categories) {
+      out.push({ url: `${SITE_URL}/${l}/fiqh/${c.id}`, changeFrequency: "weekly", priority: 0.8, alternates: alt((x) => `${SITE_URL}/${x}/fiqh/${c.id}`) })
     }
     for (const i of fullIssues) {
       out.push({ url: entryUrl(l, i.ref), lastModified: i.revisedAt ?? i.addedAt, changeFrequency: "monthly", priority: 0.7, alternates: alt((x) => entryUrl(x, i.ref)) })

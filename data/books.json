@@ -1,0 +1,958 @@
+{
+  "books": [
+    {
+      "id": "taharah",
+      "planned": 121,
+      "chapters": [
+        {
+          "name": "الأحكام",
+          "status": "⚠️",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "المياه",
+          "status": "✅",
+          "planned": null,
+          "written": 20,
+          "refs": [
+            "F20",
+            "F21",
+            "F22",
+            "F23",
+            "F24",
+            "F26",
+            "F25",
+            "F8",
+            "F27",
+            "F28",
+            "F29",
+            "F37",
+            "F30",
+            "F31",
+            "F38",
+            "F32",
+            "F33",
+            "F34",
+            "F35",
+            "F36"
+          ],
+          "chapter": {
+            "ar": "باب المياه",
+            "en": "Chapter of Waters",
+            "ru": "Раздел о водах",
+            "es": "Capítulo sobre las aguas",
+            "uk": "Розділ про води"
+          }
+        },
+        {
+          "name": "الآنية",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F9"
+          ],
+          "chapter": {
+            "ar": "باب الآنية",
+            "en": "Chapter of Vessels",
+            "ru": "Раздел о сосудах",
+            "es": "Capítulo de los recipientes",
+            "uk": "Розділ про посуд"
+          }
+        },
+        {
+          "name": "الاستنجاء",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F10"
+          ],
+          "chapter": {
+            "ar": "باب الاستنجاء",
+            "en": "Chapter of Cleansing after Relief (Istinjāʾ)",
+            "ru": "Раздел об очищении после нужды (истинджа)",
+            "es": "Capítulo de la limpieza tras las necesidades (istinŷāʾ)",
+            "uk": "Розділ про очищення після потреби (істінджа)"
+          }
+        },
+        {
+          "name": "السواك",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "صفة الوضوء",
+          "status": "✅",
+          "planned": null,
+          "written": 12,
+          "refs": [
+            "F62",
+            "F63",
+            "F54",
+            "F64",
+            "F76",
+            "F65",
+            "F77",
+            "F78",
+            "F79",
+            "F80",
+            "F81",
+            "F4"
+          ],
+          "chapter": {
+            "ar": "باب صفة الوضوء",
+            "en": "Chapter on the Description of the Ablution",
+            "ru": "Раздел об описании омовения",
+            "es": "Capítulo sobre la descripción de la ablución",
+            "uk": "Розділ про опис омивання"
+          }
+        },
+        {
+          "name": "نواقض الوضوء",
+          "status": "✅",
+          "planned": null,
+          "written": 8,
+          "refs": [
+            "F6",
+            "F82",
+            "F83",
+            "F84",
+            "F85",
+            "F98",
+            "F99",
+            "F100"
+          ],
+          "chapter": {
+            "ar": "باب نواقض الوضوء",
+            "en": "Chapter of Ablution Nullifiers",
+            "ru": "Раздел о нарушителях омовения",
+            "es": "Capítulo de los anuladores de la ablución",
+            "uk": "Розділ про порушники омивання"
+          }
+        },
+        {
+          "name": "المسح",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F5"
+          ],
+          "chapter": {
+            "ar": "باب المسح على الخفين",
+            "en": "Chapter of Wiping over Footgear",
+            "ru": "Раздел о протирании обуви",
+            "es": "Capítulo del frotamiento sobre los calcetines de cuero (khuff)",
+            "uk": "Розділ про протирання шкіряних шкарпеток (хуффів)"
+          }
+        },
+        {
+          "name": "الغسل",
+          "status": "✅",
+          "planned": null,
+          "written": 3,
+          "refs": [
+            "F86",
+            "F87",
+            "F88"
+          ],
+          "chapter": {
+            "ar": "باب الغسل",
+            "en": "Chapter on the Full Bath (Ghusl)",
+            "ru": "Раздел о полном омовении (гусль)",
+            "es": "Capítulo sobre el baño ritual (ghusl)",
+            "uk": "Розділ про повне обмивання (ґусль)"
+          }
+        },
+        {
+          "name": "التيمم",
+          "status": "✅",
+          "planned": null,
+          "written": 7,
+          "refs": [
+            "F7",
+            "F101",
+            "F102",
+            "F103",
+            "F104",
+            "F105",
+            "F106"
+          ],
+          "chapter": {
+            "ar": "باب التيمم",
+            "en": "Chapter of Dry Ablution (Tayammum)",
+            "ru": "Раздел о сухом очищении (таяммум)",
+            "es": "Capítulo de la ablución seca (tayammum)",
+            "uk": "Розділ про сухе очищення (таяммум)"
+          }
+        },
+        {
+          "name": "النجاسات",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F11"
+          ],
+          "chapter": {
+            "ar": "باب إزالة النجاسة",
+            "en": "Chapter of Removing Impurity",
+            "ru": "Раздел об удалении нечистоты",
+            "es": "Capítulo de la eliminación de la impureza",
+            "uk": "Розділ про усунення нечистоти"
+          }
+        },
+        {
+          "name": "الحيض",
+          "status": "✅",
+          "planned": null,
+          "written": 7,
+          "refs": [
+            "F91",
+            "F96",
+            "F92",
+            "F93",
+            "F94",
+            "F95",
+            "F97"
+          ],
+          "chapter": {
+            "ar": "باب الحيض والنفاس",
+            "en": "Chapter on Menstruation and Post-natal Bleeding",
+            "ru": "Раздел о менструации и послеродовом кровотечении",
+            "es": "Capítulo sobre la menstruación y los loquios",
+            "uk": "Розділ про менструацію та післяпологову кровотечу"
+          }
+        }
+      ],
+      "written": 61
+    },
+    {
+      "id": "salah",
+      "planned": 154,
+      "chapters": [
+        {
+          "name": "الأذان والإقامة",
+          "status": "⚠️",
+          "planned": null,
+          "written": 2,
+          "refs": [
+            "F16",
+            "F66"
+          ],
+          "chapter": {
+            "ar": "باب الأذان والإقامة",
+            "en": "Chapter of the Call to Prayer and the Iqama",
+            "ru": "Раздел об азане и икаме",
+            "es": "Capítulo del adhán y el iqama",
+            "uk": "Розділ про азан та ікаму"
+          }
+        },
+        {
+          "name": "شروط الصلاة",
+          "status": "⚠️",
+          "planned": null,
+          "written": 17,
+          "refs": [
+            "F56",
+            "F41",
+            "F15",
+            "F42",
+            "F43",
+            "F40",
+            "F67",
+            "F68",
+            "F44",
+            "F46",
+            "F39",
+            "F47",
+            "F69",
+            "F70",
+            "F71",
+            "F89",
+            "F90"
+          ],
+          "chapter": {
+            "ar": "باب شروط الصلاة",
+            "en": "Chapter on the Conditions of the Prayer",
+            "ru": "Раздел об условиях молитвы",
+            "es": "Capítulo sobre las condiciones de la oración",
+            "uk": "Розділ про умови молитви"
+          }
+        },
+        {
+          "name": "صفة الصلاة",
+          "status": "⚠️",
+          "planned": null,
+          "written": 9,
+          "refs": [
+            "F12",
+            "F45",
+            "F13",
+            "F72",
+            "F73",
+            "F14",
+            "F48",
+            "F74",
+            "F75"
+          ],
+          "chapter": {
+            "ar": "باب صفة الصلاة",
+            "en": "Chapter of the Description of the Prayer",
+            "ru": "Раздел об описании молитвы",
+            "es": "Capítulo de la descripción de la oración",
+            "uk": "Розділ про опис молитви"
+          }
+        },
+        {
+          "name": "الأركان والواجبات والسنن",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "سجود السهو والتلاوة والشكر",
+          "status": "⚠️",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F17"
+          ],
+          "chapter": {
+            "ar": "باب سجود السهو",
+            "en": "Chapter of the Prostration of Forgetfulness",
+            "ru": "Раздел о земном поклоне за забывчивость",
+            "es": "Capítulo de la postración por olvido",
+            "uk": "Розділ про земний уклін за забудькуватість"
+          }
+        },
+        {
+          "name": "التطوع والأوقات المنهيّ عنها",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الجماعة والإمامة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "صلاة أهل الأعذار",
+          "status": "⚠️",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الجمعة",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F19"
+          ],
+          "chapter": {
+            "ar": "باب صلاة الجمعة",
+            "en": "Chapter of Friday Prayer",
+            "ru": "Раздел о пятничной молитве",
+            "es": "Capítulo de la oración del viernes",
+            "uk": "Розділ про п'ятничну молитву"
+          }
+        },
+        {
+          "name": "العيدان",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الكسوف والاستسقاء",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الجنائز",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "صلاة المسافر",
+          "status": "✅",
+          "planned": null,
+          "written": 1,
+          "refs": [
+            "F18"
+          ],
+          "chapter": {
+            "ar": "باب صلاة المسافر",
+            "en": "Chapter of the Traveler's Prayer",
+            "ru": "Раздел о молитве путника",
+            "es": "Capítulo de la oración del viajero",
+            "uk": "Розділ про молитву подорожнього"
+          }
+        }
+      ],
+      "written": 31
+    },
+    {
+      "id": "zakah",
+      "planned": null,
+      "chapters": [
+        {
+          "name": "شروطها",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "زكاة السائمة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "السائبة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الخارج من الأرض",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "النقدان",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "عروض التجارة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "زكاة الفطر",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "إخراج الزكاة ومصرفها",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 0
+    },
+    {
+      "id": "sawm",
+      "planned": 75,
+      "chapters": [
+        {
+          "name": "وجوب الصيام ورؤية الهلال",
+          "status": "✅",
+          "planned": 9,
+          "written": 5,
+          "refs": [
+            "F57",
+            "F49",
+            "F51",
+            "F50",
+            "F52"
+          ],
+          "chapter": {
+            "ar": "وجوب الصيام ورؤية الهلال",
+            "en": "The Obligation of Fasting and Sighting the Crescent",
+            "ru": "Обязательность поста и наблюдение новолуния",
+            "es": "La obligatoriedad del ayuno y el avistamiento de la luna nueva",
+            "uk": "Обов'язковість посту та спостереження молодика"
+          }
+        },
+        {
+          "name": "أركان الصيام وشروطه",
+          "status": "✅",
+          "planned": 8,
+          "written": 3,
+          "refs": [
+            "F53",
+            "F55",
+            "F61"
+          ],
+          "chapter": {
+            "ar": "أركان الصيام وشروطه",
+            "en": "The Pillars and Conditions of Fasting",
+            "ru": "Столпы и условия поста",
+            "es": "Los pilares y condiciones del ayuno",
+            "uk": "Стовпи та умови посту"
+          }
+        },
+        {
+          "name": "المفطرات",
+          "status": "✅",
+          "planned": 12,
+          "written": 3,
+          "refs": [
+            "F58",
+            "F59",
+            "F60"
+          ],
+          "chapter": {
+            "ar": "المفطرات",
+            "en": "The Invalidators of the Fast",
+            "ru": "Нарушители поста",
+            "es": "Los invalidadores del ayuno",
+            "uk": "Порушники посту"
+          }
+        },
+        {
+          "name": "ما يُكره ويُباح للصائم",
+          "status": "⬜",
+          "planned": 8,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الأعذار المبيحة للفطر",
+          "status": "⬜",
+          "planned": 10,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "القضاء والكفارة",
+          "status": "⬜",
+          "planned": 9,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "صيام التطوّع والأيام المنهيّ عنها",
+          "status": "⬜",
+          "planned": 10,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الاعتكاف",
+          "status": "⬜",
+          "planned": 8,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 11
+    },
+    {
+      "id": "hajj",
+      "planned": null,
+      "chapters": [
+        {
+          "name": "الشروط",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "المواقيت",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الإحرام",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "محظورات الإحرام",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الفدية",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "صفة الحج والعمرة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الأركان والواجبات",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الهدي والأضحية والعقيقة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 0
+    },
+    {
+      "id": "muamalat",
+      "planned": null,
+      "chapters": [
+        {
+          "name": "البيع وشروطه",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الخيار",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الربا",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الصرف",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "السلم",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "القرض",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الرهن",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الضمان والكفالة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الحجر",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الوكالة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الشركة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "المساقاة والمزارعة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الإجارة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "السبق",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "العارية",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الغصب",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الشفعة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الوديعة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "اللقطة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 0
+    },
+    {
+      "id": "nikah",
+      "planned": 105,
+      "chapters": [
+        {
+          "name": "الخطبة ومقدّماتها",
+          "status": "⚠️",
+          "planned": null,
+          "written": 7,
+          "refs": [
+            "F111",
+            "F107",
+            "F108",
+            "F109",
+            "F114",
+            "F115",
+            "F116"
+          ],
+          "chapter": {
+            "ar": "باب الخطبة",
+            "en": "Chapter on the Betrothal",
+            "ru": "Раздел о сватовстве",
+            "es": "Capítulo sobre el compromiso matrimonial",
+            "uk": "Розділ про сватання"
+          }
+        },
+        {
+          "name": "أركان العقد وشروطه",
+          "status": "⚠️",
+          "planned": null,
+          "written": 7,
+          "refs": [
+            "F112",
+            "F113",
+            "F117",
+            "F118",
+            "F119",
+            "F121",
+            "F122"
+          ],
+          "chapter": {
+            "ar": "باب أركان العقد",
+            "en": "Chapter on the Pillars of the Contract",
+            "ru": "Раздел о столпах договора",
+            "es": "Capítulo sobre los pilares del contrato",
+            "uk": "Розділ про стовпи договору"
+          }
+        },
+        {
+          "name": "محرّمات النكاح",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الشروط في النكاح",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الصداق",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "عشرة الزوجين والوليمة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "فسخ النكاح",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الخلع",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الطلاق",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الإيلاء والظهار واللعان",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "العدّة والاستبراء",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الرضاع والنسب",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "النفقات والحضانة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 14
+    },
+    {
+      "id": "jinayat",
+      "planned": null,
+      "chapters": [
+        {
+          "name": "القصاص",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "الديات",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "القسامة",
+          "status": "⬜",
+          "planned": null,
+          "written": 0,
+          "refs": []
+        }
+      ],
+      "written": 0
+    },
+    {
+      "id": "iman",
+      "planned": null,
+      "chapters": [
+        {
+          "name": "الإيمان والشهادتين",
+          "status": "✅",
+          "planned": null,
+          "written": 3,
+          "refs": [
+            "F1",
+            "F2",
+            "F110"
+          ],
+          "chapter": {
+            "ar": "باب الإيمان والشهادتين",
+            "en": "Chapter on Faith and the Two Testimonies",
+            "ru": "Раздел о вере и двух свидетельствах",
+            "es": "Capítulo sobre la fe y los dos testimonios",
+            "uk": "Розділ про віру та два свідчення"
+          }
+        }
+      ],
+      "written": 3
+    }
+  ]
+}
