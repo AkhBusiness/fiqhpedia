@@ -103,7 +103,20 @@ function fold(s: string): string {
     .toLowerCase()
 }
 
-function readSelection(): { books: string[]; schools: SchoolKey[] } {
+export type BookFont = "classic" | "modern"
+
+/** The two book faces, both OFL and shipped with the site. */
+const FONTS: Record<BookFont, { family: string; regular: string; bold: string; size: string; leading: string }> = {
+  // A traditional Naskh in the line of the faces Arabic religious books are
+  // set in (Lotus, Traditional Arabic) — those are commercial or Windows-
+  // only; Scheherazade New (SIL) is the open face closest to them.
+  classic: { family: "Tibyan Classic", regular: "ScheherazadeNew-Regular", bold: "ScheherazadeNew-Bold", size: "14pt", leading: "1.75" },
+  // A humanist sans, as in the university press standards that set Arabic
+  // books in Frutiger Arabic; IBM Plex Sans Arabic is the site's own face.
+  modern: { family: "Tibyan Modern", regular: "IBMPlexSansArabic-Regular", bold: "IBMPlexSansArabic-Bold", size: "11.5pt", leading: "1.85" },
+}
+
+function readSelection(): { books: string[]; schools: SchoolKey[]; font: BookFont } {
   const q = new URLSearchParams(window.location.search)
   const validBooks = new Set(categories.map((c) => c.id))
   const validSchools = new Set(schools.map((s) => s.key))
@@ -120,11 +133,12 @@ function readSelection(): { books: string[]; schools: SchoolKey[] } {
   return {
     books: categories.map((c) => c.id).filter((id) => books.includes(id)),
     schools: picked.length ? order.filter((k) => picked.includes(k)) : order,
+    font: q.get("font") === "modern" ? "modern" : "classic",
   }
 }
 
 export function PrintView({ lang }: { lang: Lang }) {
-  const [sel, setSel] = useState<{ books: string[]; schools: SchoolKey[] } | null>(null)
+  const [sel, setSel] = useState<{ books: string[]; schools: SchoolKey[]; font: BookFont } | null>(null)
   const [data, setData] = useState<Loaded | null>(null)
   const [pages, setPages] = useState<number | null>(null)
   const [failed, setFailed] = useState(false)
@@ -190,9 +204,10 @@ export function PrintView({ lang }: { lang: Lang }) {
         // Measure with the real face, or every line break moves after
         // the font arrives and the page numbers in the contents lie.
         if (isRtl) {
+          const f = FONTS[sel!.font]
           const faces = [
-            new FontFace("Tibyan Naskh", "url(/fonts/NotoNaskhArabic-Regular.woff2)", { weight: "400" }),
-            new FontFace("Tibyan Naskh", "url(/fonts/NotoNaskhArabic-Bold.woff2)", { weight: "700" }),
+            new FontFace(f.family, `url(/fonts/${f.regular}.woff2)`, { weight: "400" }),
+            new FontFace(f.family, `url(/fonts/${f.bold}.woff2)`, { weight: "700" }),
           ]
           await Promise.all(faces.map((f) => f.load().then(() => document.fonts.add(f))))
         }
@@ -203,7 +218,7 @@ export function PrintView({ lang }: { lang: Lang }) {
         flushSync(() => setCopied(true))
         const flow = await new Previewer().preview(
           tpl.content,
-          [{ [window.location.href]: bookCss(lang, book.footer) }],
+          [{ [window.location.href]: bookCss(lang, sel!.font) }],
           targetRef.current ?? undefined,
         )
         setPages(flow.total)
@@ -214,7 +229,7 @@ export function PrintView({ lang }: { lang: Lang }) {
         setFailed(true)
       }
     })()
-  }, [book, isRtl, lang])
+  }, [book, isRtl, lang, sel])
 
   // A4 is 794 CSS pixels wide; on a phone, scale the preview to the screen.
   // Print ignores this (globals.css resets zoom under @media print).
@@ -308,10 +323,10 @@ function loadPaged(): Promise<PagedGlobal> {
 /* ------------------------------------------------------------------ */
 
 function assemble(
-  sel: { books: string[]; schools: SchoolKey[] },
+  sel: { books: string[]; schools: SchoolKey[]; font: BookFont },
   data: Loaded,
   lang: Lang,
-): { content: ReactNode; footer: string; hasContent: boolean } {
+): { content: ReactNode; hasContent: boolean } {
   const allSchools = sel.schools.length === schools.length
   const chosen = schools.filter((s) => sel.schools.includes(s.key))
   const books = sel.books
@@ -347,7 +362,6 @@ function assemble(
   const versionLine = single
     ? ui.printVersion[lang].replace("{v}", books[0].edition.version)
     : books.map((b) => `${b.name} ${b.edition.version}`).join(" · ")
-  const footer = single ? `${title} · ${ui.printVersion[lang].replace("{v}", books[0].edition.version)}` : title
 
   // Glossary: the terms that actually occur in what is printed.
   const corpus = fold(
@@ -362,20 +376,27 @@ function assemble(
     })
     .sort((a, b) => a.term[lang].localeCompare(b.term[lang], lang))
 
-  // References: what the chosen schools cite here, with how often.
+  // References: each work gets one number, in the order it is first cited
+  // (as university presses number them — the Vancouver style). An entry then
+  // points at its works by number, (1)(3), and the list at the end resolves
+  // them. Counts are how many entries cite each.
+  const refNo = new Map<string, number>()
   const cited = new Map<string, number>()
   for (const i of included) {
     for (const s of chosen) {
-      for (const r of i.rulings[s.key]?.references ?? []) cited.set(r.ar, (cited.get(r.ar) ?? 0) + 1)
+      for (const r of i.rulings[s.key]?.references ?? []) {
+        if (!refNo.has(r.ar)) refNo.set(r.ar, refNo.size + 1)
+        cited.set(r.ar, (cited.get(r.ar) ?? 0) + 1)
+      }
     }
   }
-  const refsBySchool = chosen.map((s) => ({
-    school: s,
-    books: data.sources
-      .filter((b) => b.school === s.key && cited.has(b.ar))
-      .map((b) => ({ name: lang === "ar" ? b.ar : b[lang], ar: b.ar, n: cited.get(b.ar) ?? 0 }))
-      .sort((a, b) => b.n - a.n),
-  }))
+  const bibliography = [...refNo.entries()]
+    .sort((a, b) => a[1] - b[1])
+    .map(([ar, n]) => {
+      const src = data.sources.find((b) => b.ar === ar)
+      const school = src ? schools.find((x) => x.key === src.school) : undefined
+      return { n, ar, name: src ? (lang === "ar" ? src.ar : src[lang]) : ar, school, count: cited.get(ar) ?? 0 }
+    })
 
   const about = data.about.filter((b) => ["what", "sources", "grades"].includes(b.id))
   const notFatwa = data.about.find((b) => b.id === "notfatwa")
@@ -531,9 +552,9 @@ function assemble(
                       {i.title[lang]}
                       {chosen.length === 1 ? gradeNote(i, chosen[0].key, lang) : null}
                     </h3>
-                    {chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1))}
+                    {chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1, refNo))}
                   </div>
-                  {chosen.slice(1).map((s) => rulingPara(i, s, lang, true))}
+                  {chosen.slice(1).map((s) => rulingPara(i, s, lang, true, refNo))}
                 </article>
               ))}
             </div>
@@ -576,28 +597,23 @@ function assemble(
       <section className="appendix" id="references">
         <h2 className="part-title">{ui.printReferences[lang]}</h2>
         <p className="muted">{ui.printReferencesDesc[lang]}</p>
-        <div className="biblio">
-          {refsBySchool.map(({ school, books: rb }) =>
-            rb.length ? (
-              <div key={school.key} className="refs-school">
-                <h3>{lang === "ar" ? `كتب ${SCHOOL_PLURAL_AR[school.key]}` : school.name[lang]}</h3>
-                <ol>
-                  {rb.map((r) => (
-                    <li key={r.ar}>
-                      <span>{r.name}</span>
-                      <span className="refs-n">{r.n}</span>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            ) : null,
-          )}
-        </div>
+        <ol className="biblio">
+          {bibliography.map((r) => (
+            <li key={r.ar}>
+              <span className="bib-n">{r.n}</span>
+              <span className="bib-name">{r.name}</span>
+              {chosen.length > 1 && r.school ? (
+                <span className="bib-school">{lang === "ar" ? SCHOOL_PLURAL_AR[r.school.key] : r.school.name[lang]}</span>
+              ) : null}
+              <span className="refs-n">{r.count}</span>
+            </li>
+          ))}
+        </ol>
       </section>
     </>
   )
 
-  return { content, footer, hasContent }
+  return { content, hasContent }
 }
 
 /** The school as classical books name it at the head of its view. */
@@ -653,15 +669,15 @@ function gradeNote(i: FullIssue, k: SchoolKey, lang: Lang) {
 /**
  * One school's ruling as a paragraph, the way the classical comparative
  * books set it: the school's name run in at the head when there is more
- * than one, and the references in a numbered footnote at the foot of the
- * page rather than a line of their own under every ruling.
+ * than one. Its works are cited by their number in the list at the end —
+ * (1)(3) — small and raised, before the closing full stop.
  */
-function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named: boolean) {
+function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named: boolean, refNo: Map<string, number>) {
   const r = i.rulings[s.key]
   if (!r) return null
   const grade = [r.grade ? gradeLabels[r.grade]?.[lang] : null, r.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
   const label = lang === "ar" ? SCHOOL_PLURAL_AR[s.key] : s.name[lang]
-  // The footnote number goes before the closing full stop, as in print.
+  // The citation goes before the closing full stop, as in print.
   const m = r.ruling[lang].match(/^([\s\S]*?)([.!؟?»"]*)$/)
   const body = m ? m[1] : r.ruling[lang]
   const stop = m ? m[2] : ""
@@ -676,7 +692,12 @@ function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named
       ) : null}
       {body}
       {r.references.length ? (
-        <span className="fn">{r.references.map((x) => x[lang]).join(lang === "ar" ? "، " : ", ")}.</span>
+        <span className="cite" dir={rtlLangs.includes(lang) ? "rtl" : "ltr"}>
+          {[...new Set(r.references.map((x) => refNo.get(x.ar)).filter((n): n is number => n !== undefined))]
+            .sort((a, b) => a - b)
+            .map((n) => `(${n})`)
+            .join("")}
+        </span>
       ) : null}
       {stop}
     </p>
@@ -687,61 +708,51 @@ function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named
 /* The page style Paged.js applies.                                     */
 /* ------------------------------------------------------------------ */
 
-function bookCss(lang: Lang, footer: string): string {
+function bookCss(lang: Lang, font: BookFont): string {
   const rtl = rtlLangs.includes(lang)
-  const body = rtl ? `"Tibyan Naskh", "Noto Naskh Arabic", "Traditional Arabic", serif` : `Georgia, "Times New Roman", "Noto Serif", serif`
-  const esc = footer.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
+  const f = FONTS[font]
+  const body = rtl ? `"${f.family}", ${font === "modern" ? `"Helvetica Neue", Arial, sans-serif` : "serif"}` : font === "modern" ? `"Helvetica Neue", Arial, sans-serif` : `Georgia, "Times New Roman", "Noto Serif", serif`
   return `
 .pagedjs_pages, .pagedjs_page, .pagedjs_sheet, .pagedjs_pagebox, .pagedjs_area, .pagedjs_page_content { direction: ltr; }
 .pagedjs_page_content > div, .pagedjs_margin-content { direction: ${rtl ? "rtl" : "ltr"}; }
 
+/* Numbers at the foot, running head with the chapter; nothing else in the
+   margins. Front matter (cover, data page, contents) carries no number and
+   the count starts at 1 with the introduction, as the book proper begins. */
 @page {
   size: A4;
-  margin: 22mm 20mm 24mm 20mm;
-  counter-reset: footnote footnote-marker;
-  @footnote {
-    border-top: 0.3mm solid #555;
-    padding-top: 2mm;
-    margin-top: 5mm;
-  }
+  margin: 22mm 22mm 24mm 22mm;
   @top-center {
     content: string(chapter);
     font-family: ${body};
     font-size: 9.5pt;
-    color: #6b6b6b;
+    color: #555;
   }
   @bottom-center {
     content: counter(page);
     font-family: ${body};
-    font-size: 10pt;
-    color: #333;
-  }
-  @bottom-right {
-    content: "${rtl ? "" : esc}";
-    font-family: ${body};
-    font-size: 8pt;
-    color: #8a8a8a;
-  }
-  @bottom-left {
-    content: "${rtl ? esc : ""}";
-    font-family: ${body};
-    font-size: 8pt;
-    color: #8a8a8a;
+    font-size: 10.5pt;
+    color: #222;
   }
 }
 @page cover {
   margin: 0;
+  counter-increment: page 0;
   @top-center { content: none; }
   @bottom-center { content: none; }
-  @bottom-left { content: none; }
-  @bottom-right { content: none; }
 }
 @page front {
+  counter-increment: page 0;
   @top-center { content: none; }
+  @bottom-center { content: none; }
 }
 @page opener {
   @top-center { content: none; }
 }
+@page back {
+  @top-center { content: none; }
+}
+.appendix { page: back; }
 
 .cover, .colophon, .toc, .intro, .book-opener, .appendix { break-before: page; }
 .cover { page: cover; break-before: avoid; }
@@ -753,8 +764,8 @@ function bookCss(lang: Lang, footer: string): string {
 .cover, .front, .intro, .book, .appendix {
   font-family: ${body};
   color: #1a1a1a;
-  font-size: ${rtl ? "12pt" : "11pt"};
-  line-height: ${rtl ? "1.85" : "1.55"};
+  font-size: ${rtl ? f.size : "11pt"};
+  line-height: ${rtl ? f.leading : "1.55"};
   text-align: start;
   hyphens: auto;
 }
@@ -849,11 +860,8 @@ strong { font-weight: 700; }
 .ruling-school { font-weight: 700; }
 .ruling-grade { font-weight: 400; color: #555; font-size: 0.9em; }
 
-/* Footnotes: the references, numbered afresh on each page. */
-.fn { float: footnote; font-size: 9.5pt; line-height: 1.5; color: #333; text-align: start; font-weight: 400; }
-.fn::footnote-call { content: "(" counter(footnote) ")"; font-size: 0.62em; vertical-align: super; line-height: 0; unicode-bidi: isolate; padding-inline-start: 0.5mm; }
-.fn::footnote-marker { content: "(" counter(footnote-marker) ") "; unicode-bidi: isolate; }
-.pagedjs_footnote_area, .pagedjs_footnote_content, .pagedjs_footnote_inner_content { direction: ${rtl ? "rtl" : "ltr"}; text-align: start; }
+/* Citations: the works' numbers in the list at the end, small and raised. */
+.cite { font-size: 0.62em; vertical-align: super; line-height: 0; white-space: nowrap; unicode-bidi: isolate; padding-inline-start: 0.4mm; color: #333; }
 
 /* Appendices */
 .glossary { margin: 0; }
@@ -861,12 +869,11 @@ strong { font-weight: 700; }
 .term dt { font-weight: 700; font-size: 1.05em; }
 .term dd { margin: 0.5mm 0 0; }
 .term ul { margin: 1mm 0 0; padding-inline-start: 5mm; font-size: 0.92em; }
-.biblio { counter-reset: bib; }
-.refs-school { margin-bottom: 6mm; break-inside: avoid; }
-.refs-school h3 { font-size: 13pt; margin: 0 0 2mm; }
-.refs-school ol { list-style: none; padding: 0; margin: 0; }
-.refs-school li { display: flex; gap: 3mm; padding: 1.2mm 0; border-bottom: 0.2mm dotted #bbb; counter-increment: bib; }
-.refs-school li::before { content: counter(bib) "."; color: #555; min-width: 7mm; font-variant-numeric: tabular-nums; }
+.biblio { list-style: none; padding: 0; margin: 4mm 0 0; }
+.biblio li { display: flex; gap: 3mm; align-items: baseline; padding: 1.4mm 0; border-bottom: 0.2mm dotted #bbb; }
+.bib-n { min-width: 8mm; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bib-name { font-weight: 700; }
+.bib-school { color: #555; font-size: 0.9em; }
 .refs-n { margin-inline-start: auto; color: #555; font-variant-numeric: tabular-nums; }
 `
 }
