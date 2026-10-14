@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "taharah",
-      "planned": 121,
+      "planned": 122,
       "chapters": [
         {
           "name": "الأحكام",
@@ -13,7 +13,7 @@
         },
         {
           "name": "المياه",
-          "status": "✅",
+          "status": "⚠️",
           "planned": null,
           "written": 20,
           "refs": [
@@ -234,7 +234,7 @@
     },
     {
       "id": "salah",
-      "planned": 154,
+      "planned": 163,
       "chapters": [
         {
           "name": "الأذان والإقامة",
