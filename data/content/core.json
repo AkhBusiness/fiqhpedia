@@ -1611,6 +1611,223 @@
       "ru": "Все книги",
       "es": "Todos los libros",
       "uk": "Усі книги"
+    },
+    "printMakeBook": {
+      "ar": "كتاب PDF",
+      "en": "PDF book",
+      "ru": "Книга в PDF",
+      "es": "Libro en PDF",
+      "uk": "Книга в PDF"
+    },
+    "builderTitle": {
+      "ar": "اصنع كتابك",
+      "en": "Make your book",
+      "ru": "Соберите свою книгу",
+      "es": "Crea tu libro",
+      "uk": "Зберіть свою книгу"
+    },
+    "builderDesc": {
+      "ar": "اختر الكتب والمذاهب، فيُصفّ لك كتاب مرقّم الصفحات بفهرس ومراجع ومصطلحات، تحفظه PDF أو تطبعه.",
+      "en": "Pick the books and schools, and you get a typeset book with numbered pages, contents, references and terms — save it as PDF or print it.",
+      "ru": "Выберите книги и мазхабы — и получите свёрстанную книгу с нумерацией страниц, оглавлением, источниками и терминами. Сохраните её в PDF или распечатайте.",
+      "es": "Elige los libros y las escuelas y obtendrás un libro maquetado con páginas numeradas, índice, fuentes y términos: guárdalo en PDF o imprímelo.",
+      "uk": "Оберіть книги й мазгаби — і отримаєте зверстану книгу з нумерацією сторінок, змістом, джерелами й термінами. Збережіть її в PDF або надрукуйте."
+    },
+    "builderBooks": {
+      "ar": "الكتب",
+      "en": "Books",
+      "ru": "Книги",
+      "es": "Libros",
+      "uk": "Книги"
+    },
+    "builderSchools": {
+      "ar": "المذاهب",
+      "en": "Schools",
+      "ru": "Мазхабы",
+      "es": "Escuelas",
+      "uk": "Мазгаби"
+    },
+    "builderAllSchools": {
+      "ar": "الأربعة",
+      "en": "All four",
+      "ru": "Все четыре",
+      "es": "Las cuatro",
+      "uk": "Усі чотири"
+    },
+    "builderGo": {
+      "ar": "أنشئ الكتاب",
+      "en": "Make the book",
+      "ru": "Собрать книгу",
+      "es": "Crear el libro",
+      "uk": "Зібрати книгу"
+    },
+    "builderNeedOne": {
+      "ar": "اختر كتاباً ومذهباً على الأقل.",
+      "en": "Choose at least one book and one school.",
+      "ru": "Выберите хотя бы одну книгу и один мазхаб.",
+      "es": "Elige al menos un libro y una escuela.",
+      "uk": "Оберіть хоча б одну книгу й один мазгаб."
+    },
+    "printPreparing": {
+      "ar": "يُصفّ الكتاب…",
+      "en": "Typesetting the book…",
+      "ru": "Вёрстка книги…",
+      "es": "Maquetando el libro…",
+      "uk": "Верстка книги…"
+    },
+    "printPagesReady": {
+      "ar": "{n} صفحة",
+      "en": "{n} pages",
+      "ru": "{n} стр.",
+      "es": "{n} páginas",
+      "uk": "{n} стор."
+    },
+    "printSave": {
+      "ar": "حفظ PDF أو طباعة",
+      "en": "Save as PDF or print",
+      "ru": "Сохранить в PDF или печать",
+      "es": "Guardar PDF o imprimir",
+      "uk": "Зберегти PDF або друк"
+    },
+    "printSaveHint": {
+      "ar": "في نافذة الطباعة اختر «حفظ بتنسيق PDF». على الآيفون: مشاركة ← حفظ في الملفات.",
+      "en": "In the print dialog choose “Save as PDF”. On iPhone: Share → Save to Files.",
+      "ru": "В окне печати выберите «Сохранить как PDF». На iPhone: «Поделиться» → «Сохранить в Файлы».",
+      "es": "En el diálogo de impresión elige «Guardar como PDF». En iPhone: Compartir → Guardar en Archivos.",
+      "uk": "У вікні друку оберіть «Зберегти як PDF». На iPhone: «Поділитися» → «Зберегти у Файли»."
+    },
+    "printBack": {
+      "ar": "رجوع",
+      "en": "Back",
+      "ru": "Назад",
+      "es": "Volver",
+      "uk": "Назад"
+    },
+    "printBookTitle": {
+      "ar": "كتاب {book}",
+      "en": "The Book of {book}",
+      "ru": "Книга: {book}",
+      "es": "Libro de {book}",
+      "uk": "Книга: {book}"
+    },
+    "printCollection": {
+      "ar": "مختارات من تبيان",
+      "en": "Selections from Tibyān",
+      "ru": "Избранное из «Тибьяна»",
+      "es": "Selección de Tibyān",
+      "uk": "Вибране з «Тібьяна»"
+    },
+    "printAllSchools": {
+      "ar": "على المذاهب الأربعة",
+      "en": "According to the four schools",
+      "ru": "По четырём мазхабам",
+      "es": "Según las cuatro escuelas",
+      "uk": "За чотирма мазгабами"
+    },
+    "printSomeSchools": {
+      "ar": "على مذهب: {list}",
+      "en": "According to: {list}",
+      "ru": "По мазхабу: {list}",
+      "es": "Según: {list}",
+      "uk": "За мазгабом: {list}"
+    },
+    "printVersion": {
+      "ar": "الإصدار {v}",
+      "en": "Version {v}",
+      "ru": "Версия {v}",
+      "es": "Versión {v}",
+      "uk": "Версія {v}"
+    },
+    "printDraftNote": {
+      "ar": "إصدار تجريبي: كُتب {w} مسألة من {p} مخطّطة. الفصول الناقصة تُضاف في الإصدارات القادمة.",
+      "en": "Preliminary edition: {w} of {p} planned entries written. Missing chapters will be added in later versions.",
+      "ru": "Предварительное издание: написано {w} из {p} запланированных вопросов. Недостающие главы появятся в следующих версиях.",
+      "es": "Edición preliminar: escritas {w} de {p} cuestiones previstas. Los capítulos que faltan se añadirán en próximas versiones.",
+      "uk": "Попереднє видання: написано {w} з {p} запланованих питань. Відсутні розділи з’являться в наступних версіях."
+    },
+    "printCompleteNote": {
+      "ar": "الطبعة الأولى: كُتبت مسائل الكتاب المخطّطة كلّها.",
+      "en": "First edition: every planned entry of this book has been written.",
+      "ru": "Первое издание: написаны все запланированные вопросы книги.",
+      "es": "Primera edición: se han escrito todas las cuestiones previstas del libro.",
+      "uk": "Перше видання: написано всі заплановані питання книги."
+    },
+    "printContentDate": {
+      "ar": "المحتوى محدَّث حتى {date}",
+      "en": "Content current to {date}",
+      "ru": "Содержание актуально на {date}",
+      "es": "Contenido actualizado a {date}",
+      "uk": "Зміст актуальний на {date}"
+    },
+    "printPrintedOn": {
+      "ar": "صُفّ في {date}",
+      "en": "Typeset on {date}",
+      "ru": "Свёрстано {date}",
+      "es": "Maquetado el {date}",
+      "uk": "Зверстано {date}"
+    },
+    "printContents": {
+      "ar": "الفهرس",
+      "en": "Contents",
+      "ru": "Оглавление",
+      "es": "Índice",
+      "uk": "Зміст"
+    },
+    "printIntro": {
+      "ar": "مقدّمة",
+      "en": "Introduction",
+      "ru": "Введение",
+      "es": "Introducción",
+      "uk": "Вступ"
+    },
+    "printPlan": {
+      "ar": "فصول الكتاب",
+      "en": "Chapters of this book",
+      "ru": "Главы книги",
+      "es": "Capítulos del libro",
+      "uk": "Розділи книги"
+    },
+    "printUpcoming": {
+      "ar": "قادم",
+      "en": "coming",
+      "ru": "скоро",
+      "es": "próximamente",
+      "uk": "скоро"
+    },
+    "printGlossary": {
+      "ar": "المصطلحات",
+      "en": "Terms",
+      "ru": "Термины",
+      "es": "Términos",
+      "uk": "Терміни"
+    },
+    "printReferences": {
+      "ar": "المراجع",
+      "en": "References",
+      "ru": "Источники",
+      "es": "Referencias",
+      "uk": "Джерела"
+    },
+    "printReferencesDesc": {
+      "ar": "الكتب التي نُسبت إليها أحكام هذا الكتاب، وعدد المسائل التي يُستشهد فيها بكلٍّ منها.",
+      "en": "The works this book’s rulings are attributed to, with the number of entries citing each.",
+      "ru": "Труды, к которым возводятся решения этой книги, и число вопросов, где цитируется каждый.",
+      "es": "Las obras a las que se atribuyen los dictámenes de este libro y el número de cuestiones que cita cada una.",
+      "uk": "Праці, до яких зводяться рішення цієї книги, і кількість питань, де цитується кожна."
+    },
+    "printQrHint": {
+      "ar": "امسح الرمز بجانب كل مسألة لتقرأها بآخر تحديث على الموقع.",
+      "en": "Scan the code beside each entry to read its latest version on the site.",
+      "ru": "Отсканируйте код рядом с вопросом, чтобы прочитать его последнюю версию на сайте.",
+      "es": "Escanea el código junto a cada cuestión para leer su última versión en el sitio.",
+      "uk": "Скануйте код поруч із питанням, щоб прочитати його останню версію на сайті."
+    },
+    "printNoContent": {
+      "ar": "لا مسائل في ما اخترت.",
+      "en": "Nothing to print in this selection.",
+      "ru": "В выбранном нет вопросов.",
+      "es": "No hay cuestiones en esta selección.",
+      "uk": "У вибраному немає питань."
     }
   },
   "books": [

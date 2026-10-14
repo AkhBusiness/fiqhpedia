@@ -369,3 +369,57 @@ html:not(.dark) .hover\:text-white:hover {
   border-color: var(--primary);
   }
 
+
+/* ── Print view (/[lang]/print): Paged.js pages on screen, bare on paper ── */
+@media screen {
+  .print-target .pagedjs_pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0 48px;
+  }
+  .print-target .pagedjs_page {
+    background: #fff;
+    box-shadow: 0 2px 14px rgb(0 0 0 / 0.18);
+  }
+}
+@media print {
+  .print-toolbar {
+    display: none !important;
+  }
+  html,
+  body,
+  .print-root {
+    background: #fff !important;
+  }
+  /* The site guards against sideways scroll with overflow-x on the root.
+     That turns body into a scroll box, and Paged.js pins body to one page
+     tall in print — so only the cover printed. Let it all flow. */
+  html:has(.print-root),
+  html:has(.print-root) body {
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+  .print-target {
+    zoom: 1 !important;
+  }
+  /* Paged.js sizes each page as 100% of the page box, which assumes its
+     pages sit directly in <body>. Here they sit inside the print view, so
+     the percentage resolved against an auto height and every page after
+     the first printed blank. Pin them to A4. */
+  .print-target .pagedjs_pages {
+    height: auto !important;
+    max-height: none !important;
+  }
+  .print-target .pagedjs_page:last-child {
+    break-after: auto !important;
+    page-break-after: auto !important;
+  }
+  .print-target .pagedjs_page {
+    height: 297mm !important;
+    min-height: 297mm !important;
+    max-height: 297mm !important;
+  }
+}

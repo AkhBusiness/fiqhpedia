@@ -6,6 +6,7 @@ import booksJson from "@/data/books.json"
 import { categories, displayRef, type Lang, type Localized, rtlLangs, ui } from "@/lib/fiqh-data"
 import { issues } from "@/lib/fiqh-index"
 import { entryPath } from "@/lib/site"
+import { BookBuilderButton } from "@/components/book-builder"
 
 interface PlanChapter {
   name: string
@@ -75,7 +76,13 @@ export function BookView({ bookId, lang }: { bookId: string; lang: Lang }) {
           <div className="h-full rounded-full bg-emerald-600 dark:bg-emerald-500" style={{ width: `${pct}%` }} />
         </div>
       ) : null}
-      {written === 0 ? <p className="mt-4 text-sm text-muted-foreground">{ui.bookEmptyBody[lang]}</p> : null}
+      {written === 0 ? (
+        <p className="mt-4 text-sm text-muted-foreground">{ui.bookEmptyBody[lang]}</p>
+      ) : (
+        <div className="mt-5">
+          <BookBuilderButton lang={lang} initialBook={bookId} />
+        </div>
+      )}
 
       <h2 className="mt-10 text-lg font-bold text-foreground sm:text-xl">{ui.bookMapTitle[lang]}</h2>
       <p className="mt-1 text-sm text-muted-foreground">{ui.bookMapDesc[lang]}</p>

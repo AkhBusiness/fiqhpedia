@@ -8,6 +8,7 @@ import { FilterBar } from "@/components/filter-bar"
 import { IssueRow } from "@/components/issue-row"
 import type { Section } from "@/components/nav-modal"
 import { ViewModeToggle } from "@/components/view-mode-toggle"
+import { BookBuilderButton } from "@/components/book-builder"
 import { useAppState } from "@/components/app-state"
 import { useBookmarks } from "@/hooks/use-bookmarks"
 import { categories, issueMatchesQuery, type Lang, ui } from "@/lib/fiqh-data"
@@ -165,6 +166,9 @@ export function FiqhSection({ lang, go, filterLabel, onOpenSchoolModal }: FiqhSe
               </div>
 
               <div className="flex flex-wrap items-center gap-2">
+                {scope !== "saved" && !(searching && searchScope === "all") && (counts[activeCategory] ?? 0) > 0 ? (
+                  <BookBuilderButton lang={lang} initialBook={activeCategory} />
+                ) : null}
                 <ViewModeToggle lang={lang} value={viewMode} onChange={setViewMode} />
                 {filter.mode !== "all" ? (
                   <button
