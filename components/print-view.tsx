@@ -191,8 +191,8 @@ export function PrintView({ lang }: { lang: Lang }) {
         // the font arrives and the page numbers in the contents lie.
         if (isRtl) {
           const faces = [
-            new FontFace("Amiri", "url(/fonts/Amiri-Regular.woff2)", { weight: "400" }),
-            new FontFace("Amiri", "url(/fonts/Amiri-Bold.woff2)", { weight: "700" }),
+            new FontFace("Tibyan Naskh", "url(/fonts/NotoNaskhArabic-Regular.woff2)", { weight: "400" }),
+            new FontFace("Tibyan Naskh", "url(/fonts/NotoNaskhArabic-Bold.woff2)", { weight: "700" }),
           ]
           await Promise.all(faces.map((f) => f.load().then(() => document.fonts.add(f))))
         }
@@ -336,9 +336,7 @@ function assemble(
   const hasContent = books.length > 0
   const single = books.length === 1
   const title = single ? ui.printBookTitle[lang].replace("{book}", books[0].name) : ui.printCollection[lang]
-  const schoolsLine = allSchools
-    ? ui.printAllSchools[lang]
-    : ui.printSomeSchools[lang].replace("{list}", chosen.map((s) => s.name[lang]).join(" · "))
+  const schoolsLine = schoolsPhrase(lang, chosen.map((s) => s.key), allSchools)
   const included = books.flatMap((b) => b.issues)
   const contentDate = included
     .map((i) => [i.addedAt, i.revisedAt].filter(Boolean) as string[])
@@ -456,7 +454,7 @@ function assemble(
                       {ch.issues.map((i) => (
                         <li key={i.id} className="toc-issue">
                           <a href={`#is-${i.ref}`}>
-                            <span className="toc-ref">{displayRef(i.ref, lang)}</span> {i.title[lang]}
+                            {i.title[lang]}
                           </a>
                         </li>
                       ))}
@@ -525,19 +523,17 @@ function assemble(
                 <article key={i.id} className="issue" id={`is-${i.ref}`}>
                   {/* The heading travels with its first ruling: a title alone
                       at the foot of a page, its answer overleaf, reads as a
-                      misprint. */}
+                      misprint. No ref and no question line: the QR carries
+                      the address, and the title already is the question. */}
                   <div className="issue-lead">
-                    <header className="issue-head">
-                      <div className="issue-qr" dangerouslySetInnerHTML={{ __html: qrSvg(entryUrl(lang, i.ref)) }} />
-                      <div className="issue-head-text">
-                        <span className="issue-ref">{displayRef(i.ref, lang)}</span>
-                        <h3 className="issue-title">{i.title[lang]}</h3>
-                        <p className="issue-summary">{i.summary[lang]}</p>
-                      </div>
-                    </header>
-                    {chosen.slice(0, 1).map((s) => rulingBlock(i, s, lang))}
+                    <div className="issue-qr" dangerouslySetInnerHTML={{ __html: qrSvg(entryUrl(lang, i.ref)) }} />
+                    <h3 className="issue-title">
+                      {i.title[lang]}
+                      {chosen.length === 1 ? gradeNote(i, chosen[0].key, lang) : null}
+                    </h3>
+                    {chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1))}
                   </div>
-                  {chosen.slice(1).map((s) => rulingBlock(i, s, lang))}
+                  {chosen.slice(1).map((s) => rulingPara(i, s, lang, true))}
                 </article>
               ))}
             </div>
@@ -580,21 +576,23 @@ function assemble(
       <section className="appendix" id="references">
         <h2 className="part-title">{ui.printReferences[lang]}</h2>
         <p className="muted">{ui.printReferencesDesc[lang]}</p>
-        {refsBySchool.map(({ school, books: rb }) =>
-          rb.length ? (
-            <div key={school.key} className="refs-school">
-              <h3 style={{ color: SCHOOL_HEX[school.key] }}>{school.name[lang]}</h3>
-              <ul>
-                {rb.map((r) => (
-                  <li key={r.ar}>
-                    <span>{r.name}</span>
-                    <span className="refs-n">{r.n}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null,
-        )}
+        <div className="biblio">
+          {refsBySchool.map(({ school, books: rb }) =>
+            rb.length ? (
+              <div key={school.key} className="refs-school">
+                <h3>{lang === "ar" ? `كتب ${SCHOOL_PLURAL_AR[school.key]}` : school.name[lang]}</h3>
+                <ol>
+                  {rb.map((r) => (
+                    <li key={r.ar}>
+                      <span>{r.name}</span>
+                      <span className="refs-n">{r.n}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ) : null,
+          )}
+        </div>
       </section>
     </>
   )
@@ -602,24 +600,86 @@ function assemble(
   return { content, footer, hasContent }
 }
 
-function rulingBlock(i: FullIssue, s: (typeof schools)[number], lang: Lang) {
+/** The school as classical books name it at the head of its view. */
+const SCHOOL_PLURAL_AR: Record<SchoolKey, string> = {
+  hanafi: "الحنفية",
+  maliki: "المالكية",
+  shafii: "الشافعية",
+  hanbali: "الحنابلة",
+}
+
+/** "على معتمد المذهب الحنبلي" — the line under the title, per language. */
+function schoolsPhrase(lang: Lang, keys: SchoolKey[], all: boolean): string {
+  const names = keys.map((k) => schools.find((s) => s.key === k)!.name[lang])
+  const andJoin = (xs: string[], and: string, comma = ", ") =>
+    xs.length < 2 ? xs[0] ?? "" : `${xs.slice(0, -1).join(comma)}${and}${xs[xs.length - 1]}`
+  const gen = (n: string) => n.toLowerCase().replace(/ий$/, "ого") // ханбалитский → ханбалитского
+  switch (lang) {
+    case "ar":
+      if (all) return "على معتمد المذاهب الأربعة"
+      if (names.length === 1) return `على معتمد المذهب ${names[0]}`
+      if (names.length === 2) return `على معتمد المذهبين ${names[0]} و${names[1]}`
+      return `على معتمد المذاهب ${andJoin(names, " و", "، ")}`
+    case "en":
+      if (all) return "The authoritative positions of the four schools"
+      return names.length === 1
+        ? `The authoritative position of the ${names[0]} school`
+        : `The authoritative positions of the ${andJoin(names, " and ")} schools`
+    case "es":
+      if (all) return "Según la doctrina autorizada de las cuatro escuelas"
+      return names.length === 1
+        ? `Según la doctrina autorizada de la escuela ${names[0].toLowerCase()}`
+        : `Según la doctrina autorizada de las escuelas ${andJoin(names.map((n) => n.toLowerCase()), " y ")}`
+    case "ru":
+      if (all) return "По муʿтамаду четырёх мазхабов"
+      return names.length === 1
+        ? `По муʿтамаду ${gen(names[0])} мазхаба`
+        : `По муʿтамаду ${andJoin(names.map(gen), " и ")} мазхабов`
+    case "uk":
+      if (all) return "За муʿтамадом чотирьох мазгабів"
+      return names.length === 1
+        ? `За муʿтамадом ${gen(names[0])} мазгабу`
+        : `За муʿтамадом ${andJoin(names.map(gen), " і ")} мазгабів`
+  }
+}
+
+/** "(واجب)" after the title, when one school is printed. */
+function gradeNote(i: FullIssue, k: SchoolKey, lang: Lang) {
+  const r = i.rulings[k]
+  const parts = [r?.grade ? gradeLabels[r.grade]?.[lang] : null, r?.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
+  return parts.length ? <span className="issue-grade"> ({parts.join("، ")})</span> : null
+}
+
+/**
+ * One school's ruling as a paragraph, the way the classical comparative
+ * books set it: the school's name run in at the head when there is more
+ * than one, and the references in a numbered footnote at the foot of the
+ * page rather than a line of their own under every ruling.
+ */
+function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named: boolean) {
   const r = i.rulings[s.key]
   if (!r) return null
-  const grade = r.grade ? gradeLabels[r.grade]?.[lang] : null
-  const nature = r.nature ? natureLabels[r.nature]?.[lang] : null
+  const grade = [r.grade ? gradeLabels[r.grade]?.[lang] : null, r.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
+  const label = lang === "ar" ? SCHOOL_PLURAL_AR[s.key] : s.name[lang]
+  // The footnote number goes before the closing full stop, as in print.
+  const m = r.ruling[lang].match(/^([\s\S]*?)([.!؟?»"]*)$/)
+  const body = m ? m[1] : r.ruling[lang]
+  const stop = m ? m[2] : ""
   return (
-    <div key={s.key} className="ruling" style={{ borderInlineStartColor: SCHOOL_HEX[s.key] }}>
-      <p className="ruling-school" style={{ color: SCHOOL_HEX[s.key] }}>
-        {s.name[lang]}
-        {grade || nature ? <span className="ruling-grade"> · {[grade, nature].filter(Boolean).join(" · ")}</span> : null}
-      </p>
-      <p className="ruling-text">{r.ruling[lang]}</p>
-      {r.references.length ? (
-        <p className="ruling-refs">
-          {ui.reference[lang]}: {r.references.map((x) => x[lang]).join(" — ")}
-        </p>
+    <p key={s.key} className="ruling-text">
+      {named ? (
+        <strong className="ruling-school" style={{ color: SCHOOL_HEX[s.key] }}>
+          {label}
+          {grade.length ? <span className="ruling-grade"> ({grade.join(lang === "ar" ? "، " : ", ")})</span> : null}
+          {lang === "ar" ? ": " : ": "}
+        </strong>
       ) : null}
-    </div>
+      {body}
+      {r.references.length ? (
+        <span className="fn">{r.references.map((x) => x[lang]).join(lang === "ar" ? "، " : ", ")}.</span>
+      ) : null}
+      {stop}
+    </p>
   )
 }
 
@@ -629,7 +689,7 @@ function rulingBlock(i: FullIssue, s: (typeof schools)[number], lang: Lang) {
 
 function bookCss(lang: Lang, footer: string): string {
   const rtl = rtlLangs.includes(lang)
-  const body = rtl ? `"Amiri", "Traditional Arabic", serif` : `Georgia, "Times New Roman", "Noto Serif", serif`
+  const body = rtl ? `"Tibyan Naskh", "Noto Naskh Arabic", "Traditional Arabic", serif` : `Georgia, "Times New Roman", "Noto Serif", serif`
   const esc = footer.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
   return `
 .pagedjs_pages, .pagedjs_page, .pagedjs_sheet, .pagedjs_pagebox, .pagedjs_area, .pagedjs_page_content { direction: ltr; }
@@ -638,6 +698,12 @@ function bookCss(lang: Lang, footer: string): string {
 @page {
   size: A4;
   margin: 22mm 20mm 24mm 20mm;
+  counter-reset: footnote footnote-marker;
+  @footnote {
+    border-top: 0.3mm solid #555;
+    padding-top: 2mm;
+    margin-top: 5mm;
+  }
   @top-center {
     content: string(chapter);
     font-family: ${body};
@@ -679,7 +745,7 @@ function bookCss(lang: Lang, footer: string): string {
 
 .cover, .colophon, .toc, .intro, .book-opener, .appendix { break-before: page; }
 .cover { page: cover; break-before: avoid; }
-.colophon, .toc, .intro { break-after: page; }
+.colophon { break-after: page; }
 .colophon, .toc { page: front; }
 .book-opener { page: opener; }
 
@@ -687,8 +753,8 @@ function bookCss(lang: Lang, footer: string): string {
 .cover, .front, .intro, .book, .appendix {
   font-family: ${body};
   color: #1a1a1a;
-  font-size: ${rtl ? "12.5pt" : "11pt"};
-  line-height: ${rtl ? "1.75" : "1.55"};
+  font-size: ${rtl ? "12pt" : "11pt"};
+  line-height: ${rtl ? "1.85" : "1.55"};
   text-align: start;
   hyphens: auto;
 }
@@ -747,40 +813,47 @@ strong { font-weight: 700; }
 
 /* Intro */
 .intro-block { margin-bottom: 6mm; }
+.intro-block p, .colophon-note p { text-align: justify; }
 .intro-block h3 { font-size: 13pt; margin: 0 0 2mm; }
 
 /* Book opener */
-.book-title { font-size: 28pt; font-weight: 700; margin: 30mm 0 4mm; string-set: chapter content(text); }
-.book-edition { color: #555; font-size: 11pt; margin-bottom: 14mm; }
-.plan-title { font-size: 13pt; margin: 0 0 3mm; }
-.plan-list { padding: 0; margin: 0; list-style: none; counter-reset: plan; }
+.book-opener { text-align: center; }
+.book-title { font-size: 30pt; font-weight: 700; margin: 34mm 0 4mm; string-set: chapter content(text); }
+.book-title::after { content: ""; display: block; width: 50mm; margin: 5mm auto 0; border-top: 0.5mm solid #1a1a1a; }
+.book-edition { color: #555; font-size: 10.5pt; margin-bottom: 14mm; }
+.plan-title { font-size: 13pt; margin: 0 0 3mm; text-align: start; }
+.plan-list { padding: 0; margin: 0; list-style: none; counter-reset: plan; text-align: start; }
 .plan-list li { display: flex; gap: 3mm; padding: 1.4mm 0; border-bottom: 0.2mm dotted #bbb; counter-increment: plan; }
 .plan-list li::before { content: counter(plan); color: #888; min-width: 6mm; font-variant-numeric: tabular-nums; }
 .plan-count { margin-inline-start: auto; color: #555; font-variant-numeric: tabular-nums; }
 .plan-empty { color: #8a8a8a; }
 
-/* Chapters and entries */
+/* Chapters and entries — set as the classical books are: a centred
+   chapter head, run-on entries, references in footnotes. */
 .chapter-title {
   string-set: chapter content(text);
-  font-size: 17pt; font-weight: 700; margin: 10mm 0 5mm;
-  padding: 2.5mm 0; border-top: 0.6mm solid #1a1a1a; border-bottom: 0.2mm solid #1a1a1a;
+  text-align: center;
+  font-size: 22pt; font-weight: 700; margin: 12mm 0 8mm; line-height: 1.4;
   break-after: avoid;
 }
-.chapter:first-of-type .chapter-title { margin-top: 0; }
-.issue { margin: 0 0 8mm; }
+.chapter-title::after { content: ""; display: block; width: 36mm; margin: 3mm auto 0; border-top: 0.4mm solid #1a1a1a; }
+.chapter:first-of-type .chapter-title { margin-top: 4mm; }
+.issue { margin: 0 0 6mm; }
+.issue::after { content: ""; display: block; clear: both; }
 .issue-lead { break-inside: avoid; }
-.issue-head { display: flex; gap: 4mm; align-items: flex-start; margin-bottom: 2.5mm; }
-.issue-qr { width: 15mm; height: 15mm; flex: none; }
-.issue-qr svg { width: 15mm; height: 15mm; display: block; }
-.issue-head-text { flex: 1; min-width: 0; }
-.issue-ref { font-size: 9.5pt; color: #666; font-variant-numeric: tabular-nums; }
-.issue-title { font-size: ${rtl ? "14.5pt" : "13pt"}; font-weight: 700; margin: 0.5mm 0 1mm; line-height: 1.4; }
-.issue-summary { color: #444; font-size: 0.95em; margin: 0; }
-.ruling { border-inline-start: 1.2mm solid #999; padding: 1.5mm 0; padding-inline-start: 4mm; margin: 0 0 3mm; break-inside: avoid; }
-.ruling-school { font-weight: 700; font-size: 0.92em; margin: 0 0 0.6mm; }
-.ruling-grade { color: #444; font-weight: 400; }
-.ruling-text { margin: 0 0 1mm; }
-.ruling-refs { font-size: 0.82em; color: #666; margin: 0; }
+.issue-qr { float: ${rtl ? "left" : "right"}; width: 12mm; height: 12mm; margin-${rtl ? "right" : "left"}: 4mm; margin-bottom: 1mm; }
+.issue-qr svg { width: 12mm; height: 12mm; display: block; }
+.issue-title { font-size: ${rtl ? "14pt" : "12.5pt"}; font-weight: 700; margin: 0 0 1.5mm; line-height: 1.5; }
+.issue-grade { font-size: 0.78em; font-weight: 400; color: #555; }
+.ruling-text { margin: 0 0 2mm; text-align: justify; }
+.ruling-school { font-weight: 700; }
+.ruling-grade { font-weight: 400; color: #555; font-size: 0.9em; }
+
+/* Footnotes: the references, numbered afresh on each page. */
+.fn { float: footnote; font-size: 9.5pt; line-height: 1.5; color: #333; text-align: start; font-weight: 400; }
+.fn::footnote-call { content: "(" counter(footnote) ")"; font-size: 0.62em; vertical-align: super; line-height: 0; unicode-bidi: isolate; padding-inline-start: 0.5mm; }
+.fn::footnote-marker { content: "(" counter(footnote-marker) ") "; unicode-bidi: isolate; }
+.pagedjs_footnote_area, .pagedjs_footnote_content, .pagedjs_footnote_inner_content { direction: ${rtl ? "rtl" : "ltr"}; text-align: start; }
 
 /* Appendices */
 .glossary { margin: 0; }
@@ -788,10 +861,12 @@ strong { font-weight: 700; }
 .term dt { font-weight: 700; font-size: 1.05em; }
 .term dd { margin: 0.5mm 0 0; }
 .term ul { margin: 1mm 0 0; padding-inline-start: 5mm; font-size: 0.92em; }
+.biblio { counter-reset: bib; }
 .refs-school { margin-bottom: 6mm; break-inside: avoid; }
 .refs-school h3 { font-size: 13pt; margin: 0 0 2mm; }
-.refs-school ul { list-style: none; padding: 0; margin: 0; }
-.refs-school li { display: flex; padding: 1.2mm 0; border-bottom: 0.2mm dotted #bbb; }
+.refs-school ol { list-style: none; padding: 0; margin: 0; }
+.refs-school li { display: flex; gap: 3mm; padding: 1.2mm 0; border-bottom: 0.2mm dotted #bbb; counter-increment: bib; }
+.refs-school li::before { content: counter(bib) "."; color: #555; min-width: 7mm; font-variant-numeric: tabular-nums; }
 .refs-n { margin-inline-start: auto; color: #555; font-variant-numeric: tabular-nums; }
 `
 }
