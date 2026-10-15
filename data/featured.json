@@ -1,68 +1,68 @@
 {
   "featured": {
-    "ref": "F59",
-    "id": "sawm-9",
-    "bookId": "sawm",
+    "ref": "F111",
+    "id": "nikah-4",
+    "bookId": "nikah",
     "chapter": {
-      "ar": "المفطرات",
-      "en": "The Invalidators of the Fast",
-      "ru": "Нарушители поста",
-      "es": "Los invalidadores del ayuno",
-      "uk": "Порушники посту"
+      "ar": "باب الخطبة",
+      "en": "Chapter on the Betrothal",
+      "ru": "Раздел о сватовстве",
+      "es": "Capítulo sobre el compromiso matrimonial",
+      "uk": "Розділ про сватання"
     },
     "title": {
-      "ar": "حكم التدخين وما يُستنشق عمداً في نهار الصيام",
-      "en": "Ruling on Smoking and What is Intentionally Inhaled During the Day of Fasting",
-      "ru": "Постановление о курении и том, что намеренно вдыхается во время поста",
-      "es": "Norma sobre fumar y lo que se inhala intencionalmente durante el ayuno",
-      "uk": "Постанова про куріння та те, що навмисно вдихається під час посту"
+      "ar": "حكم النظر إلى المخطوبة وحدوده",
+      "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
+      "ru": "Взгляд на ту, к которой сватаются, и его пределы",
+      "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
+      "uk": "Погляд на ту, до якої сватаються, та його межі"
     },
     "summary": {
-      "ar": "ما حكم تدخين الدخان واستنشاق الأبخرة عمداً في نهار رمضان، وهل يفسد الصيام؟",
-      "en": "What is the ruling on smoking and intentionally inhaling vapors and smoke during the day of Ramadan, and does it invalidate the fast?",
-      "ru": "Каково постановление о курении и намеренном вдыхании паров и дыма днём в Рамадан, и портит ли это пост?",
-      "es": "¿Cuál es la norma sobre fumar e inhalar intencionalmente vapores y humo durante el día de Ramadán, e invalida el ayuno?",
-      "uk": "Яка постанова про куріння та навмисне вдихання парів і диму вдень у Рамадан, і чи псує це піст?"
+      "ar": "ما حكم نظر الخاطب إلى مخطوبته قبل العقد، وما الذي يُباح له النظر إليه؟",
+      "en": "What is the ruling on a suitor looking at the woman he seeks to marry before the contract, and what may he look at?",
+      "ru": "Каково постановление о взгляде свата на ту, к которой он сватается, до договора, и на что ему дозволено смотреть?",
+      "es": "¿Cuál es la norma sobre que el pretendiente mire a la mujer antes del contrato, y qué le es lícito mirar?",
+      "uk": "Яка постанова про погляд свата на ту, до якої він сватається, до договору, і на що йому дозволено дивитися?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "haram",
+        "grade": "mandub",
         "lead": {
-          "ar": "يفسد الصيام بوصول الدخان أو ما يُستنشق عمداً إلى الجوف إذا كان ذا جِرْم",
-          "en": "The fast is invalidated by the intentional arrival of smoke or an inhaled substance into the body cavity if it has substance",
-          "ru": "Пост нарушается при намеренном попадании дыма или вдыхаемого вещества в полость тела",
-          "es": "El ayuno se invalida por la llegada intencional de humo o de una sustancia inhalada a la cavidad corporal si tiene sustancia",
-          "uk": "Піст порушується при навмисному потраплянні диму або вдихуваної речовини у порожнину тіла"
+          "ar": "يُندب للخاطب أن ينظر إلى مخطوبته",
+          "en": "It is recommended that a suitor look at the woman he seeks to marry",
+          "ru": "Свату желательно посмотреть на ту",
+          "es": "Se recomienda al pretendiente mirar a la mujer con quien pretende casarse",
+          "uk": "Сватові бажано подивитися на ту"
         }
       },
       "maliki": {
-        "grade": "haram",
+        "grade": "mandub",
         "lead": {
-          "ar": "يُفطر الصائم بوصول الدخان والبخور وسائر ما يُستنشق عمداً إلى الحلق والجوف",
-          "en": "The fasting person breaks their fast by the arrival of smoke",
-          "ru": "Постящийся портит свой пост при попадании дыма",
-          "es": "El ayunante rompe su ayuno con la llegada de humo",
-          "uk": "Постувальник псує свій піст при потраплянні диму"
+          "ar": "يُندب النظر إلى المخطوبة بإذنها أو بغير إذنها",
+          "en": "It is recommended to look at the woman one seeks to marry",
+          "ru": "Желательно посмотреть на ту, к которой сватаются, с её позволения или без него, и взгляд ограничивается лицом и кистями рук с обеих сторон",
+          "es": "Se recomienda mirar a la mujer a quien se pretende",
+          "uk": "Бажано подивитися на ту, до якої сватаються, з її дозволу чи без нього, і погляд обмежується обличчям та кистями рук з обох боків"
         }
       },
       "shafii": {
-        "grade": "haram",
+        "grade": "sunnah",
         "lead": {
-          "ar": "يبطل الصيام بوصول أيّ عين من الأعيان (كالدخان والبخور وما يُستنشق ممّا له جِرْم) إلى الجوف من منفذ مفتوح عمداً.",
-          "en": "The fast is invalidated by the intentional arrival of any physical substance (such as smoke",
-          "ru": "Пост аннулируется при намеренном попадании любого материального вещества (как дым",
-          "es": "El ayuno se invalida con la llegada intencional de cualquier sustancia física (como humo",
-          "uk": "Піст анулюється при навмисному потраплянні будь-якої матеріальної речовини (як дим"
+          "ar": "يُسنّ للخاطب النظر إلى المخطوبة قبل الخطبة ولو بغير إذنها",
+          "en": "It is a sunnah for a suitor to look at the woman before making his offer",
+          "ru": "Свату сунна посмотреть на ту",
+          "es": "Es sunnah que el pretendiente mire a la mujer antes de la petición",
+          "uk": "Сватові сунна подивитися на ту"
         }
       },
       "hanbali": {
-        "grade": "haram",
+        "grade": "sunnah",
         "lead": {
-          "ar": "يُفطر الصائم بتدخين الدخان وما يُستنشق عمداً إذا وصل إلى الجوف",
-          "en": "The fasting person breaks their fast by smoking and intentional inhalation if it reaches the body cavity",
-          "ru": "Постящийся портит пост курением и намеренным вдыханием при попадании в полость тела",
-          "es": "El ayunante rompe su ayuno al fumar y con la inhalación intencional si llega a la cavidad corporal",
-          "uk": "Постувальник псує піст курінням та навмисним вдиханням при потраплянні в порожнину тіла"
+          "ar": "يُسنّ للخاطب النظر إلى المخطوبة ولو بغير إذنها",
+          "en": "It is a sunnah for a suitor to look at the woman he seeks to marry",
+          "ru": "Свату сунна посмотреть на ту",
+          "es": "Es sunnah que el pretendiente mire a la mujer",
+          "uk": "Сватові сунна подивитися на ту"
         }
       }
     }

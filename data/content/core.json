@@ -1828,6 +1828,13 @@
       "ru": "В выбранном нет вопросов.",
       "es": "No hay cuestiones en esta selección.",
       "uk": "У вибраному немає питань."
+    },
+    "planMoreUntranslated": {
+      "ar": "و{n} فصلاً آخر قادماً",
+      "en": "and {n} more chapters to come",
+      "ru": "и ещё {n} глав в работе",
+      "es": "y {n} capítulos más por venir",
+      "uk": "і ще {n} розділів у роботі"
     }
   },
   "books": [

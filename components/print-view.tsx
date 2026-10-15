@@ -406,7 +406,7 @@ function assemble(
       {/* ── Cover ───────────────────────────────────────────── */}
       <section className="cover">
         <div className="cover-frame">
-          <p className="cover-mark">تبيان · Tibyān</p>
+          <p className="cover-mark">{lang === "ar" ? "تبيان" : "Tibyān"}</p>
           <h1 className="cover-title">{title}</h1>
           {!single ? <p className="cover-books">{books.map((b) => b.name).join(" · ")}</p> : null}
           <p className="cover-schools">{schoolsLine}</p>
@@ -521,16 +521,27 @@ function assemble(
             {b.plan && b.plan.chapters.length ? (
               <>
                 <h3 className="plan-title">{ui.printPlan[lang]}</h3>
+                {/* A chapter that exists only in the plan has only an Arabic
+                    name — nothing has been written to carry its translation.
+                    In the other languages it is counted, not named, so no
+                    Arabic word turns up in an English or Russian book. */}
                 <ol className="plan-list">
-                  {b.plan.chapters.map((c, n) => (
-                    <li key={`${c.name}-${n}`} className={c.written ? "" : "plan-empty"}>
-                      <span dir="auto">{(c.chapter as Record<Lang, string> | undefined)?.[lang] ?? c.name}</span>
-                      <span className="plan-count">
-                        {c.written ? (c.planned ? `${c.written}/${c.planned}` : String(c.written)) : ui.printUpcoming[lang]}
-                      </span>
-                    </li>
-                  ))}
+                  {b.plan.chapters
+                    .filter((c) => lang === "ar" || c.chapter)
+                    .map((c, n) => (
+                      <li key={`${c.name}-${n}`} className={c.written ? "" : "plan-empty"}>
+                        <span>{(c.chapter as Record<Lang, string> | undefined)?.[lang] ?? c.name}</span>
+                        <span className="plan-count">
+                          {c.written ? (c.planned ? `${c.written}/${c.planned}` : String(c.written)) : ui.printUpcoming[lang]}
+                        </span>
+                      </li>
+                    ))}
                 </ol>
+                {lang !== "ar" && b.plan.chapters.some((c) => !c.chapter) ? (
+                  <p className="plan-more">
+                    {ui.planMoreUntranslated[lang].replace("{n}", String(b.plan.chapters.filter((c) => !c.chapter).length))}
+                  </p>
+                ) : null}
               </>
             ) : null}
           </div>
@@ -663,7 +674,7 @@ function schoolsPhrase(lang: Lang, keys: SchoolKey[], all: boolean): string {
 function gradeNote(i: FullIssue, k: SchoolKey, lang: Lang) {
   const r = i.rulings[k]
   const parts = [r?.grade ? gradeLabels[r.grade]?.[lang] : null, r?.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
-  return parts.length ? <span className="issue-grade"> ({parts.join("، ")})</span> : null
+  return parts.length ? <span className="issue-grade"> ({parts.join(lang === "ar" ? "، " : ", ")})</span> : null
 }
 
 /**
@@ -838,6 +849,7 @@ strong { font-weight: 700; }
 .plan-list li::before { content: counter(plan); color: #888; min-width: 6mm; font-variant-numeric: tabular-nums; }
 .plan-count { margin-inline-start: auto; color: #555; font-variant-numeric: tabular-nums; }
 .plan-empty { color: #8a8a8a; }
+.plan-more { color: #666; margin-top: 3mm; text-align: start; font-style: italic; }
 
 /* Chapters and entries — set as the classical books are: a centred
    chapter head, run-on entries, references in footnotes. */

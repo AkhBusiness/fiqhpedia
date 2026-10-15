@@ -88,15 +88,14 @@ export function BookView({ bookId, lang }: { bookId: string; lang: Lang }) {
       <p className="mt-1 text-sm text-muted-foreground">{ui.bookMapDesc[lang]}</p>
 
       <ol className="mt-5 flex list-none flex-col gap-3 p-0">
-        {(book?.chapters ?? []).map((ch, n) => {
+        {(book?.chapters ?? []).filter((ch) => lang === "ar" || ch.chapter).map((ch, n) => {
           const st = STATUS[ch.status]
           const name = ch.chapter?.[lang] ?? ch.name
-          const foreign = !ch.chapter && lang !== "ar"
           return (
             <li key={`${ch.name}-${n}`} className="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="w-6 shrink-0 text-[13px] font-bold tabular-nums text-muted-foreground">{n + 1}</span>
-                <h3 className="min-w-0 flex-1 text-[15px] font-bold text-foreground" lang={foreign ? "ar" : undefined} dir={foreign ? "rtl" : undefined}>
+                <h3 className="min-w-0 flex-1 text-[15px] font-bold text-foreground">
                   {name}
                 </h3>
                 <span className={`rounded-full border px-2 py-0.5 text-[13px] font-semibold ${st.cls}`}>{ui[st.key][lang]}</span>
@@ -132,6 +131,13 @@ export function BookView({ bookId, lang }: { bookId: string; lang: Lang }) {
           )
         })}
       </ol>
+      {/* Planned chapters have Arabic names only until something is written
+          in them; elsewhere they are counted rather than shown in Arabic. */}
+      {lang !== "ar" && (book?.chapters ?? []).some((ch) => !ch.chapter) ? (
+        <p className="mt-4 text-sm text-muted-foreground">
+          {ui.planMoreUntranslated[lang].replace("{n}", String((book?.chapters ?? []).filter((ch) => !ch.chapter).length))}
+        </p>
+      ) : null}
     </div>
   )
 }
