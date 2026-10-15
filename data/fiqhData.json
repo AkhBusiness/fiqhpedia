@@ -1816,11 +1816,11 @@
       "uk": "Праці, до яких зводяться рішення цієї книги, і кількість питань, де цитується кожна."
     },
     "printQrHint": {
-      "ar": "امسح الرمز بجانب كل مسألة لتقرأها بآخر تحديث على الموقع.",
-      "en": "Scan the code beside each entry to read its latest version on the site.",
-      "ru": "Отсканируйте код рядом с вопросом, чтобы прочитать его последнюю версию на сайте.",
-      "es": "Escanea el código junto a cada cuestión para leer su última versión en el sitio.",
-      "uk": "Скануйте код поруч із питанням, щоб прочитати його останню версію на сайті."
+      "ar": "رقم المسألة الصغير بجانب عنوانها يوصلك إلى رمزها في آخر الكتاب؛ امسحه لتقرأها بآخر تحديث على الموقع.",
+      "en": "The small number beside each entry's title leads to its code at the end of the book; scan it to read the latest version on the site.",
+      "ru": "Маленький номер рядом с заголовком вопроса ведёт к его коду в конце книги; отсканируйте его, чтобы прочитать последнюю версию на сайте.",
+      "es": "El número pequeño junto al título de cada cuestión lleva a su código al final del libro; escanéalo para leer la última versión en el sitio.",
+      "uk": "Маленький номер біля заголовка питання веде до його коду в кінці книги; скануйте його, щоб прочитати останню версію на сайті."
     },
     "printNoContent": {
       "ar": "لا مسائل في ما اخترت.",
@@ -1835,6 +1835,27 @@
       "ru": "и ещё {n} глав в работе",
       "es": "y {n} capítulos más por venir",
       "uk": "і ще {n} розділів у роботі"
+    },
+    "printQrIndex": {
+      "ar": "رموز المسائل",
+      "en": "Entry codes",
+      "ru": "Коды вопросов",
+      "es": "Códigos de las cuestiones",
+      "uk": "Коди питань"
+    },
+    "printQrIndexDesc": {
+      "ar": "امسح رمز المسألة لتقرأها بآخر تحديث على الموقع. والرقم الصغير بجانب كل مسألة في الكتاب يوصلك إلى رمزها هنا، والرقم تحت كل رمز يعيدك إلى صفحتها.",
+      "en": "Scan an entry's code to read its latest version on the site. The small number beside each entry in the book leads here, and the page number under each code leads back.",
+      "ru": "Отсканируйте код вопроса, чтобы прочитать его последнюю версию на сайте. Маленький номер рядом с вопросом в книге ведёт сюда, а номер страницы под кодом — обратно.",
+      "es": "Escanea el código de una cuestión para leer su última versión en el sitio. El número pequeño junto a cada cuestión del libro lleva aquí, y el número de página bajo cada código, de vuelta.",
+      "uk": "Скануйте код питання, щоб прочитати його останню версію на сайті. Маленький номер біля питання в книзі веде сюди, а номер сторінки під кодом — назад."
+    },
+    "printPageShort": {
+      "ar": "ص",
+      "en": "p.",
+      "ru": "с.",
+      "es": "p.",
+      "uk": "с."
     }
   },
   "books": [

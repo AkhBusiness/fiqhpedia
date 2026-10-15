@@ -493,6 +493,9 @@ function assemble(
           <li className="toc-front">
             <a href="#references">{ui.printReferences[lang]}</a>
           </li>
+          <li className="toc-front">
+            <a href="#qr-index">{ui.printQrIndex[lang]}</a>
+          </li>
         </ol>
       </section>
 
@@ -558,8 +561,13 @@ function assemble(
                       misprint. No ref and no question line: the QR carries
                       the address, and the title already is the question. */}
                   <div className="issue-lead">
-                    <div className="issue-qr" dangerouslySetInnerHTML={{ __html: qrSvg(entryUrl(lang, i.ref)) }} />
                     <h3 className="issue-title">
+                      {/* The ref, small, links to the entry's code at the end of
+                          the book — the codes sat beside every title and
+                          crowded the page. */}
+                      <a className="issue-ref" href={`#qr-${i.ref}`}>
+                        {displayRef(i.ref, lang)}
+                      </a>
                       {i.title[lang]}
                       {chosen.length === 1 ? gradeNote(i, chosen[0].key, lang) : null}
                     </h3>
@@ -620,6 +628,23 @@ function assemble(
             </li>
           ))}
         </ol>
+      </section>
+
+      {/* ── Entry codes ─────────────────────────────────────── */}
+      <section className="appendix" id="qr-index">
+        <h2 className="part-title">{ui.printQrIndex[lang]}</h2>
+        <p className="muted">{ui.printQrIndexDesc[lang]}</p>
+        <div className="qr-grid">
+          {included.map((i) => (
+            <div key={i.id} className="qr-cell" id={`qr-${i.ref}`}>
+              <div className="qr-img" dangerouslySetInnerHTML={{ __html: qrSvg(entryUrl(lang, i.ref)) }} />
+              <a className="qr-ref" href={`#is-${i.ref}`}>
+                {displayRef(i.ref, lang)}
+              </a>
+              <span className="qr-title">{i.title[lang]}</span>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   )
@@ -864,8 +889,16 @@ strong { font-weight: 700; }
 .issue { margin: 0 0 6mm; }
 .issue::after { content: ""; display: block; clear: both; }
 .issue-lead { break-inside: avoid; }
-.issue-qr { float: ${rtl ? "left" : "right"}; width: 12mm; height: 12mm; margin-${rtl ? "right" : "left"}: 4mm; margin-bottom: 1mm; }
-.issue-qr svg { width: 12mm; height: 12mm; display: block; }
+.issue-ref { font-size: 0.6em; font-weight: 400; color: #777; text-decoration: none; margin-inline-end: 2mm; font-variant-numeric: tabular-nums; unicode-bidi: isolate; }
+
+/* The code index: a grid at the end, each code with its ref (back to the
+   entry) and the page the entry is on. */
+.qr-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5mm 4mm; margin-top: 5mm; }
+.qr-cell { break-inside: avoid; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1mm; }
+.qr-img, .qr-img svg { width: 22mm; height: 22mm; display: block; }
+.qr-ref { font-size: 9pt; font-weight: 700; color: #222; text-decoration: none; unicode-bidi: isolate; }
+.qr-ref::after { content: " · ${ui.printPageShort[lang]} " target-counter(attr(href), page); font-weight: 400; color: #666; }
+.qr-title { font-size: 8.5pt; line-height: 1.35; color: #444; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .issue-title { font-size: ${rtl ? "14pt" : "12.5pt"}; font-weight: 700; margin: 0 0 1.5mm; line-height: 1.5; }
 .issue-grade { font-size: 0.78em; font-weight: 400; color: #555; }
 .ruling-text { margin: 0 0 2mm; text-align: justify; }
