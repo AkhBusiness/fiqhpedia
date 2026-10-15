@@ -1,7 +1,7 @@
 {
   "featured": {
-    "ref": "F111",
-    "id": "nikah-4",
+    "ref": "F107",
+    "id": "nikah-1",
     "bookId": "nikah",
     "chapter": {
       "ar": "باب الخطبة",
@@ -11,58 +11,58 @@
       "uk": "Розділ про сватання"
     },
     "title": {
-      "ar": "حكم النظر إلى المخطوبة وحدوده",
-      "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
-      "ru": "Взгляд на ту, к которой сватаются, и его пределы",
-      "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
-      "uk": "Погляд на ту, до якої сватаються, та його межі"
+      "ar": "حكم الخطبة على خطبة الغير",
+      "en": "Making an Offer of Marriage over Another Man's Offer",
+      "ru": "Сватовство поверх сватовства другого",
+      "es": "Pedir en matrimonio sobre la petición de otro",
+      "uk": "Сватання поверх сватання іншого"
     },
     "summary": {
-      "ar": "ما حكم نظر الخاطب إلى مخطوبته قبل العقد، وما الذي يُباح له النظر إليه؟",
-      "en": "What is the ruling on a suitor looking at the woman he seeks to marry before the contract, and what may he look at?",
-      "ru": "Каково постановление о взгляде свата на ту, к которой он сватается, до договора, и на что ему дозволено смотреть?",
-      "es": "¿Cuál es la norma sobre que el pretendiente mire a la mujer antes del contrato, y qué le es lícito mirar?",
-      "uk": "Яка постанова про погляд свата на ту, до якої він сватається, до договору, і на що йому дозволено дивитися?"
+      "ar": "متى تحرم خطبة الرجل على خطبة أخيه، وهل يصحّ العقد إن وقع؟",
+      "en": "When is it forbidden to make an offer of marriage over another man's offer, and is the contract valid if it goes through?",
+      "ru": "Когда запрещено свататься поверх сватовства другого, и действителен ли договор, если он состоялся?",
+      "es": "¿Cuándo está prohibido pedir en matrimonio sobre la petición de otro, y es válido el contrato si se celebra?",
+      "uk": "Коли заборонено свататися поверх сватання іншого, і чи дійсний договір, якщо він відбувся?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "mandub",
+        "grade": "haram",
         "lead": {
-          "ar": "يُندب للخاطب أن ينظر إلى مخطوبته",
-          "en": "It is recommended that a suitor look at the woman he seeks to marry",
-          "ru": "Свату желательно посмотреть на ту",
-          "es": "Se recomienda al pretendiente mirar a la mujer con quien pretende casarse",
-          "uk": "Сватові бажано подивитися на ту"
+          "ar": "تحرم الخطبة على خطبة الغير إذا حصل الركون والرضا من المخطوبة أو وليّها للأوّل؛ فإن لم يحصل رضا أو رُدّ الأوّل جازت",
+          "en": "It is forbidden to make an offer over another's once the woman or her guardian has inclined to the first man and accepted him",
+          "ru": "Запрещено свататься поверх сватовства другого, если невеста или её опекун склонились к первому и приняли его",
+          "es": "Está prohibido pedir sobre la petición de otro si la mujer o su tutor se han inclinado al primero y lo han aceptado",
+          "uk": "Заборонено свататися поверх сватання іншого, якщо наречена або її опікун схилилися до першого й прийняли його"
         }
       },
       "maliki": {
-        "grade": "mandub",
+        "grade": "haram",
         "lead": {
-          "ar": "يُندب النظر إلى المخطوبة بإذنها أو بغير إذنها",
-          "en": "It is recommended to look at the woman one seeks to marry",
-          "ru": "Желательно посмотреть на ту, к которой сватаются, с её позволения или без него, и взгляд ограничивается лицом и кистями рук с обеих сторон",
-          "es": "Se recomienda mirar a la mujer a quien se pretende",
-          "uk": "Бажано подивитися на ту, до якої сватаються, з її дозволу чи без нього, і погляд обмежується обличчям та кистями рук з обох боків"
+          "ar": "تحرم الخطبة على خطبة الغير إذا ركنت المرأة إلى الأوّل واتّفقا على الصداق",
+          "en": "It is forbidden to make an offer over another's once the woman has inclined to the first man and they have agreed on the dower",
+          "ru": "Запрещено свататься поверх сватовства другого",
+          "es": "Está prohibido pedir sobre la petición de otro si la mujer se ha inclinado al primero y han acordado la dote",
+          "uk": "Заборонено свататися поверх сватання іншого"
         }
       },
       "shafii": {
-        "grade": "sunnah",
+        "grade": "haram",
         "lead": {
-          "ar": "يُسنّ للخاطب النظر إلى المخطوبة قبل الخطبة ولو بغير إذنها",
-          "en": "It is a sunnah for a suitor to look at the woman before making his offer",
-          "ru": "Свату сунна посмотреть на ту",
-          "es": "Es sunnah que el pretendiente mire a la mujer antes de la petición",
-          "uk": "Сватові сунна подивитися на ту"
+          "ar": "تحرم الخطبة على خطبة الغير إذا أُجيب الأوّل إجابةً صريحة",
+          "en": "It is forbidden to make an offer over another's once the first man has had an explicit acceptance — on the strength of his saying ﷺ: “Let…",
+          "ru": "Запрещено свататься поверх сватовства другого",
+          "es": "Está prohibido pedir sobre la petición de otro si el primero recibió una aceptación explícita",
+          "uk": "Заборонено свататися поверх сватання іншого"
         }
       },
       "hanbali": {
-        "grade": "sunnah",
+        "grade": "haram",
         "lead": {
-          "ar": "يُسنّ للخاطب النظر إلى المخطوبة ولو بغير إذنها",
-          "en": "It is a sunnah for a suitor to look at the woman he seeks to marry",
-          "ru": "Свату сунна посмотреть на ту",
-          "es": "Es sunnah que el pretendiente mire a la mujer",
-          "uk": "Сватові сунна подивитися на ту"
+          "ar": "تحرم الخطبة على خطبة أخيه المسلم إذا أُجيب الأوّل صراحةً أو وُجد ركون إليه؛ فإن أذن الأوّل أو ترك أو رُدّ أو جُهل حاله جازت",
+          "en": "It is forbidden to make an offer over the offer of one's Muslim brother once the first man has had an explicit acceptance",
+          "ru": "Запрещено свататься поверх сватовства своего брата-мусульманина, если первому ответили явным согласием или обнаружилась склонность к нему",
+          "es": "Está prohibido pedir sobre la petición del hermano musulmán si el primero recibió aceptación explícita, o si se halla inclinación hacia él",
+          "uk": "Заборонено свататися поверх сватання свого брата-мусульманина, якщо першому відповіли явною згодою або виявилася схильність до нього"
         }
       }
     }

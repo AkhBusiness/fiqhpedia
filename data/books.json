@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "taharah",
-      "planned": 122,
+      "planned": 123,
       "chapters": [
         {
           "name": "الأحكام",
@@ -234,7 +234,7 @@
     },
     {
       "id": "salah",
-      "planned": 163,
+      "planned": 169,
       "chapters": [
         {
           "name": "الأذان والإقامة",
@@ -411,61 +411,61 @@
     },
     {
       "id": "zakah",
-      "planned": null,
+      "planned": 79,
       "chapters": [
         {
-          "name": "شروطها",
+          "name": "وجوب الزكاة وشروطها",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
-          "name": "زكاة السائمة",
+          "name": "زكاة بهيمة الأنعام",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
-          "name": "السائبة",
+          "name": "زكاة الخارج من الأرض",
           "status": "⬜",
-          "planned": null,
+          "planned": 9,
           "written": 0,
           "refs": []
         },
         {
-          "name": "الخارج من الأرض",
+          "name": "زكاة النقدين والحليّ",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
-          "name": "النقدان",
+          "name": "زكاة عروض التجارة والأموال المعاصرة",
           "status": "⬜",
-          "planned": null,
-          "written": 0,
-          "refs": []
-        },
-        {
-          "name": "عروض التجارة",
-          "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
           "name": "زكاة الفطر",
           "status": "⬜",
-          "planned": null,
+          "planned": 9,
           "written": 0,
           "refs": []
         },
         {
-          "name": "إخراج الزكاة ومصرفها",
+          "name": "إخراج الزكاة",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "أهل الزكاة ومصارفها",
+          "status": "⬜",
+          "planned": 11,
           "written": 0,
           "refs": []
         }
@@ -572,61 +572,68 @@
     },
     {
       "id": "hajj",
-      "planned": null,
+      "planned": 87,
       "chapters": [
         {
-          "name": "الشروط",
+          "name": "وجوب الحج وشروطه",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
           "name": "المواقيت",
           "status": "⬜",
-          "planned": null,
+          "planned": 7,
           "written": 0,
           "refs": []
         },
         {
-          "name": "الإحرام",
+          "name": "الإحرام وأنواع النسك",
           "status": "⬜",
-          "planned": null,
+          "planned": 9,
           "written": 0,
           "refs": []
         },
         {
           "name": "محظورات الإحرام",
           "status": "⬜",
-          "planned": null,
+          "planned": 12,
           "written": 0,
           "refs": []
         },
         {
-          "name": "الفدية",
+          "name": "الفدية وجزاء الصيد",
           "status": "⬜",
-          "planned": null,
+          "planned": 8,
           "written": 0,
           "refs": []
         },
         {
-          "name": "صفة الحج والعمرة",
+          "name": "دخول مكة والطواف والسعي",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         },
         {
-          "name": "الأركان والواجبات",
+          "name": "صفة الحج: يوم التروية وعرفة ومزدلفة ومنى",
           "status": "⬜",
-          "planned": null,
+          "planned": 13,
+          "written": 0,
+          "refs": []
+        },
+        {
+          "name": "أركان الحج وواجباته والفوات والإحصار",
+          "status": "⬜",
+          "planned": 8,
           "written": 0,
           "refs": []
         },
         {
           "name": "الهدي والأضحية والعقيقة",
           "status": "⬜",
-          "planned": null,
+          "planned": 10,
           "written": 0,
           "refs": []
         }
@@ -775,7 +782,7 @@
     },
     {
       "id": "nikah",
-      "planned": 105,
+      "planned": 106,
       "chapters": [
         {
           "name": "الخطبة ومقدّماتها",
