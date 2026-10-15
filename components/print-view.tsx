@@ -569,7 +569,6 @@ function assemble(
                         {displayRef(i.ref, lang)}
                       </a>
                       {i.title[lang]}
-                      {chosen.length === 1 ? gradeNote(i, chosen[0].key, lang) : null}
                     </h3>
                     {chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1, refNo))}
                   </div>
@@ -595,7 +594,10 @@ function assemble(
                   <dt>{t.term[lang]}</dt>
                   <dd>
                     {(t.briefDefinition ?? t.definition)?.[lang]}
-                    {senses.length ? (
+                    {senses.length === 1 && chosen.length === 1 ? (
+                      // One school printed: its sense is the book's sense, no label.
+                      <p className="term-tech">{senses[0].text}</p>
+                    ) : senses.length ? (
                       <ul>
                         {senses.map(({ s, text }) => (
                           <li key={s.key}>
@@ -695,7 +697,9 @@ function schoolsPhrase(lang: Lang, keys: SchoolKey[], all: boolean): string {
   }
 }
 
-/** "(واجب)" after the title, when one school is printed. */
+/** "(واجب)" after the title — no longer printed: the owner found it
+ *  redundant beside the ruling's own text. Kept for a possible legend. */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function gradeNote(i: FullIssue, k: SchoolKey, lang: Lang) {
   const r = i.rulings[k]
   const parts = [r?.grade ? gradeLabels[r.grade]?.[lang] : null, r?.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
@@ -914,6 +918,7 @@ strong { font-weight: 700; }
 .term dt { font-weight: 700; font-size: 1.05em; }
 .term dd { margin: 0.5mm 0 0; }
 .term ul { margin: 1mm 0 0; padding-inline-start: 5mm; font-size: 0.92em; }
+.term-tech { margin: 1mm 0 0; font-size: 0.95em; color: #333; }
 .biblio { list-style: none; padding: 0; margin: 4mm 0 0; }
 .biblio li { display: flex; gap: 3mm; align-items: baseline; padding: 1.4mm 0; border-bottom: 0.2mm dotted #bbb; }
 .bib-n { min-width: 8mm; font-weight: 700; font-variant-numeric: tabular-nums; }
