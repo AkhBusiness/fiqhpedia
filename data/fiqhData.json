@@ -1856,6 +1856,34 @@
       "ru": "с.",
       "es": "p.",
       "uk": "с."
+    },
+    "printChapterTerms": {
+      "ar": "مصطلحات الباب",
+      "en": "Terms in this chapter",
+      "ru": "Термины раздела",
+      "es": "Términos del capítulo",
+      "uk": "Терміни розділу"
+    },
+    "printChapterTable": {
+      "ar": "خلاصة أحكام الباب",
+      "en": "The chapter's rulings at a glance",
+      "ru": "Положения раздела кратко",
+      "es": "Resumen de las normas del capítulo",
+      "uk": "Положення розділу коротко"
+    },
+    "printIssueCol": {
+      "ar": "المسألة",
+      "en": "Entry",
+      "ru": "Вопрос",
+      "es": "Cuestión",
+      "uk": "Питання"
+    },
+    "printAlphaIndex": {
+      "ar": "فهرس المسائل الهجائي",
+      "en": "Alphabetical index of entries",
+      "ru": "Алфавитный указатель вопросов",
+      "es": "Índice alfabético de cuestiones",
+      "uk": "Абетковий покажчик питань"
     }
   },
   "books": [
@@ -7166,6 +7194,7 @@
         "es": "¿Cuál es la norma sobre la piedad filial y la bondad hacia los padres no musulmanes, y hasta dónde llega la obediencia a ellos?",
         "uk": "Яка постанова про шанобливість і благодіяння до батьків-немусульман, і доки сягає послух їм?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "wajib",
@@ -7645,6 +7674,7 @@
         "es": "¿Se invalida la purificación con agua alterada por una sustancia pura, como la tierra, que conserva su naturaleza?",
         "uk": "Чи стає недійсним очищення водою, зміненою чистою речовиною, що не виводить її з природного стану, як-от земля?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -8123,6 +8153,7 @@
         "es": "¿Es válida la purificación con agua alterada por su lecho o cauce, como algas o yacimientos de azufre?",
         "uk": "Чи дійсне очищення водою, зміненою своїм ложем або руслом, як водоростями чи сірчаними покладами?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -9493,6 +9524,7 @@
         "es": "¿Se vuelve impura el agua si muere en ella un animal acuático, como un pez?",
         "uk": "Чи стає вода нечистою від загибелі в ній водяної тварини, як риба тощо?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -9651,6 +9683,7 @@
         "es": "¿Es puro y válido para la purificación el agua que dejan un ser humano o un animal cuya carne se come?",
         "uk": "Чи чистий залишок води після людини та після тварини, м'ясо якої дозволене, і чи дійсне ним очищення?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -11312,6 +11345,7 @@
         "es": "¿Cuál es la norma sobre lavar los brazos hasta los codos en la ablución, y entran los codos en lo que debe lavarse?",
         "uk": "Яка постанова про миття рук до ліктів під час омивання, і чи входять лікті в те, що обов'язково вимити?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "fard",
@@ -11644,6 +11678,7 @@
         "es": "¿Cuál es la norma sobre lavar los pies hasta los tobillos en la ablución, y entran los tobillos en lo que debe lavarse?",
         "uk": "Яка постанова про миття ніг до щиколоток під час омивання, і чи входять щиколотки в те, що обов'язково вимити?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "fard",
@@ -13004,6 +13039,7 @@
         "es": "¿Rompe la ablución la pérdida de la razón por desmayo, locura, embriaguez o anestesia?",
         "uk": "Чи порушує омивання втрата розуму внаслідок непритомності, божевілля, сп'яніння чи наркозу?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "fard",
@@ -13652,6 +13688,7 @@
         "es": "Quien rezó habiendo olvidado que carecía de pureza —menor o mayor— y lo recordó tras la oración: ¿debe repetirla?",
         "uk": "Той, хто помолився, забувши, що був без чистоти — малої чи великої, — і згадав після молитви: чи мусить він повторити її?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "wajib",
@@ -17058,6 +17095,7 @@
         "es": "¿Cuál es la norma de las cinco oraciones diarias, y con qué se establece su obligatoriedad para la persona responsable?",
         "uk": "Яка постанова про п'ять щоденних молитов, і чим встановлена їхня обов'язковість для мукалляфа?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -21559,6 +21597,7 @@
         "es": "¿Cuál es la norma del ayuno del mes de Ramadán, y con qué se establece su obligatoriedad para la persona responsable?",
         "uk": "Яка постанова про піст місяця Рамадан, і чим встановлена його обов'язковість для мукалляфа?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -22168,6 +22207,7 @@
         "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
         "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -22655,6 +22695,7 @@
         "es": "¿Cuáles son las condiciones básicas requeridas para que una persona legalmente responsable esté obligada a ayunar el mes de Ramadán?",
         "uk": "Які основні умови необхідні для того, щоб на дієздатну особу покладався обов'язок постити в місяць Рамадан?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -22979,6 +23020,7 @@
         "es": "¿Cuál es la norma sobre fumar e inhalar intencionalmente vapores y humo durante el día de Ramadán, e invalida el ayuno?",
         "uk": "Яка постанова про куріння та навмисне вдихання парів і диму вдень у Рамадан, і чи псує це піст?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {
@@ -23623,6 +23665,7 @@
         "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
         "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "haram",
@@ -23785,6 +23828,7 @@
         "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
         "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "grade": "haram",
@@ -25378,6 +25422,7 @@
         "es": "¿Ha de identificarse a cada cónyuge por nombre, señalando o por descripción distintiva, y qué efecto tiene la ambigüedad sobre uno de ellos en la validez del contrato?",
         "uk": "Чи треба визначити кожного з подружжя за ім'ям, вказівкою чи відмінним описом, і як невизначеність щодо одного з них впливає на дійсність договору?"
       },
+      "agreed": true,
       "rulings": {
         "hanafi": {
           "text": {

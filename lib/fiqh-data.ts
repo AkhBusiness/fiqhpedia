@@ -188,6 +188,14 @@ export interface Issue {
    * Required whenever `revisedAt` is set.
    */
   revisionNote?: Localized
+  /**
+   * The four schools agree in full — the substance and the conditions, not
+   * merely the grade. Set by hand after reading the four rulings side by
+   * side; the printed book then states the ruling once ("the four schools
+   * agree") instead of four near-identical paragraphs. A difference in a
+   * detail, however small, means it stays unset.
+   */
+  agreed?: boolean
   /** Permanent site-wide citation ref (e.g. "F12"). Never reused or renumbered. */
   ref: string
   categoryId: string
@@ -370,6 +378,7 @@ export interface RawIssue {
   addedAt?: string
   revisedAt?: string
   revisionNote?: Localized
+  agreed?: boolean
   ref: string
   bookId: string
   number: number
@@ -676,6 +685,7 @@ export function toIssue(i: RawIssue): Issue {
     addedAt: i.addedAt,
     ...(i.revisedAt ? { revisedAt: i.revisedAt } : {}),
     ...(i.revisionNote ? { revisionNote: i.revisionNote } : {}),
+    ...(i.agreed ? { agreed: true } : {}),
     ...(i.chapter ? { chapter: i.chapter } : {}),
     title: i.title,
     summary: i.summary,

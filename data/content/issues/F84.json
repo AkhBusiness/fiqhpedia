@@ -25,6 +25,7 @@
     "es": "¿Rompe la ablución la pérdida de la razón por desmayo, locura, embriaguez o anestesia?",
     "uk": "Чи порушує омивання втрата розуму внаслідок непритомності, божевілля, сп'яніння чи наркозу?"
   },
+  "agreed": true,
   "rulings": {
     "hanafi": {
       "grade": "fard",

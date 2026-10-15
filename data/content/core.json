@@ -1856,6 +1856,34 @@
       "ru": "с.",
       "es": "p.",
       "uk": "с."
+    },
+    "printChapterTerms": {
+      "ar": "مصطلحات الباب",
+      "en": "Terms in this chapter",
+      "ru": "Термины раздела",
+      "es": "Términos del capítulo",
+      "uk": "Терміни розділу"
+    },
+    "printChapterTable": {
+      "ar": "خلاصة أحكام الباب",
+      "en": "The chapter's rulings at a glance",
+      "ru": "Положения раздела кратко",
+      "es": "Resumen de las normas del capítulo",
+      "uk": "Положення розділу коротко"
+    },
+    "printIssueCol": {
+      "ar": "المسألة",
+      "en": "Entry",
+      "ru": "Вопрос",
+      "es": "Cuestión",
+      "uk": "Питання"
+    },
+    "printAlphaIndex": {
+      "ar": "فهرس المسائل الهجائي",
+      "en": "Alphabetical index of entries",
+      "ru": "Алфавитный указатель вопросов",
+      "es": "Índice alfabético de cuestiones",
+      "uk": "Абетковий покажчик питань"
     }
   },
   "books": [

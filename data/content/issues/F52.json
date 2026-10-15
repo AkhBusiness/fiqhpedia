@@ -24,6 +24,7 @@
     "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
     "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
   },
+  "agreed": true,
   "rulings": {
     "hanafi": {
       "text": {

@@ -376,6 +376,33 @@ function assemble(
     })
     .sort((a, b) => a.term[lang].localeCompare(b.term[lang], lang))
 
+  // Each term is also defined briefly at the head of the first chapter that
+  // uses it, as the teaching books do; the appendix keeps the full entry.
+  const chapterTerms = new Map<string, typeof terms>()
+  {
+    const seen = new Set<string>()
+    for (const b of books) {
+      b.chapters.forEach((ch, n) => {
+        const text = fold(
+          ch.issues
+            .flatMap((i) => [i.title[lang], i.summary[lang], ...chosen.map((s) => i.rulings[s.key]?.ruling[lang] ?? "")])
+            .join(" "),
+        )
+        const here = terms.filter((t) => {
+          if (seen.has(t.id)) return false
+          const head = fold(t.term[lang]).split(/[\s,،(]/)[0]
+          return text.includes(head)
+        })
+        here.forEach((t) => seen.add(t.id))
+        if (here.length) chapterTerms.set(`${b.id}-${n}`, here)
+      })
+    }
+  }
+
+  // The alphabetical index, for a reader who knows what he is looking for
+  // but not where the plan files it.
+  const alpha = [...included].sort((a, b) => sortKey(a.title[lang], lang).localeCompare(sortKey(b.title[lang], lang), lang))
+
   // References: each work gets one number, in the order it is first cited
   // (as university presses number them — the Vancouver style). An entry then
   // points at its works by number, (1)(3), and the list at the end resolves
@@ -494,6 +521,9 @@ function assemble(
             <a href="#references">{ui.printReferences[lang]}</a>
           </li>
           <li className="toc-front">
+            <a href="#alpha-index">{ui.printAlphaIndex[lang]}</a>
+          </li>
+          <li className="toc-front">
             <a href="#qr-index">{ui.printQrIndex[lang]}</a>
           </li>
         </ol>
@@ -549,34 +579,89 @@ function assemble(
             ) : null}
           </div>
 
-          {b.chapters.map((ch, n) => (
-            <div key={ch.key} className="chapter">
-              <h2 className="chapter-title" id={`ch-${b.id}-${n}`} data-book={b.name}>
-                {ch.name}
-              </h2>
-              {ch.issues.map((i) => (
-                <article key={i.id} className="issue" id={`is-${i.ref}`}>
-                  {/* The heading travels with its first ruling: a title alone
-                      at the foot of a page, its answer overleaf, reads as a
-                      misprint. No ref and no question line: the QR carries
-                      the address, and the title already is the question. */}
-                  <div className="issue-lead">
-                    <h3 className="issue-title">
-                      {/* The ref, small, links to the entry's code at the end of
-                          the book — the codes sat beside every title and
-                          crowded the page. */}
-                      <a className="issue-ref" href={`#qr-${i.ref}`}>
-                        {displayRef(i.ref, lang)}
-                      </a>
-                      {i.title[lang]}
-                    </h3>
-                    {chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1, refNo))}
+          {b.chapters.map((ch, n) => {
+            const head = (
+              <>
+                <h2 className="chapter-title" id={`ch-${b.id}-${n}`} data-book={b.name}>
+                  {ch.name}
+                </h2>
+                {chapterTerms.get(`${b.id}-${n}`)?.length ? (
+                  <aside className="ch-terms">
+                    <h3>{ui.printChapterTerms[lang]}</h3>
+                    <dl>
+                      {chapterTerms.get(`${b.id}-${n}`)!.map((t) => (
+                        <div key={t.id}>
+                          <dt>{t.term[lang]}</dt>
+                          <dd>{(t.briefDefinition ?? t.definition)?.[lang]}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </aside>
+                ) : null}
+              </>
+            )
+            const graded = chosen.length > 1 ? ch.issues.filter((i) => chosen.some((s) => gradeText(i, s.key, lang))) : []
+            // A table of one or two rows says nothing the entries above did not.
+            if (graded.length < 3) graded.length = 0
+            return (
+              <div key={ch.key} className="chapter">
+                {ch.issues.map((i, k) => (
+                  <article key={i.id} className="issue" id={`is-${i.ref}`}>
+                    {/* The heading travels with its first ruling: a title alone
+                        at the foot of a page, its answer overleaf, reads as a
+                        misprint. The chapter's head rides in the first entry's
+                        block for the same reason — a chapter never opens in the
+                        last lines of a page. */}
+                    <div className="issue-lead">
+                      {k === 0 ? head : null}
+                      <h3 className="issue-title">
+                        {/* The ref, small, links to the entry's code at the end of
+                            the book — the codes sat beside every title and
+                            crowded the page. */}
+                        <a className="issue-ref" href={`#qr-${i.ref}`}>
+                          {displayRef(i.ref, lang)}
+                        </a>
+                        {i.title[lang]}
+                      </h3>
+                      {i.agreed && chosen.length > 1
+                        ? agreedPara(i, chosen, allSchools, lang, refNo)
+                        : chosen.slice(0, 1).map((s) => rulingPara(i, s, lang, chosen.length > 1, refNo))}
+                    </div>
+                    {i.agreed && chosen.length > 1 ? null : chosen.slice(1).map((s) => rulingPara(i, s, lang, true, refNo))}
+                  </article>
+                ))}
+                {graded.length ? (
+                  <div className="ch-table-wrap">
+                    <h3 className="ch-table-title">{ui.printChapterTable[lang]}</h3>
+                    <table className="ch-table">
+                      <thead>
+                        <tr>
+                          <th className="ch-table-issue">{ui.printIssueCol[lang]}</th>
+                          {chosen.map((s) => (
+                            <th key={s.key} style={{ color: SCHOOL_HEX[s.key] }}>
+                              {lang === "ar" ? SCHOOL_PLURAL_AR[s.key] : s.name[lang]}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {graded.map((i) => (
+                          <tr key={i.id}>
+                            <td className="ch-table-issue">
+                              <a href={`#is-${i.ref}`}>{i.title[lang]}</a>
+                            </td>
+                            {chosen.map((s) => (
+                              <td key={s.key}>{gradeText(i, s.key, lang) ?? "—"}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
-                  {chosen.slice(1).map((s) => rulingPara(i, s, lang, true, refNo))}
-                </article>
-              ))}
-            </div>
-          ))}
+                ) : null}
+              </div>
+            )
+          })}
         </section>
       ))}
 
@@ -627,6 +712,18 @@ function assemble(
                 <span className="bib-school">{lang === "ar" ? SCHOOL_PLURAL_AR[r.school.key] : r.school.name[lang]}</span>
               ) : null}
               <span className="refs-n">{r.count}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      {/* ── Alphabetical index ──────────────────────────────── */}
+      <section className="appendix" id="alpha-index">
+        <h2 className="part-title">{ui.printAlphaIndex[lang]}</h2>
+        <ol className="alpha-list">
+          {alpha.map((i) => (
+            <li key={i.id}>
+              <a href={`#is-${i.ref}`}>{i.title[lang]}</a>
             </li>
           ))}
         </ol>
@@ -697,6 +794,74 @@ function schoolsPhrase(lang: Lang, keys: SchoolKey[], all: boolean): string {
   }
 }
 
+/** A school's grade as words — «سنة»، «فرض، ركن» — for the chapter table. */
+function gradeText(i: FullIssue, k: SchoolKey, lang: Lang): string | null {
+  const r = i.rulings[k]
+  const parts = [r?.grade ? gradeLabels[r.grade]?.[lang] : null, r?.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
+  return parts.length ? parts.join(lang === "ar" ? "، " : ", ") : null
+}
+
+/** The title's sort key: plain alphabetical on the title as printed —
+ *  the reader scans for the first word he sees. Arabic ignores the article
+ *  and the hamza seat, as Arabic indexes do. */
+function sortKey(t: string, lang: Lang): string {
+  return lang === "ar" ? t.replace(/^ال/, "").replace(/[أإآ]/g, "ا") : t
+}
+
+/** "The four schools agree" — or the subset printed — before one shared ruling. */
+function agreedPhrase(lang: Lang, keys: SchoolKey[], all: boolean): string {
+  const andJoin = (xs: string[], and: string, comma = ", ") =>
+    xs.length < 2 ? xs[0] ?? "" : `${xs.slice(0, -1).join(comma)}${and}${xs[xs.length - 1]}`
+  const names = keys.map((k) => schools.find((s) => s.key === k)!.name[lang])
+  switch (lang) {
+    case "ar":
+      return all ? "اتفقت المذاهب الأربعة" : `اتفق ${andJoin(keys.map((k) => SCHOOL_PLURAL_AR[k]), " و", "، ")}`
+    case "en":
+      return all ? "The four schools agree" : `The ${andJoin(names, " and ")} schools agree`
+    case "es":
+      return all ? "Las cuatro escuelas coinciden" : `Las escuelas ${andJoin(names.map((n) => n.toLowerCase()), " y ")} coinciden`
+    case "ru": {
+      const t = all ? "Четыре мазхаба едины" : `${andJoin(names.map((n) => n.toLowerCase()), " и ")} мазхабы едины`
+      return t[0].toUpperCase() + t.slice(1)
+    }
+    case "uk": {
+      const t = all ? "Чотири мазгаби одностайні" : `${andJoin(names.map((n) => n.toLowerCase()), " і ")} мазгаби одностайні`
+      return t[0].toUpperCase() + t.slice(1)
+    }
+  }
+}
+
+/**
+ * An entry the schools agree on in full (`agreed`, set by hand), stated once:
+ * the agreement run in at the head, the Ḥanbalī wording (or the first
+ * printed school's — they say the same), and every printed school's works.
+ */
+function agreedPara(i: FullIssue, chosen: (typeof schools)[number][], all: boolean, lang: Lang, refNo: Map<string, number>) {
+  const base = chosen.find((s) => s.key === "hanbali") ?? chosen[0]
+  const r = i.rulings[base.key]
+  if (!r) return null
+  const m = r.ruling[lang].match(/^([\s\S]*?)([.!؟?»"]*)$/)
+  const body = m ? m[1] : r.ruling[lang]
+  const stop = m ? m[2] : ""
+  const nums = [
+    ...new Set(
+      chosen.flatMap((s) => (i.rulings[s.key]?.references ?? []).map((x) => refNo.get(x.ar))).filter((n): n is number => n !== undefined),
+    ),
+  ].sort((a, b) => a - b)
+  return (
+    <p className="ruling-text">
+      <strong className="ruling-school">{agreedPhrase(lang, chosen.map((s) => s.key), all)}: </strong>
+      {body}
+      {nums.length ? (
+        <span className="cite" dir={rtlLangs.includes(lang) ? "rtl" : "ltr"}>
+          {nums.map((n) => `(${n})`).join("")}
+        </span>
+      ) : null}
+      {stop}
+    </p>
+  )
+}
+
 /** "(واجب)" after the title — no longer printed: the owner found it
  *  redundant beside the ruling's own text. Kept for a possible legend. */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -715,7 +880,6 @@ function gradeNote(i: FullIssue, k: SchoolKey, lang: Lang) {
 function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named: boolean, refNo: Map<string, number>) {
   const r = i.rulings[s.key]
   if (!r) return null
-  const grade = [r.grade ? gradeLabels[r.grade]?.[lang] : null, r.nature ? natureLabels[r.nature]?.[lang] : null].filter(Boolean)
   const label = lang === "ar" ? SCHOOL_PLURAL_AR[s.key] : s.name[lang]
   // The citation goes before the closing full stop, as in print.
   const m = r.ruling[lang].match(/^([\s\S]*?)([.!؟?»"]*)$/)
@@ -726,7 +890,6 @@ function rulingPara(i: FullIssue, s: (typeof schools)[number], lang: Lang, named
       {named ? (
         <strong className="ruling-school" style={{ color: SCHOOL_HEX[s.key] }}>
           {label}
-          {grade.length ? <span className="ruling-grade"> ({grade.join(lang === "ar" ? "، " : ", ")})</span> : null}
           {lang === "ar" ? ": " : ": "}
         </strong>
       ) : null}
@@ -882,11 +1045,11 @@ strong { font-weight: 700; }
 
 /* Chapters and entries — set as the classical books are: a centred
    chapter head, run-on entries, references in footnotes. */
+/* Several lines of air between one chapter and the next. */
 .chapter-title {
   string-set: chapter content(text);
   text-align: center;
-  font-size: 22pt; font-weight: 700; margin: 12mm 0 8mm; line-height: 1.4;
-  break-after: avoid;
+  font-size: 22pt; font-weight: 700; margin: 22mm 0 8mm; line-height: 1.4;
 }
 .chapter-title::after { content: ""; display: block; width: 36mm; margin: 3mm auto 0; border-top: 0.4mm solid #1a1a1a; }
 .chapter:first-of-type .chapter-title { margin-top: 4mm; }
@@ -910,7 +1073,32 @@ strong { font-weight: 700; }
 .ruling-grade { font-weight: 400; color: #555; font-size: 0.9em; }
 
 /* Citations: the works' numbers in the list at the end, small and raised. */
-.cite { font-size: 0.62em; vertical-align: super; line-height: 0; white-space: nowrap; unicode-bidi: isolate; padding-inline-start: 0.4mm; color: #333; }
+.cite { font-size: 0.7em; vertical-align: baseline; white-space: nowrap; unicode-bidi: isolate; padding-inline-start: 0.4mm; color: #333; }
+
+/* Terms at the head of a chapter */
+.ch-terms { border-block: 0.3mm solid #bbb; padding: 3mm 0; margin: 0 0 7mm; font-size: 0.9em; }
+.ch-terms h3 { font-size: 1em; font-weight: 700; margin: 0 0 2mm; color: #444; }
+.ch-terms dl { margin: 0; }
+.ch-terms dl > div { margin: 0 0 1.5mm; }
+.ch-terms dt { display: inline; font-weight: 700; }
+.ch-terms dt::after { content: ": "; }
+.ch-terms dd { display: inline; margin: 0; }
+
+/* The chapter's rulings at a glance, when several schools are printed */
+.ch-table-wrap { margin: 8mm 0 0; break-inside: avoid; }
+.ch-table-title { font-size: 1.05em; font-weight: 700; text-align: center; margin: 0 0 3mm; break-after: avoid; }
+.ch-table { width: 100%; border-collapse: collapse; font-size: 0.82em; line-height: 1.4; }
+.ch-table th, .ch-table td { border: 0.25mm solid #999; padding: 1.2mm 1.5mm; text-align: center; vertical-align: middle; }
+.ch-table th { background: #f0f0f0; font-weight: 700; }
+.ch-table td.ch-table-issue, .ch-table th.ch-table-issue { text-align: start; width: 42%; }
+.ch-table a { color: inherit; text-decoration: none; }
+.ch-table tr { break-inside: avoid; }
+
+/* Alphabetical index */
+.alpha-list { list-style: none; padding: 0; margin: 4mm 0 0; columns: 2; column-gap: 8mm; font-size: 0.9em; }
+.alpha-list li { break-inside: avoid; margin: 0 0 1.5mm; }
+.alpha-list a { color: inherit; text-decoration: none; }
+.alpha-list a::after { content: " · " target-counter(attr(href), page); color: #666; }
 
 /* Appendices */
 .glossary { margin: 0; }

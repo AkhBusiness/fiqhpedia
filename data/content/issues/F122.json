@@ -25,6 +25,7 @@
     "es": "¿Ha de identificarse a cada cónyuge por nombre, señalando o por descripción distintiva, y qué efecto tiene la ambigüedad sobre uno de ellos en la validez del contrato?",
     "uk": "Чи треба визначити кожного з подружжя за ім'ям, вказівкою чи відмінним описом, і як невизначеність щодо одного з них впливає на дійсність договору?"
   },
+  "agreed": true,
   "rulings": {
     "hanafi": {
       "text": {
