@@ -1,7 +1,7 @@
 {
   "featured": {
-    "ref": "F107",
-    "id": "nikah-1",
+    "ref": "F108",
+    "id": "nikah-2",
     "bookId": "nikah",
     "chapter": {
       "ar": "باب الخطبة",
@@ -11,58 +11,58 @@
       "uk": "Розділ про сватання"
     },
     "title": {
-      "ar": "حكم الخطبة على خطبة الغير",
-      "en": "Making an Offer of Marriage over Another Man's Offer",
-      "ru": "Сватовство поверх сватовства другого",
-      "es": "Pedir en matrimonio sobre la petición de otro",
-      "uk": "Сватання поверх сватання іншого"
+      "ar": "خِطبة المعتدّة صراحةً والتعريض بها",
+      "en": "Offering Marriage to a Woman in Her Waiting Period, Openly or by Hint",
+      "ru": "Сватовство к женщине в период ожидания — прямо и намёком",
+      "es": "Pedir en matrimonio a la mujer en su período de espera, de forma clara o por insinuación",
+      "uk": "Сватання до жінки в період очікування — прямо й натяком"
     },
     "summary": {
-      "ar": "متى تحرم خطبة الرجل على خطبة أخيه، وهل يصحّ العقد إن وقع؟",
-      "en": "When is it forbidden to make an offer of marriage over another man's offer, and is the contract valid if it goes through?",
-      "ru": "Когда запрещено свататься поверх сватовства другого, и действителен ли договор, если он состоялся?",
-      "es": "¿Cuándo está prohibido pedir en matrimonio sobre la petición de otro, y es válido el contrato si se celebra?",
-      "uk": "Коли заборонено свататися поверх сватання іншого, і чи дійсний договір, якщо він відбувся?"
+      "ar": "ما حكم التصريح بخطبة المرأة في عدّتها، وما حكم التعريض باختلاف نوع العدّة؟",
+      "en": "What is the ruling on offering marriage to a woman openly during her waiting period, and on hinting at it, according to the kind of waiting period?",
+      "ru": "Каково постановление о прямом сватовстве к женщине в период её ожидания и о намёке на это в зависимости от вида периода ожидания?",
+      "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
+      "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
     },
     "rulings": {
       "hanafi": {
         "grade": "haram",
         "lead": {
-          "ar": "تحرم الخطبة على خطبة الغير إذا حصل الركون والرضا من المخطوبة أو وليّها للأوّل؛ فإن لم يحصل رضا أو رُدّ الأوّل جازت",
-          "en": "It is forbidden to make an offer over another's once the woman or her guardian has inclined to the first man and accepted him",
-          "ru": "Запрещено свататься поверх сватовства другого, если невеста или её опекун склонились к первому и приняли его",
-          "es": "Está prohibido pedir sobre la petición de otro si la mujer o su tutor se han inclinado al primero y lo han aceptado",
-          "uk": "Заборонено свататися поверх сватання іншого, якщо наречена або її опікун схилилися до першого й прийняли його"
+          "ar": "يحرم التصريح بخطبة المعتدّة مطلقاً. ويحرم التعريض للمعتدّة من طلاق رجعيّ لبقاء النكاح",
+          "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case",
+          "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае",
+          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso",
+          "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі"
         }
       },
       "maliki": {
         "grade": "haram",
         "lead": {
-          "ar": "تحرم الخطبة على خطبة الغير إذا ركنت المرأة إلى الأوّل واتّفقا على الصداق",
-          "en": "It is forbidden to make an offer over another's once the woman has inclined to the first man and they have agreed on the dower",
-          "ru": "Запрещено свататься поверх сватовства другого",
-          "es": "Está prohibido pedir sobre la petición de otro si la mujer se ha inclinado al primero y han acordado la dote",
-          "uk": "Заборонено свататися поверх сватання іншого"
+          "ar": "يحرم التصريح بخطبة المعتدّة كيفما كانت عدّتها. ويجوز التعريض للمعتدّة من وفاة ومن طلاق بائن",
+          "en": "Offering marriage openly to a woman in her waiting period is forbidden, whatever the kind of waiting period",
+          "ru": "Прямое сватовство к женщине в период ожидания запрещено, каким бы ни был вид этого периода",
+          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido, sea cual sea el tipo de período",
+          "uk": "Пряме сватання до жінки в період очікування заборонене, яким би не був вид цього періоду"
         }
       },
       "shafii": {
         "grade": "haram",
         "lead": {
-          "ar": "تحرم الخطبة على خطبة الغير إذا أُجيب الأوّل إجابةً صريحة",
-          "en": "It is forbidden to make an offer over another's once the first man has had an explicit acceptance — on the strength of his saying ﷺ: “Let…",
-          "ru": "Запрещено свататься поверх сватовства другого",
-          "es": "Está prohibido pedir sobre la petición de otro si el primero recibió una aceptación explícita",
-          "uk": "Заборонено свататися поверх сватання іншого"
+          "ar": "يحرم التصريح بخطبة كلّ معتدّة. ويُباح التعريض لمعتدّة الوفاة والبائن",
+          "en": "Offering marriage openly to any woman in her waiting period is forbidden",
+          "ru": "Прямое сватовство к любой женщине в период ожидания запрещено",
+          "es": "Pedir abiertamente en matrimonio a cualquier mujer en su período de espera está prohibido",
+          "uk": "Пряме сватання до будь-якої жінки в період очікування заборонене"
         }
       },
       "hanbali": {
         "grade": "haram",
         "lead": {
-          "ar": "تحرم الخطبة على خطبة أخيه المسلم إذا أُجيب الأوّل صراحةً أو وُجد ركون إليه؛ فإن أذن الأوّل أو ترك أو رُدّ أو جُهل حاله جازت",
-          "en": "It is forbidden to make an offer over the offer of one's Muslim brother once the first man has had an explicit acceptance",
-          "ru": "Запрещено свататься поверх сватовства своего брата-мусульманина, если первому ответили явным согласием или обнаружилась склонность к нему",
-          "es": "Está prohibido pedir sobre la petición del hermano musulmán si el primero recibió aceptación explícita, o si se halla inclinación hacia él",
-          "uk": "Заборонено свататися поверх сватання свого брата-мусульманина, якщо першому відповіли явною згодою або виявилася схильність до нього"
+          "ar": "يحرم التصريح بخطبة المعتدّة بكلّ حال. ويُباح التعريض لمعتدّة الوفاة والبائن",
+          "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case",
+          "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае",
+          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso",
+          "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі"
         }
       }
     }
