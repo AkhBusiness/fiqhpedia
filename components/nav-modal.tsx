@@ -1,10 +1,10 @@
 "use client"
 
-import { BookOpen, ChevronLeft, ChevronRight, GraduationCap, Sparkles } from "lucide-react"
+import { BookOpen, ChevronLeft, ChevronRight, GraduationCap, ListChecks, Sparkles } from "lucide-react"
 import { Modal } from "@/components/modal"
 import { type Lang, rtlLangs, ui } from "@/lib/fiqh-data"
 
-export type Section = "home" | "fiqh" | "aqidah" | "articles" | "glossary" | "learn" | "about" | "sources" | "changelog"
+export type Section = "home" | "fiqh" | "aqidah" | "articles" | "glossary" | "learn" | "about" | "sources" | "changelog" | "quiz"
 
 interface NavModalProps {
   open: boolean
@@ -22,6 +22,7 @@ export function NavModal({ open, onClose, lang, active, onSelect }: NavModalProp
     { key: "fiqh", icon: BookOpen, title: ui.fiqhSection[lang], desc: ui.fiqhSectionDesc[lang] },
     { key: "aqidah", icon: Sparkles, title: ui.aqidahSection[lang], desc: ui.aqidahSectionDesc[lang] },
     { key: "learn", icon: GraduationCap, title: ui.learnSection[lang], desc: ui.learnSectionDesc[lang] },
+    { key: "quiz", icon: ListChecks, title: ui.quizSection[lang], desc: ui.quizSectionDesc[lang] },
   ]
 
   return (

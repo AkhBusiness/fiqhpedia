@@ -1,7 +1,7 @@
 {
   "featured": {
-    "ref": "F102",
-    "id": "taharah-57",
+    "ref": "F103",
+    "id": "taharah-58",
     "bookId": "taharah",
     "chapter": {
       "ar": "باب التيمم",
@@ -11,58 +11,58 @@
       "uk": "Розділ про сухе очищення (таяммум)"
     },
     "title": {
-      "ar": "صفة التيمم وعدد ضرباته",
-      "en": "The Form of the Dry Ablution and How Many Strikes It Takes",
-      "ru": "Форма таяммума и число ударов в нём",
-      "es": "La forma del tayammum y el número de golpes en él",
-      "uk": "Форма таяммуму та кількість ударів у ньому"
+      "ar": "نية التيمم وهل يرفع الحدث أم يبيح الصلاة",
+      "en": "The Intention for the Dry Ablution: Does It Lift Impurity or Only Permit the Prayer?",
+      "ru": "Намерение для таяммума: снимает ли он осквернение или лишь дозволяет молитву?",
+      "es": "La intención del tayammum: ¿levanta la impureza o solo permite la oración?",
+      "uk": "Намір для таяммуму: чи знімає він осквернення, чи лише дозволяє молитву?"
     },
     "summary": {
-      "ar": "كم ضربةً يُضرب على الأرض في التيمم، وإلى أين يمسح اليدين: إلى الكوعين أم إلى المرفقين؟",
-      "en": "How many strikes on the earth does the dry ablution take, and how far are the arms wiped — to the wrists or to the elbows?",
-      "ru": "Сколько ударов о землю совершается в таяммуме и докуда протираются руки — до запястий или до локтей?",
-      "es": "¿Cuántos golpes en la tierra lleva el tayammum, y hasta dónde se pasan las manos: hasta las muñecas o hasta los codos?",
-      "uk": "Скільки ударів об землю здійснюється в таяммумі й доки протираються руки — до зап'ястків чи до ліктів?"
+      "ar": "بماذا يَنوي المتيمّم، وهل تيممه يرفع الحدث كالوضوء أم يبيح له الصلاة والحدث باقٍ؟",
+      "en": "What does one intend in the dry ablution, and does it lift impurity as the ablution does, or merely permit the prayer while the impurity remains?",
+      "ru": "Что намеревается совершающий таяммум, и снимает ли он осквернение, как омовение, или лишь дозволяет молитву, а осквернение остаётся?",
+      "es": "¿Qué intención se hace en el tayammum, y levanta la impureza como la ablución, o solo permite la oración quedando la impureza?",
+      "uk": "Що має на увазі той, хто здійснює таяммум, і чи знімає він осквернення, як омивання, чи лише дозволяє молитву, а осквернення лишається?"
     },
     "rulings": {
       "hanafi": {
         "grade": "fard",
         "lead": {
-          "ar": "التيمم ضربتان: ضربة يمسح بها وجهه كلّه",
-          "en": "The dry ablution is two strikes: one with which he wipes his whole face, and one with which he wipes his arms including the elbows",
-          "ru": "Таяммум — это два удара: один, которым он протирает всё лицо, и один, которым протирает руки вместе с локтями",
-          "es": "El tayammum son dos golpes: uno con el que se pasa por todo el rostro y otro con el que se pasa por los brazos incluidos los codos",
-          "uk": "Таяммум — це два удари: один, яким він протирає все обличчя, і один, яким протирає руки разом із ліктями"
+          "ar": "التيمم يرفع الحدث ما دام العذر قائماً",
+          "en": "The dry ablution lifts the impurity so long as the excuse remains",
+          "ru": "Таяммум снимает осквернение, пока сохраняется причина",
+          "es": "El tayammum levanta la impureza mientras subsista la excusa",
+          "uk": "Таяммум знімає осквернення, поки зберігається причина"
         }
       },
       "maliki": {
         "grade": "fard",
         "lead": {
-          "ar": "الفرض ضربة واحدة يمسح بها وجهه ويديه إلى الكوعين",
-          "en": "What is obligatory is one strike with which he wipes his face and his hands to the wrists",
-          "ru": "Обязателен один удар, которым он протирает лицо и кисти до запястий",
-          "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos hasta las muñecas",
-          "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті до зап'ястків"
+          "ar": "التيمم مبيح للصلاة لا رافع للحدث",
+          "en": "The dry ablution permits the prayer and does not lift the impurity",
+          "ru": "Таяммум дозволяет молитву и не снимает осквернение",
+          "es": "El tayammum permite la oración y no levanta la impureza",
+          "uk": "Таяммум дозволяє молитву і не знімає осквернення"
         }
       },
       "shafii": {
         "grade": "fard",
         "lead": {
-          "ar": "التيمم ضربتان لا يُجزئ أقلّ منهما: ضربة للوجه",
-          "en": "The dry ablution is two strikes and no fewer: one for the face and one for the arms including the elbows",
-          "ru": "Таяммум — это два удара, и меньшего не довольно: один для лица и один для рук вместе с локтями",
-          "es": "El tayammum son dos golpes y no menos: uno para el rostro y otro para los brazos incluidos los codos",
-          "uk": "Таяммум — це два удари, і меншого не досить: один для обличчя й один для рук разом із ліктями"
+          "ar": "التيمم مبيح للصلاة لا رافع للحدث",
+          "en": "The dry ablution permits the prayer and does not lift the impurity",
+          "ru": "Таяммум дозволяет молитву и не снимает осквернение",
+          "es": "El tayammum permite la oración y no levanta la impureza",
+          "uk": "Таяммум дозволяє молитву і не знімає осквернення"
         }
       },
       "hanbali": {
         "grade": "fard",
         "lead": {
-          "ar": "الفرض ضربة واحدة يمسح بها وجهه وكفّيه",
-          "en": "What is obligatory is a single strike with which he wipes his face and his hands — on the strength of the hadith of ʿAmmār ibn Yāsir: “It…",
-          "ru": "Обязателен один удар",
-          "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos",
-          "uk": "Обов'язковий один удар"
+          "ar": "التيمم مبيح للصلاة والحدث باقٍ",
+          "en": "The dry ablution permits the prayer while the impurity remains",
+          "ru": "Таяммум дозволяет молитву, а осквернение остаётся",
+          "es": "El tayammum permite la oración quedando la impureza",
+          "uk": "Таяммум дозволяє молитву, а осквернення лишається"
         }
       }
     }

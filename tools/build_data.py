@@ -360,6 +360,58 @@ def main() -> int:
         json.dump(index, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
+    # الاختبار: أسئلة تتولّد من المسائل التي لها درجة عند المذاهب الأربعة —
+    # «ما حكم كذا عند مذهبك؟» والجواب درجتُه، والشرحُ حكمُه بنصّه. ومعها
+    # أسئلة يكتبها المالك في data/content/quiz.json. ملف مستقلّ لا يُحمَّل
+    # إلا في صفحة الاختبار.
+    LANGS5 = ("ar", "en", "ru", "es", "uk")
+    SCHOOLS4 = ("hanafi", "maliki", "shafii", "hanbali")
+    quiz_auto = []
+    for i in ordered:
+        rs = i.get("rulings", {})
+        if not all(rs.get(s, {}).get("grade") for s in SCHOOLS4):
+            continue
+        quiz_auto.append({
+            "ref": i["ref"], "bookId": i["bookId"], "title": i["title"],
+            "grades": {s: rs[s]["grade"] for s in SCHOOLS4},
+            "ruling": {s: rs[s]["text"] for s in SCHOOLS4},
+        })
+    manual_path = SRC / "quiz.json"
+    quiz_manual = load(manual_path).get("questions", []) if manual_path.exists() else []
+    bad = []
+    for q in quiz_manual:
+        opts = q.get("options", [])
+        if not q.get("id") or len(opts) < 2 or not isinstance(q.get("answer"), int) or not 0 <= q["answer"] < len(opts):
+            bad.append(q.get("id", "?"))
+            continue
+        for f in [q.get("question", {}), q.get("explain", {}), *opts]:
+            if any(not str(f.get(l, "")).strip() for l in LANGS5):
+                bad.append(q["id"])
+                break
+    if bad:
+        print(f"quiz.json: أسئلة ناقصة أو غير صالحة تُسقط: {sorted(set(bad))}")
+    quiz_manual = [q for q in quiz_manual if q.get("id") not in set(bad)]
+    # ملف لكل لغة: القارئ لا يحتاج إلا لغته، والنصوص الخمس معاً أربعمئة ك.ب.
+    qdir = ROOT / "data" / "quiz"
+    qdir.mkdir(exist_ok=True)
+    for l in LANGS5:
+        part = {
+            "auto": [
+                {"ref": q["ref"], "bookId": q["bookId"], "title": q["title"][l], "grades": q["grades"],
+                 "ruling": {s: q["ruling"][s][l] for s in SCHOOLS4}}
+                for q in quiz_auto
+            ],
+            "manual": [
+                {"id": q["id"], "school": q.get("school", "all"), "bookId": q.get("bookId"), "ref": q.get("ref"),
+                 "question": q["question"][l], "options": [o[l] for o in q["options"]],
+                 "answer": q["answer"], "explain": q["explain"][l]}
+                for q in quiz_manual
+            ],
+        }
+        with (qdir / f"{l}.json").open("w", encoding="utf-8") as fh:
+            json.dump(part, fh, ensure_ascii=False, separators=(",", ":"))
+            fh.write("\n")
+
     # صفحة «منهجنا» من data/content/pages.json، وصفحة «المراجع» من terms.json
     # مع عدد المسائل التي يُستشهد فيها بكل كتاب — يُحسب هنا لا في المتصفّح.
     pages_src = SRC / "pages.json"

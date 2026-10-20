@@ -6,7 +6,7 @@ import { LANGS, type Lang, ui } from "@/lib/fiqh-data"
 import { SITE_URL } from "@/lib/site"
 
 /** Sections that get their own path. "home" is the bare /{lang}. */
-const SECTIONS = ["fiqh", "aqidah", "articles", "glossary", "learn", "about", "sources", "changelog"] as const
+const SECTIONS = ["fiqh", "aqidah", "articles", "glossary", "learn", "about", "sources", "changelog", "quiz"] as const
 
 /**
  * One static page per language × section, so /ar/articles is a real file and
@@ -26,6 +26,7 @@ const TITLE_KEY: Record<(typeof SECTIONS)[number], string> = {
   about: "aboutSection",
   sources: "sourcesSection",
   changelog: "changelogSection",
+  quiz: "quizSection",
 }
 const DESC_KEY: Record<(typeof SECTIONS)[number], string> = {
   fiqh: "fiqhSectionDesc",
@@ -36,6 +37,7 @@ const DESC_KEY: Record<(typeof SECTIONS)[number], string> = {
   about: "aboutIntro",
   sources: "sourcesIntro",
   changelog: "changelogIntro",
+  quiz: "quizSectionDesc",
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string; section: string }> }): Promise<Metadata> {

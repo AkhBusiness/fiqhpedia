@@ -36,6 +36,7 @@ const GlossarySection = dynamic(() => import("@/components/glossary-section").th
 const AboutSection = dynamic(() => import("@/components/about-section").then((m) => m.AboutSection))
 const SourcesSection = dynamic(() => import("@/components/sources-section").then((m) => m.SourcesSection))
 const ChangelogSection = dynamic(() => import("@/components/changelog-section").then((m) => m.ChangelogSection))
+const QuizSection = dynamic(() => import("@/components/quiz-section").then((m) => m.QuizSection))
 const LearnSection = dynamic(() => import("@/components/learn-section").then((m) => m.LearnSection))
 const GlobalSearch = dynamic(() => import("@/components/global-search").then((m) => m.GlobalSearch), { ssr: false })
 const ShareCardModal = dynamic(() => import("@/components/share-card-modal").then((m) => m.ShareCardModal), { ssr: false })
@@ -330,6 +331,8 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
             <SourcesSection lang={lang} />
           ) : section === "changelog" ? (
             <ChangelogSection lang={lang} />
+          ) : section === "quiz" ? (
+            <QuizSection lang={lang} />
           ) : (
             <LearnSection lang={lang} />
           )}
@@ -347,6 +350,9 @@ export function AppShell({ lang, section, entry }: AppShellProps) {
             </Link>
             <Link href={`/${lang}/changelog`} className="inline-flex min-h-11 items-center text-[13px] font-semibold text-muted-foreground hover:text-foreground">
               {ui.changelogSection[lang]}
+            </Link>
+            <Link href={`/${lang}/quiz`} className="inline-flex min-h-11 items-center text-[13px] font-semibold text-muted-foreground hover:text-foreground">
+              {ui.quizSection[lang]}
             </Link>
           </nav>
           <p className="text-pretty text-center text-[13px] leading-relaxed text-muted-foreground">{ui.footer[lang]}</p>

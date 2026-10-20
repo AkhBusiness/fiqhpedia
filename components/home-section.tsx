@@ -247,6 +247,7 @@ export function HomeSection({ lang, onGo, onSearch }: HomeSectionProps) {
               ["aqidah", ui.homeIntentAqidah[lang]],
               ["articles", ui.homeIntentArticles[lang]],
               ["glossary", ui.glossarySection[lang]],
+              ["quiz", ui.quizSection[lang]],
               ["about", ui.aboutSection[lang]],
               ["sources", ui.sourcesSection[lang]],
             ] as [Section, string][]

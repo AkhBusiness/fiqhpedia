@@ -1884,6 +1884,230 @@
       "ru": "Алфавитный указатель вопросов",
       "es": "Índice alfabético de cuestiones",
       "uk": "Абетковий покажчик питань"
+    },
+    "quizSection": {
+      "ar": "اختبر نفسك",
+      "en": "Test yourself",
+      "ru": "Проверьте себя",
+      "es": "Ponte a prueba",
+      "uk": "Перевірте себе"
+    },
+    "quizIntro": {
+      "ar": "أسئلة من مسائل الموسوعة على مذهبك. بعد كل جواب يظهر حكم المسألة كما في الموسوعة، وفي النهاية نتيجتك وما أخطأت فيه.",
+      "en": "Questions drawn from the encyclopedia's entries, in your school. After each answer you see the ruling as the encyclopedia gives it; at the end, your score and what you missed.",
+      "ru": "Вопросы из статей энциклопедии по вашему мазхабу. После каждого ответа показано положение так, как оно дано в энциклопедии, а в конце — ваш результат и ошибки.",
+      "es": "Preguntas tomadas de las cuestiones de la enciclopedia, según tu escuela. Tras cada respuesta verás la norma tal como la da la enciclopedia; al final, tu resultado y lo que fallaste.",
+      "uk": "Питання зі статей енциклопедії за вашим мазгабом. Після кожної відповіді з'являється положення так, як його подає енциклопедія, а наприкінці — ваш результат і помилки."
+    },
+    "quizSchool": {
+      "ar": "المذهب",
+      "en": "School",
+      "ru": "Мазхаб",
+      "es": "Escuela",
+      "uk": "Мазгаб"
+    },
+    "quizBook": {
+      "ar": "الكتاب",
+      "en": "Book",
+      "ru": "Книга",
+      "es": "Libro",
+      "uk": "Книга"
+    },
+    "quizAllBooks": {
+      "ar": "كل الكتب",
+      "en": "All books",
+      "ru": "Все книги",
+      "es": "Todos los libros",
+      "uk": "Усі книги"
+    },
+    "quizCount": {
+      "ar": "عدد الأسئلة",
+      "en": "Number of questions",
+      "ru": "Количество вопросов",
+      "es": "Número de preguntas",
+      "uk": "Кількість питань"
+    },
+    "quizAvailable": {
+      "ar": "{n} سؤالاً متاحاً",
+      "en": "{n} questions available",
+      "ru": "Доступно вопросов: {n}",
+      "es": "{n} preguntas disponibles",
+      "uk": "Доступно питань: {n}"
+    },
+    "quizStart": {
+      "ar": "ابدأ الاختبار",
+      "en": "Start the test",
+      "ru": "Начать",
+      "es": "Empezar",
+      "uk": "Почати"
+    },
+    "quizQuestionOf": {
+      "ar": "السؤال {i} من {n}",
+      "en": "Question {i} of {n}",
+      "ru": "Вопрос {i} из {n}",
+      "es": "Pregunta {i} de {n}",
+      "uk": "Питання {i} з {n}"
+    },
+    "quizCorrect": {
+      "ar": "إجابة صحيحة",
+      "en": "Correct",
+      "ru": "Верно",
+      "es": "Correcto",
+      "uk": "Правильно"
+    },
+    "quizWrong": {
+      "ar": "الصواب: {answer}",
+      "en": "The answer is: {answer}",
+      "ru": "Правильный ответ: {answer}",
+      "es": "La respuesta es: {answer}",
+      "uk": "Правильна відповідь: {answer}"
+    },
+    "quizFromEntry": {
+      "ar": "كما في الموسوعة",
+      "en": "As the encyclopedia gives it",
+      "ru": "Как в энциклопедии",
+      "es": "Tal como lo da la enciclopedia",
+      "uk": "Як в енциклопедії"
+    },
+    "quizReadEntry": {
+      "ar": "اقرأ المسألة كاملة",
+      "en": "Read the full entry",
+      "ru": "Читать статью полностью",
+      "es": "Leer la cuestión completa",
+      "uk": "Читати статтю повністю"
+    },
+    "quizNext": {
+      "ar": "السؤال التالي",
+      "en": "Next question",
+      "ru": "Следующий вопрос",
+      "es": "Siguiente pregunta",
+      "uk": "Наступне питання"
+    },
+    "quizSeeResult": {
+      "ar": "النتيجة",
+      "en": "See the result",
+      "ru": "Результат",
+      "es": "Ver el resultado",
+      "uk": "Результат"
+    },
+    "quizResult": {
+      "ar": "نتيجتك",
+      "en": "Your result",
+      "ru": "Ваш результат",
+      "es": "Tu resultado",
+      "uk": "Ваш результат"
+    },
+    "quizScore": {
+      "ar": "{c} من {n}",
+      "en": "{c} of {n}",
+      "ru": "{c} из {n}",
+      "es": "{c} de {n}",
+      "uk": "{c} з {n}"
+    },
+    "quizBand90": {
+      "ar": "ممتاز — تعرف مذهبك معرفةً جيدة.",
+      "en": "Excellent — you know your school well.",
+      "ru": "Отлично — вы хорошо знаете свой мазхаб.",
+      "es": "Excelente: conoces bien tu escuela.",
+      "uk": "Чудово — ви добре знаєте свій мазгаб."
+    },
+    "quizBand70": {
+      "ar": "جيد جداً — راجع ما أخطأت فيه أدناه.",
+      "en": "Very good — review what you missed below.",
+      "ru": "Очень хорошо — просмотрите ошибки ниже.",
+      "es": "Muy bien: repasa abajo lo que fallaste.",
+      "uk": "Дуже добре — перегляньте помилки нижче."
+    },
+    "quizBand50": {
+      "ar": "جيد — المسائل أدناه تستحق القراءة.",
+      "en": "Good — the entries below are worth reading.",
+      "ru": "Хорошо — статьи ниже стоит прочитать.",
+      "es": "Bien: vale la pena leer las cuestiones de abajo.",
+      "uk": "Добре — статті нижче варто прочитати."
+    },
+    "quizBand0": {
+      "ar": "ابدأ بقراءة المسائل أدناه، ثم أعد المحاولة.",
+      "en": "Start by reading the entries below, then try again.",
+      "ru": "Начните с чтения статей ниже, затем попробуйте снова.",
+      "es": "Empieza leyendo las cuestiones de abajo y vuelve a intentarlo.",
+      "uk": "Почніть із читання статей нижче, потім спробуйте знову."
+    },
+    "quizReview": {
+      "ar": "ما أخطأت فيه",
+      "en": "What you missed",
+      "ru": "Ваши ошибки",
+      "es": "Lo que fallaste",
+      "uk": "Ваші помилки"
+    },
+    "quizNoMistakes": {
+      "ar": "لا أخطاء — أحسنت.",
+      "en": "No mistakes — well done.",
+      "ru": "Ни одной ошибки — отлично.",
+      "es": "Ningún error: bien hecho.",
+      "uk": "Жодної помилки — чудово."
+    },
+    "quizYourAnswer": {
+      "ar": "إجابتك",
+      "en": "Your answer",
+      "ru": "Ваш ответ",
+      "es": "Tu respuesta",
+      "uk": "Ваша відповідь"
+    },
+    "quizRightAnswer": {
+      "ar": "الصواب",
+      "en": "Correct answer",
+      "ru": "Правильный ответ",
+      "es": "Respuesta correcta",
+      "uk": "Правильна відповідь"
+    },
+    "quizRetry": {
+      "ar": "أعد الأسئلة نفسها",
+      "en": "Retry the same questions",
+      "ru": "Пройти те же вопросы",
+      "es": "Repetir las mismas preguntas",
+      "uk": "Пройти ті самі питання"
+    },
+    "quizNew": {
+      "ar": "اختبار جديد",
+      "en": "New test",
+      "ru": "Новый тест",
+      "es": "Nueva prueba",
+      "uk": "Новий тест"
+    },
+    "quizBest": {
+      "ar": "أفضل نتيجة لك في هذا الاختيار: {p}٪",
+      "en": "Your best score for this selection: {p}%",
+      "ru": "Ваш лучший результат для этого выбора: {p}%",
+      "es": "Tu mejor resultado en esta selección: {p}%",
+      "uk": "Ваш найкращий результат для цього вибору: {p}%"
+    },
+    "quizNone": {
+      "ar": "لا توجد أسئلة كافية لهذا الاختيار بعد.",
+      "en": "There are not enough questions for this selection yet.",
+      "ru": "Для этого выбора пока недостаточно вопросов.",
+      "es": "Aún no hay suficientes preguntas para esta selección.",
+      "uk": "Для цього вибору поки недостатньо питань."
+    },
+    "quizPercent": {
+      "ar": "{p}٪",
+      "en": "{p}%",
+      "ru": "{p}%",
+      "es": "{p}%",
+      "uk": "{p}%"
+    },
+    "quizPrompt": {
+      "ar": "ما حكمه عند {school}؟",
+      "en": "What is its ruling in the {school} school?",
+      "ru": "Каково его положение в {school} мазхабе?",
+      "es": "¿Cuál es su norma en la escuela {school}?",
+      "uk": "Яке його положення в {school} мазгабі?"
+    },
+    "quizSectionDesc": {
+      "ar": "أسئلة اختيار من متعدد على مذهبك من مسائل الموسوعة، ونتيجتك في النهاية.",
+      "en": "Multiple-choice questions on your school, drawn from the encyclopedia's entries, with your score at the end.",
+      "ru": "Вопросы с выбором ответа по вашему мазхабу из статей энциклопедии и итоговый результат.",
+      "es": "Preguntas de opción múltiple sobre tu escuela, tomadas de las cuestiones de la enciclopedia, con tu resultado al final.",
+      "uk": "Питання з вибором відповіді за вашим мазгабом зі статей енциклопедії та підсумковий результат."
     }
   },
   "books": [

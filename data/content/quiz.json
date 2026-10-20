@@ -1,0 +1,4 @@
+{
+  "_note": "أسئلة الاختبار اليدوية. كل سؤال: id فريد · school (hanafi|maliki|shafii|hanbali أو all لسؤال لا يختلف بالمذهب) · bookId اختياري (taharah, salah…) · question و explain وكل خيار في options بالخمس لغات · answer رقم الخيار الصحيح من 0 · ref اختياري (رقم مسألة F… يُربط بها الشرح). السؤال الناقص لغةً يُسقط عند البناء ولا يوقفه.",
+  "questions": []
+}
