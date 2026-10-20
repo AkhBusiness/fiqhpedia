@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يطهر الماء المتنجّس بالمكاثرة بماء طهور، أو بزوال تغيّره بنفسه، أو بطول المُكث حتى يزول التغيّر بالكلية.",
-        "en": "Impure water is purified by adding a greater quantity of tahur water, by the alteration clearing on its own, or by standing long enough for it to vanish entirely.",
-        "ru": "Осквернённая вода очищается добавлением большего количества воды тахур, самостоятельным исчезновением изменения или долгим стоянием, пока оно не исчезнет полностью.",
-        "es": "El agua contaminada se purifica añadiendo mayor cantidad de agua tahur, desapareciendo la alteración por sí sola, o reposando hasta que se disipe del todo.",
-        "uk": "Осквернена вода очищується примноженням очищувальною водою, або самостійним зникненням її зміни, або тривалим стоянням, доки зміна не зникне повністю."
+        "ar": "يطهر الماء المتنجّس بصبّ ماء مطلق عليه حتى يزول تغيّره، ولا يطهر بزوال تغيّره بنفسه أو بطول المكث.",
+        "en": "Impure water is purified by pouring unrestricted (mutlaq) water over it until its alteration clears; it is not purified by the alteration clearing on its own or by standing for a long time.",
+        "ru": "Осквернённая вода очищается доливанием на неё абсолютной (мутлак) воды, пока не исчезнет её изменение; она не очищается самостоятельным исчезновением изменения или долгим стоянием.",
+        "es": "El agua contaminada se purifica vertiendo sobre ella agua absoluta (mutlaq) hasta que desaparezca su alteración; no se purifica desapareciendo la alteración por sí sola ni por un largo reposo.",
+        "uk": "Осквернена вода очищується доливанням на неї абсолютної (мутлак) води, доки не зникне її зміна; вона не очищується самостійним зникненням зміни чи тривалим стоянням."
       },
       "sources": [
         {
@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يطهر الكثير بزوال تغيّره بنفسه أو بإضافة طهور يزيله، ويطهر القليل بإضافة طهور يبلغ به قلّتين غير متغيّر.",
-        "en": "Much water becomes pure when its alteration clears by itself or through tahur water that removes it; little water becomes pure by adding tahur until it reaches two qullahs unaltered.",
-        "ru": "Большая вода очищается исчезновением изменения самого по себе или добавлением тахур, устраняющей его; малая — доливанием тахур до двух куллей без изменения.",
-        "es": "El agua abundante se purifica cuando la alteración se disipa sola o por agua tahur que la elimina; la escasa, añadiendo tahur hasta alcanzar dos qullas sin alteración.",
-        "uk": "Велика вода очищується самостійним зникненням її зміни або додаванням очищувальної, що її усуває; мала — додаванням очищувальної, з якою вона сягає двох кулл без зміни."
+        "ar": "يطهر الكثير بزوال تغيّره بنفسه، أو بإضافة طهور كثير، أو بنزح يبقى بعده كثير غير متغيّر، ويطهر القليل بإضافة طهور كثير إليه مع زوال تغيّره إن كان.",
+        "en": "Much water becomes pure when its alteration clears by itself, by adding a large quantity of tahur water, or by drawing off so that a large unaltered quantity remains; little water becomes pure by adding a large quantity of tahur water to it, provided its alteration, if any, clears.",
+        "ru": "Большая вода очищается исчезновением изменения самого по себе, добавлением большого количества тахур или вычерпыванием, после которого остаётся большое количество без изменения; малая — добавлением к ней большого количества тахур при исчезновении изменения, если оно было.",
+        "es": "El agua abundante se purifica cuando la alteración se disipa sola, añadiendo agua tahur abundante, o extrayendo agua de modo que quede una cantidad abundante sin alteración; la escasa, añadiéndole agua tahur abundante, siempre que desaparezca su alteración si la había.",
+        "uk": "Велика вода очищується самостійним зникненням її зміни, додаванням великої кількості очищувальної води або вичерпуванням, після якого лишається велика кількість без зміни; мала — додаванням до неї великої кількості очищувальної води за умови зникнення зміни, якщо вона була."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: لا يطهر المتنجّس بزوال تغيّره بنفسه، وقول الحنابلة: لا يطهر القليل إلا بإضافة طهور كثير.",
+    "en": "Corrected the Maliki position (impure water is not purified by its alteration clearing on its own) and the Hanbali position (little water is purified only by adding a large quantity of tahur water).",
+    "ru": "Исправлены позиции маликитов (осквернённая вода не очищается самостоятельным исчезновением изменения) и ханбалитов (малая вода очищается лишь добавлением большого количества тахур).",
+    "es": "Se corrigieron las posturas malikí (el agua contaminada no se purifica porque su alteración desaparezca sola) y hanbalí (el agua escasa solo se purifica añadiéndole agua tahur abundante).",
+    "uk": "Виправлено позиції малікітів (осквернена вода не очищується самостійним зникненням зміни) і ханбалітів (мала вода очищується лише додаванням великої кількості очищувальної води)."
   }
 }

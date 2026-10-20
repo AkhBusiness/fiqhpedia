@@ -29,11 +29,11 @@
     "hanafi": {
       "grade": "wajib",
       "text": {
-        "ar": "لا يجب طلب الماء إلا إذا غلب على ظنّه وجوده قريباً منه نحو ميل، فإن لم يغلب على ظنّه تيمّم من غير طلب.",
-        "en": "Searching for water is required only if he strongly supposes it to be near him, about a mile off; if he has no such supposition, he performs the dry ablution without searching.",
-        "ru": "Поиск воды обязателен лишь тогда, когда он с преобладающим предположением считает её близкой — примерно на расстоянии мили; если такого предположения нет, он совершает таяммум без поиска.",
-        "es": "Buscar agua solo es obligatorio si presume con fuerza que está cerca de él, a cosa de una milla; si no tiene tal presunción, hace el tayammum sin buscar.",
-        "uk": "Пошук води обов'язковий лише тоді, коли він із переважним припущенням вважає її близькою — приблизно за милю; якщо такого припущення немає, він здійснює таяммум без пошуку."
+        "ar": "لا يجب طلب الماء إلا إذا غلب على ظنّه أنّ بقربه ماءً دون ميل، فيطلبه مقدار غلوة ولا يبلغ ميلاً، فإن لم يغلب على ظنّه تيمّم من غير طلب.",
+        "en": "Searching for water is required only if he strongly supposes there is water near him, less than a mile off; he then searches as far as a bowshot, without going as far as a mile. If he has no such supposition, he performs the dry ablution without searching.",
+        "ru": "Поиск воды обязателен лишь тогда, когда он с преобладающим предположением считает, что вода рядом, ближе мили; тогда он ищет на расстоянии полёта стрелы, не доходя до мили. Если такого предположения нет, он совершает таяммум без поиска.",
+        "es": "Buscar agua solo es obligatorio si presume con fuerza que hay agua cerca de él, a menos de una milla; entonces la busca hasta un tiro de flecha, sin llegar a una milla. Si no tiene tal presunción, hace el tayammum sin buscar.",
+        "uk": "Пошук води обов'язковий лише тоді, коли він із переважним припущенням вважає, що вода поблизу, ближче милі; тоді він шукає на відстань польоту стріли, не доходячи до милі. Якщо такого припущення немає, він здійснює таяммум без пошуку."
       },
       "sources": [
         {
@@ -95,11 +95,11 @@
     "shafii": {
       "grade": "wajib",
       "text": {
-        "ar": "يجب الطلب بعد دخول الوقت بنفسه أو بمن يأذن له: في حدّ الغوث — وهو ما يبلغه الصوت — ثم في حدّ القرب إن أمِن على نفسه وماله.",
-        "en": "The search is required once the prayer time has come in, by himself or by someone he authorises: within the reach of a call — as far as a voice carries — and then within the nearer distance, if he is safe as to himself and his property.",
-        "ru": "Поиск обязателен после наступления времени молитвы — лично или через того, кому он поручит: в пределах зова, куда доносится голос, а затем в пределах ближней округи, если он в безопасности за себя и своё имущество.",
-        "es": "La búsqueda es obligatoria una vez entrado el tiempo de la oración, por sí mismo o por quien autorice: dentro del alcance de la llamada —hasta donde llega la voz— y luego en la cercanía, si está seguro respecto de sí y de sus bienes.",
-        "uk": "Пошук обов'язковий після настання часу молитви — особисто або через того, кому він доручить: у межах поклику, куди доноситься голос, а потім у межах ближньої округи, якщо він у безпеці щодо себе та свого майна."
+        "ar": "إن تيقّن فقد الماء تيمّم بلا طلب، وإن توهّمه وجب الطلب بعد دخول الوقت في رحله ورفقته وحواليه إلى حدّ الغوث — وهو ما يبلغه الصوت. فإن علم ماءً في حدّ القرب وجب قصده إن أمِن على نفسه وماله.",
+        "en": "If he is certain there is no water, he performs the dry ablution without searching; if he merely supposes there may be some, the search is required once the prayer time has come in — in his baggage, among his companions and around him, within the reach of a call, as far as a voice carries. If he knows of water within the nearer distance, he must go to it, if he is safe as to himself and his property.",
+        "ru": "Если он уверен, что воды нет, он совершает таяммум без поиска; если лишь допускает её наличие, поиск обязателен после наступления времени молитвы — в своей поклаже, у спутников и вокруг себя, в пределах зова, куда доносится голос. Если он знает о воде в пределах ближней округи, он обязан идти к ней, если он в безопасности за себя и своё имущество.",
+        "es": "Si tiene certeza de que no hay agua, hace el tayammum sin buscar; si solo supone que pueda haberla, la búsqueda es obligatoria una vez entrado el tiempo de la oración —en su equipaje, entre sus compañeros y a su alrededor, dentro del alcance de la llamada, hasta donde llega la voz—. Si sabe de agua en la cercanía, debe ir a ella, si está seguro respecto de sí y de sus bienes.",
+        "uk": "Якщо він упевнений, що води немає, він здійснює таяммум без пошуку; якщо лише припускає її наявність, пошук обов'язковий після настання часу молитви — у своєму вантажі, у супутників і довкола себе, у межах поклику, куди доноситься голос. Якщо він знає про воду в межах ближньої округи, він зобов'язаний іти до неї, якщо він у безпеці щодо себе та свого майна."
       },
       "sources": [
         {
@@ -126,7 +126,7 @@
       ]
     },
     "hanbali": {
-      "grade": "wajib",
+      "grade": "fard",
       "text": {
         "ar": "يجب طلب الماء في رحله وعند رفقته وفيما قرب منه عرفاً، فإن لم يجد أو خاف خروج الوقت أو الضرر تيمّم ولا يلزمه التباعد.",
         "en": "He must search for water in his baggage, among his companions, and in what is customarily near him; if he finds none, or fears the prayer time will pass or that he will come to harm, he performs the dry ablution and need not go far.",
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: من تيقّن فقد الماء تيمّم بلا طلب، وقول الحنفية: يكون الطلب مقدار غلوة فيما دون الميل.",
+    "en": "The Shāfiʿī position was corrected: whoever is certain there is no water performs the dry ablution without searching; and the Ḥanafī position: the search extends a bowshot, within less than a mile.",
+    "ru": "Исправлено мнение шафиитов: уверенный в отсутствии воды совершает таяммум без поиска; и мнение ханафитов: поиск ведётся на расстоянии полёта стрелы, в пределах меньше мили.",
+    "es": "Se corrigió la posición shāfiʿí: quien tiene certeza de que no hay agua hace el tayammum sin buscar; y la ḥanafí: la búsqueda llega a un tiro de flecha, a menos de una milla.",
+    "uk": "Виправлено думку шафіїтів: той, хто впевнений у відсутності води, здійснює таяммум без пошуку; і думку ханафітів: пошук ведеться на відстань польоту стріли, у межах менше милі."
   }
 }

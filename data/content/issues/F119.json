@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يُشترط في الوليّ: الذكورة، والعقل، والبلوغ، والحرّية، والإسلام للمسلمة. وترتيب الأولياء: الابن، ثم الأب، ثم الأخ، ثم ابن الأخ، ثم الجدّ، ثم العمّ، ثم الوصيّ، ثم عامّة المسلمين أو السلطان.",
-        "en": "Required in a guardian are: being male, sound mind, majority, freedom, and Islam for a Muslim woman. The order runs: the son, then the father, then the brother, then the brother's son, then the grandfather, then the paternal uncle, then the testamentary executor, then the Muslims at large or the ruler.",
-        "ru": "В опекуне требуются: мужской пол, разум, совершеннолетие, свобода и ислам для мусульманки. Порядок таков: сын, затем отец, затем брат, затем сын брата, затем дед, затем дядя по отцу, затем душеприказчик, затем мусульмане вообще или правитель.",
-        "es": "Se requiere en el tutor: ser varón, juicio, mayoría de edad, libertad e islam para una musulmana. El orden es: el hijo, luego el padre, luego el hermano, luego el hijo del hermano, luego el abuelo, luego el tío paterno, luego el albacea, luego los musulmanes en general o el gobernante.",
-        "uk": "В опікуні вимагаються: чоловіча стать, розум, повноліття, свобода та іслам для мусульманки. Порядок такий: син, потім батько, потім брат, потім син брата, потім дід, потім дядько по батькові, потім виконавець заповіту, потім мусульмани загалом або правитель."
+        "ar": "يُشترط في الوليّ: الذكورة، والحرّية، والبلوغ، والعقل، والإسلام للمسلمة، وعدم الإحرام. وترتيب غير المجبر: الابن، ثم ابنه، ثم الأب، ثم الأخ، ثم ابنه، ثم الجدّ، ثم العمّ، ثم ابنه، ثم المولى، ثم الكافل، ثم الحاكم، ثم عامّة المسلمين.",
+        "en": "Required in a guardian are: being male, freedom, majority, sound mind, Islam for a Muslim woman, and not being in iḥrām. The order of guardians other than the compelling guardian runs: the son, then his son, then the father, then the brother, then his son, then the grandfather, then the paternal uncle, then his son, then the patron, then the foster guardian, then the ruler, then the Muslims at large.",
+        "ru": "В опекуне требуются: мужской пол, свобода, совершеннолетие, разум, ислам для мусульманки и отсутствие ихрама. Порядок опекунов, кроме принуждающего, таков: сын, затем его сын, затем отец, затем брат, затем его сын, затем дед, затем дядя по отцу, затем его сын, затем покровитель-вольноотпуститель, затем воспитатель, затем правитель, затем мусульмане вообще.",
+        "es": "Se requiere en el tutor: ser varón, libertad, mayoría de edad, juicio, islam para una musulmana y no estar en iḥrām. El orden de los tutores distintos del tutor con potestad de obligar es: el hijo, luego su hijo, luego el padre, luego el hermano, luego su hijo, luego el abuelo, luego el tío paterno, luego su hijo, luego el patrono, luego quien la crió, luego el gobernante, luego los musulmanes en general.",
+        "uk": "В опікуні вимагаються: чоловіча стать, свобода, повноліття, розум, іслам для мусульманки та відсутність іхраму. Порядок опікунів, окрім примушувального, такий: син, потім його син, потім батько, потім брат, потім його син, потім дід, потім дядько по батькові, потім його син, потім покровитель-вольновідпускач, потім вихователь, потім правитель, потім мусульмани загалом."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح ترتيب الأولياء عند المالكية: أُضيف ابن الابن وابن العمّ والمولى والكافل، وقُدّم الحاكم على عامّة المسلمين، وحُذف الوصيّ من ترتيب غير المجبر.",
+    "en": "The Mālikī order of guardians was corrected: the son's son, the uncle's son, the patron and the foster guardian were added, the ruler was placed before the Muslims at large, and the executor was removed from the order of non-compelling guardians.",
+    "ru": "Исправлен порядок опекунов у маликитов: добавлены сын сына, сын дяди, покровитель и воспитатель, правитель поставлен перед мусульманами вообще, а душеприказчик убран из порядка непринуждающих опекунов.",
+    "es": "Se corrigió el orden mālikí de los tutores: se añadieron el hijo del hijo, el hijo del tío, el patrono y quien la crió, el gobernante se antepuso a los musulmanes en general y se quitó el albacea del orden de los tutores sin potestad de obligar.",
+    "uk": "Виправлено порядок опікунів у малікітів: додано сина сина, сина дядька, покровителя й вихователя, правителя поставлено перед мусульманами загалом, а виконавця заповіту прибрано з порядку непримушувальних опікунів."
   }
 }

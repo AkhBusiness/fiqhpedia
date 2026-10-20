@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى اصفرار الشمس، والضروري إلى الغروب.",
-        "en": "It begins when a thing's shadow equals its length, counted after the shadow at zenith; its preferred time runs until the sun yellows, and its time of necessity until sunset.",
-        "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени; предпочтительное время — до пожелтения солнца, вынужденное — до заката.",
-        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del cenit; su tiempo preferido llega hasta que el sol amarillea, y el de necesidad hasta la puesta.",
-        "uk": "Починається, коли тінь речі зрівняється з нею після полуденної тіні; обраний час — до пожовтіння сонця, а вимушений — до заходу."
+        "ar": "يبدأ إذا صار ظلّ الشيء مثله بعد فيء الزوال، ووقته المختار إلى أن يصير ظلّ الشيء مثليه بعد فيء الزوال، والضروري إلى الغروب.",
+        "en": "It begins when a thing's shadow equals its length, counted after the shadow at zenith; its preferred time runs until a thing's shadow reaches twice its length, counted after the shadow at zenith, and its time of necessity until sunset.",
+        "ru": "Начинается, когда тень сравняется с предметом, считая после полуденной тени; предпочтительное время — пока тень не станет вдвое длиннее предмета, считая после полуденной тени, вынужденное — до заката.",
+        "es": "Comienza cuando la sombra iguala al objeto, contada tras la del cenit; su tiempo preferido llega hasta que la sombra alcanza el doble del objeto, contada tras la del cenit, y el de necesidad hasta la puesta.",
+        "uk": "Починається, коли тінь речі зрівняється з нею після полуденної тіні; обраний час — доки тінь речі не стане вдвічі довшою за неї після полуденної тіні, а вимушений — до заходу."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: ينتهي الوقت المختار للعصر بمصير ظلّ الشيء مثليه لا باصفرار الشمس.",
+    "en": "The Ḥanbalī position was corrected: the preferred time of ʿaṣr ends when a thing's shadow reaches twice its length, not when the sun yellows.",
+    "ru": "Исправлено мнение ханбалитов: предпочтительное время асра заканчивается, когда тень становится вдвое длиннее предмета, а не с пожелтением солнца.",
+    "es": "Se corrigió la posición ḥanbalí: el tiempo preferido del ʿaṣr termina cuando la sombra alcanza el doble del objeto, no cuando el sol amarillea.",
+    "uk": "Виправлено думку ханбалітів: обраний час асру закінчується, коли тінь речі стає вдвічі довшою за неї, а не з пожовтінням сонця."
   }
 }

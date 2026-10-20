@@ -64,11 +64,11 @@
       "grade": "fard",
       "nature": "rukn",
       "text": {
-        "ar": "أقلّ ما يُجزئ أن ينحني حتى تمسّ راحتاه ركبتيه لو وضعهما عليهما، ولا تُشترط تسوية الظهر.",
-        "en": "The least that suffices is to bend until his palms would touch his knees were he to place them upon them, and levelling the back is not a condition.",
-        "ru": "Наименьшее, чего достаточно, — согнуться так, чтобы его ладони коснулись колен, если бы он положил их на них, и выпрямление спины не является условием.",
-        "es": "Lo menos que basta es inclinarse hasta que sus palmas tocarían sus rodillas si las pusiera sobre ellas, y nivelar la espalda no es condición.",
-        "uk": "Найменше, чого достатньо, — зігнутися так, щоб його долоні торкнулися колін, якби він поклав їх на них, і вирівнювання спини не є умовою."
+        "ar": "أقلّ ما يُجزئ أن ينحني حتى تقرب راحتاه من ركبتيه لو وضعهما، وتسوية الظهر من الكمال لا شرط.",
+        "en": "The least that suffices is to bend until his palms come near his knees, were he to place them; levelling the back belongs to perfection and is not a condition.",
+        "ru": "Наименьшее, чего достаточно, — согнуться так, чтобы его ладони приблизились к коленям, если бы он положил их; выпрямление спины относится к совершенству и не является условием.",
+        "es": "Lo menos que basta es inclinarse hasta que sus palmas queden cerca de sus rodillas si las pusiera; nivelar la espalda es parte de la perfección y no condición.",
+        "uk": "Найменше, чого достатньо, — зігнутися так, щоб його долоні наблизилися до колін, якби він їх поклав; вирівнювання спини належить до досконалості й не є умовою."
       },
       "sources": [
         {
@@ -162,5 +162,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: الضابط قرب الراحتين من الركبتين لا مسّهما.",
+    "en": "Corrected the Mālikī position: the criterion is the palms coming near the knees, not touching them.",
+    "ru": "Исправлено мнение маликитов: критерий — приближение ладоней к коленям, а не касание их.",
+    "es": "Se corrigió la posición mālikí: el criterio es que las palmas queden cerca de las rodillas, no que las toquen.",
+    "uk": "Виправлено позицію малікітів: критерій — наближення долонь до колін, а не дотик до них."
   }
 }

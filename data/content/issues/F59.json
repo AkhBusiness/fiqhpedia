@@ -25,15 +25,14 @@
     "es": "¿Cuál es la norma sobre fumar e inhalar intencionalmente vapores y humo durante el día de Ramadán, e invalida el ayuno?",
     "uk": "Яка постанова про куріння та навмисне вдихання парів і диму вдень у Рамадан, і чи псує це піст?"
   },
-  "agreed": true,
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يفسد الصيام بوصول الدخان أو ما يُستنشق عمداً إلى الجوف إذا كان ذا جِرْم، ويجب القضاء دون الكفّارة.",
-        "en": "The fast is invalidated by the intentional arrival of smoke or an inhaled substance into the body cavity if it has substance, and qadaʾ is required without kaffarah.",
-        "ru": "Пост нарушается при намеренном попадании дыма или вдыхаемого вещества в полость тела, если оно имеет массу, и требуется возмещение без искупления.",
-        "es": "El ayuno se invalida por la llegada intencional de humo o de una sustancia inhalada a la cavidad corporal si tiene sustancia, y se requiere el qadaʾ sin kaffarah.",
-        "uk": "Піст порушується при навмисному потраплянні диму або вдихуваної речовини у порожнину тіла, якщо вона має масу, і вимагається відшкодування без спокути."
+        "ar": "يفسد الصوم بإدخال الدخان أو البخور إلى الجوف عمداً أيّ دخان كان، ويجب القضاء. وتلزم الكفّارة في شرب الدخان (التبغ) عمداً على ما نقله ابن عابدين عن الشرنبلالي.",
+        "en": "The fast is invalidated by intentionally drawing smoke or incense into the body cavity, whatever the smoke may be, and qadaʾ is required. Kaffarah is also due for intentionally smoking tobacco, as Ibn ʿĀbidīn reports from al-Shurunbulālī.",
+        "ru": "Пост нарушается при намеренном введении дыма или благовоний в полость тела, какой бы ни был дым, и требуется возмещение. За намеренное курение табака обязательно и искупление, как передаёт Ибн Абидин от аш-Шурунбуляли.",
+        "es": "El ayuno se invalida al introducir intencionalmente humo o incienso en la cavidad corporal, sea cual sea el humo, y se requiere el qadaʾ. Por fumar tabaco intencionalmente se debe además la kaffarah, según lo que Ibn ʿĀbidīn transmite de al-Shurunbulālī.",
+        "uk": "Піст порушується при навмисному введенні диму або пахощів у порожнину тіла, хоч би який був дим, і вимагається відшкодування. За навмисне куріння тютюну обов'язкова й спокута, як передає Ібн Абідін від аш-Шурунбулялі."
       },
       "sources": [
         {
@@ -159,5 +158,13 @@
       ],
       "grade": "haram"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية: يفسد الصوم بإدخال أيّ دخان عمداً دون قيد الجِرْم، وتلزم الكفّارة في شرب التبغ عمداً.",
+    "en": "Corrected the Ḥanafī position: the fast is invalidated by intentionally drawing in any smoke, without the condition of having substance, and kaffarah is due for intentionally smoking tobacco.",
+    "ru": "Исправлено мнение ханафитов: пост нарушается намеренным введением любого дыма без условия наличия массы, а за намеренное курение табака обязательно искупление.",
+    "es": "Se corrigió la postura ḥanafí: el ayuno se invalida al introducir intencionalmente cualquier humo, sin la condición de que tenga sustancia, y se debe la kaffarah por fumar tabaco intencionalmente.",
+    "uk": "Виправлено позицію ханафітів: піст порушується навмисним введенням будь-якого диму без умови наявності маси, а за навмисне куріння тютюну обов'язкова спокута."
   }
 }

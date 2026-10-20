@@ -126,11 +126,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "تُسنّ قراءة سورة بعد الفاتحة في الأوليين، وتُكره في الأخريين، وتُسنّ للمأموم في السرّية دون الجهرية.",
-        "en": "Reciting a sura after al-Fatiha in the first two units is a sunnah, disliked in the last two, and a sunnah for the follower in the silent prayers but not the audible ones.",
-        "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна, в последних двух нежелательно, и сунна для следующего в тихих молитвах, но не в громких.",
-        "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna, se detesta en las dos últimas y es sunna para el seguidor en las oraciones silenciosas, no en las audibles.",
-        "uk": "Читання сури після аль-Фатіха в перших двох ракатах — сунна, в останніх двох небажано, і сунна для того, хто слідує в тихих молитвах, але не в гучних."
+        "ar": "تُسنّ قراءة سورة بعد الفاتحة في الأوليين، ولا تُسنّ في الأخريين، فإن قرأ فيهما أُبيح ولم يُكره، وتُسنّ للمأموم في السرّية دون الجهرية.",
+        "en": "Reciting a sura after al-Fatiha in the first two units is a sunnah; it is not a sunnah in the last two, though if he recites there it is permissible and not disliked; and it is a sunnah for the follower in the silent prayers but not the audible ones.",
+        "ru": "Чтение суры после аль-Фатихи в первых двух ракатах — сунна; в последних двух это не сунна, но если он прочтёт, это дозволено и не нежелательно; и это сунна для следующего в тихих молитвах, но не в громких.",
+        "es": "Recitar una sura tras al-Fatiha en las dos primeras unidades es sunna; en las dos últimas no es sunna, pero si recita es lícito y no se detesta; y es sunna para el seguidor en las oraciones silenciosas, no en las audibles.",
+        "uk": "Читання сури після аль-Фатіха в перших двох ракатах — сунна; в останніх двох це не сунна, але якщо він прочитає, це дозволено і не є небажаним; і це сунна для того, хто слідує, у тихих молитвах, але не в гучних."
       },
       "sources": [
         {
@@ -157,5 +157,13 @@
       ],
       "grade": "sunnah"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: قراءة السورة في الأخريين لا تُسنّ ولا تُكره.",
+    "en": "Corrected the Ḥanbalī position: reciting a sura in the last two units is neither a sunnah nor disliked.",
+    "ru": "Исправлено мнение ханбалитов: чтение суры в последних двух ракатах не является сунной и не нежелательно.",
+    "es": "Se corrigió la posición ḥanbalí: recitar una sura en las dos últimas unidades no es sunna ni se detesta.",
+    "uk": "Виправлено позицію ханбалітів: читання сури в останніх двох ракатах не є сунною і не є небажаним."
   }
 }

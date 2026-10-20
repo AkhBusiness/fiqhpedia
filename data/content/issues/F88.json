@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "mandub",
       "text": {
-        "ar": "يُستحبّ أن يتوضّأ أوّلاً ويؤخّر غسل رجليه إلى آخره، ثم يُفيض الماء على رأسه ثلاثاً، ثم يعمّ جسده بالماء مع المبالغة في الدلك والموالاة.",
-        "en": "It is recommended that he perform the ablution first, delaying the washing of the feet to the end, then pour water over his head three times, then cover his body with water, rubbing thoroughly and keeping the washing continuous.",
-        "ru": "Желательно, чтобы он сначала совершил омовение, отложив мытьё ног до конца, затем трижды полил голову водой, затем охватил тело водой, тщательно растирая и сохраняя непрерывность.",
-        "es": "Se recomienda que haga primero la ablución, dejando el lavado de los pies para el final, luego vierta agua sobre su cabeza tres veces, y luego cubra su cuerpo con agua frotando bien y manteniendo la continuidad.",
-        "uk": "Бажано, щоб він спочатку здійснив омивання, відклавши миття ніг до кінця, потім тричі полив голову водою, потім охопив тіло водою, ретельно розтираючи й зберігаючи безперервність."
+        "ar": "يُسنّ أن يبدأ بغسل يديه، ويُندب أن يُزيل الأذى عن بدنه ثم يغسل أعضاء وضوئه كاملة مرة، ثم يُفيض الماء على رأسه ثلاثاً، ويبدأ بأعلى جسده وميامنه. والدلك والموالاة واجبان فيه.",
+        "en": "It is sunnah that he begin by washing his hands, and recommended that he remove any filth on his body, then wash the parts of the ablution completely once, then pour water over his head three times, beginning with the upper body and the right side. Rubbing and keeping the washing continuous are obligatory in it.",
+        "ru": "Сунна — начать с мытья рук; желательно удалить с тела нечистоты, затем полностью вымыть органы омовения по одному разу, затем трижды полить голову водой, начиная с верхней части тела и правой стороны. Растирание и непрерывность в нём обязательны.",
+        "es": "Es sunna que empiece lavándose las manos, y se recomienda que retire la suciedad de su cuerpo, luego lave los miembros de la ablución completos una vez, luego vierta agua sobre su cabeza tres veces, empezando por la parte superior del cuerpo y el lado derecho. Frotar y mantener la continuidad son obligatorios en él.",
+        "uk": "Сунна — почати з миття рук; бажано видалити з тіла нечистоти, потім повністю вимити органи омивання по одному разу, потім тричі полити голову водою, починаючи з верхньої частини тіла і правого боку. Розтирання та безперервність у ньому обов'язкові."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يُغسل أعضاء الوضوء كاملة مرة دون تأخير الرجلين، والدلك والموالاة واجبان لا مستحبّان.",
+    "en": "The Mālikī position was corrected: the parts of the ablution are washed completely once without delaying the feet, and rubbing and continuity are obligatory, not merely recommended.",
+    "ru": "Исправлено мнение маликитов: органы омовения моются полностью один раз без откладывания ног, а растирание и непрерывность обязательны, а не желательны.",
+    "es": "Se corrigió la posición mālikí: los miembros de la ablución se lavan completos una vez sin retrasar los pies, y frotar y la continuidad son obligatorios, no recomendables.",
+    "uk": "Виправлено думку малікітів: органи омивання миються повністю один раз без відкладання ніг, а розтирання та безперервність обов'язкові, а не бажані."
   }
 }

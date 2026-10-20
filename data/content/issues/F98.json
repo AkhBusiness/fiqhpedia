@@ -27,7 +27,6 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "mubah",
       "text": {
         "ar": "يبني على ما تيقّنه: فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث، لأن اليقين لا يزول بالشكّ.",
         "en": "He acts upon what he was certain of: one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure, since certainty is not removed by doubt.",
@@ -60,13 +59,12 @@
       ]
     },
     "maliki": {
-      "grade": "wajib",
       "text": {
-        "ar": "من تيقّن الطهارة وشكّ في الحدث خارج الصلاة وجب عليه الوضوء، وإن كان الشكّ في أثناء الصلاة مضى فيها وبنى على الطهارة. ومن تيقّن الحدث وشكّ في الطهارة وجب عليه الوضوء.",
-        "en": "One certain of purity who doubts impurity outside the prayer must perform ablution; if the doubt arises during the prayer, he continues and acts upon purity. One certain of impurity who doubts purity must perform ablution.",
-        "ru": "Уверенный в чистоте и сомневающийся в осквернении вне молитвы обязан совершить омовение; если сомнение возникло во время молитвы, он продолжает её, опираясь на чистоту. Уверенный в осквернении и сомневающийся в чистоте обязан совершить омовение.",
-        "es": "Quien tiene certeza de la pureza y duda de la impureza fuera de la oración debe hacer la ablución; si la duda surge durante la oración, la continúa y se basa en la pureza. Quien tiene certeza de la impureza y duda de la pureza debe hacer la ablución.",
-        "uk": "Упевнений у чистоті й той, хто сумнівається в оскверненні поза молитвою, зобов'язаний здійснити омивання; якщо сумнів виник під час молитви, він продовжує її, спираючись на чистоту. Упевнений в оскверненні й той, хто сумнівається в чистоті, зобов'язаний здійснити омивання."
+        "ar": "من تيقّن الطهارة وشكّ في الحدث خارج الصلاة وجب عليه الوضوء، إلا المستنكح الذي يكثر شكّه. وإن طرأ الشكّ في أثناء الصلاة وجب التمادي فيها، فإن بان له الطهر لم يُعِد، وإن استمرّ على شكّه أعادها لانتقاض وضوئه. ومن تيقّن الحدث وشكّ في الطهارة وجب عليه الوضوء.",
+        "en": "One certain of purity who doubts impurity outside the prayer must perform ablution, except one beset by persistent doubt (mustankiḥ). If the doubt arises during the prayer, he must continue it; if his purity then becomes clear he does not repeat it, but if his doubt persists he repeats it, his ablution being void. One certain of impurity who doubts purity must perform ablution.",
+        "ru": "Уверенный в чистоте и сомневающийся в осквернении вне молитвы обязан совершить омовение, кроме одолеваемого постоянным сомнением (мустанких). Если сомнение возникло во время молитвы, он обязан её продолжить; если затем выяснится, что он был чист, он её не повторяет, а если сомнение сохранится — повторяет, поскольку его омовение нарушено. Уверенный в осквернении и сомневающийся в чистоте обязан совершить омовение.",
+        "es": "Quien tiene certeza de la pureza y duda de la impureza fuera de la oración debe hacer la ablución, salvo quien padece duda persistente (mustankiḥ). Si la duda surge durante la oración, debe continuarla; si luego se le aclara que estaba puro, no la repite, y si persiste en su duda, la repite, pues su ablución quedó anulada. Quien tiene certeza de la impureza y duda de la pureza debe hacer la ablución.",
+        "uk": "Той, хто впевнений у чистоті й сумнівається в оскверненні поза молитвою, зобов'язаний здійснити омивання, крім того, кого долає постійний сумнів (мустанкіх). Якщо сумнів виник під час молитви, він зобов'язаний її продовжити; якщо потім з'ясується, що він був чистий, він її не повторює, а якщо сумнів залишиться — повторює, оскільки його омивання порушене. Той, хто впевнений в оскверненні й сумнівається в чистоті, зобов'язаний здійснити омивання."
       },
       "sources": [
         {
@@ -93,7 +91,6 @@
       ]
     },
     "shafii": {
-      "grade": "mubah",
       "text": {
         "ar": "يبني على اليقين ولا يلتفت إلى الشكّ، لقوله ﷺ: «لا ينصرف حتى يسمع صوتاً أو يجد ريحاً»؛ فمن تيقّن الطهارة وشكّ في الحدث فهو طاهر، ومن تيقّن الحدث وشكّ في الطهارة فهو محدث.",
         "en": "He acts upon certainty and pays no heed to doubt, on the strength of his saying ﷺ: “Let him not leave until he hears a sound or smells an odour”; one certain of purity who doubts impurity is pure, and one certain of impurity who doubts purity is impure.",
@@ -126,7 +123,6 @@
       ]
     },
     "hanbali": {
-      "grade": "mubah",
       "text": {
         "ar": "يبني على اليقين ويطرح الشكّ: فمن تيقّن الطهارة وشكّ في الحدث عمل بالطهارة وصحّت صلاته، ومن تيقّن الحدث وشكّ في الطهارة عمل بالحدث ووجب عليه الوضوء.",
         "en": "He acts upon certainty and sets doubt aside: one certain of purity who doubts impurity acts upon purity and his prayer is valid, and one certain of impurity who doubts purity acts upon impurity and must perform ablution.",
@@ -158,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: من شكّ في أثناء الصلاة يتمادى ثم يعيدها إن استمرّ شكّه، ويُستثنى المستنكح.",
+    "en": "The Mālikī position was corrected: one who doubts during the prayer continues it, then repeats it if the doubt persists, and one beset by persistent doubt is excepted.",
+    "ru": "Исправлено мнение маликитов: усомнившийся во время молитвы продолжает её, а затем повторяет, если сомнение сохранилось; одолеваемый постоянным сомнением — исключение.",
+    "es": "Se corrigió la postura malikí: quien duda durante la oración la continúa y luego la repite si la duda persiste, y se exceptúa a quien padece duda persistente.",
+    "uk": "Виправлено думку малікітів: той, хто засумнівався під час молитви, продовжує її, а потім повторює, якщо сумнів залишився; виняток — той, кого долає постійний сумнів."
   }
 }

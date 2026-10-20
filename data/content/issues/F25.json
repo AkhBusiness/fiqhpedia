@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يصح التطهير بالماء المسخّن بالطاقة أو الشمس أو بنجس بلا كراهة، ما لم يتغيّر بدخان النجاسة.",
-        "en": "Purification is valid without dislike using water heated by energy, the sun, or something impure, so long as the smoke of the impurity has not altered it.",
-        "ru": "Очищение действительно без нежелательности водой, нагретой энергией, солнцем или нечистым, если её не изменил дым нечистоты.",
-        "es": "La purificación es válida sin reparo con agua calentada por energía, el sol o algo impuro, mientras el humo de la impureza no la haya alterado.",
-        "uk": "Очищення дійсне без небажаності водою, нагрітою енергією, сонцем або нечистим, якщо тільки її не змінив дим нечистоти."
+        "ar": "يصح التطهير بالماء المسخّن بالنار أو بنجس بلا كراهة ما لم يتغيّر بدخان النجاسة، ويكره المشمّس في الأقطار الحارّة كراهة طبية.",
+        "en": "Purification is valid without dislike using water heated by fire or by something impure, so long as the smoke of the impurity has not altered it; sun-heated water is disliked in hot lands, a dislike on medical grounds.",
+        "ru": "Очищение действительно без нежелательности водой, нагретой огнём или нечистым, если её не изменил дым нечистоты; нагретая солнцем вода нежелательна в жарких краях — по медицинской причине.",
+        "es": "La purificación es válida sin reparo con agua calentada al fuego o con algo impuro, mientras el humo de la impureza no la haya alterado; el agua calentada al sol es detestable en tierras cálidas, por razón médica.",
+        "uk": "Очищення дійсне без небажаності водою, нагрітою вогнем або нечистим, якщо тільки її не змінив дим нечистоти; нагріта сонцем вода небажана в жарких краях — з медичної причини."
       },
       "sources": [
         {
@@ -89,15 +89,15 @@
           "uk": "«Мінах аль-Джаліль»"
         }
       ],
-      "grade": "mubah"
+      "grade": "makruh"
     },
     "shafii": {
       "text": {
-        "ar": "يصح التطهير بالماء المسخّن، ويكره المسخّن بالشمس في إناء منطبع بقطر حارّ، والمسخّن بنجس إن خيف وصوله.",
-        "en": "Purification with heated water is valid; disliked are water heated by the sun in a beaten-metal vessel in a hot land, and water heated by something impure if it may reach the water.",
-        "ru": "Очищение нагретой водой действительно; нежелательна вода, нагретая солнцем в кованом сосуде в жарком краю, и нагретая нечистым, если есть опасение его попадания.",
-        "es": "La purificación con agua calentada es válida; se detesta la calentada al sol en un recipiente de metal batido en tierra cálida, y la calentada con algo impuro si se teme que la alcance.",
-        "uk": "Очищення нагрітою водою дійсне; небажана нагріта сонцем у кованому посуді в жаркому краї та нагріта нечистим, якщо є побоювання його потрапляння."
+        "ar": "يصح التطهير بالماء المسخّن، ويكره المشمّس في إناء منطبع ببلد حارّ إذا استُعمل في البدن حال حرارته، ولا يكره المسخّن بالنار ولو بنجس.",
+        "en": "Purification with heated water is valid; sun-heated water in a beaten-metal vessel in a hot land is disliked when used on the body while still hot, and water heated by fire is not disliked even if the fuel is impure.",
+        "ru": "Очищение нагретой водой действительно; нежелательна нагретая солнцем вода в кованом сосуде в жарком краю, если её используют для тела, пока она горячая, а нагретая огнём не нежелательна, даже если топливо нечистое.",
+        "es": "La purificación con agua calentada es válida; se detesta la calentada al sol en un recipiente de metal batido en tierra cálida si se usa en el cuerpo mientras sigue caliente, y la calentada al fuego no es detestable aunque el combustible sea impuro.",
+        "uk": "Очищення нагрітою водою дійсне; небажана нагріта сонцем вода в кованому посуді в жаркому краї, якщо її використовують для тіла, поки вона гаряча, а нагріта вогнем не є небажаною, навіть якщо паливо нечисте."
       },
       "sources": [
         {
@@ -157,5 +157,13 @@
       ],
       "grade": "makruh"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قولا المالكية والشافعية: يكره المشمّس عند المالكية كراهة طبية، ولا يكره عند الشافعية المسخّن بالنار ولو بنجس.",
+    "en": "The Maliki and Shafiʿi positions were corrected: for the Malikis sun-heated water is disliked on medical grounds, and for the Shafiʿis water heated by fire is not disliked even with impure fuel.",
+    "ru": "Исправлены мнения маликитов и шафиитов: у маликитов нагретая солнцем вода нежелательна по медицинской причине, а у шафиитов нагретая огнём не нежелательна даже на нечистом топливе.",
+    "es": "Se corrigieron las posiciones malikí y shafiʿí: para los malikíes el agua calentada al sol es detestable por razón médica, y para los shafiʿíes la calentada al fuego no es detestable aunque el combustible sea impuro.",
+    "uk": "Виправлено погляди малікітів і шафіїтів: у малікітів нагріта сонцем вода небажана з медичної причини, а в шафіїтів нагріта вогнем не є небажаною навіть на нечистому паливі."
   }
 }

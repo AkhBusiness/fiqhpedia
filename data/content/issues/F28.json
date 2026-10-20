@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "لا ينجس الماء بغمس يده فيه ولا تُسلب طهوريته، فيبقى رافعاً للحدث.",
-        "en": "The water is not made impure by the dipping of the hand, nor does it lose its purifying quality, so it still lifts ritual impurity.",
-        "ru": "Вода не становится нечистой от погружения руки и не теряет очищающего свойства, поэтому она по-прежнему снимает хадас.",
-        "es": "El agua no se vuelve impura por sumergir la mano ni pierde su cualidad purificante, de modo que sigue levantando la impureza ritual.",
-        "uk": "Вода не стає нечистою від занурення руки й не втрачає очищувальної властивості, тож вона й далі знімає хадас."
+        "ar": "لا ينجس الماء بغمس يده فيه، ولا يصير مستعملاً إن أدخلها للاغتراف للضرورة، فإن أدخلها لغير اغتراف صار مستعملاً.",
+        "en": "The water is not made impure by the dipping of the hand, and it does not become used water if he put the hand in to scoop, out of need; if he put it in for some other purpose than scooping, the water becomes used.",
+        "ru": "Вода не становится нечистой от погружения руки и не становится использованной, если он опустил руку, чтобы зачерпнуть, по необходимости; если же опустил её не для того, чтобы зачерпнуть, вода становится использованной.",
+        "es": "El agua no se vuelve impura por sumergir la mano, y no se convierte en agua usada si la metió para sacar agua, por necesidad; si la metió con otro fin que sacar agua, se convierte en agua usada.",
+        "uk": "Вода не стає нечистою від занурення руки й не стає використаною, якщо він опустив руку, щоб зачерпнути, через потребу; якщо ж опустив її не для того, щоб зачерпнути, вода стає використаною."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية: لا يصير الماء مستعملاً إذا أُدخلت اليد للاغتراف، فإن أُدخلت لغيره صار مستعملاً.",
+    "en": "The Ḥanafī position was corrected: the water does not become used if the hand is put in to scoop, but it does if the hand is put in for another purpose.",
+    "ru": "Исправлено мнение ханафитов: вода не становится использованной, если руку опустили, чтобы зачерпнуть, но становится, если её опустили с иной целью.",
+    "es": "Se corrigió la posición hanafí: el agua no se convierte en usada si la mano se mete para sacar agua, pero sí si se mete con otro fin.",
+    "uk": "Виправлено думку ханафітів: вода не стає використаною, якщо руку опустили, щоб зачерпнути, але стає, якщо її опустили з іншою метою."
   }
 }

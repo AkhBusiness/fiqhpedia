@@ -64,11 +64,11 @@
       "grade": "fard",
       "nature": "shart",
       "text": {
-        "ar": "عورة الرجل المغلّظة السوأتان، والمخفّفة ما بين السرّة والركبة؛ فتبطل الصلاة بكشف المغلّظة، ويُكره كشف المخفّفة وتُعاد الصلاة في الوقت.",
-        "en": "A man's grave ʿawrah is the two private parts, and the lighter ʿawrah is what lies between the navel and the knee; the prayer is invalidated by uncovering the grave, while uncovering the lighter is disliked and the prayer is repeated within its time.",
-        "ru": "Тяжкий аврат мужчины — два срамных места, а облегчённый — то, что между пупком и коленом; молитва становится недействительной при обнажении тяжкого, а обнажение облегчённого нежелательно, и молитва повторяется в её время.",
-        "es": "La ʿawrah grave del hombre son las dos partes íntimas, y la leve es lo que hay entre el ombligo y la rodilla; la oración se invalida al descubrir la grave, mientras que descubrir la leve es reprobable y la oración se repite dentro de su tiempo.",
-        "uk": "Тяжкий аврат чоловіка — два соромні місця, а полегшений — те, що між пупком і коліном; молитва стає недійсною при оголенні тяжкого, а оголення полегшеного небажане, і молитва повторюється в її час."
+        "ar": "عورة الرجل المغلّظة السوأتان، والمخفّفة ما بين السرّة والركبة؛ فتبطل الصلاة بكشف المغلّظة، ويُكره كشف المخفّفة، ويعيد في الوقت لكشف الأليتين أو بعضهما، ولا إعادة لكشف الفخذ.",
+        "en": "A man's grave ʿawrah is the two private parts, and the lighter ʿawrah is what lies between the navel and the knee; the prayer is invalidated by uncovering the grave, while uncovering the lighter is disliked; he repeats the prayer within its time for uncovering the buttocks or part of them, but not for uncovering the thigh.",
+        "ru": "Тяжкий аврат мужчины — два срамных места, а облегчённый — то, что между пупком и коленом; молитва становится недействительной при обнажении тяжкого, а обнажение облегчённого нежелательно; при обнажении ягодиц или их части молитва повторяется в её время, а при обнажении бедра не повторяется.",
+        "es": "La ʿawrah grave del hombre son las dos partes íntimas, y la leve es lo que hay entre el ombligo y la rodilla; la oración se invalida al descubrir la grave, mientras que descubrir la leve es reprobable; la oración se repite dentro de su tiempo si se descubren las nalgas o parte de ellas, pero no por descubrir el muslo.",
+        "uk": "Тяжкий аврат чоловіка — два соромні місця, а полегшений — те, що між пупком і коліном; молитва стає недійсною при оголенні тяжкого, а оголення полегшеного небажане; при оголенні сідниць або їх частини молитва повторюється в її час, а при оголенні стегна — ні."
       },
       "sources": [
         {
@@ -132,11 +132,11 @@
       "grade": "fard",
       "nature": "shart",
       "text": {
-        "ar": "عورة الرجل البالغ في الصلاة ما بين السرّة والركبة، وليستا منها، ويجب مع ذلك ستر أحد العاتقين مع القدرة.",
-        "en": "The ʿawrah of an adult man in the prayer is what lies between the navel and the knee, neither of which is part of it; and covering one of the shoulders is also obligatory when he is able.",
-        "ru": "Аврат совершеннолетнего мужчины в молитве — то, что между пупком и коленом, и они в него не входят; и вместе с этим обязательно покрыть одно из плеч при наличии возможности.",
-        "es": "La ʿawrah del hombre adulto en la oración es lo que hay entre el ombligo y la rodilla, sin que ninguno forme parte de ella; y además es obligatorio cubrir uno de los hombros si puede.",
-        "uk": "Аврат повнолітнього чоловіка в молитві — те, що між пупком і коліном, і вони до нього не входять; і разом із цим обов'язково покрити одне з плечей за наявності можливості."
+        "ar": "عورة الرجل البالغ في الصلاة ما بين السرّة والركبة، وليستا منها، ويجب مع ذلك في صلاة الفرض ستر أحد العاتقين مع القدرة.",
+        "en": "The ʿawrah of an adult man in the prayer is what lies between the navel and the knee, neither of which is part of it; and in an obligatory prayer covering one of the shoulders is also obligatory when he is able.",
+        "ru": "Аврат совершеннолетнего мужчины в молитве — то, что между пупком и коленом, и они в него не входят; и вместе с этим в обязательной молитве обязательно покрыть одно из плеч при наличии возможности.",
+        "es": "La ʿawrah del hombre adulto en la oración es lo que hay entre el ombligo y la rodilla, sin que ninguno forme parte de ella; y además, en la oración obligatoria, es obligatorio cubrir uno de los hombros si puede.",
+        "uk": "Аврат повнолітнього чоловіка в молитві — те, що між пупком і коліном, і вони до нього не входять; і разом із цим в обов'язковій молитві обов'язково покрити одне з плечей за наявності можливості."
       },
       "sources": [
         {
@@ -162,5 +162,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قولا المالكية والحنابلة: تختصّ الإعادة في الوقت عند المالكية بكشف الأليتين دون الفخذ، ويختصّ وجوب ستر أحد العاتقين عند الحنابلة بصلاة الفرض.",
+    "en": "The Maliki and Hanbali positions were corrected: for the Malikis repeating within the time applies to uncovering the buttocks, not the thigh, and for the Hanbalis covering one shoulder is obligatory only in an obligatory prayer.",
+    "ru": "Исправлены мнения маликитов и ханбалитов: у маликитов повторение в её время касается обнажения ягодиц, а не бедра, а у ханбалитов покрытие одного плеча обязательно лишь в обязательной молитве.",
+    "es": "Se corrigieron las posiciones malikí y hanbalí: para los malikíes la repetición dentro del tiempo se debe a descubrir las nalgas, no el muslo, y para los hanbalíes cubrir un hombro es obligatorio solo en la oración obligatoria.",
+    "uk": "Виправлено погляди малікітів і ханбалітів: у малікітів повторення в її час стосується оголення сідниць, а не стегна, а в ханбалітів покриття одного плеча обов'язкове лише в обов'язковій молитві."
   }
 }

@@ -46,11 +46,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يكره اتخاذها واستعمالها كراهة شديدة، وتصح الطهارة منها مع الكراهة.",
-        "en": "Acquiring and using them is strongly disliked, and purification from them is valid though disliked.",
-        "ru": "Их приобретение и использование сильно нежелательны, а очищение из них действительно, хотя и нежелательно.",
-        "es": "Es fuertemente desaconsejable adquirirlos y usarlos, y la purificación con ellos es válida, aunque desaconsejable.",
-        "uk": "Їх придбання та використання вкрай небажані, а очищення з них дійсне, хоч і небажане."
+        "ar": "يحرم استعمال آنية الذهب والفضة واقتناؤها ولو لامرأة، وتصح الطهارة منها مع الإثم.",
+        "en": "Using and acquiring gold and silver vessels is forbidden, even for a woman, yet purification from them is valid though sinful.",
+        "ru": "Использование и приобретение золотых и серебряных сосудов запретно, даже для женщины, но очищение из них действительно, хотя и греховно.",
+        "es": "Está prohibido usar y adquirir recipientes de oro y plata, aun para la mujer, y la purificación con ellos es válida, aunque con pecado.",
+        "uk": "Користування золотим і срібним посудом та його придбання заборонені, навіть для жінки, але очищення з нього дійсне, хоч і гріховне."
       },
       "sources": [
         {
@@ -61,7 +61,7 @@
           "uk": "«Аш-Шарх аль-Кабір»"
         }
       ],
-      "grade": "makruh"
+      "grade": "haram"
     },
     "shafii": {
       "text": {
@@ -108,5 +108,13 @@
       ],
       "grade": "haram"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يحرم استعمال آنية الذهب والفضة واقتناؤها لا أنه مكروه.",
+    "en": "The Mālikī position was corrected: using and acquiring gold and silver vessels is forbidden, not merely disliked.",
+    "ru": "Исправлено мнение маликитов: использование и приобретение золотых и серебряных сосудов запретно, а не просто нежелательно.",
+    "es": "Se corrigió la posición mālikí: usar y adquirir recipientes de oro y plata está prohibido, no solo desaconsejado.",
+    "uk": "Виправлено думку малікітів: користування золотим і срібним посудом та його придбання заборонені, а не лише небажані."
   }
 }

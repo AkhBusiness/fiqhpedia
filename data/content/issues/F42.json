@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يبدأ بغروب قرص الشمس، ووقته مضيّق بقدر ما يؤدّيها بعد الطهارة والأذان.",
-        "en": "It begins when the sun's disc has set, and its time is narrow: no more than what suffices to purify, call the prayer, and perform it.",
-        "ru": "Начинается с захода солнечного диска, и время его узко: столько, сколько нужно для омовения, азана и самой молитвы.",
-        "es": "Comienza cuando el disco solar se ha puesto, y su tiempo es estrecho: lo justo para purificarse, llamar a la oración y rezarla.",
-        "uk": "Починається із заходом сонячного диска, і час його вузький — стільки, скільки треба, щоб здійснити її після очищення та азану."
+        "ar": "يبدأ بغروب قرص الشمس، ووقته المختار مضيّق بقدر ما يؤدّيها بعد تحصيل شروطها، والضروري إلى طلوع الفجر.",
+        "en": "It begins when the sun's disc has set; its preferred time is narrow — just enough to fulfil its conditions and perform it — and its time of necessity runs to true dawn.",
+        "ru": "Начинается с захода солнечного диска; предпочтительное время узко — столько, сколько нужно для выполнения её условий и самой молитвы, — а вынужденное длится до истинного рассвета.",
+        "es": "Comienza cuando el disco solar se ha puesto; su tiempo preferido es estrecho —lo justo para cumplir sus condiciones y rezarla— y el de necesidad llega hasta el alba.",
+        "uk": "Починається із заходом сонячного диска; обраний час вузький — стільки, скільки треба, щоб виконати її умови й здійснити її, — а вимушений триває до сходу зорі."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: أُضيف وقت المغرب الضروري الممتدّ إلى طلوع الفجر.",
+    "en": "The Mālikī position was corrected: the time of necessity for maghrib, extending to true dawn, was added.",
+    "ru": "Исправлено мнение маликитов: добавлено вынужденное время магриба, длящееся до истинного рассвета.",
+    "es": "Se corrigió la postura malikí: se añadió el tiempo de necesidad del magrib, que llega hasta el alba.",
+    "uk": "Виправлено думку малікітів: додано вимушений час маґрібу, що триває до сходу зорі."
   }
 }

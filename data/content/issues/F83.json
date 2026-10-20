@@ -27,7 +27,6 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "fard",
       "text": {
         "ar": "الناقض هو النوم مضطجعاً أو متّكئاً بحيث لو أُزيل ما يعتمد عليه لسقط، أمّا النوم قاعداً ممكِّناً مقعدته من الأرض فلا ينقض قلّ أو كثر.",
         "en": "What breaks the ablution is sleeping while lying down or leaning such that he would fall were his support removed; sleeping seated with the seat settled on the ground does not break it, whether brief or long.",
@@ -60,7 +59,6 @@
       ]
     },
     "maliki": {
-      "grade": "fard",
       "text": {
         "ar": "الناقض هو النوم الثقيل المستغرق الذي يذهب معه الإحساس، ولو قصُر أو كان في حال القعود؛ وأمّا الخفيف الذي يبقى معه الإحساس فلا ينقض.",
         "en": "What breaks the ablution is heavy, engulfing sleep in which awareness is lost, even if brief or while seated; light sleep in which awareness remains does not break it.",
@@ -93,7 +91,6 @@
       ]
     },
     "shafii": {
-      "grade": "fard",
       "text": {
         "ar": "الناقض هو النوم غير ممكِّن المقعدة من الأرض، وأمّا النوم قاعداً ممكِّناً مقعدته فلا ينقض ولو طال.",
         "en": "What breaks the ablution is sleeping without the seat settled on the ground; sleeping seated with the seat settled does not break it, even if prolonged.",
@@ -126,13 +123,12 @@
       ]
     },
     "hanbali": {
-      "grade": "fard",
       "text": {
-        "ar": "الناقض هو النوم الكثير المستغرق الذي لا يبقى معه شعور، قاعداً كان أو مضطجعاً؛ وأمّا اليسير من قاعد أو قائم فلا ينقض.",
-        "en": "What breaks the ablution is much, engulfing sleep in which no awareness remains, whether seated or lying down; a little sleep while seated or standing does not break it.",
-        "ru": "Нарушает омовение долгий, поглощающий сон, при котором не остаётся сознания, сидя или лёжа; малый же сон сидя или стоя не нарушает его.",
-        "es": "Rompe la ablución el sueño mucho y absorbente en el que no queda conciencia, sentado o tendido; el poco sueño estando sentado o de pie no la rompe.",
-        "uk": "Порушує омивання довгий, поглинаючий сон, при якому не залишається свідомості, сидячи чи лежачи; малий же сон сидячи чи стоячи не порушує його."
+        "ar": "ينقض النوم إلا اليسير منه من قاعد أو قائم؛ فأمّا المضطجع ونحوه كالراكع والساجد فينقض نومه قليلاً كان أو كثيراً.",
+        "en": "Sleep breaks the ablution except a little of it while seated or standing; as for one lying down and the like, such as one bowing or prostrating, his sleep breaks it whether little or much.",
+        "ru": "Сон нарушает омовение, кроме малого сна сидя или стоя; у лежащего же и ему подобных, как совершающий поясной или земной поклон, сон нарушает его, будь он малым или долгим.",
+        "es": "El sueño rompe la ablución salvo el poco sueño estando sentado o de pie; en cuanto a quien está tendido y similares, como quien se inclina o se prosterna, su sueño la rompe, sea poco o mucho.",
+        "uk": "Сон порушує омивання, крім малого сну сидячи чи стоячи; у лежачого ж і подібних до нього, як той, хто здійснює поясний чи земний уклін, сон порушує його, малий він чи довгий."
       },
       "sources": [
         {
@@ -158,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: ينقض النوم كله إلا يسيره من قاعد أو قائم، فيسير نوم المضطجع ناقض.",
+    "en": "The Ḥanbalī position was corrected: all sleep breaks the ablution except a little while seated or standing, so even brief sleep lying down breaks it.",
+    "ru": "Исправлено мнение ханбалитов: любой сон нарушает омовение, кроме малого сна сидя или стоя, поэтому и краткий сон лёжа нарушает его.",
+    "es": "Se corrigió la posición ḥanbalí: todo sueño rompe la ablución salvo el poco estando sentado o de pie, de modo que incluso el sueño breve tendido la rompe.",
+    "uk": "Виправлено думку ханбалітів: будь-який сон порушує омивання, крім малого сну сидячи чи стоячи, тож і короткий сон лежачи порушує його."
   }
 }

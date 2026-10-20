@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "ينعقد النكاح بلفظي النكاح والتزويج، وينعقد بغيرهما كالهبة والتمليك والبيع بشرط أن يُذكر معه الصداق. فإن لم يُذكر الصداق لم ينعقد إلا بلفظي النكاح والتزويج.",
-        "en": "Marriage is concluded by the words for marrying and for giving in marriage, and by others such as gift, conveyance and sale provided the dower is named along with them. If the dower is not named, it is concluded by no words but those two.",
-        "ru": "Брак заключается словами «никах» и «тазвидж», а также иными, как дарение, уступка и продажа, при условии, что вместе с ними назван брачный дар. Если дар не назван, брак заключается лишь этими двумя словами.",
-        "es": "El matrimonio se concluye con los términos de casar y dar en matrimonio, y con otros como donación, traspaso y venta siempre que junto a ellos se nombre la dote. Si la dote no se nombra, no se concluye sino con aquellos dos términos.",
-        "uk": "Шлюб укладається словами «нікях» і «тазвідж», а також іншими, як дарування, поступка та продаж, за умови, що разом із ними названо шлюбний дар. Якщо дар не названо, шлюб укладається лише цими двома словами."
+        "ar": "ينعقد النكاح بلفظي الإنكاح والتزويج، وبلفظ الهبة بشرط تسمية الصداق. وفي انعقاده بكل لفظ يقتضي التأبيد كبعت وملّكت مع ذكر الصداق تردّد.",
+        "en": "Marriage is concluded by the words for marrying and for giving in marriage, and by the word of gift provided the dower is named. Whether it is concluded by any word implying permanence, such as “I sold” or “I conveyed”, with the dower named, is disputed.",
+        "ru": "Брак заключается словами «никах» и «тазвидж», а также словом дарения при условии, что назван брачный дар. Заключается ли он любым словом, подразумевающим вечность, как «продал» или «передал во владение», при названном даре, — спорно.",
+        "es": "El matrimonio se concluye con los términos de casar y dar en matrimonio, y con el de donación siempre que se nombre la dote. Si se concluye con cualquier término que implique perpetuidad, como «vendí» o «traspasé», nombrando la dote, es cuestión discutida.",
+        "uk": "Шлюб укладається словами «нікях» і «тазвідж», а також словом дарування за умови, що названо шлюбний дар. Чи укладається він будь-яким словом, що передбачає довічність, як-от «продав» чи «передав у власність», із названим даром, — спірно."
       },
       "sources": [
         {
@@ -92,11 +92,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "لا ينعقد النكاح إلا بلفظ الإنكاح أو التزويج وما اشتُقّ منهما بصيغة الماضي صريحاً، ولا ينعقد بألفاظ الكناية كالهبة والبيع والتمليك والصدقة ولو ذُكر معها الصداق.",
-        "en": "Marriage is concluded only by the express words for marrying or giving in marriage, or their derivatives in the past tense; it is not concluded by allusive words such as gift, sale, conveyance or alms, even if the dower is named with them.",
-        "ru": "Брак заключается только прямыми словами «инках» или «тазвидж» и производными от них в прошедшем времени; он не заключается иносказательными словами, такими как дарение, продажа, уступка или милостыня, даже если вместе с ними назван брачный дар.",
-        "es": "El matrimonio se concluye únicamente con los términos expresos de casar o dar en matrimonio y sus derivados en pretérito; no se concluye con términos alusivos como donación, venta, traspaso o limosna, aunque con ellos se nombre la dote.",
-        "uk": "Шлюб укладається лише прямими словами «інках» або «тазвідж» і похідними від них у минулому часі; він не укладається переносними словами, як-от дарування, продаж, поступка чи милостиня, навіть якщо разом із ними названо шлюбний дар."
+        "ar": "لا ينعقد النكاح إلا بلفظ الإنكاح أو التزويج صريحاً كزوّجتك وأنكحتك، ويصحّ لو قال الزوج: زوّجني، فقال الوليّ: زوّجتك. ولا ينعقد بالكناية كالهبة والبيع والتمليك قطعاً ولو ذُكر معها الصداق.",
+        "en": "Marriage is concluded only by the express words for marrying or giving in marriage, such as “I have married you to” or “I have given you in marriage”; it is also valid if the groom says “Marry me to her” and the guardian replies “I have married you to her.” It is definitely not concluded by allusive words such as gift, sale or conveyance, even if the dower is named with them.",
+        "ru": "Брак заключается только прямыми словами «инках» или «тазвидж», как «я выдал за тебя» или «я сочетал тебя браком»; он действителен и тогда, когда жених говорит: «Выдай её за меня», а опекун отвечает: «Я выдал её за тебя». Иносказательными словами, такими как дарение, продажа или уступка, он однозначно не заключается, даже если вместе с ними назван брачный дар.",
+        "es": "El matrimonio se concluye únicamente con los términos expresos de casar o dar en matrimonio, como «te he casado con» o «te he dado en matrimonio»; también es válido si el novio dice «cásame con ella» y el tutor responde «te he casado con ella». Con certeza no se concluye con términos alusivos como donación, venta o traspaso, aunque con ellos se nombre la dote.",
+        "uk": "Шлюб укладається лише прямими словами «інках» або «тазвідж», як-от «я видав за тебе» чи «я поєднав тебе шлюбом»; він дійсний і тоді, коли наречений каже: «Видай її за мене», а опікун відповідає: «Я видав її за тебе». Переносними словами, як-от дарування, продаж чи поступка, він однозначно не укладається, навіть якщо разом із ними названо шлюбний дар."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: ينعقد بالهبة مع تسمية الصداق وفي البيع والتمليك تردّد، وقول الشافعية: يصحّ «زوّجني» من الزوج مع «زوّجتك» من الوليّ.",
+    "en": "Corrected the Mālikī position: marriage is concluded by the word of gift with the dower named, while sale and conveyance are disputed; and the Shāfiʿī position: the groom's “Marry me to her” with the guardian's “I have married you to her” is valid.",
+    "ru": "Исправлено мнение маликитов: брак заключается словом дарения при названном даре, а о продаже и передаче во владение есть разногласие; и мнение шафиитов: действительны слова жениха «Выдай её за меня» с ответом опекуна «Я выдал её за тебя».",
+    "es": "Se corrigió la postura mālikí: el matrimonio se concluye con el término de donación nombrando la dote, mientras que venta y traspaso son discutidos; y la shāfiʿí: es válido el «cásame con ella» del novio con el «te he casado con ella» del tutor.",
+    "uk": "Виправлено позицію малікітів: шлюб укладається словом дарування з названим даром, а щодо продажу й передання у власність є розбіжність; і позицію шафіїтів: дійсні слова нареченого «Видай її за мене» з відповіддю опікуна «Я видав її за тебе»."
   }
 }

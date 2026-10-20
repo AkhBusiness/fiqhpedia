@@ -46,11 +46,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "تستحب قراءة الفاتحة للمأموم في الصلاة السرية، وتكره في الجهرية إلا إذا لم يسمع قراءة الإمام فتستحب.",
-        "en": "It is recommended for the follower to recite al-Fātiḥah in the silent prayer, and it is disliked in the audible one; but if he cannot hear the imam's recitation, reciting becomes recommended again.",
-        "ru": "Тому, кто молится за имамом, желательно читать аль-Фатиху в тихой молитве, и это нежелательно в громкой; но если он не слышит чтения имама, то чтение вновь становится желательным.",
-        "es": "Es recomendable que el seguidor recite al-Fátiha en la oración silenciosa, y es desaconsejable en la audible, salvo si no oye la recitación del imam, en cuyo caso es recomendable.",
-        "uk": "Читання аль-Фатіха тим, хто молиться за імамом, бажане в тихій молитві і небажане в голосній, крім випадку, коли він не чує читання імама, — тоді бажане."
+        "ar": "تُندب قراءة الفاتحة للمأموم في الصلاة السرية، وتُكره في الجهرية ولو لم يسمع قراءة الإمام.",
+        "en": "It is recommended for the follower to recite al-Fātiḥah in the silent prayer, and it is disliked in the audible one, even if he cannot hear the imam's recitation.",
+        "ru": "Тому, кто молится за имамом, желательно читать аль-Фатиху в тихой молитве, и это нежелательно в громкой, даже если он не слышит чтения имама.",
+        "es": "Es recomendable que el seguidor recite al-Fátiha en la oración silenciosa, y es desaconsejable en la audible, aunque no oiga la recitación del imam.",
+        "uk": "Читання аль-Фатіха тим, хто молиться за імамом, бажане в тихій молитві і небажане в голосній, навіть якщо він не чує читання імама."
       },
       "sources": [
         {
@@ -101,5 +101,13 @@
       ],
       "grade": "sunnah"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: تُكره قراءة المأموم في الجهرية ولو لم يسمع قراءة الإمام.",
+    "en": "The Mālikī position was corrected: the follower's recitation in the audible prayer is disliked even if he cannot hear the imam.",
+    "ru": "Исправлено мнение маликитов: чтение молящегося за имамом в громкой молитве нежелательно, даже если он не слышит имама.",
+    "es": "Se corrigió la postura malikí: la recitación del seguidor en la oración audible es desaconsejable aunque no oiga al imam.",
+    "uk": "Виправлено думку малікітів: читання того, хто молиться за імамом, у голосній молитві небажане, навіть якщо він не чує імама."
   }
 }

@@ -12,7 +12,7 @@
     "uk": "Розділ про менструацію та післяпологову кровотечу"
   },
   "title": {
-    "ar": "حكم قضاء الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+    "ar": "حكم لزوم الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
     "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
     "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
     "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
@@ -27,7 +27,7 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "wajib",
+      "grade": "fard",
       "text": {
         "ar": "لا تلزمها إلا الصلاة التي طهرت في وقتها، فلا تقضي الظهر مع العصر ولا المغرب مع العشاء، لأن وقت الأولى خرج وهي حائض غير مخاطَبة بها.",
         "en": "Only the prayer in whose time she became pure is due of her; she does not pray ẓuhr with ʿaṣr nor maghrib with ʿishāʾ, since the earlier prayer's time ended while she was still menstruating and not addressed by it.",
@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "wajib",
       "text": {
-        "ar": "تقضي الظهر مع العصر إذا طهرت في وقت العصر، والمغرب مع العشاء إذا طهرت في وقت العشاء، لأن وقت الثانية وقتٌ لهما معاً عند العذر.",
-        "en": "She prays ẓuhr with ʿaṣr if she becomes pure during ʿaṣr, and maghrib with ʿishāʾ if during ʿishāʾ, because in a state of excuse the time of the second belongs to both.",
-        "ru": "Она совершает зухр вместе с асром, если стала чистой во время асра, и магриб вместе с иша, если во время иша, ибо при уважительной причине время второй принадлежит обеим.",
-        "es": "Reza el ẓuhr con el ʿaṣr si se purifica durante el ʿaṣr, y el maghrib con el ʿishāʾ si durante el ʿishāʾ, porque en estado de excusa el tiempo de la segunda es tiempo de ambas.",
-        "uk": "Вона здійснює зугр разом з асром, якщо стала чистою під час асру, і маґріб разом з іша, якщо під час іша, бо за поважної причини час другої належить обом."
+        "ar": "تلزمها الظهر والعصر إذا طهرت وقد بقي قبل الغروب ما يسع الطهارة وخمس ركعات، والمغرب والعشاء إذا بقي قبل الفجر ما يسع الطهارة وأربع ركعات، وإلا لزمتها الأخيرة وحدها. وهما أداء لا قضاء، لأن ذلك وقتهما الضروري.",
+        "en": "Ẓuhr and ʿaṣr are due of her if she becomes pure when enough time remains before sunset for purification and five rakʿahs, and maghrib and ʿishāʾ if enough remains before dawn for purification and four rakʿahs; otherwise only the latter prayer is due. Both are performed on time, not made up, since this is their necessary time.",
+        "ru": "Зухр и аср обязательны для неё, если она стала чистой, когда до заката осталось времени на очищение и пять ракаатов, а магриб и иша — если до рассвета осталось времени на очищение и четыре ракаата; иначе обязательна лишь последняя. Обе совершаются вовремя, а не восполняются, ибо это их вынужденное время.",
+        "es": "Le son obligatorios el ẓuhr y el ʿaṣr si se purifica quedando antes del ocaso tiempo para la purificación y cinco rakʿahs, y el maghrib y el ʿishāʾ si queda antes del alba tiempo para la purificación y cuatro rakʿahs; si no, solo le es obligatoria la última. Ambas se rezan en su tiempo, no como reposición, porque es su tiempo de necesidad.",
+        "uk": "Зугр і аср обов'язкові для неї, якщо вона стала чистою, коли до заходу сонця лишилося часу на очищення і п'ять ракаатів, а маґріб і іша — якщо до світанку лишилося часу на очищення і чотири ракаати; інакше обов'язкова лише остання. Обидві здійснюються вчасно, а не надолужуються, бо це їхній вимушений час."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: تلزمها الصلاتان إن بقي بعد الطهارة ما يسع خمس ركعات في الظهرين وأربعاً في العشاءين، وهما أداء لا قضاء.",
+    "en": "The Mālikī position was corrected: both prayers are due if, after purification, time remains for five rakʿahs for ẓuhr and ʿaṣr or four for maghrib and ʿishāʾ, and they are performed on time, not made up.",
+    "ru": "Исправлено мнение маликитов: обе молитвы обязательны, если после очищения остаётся время на пять ракаатов для зухра и асра или четыре для магриба и иша, и они совершаются вовремя, а не восполняются.",
+    "es": "Se corrigió la posición mālikí: ambas oraciones son obligatorias si tras la purificación queda tiempo para cinco rakʿahs en ẓuhr y ʿaṣr o cuatro en maghrib y ʿishāʾ, y se rezan en su tiempo, no como reposición.",
+    "uk": "Виправлено думку малікітів: обидві молитви обов'язкові, якщо після очищення лишається час на п'ять ракаатів для зугру й асру або чотири для маґрібу й іша, і вони здійснюються вчасно, а не надолужуються."
   }
 }

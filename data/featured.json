@@ -1,68 +1,68 @@
 {
   "featured": {
-    "ref": "F109",
-    "id": "nikah-3",
-    "bookId": "nikah",
+    "ref": "F102",
+    "id": "taharah-57",
+    "bookId": "taharah",
     "chapter": {
-      "ar": "باب الخطبة",
-      "en": "Chapter on the Betrothal",
-      "ru": "Раздел о сватовстве",
-      "es": "Capítulo sobre el compromiso matrimonial",
-      "uk": "Розділ про сватання"
+      "ar": "باب التيمم",
+      "en": "Chapter of Dry Ablution (Tayammum)",
+      "ru": "Раздел о сухом очищении (таяммум)",
+      "es": "Capítulo de la ablución seca (tayammum)",
+      "uk": "Розділ про сухе очищення (таяммум)"
     },
     "title": {
-      "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
-      "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
-      "ru": "Уединение с засватанной и поездка с ней до заключения договора",
-      "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
-      "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
+      "ar": "صفة التيمم وعدد ضرباته",
+      "en": "The Form of the Dry Ablution and How Many Strikes It Takes",
+      "ru": "Форма таяммума и число ударов в нём",
+      "es": "La forma del tayammum y el número de golpes en él",
+      "uk": "Форма таяммуму та кількість ударів у ньому"
     },
     "summary": {
-      "ar": "هل تحلّ الخلوة بالمخطوبة والسفر بها قبل عقد النكاح؟",
-      "en": "Is it lawful to be alone with the betrothed woman and to travel with her before the marriage contract?",
-      "ru": "Дозволено ли уединяться с засватанной и путешествовать с ней до заключения брачного договора?",
-      "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
-      "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
+      "ar": "كم ضربةً يُضرب على الأرض في التيمم، وإلى أين يمسح اليدين: إلى الكوعين أم إلى المرفقين؟",
+      "en": "How many strikes on the earth does the dry ablution take, and how far are the arms wiped — to the wrists or to the elbows?",
+      "ru": "Сколько ударов о землю совершается в таяммуме и докуда протираются руки — до запястий или до локтей?",
+      "es": "¿Cuántos golpes en la tierra lleva el tayammum, y hasta dónde se pasan las manos: hasta las muñecas o hasta los codos?",
+      "uk": "Скільки ударів об землю здійснюється в таяммумі й доки протираються руки — до зап'ястків чи до ліктів?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "haram",
+        "grade": "fard",
         "lead": {
-          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
-          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
-          "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор",
-          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
-          "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір"
+          "ar": "التيمم ضربتان: ضربة يمسح بها وجهه كلّه",
+          "en": "The dry ablution is two strikes: one with which he wipes his whole face, and one with which he wipes his arms including the elbows",
+          "ru": "Таяммум — это два удара: один, которым он протирает всё лицо, и один, которым протирает руки вместе с локтями",
+          "es": "El tayammum son dos golpes: uno con el que se pasa por todo el rostro y otro con el que se pasa por los brazos incluidos los codos",
+          "uk": "Таяммум — це два удари: один, яким він протирає все обличчя, і один, яким протирає руки разом із ліктями"
         }
       },
       "maliki": {
-        "grade": "haram",
+        "grade": "fard",
         "lead": {
-          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
-          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
-          "ru": "Уединение с засватанной и поездка с ней запрещены",
-          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
-          "uk": "Усамітнення із засватаною та поїздка з нею заборонені"
+          "ar": "الفرض ضربة واحدة يمسح بها وجهه ويديه إلى الكوعين",
+          "en": "What is obligatory is one strike with which he wipes his face and his hands to the wrists",
+          "ru": "Обязателен один удар, которым он протирает лицо и кисти до запястий",
+          "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos hasta las muñecas",
+          "uk": "Обов'язковий один удар, яким він протирає обличчя й кисті до зап'ястків"
         }
       },
       "shafii": {
-        "grade": "haram",
+        "grade": "fard",
         "lead": {
-          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
-          "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a…",
-          "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной",
-          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
-          "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою"
+          "ar": "التيمم ضربتان لا يُجزئ أقلّ منهما: ضربة للوجه",
+          "en": "The dry ablution is two strikes and no fewer: one for the face and one for the arms including the elbows",
+          "ru": "Таяммум — это два удара, и меньшего не довольно: один для лица и один для рук вместе с локтями",
+          "es": "El tayammum son dos golpes y no menos: uno para el rostro y otro para los brazos incluidos los codos",
+          "uk": "Таяммум — це два удари, і меншого не досить: один для обличчя й один для рук разом із ліктями"
         }
       },
       "hanbali": {
-        "grade": "haram",
+        "grade": "fard",
         "lead": {
-          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
-          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
-          "ru": "Уединение с засватанной и поездка с ней запрещены",
-          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
-          "uk": "Усамітнення із засватаною та поїздка з нею заборонені"
+          "ar": "الفرض ضربة واحدة يمسح بها وجهه وكفّيه",
+          "en": "What is obligatory is a single strike with which he wipes his face and his hands — on the strength of the hadith of ʿAmmār ibn Yāsir: “It…",
+          "ru": "Обязателен один удар",
+          "es": "Lo obligatorio es un solo golpe con el que se pasa por el rostro y las manos",
+          "uk": "Обов'язковий один удар"
         }
       }
     }

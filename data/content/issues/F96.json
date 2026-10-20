@@ -92,11 +92,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يُحكم بالبلوغ باستكمال خمس عشرة سنة قمرية للذكر والأنثى، وأمّا الحيض فلا حدّ لآخره ما دام الدم بصفاته، وغالبه إلى نحو الخمسين.",
-        "en": "Maturity is reckoned at the completion of fifteen lunar years for male and female alike; as for menstruation, it has no fixed end so long as the blood bears its characteristics, though it usually continues to about fifty.",
-        "ru": "Совершеннолетие устанавливается по завершении пятнадцати лунных лет для мужчины и женщины; менструация же не имеет установленного конца, пока кровь сохраняет свои признаки, хотя обычно она длится примерно до пятидесяти.",
-        "es": "La madurez se considera alcanzada al completar quince años lunares, tanto el varón como la mujer; la menstruación, en cambio, no tiene un final fijo mientras la sangre conserve sus características, aunque por lo común dura hasta cerca de los cincuenta.",
-        "uk": "Повноліття встановлюється після завершення п'ятнадцяти місячних років для чоловіка й жінки; менструація ж не має встановленого кінця, поки кров зберігає свої ознаки, хоча зазвичай вона триває приблизно до п'ятдесяти."
+        "ar": "يُحكم بالبلوغ باستكمال خمس عشرة سنة قمرية للذكر والأنثى، وأمّا الحيض فلا حدّ لآخر سنّه، وسنّ اليأس باعتبار الغالب اثنتان وستون سنة.",
+        "en": "Maturity is reckoned at the completion of fifteen lunar years for male and female alike; as for menstruation, there is no limit to the last age at which it occurs, and the age of menopause, by what is usual, is sixty-two years.",
+        "ru": "Совершеннолетие устанавливается по завершении пятнадцати лунных лет для мужчины и женщины; у менструации же нет предела последнего возраста, а возраст менопаузы, по обычному, — шестьдесят два года.",
+        "es": "La madurez se considera alcanzada al completar quince años lunares, tanto el varón como la mujer; la menstruación, en cambio, no tiene límite de edad final, y la edad de la menopausia, según lo habitual, es de sesenta y dos años.",
+        "uk": "Повноліття встановлюється після завершення п'ятнадцяти місячних років для чоловіка й жінки; менструація ж не має межі останнього віку, а вік менопаузи, за звичайним, — шістдесят два роки."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: سنّ اليأس باعتبار الغالب اثنتان وستون سنة لا نحو الخمسين.",
+    "en": "The Shāfiʿī position was corrected: the usual age of menopause is sixty-two years, not about fifty.",
+    "ru": "Исправлено мнение шафиитов: обычный возраст менопаузы — шестьдесят два года, а не около пятидесяти.",
+    "es": "Se corrigió la posición shāfiʿí: la edad habitual de la menopausia es de sesenta y dos años, no de unos cincuenta.",
+    "uk": "Виправлено думку шафіїтів: звичайний вік менопаузи — шістдесят два роки, а не близько п'ятдесяти."
   }
 }

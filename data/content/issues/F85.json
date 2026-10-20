@@ -27,7 +27,6 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "mubah",
       "text": {
         "ar": "لا ينقض مسّ الفرج الوضوء بحال، بحائل أو بغيره، فرجَ نفسه أو غيره، لحديث طلق بن علي رضي الله عنه: «إنّما هو بَضْعة منك».",
         "en": "Touching the private part does not break the ablution in any case, with or without a barrier, one's own or another's — on the strength of the hadith of Ṭalq ibn ʿAlī: “It is only a part of you.”",
@@ -60,13 +59,12 @@
       ]
     },
     "maliki": {
-      "grade": "fard",
       "text": {
-        "ar": "لا ينقض مسّ الفرج الوضوء إلا أن يكون بشهوة معتادة، فإن مسّه بغير شهوة لم ينتقض وضوؤه.",
-        "en": "Touching the private part does not break the ablution unless it is done with ordinary desire; if touched without desire, the ablution is not broken.",
-        "ru": "Прикосновение к половому органу не нарушает омовения, кроме как с обычным вожделением; если прикоснуться без вожделения, омовение не нарушается.",
-        "es": "Tocar las partes íntimas no rompe la ablución salvo que sea con deseo habitual; si se toca sin deseo, la ablución no se rompe.",
-        "uk": "Доторк до статевого органа не порушує омивання, крім як із звичним потягом; якщо доторкнутися без потягу, омивання не порушується."
+        "ar": "ينقض الوضوءَ مسُّ الذكر المتّصل ببطن الكفّ أو جنبها أو بالأصابع بلا حائل مطلقاً، بشهوة أو بغيرها، ولا ينقض مسّ المرأة فرجها. وأمّا مسّ فرج الغير فمن باب اللمس، يُعتبر فيه قصد اللذّة أو وجدانها.",
+        "en": "The ablution is broken by touching the attached penis with the inside or the side of the hand or with the fingers, without a barrier, in every case, with desire or without it; a woman touching her own private part does not break it. Touching another person's private part falls under the rule of touching, where intending or feeling pleasure is what counts.",
+        "ru": "Омовение нарушается прикосновением к присоединённому мужскому органу внутренней стороной или краем ладони либо пальцами без преграды в любом случае, с вожделением или без него; прикосновение женщины к своему половому органу его не нарушает. Прикосновение же к половому органу другого относится к правилу касания, где учитывается намерение наслаждения или его ощущение.",
+        "es": "La ablución se rompe al tocar el pene unido al cuerpo con la palma o el canto de la mano o con los dedos, sin barrera, en todo caso, con deseo o sin él; que la mujer toque sus propias partes íntimas no la rompe. Tocar las partes íntimas de otro entra en la norma del contacto, donde cuenta la intención de placer o el sentirlo.",
+        "uk": "Омивання порушується доторком до приєднаного чоловічого органа внутрішнім боком чи ребром долоні або пальцями без перепони в будь-якому разі, з потягом чи без нього; доторк жінки до свого статевого органа його не порушує. Доторк же до статевого органа іншого належить до правила дотику, де враховується намір насолоди або її відчуття."
       },
       "sources": [
         {
@@ -93,7 +91,6 @@
       ]
     },
     "shafii": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء مسّ فرج الآدميّ ببطن الكفّ أو بطون الأصابع بلا حائل، لحديث بُسرة بنت صفوان رضي الله عنها: «من مسّ ذكره فليتوضّأ».",
         "en": "The ablution is broken by touching a human's private part with the inside of the hand or the insides of the fingers, without a barrier — on the strength of the hadith of Busrah bint Ṣafwān: “Whoever touches his private part, let him perform the ablution.”",
@@ -126,13 +123,12 @@
       ]
     },
     "hanbali": {
-      "grade": "fard",
       "text": {
-        "ar": "ينقض الوضوء مسّ الفرج المتّصل — قُبُلاً كان أو دُبُراً — ببطن الكفّ بلا حائل، لحديث بُسرة بنت صفوان رضي الله عنها.",
-        "en": "The ablution is broken by touching an attached private part — front or rear — with the inside of the hand, without a barrier, on the strength of the hadith of Busrah bint Ṣafwān.",
-        "ru": "Омовение нарушается прикосновением к присоединённому половому органу — переднему или заднему — внутренней стороной ладони без преграды, на основании хадиса Бусры бинт Сафван.",
-        "es": "La ablución se rompe al tocar las partes íntimas unidas al cuerpo — delanteras o traseras — con la palma de la mano, sin barrera, por el hadiz de Busrah bint Ṣafwān.",
-        "uk": "Омивання порушується доторком до приєднаного статевого органа — переднього чи заднього — внутрішнім боком долоні без перепони, на підставі хадиса Бусри бінт Сафван."
+        "ar": "ينقض الوضوء مسّ الفرج المتّصل — قُبُلاً كان أو حلقةَ دُبُر — باليد بلا حائل، ببطن الكفّ أو ظهره أو حرفه لا بالظفر، لحديث بُسرة بنت صفوان رضي الله عنها.",
+        "en": "The ablution is broken by touching an attached private part — the front or the ring of the anus — with the hand, without a barrier, whether with the inside of the hand, its back or its edge, but not with the nail, on the strength of the hadith of Busrah bint Ṣafwān.",
+        "ru": "Омовение нарушается прикосновением к присоединённому половому органу — переднему или кольцу заднего прохода — рукой без преграды, будь то внутренней стороной ладони, её тыльной стороной или краем, но не ногтем, на основании хадиса Бусры бинт Сафван.",
+        "es": "La ablución se rompe al tocar las partes íntimas unidas al cuerpo —la delantera o el anillo del ano— con la mano, sin barrera, sea con la palma, el dorso o el canto de la mano, pero no con la uña, por el hadiz de Busrah bint Ṣafwān.",
+        "uk": "Омивання порушується доторком до приєднаного статевого органа — переднього чи кільця заднього проходу — рукою без перепони, чи то внутрішнім боком долоні, чи тильним, чи її ребром, але не нігтем, на підставі хадиса Бусри бінт Сафван."
       },
       "sources": [
         {
@@ -158,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: مسّ الذكر ينقض مطلقاً بلا اشتراط شهوة، وقول الحنابلة: ينقض المسّ بظهر الكفّ وحرفه كبطنه.",
+    "en": "The Mālikī position was corrected: touching the penis breaks the ablution without any condition of desire; and the Ḥanbalī position: touching with the back or edge of the hand breaks it as the inside does.",
+    "ru": "Исправлено мнение маликитов: прикосновение к мужскому органу нарушает омовение без условия вожделения; и мнение ханбалитов: прикосновение тыльной стороной или краем ладони нарушает его так же, как внутренней.",
+    "es": "Se corrigió la posición mālikí: tocar el pene rompe la ablución sin condición de deseo; y la ḥanbalí: tocar con el dorso o el canto de la mano la rompe igual que con la palma.",
+    "uk": "Виправлено думку малікітів: доторк до чоловічого органа порушує омивання без умови потягу; і думку ханбалітів: доторк тильним боком чи ребром долоні порушує його так само, як внутрішнім."
   }
 }

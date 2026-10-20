@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "makruh",
       "text": {
-        "ar": "تُكره قراءة البسملة قبل الفاتحة أو السورة في الفريضة سرّاً وجهراً للإمام والمأموم والمنفرد، وتُندب في النفل سرّاً.",
-        "en": "Reciting the basmalah before al-Fātiḥah or the sūrah in the obligatory prayer is disliked, whether silently or aloud, for the imam, the follower and one praying alone; it is recommended silently in voluntary prayer.",
-        "ru": "Чтение басмалы перед аль-Фатихой или сурой в обязательной молитве нежелательно — и про себя, и вслух — для имама, следующего за ним и молящегося в одиночку; оно желательно про себя в добровольной молитве.",
-        "es": "Recitar la basmalah antes de al-Fātiḥah o de la sūrah en la oración obligatoria es reprobable, en voz baja o alta, para el imam, el seguidor y quien reza solo; es recomendable en voz baja en la oración voluntaria.",
-        "uk": "Читання басмали перед аль-Фатіхою або сурою в обов'язковій молитві небажане — і про себе, і вголос — для імама, того, хто молиться за ним, і того, хто молиться самотою; воно бажане про себе в добровільній молитві."
+        "ar": "تُكره قراءة البسملة والتعوّذ قبل الفاتحة أو السورة في الفريضة سرّاً وجهراً للإمام والمأموم والمنفرد، وتجوز في النفل.",
+        "en": "Reciting the basmalah and the taʿawwudh before al-Fātiḥah or the sūrah in the obligatory prayer is disliked, whether silently or aloud, for the imam, the follower and one praying alone; in voluntary prayer it is permissible.",
+        "ru": "Чтение басмалы и истиазы перед аль-Фатихой или сурой в обязательной молитве нежелательно — и про себя, и вслух — для имама, следующего за ним и молящегося в одиночку; в добровольной молитве оно дозволено.",
+        "es": "Recitar la basmalah y la taʿawwudh antes de al-Fātiḥah o de la sūrah en la oración obligatoria es reprobable, en voz baja o alta, para el imam, el seguidor y quien reza solo; en la oración voluntaria es lícito.",
+        "uk": "Читання басмали та істіази перед аль-Фатіхою або сурою в обов'язковій молитві небажане — і про себе, і вголос — для імама, того, хто молиться за ним, і того, хто молиться самотою; у добровільній молитві воно дозволене."
       },
       "sources": [
         {
@@ -129,11 +129,11 @@
     "hanbali": {
       "grade": "sunnah",
       "text": {
-        "ar": "البسملة آية من الفاتحة تُقرأ معها، ويُسنّ الإسرار بها دائماً للإمام والمنفرد في الجهرية والسرّية، ولا يُسنّ الجهر بها.",
-        "en": "The basmalah is a verse of al-Fātiḥah recited with it; saying it silently is always a sunnah for the imam and one praying alone, in both the audible and the silent prayer, and saying it aloud is not a sunnah.",
-        "ru": "Басмала — аят аль-Фатихи, читаемый вместе с ней; произносить её про себя — всегда сунна для имама и молящегося в одиночку, и в громкой, и в тихой молитве, а произносить вслух — не сунна.",
-        "es": "La basmalah es una aleya de al-Fātiḥah que se recita con ella; decirla en voz baja es siempre sunnah para el imam y quien reza solo, tanto en la oración audible como en la silenciosa, y decirla en voz alta no es sunnah.",
-        "uk": "Басмала — аят аль-Фатіхи, що читається разом із нею; виголошувати її про себе — завжди сунна для імама й того, хто молиться самотою, і в гучній, і в тихій молитві, а виголошувати вголос — не сунна."
+        "ar": "البسملة ليست من الفاتحة، وتُسنّ قراءتها سرّاً قبلها في كل ركعة للإمام والمنفرد، ولا يُسنّ الجهر بها.",
+        "en": "The basmalah is not part of al-Fātiḥah; reciting it silently before it in every unit is a sunnah for the imam and one praying alone, and saying it aloud is not a sunnah.",
+        "ru": "Басмала не является частью аль-Фатихи; читать её про себя перед ней в каждом ракаате — сунна для имама и молящегося в одиночку, а произносить вслух — не сунна.",
+        "es": "La basmalah no forma parte de al-Fātiḥah; recitarla en voz baja antes de ella en cada rakʿah es sunnah para el imam y quien reza solo, y decirla en voz alta no es sunnah.",
+        "uk": "Басмала не є частиною аль-Фатіхи; читати її про себе перед нею в кожному ракааті — сунна для імама й того, хто молиться самотою, а виголошувати вголос — не сунна."
       },
       "sources": [
         {
@@ -159,5 +159,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: البسملة في النفل جائزة لا مندوبة، وقول الحنابلة: البسملة ليست من الفاتحة.",
+    "en": "Corrected the Maliki position (the basmalah is permissible, not recommended, in voluntary prayer) and the Hanbali position (the basmalah is not part of al-Fātiḥah).",
+    "ru": "Исправлены позиции маликитов (басмала в добровольной молитве дозволена, а не желательна) и ханбалитов (басмала не является частью аль-Фатихи).",
+    "es": "Se corrigieron las posturas malikí (la basmalah es lícita, no recomendable, en la oración voluntaria) y hanbalí (la basmalah no forma parte de al-Fātiḥah).",
+    "uk": "Виправлено позиції малікітів (басмала в добровільній молитві дозволена, а не бажана) і ханбалітів (басмала не є частиною аль-Фатіхи)."
   }
 }

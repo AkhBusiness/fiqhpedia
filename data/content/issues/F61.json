@@ -25,7 +25,6 @@
     "es": "¿Cuáles son las condiciones básicas requeridas para que una persona legalmente responsable esté obligada a ayunar el mes de Ramadán?",
     "uk": "Які основні умови необхідні для того, щоб на дієздатну особу покладався обов'язок постити в місяць Рамадан?"
   },
-  "agreed": true,
   "rulings": {
     "hanafi": {
       "text": {
@@ -62,11 +61,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "شروط وجوب الصيام ثلاثة: العقل، والبلوغ، والقدرة (مع الإسلام وخلوّ المرأة من الحيض والنفاس)، فلا يجب على فاقد أحدها.",
-        "en": "The conditions for the obligation of fasting are three conditions: sanity, puberty, and capability (along with Islam and a woman's freedom from menstruation and postpartum bleeding); it is not obligatory upon one who lacks any of them.",
-        "ru": "Условия обязательности поста — три условия: разум, совершеннолетие и способность (наряду с исламом и отсутствием у женщины менструации и послеродового кровотечения), и он не обязателен для того, кто лишён одного из них.",
-        "es": "Las condiciones para la obligación del ayuno son tres condiciones: la sanidad mental, la pubertad y la capacidad (junto con el islam y la ausencia de menstruación y loquios en la mujer); no es obligatorio para quien carece de alguno de ellos.",
-        "uk": "Умови обов'язковості посту — три умови: розум, повноліття та спроможність (разом з ісламом та відсутністю у жінки менструації і післяпологової кровотечі), і він не є обов'язковим для того, хто позбавлений будь-якої з них."
+        "ar": "شروط وجوب الصيام: البلوغ، والعقل، والقدرة، والنقاء من الحيض والنفاس وهو شرط وجوب وصحة معاً؛ وأمّا الإسلام فشرط صحة فقط لا شرط وجوب.",
+        "en": "The conditions for the obligation of fasting are: puberty, sanity, capability, and freedom from menstruation and postpartum bleeding, which is a condition of both obligation and validity; Islam, however, is only a condition of validity, not of obligation.",
+        "ru": "Условия обязательности поста: совершеннолетие, разум, способность и чистота от менструации и послеродового кровотечения, которая является условием и обязательности, и действительности; ислам же — лишь условие действительности, а не обязательности.",
+        "es": "Las condiciones para la obligación del ayuno son: la pubertad, la sanidad mental, la capacidad y la ausencia de menstruación y loquios, que es condición tanto de obligación como de validez; el islam, en cambio, es solo condición de validez, no de obligación.",
+        "uk": "Умови обов'язковості посту: повноліття, розум, спроможність і чистота від менструації та післяпологової кровотечі, яка є умовою і обов'язковості, і дійсності; іслам же — лише умова дійсності, а не обов'язковості."
       },
       "sources": [
         {
@@ -159,5 +158,13 @@
       ],
       "nature": "shart"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: الإسلام عندهم شرط صحة للصيام فقط لا شرط وجوب.",
+    "en": "The Mālikī position was corrected: for them Islam is only a condition of the fast's validity, not of its obligation.",
+    "ru": "Исправлено мнение маликитов: ислам у них — лишь условие действительности поста, а не его обязательности.",
+    "es": "Se corrigió la posición mālikí: para ellos el islam es solo condición de validez del ayuno, no de su obligación.",
+    "uk": "Виправлено думку малікітів: іслам у них — лише умова дійсності посту, а не його обов'язковості."
   }
 }

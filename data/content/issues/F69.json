@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "mubah",
       "text": {
-        "ar": "من كان عارفاً بأدلّة القبلة فتحرّى وصلّى ثم تبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه بحال، لقوله تعالى: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ سورة البقرة: ١١٥ ولحديث عامر بن ربيعة رضي الله عنه.",
-        "en": "One who knows the indications of the qibla, seeks it out by his best judgement and prays, then learns of his error, his prayer is valid and no repetition is due in any case — on the strength of the Qurʾānic verse (al-Baqarah 115) and the hadith of ʿĀmir ibn Rabīʿah.",
-        "ru": "Тот, кто знает признаки киблы, приложил усилие и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется ни в каком случае, на основании коранического аята (аль-Бакара, 115) и хадиса Амира ибн Рабии.",
-        "es": "Quien conoce los indicios de la alquibla, la busca con su mejor juicio y reza, y luego descubre su error, su oración es válida y no debe repetirla en ningún caso, por la aleya coránica (al-Baqarah 115) y el hadiz de ʿĀmir ibn Rabīʿah.",
-        "uk": "Той, хто знає ознаки кибли, доклав зусиль і помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається в жодному разі, на підставі коранічного аяту (аль-Бакара, 115) та хадиса Аміра ібн Рабії."
+        "ar": "من كان عارفاً بأدلّة القبلة فاجتهد في السفر وصلّى ثم تبيّن له الخطأ، فصلاته صحيحة ولا إعادة عليه، لقوله تعالى: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ سورة البقرة: ١١٥ ولحديث عامر بن ربيعة رضي الله عنه. أما إن صلّى في الحضر فأخطأ أعاد.",
+        "en": "One who knows the indications of the qibla, uses his best judgement while travelling and prays, then learns of his error, his prayer is valid and no repetition is due, on the strength of His saying: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ (al-Baqarah 115) and the hadith of ʿĀmir ibn Rabīʿah. But if he prayed while resident and erred, he repeats it.",
+        "ru": "Тот, кто знает признаки киблы, приложил усилие в пути и помолился, а затем узнал об ошибке, — его молитва действительна и повторение с него не требуется, на основании слов Всевышнего: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ (аль-Бакара, 115) и хадиса Амира ибн Рабии. Если же он молился не в пути, а по месту проживания, и ошибся, то повторяет её.",
+        "es": "Quien conoce los indicios de la alquibla, se esfuerza estando de viaje y reza, y luego descubre su error, su oración es válida y no debe repetirla, por Su dicho: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ (al-Baqarah 115) y el hadiz de ʿĀmir ibn Rabīʿah. Pero si rezó estando residente y erró, la repite.",
+        "uk": "Той, хто знає ознаки кибли, доклав зусиль у подорожі й помолився, а потім дізнався про помилку, — його молитва дійсна і повторення з нього не вимагається, на підставі слів Всевишнього: ﴿فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ﴾ (аль-Бакара, 115) та хадиса Аміра ібн Рабії. Якщо ж він молився не в подорожі, а за місцем проживання, і помилився, то повторює її."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: لا إعادة على المجتهد في السفر، أما من صلّى في الحضر فأخطأ فيعيد.",
+    "en": "The Ḥanbalī position was corrected: one who used his judgement while travelling does not repeat, but one who prayed while resident and erred repeats.",
+    "ru": "Исправлено мнение ханбалитов: приложивший усилие в пути не повторяет молитву, а ошибшийся по месту проживания повторяет.",
+    "es": "Se corrigió la postura hanbalí: quien se esforzó estando de viaje no repite, pero quien rezó residente y erró sí repite.",
+    "uk": "Виправлено думку ганбалітів: той, хто доклав зусиль у подорожі, не повторює молитву, а той, хто помилився за місцем проживання, повторює."
   }
 }

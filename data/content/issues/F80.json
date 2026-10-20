@@ -128,13 +128,13 @@
     },
     "hanbali": {
       "grade": "fard",
-      "nature": "shart",
+      "nature": "rukn",
       "text": {
-        "ar": "الموالاة شرط لصحّة الوضوء مع الذكر والقدرة، ومعناها ألّا يؤخّر غسل عضو حتى يجفّ الذي قبله في زمن معتدل بلا عذر.",
-        "en": "Washing without interruption is a condition for the validity of the ablution, for one who remembers and is able; it means not delaying the washing of a limb until the one before it dries in a moderate span, without excuse.",
-        "ru": "Непрерывность — условие действительности омовения для того, кто помнит и способен; она означает не откладывать мытьё органа до высыхания предыдущего за умеренное время без причины.",
-        "es": "La continuidad es condición para la validez de la ablución, para quien recuerda y puede; significa no demorar el lavado de un miembro hasta que el anterior se seque en un lapso moderado, sin excusa.",
-        "uk": "Безперервність — умова дійсності омивання для того, хто пам'ятає і здатний; вона означає не відкладати миття органа до висихання попереднього за помірний час без причини."
+        "ar": "الموالاة فرض من فروض الوضوء لا تسقط سهواً ولا جهلاً، وهي ألّا يؤخّر غسل عضو حتى ينشف الذي قبله بزمن معتدل، ولا يضرّ الجفاف لاشتغاله بسنّة أو إزالة وسوسة.",
+        "en": "Washing without interruption is one of the obligatory acts of the ablution and does not lapse through forgetfulness or ignorance; it means not delaying the washing of a limb until the one before it dries in a moderate span. Drying does no harm if it is due to being occupied with a sunnah or with dispelling misgivings.",
+        "ru": "Непрерывность — одна из обязательных частей омовения и не отпадает по забывчивости или незнанию; она означает не откладывать мытьё органа до высыхания предыдущего за умеренное время. Высыхание не вредит, если оно вызвано занятием сунной или устранением навязчивых сомнений.",
+        "es": "La continuidad es una de las obligaciones de la ablución y no decae por olvido ni por ignorancia; significa no demorar el lavado de un miembro hasta que el anterior se seque en un lapso moderado. El secado no perjudica si se debe a ocuparse de una sunnah o de disipar escrúpulos.",
+        "uk": "Безперервність — одна з обов'язкових частин омивання і не відпадає через забудькуватість чи незнання; вона означає не відкладати миття органа до висихання попереднього за помірний час. Висихання не шкодить, якщо воно спричинене заняттям сунною чи усуненням нав'язливих сумнівів."
       },
       "sources": [
         {
@@ -160,5 +160,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: الموالاة فرض من فروض الوضوء لا تسقط سهواً ولا جهلاً.",
+    "en": "Corrected the Hanbali position: washing without interruption is an obligatory act of the ablution that does not lapse through forgetfulness or ignorance.",
+    "ru": "Исправлена позиция ханбалитов: непрерывность — обязательная часть омовения, не отпадающая по забывчивости или незнанию.",
+    "es": "Se corrigió la postura hanbalí: la continuidad es una obligación de la ablución que no decae por olvido ni por ignorancia.",
+    "uk": "Виправлено позицію ханбалітів: безперервність — обов'язкова частина омивання, що не відпадає через забудькуватість чи незнання."
   }
 }

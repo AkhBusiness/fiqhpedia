@@ -24,7 +24,6 @@
     "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
     "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
   },
-  "agreed": true,
   "rulings": {
     "hanafi": {
       "text": {
@@ -94,11 +93,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "لا عبرة بحساب الحاسبين في إثبات الهلال، ولا يجوز صيام رمضان بالحساب الفلكي، بل علّق الشارع الحكم على الرؤية أو إتمام العدة حصراً.",
-        "en": "The calculations of astronomers are of no consequence in confirming the crescent, and fasting Ramadan by astronomical calculation is impermissible; the Lawgiver exclusively tied the ruling to sighting or completing the count.",
-        "ru": "Расчеты астрономов не имеют значения при подтверждении новолуния, и поститься в Рамадан по астрономическим расчетам недопустимо; Законодатель связал постановление исключительно с наблюдением или завершением счета.",
-        "es": "Los cálculos de los astrólogos no tienen relevancia para confirmar la luna nueva, y no es permisible ayunar Ramadán por cálculo astronómico; el Legislador vinculó exclusivamente la norma a la observación o completar la cuenta.",
-        "uk": "Розрахунки звіздарів не мають значення при підтвердженні молодика, і постити в Рамадан за астрономічними розрахунками неприпустимо; Законодавець шаріату зв'язав постанову виключно зі спостереженням або завершенням рахунку."
+        "ar": "لا يثبت رمضان على عموم الناس بالحساب الفلكي ولا بقول المنجّم، بل بالرؤية أو إكمال شعبان ثلاثين؛ لكن للحاسب نفسه أن يعمل بحسابه ويجزئه عن فرضه.",
+        "en": "Ramadan is not established for people at large by astronomical calculation or by an astrologer's word, but by sighting or by completing Shaʿbān as thirty days; the calculator himself, however, may act on his own calculation, and it counts for his obligatory fast.",
+        "ru": "Рамадан не устанавливается для людей в целом астрономическим расчётом или словами звездочёта, а лишь наблюдением или завершением Шаабана тридцатью днями; однако сам вычислитель может следовать своему расчёту, и это засчитывается ему за обязательный пост.",
+        "es": "El Ramadán no se establece para la generalidad de la gente por el cálculo astronómico ni por la palabra del astrólogo, sino por el avistamiento o completando Shaʿbān con treinta días; sin embargo, el propio calculador puede actuar según su cálculo, y ello le vale por su ayuno obligatorio.",
+        "uk": "Рамадан не встановлюється для людей загалом астрономічними розрахунками чи словами звіздаря, а лише спостереженням або завершенням Шаабану тридцятьма днями; проте сам обчислювач може діяти за своїм розрахунком, і це зараховується йому за обов'язковий піст."
       },
       "sources": [
         {
@@ -127,11 +126,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يحرم الاعتماد على الحساب الفلكي في إثبات دخول شهر رمضان، ولا يثبت الهلال إلا بالرؤية البصرية أو إتمام شعبان ثلاثين يوماً، لقوله ﷺ: «فإن غم عليكم فاقدروا له» أي أكملوا العدة ثلاثين.",
-        "en": "Relying on astronomical calculation to confirm the entry of Ramadan is forbidden, and the crescent is only proven by visual sighting or completing Shaʿbān as thirty days, based on the Prophet's saying: \"If it is obscured from you, then estimate for it\" meaning complete the count to thirty.",
-        "ru": "Запрещено полагаться на астрономические расчёты при установлении наступления месяца Рамадан; новолуние подтверждается только визуальным наблюдением или завершением Шаабана тридцатью днями, согласно словам Пророка ﷺ: «Если же он будет скрыт от вас, то отмерьте ему», то есть доведите счёт до тридцати.",
-        "es": "Está prohibido confiar en el cálculo astronómico para establecer la entrada del mes de Ramadán; la luna nueva solo se establece mediante el avistamiento visual o completando Shaʿbān con treinta días, según el dicho del Profeta ﷺ: «Y si se os oculta, entonces calculadlo», es decir, completad la cuenta hasta treinta.",
-        "uk": "Заборонено покладатися на астрономічні розрахунки при встановленні настання місяця Рамадан; молодик підтверджується лише візуальним спостереженням або завершенням Шаабану тридцятьма днями, згідно зі словами Пророка ﷺ: «Якщо ж він буде прихований від вас, то відміряйте йому», тобто доведіть лік до тридцяти."
+        "ar": "لا يُعتمد على الحساب الفلكي في إثبات دخول رمضان، وإنما يجب الصوم برؤية الهلال، أو بإكمال شعبان ثلاثين مع الصحو، فإن حال دون الهلال غيم أو قتر ليلة الثلاثين وجب صومه.",
+        "en": "Astronomical calculation is not relied upon to establish the entry of Ramadan; fasting becomes obligatory by sighting the crescent, or by completing Shaʿbān as thirty days when the sky is clear. If clouds or haze obscure the crescent on the night of the thirtieth, fasting that day is obligatory.",
+        "ru": "На астрономические расчёты не полагаются при установлении наступления Рамадана; пост становится обязательным при наблюдении новолуния или по завершении Шаабана тридцатью днями при ясном небе. Если же в ночь на тридцатое новолуние скрыто облаками или мглой, поститься в этот день обязательно.",
+        "es": "No se confía en el cálculo astronómico para establecer la entrada de Ramadán; el ayuno se vuelve obligatorio con el avistamiento de la luna nueva, o completando Shaʿbān con treinta días cuando el cielo está despejado. Si nubes o calima ocultan la luna nueva la noche del treinta, ayunar ese día es obligatorio.",
+        "uk": "На астрономічні розрахунки не покладаються при встановленні настання Рамадану; піст стає обов'язковим зі спостереженням молодика або після завершення Шаабану тридцятьма днями за ясного неба. Якщо ж у ніч на тридцяте молодик закритий хмарами чи імлою, постити цього дня обов'язково."
       },
       "sources": [
         {
@@ -158,5 +157,13 @@
       ],
       "grade": "haram"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: للحاسب أن يعمل بحسابه لنفسه، وقول الحنابلة: يجب الصوم إذا حال غيم أو قتر ليلة الثلاثين من شعبان.",
+    "en": "Corrected the Shafiʿi position (the calculator may act on his own calculation for himself) and the Hanbali position (fasting is obligatory if clouds or haze obscure the crescent on the night of the thirtieth of Shaʿbān).",
+    "ru": "Исправлены позиции шафиитов (вычислитель может сам следовать своему расчёту) и ханбалитов (пост обязателен, если в ночь на тридцатое Шаабана новолуние скрыто облаками или мглой).",
+    "es": "Se corrigieron las posturas shafiʿí (el calculador puede actuar según su cálculo para sí mismo) y hanbalí (el ayuno es obligatorio si nubes o calima ocultan la luna nueva la noche del treinta de Shaʿbān).",
+    "uk": "Виправлено позиції шафіїтів (обчислювач може сам діяти за своїм розрахунком) і ханбалітів (піст обов'язковий, якщо в ніч на тридцяте Шаабану молодик закритий хмарами чи імлою)."
   }
 }

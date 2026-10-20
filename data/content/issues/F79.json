@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "sunnah",
       "text": {
-        "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوؤه، ويُستحبّ له إعادة ما نكّسه إن لم يطُل الفصل.",
-        "en": "Keeping the order among the obligatory acts of the ablution is a sunnah: whoever reverses it, his ablution is valid, and it is recommended that he repeat what he reversed if the interval has not grown long.",
-        "ru": "Соблюдение порядка между обязательными действиями омовения — сунна: кто нарушит его, у того омовение действительно, и ему желательно повторить нарушенное, если перерыв не затянулся.",
-        "es": "Guardar el orden entre los actos obligatorios de la ablución es sunnah: quien lo invierta, su ablución es válida, y se le recomienda repetir lo invertido si el intervalo no se ha alargado.",
-        "uk": "Дотримання порядку між обов'язковими діями омивання — сунна: хто порушить його, у того омивання дійсне, і йому бажано повторити порушене, якщо перерва не затягнулася."
+        "ar": "الترتيب بين فرائض الوضوء سنة، فمن نكّس صحّ وضوؤه، ويُسنّ أن يعيد المنكَّس وحده إن طال الفصل بالجفاف، وإلا أعاده مع ما بعده.",
+        "en": "Keeping the order among the obligatory acts of the ablution is a sunnah: whoever reverses it, his ablution is valid; it is sunnah for him to repeat the reversed act alone if the interval has grown long enough for drying, and otherwise to repeat it together with what follows it.",
+        "ru": "Соблюдение порядка между обязательными действиями омовения — сунна: кто нарушит его, у того омовение действительно; ему сунна повторить нарушенное действие отдельно, если перерыв затянулся до высыхания, а иначе — вместе с тем, что следует за ним.",
+        "es": "Guardar el orden entre los actos obligatorios de la ablución es sunnah: quien lo invierta, su ablución es válida; es sunnah que repita solo lo invertido si el intervalo se alargó hasta secarse, y si no, que lo repita junto con lo que le sigue.",
+        "uk": "Дотримання порядку між обов'язковими діями омивання — сунна: хто порушить його, у того омивання дійсне; йому сунна повторити порушену дію окремо, якщо перерва затяглася до висихання, а інакше — разом із тим, що йде після неї."
       },
       "sources": [
         {
@@ -160,5 +160,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يُسنّ أن يعيد المنكَّس وحده إن طال الفصل بالجفاف، وإلا أعاده مع ما بعده.",
+    "en": "The Maliki position was corrected: it is sunnah to repeat the reversed act alone if the interval has grown long enough for drying, and otherwise together with what follows it.",
+    "ru": "Исправлено мнение маликитов: сунна повторить нарушенное действие отдельно, если перерыв затянулся до высыхания, а иначе — вместе с последующим.",
+    "es": "Se corrigió la posición malikí: es sunnah repetir solo lo invertido si el intervalo se alargó hasta secarse, y si no, junto con lo que le sigue.",
+    "uk": "Виправлено погляд малікітів: сунна повторити порушену дію окремо, якщо перерва затяглася до висихання, а інакше — разом із наступним."
   }
 }

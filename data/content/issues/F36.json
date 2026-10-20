@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يتوضّأ من الإناءين معاً لإحراز شرط الطهارة بيقين، أو يتحرّى إن وُجدت قرينة تدلّ على الطهور.",
-        "en": "One performs wudu from both vessels together so that the condition of purity is met with certainty, or weighs the signs if there is an indication pointing to the tahur one.",
-        "ru": "Совершают омовение из обоих сосудов вместе, чтобы условие чистоты было выполнено достоверно, либо взвешивают признаки, если есть указание на тахур.",
-        "es": "Se hace el wudu de ambos recipientes juntos para cumplir con certeza la condición de pureza, o se sopesan los indicios si hay algo que señale al tahur.",
-        "uk": "Роблять омивання з обох посудин разом, щоб умова чистоти була досягнута достовірно, або зважують ознаки, якщо є вказівка на очищувальну."
+        "ar": "يتوضّأ بعدد الطاهر وزيادة إناء، فيتوضّأ هنا من كلٍّ من الإناءين، ويصلّي صلاة واحدة.",
+        "en": "One performs wudu as many times as there are pure vessels plus one more — here, from each of the two vessels — and prays a single prayer.",
+        "ru": "Совершают омовение столько раз, сколько чистых сосудов, и ещё один раз — здесь из каждого из двух сосудов, — и молятся один раз.",
+        "es": "Se hace el wudu tantas veces como recipientes puros haya y una más —aquí, de cada uno de los dos recipientes— y se reza una sola oración.",
+        "uk": "Роблять омивання стільки разів, скільки є чистих посудин, і ще один раз — тут з кожної з двох посудин, — і моляться один раз."
       },
       "sources": [
         {
@@ -91,11 +91,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يتوضّأ من كل واحد منهما وضوءاً مستقلاً، ولا يلزمه الاجتهاد بينهما، لإحراز شرط الطهارة بيقين.",
-        "en": "One performs a separate wudu from each vessel and is not required to weigh the signs between them, so that the condition of purity is met with certainty.",
-        "ru": "Совершают отдельное омовение из каждого сосуда, и взвешивать признаки между ними не обязательно, чтобы условие чистоты было выполнено достоверно.",
-        "es": "Se hace un wudu independiente de cada recipiente, sin que se le exija sopesar los indicios, para cumplir con certeza la condición de pureza.",
-        "uk": "Роблять окреме омивання з кожної з двох посудин, і зважувати ознаки між ними не обов'язково, щоб умова чистоти була досягнута достовірно."
+        "ar": "يجتهد بين الطهور والطاهر غير المطهّر كالمستعمل ويتطهّر بما ظنّه الطهور، ولا يتوضّأ بكلٍّ منهما؛ أمّا الماء مع ماء الورد فيتوضّأ بكلٍّ منهما مرّة ولا يجتهد على الأصح.",
+        "en": "One weighs the signs between the tahur water and the pure non-purifying water, such as used water, and purifies himself with the one he judges to be tahur, without performing wudu from each; but with water and rose-water, he performs wudu once with each and does not weigh the signs, on the soundest view.",
+        "ru": "Взвешивают признаки между водой тахур и чистой неочищающей, например использованной, и очищаются той, которую считают тахур, не совершая омовения из каждой; а при воде и розовой воде совершают омовение каждой по одному разу и не взвешивают признаки — по наиболее верному мнению.",
+        "es": "Se sopesan los indicios entre el agua tahur y la pura no purificadora, como la usada, y uno se purifica con la que juzga tahur, sin hacer el wudu de cada una; pero con agua y agua de rosas se hace el wudu una vez con cada una y no se sopesan los indicios, según la opinión más correcta.",
+        "uk": "Зважують ознаки між очищувальною водою та чистою неочищувальною, як-от використаною, і очищаються тією, яку вважають очищувальною, не роблячи омивання з кожної; а при воді та рожевій воді роблять омивання кожною по одному разу і не зважують ознак — за найправильнішим поглядом."
       },
       "sources": [
         {
@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يتوضّأ من كل واحد منهما وضوءاً كاملاً ويصلّي صلاة واحدة، لإحراز الطهارة من أحدهما بيقين.",
-        "en": "One performs a complete wudu from each vessel and prays a single prayer, so that purity from one of the two is attained with certainty.",
-        "ru": "Совершают полное омовение из каждого сосуда и молятся один раз, чтобы чистота от одного из них была достигнута достоверно.",
-        "es": "Se hace un wudu completo de cada recipiente y se reza una sola oración, para alcanzar con certeza la pureza de uno de los dos.",
-        "uk": "Роблять повне омивання з кожної з двох посудин і моляться один раз, щоб чистота від однієї з них була досягнута достовірно."
+        "ar": "يتوضّأ منهما وضوءاً واحداً، من هذا غرفة ومن هذا غرفة، يعمّ بكل غرفة المحلّ، ويصلّي صلاة واحدة.",
+        "en": "One performs a single wudu from both, taking for each limb a handful from this vessel and a handful from that, covering the whole limb with each handful, and prays a single prayer.",
+        "ru": "Совершают из обоих одно омовение: для каждого органа пригоршню из этого сосуда и пригоршню из того, охватывая орган целиком каждой пригоршней, — и молятся один раз.",
+        "es": "Se hace un solo wudu de ambos, tomando para cada miembro un puñado de este recipiente y otro de aquel, abarcando el miembro entero con cada puñado, y se reza una sola oración.",
+        "uk": "Роблять з обох одне омивання: для кожного органа пригорщу з цієї посудини і пригорщу з тієї, охоплюючи орган повністю кожною пригорщею, — і моляться один раз."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّحت أقوال المالكية والشافعية والحنابلة: يتوضّأ المالكي بعدد الطاهر وزيادة إناء ويصلّي صلاة واحدة، ويجتهد الشافعي إن كان الطاهر مستعملاً، ويتوضّأ الحنبلي وضوءاً واحداً غرفةً من كل إناء.",
+    "en": "The Maliki, Shafiʿi and Hanbali positions were corrected: the Maliki performs wudu as many times as the pure vessels plus one and prays once, the Shafiʿi weighs the signs when the pure water is used water, and the Hanbali performs a single wudu with a handful from each vessel.",
+    "ru": "Исправлены мнения маликитов, шафиитов и ханбалитов: маликит совершает омовение по числу чистых сосудов и ещё один раз и молится один раз, шафиит взвешивает признаки, если чистая вода — использованная, а ханбалит совершает одно омовение, беря по пригоршне из каждого сосуда.",
+    "es": "Se corrigieron las posiciones malikí, shafiʿí y hanbalí: el malikí hace el wudu tantas veces como recipientes puros más uno y reza una vez, el shafiʿí sopesa los indicios si el agua pura es agua usada, y el hanbalí hace un solo wudu con un puñado de cada recipiente.",
+    "uk": "Виправлено погляди малікітів, шафіїтів і ханбалітів: малікіт робить омивання за числом чистих посудин і ще один раз і молиться один раз, шафіїт зважує ознаки, якщо чиста вода — використана, а ханбаліт робить одне омивання, беручи по пригорщі з кожної посудини."
   }
 }

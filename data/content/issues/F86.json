@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "fard",
       "text": {
-        "ar": "يجب الغسل على الحائض والنفساء بانقطاع الدم انقطاعاً تامّاً ورؤية علامة الطهر، ويُسنّ الدلك وتعميم البدن والموالاة.",
-        "en": "The full bath becomes obligatory once the bleeding has wholly ceased and the sign of purity is seen; rubbing the body, covering it entirely and keeping the washing continuous are sunnah.",
-        "ru": "Полное омовение становится обязательным при полном прекращении крови и появлении признака чистоты; растирание тела, полное его покрытие водой и непрерывность омовения — сунна.",
-        "es": "El baño ritual es obligatorio cuando la sangre ha cesado por completo y se ve la señal de pureza; frotar el cuerpo, cubrirlo entero y mantener la continuidad son sunnah.",
-        "uk": "Повне обмивання стає обов'язковим при повному припиненні крові та появі ознаки чистоти; розтирання тіла, повне його покриття водою та безперервність — сунна."
+        "ar": "يجب الغسل على الحائض والنفساء بانقطاع الدم انقطاعاً تامّاً ورؤية علامة الطهر، ويجب فيه تعميم البدن بالماء مع الدلك، والموالاة مع الذكر والقدرة، وتخليل الشعر.",
+        "en": "The full bath becomes obligatory once the bleeding has wholly ceased and the sign of purity is seen; in it, covering the whole body with water together with rubbing, continuity when one remembers and is able, and running the water through the hair are obligatory.",
+        "ru": "Полное омовение становится обязательным при полном прекращении крови и появлении признака чистоты; в нём обязательны покрытие водой всего тела с растиранием, непрерывность при памятовании и возможности и проведение воды сквозь волосы.",
+        "es": "El baño ritual es obligatorio cuando la sangre ha cesado por completo y se ve la señal de pureza; en él son obligatorios cubrir todo el cuerpo con agua junto con el frotamiento, la continuidad cuando se recuerda y se puede, y hacer pasar el agua entre el cabello.",
+        "uk": "Повне обмивання стає обов'язковим при повному припиненні крові та появі ознаки чистоти; у ньому обов'язкові покриття водою всього тіла з розтиранням, безперервність, коли пам'ятають і мають змогу, та проведення води крізь волосся."
       },
       "sources": [
         {
@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "fard",
       "text": {
-        "ar": "يجب الغسل بانقطاع دم الحيض والنفاس متى تحقّق الطهر بالقصّة البيضاء أو الجفاف، ويجب استيعاب البدن بالماء ونقضُ الشعر إن لم يصل الماء إلى أصوله دونه.",
-        "en": "The full bath becomes obligatory once the bleeding of menstruation or of childbirth has ended and purity is established by the white discharge or by dryness; the whole body must be covered with water, and the hair undone if the water would not otherwise reach its roots.",
-        "ru": "Полное омовение становится обязательным с прекращением крови менструации или родов, когда чистота установлена белыми выделениями или сухостью; обязательно охватить водой всё тело и распустить волосы, если иначе вода не дойдёт до их корней.",
-        "es": "El baño ritual es obligatorio al cesar la sangre de la menstruación o del parto, una vez establecida la pureza por el flujo blanco o por la sequedad; debe cubrirse todo el cuerpo con agua y soltarse el cabello si de otro modo el agua no llegaría a sus raíces.",
-        "uk": "Повне обмивання стає обов'язковим із припиненням крові менструації чи пологів, коли чистота встановлена білими виділеннями або сухістю; обов'язково охопити водою все тіло та розпустити волосся, якщо інакше вода не дійде до його коріння."
+        "ar": "يجب الغسل بانقطاع دم الحيض والنفاس متى تحقّق الطهر بالقصّة البيضاء أو الجفاف، ويجب استيعاب البدن بالماء ونقضُ الشعر لغسل الحيض والنفاس، بخلاف غسل الجنابة إذا رويت أصوله.",
+        "en": "The full bath becomes obligatory once the bleeding of menstruation or of childbirth has ended and purity is established by the white discharge or by dryness; the whole body must be covered with water, and the hair must be undone for the bath of menstruation and post-natal bleeding, unlike the bath of janābah when the roots are soaked.",
+        "ru": "Полное омовение становится обязательным с прекращением крови менструации или родов, когда чистота установлена белыми выделениями или сухостью; обязательно охватить водой всё тело и распустить волосы при омовении после менструации и послеродового кровотечения, в отличие от омовения после джанабы, если корни волос пропитаны водой.",
+        "es": "El baño ritual es obligatorio al cesar la sangre de la menstruación o del parto, una vez establecida la pureza por el flujo blanco o por la sequedad; debe cubrirse todo el cuerpo con agua y soltarse el cabello en el baño de la menstruación y los loquios, a diferencia del baño de yanaba cuando sus raíces quedan empapadas.",
+        "uk": "Повне обмивання стає обов'язковим із припиненням крові менструації чи пологів, коли чистота встановлена білими виділеннями або сухістю; обов'язково охопити водою все тіло та розпустити волосся при обмиванні після менструації й післяпологової кровотечі, на відміну від обмивання після джанаби, якщо коріння волосся просякло водою."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قولا الحنابلة والمالكية: يجب نقض الشعر لغسل الحيض والنفاس مطلقاً عند الحنابلة، وتعميم البدن والدلك والموالاة وتخليل الشعر واجبات لا سنن عند المالكية.",
+    "en": "The Ḥanbalī and Mālikī positions were corrected: for the Ḥanbalīs the hair must be undone for the bath of menstruation and post-natal bleeding without condition, and for the Mālikīs covering the body, rubbing, continuity and running water through the hair are obligatory, not sunnah.",
+    "ru": "Исправлены мнения ханбалитов и маликитов: у ханбалитов волосы распускают при омовении после менструации и послеродового кровотечения без условий, а у маликитов покрытие тела, растирание, непрерывность и проведение воды сквозь волосы обязательны, а не сунна.",
+    "es": "Se corrigieron las posiciones hanbalí y malikí: para los hanbalíes el cabello se suelta en el baño de la menstruación y los loquios sin condición, y para los malikíes cubrir el cuerpo, frotarlo, la continuidad y pasar el agua entre el cabello son obligatorios, no sunnah.",
+    "uk": "Виправлено думки ханбалітів і малікітів: у ханбалітів волосся розпускають при обмиванні після менструації й післяпологової кровотечі без умов, а в малікітів покриття тіла, розтирання, безперервність і проведення води крізь волосся обов'язкові, а не сунна."
   }
 }

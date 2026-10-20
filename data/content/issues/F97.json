@@ -27,7 +27,7 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "wajib",
+      "grade": "fard",
       "text": {
         "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر، ولا يُشترط له الغسل إن كان الانقطاع لتمام العشرة، فإن كان لدونها فيُشترط أن يبقى من الليل ما يسع الغسل والتحريمة. وأمّا الصلاة فلا تستأنفها إلا بعد الغسل، أو التيمم عند العجز.",
         "en": "She resumes fasting once the bleeding stops before dawn, and the bath is not a condition for it if the stop came at the full ten days; if earlier, enough of the night must remain for the bath and the opening takbīr. Prayer, however, she resumes only after the bath, or dry ablution when unable.",
@@ -95,11 +95,11 @@
     "shafii": {
       "grade": "wajib",
       "text": {
-        "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر مع النية ولو أخّرت الغسل، ويستقرّ عليها وجوب الصلاة بالطهر إن بقي من الوقت قدر ركعة، وتصلّي فور الغسل.",
-        "en": "She resumes fasting once the bleeding stops before dawn, with the intention, even if she delays the bath; the obligation of prayer settles upon her at purity if a unit's worth of the time remains, and she prays as soon as she has bathed.",
-        "ru": "Она возобновляет пост с прекращением крови до рассвета при наличии намерения, даже если отложит омовение; обязанность молитвы утверждается на ней с очищением, если осталось времени на один ракаат, и она молится сразу после омовения.",
-        "es": "Reanuda el ayuno al cesar la sangre antes del alba, con la intención, aunque retrase el baño; la obligación de la oración recae sobre ella con la pureza si queda del tiempo lo de un rakʿah, y reza en cuanto se ha bañado.",
-        "uk": "Вона відновлює піст із припиненням крові до світанку за наявності наміру, навіть якщо відкладе обмивання; обов'язок молитви утверджується на ній з очищенням, якщо лишилося часу на один ракаат, і вона молиться одразу після обмивання."
+        "ar": "تستأنف الصوم بانقطاع الدم قبل الفجر مع النية ولو أخّرت الغسل، وتجب عليها الصلاة بالطهر إن بقي من الوقت قدر تكبيرة، وتصلّي فور الغسل.",
+        "en": "She resumes fasting once the bleeding stops before dawn, with the intention, even if she delays the bath; prayer becomes due upon her at purity if time for a takbīr remains, and she prays as soon as she has bathed.",
+        "ru": "Она возобновляет пост с прекращением крови до рассвета при наличии намерения, даже если отложит омовение; молитва становится для неё обязательной с очищением, если осталось времени на один такбир, и она молится сразу после омовения.",
+        "es": "Reanuda el ayuno al cesar la sangre antes del alba, con la intención, aunque retrase el baño; la oración le es obligatoria con la pureza si queda del tiempo lo de un takbīr, y reza en cuanto se ha bañado.",
+        "uk": "Вона відновлює піст із припиненням крові до світанку за наявності наміру, навіть якщо відкладе обмивання; молитва стає для неї обов'язковою з очищенням, якщо лишилося часу на один такбір, і вона молиться одразу після обмивання."
       },
       "sources": [
         {
@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "wajib",
       "text": {
-        "ar": "تستأنف الصوم بالطهر قبل الفجر مع النية ولا يضرّ تأخير الغسل كالجنب، وتجب عليها الصلاة بالطهر إن بقي من الوقت قدر ركعة، وعليها المبادرة بالغسل لتؤدّيها في وقتها.",
-        "en": "She resumes fasting upon purity before dawn, with the intention, and delaying the bath does no harm — as with one in major impurity; prayer becomes due upon purity if a unit's worth of the time remains, and she must hasten to bathe so as to pray within the time.",
-        "ru": "Она возобновляет пост с очищением до рассвета при наличии намерения, и отсрочка омовения не вредит — как у находящегося в большом осквернении; молитва становится обязательной с очищением, если осталось времени на один ракаат, и ей надлежит поспешить с омовением, чтобы совершить её вовремя.",
-        "es": "Reanuda el ayuno con la pureza antes del alba, con la intención, y retrasar el baño no perjudica, como en el caso de quien está en impureza mayor; la oración le es obligatoria con la pureza si queda del tiempo lo de un rakʿah, y debe apresurarse a bañarse para rezar en su tiempo.",
-        "uk": "Вона відновлює піст з очищенням до світанку за наявності наміру, і відкладення обмивання не шкодить — як у того, хто в великому оскверненні; молитва стає обов'язковою з очищенням, якщо лишилося часу на один ракаат, і їй належить поспішити з обмиванням, щоб здійснити її вчасно."
+        "ar": "تستأنف الصوم بالطهر قبل الفجر مع النية ولا يضرّ تأخير الغسل كالجنب، وتجب عليها الصلاة بالطهر إن بقي من الوقت قدر تكبيرة الإحرام، وعليها المبادرة بالغسل لتؤدّيها في وقتها.",
+        "en": "She resumes fasting upon purity before dawn, with the intention, and delaying the bath does no harm — as with one in major impurity; prayer becomes due upon purity if time for the opening takbīr remains, and she must hasten to bathe so as to pray within the time.",
+        "ru": "Она возобновляет пост с очищением до рассвета при наличии намерения, и отсрочка омовения не вредит — как у находящегося в большом осквернении; молитва становится обязательной с очищением, если осталось времени на вступительный такбир, и ей надлежит поспешить с омовением, чтобы совершить её вовремя.",
+        "es": "Reanuda el ayuno con la pureza antes del alba, con la intención, y retrasar el baño no perjudica, como en el caso de quien está en impureza mayor; la oración le es obligatoria con la pureza si queda del tiempo lo del takbīr de apertura, y debe apresurarse a bañarse para rezar en su tiempo.",
+        "uk": "Вона відновлює піст з очищенням до світанку за наявності наміру, і відкладення обмивання не шкодить — як у того, хто в великому оскверненні; молитва стає обов'язковою з очищенням, якщо лишилося часу на вступний такбір, і їй належить поспішити з обмиванням, щоб здійснити її вчасно."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية والحنابلة: تجب الصلاة بإدراك قدر تكبيرة من الوقت لا ركعة.",
+    "en": "The Shāfiʿī and Ḥanbalī positions were corrected: prayer becomes due when time for a takbīr remains, not a rakʿah.",
+    "ru": "Исправлены мнения шафиитов и ханбалитов: молитва становится обязательной, если остаётся время на такбир, а не на ракаат.",
+    "es": "Se corrigieron las posiciones shāfiʿí y ḥanbalí: la oración es obligatoria si queda tiempo para un takbīr, no para un rakʿah.",
+    "uk": "Виправлено думки шафіїтів і ханбалітів: молитва стає обов'язковою, якщо лишається час на такбір, а не на ракаат."
   }
 }

@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "makruh",
       "text": {
-        "ar": "أوقات النهي وقتان للنفل: بعد صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وبعد صلاة العصر حتى تُصلَّى المغرب؛ وتشتدّ الكراهة عند الطلوع والغروب وحال الخطبة.",
-        "en": "The forbidden times are two, for voluntary prayer: after the fajr prayer until the sun has risen the height of a spear, and after the ʿaṣr prayer until the maghrib is prayed; and the dislike is stronger at sunrise, at sunset, and during the sermon.",
-        "ru": "Времён запрета два — для добровольной молитвы: после молитвы фаджр, пока солнце не поднимется на высоту копья, и после молитвы аср, пока не будет совершён магриб; и нежелательность усиливается при восходе, закате и во время хутбы.",
-        "es": "Los tiempos prohibidos son dos, para la oración voluntaria: tras la oración del fajr hasta que el sol se eleve la altura de una lanza, y tras la oración del ʿaṣr hasta que se rece el magrib; y la reprobación se agrava al salir y ponerse el sol y durante el sermón.",
-        "uk": "Часів заборони два — для добровільної молитви: після молитви фаджр, доки сонце не підніметься на висоту списа, і після молитви аср, доки не буде здійснено маґріб; і небажаність посилюється при сході, заході та під час хутби."
+        "ar": "يُمنع النفل وقت طلوع الشمس وغروبها وحال خطبة الجمعة، ويُكره بعد صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وبعد فرض العصر حتى تُصلَّى المغرب.",
+        "en": "Voluntary prayer is prohibited at sunrise, at sunset, and during the Friday sermon; it is disliked after the fajr prayer until the sun has risen the height of a spear, and after the obligatory ʿaṣr until the maghrib is prayed.",
+        "ru": "Добровольная молитва запрещена при восходе солнца, при его закате и во время пятничной хутбы; она нежелательна после молитвы фаджр, пока солнце не поднимется на высоту копья, и после обязательного асра, пока не будет совершён магриб.",
+        "es": "La oración voluntaria está prohibida al salir el sol, al ponerse y durante el sermón del viernes; es reprobable tras la oración del fajr hasta que el sol se eleve la altura de una lanza, y tras el ʿaṣr obligatorio hasta que se rece el magrib.",
+        "uk": "Добровільна молитва заборонена при сході сонця, при його заході та під час п'ятничної хутби; вона небажана після молитви фаджр, доки сонце не підніметься на висоту списа, і після обов'язкового асру, доки не буде здійснено маґріб."
       },
       "sources": [
         {
@@ -95,11 +95,11 @@
     "shafii": {
       "grade": "makruh",
       "text": {
-        "ar": "أوقات النهي خمسة: بعد صلاة الصبح حتى ترتفع الشمس قِيدَ رمح، وعند الاستواء إلا يوم الجمعة، وبعد صلاة العصر حتى تغرب، وعند الطلوع، وعند الغروب؛ وتختصّ الكراهة بالنفل المطلق الذي لا سبب له.",
-        "en": "The forbidden times are five: after the ṣubḥ prayer until the sun has risen the height of a spear, at the zenith except on Friday, after the ʿaṣr prayer until it sets, at sunrise, and at sunset; and the dislike applies only to unrestricted voluntary prayer that has no occasioning cause.",
-        "ru": "Времён запрета пять: после молитвы субх, пока солнце не поднимется на высоту копья, в зените — кроме пятницы, после молитвы аср, пока оно не зайдёт, при восходе и при закате; и нежелательность относится лишь к безусловной добровольной молитве, не имеющей повода.",
-        "es": "Los tiempos prohibidos son cinco: tras la oración del ṣubḥ hasta que el sol se eleve la altura de una lanza, en el cenit salvo el viernes, tras la oración del ʿaṣr hasta que se ponga, al salir el sol y al ponerse; y la reprobación se limita a la oración voluntaria absoluta que no tiene causa.",
-        "uk": "Часів заборони п'ять: після молитви субх, доки сонце не підніметься на висоту списа, у зеніті — крім п'ятниці, після молитви аср, доки воно не зайде, при сході та при заході; і небажаність стосується лише безумовної добровільної молитви, що не має приводу."
+        "ar": "أوقات النهي خمسة: بعد صلاة الصبح حتى ترتفع الشمس قِيدَ رمح، وعند الاستواء إلا يوم الجمعة، وبعد صلاة العصر حتى تغرب، وعند الطلوع، وعند الغروب؛ وتختصّ الكراهة بما لا سبب له أو له سبب متأخر، دون ما له سبب متقدم أو مقارن كالفائتة والكسوف وتحية المسجد.",
+        "en": "The forbidden times are five: after the ṣubḥ prayer until the sun has risen the height of a spear, at the zenith except on Friday, after the ʿaṣr prayer until it sets, at sunrise, and at sunset; and the dislike applies to prayer that has no occasioning cause or whose cause comes after it, not to prayer whose cause precedes or accompanies it, such as a missed prayer, the eclipse prayer, and the greeting of the mosque.",
+        "ru": "Времён запрета пять: после молитвы субх, пока солнце не поднимется на высоту копья, в зените — кроме пятницы, после молитвы аср, пока оно не зайдёт, при восходе и при закате; и нежелательность относится к молитве, не имеющей повода или чей повод следует после неё, но не к молитве, повод которой предшествует ей или сопутствует, как пропущенная молитва, молитва при затмении и приветствие мечети.",
+        "es": "Los tiempos prohibidos son cinco: tras la oración del ṣubḥ hasta que el sol se eleve la altura de una lanza, en el cenit salvo el viernes, tras la oración del ʿaṣr hasta que se ponga, al salir el sol y al ponerse; y la reprobación se limita a la oración que no tiene causa o cuya causa es posterior, no a la que tiene una causa anterior o simultánea, como la oración pendiente, la del eclipse y el saludo a la mezquita.",
+        "uk": "Часів заборони п'ять: після молитви субх, доки сонце не підніметься на висоту списа, у зеніті — крім п'ятниці, після молитви аср, доки воно не зайде, при сході та при заході; і небажаність стосується молитви, що не має приводу або чий привід настає після неї, але не молитви, привід якої передує їй чи супроводжує її, як пропущена молитва, молитва під час затемнення та привітання мечеті."
       },
       "sources": [
         {
@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "makruh",
       "text": {
-        "ar": "أوقات النهي ثلاثة إجمالاً وخمسة تفصيلاً: من صلاة الفجر حتى ترتفع الشمس قِيدَ رمح، وعند قيامها حتى تزول، ومن صلاة العصر حتى تغرب؛ وتُستثنى الفوائت وركعتا الفجر والطواف.",
-        "en": "The forbidden times are three in outline and five in detail: from the fajr prayer until the sun has risen the height of a spear, at its standing still until it declines, and from the ʿaṣr prayer until it sets; missed obligatory prayers, the two units of the fajr, and the circumambulation are excepted.",
-        "ru": "Времён запрета три в общем и пять в подробности: от молитвы фаджр, пока солнце не поднимется на высоту копья, при его стоянии, пока не склонится, и от молитвы аср, пока оно не зайдёт; исключаются пропущенные обязательные молитвы, два ракаата фаджра и таваф.",
-        "es": "Los tiempos prohibidos son tres en conjunto y cinco en detalle: desde la oración del fajr hasta que el sol se eleve la altura de una lanza, en su detención hasta que declina, y desde la oración del ʿaṣr hasta que se pone; se exceptúan las oraciones obligatorias pendientes, los dos rakʿah del fajr y la circunvalación.",
-        "uk": "Часів заборони три загалом і п'ять у подробиці: від молитви фаджр, доки сонце не підніметься на висоту списа, при його стоянні, доки не схилиться, і від молитви аср, доки воно не зайде; виключаються пропущені обов'язкові молитви, два ракаати фаджру та таваф."
+        "ar": "أوقات النهي ثلاثة إجمالاً وخمسة تفصيلاً: من طلوع الفجر الثاني حتى ترتفع الشمس قِيدَ رمح، وعند قيامها حتى تزول، ومن صلاة العصر حتى تغرب؛ ويجوز فيها قضاء الفرائض وركعتا الطواف وإعادة الجماعة، وتُستثنى سنة الفجر قبلها.",
+        "en": "The forbidden times are three in outline and five in detail: from the second (true) dawn until the sun has risen the height of a spear, at its standing still until it declines, and from the ʿaṣr prayer until it sets; in them it is permissible to make up obligatory prayers, to pray the two units of the circumambulation, and to repeat a prayer in congregation, and the sunnah of fajr before the obligatory prayer is excepted.",
+        "ru": "Времён запрета три в общем и пять в подробности: от появления второй (истинной) зари, пока солнце не поднимется на высоту копья, при его стоянии, пока не склонится, и от молитвы аср, пока оно не зайдёт; в них дозволено восполнять обязательные молитвы, совершать два ракаата тавафа и повторять молитву в общине, а сунна фаджра перед обязательной молитвой исключается.",
+        "es": "Los tiempos prohibidos son tres en conjunto y cinco en detalle: desde el segundo amanecer (el verdadero) hasta que el sol se eleve la altura de una lanza, en su detención hasta que declina, y desde la oración del ʿaṣr hasta que se pone; en ellos es lícito recuperar las oraciones obligatorias, rezar los dos rakʿah de la circunvalación y repetir la oración en congregación, y se exceptúa la sunna del fajr antes de la obligatoria.",
+        "uk": "Часів заборони три загалом і п'ять у подробиці: від появи другої (істинної) зорі, доки сонце не підніметься на висоту списа, при його стоянні, доки не схилиться, і від молитви аср, доки воно не зайде; у них дозволено відшкодовувати обов'язкові молитви, здійснювати два ракаати тавафу та повторювати молитву в громаді, а сунна фаджру перед обов'язковою молитвою виключається."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية في ضابط ذات السبب، وقول الحنابلة بأنّ أول وقت النهي من طلوع الفجر الثاني، وقول المالكية بمنع النفل عند الطلوع والغروب والخطبة.",
+    "en": "Corrected the Shāfiʿī criterion for prayers with a cause, the Ḥanbalī start of the first forbidden time at true dawn, and the Mālikī prohibition of voluntary prayer at sunrise, sunset and the sermon.",
+    "ru": "Исправлены критерий шафиитов для молитв, имеющих повод, начало первого времени запрета у ханбалитов с истинной зари и запрет маликитов на добровольную молитву при восходе, закате и хутбе.",
+    "es": "Se corrigieron el criterio šāfiʿí sobre las oraciones con causa, el inicio ḥanbalí del primer tiempo prohibido al amanecer verdadero y la prohibición mālikí de la oración voluntaria al salir y ponerse el sol y durante el sermón.",
+    "uk": "Виправлено критерій шафіїтів щодо молитов, що мають привід, початок першого часу заборони в ханбалітів з істинної зорі та заборону малікітів на добровільну молитву при сході, заході й хутбі."
   }
 }

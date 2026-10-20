@@ -64,11 +64,11 @@
       "grade": "fard",
       "nature": "rukn",
       "text": {
-        "ar": "فرضا الغسل: النية مقارنةً لأوّله، وتعميم الجسد بالماء مع الدلك والموالاة. ولا تجب فيه المضمضة ولا الاستنشاق.",
-        "en": "The obligations of the full bath are two: the intention, formed together with its beginning, and covering the body with water along with rubbing and continuity. Rinsing the mouth and the nose is not obligatory in it.",
-        "ru": "Обязанностей полного омовения две: намерение, совпадающее с его началом, и покрытие тела водой вместе с растиранием и непрерывностью. Полоскание рта и носа в нём не обязательно.",
-        "es": "Las obligaciones del baño ritual son dos: la intención, formada junto con su comienzo, y cubrir el cuerpo con agua junto con el frotamiento y la continuidad. Enjuagar la boca y la nariz no es obligatorio en él.",
-        "uk": "Обов'язків повного обмивання два: намір, що збігається з його початком, і покриття тіла водою разом із розтиранням та безперервністю. Полоскання рота й носа в ньому не обов'язкове."
+        "ar": "فرائض الغسل: النية عند أوّله، والموالاة، وتعميم ظاهر الجسد بالماء، والدلك، وتخليل الشعر. ولا تجب فيه المضمضة ولا الاستنشاق بل هما سنّتان.",
+        "en": "The obligations of the full bath are: the intention at its beginning, continuity, covering the outer body with water, rubbing, and running the water through the hair. Rinsing the mouth and the nose is not obligatory in it; both are sunnah.",
+        "ru": "Обязанности полного омовения: намерение в его начале, непрерывность, покрытие водой внешней поверхности тела, растирание и проведение воды сквозь волосы. Полоскание рта и носа в нём не обязательно — это сунна.",
+        "es": "Las obligaciones del baño ritual son: la intención a su comienzo, la continuidad, cubrir con agua la superficie del cuerpo, el frotamiento y hacer pasar el agua entre el cabello. Enjuagar la boca y la nariz no es obligatorio en él; ambos son sunnah.",
+        "uk": "Обов'язки повного обмивання: намір на його початку, безперервність, покриття водою зовнішньої поверхні тіла, розтирання та проведення води крізь волосся. Полоскання рота й носа в ньому не обов'язкове — це сунна."
       },
       "sources": [
         {
@@ -162,5 +162,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: فرائض الغسل خمس بإضافة تخليل الشعر، لا اثنتان.",
+    "en": "The Mālikī position was corrected: the obligations of the full bath are five, including running water through the hair, not two.",
+    "ru": "Исправлено мнение маликитов: обязанностей полного омовения пять, включая проведение воды сквозь волосы, а не две.",
+    "es": "Se corrigió la posición malikí: las obligaciones del baño ritual son cinco, incluido hacer pasar el agua entre el cabello, no dos.",
+    "uk": "Виправлено думку малікітів: обов'язків повного обмивання п'ять, включно з проведенням води крізь волосся, а не два."
   }
 }

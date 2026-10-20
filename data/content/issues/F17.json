@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يسن السجود قبل السلام إلا في موضعين: إذا سلّم عن نقص ركعة فأكثر، وإذا بنى الإمام على غالب ظنّه؛ فيسجد فيهما بعد السلام.",
-        "en": "The prostration is recommended before the salām except in two cases: if one gives the salām having omitted a rakʿah or more, and if the imam builds on his predominant assumption; in these two he prostrates after the salām.",
-        "ru": "Земной поклон желателен до саляма, кроме двух случаев: если человек дал салям, недосчитав ракаат или более, и если имам построил молитву на преобладающем предположении; в этих двух он совершает поклон после саляма.",
-        "es": "La postración es recomendable antes del salām salvo en dos casos: si da el salām habiendo omitido una rakʿah o más, y si el imam se basa en su suposición predominante; en ambos se postra después del salām.",
-        "uk": "Земний уклін бажаний до саляму, окрім двох випадків: якщо людина дала салям, недолічивши ракаат чи більше, і якщо імам збудував молитву на переважному припущенні; у цих двох він робить уклін після саляму."
+        "ar": "يُسنّ سجود السهو قبل السلام إلا إذا سلّم عن نقص ركعة فأكثر فيسجد بعده؛ وزاد بعضهم ما إذا بنى الإمام على غالب ظنه على القول به.",
+        "en": "The prostration of forgetfulness is recommended before the salām, except when one gives the salām having omitted a rakʿah or more, in which case he prostrates after it; some add the case of the imam building on his predominant assumption, for those who hold that view.",
+        "ru": "Земной поклон за забывчивость желателен до саляма, кроме случая, когда человек дал салям, недосчитав ракаат или более, — тогда он совершает поклон после него; некоторые добавляют случай, когда имам построил молитву на преобладающем предположении, — по мнению тех, кто это допускает.",
+        "es": "La postración por olvido es recomendable antes del salām, salvo cuando da el salām habiendo omitido una rakʿah o más, en cuyo caso se postra después; algunos añaden el caso del imam que se basa en su suposición predominante, según quienes sostienen esa opinión.",
+        "uk": "Земний уклін за забудькуватість бажаний до саляму, окрім випадку, коли людина дала салям, недолічивши ракаат чи більше, — тоді вона робить уклін після нього; дехто додає випадок, коли імам збудував молитву на переважному припущенні, — за думкою тих, хто це визнає."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: يُسجد بعد السلام في موضع واحد هو السلام عن نقص ركعة فأكثر، وبناء الإمام على غالب ظنه مقيّد بالقول به.",
+    "en": "Corrected the Ḥanbalī position: prostration after the salām is in one case, giving the salām having omitted a rakʿah or more, while the imam building on his predominant assumption depends on adopting that view.",
+    "ru": "Исправлено мнение ханбалитов: поклон после саляма совершается в одном случае — при саляме с недостачей ракаата или более, а случай имама, строящего на преобладающем предположении, зависит от принятия этого мнения.",
+    "es": "Se corrigió la postura ḥanbalí: la postración tras el salām se da en un caso, dar el salām habiendo omitido una rakʿah o más, mientras que el del imam que se basa en su suposición predominante depende de adoptar esa opinión.",
+    "uk": "Виправлено позицію ханбалітів: уклін після саляму здійснюється в одному випадку — при салямі з недостачею ракаату чи більше, а випадок імама, що будує на переважному припущенні, залежить від прийняття цієї думки."
   }
 }

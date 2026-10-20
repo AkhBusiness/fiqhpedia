@@ -28,8 +28,8 @@
     "hanafi": {
       "text": {
         "ar": "قصر الصلاة الرباعية واجب على المسافر، والإتمام مكروه تحريماً إن قعد القعدة الأولى.",
-        "en": "Shortening four-unit prayers is obligatory for the traveler; completing four units is prohibitively disliked.",
-        "ru": "Сокращение четырехракаатной молитвы является обязательным для путника, а ее полное совершение греховно.",
+        "en": "Shortening four-unit prayers is obligatory for the traveler; completing them is prohibitively disliked provided he sat for the first sitting (otherwise his obligatory prayer is not valid).",
+        "ru": "Сокращение четырехракаатной молитвы является обязательным для путника; если же он совершит её полностью, это сильно порицаемо (макрух тахриман) при условии, что он сделал первое сидение, а иначе обязательная молитва недействительна.",
         "es": "Acortar la oración de cuatro rakʿas es obligatorio para el viajero, y completarla es desaconsejable con desaconsejo prohibitivo si se sentó en la primera sentada.",
         "uk": "Скорочення чотириракаатної молитви обов'язкове для подорожнього, а повне здійснення небажане з небажаністю, близькою до заборони, якщо він сів на першому сидінні."
       },
@@ -126,11 +126,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "القصر رخصة مستحبة للمسافر والإتمام جائز مع الكراهة، والقصر أفضل.",
-        "en": "Shortening is a recommended concession, completing is disliked, and shortening is superior.",
-        "ru": "Сокращение является желательным облегчением, полное совершение нежелательно, а сокращение лучше.",
-        "es": "El acortamiento es una dispensa recomendable para el viajero, completar está permitido con desaconsejo, y acortar es mejor.",
-        "uk": "Скорочення — бажане полегшення для подорожнього, повне здійснення дозволене з небажаністю, а скорочення краще."
+        "ar": "القصر رخصة وهو أفضل من الإتمام، وإن أتمّ جاز ولم يُكره.",
+        "en": "Shortening is a concession and is superior to completing; if he completes the prayer, that is permissible and not disliked.",
+        "ru": "Сокращение — облегчение, и оно лучше полного совершения; если же он совершит молитву полностью, это дозволено и не нежелательно.",
+        "es": "El acortamiento es una dispensa y es mejor que completar; si completa la oración, está permitido y no se desaconseja.",
+        "uk": "Скорочення — полегшення, і воно краще за повне здійснення; якщо ж він здійснить молитву повністю, це дозволено і не є небажаним."
       },
       "sources": [
         {
@@ -157,5 +157,13 @@
       ],
       "grade": "mandub"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: الإتمام للمسافر جائز غير مكروه.",
+    "en": "Corrected the Ḥanbalī position: completing the prayer for the traveler is permissible and not disliked.",
+    "ru": "Исправлено мнение ханбалитов: полное совершение молитвы путником дозволено и не нежелательно.",
+    "es": "Se corrigió la posición ḥanbalí: completar la oración para el viajero está permitido y no se desaconseja.",
+    "uk": "Виправлено позицію ханбалітів: повне здійснення молитви подорожнім дозволене і не є небажаним."
   }
 }

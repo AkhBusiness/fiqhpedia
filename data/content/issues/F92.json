@@ -12,28 +12,28 @@
     "uk": "Розділ про менструацію та післяпологову кровотечу"
   },
   "title": {
-    "ar": "حكم من طهرت وقد بقي من الوقت ما يسع ركعة",
-    "en": "A Woman Who Becomes Pure with Time Left for One Unit of Prayer",
-    "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат",
-    "es": "La mujer que se purifica cuando queda tiempo para un solo rakʿah",
-    "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат"
+    "ar": "حكم من طهرت قبل خروج وقت الصلاة",
+    "en": "A Woman Who Becomes Pure before the Prayer's Time Ends",
+    "ru": "Женщина, ставшая чистой до истечения времени молитвы",
+    "es": "La mujer que se purifica antes de que salga el tiempo de la oración",
+    "uk": "Жінка, що стала чистою до закінчення часу молитви"
   },
   "summary": {
-    "ar": "إذا طهرت الحائض أو النفساء وقد بقي من وقت الصلاة ما يسع ركعة فأكثر، أتلزمها تلك الصلاة أداءً؟",
-    "en": "If a woman becomes pure from menstruation or post-natal bleeding with enough of the prayer's time left for one unit or more, must she perform that prayer as its due?",
-    "ru": "Если женщина стала чистой после менструации или послеродового кровотечения, когда до конца времени молитвы осталось на один ракаат или более, обязана ли она совершить эту молитву как своевременную?",
-    "es": "Si la mujer se purifica de la menstruación o los loquios cuando queda del tiempo de la oración lo suficiente para un rakʿah o más, ¿está obligada a realizar esa oración en su tiempo?",
-    "uk": "Якщо жінка стала чистою після менструації чи післяпологової кровотечі, коли до кінця часу молитви лишилося на один ракаат або більше, чи зобов'язана вона здійснити цю молитву як своєчасну?"
+    "ar": "إذا طهرت الحائض أو النفساء قبل خروج وقت الصلاة، فبأيّ قدر من الوقت الباقي تلزمها تلك الصلاة: بقدر تكبيرة أم بقدر ركعة؟",
+    "en": "If a woman becomes pure from menstruation or post-natal bleeding before the prayer's time ends, how much remaining time makes that prayer due of her: enough for one takbīr, or for one unit?",
+    "ru": "Если женщина стала чистой после менструации или послеродового кровотечения до истечения времени молитвы, сколько оставшегося времени делает эту молитву обязательной для неё: на один такбир или на один ракаат?",
+    "es": "Si la mujer se purifica de la menstruación o los loquios antes de que salga el tiempo de la oración, ¿cuánto tiempo restante hace obligatoria esa oración: lo de un takbīr o lo de un rakʿah?",
+    "uk": "Якщо жінка стала чистою після менструації чи післяпологової кровотечі до закінчення часу молитви, скільки часу, що залишився, робить цю молитву обов'язковою для неї: на один такбір чи на один ракаат?"
   },
   "rulings": {
     "hanafi": {
       "grade": "wajib",
       "text": {
-        "ar": "من طهرت وقد بقي من الوقت قدر التحريمة لزمتها الصلاة، لأن إدراك جزء من الوقت كإدراكه كلّه.",
-        "en": "A woman who becomes pure with as much time left as suffices for the opening takbīr must perform that prayer, since catching part of the time is as catching all of it.",
-        "ru": "Женщина, ставшая чистой, когда времени осталось хотя бы на вступительный такбир, обязана совершить эту молитву, ибо застать часть времени — всё равно что застать его целиком.",
-        "es": "La mujer que se purifica cuando queda tiempo para el takbīr de apertura debe realizar esa oración, pues alcanzar parte del tiempo es como alcanzarlo entero.",
-        "uk": "Жінка, що стала чистою, коли часу лишилося хоча б на вступний такбір, зобов'язана здійснити цю молитву, бо застати частину часу — те саме, що застати його цілком."
+        "ar": "من طهرت لتمام عشرة أيام وقد بقي من الوقت قدر التحريمة لزمتها الصلاة، وإن طهرت لأقلّ من العشرة لم تلزمها إلا إذا بقي من الوقت قدر ما تغتسل فيه وتُحرم.",
+        "en": "A woman whose bleeding stops at the full ten days with as much time left as suffices for the opening takbīr must perform the prayer; if it stops before ten days, the prayer is due of her only if enough time remains for her to bathe and pronounce the opening takbīr.",
+        "ru": "Женщина, у которой кровь прекратилась по истечении полных десяти дней, когда времени осталось хотя бы на вступительный такбир, обязана совершить молитву; если же она прекратилась раньше десяти дней, молитва обязательна для неё, лишь если осталось времени на омовение и вступительный такбир.",
+        "es": "La mujer cuya sangre cesa al cumplirse los diez días, quedando tiempo para el takbīr de apertura, debe realizar la oración; si cesa antes de los diez días, solo le es obligatoria si queda tiempo para bañarse y pronunciar el takbīr de apertura.",
+        "uk": "Жінка, у якої кров припинилася по завершенні повних десяти днів, коли часу лишилося хоча б на вступний такбір, зобов'язана здійснити молитву; якщо ж вона припинилася раніше десяти днів, молитва обов'язкова для неї, лише якщо лишилося часу на обмивання та вступний такбір."
       },
       "sources": [
         {
@@ -95,11 +95,11 @@
     "shafii": {
       "grade": "wajib",
       "text": {
-        "ar": "من طهرت وقد بقي من الوقت ما يسع ركعة لزمتها تلك الصلاة أداءً.",
-        "en": "A woman who becomes pure with enough of the time left for one unit must perform that prayer as its due.",
-        "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат, обязана совершить эту молитву как своевременную.",
-        "es": "La mujer que se purifica cuando queda tiempo para un rakʿah debe realizar esa oración en su tiempo.",
-        "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат, зобов'язана здійснити цю молитву як своєчасну."
+        "ar": "من طهرت وقد بقي من الوقت قدر تكبيرة لزمتها تلك الصلاة.",
+        "en": "A woman who becomes pure with as much of the time left as suffices for one takbīr must perform that prayer.",
+        "ru": "Женщина, ставшая чистой, когда времени осталось хотя бы на один такбир, обязана совершить эту молитву.",
+        "es": "La mujer que se purifica cuando queda tiempo para un takbīr debe realizar esa oración.",
+        "uk": "Жінка, що стала чистою, коли часу лишилося хоча б на один такбір, зобов'язана здійснити цю молитву."
       },
       "sources": [
         {
@@ -126,13 +126,13 @@
       ]
     },
     "hanbali": {
-      "grade": "wajib",
+      "grade": "fard",
       "text": {
-        "ar": "من طهرت قبل خروج الوقت بقدر ركعة لزمتها الصلاة أداءً.",
-        "en": "A woman who becomes pure before the time ends, with as much left as one unit, must perform the prayer as its due.",
-        "ru": "Женщина, ставшая чистой до истечения времени, когда его осталось на один ракаат, обязана совершить молитву как своевременную.",
-        "es": "La mujer que se purifica antes de que salga el tiempo, quedando lo de un rakʿah, debe realizar la oración en su tiempo.",
-        "uk": "Жінка, що стала чистою до закінчення часу, коли його лишилося на один ракаат, зобов'язана здійснити молитву як своєчасну."
+        "ar": "من طهرت قبل خروج الوقت ولو بقدر تكبيرة الإحرام لزمتها الصلاة وما يُجمع إليها قبلها.",
+        "en": "A woman who becomes pure before the time ends, even by as much as the opening takbīr, must perform that prayer together with the prayer that may be combined with it before it.",
+        "ru": "Женщина, ставшая чистой до истечения времени, хотя бы на вступительный такбир, обязана совершить эту молитву, а также ту, что может быть объединена с ней перед ней.",
+        "es": "La mujer que se purifica antes de que salga el tiempo, aunque sea lo de un takbīr de apertura, debe realizar esa oración y también la que puede unirse a ella antes.",
+        "uk": "Жінка, що стала чистою до закінчення часу, хоча б на вступний такбір, зобов'язана здійснити цю молитву, а також ту, що може бути об'єднана з нею перед нею."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّحت أقوال الشافعية والحنابلة والحنفية: تلزم الصلاة عند الشافعية والحنابلة بإدراك قدر تكبيرة لا ركعة، ويلزم عند الحنابلة معها ما يُجمع إليها، ويُشترط عند الحنفية قدر الغسل والتحريمة إن طهرت لأقلّ من عشرة أيام.",
+    "en": "The Shāfiʿī, Ḥanbalī and Ḥanafī positions were corrected: for the Shāfiʿīs and Ḥanbalīs the prayer becomes due by catching time for one takbīr, not one unit, and for the Ḥanbalīs the prayer combined with it is also due; for the Ḥanafīs, if the bleeding stops before ten days, time for bathing and the opening takbīr is required.",
+    "ru": "Исправлены мнения шафиитов, ханбалитов и ханафитов: у шафиитов и ханбалитов молитва становится обязательной, если застать время на один такбир, а не ракаат, причём у ханбалитов обязательна и объединяемая с ней молитва; у ханафитов при прекращении крови раньше десяти дней требуется время на омовение и вступительный такбир.",
+    "es": "Se corrigieron las posiciones shafiʿí, hanbalí y hanafí: para shafiʿíes y hanbalíes la oración se vuelve obligatoria al alcanzar tiempo para un takbīr, no un rakʿah, y para los hanbalíes también la que se une a ella; para los hanafíes, si la sangre cesa antes de diez días, se requiere tiempo para bañarse y el takbīr de apertura.",
+    "uk": "Виправлено думки шафіїтів, ханбалітів і ханафітів: у шафіїтів і ханбалітів молитва стає обов'язковою, якщо застати час на один такбір, а не ракаат, причому в ханбалітів обов'язкова й об'єднувана з нею молитва; у ханафітів, якщо кров припинилася раніше десяти днів, потрібен час на обмивання та вступний такбір."
   }
 }

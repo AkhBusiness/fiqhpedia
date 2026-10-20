@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "طهارة الخبث شرط مع الذكر والقدرة، ويُعفى عن يسير الدم والقيح دون الدرهم، وتُستحبّ الإعادة في الوقت.",
-        "en": "Freedom from impurity is a condition when one remembers and is able; a little blood or pus below a dirham is pardoned, and repeating the prayer within its time is recommended.",
-        "ru": "Чистота от скверны — условие при памяти и возможности; малая кровь или гной менее дирхама прощаются, а повторить молитву в её время желательно.",
-        "es": "La pureza de la impureza es condición al recordar y poder; poca sangre o pus por debajo de un dírham se perdona, y se recomienda repetir la oración dentro de su tiempo.",
-        "uk": "Чистота від скверни — умова за пам'яті й можливості; мала кров чи гній менше дірхама прощаються, а повторити молитву в її час бажано."
+        "ar": "إزالة النجاسة واجبة مع الذكر والقدرة، وقيل سنة، والقولان مشهوران؛ فمن صلى بها ناسياً أو عاجزاً أعاد في الوقت. ويُعفى عمّا دون الدرهم من الدم والقيح والصديد ولا إعادة.",
+        "en": "Removing impurity is obligatory when one remembers and is able — or, by the other well-known view, a sunnah; whoever prays with it forgetfully or being unable repeats the prayer within its time. Blood, pus or serous matter below a dirham is pardoned, with no repetition.",
+        "ru": "Удаление нечистоты обязательно при памяти и возможности, а по другому известному мнению — сунна; кто помолился с ней по забывчивости или будучи не в силах её удалить, повторяет молитву в её время. Кровь, гной или сукровица менее дирхама прощаются, и повторения нет.",
+        "es": "Eliminar la impureza es obligatorio al recordar y poder —o, según la otra opinión conocida, sunna—; quien ora con ella por olvido o por incapacidad repite la oración dentro de su tiempo. La sangre, el pus o el suero por debajo de un dírham se perdonan, sin repetición.",
+        "uk": "Усунення нечистоти обов'язкове за пам'яті й можливості, а за іншою відомою думкою — сунна; хто помолився з нею через забудькуватість чи не маючи змоги її усунути, повторює молитву в її час. Кров, гній чи сукровиця менше дірхама прощаються, і повторення немає."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: إزالة النجاسة واجبة مع الذكر والقدرة أو سنة على خلاف مشهور، والإعادة في الوقت لمن صلى بها ناسياً أو عاجزاً لا فيما عُفي عنه.",
+    "en": "Corrected the Mālikī position: removing impurity is obligatory when one remembers and is able, or a sunnah on a well-known disagreement, and repetition within the time is for one who prayed with it forgetfully or unable, not for what is pardoned.",
+    "ru": "Исправлено мнение маликитов: удаление нечистоты обязательно при памяти и возможности или является сунной по известному разногласию, а повторение в срок — для помолившегося с ней по забывчивости или бессилию, а не для прощаемого.",
+    "es": "Se corrigió la postura mālikí: eliminar la impureza es obligatorio al recordar y poder, o sunna según una discrepancia conocida, y la repetición dentro del tiempo es para quien oró con ella por olvido o incapacidad, no para lo perdonado.",
+    "uk": "Виправлено позицію малікітів: усунення нечистоти обов'язкове за пам'яті й можливості або є сунною за відомою розбіжністю, а повторення в час — для того, хто помолився з нею через забудькуватість чи безсилля, а не для прощеного."
   }
 }

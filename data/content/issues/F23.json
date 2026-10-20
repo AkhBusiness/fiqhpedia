@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يصح التطهير بالماء المتغير بالزعفران أو الصابون أو السدر إذا كان التغيّر يسيراً، فإن كان كثيراً صار طاهراً غير مطهر.",
-        "en": "Purification is valid with water altered by saffron, soap, or lote-leaf when the change is slight; if it is considerable the water becomes pure but not purifying.",
-        "ru": "Очищение действительно водой, изменённой шафраном, мылом или лотосом, если изменение незначительно; при значительном она становится чистой, но неочищающей.",
-        "es": "La purificación es válida con agua alterada por azafrán, jabón o loto si el cambio es leve; si es considerable, el agua queda pura pero no purificadora.",
-        "uk": "Очищення дійсне водою, зміненою шафраном, милом або сідром, якщо зміна незначна; якщо ж значна — вода стає чистою, але неочищувальною."
+        "ar": "لا يصح التطهير بالماء المتغيّر لوناً أو طعماً أو ريحاً بطاهر يفارقه غالباً كالزعفران والصابون والسدر، فيصير طاهراً غير طهور.",
+        "en": "Purification is not valid with water whose colour, taste, or smell has been altered by a pure substance that water is usually free of, such as saffron, soap, or lote-leaf; such water becomes pure but not purifying.",
+        "ru": "Очищение недействительно водой, цвет, вкус или запах которой изменило чистое вещество, от которого вода обычно свободна, — шафран, мыло или лотос; такая вода становится чистой, но неочищающей.",
+        "es": "La purificación no es válida con agua cuyo color, sabor u olor haya alterado una sustancia pura de la que el agua suele estar libre —azafrán, jabón o loto—; esa agua queda pura pero no purificadora.",
+        "uk": "Очищення недійсне водою, колір, смак або запах якої змінила чиста речовина, від якої вода зазвичай вільна, як шафран, мило або сідр; така вода стає чистою, але неочищувальною."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: كلّ تغيّر في اللون أو الطعم أو الريح بطاهر يفارقه الماء غالباً يسلبه الطهورية، دون تفريق بين اليسير والكثير.",
+    "en": "The Maliki position was corrected: any change in colour, taste, or smell by a pure substance water is usually free of removes its purifying quality, with no distinction between slight and considerable change.",
+    "ru": "Исправлено мнение маликитов: любое изменение цвета, вкуса или запаха чистым веществом, от которого вода обычно свободна, лишает её очищающего свойства, без различия между незначительным и значительным изменением.",
+    "es": "Se corrigió la posición malikí: todo cambio de color, sabor u olor por una sustancia pura de la que el agua suele estar libre le quita la cualidad purificadora, sin distinguir entre cambio leve y considerable.",
+    "uk": "Виправлено погляд малікітів: будь-яка зміна кольору, смаку чи запаху чистою речовиною, від якої вода зазвичай вільна, позбавляє її очищувальної властивості, без різниці між незначною і значною зміною."
   }
 }

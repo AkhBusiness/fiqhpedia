@@ -11,11 +11,11 @@
     "uk": "Розділ про води"
   },
   "title": {
-    "ar": "حكم تقسيم المياه إلى طهور وطاهر ونجس",
-    "en": "Ruling on classifying water as tahur, pure, or impure",
-    "ru": "Постановление о делении воды на тахур, чистую и нечистую",
-    "es": "Norma sobre la clasificación del agua en tahur, pura e impura",
-    "uk": "Постанова про поділ вод на очищувальну, чисту та нечисту"
+    "ar": "أقسام المياه وضابط كل قسم",
+    "en": "The categories of water and what defines each",
+    "ru": "Категории воды и чем определяется каждая",
+    "es": "Las categorías del agua y lo que define cada una",
+    "uk": "Види вод і чим визначається кожен вид"
   },
   "summary": {
     "ar": "إلى كم قسم تنقسم المياه عند الأئمة الأربعة، وما ضابط كل قسم؟",
@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "تنقسم المياه إلى طاهر مطهر وهو المطلق، وطاهر غير مطهر وهو المستعمل، وماء نجس.",
-        "en": "Water divides into pure and purifying, which is absolute water; pure but not purifying, which is used water; and impure water.",
-        "ru": "Вода делится на чистую очищающую — абсолютную; чистую неочищающую — использованную; и нечистую воду.",
-        "es": "El agua se divide en pura purificadora, que es la absoluta; pura no purificadora, que es la usada; y agua impura.",
-        "uk": "Води поділяються на чисту очищувальну — це абсолютна; чисту неочищувальну — це використана; та нечисту воду."
+        "ar": "تنقسم المياه خمسة أقسام: طاهر مطهر غير مكروه وهو المطلق، وطاهر مطهر مكروه كسؤر الهرّة، وطاهر غير مطهر وهو المستعمل، ونجس، ومشكوك في طهوريته كسؤر الحمار والبغل.",
+        "en": "Water divides into five categories: pure and purifying without dislike, which is absolute water; pure and purifying but disliked, such as water left over by a cat; pure but not purifying, which is used water; impure water; and water whose purifying quality is doubtful, such as water left over by a donkey or a mule.",
+        "ru": "Вода делится на пять категорий: чистая очищающая без нежелательности — абсолютная; чистая очищающая, но нежелательная — как остаток воды после кошки; чистая неочищающая — использованная; нечистая; и вода, очищающая способность которой сомнительна, — как остаток воды после осла или мула.",
+        "es": "El agua se divide en cinco categorías: pura purificadora sin reparo, que es la absoluta; pura purificadora pero detestable, como el sobrante de agua de un gato; pura no purificadora, que es la usada; impura; y aquella cuyo poder purificador es dudoso, como el sobrante de agua de un asno o una mula.",
+        "uk": "Води поділяються на п'ять видів: чиста очищувальна без небажаності — це абсолютна; чиста очищувальна, але небажана — як залишок води після кішки; чиста неочищувальна — це використана; нечиста; і вода, очищувальна здатність якої сумнівна, — як залишок води після осла чи мула."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية: المياه خمسة أقسام لا ثلاثة.",
+    "en": "Corrected the Ḥanafī position: water falls into five categories, not three.",
+    "ru": "Исправлено мнение ханафитов: вода делится на пять категорий, а не на три.",
+    "es": "Se corrigió la posición ḥanafí: el agua se divide en cinco categorías, no en tres.",
+    "uk": "Виправлено позицію ханафітів: води поділяються на п'ять видів, а не на три."
   }
 }

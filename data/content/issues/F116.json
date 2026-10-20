@@ -92,11 +92,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يحرم على الوليّ عَضْلها إذا دعت إلى كفءٍ ورضيت به بمهر المثل. فإذا امتنع الوليّ الأقرب وتكرّر منه العَضْل انتقلت الولاية إلى السلطان دون الوليّ الأبعد، لأنّ العَضْل معصيةٌ والقاضي هو الذي يرفع الظلم.",
-        "en": "It is forbidden for a guardian to withhold her when she calls for a suitable match and accepts him for a dower like that of her peers. If the nearest guardian refuses and repeats his withholding, guardianship passes to the ruler rather than to the next guardian, since withholding is a sin and it is the judge who lifts injustice.",
-        "ru": "Опекуну запретно препятствовать ей, когда она просит соответствующего жениха и принимает его за дар, подобный дару её ровесниц. Если ближайший опекун отказывает и отказ повторяется, опекунство переходит к правителю, а не к следующему опекуну, ибо воспрепятствование есть грех, а устраняет несправедливость судья.",
-        "es": "Le está prohibido al tutor impedirla cuando ella pide un pretendiente idóneo y lo acepta por una dote como la de sus iguales. Si el tutor más cercano se niega y reitera su negativa, la tutela pasa al gobernante y no al tutor siguiente, pues el impedimento es un pecado y es el juez quien levanta la injusticia.",
-        "uk": "Опікунові заборонено перешкоджати їй, коли вона просить відповідного жениха і приймає його за дар, подібний до дару її ровесниць. Якщо найближчий опікун відмовляє і відмова повторюється, опіка переходить до правителя, а не до наступного опікуна, бо перешкоджання є гріхом, а усуває несправедливість суддя."
+        "ar": "يحرم على الوليّ عَضْلها إذا دعت بالغةٌ عاقلةٌ إلى كفء. فإذا عضل الأقرب زوّجها السلطان دون الأبعد، إلا إن تكرّر عضله ثلاث مرات ففسق به فتنتقل الولاية إلى الأبعد بناءً على أن الفاسق لا يلي.",
+        "en": "It is forbidden for a guardian to withhold her when an adult woman of sound mind calls for a suitable match. If the nearest guardian withholds, the ruler gives her in marriage rather than the next guardian — unless he has withheld three times and so become a sinner (fāsiq), in which case guardianship passes to the next guardian, since a sinner cannot be a guardian.",
+        "ru": "Опекуну запретно препятствовать ей, когда совершеннолетняя разумная женщина просит соответствующего жениха. Если ближайший опекун препятствует, её выдаёт замуж правитель, а не следующий опекун, — если только он не препятствовал трижды и тем не стал нечестивцем: тогда опекунство переходит к следующему опекуну, поскольку нечестивец не может быть опекуном.",
+        "es": "Le está prohibido al tutor impedirla cuando una mujer adulta y cuerda pide un pretendiente idóneo. Si el tutor más cercano la impide, la casa el gobernante y no el tutor siguiente, salvo que la haya impedido tres veces y se haya vuelto con ello transgresor (fāsiq): entonces la tutela pasa al tutor siguiente, pues el transgresor no puede ejercer la tutela.",
+        "uk": "Опікунові заборонено перешкоджати їй, коли повнолітня розумна жінка просить відповідного жениха. Якщо найближчий опікун перешкоджає, її видає заміж правитель, а не наступний опікун, — хіба що він перешкоджав тричі й тим став нечестивцем: тоді опіка переходить до наступного опікуна, бо нечестивець не може бути опікуном."
       },
       "sources": [
         {
@@ -124,11 +124,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "العَضْل محرَّم، وهو منعها من الكفء إذا طلبت التزويج به. فإذا عضل الوليّ الأقرب انتقلت الولاية إلى الأبعد على ترتيب العصبات — الجدّ ثم الأخ — فإن عضلوا جميعاً أو تعذّروا زوّجها السلطان.",
-        "en": "Withholding is forbidden, and it is to bar her from a suitable match when she asks to be married to him. If the nearest guardian withholds, guardianship passes to the next in the agnatic order — the grandfather, then the brother — and if they all withhold or are unavailable, the ruler gives her in marriage.",
-        "ru": "Воспрепятствование запретно; это недопущение её к соответствующему жениху, когда она просит выдать её за него. Если ближайший опекун препятствует, опекунство переходит к следующему по порядку родства по мужской линии — к деду, затем к брату, — а если препятствуют все или их нет, её выдаёт замуж правитель.",
-        "es": "El impedimento está prohibido, y consiste en apartarla de un pretendiente idóneo cuando ella pide casarse con él. Si el tutor más cercano la impide, la tutela pasa al siguiente en el orden agnaticio —el abuelo, luego el hermano—, y si todos la impiden o no están disponibles, la casa el gobernante.",
-        "uk": "Перешкоджання заборонене; це недопущення її до відповідного жениха, коли вона просить видати її за нього. Якщо найближчий опікун перешкоджає, опіка переходить до наступного за порядком спорідненості по чоловічій лінії — до діда, потім до брата, — а якщо перешкоджають усі або їх немає, її видає заміж правитель."
+        "ar": "العَضْل محرَّم، وهو منعها من الكفء إذا طلبت التزويج به. فإذا عضل الوليّ الأقرب زوّجها الأبعد على ترتيب الأولياء، فإن عضلوا جميعاً أو تعذّروا زوّجها السلطان.",
+        "en": "Withholding is forbidden, and it is to bar her from a suitable match when she asks to be married to him. If the nearest guardian withholds, the next guardian in the order of guardians gives her in marriage, and if they all withhold or are unavailable, the ruler gives her in marriage.",
+        "ru": "Воспрепятствование запретно; это недопущение её к соответствующему жениху, когда она просит выдать её за него. Если ближайший опекун препятствует, её выдаёт замуж следующий по порядку опекунов, а если препятствуют все или их нет, её выдаёт замуж правитель.",
+        "es": "El impedimento está prohibido, y consiste en apartarla de un pretendiente idóneo cuando ella pide casarse con él. Si el tutor más cercano la impide, la casa el siguiente en el orden de los tutores, y si todos la impiden o no están disponibles, la casa el gobernante.",
+        "uk": "Перешкоджання заборонене; це недопущення її до відповідного жениха, коли вона просить видати її за нього. Якщо найближчий опікун перешкоджає, її видає заміж наступний за порядком опікунів, а якщо перешкоджають усі або їх немає, її видає заміж правитель."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: يزوّج السلطان عند العضل إلا إن تكرّر ثلاثاً ففسق الوليّ فتنتقل الولاية إلى الأبعد، وحُذف من قول الحنابلة مثالٌ مخالف لترتيب الأولياء.",
+    "en": "Corrected the Shafiʿi position (the ruler marries her off when the guardian withholds, unless he has done so three times and become a sinner, when guardianship passes to the next guardian) and removed from the Hanbali position an example that contradicted the order of guardians.",
+    "ru": "Исправлена позиция шафиитов (при воспрепятствовании её выдаёт правитель, если только опекун не препятствовал трижды и не стал нечестивцем — тогда опекунство переходит к следующему) и убран из позиции ханбалитов пример, противоречащий порядку опекунов.",
+    "es": "Se corrigió la postura shafiʿí (el gobernante la casa cuando el tutor la impide, salvo que lo haya hecho tres veces y se haya vuelto transgresor, en cuyo caso la tutela pasa al siguiente) y se eliminó de la postura hanbalí un ejemplo contrario al orden de los tutores.",
+    "uk": "Виправлено позицію шафіїтів (при перешкоджанні її видає правитель, хіба що опікун перешкоджав тричі й став нечестивцем — тоді опіка переходить до наступного) і прибрано з позиції ханбалітів приклад, що суперечив порядку опікунів."
   }
 }

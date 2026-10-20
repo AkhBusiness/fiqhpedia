@@ -27,11 +27,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يجزئ الاستجمار بكل طاهرٍ منقٍّ كالمناديل والورق، ويُسن الإيتار، والأفضل الجمع بينه وبين الماء.",
-        "en": "Cleansing with any pure, cleaning material such as tissue and paper suffices; making the count odd is recommended, and combining it with water is best.",
-        "ru": "Очищение любым чистым очищающим средством, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее.",
-        "es": "Basta la limpieza con todo material puro y limpiador, como los pañuelos y el papel; es sunna hacerlo en número impar, y lo mejor es combinarlo con el agua.",
-        "uk": "Достатньо очищення будь-яким чистим очищувальним засобом, як серветки та папір; непарність є сунною, а найкраще поєднати його з водою."
+        "ar": "يجزئ الاستجمار بكل طاهرٍ منقٍّ غير محترم كالمناديل والورق، ويُندب الإيتار، والأفضل الجمع بينه وبين الماء.",
+        "en": "Cleansing with any pure, cleaning material that is not held in respect, such as tissue and paper, suffices; making the count odd is recommended, and combining it with water is best.",
+        "ru": "Очищение любым чистым очищающим средством, не являющимся почитаемым, как салфетки и бумага, достаточно; нечётность желательна, а сочетание с водой предпочтительнее.",
+        "es": "Basta la limpieza con todo material puro y limpiador que no sea objeto de respeto, como los pañuelos y el papel; es recomendable hacerlo en número impar, y lo mejor es combinarlo con el agua.",
+        "uk": "Достатньо очищення будь-яким чистим очищувальним засобом, що не є шанованим, як серветки та папір; непарність бажана, а найкраще поєднати його з водою."
       },
       "sources": [
         {
@@ -45,11 +45,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يجزئ الاستجمار بالجامد الطاهر المنقي كالورق إذا لم يتعدَّ الخارج موضعه المعتاد.",
-        "en": "Cleansing with a solid, pure, cleaning material such as paper suffices, provided the excretion does not spread beyond its usual place.",
-        "ru": "Очищение твёрдым чистым очищающим средством, как бумага, достаточно, если выделение не вышло за обычное место.",
-        "es": "Basta la limpieza con un sólido puro y limpiador como el papel, siempre que lo expulsado no sobrepase su lugar habitual.",
-        "uk": "Достатньо очищення твердим чистим очищувальним засобом, як папір, якщо виділення не вийшло за своє звичне місце."
+        "ar": "يجزئ الاستجمار بيابسٍ طاهرٍ منقٍّ غير مؤذٍ ولا محترم كالمناديل، إلا في المني والحيض والنفاس وبول المرأة والمنتشر عن المخرج كثيراً فيتعيّن الماء.",
+        "en": "Cleansing with a dry, pure, cleaning material that is neither harmful nor held in respect, such as tissue, suffices, except for semen, menstruation, postnatal bleeding, a woman's urine, and what has spread widely beyond the outlet, where water is required.",
+        "ru": "Очищение сухим чистым очищающим средством, не причиняющим вреда и не являющимся почитаемым, как салфетки, достаточно, кроме случаев семени, менструации, послеродового кровотечения, мочи женщины и того, что широко распространилось за выход, — тогда обязательна вода.",
+        "es": "Basta la limpieza con un material seco, puro y limpiador que no dañe ni sea objeto de respeto, como los pañuelos, salvo en el semen, la menstruación, el sangrado posparto, la orina de la mujer y lo que se extendió mucho más allá de la salida, donde se requiere el agua.",
+        "uk": "Достатньо очищення сухим чистим очищувальним засобом, що не завдає шкоди і не є шанованим, як серветки, окрім випадків сім'я, менструації, післяпологової кровотечі, сечі жінки та того, що далеко поширилося за вихід, — тоді обов'язкова вода."
       },
       "sources": [
         {
@@ -82,11 +82,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يجزئ الاستجمار بثلاثة أحجارٍ أو ما يقوم مقامها كالمناديل الطاهرة، بشرط الإنقاء والإيتار وعدم تجاوز النجو موضعه.",
-        "en": "Cleansing suffices with three stones or their equivalent such as pure tissues, on condition of cleanliness, odd count, and the excretion not spreading beyond its place.",
-        "ru": "Очищение достаточно тремя камнями или их заменой, как чистые салфетки, при условии чистоты, нечётности и невыхода выделения за его место.",
-        "es": "Basta la limpieza con tres piedras o lo que las sustituya, como los pañuelos puros, a condición de dejar limpio, hacerlo en número impar y que lo expulsado no sobrepase su lugar.",
-        "uk": "Достатньо очищення трьома каменями або тим, що їх заміняє, як чисті серветки, за умови повного очищення, непарності та невиходу виділення за його місце."
+        "ar": "يجزئ الاستجمار بثلاث مسحاتٍ منقيةٍ فأكثر بطاهرٍ منقٍّ كالمناديل، بشرط ألّا يتعدّى الخارج موضع العادة، ويُسنّ قطعه على وتر.",
+        "en": "Cleansing suffices with three or more cleaning wipes using a pure, cleaning material such as tissue, on condition that the excretion does not spread beyond its usual place; ending on an odd count is a sunnah.",
+        "ru": "Очищение достаточно тремя и более очищающими протираниями чистым очищающим средством, как салфетки, при условии, что выделение не вышло за обычное место; завершать на нечётном числе — сунна.",
+        "es": "Basta la limpieza con tres o más pasadas limpiadoras con un material puro y limpiador como los pañuelos, a condición de que lo expulsado no sobrepase su lugar habitual; terminar en número impar es sunna.",
+        "uk": "Достатньо очищення трьома й більше очищувальними протираннями чистим очищувальним засобом, як серветки, за умови, що виділення не вийшло за звичне місце; завершувати на непарному числі — сунна."
       },
       "sources": [
         {
@@ -99,5 +99,13 @@
       ],
       "nature": "shart"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية بتعيّن الماء في المني والحيض والنفاس وبول المرأة والمنتشر كثيراً، وقول الحنابلة بأنّ الإيتار سنة لا شرط.",
+    "en": "Corrected the Mālikī position (water is required for semen, menstruation, postnatal bleeding, a woman's urine and widely spread excretion) and the Ḥanbalī position (an odd count is a sunnah, not a condition).",
+    "ru": "Исправлено мнение маликитов (вода обязательна при семени, менструации, послеродовом кровотечении, моче женщины и широко распространившемся выделении) и ханбалитов (нечётность — сунна, а не условие).",
+    "es": "Se corrigió la posición mālikí (el agua es obligatoria en el semen, la menstruación, el sangrado posparto, la orina de la mujer y lo muy extendido) y la ḥanbalí (el número impar es sunna, no condición).",
+    "uk": "Виправлено позицію малікітів (вода обов'язкова при сім'ї, менструації, післяпологовій кровотечі, сечі жінки та далеко поширеному виділенні) і ханбалітів (непарність — сунна, а не умова)."
   }
 }

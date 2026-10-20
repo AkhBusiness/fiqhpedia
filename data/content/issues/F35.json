@@ -18,11 +18,11 @@
     "uk": "Постанова про нерозрізнення очищувальної води та нечистої"
   },
   "summary": {
-    "ar": "إذا اشتبه ماء طهور بماء نجس، هل يتحرّى ويجتهد أم يُريقهما ويتيمّم؟",
-    "en": "When tahur water cannot be told from impure water, does one weigh the signs and choose, or pour both away and perform tayammum?",
-    "ru": "Если вода тахур неотличима от нечистой, взвешивают ли признаки и выбирают, или выливают обе и совершают таяммум?",
-    "es": "Si el agua tahur no se distingue de la impura, ¿se sopesan los indicios y se elige, o se vierten ambas y se hace el tayammum?",
-    "uk": "Якщо очищувальна вода не відрізняється від нечистої, чи зважують ознаки та обирають, чи виливають обидві й роблять таяммум?"
+    "ar": "إذا اشتبه ماء طهور بماء نجس، هل يتحرّى ويجتهد، أم يتركهما ويتيمّم، أم يتطهّر من كلٍّ منهما ويكرّر الصلاة؟",
+    "en": "When tahur water cannot be told from impure water, does one weigh the signs and choose, leave both and perform tayammum, or purify from each and repeat the prayer?",
+    "ru": "Если вода тахур неотличима от нечистой, взвешивают ли признаки и выбирают, оставляют ли обе и совершают таяммум, или очищаются из каждой и повторяют молитву?",
+    "es": "Si el agua tahur no se distingue de la impura, ¿se sopesan los indicios y se elige, se dejan ambas y se hace el tayammum, o se purifica con cada una y se repite la oración?",
+    "uk": "Якщо очищувальна вода не відрізняється від нечистої, чи зважують ознаки та обирають, чи залишають обидві й роблять таяммум, чи очищаються з кожної й повторюють молитву?"
   },
   "rulings": {
     "hanafi": {
@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يتوضّأ من أيّ الإناءين شاء عند الاشتباه ما لم يتغيّر أحدهما بالنجاسة، ولا يلزمه التحرّي.",
-        "en": "One may perform wudu from whichever of the two vessels he wishes when they cannot be told apart, so long as neither has been altered by an impurity, and weighing the signs is not required of him.",
-        "ru": "При неразличимости можно совершить омовение из любого из двух сосудов, если ни один не изменён нечистотой, и взвешивать признаки не обязательно.",
-        "es": "Ante la confusión puede hacer el wudu con cualquiera de los dos recipientes, mientras ninguno haya sido alterado por una impureza, y no se le exige sopesar los indicios.",
-        "uk": "За нерозрізнення роблять омивання з будь-якої з двох посудин, якщо жодна не змінена нечистотою, і шукати переважне припущення не обов'язково."
+        "ar": "إذا اشتبه طهور بمتنجّس أو نجس توضّأ من كل إناء وصلّى عقبه، فيصلّي بعدد النجس وزيادة إناء، ولا يتحرّى.",
+        "en": "When tahur water cannot be told from water that is impure or made impure, he performs wudu from each vessel and prays after it, praying as many times as there are impure vessels plus one; he does not weigh the signs.",
+        "ru": "Если вода тахур неотличима от нечистой или осквернённой, он совершает омовение из каждого сосуда и молится после него, совершая молитву столько раз, сколько нечистых сосудов, и ещё один; взвешивать признаки он не должен.",
+        "es": "Si el agua tahur no se distingue de la impura o impurificada, hace el wudu con cada recipiente y reza tras él, rezando tantas veces como recipientes impuros haya más uno; no sopesa los indicios.",
+        "uk": "Якщо очищувальна вода не відрізняється від нечистої чи оскверненої, він робить омивання з кожної посудини й молиться після нього, молячись стільки разів, скільки нечистих посудин, і ще один; шукати переважне припущення він не повинен."
       },
       "sources": [
         {
@@ -89,7 +89,7 @@
           "uk": "«Мінах аль-Джаліль»"
         }
       ],
-      "grade": "mubah"
+      "grade": "wajib"
     },
     "shafii": {
       "text": {
@@ -126,11 +126,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "يلزمه اجتناب الإناءين المشتبهين ويحرم التحرّي فيهما، فيتيمّم ولا تُشترط إراقتهما ولا خلطهما؛ فإن بلغ الطهور قلّتين وأمكن خلطهما في إناء يسعهما وجب الخلط والاستعمال.",
-        "en": "He must avoid the two indistinguishable vessels and may not weigh probabilities between them, so he performs tayammum, and neither pouring them out nor mixing them is a condition; but if the pure water reaches two qullas and they can be mixed in a vessel that holds them, mixing and using it becomes obligatory.",
-        "ru": "Он обязан избегать обоих неразличимых сосудов, и взвешивать вероятности между ними запрещено, поэтому он совершает таяммум; ни выливание их, ни смешивание не является условием. Но если чистая вода достигает двух кулл и их можно смешать в вмещающем сосуде, смешивание и использование становятся обязательными.",
-        "es": "Debe evitar los dos recipientes indistinguibles y le está prohibido sopesar probabilidades entre ellos, así que hace tayammum, y no es condición ni verterlos ni mezclarlos; pero si el agua pura alcanza dos qullas y pueden mezclarse en un recipiente que las contenga, mezclar y usarla se vuelve obligatorio.",
-        "uk": "Він мусить уникати обох нерозрізнюваних посудин, і зважувати ймовірності між ними заборонено, тож він робить таяммум; ні виливання їх, ні змішування не є умовою. Але якщо чиста вода сягає двох кулл і їх можна змішати в посудині, що їх вміщує, змішування та використання стають обов'язковими."
+        "ar": "يحرم استعمال الإناءين المشتبهين ولا يتحرّى فيهما، فيتيمّم ولا تُشترط إراقتهما ولا خلطهما؛ فإن بلغ الطهور قلّتين وأمكن خلطهما في إناء يسعهما وجب الخلط والاستعمال.",
+        "en": "Using the two indistinguishable vessels is forbidden and he does not weigh probabilities between them, so he performs tayammum, and neither pouring them out nor mixing them is a condition; but if the pure water reaches two qullas and they can be mixed in a vessel that holds them, mixing and using it becomes obligatory.",
+        "ru": "Пользоваться обоими неразличимыми сосудами запрещено, и он не взвешивает вероятности между ними, поэтому он совершает таяммум; ни выливание их, ни смешивание не является условием. Но если чистая вода достигает двух кулл и их можно смешать в вмещающем сосуде, смешивание и использование становятся обязательными.",
+        "es": "Está prohibido usar los dos recipientes indistinguibles y no se sopesan probabilidades entre ellos, así que hace tayammum, y no es condición ni verterlos ni mezclarlos; pero si el agua pura alcanza dos qullas y pueden mezclarse en un recipiente que las contenga, mezclar y usarla se vuelve obligatorio.",
+        "uk": "Користуватися обома нерозрізнюваними посудинами заборонено, і він не зважує ймовірності між ними, тож робить таяммум; ні виливання їх, ні змішування не є умовою. Але якщо чиста вода сягає двох кулл і їх можна змішати в посудині, що їх вміщує, змішування та використання стають обов'язковими."
       },
       "sources": [
         {
@@ -155,7 +155,15 @@
           "uk": "«Аль-Інсаф»"
         }
       ],
-      "grade": "wajib"
+      "grade": "haram"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يتوضّأ من كل إناء ويصلّي بعدد النجس وزيادة إناء، لا من أيّهما شاء.",
+    "en": "The Mālikī position was corrected: he performs wudu from each vessel and prays as many times as the impure vessels plus one, not from whichever he wishes.",
+    "ru": "Исправлено мнение маликитов: он совершает омовение из каждого сосуда и молится по числу нечистых сосудов плюс один, а не из любого по выбору.",
+    "es": "Se corrigió la posición mālikí: hace el wudu con cada recipiente y reza tantas veces como recipientes impuros más uno, no con el que quiera.",
+    "uk": "Виправлено думку малікітів: він робить омивання з кожної посудини й молиться за числом нечистих посудин плюс одна, а не з будь-якої на вибір."
   }
 }

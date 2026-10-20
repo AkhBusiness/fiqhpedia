@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "makruh",
       "text": {
-        "ar": "يُكره دعاء الاستفتاح في الفريضة، ويُبدأ بالقراءة عقب التكبير؛ ويُندب في النفل ويُسرّ به.",
-        "en": "The opening supplication is disliked in the obligatory prayer, and the recitation begins straight after the takbīr; it is recommended in voluntary prayer and said silently.",
-        "ru": "Вступительная мольба нежелательна в обязательной молитве, и чтение начинается сразу после такбира; она желательна в добровольной молитве и произносится про себя.",
-        "es": "La súplica de apertura es reprobable en la oración obligatoria, y la recitación comienza justo después del takbīr; es recomendable en la oración voluntaria y se dice en voz baja.",
-        "uk": "Вступна мольба небажана в обов'язковій молитві, і читання починається одразу після такбіру; вона бажана в добровільній молитві й виголошується про себе."
+        "ar": "يُكره دعاء الاستفتاح في الفريضة، ويُبدأ بالقراءة عقب التكبير؛ ويجوز في النفل.",
+        "en": "The opening supplication is disliked in the obligatory prayer, and the recitation begins straight after the takbīr; it is permissible in voluntary prayer.",
+        "ru": "Вступительная мольба нежелательна в обязательной молитве, и чтение начинается сразу после такбира; в добровольной молитве она дозволена.",
+        "es": "La súplica de apertura es reprobable en la oración obligatoria, y la recitación comienza justo después del takbīr; en la oración voluntaria es lícita.",
+        "uk": "Вступна мольба небажана в обов'язковій молитві, і читання починається одразу після такбіру; у добровільній молитві вона дозволена."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: دعاء الاستفتاح في النفل جائز لا مندوب.",
+    "en": "The Mālikī position was corrected: the opening supplication in voluntary prayer is permissible, not recommended.",
+    "ru": "Исправлено мнение маликитов: вступительная мольба в добровольной молитве дозволена, а не желательна.",
+    "es": "Se corrigió la posición mālikí: la súplica de apertura en la oración voluntaria es lícita, no recomendable.",
+    "uk": "Виправлено думку малікітів: вступна мольба в добровільній молитві дозволена, а не бажана."
   }
 }

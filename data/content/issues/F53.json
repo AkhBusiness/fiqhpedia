@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يجب عقد النية من الليل قبل طلوع الفجر، ولا يصحّ عقدها بعده في صوم الفرض.",
-        "en": "The intention must be formed at night before dawn breaks; forming it afterwards is not valid in an obligatory fast.",
-        "ru": "Намерение обязательно составить ночью до наступления рассвета; составление его после недействительно в обязательном посте.",
-        "es": "La intención debe formarse de noche antes del alba; formarla después no es válido en un ayuno obligatorio.",
-        "uk": "Намір обов'язково скласти вночі до світанку; складання його після недійсне в обов'язковому пості."
+        "ar": "يجب عقد النية من الليل قبل طلوع الفجر أو معه، ولا يصحّ عقدها بعده في أيّ صوم فرضاً كان أو نفلاً.",
+        "en": "The intention must be formed at night, before dawn breaks or together with it; forming it afterwards is not valid in any fast, obligatory or voluntary.",
+        "ru": "Намерение обязательно составить ночью — до наступления рассвета или вместе с ним; составление его после недействительно в любом посте, обязательном или добровольном.",
+        "es": "La intención debe formarse de noche, antes del alba o junto con ella; formarla después no es válido en ningún ayuno, obligatorio o voluntario.",
+        "uk": "Намір обов'язково скласти вночі — до світанку або разом із ним; складання його після недійсне в будь-якому пості, обов'язковому чи добровільному."
       },
       "sources": [
         {
@@ -157,5 +157,13 @@
       ],
       "grade": "wajib"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يُشترط تبييت النية في كل صوم ولو نفلاً، لا في الفرض وحده.",
+    "en": "The Maliki position was corrected: forming the intention at night is required for every fast, even a voluntary one, not only for the obligatory fast.",
+    "ru": "Исправлено мнение маликитов: намерение с ночи требуется для любого поста, даже добровольного, а не только для обязательного.",
+    "es": "Se corrigió la posición malikí: formar la intención de noche se exige en todo ayuno, aun voluntario, y no solo en el obligatorio.",
+    "uk": "Виправлено погляд малікітів: намір з ночі потрібен для будь-якого посту, навіть добровільного, а не лише для обов'язкового."
   }
 }

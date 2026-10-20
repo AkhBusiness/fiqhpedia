@@ -28,11 +28,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يصحّ نكاح البالغة العاقلة إذا زوّجت نفسها أو غيرها بغير إذن الوليّ، بكراً كانت أو ثيّباً؛ فالوليّ شرط كمالٍ لا شرط صحّة. فإن زوّجت نفسها من غير كفء أو بدون مهر المثل فللأولياء طلب الفسخ.",
-        "en": "The marriage of an adult woman of sound mind is valid if she gives herself or another in marriage without her guardian's leave, virgin or previously married; the guardian is a condition of completeness, not of validity. If she marries one who is unsuitable or for less than a dower like her peers', the guardians may seek annulment.",
-        "ru": "Брак совершеннолетней разумной женщины действителен, если она выдаст замуж себя или другую без дозволения опекуна, будь она девицей или прежде замужней; опекун есть условие полноты, а не действительности. Если же она выйдет за несоответствующего или за дар меньше дара её ровесниц, опекуны вправе требовать расторжения.",
-        "es": "El matrimonio de una mujer adulta y cuerda es válido si se casa a sí misma o casa a otra sin la venia del tutor, sea virgen o antes casada; el tutor es condición de perfección, no de validez. Si se casa con quien no es idóneo o por menos de la dote de sus iguales, los tutores pueden pedir la anulación.",
-        "uk": "Шлюб повнолітньої розумної жінки дійсний, якщо вона видасть заміж себе або іншу без дозволу опікуна, чи то дівою, чи раніше заміжньою; опікун є умовою повноти, а не дійсності. Якщо ж вона вийде за невідповідного або за дар, менший від дару її ровесниць, опікуни можуть вимагати розірвання."
+        "ar": "يصحّ نكاح الحرّة البالغة العاقلة إذا زوّجت نفسها من كفء بغير إذن الوليّ، بكراً كانت أو ثيّباً، ولها أن تزوّج غيرها؛ والوليّ شرط في الصغيرة والمجنونة. فإن زوّجت نفسها من غير كفء فالمفتى به أنه لا يصحّ أصلاً، وإن كان بدون مهر المثل فللوليّ الاعتراض.",
+        "en": "The marriage of a free, adult woman of sound mind is valid if she gives herself in marriage to a suitable match without her guardian's leave, virgin or previously married, and she may also give another in marriage; a guardian is a condition only for a minor or an insane woman. If she gives herself to one who is not a suitable match, the position for fatwa is that the marriage is not valid at all; and if it is for less than a dower like her peers', the guardian may object.",
+        "ru": "Брак свободной совершеннолетней разумной женщины действителен, если она выдаст себя замуж за соответствующего без дозволения опекуна, будь она девицей или прежде замужней, и она вправе выдать замуж и другую; опекун является условием лишь для несовершеннолетней и безумной. Если же она выдаст себя за несоответствующего, то по фетве такой брак вовсе недействителен; а если за дар меньше дара её ровесниц, опекун вправе возразить.",
+        "es": "El matrimonio de la mujer libre, adulta y cuerda es válido si se casa a sí misma con alguien idóneo sin la venia del tutor, sea virgen o antes casada, y también puede casar a otra; el tutor es condición solo para la menor y la demente. Si se casa con quien no es idóneo, la opinión para la fetua es que el matrimonio no es válido en absoluto; y si es por menos de la dote de sus iguales, el tutor puede objetar.",
+        "uk": "Шлюб вільної повнолітньої розумної жінки дійсний, якщо вона видасть себе заміж за відповідного без дозволу опікуна, чи то дівою, чи раніше заміжньою, і вона може видати заміж також іншу; опікун є умовою лише для неповнолітньої та божевільної. Якщо ж вона видасть себе за невідповідного, то за фетвою такий шлюб узагалі недійсний; а якщо за дар, менший від дару її ровесниць, опікун може заперечити."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية: تزويج المرأة نفسها من غير كفء لا يصحّ أصلاً على المفتى به.",
+    "en": "The Ḥanafī position was corrected: a woman giving herself in marriage to one who is not a suitable match is not valid at all, per the position for fatwa.",
+    "ru": "Исправлено мнение ханафитов: по фетве брак, в который женщина выдала себя за несоответствующего, вовсе недействителен.",
+    "es": "Se corrigió la postura hanafí: según la opinión para la fetua, que la mujer se case a sí misma con quien no es idóneo no es válido en absoluto.",
+    "uk": "Виправлено думку ханафітів: за фетвою шлюб, у який жінка видала себе за невідповідного, узагалі недійсний."
   }
 }

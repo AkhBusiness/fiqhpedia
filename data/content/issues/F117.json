@@ -92,11 +92,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يلزم القادرَ على العربية أن يأتي بالصيغة بها — بالإنكاح أو التزويج — ولا ينعقد نكاحه بغيرها. فإن عجز عنها صحّ عقده بلسانه بما يُترجم معنى اللفظين.",
-        "en": "One able to speak Arabic must pronounce the formula in it — by the word for marrying or for giving in marriage — and his marriage is not concluded in any other tongue. If he is unable, his contract is valid in his own tongue with what renders the meaning of those two words.",
-        "ru": "Владеющий арабским обязан произнести формулу на нём — словом «инках» или «тазвидж», — и его брак не заключается ни на каком ином языке. Если же он не владеет им, его договор действителен на его языке тем, что передаёт смысл этих двух слов.",
-        "es": "Quien sabe árabe ha de pronunciar en él la fórmula —con el término de casar o de dar en matrimonio— y su matrimonio no se concluye en otra lengua. Si no sabe, su contrato es válido en su propia lengua con lo que traduzca el sentido de esos dos términos.",
-        "uk": "Той, хто володіє арабською, зобов'язаний вимовити формулу нею — словом «інках» або «тазвідж», — і його шлюб не укладається жодною іншою мовою. Якщо ж він нею не володіє, його договір дійсний його мовою тим, що передає зміст цих двох слів."
+        "ar": "يصحّ النكاح بالعجمية وإن أحسن العاقد العربية، اعتباراً بالمعنى، بشرط أن يفهم كلٌّ من العاقدين والشاهدين كلام الآخر.",
+        "en": "Marriage is valid in a language other than Arabic even if the contracting party can speak Arabic, since the meaning is what counts, provided each of the two contracting parties and the witnesses understands the other's words.",
+        "ru": "Брак действителен не на арабском языке, даже если заключающий владеет арабским, поскольку значим смысл, при условии что каждый из двух заключающих и свидетели понимают слова друг друга.",
+        "es": "El matrimonio es válido en lengua distinta del árabe aunque quien contrata sepa árabe, pues lo que cuenta es el sentido, con tal de que cada uno de los contratantes y los testigos entienda las palabras del otro.",
+        "uk": "Шлюб дійсний мовою, іншою за арабську, навіть якщо той, хто укладає, володіє арабською, бо важить зміст, за умови що кожен із тих, хто укладає, і свідки розуміють слова одне одного."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: يصحّ النكاح بالعجمية ولو أحسن العاقد العربية.",
+    "en": "The Shāfiʿī position was corrected: marriage is valid in a non-Arabic language even if the contracting party can speak Arabic.",
+    "ru": "Исправлено мнение шафиитов: брак действителен не на арабском языке, даже если заключающий владеет арабским.",
+    "es": "Se corrigió la posición shāfiʿí: el matrimonio es válido en lengua distinta del árabe aunque quien contrata sepa árabe.",
+    "uk": "Виправлено думку шафіїтів: шлюб дійсний мовою, іншою за арабську, навіть якщо той, хто укладає, володіє арабською."
   }
 }

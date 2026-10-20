@@ -1,6 +1,1146 @@
 {
   "days": [
     {
+      "date": "2026-10-20",
+      "added": [],
+      "revised": [
+        {
+          "kind": "issue",
+          "ref": "F1",
+          "title": {
+            "ar": "التكييف الفقهي للنطق بالشهادتين للدخول في الإسلام",
+            "en": "The juristic characterization of pronouncing the two testimonies to enter Islam",
+            "ru": "Правовая квалификация произнесения шахады для принятия ислама",
+            "es": "La caracterización jurídica de pronunciar los dos testimonios para entrar en el islam",
+            "uk": "Правова кваліфікація промовляння двох свідчень для прийняття ісламу"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: يصح الإسلام بالشهادتين، ولا يُشترط الإقرار بالمجحود أو التبرؤ من الأديان إلا فيمن كان كفره بجحد فرض أو نبي أو بدعوى خصوص الرسالة بالعرب.",
+            "en": "The Ḥanbalī position was corrected: Islam is valid by the two testimonies, and affirming what was denied or disavowing other religions is required only of one whose disbelief lay in denying an obligation or a prophet, or in claiming the Message was for the Arabs alone.",
+            "ru": "Исправлено мнение ханбалитов: ислам действителен двумя свидетельствами, а признание отвергнутого или отречение от других религий требуется лишь от того, чьё неверие состояло в отрицании обязанности или пророка либо в утверждении, что посланничество только для арабов.",
+            "es": "Se corrigió la posición hanbalí: el islam es válido con los dos testimonios, y reconocer lo negado o desligarse de otras religiones solo se exige a quien negaba una obligación o a un profeta, o afirmaba que el Mensaje era solo para los árabes.",
+            "uk": "Виправлено думку ханбалітів: іслам дійсний двома свідченнями, а визнання запереченого чи зречення інших релігій вимагається лише від того, чия невіра полягала в запереченні обов'язку чи пророка або в твердженні, що посланництво лише для арабів."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F110",
+          "title": {
+            "ar": "حكم معاملة المسلم الجديد لوالديه غير المسلمين",
+            "en": "How a New Muslim Is to Treat Parents Who Are Not Muslim",
+            "ru": "Как новообращённому мусульманину относиться к родителям-немусульманам",
+            "es": "Cómo ha de tratar el nuevo musulmán a sus padres no musulmanes",
+            "uk": "Як новонаверненому мусульманинові ставитися до батьків-немусульман"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: لا تجب نفقة الوالدين مع اختلاف الدين.",
+            "en": "The Ḥanbalī position was corrected: maintaining the parents is not obligatory where the religion differs.",
+            "ru": "Исправлено мнение ханбалитов: содержание родителей не обязательно при различии в религии.",
+            "es": "Se corrigió la posición ḥanbalí: la manutención de los padres no es obligatoria cuando la religión difiere.",
+            "uk": "Виправлено думку ханбалітів: утримання батьків не є обовʼязковим за різниці в релігії."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F21",
+          "title": {
+            "ar": "أقسام المياه وضابط كل قسم",
+            "en": "The categories of water and what defines each",
+            "ru": "Категории воды и чем определяется каждая",
+            "es": "Las categorías del agua y lo que define cada una",
+            "uk": "Види вод і чим визначається кожен вид"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: المياه خمسة أقسام لا ثلاثة.",
+            "en": "Corrected the Ḥanafī position: water falls into five categories, not three.",
+            "ru": "Исправлено мнение ханафитов: вода делится на пять категорий, а не на три.",
+            "es": "Se corrigió la posición ḥanafí: el agua se divide en cinco categorías, no en tres.",
+            "uk": "Виправлено позицію ханафітів: води поділяються на п'ять видів, а не на три."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F23",
+          "title": {
+            "ar": "حكم الماء الطهور المتغير بطاهر يمازجه كالزعفران والصابون والسدر",
+            "en": "Ruling on tahur water altered by a pure substance that blends into it",
+            "ru": "Постановление о воде тахур, изменённой чистым веществом, смешавшимся с ней",
+            "es": "Norma sobre el agua tahur alterada por una sustancia pura que se mezcla con ella",
+            "uk": "Постанова про очищувальну воду, змінену чистою речовиною, що з нею змішується, як шафран, мило та сідр"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: كلّ تغيّر في اللون أو الطعم أو الريح بطاهر يفارقه الماء غالباً يسلبه الطهورية، دون تفريق بين اليسير والكثير.",
+            "en": "The Maliki position was corrected: any change in colour, taste, or smell by a pure substance water is usually free of removes its purifying quality, with no distinction between slight and considerable change.",
+            "ru": "Исправлено мнение маликитов: любое изменение цвета, вкуса или запаха чистым веществом, от которого вода обычно свободна, лишает её очищающего свойства, без различия между незначительным и значительным изменением.",
+            "es": "Se corrigió la posición malikí: todo cambio de color, sabor u olor por una sustancia pura de la que el agua suele estar libre le quita la cualidad purificadora, sin distinguir entre cambio leve y considerable.",
+            "uk": "Виправлено погляд малікітів: будь-яка зміна кольору, смаку чи запаху чистою речовиною, від якої вода зазвичай вільна, позбавляє її очищувальної властивості, без різниці між незначною і значною зміною."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F25",
+          "title": {
+            "ar": "حكم الماء الطهور المسخّن بالطاقة أو الشمس أو بنجس",
+            "en": "Ruling on tahur water heated by energy, by the sun, or by something impure",
+            "ru": "Постановление о воде тахур, нагретой энергией, солнцем или нечистым",
+            "es": "Norma sobre el agua tahur calentada con energía, con el sol o con algo impuro",
+            "uk": "Постанова про очищувальну воду, нагріту енергією, сонцем або нечистим"
+          },
+          "note": {
+            "ar": "صُحّح قولا المالكية والشافعية: يكره المشمّس عند المالكية كراهة طبية، ولا يكره عند الشافعية المسخّن بالنار ولو بنجس.",
+            "en": "The Maliki and Shafiʿi positions were corrected: for the Malikis sun-heated water is disliked on medical grounds, and for the Shafiʿis water heated by fire is not disliked even with impure fuel.",
+            "ru": "Исправлены мнения маликитов и шафиитов: у маликитов нагретая солнцем вода нежелательна по медицинской причине, а у шафиитов нагретая огнём не нежелательна даже на нечистом топливе.",
+            "es": "Se corrigieron las posiciones malikí y shafiʿí: para los malikíes el agua calentada al sol es detestable por razón médica, y para los shafiʿíes la calentada al fuego no es detestable aunque el combustible sea impuro.",
+            "uk": "Виправлено погляди малікітів і шафіїтів: у малікітів нагріта сонцем вода небажана з медичної причини, а в шафіїтів нагріта вогнем не є небажаною навіть на нечистому паливі."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F28",
+          "title": {
+            "ar": "أثر غمس القائم من نوم الليل يده في الماء القليل",
+            "en": "The Effect of a Person Newly Woken Dipping a Hand into a Small Quantity of Water",
+            "ru": "Влияние погружения руки проснувшимся от ночного сна в малое количество воды",
+            "es": "El efecto de que quien despierta del sueño nocturno sumerja la mano en agua escasa",
+            "uk": "Вплив занурення руки тим, хто прокинувся від нічного сну, в малу кількість води"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: لا يصير الماء مستعملاً إذا أُدخلت اليد للاغتراف، فإن أُدخلت لغيره صار مستعملاً.",
+            "en": "The Ḥanafī position was corrected: the water does not become used if the hand is put in to scoop, but it does if the hand is put in for another purpose.",
+            "ru": "Исправлено мнение ханафитов: вода не становится использованной, если руку опустили, чтобы зачерпнуть, но становится, если её опустили с иной целью.",
+            "es": "Se corrigió la posición hanafí: el agua no se convierte en usada si la mano se mete para sacar agua, pero sí si se mete con otro fin.",
+            "uk": "Виправлено думку ханафітів: вода не стає використаною, якщо руку опустили, щоб зачерпнути, але стає, якщо її опустили з іншою метою."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F30",
+          "title": {
+            "ar": "حكم تطهير الماء المتنجّس وزوال تغيّره",
+            "en": "Ruling on purifying water that has become impure and the clearing of its alteration",
+            "ru": "Постановление об очищении осквернённой воды и исчезновении её изменения",
+            "es": "Norma sobre purificar el agua contaminada y la desaparición de su alteración",
+            "uk": "Постанова про очищення оскверненої води та зникнення її зміни"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: لا يطهر المتنجّس بزوال تغيّره بنفسه، وقول الحنابلة: لا يطهر القليل إلا بإضافة طهور كثير.",
+            "en": "Corrected the Maliki position (impure water is not purified by its alteration clearing on its own) and the Hanbali position (little water is purified only by adding a large quantity of tahur water).",
+            "ru": "Исправлены позиции маликитов (осквернённая вода не очищается самостоятельным исчезновением изменения) и ханбалитов (малая вода очищается лишь добавлением большого количества тахур).",
+            "es": "Se corrigieron las posturas malikí (el agua contaminada no se purifica porque su alteración desaparezca sola) y hanbalí (el agua escasa solo se purifica añadiéndole agua tahur abundante).",
+            "uk": "Виправлено позиції малікітів (осквернена вода не очищується самостійним зникненням зміни) і ханбалітів (мала вода очищується лише додаванням великої кількості очищувальної води)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F31",
+          "title": {
+            "ar": "حكم موت ما لا نفس له سائلة في الماء",
+            "en": "Ruling on the death in water of creatures without flowing blood",
+            "ru": "Постановление о гибели в воде существ без текучей крови",
+            "es": "Norma sobre la muerte en el agua de criaturas sin sangre fluida",
+            "uk": "Постанова про загибель у воді істот без текучої крові"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: حُذف قيد «ما لم يُطرح فيه» لأن ميتة ما لا نفس له سائلة طاهرة عندهم.",
+            "en": "The Ḥanbalī position was corrected: the qualifier “unless thrown in” was removed, since for them the carcass of a creature without flowing blood is pure.",
+            "ru": "Исправлено мнение ханбалитов: убрана оговорка «если не было брошено», так как у них падаль существа без текучей крови чиста.",
+            "es": "Se corrigió la posición ḥanbalí: se suprimió la salvedad «salvo que se arroje», pues para ellos el cadáver de una criatura sin sangre fluida es puro.",
+            "uk": "Виправлено думку ханбалітів: прибрано застереження «якщо не була кинута», бо в них мертве тіло істоти без текучої крові чисте."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F35",
+          "title": {
+            "ar": "حكم اشتباه الماء الطهور بالماء النجس",
+            "en": "Ruling when tahur water cannot be told apart from impure water",
+            "ru": "Постановление о смешении воды тахур с нечистой водой",
+            "es": "Norma cuando el agua tahur no se distingue del agua impura",
+            "uk": "Постанова про нерозрізнення очищувальної води та нечистої"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يتوضّأ من كل إناء ويصلّي بعدد النجس وزيادة إناء، لا من أيّهما شاء.",
+            "en": "The Mālikī position was corrected: he performs wudu from each vessel and prays as many times as the impure vessels plus one, not from whichever he wishes.",
+            "ru": "Исправлено мнение маликитов: он совершает омовение из каждого сосуда и молится по числу нечистых сосудов плюс один, а не из любого по выбору.",
+            "es": "Se corrigió la posición mālikí: hace el wudu con cada recipiente y reza tantas veces como recipientes impuros más uno, no con el que quiera.",
+            "uk": "Виправлено думку малікітів: він робить омивання з кожної посудини й молиться за числом нечистих посудин плюс одна, а не з будь-якої на вибір."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F36",
+          "title": {
+            "ar": "حكم اشتباه الماء الطهور بالماء الطاهر",
+            "en": "Ruling when tahur water cannot be told from pure non-purifying water",
+            "ru": "Постановление о неразличимости воды тахур и чистой неочищающей воды",
+            "es": "Norma cuando el agua tahur no se distingue del agua pura no purificadora",
+            "uk": "Постанова про нерозрізнення очищувальної води та чистої неочищувальної"
+          },
+          "note": {
+            "ar": "صُحّحت أقوال المالكية والشافعية والحنابلة: يتوضّأ المالكي بعدد الطاهر وزيادة إناء ويصلّي صلاة واحدة، ويجتهد الشافعي إن كان الطاهر مستعملاً، ويتوضّأ الحنبلي وضوءاً واحداً غرفةً من كل إناء.",
+            "en": "The Maliki, Shafiʿi and Hanbali positions were corrected: the Maliki performs wudu as many times as the pure vessels plus one and prays once, the Shafiʿi weighs the signs when the pure water is used water, and the Hanbali performs a single wudu with a handful from each vessel.",
+            "ru": "Исправлены мнения маликитов, шафиитов и ханбалитов: маликит совершает омовение по числу чистых сосудов и ещё один раз и молится один раз, шафиит взвешивает признаки, если чистая вода — использованная, а ханбалит совершает одно омовение, беря по пригоршне из каждого сосуда.",
+            "es": "Se corrigieron las posiciones malikí, shafiʿí y hanbalí: el malikí hace el wudu tantas veces como recipientes puros más uno y reza una vez, el shafiʿí sopesa los indicios si el agua pura es agua usada, y el hanbalí hace un solo wudu con un puñado de cada recipiente.",
+            "uk": "Виправлено погляди малікітів, шафіїтів і ханбалітів: малікіт робить омивання за числом чистих посудин і ще один раз і молиться один раз, шафіїт зважує ознаки, якщо чиста вода — використана, а ханбаліт робить одне омивання, беручи по пригорщі з кожної посудини."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F9",
+          "title": {
+            "ar": "حكم الطهارة بأواني الذهب والفضة",
+            "en": "The ruling on purifying with vessels of gold and silver",
+            "ru": "Постановление об очищении из сосудов из золота и серебра",
+            "es": "La norma sobre la purificación con recipientes de oro y plata",
+            "uk": "Постанова про очищення з посуду із золота та срібла"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يحرم استعمال آنية الذهب والفضة واقتناؤها لا أنه مكروه.",
+            "en": "The Mālikī position was corrected: using and acquiring gold and silver vessels is forbidden, not merely disliked.",
+            "ru": "Исправлено мнение маликитов: использование и приобретение золотых и серебряных сосудов запретно, а не просто нежелательно.",
+            "es": "Se corrigió la posición mālikí: usar y adquirir recipientes de oro y plata está prohibido, no solo desaconsejado.",
+            "uk": "Виправлено думку малікітів: користування золотим і срібним посудом та його придбання заборонені, а не лише небажані."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F10",
+          "title": {
+            "ar": "حكم الاستجمار بالمنديل والأوراق الحديثة",
+            "en": "The ruling on cleansing with tissue and modern paper (istijmār)",
+            "ru": "Постановление об очищении салфеткой и современной бумагой",
+            "es": "La norma sobre la limpieza con pañuelos y papel modernos (istijmār)",
+            "uk": "Постанова про очищення серветками та сучасним папером (істіджмар)"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية بتعيّن الماء في المني والحيض والنفاس وبول المرأة والمنتشر كثيراً، وقول الحنابلة بأنّ الإيتار سنة لا شرط.",
+            "en": "Corrected the Mālikī position (water is required for semen, menstruation, postnatal bleeding, a woman's urine and widely spread excretion) and the Ḥanbalī position (an odd count is a sunnah, not a condition).",
+            "ru": "Исправлено мнение маликитов (вода обязательна при семени, менструации, послеродовом кровотечении, моче женщины и широко распространившемся выделении) и ханбалитов (нечётность — сунна, а не условие).",
+            "es": "Se corrigió la posición mālikí (el agua es obligatoria en el semen, la menstruación, el sangrado posparto, la orina de la mujer y lo muy extendido) y la ḥanbalí (el número impar es sunna, no condición).",
+            "uk": "Виправлено позицію малікітів (вода обов'язкова при сім'ї, менструації, післяпологовій кровотечі, сечі жінки та далеко поширеному виділенні) і ханбалітів (непарність — сунна, а не умова)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F79",
+          "title": {
+            "ar": "حكم الترتيب بين أعضاء الوضوء",
+            "en": "Whether the Order of the Limbs in the Ablution Must Be Kept",
+            "ru": "Обязательна ли последовательность между органами омовения",
+            "es": "Si debe guardarse el orden entre los miembros de la ablución",
+            "uk": "Чи обов'язкова послідовність між органами омивання"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يُسنّ أن يعيد المنكَّس وحده إن طال الفصل بالجفاف، وإلا أعاده مع ما بعده.",
+            "en": "The Maliki position was corrected: it is sunnah to repeat the reversed act alone if the interval has grown long enough for drying, and otherwise together with what follows it.",
+            "ru": "Исправлено мнение маликитов: сунна повторить нарушенное действие отдельно, если перерыв затянулся до высыхания, а иначе — вместе с последующим.",
+            "es": "Se corrigió la posición malikí: es sunnah repetir solo lo invertido si el intervalo se alargó hasta secarse, y si no, junto con lo que le sigue.",
+            "uk": "Виправлено погляд малікітів: сунна повторити порушену дію окремо, якщо перерва затяглася до висихання, а інакше — разом із наступним."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F80",
+          "title": {
+            "ar": "حكم الموالاة بين أعضاء الوضوء",
+            "en": "Whether the Limbs Must Be Washed Without Interruption",
+            "ru": "Обязательна ли непрерывность между органами омовения",
+            "es": "Si los miembros deben lavarse sin interrupción",
+            "uk": "Чи обов'язкова безперервність між органами омивання"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: الموالاة فرض من فروض الوضوء لا تسقط سهواً ولا جهلاً.",
+            "en": "Corrected the Hanbali position: washing without interruption is an obligatory act of the ablution that does not lapse through forgetfulness or ignorance.",
+            "ru": "Исправлена позиция ханбалитов: непрерывность — обязательная часть омовения, не отпадающая по забывчивости или незнанию.",
+            "es": "Se corrigió la postura hanbalí: la continuidad es una obligación de la ablución que no decae por olvido ni por ignorancia.",
+            "uk": "Виправлено позицію ханбалітів: безперервність — обов'язкова частина омивання, що не відпадає через забудькуватість чи незнання."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F4",
+          "title": {
+            "ar": "حكم النية في الوضوء وهل تسقط سهواً",
+            "en": "The ruling on intention (niyyah) in ablution and whether it lapses through forgetfulness",
+            "ru": "Постановление о намерении в омовении и отпадает ли оно по забывчивости",
+            "es": "La norma sobre la intención (niyyah) en la ablución y si decae por olvido",
+            "uk": "Постанова про намір в омиванні і чи відпадає він через забудькуватість"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: النية شرط لطهارة الأحداث لا لإزالة النجاسة.",
+            "en": "The Ḥanbalī position was corrected: intention is a condition for purification from ritual impurity, not for removing filth.",
+            "ru": "Исправлено мнение ханбалитов: намерение — условие очищения от ритуальной осквернённости, а не удаления нечистоты.",
+            "es": "Se corrigió la posición ḥanbalí: la intención es condición de la purificación de la impureza ritual, no de la eliminación de la suciedad.",
+            "uk": "Виправлено думку ханбалітів: намір — умова очищення від ритуальної оскверненості, а не усунення нечистоти."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F82",
+          "title": {
+            "ar": "حكم الخارج من السبيلين ونقضه للوضوء",
+            "en": "What Issues from the Two Passages, and Whether It Breaks the Ablution",
+            "ru": "Выходящее из двух путей и нарушает ли оно омовение",
+            "es": "Lo que sale de las dos vías y si rompe la ablución",
+            "uk": "Те, що виходить із двох шляхів, і чи порушує воно омивання"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية باستثناء ريح القُبُل من النواقض.",
+            "en": "The Ḥanafī position was corrected to exclude wind from the front passage from what breaks the ablution.",
+            "ru": "Исправлено мнение ханафитов: воздух из переднего прохода исключён из нарушающего омовение.",
+            "es": "Se corrigió la posición hanafí para excluir el aire de la vía delantera de lo que rompe la ablución.",
+            "uk": "Виправлено думку ханафітів: повітря з переднього проходу виключено з того, що порушує омивання."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F83",
+          "title": {
+            "ar": "حكم النوم الناقض للوضوء وضابط المستغرق منه",
+            "en": "When Sleep Breaks the Ablution, and How Deep Sleep Is Measured",
+            "ru": "Когда сон нарушает омовение и чем измеряется глубокий сон",
+            "es": "Cuándo el sueño rompe la ablución y cómo se mide el sueño profundo",
+            "uk": "Коли сон порушує омивання і чим вимірюється глибокий сон"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: ينقض النوم كله إلا يسيره من قاعد أو قائم، فيسير نوم المضطجع ناقض.",
+            "en": "The Ḥanbalī position was corrected: all sleep breaks the ablution except a little while seated or standing, so even brief sleep lying down breaks it.",
+            "ru": "Исправлено мнение ханбалитов: любой сон нарушает омовение, кроме малого сна сидя или стоя, поэтому и краткий сон лёжа нарушает его.",
+            "es": "Se corrigió la posición ḥanbalí: todo sueño rompe la ablución salvo el poco estando sentado o de pie, de modo que incluso el sueño breve tendido la rompe.",
+            "uk": "Виправлено думку ханбалітів: будь-який сон порушує омивання, крім малого сну сидячи чи стоячи, тож і короткий сон лежачи порушує його."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F85",
+          "title": {
+            "ar": "حكم مسّ الفرج بلا حائل ونقضه للوضوء",
+            "en": "Touching the Private Part without a Barrier, and Whether It Breaks the Ablution",
+            "ru": "Прикосновение к половому органу без преграды и нарушает ли оно омовение",
+            "es": "Tocar las partes íntimas sin barrera y si ello rompe la ablución",
+            "uk": "Доторк до статевого органа без перепони і чи порушує він омивання"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: مسّ الذكر ينقض مطلقاً بلا اشتراط شهوة، وقول الحنابلة: ينقض المسّ بظهر الكفّ وحرفه كبطنه.",
+            "en": "The Mālikī position was corrected: touching the penis breaks the ablution without any condition of desire; and the Ḥanbalī position: touching with the back or edge of the hand breaks it as the inside does.",
+            "ru": "Исправлено мнение маликитов: прикосновение к мужскому органу нарушает омовение без условия вожделения; и мнение ханбалитов: прикосновение тыльной стороной или краем ладони нарушает его так же, как внутренней.",
+            "es": "Se corrigió la posición mālikí: tocar el pene rompe la ablución sin condición de deseo; y la ḥanbalí: tocar con el dorso o el canto de la mano la rompe igual que con la palma.",
+            "uk": "Виправлено думку малікітів: доторк до чоловічого органа порушує омивання без умови потягу; і думку ханбалітів: доторк тильним боком чи ребром долоні порушує його так само, як внутрішнім."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F98",
+          "title": {
+            "ar": "حكم من شكّ في الحدث بعد يقين الطهارة أو عكسه",
+            "en": "Doubting Impurity After Certainty of Purity, or the Reverse",
+            "ru": "Сомнение в осквернении после уверенности в чистоте, или наоборот",
+            "es": "Dudar de la impureza tras tener certeza de la pureza, o a la inversa",
+            "uk": "Сумнів в оскверненні після впевненості в чистоті, або навпаки"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: من شكّ في أثناء الصلاة يتمادى ثم يعيدها إن استمرّ شكّه، ويُستثنى المستنكح.",
+            "en": "The Mālikī position was corrected: one who doubts during the prayer continues it, then repeats it if the doubt persists, and one beset by persistent doubt is excepted.",
+            "ru": "Исправлено мнение маликитов: усомнившийся во время молитвы продолжает её, а затем повторяет, если сомнение сохранилось; одолеваемый постоянным сомнением — исключение.",
+            "es": "Se corrigió la postura malikí: quien duda durante la oración la continúa y luego la repite si la duda persiste, y se exceptúa a quien padece duda persistente.",
+            "uk": "Виправлено думку малікітів: той, хто засумнівався під час молитви, продовжує її, а потім повторює, якщо сумнів залишився; виняток — той, кого долає постійний сумнів."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F86",
+          "title": {
+            "ar": "أحكام غسل الحائض والنفساء بعد انقطاع الدم",
+            "en": "The Full Bath of a Woman after Menstruation or Post-natal Bleeding Ends",
+            "ru": "Полное омовение женщины после прекращения менструации или послеродового кровотечения",
+            "es": "El baño ritual de la mujer tras cesar la menstruación o los loquios",
+            "uk": "Повне обмивання жінки після припинення менструації чи післяпологової кровотечі"
+          },
+          "note": {
+            "ar": "صُحّح قولا الحنابلة والمالكية: يجب نقض الشعر لغسل الحيض والنفاس مطلقاً عند الحنابلة، وتعميم البدن والدلك والموالاة وتخليل الشعر واجبات لا سنن عند المالكية.",
+            "en": "The Ḥanbalī and Mālikī positions were corrected: for the Ḥanbalīs the hair must be undone for the bath of menstruation and post-natal bleeding without condition, and for the Mālikīs covering the body, rubbing, continuity and running water through the hair are obligatory, not sunnah.",
+            "ru": "Исправлены мнения ханбалитов и маликитов: у ханбалитов волосы распускают при омовении после менструации и послеродового кровотечения без условий, а у маликитов покрытие тела, растирание, непрерывность и проведение воды сквозь волосы обязательны, а не сунна.",
+            "es": "Se corrigieron las posiciones hanbalí y malikí: para los hanbalíes el cabello se suelta en el baño de la menstruación y los loquios sin condición, y para los malikíes cubrir el cuerpo, frotarlo, la continuidad y pasar el agua entre el cabello son obligatorios, no sunnah.",
+            "uk": "Виправлено думки ханбалітів і малікітів: у ханбалітів волосся розпускають при обмиванні після менструації й післяпологової кровотечі без умов, а в малікітів покриття тіла, розтирання, безперервність і проведення води крізь волосся обов'язкові, а не сунна."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F87",
+          "title": {
+            "ar": "فروض الغسل المجزئ",
+            "en": "What the Full Bath Requires for It to Suffice",
+            "ru": "Что обязательно в полном омовении, чтобы оно было достаточным",
+            "es": "Lo obligatorio del baño ritual para que baste",
+            "uk": "Що обов'язкове в повному обмиванні, щоб воно було достатнім"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: فرائض الغسل خمس بإضافة تخليل الشعر، لا اثنتان.",
+            "en": "The Mālikī position was corrected: the obligations of the full bath are five, including running water through the hair, not two.",
+            "ru": "Исправлено мнение маликитов: обязанностей полного омовения пять, включая проведение воды сквозь волосы, а не две.",
+            "es": "Se corrigió la posición malikí: las obligaciones del baño ritual son cinco, incluido hacer pasar el agua entre el cabello, no dos.",
+            "uk": "Виправлено думку малікітів: обов'язків повного обмивання п'ять, включно з проведенням води крізь волосся, а не два."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F88",
+          "title": {
+            "ar": "صفة الغسل الكامل على هدي النبي ﷺ",
+            "en": "The Complete Form of the Full Bath, after the Practice of the Prophet ﷺ",
+            "ru": "Полная форма омовения по образцу Пророка ﷺ",
+            "es": "La forma completa del baño ritual según la práctica del Profeta ﷺ",
+            "uk": "Повна форма обмивання за прикладом Пророка ﷺ"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يُغسل أعضاء الوضوء كاملة مرة دون تأخير الرجلين، والدلك والموالاة واجبان لا مستحبّان.",
+            "en": "The Mālikī position was corrected: the parts of the ablution are washed completely once without delaying the feet, and rubbing and continuity are obligatory, not merely recommended.",
+            "ru": "Исправлено мнение маликитов: органы омовения моются полностью один раз без откладывания ног, а растирание и непрерывность обязательны, а не желательны.",
+            "es": "Se corrigió la posición mālikí: los miembros de la ablución se lavan completos una vez sin retrasar los pies, y frotar y la continuidad son obligatorios, no recomendables.",
+            "uk": "Виправлено думку малікітів: органи омивання миються повністю один раз без відкладання ніг, а розтирання та безперервність обов'язкові, а не бажані."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F5",
+          "title": {
+            "ar": "حكم المسح على الجورب الخفيف/الحديث",
+            "en": "The ruling on wiping over light/modern socks",
+            "ru": "Постановление о протирании лёгких/современных носков",
+            "es": "La norma sobre el frotamiento sobre los calcetines ligeros o modernos",
+            "uk": "Постанова про протирання легких або сучасних шкарпеток"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية بجواز المسح على الجورب المجلَّد ظاهره وباطنه، وقول الشافعية بأن المعتبر قوة الجورب ومنعه نفوذ الماء سواء كان من جلد أو غيره.",
+            "en": "Corrected the Mālikī position to permit wiping over a sock covered with leather on both sides, and the Shāfiʿī position that what counts is the sock's strength and impermeability, whether of leather or not.",
+            "ru": "Исправлено мнение маликитов о допустимости протирания носка, покрытого кожей снаружи и изнутри, и мнение шафиитов о том, что учитываются прочность носка и непроницаемость для воды, из кожи он или нет.",
+            "es": "Se corrigió la postura mālikí, que permite frotar sobre el calcetín recubierto de cuero por ambos lados, y la shāfiʿí, según la cual cuenta la resistencia del calcetín y que impida el paso del agua, sea o no de cuero.",
+            "uk": "Виправлено позицію малікітів про дозволеність протирання шкарпетки, покритої шкірою з обох боків, і позицію шафіїтів про те, що враховуються міцність шкарпетки та непроникність для води, зі шкіри вона чи ні."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F7",
+          "title": {
+            "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+            "en": "The ruling on tayammum when water is present but there is fear of using it",
+            "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования",
+            "es": "La norma sobre el tayammum cuando hay agua pero se teme usarla",
+            "uk": "Постанова про таяммум за наявності води, коли є побоювання її використати"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: يباح التيمم أيضاً لخوف بطء البرء أو الشين الفاحش في عضو ظاهر، وشدّة البرد كالمرض.",
+            "en": "The Shāfiʿī position was corrected: tayammum is also permitted for fear of delayed recovery or gross disfigurement on an exposed part, and severe cold counts as illness.",
+            "ru": "Исправлено мнение шафиитов: таяммум допустим и при опасении замедления выздоровления или сильного обезображивания на открытой части тела, а сильный холод приравнивается к болезни.",
+            "es": "Se corrigió la postura shafiʿí: el tayammum se permite también por temor al retraso de la curación o a una desfiguración grave en una parte visible, y el frío intenso cuenta como enfermedad.",
+            "uk": "Виправлено думку шафіїтів: таяммум дозволений і за побоювання затримки одужання чи сильного спотворення на відкритій частині тіла, а сильний холод прирівнюється до хвороби."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F106",
+          "title": {
+            "ar": "حدّ طلب الماء الواجب قبل التيمم",
+            "en": "How Far One Must Search for Water Before the Dry Ablution",
+            "ru": "Насколько далеко нужно искать воду перед таяммумом",
+            "es": "Hasta dónde debe buscarse agua antes del tayammum",
+            "uk": "Наскільки далеко треба шукати воду перед таяммумом"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: من تيقّن فقد الماء تيمّم بلا طلب، وقول الحنفية: يكون الطلب مقدار غلوة فيما دون الميل.",
+            "en": "The Shāfiʿī position was corrected: whoever is certain there is no water performs the dry ablution without searching; and the Ḥanafī position: the search extends a bowshot, within less than a mile.",
+            "ru": "Исправлено мнение шафиитов: уверенный в отсутствии воды совершает таяммум без поиска; и мнение ханафитов: поиск ведётся на расстоянии полёта стрелы, в пределах меньше мили.",
+            "es": "Se corrigió la posición shāfiʿí: quien tiene certeza de que no hay agua hace el tayammum sin buscar; y la ḥanafí: la búsqueda llega a un tiro de flecha, a menos de una milla.",
+            "uk": "Виправлено думку шафіїтів: той, хто впевнений у відсутності води, здійснює таяммум без пошуку; і думку ханафітів: пошук ведеться на відстань польоту стріли, у межах менше милі."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F96",
+          "title": {
+            "ar": "سنّ البلوغ وسنّ اليأس",
+            "en": "The Age of Maturity and the Age of Menopause",
+            "ru": "Возраст совершеннолетия и возраст менопаузы",
+            "es": "La edad de madurez y la edad de la menopausia",
+            "uk": "Вік повноліття та вік менопаузи"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: سنّ اليأس باعتبار الغالب اثنتان وستون سنة لا نحو الخمسين.",
+            "en": "The Shāfiʿī position was corrected: the usual age of menopause is sixty-two years, not about fifty.",
+            "ru": "Исправлено мнение шафиитов: обычный возраст менопаузы — шестьдесят два года, а не около пятидесяти.",
+            "es": "Se corrigió la posición shāfiʿí: la edad habitual de la menopausia es de sesenta y dos años, no de unos cincuenta.",
+            "uk": "Виправлено думку шафіїтів: звичайний вік менопаузи — шістдесят два роки, а не близько п'ятдесяти."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F92",
+          "title": {
+            "ar": "حكم من طهرت قبل خروج وقت الصلاة",
+            "en": "A Woman Who Becomes Pure before the Prayer's Time Ends",
+            "ru": "Женщина, ставшая чистой до истечения времени молитвы",
+            "es": "La mujer que se purifica antes de que salga el tiempo de la oración",
+            "uk": "Жінка, що стала чистою до закінчення часу молитви"
+          },
+          "note": {
+            "ar": "صُحّحت أقوال الشافعية والحنابلة والحنفية: تلزم الصلاة عند الشافعية والحنابلة بإدراك قدر تكبيرة لا ركعة، ويلزم عند الحنابلة معها ما يُجمع إليها، ويُشترط عند الحنفية قدر الغسل والتحريمة إن طهرت لأقلّ من عشرة أيام.",
+            "en": "The Shāfiʿī, Ḥanbalī and Ḥanafī positions were corrected: for the Shāfiʿīs and Ḥanbalīs the prayer becomes due by catching time for one takbīr, not one unit, and for the Ḥanbalīs the prayer combined with it is also due; for the Ḥanafīs, if the bleeding stops before ten days, time for bathing and the opening takbīr is required.",
+            "ru": "Исправлены мнения шафиитов, ханбалитов и ханафитов: у шафиитов и ханбалитов молитва становится обязательной, если застать время на один такбир, а не ракаат, причём у ханбалитов обязательна и объединяемая с ней молитва; у ханафитов при прекращении крови раньше десяти дней требуется время на омовение и вступительный такбир.",
+            "es": "Se corrigieron las posiciones shafiʿí, hanbalí y hanafí: para shafiʿíes y hanbalíes la oración se vuelve obligatoria al alcanzar tiempo para un takbīr, no un rakʿah, y para los hanbalíes también la que se une a ella; para los hanafíes, si la sangre cesa antes de diez días, se requiere tiempo para bañarse y el takbīr de apertura.",
+            "uk": "Виправлено думки шафіїтів, ханбалітів і ханафітів: у шафіїтів і ханбалітів молитва стає обов'язковою, якщо застати час на один такбір, а не ракаат, причому в ханбалітів обов'язкова й об'єднувана з нею молитва; у ханафітів, якщо кров припинилася раніше десяти днів, потрібен час на обмивання та вступний такбір."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F93",
+          "title": {
+            "ar": "حكم لزوم الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+            "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
+            "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
+            "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
+            "uk": "Чи мусить жінка, що стала чистою наприкінці часу, здійснити й попередню з двох поєднуваних молитов"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: تلزمها الصلاتان إن بقي بعد الطهارة ما يسع خمس ركعات في الظهرين وأربعاً في العشاءين، وهما أداء لا قضاء.",
+            "en": "The Mālikī position was corrected: both prayers are due if, after purification, time remains for five rakʿahs for ẓuhr and ʿaṣr or four for maghrib and ʿishāʾ, and they are performed on time, not made up.",
+            "ru": "Исправлено мнение маликитов: обе молитвы обязательны, если после очищения остаётся время на пять ракаатов для зухра и асра или четыре для магриба и иша, и они совершаются вовремя, а не восполняются.",
+            "es": "Se corrigió la posición mālikí: ambas oraciones son obligatorias si tras la purificación queda tiempo para cinco rakʿahs en ẓuhr y ʿaṣr o cuatro en maghrib y ʿishāʾ, y se rezan en su tiempo, no como reposición.",
+            "uk": "Виправлено думку малікітів: обидві молитви обов'язкові, якщо після очищення лишається час на п'ять ракаатів для зугру й асру або чотири для маґрібу й іша, і вони здійснюються вчасно, а не надолужуються."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F94",
+          "title": {
+            "ar": "حكم الصلاة التي طرأ الحيض بعد دخول وقتها وقبل أدائها",
+            "en": "A Prayer Whose Time Had Begun When Menstruation Set In Before It Was Performed",
+            "ru": "Молитва, время которой уже наступило, когда началась менструация до её совершения",
+            "es": "La oración cuyo tiempo había entrado cuando sobrevino la menstruación antes de realizarla",
+            "uk": "Молитва, час якої вже настав, коли почалася менструація до її здійснення"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: تقضيها بإدراك قدر تكبيرة الإحرام من الوقت لا قدر ركعة.",
+            "en": "The Ḥanbalī position was corrected: she makes it up upon catching as much of the time as the opening takbīr, not a whole rakʿah.",
+            "ru": "Исправлено мнение ханбалитов: она восполняет молитву, застав из времени столько, сколько занимает вступительный такбир, а не ракаат.",
+            "es": "Se corrigió la postura hanbalí: la recupera al alcanzar del tiempo lo que dura el takbīr de apertura, no un rakʿah.",
+            "uk": "Виправлено думку ганбалітів: вона відшкодовує молитву, заставши з часу стільки, скільки триває вступний такбір, а не ракаат."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F97",
+          "title": {
+            "ar": "متى تستأنف المرأة الصلاة والصوم بعد الطهر",
+            "en": "When a Woman Resumes Prayer and Fasting After Becoming Pure",
+            "ru": "Когда женщина возобновляет молитву и пост после очищения",
+            "es": "Cuándo reanuda la mujer la oración y el ayuno tras purificarse",
+            "uk": "Коли жінка відновлює молитву та піст після очищення"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية والحنابلة: تجب الصلاة بإدراك قدر تكبيرة من الوقت لا ركعة.",
+            "en": "The Shāfiʿī and Ḥanbalī positions were corrected: prayer becomes due when time for a takbīr remains, not a rakʿah.",
+            "ru": "Исправлены мнения шафиитов и ханбалитов: молитва становится обязательной, если остаётся время на такбир, а не на ракаат.",
+            "es": "Se corrigieron las posiciones shāfiʿí y ḥanbalí: la oración es obligatoria si queda tiempo para un takbīr, no para un rakʿah.",
+            "uk": "Виправлено думки шафіїтів і ханбалітів: молитва стає обов'язковою, якщо лишається час на такбір, а не на ракаат."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F16",
+          "title": {
+            "ar": "حكم التثويب في أذان صلاة الفجر",
+            "en": "Ruling on Tathwīb in the Fajr Adhān",
+            "ru": "Постановление о тасвибе в азане предрассветной молитвы",
+            "es": "La norma sobre el tathwīb en el adhán de la oración del fajr",
+            "uk": "Постанова про тасвіб в азані ранкової молитви (фаджр)"
+          },
+          "note": {
+            "ar": "صُحّح قولا المالكية والحنابلة: التثويب في أذان الصبح دون تقييده بالأذان الثاني، ويُسنّ عند الحنابلة ولو أُذّن قبل الفجر.",
+            "en": "Corrected the Mālikī and Ḥanbalī positions: the tathwīb belongs to the Fajr adhān without restriction to the second adhān, and for the Ḥanbalīs it is sunnah even if the adhān is given before dawn.",
+            "ru": "Исправлены мнения маликитов и ханбалитов: тасвиб произносится в азане Фаджра без ограничения вторым азаном, а у ханбалитов он сунна, даже если азан дан до рассвета.",
+            "es": "Se corrigieron las posturas mālikí y ḥanbalí: el tathwīb corresponde al adhán del fajr sin limitarlo al segundo adhán, y para los ḥanbalíes es sunna aunque el adhán se haga antes del alba.",
+            "uk": "Виправлено позиції малікітів і ханбалітів: тасвіб належить до азану фаджру без обмеження другим азаном, а в ханбалітів він є сунною, навіть якщо азан виголошено до світанку."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F15",
+          "title": {
+            "ar": "وقت صلاة العصر بدايةً ونهايةً",
+            "en": "The time of the afternoon prayer, from its beginning to its end",
+            "ru": "Время послеполуденной молитвы: её начало и конец",
+            "es": "El tiempo de la oración de la tarde, desde su inicio hasta su fin",
+            "uk": "Час післяполуденної молитви (аср): початок і кінець"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: ينتهي الوقت المختار للعصر بمصير ظلّ الشيء مثليه لا باصفرار الشمس.",
+            "en": "The Ḥanbalī position was corrected: the preferred time of ʿaṣr ends when a thing's shadow reaches twice its length, not when the sun yellows.",
+            "ru": "Исправлено мнение ханбалитов: предпочтительное время асра заканчивается, когда тень становится вдвое длиннее предмета, а не с пожелтением солнца.",
+            "es": "Se corrigió la posición ḥanbalí: el tiempo preferido del ʿaṣr termina cuando la sombra alcanza el doble del objeto, no cuando el sol amarillea.",
+            "uk": "Виправлено думку ханбалітів: обраний час асру закінчується, коли тінь речі стає вдвічі довшою за неї, а не з пожовтінням сонця."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F42",
+          "title": {
+            "ar": "وقت صلاة المغرب بدايةً ونهايةً",
+            "en": "The time of the sunset prayer, from its beginning to its end",
+            "ru": "Время закатной молитвы: её начало и конец",
+            "es": "El tiempo de la oración del ocaso, desde su inicio hasta su fin",
+            "uk": "Час вечірньої молитви (маґріб): початок і кінець"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: أُضيف وقت المغرب الضروري الممتدّ إلى طلوع الفجر.",
+            "en": "The Mālikī position was corrected: the time of necessity for maghrib, extending to true dawn, was added.",
+            "ru": "Исправлено мнение маликитов: добавлено вынужденное время магриба, длящееся до истинного рассвета.",
+            "es": "Se corrigió la postura malikí: se añadió el tiempo de necesidad del magrib, que llega hasta el alba.",
+            "uk": "Виправлено думку малікітів: додано вимушений час маґрібу, що триває до сходу зорі."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F67",
+          "title": {
+            "ar": "أوقات النهي عن الصلاة وعددها",
+            "en": "The Times in Which Prayer Is Forbidden, and How Many They Are",
+            "ru": "Времена, в которые запрещена молитва, и их количество",
+            "es": "Los tiempos en que se prohíbe la oración y su número",
+            "uk": "Часи, в які заборонена молитва, та їх кількість"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية في ضابط ذات السبب، وقول الحنابلة بأنّ أول وقت النهي من طلوع الفجر الثاني، وقول المالكية بمنع النفل عند الطلوع والغروب والخطبة.",
+            "en": "Corrected the Shāfiʿī criterion for prayers with a cause, the Ḥanbalī start of the first forbidden time at true dawn, and the Mālikī prohibition of voluntary prayer at sunrise, sunset and the sermon.",
+            "ru": "Исправлены критерий шафиитов для молитв, имеющих повод, начало первого времени запрета у ханбалитов с истинной зари и запрет маликитов на добровольную молитву при восходе, закате и хутбе.",
+            "es": "Se corrigieron el criterio šāfiʿí sobre las oraciones con causa, el inicio ḥanbalí del primer tiempo prohibido al amanecer verdadero y la prohibición mālikí de la oración voluntaria al salir y ponerse el sol y durante el sermón.",
+            "uk": "Виправлено критерій шафіїтів щодо молитов, що мають привід, початок першого часу заборони в ханбалітів з істинної зорі та заборону малікітів на добровільну молитву при сході, заході й хутбі."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F68",
+          "title": {
+            "ar": "حدّ عورة الرجل في الصلاة",
+            "en": "The Extent of a Man's ʿAwrah in the Prayer",
+            "ru": "Границы аврата мужчины в молитве",
+            "es": "El límite de la ʿawrah del hombre en la oración",
+            "uk": "Межі аврату чоловіка в молитві"
+          },
+          "note": {
+            "ar": "صُحّح قولا المالكية والحنابلة: تختصّ الإعادة في الوقت عند المالكية بكشف الأليتين دون الفخذ، ويختصّ وجوب ستر أحد العاتقين عند الحنابلة بصلاة الفرض.",
+            "en": "The Maliki and Hanbali positions were corrected: for the Malikis repeating within the time applies to uncovering the buttocks, not the thigh, and for the Hanbalis covering one shoulder is obligatory only in an obligatory prayer.",
+            "ru": "Исправлены мнения маликитов и ханбалитов: у маликитов повторение в её время касается обнажения ягодиц, а не бедра, а у ханбалитов покрытие одного плеча обязательно лишь в обязательной молитве.",
+            "es": "Se corrigieron las posiciones malikí y hanbalí: para los malikíes la repetición dentro del tiempo se debe a descubrir las nalgas, no el muslo, y para los hanbalíes cubrir un hombro es obligatorio solo en la oración obligatoria.",
+            "uk": "Виправлено погляди малікітів і ханбалітів: у малікітів повторення в її час стосується оголення сідниць, а не стегна, а в ханбалітів покриття одного плеча обов'язкове лише в обов'язковій молитві."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F46",
+          "title": {
+            "ar": "حكم الصلاة مع نجاسة يسيرة على الثوب أو البدن",
+            "en": "Ruling on praying with a slight impurity on the garment or the body",
+            "ru": "Постановление о молитве с незначительной нечистотой на одежде или теле",
+            "es": "Norma sobre orar con una impureza leve en la ropa o el cuerpo",
+            "uk": "Постанова про молитву з незначною нечистотою на одязі чи тілі"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: إزالة النجاسة واجبة مع الذكر والقدرة أو سنة على خلاف مشهور، والإعادة في الوقت لمن صلى بها ناسياً أو عاجزاً لا فيما عُفي عنه.",
+            "en": "Corrected the Mālikī position: removing impurity is obligatory when one remembers and is able, or a sunnah on a well-known disagreement, and repetition within the time is for one who prayed with it forgetfully or unable, not for what is pardoned.",
+            "ru": "Исправлено мнение маликитов: удаление нечистоты обязательно при памяти и возможности или является сунной по известному разногласию, а повторение в срок — для помолившегося с ней по забывчивости или бессилию, а не для прощаемого.",
+            "es": "Se corrigió la postura mālikí: eliminar la impureza es obligatorio al recordar y poder, o sunna según una discrepancia conocida, y la repetición dentro del tiempo es para quien oró con ella por olvido o incapacidad, no para lo perdonado.",
+            "uk": "Виправлено позицію малікітів: усунення нечистоти обов'язкове за пам'яті й можливості або є сунною за відомою розбіжністю, а повторення в час — для того, хто помолився з нею через забудькуватість чи безсилля, а не для прощеного."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F69",
+          "title": {
+            "ar": "حكم من صلّى بالتحرّي ثم تبيّن له خطؤه في القبلة",
+            "en": "The Ruling on One Who Prays by Best Judgement and Then Learns He Faced the Wrong Direction",
+            "ru": "Постановление о том, кто помолился по своему суждению, а затем узнал, что ошибся в направлении киблы",
+            "es": "Norma sobre quien reza según su mejor juicio y luego descubre que erró la dirección de la alquibla",
+            "uk": "Постанова про того, хто помолився за своїм судженням, а потім дізнався, що помилився в напрямку кибли"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: لا إعادة على المجتهد في السفر، أما من صلّى في الحضر فأخطأ فيعيد.",
+            "en": "The Ḥanbalī position was corrected: one who used his judgement while travelling does not repeat, but one who prayed while resident and erred repeats.",
+            "ru": "Исправлено мнение ханбалитов: приложивший усилие в пути не повторяет молитву, а ошибшийся по месту проживания повторяет.",
+            "es": "Se corrigió la postura hanbalí: quien se esforzó estando de viaje no repite, pero quien rezó residente y erró sí repite.",
+            "uk": "Виправлено думку ганбалітів: той, хто доклав зусиль у подорожі, не повторює молитву, а той, хто помилився за місцем проживання, повторює."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F89",
+          "title": {
+            "ar": "حكم العاجز عن ستر العورة في الصلاة",
+            "en": "One Who Cannot Cover His ʿAwrah in the Prayer",
+            "ru": "Тот, кто не может прикрыть аврат в молитве",
+            "es": "Quien no puede cubrir su ʿawrah en la oración",
+            "uk": "Той, хто не може прикрити аврат у молитві"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يعيد العاري في الوقت إن وجد ساتراً، وصُحّحت درجة الحنفية والحنابلة: الصلاة قاعداً بالإيماء مندوبة لا واجبة.",
+            "en": "The Maliki position was corrected — the uncovered worshipper repeats within the time if he finds a covering — and the Hanafi and Hanbali grade was corrected: praying seated with gestures is recommended, not obligatory.",
+            "ru": "Исправлено мнение маликитов — нагой повторяет молитву в её время, если найдёт покров, — и степень у ханафитов и ханбалитов: молитва сидя с жестами желательна, а не обязательна.",
+            "es": "Se corrigió la posición malikí —quien reza desnudo repite dentro del tiempo si halla con qué cubrirse— y el grado hanafí y hanbalí: rezar sentado con gestos es recomendable, no obligatorio.",
+            "uk": "Виправлено погляд малікітів — нагий повторює молитву в її час, якщо знайде покрив, — і ступінь у ханафітів і ханбалітів: молитва сидячи з жестами бажана, а не обов'язкова."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F90",
+          "title": {
+            "ar": "حكم من لم يجد إلا ثوباً نجساً",
+            "en": "One Who Has Only an Impure Garment",
+            "ru": "Тот, у кого есть лишь нечистая одежда",
+            "es": "Quien solo dispone de una prenda impura",
+            "uk": "Той, хто має лише нечистий одяг"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية بالتفصيل بين طهارة ربع الثوب وما دونه، وقول الشافعية: يصلّي عارياً ولا إعادة، وقول الحنابلة: يُعيد الصلاة.",
+            "en": "Corrected the Hanafi position (a distinction between a quarter of the garment being pure and less), the Shafiʿi position (he prays uncovered and does not repeat) and the Hanbali position (he repeats the prayer).",
+            "ru": "Исправлены позиции ханафитов (различие между чистой четвертью одежды и меньшей частью), шафиитов (молится нагим и не повторяет) и ханбалитов (повторяет молитву).",
+            "es": "Se corrigieron las posturas hanafí (distinción entre que sea puro un cuarto de la prenda o menos), shafiʿí (reza desnudo y no repite) y hanbalí (repite la oración).",
+            "uk": "Виправлено позиції ханафітів (розрізнення між чистою чвертю одягу та меншою частиною), шафіїтів (молиться нагим і не повторює) і ханбалітів (повторює молитву)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F12",
+          "title": {
+            "ar": "حكم رفع اليدين عند تكبيرة الإحرام ومواضعه في الصلاة",
+            "en": "Ruling on Raising Hands During Takbeer and its Places in Prayer",
+            "ru": "Постановление о поднятии рук при такбире и его места в молитве",
+            "es": "La norma sobre levantar las manos en el takbir de apertura y sus lugares en la oración",
+            "uk": "Постанова про піднімання рук при вступному такбірі та його місця в молитві"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: يُرفع اليدان في الصلاة أيضاً لتكبيرة القنوت وتكبيرات العيدين، لا عند تكبيرة الإحرام وحدها.",
+            "en": "The Ḥanafī position was corrected: within the prayer the hands are also raised for the takbīr of the qunūt and the takbīrs of the two ʿĪds, not at the opening takbīr alone.",
+            "ru": "Исправлено мнение ханафитов: в молитве руки поднимают также при такбире кунута и такбирах двух праздников, а не только при вступительном такбире.",
+            "es": "Se corrigió la posición hanafí: dentro de la oración las manos también se levantan en el takbir del qunut y en los takbires de los dos ʿId, no solo en el takbir de apertura.",
+            "uk": "Виправлено думку ханафітів: у молитві руки піднімають також при такбірі кунуту та такбірах двох свят, а не лише при вступному такбірі."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F72",
+          "title": {
+            "ar": "صيغة دعاء الاستفتاح وحكم الجهر به",
+            "en": "The Wording of the Opening Supplication and the Ruling on Saying It Aloud",
+            "ru": "Формулировка вступительной мольбы и постановление о её произнесении вслух",
+            "es": "La fórmula de la súplica de apertura y la norma sobre decirla en voz alta",
+            "uk": "Формулювання вступної мольби та постанова про її виголошення вголос"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: دعاء الاستفتاح في النفل جائز لا مندوب.",
+            "en": "The Mālikī position was corrected: the opening supplication in voluntary prayer is permissible, not recommended.",
+            "ru": "Исправлено мнение маликитов: вступительная мольба в добровольной молитве дозволена, а не желательна.",
+            "es": "Se corrigió la posición mālikí: la súplica de apertura en la oración voluntaria es lícita, no recomendable.",
+            "uk": "Виправлено думку малікітів: вступна мольба в добровільній молитві дозволена, а не бажана."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F73",
+          "title": {
+            "ar": "حكم البسملة في الفاتحة والجهر بها",
+            "en": "Whether the Basmalah Is Part of al-Fātiḥah, and the Ruling on Saying It Aloud",
+            "ru": "Является ли басмала частью аль-Фатихи и постановление о её произнесении вслух",
+            "es": "Si la basmalah forma parte de al-Fātiḥah y la norma sobre decirla en voz alta",
+            "uk": "Чи є басмала частиною аль-Фатіхи та постанова про її виголошення вголос"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: البسملة في النفل جائزة لا مندوبة، وقول الحنابلة: البسملة ليست من الفاتحة.",
+            "en": "Corrected the Maliki position (the basmalah is permissible, not recommended, in voluntary prayer) and the Hanbali position (the basmalah is not part of al-Fātiḥah).",
+            "ru": "Исправлены позиции маликитов (басмала в добровольной молитве дозволена, а не желательна) и ханбалитов (басмала не является частью аль-Фатихи).",
+            "es": "Se corrigieron las posturas malikí (la basmalah es lícita, no recomendable, en la oración voluntaria) y hanbalí (la basmalah no forma parte de al-Fātiḥah).",
+            "uk": "Виправлено позиції малікітів (басмала в добровільній молитві дозволена, а не бажана) і ханбалітів (басмала не є частиною аль-Фатіхи)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F14",
+          "title": {
+            "ar": "حكم قراءة الفاتحة للمأموم خلف الإمام في السرية والجهرية",
+            "en": "Ruling on the Follower Reciting al-Fātiḥah Behind the imam in the Silent and the Audible Prayer",
+            "ru": "Постановление о чтении аль-Фатихи тем, кто молится за имамом, в тихой и громкой молитве",
+            "es": "La norma sobre la recitación de al-Fátiha por el seguidor detrás del imam en la oración silenciosa y en la audible",
+            "uk": "Постанова про читання аль-Фатіха тим, хто молиться за імамом, у тихій і голосній молитві"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: تُكره قراءة المأموم في الجهرية ولو لم يسمع قراءة الإمام.",
+            "en": "The Mālikī position was corrected: the follower's recitation in the audible prayer is disliked even if he cannot hear the imam.",
+            "ru": "Исправлено мнение маликитов: чтение молящегося за имамом в громкой молитве нежелательно, даже если он не слышит имама.",
+            "es": "Se corrigió la postura malikí: la recitación del seguidor en la oración audible es desaconsejable aunque no oiga al imam.",
+            "uk": "Виправлено думку малікітів: читання того, хто молиться за імамом, у голосній молитві небажане, навіть якщо він не чує імама."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F48",
+          "title": {
+            "ar": "حكم قراءة سورة بعد الفاتحة في الصلاة",
+            "en": "Ruling on reciting a sura after al-Fatiha in the prayer",
+            "ru": "Постановление о чтении суры после аль-Фатихи в молитве",
+            "es": "Norma sobre recitar una sura después de al-Fatiha en la oración",
+            "uk": "Постанова про читання сури після аль-Фатіха в молитві"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: قراءة السورة في الأخريين لا تُسنّ ولا تُكره.",
+            "en": "Corrected the Ḥanbalī position: reciting a sura in the last two units is neither a sunnah nor disliked.",
+            "ru": "Исправлено мнение ханбалитов: чтение суры в последних двух ракатах не является сунной и не нежелательно.",
+            "es": "Se corrigió la posición ḥanbalí: recitar una sura en las dos últimas unidades no es sunna ni se detesta.",
+            "uk": "Виправлено позицію ханбалітів: читання сури в останніх двох ракатах не є сунною і не є небажаним."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F75",
+          "title": {
+            "ar": "أقلّ ما يُجزئ من الانحناء في الركوع",
+            "en": "The Least Bending That Suffices for the Bowing",
+            "ru": "Наименьший наклон, которого достаточно для поясного поклона",
+            "es": "La menor inclinación que basta para la reverencia",
+            "uk": "Найменший нахил, якого достатньо для поясного уклону"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: الضابط قرب الراحتين من الركبتين لا مسّهما.",
+            "en": "Corrected the Mālikī position: the criterion is the palms coming near the knees, not touching them.",
+            "ru": "Исправлено мнение маликитов: критерий — приближение ладоней к коленям, а не касание их.",
+            "es": "Se corrigió la posición mālikí: el criterio es que las palmas queden cerca de las rodillas, no que las toquen.",
+            "uk": "Виправлено позицію малікітів: критерій — наближення долонь до колін, а не дотик до них."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F17",
+          "title": {
+            "ar": "موضع سجود السهو بالنسبة للتسليم من الصلاة",
+            "en": "The Timing of the Prostration of Forgetfulness Relative to Salām",
+            "ru": "Место совершения земного поклона за забывчивость относительно таслима",
+            "es": "El lugar de la postración por olvido respecto al saludo final de la oración",
+            "uk": "Місце земного уклону за забудькуватість відносно тасліму з молитви"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: يُسجد بعد السلام في موضع واحد هو السلام عن نقص ركعة فأكثر، وبناء الإمام على غالب ظنه مقيّد بالقول به.",
+            "en": "Corrected the Ḥanbalī position: prostration after the salām is in one case, giving the salām having omitted a rakʿah or more, while the imam building on his predominant assumption depends on adopting that view.",
+            "ru": "Исправлено мнение ханбалитов: поклон после саляма совершается в одном случае — при саляме с недостачей ракаата или более, а случай имама, строящего на преобладающем предположении, зависит от принятия этого мнения.",
+            "es": "Se corrigió la postura ḥanbalí: la postración tras el salām se da en un caso, dar el salām habiendo omitido una rakʿah o más, mientras que el del imam que se basa en su suposición predominante depende de adoptar esa opinión.",
+            "uk": "Виправлено позицію ханбалітів: уклін після саляму здійснюється в одному випадку — при салямі з недостачею ракаату чи більше, а випадок імама, що будує на переважному припущенні, залежить від прийняття цієї думки."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F18",
+          "title": {
+            "ar": "حكم قصر الصلاة الرباعية للمسافر",
+            "en": "Ruling on Shortening Four-Unit Prayers for the Traveler",
+            "ru": "Постановление о сокращении четырехракаатной молитвы для путника",
+            "es": "La norma sobre acortar la oración de cuatro rakʿas para el viajero",
+            "uk": "Постанова про скорочення чотириракаатної молитви для подорожнього"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنابلة: الإتمام للمسافر جائز غير مكروه.",
+            "en": "Corrected the Ḥanbalī position: completing the prayer for the traveler is permissible and not disliked.",
+            "ru": "Исправлено мнение ханбалитов: полное совершение молитвы путником дозволено и не нежелательно.",
+            "es": "Se corrigió la posición ḥanbalí: completar la oración para el viajero está permitido y no se desaconseja.",
+            "uk": "Виправлено позицію ханбалітів: повне здійснення молитви подорожнім дозволене і не є небажаним."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F51",
+          "title": {
+            "ar": "حكم إتمام شعبان ثلاثين يوماً إذا حُجب الهلال ليلة الثلاثين",
+            "en": "Ruling on Completing Shaʿbān Thirty Days if the Crescent is Blocked on the Thirtieth Night",
+            "ru": "Постановление о завершении Шаабана тридцатью днями при скрытии новолуния в тридцатую ночь",
+            "es": "Norma sobre completar Shaʿbān treinta días si la luna nueva está oculta en la trigésima noche",
+            "uk": "Постанова про завершення Шаабана тридцятьма днями при приховуванні молодика в тридцяту ніч"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: يجوز صوم يوم الشك نفلاً، وقول المالكية: صومه احتياطاً لرمضان مكروه لا محرّم.",
+            "en": "The Ḥanafī position was corrected: fasting the day of doubt voluntarily is permissible; and the Mālikī position: fasting it as a precaution for Ramadan is disliked, not prohibited.",
+            "ru": "Исправлено мнение ханафитов: добровольный пост в день сомнения дозволен; и мнение маликитов: пост в него из предосторожности за Рамадан нежелателен, а не запретен.",
+            "es": "Se corrigió la posición ḥanafí: ayunar voluntariamente el día de la duda es lícito; y la mālikí: ayunarlo por precaución de Ramadán es reprobable, no prohibido.",
+            "uk": "Виправлено думку ханафітів: добровільний піст у день сумніву дозволений; і думку малікітів: піст у нього з перестороги за Рамадан небажаний, а не заборонений."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F50",
+          "title": {
+            "ar": "حكم اختلاف المطالع وعموم الرؤية في البلدان",
+            "en": "Ruling on the Difference of Moonrise Locations and the General Applicability of Sighting Across Lands",
+            "ru": "Постановление о различении мест восхода новолуния и всеобщей видимости для разных стран",
+            "es": "Norma sobre la diferencia de los horizontes de aparición (maṭāliʿ) de la luna y la generalización del avistamiento en los países",
+            "uk": "Постанова про різницю місць сходження молодика та загальність видимості в країнах"
+          },
+          "note": {
+            "ar": "صُحّح قولا المالكية والشافعية: لا عبرة باختلاف المطالع عند المالكية، والضابط عند الشافعية اختلاف المطالع لا مسافة القصر.",
+            "en": "The Mālikī and Shāfiʿī positions were corrected: for the Mālikīs differing moonrises are disregarded, and for the Shāfiʿīs the criterion is differing moonrises, not the distance for shortening the prayer.",
+            "ru": "Исправлены мнения маликитов и шафиитов: у маликитов различие мест восхода не учитывается, а у шафиитов мерилом служит различие мест восхода, а не расстояние сокращения молитвы.",
+            "es": "Se corrigieron las posturas malikí y shafiʿí: para los malikíes no cuenta la diferencia de horizontes, y para los shafiʿíes el criterio es la diferencia de horizontes, no la distancia para acortar la oración.",
+            "uk": "Виправлено думки малікітів і шафіїтів: у малікітів різниця місць сходу не враховується, а в шафіїтів мірилом є різниця місць сходу, а не відстань скорочення молитви."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F52",
+          "title": {
+            "ar": "العمل بالحساب الفلكي في ثبوت شهر رمضان",
+            "en": "Ruling on Using Astronomical Calculation to Confirm the Month of Ramadan",
+            "ru": "Постановление об использовании астрономических расчетов для подтверждения месяца Рамадан",
+            "es": "Norma sobre el uso de cálculos astronómicos para confirmar el mes de Ramadán",
+            "uk": "Постанова про використання астрономічних розрахунків для підтвердження місяця Рамадан"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: للحاسب أن يعمل بحسابه لنفسه، وقول الحنابلة: يجب الصوم إذا حال غيم أو قتر ليلة الثلاثين من شعبان.",
+            "en": "Corrected the Shafiʿi position (the calculator may act on his own calculation for himself) and the Hanbali position (fasting is obligatory if clouds or haze obscure the crescent on the night of the thirtieth of Shaʿbān).",
+            "ru": "Исправлены позиции шафиитов (вычислитель может сам следовать своему расчёту) и ханбалитов (пост обязателен, если в ночь на тридцатое Шаабана новолуние скрыто облаками или мглой).",
+            "es": "Se corrigieron las posturas shafiʿí (el calculador puede actuar según su cálculo para sí mismo) y hanbalí (el ayuno es obligatorio si nubes o calima ocultan la luna nueva la noche del treinta de Shaʿbān).",
+            "uk": "Виправлено позиції шафіїтів (обчислювач може сам діяти за своїм розрахунком) і ханбалітів (піст обов'язковий, якщо в ніч на тридцяте Шаабану молодик закритий хмарами чи імлою)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F53",
+          "title": {
+            "ar": "حكم اشتراط تبييت النية من الليل لصوم رمضان",
+            "en": "Ruling on the Condition of Intending Fasting Ramadan from the Night Before",
+            "ru": "Постановление об условии намерения поститься в Рамадан с ночи",
+            "es": "Norma sobre la condición de la intención de ayunar Ramadán desde la noche anterior",
+            "uk": "Постанова про умову наміру постити в Рамадан з ночі"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يُشترط تبييت النية في كل صوم ولو نفلاً، لا في الفرض وحده.",
+            "en": "The Maliki position was corrected: forming the intention at night is required for every fast, even a voluntary one, not only for the obligatory fast.",
+            "ru": "Исправлено мнение маликитов: намерение с ночи требуется для любого поста, даже добровольного, а не только для обязательного.",
+            "es": "Se corrigió la posición malikí: formar la intención de noche se exige en todo ayuno, aun voluntario, y no solo en el obligatorio.",
+            "uk": "Виправлено погляд малікітів: намір з ночі потрібен для будь-якого посту, навіть добровільного, а не лише для обов'язкового."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F61",
+          "title": {
+            "ar": "شروط وجوب صيام رمضان (البلوغ والعقل والقدرة)",
+            "en": "Conditions for the Obligation of Fasting Ramadan (Puberty, Sanity, and Capability)",
+            "ru": "Условия обязательности поста в Рамадан (совершеннолетие, разум и способность)",
+            "es": "Condiciones para la obligación del ayuno de Ramadán (pubertad, sanidad mental y capacidad)",
+            "uk": "Умови обов'язковості посту в Рамадан (повноліття, розум та спроможність)"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: الإسلام عندهم شرط صحة للصيام فقط لا شرط وجوب.",
+            "en": "The Mālikī position was corrected: for them Islam is only a condition of the fast's validity, not of its obligation.",
+            "ru": "Исправлено мнение маликитов: ислам у них — лишь условие действительности поста, а не его обязательности.",
+            "es": "Se corrigió la posición mālikí: para ellos el islam es solo condición de validez del ayuno, no de su obligación.",
+            "uk": "Виправлено думку малікітів: іслам у них — лише умова дійсності посту, а не його обов'язковості."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F59",
+          "title": {
+            "ar": "حكم التدخين وما يُستنشق عمداً في نهار الصيام",
+            "en": "Ruling on Smoking and What is Intentionally Inhaled During the Day of Fasting",
+            "ru": "Постановление о курении и том, что намеренно вдыхается во время поста",
+            "es": "Norma sobre fumar y lo que se inhala intencionalmente durante el ayuno",
+            "uk": "Постанова про куріння та те, що навмисно вдихається під час посту"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: يفسد الصوم بإدخال أيّ دخان عمداً دون قيد الجِرْم، وتلزم الكفّارة في شرب التبغ عمداً.",
+            "en": "Corrected the Ḥanafī position: the fast is invalidated by intentionally drawing in any smoke, without the condition of having substance, and kaffarah is due for intentionally smoking tobacco.",
+            "ru": "Исправлено мнение ханафитов: пост нарушается намеренным введением любого дыма без условия наличия массы, а за намеренное курение табака обязательно искупление.",
+            "es": "Se corrigió la postura ḥanafí: el ayuno se invalida al introducir intencionalmente cualquier humo, sin la condición de que tenga sustancia, y se debe la kaffarah por fumar tabaco intencionalmente.",
+            "uk": "Виправлено позицію ханафітів: піст порушується навмисним введенням будь-якого диму без умови наявності маси, а за навмисне куріння тютюну обов'язкова спокута."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F111",
+          "title": {
+            "ar": "حكم النظر إلى المخطوبة وحدوده",
+            "en": "Looking at the Woman One Intends to Marry, and How Far It Extends",
+            "ru": "Взгляд на ту, к которой сватаются, и его пределы",
+            "es": "Mirar a la mujer con quien se pretende casar, y hasta dónde llega",
+            "uk": "Погляд на ту, до якої сватаються, та його межі"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: يكون النظر بعلم المخطوبة أو وليّها، ويُكره استغفالها.",
+            "en": "The Mālikī position was corrected: the looking is to be with the knowledge of the woman or her guardian, and looking at her unawares is disliked.",
+            "ru": "Исправлено мнение маликитов: смотрят с ведома самой женщины или её опекуна, а смотреть на неё тайком нежелательно.",
+            "es": "Se corrigió la posición malikí: la mirada debe ser con conocimiento de la mujer o de su tutor, y mirarla a escondidas es reprobable.",
+            "uk": "Виправлено думку малікітів: дивляться з відома самої жінки чи її опікуна, а дивитися на неї потай небажано."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F107",
+          "title": {
+            "ar": "حكم الخطبة على خطبة الغير",
+            "en": "Making an Offer of Marriage over Another Man's Offer",
+            "ru": "Сватовство поверх сватовства другого",
+            "es": "Pedir en matrimonio sobre la petición de otro",
+            "uk": "Сватання поверх сватання іншого"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: لا يُشترط تقدير الصداق، ويُفسخ العقد قبل الدخول لا بعده.",
+            "en": "Corrected the Maliki position: fixing the dower is not required, and the contract is annulled before consummation but not after it.",
+            "ru": "Исправлена позиция маликитов: определение приданого не требуется, а договор расторгается до консумации, но не после неё.",
+            "es": "Se corrigió la postura malikí: no se requiere fijar la dote, y el contrato se anula antes de la consumación, pero no después.",
+            "uk": "Виправлено позицію малікітів: визначення приданого не потрібне, а договір розривають до консумації, але не після неї."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F108",
+          "title": {
+            "ar": "خِطبة المعتدّة صراحةً والتعريض بها",
+            "en": "Offering Marriage to a Woman in Her Waiting Period, Openly or by Hint",
+            "ru": "Сватовство к женщине в период ожидания — прямо и намёком",
+            "es": "Pedir en matrimonio a la mujer en su período de espera, de forma clara o por insinuación",
+            "uk": "Сватання до жінки в період очікування — прямо й натяком"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: يحرم التعريض للمطلّقة البائن أيضاً، ولا يجوز إلا لمعتدّة الوفاة.",
+            "en": "The Ḥanafī position was corrected: hinting is forbidden to the irrevocably divorced woman too, and is permitted only to a widow.",
+            "ru": "Исправлено мнение ханафитов: намёк запрещён и разведённой окончательно и дозволен лишь вдове.",
+            "es": "Se corrigió la postura hanafí: insinuar está prohibido también a la divorciada de modo irrevocable y solo se permite a la viuda.",
+            "uk": "Виправлено думку ханафітів: натяк заборонений і розлученій остаточно та дозволений лише вдові."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F114",
+          "title": {
+            "ar": "أثر العدول عن الخِطبة فيما دُفع من هدايا",
+            "en": "The Effect of Withdrawing from a Betrothal on Gifts Already Given",
+            "ru": "Последствия отказа от сватовства для уже подаренных подарков",
+            "es": "El efecto de retirarse del compromiso sobre los regalos ya entregados",
+            "uk": "Наслідки відмови від сватання для вже подарованих подарунків"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: لا رجوع للخاطب إلا بعرف أو شرط، وقول الحنابلة: يرجع إن لم يفوا بوعد العقد ولا يرجع إن امتنع هو.",
+            "en": "Corrected the Mālikī position (no recovery except by custom or stipulation) and the Ḥanbalī position (he recovers if they broke the promise of marriage, not if he himself refused).",
+            "ru": "Исправлено мнение маликитов (возврата нет, кроме как по обычаю или условию) и ханбалитов (он возвращает подарок, если не сдержали обещания брака, но не если отказался он сам).",
+            "es": "Se corrigió la posición mālikí (no hay devolución salvo por costumbre o estipulación) y la ḥanbalí (lo recupera si no cumplieron la promesa de contrato, no si él mismo se negó).",
+            "uk": "Виправлено позицію малікітів (повернення немає, окрім як за звичаєм чи умовою) і ханбалітів (він повертає подарунок, якщо не дотримали обіцянки шлюбу, але не якщо відмовився він сам)."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F115",
+          "title": {
+            "ar": "الكفاءة في النكاح: ما يُعتبر فيها وأثر فقدها",
+            "en": "Suitability in Marriage: What Counts in It and the Effect of Its Absence",
+            "ru": "Соответствие в браке: что в нём учитывается и последствия его отсутствия",
+            "es": "La idoneidad en el matrimonio: qué se considera en ella y el efecto de su ausencia",
+            "uk": "Відповідність у шлюбі: що в ній враховується та наслідки її відсутності"
+          },
+          "note": {
+            "ar": "صُحّح قولا الحنفية والشافعية: المفتى به عند الحنفية عدم صحّة تزويجها نفسها من غير كفء بلا رضا وليّها، ولا يصحّ عند الشافعية في الأظهر تزويجها غيرَ كفء دون رضاها أو رضا الأولياء المستوين.",
+            "en": "The Hanafi and Shafiʿi positions were corrected: the Hanafi fatwa is that her marrying herself to an unsuitable man without her guardian's consent is not valid, and for the Shafiʿis marrying her to an unsuitable man without her consent or that of the guardians of equal rank is not valid on the more evident view.",
+            "ru": "Исправлены мнения ханафитов и шафиитов: по ханафитской фетве её брак с несоответствующим без согласия опекуна недействителен, а у шафиитов по более явному мнению недействительна выдача её за несоответствующего без её согласия или согласия опекунов равной степени.",
+            "es": "Se corrigieron las posiciones hanafí y shafiʿí: según la fetua hanafí no es válido que se case por sí misma con quien no es idóneo sin el consentimiento de su tutor, y para los shafiʿíes no es válido, según la opinión más evidente, casarla con quien no es idóneo sin su consentimiento o el de los tutores del mismo grado.",
+            "uk": "Виправлено погляди ханафітів і шафіїтів: за ханафітською фетвою її шлюб із невідповідним без згоди опікуна недійсний, а в шафіїтів за найочевиднішим поглядом недійсна видача її за невідповідного без її згоди чи згоди опікунів рівного ступеня."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F116",
+          "title": {
+            "ar": "عَضْل الوليّ وحكم تزويج السلطان عند عضله",
+            "en": "A Guardian's Withholding of Marriage, and the Ruler Giving Her in Marriage Instead",
+            "ru": "Воспрепятствование опекуна браку и выдача замуж правителем",
+            "es": "El impedimento del tutor al matrimonio y el casamiento por la autoridad",
+            "uk": "Перешкоджання опікуна шлюбові та видання заміж правителем"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: يزوّج السلطان عند العضل إلا إن تكرّر ثلاثاً ففسق الوليّ فتنتقل الولاية إلى الأبعد، وحُذف من قول الحنابلة مثالٌ مخالف لترتيب الأولياء.",
+            "en": "Corrected the Shafiʿi position (the ruler marries her off when the guardian withholds, unless he has done so three times and become a sinner, when guardianship passes to the next guardian) and removed from the Hanbali position an example that contradicted the order of guardians.",
+            "ru": "Исправлена позиция шафиитов (при воспрепятствовании её выдаёт правитель, если только опекун не препятствовал трижды и не стал нечестивцем — тогда опекунство переходит к следующему) и убран из позиции ханбалитов пример, противоречащий порядку опекунов.",
+            "es": "Se corrigió la postura shafiʿí (el gobernante la casa cuando el tutor la impide, salvo que lo haya hecho tres veces y se haya vuelto transgresor, en cuyo caso la tutela pasa al siguiente) y se eliminó de la postura hanbalí un ejemplo contrario al orden de los tutores.",
+            "uk": "Виправлено позицію шафіїтів (при перешкоджанні її видає правитель, хіба що опікун перешкоджав тричі й став нечестивцем — тоді опіка переходить до наступного) і прибрано з позиції ханбалітів приклад, що суперечив порядку опікунів."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F113",
+          "title": {
+            "ar": "صيغة الإيجاب والقبول والألفاظ التي ينعقد بها النكاح",
+            "en": "The Formula of Offer and Acceptance, and the Words by Which Marriage Is Concluded",
+            "ru": "Формула предложения и принятия и слова, которыми заключается брак",
+            "es": "La fórmula de oferta y aceptación y las palabras con las que se concluye el matrimonio",
+            "uk": "Формула пропозиції та прийняття і слова, якими укладається шлюб"
+          },
+          "note": {
+            "ar": "صُحّح قول المالكية: ينعقد بالهبة مع تسمية الصداق وفي البيع والتمليك تردّد، وقول الشافعية: يصحّ «زوّجني» من الزوج مع «زوّجتك» من الوليّ.",
+            "en": "Corrected the Mālikī position: marriage is concluded by the word of gift with the dower named, while sale and conveyance are disputed; and the Shāfiʿī position: the groom's “Marry me to her” with the guardian's “I have married you to her” is valid.",
+            "ru": "Исправлено мнение маликитов: брак заключается словом дарения при названном даре, а о продаже и передаче во владение есть разногласие; и мнение шафиитов: действительны слова жениха «Выдай её за меня» с ответом опекуна «Я выдал её за тебя».",
+            "es": "Se corrigió la postura mālikí: el matrimonio se concluye con el término de donación nombrando la dote, mientras que venta y traspaso son discutidos; y la shāfiʿí: es válido el «cásame con ella» del novio con el «te he casado con ella» del tutor.",
+            "uk": "Виправлено позицію малікітів: шлюб укладається словом дарування з названим даром, а щодо продажу й передання у власність є розбіжність; і позицію шафіїтів: дійсні слова нареченого «Видай її за мене» з відповіддю опікуна «Я видав її за тебе»."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F117",
+          "title": {
+            "ar": "انعقاد النكاح بغير اللغة العربية",
+            "en": "Concluding a Marriage in a Language Other Than Arabic",
+            "ru": "Заключение брака не на арабском языке",
+            "es": "La conclusión del matrimonio en una lengua distinta del árabe",
+            "uk": "Укладення шлюбу мовою, іншою за арабську"
+          },
+          "note": {
+            "ar": "صُحّح قول الشافعية: يصحّ النكاح بالعجمية ولو أحسن العاقد العربية.",
+            "en": "The Shāfiʿī position was corrected: marriage is valid in a non-Arabic language even if the contracting party can speak Arabic.",
+            "ru": "Исправлено мнение шафиитов: брак действителен не на арабском языке, даже если заключающий владеет арабским.",
+            "es": "Se corrigió la posición shāfiʿí: el matrimonio es válido en lengua distinta del árabe aunque quien contrata sepa árabe.",
+            "uk": "Виправлено думку шафіїтів: шлюб дійсний мовою, іншою за арабську, навіть якщо той, хто укладає, володіє арабською."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F118",
+          "title": {
+            "ar": "اشتراط الوليّ وحكم تزويج المرأة نفسها",
+            "en": "The Requirement of a Guardian, and a Woman Contracting Her Own Marriage",
+            "ru": "Условие опекуна и заключение брака женщиной самостоятельно",
+            "es": "El requisito del tutor y la mujer que contrata su propio matrimonio",
+            "uk": "Умова опікуна та укладення шлюбу жінкою самостійно"
+          },
+          "note": {
+            "ar": "صُحّح قول الحنفية: تزويج المرأة نفسها من غير كفء لا يصحّ أصلاً على المفتى به.",
+            "en": "The Ḥanafī position was corrected: a woman giving herself in marriage to one who is not a suitable match is not valid at all, per the position for fatwa.",
+            "ru": "Исправлено мнение ханафитов: по фетве брак, в который женщина выдала себя за несоответствующего, вовсе недействителен.",
+            "es": "Se corrigió la postura hanafí: según la opinión para la fetua, que la mujer se case a sí misma con quien no es idóneo no es válido en absoluto.",
+            "uk": "Виправлено думку ханафітів: за фетвою шлюб, у який жінка видала себе за невідповідного, узагалі недійсний."
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F119",
+          "title": {
+            "ar": "شروط الوليّ وترتيب الأولياء",
+            "en": "The Qualifications of the Guardian and the Order of Guardians",
+            "ru": "Условия опекуна и порядок опекунов",
+            "es": "Las condiciones del tutor y el orden de los tutores",
+            "uk": "Умови опікуна та порядок опікунів"
+          },
+          "note": {
+            "ar": "صُحّح ترتيب الأولياء عند المالكية: أُضيف ابن الابن وابن العمّ والمولى والكافل، وقُدّم الحاكم على عامّة المسلمين، وحُذف الوصيّ من ترتيب غير المجبر.",
+            "en": "The Mālikī order of guardians was corrected: the son's son, the uncle's son, the patron and the foster guardian were added, the ruler was placed before the Muslims at large, and the executor was removed from the order of non-compelling guardians.",
+            "ru": "Исправлен порядок опекунов у маликитов: добавлены сын сына, сын дяди, покровитель и воспитатель, правитель поставлен перед мусульманами вообще, а душеприказчик убран из порядка непринуждающих опекунов.",
+            "es": "Se corrigió el orden mālikí de los tutores: se añadieron el hijo del hijo, el hijo del tío, el patrono y quien la crió, el gobernante se antepuso a los musulmanes en general y se quitó el albacea del orden de los tutores sin potestad de obligar.",
+            "uk": "Виправлено порядок опікунів у малікітів: додано сина сина, сина дядька, покровителя й вихователя, правителя поставлено перед мусульманами загалом, а виконавця заповіту прибрано з порядку непримушувальних опікунів."
+          }
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "added": [],
       "revised": [
@@ -407,18 +1547,18 @@
           "kind": "issue",
           "ref": "F92",
           "title": {
-            "ar": "حكم من طهرت وقد بقي من الوقت ما يسع ركعة",
-            "en": "A Woman Who Becomes Pure with Time Left for One Unit of Prayer",
-            "ru": "Женщина, ставшая чистой, когда времени осталось на один ракаат",
-            "es": "La mujer que se purifica cuando queda tiempo para un solo rakʿah",
-            "uk": "Жінка, що стала чистою, коли часу лишилося на один ракаат"
+            "ar": "حكم من طهرت قبل خروج وقت الصلاة",
+            "en": "A Woman Who Becomes Pure before the Prayer's Time Ends",
+            "ru": "Женщина, ставшая чистой до истечения времени молитвы",
+            "es": "La mujer que se purifica antes de que salga el tiempo de la oración",
+            "uk": "Жінка, що стала чистою до закінчення часу молитви"
           }
         },
         {
           "kind": "issue",
           "ref": "F93",
           "title": {
-            "ar": "حكم قضاء الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
+            "ar": "حكم لزوم الظهر مع العصر والمغرب مع العشاء لمن طهرت في آخر الوقت",
             "en": "Whether a Woman Who Becomes Pure Late in the Day Must Also Pray the Earlier of the Two Joinable Prayers",
             "ru": "Должна ли женщина, ставшая чистой в конце времени, совершить и предыдущую из двух соединяемых молитв",
             "es": "Si la mujer que se purifica al final del tiempo debe rezar también la anterior de las dos oraciones que se juntan",
@@ -1253,11 +2393,11 @@
           "kind": "issue",
           "ref": "F21",
           "title": {
-            "ar": "حكم تقسيم المياه إلى طهور وطاهر ونجس",
-            "en": "Ruling on classifying water as tahur, pure, or impure",
-            "ru": "Постановление о делении воды на тахур, чистую и нечистую",
-            "es": "Norma sobre la clasificación del agua en tahur, pura e impura",
-            "uk": "Постанова про поділ вод на очищувальну, чисту та нечисту"
+            "ar": "أقسام المياه وضابط كل قسم",
+            "en": "The categories of water and what defines each",
+            "ru": "Категории воды и чем определяется каждая",
+            "es": "Las categorías del agua y lo que define cada una",
+            "uk": "Види вод і чим визначається кожен вид"
           }
         },
         {
@@ -1442,7 +2582,7 @@
           "title": {
             "ar": "هيئة وضع اليدين أثناء القيام في الصلاة (التكتف والسدل)",
             "en": "Position of Hands While Standing in Prayer (Qabd vs Sadl)",
-            "ru": "Положение рук во время стояния в молитве (Складывание vs Опускание)",
+            "ru": "Положение рук во время стояния в молитве (складывание или опускание)",
             "es": "La forma de colocar las manos durante la posición de pie en la oración (qabḍ y sadl)",
             "uk": "Положення рук під час стояння в молитві (складання і опускання)"
           }

@@ -86,11 +86,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "شرط لصحة الطهارة كلها لا تسقط سهواً ولا عمداً.",
-        "en": "A condition for the validity of the entire purification; it does not lapse whether by forgetfulness or deliberately.",
-        "ru": "Условие действительности всего очищения; не отпадает ни по забывчивости, ни намеренно.",
-        "es": "Es una condición para la validez de toda la purificación; no decae ni por olvido ni deliberadamente.",
-        "uk": "Умова дійсності всього очищення; не відпадає ні через забудькуватість, ні навмисно."
+        "ar": "شرط لصحة طهارة الأحداث كلها وضوءاً وغسلاً وتيمّماً، لا تسقط سهواً ولا عمداً.",
+        "en": "A condition for the validity of every purification from ritual impurity — ablution, full bath, and dry ablution; it does not lapse whether by forgetfulness or deliberately.",
+        "ru": "Условие действительности всякого очищения от ритуальной осквернённости — омовения, полного омовения и таяммума; не отпадает ни по забывчивости, ни намеренно.",
+        "es": "Es una condición para la validez de toda purificación de la impureza ritual —ablución, baño ritual y tayammum—; no decae ni por olvido ni deliberadamente.",
+        "uk": "Умова дійсності кожного очищення від ритуальної оскверненості — омивання, повного обмивання і таяммуму; не відпадає ні через забудькуватість, ні навмисно."
       },
       "sources": [
         {
@@ -104,5 +104,13 @@
       "grade": "fard",
       "nature": "shart"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: النية شرط لطهارة الأحداث لا لإزالة النجاسة.",
+    "en": "The Ḥanbalī position was corrected: intention is a condition for purification from ritual impurity, not for removing filth.",
+    "ru": "Исправлено мнение ханбалитов: намерение — условие очищения от ритуальной осквернённости, а не удаления нечистоты.",
+    "es": "Se corrigió la posición ḥanbalí: la intención es condición de la purificación de la impureza ritual, no de la eliminación de la suciedad.",
+    "uk": "Виправлено думку ханбалітів: намір — умова очищення від ритуальної оскверненості, а не усунення нечистоти."
   }
 }

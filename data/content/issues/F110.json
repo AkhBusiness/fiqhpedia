@@ -24,7 +24,6 @@
     "es": "¿Cuál es la norma sobre la piedad filial y la bondad hacia los padres no musulmanes, y hasta dónde llega la obediencia a ellos?",
     "uk": "Яка постанова про шанобливість і благодіяння до батьків-немусульман, і доки сягає послух їм?"
   },
-  "agreed": true,
   "rulings": {
     "hanafi": {
       "grade": "wajib",
@@ -128,11 +127,11 @@
     "hanbali": {
       "grade": "wajib",
       "text": {
-        "ar": "يجب برّ الوالدين غير المسلمين بوجوه الإحسان كلّها من نفقة وخدمة ولين وزيارة، ويحرم عقوقهما، ولا طاعة لهما في معصية الله، لقوله تعالى: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
-        "en": "Dutifulness to parents who are not Muslim is obligatory in every form of kindness — maintenance, service, gentleness and visiting — and being undutiful to them is forbidden. They are not obeyed in disobedience to God. Sūrat Luqmān, verse 15.",
-        "ru": "Почтительность к родителям-немусульманам обязательна во всех видах благодеяния — содержание, услужение, мягкость и посещение, — а непочтительность к ним запретна. Им не повинуются в ослушании Бога. Сура «Лукман», аят 15.",
-        "es": "La piedad filial hacia los padres no musulmanes es obligatoria en toda forma de bondad —manutención, servicio, dulzura y visita—, y faltarles es ilícito. No se les obedece en la desobediencia a Dios. Sura Luqmān, aleya 15.",
-        "uk": "Шанобливість до батьків-немусульман обовʼязкова в усіх видах благодіяння — утримання, служіння, лагідність і відвідини, — а непошана до них заборонена. Їм не підкоряються в гріху перед Богом. Сура «Лукман», аят 15."
+        "ar": "يجب برّ الوالدين غير المسلمين بالإحسان والخدمة واللين والزيارة، ويحرم عقوقهما، ولا تجب نفقتهما مع اختلاف الدين، ولا طاعة لهما في معصية الله، لقوله تعالى: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ سورة لقمان: ١٥.",
+        "en": "Dutifulness to parents who are not Muslim is obligatory — in kindness, service, gentleness and visiting — and being undutiful to them is forbidden. Their maintenance is not obligatory where the religion differs, and they are not obeyed in disobedience to God: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ Sūrat Luqmān, verse 15.",
+        "ru": "Почтительность к родителям-немусульманам обязательна — благодеянием, услужением, мягкостью и посещением, — а непочтительность к ним запретна. Их содержание не обязательно при различии в религии, и им не повинуются в ослушании Бога: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ Сура «Лукман», аят 15.",
+        "es": "La piedad filial hacia los padres no musulmanes es obligatoria —con bondad, servicio, dulzura y visita—, y faltarles es ilícito. Su manutención no es obligatoria cuando la religión difiere, y no se les obedece en la desobediencia a Dios: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ Sura Luqmān, aleya 15.",
+        "uk": "Шанобливість до батьків-немусульман обовʼязкова — благодіянням, служінням, лагідністю й відвідинами, — а непошана до них заборонена. Їхнє утримання не є обовʼязковим за різниці в релігії, і їм не підкоряються в гріху перед Богом: ﴿وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا﴾ Сура «Лукман», аят 15."
       },
       "sources": [
         {
@@ -158,5 +157,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: لا تجب نفقة الوالدين مع اختلاف الدين.",
+    "en": "The Ḥanbalī position was corrected: maintaining the parents is not obligatory where the religion differs.",
+    "ru": "Исправлено мнение ханбалитов: содержание родителей не обязательно при различии в религии.",
+    "es": "Se corrigió la posición ḥanbalí: la manutención de los padres no es obligatoria cuando la religión difiere.",
+    "uk": "Виправлено думку ханбалітів: утримання батьків не є обовʼязковим за різниці в релігії."
   }
 }

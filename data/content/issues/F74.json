@@ -60,13 +60,13 @@
       ]
     },
     "maliki": {
-      "grade": "sunnah",
+      "grade": "mandub",
       "text": {
-        "ar": "يُسنّ التأمين سرّاً للمأموم والمنفرد، ويؤمّن الإمام سرّاً في السرّية ولا يؤمّن في الجهرية.",
-        "en": "Saying āmīn silently is a sunnah for the follower and one praying alone; the imam says it silently in the silent prayer and does not say it in the audible prayer.",
-        "ru": "Произносить «амин» про себя — сунна для следующего за имамом и молящегося в одиночку; имам произносит его про себя в тихой молитве и не произносит в громкой.",
-        "es": "Decir āmīn en voz baja es sunnah para el seguidor y quien reza solo; el imam lo dice en voz baja en la oración silenciosa y no lo dice en la audible.",
-        "uk": "Виголошувати «амін» про себе — сунна для того, хто молиться за імамом, і того, хто молиться самотою; імам виголошує його про себе в тихій молитві й не виголошує в гучній."
+        "ar": "يُندب التأمين سرّاً للمأموم والمنفرد، ويؤمّن الإمام سرّاً في السرّية ولا يؤمّن في الجهرية.",
+        "en": "Saying āmīn silently is recommended for the follower and one praying alone; the imam says it silently in the silent prayer and does not say it in the audible prayer.",
+        "ru": "Произносить «амин» про себя желательно для следующего за имамом и молящегося в одиночку; имам произносит его про себя в тихой молитве и не произносит в громкой.",
+        "es": "Decir āmīn en voz baja es recomendable para el seguidor y quien reza solo; el imam lo dice en voz baja en la oración silenciosa y no lo dice en la audible.",
+        "uk": "Виголошувати «амін» про себе бажано для того, хто молиться за імамом, і того, хто молиться самотою; імам виголошує його про себе в тихій молитві й не виголошує в гучній."
       },
       "sources": [
         {

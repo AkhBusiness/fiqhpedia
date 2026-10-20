@@ -29,11 +29,11 @@
     "hanafi": {
       "grade": "wajib",
       "text": {
-        "ar": "يصلّي فيه ولا يصلّي عارياً، لأن ستر العورة فرض واجتناب النجاسة شرط، ودرءُ كشف العورة مقدَّم.",
-        "en": "He prays in it and does not pray uncovered, because covering the ʿawrah is an obligation while avoiding impurity is a condition, and preventing the exposure of the ʿawrah takes precedence.",
-        "ru": "Он молится в ней и не молится нагим, ибо прикрытие аврата — обязанность, а избегание нечистоты — условие, и предотвращение обнажения аврата имеет преимущество.",
-        "es": "Reza con ella y no reza desnudo, porque cubrir la ʿawrah es una obligación mientras que evitar la impureza es una condición, y evitar que se descubra la ʿawrah tiene prioridad.",
-        "uk": "Він молиться в ньому і не молиться нагим, бо прикриття аврату — обов'язок, а уникнення нечистоти — умова, і запобігання оголенню аврату має перевагу."
+        "ar": "إن كان ربعه فأكثر طاهراً صلّى فيه حتماً ولا يصلّي عارياً، وإن كان أقلّ من الربع طاهراً تخيّر بين الصلاة فيه والصلاة عارياً، والأفضل أن يصلّي فيه.",
+        "en": "If a quarter of it or more is pure, he must pray in it and may not pray uncovered; if less than a quarter is pure, he may choose between praying in it and praying uncovered, though praying in it is better.",
+        "ru": "Если чиста четверть одежды или больше, он обязательно молится в ней и не молится нагим; если чисто меньше четверти, он вправе выбрать между молитвой в ней и молитвой нагим, но лучше молиться в ней.",
+        "es": "Si un cuarto o más de la prenda es puro, debe rezar con ella y no rezar desnudo; si es puro menos de un cuarto, puede elegir entre rezar con ella o rezar desnudo, aunque es preferible rezar con ella.",
+        "uk": "Якщо чиста чверть одягу або більше, він неодмінно молиться в ньому і не молиться нагим; якщо чисто менше чверті, він може обирати між молитвою в ньому та молитвою нагим, але краще молитися в ньому."
       },
       "sources": [
         {
@@ -95,11 +95,11 @@
     "shafii": {
       "grade": "wajib",
       "text": {
-        "ar": "يصلّي فيه ولا يصلّي عارياً، لأن طهارة الثوب شرط عجز عنه، وستر العورة مقدَّم عليها.",
-        "en": "He prays in it and does not pray uncovered, because the purity of the garment is a condition he is unable to meet, and covering the ʿawrah takes precedence over it.",
-        "ru": "Он молится в ней и не молится нагим, ибо чистота одежды — условие, которое он не в силах исполнить, а прикрытие аврата имеет перед ним преимущество.",
-        "es": "Reza con ella y no reza desnudo, porque la pureza de la prenda es una condición que no puede cumplir, y cubrir la ʿawrah tiene prioridad sobre ella.",
-        "uk": "Він молиться в ньому і не молиться нагим, бо чистота одягу — умова, яку він не в змозі виконати, а прикриття аврату має перед нею перевагу."
+        "ar": "لا يصلّي في الثوب النجس، بل يصلّي عارياً ويُتمّ الأركان، ولا إعادة عليه.",
+        "en": "He does not pray in the impure garment; rather, he prays uncovered, performing all the pillars in full, and need not repeat the prayer.",
+        "ru": "Он не молится в нечистой одежде, а молится нагим, полностью совершая все столпы, и не повторяет молитву.",
+        "es": "No reza con la prenda impura, sino que reza desnudo, cumpliendo íntegramente los pilares, y no tiene que repetir la oración.",
+        "uk": "Він не молиться в нечистому одязі, а молиться нагим, повністю виконуючи всі стовпи, і не повторює молитву."
       },
       "sources": [
         {
@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "wajib",
       "text": {
-        "ar": "يصلّي فيه ولا يصلّي عارياً، لأن طهارة الثوب شرط يسقط بالعجز، وستر العورة آكد منه.",
-        "en": "He prays in it and does not pray uncovered, because the purity of the garment is a condition that lapses through inability, while covering the ʿawrah is the more emphasised of the two.",
-        "ru": "Он молится в ней и не молится нагим, ибо чистота одежды — условие, отпадающее при неспособности, тогда как прикрытие аврата важнее.",
-        "es": "Reza con ella y no reza desnudo, porque la pureza de la prenda es una condición que decae por incapacidad, mientras que cubrir la ʿawrah es lo más enfatizado de los dos.",
-        "uk": "Він молиться в ньому і не молиться нагим, бо чистота одягу — умова, що відпадає при нездатності, тоді як прикриття аврату є важливішим."
+        "ar": "يصلّي فيه ولا يصلّي عارياً، ويُعيد الصلاة، لأن طهارة الثوب شرط لم يأتِ به.",
+        "en": "He prays in it and does not pray uncovered, and he must repeat the prayer, because the purity of the garment is a condition he did not fulfil.",
+        "ru": "Он молится в ней и не молится нагим, а затем повторяет молитву, ибо чистота одежды — условие, которое он не выполнил.",
+        "es": "Reza con ella y no reza desnudo, y debe repetir la oración, porque la pureza de la prenda es una condición que no cumplió.",
+        "uk": "Він молиться в ньому і не молиться нагим, а потім повторює молитву, бо чистота одягу — умова, яку він не виконав."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية بالتفصيل بين طهارة ربع الثوب وما دونه، وقول الشافعية: يصلّي عارياً ولا إعادة، وقول الحنابلة: يُعيد الصلاة.",
+    "en": "Corrected the Hanafi position (a distinction between a quarter of the garment being pure and less), the Shafiʿi position (he prays uncovered and does not repeat) and the Hanbali position (he repeats the prayer).",
+    "ru": "Исправлены позиции ханафитов (различие между чистой четвертью одежды и меньшей частью), шафиитов (молится нагим и не повторяет) и ханбалитов (повторяет молитву).",
+    "es": "Se corrigieron las posturas hanafí (distinción entre que sea puro un cuarto de la prenda o menos), shafiʿí (reza desnudo y no repite) y hanbalí (repite la oración).",
+    "uk": "Виправлено позиції ханафітів (розрізнення між чистою чвертю одягу та меншою частиною), шафіїтів (молиться нагим і не повторює) і ханбалітів (повторює молитву)."
   }
 }

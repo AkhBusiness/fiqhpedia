@@ -61,11 +61,11 @@
     "maliki": {
       "grade": "haram",
       "text": {
-        "ar": "تحرم الخطبة على خطبة الغير إذا ركنت المرأة إلى الأوّل واتّفقا على الصداق، إلا أن يترك الأوّل أو يأذن. وإن وقع العقد صحّ مع الإثم.",
-        "en": "It is forbidden to make an offer over another's once the woman has inclined to the first man and they have agreed on the dower, unless the first withdraws or gives leave. And if the contract is made, it holds, though the man has sinned.",
-        "ru": "Запрещено свататься поверх сватовства другого, если женщина склонилась к первому и они договорились о приданом, — разве что первый отступится или позволит. А если договор заключён, он действителен, хотя человек согрешил.",
-        "es": "Está prohibido pedir sobre la petición de otro si la mujer se ha inclinado al primero y han acordado la dote, salvo que el primero desista o dé permiso. Y si el contrato se celebra, es válido, aunque el hombre haya pecado.",
-        "uk": "Заборонено свататися поверх сватання іншого, якщо жінка схилилася до першого й вони домовилися про придане, — хіба що перший відступиться або дозволить. А якщо договір укладено, він дійсний, хоча людина згрішила."
+        "ar": "تحرم الخطبة على خطبة الغير إذا ركنت المرأة إلى الأوّل ولو لم يُقدَّر صداق، إلا أن يترك الأوّل أو يأذن. وإن وقع العقد فُسخ قبل الدخول بطلقة بائنة، ولا يُفسخ بعده.",
+        "en": "It is forbidden to make an offer over another's once the woman has inclined to the first man, even if no dower has been fixed, unless the first withdraws or gives leave. And if the contract is made, it is annulled before consummation by an irrevocable divorce, but not after it.",
+        "ru": "Запрещено свататься поверх сватовства другого, если женщина склонилась к первому, даже если приданое не определено, — разве что первый отступится или позволит. А если договор заключён, он расторгается до консумации окончательным разводом, но не после неё.",
+        "es": "Está prohibido pedir sobre la petición de otro si la mujer se ha inclinado al primero, aunque no se haya fijado la dote, salvo que el primero desista o dé permiso. Y si el contrato se celebra, se anula antes de la consumación mediante un divorcio irrevocable, pero no después de ella.",
+        "uk": "Заборонено свататися поверх сватання іншого, якщо жінка схилилася до першого, навіть якщо придане не визначено, — хіба що перший відступиться або дозволить. А якщо договір укладено, його розривають до консумації остаточним розлученням, але не після неї."
       },
       "sources": [
         {
@@ -129,7 +129,7 @@
       "text": {
         "ar": "تحرم الخطبة على خطبة أخيه المسلم إذا أُجيب الأوّل صراحةً أو وُجد ركون إليه؛ فإن أذن الأوّل أو ترك أو رُدّ أو جُهل حاله جازت. وإن وقع العقد صحّ مع الإثم.",
         "en": "It is forbidden to make an offer over the offer of one's Muslim brother once the first man has had an explicit acceptance, or an inclination to him is found; if the first gives leave, withdraws, is turned down, or his position is unknown, it is permitted. And if the contract is made, it holds, though the man has sinned.",
-        "ru": "Запрещено свататься поверх сватовства своего брата-мусульманина, если первому ответили явным согласием или обнаружилась склонность к нему; если первый позволит, отступится, получит отказ или его положение неизвестно, это дозволено. А если договор заключён, он действителен, хотя человек согрішил.",
+        "ru": "Запрещено свататься поверх сватовства своего брата-мусульманина, если первому ответили явным согласием или обнаружилась склонность к нему; если первый позволит, отступится, получит отказ или его положение неизвестно, это дозволено. А если договор заключён, он действителен, хотя человек согрешил.",
         "es": "Está prohibido pedir sobre la petición del hermano musulmán si el primero recibió aceptación explícita, o si se halla inclinación hacia él; si el primero da permiso, desiste, es rechazado, o se desconoce su situación, es lícito. Y si el contrato se celebra, es válido, aunque el hombre haya pecado.",
         "uk": "Заборонено свататися поверх сватання свого брата-мусульманина, якщо першому відповіли явною згодою або виявилася схильність до нього; якщо перший дозволить, відступиться, отримає відмову або його становище невідоме, це дозволено. А якщо договір укладено, він дійсний, хоча людина згрішила."
       },
@@ -157,5 +157,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: لا يُشترط تقدير الصداق، ويُفسخ العقد قبل الدخول لا بعده.",
+    "en": "Corrected the Maliki position: fixing the dower is not required, and the contract is annulled before consummation but not after it.",
+    "ru": "Исправлена позиция маликитов: определение приданого не требуется, а договор расторгается до консумации, но не после неё.",
+    "es": "Se corrigió la postura malikí: no se requiere fijar la dote, y el contrato se anula antes de la consumación, pero no después.",
+    "uk": "Виправлено позицію малікітів: визначення приданого не потрібне, а договір розривають до консумації, але не після неї."
   }
 }

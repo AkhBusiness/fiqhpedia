@@ -59,11 +59,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "لا يثبت صيام أهل بلد برؤية بلد آخر إذا بعد ما بينهما بحيث يختلف المطلع، وأما إذا تقارب البلدان فالرؤية لأحدهما رؤية للآخر.",
-        "en": "Fasting is not established for the people of a country by the sighting of another if the distance between them is far such that moonrises differ; if close, sighting for one is for the other.",
-        "ru": "Пост жителей одной страны не устанавливается по видимости в другой при большом расстоянии между ними; если они близки, то видимость для одного распространяется на другого.",
-        "es": "El ayuno de un país no se establece por el avistamiento de otro si la distancia es lejana de modo que los horizontes de aparición (maṭāliʿ) difieren; si están cerca, el avistamiento de uno vale para el otro.",
-        "uk": "Піст жителів однієї країни не встановлюється за видимістю в іншій при великій відстані між ними; якщо вони близькі, видимість для одного поширюється на іншого."
+        "ar": "لا عبرة باختلاف المطالع؛ فإذا ثبتت الرؤية بعدلين أو باستفاضة ونُقلت عمّ الصومُ سائرَ البلاد قريبها وبعيدها.",
+        "en": "The difference in moonrise locations is not taken into account; if the sighting is established by two upright witnesses or by widespread report and is conveyed, fasting becomes binding on all lands, near and far.",
+        "ru": "Различие мест восхода не принимается во внимание; если видимость подтверждена двумя праведными свидетелями или широкой известностью и передана, пост распространяется на все страны, близкие и далёкие.",
+        "es": "La diferencia en los horizontes de aparición (maṭāliʿ) no se toma en cuenta; si el avistamiento se establece por dos testigos íntegros o por notoriedad general y se transmite, el ayuno alcanza a todos los países, cercanos y lejanos.",
+        "uk": "Різниця місць сходу не береться до уваги; якщо видимість підтверджено двома праведними свідками або широкою відомістю і передано, піст поширюється на всі країни, близькі й далекі."
       },
       "sources": [
         {
@@ -91,11 +91,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يُعتبر اختلاف المطالع، فلا يلزم أهل بلد رؤية أهل بلد آخر إذا باعد ما بينهما مسافة القصر أو اختلفت المطالع اختلافاً بيّناً.",
-        "en": "The difference in moonrises matters; the people of one country are not bound by the sighting of another if the distance is vast or moonrises significantly differ.",
-        "ru": "Различие мест восхода учитывается; жителей одной страны не обязывает видимость в другой при большом расстоянии или существенном различии мест восхода.",
-        "es": "Se toma en cuenta la diferencia de los horizontes de aparición (maṭāliʿ); los habitantes de un país no están obligados por el avistamiento de otro si la distancia es grande.",
-        "uk": "Різниця місць сходу враховується; жителів однієї країни не зобов'язує видимість в іншій при великій відстані або суттєвій різниці місць сходу."
+        "ar": "يُعتبر اختلاف المطالع، فلا يلزم أهل بلد رؤيةُ أهل بلد آخر إذا اختلفت مطالعهما، ولا عبرة بمسافة القصر.",
+        "en": "The difference in moonrises matters; the people of one country are not bound by the sighting of another if their moonrise locations differ, and the distance for shortening the prayer is not the criterion.",
+        "ru": "Различие мест восхода учитывается; жителей одной страны не обязывает видимость в другой, если места их восхода различаются, а расстояние сокращения молитвы мерилом не является.",
+        "es": "Se toma en cuenta la diferencia de los horizontes de aparición (maṭāliʿ); los habitantes de un país no están obligados por el avistamiento de otro si sus horizontes difieren, y la distancia que permite acortar la oración no es el criterio.",
+        "uk": "Різниця місць сходу враховується; жителів однієї країни не зобов'язує видимість в іншій, якщо місця їх сходу різняться, а відстань скорочення молитви мірилом не є."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قولا المالكية والشافعية: لا عبرة باختلاف المطالع عند المالكية، والضابط عند الشافعية اختلاف المطالع لا مسافة القصر.",
+    "en": "The Mālikī and Shāfiʿī positions were corrected: for the Mālikīs differing moonrises are disregarded, and for the Shāfiʿīs the criterion is differing moonrises, not the distance for shortening the prayer.",
+    "ru": "Исправлены мнения маликитов и шафиитов: у маликитов различие мест восхода не учитывается, а у шафиитов мерилом служит различие мест восхода, а не расстояние сокращения молитвы.",
+    "es": "Se corrigieron las posturas malikí y shafiʿí: para los malikíes no cuenta la diferencia de horizontes, y para los shafiʿíes el criterio es la diferencia de horizontes, no la distancia para acortar la oración.",
+    "uk": "Виправлено думки малікітів і шафіїтів: у малікітів різниця місць сходу не враховується, а в шафіїтів мірилом є різниця місць сходу, а не відстань скорочення молитви."
   }
 }

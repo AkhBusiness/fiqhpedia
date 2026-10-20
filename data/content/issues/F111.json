@@ -61,11 +61,11 @@
     "maliki": {
       "grade": "mandub",
       "text": {
-        "ar": "يُندب النظر إلى المخطوبة بإذنها أو بغير إذنها، ويقتصر على الوجه والكفّين ظاهرهما وباطنهما، ولا ينظر إلى غير ذلك من بدنها.",
-        "en": "It is recommended to look at the woman one seeks to marry, with or without her leave, and the looking is confined to the face and the hands, front and back; nothing else of her body is looked at.",
-        "ru": "Желательно посмотреть на ту, к которой сватаются, с её позволения или без него, и взгляд ограничивается лицом и кистями рук с обеих сторон; на иное из её тела не смотрят.",
-        "es": "Se recomienda mirar a la mujer a quien se pretende, con o sin su permiso, y la mirada se limita al rostro y las manos, por delante y por detrás; no se mira nada más de su cuerpo.",
-        "uk": "Бажано подивитися на ту, до якої сватаються, з її дозволу чи без нього, і погляд обмежується обличчям та кистями рук з обох боків; на інше з її тіла не дивляться."
+        "ar": "يُندب النظر إلى وجه المخطوبة وكفّيها فقط قبل العقد، بعلمٍ منها أو من وليّها، ويُكره استغفالها، ولا ينظر إلى غير ذلك من بدنها.",
+        "en": "It is recommended to look at the face and hands only of the woman one seeks to marry, before the contract, with her knowledge or her guardian's; looking at her unawares is disliked, and nothing else of her body is looked at.",
+        "ru": "Желательно посмотреть только на лицо и кисти рук той, к которой сватаются, до договора, с ведома её самой или её опекуна; смотреть на неё тайком нежелательно, а на иное из её тела не смотрят.",
+        "es": "Se recomienda mirar solo el rostro y las manos de la mujer a quien se pretende, antes del contrato, con conocimiento de ella o de su tutor; mirarla a escondidas es reprobable, y no se mira nada más de su cuerpo.",
+        "uk": "Бажано подивитися лише на обличчя та кисті рук тієї, до якої сватаються, до договору, з відома її самої чи її опікуна; дивитися на неї потай небажано, а на інше з її тіла не дивляться."
       },
       "sources": [
         {
@@ -157,5 +157,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يكون النظر بعلم المخطوبة أو وليّها، ويُكره استغفالها.",
+    "en": "The Mālikī position was corrected: the looking is to be with the knowledge of the woman or her guardian, and looking at her unawares is disliked.",
+    "ru": "Исправлено мнение маликитов: смотрят с ведома самой женщины или её опекуна, а смотреть на неё тайком нежелательно.",
+    "es": "Se corrigió la posición malikí: la mirada debe ser con conocimiento de la mujer o de su tutor, y mirarla a escondidas es reprobable.",
+    "uk": "Виправлено думку малікітів: дивляться з відома самої жінки чи її опікуна, а дивитися на неї потай небажано."
   }
 }

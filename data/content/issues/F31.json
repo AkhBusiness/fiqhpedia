@@ -123,11 +123,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "لا ينجس الماء بموت ما لا نفس له سائلة متولّداً من طاهر كالذباب والنحل والنمل، ما لم يُطرح فيه.",
-        "en": "Water is not made impure by the death of a creature without flowing blood born of something pure, such as a fly, bee, or ant, unless it was thrown in.",
-        "ru": "Вода не становится нечистой от гибели существа без текучей крови, рождённого от чистого, — мухи, пчелы или муравья, — если оно не было брошено туда.",
-        "es": "El agua no se vuelve impura por la muerte de una criatura sin sangre fluida nacida de algo puro, como mosca, abeja u hormiga, salvo que se arroje en ella.",
-        "uk": "Вода не стає нечистою від загибелі істоти без текучої крові, що народжується з чистого, як муха, бджола та мураха, якщо вона не була кинута туди."
+        "ar": "لا ينجس الماء بموت ما لا نفس له سائلة متولّداً من طاهر كالذباب والنحل والنمل، لأن ميتته طاهرة.",
+        "en": "Water is not made impure by the death of a creature without flowing blood born of something pure, such as a fly, bee, or ant, because its carcass is pure.",
+        "ru": "Вода не становится нечистой от гибели существа без текучей крови, рождённого от чистого, — мухи, пчелы или муравья, — поскольку его падаль чиста.",
+        "es": "El agua no se vuelve impura por la muerte de una criatura sin sangre fluida nacida de algo puro, como mosca, abeja u hormiga, porque su cadáver es puro.",
+        "uk": "Вода не стає нечистою від загибелі істоти без текучої крові, що народжується з чистого, як муха, бджола та мураха, бо її мертве тіло чисте."
       },
       "sources": [
         {
@@ -153,5 +153,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: حُذف قيد «ما لم يُطرح فيه» لأن ميتة ما لا نفس له سائلة طاهرة عندهم.",
+    "en": "The Ḥanbalī position was corrected: the qualifier “unless thrown in” was removed, since for them the carcass of a creature without flowing blood is pure.",
+    "ru": "Исправлено мнение ханбалитов: убрана оговорка «если не было брошено», так как у них падаль существа без текучей крови чиста.",
+    "es": "Se corrigió la posición ḥanbalí: se suprimió la salvedad «salvo que se arroje», pues para ellos el cadáver de una criatura sin sangre fluida es puro.",
+    "uk": "Виправлено думку ханбалітів: прибрано застереження «якщо не була кинута», бо в них мертве тіло істоти без текучої крові чисте."
   }
 }

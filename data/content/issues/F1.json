@@ -91,11 +91,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "لا يصح إسلام القادر بحال إلا بالنطق بالشهادتين معاً والتبرؤ مما يخالف الدين.",
-        "en": "The Islam of an able person is by no means valid except by uttering both testimonies together and disavowing whatever contradicts the religion.",
-        "ru": "Ислам способного никак не действителен, кроме как произнесением обеих шахад вместе и отречением от противоречащего религии.",
-        "es": "El islam de quien puede hacerlo no es válido en ningún caso salvo pronunciando ambos testimonios juntos y desligándose de cuanto contradice la religión.",
-        "uk": "Іслам спроможного жодним чином не дійсний інакше, як промовлянням обох свідчень разом і зреченням того, що суперечить релігії."
+        "ar": "يصح إسلام الكافر بأن يشهد أن لا إله إلا الله وأن محمداً رسول الله، فإن كان كفره بجحد فرض أو نبي أو بدعوى أن الرسالة خاصة بالعرب لم يصح إسلامه حتى يقرّ بما جحده أو يتبرأ من كل دين يخالف الإسلام مع الشهادتين.",
+        "en": "A disbeliever's Islam is valid by testifying that there is no god but Allah and that Muhammad is the Messenger of Allah; but if his disbelief lay in denying an obligation or a prophet, or in claiming that the Message was for the Arabs alone, his Islam is not valid until he affirms what he denied or disavows every religion contrary to Islam, along with the two testimonies.",
+        "ru": "Ислам неверующего действителен, если он засвидетельствует, что нет божества, кроме Аллаха, и что Мухаммад — посланник Аллаха; но если его неверие состояло в отрицании обязанности или пророка либо в утверждении, что посланничество только для арабов, его ислам недействителен, пока он не признает отвергнутое или не отречётся от всякой религии, противоречащей исламу, вместе с двумя свидетельствами.",
+        "es": "El islam del incrédulo es válido al atestiguar que no hay más dios que Allah y que Muhammad es el Mensajero de Allah; pero si su incredulidad consistía en negar una obligación o a un profeta, o en afirmar que el Mensaje era solo para los árabes, su islam no es válido hasta que reconozca lo que negó o se desligue de toda religión contraria al islam, junto con los dos testimonios.",
+        "uk": "Іслам невіруючого дійсний, якщо він засвідчить, що немає божества, крім Аллаха, і що Мухаммад — посланець Аллаха; але якщо його невіра полягала в запереченні обов'язку чи пророка або в твердженні, що посланництво лише для арабів, його іслам недійсний, доки він не визнає заперечене або не зречеться всякої релігії, що суперечить ісламу, разом із двома свідченнями."
       },
       "sources": [
         {
@@ -108,5 +108,13 @@
       ],
       "nature": "shart"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: يصح الإسلام بالشهادتين، ولا يُشترط الإقرار بالمجحود أو التبرؤ من الأديان إلا فيمن كان كفره بجحد فرض أو نبي أو بدعوى خصوص الرسالة بالعرب.",
+    "en": "The Ḥanbalī position was corrected: Islam is valid by the two testimonies, and affirming what was denied or disavowing other religions is required only of one whose disbelief lay in denying an obligation or a prophet, or in claiming the Message was for the Arabs alone.",
+    "ru": "Исправлено мнение ханбалитов: ислам действителен двумя свидетельствами, а признание отвергнутого или отречение от других религий требуется лишь от того, чьё неверие состояло в отрицании обязанности или пророка либо в утверждении, что посланничество только для арабов.",
+    "es": "Se corrigió la posición hanbalí: el islam es válido con los dos testimonios, y reconocer lo negado o desligarse de otras religiones solo se exige a quien negaba una obligación o a un profeta, o afirmaba que el Mensaje era solo para los árabes.",
+    "uk": "Виправлено думку ханбалітів: іслам дійсний двома свідченнями, а визнання запереченого чи зречення інших релігій вимагається лише від того, чия невіра полягала в запереченні обов'язку чи пророка або в твердженні, що посланництво лише для арабів."
   }
 }

@@ -27,7 +27,6 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "mubah",
       "text": {
         "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبالقدرة على ماءٍ كافٍ، ولا يبطل بخروج وقت الصلاة.",
         "en": "The dry ablution is voided by everything that breaks the ablution, and by becoming able to use sufficient water; it is not voided by the passing of the prayer time.",
@@ -60,7 +59,6 @@
       ]
     },
     "maliki": {
-      "grade": "mubah",
       "text": {
         "ar": "يبطل التيمم بنواقض الوضوء، وبوجود الماء قبل الدخول في الصلاة، وبطول الفصل بينه وبين الصلاة، وبأداء الفريضة التي تيمّم لها.",
         "en": "The dry ablution is voided by the nullifiers of the ablution, by finding water before entering the prayer, by a long gap between it and the prayer, and by performing the obligatory prayer for which it was made.",
@@ -93,7 +91,6 @@
       ]
     },
     "shafii": {
-      "grade": "mubah",
       "text": {
         "ar": "يبطل التيمم بكلّ ما ينقض الوضوء، وبرؤية الماء قبل الإحرام بالصلاة لمن تيمّم لفقده، وبالردّة.",
         "en": "The dry ablution is voided by everything that breaks the ablution, by sighting water before entering the prayer for one who performed it for want of water, and by apostasy.",
@@ -126,7 +123,6 @@
       ]
     },
     "hanbali": {
-      "grade": "mubah",
       "text": {
         "ar": "يبطل التيمم بما ينقض الوضوء، وبوجود الماء أو زوال العذر، وبخروج وقت الصلاة التي تيمّم لها.",
         "en": "The dry ablution is voided by what breaks the ablution, by the finding of water or the ceasing of the excuse, and by the passing of the time of the prayer for which it was made.",

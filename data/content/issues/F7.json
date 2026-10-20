@@ -65,11 +65,11 @@
     },
     "shafii": {
       "text": {
-        "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو عضوٍ أو مرضاً مخوفاً، بإخبار طبيبٍ عدلٍ أو بتجربة.",
-        "en": "Tayammum is permitted despite water's presence for one who fears loss of life or limb or a dangerous illness from using it, established by a trustworthy physician or experience.",
-        "ru": "Таяммум допустим при наличии воды тому, кто опасается гибели, потери органа или опасной болезни от её применения, по слову надёжного врача или по опыту.",
-        "es": "Está permitido el tayammum habiendo agua para quien tema, por usarla, la pérdida de la vida o de un miembro, o una enfermedad temible, acreditado por un médico íntegro o por la experiencia.",
-        "uk": "Таяммум дозволений за наявності води тому, хто побоюється від її використання загибелі, втрати органа чи небезпечної хвороби, за словом надійного лікаря або за досвідом."
+        "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو منفعة عضو، وكذا بطء البرء أو الشين الفاحش في عضو ظاهر، بإخبار طبيبٍ عدلٍ أو بتجربة. وشدّة البرد كالمرض.",
+        "en": "Tayammum is permitted despite water's presence for one who fears, from using it, loss of life or of a limb's function, and likewise delayed recovery or a gross disfigurement on an exposed part of the body, established by a trustworthy physician or experience. Severe cold is treated like illness.",
+        "ru": "Таяммум допустим при наличии воды тому, кто опасается от её применения гибели или утраты функции органа, а также замедления выздоровления или сильного обезображивания на открытой части тела, по слову надёжного врача или по опыту. Сильный холод приравнивается к болезни.",
+        "es": "Está permitido el tayammum habiendo agua para quien tema, por usarla, la pérdida de la vida o de la función de un miembro, así como el retraso de la curación o una desfiguración grave en una parte visible del cuerpo, acreditado por un médico íntegro o por la experiencia. El frío intenso se equipara a la enfermedad.",
+        "uk": "Таяммум дозволений за наявності води тому, хто побоюється від її використання загибелі чи втрати функції органа, а також затримки одужання або сильного спотворення на відкритій частині тіла, за словом надійного лікаря або за досвідом. Сильний холод прирівнюється до хвороби."
       },
       "sources": [
         {
@@ -101,5 +101,13 @@
       ],
       "grade": "mubah"
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الشافعية: يباح التيمم أيضاً لخوف بطء البرء أو الشين الفاحش في عضو ظاهر، وشدّة البرد كالمرض.",
+    "en": "The Shāfiʿī position was corrected: tayammum is also permitted for fear of delayed recovery or gross disfigurement on an exposed part, and severe cold counts as illness.",
+    "ru": "Исправлено мнение шафиитов: таяммум допустим и при опасении замедления выздоровления или сильного обезображивания на открытой части тела, а сильный холод приравнивается к болезни.",
+    "es": "Se corrigió la postura shafiʿí: el tayammum se permite también por temor al retraso de la curación o a una desfiguración grave en una parte visible, y el frío intenso cuenta como enfermedad.",
+    "uk": "Виправлено думку шафіїтів: таяммум дозволений і за побоювання затримки одужання чи сильного спотворення на відкритій частині тіла, а сильний холод прирівнюється до хвороби."
   }
 }

@@ -28,7 +28,6 @@
   "agreed": true,
   "rulings": {
     "hanafi": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء كلّ ما أزال العقل أو غيّبه من جنون أو إغماء أو سُكر، قلّ زوال العقل أو كثر.",
         "en": "The ablution is broken by whatever removes or veils reason — insanity, fainting or intoxication — whether the loss of reason is brief or long.",
@@ -61,7 +60,6 @@
       ]
     },
     "maliki": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء زوال العقل بجنون أو إغماء أو سُكر أو غشية، لأنه أبلغ من النوم الناقض.",
         "en": "The ablution is broken by loss of reason through insanity, fainting, intoxication or a swoon, since it is more complete than the sleep that breaks it.",
@@ -94,7 +92,6 @@
       ]
     },
     "shafii": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء الجنون والإغماء والسُّكر وكلّ ما أزال العقل، طال الزمن أو قصُر، لغياب التمييز.",
         "en": "The ablution is broken by insanity, fainting, intoxication and whatever removes reason, whether the time is long or short, because discernment is absent.",
@@ -127,7 +124,6 @@
       ]
     },
     "hanbali": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء كلّ زوال للعقل من جنون أو إغماء أو سُكر أو تخدير تامّ، لأنه مظنّة خروج حدث لا يشعر به.",
         "en": "The ablution is broken by every loss of reason — insanity, fainting, intoxication or full anaesthesia — because it is the likely occasion of a discharge he would not feel.",

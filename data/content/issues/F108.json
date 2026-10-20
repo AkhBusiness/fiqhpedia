@@ -24,16 +24,15 @@
     "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
     "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
   },
-  "agreed": true,
   "rulings": {
     "hanafi": {
       "grade": "haram",
       "text": {
-        "ar": "يحرم التصريح بخطبة المعتدّة مطلقاً. ويحرم التعريض للمعتدّة من طلاق رجعيّ لبقاء النكاح، ويُباح للمعتدّة من وفاة أو من طلاق بائن.",
-        "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case. Hinting at it is forbidden to a revocably divorced woman, since the marriage still stands, and permitted to a widow or an irrevocably divorced woman.",
-        "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае. Намёк запрещён по отношению к разведённой отзывным разводом, поскольку брак ещё стоит, и дозволен по отношению к вдове или разведённой окончательно.",
-        "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso. Insinuarlo está prohibido a la divorciada de modo revocable, pues el matrimonio aún subsiste, y permitido a la viuda o a la divorciada de modo irrevocable.",
-        "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі. Натяк заборонений щодо розлученої відкличним розлученням, оскільки шлюб ще стоїть, і дозволений щодо вдови чи розлученої остаточно."
+        "ar": "يحرم التصريح بخطبة المعتدّة مطلقاً. ويحرم التعريض للمطلّقة رجعيّاً كان طلاقها أو بائناً، ويجوز التعريض لمعتدّة الوفاة.",
+        "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case. Hinting is forbidden to a divorced woman, whether revocably or irrevocably divorced, and permitted to a widow.",
+        "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае. Намёк запрещён по отношению к разведённой — отзывным разводом или окончательным — и дозволен по отношению к вдове.",
+        "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso. Insinuarlo está prohibido a la divorciada, sea de modo revocable o irrevocable, y permitido a la viuda.",
+        "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі. Натяк заборонений щодо розлученої — відкличним розлученням чи остаточним — і дозволений щодо вдови."
       },
       "sources": [
         {
@@ -158,5 +157,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية: يحرم التعريض للمطلّقة البائن أيضاً، ولا يجوز إلا لمعتدّة الوفاة.",
+    "en": "The Ḥanafī position was corrected: hinting is forbidden to the irrevocably divorced woman too, and is permitted only to a widow.",
+    "ru": "Исправлено мнение ханафитов: намёк запрещён и разведённой окончательно и дозволен лишь вдове.",
+    "es": "Se corrigió la postura hanafí: insinuar está prohibido también a la divorciada de modo irrevocable y solo se permite a la viuda.",
+    "uk": "Виправлено думку ханафітів: натяк заборонений і розлученій остаточно та дозволений лише вдові."
   }
 }

@@ -60,11 +60,11 @@
     },
     "maliki": {
       "text": {
-        "ar": "يُفرّق بحسب من صدر منه العدول: فإن كان العدول من الخاطب فلا يرجع في شيء من الهدايا أصلاً، وإن كان من المخطوبة فله استردادها قائمةً كانت أو مستهلَكةً بقيمتها أو ببدلها.",
-        "en": "A distinction is drawn according to which side withdrew: if the suitor withdrew he recovers nothing at all, and if the woman withdrew he recovers the gifts, whether they remain in substance or have been consumed, by their value or their replacement.",
-        "ru": "Различают по тому, чья сторона отказалась: если отказался сват, он не возвращает себе ничего вовсе; если отказалась невеста, он возвращает подарки — сохранившиеся в натуре или израсходованные — по их стоимости либо равноценной заменой.",
-        "es": "Se distingue según qué parte se retiró: si se retiró el pretendiente, no recupera nada en absoluto; si se retiró la prometida, recupera los regalos, subsistan en su ser o hayan sido consumidos, por su valor o su equivalente.",
-        "uk": "Розрізняють за тим, чия сторона відмовилася: якщо відмовився сват, він не повертає собі нічого взагалі; якщо відмовилася наречена, він повертає подарунки — збережені в натурі чи витрачені — за їхньою вартістю або рівноцінною заміною."
+        "ar": "لا يرجع الخاطب بشيء مما أهداه، سواء كان العدول منه أو منها، إلا أن يكون عرفٌ أو شرطٌ بالرجوع؛ وقيل: يرجع إن كان العدول من جهتها.",
+        "en": "The suitor recovers nothing of what he gave, whether he or she withdrew, unless there is a custom or a stipulation of return; it has also been said that he recovers it if the withdrawal came from her side.",
+        "ru": "Сват не возвращает себе ничего из подаренного, отказался ли он или она, если только нет обычая или условия о возврате; есть и мнение, что он возвращает подаренное, если отказ исходил от её стороны.",
+        "es": "El pretendiente no recupera nada de lo que regaló, se haya retirado él o ella, salvo que haya costumbre o estipulación de devolución; también se ha dicho que lo recupera si la retirada vino de parte de ella.",
+        "uk": "Сват не повертає собі нічого з подарованого, чи відмовився він, чи вона, хіба що є звичай або умова про повернення; є й думка, що він повертає подароване, якщо відмова виходила від її сторони."
       },
       "sources": [
         {
@@ -124,11 +124,11 @@
     },
     "hanbali": {
       "text": {
-        "ar": "لا يجوز للواهب الرجوع في هبته بعد القبض، فلا يسترد الخاطب ما قُبض من الهدايا سواء كان العدول منه أو منها، إلا أن يكون قد شرط العوض أو جرى العُرف باستردادها.",
-        "en": "A donor may not take back his gift once it has been received, so the suitor recovers nothing of the gifts delivered, whichever side withdrew, unless he stipulated a counter-value or local custom is that they are returned.",
-        "ru": "Дарителю не дозволено забирать подаренное после его получения, поэтому сват не возвращает себе врученных подарков, чья бы сторона ни отказалась, если только он не оговорил встречного возмещения или если обычай не предписывает их возврата.",
-        "es": "No le es lícito al donante recuperar su donación una vez recibida, de modo que el pretendiente no recupera los regalos entregados, sea cual sea la parte que se retiró, salvo que hubiera estipulado una contraprestación o que la costumbre sea devolverlos.",
-        "uk": "Дарувальнику не дозволено забирати подароване після його одержання, тож сват не повертає собі вручених подарунків, чия б сторона не відмовилася, хіба що він обумовив зустрічне відшкодування або звичай приписує їх повертати."
+        "ar": "هدية الخاطب قبل العقد ليست من المهر: فإن وعدوه بالعقد ثم لم يفوا رجع بها، وإن كان الامتناع منه هو فلا رجوع له.",
+        "en": "The suitor's gift before the contract is not part of the dower: if they promised him the marriage contract and then did not keep their word, he recovers it; but if the refusal came from him, he has no right of recovery.",
+        "ru": "Подарок свата до заключения договора не входит в махр: если ему обещали заключить брак и затем не сдержали слова, он возвращает подарок; если же отказался он сам, права на возврат у него нет.",
+        "es": "El regalo del pretendiente antes del contrato no forma parte de la dote: si le prometieron el contrato y luego no cumplieron, lo recupera; pero si la negativa vino de él, no tiene derecho a recuperarlo.",
+        "uk": "Подарунок свата до укладення договору не є частиною махру: якщо йому пообіцяли укласти шлюб, а потім не дотримали слова, він повертає подарунок; якщо ж відмовився він сам, права на повернення в нього немає."
       },
       "sources": [
         {
@@ -154,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: لا رجوع للخاطب إلا بعرف أو شرط، وقول الحنابلة: يرجع إن لم يفوا بوعد العقد ولا يرجع إن امتنع هو.",
+    "en": "Corrected the Mālikī position (no recovery except by custom or stipulation) and the Ḥanbalī position (he recovers if they broke the promise of marriage, not if he himself refused).",
+    "ru": "Исправлено мнение маликитов (возврата нет, кроме как по обычаю или условию) и ханбалитов (он возвращает подарок, если не сдержали обещания брака, но не если отказался он сам).",
+    "es": "Se corrigió la posición mālikí (no hay devolución salvo por costumbre o estipulación) y la ḥanbalí (lo recupera si no cumplieron la promesa de contrato, no si él mismo se negó).",
+    "uk": "Виправлено позицію малікітів (повернення немає, окрім як за звичаєм чи умовою) і ханбалітів (він повертає подарунок, якщо не дотримали обіцянки шлюбу, але не якщо відмовився він сам)."
   }
 }

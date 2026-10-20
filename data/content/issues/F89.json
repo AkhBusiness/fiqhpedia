@@ -27,13 +27,13 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "wajib",
+      "grade": "mandub",
       "text": {
-        "ar": "يصلّي قاعداً يومئ بالركوع والسجود، لأن سترها بالقعود أولى من كشفها بالقيام، ولا إعادة عليه.",
-        "en": "He prays seated, gesturing for the bowing and the prostration, since covering the ʿawrah by sitting is better than uncovering it by standing; and he does not repeat the prayer.",
-        "ru": "Он молится сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше его обнажения при стоянии; и он не повторяет молитву.",
-        "es": "Reza sentado, señalando con la cabeza la inclinación y la postración, pues cubrir la ʿawrah sentándose es mejor que descubrirla de pie; y no repite la oración.",
-        "uk": "Він молиться сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще за його оголення при стоянні; і він не повторює молитву."
+        "ar": "يُندب أن يصلّي قاعداً يومئ بالركوع والسجود، لأن ستر العورة بالقعود أولى، ويجوز أن يصلّي قائماً بركوع وسجود، ولا إعادة عليه.",
+        "en": "It is recommended that he pray seated, gesturing for the bowing and the prostration, since covering the ʿawrah by sitting is better; he may also pray standing with bowing and prostration, and he does not repeat the prayer.",
+        "ru": "Ему желательно молиться сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше; допустимо и молиться стоя с поясным и земным поклонами, и он не повторяет молитву.",
+        "es": "Se recomienda que rece sentado, señalando con la cabeza la inclinación y la postración, pues cubrir la ʿawrah sentándose es mejor; también puede rezar de pie con inclinación y postración, y no repite la oración.",
+        "uk": "Йому бажано молитися сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще; дозволено й молитися стоячи з поясним та земним уклонами, і він не повторює молитву."
       },
       "sources": [
         {
@@ -62,11 +62,11 @@
     "maliki": {
       "grade": "wajib",
       "text": {
-        "ar": "يصلّي عارياً قائماً بركوع وسجود تامّين، وصلاته صحيحة ولا إعادة عليه إن وجد سترة بعد فراغه.",
-        "en": "He prays uncovered and standing, with a full bowing and prostration; his prayer is valid and he does not repeat it if he finds a covering after he has finished.",
-        "ru": "Он молится нагим стоя, с полным поясным и земным поклоном; его молитва действительна, и он не повторяет её, если найдёт покров после её завершения.",
-        "es": "Reza desnudo y de pie, con inclinación y postración completas; su oración es válida y no la repite si halla con qué cubrirse después de terminar.",
-        "uk": "Він молиться нагим стоячи, з повним поясним та земним уклоном; його молитва дійсна, і він не повторює її, якщо знайде покрив після завершення."
+        "ar": "يصلّي عارياً قائماً بركوع وسجود تامّين وجوباً، ويعيد في الوقت إن وجد ساتراً.",
+        "en": "He must pray uncovered and standing, with a full bowing and prostration, and he repeats the prayer within its time if he finds a covering.",
+        "ru": "Он обязан молиться нагим стоя, с полным поясным и земным поклоном, и повторяет молитву в её время, если найдёт покров.",
+        "es": "Debe rezar desnudo y de pie, con inclinación y postración completas, y repite la oración dentro de su tiempo si halla con qué cubrirse.",
+        "uk": "Він зобов'язаний молитися нагим стоячи, з повним поясним та земним уклоном, і повторює молитву в її час, якщо знайде покрив."
       },
       "sources": [
         {
@@ -126,13 +126,13 @@
       ]
     },
     "hanbali": {
-      "grade": "wajib",
+      "grade": "mandub",
       "text": {
-        "ar": "يصلّي عارياً قاعداً يومئ بالركوع والسجود، لأن ستر عورته بالقعود أولى من قيامه عارياً، ولا إعادة عليه.",
-        "en": "He prays uncovered and seated, gesturing for the bowing and the prostration, since covering his ʿawrah by sitting is better than standing uncovered; and he does not repeat the prayer.",
-        "ru": "Он молится нагим сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше, чем стоять нагим; и он не повторяет молитву.",
-        "es": "Reza desnudo y sentado, señalando la inclinación y la postración, pues cubrir su ʿawrah sentándose es mejor que estar de pie desnudo; y no repite la oración.",
-        "uk": "Він молиться нагим сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще, ніж стояти нагим; і він не повторює молитву."
+        "ar": "يُستحبّ أن يصلّي عارياً قاعداً يومئ بالركوع والسجود، لأن ستر عورته بالقعود أولى، وإن صلّى قائماً بركوع وسجود جاز، ولا إعادة عليه.",
+        "en": "It is recommended that he pray uncovered and seated, gesturing for the bowing and the prostration, since covering his ʿawrah by sitting is better; if he prays standing with bowing and prostration, that is permissible, and he does not repeat the prayer.",
+        "ru": "Ему желательно молиться нагим сидя, обозначая поясной и земной поклоны, поскольку прикрытие аврата сидением лучше; если же он помолится стоя с поясным и земным поклонами, это допустимо, и он не повторяет молитву.",
+        "es": "Se le recomienda rezar desnudo y sentado, señalando la inclinación y la postración, pues cubrir su ʿawrah sentándose es mejor; si reza de pie con inclinación y postración, es válido, y no repite la oración.",
+        "uk": "Йому бажано молитися нагим сидячи, позначаючи поясний та земний уклони, оскільки прикриття аврату сидінням краще; якщо ж він помолиться стоячи з поясним та земним уклонами, це дозволено, і він не повторює молитву."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول المالكية: يعيد العاري في الوقت إن وجد ساتراً، وصُحّحت درجة الحنفية والحنابلة: الصلاة قاعداً بالإيماء مندوبة لا واجبة.",
+    "en": "The Maliki position was corrected — the uncovered worshipper repeats within the time if he finds a covering — and the Hanafi and Hanbali grade was corrected: praying seated with gestures is recommended, not obligatory.",
+    "ru": "Исправлено мнение маликитов — нагой повторяет молитву в её время, если найдёт покров, — и степень у ханафитов и ханбалитов: молитва сидя с жестами желательна, а не обязательна.",
+    "es": "Se corrigió la posición malikí —quien reza desnudo repite dentro del tiempo si halla con qué cubrirse— y el grado hanafí y hanbalí: rezar sentado con gestos es recomendable, no obligatorio.",
+    "uk": "Виправлено погляд малікітів — нагий повторює молитву в її час, якщо знайде покрив, — і ступінь у ханафітів і ханбалітів: молитва сидячи з жестами бажана, а не обов'язкова."
   }
 }

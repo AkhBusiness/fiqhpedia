@@ -28,11 +28,11 @@
   "rulings": {
     "hanafi": {
       "text": {
-        "ar": "يُندب للقائم من نوم الليل غسل كفّيه ثلاثاً قبل إدخالهما الإناء، ولا يجب.",
-        "en": "It is recommended for one newly woken from the night's sleep to wash the hands three times before putting them into the vessel, and it is not obligatory.",
-        "ru": "Проснувшемуся от ночного сна желательно вымыть кисти трижды перед погружением их в сосуд, и это не обязательно.",
-        "es": "Se recomienda a quien despierta del sueño nocturno lavarse las manos tres veces antes de introducirlas en el recipiente, y no es obligatorio.",
-        "uk": "Тому, хто прокинувся від нічного сну, бажано вимити кисті тричі перед зануренням їх у посудину, і це не є обов'язковим."
+        "ar": "يُسنّ غسل اليدين إلى الرسغين ثلاثاً في ابتداء الوضوء، وهو آكد للقائم من النوم، ولا يجب.",
+        "en": "Washing the hands up to the wrists three times at the start of wudu is a sunnah, more emphasised for one newly woken from sleep, and it is not obligatory.",
+        "ru": "Мытьё кистей до запястий трижды в начале омовения — сунна, более подтверждённая для проснувшегося ото сна, и это не обязательно.",
+        "es": "Lavarse las manos hasta las muñecas tres veces al comienzo del wudu es sunnah, más enfatizada para quien despierta del sueño, y no es obligatorio.",
+        "uk": "Миття кистей до зап'ясть тричі на початку омивання — сунна, більш підтверджена для того, хто прокинувся від сну, і це не є обов'язковим."
       },
       "sources": [
         {
@@ -57,15 +57,15 @@
           "uk": "«Табйін аль-Хакаїк»"
         }
       ],
-      "grade": "mandub"
+      "grade": "sunnah"
     },
     "maliki": {
       "text": {
-        "ar": "يُندب للقائم من نوم الليل غسل كفّيه قبل إدخالهما الإناء، ولا يجب.",
-        "en": "It is recommended for one newly woken from the night's sleep to wash the hands before putting them into the vessel, and it is not obligatory.",
-        "ru": "Проснувшемуся от ночного сна желательно вымыть кисти перед погружением их в сосуд, и это не обязательно.",
-        "es": "Se recomienda a quien despierta del sueño nocturno lavarse las manos antes de introducirlas en el recipiente, y no es obligatorio.",
-        "uk": "Тому, хто прокинувся від нічного сну, бажано вимити кисті перед зануренням їх у посудину, і це не є обов'язковим."
+        "ar": "يُسنّ غسل اليدين ثلاثاً قبل إدخالهما الإناء في كل وضوء تعبّداً، للقائم من النوم وغيره، ولا يجب.",
+        "en": "Washing the hands three times before putting them into the vessel is a sunnah in every wudu, as an act of devotion, for one newly woken from sleep and for others alike, and it is not obligatory.",
+        "ru": "Мытьё кистей трижды перед погружением их в сосуд — сунна при каждом омовении как обряд поклонения, для проснувшегося ото сна и для других, и это не обязательно.",
+        "es": "Lavarse las manos tres veces antes de introducirlas en el recipiente es sunnah en todo wudu, como acto de adoración, tanto para quien despierta del sueño como para los demás, y no es obligatorio.",
+        "uk": "Миття кистей тричі перед зануренням їх у посудину — сунна при кожному омиванні як обряд поклоніння, і для того, хто прокинувся від сну, і для інших, і це не є обов'язковим."
       },
       "sources": [
         {
@@ -90,7 +90,7 @@
           "uk": "«Мавагіб аль-Джаліль»"
         }
       ],
-      "grade": "mandub"
+      "grade": "sunnah"
     },
     "shafii": {
       "text": {

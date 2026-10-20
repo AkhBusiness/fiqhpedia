@@ -27,13 +27,12 @@
   },
   "rulings": {
     "hanafi": {
-      "grade": "fard",
       "text": {
-        "ar": "ينقض الوضوء كلّ خارج من السبيلين — كالبول والغائط والريح والمذي والودي — قليلاً كان أو كثيراً.",
-        "en": "The ablution is broken by everything that issues from the two passages — urine, faeces, wind, prostatic fluid and the residue after urination — whether little or much.",
-        "ru": "Омовение нарушается всем, что выходит из двух путей — мочой, калом, газами, предсеменной жидкостью и остатком после мочеиспускания, — малым или многим.",
-        "es": "La ablución se rompe por todo lo que sale de las dos vías — orina, heces, ventosidad, líquido preseminal y el residuo tras orinar —, sea poco o mucho.",
-        "uk": "Омивання порушується всім, що виходить із двох шляхів — сечею, калом, газами, передсім'яною рідиною та залишком після сечовипускання, — малим чи великим."
+        "ar": "ينقض الوضوء كلّ خارج من السبيلين — كالبول والغائط والريح والمذي والودي — قليلاً كان أو كثيراً، إلا ريح القُبُل.",
+        "en": "The ablution is broken by everything that issues from the two passages — urine, faeces, wind, prostatic fluid and the residue after urination — whether little or much, except wind from the front passage.",
+        "ru": "Омовение нарушается всем, что выходит из двух путей — мочой, калом, газами, предсеменной жидкостью и остатком после мочеиспускания, — малым или многим, кроме воздуха из переднего прохода.",
+        "es": "La ablución se rompe por todo lo que sale de las dos vías — orina, heces, ventosidad, líquido preseminal y el residuo tras orinar —, sea poco o mucho, salvo el aire de la vía delantera.",
+        "uk": "Омивання порушується всім, що виходить із двох шляхів — сечею, калом, газами, передсім'яною рідиною та залишком після сечовипускання, — малим чи великим, крім повітря з переднього проходу."
       },
       "sources": [
         {
@@ -60,7 +59,6 @@
       ]
     },
     "maliki": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء الخارج المعتاد من السبيلين — كالبول والغائط والريح والمذي والودي — إذا خرج على وجه الصحّة والاعتياد.",
         "en": "The ablution is broken by what customarily issues from the two passages — urine, faeces, wind, prostatic fluid and the residue after urination — when it issues in the ordinary way and in health.",
@@ -93,7 +91,6 @@
       ]
     },
     "shafii": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء كلّ خارج من قُبُل أو دُبُر عدا المنيّ، طاهراً كان الخارج أو نجساً، ريحاً أو غيره.",
         "en": "The ablution is broken by everything that issues from the front or the rear passage except semen, whether what issues is pure or impure, wind or otherwise.",
@@ -126,7 +123,6 @@
       ]
     },
     "hanbali": {
-      "grade": "fard",
       "text": {
         "ar": "ينقض الوضوء كلّ خارج من السبيلين من بول أو غائط أو ريح أو مذي أو ودي.",
         "en": "The ablution is broken by everything that issues from the two passages: urine, faeces, wind, prostatic fluid or the residue after urination.",
@@ -158,5 +154,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنفية باستثناء ريح القُبُل من النواقض.",
+    "en": "The Ḥanafī position was corrected to exclude wind from the front passage from what breaks the ablution.",
+    "ru": "Исправлено мнение ханафитов: воздух из переднего прохода исключён из нарушающего омовение.",
+    "es": "Se corrigió la posición hanafí para excluir el aire de la vía delantera de lo que rompe la ablución.",
+    "uk": "Виправлено думку ханафітів: повітря з переднього проходу виключено з того, що порушує омивання."
   }
 }

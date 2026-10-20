@@ -128,11 +128,11 @@
     "hanbali": {
       "grade": "wajib",
       "text": {
-        "ar": "تقضيها إذا مضى من الوقت قدر ركعة قبل أن تحيض، لأن من أدرك ركعة من الوقت استقرّ عليه وجوب الصلاة.",
-        "en": "She makes it up if as much as one unit's worth of the time had passed before she menstruated, since whoever catches one unit of the time has the prayer settled upon them.",
-        "ru": "Она её восполняет, если до менструации прошло времени на один ракаат, ибо на том, кто застал ракаат времени, обязанность молитвы утвердилась.",
-        "es": "La recupera si había transcurrido lo de un rakʿah del tiempo antes de menstruar, pues a quien alcanza un rakʿah del tiempo se le asienta la obligación de la oración.",
-        "uk": "Вона її відшкодовує, якщо до менструації минуло часу на один ракаат, бо на тому, хто застав ракаат часу, обов'язок молитви утвердився."
+        "ar": "تقضيها إذا أدركت من وقتها قدر تكبيرة الإحرام قبل أن تحيض، لأن الصلاة تُدرك بتكبيرة الإحرام في وقتها.",
+        "en": "She makes it up if, before menstruating, she caught as much of its time as the opening takbīr, since the prayer is caught by the opening takbīr within its time.",
+        "ru": "Она её восполняет, если до менструации застала из её времени столько, сколько занимает вступительный такбир, ибо молитва застаётся вступительным такбиром в её время.",
+        "es": "La recupera si, antes de menstruar, alcanzó de su tiempo lo que dura el takbīr de apertura, pues la oración se alcanza con el takbīr de apertura dentro de su tiempo.",
+        "uk": "Вона її відшкодовує, якщо до менструації застала з її часу стільки, скільки триває вступний такбір, бо молитву застають вступним такбіром у її час."
       },
       "sources": [
         {
@@ -158,5 +158,13 @@
         }
       ]
     }
+  },
+  "revisedAt": "2026-10-20",
+  "revisionNote": {
+    "ar": "صُحّح قول الحنابلة: تقضيها بإدراك قدر تكبيرة الإحرام من الوقت لا قدر ركعة.",
+    "en": "The Ḥanbalī position was corrected: she makes it up upon catching as much of the time as the opening takbīr, not a whole rakʿah.",
+    "ru": "Исправлено мнение ханбалитов: она восполняет молитву, застав из времени столько, сколько занимает вступительный такбир, а не ракаат.",
+    "es": "Se corrigió la postura hanbalí: la recupera al alcanzar del tiempo lo que dura el takbīr de apertura, no un rakʿah.",
+    "uk": "Виправлено думку ганбалітів: вона відшкодовує молитву, заставши з часу стільки, скільки триває вступний такбір, а не ракаат."
   }
 }
