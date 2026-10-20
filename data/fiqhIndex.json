@@ -82,6 +82,7 @@
         "es": "¿Cuál es la norma sobre la piedad filial y la bondad hacia los padres no musulmanes, y hasta dónde llega la obediencia a ellos?",
         "uk": "Яка постанова про шанобливість і благодіяння до батьків-немусульман, і доки сягає послух їм?"
       },
+      "agreed": true,
       "addedAt": "2026-09-17",
       "grades": {
         "hanafi": "wajib",
@@ -172,6 +173,7 @@
         "es": "¿Se invalida la purificación con agua alterada por una sustancia pura, como la tierra, que conserva su naturaleza?",
         "uk": "Чи стає недійсним очищення водою, зміненою чистою речовиною, що не виводить її з природного стану, як-от земля?"
       },
+      "agreed": true,
       "addedAt": "2026-09-01"
     },
     {
@@ -262,6 +264,7 @@
         "es": "¿Es válida la purificación con agua alterada por su lecho o cauce, como algas o yacimientos de azufre?",
         "uk": "Чи дійсне очищення водою, зміненою своїм ложем або руслом, як водоростями чи сірчаними покладами?"
       },
+      "agreed": true,
       "addedAt": "2026-09-01"
     },
     {
@@ -520,6 +523,7 @@
         "es": "¿Se vuelve impura el agua si muere en ella un animal acuático, como un pez?",
         "uk": "Чи стає вода нечистою від загибелі в ній водяної тварини, як риба тощо?"
       },
+      "agreed": true,
       "addedAt": "2026-09-02"
     },
     {
@@ -548,6 +552,7 @@
         "es": "¿Es puro y válido para la purificación el agua que dejan un ser humano o un animal cuya carne se come?",
         "uk": "Чи чистий залишок води після людини та після тварини, м'ясо якої дозволене, і чи дійсне ним очищення?"
       },
+      "agreed": true,
       "addedAt": "2026-09-02"
     },
     {
@@ -899,6 +904,7 @@
         "es": "¿Cuál es la norma sobre lavar los brazos hasta los codos en la ablución, y entran los codos en lo que debe lavarse?",
         "uk": "Яка постанова про миття рук до ліктів під час омивання, і чи входять лікті в те, що обов'язково вимити?"
       },
+      "agreed": true,
       "grades": {
         "hanafi": "fard",
         "maliki": "fard",
@@ -967,6 +973,7 @@
         "es": "¿Cuál es la norma sobre lavar los pies hasta los tobillos en la ablución, y entran los tobillos en lo que debe lavarse?",
         "uk": "Яка постанова про миття ніг до щиколоток під час омивання, і чи входять щиколотки в те, що обов'язково вимити?"
       },
+      "agreed": true,
       "grades": {
         "hanafi": "fard",
         "maliki": "fard",
@@ -1267,6 +1274,7 @@
         "es": "¿Rompe la ablución la pérdida de la razón por desmayo, locura, embriaguez o anestesia?",
         "uk": "Чи порушує омивання втрата розуму внаслідок непритомності, божевілля, сп'яніння чи наркозу?"
       },
+      "agreed": true,
       "grades": {
         "hanafi": "fard",
         "maliki": "fard",
@@ -1403,6 +1411,7 @@
         "es": "Quien rezó habiendo olvidado que carecía de pureza —menor o mayor— y lo recordó tras la oración: ¿debe repetirla?",
         "uk": "Той, хто помолився, забувши, що був без чистоти — малої чи великої, — і згадав після молитви: чи мусить він повторити її?"
       },
+      "agreed": true,
       "grades": {
         "hanafi": "wajib",
         "maliki": "wajib",
@@ -2126,6 +2135,7 @@
         "es": "¿Cuál es la norma de las cinco oraciones diarias, y con qué se establece su obligatoriedad para la persona responsable?",
         "uk": "Яка постанова про п'ять щоденних молитов, і чим встановлена їхня обов'язковість для мукалляфа?"
       },
+      "agreed": true,
       "addedAt": "2026-09-04",
       "grades": {
         "hanafi": "fard",
@@ -3058,6 +3068,7 @@
         "es": "¿Cuál es la norma del ayuno del mes de Ramadán, y con qué se establece su obligatoriedad para la persona responsable?",
         "uk": "Яка постанова про піст місяця Рамадан, і чим встановлена його обов'язковість для мукалляфа?"
       },
+      "agreed": true,
       "addedAt": "2026-09-04",
       "grades": {
         "hanafi": "fard",
@@ -3182,6 +3193,7 @@
         "es": "¿Es permisible confiar únicamente en los cálculos astronómicos para confirmar la entrada de Ramadán, o se requiere la observación visual?",
         "uk": "Чи допустимо покладатися виключно на астрономічні розрахунки для підтвердження настання Рамадану, чи потрібне візуальне спостереження?"
       },
+      "agreed": true,
       "addedAt": "2026-09-03",
       "grades": {
         "hanafi": "haram",
@@ -3284,7 +3296,8 @@
         "ru": "Каковы основные условия, необходимые для того, чтобы на дееспособного человека возлагалась обязанность поститься в месяц Рамадан?",
         "es": "¿Cuáles son las condiciones básicas requeridas para que una persona legalmente responsable esté obligada a ayunar el mes de Ramadán?",
         "uk": "Які основні умови необхідні для того, щоб на дієздатну особу покладався обов'язок постити в місяць Рамадан?"
-      }
+      },
+      "agreed": true
     },
     {
       "id": "sawm-8",
@@ -3347,6 +3360,7 @@
         "es": "¿Cuál es la norma sobre fumar e inhalar intencionalmente vapores y humo durante el día de Ramadán, e invalida el ayuno?",
         "uk": "Яка постанова про куріння та навмисне вдихання парів і диму вдень у Рамадан, і чи псує це піст?"
       },
+      "agreed": true,
       "grades": {
         "hanafi": "haram",
         "maliki": "haram",
@@ -3479,6 +3493,7 @@
         "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
         "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
       },
+      "agreed": true,
       "addedAt": "2026-09-17",
       "grades": {
         "hanafi": "haram",
@@ -3513,6 +3528,7 @@
         "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
         "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
       },
+      "agreed": true,
       "revisedAt": "2026-10-04",
       "revisionNote": {
         "ar": "أُعيدت صياغة قولَي الحنفية والشافعية، وكانا يُقرآن حصراً لكلّ ما يحلّ. والحكم لم يتغيّر.",
@@ -3807,7 +3823,8 @@
         "ru": "Требуется ли определить каждого из супругов по имени, указанием или отличительным описанием, и как неопределённость в одном из них влияет на действительность договора?",
         "es": "¿Ha de identificarse a cada cónyuge por nombre, señalando o por descripción distintiva, y qué efecto tiene la ambigüedad sobre uno de ellos en la validez del contrato?",
         "uk": "Чи треба визначити кожного з подружжя за ім'ям, вказівкою чи відмінним описом, і як невизначеність щодо одного з них впливає на дійсність договору?"
-      }
+      },
+      "agreed": true
     }
   ],
   "articles": [

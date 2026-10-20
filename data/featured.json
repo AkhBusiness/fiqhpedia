@@ -1,7 +1,7 @@
 {
   "featured": {
-    "ref": "F108",
-    "id": "nikah-2",
+    "ref": "F109",
+    "id": "nikah-3",
     "bookId": "nikah",
     "chapter": {
       "ar": "باب الخطبة",
@@ -11,58 +11,58 @@
       "uk": "Розділ про сватання"
     },
     "title": {
-      "ar": "خِطبة المعتدّة صراحةً والتعريض بها",
-      "en": "Offering Marriage to a Woman in Her Waiting Period, Openly or by Hint",
-      "ru": "Сватовство к женщине в период ожидания — прямо и намёком",
-      "es": "Pedir en matrimonio a la mujer en su período de espera, de forma clara o por insinuación",
-      "uk": "Сватання до жінки в період очікування — прямо й натяком"
+      "ar": "حكم الخلوة بالمخطوبة والسفر بها قبل العقد",
+      "en": "Being Alone with the Betrothed Woman and Travelling with Her before the Contract",
+      "ru": "Уединение с засватанной и поездка с ней до заключения договора",
+      "es": "Estar a solas con la prometida y viajar con ella antes del contrato",
+      "uk": "Усамітнення із засватаною та поїздка з нею до укладення договору"
     },
     "summary": {
-      "ar": "ما حكم التصريح بخطبة المرأة في عدّتها، وما حكم التعريض باختلاف نوع العدّة؟",
-      "en": "What is the ruling on offering marriage to a woman openly during her waiting period, and on hinting at it, according to the kind of waiting period?",
-      "ru": "Каково постановление о прямом сватовстве к женщине в период её ожидания и о намёке на это в зависимости от вида периода ожидания?",
-      "es": "¿Cuál es la norma sobre pedir en matrimonio abiertamente a la mujer en su período de espera, y sobre insinuarlo, según el tipo de período?",
-      "uk": "Яка постанова про пряме сватання до жінки в період її очікування і про натяк на це залежно від виду періоду очікування?"
+      "ar": "هل تحلّ الخلوة بالمخطوبة والسفر بها قبل عقد النكاح؟",
+      "en": "Is it lawful to be alone with the betrothed woman and to travel with her before the marriage contract?",
+      "ru": "Дозволено ли уединяться с засватанной и путешествовать с ней до заключения брачного договора?",
+      "es": "¿Es lícito estar a solas con la prometida y viajar con ella antes del contrato de matrimonio?",
+      "uk": "Чи дозволено усамітнюватися із засватаною та подорожувати з нею до укладення шлюбного договору?"
     },
     "rulings": {
       "hanafi": {
         "grade": "haram",
         "lead": {
-          "ar": "يحرم التصريح بخطبة المعتدّة مطلقاً. ويحرم التعريض للمعتدّة من طلاق رجعيّ لبقاء النكاح",
-          "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case",
-          "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае",
-          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso",
-          "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі"
+          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
+          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
+          "ru": "Уединение с засватанной и поездка с ней запрещены, ибо она остаётся для жениха посторонней, пока не заключён договор",
+          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
+          "uk": "Усамітнення із засватаною та поїздка з нею заборонені, бо вона лишається для жениха сторонньою, доки не укладено договір"
         }
       },
       "maliki": {
         "grade": "haram",
         "lead": {
-          "ar": "يحرم التصريح بخطبة المعتدّة كيفما كانت عدّتها. ويجوز التعريض للمعتدّة من وفاة ومن طلاق بائن",
-          "en": "Offering marriage openly to a woman in her waiting period is forbidden, whatever the kind of waiting period",
-          "ru": "Прямое сватовство к женщине в период ожидания запрещено, каким бы ни был вид этого периода",
-          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido, sea cual sea el tipo de período",
-          "uk": "Пряме сватання до жінки в період очікування заборонене, яким би не був вид цього періоду"
+          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
+          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
+          "ru": "Уединение с засватанной и поездка с ней запрещены",
+          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
+          "uk": "Усамітнення із засватаною та поїздка з нею заборонені"
         }
       },
       "shafii": {
         "grade": "haram",
         "lead": {
-          "ar": "يحرم التصريح بخطبة كلّ معتدّة. ويُباح التعريض لمعتدّة الوفاة والبائن",
-          "en": "Offering marriage openly to any woman in her waiting period is forbidden",
-          "ru": "Прямое сватовство к любой женщине в период ожидания запрещено",
-          "es": "Pedir abiertamente en matrimonio a cualquier mujer en su período de espera está prohibido",
-          "uk": "Пряме сватання до будь-якої жінки в період очікування заборонене"
+          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
+          "en": "Being alone with the betrothed woman and travelling with her are forbidden — on the strength of his saying ﷺ: “Let no man be alone with a…",
+          "ru": "Уединение с засватанной и поездка с ней запрещены — согласно его словам ﷺ: «Пусть не уединяется мужчина с женщиной",
+          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
+          "uk": "Усамітнення із засватаною та поїздка з нею заборонені — згідно з його словами ﷺ: «Хай не усамітнюється чоловік із жінкою"
         }
       },
       "hanbali": {
         "grade": "haram",
         "lead": {
-          "ar": "يحرم التصريح بخطبة المعتدّة بكلّ حال. ويُباح التعريض لمعتدّة الوفاة والبائن",
-          "en": "Offering marriage openly to a woman in her waiting period is forbidden in every case",
-          "ru": "Прямое сватовство к женщине в период ожидания запрещено в любом случае",
-          "es": "Pedir abiertamente en matrimonio a la mujer en su período de espera está prohibido en todo caso",
-          "uk": "Пряме сватання до жінки в період очікування заборонене в будь-якому разі"
+          "ar": "تحرم الخلوة بالمخطوبة والسفر بها",
+          "en": "Being alone with the betrothed woman and travelling with her are forbidden",
+          "ru": "Уединение с засватанной и поездка с ней запрещены",
+          "es": "Estar a solas con la prometida y viajar con ella están prohibidos",
+          "uk": "Усамітнення із засватаною та поїздка з нею заборонені"
         }
       }
     }
