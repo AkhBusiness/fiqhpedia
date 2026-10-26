@@ -11,20 +11,20 @@ import type { Lang } from "@/lib/fiqh-data"
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://fiqhpedia.pages.dev").replace(/\/$/, "")
 
 /**
- * One address per entry, per language.
+ * One address per entry, per language, under the section it belongs to:
  *
- *   /ar/f/F109  — an issue (fiqh)
- *   /ar/m/M8    — an article (maqāla)
- *   /ar/a/A1    — a rational proof (aqīda)
+ *   /ar/fiqh/F109      — an issue
+ *   /ar/articles/M8    — an article
+ *   /ar/aqidah/A1      — a rational proof
  *
- * The letter is the ref's own first letter, lowercased, so a reader who
- * knows the ref can type the address. Refs are permanent, so these links
- * are too.
+ * The ref is permanent, so these links are too. The first addresses were
+ * /ar/f/F109, /ar/m/M8 and /ar/a/A1; public/_redirects sends them here with
+ * a 301, because they are already shared and printed (the PDF book's codes).
  */
 export function entryPath(lang: Lang, ref: string): string {
   const r = ref.trim().toUpperCase()
-  const kind = r[0] === "F" ? "f" : r[0] === "M" ? "m" : "a"
-  return `/${lang}/${kind}/${r}`
+  const section = r[0] === "F" ? "fiqh" : r[0] === "M" ? "articles" : "aqidah"
+  return `/${lang}/${section}/${r}`
 }
 
 export function entryUrl(lang: Lang, ref: string): string {

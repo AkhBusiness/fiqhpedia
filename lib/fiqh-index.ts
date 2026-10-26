@@ -3,7 +3,7 @@
 /*                                                                      */
 /* Separate from fiqh-data so that a page can carry the UI strings and  */
 /* the types without carrying 250 KB of titles it never lists. The      */
-/* entry pages (/ar/f/F109) do not import this at all: their previous   */
+/* entry pages (/ar/fiqh/F109) do not import this at all: their previous   */
 /* and next are computed at build time; the fiqh tab, the home page and */
 /* the search load it with the component that needs it.                 */
 /* ------------------------------------------------------------------ */

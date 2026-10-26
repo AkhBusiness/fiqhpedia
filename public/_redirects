@@ -1,0 +1,5 @@
+# Cloudflare Pages. The first entry addresses were one letter; they are
+# shared and printed, so they live on as permanent redirects.
+/:lang/f/:ref /:lang/fiqh/:ref 301
+/:lang/m/:ref /:lang/articles/:ref 301
+/:lang/a/:ref /:lang/aqidah/:ref 301

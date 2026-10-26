@@ -5,7 +5,7 @@ import { LANGS, type Lang } from "@/lib/fiqh-data"
 import { findProof, theologyProofs } from "@/lib/theology-data"
 import { entryUrl } from "@/lib/site"
 
-/** /ar/a/A1 — one rational proof, one page. */
+/** /ar/aqidah/A1 — one rational proof, one page. */
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => theologyProofs.map((p) => ({ lang, ref: p.ref })))
 }

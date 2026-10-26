@@ -63,7 +63,7 @@ interface AppShellProps {
   lang: Lang
   section: Section
   /**
-   * Set by the per-entry routes (/ar/f/F109 and friends). The shell keeps
+   * Set by the per-entry routes (/ar/fiqh/F109 and friends). The shell keeps
    * its header, tabs, search and modals; only the middle changes. Read at
    * build time by a server component, so the full text arrives as a prop
    * and never through the client bundle.

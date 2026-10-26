@@ -5,7 +5,7 @@ import { LANGS, type Lang } from "@/lib/fiqh-data"
 import { findArticle, fullArticles } from "@/lib/fiqh-full"
 import { entryUrl } from "@/lib/site"
 
-/** /ar/m/M8 — one article, one page. See f/[ref] for the reasoning. */
+/** /ar/articles/M8 — one article, one page. See fiqh/[slug] for the reasoning. */
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => fullArticles.map((a) => ({ lang, ref: a.ref })))
 }
