@@ -34,7 +34,7 @@ const STATUS: Record<PlanChapter["status"], { key: string; cls: string }> = {
 /**
  * One book as a page: a progress line, then every chapter in the planned
  * order with its status and the entries written so far. The plan comes
- * from خريطة-الأبواب.md through build_data.py; the entries from the index.
+ * from docs/خريطة-الأبواب.md through build_data.py; the entries from the index.
  * A chapter that exists only in the plan has an Arabic name alone — it has
  * no entries yet to carry its translations.
  */

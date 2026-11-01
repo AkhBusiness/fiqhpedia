@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------ */
 /* A book's edition number, from what is written against what is       */
-/* planned (data/books.json, built from خريطة-الأبواب.md).             */
+/* planned (data/books.json, built from docs/خريطة-الأبواب.md).             */
 /*                                                                      */
 /*   0.N   preliminary, N = entries written. Never goes down: the plan  */
 /*         grows (طهارة went 121 → 122) and a percentage would shrink;  */

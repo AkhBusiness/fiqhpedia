@@ -1,7 +1,7 @@
 {
   "featured": {
-    "ref": "F7",
-    "id": "taharah-4",
+    "ref": "F125",
+    "id": "taharah-64",
     "bookId": "taharah",
     "chapter": {
       "ar": "باب التيمم",
@@ -11,58 +11,58 @@
       "uk": "Розділ про сухе очищення (таяммум)"
     },
     "title": {
-      "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
-      "en": "The ruling on tayammum when water is present but there is fear of using it",
-      "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования",
-      "es": "La norma sobre el tayammum cuando hay agua pero se teme usarla",
-      "uk": "Постанова про таяммум за наявності води, коли є побоювання її використати"
+      "ar": "المسح على الجبيرة والعصابة وشروطه",
+      "en": "Wiping over a Splint or Bandage and Its Conditions",
+      "ru": "Протирание поверх шины или повязки и его условия",
+      "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
+      "uk": "Протирання поверх шини чи пов'язки та його умови"
     },
     "summary": {
-      "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
-      "en": "Is tayammum permitted when water is available if harm from using it is feared?",
-      "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?",
-      "es": "¿Está permitido el tayammum habiendo agua si se teme un daño por usarla?",
-      "uk": "Чи дозволений таяммум за наявності води, якщо є побоювання шкоди від її використання?"
+      "ar": "أيجب المسح على الجبيرة والعصابة، وما شروطه، وهل يُضمّ إليه التيمم وتُعاد الصلاة؟",
+      "en": "Must one wipe over a splint or bandage, what are the conditions, and is the dry ablution added to it or the prayer repeated?",
+      "ru": "Обязательно ли протирать поверх шины или повязки, каковы условия этого, и добавляется ли к нему таяммум и повторяется ли молитва?",
+      "es": "¿Es obligatorio frotar sobre la férula o el vendaje, cuáles son sus condiciones, y se le añade el tayammum o se repite la oración?",
+      "uk": "Чи обов'язково протирати поверх шини чи пов'язки, які умови цього, і чи додається до нього таяммум і чи повторюється молитва?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "mubah",
+        "grade": "fard",
         "lead": {
-          "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
-          "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worse…",
-          "ru": "Таяммум допустим при наличии воды",
-          "es": "Está permitido el tayammum habiendo agua si se teme un daño por usarla",
-          "uk": "Таяммум дозволений за наявності води"
+          "ar": "المسح على الجبيرة والعصابة فرضٌ عمليّ إذا عجز عن غسل العضو ومسحه",
+          "en": "Wiping over a splint or bandage is a practical obligation when one cannot wash or wipe the limb itself",
+          "ru": "Протирание поверх шины или повязки — практическая обязанность, когда нельзя ни омыть, ни протереть сам орган",
+          "es": "Frotar sobre la férula o el vendaje es una obligación práctica cuando no se puede lavar ni frotar el miembro mismo",
+          "uk": "Протирання поверх шини чи пов'язки — практичний обов'язок, коли не можна ні обмити, ні протерти сам орган"
         }
       },
       "maliki": {
-        "grade": "mubah",
+        "grade": "fard",
         "lead": {
-          "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
-          "en": "Tayammum is permitted for the sick and for whoever fears worsening illness",
-          "ru": "Таяммум разрешён больному и тому",
-          "es": "Está permitido el tayammum para el enfermo y para quien tema el agravamiento de la enfermedad",
-          "uk": "Таяммум дозволений хворому і тому"
+          "ar": "إن خيف من غسل الجرح هلاكٌ أو شديد أذى وجب مسحه",
+          "en": "If washing the wound is feared to cause death or severe harm, wiping it is required",
+          "ru": "Если от омовения раны опасаются смерти или сильного вреда",
+          "es": "Si se teme que lavar la herida cause la muerte o un daño grave, es obligatorio frotarla",
+          "uk": "Якщо від обмивання рани побоюються смерті чи сильної шкоди"
         }
       },
       "shafii": {
-        "grade": "mubah",
+        "grade": "fard",
         "lead": {
-          "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو منفعة عضو",
-          "en": "Tayammum is permitted despite water's presence for one who fears",
-          "ru": "Таяммум допустим при наличии воды тому",
-          "es": "Está permitido el tayammum habiendo agua para quien tema",
-          "uk": "Таяммум дозволений за наявності води тому"
+          "ar": "إن لم يمكن نزع الجبيرة غسل الصحيح وتيمّم",
+          "en": "If the splint cannot be removed",
+          "ru": "Если шину нельзя снять, он омывает здоровое и совершает таяммум, и вместе с этим обязан протереть водой всю шину, без ограничения сроком",
+          "es": "Si la férula no puede quitarse, lava lo sano y hace el tayammum, y además debe frotar con agua toda la férula, sin plazo",
+          "uk": "Якщо шину не можна зняти"
         }
       },
       "hanbali": {
-        "grade": "mubah",
+        "grade": "fard",
         "lead": {
-          "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
-          "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold",
-          "ru": "Таяммум дозволен при наличии воды",
-          "es": "Se permite el tayammum habiendo agua si se teme",
-          "uk": "Таяммум дозволений за наявності води"
+          "ar": "يجب مسح جميع الجبيرة إلى حلّها أو برء ما تحتها بلا توقيت",
+          "en": "He must wipe the whole splint until it is undone or what is beneath it heals",
+          "ru": "Обязательно протирать всю шину",
+          "es": "Debe frotar toda la férula hasta que se desate o sane lo que hay debajo",
+          "uk": "Обов'язково протирати всю шину"
         }
       }
     }

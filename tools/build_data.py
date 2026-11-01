@@ -436,10 +436,10 @@ def main() -> int:
         json.dump({"books": books, "works": works}, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
-    # خريطة الأبواب: من خريطة-الأبواب.md — لكل كتاب عددُ المخطّط وفصولُه
+    # خريطة الأبواب: من docs/خريطة-الأبواب.md — لكل كتاب عددُ المخطّط وفصولُه
     # بحالتها (✅ ⚠️ ⬜)، ثم يُضاف المكتوب فعلاً من المسائل. المصدر الوحيد
     # للخطة هو الملف نفسه، فلا تُكتب الفصول المخطّطة في مكان ثانٍ.
-    books_plan = parse_plan(ROOT / "خريطة-الأبواب.md", ordered)
+    books_plan = parse_plan(ROOT / "docs" / "خريطة-الأبواب.md", ordered)
     with (ROOT / "data" / "books.json").open("w", encoding="utf-8") as fh:
         json.dump({"books": books_plan}, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
