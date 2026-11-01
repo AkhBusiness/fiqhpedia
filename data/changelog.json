@@ -1,6 +1,78 @@
 {
   "days": [
     {
+      "date": "2026-10-26",
+      "added": [
+        {
+          "kind": "issue",
+          "ref": "F123",
+          "title": {
+            "ar": "التيمم للجنب والحائض والنفساء وما يُباح لهم به",
+            "en": "Dry Ablution for Major Impurity, Menstruation and Postnatal Bleeding, and What It Permits",
+            "ru": "Таяммум при большом осквернении, после месячных и послеродового кровотечения и что он дозволяет",
+            "es": "El tayammum por impureza mayor, menstruación y posparto, y lo que permite",
+            "uk": "Таяммум при великому оскверненні, після місячних і післяпологової кровотечі та що він дозволяє"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F124",
+          "title": {
+            "ar": "وجود الماء بعد التيمم قبل الصلاة وفي أثنائها وبعدها",
+            "en": "Finding Water After the Dry Ablution: Before, During, or After the Prayer",
+            "ru": "Обнаружение воды после таяммума: до молитвы, во время неё или после",
+            "es": "Hallar agua tras el tayammum: antes, durante o después de la oración",
+            "uk": "Знайдення води після таяммуму: до молитви, під час неї чи після"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F125",
+          "title": {
+            "ar": "المسح على الجبيرة والعصابة وشروطه",
+            "en": "Wiping over a Splint or Bandage and Its Conditions",
+            "ru": "Протирание поверх шины или повязки и его условия",
+            "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
+            "uk": "Протирання поверх шини чи пов'язки та його умови"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F126",
+          "title": {
+            "ar": "طهارة من به جرح مكشوف يضرّه الماء",
+            "en": "Purification of One with an Exposed Wound That Water Harms",
+            "ru": "Очищение того, у кого открытая рана, которой вредит вода",
+            "es": "La purificación de quien tiene una herida descubierta a la que daña el agua",
+            "uk": "Очищення того, хто має відкриту рану, якій шкодить вода"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F127",
+          "title": {
+            "ar": "صلاة من فقد الماء والتراب جميعاً",
+            "en": "The Prayer of One Who Has Neither Water nor Earth",
+            "ru": "Молитва того, у кого нет ни воды, ни земли",
+            "es": "La oración de quien no tiene ni agua ni tierra",
+            "uk": "Молитва того, хто не має ні води, ні землі"
+          }
+        },
+        {
+          "kind": "issue",
+          "ref": "F128",
+          "title": {
+            "ar": "إعادة صلاة المتيمم إذا وجد الماء بعد خروج الوقت",
+            "en": "Repeating the Prayer of One Who Did the Dry Ablution and Found Water After the Time Ended",
+            "ru": "Повторение молитвы совершившего таяммум, если он нашёл воду после выхода времени",
+            "es": "Repetir la oración de quien hizo el tayammum y halló agua tras salir el tiempo",
+            "uk": "Повторення молитви того, хто здійснив таяммум і знайшов воду після виходу часу"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
       "date": "2026-10-20",
       "added": [],
       "revised": [
@@ -2658,7 +2730,7 @@
     }
   ],
   "totals": {
-    "issues": 120,
+    "issues": 126,
     "articles": 8
   }
 }

@@ -1,0 +1,148 @@
+{
+  "ref": "F125",
+  "addedAt": "2026-10-26",
+  "id": "taharah-64",
+  "bookId": "taharah",
+  "seq": 10,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "المسح على الجبيرة والعصابة وشروطه",
+    "en": "Wiping over a Splint or Bandage and Its Conditions",
+    "ru": "Протирание поверх шины или повязки и его условия",
+    "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
+    "uk": "Протирання поверх шини чи пов'язки та його умови"
+  },
+  "summary": {
+    "ar": "أيجب المسح على الجبيرة والعصابة، وما شروطه، وهل يُضمّ إليه التيمم وتُعاد الصلاة؟",
+    "en": "Must one wipe over a splint or bandage, what are the conditions, and is the dry ablution added to it or the prayer repeated?",
+    "ru": "Обязательно ли протирать поверх шины или повязки, каковы условия этого, и добавляется ли к нему таяммум и повторяется ли молитва?",
+    "es": "¿Es obligatorio frotar sobre la férula o el vendaje, cuáles son sus condiciones, y se le añade el tayammum o se repite la oración?",
+    "uk": "Чи обов'язково протирати поверх шини чи пов'язки, які умови цього, і чи додається до нього таяммум і чи повторюється молитва?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "text": {
+        "ar": "المسح على الجبيرة والعصابة فرضٌ عمليّ إذا عجز عن غسل العضو ومسحه، ويكفي مسح أكثرها، ولا يُشترط شدّها على طهارة، ولا يتوقّت بمدّة، ولا يُجمع معه تيمم، لأنه كالغسل لما تحتها.",
+        "en": "Wiping over a splint or bandage is a practical obligation when one cannot wash or wipe the limb itself; wiping most of it suffices, it need not have been bound on in a state of purity, it has no time limit, and no dry ablution is combined with it, since it counts as washing what lies beneath.",
+        "ru": "Протирание поверх шины или повязки — практическая обязанность, когда нельзя ни омыть, ни протереть сам орган; достаточно протереть большую её часть, не требуется, чтобы её наложили в состоянии чистоты, оно не ограничено сроком, и к нему не добавляется таяммум, поскольку оно равносильно омовению того, что под ней.",
+        "es": "Frotar sobre la férula o el vendaje es una obligación práctica cuando no se puede lavar ni frotar el miembro mismo; basta con frotar la mayor parte, no se exige haberla puesto en estado de pureza, no tiene plazo, y no se le junta el tayammum, pues equivale a lavar lo que hay debajo.",
+        "uk": "Протирання поверх шини чи пов'язки — практичний обов'язок, коли не можна ні обмити, ні протерти сам орган; достатньо протерти більшу її частину, не вимагається, щоб її наклали в стані чистоти, воно не обмежене строком, і до нього не додається таяммум, оскільки воно рівнозначне обмиванню того, що під нею."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "مراقي الفلاح",
+          "en": "Marāqī al-Falāḥ",
+          "ru": "«Мараки аль-Фалях»",
+          "es": "Marāqī al-Falāḥ",
+          "uk": "«Маракі аль-Фалях»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "text": {
+        "ar": "إن خيف من غسل الجرح هلاكٌ أو شديد أذى وجب مسحه، فإن لم يستطع فعلى الجبيرة ثم العصابة يعمّها بالمسح، ولو وُضعت بلا طهارة أو جاوزت محلّ الجرح، ويُندب إن خيف دون ذلك. وهذا إن صحّ جلّ جسده أو أقلّه ولم يضرّه غسل الصحيح، وإلا ففرضه التيمم.",
+        "en": "If washing the wound is feared to cause death or severe harm, wiping it is required; if he cannot, then over the splint, then over the bandage, covering it entirely, even if it was put on without purity or spreads beyond the wound; if a lesser harm is feared, this is recommended. This holds if most of his body is sound, or the lesser part is sound and washing it does not harm him; otherwise his obligation is the dry ablution.",
+        "ru": "Если от омовения раны опасаются смерти или сильного вреда, обязательно протереть её, а если он не может — то поверх шины, затем поверх повязки, охватывая её целиком, даже если её наложили без чистоты или она выходит за пределы раны; если опасаются меньшего вреда, это желательно. Так — если здорова большая часть его тела, либо здорова меньшая и её омовение ему не вредит; иначе его обязанность — таяммум.",
+        "es": "Si se teme que lavar la herida cause la muerte o un daño grave, es obligatorio frotarla; si no puede, sobre la férula y luego sobre el vendaje, cubriéndolo por entero, aunque se pusiera sin pureza o exceda la herida; si se teme un daño menor, es recomendable. Esto vale si la mayor parte de su cuerpo está sana, o la menor lo está y lavarla no le daña; si no, lo que le corresponde es el tayammum.",
+        "uk": "Якщо від обмивання рани побоюються смерті чи сильної шкоди, обов'язково протерти її, а якщо він не може — то поверх шини, потім поверх пов'язки, охоплюючи її цілком, навіть якщо її наклали без чистоти або вона виходить за межі рани; якщо побоюються меншої шкоди, це бажано. Так — якщо здорова більша частина його тіла, або здорова менша і її обмивання йому не шкодить; інакше його обов'язок — таяммум."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "text": {
+        "ar": "إن لم يمكن نزع الجبيرة غسل الصحيح وتيمّم، ووجب مع ذلك مسح كلّ الجبيرة بالماء بلا توقيت، ويُشترط ألّا تأخذ من الصحيح إلا ما لا بدّ منه للاستمساك. ولا يقضي الصلاة إن وُضعت على طهر في غير أعضاء التيمم، وإلا قضى.",
+        "en": "If the splint cannot be removed, he washes the sound part and performs the dry ablution, and he must also wipe the whole splint with water, without time limit; it is a condition that it cover of the sound part only what is needed to hold it in place. He does not make up the prayer if it was put on in purity and is not on the limbs of the dry ablution; otherwise he makes it up.",
+        "ru": "Если шину нельзя снять, он омывает здоровое и совершает таяммум, и вместе с этим обязан протереть водой всю шину, без ограничения сроком; условие — чтобы она захватывала из здорового лишь то, без чего её не удержать. Он не восполняет молитву, если шину наложили в чистоте и она не на органах таяммума; иначе восполняет.",
+        "es": "Si la férula no puede quitarse, lava lo sano y hace el tayammum, y además debe frotar con agua toda la férula, sin plazo; es condición que no abarque de lo sano más que lo imprescindible para sujetarla. No recupera la oración si se puso en estado de pureza y no está sobre los miembros del tayammum; si no, la recupera.",
+        "uk": "Якщо шину не можна зняти, він обмиває здорове і здійснює таяммум, і разом із цим зобов'язаний протерти водою всю шину, без обмеження строком; умова — щоб вона захоплювала зі здорового лише те, без чого її не втримати. Він не відновлює молитву, якщо шину наклали в чистоті й вона не на органах таяммуму; інакше відновлює."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "text": {
+        "ar": "يجب مسح جميع الجبيرة إلى حلّها أو برء ما تحتها بلا توقيت، بشرط شدّها على طهارة كاملة بماء وألّا تتجاوز قدر الحاجة. فإن شدّها على غير طهارة وخاف من نزعها تيمّم، وإن جاوزت الحاجة وخاف مسح ما حاذى محلّها وتيمّم للزائد.",
+        "en": "He must wipe the whole splint until it is undone or what is beneath it heals, without time limit, provided it was bound on after a complete purification with water and does not exceed what is needed. If he bound it on without purity and fears removing it, he performs the dry ablution; if it exceeds what is needed and he fears removing it, he wipes what covers the needed area and performs the dry ablution for the excess.",
+        "ru": "Обязательно протирать всю шину, пока её не снимут или не заживёт то, что под ней, без ограничения сроком, при условии, что её наложили после полного очищения водой и она не превышает необходимого. Если он наложил её без чистоты и опасается её снимать, он совершает таяммум; если она превышает необходимое и он опасается снимать, он протирает то, что над нужным местом, и совершает таяммум за излишек.",
+        "es": "Debe frotar toda la férula hasta que se desate o sane lo que hay debajo, sin plazo, con la condición de haberla puesto tras una purificación completa con agua y de que no exceda lo necesario. Si la puso sin pureza y teme quitarla, hace el tayammum; si excede lo necesario y teme quitarla, frota lo que cubre la zona necesaria y hace el tayammum por el exceso.",
+        "uk": "Обов'язково протирати всю шину, доки її не знімуть або не загоїться те, що під нею, без обмеження строком, за умови, що її наклали після повного очищення водою і вона не перевищує необхідного. Якщо він наклав її без чистоти й побоюється її знімати, він здійснює таяммум; якщо вона перевищує необхідне і він побоюється знімати, він протирає те, що над потрібним місцем, і здійснює таяммум за надлишок."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        }
+      ]
+    }
+  }
+}

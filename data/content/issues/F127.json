@@ -1,0 +1,151 @@
+{
+  "ref": "F127",
+  "addedAt": "2026-10-26",
+  "id": "taharah-66",
+  "bookId": "taharah",
+  "seq": 12,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "صلاة من فقد الماء والتراب جميعاً",
+    "en": "The Prayer of One Who Has Neither Water nor Earth",
+    "ru": "Молитва того, у кого нет ни воды, ни земли",
+    "es": "La oración de quien no tiene ni agua ni tierra",
+    "uk": "Молитва того, хто не має ні води, ні землі"
+  },
+  "summary": {
+    "ar": "أيصلّي من لم يجد ماءً ولا تراباً في الوقت وكيف، وهل يعيد إذا وجد أحدهما؟",
+    "en": "Does one who finds neither water nor earth pray within the prayer time, and how, and must he repeat it once he finds either?",
+    "ru": "Молится ли не нашедший ни воды, ни земли в пределах времени молитвы, и как, и обязан ли он повторить её, найдя одно из них?",
+    "es": "¿Reza dentro del tiempo quien no halla ni agua ni tierra, y cómo, y debe repetir la oración al encontrar una de las dos?",
+    "uk": "Чи молиться в межах часу молитви той, хто не знайшов ні води, ні землі, і як, і чи зобов'язаний він повторити її, знайшовши одне з них?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يتشبّه بالمصلّين في الوقت وجوباً احتراماً له، فيركع ويسجد إن وجد مكاناً يابساً وإلا أومأ قائماً، ولا يقرأ، ثم يعيد الصلاة إذا وجد ما يتطهّر به.",
+        "en": "He must imitate those who pray within the prayer time, out of respect for it: he bows and prostrates if he finds a dry place, otherwise he gestures while standing, and he does not recite; then he repeats the prayer once he finds something to purify himself with.",
+        "ru": "Он обязан уподобиться молящимся в пределах времени молитвы из почтения к нему: совершает поясной и земной поклоны, если находит сухое место, а иначе делает знаки стоя, и ничего не читает; затем он повторяет молитву, когда найдёт, чем очиститься.",
+        "es": "Debe imitar a quienes rezan dentro del tiempo de la oración, por respeto a este: se inclina y se postra si halla un lugar seco, y si no, hace señas de pie, y no recita; luego repite la oración cuando encuentre con qué purificarse.",
+        "uk": "Він зобов'язаний уподібнитися до тих, хто молиться, у межах часу молитви з пошани до нього: робить поясний і земний поклони, якщо знаходить сухе місце, а інакше робить знаки стоячи, і нічого не читає; потім він повторює молитву, коли знайде, чим очиститися."
+      },
+      "sources": [
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "تسقط عنه الصلاة أداءً وقضاءً، فلا يصلّي في الوقت، ولا يقضي إذا وجد الماء أو التراب بعده.",
+        "en": "The prayer drops from him, both its performance and its making up: he does not pray within the time, and does not make it up when he later finds water or earth.",
+        "ru": "Молитва с него снимается и в своё время, и в виде восполнения: он не молится в пределах времени и не восполняет её, когда затем найдёт воду или землю.",
+        "es": "La oración queda suprimida para él, tanto en su tiempo como en recuperación: no reza dentro del tiempo ni la recupera cuando después encuentra agua o tierra.",
+        "uk": "Молитва з нього знімається і у свій час, і у вигляді відшкодування: він не молиться в межах часу і не відшкодовує її, коли потім знайде воду чи землю."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        },
+        {
+          "ar": "الشرح الصغير",
+          "en": "Al-Sharḥ al-Ṣaghīr",
+          "ru": "«Аш-Шарх ас-Сагир»",
+          "es": "Al-Sharḥ al-Ṣaghīr",
+          "uk": "«Аш-Шарх ас-Сагір»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يلزمه أن يصلّي الفرض المؤدّى في الوقت لحرمته، ولا يتنفّل، ولا يقرأ الجنب غير الفاتحة، ثم يعيد إذا وجد الماء، أو التراب في موضع يسقط فيه القضاء بالتيمم.",
+        "en": "He must pray the current obligatory prayer within its time, for the sanctity of the time; he prays no voluntary prayers, and one in major impurity recites nothing but al-Fātiḥah. He then repeats it once he finds water, or earth in a place where the dry ablution removes the duty to make up.",
+        "ru": "Он обязан совершить текущую обязательную молитву в её время ради святости времени; добровольных он не совершает, а находящийся в большом осквернении читает только «аль-Фатиху». Затем он повторяет её, найдя воду, или землю в месте, где таяммум снимает обязанность восполнения.",
+        "es": "Debe rezar la oración obligatoria del momento dentro de su tiempo, por la inviolabilidad del tiempo; no reza voluntarias, y quien está en impureza mayor no recita más que al-Fātiḥah. Luego la repite al encontrar agua, o tierra en un lugar donde el tayammum exime de recuperarla.",
+        "uk": "Він зобов'язаний здійснити поточну обов'язкову молитву в її час заради святості часу; добровільних він не здійснює, а той, хто в великому оскверненні, читає лише «аль-Фатіху». Потім він повторює її, знайшовши воду, або землю в місці, де таяммум знімає обов'язок відшкодування."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يصلّي الفرض فقط في الوقت على حسب حاله ولا يؤخّره، ولا يزيد على ما يجزئ، فلا يقرأ زائداً على الفاتحة، ولا يعيد إذا وجد أحدهما.",
+        "en": "He prays only the obligatory prayer, within the time, as his state allows, without delaying it; he does not go beyond what suffices, so he recites nothing beyond al-Fātiḥah, and he does not repeat it when he finds either.",
+        "ru": "Он совершает только обязательную молитву в её время так, как позволяет его состояние, не откладывая её; он не добавляет сверх достаточного, поэтому не читает ничего сверх «аль-Фатихи», и не повторяет её, найдя одно из них.",
+        "es": "Reza solo la oración obligatoria, dentro del tiempo, según su estado, sin retrasarla; no añade nada a lo que basta, de modo que no recita más que al-Fātiḥah, y no la repite al encontrar una de las dos.",
+        "uk": "Він здійснює лише обов'язкову молитву в її час так, як дозволяє його стан, не відкладаючи її; він не додає понад достатнє, тож не читає нічого понад «аль-Фатіху», і не повторює її, знайшовши одне з них."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        }
+      ]
+    }
+  }
+}

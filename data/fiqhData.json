@@ -3050,12 +3050,142 @@
         "es": "Tayammum",
         "uk": "Таяммум"
       },
-      "definition": {
-        "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
-        "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
-        "ru": "Сухое очищение чистой землёй вместо воды при её отсутствии или невозможности использования из-за болезни и т. п.",
-        "es": "Purificación con tierra limpia en lugar de agua, cuando esta falta o no puede usarse por enfermedad o causa similar.",
-        "uk": "Очищення чистою землею замість води за її відсутності або неможливості використати через хворобу тощо."
+      "briefDefinition": {
+        "ar": "طهارةٌ بالصعيد الطاهر يُمسح فيها الوجه واليدان، بدلاً من الوضوء أو الغسل عند فقد الماء أو العجز عن استعماله.",
+        "en": "Purification with clean earth, wiping the face and hands, in place of ablution or the ritual bath when water is lacking or cannot be used.",
+        "ru": "Очищение чистой землёй с протиранием лица и рук вместо малого или полного омовения, когда воды нет или её невозможно использовать.",
+        "es": "Purificación con tierra limpia, frotando el rostro y las manos, en lugar de la ablución o del baño ritual cuando falta el agua o no puede usarse.",
+        "uk": "Очищення чистою землею з протиранням обличчя й рук замість малого чи повного омивання, коли води немає або її неможливо використати."
+      },
+      "linguistic": {
+        "ar": "القصد؛ يقال: يمّمتُ الشيء وتيمّمته إذا قصدته، ثم غلب في عرف الشرع على قصد الصعيد للتطهّر به.",
+        "en": "Aiming for something: one says yammamtu or tayammamtu a thing when one heads for it; in the Law's usage it then came to mean heading for the earth in order to purify with it.",
+        "ru": "Устремление к чему-либо: говорят «яммамту» или «таяммамту» что-либо, когда направляются к нему; затем в шариатском употреблении слово закрепилось за обращением к земле ради очищения ею.",
+        "es": "Dirigirse a algo: se dice yammamtu o tayammamtu una cosa cuando uno se encamina hacia ella; luego, en el uso de la Ley, pasó a designar el dirigirse a la tierra para purificarse con ella.",
+        "uk": "Спрямування до чогось: кажуть «яммамту» чи «таяммамту» щось, коли прямують до нього; згодом у шаріатському вжитку слово закріпилося за зверненням до землі, щоб очиститися нею."
+      },
+      "legal": {
+        "ar": "قصد الصعيد الطيّب ومسح الوجه واليدين منه، للمريض ولمن لم يجد الماء، كما في قوله تعالى: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ سورة المائدة: ٦.",
+        "en": "Heading for good, clean earth and wiping the face and hands with it, for the sick and for one who finds no water, as in His saying: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — Sūrat al-Māʾidah, verse 6.",
+        "ru": "Обращение к доброй чистой земле и протирание ею лица и рук — для больного и для того, кто не нашёл воды, как в словах Всевышнего: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — сура «аль-Маида», аят 6.",
+        "es": "Dirigirse a tierra buena y limpia y frotar con ella el rostro y las manos, para el enfermo y para quien no halla agua, como en Su dicho: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — sura al-Māʾidah, aleya 6.",
+        "uk": "Звернення до доброї чистої землі й протирання нею обличчя та рук — для хворого й для того, хто не знайшов води, як у словах Всевишнього: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — сура «аль-Маїда», аят 6."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "قصدُ صعيدٍ مطهِّر واستعمالُه بصفةٍ مخصوصة لإقامة القربة، وذلك بمسح الوجه واليدين منه.",
+            "en": "Heading for purifying earth and using it in a specified manner in order to perform an act of devotion — by wiping the face and hands with it.",
+            "ru": "Обращение к очищающей земле и её использование особым образом ради совершения акта поклонения — протиранием ею лица и рук.",
+            "es": "Dirigirse a tierra purificadora y usarla de un modo determinado para realizar un acto de devoción, frotando con ella el rostro y las manos.",
+            "uk": "Звернення до очищувальної землі та її використання особливим чином задля здійснення акту поклоніння — протиранням нею обличчя й рук."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "طهارةٌ ترابيّة تشتمل على مسح الوجه واليدين بنيّة، والمراد بالتراب جنس الأرض.",
+            "en": "A purification with dust consisting of wiping the face and hands with intention; by dust is meant here the ground of any kind.",
+            "ru": "Очищение прахом, состоящее в протирании лица и рук с намерением; под прахом здесь понимается земля любого рода.",
+            "es": "Purificación con tierra que consiste en frotar el rostro y las manos con intención; por «tierra» se entiende aquí el suelo de cualquier clase.",
+            "uk": "Очищення порохом, що полягає в протиранні обличчя й рук із наміром; під порохом тут розуміється земля будь-якого роду."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "إيصال التراب إلى الوجه واليدين بدلاً عن الوضوء أو الغسل أو عن عضوٍ منهما، بشرائط مخصوصة.",
+            "en": "Bringing dust to the face and hands in place of ablution or the ritual bath, or of a limb in either, under specified conditions.",
+            "ru": "Доведение праха до лица и рук вместо малого или полного омовения либо вместо одного из их органов — при особых условиях.",
+            "es": "Hacer llegar tierra al rostro y a las manos en lugar de la ablución o del baño ritual, o de un miembro de ellos, con condiciones determinadas.",
+            "uk": "Доведення пороху до обличчя й рук замість малого чи повного омивання або замість одного з їхніх органів — за особливих умов."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مسحُ الوجه واليدين بترابٍ طهورٍ على وجهٍ مخصوص، وهو بدلٌ عن طهارة الماء.",
+            "en": "Wiping the face and hands with purifying dust in a specified manner; it is a substitute for purification with water.",
+            "ru": "Протирание лица и рук очищающим прахом особым образом; оно заменяет очищение водой.",
+            "es": "Frotar el rostro y las manos con tierra purificadora de un modo determinado; es sustituto de la purificación con agua.",
+            "uk": "Протирання обличчя й рук очищувальним порохом особливим чином; воно заміняє очищення водою."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            }
+          ]
+        }
       }
     },
     {
@@ -6251,6 +6381,412 @@
               "ru": "«Аль-Инсаф»",
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "jabirah",
+      "term": {
+        "ar": "الجَبِيرَة",
+        "en": "Jabīrah",
+        "ru": "Джабира",
+        "es": "Jabīrah",
+        "uk": "Джабіра"
+      },
+      "briefDefinition": {
+        "ar": "ما يُشدّ على العضو المكسور أو المجروح من أعواد ونحوها ليلتئم، ويُمسح عليه في الطهارة بدلاً من غسل ما تحته.",
+        "en": "What is bound onto a broken or wounded limb — splint-sticks and the like — so that it may heal; in purification it is wiped over in place of washing what lies beneath.",
+        "ru": "То, что привязывают к сломанной или раненой части тела — палочки-шины и подобное, — чтобы она срослась; при очищении её протирают вместо мытья того, что под ней.",
+        "es": "Lo que se ata sobre un miembro roto o herido —tablillas y similares— para que sane; en la purificación se pasa la mano mojada sobre ello en lugar de lavar lo que hay debajo.",
+        "uk": "Те, що прив'язують до зламаної чи пораненої частини тіла — палички-шини тощо, — щоб вона зрослася; під час очищення її протирають замість миття того, що під нею."
+      },
+      "linguistic": {
+        "ar": "من الجَبْر، وهو إصلاح العظم المكسور؛ والجبائر العيدان التي تُشدّ على العظم لتجبره على استواء، واحدتها جبيرة وجِبارة.",
+        "en": "From jabr, the setting of a broken bone; jabāʾir are the sticks bound onto a bone to set it straight, the singular being jabīrah or jibārah.",
+        "ru": "От «джабр» — вправление сломанной кости; «джабаир» — палочки, которые привязывают к кости, чтобы она срослась ровно; единственное число — «джабира» или «джибара».",
+        "es": "De jabr, la reducción del hueso roto; jabāʾir son las varillas que se atan sobre el hueso para que suelde recto; su singular es jabīrah o jibārah.",
+        "uk": "Від «джабр» — вправлення зламаної кістки; «джабаїр» — палички, які прив'язують до кістки, щоб вона зрослася рівно; однина — «джабіра» або «джібара»."
+      },
+      "legal": {
+        "ar": "لم يرد للفظ في النصوص استعمال شرعي متميّز عن معناه اللغوي؛ وفي السنة المسح على ما يُعصب على الجرح، في حديث صاحب الشجّة عند أبي داود، وفي إسناده مقال.",
+        "en": "The word has no legal usage in the texts distinct from its linguistic sense; the Sunnah speaks of wiping over what is bandaged onto a wound, in the hadith of the man with the head wound in Abū Dāwūd, whose chain has been criticised.",
+        "ru": "В текстах у этого слова нет особого шариатского употребления, отличного от языкового; в Сунне же говорится о протирании того, что повязано на рану, — в хадисе о человеке с раной на голове у Абу Дауда, иснад которого подвергался критике.",
+        "es": "La palabra no tiene en los textos un uso legal distinto de su sentido lingüístico; la Sunna habla de pasar la mano mojada sobre lo que se venda sobre una herida, en el hadiz del hombre herido en la cabeza recogido por Abū Dāwūd, cuya cadena ha sido criticada.",
+        "uk": "У текстах це слово не має особливого шаріатського вжитку, відмінного від мовного; у Сунні ж ідеться про протирання того, що пов'язано на рану, — у хадисі про чоловіка з раною на голові в Абу Дауда, існад якого зазнавав критики."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "عيدانٌ يُجبَر بها الكسر، تُلفّ وتُربط على العضو المنكسر؛ وفي معناها خرقة القرحة وعصابة الجرح وموضع الفصد.",
+            "en": "Sticks with which a fracture is set, wrapped and tied onto the broken limb; in the same category are the cloth over an ulcer, the bandage over a wound, and that over a bloodletting site.",
+            "ru": "Палочки, которыми вправляют перелом, — их обматывают и привязывают к сломанной части тела; к ним приравниваются тряпица на язве, повязка на ране и на месте кровопускания.",
+            "es": "Varillas con las que se reduce una fractura, envueltas y atadas sobre el miembro roto; en su mismo sentido están el paño sobre una llaga, el vendaje de una herida y el del lugar de una sangría.",
+            "uk": "Палички, якими вправляють перелом, — їх обмотують і прив'язують до зламаної частини тіла; до них прирівнюються ганчірка на виразці, пов'язка на рані та на місці кровопускання."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الدواء الذي يُجعل على الجرح ونحوه، وكلّ ما يُطيَّب به الجرح ذَروراً كان أو أعواداً أو غير ذلك.",
+            "en": "The medicament placed on a wound or the like — whatever the wound is treated with, whether powder, sticks or anything else.",
+            "ru": "Лекарство, которое накладывают на рану и подобное, — всё, чем лечат рану: порошок, палочки или что-либо иное.",
+            "es": "El remedio que se coloca sobre una herida o similar: todo aquello con que se cura la herida, sea polvo, varillas u otra cosa.",
+            "uk": "Ліки, які накладають на рану тощо, — усе, чим лікують рану: порошок, палички чи щось інше."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "خشبٌ أو قصبٌ ونحوهما من الألواح، يُسوّى ويُشدّ على موضع الكسر أو الخلع لينجبر.",
+            "en": "Wood, cane or similar slats, trimmed and bound onto the site of a fracture or dislocation so that it may set.",
+            "ru": "Дерево, тростник или подобные дощечки, которые выравнивают и привязывают к месту перелома или вывиха, чтобы оно срослось.",
+            "es": "Madera, caña o tablillas semejantes, ajustadas y atadas sobre el lugar de una fractura o luxación para que suelde.",
+            "uk": "Дерево, очерет чи подібні дощечки, які вирівнюють і прив'язують до місця перелому або вивиху, щоб воно зрослося."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "أخشابٌ أو نحوها تُربط على الكسر أو نحوه كالجرح، سُمّيت بذلك تفاؤلاً بالجَبْر.",
+            "en": "Pieces of wood or the like tied onto a fracture or something similar such as a wound, so named in hopeful anticipation of the bone's setting.",
+            "ru": "Деревянные планки или подобное, привязываемые к перелому или подобному, например к ране; названы так в добрый знак вправления.",
+            "es": "Trozos de madera o similares que se atan sobre una fractura o algo parecido, como una herida; se llaman así augurando que el hueso suelde.",
+            "uk": "Дерев'яні планки чи подібне, які прив'язують до перелому або подібного, як-от до рани; названі так на добрий знак зрощення."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mani",
+      "term": {
+        "ar": "المَنِيّ",
+        "en": "Manī",
+        "ru": "Мани",
+        "es": "Manī",
+        "uk": "Мані"
+      },
+      "briefDefinition": {
+        "ar": "الماء الذي يخرج دفقاً بلذّة عند اشتداد الشهوة ومنه يُخلق الولد؛ وهو من الرجل غليظ أبيض، ومن المرأة رقيق أصفر.",
+        "en": "The fluid that issues in spurts with pleasure at the peak of desire and from which a child is created; in a man it is thick and white, in a woman thin and yellow.",
+        "ru": "Жидкость, которая выходит толчками с наслаждением при пике вожделения и из которой создаётся ребёнок; у мужчины она густая и белая, у женщины — жидкая и жёлтая.",
+        "es": "El fluido que sale a borbotones con placer en el culmen del deseo y del que se crea el hijo; en el hombre es espeso y blanco, en la mujer fino y amarillento.",
+        "uk": "Рідина, що виходить поштовхами з насолодою на піку пожадання і з якої створюється дитина; у чоловіка вона густа й біла, у жінки — рідка й жовта."
+      },
+      "linguistic": {
+        "ar": "فعيلٌ بمعنى مفعول، من مَنى الرجلُ وأمنى إذا أنزل؛ وهو في كلام العرب ماء الرجل، واستمنى: استدعى خروجه.",
+        "en": "A faʿīl form in the sense of the passive participle, from manā or amnā, to ejaculate; in the speech of the Arabs it is a man's fluid, and istamnā means to induce its emission.",
+        "ru": "Форма «фаиль» в значении страдательного причастия, от «мана» или «амна» — извергнуть семя; в речи арабов это мужская жидкость, а «истамна» — вызвать её выход.",
+        "es": "Forma faʿīl con sentido de participio pasivo, de manā o amnā, eyacular; en el habla de los árabes es el fluido del hombre, e istamnā es provocar su salida.",
+        "uk": "Форма «фаїль» у значенні пасивного дієприкметника, від «мана» чи «амна» — вивергнути сім'я; у мові арабів це чоловіча рідина, а «істамна» — викликати її вихід."
+      },
+      "legal": {
+        "ar": "الماء الذي يُخلق منه الولد، كما في قوله تعالى: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ سورة القيامة: ٣٧؛ وفي حديث أمّ سليم عند مسلم: ماء الرجل غليظ أبيض، وماء المرأة رقيق أصفر.",
+        "en": "The fluid from which a child is created, as in His saying: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — Sūrat al-Qiyāmah, verse 37; and in the hadith of Umm Sulaym in Muslim: a man's fluid is thick and white, and a woman's thin and yellow.",
+        "ru": "Жидкость, из которой создаётся ребёнок, как в словах Всевышнего: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — сура «аль-Кыяма», аят 37; а в хадисе Умм Сулейм у Муслима: жидкость мужчины густая и белая, а женщины — жидкая и жёлтая.",
+        "es": "El fluido del que se crea el hijo, como en Su dicho: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — sura al-Qiyāmah, aleya 37; y en el hadiz de Umm Sulaym en Muslim: el fluido del hombre es espeso y blanco, y el de la mujer, fino y amarillento.",
+        "uk": "Рідина, з якої створюється дитина, як у словах Всевишнього: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — сура «аль-Кіяма», аят 37; а в хадисі Умм Сулейм у Мусліма: рідина чоловіка густа й біла, а жінки — рідка й жовта."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ماءٌ أبيضُ ثخينٌ ينكسر الذكر بخروجه، تشبه رائحته رائحة الطلع؛ ومنيّ المرأة رقيقٌ أصفر.",
+            "en": "A thick white fluid after whose emission the organ goes slack, its smell resembling that of palm spathe; a woman's is thin and yellow.",
+            "ru": "Густая белая жидкость, после выхода которой член опадает; её запах напоминает запах соцветия финиковой пальмы; у женщины она жидкая и жёлтая.",
+            "es": "Un fluido blanco y espeso tras cuya salida el miembro se relaja, de olor parecido al de la espata de palmera; el de la mujer es fino y amarillento.",
+            "uk": "Густа біла рідина, після виходу якої член опадає; її запах схожий на запах суцвіття фінікової пальми; у жінки вона рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ماءٌ له في اعتدال المزاج تدفّقٌ عند خروجه ورائحةُ طلعٍ أو عجين، ويشبه ريحه البيض إذا يبس؛ وهو من الرجل ثخينٌ أبيض، ومن المرأة رقيقٌ أصفر.",
+            "en": "A fluid which, in a balanced constitution, spurts on emission and smells of palm spathe or dough, and when dry smells like egg; a man's is thick and white, a woman's thin and yellow.",
+            "ru": "Жидкость, которая при уравновешенном темпераменте выходит толчками и пахнет соцветием финиковой пальмы или тестом, а высохнув, пахнет яйцом; у мужчины она густая и белая, у женщины — жидкая и жёлтая.",
+            "es": "Un fluido que, en una constitución equilibrada, sale a borbotones y huele a espata de palmera o a masa, y seco huele a huevo; el del hombre es espeso y blanco, el de la mujer fino y amarillento.",
+            "uk": "Рідина, що за врівноваженого темпераменту виходить поштовхами й пахне суцвіттям фінікової пальми чи тістом, а висохнувши, пахне яйцем; у чоловіка вона густа й біла, у жінки — рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما يُعرف بإحدى خواصّه الثلاث: التدفّق، أو اللذّة بخروجه، أو ريح العجين والطلع رطباً وريح بياض البيض جافّاً.",
+            "en": "That which is recognised by any one of its three distinctive properties: spurting, pleasure on its emission, or the smell of dough and palm spathe when moist and of egg white when dry.",
+            "ru": "То, что распознаётся по любому из трёх его отличительных свойств: выходу толчками, наслаждению при выходе либо запаху теста и соцветия финиковой пальмы во влажном виде и яичного белка в сухом.",
+            "es": "Lo que se reconoce por cualquiera de sus tres propiedades distintivas: salir a borbotones, el placer al salir, o el olor a masa y a espata de palmera cuando está húmedo y a clara de huevo cuando está seco.",
+            "uk": "Те, що розпізнається за будь-якою з трьох його відмінних властивостей: вихід поштовхами, насолода під час виходу або запах тіста й суцвіття фінікової пальми у вологому стані та яєчного білка в сухому."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء الغليظ الدافق الذي يخرج عند اشتداد الشهوة؛ ومنيّ المرأة رقيقٌ أصفر.",
+            "en": "The thick, gushing fluid that issues at the peak of desire; a woman's is thin and yellow.",
+            "ru": "Густая изливающаяся толчками жидкость, выходящая при пике вожделения; у женщины она жидкая и жёлтая.",
+            "es": "El fluido espeso que brota a borbotones en el culmen del deseo; el de la mujer es fino y amarillento.",
+            "uk": "Густа рідина, що виливається поштовхами на піку пожадання; у жінки вона рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "madhy",
+      "term": {
+        "ar": "المَذْي",
+        "en": "Madhy",
+        "ru": "Мазий",
+        "es": "Madhy",
+        "uk": "Мазій"
+      },
+      "briefDefinition": {
+        "ar": "ماءٌ أبيض رقيق لزج يخرج عند الشهوة الخفيفة كالملاعبة والتذكّر، بلا دفقٍ ولا فتورٍ بعده.",
+        "en": "A thin, sticky, whitish fluid that issues with mild arousal, as in foreplay or recollection, without spurting and without slackening after it.",
+        "ru": "Белая, тонкая и липкая влага, выходящая при лёгком возбуждении — при ласках или воспоминании, — без толчков и без последующего расслабления.",
+        "es": "Un fluido blanquecino, fino y viscoso que sale con una excitación leve, como en las caricias o al recordar, sin borbotones ni relajación posterior.",
+        "uk": "Біла, тонка й липка волога, що виходить при легкому збудженні — під час пестощів чи спогадів, — без поштовхів і без подальшого розслаблення."
+      },
+      "linguistic": {
+        "ar": "من مَذى الرجلُ يَمذي وأمذى؛ والمذي أرقّ ما يكون من النطفة، وهو ما يخرج عند الملاعبة والتقبيل.",
+        "en": "From madhā or amdhā; madhy is the thinnest of the sexual fluids — what issues during foreplay and kissing.",
+        "ru": "От «маза» или «амза»; «мазий» — самая тонкая из половых жидкостей, то, что выходит при ласках и поцелуях.",
+        "es": "De madhā o amdhā; madhy es el más fino de los fluidos sexuales: lo que sale durante las caricias y los besos.",
+        "uk": "Від «маза» чи «амза»; «мазій» — найтонша зі статевих рідин, те, що виходить під час пестощів і поцілунків."
+      },
+      "legal": {
+        "ar": "لم يرد له في النصوص معنى غير معناه اللغوي؛ وفي حديث عليّ المتّفق عليه أنّ فيه الوضوء مع غسل الذكر.",
+        "en": "The texts give it no meaning beyond the linguistic one; in the hadith of ʿAlī agreed upon by al-Bukhārī and Muslim, it requires ablution, with washing of the male organ.",
+        "ru": "В текстах у него нет значения помимо языкового; в хадисе Али, приводимом аль-Бухари и Муслимом, сказано, что из-за него обязательно малое омовение с мытьём члена.",
+        "es": "Los textos no le dan otro sentido que el lingüístico; en el hadiz de ʿAlī, recogido por al-Bukhārī y Muslim, obliga a la ablución, con el lavado del miembro.",
+        "uk": "У текстах воно не має значення, окрім мовного; у хадисі Алі, який наводять аль-Бухарі та Муслім, сказано, що через нього обов'язкове мале омивання з миттям члена."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ يخرج عند شهوةٍ لا بشهوة، بلا دفقٍ ولا يعقبه فتور، وربما لم يُحسّ بخروجه.",
+            "en": "A thin white fluid that issues during arousal but not with climactic pleasure, without spurting or ensuing slackness; its emission may go unnoticed.",
+            "ru": "Белая тонкая влага, выходящая при возбуждении, но не с наслаждением разрядки, без толчков и без последующего расслабления; её выход порой не ощущается.",
+            "es": "Un fluido blanco y fino que sale durante la excitación pero no con el placer del clímax, sin borbotones ni relajación posterior; a veces su salida no se percibe.",
+            "uk": "Біла тонка волога, що виходить під час збудження, але не з насолодою розрядки, без поштовхів і без подальшого розслаблення; її вихід часом не відчувається."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ يخرج عند ثوران الشهوة بالإنعاظ عند الملاعبة أو التذكّر، يشترك فيه الرجل والمرأة، ومذيُها بلّةٌ تعلو فرجها.",
+            "en": "A thin white fluid that issues when desire is stirred, with erection during foreplay or recollection; men and women share it, a woman's being a wetness on her private part.",
+            "ru": "Белая тонкая влага, выходящая при пробуждении вожделения — с эрекцией при ласках или воспоминании; она бывает у мужчин и женщин, у женщины это влажность на её половом органе.",
+            "es": "Un fluido blanco y fino que sale al despertarse el deseo, con erección durante las caricias o el recuerdo; lo tienen hombres y mujeres, y en la mujer es una humedad sobre su parte íntima.",
+            "uk": "Біла тонка волога, що виходить при пробудженні пожадання — з ерекцією під час пестощів чи спогадів; вона буває в чоловіків і жінок, у жінки це вологість на її статевому органі."
+          },
+          "sources": [
+            {
+              "ar": "الخرشي على خليل",
+              "en": "Al-Kharashī ʿalā Khalīl",
+              "ru": "«Аль-Хараши аля Халиль»",
+              "es": "Al-Kharashī ʿalā Khalīl",
+              "uk": "«Аль-Хараші аля Халіль»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ماءٌ رقيقٌ، أبيضُ أو أصفرُ، يخرج غالباً عند ثوران شهوةٍ ضعيفة، لا بشهوةٍ قويّة.",
+            "en": "A thin fluid, white or yellowish, that usually issues when weak desire is stirred, not with strong desire.",
+            "ru": "Тонкая влага, белая или желтоватая, выходящая обычно при пробуждении слабого вожделения, а не при сильном.",
+            "es": "Un fluido fino, blanco o amarillento, que suele salir al despertarse un deseo débil, no con un deseo intenso.",
+            "uk": "Тонка волога, біла чи жовтувата, що виходить зазвичай при пробудженні слабкого пожадання, а не при сильному."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ لزجٌ يخرج عقيب الشهوة، عند مبادئها والانتشار، على طرف الذكر.",
+            "en": "A thin, sticky white fluid that appears at the tip of the organ following desire, at its onset and upon erection.",
+            "ru": "Белая тонкая липкая влага, появляющаяся на кончике члена вслед за вожделением — при его зарождении и эрекции.",
+            "es": "Un fluido blanco, fino y viscoso que aparece en la punta del miembro tras el deseo, en su inicio y con la erección.",
+            "uk": "Біла тонка липка волога, що з'являється на кінчику члена слідом за пожаданням — при його зародженні та ерекції."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
             }
           ]
         }
@@ -15903,10 +16439,903 @@
       }
     },
     {
+      "id": "taharah-62",
+      "ref": "F123",
+      "bookId": "taharah",
+      "number": 54,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "التيمم للجنب والحائض والنفساء وما يُباح لهم به",
+        "en": "Dry Ablution for Major Impurity, Menstruation and Postnatal Bleeding, and What It Permits",
+        "ru": "Таяммум при большом осквернении, после месячных и послеродового кровотечения и что он дозволяет",
+        "es": "El tayammum por impureza mayor, menstruación y posparto, y lo que permite",
+        "uk": "Таяммум при великому оскверненні, після місячних і післяпологової кровотечі та що він дозволяє"
+      },
+      "summary": {
+        "ar": "أيرفع التيمم الحدث الأكبر عند فقد الماء، وما يُباح به، وهل يلزم الغسل بوجود الماء؟",
+        "en": "Does the dry ablution lift major impurity when there is no water, what does it permit, and must one bathe once water is found?",
+        "ru": "Снимает ли таяммум большое осквернение при отсутствии воды, что он дозволяет и обязательно ли полное омовение, когда вода найдена?",
+        "es": "¿Levanta el tayammum la impureza mayor cuando falta el agua, qué permite y es obligatorio el baño al hallar agua?",
+        "uk": "Чи знімає таяммум велике осквернення за відсутності води, що він дозволяє і чи обов'язкове повне обмивання, коли воду знайдено?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يرفع التيمم الجنابة والحيض والنفاس ما دام الماء مفقوداً، فيحلّ به ما يحلّ بالغسل من صلاة وقراءة ودخول مسجد، ومن انقطع دمها لتمام عادتها دون العشرة حلّ وطؤها إذا تيمّمت وصلّت به. فإذا قدر على ماء يكفي غسله انتقض تيممه ولزمه الغسل.",
+            "en": "The dry ablution lifts major impurity, menstruation and postnatal bleeding so long as water is lacking, so it permits whatever the bath permits: prayer, reciting the Qurʾān and entering the mosque. A woman whose bleeding stopped at the end of her usual days, short of ten, becomes lawful for intercourse once she performs the dry ablution and prays with it. When he becomes able to use water enough for his bath, the dry ablution is void and the bath is required.",
+            "ru": "Таяммум снимает большое осквернение, состояние месячных и послеродового кровотечения, пока воды нет, поэтому он дозволяет всё, что дозволяет полное омовение: молитву, чтение Корана и вход в мечеть. Женщина, у которой кровь прекратилась по окончании её обычных дней, раньше десяти, становится дозволенной для близости, когда совершит таяммум и помолится с ним. Когда он сможет использовать воду, достаточную для полного омовения, таяммум недействителен и полное омовение обязательно.",
+            "es": "El tayammum levanta la impureza mayor, la menstruación y el posparto mientras falte el agua, de modo que permite cuanto permite el baño: la oración, la recitación del Corán y entrar en la mezquita. La mujer cuya sangre cesó al cumplirse sus días habituales, antes de diez, queda lícita para las relaciones conyugales cuando hace el tayammum y reza con él. Cuando puede usar agua suficiente para su baño, el tayammum se anula y el baño es obligatorio.",
+            "uk": "Таяммум знімає велике осквернення, стан місячних і післяпологової кровотечі, доки води немає, тож він дозволяє все, що дозволяє повне обмивання: молитву, читання Корану і вхід до мечеті. Жінка, у якої кров припинилася із завершенням її звичних днів, раніше десяти, стає дозволеною для близькості, коли здійснить таяммум і помолиться з ним. Коли він зможе використати воду, достатню для повного обмивання, таяммум недійсний і повне обмивання обов'язкове."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يرفع التيمم الحدث الأكبر، وإنما يستبيح به الصلاة وقراءة القرآن ومسّ المصحف، ويدخل به المسجد للصلاة لا للمكث إلا لضرورة. ولا تُوطأ الحائض بعد انقطاع دمها بالتيمم حتى تغتسل بالماء إلا لطول يضرّ، ويلزم الغسل إذا وُجد الماء.",
+            "en": "The dry ablution does not lift major impurity; it only makes prayer, reciting the Qurʾān and touching the Muṣḥaf permissible, and with it one may enter the mosque to pray but not to stay, unless out of necessity. A menstruating woman whose bleeding has stopped may not have intercourse on the strength of the dry ablution until she bathes with water, unless a long delay would cause harm; and the bath is required once water is found.",
+            "ru": "Таяммум не снимает большое осквернение, а лишь делает дозволенными молитву, чтение Корана и прикосновение к Мусхафу; с ним можно войти в мечеть для молитвы, но не оставаться в ней, кроме как по необходимости. С женщиной, у которой прекратились месячные, нельзя вступать в близость на основании таяммума, пока она не омоется водой, если только долгое ожидание не причиняет вреда; а полное омовение обязательно, когда вода найдена.",
+            "es": "El tayammum no levanta la impureza mayor; solo hace lícitos la oración, la recitación del Corán y tocar el Muṣḥaf, y con él se puede entrar en la mezquita para rezar, pero no para permanecer, salvo por necesidad. Con la mujer cuya menstruación ha cesado no se tienen relaciones por el tayammum hasta que se bañe con agua, salvo que una larga espera cause daño; y el baño es obligatorio al hallar agua.",
+            "uk": "Таяммум не знімає великого осквернення, а лише робить дозволеними молитву, читання Корану й доторк до Мусхафу; з ним можна увійти до мечеті для молитви, але не перебувати в ній, хіба що з необхідності. З жінкою, у якої припинилися місячні, не можна вступати в близькість на підставі таяммуму, доки вона не обмиється водою, хіба що довге очікування завдає шкоди; а повне обмивання обов'язкове, коли воду знайдено."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "لا يرفع التيمم الحدث الأكبر بل يبيح فريضةً واحدة وما شاء من النوافل، ويحلّ به قراءة القرآن والمكث في المسجد ووطء الحائض والنفساء بعد انقطاع الدم، فإذا وجد الماء بطل تيممه ولزمه الغسل.",
+            "en": "The dry ablution does not lift major impurity; it permits one obligatory prayer and as many voluntary prayers as he wishes, and with it reciting the Qurʾān, staying in the mosque, and intercourse with a woman whose menstrual or postnatal bleeding has stopped become lawful. Once he finds water, the dry ablution is void and the bath is required.",
+            "ru": "Таяммум не снимает большое осквернение, а дозволяет одну обязательную молитву и сколько угодно добровольных; с ним становятся дозволенными чтение Корана, пребывание в мечети и близость с женщиной, у которой прекратились месячные или послеродовое кровотечение. Когда он находит воду, таяммум недействителен и полное омовение обязательно.",
+            "es": "El tayammum no levanta la impureza mayor, sino que permite una oración obligatoria y cuantas voluntarias quiera; con él se vuelven lícitos recitar el Corán, permanecer en la mezquita y las relaciones con la mujer cuya menstruación o posparto ha cesado. Al hallar agua, el tayammum se anula y el baño es obligatorio.",
+            "uk": "Таяммум не знімає великого осквернення, а дозволяє одну обов'язкову молитву і скільки завгодно добровільних; з ним стають дозволеними читання Корану, перебування в мечеті й близькість із жінкою, у якої припинилися місячні чи післяпологова кровотеча. Коли він знаходить воду, таяммум недійсний і повне обмивання обов'язкове."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "التيمم مبيح لا يرفع الحدث الأكبر، فيستبيح به ما يُفعل بالغسل من صلاة وطواف ومسّ مصحف وقراءة ولبث في المسجد ووطء الحائض بعد انقطاع دمها، ويبطل بوجود الماء فيلزمه الغسل.",
+            "en": "The dry ablution permits but does not lift major impurity, so with it one may do whatever is done with the bath: prayer, circumambulation, touching the Muṣḥaf, reciting the Qurʾān, staying in the mosque, and intercourse with a menstruating woman whose bleeding has stopped. It is void once water is found, and the bath becomes required.",
+            "ru": "Таяммум дозволяет, но не снимает большое осквернение, поэтому с ним можно совершать всё, что совершается после полного омовения: молитву, обход Каабы, прикосновение к Мусхафу, чтение Корана, пребывание в мечети и близость с женщиной, у которой прекратились месячные. Он недействителен, когда найдена вода, и тогда полное омовение обязательно.",
+            "es": "El tayammum permite pero no levanta la impureza mayor, de modo que con él se hace lo que se hace con el baño: la oración, la circunvalación, tocar el Muṣḥaf, recitar el Corán, permanecer en la mezquita y las relaciones con la mujer cuya menstruación ha cesado. Se anula al hallar agua, y entonces el baño es obligatorio.",
+            "uk": "Таяммум дозволяє, але не знімає великого осквернення, тож із ним можна чинити все, що чиниться після повного обмивання: молитву, обхід Кааби, доторк до Мусхафу, читання Корану, перебування в мечеті й близькість із жінкою, у якої припинилися місячні. Він недійсний, коли знайдено воду, і тоді повне обмивання обов'язкове."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-63",
+      "ref": "F124",
+      "bookId": "taharah",
+      "number": 55,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "وجود الماء بعد التيمم قبل الصلاة وفي أثنائها وبعدها",
+        "en": "Finding Water After the Dry Ablution: Before, During, or After the Prayer",
+        "ru": "Обнаружение воды после таяммума: до молитвы, во время неё или после",
+        "es": "Hallar agua tras el tayammum: antes, durante o después de la oración",
+        "uk": "Знайдення води після таяммуму: до молитви, під час неї чи після"
+      },
+      "summary": {
+        "ar": "أيبطل تيمم من وجد الماء قبل الصلاة أو فيها، وهل يعيد إن وجده بعدها في الوقت؟",
+        "en": "Is the dry ablution void for one who finds water before or during the prayer, and does he repeat the prayer if he finds it afterwards while the time remains?",
+        "ru": "Становится ли недействительным таяммум того, кто нашёл воду до молитвы или во время неё, и повторяет ли он молитву, если нашёл воду после неё, пока время ещё не вышло?",
+        "es": "¿Se anula el tayammum de quien halla agua antes de la oración o durante ella, y repite la oración si la halla después mientras queda tiempo?",
+        "uk": "Чи стає недійсним таяммум того, хто знайшов воду до молитви чи під час неї, і чи повторює він молитву, якщо знайшов воду після неї, поки час ще не вийшов?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يبطل تيممه بالقدرة على ماءٍ كافٍ قبل الصلاة أو في أثنائها، فإن وجده فيها بطلت صلاته فيتوضّأ ويستأنفها، وإن وجده بعد الفراغ منها لم يُعِدها ولو كان الوقت باقياً.",
+            "en": "His dry ablution is void once he is able to use sufficient water, whether before the prayer or during it; if he finds it during the prayer, the prayer is void, so he performs the ablution and starts it anew. If he finds it after finishing the prayer, he does not repeat it, even if the time remains.",
+            "ru": "Его таяммум становится недействительным, как только он может использовать достаточное количество воды, до молитвы или во время неё; если он нашёл воду во время молитвы, молитва недействительна, и он совершает омовение и начинает её заново. Если он нашёл воду после завершения молитвы, он не повторяет её, даже если время ещё не вышло.",
+            "es": "Su tayammum se anula en cuanto puede usar agua suficiente, sea antes de la oración o durante ella; si la halla durante la oración, esta se anula, de modo que hace la ablución y la comienza de nuevo. Si la halla tras terminar la oración, no la repite, aunque quede tiempo.",
+            "uk": "Його таяммум стає недійсним, щойно він може використати достатню кількість води, до молитви чи під час неї; якщо він знайшов воду під час молитви, молитва недійсна, і він здійснює омовіння та починає її наново. Якщо він знайшов воду після завершення молитви, він не повторює її, навіть якщо час ще не вийшов."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "يبطل تيممه بوجود الماء قبل الدخول في الصلاة إن اتّسع الوقت لاستعماله وإدراك ركعة، ولا يقطعها إن وجده فيها إلا من نسي الماء في رحله. وإن وجده بعد الفراغ منها صحّت صلاته، ويعيدها المقصّر ندباً في الوقت.",
+            "en": "His dry ablution is void if he finds water before entering the prayer, provided the time allows him to use it and still catch a rakʿah; if he finds it during the prayer, he does not break it off, unless he had forgotten the water in his baggage. If he finds it after finishing, his prayer is valid, and one who fell short repeats it as a recommendation within the time.",
+            "ru": "Его таяммум становится недействительным, если он нашёл воду до вступления в молитву, при условии, что времени хватает, чтобы воспользоваться ею и успеть один ракаат; если он нашёл её во время молитвы, он не прерывает молитву, кроме того, кто забыл о воде в своей поклаже. Если он нашёл её после завершения, его молитва действительна, а допустивший упущение желательно повторяет её в пределах времени.",
+            "es": "Su tayammum se anula si halla agua antes de entrar en la oración, siempre que el tiempo le permita usarla y alcanzar una rakʿah; si la halla durante la oración, no la interrumpe, salvo quien hubiera olvidado el agua en su equipaje. Si la halla tras terminar, su oración es válida, y quien fue negligente la repite de forma recomendada dentro del tiempo.",
+            "uk": "Його таяммум стає недійсним, якщо він знайшов воду до вступу в молитву, за умови, що часу вистачає, аби скористатися нею і встигнути один ракаат; якщо він знайшов її під час молитви, він не перериває молитву, окрім того, хто забув про воду у своєму вантажі. Якщо він знайшов її після завершення, його молитва дійсна, а той, хто припустився недбалості, бажано повторює її в межах часу."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            },
+            {
+              "ar": "الشرح الصغير",
+              "en": "Al-Sharḥ al-Ṣaghīr",
+              "ru": "«Аш-Шарх ас-Сагир»",
+              "es": "Al-Sharḥ al-Ṣaghīr",
+              "uk": "«Аш-Шарх ас-Сагір»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "من تيمّم لفقد الماء ثم وجده قبل الصلاة بطل تيممه، وإن وجده فيها بموضع يغلب فيه وجود الماء بطلت صلاته، وإلا أتمّها وقطعُها ليتوضّأ أفضل ما لم يضق الوقت. وإن وجده بعد الفراغ منها لم يُعِدها، إلا إن صلّى بموضع يغلب فيه وجود الماء فيقضيها.",
+            "en": "Whoever performs the dry ablution for lack of water and then finds it before the prayer, his dry ablution is void; if he finds it during the prayer in a place where water is usually available, the prayer is void; otherwise he completes it, though breaking it off to perform the ablution is better, so long as the time is not short. If he finds it after finishing, he does not repeat it, unless he prayed in a place where water is usually available, in which case he makes it up.",
+            "ru": "Кто совершил таяммум из-за отсутствия воды, а затем нашёл её до молитвы, у того таяммум недействителен; если он нашёл её во время молитвы в месте, где вода обычно имеется, молитва недействительна; иначе он завершает её, хотя прервать её, чтобы совершить омовение, лучше, если время не стеснено. Если он нашёл её после завершения, он не повторяет молитву, кроме случая, когда молился в месте, где вода обычно имеется, — тогда он восполняет её.",
+            "es": "Quien hace el tayammum por falta de agua y luego la halla antes de la oración, su tayammum se anula; si la halla durante la oración en un lugar donde el agua suele haberla, la oración se anula; si no, la completa, aunque interrumpirla para hacer la ablución es mejor, mientras el tiempo no sea escaso. Si la halla tras terminar, no la repite, salvo que haya rezado en un lugar donde el agua suele haberla, en cuyo caso la recupera.",
+            "uk": "Хто здійснив таяммум через відсутність води, а потім знайшов її до молитви, у того таяммум недійсний; якщо він знайшов її під час молитви в місці, де вода зазвичай є, молитва недійсна; інакше він завершує її, хоча перервати її, щоб здійснити омовіння, краще, якщо час не обмежений. Якщо він знайшов її після завершення, він не повторює молитву, окрім випадку, коли молився в місці, де вода зазвичай є, — тоді він надолужує її."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يبطل تيممه بوجود الماء قبل الصلاة وفي أثنائها، فإن وجده فيها تطهّر واستأنفها، وإن وجده بعد الفراغ منها لم تجب إعادتها ولو لم يخرج الوقت.",
+            "en": "His dry ablution is void if he finds water before the prayer or during it; if he finds it during the prayer, he purifies himself and starts the prayer anew. If he finds it after finishing the prayer, he is not required to repeat it, even if the time has not ended.",
+            "ru": "Его таяммум становится недействительным, если он нашёл воду до молитвы или во время неё; если он нашёл её во время молитвы, он очищается и начинает молитву заново. Если он нашёл её после завершения молитвы, повторять её не обязательно, даже если время ещё не вышло.",
+            "es": "Su tayammum se anula si halla agua antes de la oración o durante ella; si la halla durante la oración, se purifica y la comienza de nuevo. Si la halla tras terminar la oración, no está obligado a repetirla, aunque no haya salido el tiempo.",
+            "uk": "Його таяммум стає недійсним, якщо він знайшов воду до молитви чи під час неї; якщо він знайшов її під час молитви, він очищається і починає молитву наново. Якщо він знайшов її після завершення молитви, повторювати її не обов'язково, навіть якщо час ще не вийшов."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-64",
+      "ref": "F125",
+      "bookId": "taharah",
+      "number": 56,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "المسح على الجبيرة والعصابة وشروطه",
+        "en": "Wiping over a Splint or Bandage and Its Conditions",
+        "ru": "Протирание поверх шины или повязки и его условия",
+        "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
+        "uk": "Протирання поверх шини чи пов'язки та його умови"
+      },
+      "summary": {
+        "ar": "أيجب المسح على الجبيرة والعصابة، وما شروطه، وهل يُضمّ إليه التيمم وتُعاد الصلاة؟",
+        "en": "Must one wipe over a splint or bandage, what are the conditions, and is the dry ablution added to it or the prayer repeated?",
+        "ru": "Обязательно ли протирать поверх шины или повязки, каковы условия этого, и добавляется ли к нему таяммум и повторяется ли молитва?",
+        "es": "¿Es obligatorio frotar sobre la férula o el vendaje, cuáles son sus condiciones, y se le añade el tayammum o se repite la oración?",
+        "uk": "Чи обов'язково протирати поверх шини чи пов'язки, які умови цього, і чи додається до нього таяммум і чи повторюється молитва?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "المسح على الجبيرة والعصابة فرضٌ عمليّ إذا عجز عن غسل العضو ومسحه، ويكفي مسح أكثرها، ولا يُشترط شدّها على طهارة، ولا يتوقّت بمدّة، ولا يُجمع معه تيمم، لأنه كالغسل لما تحتها.",
+            "en": "Wiping over a splint or bandage is a practical obligation when one cannot wash or wipe the limb itself; wiping most of it suffices, it need not have been bound on in a state of purity, it has no time limit, and no dry ablution is combined with it, since it counts as washing what lies beneath.",
+            "ru": "Протирание поверх шины или повязки — практическая обязанность, когда нельзя ни омыть, ни протереть сам орган; достаточно протереть большую её часть, не требуется, чтобы её наложили в состоянии чистоты, оно не ограничено сроком, и к нему не добавляется таяммум, поскольку оно равносильно омовению того, что под ней.",
+            "es": "Frotar sobre la férula o el vendaje es una obligación práctica cuando no se puede lavar ni frotar el miembro mismo; basta con frotar la mayor parte, no se exige haberla puesto en estado de pureza, no tiene plazo, y no se le junta el tayammum, pues equivale a lavar lo que hay debajo.",
+            "uk": "Протирання поверх шини чи пов'язки — практичний обов'язок, коли не можна ні обмити, ні протерти сам орган; достатньо протерти більшу її частину, не вимагається, щоб її наклали в стані чистоти, воно не обмежене строком, і до нього не додається таяммум, оскільки воно рівнозначне обмиванню того, що під нею."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "إن خيف من غسل الجرح هلاكٌ أو شديد أذى وجب مسحه، فإن لم يستطع فعلى الجبيرة ثم العصابة يعمّها بالمسح، ولو وُضعت بلا طهارة أو جاوزت محلّ الجرح، ويُندب إن خيف دون ذلك. وهذا إن صحّ جلّ جسده أو أقلّه ولم يضرّه غسل الصحيح، وإلا ففرضه التيمم.",
+            "en": "If washing the wound is feared to cause death or severe harm, wiping it is required; if he cannot, then over the splint, then over the bandage, covering it entirely, even if it was put on without purity or spreads beyond the wound; if a lesser harm is feared, this is recommended. This holds if most of his body is sound, or the lesser part is sound and washing it does not harm him; otherwise his obligation is the dry ablution.",
+            "ru": "Если от омовения раны опасаются смерти или сильного вреда, обязательно протереть её, а если он не может — то поверх шины, затем поверх повязки, охватывая её целиком, даже если её наложили без чистоты или она выходит за пределы раны; если опасаются меньшего вреда, это желательно. Так — если здорова большая часть его тела, либо здорова меньшая и её омовение ему не вредит; иначе его обязанность — таяммум.",
+            "es": "Si se teme que lavar la herida cause la muerte o un daño grave, es obligatorio frotarla; si no puede, sobre la férula y luego sobre el vendaje, cubriéndolo por entero, aunque se pusiera sin pureza o exceda la herida; si se teme un daño menor, es recomendable. Esto vale si la mayor parte de su cuerpo está sana, o la menor lo está y lavarla no le daña; si no, lo que le corresponde es el tayammum.",
+            "uk": "Якщо від обмивання рани побоюються смерті чи сильної шкоди, обов'язково протерти її, а якщо він не може — то поверх шини, потім поверх пов'язки, охоплюючи її цілком, навіть якщо її наклали без чистоти або вона виходить за межі рани; якщо побоюються меншої шкоди, це бажано. Так — якщо здорова більша частина його тіла, або здорова менша і її обмивання йому не шкодить; інакше його обов'язок — таяммум."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "إن لم يمكن نزع الجبيرة غسل الصحيح وتيمّم، ووجب مع ذلك مسح كلّ الجبيرة بالماء بلا توقيت، ويُشترط ألّا تأخذ من الصحيح إلا ما لا بدّ منه للاستمساك. ولا يقضي الصلاة إن وُضعت على طهر في غير أعضاء التيمم، وإلا قضى.",
+            "en": "If the splint cannot be removed, he washes the sound part and performs the dry ablution, and he must also wipe the whole splint with water, without time limit; it is a condition that it cover of the sound part only what is needed to hold it in place. He does not make up the prayer if it was put on in purity and is not on the limbs of the dry ablution; otherwise he makes it up.",
+            "ru": "Если шину нельзя снять, он омывает здоровое и совершает таяммум, и вместе с этим обязан протереть водой всю шину, без ограничения сроком; условие — чтобы она захватывала из здорового лишь то, без чего её не удержать. Он не восполняет молитву, если шину наложили в чистоте и она не на органах таяммума; иначе восполняет.",
+            "es": "Si la férula no puede quitarse, lava lo sano y hace el tayammum, y además debe frotar con agua toda la férula, sin plazo; es condición que no abarque de lo sano más que lo imprescindible para sujetarla. No recupera la oración si se puso en estado de pureza y no está sobre los miembros del tayammum; si no, la recupera.",
+            "uk": "Якщо шину не можна зняти, він обмиває здорове і здійснює таяммум, і разом із цим зобов'язаний протерти водою всю шину, без обмеження строком; умова — щоб вона захоплювала зі здорового лише те, без чого її не втримати. Він не відновлює молитву, якщо шину наклали в чистоті й вона не на органах таяммуму; інакше відновлює."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب مسح جميع الجبيرة إلى حلّها أو برء ما تحتها بلا توقيت، بشرط شدّها على طهارة كاملة بماء وألّا تتجاوز قدر الحاجة. فإن شدّها على غير طهارة وخاف من نزعها تيمّم، وإن جاوزت الحاجة وخاف مسح ما حاذى محلّها وتيمّم للزائد.",
+            "en": "He must wipe the whole splint until it is undone or what is beneath it heals, without time limit, provided it was bound on after a complete purification with water and does not exceed what is needed. If he bound it on without purity and fears removing it, he performs the dry ablution; if it exceeds what is needed and he fears removing it, he wipes what covers the needed area and performs the dry ablution for the excess.",
+            "ru": "Обязательно протирать всю шину, пока её не снимут или не заживёт то, что под ней, без ограничения сроком, при условии, что её наложили после полного очищения водой и она не превышает необходимого. Если он наложил её без чистоты и опасается её снимать, он совершает таяммум; если она превышает необходимое и он опасается снимать, он протирает то, что над нужным местом, и совершает таяммум за излишек.",
+            "es": "Debe frotar toda la férula hasta que se desate o sane lo que hay debajo, sin plazo, con la condición de haberla puesto tras una purificación completa con agua y de que no exceda lo necesario. Si la puso sin pureza y teme quitarla, hace el tayammum; si excede lo necesario y teme quitarla, frota lo que cubre la zona necesaria y hace el tayammum por el exceso.",
+            "uk": "Обов'язково протирати всю шину, доки її не знімуть або не загоїться те, що під нею, без обмеження строком, за умови, що її наклали після повного очищення водою і вона не перевищує необхідного. Якщо він наклав її без чистоти й побоюється її знімати, він здійснює таяммум; якщо вона перевищує необхідне і він побоюється знімати, він протирає те, що над потрібним місцем, і здійснює таяммум за надлишок."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-65",
+      "ref": "F126",
+      "bookId": "taharah",
+      "number": 57,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "طهارة من به جرح مكشوف يضرّه الماء",
+        "en": "Purification of One with an Exposed Wound That Water Harms",
+        "ru": "Очищение того, у кого открытая рана, которой вредит вода",
+        "es": "La purificación de quien tiene una herida descubierta a la que daña el agua",
+        "uk": "Очищення того, хто має відкриту рану, якій шкодить вода"
+      },
+      "summary": {
+        "ar": "أيغسل الجريح الصحيحَ ويتيمّم عن الجرح، أم يمسحه، أم يتيمّم عن الكل؟",
+        "en": "Does the wounded person wash the sound parts and perform the dry ablution for the wound, wipe the wound, or perform the dry ablution for everything?",
+        "ru": "Моет ли раненый здоровые части и совершает таяммум за рану, протирает ли рану или совершает таяммум за всё?",
+        "es": "¿Lava el herido las partes sanas y hace el tayammum por la herida, pasa la mano mojada sobre la herida, o hace el tayammum por todo?",
+        "uk": "Чи миє поранений здорові частини й здійснює таяммум за рану, чи протирає рану, чи здійснює таяммум за все?"
+      },
+      "rulings": {
+        "hanafi": {
+          "grade": "fard",
+          "text": {
+            "ar": "إن كان أكثر أعضاء الوضوء عدداً، أو أكثر البدن في الغسل، جريحاً تيمّم، وإن كان أكثرها صحيحاً غسل الصحيح ومسح الجرح، فإن ضرّه المسح عصّبه بخرقة ومسح عليها، ولا يجمع بين الغسل والتيمم.",
+            "en": "If most of the limbs of the ablution by count — or most of the body in the ritual bath — are wounded, he performs the dry ablution; if most are sound, he washes the sound parts and wipes the wound, and if wiping harms it, he binds it with a cloth and wipes over that. He does not combine washing with the dry ablution.",
+            "ru": "Если большая часть органов омовения по их числу — или большая часть тела при полном омовении — ранена, он совершает таяммум; если же большая часть здорова, он моет здоровое и протирает рану, а если протирание ей вредит, перевязывает её тканью и протирает поверх. Мытьё и таяммум он не совмещает.",
+            "es": "Si la mayoría de los miembros de la ablución, por su número —o la mayor parte del cuerpo en el baño ritual—, está herida, hace el tayammum; si la mayoría está sana, lava lo sano y pasa la mano mojada sobre la herida, y si eso la daña, la venda con un paño y la pasa sobre este. No combina el lavado con el tayammum.",
+            "uk": "Якщо більшість органів омовіння за їхнім числом — або більша частина тіла при повному омовінні — поранена, він здійснює таяммум; якщо ж більшість здорова, він миє здорове й протирає рану, а якщо протирання їй шкодить, перев'язує її тканиною й протирає поверх. Миття й таяммум він не поєднує."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "grade": "fard",
+          "text": {
+            "ar": "يغسل الصحيح ويمسح على الجرح نفسه إن صحّ أكثر أعضائه أو أقلّها ولم يضرّ غسلُ الصحيح الجرحَ، فإن ضرّه، أو قلّ الصحيح جداً كيدٍ، ففرضه التيمم.",
+            "en": "He washes the sound parts and wipes over the wound itself, whether most of his limbs are sound or fewer, provided washing the sound parts does not harm the wound; if it does, or the sound part is very small, like one hand, his obligation is the dry ablution.",
+            "ru": "Он моет здоровое и протирает саму рану, будь здоровой большая часть органов или меньшая, при условии что мытьё здорового не вредит ране; если вредит, или здоровое совсем мало, как одна рука, его обязанность — таяммум.",
+            "es": "Lava lo sano y pasa la mano mojada sobre la propia herida, sea sana la mayoría de sus miembros o la minoría, siempre que lavar lo sano no dañe la herida; si la daña, o lo sano es muy poco, como una mano, su obligación es el tayammum.",
+            "uk": "Він миє здорове й протирає саму рану, чи здорова більшість органів, чи меншість, за умови що миття здорового не шкодить рані; якщо шкодить, або здорового зовсім мало, як одна рука, його обов'язок — таяммум."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "grade": "fard",
+          "text": {
+            "ar": "يجب غسل الصحيح والتيمم عن الجريح، ولا يجب مسح الجرح بالماء، ولا ترتيب بينهما للجنب، والمحدث يتيمّم وقت غسل العضو الجريح، فإن جُرح عضواه فتيمّمان.",
+            "en": "He must wash the sound parts and perform the dry ablution for the wounded part; wiping the wound with water is not required. For one in major impurity there is no set order between the two; one in minor impurity performs the dry ablution at the turn of the wounded limb, so if two limbs are wounded, two dry ablutions.",
+            "ru": "Обязательно мыть здоровое и совершать таяммум за раненое; протирать рану водой не обязательно. Для находящегося в большом осквернении порядка между ними нет; находящийся в малом осквернении совершает таяммум в момент мытья раненого органа, и если ранены два органа — два таяммума.",
+            "es": "Debe lavar lo sano y hacer el tayammum por lo herido; no es obligatorio pasar agua sobre la herida. Para quien está en impureza mayor no hay orden entre ambos; quien está en impureza menor hace el tayammum al llegar al miembro herido, y si son dos los miembros heridos, dos tayammum.",
+            "uk": "Обов'язково мити здорове й здійснювати таяммум за поранене; протирати рану водою не обов'язково. Для того, хто у великому оскверненні, порядку між ними немає; той, хто в малому оскверненні, здійснює таяммум у момент миття пораненого органа, і якщо поранені два органи — два таяммуми."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "grade": "fard",
+          "text": {
+            "ar": "إن لم يضرّه مسح الجرح بالماء وجب مسحه وأجزأه، وإلا تيمّم له ولما يضرّه غسله ممّا قرب منه وغسل الباقي، ويلزمه في الوضوء الترتيب والموالاة، فيتيمّم عند غسل العضو الجريح.",
+            "en": "If wiping the wound with water does not harm him, he must wipe it and that suffices; otherwise he performs the dry ablution for it and for whatever nearby is harmed by washing, and washes the rest. In the ablution he must keep the order and continuity, performing the dry ablution at the turn of the wounded limb.",
+            "ru": "Если протирание раны водой ему не вредит, он обязан протереть её, и этого достаточно; иначе он совершает таяммум за неё и за то рядом, чему вредит мытьё, и моет остальное. При малом омовении он обязан соблюдать порядок и непрерывность, совершая таяммум в момент мытья раненого органа.",
+            "es": "Si pasar agua sobre la herida no le daña, debe hacerlo y le basta; si no, hace el tayammum por ella y por lo cercano a lo que dañe el lavado, y lava el resto. En la ablución debe guardar el orden y la continuidad, haciendo el tayammum al llegar al miembro herido.",
+            "uk": "Якщо протирання рани водою йому не шкодить, він зобов'язаний протерти її, і цього достатньо; інакше він здійснює таяммум за неї і за те поруч, чому шкодить миття, і миє решту. При малому омовінні він зобов'язаний дотримуватися порядку й безперервності, здійснюючи таяммум у момент миття пораненого органа."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-66",
+      "ref": "F127",
+      "bookId": "taharah",
+      "number": 58,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "صلاة من فقد الماء والتراب جميعاً",
+        "en": "The Prayer of One Who Has Neither Water nor Earth",
+        "ru": "Молитва того, у кого нет ни воды, ни земли",
+        "es": "La oración de quien no tiene ni agua ni tierra",
+        "uk": "Молитва того, хто не має ні води, ні землі"
+      },
+      "summary": {
+        "ar": "أيصلّي من لم يجد ماءً ولا تراباً في الوقت وكيف، وهل يعيد إذا وجد أحدهما؟",
+        "en": "Does one who finds neither water nor earth pray within the prayer time, and how, and must he repeat it once he finds either?",
+        "ru": "Молится ли не нашедший ни воды, ни земли в пределах времени молитвы, и как, и обязан ли он повторить её, найдя одно из них?",
+        "es": "¿Reza dentro del tiempo quien no halla ni agua ni tierra, y cómo, y debe repetir la oración al encontrar una de las dos?",
+        "uk": "Чи молиться в межах часу молитви той, хто не знайшов ні води, ні землі, і як, і чи зобов'язаний він повторити її, знайшовши одне з них?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "يتشبّه بالمصلّين في الوقت وجوباً احتراماً له، فيركع ويسجد إن وجد مكاناً يابساً وإلا أومأ قائماً، ولا يقرأ، ثم يعيد الصلاة إذا وجد ما يتطهّر به.",
+            "en": "He must imitate those who pray within the prayer time, out of respect for it: he bows and prostrates if he finds a dry place, otherwise he gestures while standing, and he does not recite; then he repeats the prayer once he finds something to purify himself with.",
+            "ru": "Он обязан уподобиться молящимся в пределах времени молитвы из почтения к нему: совершает поясной и земной поклоны, если находит сухое место, а иначе делает знаки стоя, и ничего не читает; затем он повторяет молитву, когда найдёт, чем очиститься.",
+            "es": "Debe imitar a quienes rezan dentro del tiempo de la oración, por respeto a este: se inclina y se postra si halla un lugar seco, y si no, hace señas de pie, y no recita; luego repite la oración cuando encuentre con qué purificarse.",
+            "uk": "Він зобов'язаний уподібнитися до тих, хто молиться, у межах часу молитви з пошани до нього: робить поясний і земний поклони, якщо знаходить сухе місце, а інакше робить знаки стоячи, і нічого не читає; потім він повторює молитву, коли знайде, чим очиститися."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "تسقط عنه الصلاة أداءً وقضاءً، فلا يصلّي في الوقت، ولا يقضي إذا وجد الماء أو التراب بعده.",
+            "en": "The prayer drops from him, both its performance and its making up: he does not pray within the time, and does not make it up when he later finds water or earth.",
+            "ru": "Молитва с него снимается и в своё время, и в виде восполнения: он не молится в пределах времени и не восполняет её, когда затем найдёт воду или землю.",
+            "es": "La oración queda suprimida para él, tanto en su tiempo como en recuperación: no reza dentro del tiempo ni la recupera cuando después encuentra agua o tierra.",
+            "uk": "Молитва з нього знімається і у свій час, і у вигляді відшкодування: він не молиться в межах часу і не відшкодовує її, коли потім знайде воду чи землю."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            },
+            {
+              "ar": "الشرح الصغير",
+              "en": "Al-Sharḥ al-Ṣaghīr",
+              "ru": "«Аш-Шарх ас-Сагир»",
+              "es": "Al-Sharḥ al-Ṣaghīr",
+              "uk": "«Аш-Шарх ас-Сагір»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يلزمه أن يصلّي الفرض المؤدّى في الوقت لحرمته، ولا يتنفّل، ولا يقرأ الجنب غير الفاتحة، ثم يعيد إذا وجد الماء، أو التراب في موضع يسقط فيه القضاء بالتيمم.",
+            "en": "He must pray the current obligatory prayer within its time, for the sanctity of the time; he prays no voluntary prayers, and one in major impurity recites nothing but al-Fātiḥah. He then repeats it once he finds water, or earth in a place where the dry ablution removes the duty to make up.",
+            "ru": "Он обязан совершить текущую обязательную молитву в её время ради святости времени; добровольных он не совершает, а находящийся в большом осквернении читает только «аль-Фатиху». Затем он повторяет её, найдя воду, или землю в месте, где таяммум снимает обязанность восполнения.",
+            "es": "Debe rezar la oración obligatoria del momento dentro de su tiempo, por la inviolabilidad del tiempo; no reza voluntarias, y quien está en impureza mayor no recita más que al-Fātiḥah. Luego la repite al encontrar agua, o tierra en un lugar donde el tayammum exime de recuperarla.",
+            "uk": "Він зобов'язаний здійснити поточну обов'язкову молитву в її час заради святості часу; добровільних він не здійснює, а той, хто в великому оскверненні, читає лише «аль-Фатіху». Потім він повторює її, знайшовши воду, або землю в місці, де таяммум знімає обов'язок відшкодування."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "يصلّي الفرض فقط في الوقت على حسب حاله ولا يؤخّره، ولا يزيد على ما يجزئ، فلا يقرأ زائداً على الفاتحة، ولا يعيد إذا وجد أحدهما.",
+            "en": "He prays only the obligatory prayer, within the time, as his state allows, without delaying it; he does not go beyond what suffices, so he recites nothing beyond al-Fātiḥah, and he does not repeat it when he finds either.",
+            "ru": "Он совершает только обязательную молитву в её время так, как позволяет его состояние, не откладывая её; он не добавляет сверх достаточного, поэтому не читает ничего сверх «аль-Фатихи», и не повторяет её, найдя одно из них.",
+            "es": "Reza solo la oración obligatoria, dentro del tiempo, según su estado, sin retrasarla; no añade nada a lo que basta, de modo que no recita más que al-Fātiḥah, y no la repite al encontrar una de las dos.",
+            "uk": "Він здійснює лише обов'язкову молитву в її час так, як дозволяє його стан, не відкладаючи її; він не додає понад достатнє, тож не читає нічого понад «аль-Фатіху», і не повторює її, знайшовши одне з них."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taharah-67",
+      "ref": "F128",
+      "bookId": "taharah",
+      "number": 59,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "إعادة صلاة المتيمم إذا وجد الماء بعد خروج الوقت",
+        "en": "Repeating the Prayer of One Who Did the Dry Ablution and Found Water After the Time Ended",
+        "ru": "Повторение молитвы совершившего таяммум, если он нашёл воду после выхода времени",
+        "es": "Repetir la oración de quien hizo el tayammum y halló agua tras salir el tiempo",
+        "uk": "Повторення молитви того, хто здійснив таяммум і знайшов воду після виходу часу"
+      },
+      "summary": {
+        "ar": "أيعيد المتيمّم صلاته إذا وجد الماء بعد الوقت، وهل يختلف المسافر والحاضر وناسي الماء؟",
+        "en": "Does one who prayed with the dry ablution repeat the prayer on finding water after its time, and do the traveller, the resident and one who forgot his water differ?",
+        "ru": "Повторяет ли молившийся с таяммумом свою молитву, найдя воду после её времени, и различаются ли путник, оседлый и забывший о своей воде?",
+        "es": "¿Repite su oración quien rezó con tayammum si halla agua después de su tiempo, y difieren el viajero, el residente y quien olvidó su agua?",
+        "uk": "Чи повторює той, хто молився з таяммумом, свою молитву, знайшовши воду після її часу, і чи різняться мандрівник, осілий і той, хто забув про свою воду?"
+      },
+      "rulings": {
+        "hanafi": {
+          "text": {
+            "ar": "لا يعيد من صلّى بالتيمم ثم وجد الماء، مسافراً كان أو مقيماً، ولا من نسي الماء في رحله وهو خارج العمران؛ أما الناسي في العمران فيعيد.",
+            "en": "One who prayed with the dry ablution and then found water does not repeat the prayer, whether traveller or resident; nor does one who forgot the water in his baggage while outside inhabited places. One who forgot it within inhabited places repeats it.",
+            "ru": "Помолившийся с таяммумом и затем нашедший воду не повторяет молитву, будь он путником или оседлым; не повторяет и забывший воду в своей поклаже, находясь вне населённых мест. Забывший же её в населённом месте повторяет.",
+            "es": "Quien rezó con tayammum y luego halló agua no repite la oración, sea viajero o residente; tampoco quien olvidó el agua en su equipaje estando fuera de lugares poblados. Quien la olvidó dentro de un lugar poblado sí la repite.",
+            "uk": "Той, хто помолився з таяммумом і потім знайшов воду, не повторює молитву, чи то мандрівник, чи осілий; не повторює й той, хто забув воду у своєму вантажі, перебуваючи поза населеними місцями. Хто ж забув її в населеному місці, той повторює."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "لا يعيد بعد خروج الوقت، حاضراً كان أو مسافراً، ومن نسي الماء في رحله ثم ذكره بعد الصلاة نُدب له أن يعيد في الوقت المختار فقط.",
+            "en": "He does not repeat once the time has ended, whether resident or traveller. One who forgot the water in his baggage and remembered it after the prayer is recommended to repeat only within the preferred time.",
+            "ru": "После выхода времени он не повторяет, будь он оседлым или путником. Забывшему воду в своей поклаже и вспомнившему о ней после молитвы желательно повторить лишь в пределах избранного времени.",
+            "es": "No repite una vez salido el tiempo, sea residente o viajero. A quien olvidó el agua en su equipaje y la recordó tras la oración se le recomienda repetir solo dentro del tiempo preferido.",
+            "uk": "Після виходу часу він не повторює, чи то осілий, чи мандрівник. Тому, хто забув воду у своєму вантажі й згадав про неї після молитви, бажано повторити лише в межах обраного часу."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "يقضي من تيمّم لفقد الماء في موضع يغلب فيه وجوده كالمقيم، ولا يقضي في غيره كالمسافر إلا العاصي بسفره، ويقضي من نسي الماء في رحله.",
+            "en": "One who did the dry ablution for lack of water in a place where water is usually found, such as a resident, must make the prayer up; elsewhere, as with a traveller, he does not, unless his journey is itself sinful. One who forgot the water in his baggage makes it up.",
+            "ru": "Совершивший таяммум из-за отсутствия воды там, где она обычно имеется, как оседлый, обязан восполнить молитву; в ином месте, как путник, не восполняет, если только сама его поездка не греховна. Забывший воду в своей поклаже восполняет.",
+            "es": "Quien hizo el tayammum por falta de agua en un lugar donde suele haberla, como el residente, debe recuperar la oración; en otro lugar, como el viajero, no la recupera, salvo si su viaje es en sí pecaminoso. Quien olvidó el agua en su equipaje la recupera.",
+            "uk": "Той, хто здійснив таяммум через відсутність води там, де вона зазвичай є, як осілий, зобов'язаний відновити молитву; в іншому місці, як мандрівник, не відновлює, хіба що сама його подорож гріховна. Той, хто забув воду у своєму вантажі, відновлює."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "لا تجب الإعادة على من صلّى بالتيمم ثم وجد الماء، حاضراً كان أو مسافراً، إلا من نسي الماء في رحله أو جهله وهو قادر عليه فيعيد.",
+            "en": "Repetition is not required of one who prayed with the dry ablution and then found water, whether resident or traveller, except one who forgot the water in his baggage or was unaware of it while able to reach it: he repeats.",
+            "ru": "Повторение не обязательно для помолившегося с таяммумом и затем нашедшего воду, будь он оседлым или путником, кроме забывшего воду в своей поклаже или не знавшего о ней, имея к ней доступ: он повторяет.",
+            "es": "No se exige repetir a quien rezó con tayammum y luego halló agua, sea residente o viajero, salvo a quien olvidó el agua en su equipaje o la ignoraba pudiendo alcanzarla: ese repite.",
+            "uk": "Повторення не обов'язкове для того, хто помолився з таяммумом і потім знайшов воду, чи то осілий, чи мандрівник, окрім того, хто забув воду у своєму вантажі або не знав про неї, маючи до неї доступ: він повторює."
+          },
+          "sources": [
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 54,
+      "number": 60,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -16022,7 +17451,7 @@
       "id": "taharah-46",
       "ref": "F91",
       "bookId": "taharah",
-      "number": 55,
+      "number": 61,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -16180,7 +17609,7 @@
       "id": "taharah-51",
       "ref": "F96",
       "bookId": "taharah",
-      "number": 56,
+      "number": 62,
       "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -16346,7 +17775,7 @@
       "id": "taharah-47",
       "ref": "F92",
       "bookId": "taharah",
-      "number": 57,
+      "number": 63,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -16516,7 +17945,7 @@
       "id": "taharah-48",
       "ref": "F93",
       "bookId": "taharah",
-      "number": 58,
+      "number": 64,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -16686,7 +18115,7 @@
       "id": "taharah-49",
       "ref": "F94",
       "bookId": "taharah",
-      "number": 59,
+      "number": 65,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -16856,7 +18285,7 @@
       "id": "taharah-50",
       "ref": "F95",
       "bookId": "taharah",
-      "number": 60,
+      "number": 66,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -17018,7 +18447,7 @@
       "id": "taharah-52",
       "ref": "F97",
       "bookId": "taharah",
-      "number": 61,
+      "number": 67,
       "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",

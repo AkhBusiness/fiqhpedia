@@ -1,0 +1,144 @@
+{
+  "ref": "F124",
+  "addedAt": "2026-10-26",
+  "id": "taharah-63",
+  "bookId": "taharah",
+  "seq": 9,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "وجود الماء بعد التيمم قبل الصلاة وفي أثنائها وبعدها",
+    "en": "Finding Water After the Dry Ablution: Before, During, or After the Prayer",
+    "ru": "Обнаружение воды после таяммума: до молитвы, во время неё или после",
+    "es": "Hallar agua tras el tayammum: antes, durante o después de la oración",
+    "uk": "Знайдення води після таяммуму: до молитви, під час неї чи після"
+  },
+  "summary": {
+    "ar": "أيبطل تيمم من وجد الماء قبل الصلاة أو فيها، وهل يعيد إن وجده بعدها في الوقت؟",
+    "en": "Is the dry ablution void for one who finds water before or during the prayer, and does he repeat the prayer if he finds it afterwards while the time remains?",
+    "ru": "Становится ли недействительным таяммум того, кто нашёл воду до молитвы или во время неё, и повторяет ли он молитву, если нашёл воду после неё, пока время ещё не вышло?",
+    "es": "¿Se anula el tayammum de quien halla agua antes de la oración o durante ella, y repite la oración si la halla después mientras queda tiempo?",
+    "uk": "Чи стає недійсним таяммум того, хто знайшов воду до молитви чи під час неї, і чи повторює він молитву, якщо знайшов воду після неї, поки час ще не вийшов?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يبطل تيممه بالقدرة على ماءٍ كافٍ قبل الصلاة أو في أثنائها، فإن وجده فيها بطلت صلاته فيتوضّأ ويستأنفها، وإن وجده بعد الفراغ منها لم يُعِدها ولو كان الوقت باقياً.",
+        "en": "His dry ablution is void once he is able to use sufficient water, whether before the prayer or during it; if he finds it during the prayer, the prayer is void, so he performs the ablution and starts it anew. If he finds it after finishing the prayer, he does not repeat it, even if the time remains.",
+        "ru": "Его таяммум становится недействительным, как только он может использовать достаточное количество воды, до молитвы или во время неё; если он нашёл воду во время молитвы, молитва недействительна, и он совершает омовение и начинает её заново. Если он нашёл воду после завершения молитвы, он не повторяет её, даже если время ещё не вышло.",
+        "es": "Su tayammum se anula en cuanto puede usar agua suficiente, sea antes de la oración o durante ella; si la halla durante la oración, esta se anula, de modo que hace la ablución y la comienza de nuevo. Si la halla tras terminar la oración, no la repite, aunque quede tiempo.",
+        "uk": "Його таяммум стає недійсним, щойно він може використати достатню кількість води, до молитви чи під час неї; якщо він знайшов воду під час молитви, молитва недійсна, і він здійснює омовіння та починає її наново. Якщо він знайшов воду після завершення молитви, він не повторює її, навіть якщо час ще не вийшов."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "يبطل تيممه بوجود الماء قبل الدخول في الصلاة إن اتّسع الوقت لاستعماله وإدراك ركعة، ولا يقطعها إن وجده فيها إلا من نسي الماء في رحله. وإن وجده بعد الفراغ منها صحّت صلاته، ويعيدها المقصّر ندباً في الوقت.",
+        "en": "His dry ablution is void if he finds water before entering the prayer, provided the time allows him to use it and still catch a rakʿah; if he finds it during the prayer, he does not break it off, unless he had forgotten the water in his baggage. If he finds it after finishing, his prayer is valid, and one who fell short repeats it as a recommendation within the time.",
+        "ru": "Его таяммум становится недействительным, если он нашёл воду до вступления в молитву, при условии, что времени хватает, чтобы воспользоваться ею и успеть один ракаат; если он нашёл её во время молитвы, он не прерывает молитву, кроме того, кто забыл о воде в своей поклаже. Если он нашёл её после завершения, его молитва действительна, а допустивший упущение желательно повторяет её в пределах времени.",
+        "es": "Su tayammum se anula si halla agua antes de entrar en la oración, siempre que el tiempo le permita usarla y alcanzar una rakʿah; si la halla durante la oración, no la interrumpe, salvo quien hubiera olvidado el agua en su equipaje. Si la halla tras terminar, su oración es válida, y quien fue negligente la repite de forma recomendada dentro del tiempo.",
+        "uk": "Його таяммум стає недійсним, якщо він знайшов воду до вступу в молитву, за умови, що часу вистачає, аби скористатися нею і встигнути один ракаат; якщо він знайшов її під час молитви, він не перериває молитву, окрім того, хто забув про воду у своєму вантажі. Якщо він знайшов її після завершення, його молитва дійсна, а той, хто припустився недбалості, бажано повторює її в межах часу."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        },
+        {
+          "ar": "الشرح الصغير",
+          "en": "Al-Sharḥ al-Ṣaghīr",
+          "ru": "«Аш-Шарх ас-Сагир»",
+          "es": "Al-Sharḥ al-Ṣaghīr",
+          "uk": "«Аш-Шарх ас-Сагір»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "من تيمّم لفقد الماء ثم وجده قبل الصلاة بطل تيممه، وإن وجده فيها بموضع يغلب فيه وجود الماء بطلت صلاته، وإلا أتمّها وقطعُها ليتوضّأ أفضل ما لم يضق الوقت. وإن وجده بعد الفراغ منها لم يُعِدها، إلا إن صلّى بموضع يغلب فيه وجود الماء فيقضيها.",
+        "en": "Whoever performs the dry ablution for lack of water and then finds it before the prayer, his dry ablution is void; if he finds it during the prayer in a place where water is usually available, the prayer is void; otherwise he completes it, though breaking it off to perform the ablution is better, so long as the time is not short. If he finds it after finishing, he does not repeat it, unless he prayed in a place where water is usually available, in which case he makes it up.",
+        "ru": "Кто совершил таяммум из-за отсутствия воды, а затем нашёл её до молитвы, у того таяммум недействителен; если он нашёл её во время молитвы в месте, где вода обычно имеется, молитва недействительна; иначе он завершает её, хотя прервать её, чтобы совершить омовение, лучше, если время не стеснено. Если он нашёл её после завершения, он не повторяет молитву, кроме случая, когда молился в месте, где вода обычно имеется, — тогда он восполняет её.",
+        "es": "Quien hace el tayammum por falta de agua y luego la halla antes de la oración, su tayammum se anula; si la halla durante la oración en un lugar donde el agua suele haberla, la oración se anula; si no, la completa, aunque interrumpirla para hacer la ablución es mejor, mientras el tiempo no sea escaso. Si la halla tras terminar, no la repite, salvo que haya rezado en un lugar donde el agua suele haberla, en cuyo caso la recupera.",
+        "uk": "Хто здійснив таяммум через відсутність води, а потім знайшов її до молитви, у того таяммум недійсний; якщо він знайшов її під час молитви в місці, де вода зазвичай є, молитва недійсна; інакше він завершує її, хоча перервати її, щоб здійснити омовіння, краще, якщо час не обмежений. Якщо він знайшов її після завершення, він не повторює молитву, окрім випадку, коли молився в місці, де вода зазвичай є, — тоді він надолужує її."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "يبطل تيممه بوجود الماء قبل الصلاة وفي أثنائها، فإن وجده فيها تطهّر واستأنفها، وإن وجده بعد الفراغ منها لم تجب إعادتها ولو لم يخرج الوقت.",
+        "en": "His dry ablution is void if he finds water before the prayer or during it; if he finds it during the prayer, he purifies himself and starts the prayer anew. If he finds it after finishing the prayer, he is not required to repeat it, even if the time has not ended.",
+        "ru": "Его таяммум становится недействительным, если он нашёл воду до молитвы или во время неё; если он нашёл её во время молитвы, он очищается и начинает молитву заново. Если он нашёл её после завершения молитвы, повторять её не обязательно, даже если время ещё не вышло.",
+        "es": "Su tayammum se anula si halla agua antes de la oración o durante ella; si la halla durante la oración, se purifica y la comienza de nuevo. Si la halla tras terminar la oración, no está obligado a repetirla, aunque no haya salido el tiempo.",
+        "uk": "Його таяммум стає недійсним, якщо він знайшов воду до молитви чи під час неї; якщо він знайшов її під час молитви, він очищається і починає молитву наново. Якщо він знайшов її після завершення молитви, повторювати її не обов'язково, навіть якщо час ще не вийшов."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        }
+      ]
+    }
+  }
+}

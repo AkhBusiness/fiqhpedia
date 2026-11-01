@@ -94,12 +94,142 @@
         "es": "Tayammum",
         "uk": "Таяммум"
       },
-      "definition": {
-        "ar": "طهارة بالتراب الطاهر بدلاً من الماء عند فقده أو العجز عن استعماله لمرض أو نحوه.",
-        "en": "Dry purification using clean earth instead of water when water is unavailable or cannot be used due to illness or similar cause.",
-        "ru": "Сухое очищение чистой землёй вместо воды при её отсутствии или невозможности использования из-за болезни и т. п.",
-        "es": "Purificación con tierra limpia en lugar de agua, cuando esta falta o no puede usarse por enfermedad o causa similar.",
-        "uk": "Очищення чистою землею замість води за її відсутності або неможливості використати через хворобу тощо."
+      "briefDefinition": {
+        "ar": "طهارةٌ بالصعيد الطاهر يُمسح فيها الوجه واليدان، بدلاً من الوضوء أو الغسل عند فقد الماء أو العجز عن استعماله.",
+        "en": "Purification with clean earth, wiping the face and hands, in place of ablution or the ritual bath when water is lacking or cannot be used.",
+        "ru": "Очищение чистой землёй с протиранием лица и рук вместо малого или полного омовения, когда воды нет или её невозможно использовать.",
+        "es": "Purificación con tierra limpia, frotando el rostro y las manos, en lugar de la ablución o del baño ritual cuando falta el agua o no puede usarse.",
+        "uk": "Очищення чистою землею з протиранням обличчя й рук замість малого чи повного омивання, коли води немає або її неможливо використати."
+      },
+      "linguistic": {
+        "ar": "القصد؛ يقال: يمّمتُ الشيء وتيمّمته إذا قصدته، ثم غلب في عرف الشرع على قصد الصعيد للتطهّر به.",
+        "en": "Aiming for something: one says yammamtu or tayammamtu a thing when one heads for it; in the Law's usage it then came to mean heading for the earth in order to purify with it.",
+        "ru": "Устремление к чему-либо: говорят «яммамту» или «таяммамту» что-либо, когда направляются к нему; затем в шариатском употреблении слово закрепилось за обращением к земле ради очищения ею.",
+        "es": "Dirigirse a algo: se dice yammamtu o tayammamtu una cosa cuando uno se encamina hacia ella; luego, en el uso de la Ley, pasó a designar el dirigirse a la tierra para purificarse con ella.",
+        "uk": "Спрямування до чогось: кажуть «яммамту» чи «таяммамту» щось, коли прямують до нього; згодом у шаріатському вжитку слово закріпилося за зверненням до землі, щоб очиститися нею."
+      },
+      "legal": {
+        "ar": "قصد الصعيد الطيّب ومسح الوجه واليدين منه، للمريض ولمن لم يجد الماء، كما في قوله تعالى: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ سورة المائدة: ٦.",
+        "en": "Heading for good, clean earth and wiping the face and hands with it, for the sick and for one who finds no water, as in His saying: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — Sūrat al-Māʾidah, verse 6.",
+        "ru": "Обращение к доброй чистой земле и протирание ею лица и рук — для больного и для того, кто не нашёл воды, как в словах Всевышнего: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — сура «аль-Маида», аят 6.",
+        "es": "Dirigirse a tierra buena y limpia y frotar con ella el rostro y las manos, para el enfermo y para quien no halla agua, como en Su dicho: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — sura al-Māʾidah, aleya 6.",
+        "uk": "Звернення до доброї чистої землі й протирання нею обличчя та рук — для хворого й для того, хто не знайшов води, як у словах Всевишнього: ﴿فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ...﴾ — сура «аль-Маїда», аят 6."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "قصدُ صعيدٍ مطهِّر واستعمالُه بصفةٍ مخصوصة لإقامة القربة، وذلك بمسح الوجه واليدين منه.",
+            "en": "Heading for purifying earth and using it in a specified manner in order to perform an act of devotion — by wiping the face and hands with it.",
+            "ru": "Обращение к очищающей земле и её использование особым образом ради совершения акта поклонения — протиранием ею лица и рук.",
+            "es": "Dirigirse a tierra purificadora y usarla de un modo determinado para realizar un acto de devoción, frotando con ella el rostro y las manos.",
+            "uk": "Звернення до очищувальної землі та її використання особливим чином задля здійснення акту поклоніння — протиранням нею обличчя й рук."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "رد المحتار",
+              "en": "Radd al-Muḥtār",
+              "ru": "«Радд аль-Мухтар»",
+              "es": "Radd al-Muḥtār",
+              "uk": "«Радд аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "طهارةٌ ترابيّة تشتمل على مسح الوجه واليدين بنيّة، والمراد بالتراب جنس الأرض.",
+            "en": "A purification with dust consisting of wiping the face and hands with intention; by dust is meant here the ground of any kind.",
+            "ru": "Очищение прахом, состоящее в протирании лица и рук с намерением; под прахом здесь понимается земля любого рода.",
+            "es": "Purificación con tierra que consiste en frotar el rostro y las manos con intención; por «tierra» se entiende aquí el suelo de cualquier clase.",
+            "uk": "Очищення порохом, що полягає в протиранні обличчя й рук із наміром; під порохом тут розуміється земля будь-якого роду."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "إيصال التراب إلى الوجه واليدين بدلاً عن الوضوء أو الغسل أو عن عضوٍ منهما، بشرائط مخصوصة.",
+            "en": "Bringing dust to the face and hands in place of ablution or the ritual bath, or of a limb in either, under specified conditions.",
+            "ru": "Доведение праха до лица и рук вместо малого или полного омовения либо вместо одного из их органов — при особых условиях.",
+            "es": "Hacer llegar tierra al rostro y a las manos en lugar de la ablución o del baño ritual, o de un miembro de ellos, con condiciones determinadas.",
+            "uk": "Доведення пороху до обличчя й рук замість малого чи повного омивання або замість одного з їхніх органів — за особливих умов."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "مسحُ الوجه واليدين بترابٍ طهورٍ على وجهٍ مخصوص، وهو بدلٌ عن طهارة الماء.",
+            "en": "Wiping the face and hands with purifying dust in a specified manner; it is a substitute for purification with water.",
+            "ru": "Протирание лица и рук очищающим прахом особым образом; оно заменяет очищение водой.",
+            "es": "Frotar el rostro y las manos con tierra purificadora de un modo determinado; es sustituto de la purificación con agua.",
+            "uk": "Протирання обличчя й рук очищувальним порохом особливим чином; воно заміняє очищення водою."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            },
+            {
+              "ar": "زاد المستقنع",
+              "en": "Zād al-Mustaqniʿ",
+              "ru": "«Зад аль-Мустакни»",
+              "es": "Zād al-Mustaqniʿ",
+              "uk": "«Зад аль-Мустакні»"
+            }
+          ]
+        }
       }
     },
     {
@@ -3295,6 +3425,412 @@
               "ru": "«Аль-Инсаф»",
               "es": "Al-Inṣāf",
               "uk": "«Аль-Інсаф»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "jabirah",
+      "term": {
+        "ar": "الجَبِيرَة",
+        "en": "Jabīrah",
+        "ru": "Джабира",
+        "es": "Jabīrah",
+        "uk": "Джабіра"
+      },
+      "briefDefinition": {
+        "ar": "ما يُشدّ على العضو المكسور أو المجروح من أعواد ونحوها ليلتئم، ويُمسح عليه في الطهارة بدلاً من غسل ما تحته.",
+        "en": "What is bound onto a broken or wounded limb — splint-sticks and the like — so that it may heal; in purification it is wiped over in place of washing what lies beneath.",
+        "ru": "То, что привязывают к сломанной или раненой части тела — палочки-шины и подобное, — чтобы она срослась; при очищении её протирают вместо мытья того, что под ней.",
+        "es": "Lo que se ata sobre un miembro roto o herido —tablillas y similares— para que sane; en la purificación se pasa la mano mojada sobre ello en lugar de lavar lo que hay debajo.",
+        "uk": "Те, що прив'язують до зламаної чи пораненої частини тіла — палички-шини тощо, — щоб вона зрослася; під час очищення її протирають замість миття того, що під нею."
+      },
+      "linguistic": {
+        "ar": "من الجَبْر، وهو إصلاح العظم المكسور؛ والجبائر العيدان التي تُشدّ على العظم لتجبره على استواء، واحدتها جبيرة وجِبارة.",
+        "en": "From jabr, the setting of a broken bone; jabāʾir are the sticks bound onto a bone to set it straight, the singular being jabīrah or jibārah.",
+        "ru": "От «джабр» — вправление сломанной кости; «джабаир» — палочки, которые привязывают к кости, чтобы она срослась ровно; единственное число — «джабира» или «джибара».",
+        "es": "De jabr, la reducción del hueso roto; jabāʾir son las varillas que se atan sobre el hueso para que suelde recto; su singular es jabīrah o jibārah.",
+        "uk": "Від «джабр» — вправлення зламаної кістки; «джабаїр» — палички, які прив'язують до кістки, щоб вона зрослася рівно; однина — «джабіра» або «джібара»."
+      },
+      "legal": {
+        "ar": "لم يرد للفظ في النصوص استعمال شرعي متميّز عن معناه اللغوي؛ وفي السنة المسح على ما يُعصب على الجرح، في حديث صاحب الشجّة عند أبي داود، وفي إسناده مقال.",
+        "en": "The word has no legal usage in the texts distinct from its linguistic sense; the Sunnah speaks of wiping over what is bandaged onto a wound, in the hadith of the man with the head wound in Abū Dāwūd, whose chain has been criticised.",
+        "ru": "В текстах у этого слова нет особого шариатского употребления, отличного от языкового; в Сунне же говорится о протирании того, что повязано на рану, — в хадисе о человеке с раной на голове у Абу Дауда, иснад которого подвергался критике.",
+        "es": "La palabra no tiene en los textos un uso legal distinto de su sentido lingüístico; la Sunna habla de pasar la mano mojada sobre lo que se venda sobre una herida, en el hadiz del hombre herido en la cabeza recogido por Abū Dāwūd, cuya cadena ha sido criticada.",
+        "uk": "У текстах це слово не має особливого шаріатського вжитку, відмінного від мовного; у Сунні ж ідеться про протирання того, що пов'язано на рану, — у хадисі про чоловіка з раною на голові в Абу Дауда, існад якого зазнавав критики."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "عيدانٌ يُجبَر بها الكسر، تُلفّ وتُربط على العضو المنكسر؛ وفي معناها خرقة القرحة وعصابة الجرح وموضع الفصد.",
+            "en": "Sticks with which a fracture is set, wrapped and tied onto the broken limb; in the same category are the cloth over an ulcer, the bandage over a wound, and that over a bloodletting site.",
+            "ru": "Палочки, которыми вправляют перелом, — их обматывают и привязывают к сломанной части тела; к ним приравниваются тряпица на язве, повязка на ране и на месте кровопускания.",
+            "es": "Varillas con las que se reduce una fractura, envueltas y atadas sobre el miembro roto; en su mismo sentido están el paño sobre una llaga, el vendaje de una herida y el del lugar de una sangría.",
+            "uk": "Палички, якими вправляють перелом, — їх обмотують і прив'язують до зламаної частини тіла; до них прирівнюються ганчірка на виразці, пов'язка на рані та на місці кровопускання."
+          },
+          "sources": [
+            {
+              "ar": "الدر المختار",
+              "en": "Al-Durr al-Mukhtār",
+              "ru": "«Ад-Дурр аль-Мухтар»",
+              "es": "Al-Durr al-Mukhtār",
+              "uk": "«Ад-Дурр аль-Мухтар»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "الدواء الذي يُجعل على الجرح ونحوه، وكلّ ما يُطيَّب به الجرح ذَروراً كان أو أعواداً أو غير ذلك.",
+            "en": "The medicament placed on a wound or the like — whatever the wound is treated with, whether powder, sticks or anything else.",
+            "ru": "Лекарство, которое накладывают на рану и подобное, — всё, чем лечат рану: порошок, палочки или что-либо иное.",
+            "es": "El remedio que se coloca sobre una herida o similar: todo aquello con que se cura la herida, sea polvo, varillas u otra cosa.",
+            "uk": "Ліки, які накладають на рану тощо, — усе, чим лікують рану: порошок, палички чи щось інше."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "خشبٌ أو قصبٌ ونحوهما من الألواح، يُسوّى ويُشدّ على موضع الكسر أو الخلع لينجبر.",
+            "en": "Wood, cane or similar slats, trimmed and bound onto the site of a fracture or dislocation so that it may set.",
+            "ru": "Дерево, тростник или подобные дощечки, которые выравнивают и привязывают к месту перелома или вывиха, чтобы оно срослось.",
+            "es": "Madera, caña o tablillas semejantes, ajustadas y atadas sobre el lugar de una fractura o luxación para que suelde.",
+            "uk": "Дерево, очерет чи подібні дощечки, які вирівнюють і прив'язують до місця перелому або вивиху, щоб воно зрослося."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "أخشابٌ أو نحوها تُربط على الكسر أو نحوه كالجرح، سُمّيت بذلك تفاؤلاً بالجَبْر.",
+            "en": "Pieces of wood or the like tied onto a fracture or something similar such as a wound, so named in hopeful anticipation of the bone's setting.",
+            "ru": "Деревянные планки или подобное, привязываемые к перелому или подобному, например к ране; названы так в добрый знак вправления.",
+            "es": "Trozos de madera o similares que se atan sobre una fractura o algo parecido, como una herida; se llaman así augurando que el hueso suelde.",
+            "uk": "Дерев'яні планки чи подібне, які прив'язують до перелому або подібного, як-от до рани; названі так на добрий знак зрощення."
+          },
+          "sources": [
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mani",
+      "term": {
+        "ar": "المَنِيّ",
+        "en": "Manī",
+        "ru": "Мани",
+        "es": "Manī",
+        "uk": "Мані"
+      },
+      "briefDefinition": {
+        "ar": "الماء الذي يخرج دفقاً بلذّة عند اشتداد الشهوة ومنه يُخلق الولد؛ وهو من الرجل غليظ أبيض، ومن المرأة رقيق أصفر.",
+        "en": "The fluid that issues in spurts with pleasure at the peak of desire and from which a child is created; in a man it is thick and white, in a woman thin and yellow.",
+        "ru": "Жидкость, которая выходит толчками с наслаждением при пике вожделения и из которой создаётся ребёнок; у мужчины она густая и белая, у женщины — жидкая и жёлтая.",
+        "es": "El fluido que sale a borbotones con placer en el culmen del deseo y del que se crea el hijo; en el hombre es espeso y blanco, en la mujer fino y amarillento.",
+        "uk": "Рідина, що виходить поштовхами з насолодою на піку пожадання і з якої створюється дитина; у чоловіка вона густа й біла, у жінки — рідка й жовта."
+      },
+      "linguistic": {
+        "ar": "فعيلٌ بمعنى مفعول، من مَنى الرجلُ وأمنى إذا أنزل؛ وهو في كلام العرب ماء الرجل، واستمنى: استدعى خروجه.",
+        "en": "A faʿīl form in the sense of the passive participle, from manā or amnā, to ejaculate; in the speech of the Arabs it is a man's fluid, and istamnā means to induce its emission.",
+        "ru": "Форма «фаиль» в значении страдательного причастия, от «мана» или «амна» — извергнуть семя; в речи арабов это мужская жидкость, а «истамна» — вызвать её выход.",
+        "es": "Forma faʿīl con sentido de participio pasivo, de manā o amnā, eyacular; en el habla de los árabes es el fluido del hombre, e istamnā es provocar su salida.",
+        "uk": "Форма «фаїль» у значенні пасивного дієприкметника, від «мана» чи «амна» — вивергнути сім'я; у мові арабів це чоловіча рідина, а «істамна» — викликати її вихід."
+      },
+      "legal": {
+        "ar": "الماء الذي يُخلق منه الولد، كما في قوله تعالى: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ سورة القيامة: ٣٧؛ وفي حديث أمّ سليم عند مسلم: ماء الرجل غليظ أبيض، وماء المرأة رقيق أصفر.",
+        "en": "The fluid from which a child is created, as in His saying: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — Sūrat al-Qiyāmah, verse 37; and in the hadith of Umm Sulaym in Muslim: a man's fluid is thick and white, and a woman's thin and yellow.",
+        "ru": "Жидкость, из которой создаётся ребёнок, как в словах Всевышнего: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — сура «аль-Кыяма», аят 37; а в хадисе Умм Сулейм у Муслима: жидкость мужчины густая и белая, а женщины — жидкая и жёлтая.",
+        "es": "El fluido del que se crea el hijo, como en Su dicho: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — sura al-Qiyāmah, aleya 37; y en el hadiz de Umm Sulaym en Muslim: el fluido del hombre es espeso y blanco, y el de la mujer, fino y amarillento.",
+        "uk": "Рідина, з якої створюється дитина, як у словах Всевишнього: ﴿أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ﴾ — сура «аль-Кіяма», аят 37; а в хадисі Умм Сулейм у Мусліма: рідина чоловіка густа й біла, а жінки — рідка й жовта."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ماءٌ أبيضُ ثخينٌ ينكسر الذكر بخروجه، تشبه رائحته رائحة الطلع؛ ومنيّ المرأة رقيقٌ أصفر.",
+            "en": "A thick white fluid after whose emission the organ goes slack, its smell resembling that of palm spathe; a woman's is thin and yellow.",
+            "ru": "Густая белая жидкость, после выхода которой член опадает; её запах напоминает запах соцветия финиковой пальмы; у женщины она жидкая и жёлтая.",
+            "es": "Un fluido blanco y espeso tras cuya salida el miembro se relaja, de olor parecido al de la espata de palmera; el de la mujer es fino y amarillento.",
+            "uk": "Густа біла рідина, після виходу якої член опадає; її запах схожий на запах суцвіття фінікової пальми; у жінки вона рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ماءٌ له في اعتدال المزاج تدفّقٌ عند خروجه ورائحةُ طلعٍ أو عجين، ويشبه ريحه البيض إذا يبس؛ وهو من الرجل ثخينٌ أبيض، ومن المرأة رقيقٌ أصفر.",
+            "en": "A fluid which, in a balanced constitution, spurts on emission and smells of palm spathe or dough, and when dry smells like egg; a man's is thick and white, a woman's thin and yellow.",
+            "ru": "Жидкость, которая при уравновешенном темпераменте выходит толчками и пахнет соцветием финиковой пальмы или тестом, а высохнув, пахнет яйцом; у мужчины она густая и белая, у женщины — жидкая и жёлтая.",
+            "es": "Un fluido que, en una constitución equilibrada, sale a borbotones y huele a espata de palmera o a masa, y seco huele a huevo; el del hombre es espeso y blanco, el de la mujer fino y amarillento.",
+            "uk": "Рідина, що за врівноваженого темпераменту виходить поштовхами й пахне суцвіттям фінікової пальми чи тістом, а висохнувши, пахне яйцем; у чоловіка вона густа й біла, у жінки — рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "الشرح الكبير",
+              "en": "Al-Sharḥ al-Kabīr",
+              "ru": "«Аш-Шарх аль-Кабир»",
+              "es": "Al-Sharḥ al-Kabīr",
+              "uk": "«Аш-Шарх аль-Кабір»"
+            },
+            {
+              "ar": "حاشية الدسوقي",
+              "en": "Ḥāshiyat al-Dasūqī",
+              "ru": "«Хашият ад-Дасуки»",
+              "es": "Ḥāshiyat al-Dasūqī",
+              "uk": "«Хашіят ад-Дасукі»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ما يُعرف بإحدى خواصّه الثلاث: التدفّق، أو اللذّة بخروجه، أو ريح العجين والطلع رطباً وريح بياض البيض جافّاً.",
+            "en": "That which is recognised by any one of its three distinctive properties: spurting, pleasure on its emission, or the smell of dough and palm spathe when moist and of egg white when dry.",
+            "ru": "То, что распознаётся по любому из трёх его отличительных свойств: выходу толчками, наслаждению при выходе либо запаху теста и соцветия финиковой пальмы во влажном виде и яичного белка в сухом.",
+            "es": "Lo que se reconoce por cualquiera de sus tres propiedades distintivas: salir a borbotones, el placer al salir, o el olor a masa y a espata de palmera cuando está húmedo y a clara de huevo cuando está seco.",
+            "uk": "Те, що розпізнається за будь-якою з трьох його відмінних властивостей: вихід поштовхами, насолода під час виходу або запах тіста й суцвіття фінікової пальми у вологому стані та яєчного білка в сухому."
+          },
+          "sources": [
+            {
+              "ar": "منهاج الطالبين",
+              "en": "Minhāj al-Ṭālibīn",
+              "ru": "«Минхадж ат-Талибин»",
+              "es": "Minhāj al-Ṭālibīn",
+              "uk": "«Мінхадж ат-Талібін»"
+            },
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "الماء الغليظ الدافق الذي يخرج عند اشتداد الشهوة؛ ومنيّ المرأة رقيقٌ أصفر.",
+            "en": "The thick, gushing fluid that issues at the peak of desire; a woman's is thin and yellow.",
+            "ru": "Густая изливающаяся толчками жидкость, выходящая при пике вожделения; у женщины она жидкая и жёлтая.",
+            "es": "El fluido espeso que brota a borbotones en el culmen del deseo; el de la mujer es fino y amarillento.",
+            "uk": "Густа рідина, що виливається поштовхами на піку пожадання; у жінки вона рідка й жовта."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "كشاف القناع",
+              "en": "Kashshāf al-Qināʿ",
+              "ru": "«Кашшаф аль-Кина»",
+              "es": "Kashshāf al-Qināʿ",
+              "uk": "«Кашшаф аль-Кіна»"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "madhy",
+      "term": {
+        "ar": "المَذْي",
+        "en": "Madhy",
+        "ru": "Мазий",
+        "es": "Madhy",
+        "uk": "Мазій"
+      },
+      "briefDefinition": {
+        "ar": "ماءٌ أبيض رقيق لزج يخرج عند الشهوة الخفيفة كالملاعبة والتذكّر، بلا دفقٍ ولا فتورٍ بعده.",
+        "en": "A thin, sticky, whitish fluid that issues with mild arousal, as in foreplay or recollection, without spurting and without slackening after it.",
+        "ru": "Белая, тонкая и липкая влага, выходящая при лёгком возбуждении — при ласках или воспоминании, — без толчков и без последующего расслабления.",
+        "es": "Un fluido blanquecino, fino y viscoso que sale con una excitación leve, como en las caricias o al recordar, sin borbotones ni relajación posterior.",
+        "uk": "Біла, тонка й липка волога, що виходить при легкому збудженні — під час пестощів чи спогадів, — без поштовхів і без подальшого розслаблення."
+      },
+      "linguistic": {
+        "ar": "من مَذى الرجلُ يَمذي وأمذى؛ والمذي أرقّ ما يكون من النطفة، وهو ما يخرج عند الملاعبة والتقبيل.",
+        "en": "From madhā or amdhā; madhy is the thinnest of the sexual fluids — what issues during foreplay and kissing.",
+        "ru": "От «маза» или «амза»; «мазий» — самая тонкая из половых жидкостей, то, что выходит при ласках и поцелуях.",
+        "es": "De madhā o amdhā; madhy es el más fino de los fluidos sexuales: lo que sale durante las caricias y los besos.",
+        "uk": "Від «маза» чи «амза»; «мазій» — найтонша зі статевих рідин, те, що виходить під час пестощів і поцілунків."
+      },
+      "legal": {
+        "ar": "لم يرد له في النصوص معنى غير معناه اللغوي؛ وفي حديث عليّ المتّفق عليه أنّ فيه الوضوء مع غسل الذكر.",
+        "en": "The texts give it no meaning beyond the linguistic one; in the hadith of ʿAlī agreed upon by al-Bukhārī and Muslim, it requires ablution, with washing of the male organ.",
+        "ru": "В текстах у него нет значения помимо языкового; в хадисе Али, приводимом аль-Бухари и Муслимом, сказано, что из-за него обязательно малое омовение с мытьём члена.",
+        "es": "Los textos no le dan otro sentido que el lingüístico; en el hadiz de ʿAlī, recogido por al-Bukhārī y Muslim, obliga a la ablución, con el lavado del miembro.",
+        "uk": "У текстах воно не має значення, окрім мовного; у хадисі Алі, який наводять аль-Бухарі та Муслім, сказано, що через нього обов'язкове мале омивання з миттям члена."
+      },
+      "technical": {
+        "hanafi": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ يخرج عند شهوةٍ لا بشهوة، بلا دفقٍ ولا يعقبه فتور، وربما لم يُحسّ بخروجه.",
+            "en": "A thin white fluid that issues during arousal but not with climactic pleasure, without spurting or ensuing slackness; its emission may go unnoticed.",
+            "ru": "Белая тонкая влага, выходящая при возбуждении, но не с наслаждением разрядки, без толчков и без последующего расслабления; её выход порой не ощущается.",
+            "es": "Un fluido blanco y fino que sale durante la excitación pero no con el placer del clímax, sin borbotones ni relajación posterior; a veces su salida no se percibe.",
+            "uk": "Біла тонка волога, що виходить під час збудження, але не з насолодою розрядки, без поштовхів і без подальшого розслаблення; її вихід часом не відчувається."
+          },
+          "sources": [
+            {
+              "ar": "الهداية",
+              "en": "Al-Hidāyah",
+              "ru": "«Аль-Хидая»",
+              "es": "Al-Hidāyah",
+              "uk": "«Аль-Хідая»"
+            },
+            {
+              "ar": "مراقي الفلاح",
+              "en": "Marāqī al-Falāḥ",
+              "ru": "«Мараки аль-Фалях»",
+              "es": "Marāqī al-Falāḥ",
+              "uk": "«Маракі аль-Фалях»"
+            }
+          ]
+        },
+        "maliki": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ يخرج عند ثوران الشهوة بالإنعاظ عند الملاعبة أو التذكّر، يشترك فيه الرجل والمرأة، ومذيُها بلّةٌ تعلو فرجها.",
+            "en": "A thin white fluid that issues when desire is stirred, with erection during foreplay or recollection; men and women share it, a woman's being a wetness on her private part.",
+            "ru": "Белая тонкая влага, выходящая при пробуждении вожделения — с эрекцией при ласках или воспоминании; она бывает у мужчин и женщин, у женщины это влажность на её половом органе.",
+            "es": "Un fluido blanco y fino que sale al despertarse el deseo, con erección durante las caricias o el recuerdo; lo tienen hombres y mujeres, y en la mujer es una humedad sobre su parte íntima.",
+            "uk": "Біла тонка волога, що виходить при пробудженні пожадання — з ерекцією під час пестощів чи спогадів; вона буває в чоловіків і жінок, у жінки це вологість на її статевому органі."
+          },
+          "sources": [
+            {
+              "ar": "الخرشي على خليل",
+              "en": "Al-Kharashī ʿalā Khalīl",
+              "ru": "«Аль-Хараши аля Халиль»",
+              "es": "Al-Kharashī ʿalā Khalīl",
+              "uk": "«Аль-Хараші аля Халіль»"
+            },
+            {
+              "ar": "مواهب الجليل",
+              "en": "Mawāhib al-Jalīl",
+              "ru": "«Мавахиб аль-Джалиль»",
+              "es": "Mawāhib al-Jalīl",
+              "uk": "«Мавагіб аль-Джаліль»"
+            }
+          ]
+        },
+        "shafii": {
+          "text": {
+            "ar": "ماءٌ رقيقٌ، أبيضُ أو أصفرُ، يخرج غالباً عند ثوران شهوةٍ ضعيفة، لا بشهوةٍ قويّة.",
+            "en": "A thin fluid, white or yellowish, that usually issues when weak desire is stirred, not with strong desire.",
+            "ru": "Тонкая влага, белая или желтоватая, выходящая обычно при пробуждении слабого вожделения, а не при сильном.",
+            "es": "Un fluido fino, blanco o amarillento, que suele salir al despertarse un deseo débil, no con un deseo intenso.",
+            "uk": "Тонка волога, біла чи жовтувата, що виходить зазвичай при пробудженні слабкого пожадання, а не при сильному."
+          },
+          "sources": [
+            {
+              "ar": "مغني المحتاج",
+              "en": "Mughnī al-Muḥtāj",
+              "ru": "«Мугни аль-Мухтадж»",
+              "es": "Mughnī al-Muḥtāj",
+              "uk": "«Мугні аль-Мухтадж»"
+            },
+            {
+              "ar": "تحفة المحتاج",
+              "en": "Tuḥfat al-Muḥtāj",
+              "ru": "«Тухфат аль-Мухтадж»",
+              "es": "Tuḥfat al-Muḥtāj",
+              "uk": "«Тухфат аль-Мухтадж»"
+            }
+          ]
+        },
+        "hanbali": {
+          "text": {
+            "ar": "ماءٌ أبيضُ رقيقٌ لزجٌ يخرج عقيب الشهوة، عند مبادئها والانتشار، على طرف الذكر.",
+            "en": "A thin, sticky white fluid that appears at the tip of the organ following desire, at its onset and upon erection.",
+            "ru": "Белая тонкая липкая влага, появляющаяся на кончике члена вслед за вожделением — при его зарождении и эрекции.",
+            "es": "Un fluido blanco, fino y viscoso que aparece en la punta del miembro tras el deseo, en su inicio y con la erección.",
+            "uk": "Біла тонка липка волога, що з'являється на кінчику члена слідом за пожаданням — при його зародженні та ерекції."
+          },
+          "sources": [
+            {
+              "ar": "المغني",
+              "en": "Al-Mughnī",
+              "ru": "«Аль-Мугни»",
+              "es": "Al-Mughnī",
+              "uk": "«Аль-Мугні»"
+            },
+            {
+              "ar": "شرح منتهى الإرادات",
+              "en": "Sharḥ Muntahā al-Irādāt",
+              "ru": "«Шарх Мунтаха аль-Ирадат»",
+              "es": "Sharḥ Muntahā al-Irādāt",
+              "uk": "«Шарх Мунтаха аль-Ірадат»"
             }
           ]
         }

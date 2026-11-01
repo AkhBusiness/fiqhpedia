@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "taharah",
-      "planned": 124,
+      "planned": 125,
       "chapters": [
         {
           "name": "الأحكام",
@@ -173,7 +173,7 @@
           "name": "التيمم",
           "status": "✅",
           "planned": null,
-          "written": 7,
+          "written": 13,
           "refs": [
             "F7",
             "F101",
@@ -181,7 +181,13 @@
             "F103",
             "F104",
             "F105",
-            "F106"
+            "F106",
+            "F123",
+            "F124",
+            "F125",
+            "F126",
+            "F127",
+            "F128"
           ],
           "chapter": {
             "ar": "باب التيمم",
@@ -230,7 +236,7 @@
           }
         }
       ],
-      "written": 61
+      "written": 67
     },
     {
       "id": "salah",

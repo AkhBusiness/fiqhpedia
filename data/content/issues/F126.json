@@ -1,0 +1,148 @@
+{
+  "ref": "F126",
+  "addedAt": "2026-10-26",
+  "id": "taharah-65",
+  "bookId": "taharah",
+  "seq": 11,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "طهارة من به جرح مكشوف يضرّه الماء",
+    "en": "Purification of One with an Exposed Wound That Water Harms",
+    "ru": "Очищение того, у кого открытая рана, которой вредит вода",
+    "es": "La purificación de quien tiene una herida descubierta a la que daña el agua",
+    "uk": "Очищення того, хто має відкриту рану, якій шкодить вода"
+  },
+  "summary": {
+    "ar": "أيغسل الجريح الصحيحَ ويتيمّم عن الجرح، أم يمسحه، أم يتيمّم عن الكل؟",
+    "en": "Does the wounded person wash the sound parts and perform the dry ablution for the wound, wipe the wound, or perform the dry ablution for everything?",
+    "ru": "Моет ли раненый здоровые части и совершает таяммум за рану, протирает ли рану или совершает таяммум за всё?",
+    "es": "¿Lava el herido las partes sanas y hace el tayammum por la herida, pasa la mano mojada sobre la herida, o hace el tayammum por todo?",
+    "uk": "Чи миє поранений здорові частини й здійснює таяммум за рану, чи протирає рану, чи здійснює таяммум за все?"
+  },
+  "rulings": {
+    "hanafi": {
+      "grade": "fard",
+      "text": {
+        "ar": "إن كان أكثر أعضاء الوضوء عدداً، أو أكثر البدن في الغسل، جريحاً تيمّم، وإن كان أكثرها صحيحاً غسل الصحيح ومسح الجرح، فإن ضرّه المسح عصّبه بخرقة ومسح عليها، ولا يجمع بين الغسل والتيمم.",
+        "en": "If most of the limbs of the ablution by count — or most of the body in the ritual bath — are wounded, he performs the dry ablution; if most are sound, he washes the sound parts and wipes the wound, and if wiping harms it, he binds it with a cloth and wipes over that. He does not combine washing with the dry ablution.",
+        "ru": "Если большая часть органов омовения по их числу — или большая часть тела при полном омовении — ранена, он совершает таяммум; если же большая часть здорова, он моет здоровое и протирает рану, а если протирание ей вредит, перевязывает её тканью и протирает поверх. Мытьё и таяммум он не совмещает.",
+        "es": "Si la mayoría de los miembros de la ablución, por su número —o la mayor parte del cuerpo en el baño ritual—, está herida, hace el tayammum; si la mayoría está sana, lava lo sano y pasa la mano mojada sobre la herida, y si eso la daña, la venda con un paño y la pasa sobre este. No combina el lavado con el tayammum.",
+        "uk": "Якщо більшість органів омовіння за їхнім числом — або більша частина тіла при повному омовінні — поранена, він здійснює таяммум; якщо ж більшість здорова, він миє здорове й протирає рану, а якщо протирання їй шкодить, перев'язує її тканиною й протирає поверх. Миття й таяммум він не поєднує."
+      },
+      "sources": [
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "grade": "fard",
+      "text": {
+        "ar": "يغسل الصحيح ويمسح على الجرح نفسه إن صحّ أكثر أعضائه أو أقلّها ولم يضرّ غسلُ الصحيح الجرحَ، فإن ضرّه، أو قلّ الصحيح جداً كيدٍ، ففرضه التيمم.",
+        "en": "He washes the sound parts and wipes over the wound itself, whether most of his limbs are sound or fewer, provided washing the sound parts does not harm the wound; if it does, or the sound part is very small, like one hand, his obligation is the dry ablution.",
+        "ru": "Он моет здоровое и протирает саму рану, будь здоровой большая часть органов или меньшая, при условии что мытьё здорового не вредит ране; если вредит, или здоровое совсем мало, как одна рука, его обязанность — таяммум.",
+        "es": "Lava lo sano y pasa la mano mojada sobre la propia herida, sea sana la mayoría de sus miembros o la minoría, siempre que lavar lo sano no dañe la herida; si la daña, o lo sano es muy poco, como una mano, su obligación es el tayammum.",
+        "uk": "Він миє здорове й протирає саму рану, чи здорова більшість органів, чи меншість, за умови що миття здорового не шкодить рані; якщо шкодить, або здорового зовсім мало, як одна рука, його обов'язок — таяммум."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        }
+      ]
+    },
+    "shafii": {
+      "grade": "fard",
+      "text": {
+        "ar": "يجب غسل الصحيح والتيمم عن الجريح، ولا يجب مسح الجرح بالماء، ولا ترتيب بينهما للجنب، والمحدث يتيمّم وقت غسل العضو الجريح، فإن جُرح عضواه فتيمّمان.",
+        "en": "He must wash the sound parts and perform the dry ablution for the wounded part; wiping the wound with water is not required. For one in major impurity there is no set order between the two; one in minor impurity performs the dry ablution at the turn of the wounded limb, so if two limbs are wounded, two dry ablutions.",
+        "ru": "Обязательно мыть здоровое и совершать таяммум за раненое; протирать рану водой не обязательно. Для находящегося в большом осквернении порядка между ними нет; находящийся в малом осквернении совершает таяммум в момент мытья раненого органа, и если ранены два органа — два таяммума.",
+        "es": "Debe lavar lo sano y hacer el tayammum por lo herido; no es obligatorio pasar agua sobre la herida. Para quien está en impureza mayor no hay orden entre ambos; quien está en impureza menor hace el tayammum al llegar al miembro herido, y si son dos los miembros heridos, dos tayammum.",
+        "uk": "Обов'язково мити здорове й здійснювати таяммум за поранене; протирати рану водою не обов'язково. Для того, хто у великому оскверненні, порядку між ними немає; той, хто в малому оскверненні, здійснює таяммум у момент миття пораненого органа, і якщо поранені два органи — два таяммуми."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "grade": "fard",
+      "text": {
+        "ar": "إن لم يضرّه مسح الجرح بالماء وجب مسحه وأجزأه، وإلا تيمّم له ولما يضرّه غسله ممّا قرب منه وغسل الباقي، ويلزمه في الوضوء الترتيب والموالاة، فيتيمّم عند غسل العضو الجريح.",
+        "en": "If wiping the wound with water does not harm him, he must wipe it and that suffices; otherwise he performs the dry ablution for it and for whatever nearby is harmed by washing, and washes the rest. In the ablution he must keep the order and continuity, performing the dry ablution at the turn of the wounded limb.",
+        "ru": "Если протирание раны водой ему не вредит, он обязан протереть её, и этого достаточно; иначе он совершает таяммум за неё и за то рядом, чему вредит мытьё, и моет остальное. При малом омовении он обязан соблюдать порядок и непрерывность, совершая таяммум в момент мытья раненого органа.",
+        "es": "Si pasar agua sobre la herida no le daña, debe hacerlo y le basta; si no, hace el tayammum por ella y por lo cercano a lo que dañe el lavado, y lava el resto. En la ablución debe guardar el orden y la continuidad, haciendo el tayammum al llegar al miembro herido.",
+        "uk": "Якщо протирання рани водою йому не шкодить, він зобов'язаний протерти її, і цього достатньо; інакше він здійснює таяммум за неї і за те поруч, чому шкодить миття, і миє решту. При малому омовінні він зобов'язаний дотримуватися порядку й безперервності, здійснюючи таяммум у момент миття пораненого органа."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        }
+      ]
+    }
+  }
+}

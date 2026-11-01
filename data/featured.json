@@ -1,68 +1,68 @@
 {
   "featured": {
-    "ref": "F94",
-    "id": "taharah-49",
+    "ref": "F7",
+    "id": "taharah-4",
     "bookId": "taharah",
     "chapter": {
-      "ar": "باب الحيض والنفاس",
-      "en": "Chapter on Menstruation and Post-natal Bleeding",
-      "ru": "Раздел о менструации и послеродовом кровотечении",
-      "es": "Capítulo sobre la menstruación y los loquios",
-      "uk": "Розділ про менструацію та післяпологову кровотечу"
+      "ar": "باب التيمم",
+      "en": "Chapter of Dry Ablution (Tayammum)",
+      "ru": "Раздел о сухом очищении (таяммум)",
+      "es": "Capítulo de la ablución seca (tayammum)",
+      "uk": "Розділ про сухе очищення (таяммум)"
     },
     "title": {
-      "ar": "حكم الصلاة التي طرأ الحيض بعد دخول وقتها وقبل أدائها",
-      "en": "A Prayer Whose Time Had Begun When Menstruation Set In Before It Was Performed",
-      "ru": "Молитва, время которой уже наступило, когда началась менструация до её совершения",
-      "es": "La oración cuyo tiempo había entrado cuando sobrevino la menstruación antes de realizarla",
-      "uk": "Молитва, час якої вже настав, коли почалася менструація до її здійснення"
+      "ar": "حكم التيمم عند وجود الماء مع الخوف من استعماله",
+      "en": "The ruling on tayammum when water is present but there is fear of using it",
+      "ru": "Постановление о таяммуме при наличии воды, но при опасении её использования",
+      "es": "La norma sobre el tayammum cuando hay agua pero se teme usarla",
+      "uk": "Постанова про таяммум за наявності води, коли є побоювання її використати"
     },
     "summary": {
-      "ar": "إذا دخل الوقت وهي طاهرة ثم حاضت قبل أن تصلّي، أتقضي تلك الصلاة بعد طهرها؟",
-      "en": "If the time began while she was pure and then menstruation set in before she prayed, must she make up that prayer after becoming pure?",
-      "ru": "Если время наступило, когда она была чиста, а затем до молитвы началась менструация, должна ли она восполнить эту молитву после очищения?",
-      "es": "Si el tiempo entró estando ella pura y luego sobrevino la menstruación antes de rezar, ¿debe recuperar esa oración tras purificarse?",
-      "uk": "Якщо час настав, коли вона була чиста, а потім до молитви почалася менструація, чи мусить вона відшкодувати цю молитву після очищення?"
+      "ar": "هل يجوز التيمم مع وجود الماء إذا خيف الضرر من استعماله؟",
+      "en": "Is tayammum permitted when water is available if harm from using it is feared?",
+      "ru": "Допустим ли таяммум при наличии воды, если есть опасение вреда от её применения?",
+      "es": "¿Está permitido el tayammum habiendo agua si se teme un daño por usarla?",
+      "uk": "Чи дозволений таяммум за наявності води, якщо є побоювання шкоди від її використання?"
     },
     "rulings": {
       "hanafi": {
         "grade": "mubah",
         "lead": {
-          "ar": "لا تقضيها",
-          "en": "She does not make it up, since the obligation only settles at the end of the time",
-          "ru": "Она её не восполняет, ибо обязанность утверждается лишь в конце времени",
-          "es": "No la recupera, pues la obligación solo se asienta al final del tiempo",
-          "uk": "Вона її не відшкодовує, бо обов'язок утверджується лише наприкінці часу"
+          "ar": "يجوز التيمم مع وجود الماء إذا خاف الضرر من استعماله لمرضٍ أو شدة بردٍ يُخشى منها الهلاك أو زيادة المرض.",
+          "en": "Tayammum is permitted despite water being present if one fears harm from using it due to illness or severe cold that risks death or worse…",
+          "ru": "Таяммум допустим при наличии воды",
+          "es": "Está permitido el tayammum habiendo agua si se teme un daño por usarla",
+          "uk": "Таяммум дозволений за наявності води"
         }
       },
       "maliki": {
         "grade": "mubah",
         "lead": {
-          "ar": "لا تقضيها إذا حاضت في الوقت الموسَّع",
-          "en": "She does not make it up if she menstruated within the extended time — unless she had delayed it until the time no longer sufficed to perf…",
-          "ru": "Она её не восполняет",
-          "es": "No la recupera si menstruó dentro del tiempo amplio",
-          "uk": "Вона її не відшкодовує"
+          "ar": "يجوز التيمم للمريض والخائف زيادة المرض أو تأخر البرء أو الهلاك من استعمال الماء.",
+          "en": "Tayammum is permitted for the sick and for whoever fears worsening illness",
+          "ru": "Таяммум разрешён больному и тому",
+          "es": "Está permitido el tayammum para el enfermo y para quien tema el agravamiento de la enfermedad",
+          "uk": "Таяммум дозволений хворому і тому"
         }
       },
       "shafii": {
-        "grade": "wajib",
+        "grade": "mubah",
         "lead": {
-          "ar": "تقضيها إذا كان قد مضى من الوقت ما يسع الصلاة وطهارتها وتمكّنت من أدائها فلم تفعل.",
-          "en": "She makes it up if enough of the time had passed to accommodate the prayer and her purification",
-          "ru": "Она её восполняет",
-          "es": "La recupera si había transcurrido del tiempo lo suficiente para la oración y su purificación",
-          "uk": "Вона її відшкодовує"
+          "ar": "يجوز التيمم مع وجود الماء لمن خاف من استعماله تلف نفسٍ أو منفعة عضو",
+          "en": "Tayammum is permitted despite water's presence for one who fears",
+          "ru": "Таяммум допустим при наличии воды тому",
+          "es": "Está permitido el tayammum habiendo agua para quien tema",
+          "uk": "Таяммум дозволений за наявності води тому"
         }
       },
       "hanbali": {
-        "grade": "wajib",
+        "grade": "mubah",
         "lead": {
-          "ar": "تقضيها إذا أدركت من وقتها قدر تكبيرة الإحرام قبل أن تحيض",
-          "en": "She makes it up if",
-          "ru": "Она её восполняет",
-          "es": "La recupera si",
-          "uk": "Вона її відшкодовує"
+          "ar": "يباح التيمم مع وجود الماء إذا خاف باستعماله الضرر على بدنه من مرضٍ أو بردٍ شديدٍ يعجز عن تسخين الماء ودفع ضرره.",
+          "en": "Tayammum is permissible despite water's presence if one fears bodily harm from using it due to illness or severe cold",
+          "ru": "Таяммум дозволен при наличии воды",
+          "es": "Se permite el tayammum habiendo agua si se teme",
+          "uk": "Таяммум дозволений за наявності води"
         }
       }
     }

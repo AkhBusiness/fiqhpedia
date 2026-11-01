@@ -1,0 +1,151 @@
+{
+  "ref": "F123",
+  "addedAt": "2026-10-26",
+  "id": "taharah-62",
+  "bookId": "taharah",
+  "seq": 8,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "التيمم للجنب والحائض والنفساء وما يُباح لهم به",
+    "en": "Dry Ablution for Major Impurity, Menstruation and Postnatal Bleeding, and What It Permits",
+    "ru": "Таяммум при большом осквернении, после месячных и послеродового кровотечения и что он дозволяет",
+    "es": "El tayammum por impureza mayor, menstruación y posparto, y lo que permite",
+    "uk": "Таяммум при великому оскверненні, після місячних і післяпологової кровотечі та що він дозволяє"
+  },
+  "summary": {
+    "ar": "أيرفع التيمم الحدث الأكبر عند فقد الماء، وما يُباح به، وهل يلزم الغسل بوجود الماء؟",
+    "en": "Does the dry ablution lift major impurity when there is no water, what does it permit, and must one bathe once water is found?",
+    "ru": "Снимает ли таяммум большое осквернение при отсутствии воды, что он дозволяет и обязательно ли полное омовение, когда вода найдена?",
+    "es": "¿Levanta el tayammum la impureza mayor cuando falta el agua, qué permite y es obligatorio el baño al hallar agua?",
+    "uk": "Чи знімає таяммум велике осквернення за відсутності води, що він дозволяє і чи обов'язкове повне обмивання, коли воду знайдено?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "يرفع التيمم الجنابة والحيض والنفاس ما دام الماء مفقوداً، فيحلّ به ما يحلّ بالغسل من صلاة وقراءة ودخول مسجد، ومن انقطع دمها لتمام عادتها دون العشرة حلّ وطؤها إذا تيمّمت وصلّت به. فإذا قدر على ماء يكفي غسله انتقض تيممه ولزمه الغسل.",
+        "en": "The dry ablution lifts major impurity, menstruation and postnatal bleeding so long as water is lacking, so it permits whatever the bath permits: prayer, reciting the Qurʾān and entering the mosque. A woman whose bleeding stopped at the end of her usual days, short of ten, becomes lawful for intercourse once she performs the dry ablution and prays with it. When he becomes able to use water enough for his bath, the dry ablution is void and the bath is required.",
+        "ru": "Таяммум снимает большое осквернение, состояние месячных и послеродового кровотечения, пока воды нет, поэтому он дозволяет всё, что дозволяет полное омовение: молитву, чтение Корана и вход в мечеть. Женщина, у которой кровь прекратилась по окончании её обычных дней, раньше десяти, становится дозволенной для близости, когда совершит таяммум и помолится с ним. Когда он сможет использовать воду, достаточную для полного омовения, таяммум недействителен и полное омовение обязательно.",
+        "es": "El tayammum levanta la impureza mayor, la menstruación y el posparto mientras falte el agua, de modo que permite cuanto permite el baño: la oración, la recitación del Corán y entrar en la mezquita. La mujer cuya sangre cesó al cumplirse sus días habituales, antes de diez, queda lícita para las relaciones conyugales cuando hace el tayammum y reza con él. Cuando puede usar agua suficiente para su baño, el tayammum se anula y el baño es obligatorio.",
+        "uk": "Таяммум знімає велике осквернення, стан місячних і післяпологової кровотечі, доки води немає, тож він дозволяє все, що дозволяє повне обмивання: молитву, читання Корану і вхід до мечеті. Жінка, у якої кров припинилася із завершенням її звичних днів, раніше десяти, стає дозволеною для близькості, коли здійснить таяммум і помолиться з ним. Коли він зможе використати воду, достатню для повного обмивання, таяммум недійсний і повне обмивання обов'язкове."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا يرفع التيمم الحدث الأكبر، وإنما يستبيح به الصلاة وقراءة القرآن ومسّ المصحف، ويدخل به المسجد للصلاة لا للمكث إلا لضرورة. ولا تُوطأ الحائض بعد انقطاع دمها بالتيمم حتى تغتسل بالماء إلا لطول يضرّ، ويلزم الغسل إذا وُجد الماء.",
+        "en": "The dry ablution does not lift major impurity; it only makes prayer, reciting the Qurʾān and touching the Muṣḥaf permissible, and with it one may enter the mosque to pray but not to stay, unless out of necessity. A menstruating woman whose bleeding has stopped may not have intercourse on the strength of the dry ablution until she bathes with water, unless a long delay would cause harm; and the bath is required once water is found.",
+        "ru": "Таяммум не снимает большое осквернение, а лишь делает дозволенными молитву, чтение Корана и прикосновение к Мусхафу; с ним можно войти в мечеть для молитвы, но не оставаться в ней, кроме как по необходимости. С женщиной, у которой прекратились месячные, нельзя вступать в близость на основании таяммума, пока она не омоется водой, если только долгое ожидание не причиняет вреда; а полное омовение обязательно, когда вода найдена.",
+        "es": "El tayammum no levanta la impureza mayor; solo hace lícitos la oración, la recitación del Corán y tocar el Muṣḥaf, y con él se puede entrar en la mezquita para rezar, pero no para permanecer, salvo por necesidad. Con la mujer cuya menstruación ha cesado no se tienen relaciones por el tayammum hasta que se bañe con agua, salvo que una larga espera cause daño; y el baño es obligatorio al hallar agua.",
+        "uk": "Таяммум не знімає великого осквернення, а лише робить дозволеними молитву, читання Корану й доторк до Мусхафу; з ним можна увійти до мечеті для молитви, але не перебувати в ній, хіба що з необхідності. З жінкою, у якої припинилися місячні, не можна вступати в близькість на підставі таяммуму, доки вона не обмиється водою, хіба що довге очікування завдає шкоди; а повне обмивання обов'язкове, коли воду знайдено."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "لا يرفع التيمم الحدث الأكبر بل يبيح فريضةً واحدة وما شاء من النوافل، ويحلّ به قراءة القرآن والمكث في المسجد ووطء الحائض والنفساء بعد انقطاع الدم، فإذا وجد الماء بطل تيممه ولزمه الغسل.",
+        "en": "The dry ablution does not lift major impurity; it permits one obligatory prayer and as many voluntary prayers as he wishes, and with it reciting the Qurʾān, staying in the mosque, and intercourse with a woman whose menstrual or postnatal bleeding has stopped become lawful. Once he finds water, the dry ablution is void and the bath is required.",
+        "ru": "Таяммум не снимает большое осквернение, а дозволяет одну обязательную молитву и сколько угодно добровольных; с ним становятся дозволенными чтение Корана, пребывание в мечети и близость с женщиной, у которой прекратились месячные или послеродовое кровотечение. Когда он находит воду, таяммум недействителен и полное омовение обязательно.",
+        "es": "El tayammum no levanta la impureza mayor, sino que permite una oración obligatoria y cuantas voluntarias quiera; con él se vuelven lícitos recitar el Corán, permanecer en la mezquita y las relaciones con la mujer cuya menstruación o posparto ha cesado. Al hallar agua, el tayammum se anula y el baño es obligatorio.",
+        "uk": "Таяммум не знімає великого осквернення, а дозволяє одну обов'язкову молитву і скільки завгодно добровільних; з ним стають дозволеними читання Корану, перебування в мечеті й близькість із жінкою, у якої припинилися місячні чи післяпологова кровотеча. Коли він знаходить воду, таяммум недійсний і повне обмивання обов'язкове."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "التيمم مبيح لا يرفع الحدث الأكبر، فيستبيح به ما يُفعل بالغسل من صلاة وطواف ومسّ مصحف وقراءة ولبث في المسجد ووطء الحائض بعد انقطاع دمها، ويبطل بوجود الماء فيلزمه الغسل.",
+        "en": "The dry ablution permits but does not lift major impurity, so with it one may do whatever is done with the bath: prayer, circumambulation, touching the Muṣḥaf, reciting the Qurʾān, staying in the mosque, and intercourse with a menstruating woman whose bleeding has stopped. It is void once water is found, and the bath becomes required.",
+        "ru": "Таяммум дозволяет, но не снимает большое осквернение, поэтому с ним можно совершать всё, что совершается после полного омовения: молитву, обход Каабы, прикосновение к Мусхафу, чтение Корана, пребывание в мечети и близость с женщиной, у которой прекратились месячные. Он недействителен, когда найдена вода, и тогда полное омовение обязательно.",
+        "es": "El tayammum permite pero no levanta la impureza mayor, de modo que con él se hace lo que se hace con el baño: la oración, la circunvalación, tocar el Muṣḥaf, recitar el Corán, permanecer en la mezquita y las relaciones con la mujer cuya menstruación ha cesado. Se anula al hallar agua, y entonces el baño es obligatorio.",
+        "uk": "Таяммум дозволяє, але не знімає великого осквернення, тож із ним можна чинити все, що чиниться після повного обмивання: молитву, обхід Кааби, доторк до Мусхафу, читання Корану, перебування в мечеті й близькість із жінкою, у якої припинилися місячні. Він недійсний, коли знайдено воду, і тоді повне обмивання обов'язкове."
+      },
+      "sources": [
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        },
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        }
+      ]
+    }
+  }
+}

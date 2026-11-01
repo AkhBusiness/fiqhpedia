@@ -1,0 +1,151 @@
+{
+  "ref": "F128",
+  "addedAt": "2026-10-26",
+  "id": "taharah-67",
+  "bookId": "taharah",
+  "seq": 13,
+  "chapter": {
+    "ar": "باب التيمم",
+    "en": "Chapter of Dry Ablution (Tayammum)",
+    "ru": "Раздел о сухом очищении (таяммум)",
+    "es": "Capítulo de la ablución seca (tayammum)",
+    "uk": "Розділ про сухе очищення (таяммум)"
+  },
+  "title": {
+    "ar": "إعادة صلاة المتيمم إذا وجد الماء بعد خروج الوقت",
+    "en": "Repeating the Prayer of One Who Did the Dry Ablution and Found Water After the Time Ended",
+    "ru": "Повторение молитвы совершившего таяммум, если он нашёл воду после выхода времени",
+    "es": "Repetir la oración de quien hizo el tayammum y halló agua tras salir el tiempo",
+    "uk": "Повторення молитви того, хто здійснив таяммум і знайшов воду після виходу часу"
+  },
+  "summary": {
+    "ar": "أيعيد المتيمّم صلاته إذا وجد الماء بعد الوقت، وهل يختلف المسافر والحاضر وناسي الماء؟",
+    "en": "Does one who prayed with the dry ablution repeat the prayer on finding water after its time, and do the traveller, the resident and one who forgot his water differ?",
+    "ru": "Повторяет ли молившийся с таяммумом свою молитву, найдя воду после её времени, и различаются ли путник, оседлый и забывший о своей воде?",
+    "es": "¿Repite su oración quien rezó con tayammum si halla agua después de su tiempo, y difieren el viajero, el residente y quien olvidó su agua?",
+    "uk": "Чи повторює той, хто молився з таяммумом, свою молитву, знайшовши воду після її часу, і чи різняться мандрівник, осілий і той, хто забув про свою воду?"
+  },
+  "rulings": {
+    "hanafi": {
+      "text": {
+        "ar": "لا يعيد من صلّى بالتيمم ثم وجد الماء، مسافراً كان أو مقيماً، ولا من نسي الماء في رحله وهو خارج العمران؛ أما الناسي في العمران فيعيد.",
+        "en": "One who prayed with the dry ablution and then found water does not repeat the prayer, whether traveller or resident; nor does one who forgot the water in his baggage while outside inhabited places. One who forgot it within inhabited places repeats it.",
+        "ru": "Помолившийся с таяммумом и затем нашедший воду не повторяет молитву, будь он путником или оседлым; не повторяет и забывший воду в своей поклаже, находясь вне населённых мест. Забывший же её в населённом месте повторяет.",
+        "es": "Quien rezó con tayammum y luego halló agua no repite la oración, sea viajero o residente; tampoco quien olvidó el agua en su equipaje estando fuera de lugares poblados. Quien la olvidó dentro de un lugar poblado sí la repite.",
+        "uk": "Той, хто помолився з таяммумом і потім знайшов воду, не повторює молитву, чи то мандрівник, чи осілий; не повторює й той, хто забув воду у своєму вантажі, перебуваючи поза населеними місцями. Хто ж забув її в населеному місці, той повторює."
+      },
+      "sources": [
+        {
+          "ar": "الهداية",
+          "en": "Al-Hidāyah",
+          "ru": "«Аль-Хидая»",
+          "es": "Al-Hidāyah",
+          "uk": "«Аль-Хідая»"
+        },
+        {
+          "ar": "الدر المختار",
+          "en": "Al-Durr al-Mukhtār",
+          "ru": "«Ад-Дурр аль-Мухтар»",
+          "es": "Al-Durr al-Mukhtār",
+          "uk": "«Ад-Дурр аль-Мухтар»"
+        },
+        {
+          "ar": "رد المحتار",
+          "en": "Radd al-Muḥtār",
+          "ru": "«Радд аль-Мухтар»",
+          "es": "Radd al-Muḥtār",
+          "uk": "«Радд аль-Мухтар»"
+        }
+      ]
+    },
+    "maliki": {
+      "text": {
+        "ar": "لا يعيد بعد خروج الوقت، حاضراً كان أو مسافراً، ومن نسي الماء في رحله ثم ذكره بعد الصلاة نُدب له أن يعيد في الوقت المختار فقط.",
+        "en": "He does not repeat once the time has ended, whether resident or traveller. One who forgot the water in his baggage and remembered it after the prayer is recommended to repeat only within the preferred time.",
+        "ru": "После выхода времени он не повторяет, будь он оседлым или путником. Забывшему воду в своей поклаже и вспомнившему о ней после молитвы желательно повторить лишь в пределах избранного времени.",
+        "es": "No repite una vez salido el tiempo, sea residente o viajero. A quien olvidó el agua en su equipaje y la recordó tras la oración se le recomienda repetir solo dentro del tiempo preferido.",
+        "uk": "Після виходу часу він не повторює, чи то осілий, чи мандрівник. Тому, хто забув воду у своєму вантажі й згадав про неї після молитви, бажано повторити лише в межах обраного часу."
+      },
+      "sources": [
+        {
+          "ar": "الشرح الكبير",
+          "en": "Al-Sharḥ al-Kabīr",
+          "ru": "«Аш-Шарх аль-Кабир»",
+          "es": "Al-Sharḥ al-Kabīr",
+          "uk": "«Аш-Шарх аль-Кабір»"
+        },
+        {
+          "ar": "حاشية الدسوقي",
+          "en": "Ḥāshiyat al-Dasūqī",
+          "ru": "«Хашият ад-Дасуки»",
+          "es": "Ḥāshiyat al-Dasūqī",
+          "uk": "«Хашіят ад-Дасукі»"
+        }
+      ]
+    },
+    "shafii": {
+      "text": {
+        "ar": "يقضي من تيمّم لفقد الماء في موضع يغلب فيه وجوده كالمقيم، ولا يقضي في غيره كالمسافر إلا العاصي بسفره، ويقضي من نسي الماء في رحله.",
+        "en": "One who did the dry ablution for lack of water in a place where water is usually found, such as a resident, must make the prayer up; elsewhere, as with a traveller, he does not, unless his journey is itself sinful. One who forgot the water in his baggage makes it up.",
+        "ru": "Совершивший таяммум из-за отсутствия воды там, где она обычно имеется, как оседлый, обязан восполнить молитву; в ином месте, как путник, не восполняет, если только сама его поездка не греховна. Забывший воду в своей поклаже восполняет.",
+        "es": "Quien hizo el tayammum por falta de agua en un lugar donde suele haberla, como el residente, debe recuperar la oración; en otro lugar, como el viajero, no la recupera, salvo si su viaje es en sí pecaminoso. Quien olvidó el agua en su equipaje la recupera.",
+        "uk": "Той, хто здійснив таяммум через відсутність води там, де вона зазвичай є, як осілий, зобов'язаний відновити молитву; в іншому місці, як мандрівник, не відновлює, хіба що сама його подорож гріховна. Той, хто забув воду у своєму вантажі, відновлює."
+      },
+      "sources": [
+        {
+          "ar": "منهاج الطالبين",
+          "en": "Minhāj al-Ṭālibīn",
+          "ru": "«Минхадж ат-Талибин»",
+          "es": "Minhāj al-Ṭālibīn",
+          "uk": "«Мінхадж ат-Талібін»"
+        },
+        {
+          "ar": "مغني المحتاج",
+          "en": "Mughnī al-Muḥtāj",
+          "ru": "«Мугни аль-Мухтадж»",
+          "es": "Mughnī al-Muḥtāj",
+          "uk": "«Мугні аль-Мухтадж»"
+        },
+        {
+          "ar": "تحفة المحتاج",
+          "en": "Tuḥfat al-Muḥtāj",
+          "ru": "«Тухфат аль-Мухтадж»",
+          "es": "Tuḥfat al-Muḥtāj",
+          "uk": "«Тухфат аль-Мухтадж»"
+        }
+      ]
+    },
+    "hanbali": {
+      "text": {
+        "ar": "لا تجب الإعادة على من صلّى بالتيمم ثم وجد الماء، حاضراً كان أو مسافراً، إلا من نسي الماء في رحله أو جهله وهو قادر عليه فيعيد.",
+        "en": "Repetition is not required of one who prayed with the dry ablution and then found water, whether resident or traveller, except one who forgot the water in his baggage or was unaware of it while able to reach it: he repeats.",
+        "ru": "Повторение не обязательно для помолившегося с таяммумом и затем нашедшего воду, будь он оседлым или путником, кроме забывшего воду в своей поклаже или не знавшего о ней, имея к ней доступ: он повторяет.",
+        "es": "No se exige repetir a quien rezó con tayammum y luego halló agua, sea residente o viajero, salvo a quien olvidó el agua en su equipaje o la ignoraba pudiendo alcanzarla: ese repite.",
+        "uk": "Повторення не обов'язкове для того, хто помолився з таяммумом і потім знайшов воду, чи то осілий, чи мандрівник, окрім того, хто забув воду у своєму вантажі або не знав про неї, маючи до неї доступ: він повторює."
+      },
+      "sources": [
+        {
+          "ar": "زاد المستقنع",
+          "en": "Zād al-Mustaqniʿ",
+          "ru": "«Зад аль-Мустакни»",
+          "es": "Zād al-Mustaqniʿ",
+          "uk": "«Зад аль-Мустакні»"
+        },
+        {
+          "ar": "كشاف القناع",
+          "en": "Kashshāf al-Qināʿ",
+          "ru": "«Кашшаф аль-Кина»",
+          "es": "Kashshāf al-Qināʿ",
+          "uk": "«Кашшаф аль-Кіна»"
+        },
+        {
+          "ar": "شرح منتهى الإرادات",
+          "en": "Sharḥ Muntahā al-Irādāt",
+          "ru": "«Шарх Мунтаха аль-Ирадат»",
+          "es": "Sharḥ Muntahā al-Irādāt",
+          "uk": "«Шарх Мунтаха аль-Ірадат»"
+        }
+      ]
+    }
+  }
+}

@@ -1951,10 +1951,190 @@
       }
     },
     {
+      "id": "taharah-62",
+      "ref": "F123",
+      "bookId": "taharah",
+      "number": 54,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "التيمم للجنب والحائض والنفساء وما يُباح لهم به",
+        "en": "Dry Ablution for Major Impurity, Menstruation and Postnatal Bleeding, and What It Permits",
+        "ru": "Таяммум при большом осквернении, после месячных и послеродового кровотечения и что он дозволяет",
+        "es": "El tayammum por impureza mayor, menstruación y posparto, y lo que permite",
+        "uk": "Таяммум при великому оскверненні, після місячних і післяпологової кровотечі та що він дозволяє"
+      },
+      "summary": {
+        "ar": "أيرفع التيمم الحدث الأكبر عند فقد الماء، وما يُباح به، وهل يلزم الغسل بوجود الماء؟",
+        "en": "Does the dry ablution lift major impurity when there is no water, what does it permit, and must one bathe once water is found?",
+        "ru": "Снимает ли таяммум большое осквернение при отсутствии воды, что он дозволяет и обязательно ли полное омовение, когда вода найдена?",
+        "es": "¿Levanta el tayammum la impureza mayor cuando falta el agua, qué permite y es obligatorio el baño al hallar agua?",
+        "uk": "Чи знімає таяммум велике осквернення за відсутності води, що він дозволяє і чи обов'язкове повне обмивання, коли воду знайдено?"
+      }
+    },
+    {
+      "id": "taharah-63",
+      "ref": "F124",
+      "bookId": "taharah",
+      "number": 55,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "وجود الماء بعد التيمم قبل الصلاة وفي أثنائها وبعدها",
+        "en": "Finding Water After the Dry Ablution: Before, During, or After the Prayer",
+        "ru": "Обнаружение воды после таяммума: до молитвы, во время неё или после",
+        "es": "Hallar agua tras el tayammum: antes, durante o después de la oración",
+        "uk": "Знайдення води після таяммуму: до молитви, під час неї чи після"
+      },
+      "summary": {
+        "ar": "أيبطل تيمم من وجد الماء قبل الصلاة أو فيها، وهل يعيد إن وجده بعدها في الوقت؟",
+        "en": "Is the dry ablution void for one who finds water before or during the prayer, and does he repeat the prayer if he finds it afterwards while the time remains?",
+        "ru": "Становится ли недействительным таяммум того, кто нашёл воду до молитвы или во время неё, и повторяет ли он молитву, если нашёл воду после неё, пока время ещё не вышло?",
+        "es": "¿Se anula el tayammum de quien halla agua antes de la oración o durante ella, y repite la oración si la halla después mientras queda tiempo?",
+        "uk": "Чи стає недійсним таяммум того, хто знайшов воду до молитви чи під час неї, і чи повторює він молитву, якщо знайшов воду після неї, поки час ще не вийшов?"
+      }
+    },
+    {
+      "id": "taharah-64",
+      "ref": "F125",
+      "bookId": "taharah",
+      "number": 56,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "المسح على الجبيرة والعصابة وشروطه",
+        "en": "Wiping over a Splint or Bandage and Its Conditions",
+        "ru": "Протирание поверх шины или повязки и его условия",
+        "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
+        "uk": "Протирання поверх шини чи пов'язки та його умови"
+      },
+      "summary": {
+        "ar": "أيجب المسح على الجبيرة والعصابة، وما شروطه، وهل يُضمّ إليه التيمم وتُعاد الصلاة؟",
+        "en": "Must one wipe over a splint or bandage, what are the conditions, and is the dry ablution added to it or the prayer repeated?",
+        "ru": "Обязательно ли протирать поверх шины или повязки, каковы условия этого, и добавляется ли к нему таяммум и повторяется ли молитва?",
+        "es": "¿Es obligatorio frotar sobre la férula o el vendaje, cuáles son sus condiciones, y se le añade el tayammum o se repite la oración?",
+        "uk": "Чи обов'язково протирати поверх шини чи пов'язки, які умови цього, і чи додається до нього таяммум і чи повторюється молитва?"
+      },
+      "grades": {
+        "hanafi": "fard",
+        "maliki": "fard",
+        "shafii": "fard",
+        "hanbali": "fard"
+      }
+    },
+    {
+      "id": "taharah-65",
+      "ref": "F126",
+      "bookId": "taharah",
+      "number": 57,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "طهارة من به جرح مكشوف يضرّه الماء",
+        "en": "Purification of One with an Exposed Wound That Water Harms",
+        "ru": "Очищение того, у кого открытая рана, которой вредит вода",
+        "es": "La purificación de quien tiene una herida descubierta a la que daña el agua",
+        "uk": "Очищення того, хто має відкриту рану, якій шкодить вода"
+      },
+      "summary": {
+        "ar": "أيغسل الجريح الصحيحَ ويتيمّم عن الجرح، أم يمسحه، أم يتيمّم عن الكل؟",
+        "en": "Does the wounded person wash the sound parts and perform the dry ablution for the wound, wipe the wound, or perform the dry ablution for everything?",
+        "ru": "Моет ли раненый здоровые части и совершает таяммум за рану, протирает ли рану или совершает таяммум за всё?",
+        "es": "¿Lava el herido las partes sanas y hace el tayammum por la herida, pasa la mano mojada sobre la herida, o hace el tayammum por todo?",
+        "uk": "Чи миє поранений здорові частини й здійснює таяммум за рану, чи протирає рану, чи здійснює таяммум за все?"
+      },
+      "grades": {
+        "hanafi": "fard",
+        "maliki": "fard",
+        "shafii": "fard",
+        "hanbali": "fard"
+      }
+    },
+    {
+      "id": "taharah-66",
+      "ref": "F127",
+      "bookId": "taharah",
+      "number": 58,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "صلاة من فقد الماء والتراب جميعاً",
+        "en": "The Prayer of One Who Has Neither Water nor Earth",
+        "ru": "Молитва того, у кого нет ни воды, ни земли",
+        "es": "La oración de quien no tiene ni agua ni tierra",
+        "uk": "Молитва того, хто не має ні води, ні землі"
+      },
+      "summary": {
+        "ar": "أيصلّي من لم يجد ماءً ولا تراباً في الوقت وكيف، وهل يعيد إذا وجد أحدهما؟",
+        "en": "Does one who finds neither water nor earth pray within the prayer time, and how, and must he repeat it once he finds either?",
+        "ru": "Молится ли не нашедший ни воды, ни земли в пределах времени молитвы, и как, и обязан ли он повторить её, найдя одно из них?",
+        "es": "¿Reza dentro del tiempo quien no halla ni agua ni tierra, y cómo, y debe repetir la oración al encontrar una de las dos?",
+        "uk": "Чи молиться в межах часу молитви той, хто не знайшов ні води, ні землі, і як, і чи зобов'язаний він повторити її, знайшовши одне з них?"
+      }
+    },
+    {
+      "id": "taharah-67",
+      "ref": "F128",
+      "bookId": "taharah",
+      "number": 59,
+      "addedAt": "2026-10-26",
+      "chapter": {
+        "ar": "باب التيمم",
+        "en": "Chapter of Dry Ablution (Tayammum)",
+        "ru": "Раздел о сухом очищении (таяммум)",
+        "es": "Capítulo de la ablución seca (tayammum)",
+        "uk": "Розділ про сухе очищення (таяммум)"
+      },
+      "title": {
+        "ar": "إعادة صلاة المتيمم إذا وجد الماء بعد خروج الوقت",
+        "en": "Repeating the Prayer of One Who Did the Dry Ablution and Found Water After the Time Ended",
+        "ru": "Повторение молитвы совершившего таяммум, если он нашёл воду после выхода времени",
+        "es": "Repetir la oración de quien hizo el tayammum y halló agua tras salir el tiempo",
+        "uk": "Повторення молитви того, хто здійснив таяммум і знайшов воду після виходу часу"
+      },
+      "summary": {
+        "ar": "أيعيد المتيمّم صلاته إذا وجد الماء بعد الوقت، وهل يختلف المسافر والحاضر وناسي الماء؟",
+        "en": "Does one who prayed with the dry ablution repeat the prayer on finding water after its time, and do the traveller, the resident and one who forgot his water differ?",
+        "ru": "Повторяет ли молившийся с таяммумом свою молитву, найдя воду после её времени, и различаются ли путник, оседлый и забывший о своей воде?",
+        "es": "¿Repite su oración quien rezó con tayammum si halla agua después de su tiempo, y difieren el viajero, el residente y quien olvidó su agua?",
+        "uk": "Чи повторює той, хто молився з таяммумом, свою молитву, знайшовши воду після її часу, і чи різняться мандрівник, осілий і той, хто забув про свою воду?"
+      }
+    },
+    {
       "id": "taharah-8",
       "ref": "F11",
       "bookId": "taharah",
-      "number": 54,
+      "number": 60,
       "chapter": {
         "ar": "باب إزالة النجاسة",
         "en": "Chapter of Removing Impurity",
@@ -1982,7 +2162,7 @@
       "id": "taharah-46",
       "ref": "F91",
       "bookId": "taharah",
-      "number": 55,
+      "number": 61,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2010,7 +2190,7 @@
       "id": "taharah-51",
       "ref": "F96",
       "bookId": "taharah",
-      "number": 56,
+      "number": 62,
       "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2046,7 +2226,7 @@
       "id": "taharah-47",
       "ref": "F92",
       "bookId": "taharah",
-      "number": 57,
+      "number": 63,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2088,7 +2268,7 @@
       "id": "taharah-48",
       "ref": "F93",
       "bookId": "taharah",
-      "number": 58,
+      "number": 64,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2130,7 +2310,7 @@
       "id": "taharah-49",
       "ref": "F94",
       "bookId": "taharah",
-      "number": 59,
+      "number": 65,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2172,7 +2352,7 @@
       "id": "taharah-50",
       "ref": "F95",
       "bookId": "taharah",
-      "number": 60,
+      "number": 66,
       "addedAt": "2026-09-12",
       "chapter": {
         "ar": "باب الحيض والنفاس",
@@ -2206,7 +2386,7 @@
       "id": "taharah-52",
       "ref": "F97",
       "bookId": "taharah",
-      "number": 61,
+      "number": 67,
       "addedAt": "2026-09-13",
       "chapter": {
         "ar": "باب الحيض والنفاس",
