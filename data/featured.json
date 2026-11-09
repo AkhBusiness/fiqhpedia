@@ -1,68 +1,68 @@
 {
   "featured": {
-    "ref": "F66",
-    "id": "salah-20",
+    "ref": "F56",
+    "id": "salah-19",
     "bookId": "salah",
     "chapter": {
-      "ar": "باب الأذان والإقامة",
-      "en": "Chapter on the Adhān and the Iqāmah",
-      "ru": "Раздел об азане и икаме",
-      "es": "Capítulo sobre el adhān y la iqāmah",
-      "uk": "Розділ про азан та ікаму"
+      "ar": "باب شروط الصلاة",
+      "en": "Chapter on the Conditions of the Prayer",
+      "ru": "Раздел об условиях молитвы",
+      "es": "Capítulo sobre las condiciones de la oración",
+      "uk": "Розділ про умови молитви"
     },
     "title": {
-      "ar": "صيغة الإقامة وحكم إفراد كلماتها",
-      "en": "The Wording of the Iqāmah and the Ruling on Saying Its Phrases Once",
-      "ru": "Формулировка икамы и постановление о произнесении её фраз по одному разу",
-      "es": "La fórmula de la iqāmah y la norma sobre decir sus frases una sola vez",
-      "uk": "Формулювання іками та постанова про виголошення її фраз по одному разу"
+      "ar": "حكم الصلوات الخمس المفروضة وأصل مشروعيتها",
+      "en": "Ruling on the Five Obligatory Prayers and Their Legal Basis",
+      "ru": "Постановление о пяти обязательных молитвах и их правовой основе",
+      "es": "Norma sobre las cinco oraciones obligatorias y su fundamento legal",
+      "uk": "Постанова про п'ять обов'язкових молитов та їхню правову основу"
     },
     "summary": {
-      "ar": "ما صيغة الإقامة عند المذاهب الأربعة، وهل تُفرَد كلماتها أم تُثنّى؟",
-      "en": "What is the wording of the iqāmah in the four schools, and are its phrases said once or twice?",
-      "ru": "Какова формулировка икамы у четырёх мазхабов, и произносятся ли её фразы один раз или дважды?",
-      "es": "¿Cuál es la fórmula de la iqāmah en las cuatro escuelas, y sus frases se dicen una vez o dos?",
-      "uk": "Яке формулювання іками у чотирьох мазгабах, і чи виголошуються її фрази один раз чи двічі?"
+      "ar": "ما حكم الصلوات الخمس، وبِمَ ثبتت فرضيتها على المكلَّف؟",
+      "en": "What is the ruling on the five daily prayers, and by what is their obligation upon the accountable individual established?",
+      "ru": "Каково постановление о пяти ежедневных молитвах, и чем установлена их обязательность для мукалляфа?",
+      "es": "¿Cuál es la norma de las cinco oraciones diarias, y con qué se establece su obligatoriedad para la persona responsable?",
+      "uk": "Яка постанова про п'ять щоденних молитов, і чим встановлена їхня обов'язковість для мукалляфа?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "sunnah",
+        "grade": "fard",
         "lead": {
-          "ar": "الإقامة مثنى مثنى كالأذان مع زيادة «قد قامت الصلاة» مرّتين",
-          "en": "The iqāmah is said twice over, like the adhān, with “qad qāmat al-ṣalāh” added twice, making seventeen phrases",
-          "ru": "Икама произносится по два раза, как и азан, с добавлением «кад камати-с-салях» дважды, что составляет семнадцать фраз",
-          "es": "La iqāmah se dice dos veces, como el adhān, añadiendo «qad qāmat al-ṣalāh» dos veces, lo que suma diecisiete frases",
-          "uk": "Ікама виголошується по два рази, як і азан, з додаванням «кад каматі-с-салях» двічі, що складає сімнадцять фраз"
+          "ar": "الصلوات الخمس فرض عين على كل مسلم بالغ عاقل",
+          "en": "The five prayers are a personal obligation upon every sane",
+          "ru": "Пять молитв — личная обязанность каждого разумного совершеннолетнего мусульманина",
+          "es": "Las cinco oraciones son una obligación personal de todo musulmán adulto en su sano juicio",
+          "uk": "П'ять молитов — особистий обов'язок кожного розумного повнолітнього мусульманина"
         }
       },
       "maliki": {
-        "grade": "sunnah",
+        "grade": "fard",
         "lead": {
-          "ar": "تُفرَد كلمات الإقامة كلّها فتكون عشر كلمات",
-          "en": "All the phrases of the iqāmah are said once, making ten phrases, including “qad qāmat al-ṣalāh” once",
-          "ru": "Все фразы икамы произносятся по одному разу, что составляет десять фраз, включая «кад камати-с-салях» один раз",
-          "es": "Todas las frases de la iqāmah se dicen una vez, sumando diez frases, incluida «qad qāmat al-ṣalāh» una sola vez",
-          "uk": "Усі фрази іками виголошуються по одному разу, що складає десять фраз, включно з «кад каматі-с-салях» один раз"
+          "ar": "الصلوات الخمس فرض عين على كل مكلَّف",
+          "en": "The five prayers are a personal obligation upon every accountable individual",
+          "ru": "Пять молитв — личная обязанность каждого мукалляфа",
+          "es": "Las cinco oraciones son una obligación personal de toda persona responsable",
+          "uk": "П'ять молитов — особистий обов'язок кожного мукалляфа"
         }
       },
       "shafii": {
-        "grade": "sunnah",
+        "grade": "fard",
         "lead": {
-          "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة",
-          "en": "The phrases of the iqāmah are said once",
-          "ru": "Фразы икамы произносятся по одному разу",
-          "es": "Las frases de la iqāmah se dicen una vez",
-          "uk": "Фрази іками виголошуються по одному разу"
+          "ar": "الصلوات الخمس من أركان الإسلام",
+          "en": "The five prayers are among the pillars of Islam",
+          "ru": "Пять молитв — один из столпов ислама",
+          "es": "Las cinco oraciones son uno de los pilares del Islam",
+          "uk": "П'ять молитов — один зі стовпів ісламу"
         }
       },
       "hanbali": {
-        "grade": "sunnah",
+        "grade": "fard",
         "lead": {
-          "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة",
-          "en": "The phrases of the iqāmah are said once",
-          "ru": "Фразы икамы произносятся по одному разу",
-          "es": "Las frases de la iqāmah se dicen una vez",
-          "uk": "Фрази іками виголошуються по одному разу"
+          "ar": "الصلوات الخمس فرض عين بنصّ الكتاب والسنة وإجماع المسلمين",
+          "en": "The five prayers are a personal obligation established by the text of the Qurʾān",
+          "ru": "Пять молитв — личная обязанность",
+          "es": "Las cinco oraciones son una obligación personal establecida por el texto del Corán",
+          "uk": "П'ять молитов — особистий обов'язок"
         }
       }
     }

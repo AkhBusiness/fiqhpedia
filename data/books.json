@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "taharah",
-      "planned": 125,
+      "planned": 127,
       "chapters": [
         {
           "name": "الأحكام",
@@ -240,7 +240,7 @@
     },
     {
       "id": "salah",
-      "planned": 177,
+      "planned": 178,
       "chapters": [
         {
           "name": "الأذان والإقامة",
