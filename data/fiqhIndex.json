@@ -4512,6 +4512,171 @@
       }
     },
     {
+      "id": "woman-between-civilizations",
+      "ref": "M10",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 2,
+      "title": {
+        "ar": "مكانة المرأة بين الإسلام والحضارات الأخرى: شواهد من التاريخ ونصوص القوانين",
+        "en": "The Standing of Women Between Islam and Other Civilizations: Evidence from History and the Texts of Laws",
+        "ru": "Положение женщины в исламе и других цивилизациях: свидетельства истории и текстов законов",
+        "es": "La posición de la mujer entre el islam y otras civilizaciones: testimonios de la historia y de los textos legales",
+        "uk": "Становище жінки в ісламі та інших цивілізаціях: свідчення історії та текстів законів"
+      },
+      "excerpt": {
+        "ar": "مقارنة موثّقة بين ما قرّره الإسلام للمرأة في القرن السابع وما نصّت عليه قوانين اليونان وروما وإنجلترا وفرنسا حتى القرن العشرين.",
+        "en": "A documented comparison between what Islam established for women in the seventh century and what the laws of Greece, Rome, England and France laid down until the twentieth century.",
+        "ru": "Документированное сравнение того, что ислам установил для женщины в VII веке, с тем, что предписывали законы Греции, Рима, Англии и Франции вплоть до XX века.",
+        "es": "Una comparación documentada entre lo que el islam estableció para la mujer en el siglo VII y lo que dispusieron las leyes de Grecia, Roma, Inglaterra y Francia hasta el siglo XX.",
+        "uk": "Документоване порівняння того, що іслам установив для жінки в VII столітті, з тим, що приписували закони Греції, Риму, Англії та Франції аж до XX століття."
+      },
+      "relatedRefs": [],
+      "sources": [
+        {
+          "ar": "جامع البيان",
+          "en": "Jāmiʿ al-Bayān",
+          "ru": "«Джами аль-Баян»",
+          "es": "Jāmiʿ al-Bayān",
+          "uk": "«Джамі аль-Баян»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        },
+        {
+          "ar": "السياسة لأرسطو",
+          "en": "Aristotle, Politics",
+          "ru": "«Политика» Аристотеля",
+          "es": "Aristóteles, Política",
+          "uk": "«Політика» Аристотеля"
+        },
+        {
+          "ar": "المؤسسات لغايوس",
+          "en": "Gaius, Institutes",
+          "ru": "«Институции» Гая",
+          "es": "Gayo, Instituciones",
+          "uk": "«Інституції» Гая"
+        },
+        {
+          "ar": "شروح قوانين إنجلترا لبلاكستون",
+          "en": "Blackstone, Commentaries on the Laws of England",
+          "ru": "«Комментарии к законам Англии» Блэкстона",
+          "es": "Blackstone, Comentarios sobre las leyes de Inglaterra",
+          "uk": "«Коментарі до законів Англії» Блекстона"
+        },
+        {
+          "ar": "القانون المدني الفرنسي ١٨٠٤",
+          "en": "French Civil Code of 1804",
+          "ru": "«Гражданский кодекс Франции» 1804 года",
+          "es": "Código civil francés de 1804",
+          "uk": "«Цивільний кодекс Франції» 1804 року"
+        },
+        {
+          "ar": "قانون أملاك المرأة المتزوجة ١٨٨٢",
+          "en": "Married Women's Property Act 1882",
+          "ru": "«Закон о собственности замужних женщин» 1882 года",
+          "es": "Ley de Propiedad de las Mujeres Casadas de 1882",
+          "uk": "«Закон про власність заміжніх жінок» 1882 року"
+        }
+      ],
+      "addedAt": "2026-11-09",
+      "words": {
+        "ar": 726,
+        "en": 1018,
+        "es": 1073,
+        "ru": 848,
+        "uk": 847
+      }
+    },
+    {
+      "id": "women-duties-in-islam",
+      "ref": "M11",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 3,
+      "title": {
+        "ar": "هل تكاليف المرأة في الإسلام إهانة لها؟ وهل هي أكثر من تكاليف الرجل؟",
+        "en": "Are a Woman's Duties in Islam a Humiliation? And Are They More Than a Man's?",
+        "ru": "Унижают ли женщину её обязанности в исламе? И больше ли их, чем у мужчины?",
+        "es": "¿Son humillantes los deberes de la mujer en el islam? ¿Y son más que los del hombre?",
+        "uk": "Чи принижують жінку її обов'язки в ісламі? І чи їх більше, ніж у чоловіка?"
+      },
+      "excerpt": {
+        "ar": "مقال يحصي ما يشترك فيه الرجل والمرأة من التكاليف، وما خُفّف عنها، وما انفرد به الرجل، ثم يزن دعوى الإهانة بالنصوص.",
+        "en": "An article that counts the duties men and women share, what was lightened for her and what falls on the man alone, then weighs the charge of humiliation against the texts.",
+        "ru": "Статья, перечисляющая обязанности, общие для мужчины и женщины, то, что облегчено для неё, и то, что лежит только на мужчине, а затем взвешивающая обвинение в унижении по текстам.",
+        "es": "Un artículo que enumera los deberes comunes al hombre y a la mujer, lo que se le aligeró a ella y lo que recae solo en el hombre, y luego sopesa la acusación de humillación a la luz de los textos.",
+        "uk": "Стаття, що перелічує обов'язки, спільні для чоловіка й жінки, те, що полегшено для неї, і те, що лежить лише на чоловікові, а потім зважує звинувачення в приниженні за текстами."
+      },
+      "relatedRefs": [],
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "جامع البيان",
+          "en": "Jāmiʿ al-Bayān",
+          "ru": "«Джами аль-Баян»",
+          "es": "Jāmiʿ al-Bayān",
+          "uk": "«Джамі аль-Баян»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        }
+      ],
+      "addedAt": "2026-11-09",
+      "words": {
+        "ar": 654,
+        "en": 1084,
+        "es": 1122,
+        "ru": 883,
+        "uk": 870
+      }
+    },
+    {
       "id": "bad-al-khalq",
       "ref": "M2",
       "chapter": {
@@ -4936,6 +5101,64 @@
         "es": 645,
         "ru": 493,
         "uk": 501
+      }
+    },
+    {
+      "id": "women-rights-in-islam",
+      "ref": "M9",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 1,
+      "title": {
+        "ar": "حقوق المرأة في الإسلام: كرامتها الإنسانية وحقوقها في المال والزواج والعلم والأسرة",
+        "en": "Women's Rights in Islam: Human Dignity and Rights in Property, Marriage, Learning and the Family",
+        "ru": "Права женщины в исламе: человеческое достоинство и права в имуществе, браке, знании и семье",
+        "es": "Los derechos de la mujer en el islam: dignidad humana y derechos en los bienes, el matrimonio, el saber y la familia",
+        "uk": "Права жінки в ісламі: людська гідність і права в майні, шлюбі, знанні та родині"
+      },
+      "excerpt": {
+        "ar": "مقال يجمع حقوق المرأة الثابتة بنصوص القرآن والسنّة: مساواتها في الكرامة والجزاء، وذمّتها المالية المستقلة، ورضاها في الزواج، وحقّها في العلم.",
+        "en": "An article gathering the rights of women established by the texts of the Qurʾān and the sunnah: equal dignity and reward, an independent financial capacity, consent in marriage, and the right to learn.",
+        "ru": "Статья, собирающая права женщины, установленные текстами Корана и сунны: равное достоинство и воздаяние, самостоятельное имущество, согласие в браке и право на знание.",
+        "es": "Un artículo que reúne los derechos de la mujer fijados por los textos del Corán y la sunna: igual dignidad y recompensa, patrimonio propio, consentimiento en el matrimonio y derecho al saber.",
+        "uk": "Стаття, що збирає права жінки, встановлені текстами Корану та сунни: рівна гідність і винагорода, власне майно, згода в шлюбі та право на знання."
+      },
+      "relatedRefs": [],
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        }
+      ],
+      "addedAt": "2026-11-09",
+      "words": {
+        "ar": 693,
+        "en": 1141,
+        "es": 1113,
+        "ru": 972,
+        "uk": 972
       }
     }
   ]

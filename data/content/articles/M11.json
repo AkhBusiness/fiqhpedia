@@ -1,0 +1,196 @@
+{
+  "id": "women-duties-in-islam",
+  "ref": "M11",
+  "chapter": {
+    "ar": "المرأة في الإسلام",
+    "en": "Women in Islam",
+    "ru": "Женщина в исламе",
+    "es": "La mujer en el islam",
+    "uk": "Жінка в ісламі"
+  },
+  "seq": 3,
+  "title": {
+    "ar": "هل تكاليف المرأة في الإسلام إهانة لها؟ وهل هي أكثر من تكاليف الرجل؟",
+    "en": "Are a Woman's Duties in Islam a Humiliation? And Are They More Than a Man's?",
+    "ru": "Унижают ли женщину её обязанности в исламе? И больше ли их, чем у мужчины?",
+    "es": "¿Son humillantes los deberes de la mujer en el islam? ¿Y son más que los del hombre?",
+    "uk": "Чи принижують жінку її обов'язки в ісламі? І чи їх більше, ніж у чоловіка?"
+  },
+  "excerpt": {
+    "ar": "مقال يحصي ما يشترك فيه الرجل والمرأة من التكاليف، وما خُفّف عنها، وما انفرد به الرجل، ثم يزن دعوى الإهانة بالنصوص.",
+    "en": "An article that counts the duties men and women share, what was lightened for her and what falls on the man alone, then weighs the charge of humiliation against the texts.",
+    "ru": "Статья, перечисляющая обязанности, общие для мужчины и женщины, то, что облегчено для неё, и то, что лежит только на мужчине, а затем взвешивающая обвинение в унижении по текстам.",
+    "es": "Un artículo que enumera los deberes comunes al hombre y a la mujer, lo que se le aligeró a ella y lo que recae solo en el hombre, y luego sopesa la acusación de humillación a la luz de los textos.",
+    "uk": "Стаття, що перелічує обов'язки, спільні для чоловіка й жінки, те, що полегшено для неї, і те, що лежить лише на чоловікові, а потім зважує звинувачення в приниженні за текстами."
+  },
+  "relatedRefs": [],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "es": "",
+        "uk": ""
+      },
+      "body": {
+        "ar": "يُطرح سؤالان كثيراً: هل ما فرضه الإسلام على المرأة من حجاب وطاعة للزوج وغيرهما إهانة لها؟ ولماذا كانت تكاليفها أكثر من تكاليف الرجل؟\n\nوالسؤال الثاني مبنيّ على مقدّمة تحتاج إلى فحص قبل الجواب. فإذا أُحصيت التكاليف كلّها، لا ما يلفت النظر منها وحده، تبيّن أن الأمر على خلاف ذلك. وهذا المقال يحصيها ثم يزن دعوى الإهانة.",
+        "en": "Two questions are often asked: are the duties Islam laid on women — the hijab, obedience to the husband and others — a humiliation to them? And why are her duties more than a man's?\n\nThe second question rests on a premise that needs examining before it is answered. When all the duties are counted, not only the conspicuous ones, the matter turns out to be the reverse. This article counts them and then weighs the charge of humiliation.",
+        "ru": "Часто задают два вопроса: не унижают ли женщину обязанности, возложенные на неё исламом, — хиджаб, повиновение мужу и другие? И почему её обязанностей больше, чем у мужчины?\n\nВторой вопрос опирается на посылку, которую нужно проверить, прежде чем отвечать. Если перечислить все обязанности, а не только бросающиеся в глаза, окажется, что дело обстоит наоборот. Эта статья перечисляет их, а затем взвешивает обвинение в унижении.",
+        "es": "Se plantean a menudo dos preguntas: ¿son una humillación los deberes que el islam impuso a la mujer —el hiyab, la obediencia al esposo y otros—? ¿Y por qué tiene más deberes que el hombre?\n\nLa segunda pregunta se apoya en una premisa que hay que examinar antes de responder. Si se cuentan todos los deberes, y no solo los más visibles, resulta que es al revés. Este artículo los cuenta y luego sopesa la acusación de humillación.",
+        "uk": "Часто ставлять два питання: чи не принижують жінку обов'язки, покладені на неї ісламом, — хіджаб, послух чоловікові та інші? І чому її обов'язків більше, ніж у чоловіка?\n\nДруге питання спирається на засновок, який треба перевірити, перш ніж відповідати. Якщо перелічити всі обов'язки, а не лише помітні, виявиться, що справа навпаки. Ця стаття перелічує їх, а потім зважує звинувачення в приниженні."
+      }
+    },
+    {
+      "id": "shared",
+      "heading": {
+        "ar": "أصل التكليف واحد",
+        "en": "The Basis of Obligation Is One",
+        "ru": "Основа обязанностей едина",
+        "es": "La base de la obligación es una",
+        "uk": "Основа обов'язків єдина"
+      },
+      "body": {
+        "ar": "أركان الإسلام الخمسة واجبة على الرجل والمرأة سواءً: الشهادتان، والصلاة، والصيام، والزكاة، والحجّ. وكذلك تحريم الكبائر، والأمر بالصدق والعدل وبرّ الوالدين وصلة الرحم. والجزاء على ذلك واحد، وقد جمعهما القرآن في آية واحدة عدّد فيها عشر صفات: ﴿إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ﴾ إلى قوله: ﴿أَعَدَّ اللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا﴾ سورة الأحزاب: ٣٥.\n\nفالتكاليف المشتركة هي الأكثر والأعظم، والتفاوت إنما هو في أحكام معدودة.",
+        "en": "The five pillars of Islam are obligatory on men and women alike: the two testimonies, prayer, fasting, zakat and pilgrimage. So too is the prohibition of major sins, and the command to truthfulness, justice, dutifulness to parents and keeping ties of kinship. The reward for this is one, and the Qurʾān joined the two in a single verse listing ten qualities of Muslim men and Muslim women, believing men and believing women, and ending with God's promise to them of forgiveness and a great reward — Sūrat al-Aḥzāb, verse 35.\n\nThe shared duties are the most numerous and the weightiest; the differences lie in a limited number of rulings.",
+        "ru": "Пять столпов ислама обязательны для мужчины и женщины в равной мере: два свидетельства, молитва, пост, закят и хадж. Так же и запрет тяжких грехов, и повеление к правдивости, справедливости, почтению к родителям и поддержанию родственных связей. Воздаяние за это одно, и Коран объединил их в одном аяте, перечислив десять качеств мусульман и мусульманок, верующих мужчин и верующих женщин, и завершив обещанием Бога им прощения и великой награды, — сура «аль-Ахзаб», аят 35.\n\nОбщие обязанности — самые многочисленные и самые весомые; различия же касаются ограниченного числа предписаний.",
+        "es": "Los cinco pilares del islam son obligatorios para el hombre y la mujer por igual: las dos declaraciones de fe, la oración, el ayuno, el azaque y la peregrinación. Igual la prohibición de los pecados mayores y el mandato de veracidad, justicia, bondad con los padres y mantener los lazos de parentesco. La recompensa por ello es una, y el Corán unió a ambos en una sola aleya que enumera diez cualidades de los musulmanes y las musulmanas, los creyentes y las creyentes, y termina con la promesa de Dios de perdón y una gran recompensa para ellos —sura al-Aḥzāb, aleya 35—.\n\nLos deberes comunes son los más numerosos y los de más peso; las diferencias están en un número limitado de normas.",
+        "uk": "П'ять стовпів ісламу обов'язкові для чоловіка й жінки однаково: два свідчення, молитва, піст, закят і хадж. Так само й заборона тяжких гріхів, і веління до правдивості, справедливості, шанування батьків і підтримання родинних зв'язків. Винагорода за це одна, і Коран об'єднав їх в одному аяті, перелічивши десять якостей мусульман і мусульманок, віруючих чоловіків і віруючих жінок, і завершивши обіцянкою Бога їм прощення та великої нагороди, — сура «аль-Ахзаб», аят 35.\n\nСпільні обов'язки — найчисленніші й найвагоміші; відмінності ж стосуються обмеженої кількості приписів."
+      }
+    },
+    {
+      "id": "lightened",
+      "heading": {
+        "ar": "ما خُفّف عن المرأة",
+        "en": "What Was Lightened for Women",
+        "ru": "Что облегчено для женщины",
+        "es": "Lo que se aligeró a la mujer",
+        "uk": "Що полегшено для жінки"
+      },
+      "body": {
+        "ar": "**الصلاة في الحيض والنفاس** تسقط عنها ولا تقضيها. قالت عائشة: كان يصيبنا ذلك، فنؤمر بقضاء الصوم ولا نؤمر بقضاء الصلاة. رواه مسلم. وهذه أيام من كل شهر طوال سنوات عمرها.\n\n**صلاة الجمعة وصلاة الجماعة** لا تجبان عليها بإجماع العلماء، وفي الحديث: «الجمعة حقّ واجب على كل مسلم في جماعة إلا أربعة» وذكر منهم المرأة. رواه أبو داود.\n\n**الجهاد بالقتال** لا يجب عليها. سألت عائشة النبيّ ﷺ: نرى الجهاد أفضل العمل، أفلا نجاهد؟ قال: «لكنّ أفضل الجهاد حجّ مبرور». رواه البخاري.\n\n**النفقة** لا تجب عليها لنفسها ولا لبيتها ولا لأولادها ما دام الأب قادراً، ولو كانت أغنى منه. ولا تدخل في **العاقلة** التي تتحمّل الدية مع أقارب الجاني.",
+        "en": "**Prayer during menstruation and postnatal bleeding** is lifted from her, and she does not make it up. ʿĀʾishah said that this would befall them, and they were ordered to make up the fast but not ordered to make up the prayer — narrated by Muslim. These are days of every month across the years of her life.\n\n**The Friday prayer and congregational prayer** are not obligatory on her by consensus of the scholars; a hadith states that Friday prayer in congregation is a binding duty on every Muslim except four, and names the woman among them — narrated by Abū Dāwūd.\n\n**Fighting in jihad** is not obligatory on her. ʿĀʾishah asked the Prophet ﷺ whether, since they saw jihad as the best of deeds, they should not wage it; he said that the best jihad for them is an accepted pilgrimage — narrated by al-Bukhārī.\n\n**Maintenance** is not owed by her — not for herself, her household or her children while the father is able — even if she is richer than he is. Nor is she part of the **ʿāqilah**, the kin who bear the blood money with the offender.",
+        "ru": "**Молитва во время месячных и послеродового кровотечения** снимается с неё, и она её не восполняет. Аиша сказала, что с ними это случалось, и им велели восполнять пост, но не велели восполнять молитву, — передал Муслим. Это дни каждого месяца на протяжении многих лет её жизни.\n\n**Пятничная и коллективная молитвы** не обязательны для неё по единогласному мнению учёных; в хадисе сказано, что пятничная молитва в общине — обязанность каждого мусульманина, кроме четырёх, и среди них названа женщина, — передал Абу Дауд.\n\n**Участие в боевом джихаде** для неё не обязательно. Аиша спросила Пророка ﷺ, не следует ли им сражаться, раз они считают джихад лучшим из дел; он ответил, что лучший джихад для них — принятый хадж, — передал аль-Бухари.\n\n**Содержание** на ней не лежит — ни своё, ни дома, ни детей, пока отец в состоянии содержать, — даже если она богаче его. И она не входит в **акилю** — родню, несущую выкуп за кровь вместе с виновным.",
+        "es": "**La oración durante la menstruación y el sangrado posparto** queda suprimida para ella y no la recupera. ʿĀʾišah dijo que eso les sucedía, y se les ordenaba recuperar el ayuno pero no se les ordenaba recuperar la oración —lo narra Muslim—. Son días de cada mes a lo largo de años de su vida.\n\n**La oración del viernes y la oración en congregación** no son obligatorias para ella por consenso de los sabios; un hadiz dice que el viernes en congregación es un deber de todo musulmán salvo cuatro, y menciona entre ellos a la mujer —lo narra Abū Dāwūd—.\n\n**Combatir en el yihad** no le es obligatorio. ʿĀʾišah preguntó al Profeta ﷺ si, ya que veían el yihad como la mejor obra, no debían combatir; él respondió que el mejor yihad para ellas es una peregrinación aceptada —lo narra al-Bujārī—.\n\n**La manutención** no le corresponde —ni la suya, ni la de su hogar, ni la de sus hijos mientras el padre pueda— aunque sea más rica que él. Tampoco forma parte de la **ʿāqilah**, los parientes que cargan con el precio de sangre junto con el culpable.",
+        "uk": "**Молитва під час місячних і післяпологової кровотечі** знімається з неї, і вона її не надолужує. Аїша сказала, що з ними це траплялося, і їм веліли надолужувати піст, але не веліли надолужувати молитву, — передав Муслім. Це дні кожного місяця протягом багатьох років її життя.\n\n**П'ятнична та колективна молитви** не обов'язкові для неї за одностайною думкою вчених; у хадисі сказано, що п'ятнична молитва в громаді — обов'язок кожного мусульманина, крім чотирьох, і серед них названо жінку, — передав Абу Дауд.\n\n**Участь у бойовому джихаді** для неї не обов'язкова. Аїша запитала Пророка ﷺ, чи не слід їм битися, якщо вони вважають джихад найкращим із діл; він відповів, що найкращий джихад для них — прийнятий хадж, — передав аль-Бухарі.\n\n**Утримання** на ній не лежить — ні своє, ні дому, ні дітей, доки батько спроможний утримувати, — навіть якщо вона багатша за нього. І вона не входить до **акілі** — родини, що несе викуп за кров разом із винним."
+      }
+    },
+    {
+      "id": "on-men",
+      "heading": {
+        "ar": "ما انفرد به الرجل",
+        "en": "What Falls on the Man Alone",
+        "ru": "Что лежит только на мужчине",
+        "es": "Lo que recae solo en el hombre",
+        "uk": "Що лежить лише на чоловікові"
+      },
+      "body": {
+        "ar": "في مقابل ذلك انفرد الرجل بتكاليف مالية وبدنية ثقيلة:\n\n**المهر** يدفعه هو لها، لا العكس (سورة النساء: ٤). و**النفقة** على زوجته وأولاده من طعام وكسوة وسكن: ﴿وَعَلَى الْمَوْلُودِ لَهُ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِالْمَعْرُوفِ﴾ سورة البقرة: ٢٣٣، و﴿لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ﴾ سورة الطلاق: ٧. وتستمرّ نفقة المطلّقة الحامل حتى تضع (سورة الطلاق: ٦).\n\nويجب عليه **الجهاد** إذا تعيّن، و**الجمعة**، و**صلاة الجماعة** عند من يوجبها، ويتحمّل مع عاقلته **الدية**.\n\nفإذا وُزنت التكاليف بثقلها لا بعددها، كان نصيب الرجل منها أكبر.",
+        "en": "In return, the man alone carries heavy financial and physical duties:\n\n**The dower** is paid by him to her, not the reverse (Sūrat al-Nisāʾ, verse 4). **Maintenance** of his wife and children — food, clothing and housing — is on him: the father must provide for them and clothe them according to what is fair — Sūrat al-Baqarah, verse 233 — and let the man of means spend according to his means — Sūrat al-Ṭalāq, verse 7. The maintenance of a pregnant divorced wife continues until she gives birth (Sūrat al-Ṭalāq, verse 6).\n\n**Jihad** is binding on him when it becomes an individual duty, as is the **Friday prayer**, and **congregational prayer** according to those who hold it obligatory; and with his kin he bears the **blood money**.\n\nWhen the duties are weighed by their burden rather than their number, the man's share is the greater.",
+        "ru": "В ответ на это только мужчина несёт тяжёлые имущественные и телесные обязанности:\n\n**Брачный дар** платит он ей, а не наоборот (сура «ан-Ниса», аят 4). **Содержание** жены и детей — пища, одежда и жильё — на нём: отец обязан обеспечивать их пропитанием и одеждой по справедливости — сура «аль-Бакара», аят 233, — и пусть состоятельный тратит по своему достатку — сура «ат-Талак», аят 7. Содержание беременной разведённой жены продолжается до родов (сура «ат-Талак», аят 6).\n\nНа нём **джихад**, когда он становится личной обязанностью, **пятничная молитва** и **коллективная молитва** по мнению тех, кто считает её обязательной; вместе со своей роднёй он несёт **выкуп за кровь**.\n\nЕсли взвешивать обязанности по их тяжести, а не по числу, доля мужчины окажется больше.",
+        "es": "En contrapartida, solo el hombre carga con pesados deberes económicos y físicos:\n\n**La dote** la paga él a ella, no al revés (sura al-Nisāʾ, aleya 4). **La manutención** de su esposa e hijos —comida, vestido y vivienda— le corresponde: el padre debe proveer su sustento y su vestido conforme a lo justo —sura al-Baqarah, aleya 233—, y que el acomodado gaste según su holgura —sura al-Ṭalāq, aleya 7—. La manutención de la divorciada embarazada continúa hasta que dé a luz (sura al-Ṭalāq, aleya 6).\n\nLe obliga **el yihad** cuando se vuelve deber individual, **la oración del viernes** y **la oración en congregación** según quienes la consideran obligatoria; y junto con sus parientes carga con **el precio de sangre**.\n\nSi los deberes se pesan por su carga y no por su número, la parte del hombre es mayor.",
+        "uk": "Натомість лише чоловік несе важкі майнові й тілесні обов'язки:\n\n**Шлюбний дар** платить він їй, а не навпаки (сура «ан-Ніса», аят 4). **Утримання** дружини й дітей — їжа, одяг і житло — на ньому: батько зобов'язаний забезпечувати їх харчуванням і одягом за справедливістю — сура «аль-Бакара», аят 233, — і нехай заможний витрачає за своїм статком — сура «ат-Талак», аят 7. Утримання вагітної розлученої дружини триває до пологів (сура «ат-Талак», аят 6).\n\nНа ньому **джихад**, коли він стає особистим обов'язком, **п'ятнична молитва** і **колективна молитва** на думку тих, хто вважає її обов'язковою; разом зі своєю ріднею він несе **викуп за кров**.\n\nЯкщо зважувати обов'язки за їхньою вагою, а не за кількістю, частка чоловіка виявиться більшою."
+      }
+    },
+    {
+      "id": "qiwamah",
+      "heading": {
+        "ar": "القوامة والطاعة",
+        "en": "Guardianship and Obedience",
+        "ru": "Попечение и повиновение",
+        "es": "La tutela y la obediencia",
+        "uk": "Опікування та послух"
+      },
+      "body": {
+        "ar": "قال تعالى: ﴿الرِّجَالُ قَوَّامُونَ عَلَى النِّسَاءِ بِمَا فَضَّلَ اللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَا أَنفَقُوا مِنْ أَمْوَالِهِمْ﴾ سورة النساء: ٣٤. فالقوامة معلّلة في الآية نفسها بالإنفاق، وهي قيام على شؤون الأسرة ورعاية لها، يُسأل عنها الرجل، لا سلطة مطلقة.\n\nوالطاعة الواجبة على الزوجة مقيّدة من وجهين: أنها في شؤون الزوجية لا في كل شيء، فلا سلطان له على مالها، وأنها في المعروف، فقد قال النبيّ ﷺ: «لا طاعة في معصية، إنما الطاعة في المعروف» رواه البخاري ومسلم.\n\nوقابلها القرآن بحقوق لها على الرجل: ﴿وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ﴾ سورة البقرة: ٢٢٨.",
+        "en": "God says that men are guardians over women by what God has given one over the other and by what they spend from their wealth — Sūrat al-Nisāʾ, verse 34. Guardianship is explained in the verse itself by spending; it is the management and care of the family's affairs, for which the man is answerable, not absolute authority.\n\nThe obedience owed by the wife is bounded in two ways: it concerns the affairs of marriage, not everything — he has no authority over her wealth — and it is within what is right, for the Prophet ﷺ said there is no obedience in disobedience; obedience is only in what is right — narrated by al-Bukhārī and Muslim.\n\nThe Qurʾān set against it her rights over the man: women have rights similar to the duties upon them, according to what is fair — Sūrat al-Baqarah, verse 228.",
+        "ru": "Бог говорит, что мужчины — попечители женщин, потому что Бог дал одним преимущество над другими, и потому что они тратят из своего имущества, — сура «ан-Ниса», аят 34. Попечение объяснено в самом аяте расходами; это ведение дел семьи и забота о ней, за которые мужчина отвечает, а не неограниченная власть.\n\nПовиновение, которое жена обязана проявлять, ограничено с двух сторон: оно касается супружеских дел, а не всего, — у мужа нет власти над её имуществом; и оно — в пределах одобряемого, ведь Пророк ﷺ сказал, что нет повиновения в ослушании, повиновение — лишь в одобряемом, — передали аль-Бухари и Муслим.\n\nКоран противопоставил этому её права по отношению к мужчине: у женщин есть права, подобные их обязанностям, по справедливости, — сура «аль-Бакара», аят 228.",
+        "es": "Dios dice que los hombres son responsables de las mujeres por lo que Dios ha concedido a unos sobre otros y por lo que gastan de sus bienes —sura al-Nisāʾ, aleya 34—. La tutela se explica en la misma aleya por el gasto; es la gestión y el cuidado de los asuntos de la familia, de los que el hombre responde, no una autoridad absoluta.\n\nLa obediencia que debe la esposa está acotada de dos maneras: concierne a los asuntos del matrimonio, no a todo —él no tiene autoridad sobre sus bienes—, y es dentro de lo reconocido como bueno, pues el Profeta ﷺ dijo que no hay obediencia en la desobediencia, la obediencia es solo en lo reconocido como bueno —lo narran al-Bujārī y Muslim—.\n\nEl Corán le opuso sus derechos sobre el hombre: ellas tienen derechos semejantes a sus deberes, conforme a lo justo —sura al-Baqarah, aleya 228—.",
+        "uk": "Бог каже, що чоловіки — опікуни жінок, бо Бог дав одним перевагу над іншими, і тому що вони витрачають зі свого майна, — сура «ан-Ніса», аят 34. Опікування пояснено в самому аяті витратами; це ведення справ родини й турбота про неї, за які чоловік відповідає, а не необмежена влада.\n\nПослух, який дружина зобов'язана виявляти, обмежений із двох боків: він стосується подружніх справ, а не всього, — у чоловіка немає влади над її майном; і він — у межах схвалюваного, адже Пророк ﷺ сказав, що немає послуху в непокорі, послух — лише в схвалюваному, — передали аль-Бухарі та Муслім.\n\nКоран протиставив цьому її права щодо чоловіка: у жінок є права, подібні до їхніх обов'язків, за справедливістю, — сура «аль-Бакара», аят 228."
+      }
+    },
+    {
+      "id": "hijab-inheritance",
+      "heading": {
+        "ar": "الحجاب والميراث",
+        "en": "The Hijab and Inheritance",
+        "ru": "Хиджаб и наследство",
+        "es": "El hiyab y la herencia",
+        "uk": "Хіджаб і спадок"
+      },
+      "body": {
+        "ar": "**الحجاب** تكليف على المرأة، لكن الرجل مكلّف قبله بغضّ البصر وحفظ الفرج، وقد بدأ القرآن به: ﴿قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ﴾ سورة النور: ٣٠، ثم ثنّى بالمؤمنات في الآية التي تليها. وللرجل عورة يجب سترها، وحُرّم عليه لبس الحرير والذهب وأُبيحا للمرأة.\n\nو**الميراث** ليس على النصف في كل حال. فالأب والأمّ يأخذ كلٌّ منهما السدس مع الأولاد (سورة النساء: ١١)، والإخوة لأمّ يتساوى فيهم الذكر والأنثى (سورة النساء: ١٢). وحيث يأخذ الابن مثل حظّ البنتين، فهو يأخذه وعليه المهر والنفقة، وهي تأخذ نصيبها ولا يجب عليها أن تنفق منه على أحد. فالفرق في القسمة يقابله فرق في التكليف.",
+        "en": "**The hijab** is a duty on women, but the man is charged before her with lowering his gaze and guarding his chastity, and the Qurʾān began with him: it tells the believing men to lower their gaze and guard their private parts — Sūrat al-Nūr, verse 30 — and turns to the believing women in the verse that follows. A man has parts of the body that must be covered, and silk and gold are forbidden to him while permitted to women.\n\n**Inheritance** is not at half in every case. Father and mother each take a sixth alongside the children (Sūrat al-Nisāʾ, verse 11), and maternal siblings, male and female, share equally (Sūrat al-Nisāʾ, verse 12). Where a son takes the share of two daughters, he takes it while owing dower and maintenance; she takes her share and is not obliged to spend any of it on anyone. The difference in division is matched by a difference in obligation.",
+        "ru": "**Хиджаб** — обязанность женщины, но мужчине прежде неё велено опускать взор и хранить целомудрие, и Коран начал с него: он велит верующим мужчинам опускать взоры и оберегать срамные места — сура «ан-Нур», аят 30, — а к верующим женщинам обращается в следующем аяте. У мужчины тоже есть части тела, которые обязательно покрывать, и ему запрещены шёлк и золото, дозволенные женщине.\n\n**Наследство** не во всех случаях делится наполовину. Отец и мать при наличии детей получают каждый по шестой доле (сура «ан-Ниса», аят 11), а единоутробные братья и сёстры делят поровну (сура «ан-Ниса», аят 12). Там же, где сын получает долю двух дочерей, он получает её, будучи обязан платить брачный дар и содержание; она получает свою долю и не обязана тратить из неё ни на кого. Различию в разделе соответствует различие в обязанностях.",
+        "es": "**El hiyab** es un deber de la mujer, pero al hombre se le ordenó antes que a ella bajar la mirada y guardar su castidad, y el Corán empezó por él: ordena a los creyentes bajar la mirada y guardar sus partes íntimas —sura al-Nūr, aleya 30— y se dirige a las creyentes en la aleya siguiente. El hombre también tiene partes del cuerpo que debe cubrir, y se le prohíben la seda y el oro, permitidos a la mujer.\n\n**La herencia** no es a la mitad en todos los casos. El padre y la madre reciben cada uno un sexto junto a los hijos (sura al-Nisāʾ, aleya 11), y los hermanos uterinos, varones y mujeres, comparten por igual (sura al-Nisāʾ, aleya 12). Donde el hijo recibe la parte de dos hijas, la recibe debiendo dote y manutención; ella recibe su parte y no está obligada a gastar nada de ella en nadie. A la diferencia en el reparto le corresponde una diferencia en la obligación.",
+        "uk": "**Хіджаб** — обов'язок жінки, але чоловікові раніше за неї звелено опускати погляд і берегти цнотливість, і Коран почав із нього: він велить віруючим чоловікам опускати погляди й оберігати сором'язливі місця — сура «ан-Нур», аят 30, — а до віруючих жінок звертається в наступному аяті. У чоловіка теж є частини тіла, які обов'язково покривати, і йому заборонені шовк і золото, дозволені жінці.\n\n**Спадок** не в усіх випадках ділиться навпіл. Батько й мати за наявності дітей отримують кожен по шостій частці (сура «ан-Ніса», аят 11), а єдиноутробні брати й сестри ділять порівну (сура «ан-Ніса», аят 12). Там же, де син отримує частку двох доньок, він отримує її, будучи зобов'язаним платити шлюбний дар і утримання; вона отримує свою частку й не зобов'язана витрачати з неї ні на кого. Відмінності в поділі відповідає відмінність в обов'язках."
+      }
+    },
+    {
+      "id": "humiliation",
+      "heading": {
+        "ar": "هل في ذلك إهانة؟",
+        "en": "Is There Humiliation in This?",
+        "ru": "Есть ли в этом унижение?",
+        "es": "¿Hay humillación en esto?",
+        "uk": "Чи є в цьому приниження?"
+      },
+      "body": {
+        "ar": "يرى بعض المنتقدين أن مجرّد اختلاف الأحكام بين الرجل والمرأة تمييز ينتقص منها، وأن المساواة لا تتحقّق إلا بالتماثل في كل حكم. والجواب أن الاختلاف في التكليف لا يدلّ على اختلاف في القيمة، بدليل أن القيمة عند الله واحدة والجزاء واحد كما سبق. والتكليف في الإسلام عبءٌ يُحاسَب عليه صاحبه، لا امتياز يتباهى به، فمن خُفّف عنه لم يُنقَص.\n\nوكثير ممّا يُعدّ قيداً على المرأة هو في الحقيقة حقّ لها على غيرها: فالنفقة دَين على الزوج تطالب به، والمهر ملك لها، والولاية في الزواج لا تُمضي عقداً بغير رضاها. ولو أُلغي الفرق في التكاليف لسقطت عن الرجل نفقتها ومهرها معه.",
+        "en": "Some critics hold that the mere difference of rulings between men and women is a discrimination that diminishes her, and that equality is achieved only by sameness in every ruling. The answer is that a difference in obligation does not indicate a difference in worth: worth before God is one and the reward is one, as shown above. Obligation in Islam is a burden for which its bearer is held to account, not a privilege to boast of; whoever has been relieved of a burden has not been diminished.\n\nMuch of what is counted as a restriction on women is in fact a right of hers over others: maintenance is a debt owed by the husband that she can claim, the dower is her property, and guardianship in marriage cannot conclude a contract without her consent. Were the difference in duties abolished, the man's obligation to pay her maintenance and dower would be abolished with it.",
+        "ru": "Некоторые критики считают, что само различие предписаний для мужчины и женщины есть дискриминация, умаляющая её, и что равенство достигается лишь одинаковостью в каждом предписании. Ответ таков: различие в обязанностях не указывает на различие в ценности — ценность перед Богом одна и воздаяние одно, как показано выше. Обязанность в исламе — это бремя, за которое с несущего спросится, а не привилегия, которой гордятся; тот, с кого бремя снято, не умалён.\n\nМногое из того, что считают ограничением для женщины, на деле — её право по отношению к другим: содержание — долг мужа, который она может требовать, брачный дар — её собственность, а опекунство в браке не может заключить договор без её согласия. Если отменить различие в обязанностях, вместе с ним отпадёт и обязанность мужчины платить ей содержание и брачный дар.",
+        "es": "Algunos críticos sostienen que la mera diferencia de normas entre el hombre y la mujer es una discriminación que la menoscaba, y que la igualdad solo se alcanza con la identidad en cada norma. La respuesta es que una diferencia en la obligación no indica una diferencia en el valor: el valor ante Dios es uno y la recompensa es una, como se vio. La obligación en el islam es una carga de la que se rinde cuentas, no un privilegio del que presumir; a quien se le aligera una carga no se le menoscaba.\n\nMucho de lo que se cuenta como restricción para la mujer es en realidad un derecho suyo frente a otros: la manutención es una deuda del esposo que ella puede reclamar, la dote es de su propiedad, y la tutela matrimonial no puede cerrar un contrato sin su consentimiento. Si se aboliera la diferencia en los deberes, con ella caería la obligación del hombre de pagarle manutención y dote.",
+        "uk": "Деякі критики вважають, що сама відмінність приписів для чоловіка й жінки є дискримінацією, що применшує її, і що рівність досягається лише однаковістю в кожному приписі. Відповідь така: відмінність в обов'язках не вказує на відмінність у цінності — цінність перед Богом одна й винагорода одна, як показано вище. Обов'язок в ісламі — це тягар, за який із того, хто його несе, спитається, а не привілей, яким пишаються; той, із кого тягар знято, не применшений.\n\nБагато з того, що вважають обмеженням для жінки, насправді — її право щодо інших: утримання — борг чоловіка, якого вона може вимагати, шлюбний дар — її власність, а опікунство в шлюбі не може укласти договір без її згоди. Якщо скасувати відмінність в обов'язках, разом із нею відпаде й обов'язок чоловіка платити їй утримання та шлюбний дар."
+      }
+    },
+    {
+      "id": "conclusion",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Conclusion",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "تكاليف المرأة في الإسلام ليست أكثر من تكاليف الرجل: يشتركان في أصول الدين وأركانه، وخُفّف عنها في الصلاة والجمعة والجماعة والجهاد والنفقة والدية، وانفرد الرجل بالمهر والنفقة والقتال وتحمّل الدية.\n\nوما اختصّت به من حجاب أو طاعة في المعروف يقابله ما اختصّ به الرجل من غضّ البصر وتحريم الحرير والذهب والقيام بالنفقة. فالتكاليف موزّعة بحسب الأدوار، والكرامة والجزاء واحد.",
+        "en": "A woman's duties in Islam are not more than a man's. The two share the foundations and pillars of the religion; she was relieved in prayer, the Friday and congregational prayers, jihad, maintenance and blood money; and the man alone bears the dower, maintenance, fighting and the blood money.\n\nWhat is particular to her — the hijab, or obedience within what is right — is matched by what is particular to him: lowering the gaze, the prohibition of silk and gold, and the duty of maintenance. The duties are distributed according to roles; dignity and reward are one.",
+        "ru": "Обязанностей у женщины в исламе не больше, чем у мужчины. Оба разделяют основы и столпы религии; ей сделано облегчение в молитве, пятничной и коллективной молитвах, джихаде, содержании и выкупе за кровь; а только мужчина несёт брачный дар, содержание, сражение и выкуп за кровь.\n\nТо, что относится только к ней, — хиджаб или повиновение в одобряемом, — уравновешено тем, что относится только к нему: опусканием взора, запретом шёлка и золота и обязанностью содержания. Обязанности распределены по ролям, а достоинство и воздаяние едины.",
+        "es": "Los deberes de la mujer en el islam no son más que los del hombre. Ambos comparten los fundamentos y pilares de la religión; a ella se le aligeró en la oración, el viernes y la congregación, el yihad, la manutención y el precio de sangre; y solo el hombre carga con la dote, la manutención, el combate y el precio de sangre.\n\nLo que es propio de ella —el hiyab o la obediencia en lo reconocido como bueno— se corresponde con lo propio de él: bajar la mirada, la prohibición de la seda y el oro y el deber de manutención. Los deberes se reparten según las funciones; la dignidad y la recompensa son una.",
+        "uk": "Обов'язків у жінки в ісламі не більше, ніж у чоловіка. Обоє поділяють основи та стовпи релігії; їй зроблено полегшення в молитві, п'ятничній і колективній молитвах, джихаді, утриманні та викупі за кров; а лише чоловік несе шлюбний дар, утримання, битву та викуп за кров.\n\nТе, що стосується лише її, — хіджаб чи послух у схвалюваному, — урівноважене тим, що стосується лише його: опусканням погляду, забороною шовку й золота та обов'язком утримання. Обов'язки розподілено за ролями, а гідність і винагорода єдині."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "تفسير ابن كثير",
+      "en": "Tafsīr Ibn Kathīr",
+      "ru": "«Тафсир Ибн Касира»",
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
+    },
+    {
+      "ar": "جامع البيان",
+      "en": "Jāmiʿ al-Bayān",
+      "ru": "«Джами аль-Баян»",
+      "es": "Jāmiʿ al-Bayān",
+      "uk": "«Джамі аль-Баян»"
+    },
+    {
+      "ar": "صحيح البخاري",
+      "en": "Ṣaḥīḥ al-Bukhārī",
+      "ru": "«Сахих аль-Бухари»",
+      "es": "Ṣaḥīḥ al-Bukhārī",
+      "uk": "«Сахіх аль-Бухарі»"
+    },
+    {
+      "ar": "صحيح مسلم",
+      "en": "Ṣaḥīḥ Muslim",
+      "ru": "«Сахих Муслим»",
+      "es": "Ṣaḥīḥ Muslim",
+      "uk": "«Сахіх Муслім»"
+    }
+  ],
+  "addedAt": "2026-11-09"
+}

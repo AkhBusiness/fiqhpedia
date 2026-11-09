@@ -1,68 +1,68 @@
 {
   "featured": {
-    "ref": "F125",
-    "id": "taharah-64",
-    "bookId": "taharah",
+    "ref": "F66",
+    "id": "salah-20",
+    "bookId": "salah",
     "chapter": {
-      "ar": "باب التيمم",
-      "en": "Chapter of Dry Ablution (Tayammum)",
-      "ru": "Раздел о сухом очищении (таяммум)",
-      "es": "Capítulo de la ablución seca (tayammum)",
-      "uk": "Розділ про сухе очищення (таяммум)"
+      "ar": "باب الأذان والإقامة",
+      "en": "Chapter on the Adhān and the Iqāmah",
+      "ru": "Раздел об азане и икаме",
+      "es": "Capítulo sobre el adhān y la iqāmah",
+      "uk": "Розділ про азан та ікаму"
     },
     "title": {
-      "ar": "المسح على الجبيرة والعصابة وشروطه",
-      "en": "Wiping over a Splint or Bandage and Its Conditions",
-      "ru": "Протирание поверх шины или повязки и его условия",
-      "es": "El frotamiento sobre la férula o el vendaje y sus condiciones",
-      "uk": "Протирання поверх шини чи пов'язки та його умови"
+      "ar": "صيغة الإقامة وحكم إفراد كلماتها",
+      "en": "The Wording of the Iqāmah and the Ruling on Saying Its Phrases Once",
+      "ru": "Формулировка икамы и постановление о произнесении её фраз по одному разу",
+      "es": "La fórmula de la iqāmah y la norma sobre decir sus frases una sola vez",
+      "uk": "Формулювання іками та постанова про виголошення її фраз по одному разу"
     },
     "summary": {
-      "ar": "أيجب المسح على الجبيرة والعصابة، وما شروطه، وهل يُضمّ إليه التيمم وتُعاد الصلاة؟",
-      "en": "Must one wipe over a splint or bandage, what are the conditions, and is the dry ablution added to it or the prayer repeated?",
-      "ru": "Обязательно ли протирать поверх шины или повязки, каковы условия этого, и добавляется ли к нему таяммум и повторяется ли молитва?",
-      "es": "¿Es obligatorio frotar sobre la férula o el vendaje, cuáles son sus condiciones, y se le añade el tayammum o se repite la oración?",
-      "uk": "Чи обов'язково протирати поверх шини чи пов'язки, які умови цього, і чи додається до нього таяммум і чи повторюється молитва?"
+      "ar": "ما صيغة الإقامة عند المذاهب الأربعة، وهل تُفرَد كلماتها أم تُثنّى؟",
+      "en": "What is the wording of the iqāmah in the four schools, and are its phrases said once or twice?",
+      "ru": "Какова формулировка икамы у четырёх мазхабов, и произносятся ли её фразы один раз или дважды?",
+      "es": "¿Cuál es la fórmula de la iqāmah en las cuatro escuelas, y sus frases se dicen una vez o dos?",
+      "uk": "Яке формулювання іками у чотирьох мазгабах, і чи виголошуються її фрази один раз чи двічі?"
     },
     "rulings": {
       "hanafi": {
-        "grade": "fard",
+        "grade": "sunnah",
         "lead": {
-          "ar": "المسح على الجبيرة والعصابة فرضٌ عمليّ إذا عجز عن غسل العضو ومسحه",
-          "en": "Wiping over a splint or bandage is a practical obligation when one cannot wash or wipe the limb itself",
-          "ru": "Протирание поверх шины или повязки — практическая обязанность, когда нельзя ни омыть, ни протереть сам орган",
-          "es": "Frotar sobre la férula o el vendaje es una obligación práctica cuando no se puede lavar ni frotar el miembro mismo",
-          "uk": "Протирання поверх шини чи пов'язки — практичний обов'язок, коли не можна ні обмити, ні протерти сам орган"
+          "ar": "الإقامة مثنى مثنى كالأذان مع زيادة «قد قامت الصلاة» مرّتين",
+          "en": "The iqāmah is said twice over, like the adhān, with “qad qāmat al-ṣalāh” added twice, making seventeen phrases",
+          "ru": "Икама произносится по два раза, как и азан, с добавлением «кад камати-с-салях» дважды, что составляет семнадцать фраз",
+          "es": "La iqāmah se dice dos veces, como el adhān, añadiendo «qad qāmat al-ṣalāh» dos veces, lo que suma diecisiete frases",
+          "uk": "Ікама виголошується по два рази, як і азан, з додаванням «кад каматі-с-салях» двічі, що складає сімнадцять фраз"
         }
       },
       "maliki": {
-        "grade": "fard",
+        "grade": "sunnah",
         "lead": {
-          "ar": "إن خيف من غسل الجرح هلاكٌ أو شديد أذى وجب مسحه",
-          "en": "If washing the wound is feared to cause death or severe harm, wiping it is required",
-          "ru": "Если от омовения раны опасаются смерти или сильного вреда",
-          "es": "Si se teme que lavar la herida cause la muerte o un daño grave, es obligatorio frotarla",
-          "uk": "Якщо від обмивання рани побоюються смерті чи сильної шкоди"
+          "ar": "تُفرَد كلمات الإقامة كلّها فتكون عشر كلمات",
+          "en": "All the phrases of the iqāmah are said once, making ten phrases, including “qad qāmat al-ṣalāh” once",
+          "ru": "Все фразы икамы произносятся по одному разу, что составляет десять фраз, включая «кад камати-с-салях» один раз",
+          "es": "Todas las frases de la iqāmah se dicen una vez, sumando diez frases, incluida «qad qāmat al-ṣalāh» una sola vez",
+          "uk": "Усі фрази іками виголошуються по одному разу, що складає десять фраз, включно з «кад каматі-с-салях» один раз"
         }
       },
       "shafii": {
-        "grade": "fard",
+        "grade": "sunnah",
         "lead": {
-          "ar": "إن لم يمكن نزع الجبيرة غسل الصحيح وتيمّم",
-          "en": "If the splint cannot be removed",
-          "ru": "Если шину нельзя снять, он омывает здоровое и совершает таяммум, и вместе с этим обязан протереть водой всю шину, без ограничения сроком",
-          "es": "Si la férula no puede quitarse, lava lo sano y hace el tayammum, y además debe frotar con agua toda la férula, sin plazo",
-          "uk": "Якщо шину не можна зняти"
+          "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة",
+          "en": "The phrases of the iqāmah are said once",
+          "ru": "Фразы икамы произносятся по одному разу",
+          "es": "Las frases de la iqāmah se dicen una vez",
+          "uk": "Фрази іками виголошуються по одному разу"
         }
       },
       "hanbali": {
-        "grade": "fard",
+        "grade": "sunnah",
         "lead": {
-          "ar": "يجب مسح جميع الجبيرة إلى حلّها أو برء ما تحتها بلا توقيت",
-          "en": "He must wipe the whole splint until it is undone or what is beneath it heals",
-          "ru": "Обязательно протирать всю шину",
-          "es": "Debe frotar toda la férula hasta que se desate o sane lo que hay debajo",
-          "uk": "Обов'язково протирати всю шину"
+          "ar": "تُفرَد كلمات الإقامة فتكون إحدى عشرة كلمة",
+          "en": "The phrases of the iqāmah are said once",
+          "ru": "Фразы икамы произносятся по одному разу",
+          "es": "Las frases de la iqāmah se dicen una vez",
+          "uk": "Фрази іками виголошуються по одному разу"
         }
       }
     }

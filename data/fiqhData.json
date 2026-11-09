@@ -27803,6 +27803,416 @@
       "addedAt": "2026-09-01"
     },
     {
+      "id": "woman-between-civilizations",
+      "ref": "M10",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 2,
+      "title": {
+        "ar": "مكانة المرأة بين الإسلام والحضارات الأخرى: شواهد من التاريخ ونصوص القوانين",
+        "en": "The Standing of Women Between Islam and Other Civilizations: Evidence from History and the Texts of Laws",
+        "ru": "Положение женщины в исламе и других цивилизациях: свидетельства истории и текстов законов",
+        "es": "La posición de la mujer entre el islam y otras civilizaciones: testimonios de la historia y de los textos legales",
+        "uk": "Становище жінки в ісламі та інших цивілізаціях: свідчення історії та текстів законів"
+      },
+      "excerpt": {
+        "ar": "مقارنة موثّقة بين ما قرّره الإسلام للمرأة في القرن السابع وما نصّت عليه قوانين اليونان وروما وإنجلترا وفرنسا حتى القرن العشرين.",
+        "en": "A documented comparison between what Islam established for women in the seventh century and what the laws of Greece, Rome, England and France laid down until the twentieth century.",
+        "ru": "Документированное сравнение того, что ислам установил для женщины в VII веке, с тем, что предписывали законы Греции, Рима, Англии и Франции вплоть до XX века.",
+        "es": "Una comparación documentada entre lo que el islam estableció para la mujer en el siglo VII y lo que dispusieron las leyes de Grecia, Roma, Inglaterra y Francia hasta el siglo XX.",
+        "uk": "Документоване порівняння того, що іслам установив для жінки в VII столітті, з тим, що приписували закони Греції, Риму, Англії та Франції аж до XX століття."
+      },
+      "relatedRefs": [],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "يكثر الحديث عن المرأة في الإسلام بمقارنة نصوصه بواقع الغرب اليوم، أو بمقارنة واقع بعض المسلمين بالمُثُل الغربية. والمقارنة العادلة أن يُقابَل النصّ بالنصّ، والقانون بالقانون، وأن يُذكر تاريخ كلٍّ منهما.\n\nوهذا المقال يضع ما قرّره القرآن في القرن السابع الميلادي إلى جانب ما كتبه فلاسفة اليونان وفقهاء روما ومشرّعو أوروبا عن المرأة، بنصوصهم وتواريخها.",
+            "en": "Discussion of women in Islam often compares its texts with the West's reality today, or the reality of some Muslims with Western ideals. A fair comparison sets text against text and law against law, and gives the date of each.\n\nThis article places what the Qurʾān established in the seventh century alongside what the philosophers of Greece, the jurists of Rome and the lawmakers of Europe wrote about women, in their own words and with their dates.",
+            "ru": "О женщине в исламе часто говорят, сравнивая его тексты с сегодняшней действительностью Запада или действительность некоторых мусульман с западными идеалами. Справедливое сравнение сопоставляет текст с текстом и закон с законом и указывает дату каждого.\n\nЭта статья ставит то, что Коран установил в VII веке, рядом с тем, что писали о женщине философы Греции, юристы Рима и законодатели Европы, — их собственными словами и с датами.",
+            "es": "Al hablar de la mujer en el islam se suelen comparar sus textos con la realidad actual de Occidente, o la realidad de algunos musulmanes con los ideales occidentales. Una comparación justa contrapone texto a texto y ley a ley, y da la fecha de cada uno.\n\nEste artículo pone lo que el Corán estableció en el siglo VII junto a lo que escribieron sobre la mujer los filósofos de Grecia, los juristas de Roma y los legisladores de Europa, con sus propias palabras y sus fechas.",
+            "uk": "Про жінку в ісламі часто говорять, порівнюючи його тексти з сьогоднішньою дійсністю Заходу або дійсність деяких мусульман із західними ідеалами. Справедливе порівняння зіставляє текст із текстом і закон із законом та вказує дату кожного.\n\nЦя стаття ставить те, що Коран установив у VII столітті, поруч із тим, що писали про жінку філософи Греції, юристи Риму й законодавці Європи, — їхніми власними словами та з датами."
+          }
+        },
+        {
+          "id": "arabia",
+          "heading": {
+            "ar": "العرب قبل الإسلام",
+            "en": "The Arabs Before Islam",
+            "ru": "Арабы до ислама",
+            "es": "Los árabes antes del islam",
+            "uk": "Араби до ісламу"
+          },
+          "body": {
+            "ar": "كان من العرب من يدفن ابنته حيّة، وقد صوّر القرآن ذلك: ﴿وَإِذَا بُشِّرَ أَحَدُهُم بِالْأُنثَىٰ ظَلَّ وَجْهُهُ مُسْوَدًّا وَهُوَ كَظِيمٌ ۝ يَتَوَارَىٰ مِنَ الْقَوْمِ مِن سُوءِ مَا بُشِّرَ بِهِ أَيُمْسِكُهُ عَلَىٰ هُونٍ أَمْ يَدُسُّهُ فِي التُّرَابِ﴾ سورة النحل: ٥٨–٥٩. وجعل السؤال عن ذلك من مشاهد القيامة: ﴿وَإِذَا الْمَوْءُودَةُ سُئِلَتْ ۝ بِأَيِّ ذَنبٍ قُتِلَتْ﴾ سورة التكوير: ٨–٩.\n\nوكانت المرأة تُورَث كما يُورَث المتاع. قال ابن عباس في تفسير ﴿لَا يَحِلُّ لَكُمْ أَن تَرِثُوا النِّسَاءَ كَرْهًا﴾ سورة النساء: ١٩: كانوا إذا مات الرجل كان أولياؤه أحقّ بامرأته، إن شاء بعضهم تزوّجها، وإن شاؤوا زوّجوها، وإن شاؤوا لم يزوّجوها. رواه البخاري. وذكر الطبري وابن كثير أنهم كانوا لا يورّثون النساء ولا الصغار، فنزلت آية النساء: ٧.\n\nولخّص عمر بن الخطاب الحال فقال: والله إن كنّا في الجاهلية ما نعدّ للنساء أمراً، حتى أنزل الله فيهنّ ما أنزل، وقسم لهنّ ما قسم. رواه البخاري.",
+            "en": "Some Arabs buried their daughters alive, and the Qurʾān depicted it: when one of them is given news of a girl his face darkens and he suppresses his grief; he hides from people because of the news, wondering whether to keep her in humiliation or bury her in the dust — Sūrat al-Naḥl, verses 58–59. And it made the questioning of the buried girl, for what sin she was killed, one of the scenes of the Resurrection — Sūrat al-Takwīr, verses 8–9.\n\nA woman was inherited as goods were inherited. Ibn ʿAbbās said, explaining the verse forbidding men to inherit women against their will (Sūrat al-Nisāʾ, verse 19): when a man died, his heirs had more right to his wife; one of them could marry her if he wished, or they could marry her off, or not marry her off at all — narrated by al-Bukhārī. Al-Ṭabarī and Ibn Kathīr state that they gave no inheritance to women or to the young, and so Sūrat al-Nisāʾ, verse 7, was revealed.\n\nʿUmar ibn al-Khaṭṭāb summed up the state of things: in the Jāhiliyyah we gave women no standing at all, until God revealed about them what He revealed and allotted to them what He allotted — narrated by al-Bukhārī.",
+            "ru": "Некоторые арабы закапывали дочерей живыми, и Коран изобразил это: когда кому-то из них сообщают о рождении девочки, его лицо темнеет и он подавляет горе; он прячется от людей из-за этой вести, раздумывая, оставить ли её в унижении или зарыть в землю, — сура «ан-Нахль», аяты 58–59. А вопрос к заживо зарытой, за какой грех она убита, Коран сделал одной из картин Воскресения — сура «ат-Таквир», аяты 8–9.\n\nЖенщину наследовали так, как наследуют имущество. Ибн Аббас, толкуя аят, запрещающий наследовать женщин против их воли (сура «ан-Ниса», аят 19), сказал: когда человек умирал, его наследники имели больше прав на его жену; кто-то из них мог жениться на ней, если хотел, или они выдавали её замуж, или не выдавали вовсе, — передал аль-Бухари. Ат-Табари и Ибн Касир сообщают, что женщинам и малолетним не давали наследства, и тогда был ниспослан аят 7 суры «ан-Ниса».\n\nУмар ибн аль-Хаттаб подытожил: во времена невежества мы вовсе не считались с женщинами, пока Бог не ниспослал о них то, что ниспослал, и не выделил им то, что выделил, — передал аль-Бухари.",
+            "es": "Algunos árabes enterraban vivas a sus hijas, y el Corán lo describió: cuando a uno de ellos se le anuncia una niña, su rostro se ensombrece y contiene su pesar; se oculta de la gente por la noticia, dudando entre conservarla en la humillación o enterrarla en el polvo —sura al-Naḥl, aleyas 58–59—. E hizo de la pregunta a la niña enterrada, por qué pecado fue matada, una de las escenas de la Resurrección —sura al-Takwīr, aleyas 8–9—.\n\nLa mujer se heredaba como se heredan los bienes. Ibn ʿAbbās dijo, al explicar la aleya que prohíbe heredar a las mujeres contra su voluntad (sura al-Nisāʾ, aleya 19): cuando un hombre moría, sus herederos tenían más derecho sobre su esposa; uno de ellos podía casarse con ella si quería, o la casaban con otro, o no la casaban en absoluto —lo narra al-Bujārī—. Al-Ṭabarī e Ibn Kaṯīr refieren que no daban herencia a las mujeres ni a los menores, y entonces se reveló la aleya 7 de la sura al-Nisāʾ.\n\nʿUmar ibn al-Jaṭṭāb resumió la situación: en la Ŷāhiliyyah no teníamos a las mujeres en ninguna consideración, hasta que Dios reveló sobre ellas lo que reveló y les asignó lo que les asignó —lo narra al-Bujārī—.",
+            "uk": "Деякі араби закопували доньок живими, і Коран зобразив це: коли комусь із них повідомляють про народження дівчинки, його обличчя темніє і він стримує горе; він ховається від людей через цю звістку, роздумуючи, чи залишити її в приниженні, чи закопати в землю, — сура «ан-Нахль», аяти 58–59. А запитання до живцем закопаної, за який гріх її вбито, Коран зробив однією з картин Воскресіння — сура «ат-Таквір», аяти 8–9.\n\nЖінку успадковували так, як успадковують майно. Ібн Аббас, тлумачачи аят, що забороняє успадковувати жінок проти їхньої волі (сура «ан-Ніса», аят 19), сказав: коли чоловік помирав, його спадкоємці мали більше прав на його дружину; хтось із них міг одружитися з нею, якщо хотів, або вони видавали її заміж, або не видавали зовсім, — передав аль-Бухарі. Ат-Табарі та Ібн Касір повідомляють, що жінкам і малолітнім не давали спадку, і тоді було зіслано аят 7 сури «ан-Ніса».\n\nУмар ібн аль-Хаттаб підсумував: за часів невігластва ми зовсім не зважали на жінок, доки Бог не зіслав про них те, що зіслав, і не виділив їм те, що виділив, — передав аль-Бухарі."
+          }
+        },
+        {
+          "id": "greece-rome",
+          "heading": {
+            "ar": "في فلسفة اليونان وقانون روما",
+            "en": "In Greek Philosophy and Roman Law",
+            "ru": "В греческой философии и римском праве",
+            "es": "En la filosofía griega y el derecho romano",
+            "uk": "У грецькій філософії та римському праві"
+          },
+          "body": {
+            "ar": "كتب أرسطو في القرن الرابع قبل الميلاد في كتاب «السياسة» (1254b) أن الذكر بالطبيعة أعلى والأنثى أدنى، وأن أحدهما يحكم والآخر يُحكم. ولم يكن ذلك رأياً شاذّاً، بل جزءاً من تعليله لنظام الأسرة والمدينة كلّه.\n\nوفي القانون الروماني بقيت المرأة البالغة تحت **وصاية دائمة** لا تخرج منها ببلوغ ولا رشد. ونقل الفقيه الروماني غايوس في كتاب «المؤسسات» (القرن الثاني الميلادي، 1.144) أن القدماء أرادوا أن تكون النساء، ولو بلغن، تحت الوصاية **لخفّة عقولهن**. وللإنصاف فقد ضعّف غايوس نفسه هذا التعليل (1.190)، وذكر أن النساء البالغات يدبّرن أمورهن بأنفسهن، وأن إذن الوصيّ كثيراً ما كان شكلياً.",
+            "en": "In the fourth century BC Aristotle wrote in the **Politics** (1254b) that the male is by nature superior and the female inferior, and that the one rules and the other is ruled. This was not a stray opinion but part of his justification for the whole order of household and city.\n\nIn Roman law an adult woman remained under **perpetual guardianship**, which neither coming of age nor maturity ended. The Roman jurist Gaius reports in the **Institutes** (second century AD, 1.144) that the ancients wanted women, even those of full age, to be under guardianship **because of the levity of their minds**. In fairness, Gaius himself judged this reason weak (1.190), noting that adult women manage their own affairs and that the guardian's authorization was often a formality.",
+            "ru": "В IV веке до н. э. Аристотель писал в «Политике» (1254b), что мужчина по природе выше, а женщина ниже, и что один властвует, а другая подчиняется. Это было не случайное мнение, а часть его обоснования всего строя семьи и полиса.\n\nВ римском праве взрослая женщина оставалась под **пожизненной опекой**, которую не прекращали ни совершеннолетие, ни зрелость. Римский юрист Гай сообщает в «Институциях» (II век н. э., 1.144), что древние хотели, чтобы женщины, даже совершеннолетние, были под опекой **из-за легкомыслия их ума**. Справедливости ради: сам Гай счёл это обоснование слабым (1.190), отметив, что взрослые женщины сами ведут свои дела, а согласие опекуна нередко было формальностью.",
+            "es": "En el siglo IV a. C. Aristóteles escribió en la **Política** (1254b) que el varón es por naturaleza superior y la hembra inferior, y que uno gobierna y la otra es gobernada. No era una opinión aislada, sino parte de su justificación de todo el orden de la casa y de la ciudad.\n\nEn el derecho romano la mujer adulta permanecía bajo **tutela perpetua**, que no terminaba ni con la mayoría de edad ni con la madurez. El jurista romano Gayo refiere en las **Instituciones** (siglo II d. C., 1.144) que los antiguos quisieron que las mujeres, aun mayores de edad, estuvieran bajo tutela **por la ligereza de su ánimo**. En justicia, el propio Gayo consideró débil esta razón (1.190), y señaló que las mujeres adultas gestionan sus propios asuntos y que la autorización del tutor era a menudo una formalidad.",
+            "uk": "У IV столітті до н. е. Аристотель писав у «Політиці» (1254b), що чоловік за природою вищий, а жінка нижча, і що один владарює, а інша підкоряється. Це була не випадкова думка, а частина його обґрунтування всього ладу родини й поліса.\n\nУ римському праві доросла жінка залишалася під **довічною опікою**, яку не припиняли ні повноліття, ні зрілість. Римський юрист Гай повідомляє в «Інституціях» (II століття н. е., 1.144), що давні хотіли, щоб жінки, навіть повнолітні, були під опікою **через легковажність їхнього розуму**. Задля справедливості: сам Гай вважав це обґрунтування слабким (1.190), зазначивши, що дорослі жінки самі ведуть свої справи, а згода опікуна нерідко була формальністю."
+          }
+        },
+        {
+          "id": "europe",
+          "heading": {
+            "ar": "في قوانين أوروبا حتى القرن العشرين",
+            "en": "In the Laws of Europe Until the Twentieth Century",
+            "ru": "В законах Европы вплоть до XX века",
+            "es": "En las leyes de Europa hasta el siglo XX",
+            "uk": "У законах Європи аж до XX століття"
+          },
+          "body": {
+            "ar": "في إنجلترا كتب القاضي وليم بلاكستون عام ١٧٦٥ في «شروح قوانين إنجلترا» أن الزوج والزوجة بالزواج شخص واحد في القانون، أي أن **وجود المرأة القانوني يُعلَّق مدّة الزواج**، ويُدمج في وجود زوجها. وعلى هذا كانت أملاك الزوجة المنقولة وما تكسبه تنتقل إلى زوجها، ولا تقاضي ولا تُقاضى باسمها. ولم تستقلّ المرأة المتزوجة بكسبها إلا بقانون ١٨٧٠، ثم بأملاكها كلّها بـ«قانون أملاك المرأة المتزوجة» عام ١٨٨٢.\n\nوفي فرنسا نصّت المادة ٢١٣ من القانون المدني لعام ١٨٠٤ على أن الزوج يدين لزوجته بالحماية، **والزوجة تدين لزوجها بالطاعة**. وعُدّت المرأة المتزوجة ناقصة الأهلية القانونية حتى رُفع ذلك عام ١٩٣٨، ولم يُسمح لها أن تفتح حساباً مصرفياً أو تعمل دون إذن زوجها إلا بقانون ١٣ يوليو ١٩٦٥.\n\nونالت المرأة الفرنسية حقّ التصويت عام ١٩٤٤، والسويسرية على المستوى الاتحادي عام ١٩٧١.",
+            "en": "In England, the judge William Blackstone wrote in 1765 in his **Commentaries on the Laws of England** that by marriage husband and wife are one person in law — that is, **the very legal existence of the woman is suspended during the marriage** and merged into her husband's. Accordingly, a wife's movable property and her earnings passed to her husband, and she could not sue or be sued in her own name. A married woman gained control of her own earnings only with the Act of 1870, and of all her property with the **Married Women's Property Act** of 1882.\n\nIn France, article 213 of the Civil Code of 1804 provided that the husband owes his wife protection, **and the wife owes her husband obedience**. A married woman was legally incapacitated until this was lifted in 1938, and she was allowed to open a bank account or work without her husband's permission only by the law of 13 July 1965.\n\nFrench women won the vote in 1944, and Swiss women at federal level in 1971.",
+            "ru": "В Англии судья Уильям Блэкстон писал в 1765 году в «Комментариях к законам Англии», что в браке муж и жена — одно лицо перед законом, то есть **само правовое существование женщины приостанавливается на время брака** и сливается с существованием мужа. Поэтому движимое имущество жены и её заработок переходили к мужу, и она не могла ни подавать иск, ни быть ответчиком от своего имени. Замужняя женщина получила право распоряжаться своим заработком лишь по закону 1870 года, а всем своим имуществом — по «Закону о собственности замужних женщин» 1882 года.\n\nВо Франции статья 213 Гражданского кодекса 1804 года гласила, что муж обязан жене защитой, **а жена обязана мужу повиновением**. Замужняя женщина считалась недееспособной, пока это не было отменено в 1938 году, а открыть банковский счёт или работать без разрешения мужа ей позволили только законом от 13 июля 1965 года.\n\nФранцуженки получили избирательное право в 1944 году, а швейцарки на федеральном уровне — в 1971 году.",
+            "es": "En Inglaterra, el juez William Blackstone escribió en 1765 en sus **Comentarios sobre las leyes de Inglaterra** que por el matrimonio marido y mujer son una sola persona ante la ley, es decir, que **la existencia legal misma de la mujer queda suspendida durante el matrimonio** y se funde en la de su marido. En consecuencia, los bienes muebles de la esposa y lo que ganaba pasaban al marido, y ella no podía demandar ni ser demandada en su propio nombre. La mujer casada obtuvo el control de sus ganancias solo con la ley de 1870, y el de todos sus bienes con la **Ley de Propiedad de las Mujeres Casadas** de 1882.\n\nEn Francia, el artículo 213 del Código civil de 1804 disponía que el marido debe protección a su mujer, **y la mujer debe obediencia a su marido**. La mujer casada fue legalmente incapaz hasta que esto se suprimió en 1938, y no se le permitió abrir una cuenta bancaria ni trabajar sin permiso de su marido hasta la ley del 13 de julio de 1965.\n\nLas francesas obtuvieron el voto en 1944, y las suizas en el ámbito federal en 1971.",
+            "uk": "В Англії суддя Вільям Блекстон писав у 1765 році в «Коментарях до законів Англії», що в шлюбі чоловік і дружина — одна особа перед законом, тобто **саме правове існування жінки призупиняється на час шлюбу** і зливається з існуванням чоловіка. Тому рухоме майно дружини та її заробіток переходили до чоловіка, і вона не могла ні подавати позов, ні бути відповідачем від свого імені. Заміжня жінка отримала право розпоряджатися своїм заробітком лише за законом 1870 року, а всім своїм майном — за «Законом про власність заміжніх жінок» 1882 року.\n\nУ Франції стаття 213 Цивільного кодексу 1804 року проголошувала, що чоловік зобов'язаний дружині захистом, **а дружина зобов'язана чоловікові послухом**. Заміжня жінка вважалася недієздатною, доки це не скасували в 1938 році, а відкрити банківський рахунок чи працювати без дозволу чоловіка їй дозволили лише законом від 13 липня 1965 року.\n\nФранцуженки здобули виборче право в 1944 році, а швейцарки на федеральному рівні — у 1971 році."
+          }
+        },
+        {
+          "id": "islam-earlier",
+          "heading": {
+            "ar": "ما قرّره الإسلام قبل ذلك بقرون",
+            "en": "What Islam Established Centuries Earlier",
+            "ru": "Что ислам установил на века раньше",
+            "es": "Lo que el islam estableció siglos antes",
+            "uk": "Що іслам установив на століття раніше"
+          },
+          "body": {
+            "ar": "حين نزل القرآن في القرن السابع الميلادي قرّر للمرأة ما لم تبلغه هذه القوانين إلا بعد أكثر من اثني عشر قرناً:\n\n**ذمّة مالية مستقلة** لا تنتقل إلى الزوج بالزواج (سورة النساء: ٣٢)، وقد جاءت في إنجلترا عام ١٨٨٢.\n\n**أهلية كاملة** للبالغة الرشيدة في البيع والشراء والهبة، بلا وصاية دائمة عليها لأنوثتها، وقد رُفع نقص أهلية المتزوجة في فرنسا عام ١٩٣٨.\n\n**نصيب مفروض في الميراث** (سورة النساء: ٧)، بعد أن كانت تُورَث هي نفسها.\n\n**رضاها شرط في الزواج**، ولها طلب الفُرقة بالخُلع.\n\n**طاعة مقيّدة**: لا طاعة لأحد في معصية الله، لا لزوج ولا لغيره، «إنما الطاعة في المعروف» رواه البخاري ومسلم.\n\nولم يكن ذلك تطوّراً تدريجياً من داخل المجتمع العربي، بل جاء في جيلٍ واحد، بخلاف ما كان عليه العرب قبله مباشرة.",
+            "en": "When the Qurʾān was revealed in the seventh century, it established for women what these laws reached only more than twelve centuries later:\n\n**An independent financial capacity** that does not pass to the husband through marriage (Sūrat al-Nisāʾ, verse 32) — it came in England in 1882.\n\n**Full legal capacity** for the adult, mature woman in buying, selling and giving, with no permanent guardianship over her because she is female — the incapacity of married women was lifted in France in 1938.\n\n**A fixed share of inheritance** (Sūrat al-Nisāʾ, verse 7), where before she was herself inherited.\n\n**Her consent as a condition of marriage**, and the right to seek separation through khulʿ.\n\n**Bounded obedience**: no one is to be obeyed in disobedience to God, neither husband nor anyone else; obedience is only in what is right — narrated by al-Bukhārī and Muslim.\n\nNor was this a gradual development from within Arab society: it came within a single generation, contrary to what the Arabs had practised immediately before.",
+            "ru": "Когда в VII веке ниспосылался Коран, он установил для женщины то, к чему эти законы пришли лишь более чем через двенадцать веков:\n\n**Самостоятельная имущественная правоспособность**, не переходящая к мужу при браке (сура «ан-Ниса», аят 32), — в Англии она появилась в 1882 году.\n\n**Полная дееспособность** взрослой разумной женщины в купле, продаже и дарении, без пожизненной опеки над ней из-за её пола, — недееспособность замужней женщины во Франции отменили в 1938 году.\n\n**Установленная доля в наследстве** (сура «ан-Ниса», аят 7), тогда как прежде наследовали её саму.\n\n**Её согласие как условие брака** и право добиваться развода через хуль.\n\n**Ограниченное повиновение**: никому — ни мужу, ни кому-либо другому — не повинуются в ослушании Бога; повиновение — лишь в одобряемом, — передали аль-Бухари и Муслим.\n\nИ это не было постепенным развитием изнутри арабского общества: всё пришло за одно поколение, вопреки тому, что делали арабы непосредственно перед этим.",
+            "es": "Cuando se reveló el Corán en el siglo VII, estableció para la mujer lo que estas leyes solo alcanzaron más de doce siglos después:\n\n**Un patrimonio propio e independiente** que no pasa al marido por el matrimonio (sura al-Nisāʾ, aleya 32); en Inglaterra llegó en 1882.\n\n**Plena capacidad jurídica** de la mujer adulta y juiciosa para comprar, vender y donar, sin tutela perpetua por ser mujer; la incapacidad de la casada se suprimió en Francia en 1938.\n\n**Una parte fija de la herencia** (sura al-Nisāʾ, aleya 7), cuando antes era ella misma la heredada.\n\n**Su consentimiento como condición del matrimonio**, y el derecho a pedir la separación mediante el julʿ.\n\n**Una obediencia acotada**: a nadie se obedece en la desobediencia a Dios, ni al marido ni a otro; la obediencia es solo en lo reconocido como bueno —lo narran al-Bujārī y Muslim—.\n\nY no fue una evolución gradual desde dentro de la sociedad árabe: llegó en una sola generación, en contra de lo que los árabes practicaban justo antes.",
+            "uk": "Коли у VII столітті зсилався Коран, він установив для жінки те, до чого ці закони дійшли лише понад дванадцять століть потому:\n\n**Самостійна майнова правоздатність**, що не переходить до чоловіка під час шлюбу (сура «ан-Ніса», аят 32), — в Англії вона з'явилася 1882 року.\n\n**Повна дієздатність** дорослої розсудливої жінки в купівлі, продажу й даруванні, без довічної опіки над нею через її стать, — недієздатність заміжньої жінки у Франції скасували 1938 року.\n\n**Установлена частка в спадку** (сура «ан-Ніса», аят 7), тоді як раніше успадковували її саму.\n\n**Її згода як умова шлюбу** і право домагатися розлучення через хуль.\n\n**Обмежений послух**: нікому — ні чоловікові, ні комусь іншому — не коряться в непокорі Богові; послух — лише в схвалюваному, — передали аль-Бухарі та Муслім.\n\nІ це не було поступовим розвитком зсередини арабського суспільства: усе прийшло за одне покоління, всупереч тому, що робили араби безпосередньо перед цим."
+          }
+        },
+        {
+          "id": "fairness",
+          "heading": {
+            "ar": "كلمة إنصاف",
+            "en": "A Word in Fairness",
+            "ru": "Слово справедливости",
+            "es": "Una palabra en justicia",
+            "uk": "Слово справедливості"
+          },
+          "body": {
+            "ar": "لا يعني هذا أن تاريخ غير المسلمين كلّه ظلم للمرأة، ولا أن تاريخ المسلمين كلّه عدل. فقد عرفت المجتمعات المسلمة عادات خالفت النصوص، كحرمان البنات من الميراث في بعض البلدان، وتزويج الفتاة بغير رضاها. وهذه تُحاكَم إلى النصوص نفسها فتُدان بها.\n\nوقد أصلحت القوانين الأوروبية في القرنين الأخيرين كثيراً مما سبق ذكره. والسؤال الذي تجيب عنه هذه المقارنة ليس: أين المرأة اليوم؟ بل: من أين جاءت حقوقها؟ ففي الإسلام جاءت بنصّ ثابت منذ أربعة عشر قرناً، وفي القوانين الأخرى جاءت بتعديلات متأخرة يملك المشرّع أن يعدّلها مرّة أخرى.\n\nويبقى بين النظامين فرق في المنطلق: الإسلام لا يجعل الرجل والمرأة متماثلين في كل حكم، بل يوزّع الحقوق والتكاليف بينهما توزيعاً متكاملاً، كما يبيّنه مقال «تكاليف المرأة في الإسلام» في هذا الباب.",
+            "en": "This does not mean that the whole history of non-Muslims was injustice to women, nor that the whole history of Muslims was justice. Muslim societies have known customs contrary to the texts, such as denying daughters their inheritance in some countries and marrying a girl off without her consent. These are judged by the texts themselves and condemned by them.\n\nEuropean laws reformed much of the above over the last two centuries. The question this comparison answers is not: where do women stand today? but: where did their rights come from? In Islam they came by fixed text fourteen centuries ago; in other laws they came by late amendments that the lawmaker has the power to amend again.\n\nA difference of starting point remains between the two systems: Islam does not make man and woman identical in every ruling, but distributes rights and duties between them in a complementary way, as the article on women's duties in Islam in this chapter explains.",
+            "ru": "Это не значит, что вся история немусульман была несправедливостью к женщине, а вся история мусульман — справедливостью. В мусульманских обществах бытовали обычаи, противоречащие текстам, — например, лишение дочерей наследства в некоторых странах и выдача девушки замуж без её согласия. Их судят по самим текстам, и тексты их осуждают.\n\nЗа последние два столетия европейские законы исправили многое из сказанного выше. Вопрос, на который отвечает это сравнение, не «где женщина сегодня?», а «откуда пришли её права?». В исламе они пришли неизменным текстом четырнадцать веков назад, в других законах — поздними поправками, которые законодатель властен изменить снова.\n\nМежду двумя системами остаётся различие в исходной точке: ислам не делает мужчину и женщину одинаковыми в каждом предписании, а распределяет между ними права и обязанности взаимодополняюще, как объясняет статья об обязанностях женщины в исламе в этом разделе.",
+            "es": "Esto no significa que toda la historia de los no musulmanes fuera injusticia hacia la mujer, ni que toda la historia de los musulmanes fuera justicia. Las sociedades musulmanas han conocido costumbres contrarias a los textos, como privar a las hijas de la herencia en algunos países o casar a una joven sin su consentimiento. Estas se juzgan por los propios textos, que las condenan.\n\nLas leyes europeas reformaron en los dos últimos siglos mucho de lo dicho. La pregunta que responde esta comparación no es: ¿dónde está la mujer hoy?, sino: ¿de dónde vinieron sus derechos? En el islam vinieron por un texto fijo hace catorce siglos; en las otras leyes, por reformas tardías que el legislador tiene potestad de volver a reformar.\n\nQueda entre ambos sistemas una diferencia de punto de partida: el islam no hace idénticos al hombre y a la mujer en cada norma, sino que reparte entre ellos derechos y deberes de forma complementaria, como explica el artículo sobre los deberes de la mujer en el islam de este capítulo.",
+            "uk": "Це не означає, що вся історія немусульман була несправедливістю до жінки, а вся історія мусульман — справедливістю. У мусульманських суспільствах побутували звичаї, що суперечать текстам, — наприклад, позбавлення доньок спадку в деяких країнах і видача дівчини заміж без її згоди. Їх судять за самими текстами, і тексти їх засуджують.\n\nЗа останні два століття європейські закони виправили багато з того, що сказано вище. Питання, на яке відповідає це порівняння, не «де жінка сьогодні?», а «звідки прийшли її права?». В ісламі вони прийшли незмінним текстом чотирнадцять століть тому, в інших законах — пізніми поправками, які законодавець владен змінити знову.\n\nМіж двома системами залишається відмінність у вихідній точці: іслам не робить чоловіка й жінку однаковими в кожному приписі, а розподіляє між ними права та обов'язки взаємодоповнювально, як пояснює стаття про обов'язки жінки в ісламі в цьому розділі."
+          }
+        },
+        {
+          "id": "conclusion",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "تشهد النصوص المؤرّخة أن المرأة في أرقى فلسفات العالم القديم وُصفت بأنها أدنى بطبيعتها، وفي أعرق قوانينه وُضعت تحت وصاية دائمة، وفي أوروبا الحديثة عُلّق وجودها القانوني بالزواج حتى أواخر القرن التاسع عشر، وفي فرنسا حتى القرن العشرين.\n\nوفي القرن السابع، وفي مجتمعٍ كان يئد البنات، قرّر القرآن للمرأة كرامة مساوية، وذمّة مستقلة، وميراثاً مفروضاً، ورضاً لا يتمّ الزواج بدونه. وهذه الحقائق لا تحتاج إلى مبالغة، فالتواريخ وحدها كافية.",
+            "en": "Dated texts testify that in the most refined philosophy of the ancient world the woman was described as inferior by nature, that in its most venerable law she was placed under permanent guardianship, and that in modern Europe her legal existence was suspended by marriage until the late nineteenth century — in France, until the twentieth.\n\nIn the seventh century, in a society that buried its daughters alive, the Qurʾān established for women equal dignity, an independent financial capacity, a fixed inheritance and a consent without which marriage does not take place. These facts need no exaggeration: the dates alone suffice.",
+            "ru": "Датированные тексты свидетельствуют: в самой утончённой философии древнего мира женщину называли низшей по природе, в его самом почтенном праве держали под пожизненной опекой, а в Европе Нового времени её правовое существование приостанавливалось браком до конца XIX века, во Франции — до XX века.\n\nВ VII веке, в обществе, закапывавшем дочерей живыми, Коран установил для женщины равное достоинство, самостоятельное имущество, установленную долю в наследстве и согласие, без которого брак не заключается. Эти факты не нуждаются в преувеличении — достаточно одних дат.",
+            "es": "Los textos fechados atestiguan que en la filosofía más refinada del mundo antiguo la mujer fue descrita como inferior por naturaleza, que en su derecho más venerable se la puso bajo tutela perpetua, y que en la Europa moderna su existencia legal quedaba suspendida por el matrimonio hasta finales del siglo XIX, y en Francia hasta el XX.\n\nEn el siglo VII, en una sociedad que enterraba vivas a sus hijas, el Corán estableció para la mujer igual dignidad, un patrimonio propio, una herencia fija y un consentimiento sin el cual no hay matrimonio. Estos hechos no necesitan exageración: bastan las fechas.",
+            "uk": "Датовані тексти свідчать: у найвитонченішій філософії давнього світу жінку називали нижчою за природою, у його найшанованішому праві тримали під довічною опікою, а в Європі Нового часу її правове існування призупинялося шлюбом до кінця XIX століття, у Франції — до XX століття.\n\nУ VII столітті, у суспільстві, що закопувало доньок живими, Коран установив для жінки рівну гідність, самостійне майно, установлену частку в спадку та згоду, без якої шлюб не укладається. Ці факти не потребують перебільшення — досить самих дат."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "جامع البيان",
+          "en": "Jāmiʿ al-Bayān",
+          "ru": "«Джами аль-Баян»",
+          "es": "Jāmiʿ al-Bayān",
+          "uk": "«Джамі аль-Баян»"
+        },
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        },
+        {
+          "ar": "السياسة لأرسطو",
+          "en": "Aristotle, Politics",
+          "ru": "«Политика» Аристотеля",
+          "es": "Aristóteles, Política",
+          "uk": "«Політика» Аристотеля"
+        },
+        {
+          "ar": "المؤسسات لغايوس",
+          "en": "Gaius, Institutes",
+          "ru": "«Институции» Гая",
+          "es": "Gayo, Instituciones",
+          "uk": "«Інституції» Гая"
+        },
+        {
+          "ar": "شروح قوانين إنجلترا لبلاكستون",
+          "en": "Blackstone, Commentaries on the Laws of England",
+          "ru": "«Комментарии к законам Англии» Блэкстона",
+          "es": "Blackstone, Comentarios sobre las leyes de Inglaterra",
+          "uk": "«Коментарі до законів Англії» Блекстона"
+        },
+        {
+          "ar": "القانون المدني الفرنسي ١٨٠٤",
+          "en": "French Civil Code of 1804",
+          "ru": "«Гражданский кодекс Франции» 1804 года",
+          "es": "Código civil francés de 1804",
+          "uk": "«Цивільний кодекс Франції» 1804 року"
+        },
+        {
+          "ar": "قانون أملاك المرأة المتزوجة ١٨٨٢",
+          "en": "Married Women's Property Act 1882",
+          "ru": "«Закон о собственности замужних женщин» 1882 года",
+          "es": "Ley de Propiedad de las Mujeres Casadas de 1882",
+          "uk": "«Закон про власність заміжніх жінок» 1882 року"
+        }
+      ],
+      "addedAt": "2026-11-09"
+    },
+    {
+      "id": "women-duties-in-islam",
+      "ref": "M11",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 3,
+      "title": {
+        "ar": "هل تكاليف المرأة في الإسلام إهانة لها؟ وهل هي أكثر من تكاليف الرجل؟",
+        "en": "Are a Woman's Duties in Islam a Humiliation? And Are They More Than a Man's?",
+        "ru": "Унижают ли женщину её обязанности в исламе? И больше ли их, чем у мужчины?",
+        "es": "¿Son humillantes los deberes de la mujer en el islam? ¿Y son más que los del hombre?",
+        "uk": "Чи принижують жінку її обов'язки в ісламі? І чи їх більше, ніж у чоловіка?"
+      },
+      "excerpt": {
+        "ar": "مقال يحصي ما يشترك فيه الرجل والمرأة من التكاليف، وما خُفّف عنها، وما انفرد به الرجل، ثم يزن دعوى الإهانة بالنصوص.",
+        "en": "An article that counts the duties men and women share, what was lightened for her and what falls on the man alone, then weighs the charge of humiliation against the texts.",
+        "ru": "Статья, перечисляющая обязанности, общие для мужчины и женщины, то, что облегчено для неё, и то, что лежит только на мужчине, а затем взвешивающая обвинение в унижении по текстам.",
+        "es": "Un artículo que enumera los deberes comunes al hombre y a la mujer, lo que se le aligeró a ella y lo que recae solo en el hombre, y luego sopesa la acusación de humillación a la luz de los textos.",
+        "uk": "Стаття, що перелічує обов'язки, спільні для чоловіка й жінки, те, що полегшено для неї, і те, що лежить лише на чоловікові, а потім зважує звинувачення в приниженні за текстами."
+      },
+      "relatedRefs": [],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "يُطرح سؤالان كثيراً: هل ما فرضه الإسلام على المرأة من حجاب وطاعة للزوج وغيرهما إهانة لها؟ ولماذا كانت تكاليفها أكثر من تكاليف الرجل؟\n\nوالسؤال الثاني مبنيّ على مقدّمة تحتاج إلى فحص قبل الجواب. فإذا أُحصيت التكاليف كلّها، لا ما يلفت النظر منها وحده، تبيّن أن الأمر على خلاف ذلك. وهذا المقال يحصيها ثم يزن دعوى الإهانة.",
+            "en": "Two questions are often asked: are the duties Islam laid on women — the hijab, obedience to the husband and others — a humiliation to them? And why are her duties more than a man's?\n\nThe second question rests on a premise that needs examining before it is answered. When all the duties are counted, not only the conspicuous ones, the matter turns out to be the reverse. This article counts them and then weighs the charge of humiliation.",
+            "ru": "Часто задают два вопроса: не унижают ли женщину обязанности, возложенные на неё исламом, — хиджаб, повиновение мужу и другие? И почему её обязанностей больше, чем у мужчины?\n\nВторой вопрос опирается на посылку, которую нужно проверить, прежде чем отвечать. Если перечислить все обязанности, а не только бросающиеся в глаза, окажется, что дело обстоит наоборот. Эта статья перечисляет их, а затем взвешивает обвинение в унижении.",
+            "es": "Se plantean a menudo dos preguntas: ¿son una humillación los deberes que el islam impuso a la mujer —el hiyab, la obediencia al esposo y otros—? ¿Y por qué tiene más deberes que el hombre?\n\nLa segunda pregunta se apoya en una premisa que hay que examinar antes de responder. Si se cuentan todos los deberes, y no solo los más visibles, resulta que es al revés. Este artículo los cuenta y luego sopesa la acusación de humillación.",
+            "uk": "Часто ставлять два питання: чи не принижують жінку обов'язки, покладені на неї ісламом, — хіджаб, послух чоловікові та інші? І чому її обов'язків більше, ніж у чоловіка?\n\nДруге питання спирається на засновок, який треба перевірити, перш ніж відповідати. Якщо перелічити всі обов'язки, а не лише помітні, виявиться, що справа навпаки. Ця стаття перелічує їх, а потім зважує звинувачення в приниженні."
+          }
+        },
+        {
+          "id": "shared",
+          "heading": {
+            "ar": "أصل التكليف واحد",
+            "en": "The Basis of Obligation Is One",
+            "ru": "Основа обязанностей едина",
+            "es": "La base de la obligación es una",
+            "uk": "Основа обов'язків єдина"
+          },
+          "body": {
+            "ar": "أركان الإسلام الخمسة واجبة على الرجل والمرأة سواءً: الشهادتان، والصلاة، والصيام، والزكاة، والحجّ. وكذلك تحريم الكبائر، والأمر بالصدق والعدل وبرّ الوالدين وصلة الرحم. والجزاء على ذلك واحد، وقد جمعهما القرآن في آية واحدة عدّد فيها عشر صفات: ﴿إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ﴾ إلى قوله: ﴿أَعَدَّ اللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا﴾ سورة الأحزاب: ٣٥.\n\nفالتكاليف المشتركة هي الأكثر والأعظم، والتفاوت إنما هو في أحكام معدودة.",
+            "en": "The five pillars of Islam are obligatory on men and women alike: the two testimonies, prayer, fasting, zakat and pilgrimage. So too is the prohibition of major sins, and the command to truthfulness, justice, dutifulness to parents and keeping ties of kinship. The reward for this is one, and the Qurʾān joined the two in a single verse listing ten qualities of Muslim men and Muslim women, believing men and believing women, and ending with God's promise to them of forgiveness and a great reward — Sūrat al-Aḥzāb, verse 35.\n\nThe shared duties are the most numerous and the weightiest; the differences lie in a limited number of rulings.",
+            "ru": "Пять столпов ислама обязательны для мужчины и женщины в равной мере: два свидетельства, молитва, пост, закят и хадж. Так же и запрет тяжких грехов, и повеление к правдивости, справедливости, почтению к родителям и поддержанию родственных связей. Воздаяние за это одно, и Коран объединил их в одном аяте, перечислив десять качеств мусульман и мусульманок, верующих мужчин и верующих женщин, и завершив обещанием Бога им прощения и великой награды, — сура «аль-Ахзаб», аят 35.\n\nОбщие обязанности — самые многочисленные и самые весомые; различия же касаются ограниченного числа предписаний.",
+            "es": "Los cinco pilares del islam son obligatorios para el hombre y la mujer por igual: las dos declaraciones de fe, la oración, el ayuno, el azaque y la peregrinación. Igual la prohibición de los pecados mayores y el mandato de veracidad, justicia, bondad con los padres y mantener los lazos de parentesco. La recompensa por ello es una, y el Corán unió a ambos en una sola aleya que enumera diez cualidades de los musulmanes y las musulmanas, los creyentes y las creyentes, y termina con la promesa de Dios de perdón y una gran recompensa para ellos —sura al-Aḥzāb, aleya 35—.\n\nLos deberes comunes son los más numerosos y los de más peso; las diferencias están en un número limitado de normas.",
+            "uk": "П'ять стовпів ісламу обов'язкові для чоловіка й жінки однаково: два свідчення, молитва, піст, закят і хадж. Так само й заборона тяжких гріхів, і веління до правдивості, справедливості, шанування батьків і підтримання родинних зв'язків. Винагорода за це одна, і Коран об'єднав їх в одному аяті, перелічивши десять якостей мусульман і мусульманок, віруючих чоловіків і віруючих жінок, і завершивши обіцянкою Бога їм прощення та великої нагороди, — сура «аль-Ахзаб», аят 35.\n\nСпільні обов'язки — найчисленніші й найвагоміші; відмінності ж стосуються обмеженої кількості приписів."
+          }
+        },
+        {
+          "id": "lightened",
+          "heading": {
+            "ar": "ما خُفّف عن المرأة",
+            "en": "What Was Lightened for Women",
+            "ru": "Что облегчено для женщины",
+            "es": "Lo que se aligeró a la mujer",
+            "uk": "Що полегшено для жінки"
+          },
+          "body": {
+            "ar": "**الصلاة في الحيض والنفاس** تسقط عنها ولا تقضيها. قالت عائشة: كان يصيبنا ذلك، فنؤمر بقضاء الصوم ولا نؤمر بقضاء الصلاة. رواه مسلم. وهذه أيام من كل شهر طوال سنوات عمرها.\n\n**صلاة الجمعة وصلاة الجماعة** لا تجبان عليها بإجماع العلماء، وفي الحديث: «الجمعة حقّ واجب على كل مسلم في جماعة إلا أربعة» وذكر منهم المرأة. رواه أبو داود.\n\n**الجهاد بالقتال** لا يجب عليها. سألت عائشة النبيّ ﷺ: نرى الجهاد أفضل العمل، أفلا نجاهد؟ قال: «لكنّ أفضل الجهاد حجّ مبرور». رواه البخاري.\n\n**النفقة** لا تجب عليها لنفسها ولا لبيتها ولا لأولادها ما دام الأب قادراً، ولو كانت أغنى منه. ولا تدخل في **العاقلة** التي تتحمّل الدية مع أقارب الجاني.",
+            "en": "**Prayer during menstruation and postnatal bleeding** is lifted from her, and she does not make it up. ʿĀʾishah said that this would befall them, and they were ordered to make up the fast but not ordered to make up the prayer — narrated by Muslim. These are days of every month across the years of her life.\n\n**The Friday prayer and congregational prayer** are not obligatory on her by consensus of the scholars; a hadith states that Friday prayer in congregation is a binding duty on every Muslim except four, and names the woman among them — narrated by Abū Dāwūd.\n\n**Fighting in jihad** is not obligatory on her. ʿĀʾishah asked the Prophet ﷺ whether, since they saw jihad as the best of deeds, they should not wage it; he said that the best jihad for them is an accepted pilgrimage — narrated by al-Bukhārī.\n\n**Maintenance** is not owed by her — not for herself, her household or her children while the father is able — even if she is richer than he is. Nor is she part of the **ʿāqilah**, the kin who bear the blood money with the offender.",
+            "ru": "**Молитва во время месячных и послеродового кровотечения** снимается с неё, и она её не восполняет. Аиша сказала, что с ними это случалось, и им велели восполнять пост, но не велели восполнять молитву, — передал Муслим. Это дни каждого месяца на протяжении многих лет её жизни.\n\n**Пятничная и коллективная молитвы** не обязательны для неё по единогласному мнению учёных; в хадисе сказано, что пятничная молитва в общине — обязанность каждого мусульманина, кроме четырёх, и среди них названа женщина, — передал Абу Дауд.\n\n**Участие в боевом джихаде** для неё не обязательно. Аиша спросила Пророка ﷺ, не следует ли им сражаться, раз они считают джихад лучшим из дел; он ответил, что лучший джихад для них — принятый хадж, — передал аль-Бухари.\n\n**Содержание** на ней не лежит — ни своё, ни дома, ни детей, пока отец в состоянии содержать, — даже если она богаче его. И она не входит в **акилю** — родню, несущую выкуп за кровь вместе с виновным.",
+            "es": "**La oración durante la menstruación y el sangrado posparto** queda suprimida para ella y no la recupera. ʿĀʾišah dijo que eso les sucedía, y se les ordenaba recuperar el ayuno pero no se les ordenaba recuperar la oración —lo narra Muslim—. Son días de cada mes a lo largo de años de su vida.\n\n**La oración del viernes y la oración en congregación** no son obligatorias para ella por consenso de los sabios; un hadiz dice que el viernes en congregación es un deber de todo musulmán salvo cuatro, y menciona entre ellos a la mujer —lo narra Abū Dāwūd—.\n\n**Combatir en el yihad** no le es obligatorio. ʿĀʾišah preguntó al Profeta ﷺ si, ya que veían el yihad como la mejor obra, no debían combatir; él respondió que el mejor yihad para ellas es una peregrinación aceptada —lo narra al-Bujārī—.\n\n**La manutención** no le corresponde —ni la suya, ni la de su hogar, ni la de sus hijos mientras el padre pueda— aunque sea más rica que él. Tampoco forma parte de la **ʿāqilah**, los parientes que cargan con el precio de sangre junto con el culpable.",
+            "uk": "**Молитва під час місячних і післяпологової кровотечі** знімається з неї, і вона її не надолужує. Аїша сказала, що з ними це траплялося, і їм веліли надолужувати піст, але не веліли надолужувати молитву, — передав Муслім. Це дні кожного місяця протягом багатьох років її життя.\n\n**П'ятнична та колективна молитви** не обов'язкові для неї за одностайною думкою вчених; у хадисі сказано, що п'ятнична молитва в громаді — обов'язок кожного мусульманина, крім чотирьох, і серед них названо жінку, — передав Абу Дауд.\n\n**Участь у бойовому джихаді** для неї не обов'язкова. Аїша запитала Пророка ﷺ, чи не слід їм битися, якщо вони вважають джихад найкращим із діл; він відповів, що найкращий джихад для них — прийнятий хадж, — передав аль-Бухарі.\n\n**Утримання** на ній не лежить — ні своє, ні дому, ні дітей, доки батько спроможний утримувати, — навіть якщо вона багатша за нього. І вона не входить до **акілі** — родини, що несе викуп за кров разом із винним."
+          }
+        },
+        {
+          "id": "on-men",
+          "heading": {
+            "ar": "ما انفرد به الرجل",
+            "en": "What Falls on the Man Alone",
+            "ru": "Что лежит только на мужчине",
+            "es": "Lo que recae solo en el hombre",
+            "uk": "Що лежить лише на чоловікові"
+          },
+          "body": {
+            "ar": "في مقابل ذلك انفرد الرجل بتكاليف مالية وبدنية ثقيلة:\n\n**المهر** يدفعه هو لها، لا العكس (سورة النساء: ٤). و**النفقة** على زوجته وأولاده من طعام وكسوة وسكن: ﴿وَعَلَى الْمَوْلُودِ لَهُ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِالْمَعْرُوفِ﴾ سورة البقرة: ٢٣٣، و﴿لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ﴾ سورة الطلاق: ٧. وتستمرّ نفقة المطلّقة الحامل حتى تضع (سورة الطلاق: ٦).\n\nويجب عليه **الجهاد** إذا تعيّن، و**الجمعة**، و**صلاة الجماعة** عند من يوجبها، ويتحمّل مع عاقلته **الدية**.\n\nفإذا وُزنت التكاليف بثقلها لا بعددها، كان نصيب الرجل منها أكبر.",
+            "en": "In return, the man alone carries heavy financial and physical duties:\n\n**The dower** is paid by him to her, not the reverse (Sūrat al-Nisāʾ, verse 4). **Maintenance** of his wife and children — food, clothing and housing — is on him: the father must provide for them and clothe them according to what is fair — Sūrat al-Baqarah, verse 233 — and let the man of means spend according to his means — Sūrat al-Ṭalāq, verse 7. The maintenance of a pregnant divorced wife continues until she gives birth (Sūrat al-Ṭalāq, verse 6).\n\n**Jihad** is binding on him when it becomes an individual duty, as is the **Friday prayer**, and **congregational prayer** according to those who hold it obligatory; and with his kin he bears the **blood money**.\n\nWhen the duties are weighed by their burden rather than their number, the man's share is the greater.",
+            "ru": "В ответ на это только мужчина несёт тяжёлые имущественные и телесные обязанности:\n\n**Брачный дар** платит он ей, а не наоборот (сура «ан-Ниса», аят 4). **Содержание** жены и детей — пища, одежда и жильё — на нём: отец обязан обеспечивать их пропитанием и одеждой по справедливости — сура «аль-Бакара», аят 233, — и пусть состоятельный тратит по своему достатку — сура «ат-Талак», аят 7. Содержание беременной разведённой жены продолжается до родов (сура «ат-Талак», аят 6).\n\nНа нём **джихад**, когда он становится личной обязанностью, **пятничная молитва** и **коллективная молитва** по мнению тех, кто считает её обязательной; вместе со своей роднёй он несёт **выкуп за кровь**.\n\nЕсли взвешивать обязанности по их тяжести, а не по числу, доля мужчины окажется больше.",
+            "es": "En contrapartida, solo el hombre carga con pesados deberes económicos y físicos:\n\n**La dote** la paga él a ella, no al revés (sura al-Nisāʾ, aleya 4). **La manutención** de su esposa e hijos —comida, vestido y vivienda— le corresponde: el padre debe proveer su sustento y su vestido conforme a lo justo —sura al-Baqarah, aleya 233—, y que el acomodado gaste según su holgura —sura al-Ṭalāq, aleya 7—. La manutención de la divorciada embarazada continúa hasta que dé a luz (sura al-Ṭalāq, aleya 6).\n\nLe obliga **el yihad** cuando se vuelve deber individual, **la oración del viernes** y **la oración en congregación** según quienes la consideran obligatoria; y junto con sus parientes carga con **el precio de sangre**.\n\nSi los deberes se pesan por su carga y no por su número, la parte del hombre es mayor.",
+            "uk": "Натомість лише чоловік несе важкі майнові й тілесні обов'язки:\n\n**Шлюбний дар** платить він їй, а не навпаки (сура «ан-Ніса», аят 4). **Утримання** дружини й дітей — їжа, одяг і житло — на ньому: батько зобов'язаний забезпечувати їх харчуванням і одягом за справедливістю — сура «аль-Бакара», аят 233, — і нехай заможний витрачає за своїм статком — сура «ат-Талак», аят 7. Утримання вагітної розлученої дружини триває до пологів (сура «ат-Талак», аят 6).\n\nНа ньому **джихад**, коли він стає особистим обов'язком, **п'ятнична молитва** і **колективна молитва** на думку тих, хто вважає її обов'язковою; разом зі своєю ріднею він несе **викуп за кров**.\n\nЯкщо зважувати обов'язки за їхньою вагою, а не за кількістю, частка чоловіка виявиться більшою."
+          }
+        },
+        {
+          "id": "qiwamah",
+          "heading": {
+            "ar": "القوامة والطاعة",
+            "en": "Guardianship and Obedience",
+            "ru": "Попечение и повиновение",
+            "es": "La tutela y la obediencia",
+            "uk": "Опікування та послух"
+          },
+          "body": {
+            "ar": "قال تعالى: ﴿الرِّجَالُ قَوَّامُونَ عَلَى النِّسَاءِ بِمَا فَضَّلَ اللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَا أَنفَقُوا مِنْ أَمْوَالِهِمْ﴾ سورة النساء: ٣٤. فالقوامة معلّلة في الآية نفسها بالإنفاق، وهي قيام على شؤون الأسرة ورعاية لها، يُسأل عنها الرجل، لا سلطة مطلقة.\n\nوالطاعة الواجبة على الزوجة مقيّدة من وجهين: أنها في شؤون الزوجية لا في كل شيء، فلا سلطان له على مالها، وأنها في المعروف، فقد قال النبيّ ﷺ: «لا طاعة في معصية، إنما الطاعة في المعروف» رواه البخاري ومسلم.\n\nوقابلها القرآن بحقوق لها على الرجل: ﴿وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ﴾ سورة البقرة: ٢٢٨.",
+            "en": "God says that men are guardians over women by what God has given one over the other and by what they spend from their wealth — Sūrat al-Nisāʾ, verse 34. Guardianship is explained in the verse itself by spending; it is the management and care of the family's affairs, for which the man is answerable, not absolute authority.\n\nThe obedience owed by the wife is bounded in two ways: it concerns the affairs of marriage, not everything — he has no authority over her wealth — and it is within what is right, for the Prophet ﷺ said there is no obedience in disobedience; obedience is only in what is right — narrated by al-Bukhārī and Muslim.\n\nThe Qurʾān set against it her rights over the man: women have rights similar to the duties upon them, according to what is fair — Sūrat al-Baqarah, verse 228.",
+            "ru": "Бог говорит, что мужчины — попечители женщин, потому что Бог дал одним преимущество над другими, и потому что они тратят из своего имущества, — сура «ан-Ниса», аят 34. Попечение объяснено в самом аяте расходами; это ведение дел семьи и забота о ней, за которые мужчина отвечает, а не неограниченная власть.\n\nПовиновение, которое жена обязана проявлять, ограничено с двух сторон: оно касается супружеских дел, а не всего, — у мужа нет власти над её имуществом; и оно — в пределах одобряемого, ведь Пророк ﷺ сказал, что нет повиновения в ослушании, повиновение — лишь в одобряемом, — передали аль-Бухари и Муслим.\n\nКоран противопоставил этому её права по отношению к мужчине: у женщин есть права, подобные их обязанностям, по справедливости, — сура «аль-Бакара», аят 228.",
+            "es": "Dios dice que los hombres son responsables de las mujeres por lo que Dios ha concedido a unos sobre otros y por lo que gastan de sus bienes —sura al-Nisāʾ, aleya 34—. La tutela se explica en la misma aleya por el gasto; es la gestión y el cuidado de los asuntos de la familia, de los que el hombre responde, no una autoridad absoluta.\n\nLa obediencia que debe la esposa está acotada de dos maneras: concierne a los asuntos del matrimonio, no a todo —él no tiene autoridad sobre sus bienes—, y es dentro de lo reconocido como bueno, pues el Profeta ﷺ dijo que no hay obediencia en la desobediencia, la obediencia es solo en lo reconocido como bueno —lo narran al-Bujārī y Muslim—.\n\nEl Corán le opuso sus derechos sobre el hombre: ellas tienen derechos semejantes a sus deberes, conforme a lo justo —sura al-Baqarah, aleya 228—.",
+            "uk": "Бог каже, що чоловіки — опікуни жінок, бо Бог дав одним перевагу над іншими, і тому що вони витрачають зі свого майна, — сура «ан-Ніса», аят 34. Опікування пояснено в самому аяті витратами; це ведення справ родини й турбота про неї, за які чоловік відповідає, а не необмежена влада.\n\nПослух, який дружина зобов'язана виявляти, обмежений із двох боків: він стосується подружніх справ, а не всього, — у чоловіка немає влади над її майном; і він — у межах схвалюваного, адже Пророк ﷺ сказав, що немає послуху в непокорі, послух — лише в схвалюваному, — передали аль-Бухарі та Муслім.\n\nКоран протиставив цьому її права щодо чоловіка: у жінок є права, подібні до їхніх обов'язків, за справедливістю, — сура «аль-Бакара», аят 228."
+          }
+        },
+        {
+          "id": "hijab-inheritance",
+          "heading": {
+            "ar": "الحجاب والميراث",
+            "en": "The Hijab and Inheritance",
+            "ru": "Хиджаб и наследство",
+            "es": "El hiyab y la herencia",
+            "uk": "Хіджаб і спадок"
+          },
+          "body": {
+            "ar": "**الحجاب** تكليف على المرأة، لكن الرجل مكلّف قبله بغضّ البصر وحفظ الفرج، وقد بدأ القرآن به: ﴿قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ﴾ سورة النور: ٣٠، ثم ثنّى بالمؤمنات في الآية التي تليها. وللرجل عورة يجب سترها، وحُرّم عليه لبس الحرير والذهب وأُبيحا للمرأة.\n\nو**الميراث** ليس على النصف في كل حال. فالأب والأمّ يأخذ كلٌّ منهما السدس مع الأولاد (سورة النساء: ١١)، والإخوة لأمّ يتساوى فيهم الذكر والأنثى (سورة النساء: ١٢). وحيث يأخذ الابن مثل حظّ البنتين، فهو يأخذه وعليه المهر والنفقة، وهي تأخذ نصيبها ولا يجب عليها أن تنفق منه على أحد. فالفرق في القسمة يقابله فرق في التكليف.",
+            "en": "**The hijab** is a duty on women, but the man is charged before her with lowering his gaze and guarding his chastity, and the Qurʾān began with him: it tells the believing men to lower their gaze and guard their private parts — Sūrat al-Nūr, verse 30 — and turns to the believing women in the verse that follows. A man has parts of the body that must be covered, and silk and gold are forbidden to him while permitted to women.\n\n**Inheritance** is not at half in every case. Father and mother each take a sixth alongside the children (Sūrat al-Nisāʾ, verse 11), and maternal siblings, male and female, share equally (Sūrat al-Nisāʾ, verse 12). Where a son takes the share of two daughters, he takes it while owing dower and maintenance; she takes her share and is not obliged to spend any of it on anyone. The difference in division is matched by a difference in obligation.",
+            "ru": "**Хиджаб** — обязанность женщины, но мужчине прежде неё велено опускать взор и хранить целомудрие, и Коран начал с него: он велит верующим мужчинам опускать взоры и оберегать срамные места — сура «ан-Нур», аят 30, — а к верующим женщинам обращается в следующем аяте. У мужчины тоже есть части тела, которые обязательно покрывать, и ему запрещены шёлк и золото, дозволенные женщине.\n\n**Наследство** не во всех случаях делится наполовину. Отец и мать при наличии детей получают каждый по шестой доле (сура «ан-Ниса», аят 11), а единоутробные братья и сёстры делят поровну (сура «ан-Ниса», аят 12). Там же, где сын получает долю двух дочерей, он получает её, будучи обязан платить брачный дар и содержание; она получает свою долю и не обязана тратить из неё ни на кого. Различию в разделе соответствует различие в обязанностях.",
+            "es": "**El hiyab** es un deber de la mujer, pero al hombre se le ordenó antes que a ella bajar la mirada y guardar su castidad, y el Corán empezó por él: ordena a los creyentes bajar la mirada y guardar sus partes íntimas —sura al-Nūr, aleya 30— y se dirige a las creyentes en la aleya siguiente. El hombre también tiene partes del cuerpo que debe cubrir, y se le prohíben la seda y el oro, permitidos a la mujer.\n\n**La herencia** no es a la mitad en todos los casos. El padre y la madre reciben cada uno un sexto junto a los hijos (sura al-Nisāʾ, aleya 11), y los hermanos uterinos, varones y mujeres, comparten por igual (sura al-Nisāʾ, aleya 12). Donde el hijo recibe la parte de dos hijas, la recibe debiendo dote y manutención; ella recibe su parte y no está obligada a gastar nada de ella en nadie. A la diferencia en el reparto le corresponde una diferencia en la obligación.",
+            "uk": "**Хіджаб** — обов'язок жінки, але чоловікові раніше за неї звелено опускати погляд і берегти цнотливість, і Коран почав із нього: він велить віруючим чоловікам опускати погляди й оберігати сором'язливі місця — сура «ан-Нур», аят 30, — а до віруючих жінок звертається в наступному аяті. У чоловіка теж є частини тіла, які обов'язково покривати, і йому заборонені шовк і золото, дозволені жінці.\n\n**Спадок** не в усіх випадках ділиться навпіл. Батько й мати за наявності дітей отримують кожен по шостій частці (сура «ан-Ніса», аят 11), а єдиноутробні брати й сестри ділять порівну (сура «ан-Ніса», аят 12). Там же, де син отримує частку двох доньок, він отримує її, будучи зобов'язаним платити шлюбний дар і утримання; вона отримує свою частку й не зобов'язана витрачати з неї ні на кого. Відмінності в поділі відповідає відмінність в обов'язках."
+          }
+        },
+        {
+          "id": "humiliation",
+          "heading": {
+            "ar": "هل في ذلك إهانة؟",
+            "en": "Is There Humiliation in This?",
+            "ru": "Есть ли в этом унижение?",
+            "es": "¿Hay humillación en esto?",
+            "uk": "Чи є в цьому приниження?"
+          },
+          "body": {
+            "ar": "يرى بعض المنتقدين أن مجرّد اختلاف الأحكام بين الرجل والمرأة تمييز ينتقص منها، وأن المساواة لا تتحقّق إلا بالتماثل في كل حكم. والجواب أن الاختلاف في التكليف لا يدلّ على اختلاف في القيمة، بدليل أن القيمة عند الله واحدة والجزاء واحد كما سبق. والتكليف في الإسلام عبءٌ يُحاسَب عليه صاحبه، لا امتياز يتباهى به، فمن خُفّف عنه لم يُنقَص.\n\nوكثير ممّا يُعدّ قيداً على المرأة هو في الحقيقة حقّ لها على غيرها: فالنفقة دَين على الزوج تطالب به، والمهر ملك لها، والولاية في الزواج لا تُمضي عقداً بغير رضاها. ولو أُلغي الفرق في التكاليف لسقطت عن الرجل نفقتها ومهرها معه.",
+            "en": "Some critics hold that the mere difference of rulings between men and women is a discrimination that diminishes her, and that equality is achieved only by sameness in every ruling. The answer is that a difference in obligation does not indicate a difference in worth: worth before God is one and the reward is one, as shown above. Obligation in Islam is a burden for which its bearer is held to account, not a privilege to boast of; whoever has been relieved of a burden has not been diminished.\n\nMuch of what is counted as a restriction on women is in fact a right of hers over others: maintenance is a debt owed by the husband that she can claim, the dower is her property, and guardianship in marriage cannot conclude a contract without her consent. Were the difference in duties abolished, the man's obligation to pay her maintenance and dower would be abolished with it.",
+            "ru": "Некоторые критики считают, что само различие предписаний для мужчины и женщины есть дискриминация, умаляющая её, и что равенство достигается лишь одинаковостью в каждом предписании. Ответ таков: различие в обязанностях не указывает на различие в ценности — ценность перед Богом одна и воздаяние одно, как показано выше. Обязанность в исламе — это бремя, за которое с несущего спросится, а не привилегия, которой гордятся; тот, с кого бремя снято, не умалён.\n\nМногое из того, что считают ограничением для женщины, на деле — её право по отношению к другим: содержание — долг мужа, который она может требовать, брачный дар — её собственность, а опекунство в браке не может заключить договор без её согласия. Если отменить различие в обязанностях, вместе с ним отпадёт и обязанность мужчины платить ей содержание и брачный дар.",
+            "es": "Algunos críticos sostienen que la mera diferencia de normas entre el hombre y la mujer es una discriminación que la menoscaba, y que la igualdad solo se alcanza con la identidad en cada norma. La respuesta es que una diferencia en la obligación no indica una diferencia en el valor: el valor ante Dios es uno y la recompensa es una, como se vio. La obligación en el islam es una carga de la que se rinde cuentas, no un privilegio del que presumir; a quien se le aligera una carga no se le menoscaba.\n\nMucho de lo que se cuenta como restricción para la mujer es en realidad un derecho suyo frente a otros: la manutención es una deuda del esposo que ella puede reclamar, la dote es de su propiedad, y la tutela matrimonial no puede cerrar un contrato sin su consentimiento. Si se aboliera la diferencia en los deberes, con ella caería la obligación del hombre de pagarle manutención y dote.",
+            "uk": "Деякі критики вважають, що сама відмінність приписів для чоловіка й жінки є дискримінацією, що применшує її, і що рівність досягається лише однаковістю в кожному приписі. Відповідь така: відмінність в обов'язках не вказує на відмінність у цінності — цінність перед Богом одна й винагорода одна, як показано вище. Обов'язок в ісламі — це тягар, за який із того, хто його несе, спитається, а не привілей, яким пишаються; той, із кого тягар знято, не применшений.\n\nБагато з того, що вважають обмеженням для жінки, насправді — її право щодо інших: утримання — борг чоловіка, якого вона може вимагати, шлюбний дар — її власність, а опікунство в шлюбі не може укласти договір без її згоди. Якщо скасувати відмінність в обов'язках, разом із нею відпаде й обов'язок чоловіка платити їй утримання та шлюбний дар."
+          }
+        },
+        {
+          "id": "conclusion",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "تكاليف المرأة في الإسلام ليست أكثر من تكاليف الرجل: يشتركان في أصول الدين وأركانه، وخُفّف عنها في الصلاة والجمعة والجماعة والجهاد والنفقة والدية، وانفرد الرجل بالمهر والنفقة والقتال وتحمّل الدية.\n\nوما اختصّت به من حجاب أو طاعة في المعروف يقابله ما اختصّ به الرجل من غضّ البصر وتحريم الحرير والذهب والقيام بالنفقة. فالتكاليف موزّعة بحسب الأدوار، والكرامة والجزاء واحد.",
+            "en": "A woman's duties in Islam are not more than a man's. The two share the foundations and pillars of the religion; she was relieved in prayer, the Friday and congregational prayers, jihad, maintenance and blood money; and the man alone bears the dower, maintenance, fighting and the blood money.\n\nWhat is particular to her — the hijab, or obedience within what is right — is matched by what is particular to him: lowering the gaze, the prohibition of silk and gold, and the duty of maintenance. The duties are distributed according to roles; dignity and reward are one.",
+            "ru": "Обязанностей у женщины в исламе не больше, чем у мужчины. Оба разделяют основы и столпы религии; ей сделано облегчение в молитве, пятничной и коллективной молитвах, джихаде, содержании и выкупе за кровь; а только мужчина несёт брачный дар, содержание, сражение и выкуп за кровь.\n\nТо, что относится только к ней, — хиджаб или повиновение в одобряемом, — уравновешено тем, что относится только к нему: опусканием взора, запретом шёлка и золота и обязанностью содержания. Обязанности распределены по ролям, а достоинство и воздаяние едины.",
+            "es": "Los deberes de la mujer en el islam no son más que los del hombre. Ambos comparten los fundamentos y pilares de la religión; a ella se le aligeró en la oración, el viernes y la congregación, el yihad, la manutención y el precio de sangre; y solo el hombre carga con la dote, la manutención, el combate y el precio de sangre.\n\nLo que es propio de ella —el hiyab o la obediencia en lo reconocido como bueno— se corresponde con lo propio de él: bajar la mirada, la prohibición de la seda y el oro y el deber de manutención. Los deberes se reparten según las funciones; la dignidad y la recompensa son una.",
+            "uk": "Обов'язків у жінки в ісламі не більше, ніж у чоловіка. Обоє поділяють основи та стовпи релігії; їй зроблено полегшення в молитві, п'ятничній і колективній молитвах, джихаді, утриманні та викупі за кров; а лише чоловік несе шлюбний дар, утримання, битву та викуп за кров.\n\nТе, що стосується лише її, — хіджаб чи послух у схвалюваному, — урівноважене тим, що стосується лише його: опусканням погляду, забороною шовку й золота та обов'язком утримання. Обов'язки розподілено за ролями, а гідність і винагорода єдині."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "جامع البيان",
+          "en": "Jāmiʿ al-Bayān",
+          "ru": "«Джами аль-Баян»",
+          "es": "Jāmiʿ al-Bayān",
+          "uk": "«Джамі аль-Баян»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        }
+      ],
+      "addedAt": "2026-11-09"
+    },
+    {
       "id": "bad-al-khalq",
       "ref": "M2",
       "chapter": {
@@ -28787,6 +29197,178 @@
         }
       ],
       "addedAt": "2026-09-26"
+    },
+    {
+      "id": "women-rights-in-islam",
+      "ref": "M9",
+      "chapter": {
+        "ar": "المرأة في الإسلام",
+        "en": "Women in Islam",
+        "ru": "Женщина в исламе",
+        "es": "La mujer en el islam",
+        "uk": "Жінка в ісламі"
+      },
+      "seq": 1,
+      "title": {
+        "ar": "حقوق المرأة في الإسلام: كرامتها الإنسانية وحقوقها في المال والزواج والعلم والأسرة",
+        "en": "Women's Rights in Islam: Human Dignity and Rights in Property, Marriage, Learning and the Family",
+        "ru": "Права женщины в исламе: человеческое достоинство и права в имуществе, браке, знании и семье",
+        "es": "Los derechos de la mujer en el islam: dignidad humana y derechos en los bienes, el matrimonio, el saber y la familia",
+        "uk": "Права жінки в ісламі: людська гідність і права в майні, шлюбі, знанні та родині"
+      },
+      "excerpt": {
+        "ar": "مقال يجمع حقوق المرأة الثابتة بنصوص القرآن والسنّة: مساواتها في الكرامة والجزاء، وذمّتها المالية المستقلة، ورضاها في الزواج، وحقّها في العلم.",
+        "en": "An article gathering the rights of women established by the texts of the Qurʾān and the sunnah: equal dignity and reward, an independent financial capacity, consent in marriage, and the right to learn.",
+        "ru": "Статья, собирающая права женщины, установленные текстами Корана и сунны: равное достоинство и воздаяние, самостоятельное имущество, согласие в браке и право на знание.",
+        "es": "Un artículo que reúne los derechos de la mujer fijados por los textos del Corán y la sunna: igual dignidad y recompensa, patrimonio propio, consentimiento en el matrimonio y derecho al saber.",
+        "uk": "Стаття, що збирає права жінки, встановлені текстами Корану та сунни: рівна гідність і винагорода, власне майно, згода в шлюбі та право на знання."
+      },
+      "relatedRefs": [],
+      "sections": [
+        {
+          "id": "intro",
+          "heading": {
+            "ar": "",
+            "en": "",
+            "ru": "",
+            "es": "",
+            "uk": ""
+          },
+          "body": {
+            "ar": "جاء الإسلام في مجتمعٍ كانت المرأة فيه تُورَث ولا تَرِث، وتُزوَّج بغير رأيها، ويُستحى من ولادتها. فقرّر لها حقوقاً بنصٍّ من القرآن والسنّة، لا بعُرفٍ يتبدّل بتبدّل الأزمان، ولا بمنحةٍ من سلطانٍ يملك أن يستردّها.\n\nوهذا المقال يعرض هذه الحقوق كما وردت في النصوص، مع موضع كلّ نصّ، ليرجع القارئ إليه بنفسه.",
+            "en": "Islam came to a society in which a woman could be inherited but could not inherit, was married off without her say, and whose birth was met with shame. It established rights for her by text of the Qurʾān and the sunnah — not by a custom that shifts with the times, nor as a grant from a ruler who could take it back.\n\nThis article sets out those rights as the texts state them, with the place of each text, so that the reader may go back to it himself.",
+            "ru": "Ислам пришёл в общество, где женщину могли унаследовать, но сама она не наследовала, где её выдавали замуж без её мнения, а её рождения стыдились. Он установил для неё права текстом Корана и сунны — не обычаем, меняющимся вместе со временем, и не милостью правителя, который может её отнять.\n\nЭта статья излагает эти права так, как их передают тексты, с указанием места каждого текста, чтобы читатель мог обратиться к нему сам.",
+            "es": "El islam llegó a una sociedad en la que la mujer podía ser heredada pero no heredaba, era casada sin su opinión y su nacimiento se recibía con vergüenza. Estableció para ella derechos por texto del Corán y de la sunna, no por una costumbre que cambia con los tiempos ni como concesión de un gobernante que pudiera retirarla.\n\nEste artículo expone esos derechos tal como los recogen los textos, con la ubicación de cada uno, para que el lector pueda acudir a ellos por sí mismo.",
+            "uk": "Іслам прийшов до суспільства, де жінку могли успадкувати, але сама вона не успадковувала, де її видавали заміж без її думки, а її народження соромилися. Він установив для неї права текстом Корану та сунни — не звичаєм, що змінюється з часом, і не милістю правителя, який може її відібрати.\n\nЦя стаття викладає ці права так, як їх подають тексти, із зазначенням місця кожного тексту, щоб читач міг звернутися до нього сам."
+          }
+        },
+        {
+          "id": "dignity",
+          "heading": {
+            "ar": "المساواة في أصل الخلق وفي الجزاء",
+            "en": "Equality in Origin and in Reward",
+            "ru": "Равенство в происхождении и воздаянии",
+            "es": "Igualdad en el origen y en la recompensa",
+            "uk": "Рівність у походженні та винагороді"
+          },
+          "body": {
+            "ar": "أوّل ما يقرّره القرآن أن الرجل والمرأة من أصلٍ واحد: ﴿يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِّن نَّفْسٍ وَاحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا﴾ سورة النساء: ١. فلا يرجع أحدهما إلى جنسٍ أدنى، ولا تُحمَّل المرأة وحدها خطيئة الأكل من الشجرة، فالقرآن ينسبها إلى آدم وزوجه معاً.\n\nوهي مكلّفة كالرجل، مجزيّة بعملها كما يُجزى: ﴿فَاسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ بَعْضُكُم مِّن بَعْضٍ﴾ سورة آل عمران: ١٩٥. و﴿مَنْ عَمِلَ صَالِحًا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾ سورة النحل: ٩٧.\n\nومعيار التفاضل عند الله واحد للجنسين، وهو التقوى لا الذكورة ولا الأنوثة.",
+            "en": "The first thing the Qurʾān establishes is that man and woman come from a single origin: it addresses mankind, reminding them that their Lord created them from a single soul and created from it its mate — Sūrat al-Nisāʾ, verse 1. Neither goes back to a lower kind, and the woman is not made to carry alone the sin of eating from the tree: the Qurʾān attributes it to Adam and his wife together.\n\nShe is charged with duties as a man is, and rewarded for her deeds as he is: God answers that He does not let the deed of any doer go to waste, male or female, each of them being from the other — Sūrat Āl ʿImrān, verse 195. And whoever does good, male or female, while a believer, God will grant a good life — Sūrat al-Naḥl, verse 97.\n\nThe measure of rank before God is one for both: God-consciousness, not maleness or femaleness.",
+            "ru": "Первое, что утверждает Коран: мужчина и женщина — из одного начала. Он обращается к людям, напоминая, что Господь сотворил их из одной души и сотворил из неё пару ей — сура «ан-Ниса», аят 1. Ни один из них не восходит к низшему роду, и на женщину не возложен один лишь грех вкушения от дерева: Коран приписывает его Адаму и его жене вместе.\n\nОна обязана исполнять предписания, как и мужчина, и получает воздаяние за свои дела, как и он: Бог отвечает, что не даёт пропасть деянию ни одного из делающих — мужчины или женщины, ведь одни из них происходят от других — сура «Аль Имран», аят 195. И кто творит благое, будь то мужчина или женщина, будучи верующим, тому Бог дарует благую жизнь — сура «ан-Нахль», аят 97.\n\nМерило превосходства перед Богом одно для обоих — богобоязненность, а не мужской или женский пол.",
+            "es": "Lo primero que establece el Corán es que el hombre y la mujer proceden de un solo origen: se dirige a la humanidad recordándole que su Señor la creó de un solo ser y creó de él a su pareja —sura al-Nisāʾ, aleya 1—. Ninguno de los dos se remonta a una especie inferior, ni se carga solo a la mujer el pecado de comer del árbol: el Corán lo atribuye a Adán y a su esposa juntos.\n\nElla está obligada como el hombre y recompensada por sus obras como él: Dios responde que no deja perderse la obra de nadie que obre, hombre o mujer, pues proceden unos de otros —sura Āl ʿImrān, aleya 195—. Y a quien obre el bien, hombre o mujer, siendo creyente, Dios le concederá una vida buena —sura al-Naḥl, aleya 97—.\n\nLa medida de la superioridad ante Dios es una sola para ambos: el temor de Dios, no ser varón ni ser mujer.",
+            "uk": "Перше, що стверджує Коран: чоловік і жінка — з одного начала. Він звертається до людей, нагадуючи, що Господь створив їх з однієї душі й створив з неї пару їй — сура «ан-Ніса», аят 1. Жоден із них не походить від нижчого роду, і на жінку не покладено самого лише гріха скуштування з дерева: Коран приписує його Адамові та його дружині разом.\n\nВона зобов'язана виконувати приписи, як і чоловік, і отримує винагороду за свої діла, як і він: Бог відповідає, що не дає пропасти ділу жодного з тих, хто діє, — чоловіка чи жінки, адже одні з них походять від інших — сура «Аль Імран», аят 195. І хто чинить добре, чоловік чи жінка, будучи віруючим, тому Бог дарує добре життя — сура «ан-Нахль», аят 97.\n\nМірило переваги перед Богом одне для обох — богобоязливість, а не чоловіча чи жіноча стать."
+          }
+        },
+        {
+          "id": "property",
+          "heading": {
+            "ar": "الحقوق المالية: الملك والميراث والمهر والنفقة",
+            "en": "Financial Rights: Ownership, Inheritance, Dower and Maintenance",
+            "ru": "Имущественные права: собственность, наследство, брачный дар и содержание",
+            "es": "Derechos económicos: propiedad, herencia, dote y manutención",
+            "uk": "Майнові права: власність, спадок, шлюбний дар і утримання"
+          },
+          "body": {
+            "ar": "للمرأة في الإسلام **ذمّة مالية مستقلة**: تملك وتبيع وتشتري وتهب وتوصي، ولا يملك زوجها ولا أبوها أن يتصرّف في مالها بغير إذنها، ولا تنتقل أملاكها إلى زوجها بالزواج: ﴿لِّلرِّجَالِ نَصِيبٌ مِّمَّا اكْتَسَبُوا وَلِلنِّسَاءِ نَصِيبٌ مِّمَّا اكْتَسَبْنَ﴾ سورة النساء: ٣٢.\n\nوجعل لها نصيباً مفروضاً في الميراث بعد أن كانت تُحرَمه: ﴿لِّلرِّجَالِ نَصِيبٌ مِّمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِّمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ نَصِيبًا مَّفْرُوضًا﴾ سورة النساء: ٧.\n\nوأوجب لها **المهر** حقّاً خالصاً لها لا لوليّها: ﴿وَآتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً﴾ سورة النساء: ٤. وأوجب على الزوج **نفقتها** من طعامٍ وكسوةٍ وسكن ولو كانت غنية، فمالها لها ونفقتها عليه. ولمّا شكت هند بنت عتبة أن زوجها لا يعطيها ما يكفيها قال لها النبيّ ﷺ: «خذي ما يكفيك وولدك بالمعروف» رواه البخاري.",
+            "en": "In Islam a woman has **an independent financial capacity**: she owns, sells, buys, gives and bequeaths, and neither her husband nor her father may dispose of her wealth without her permission. Her property does not pass to her husband through marriage: men have a share of what they have earned, and women a share of what they have earned — Sūrat al-Nisāʾ, verse 32.\n\nIt gave her a fixed share of inheritance after she had been denied it: men have a share of what parents and near relatives leave, and women have a share of what parents and near relatives leave, be it little or much — an obligatory share — Sūrat al-Nisāʾ, verse 7.\n\nIt made the **dower** her own right, not her guardian's: the Qurʾān commands that women be given their dowers as a free gift — Sūrat al-Nisāʾ, verse 4. And it made her **maintenance** — food, clothing and housing — the husband's duty even if she is wealthy: her wealth is hers and her maintenance is on him. When Hind bint ʿUtbah complained that her husband did not give her enough, the Prophet ﷺ told her to take what suffices her and her child, reasonably — narrated by al-Bukhārī.",
+            "ru": "У женщины в исламе **самостоятельная имущественная правоспособность**: она владеет, продаёт, покупает, дарит и завещает, и ни муж, ни отец не вправе распоряжаться её имуществом без её позволения. Её собственность не переходит к мужу при вступлении в брак: мужчинам — доля из того, что они приобрели, и женщинам — доля из того, что они приобрели, — сура «ан-Ниса», аят 32.\n\nИслам дал ей установленную долю в наследстве, тогда как прежде её лишали его: мужчинам — доля из оставленного родителями и близкими родственниками, и женщинам — доля из оставленного родителями и близкими, мало того или много, — доля обязательная, — сура «ан-Ниса», аят 7.\n\nОн сделал **брачный дар** её собственным правом, а не правом её опекуна: Коран велит отдавать женщинам их брачные дары по доброй воле — сура «ан-Ниса», аят 4. И возложил её **содержание** — пищу, одежду и жильё — на мужа, даже если она богата: её имущество принадлежит ей, а её содержание — на нём. Когда Хинд бинт Утба пожаловалась, что муж не даёт ей достаточно, Пророк ﷺ сказал ей брать то, что достаточно ей и её ребёнку, в меру — передал аль-Бухари.",
+            "es": "En el islam la mujer tiene **un patrimonio propio e independiente**: posee, vende, compra, regala y lega, y ni su esposo ni su padre pueden disponer de sus bienes sin su permiso. Sus propiedades no pasan al esposo por el matrimonio: a los hombres les corresponde una parte de lo que ganaron, y a las mujeres una parte de lo que ganaron —sura al-Nisāʾ, aleya 32—.\n\nLe asignó una parte fija de la herencia después de que se le negaba: a los hombres les corresponde una parte de lo que dejan los padres y los parientes cercanos, y a las mujeres una parte de lo que dejan los padres y los parientes cercanos, sea poco o mucho, como parte obligatoria —sura al-Nisāʾ, aleya 7—.\n\nHizo de la **dote** un derecho de ella, no de su tutor: el Corán ordena dar a las mujeres sus dotes como un regalo voluntario —sura al-Nisāʾ, aleya 4—. E impuso al esposo su **manutención** —comida, vestido y vivienda— aunque ella sea rica: sus bienes son suyos y su manutención corre a cargo de él. Cuando Hind bint ʿUtbah se quejó de que su esposo no le daba lo suficiente, el Profeta ﷺ le dijo que tomara lo que bastara para ella y su hijo, con mesura —lo narra al-Bujārī—.",
+            "uk": "У жінки в ісламі **самостійна майнова правоздатність**: вона володіє, продає, купує, дарує та заповідає, і ні чоловік, ні батько не мають права розпоряджатися її майном без її дозволу. Її власність не переходить до чоловіка під час укладення шлюбу: чоловікам — частка з того, що вони набули, і жінкам — частка з того, що вони набули, — сура «ан-Ніса», аят 32.\n\nІслам дав їй установлену частку в спадку, тоді як раніше її позбавляли його: чоловікам — частка з залишеного батьками й близькими родичами, і жінкам — частка з залишеного батьками й близькими, мало того чи багато, — частка обов'язкова, — сура «ан-Ніса», аят 7.\n\nВін зробив **шлюбний дар** її власним правом, а не правом її опікуна: Коран велить віддавати жінкам їхні шлюбні дари з доброї волі — сура «ан-Ніса», аят 4. І поклав її **утримання** — їжу, одяг і житло — на чоловіка, навіть якщо вона багата: її майно належить їй, а її утримання — на ньому. Коли Хінд бінт Утба поскаржилася, що чоловік не дає їй достатньо, Пророк ﷺ сказав їй брати те, що достатньо їй і її дитині, у міру, — передав аль-Бухарі."
+          }
+        },
+        {
+          "id": "marriage",
+          "heading": {
+            "ar": "الزواج برضاها والخروج منه",
+            "en": "Marriage by Her Consent, and Leaving It",
+            "ru": "Брак с её согласия и выход из него",
+            "es": "El matrimonio con su consentimiento y la salida de él",
+            "uk": "Шлюб за її згодою та вихід із нього"
+          },
+          "body": {
+            "ar": "لا يصحّ أن تُزوَّج المرأة بغير رضاها. قال النبيّ ﷺ: «لا تُنكح الأيّم حتى تُستأمر، ولا تُنكح البكر حتى تُستأذن» رواه البخاري ومسلم. ولمّا زوّج رجلٌ ابنته خنساء بنت خِذام وهي كارهة، ردّ النبيّ ﷺ نكاحها، رواه البخاري.\n\nوإذا كرهت المرأة زوجها ولم تستطع البقاء معه فلها أن تطلب الفُرقة بالخُلع، تردّ فيه ما أخذت من المهر. وأصله أن امرأة ثابت بن قيس جاءت النبيّ ﷺ فقالت إنها لا تعيب عليه خُلقاً ولا ديناً، ولكنها تكره الكفر في الإسلام، فقال: «أتردّين عليه حديقته؟» قالت: نعم، ففارقها. رواه البخاري.\n\nوأمر القرآن بحسن المعاشرة: ﴿وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ﴾ سورة النساء: ١٩. وقرّر أن لها من الحقوق مثل ما عليها من الواجبات: ﴿وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ﴾ سورة البقرة: ٢٢٨. وقال النبيّ ﷺ: «خيركم خيركم لأهله، وأنا خيركم لأهلي» رواه الترمذي.",
+            "en": "A woman may not be married without her consent. The Prophet ﷺ said that a previously married woman is not to be married until she is consulted, nor a virgin until her permission is sought — narrated by al-Bukhārī and Muslim. When a man married off his daughter Khansāʾ bint Khidhām against her will, the Prophet ﷺ annulled the marriage — narrated by al-Bukhārī.\n\nIf a woman dislikes her husband and cannot stay with him, she may seek separation through **khulʿ**, returning the dower she received. Its basis is that the wife of Thābit ibn Qays came to the Prophet ﷺ and said she found no fault in his character or his religion, but she feared ingratitude after Islam. He asked whether she would return his garden to him; she said yes, and he separated them — narrated by al-Bukhārī.\n\nThe Qurʾān commands that wives be lived with in kindness — Sūrat al-Nisāʾ, verse 19 — and establishes that they have rights similar to the duties upon them, according to what is fair — Sūrat al-Baqarah, verse 228. And the Prophet ﷺ said that the best of you is the best to his family, and that he was the best of them to his family — narrated by al-Tirmidhī.",
+            "ru": "Женщину нельзя выдать замуж без её согласия. Пророк ﷺ сказал, что ранее бывшую замужем не выдают, пока с ней не посоветуются, а девственницу — пока не спросят её разрешения, — передали аль-Бухари и Муслим. Когда один человек выдал свою дочь Хансу бинт Хизам против её воли, Пророк ﷺ расторг этот брак — передал аль-Бухари.\n\nЕсли женщина испытывает неприязнь к мужу и не может оставаться с ним, она вправе добиться развода через **хуль**, вернув полученный брачный дар. Основа этого — жена Сабита ибн Кайса пришла к Пророку ﷺ и сказала, что не порицает ни его нрава, ни его веры, но боится неблагодарности после принятия ислама. Он спросил, вернёт ли она ему его сад; она ответила «да», и он разлучил их — передал аль-Бухари.\n\nКоран велит жить с жёнами по-доброму — сура «ан-Ниса», аят 19 — и устанавливает, что у них есть права, подобные их обязанностям, по справедливости, — сура «аль-Бакара», аят 228. А Пророк ﷺ сказал, что лучший из вас — лучший к своей семье, и что он лучший из них к своей семье, — передал ат-Тирмизи.",
+            "es": "No se puede casar a una mujer sin su consentimiento. El Profeta ﷺ dijo que a la que ya estuvo casada no se la casa hasta consultarla, ni a la virgen hasta pedirle permiso —lo narran al-Bujārī y Muslim—. Cuando un hombre casó a su hija Jansāʾ bint Jidhām contra su voluntad, el Profeta ﷺ anuló ese matrimonio —lo narra al-Bujārī—.\n\nSi la mujer aborrece a su esposo y no puede seguir con él, puede pedir la separación mediante el **julʿ**, devolviendo la dote que recibió. Su fundamento es que la esposa de Ṯābit ibn Qays acudió al Profeta ﷺ y le dijo que no le reprochaba nada en su carácter ni en su religión, pero temía la ingratitud tras el islam. Él le preguntó si le devolvería su huerto; dijo que sí, y los separó —lo narra al-Bujārī—.\n\nEl Corán ordena convivir con las esposas de buena manera —sura al-Nisāʾ, aleya 19— y establece que ellas tienen derechos semejantes a sus deberes, conforme a lo justo —sura al-Baqarah, aleya 228—. Y el Profeta ﷺ dijo que el mejor de vosotros es el mejor con su familia, y que él era el mejor de ellos con la suya —lo narra al-Tirmiḏī—.",
+            "uk": "Жінку не можна видати заміж без її згоди. Пророк ﷺ сказав, що раніше заміжню не видають, доки з нею не порадяться, а незайману — доки не спитають її дозволу, — передали аль-Бухарі та Муслім. Коли один чоловік видав свою доньку Хансу бінт Хізам проти її волі, Пророк ﷺ розірвав цей шлюб — передав аль-Бухарі.\n\nЯкщо жінка відчуває неприязнь до чоловіка й не може залишатися з ним, вона має право домогтися розлучення через **хуль**, повернувши отриманий шлюбний дар. Основа цього — дружина Сабіта ібн Кайса прийшла до Пророка ﷺ і сказала, що не дорікає ні його вдачі, ні його вірі, але боїться невдячності після прийняття ісламу. Він спитав, чи поверне вона йому його сад; вона відповіла «так», і він розлучив їх — передав аль-Бухарі.\n\nКоран велить жити з дружинами по-доброму — сура «ан-Ніса», аят 19 — і встановлює, що в них є права, подібні до їхніх обов'язків, за справедливістю, — сура «аль-Бакара», аят 228. А Пророк ﷺ сказав, що найкращий з вас — найкращий до своєї родини, і що він найкращий з них до своєї родини, — передав ат-Тірмізі."
+          }
+        },
+        {
+          "id": "learning",
+          "heading": {
+            "ar": "العلم والعمل والمشاركة في الشأن العام",
+            "en": "Learning, Work and Public Life",
+            "ru": "Знание, труд и участие в общественной жизни",
+            "es": "El saber, el trabajo y la vida pública",
+            "uk": "Знання, праця та участь у громадському житті"
+          },
+          "body": {
+            "ar": "طلب العلم الواجب فريضة على المسلمة كما هو على المسلم. وقد جاءت النساء النبيّ ﷺ فقلن: غلبنا عليك الرجال، فاجعل لنا يوماً من نفسك، فوعدهنّ يوماً لقيهنّ فيه فوعظهنّ وأمرهنّ. رواه البخاري.\n\nوكانت عائشة رضي الله عنها من أكثر الصحابة رواية للحديث وأعلمهم بالفرائض، يرجع إليها كبار الصحابة فيما أشكل عليهم. وكانت خديجة رضي الله عنها قبل الإسلام صاحبة تجارة تستأجر الرجال فيها، ومنهم النبيّ ﷺ. وفي صلح الحديبية لمّا تباطأ الصحابة عن النحر والحلق استشار النبيّ ﷺ زوجه أمّ سلمة، فأشارت عليه أن يخرج فينحر ويحلق ولا يكلّم أحداً، ففعل فتبعوه. رواه البخاري.\n\nوللمرأة أن تعمل وتكسب فيما يحلّ، وكسبها لها. وهي شريكة في الأمر بالمعروف والنهي عن المنكر: ﴿وَالْمُؤْمِنُونَ وَالْمُؤْمِنَاتُ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ يَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنكَرِ﴾ سورة التوبة: ٧١. وقد أخذ النبيّ ﷺ البيعة من النساء كما أخذها من الرجال، سورة الممتحنة: ١٢.",
+            "en": "Seeking the knowledge that is obligatory is a duty on the Muslim woman as it is on the Muslim man. The women came to the Prophet ﷺ and said that the men had taken all his time, and asked him to set aside a day for them; he promised them a day, met them on it, and taught and instructed them — narrated by al-Bukhārī.\n\nʿĀʾishah was among the Companions who narrated the most hadith and knew the law of inheritance best; senior Companions would turn to her in what puzzled them. Before Islam, Khadījah ran a trade in which she hired men, among them the Prophet ﷺ. At al-Ḥudaybiyah, when the Companions were slow to sacrifice and shave, the Prophet ﷺ consulted his wife Umm Salamah; she advised him to go out, sacrifice and shave without speaking to anyone, and when he did so they followed him — narrated by al-Bukhārī.\n\nA woman may work and earn in what is lawful, and her earnings are hers. She is a partner in enjoining good and forbidding wrong: believing men and believing women are allies of one another, enjoining what is right and forbidding what is wrong — Sūrat al-Tawbah, verse 71. And the Prophet ﷺ took the pledge of allegiance from women as he took it from men — Sūrat al-Mumtaḥanah, verse 12.",
+            "ru": "Поиск обязательного знания — долг мусульманки так же, как и мусульманина. Женщины пришли к Пророку ﷺ и сказали, что мужчины заняли всё его время, и попросили выделить им день; он обещал им день, встретился с ними и наставлял и поучал их — передал аль-Бухари.\n\nАиша была среди сподвижников, передавших больше всего хадисов, и лучше других знала науку о наследстве; к ней обращались старшие сподвижники в том, что было им неясно. До ислама Хадиджа вела торговлю и нанимала для неё мужчин, среди них и Пророка ﷺ. При Худайбии, когда сподвижники медлили с жертвоприношением и бритьём головы, Пророк ﷺ посоветовался со своей женой Умм Саламой; она посоветовала ему выйти, совершить жертвоприношение и побрить голову, ни с кем не заговаривая, и когда он так сделал, они последовали за ним, — передал аль-Бухари.\n\nЖенщина вправе работать и зарабатывать дозволенным, и её заработок принадлежит ей. Она участвует в побуждении к одобряемому и удержании от порицаемого: верующие мужчины и верующие женщины — помощники друг другу, они призывают к одобряемому и удерживают от порицаемого, — сура «ат-Тауба», аят 71. И Пророк ﷺ принимал присягу от женщин так же, как от мужчин, — сура «аль-Мумтахана», аят 12.",
+            "es": "Buscar el conocimiento obligatorio es un deber de la musulmana igual que del musulmán. Las mujeres acudieron al Profeta ﷺ y le dijeron que los hombres acaparaban su tiempo, y le pidieron que les dedicara un día; él se lo prometió, se reunió con ellas ese día y las exhortó e instruyó —lo narra al-Bujārī—.\n\nʿĀʾišah fue de los Compañeros que más hadices transmitieron y quien mejor conocía el derecho sucesorio; los Compañeros mayores acudían a ella en lo que les resultaba dudoso. Antes del islam, Jadīŷah dirigía un comercio en el que contrataba a hombres, entre ellos al Profeta ﷺ. En al-Ḥudaybiyah, cuando los Compañeros tardaban en sacrificar y raparse, el Profeta ﷺ consultó a su esposa Umm Salamah; ella le aconsejó salir, sacrificar y raparse sin hablar con nadie, y cuando lo hizo lo siguieron —lo narra al-Bujārī—.\n\nLa mujer puede trabajar y ganar en lo lícito, y sus ganancias son suyas. Es partícipe en ordenar el bien y prohibir el mal: los creyentes y las creyentes son aliados unos de otros, ordenan lo reconocido y prohíben lo reprobable —sura al-Tawbah, aleya 71—. Y el Profeta ﷺ tomó el juramento de lealtad de las mujeres como lo tomó de los hombres —sura al-Mumtaḥanah, aleya 12—.",
+            "uk": "Пошук обов'язкового знання — обов'язок мусульманки так само, як і мусульманина. Жінки прийшли до Пророка ﷺ і сказали, що чоловіки зайняли весь його час, і попросили виділити їм день; він пообіцяв їм день, зустрівся з ними й наставляв і повчав їх — передав аль-Бухарі.\n\nАїша була серед сподвижників, що передали найбільше хадисів, і найкраще знала науку про спадок; до неї зверталися старші сподвижники в тому, що було їм незрозуміло. До ісламу Хадіджа вела торгівлю й наймала для неї чоловіків, серед них і Пророка ﷺ. При Худайбії, коли сподвижники зволікали з жертвопринесенням і голінням голови, Пророк ﷺ порадився зі своєю дружиною Умм Саламою; вона порадила йому вийти, принести жертву й поголити голову, ні з ким не заговорюючи, і коли він так зробив, вони пішли за ним, — передав аль-Бухарі.\n\nЖінка має право працювати й заробляти дозволеним, і її заробіток належить їй. Вона бере участь у спонуканні до схвалюваного й утриманні від засуджуваного: віруючі чоловіки й віруючі жінки — помічники одне одному, вони закликають до схвалюваного й утримують від засуджуваного, — сура «ат-Тауба», аят 71. І Пророк ﷺ приймав присягу від жінок так само, як від чоловіків, — сура «аль-Мумтахана», аят 12."
+          }
+        },
+        {
+          "id": "family",
+          "heading": {
+            "ar": "المرأة أُمّاً وبنتاً وزوجة",
+            "en": "The Woman as Mother, Daughter and Wife",
+            "ru": "Женщина как мать, дочь и жена",
+            "es": "La mujer como madre, hija y esposa",
+            "uk": "Жінка як мати, донька та дружина"
+          },
+          "body": {
+            "ar": "**الأمّ** أحقّ الناس بالبرّ. سأل رجلٌ النبيّ ﷺ: من أحقّ الناس بحسن صحابتي؟ قال: «أمّك»، قال: ثم من؟ قال: «أمّك»، قال: ثم من؟ قال: «أمّك»، قال: ثم من؟ قال: «أبوك». رواه البخاري ومسلم.\n\nو**البنت** التي كان يُستحى من ولادتها صارت تربيتها طريقاً إلى الجنة. قال النبيّ ﷺ: «من عال جاريتين حتى تبلغا جاء يوم القيامة أنا وهو» وضمّ أصابعه. رواه مسلم.\n\nو**الزوجة** أوصى بها النبيّ ﷺ في أعظم مجامعه، فقال: «استوصوا بالنساء خيراً» رواه البخاري ومسلم. وجعل القرآن بين الزوجين ﴿مَّوَدَّةً وَرَحْمَةً﴾ سورة الروم: ٢١، لا علاقة مالكٍ بمملوك.",
+            "en": "**The mother** is the most deserving of kindness. A man asked the Prophet ﷺ who most deserved his good companionship; he said: your mother. Then who? Your mother. Then who? Your mother. Then who? Your father — narrated by al-Bukhārī and Muslim.\n\n**The daughter**, whose birth had been met with shame, became a path to Paradise for whoever raises her. The Prophet ﷺ said that whoever provides for two girls until they come of age will come on the Day of Resurrection with him like this — and he joined his fingers — narrated by Muslim.\n\n**The wife** was the subject of the Prophet's ﷺ counsel in his greatest gatherings: he told the people to treat women well — narrated by al-Bukhārī and Muslim. And the Qurʾān placed between spouses affection and mercy — Sūrat al-Rūm, verse 21 — not the bond of an owner to what he owns.",
+            "ru": "**Мать** — наиболее достойная доброго отношения. Человек спросил Пророка ﷺ, кто больше всех достоин его доброго обращения; он ответил: твоя мать. Затем кто? Твоя мать. Затем кто? Твоя мать. Затем кто? Твой отец — передали аль-Бухари и Муслим.\n\n**Дочь**, рождения которой стыдились, стала путём в рай для того, кто её воспитывает. Пророк ﷺ сказал, что тот, кто содержит двух девочек до их совершеннолетия, придёт в День воскресения вместе с ним вот так — и он соединил пальцы, — передал Муслим.\n\nО **жене** Пророк ﷺ давал наставление на своих самых многолюдных собраниях: он велел людям относиться к женщинам хорошо — передали аль-Бухари и Муслим. А Коран установил между супругами любовь и милосердие — сура «ар-Рум», аят 21, — а не связь владельца с тем, чем он владеет.",
+            "es": "**La madre** es la más digna de buen trato. Un hombre preguntó al Profeta ﷺ quién merecía más su buena compañía; respondió: tu madre. ¿Y después? Tu madre. ¿Y después? Tu madre. ¿Y después? Tu padre —lo narran al-Bujārī y Muslim—.\n\n**La hija**, cuyo nacimiento se recibía con vergüenza, pasó a ser un camino al Paraíso para quien la cría. El Profeta ﷺ dijo que quien mantenga a dos niñas hasta que alcancen la madurez vendrá el Día de la Resurrección junto a él así —y juntó sus dedos— (lo narra Muslim).\n\nSobre **la esposa** aconsejó el Profeta ﷺ en sus reuniones más concurridas: dijo a la gente que tratara bien a las mujeres —lo narran al-Bujārī y Muslim—. Y el Corán puso entre los esposos afecto y misericordia —sura al-Rūm, aleya 21—, no la relación de un dueño con lo que posee.",
+            "uk": "**Мати** — найбільш гідна доброго ставлення. Чоловік запитав Пророка ﷺ, хто найбільше гідний його доброго поводження; він відповів: твоя мати. Потім хто? Твоя мати. Потім хто? Твоя мати. Потім хто? Твій батько — передали аль-Бухарі та Муслім.\n\n**Донька**, народження якої соромилися, стала шляхом до раю для того, хто її виховує. Пророк ﷺ сказав, що той, хто утримує двох дівчаток до їхнього повноліття, прийде в День воскресіння разом із ним ось так — і він з'єднав пальці, — передав Муслім.\n\nПро **дружину** Пророк ﷺ давав настанову на своїх наймноголюдніших зібраннях: він велів людям ставитися до жінок добре — передали аль-Бухарі та Муслім. А Коран установив між подружжям любов і милосердя — сура «ар-Рум», аят 21, — а не зв'язок власника з тим, чим він володіє."
+          }
+        },
+        {
+          "id": "conclusion",
+          "heading": {
+            "ar": "خاتمة",
+            "en": "Conclusion",
+            "ru": "Заключение",
+            "es": "Conclusión",
+            "uk": "Висновок"
+          },
+          "body": {
+            "ar": "هذه الحقوق ثابتة بنصوص لا يملك أحدٌ نسخها: ذمّة مالية لا تذوب في ذمّة الزوج، وميراث مفروض، ومهر ونفقة على الرجل، وزواج لا يتمّ بغير رضاها، وطريق للخروج منه إذا تعذّر البقاء.\n\nوما يقع في بعض المجتمعات المسلمة من حرمان المرأة ميراثها، أو تزويجها كرهاً، أو منعها من التعلّم، مخالفةٌ لهذه النصوص لا تطبيقٌ لها. والحكم على الإسلام يكون بنصوصه، لا بأفعال من يخالفها من أتباعه.",
+            "en": "These rights rest on texts that no one has the power to repeal: a financial capacity that does not dissolve into the husband's, a fixed inheritance, a dower and maintenance owed by the man, a marriage that cannot take place without her consent, and a way out of it when staying becomes impossible.\n\nWhat happens in some Muslim societies — denying a woman her inheritance, marrying her off by force, or barring her from learning — is a violation of these texts, not an application of them. Islam is to be judged by its texts, not by the deeds of those of its followers who go against them.",
+            "ru": "Эти права опираются на тексты, отменить которые не властен никто: имущественная правоспособность, не растворяющаяся в правоспособности мужа, установленная доля наследства, брачный дар и содержание, лежащие на мужчине, брак, который не заключается без её согласия, и путь выхода из него, когда оставаться становится невозможно.\n\nТо, что происходит в некоторых мусульманских обществах, — лишение женщины наследства, принудительное замужество или запрет на учёбу, — есть нарушение этих текстов, а не их применение. Об исламе судят по его текстам, а не по поступкам тех из его последователей, кто им противоречит.",
+            "es": "Estos derechos se apoyan en textos que nadie tiene potestad de abrogar: un patrimonio que no se disuelve en el del esposo, una herencia fija, una dote y una manutención a cargo del hombre, un matrimonio que no se celebra sin su consentimiento y una salida de él cuando permanecer resulta imposible.\n\nLo que ocurre en algunas sociedades musulmanas —privar a la mujer de su herencia, casarla a la fuerza o impedirle estudiar— es una violación de estos textos, no su aplicación. Al islam se lo juzga por sus textos, no por los actos de aquellos de sus seguidores que los contradicen.",
+            "uk": "Ці права спираються на тексти, скасувати які не владен ніхто: майнова правоздатність, що не розчиняється в правоздатності чоловіка, установлена частка спадку, шлюбний дар і утримання, що лежать на чоловікові, шлюб, який не укладається без її згоди, і шлях виходу з нього, коли залишатися стає неможливо.\n\nТе, що відбувається в деяких мусульманських суспільствах, — позбавлення жінки спадку, примусовий шлюб чи заборона навчатися, — є порушенням цих текстів, а не їх застосуванням. Про іслам судять за його текстами, а не за вчинками тих його послідовників, хто їм суперечить."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "ar": "تفسير ابن كثير",
+          "en": "Tafsīr Ibn Kathīr",
+          "ru": "«Тафсир Ибн Касира»",
+          "es": "Tafsīr Ibn Kathīr",
+          "uk": "«Тафсір Ібн Касіра»"
+        },
+        {
+          "ar": "صحيح البخاري",
+          "en": "Ṣaḥīḥ al-Bukhārī",
+          "ru": "«Сахих аль-Бухари»",
+          "es": "Ṣaḥīḥ al-Bukhārī",
+          "uk": "«Сахіх аль-Бухарі»"
+        },
+        {
+          "ar": "صحيح مسلم",
+          "en": "Ṣaḥīḥ Muslim",
+          "ru": "«Сахих Муслим»",
+          "es": "Ṣaḥīḥ Muslim",
+          "uk": "«Сахіх Муслім»"
+        }
+      ],
+      "addedAt": "2026-11-09"
     }
   ]
 }

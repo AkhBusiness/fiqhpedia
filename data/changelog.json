@@ -1,6 +1,45 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "added": [
+        {
+          "kind": "article",
+          "ref": "M10",
+          "title": {
+            "ar": "مكانة المرأة بين الإسلام والحضارات الأخرى: شواهد من التاريخ ونصوص القوانين",
+            "en": "The Standing of Women Between Islam and Other Civilizations: Evidence from History and the Texts of Laws",
+            "ru": "Положение женщины в исламе и других цивилизациях: свидетельства истории и текстов законов",
+            "es": "La posición de la mujer entre el islam y otras civilizaciones: testimonios de la historia y de los textos legales",
+            "uk": "Становище жінки в ісламі та інших цивілізаціях: свідчення історії та текстів законів"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M11",
+          "title": {
+            "ar": "هل تكاليف المرأة في الإسلام إهانة لها؟ وهل هي أكثر من تكاليف الرجل؟",
+            "en": "Are a Woman's Duties in Islam a Humiliation? And Are They More Than a Man's?",
+            "ru": "Унижают ли женщину её обязанности в исламе? И больше ли их, чем у мужчины?",
+            "es": "¿Son humillantes los deberes de la mujer en el islam? ¿Y son más que los del hombre?",
+            "uk": "Чи принижують жінку її обов'язки в ісламі? І чи їх більше, ніж у чоловіка?"
+          }
+        },
+        {
+          "kind": "article",
+          "ref": "M9",
+          "title": {
+            "ar": "حقوق المرأة في الإسلام: كرامتها الإنسانية وحقوقها في المال والزواج والعلم والأسرة",
+            "en": "Women's Rights in Islam: Human Dignity and Rights in Property, Marriage, Learning and the Family",
+            "ru": "Права женщины в исламе: человеческое достоинство и права в имуществе, браке, знании и семье",
+            "es": "Los derechos de la mujer en el islam: dignidad humana y derechos en los bienes, el matrimonio, el saber y la familia",
+            "uk": "Права жінки в ісламі: людська гідність і права в майні, шлюбі, знанні та родині"
+          }
+        }
+      ],
+      "revised": []
+    },
+    {
       "date": "2026-10-26",
       "added": [
         {
@@ -2731,6 +2770,6 @@
   ],
   "totals": {
     "issues": 126,
-    "articles": 8
+    "articles": 11
   }
 }

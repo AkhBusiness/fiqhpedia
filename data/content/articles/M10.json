@@ -1,0 +1,214 @@
+{
+  "id": "woman-between-civilizations",
+  "ref": "M10",
+  "chapter": {
+    "ar": "المرأة في الإسلام",
+    "en": "Women in Islam",
+    "ru": "Женщина в исламе",
+    "es": "La mujer en el islam",
+    "uk": "Жінка в ісламі"
+  },
+  "seq": 2,
+  "title": {
+    "ar": "مكانة المرأة بين الإسلام والحضارات الأخرى: شواهد من التاريخ ونصوص القوانين",
+    "en": "The Standing of Women Between Islam and Other Civilizations: Evidence from History and the Texts of Laws",
+    "ru": "Положение женщины в исламе и других цивилизациях: свидетельства истории и текстов законов",
+    "es": "La posición de la mujer entre el islam y otras civilizaciones: testimonios de la historia y de los textos legales",
+    "uk": "Становище жінки в ісламі та інших цивілізаціях: свідчення історії та текстів законів"
+  },
+  "excerpt": {
+    "ar": "مقارنة موثّقة بين ما قرّره الإسلام للمرأة في القرن السابع وما نصّت عليه قوانين اليونان وروما وإنجلترا وفرنسا حتى القرن العشرين.",
+    "en": "A documented comparison between what Islam established for women in the seventh century and what the laws of Greece, Rome, England and France laid down until the twentieth century.",
+    "ru": "Документированное сравнение того, что ислам установил для женщины в VII веке, с тем, что предписывали законы Греции, Рима, Англии и Франции вплоть до XX века.",
+    "es": "Una comparación documentada entre lo que el islam estableció para la mujer en el siglo VII y lo que dispusieron las leyes de Grecia, Roma, Inglaterra y Francia hasta el siglo XX.",
+    "uk": "Документоване порівняння того, що іслам установив для жінки в VII столітті, з тим, що приписували закони Греції, Риму, Англії та Франції аж до XX століття."
+  },
+  "relatedRefs": [],
+  "sections": [
+    {
+      "id": "intro",
+      "heading": {
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "es": "",
+        "uk": ""
+      },
+      "body": {
+        "ar": "يكثر الحديث عن المرأة في الإسلام بمقارنة نصوصه بواقع الغرب اليوم، أو بمقارنة واقع بعض المسلمين بالمُثُل الغربية. والمقارنة العادلة أن يُقابَل النصّ بالنصّ، والقانون بالقانون، وأن يُذكر تاريخ كلٍّ منهما.\n\nوهذا المقال يضع ما قرّره القرآن في القرن السابع الميلادي إلى جانب ما كتبه فلاسفة اليونان وفقهاء روما ومشرّعو أوروبا عن المرأة، بنصوصهم وتواريخها.",
+        "en": "Discussion of women in Islam often compares its texts with the West's reality today, or the reality of some Muslims with Western ideals. A fair comparison sets text against text and law against law, and gives the date of each.\n\nThis article places what the Qurʾān established in the seventh century alongside what the philosophers of Greece, the jurists of Rome and the lawmakers of Europe wrote about women, in their own words and with their dates.",
+        "ru": "О женщине в исламе часто говорят, сравнивая его тексты с сегодняшней действительностью Запада или действительность некоторых мусульман с западными идеалами. Справедливое сравнение сопоставляет текст с текстом и закон с законом и указывает дату каждого.\n\nЭта статья ставит то, что Коран установил в VII веке, рядом с тем, что писали о женщине философы Греции, юристы Рима и законодатели Европы, — их собственными словами и с датами.",
+        "es": "Al hablar de la mujer en el islam se suelen comparar sus textos con la realidad actual de Occidente, o la realidad de algunos musulmanes con los ideales occidentales. Una comparación justa contrapone texto a texto y ley a ley, y da la fecha de cada uno.\n\nEste artículo pone lo que el Corán estableció en el siglo VII junto a lo que escribieron sobre la mujer los filósofos de Grecia, los juristas de Roma y los legisladores de Europa, con sus propias palabras y sus fechas.",
+        "uk": "Про жінку в ісламі часто говорять, порівнюючи його тексти з сьогоднішньою дійсністю Заходу або дійсність деяких мусульман із західними ідеалами. Справедливе порівняння зіставляє текст із текстом і закон із законом та вказує дату кожного.\n\nЦя стаття ставить те, що Коран установив у VII столітті, поруч із тим, що писали про жінку філософи Греції, юристи Риму й законодавці Європи, — їхніми власними словами та з датами."
+      }
+    },
+    {
+      "id": "arabia",
+      "heading": {
+        "ar": "العرب قبل الإسلام",
+        "en": "The Arabs Before Islam",
+        "ru": "Арабы до ислама",
+        "es": "Los árabes antes del islam",
+        "uk": "Араби до ісламу"
+      },
+      "body": {
+        "ar": "كان من العرب من يدفن ابنته حيّة، وقد صوّر القرآن ذلك: ﴿وَإِذَا بُشِّرَ أَحَدُهُم بِالْأُنثَىٰ ظَلَّ وَجْهُهُ مُسْوَدًّا وَهُوَ كَظِيمٌ ۝ يَتَوَارَىٰ مِنَ الْقَوْمِ مِن سُوءِ مَا بُشِّرَ بِهِ أَيُمْسِكُهُ عَلَىٰ هُونٍ أَمْ يَدُسُّهُ فِي التُّرَابِ﴾ سورة النحل: ٥٨–٥٩. وجعل السؤال عن ذلك من مشاهد القيامة: ﴿وَإِذَا الْمَوْءُودَةُ سُئِلَتْ ۝ بِأَيِّ ذَنبٍ قُتِلَتْ﴾ سورة التكوير: ٨–٩.\n\nوكانت المرأة تُورَث كما يُورَث المتاع. قال ابن عباس في تفسير ﴿لَا يَحِلُّ لَكُمْ أَن تَرِثُوا النِّسَاءَ كَرْهًا﴾ سورة النساء: ١٩: كانوا إذا مات الرجل كان أولياؤه أحقّ بامرأته، إن شاء بعضهم تزوّجها، وإن شاؤوا زوّجوها، وإن شاؤوا لم يزوّجوها. رواه البخاري. وذكر الطبري وابن كثير أنهم كانوا لا يورّثون النساء ولا الصغار، فنزلت آية النساء: ٧.\n\nولخّص عمر بن الخطاب الحال فقال: والله إن كنّا في الجاهلية ما نعدّ للنساء أمراً، حتى أنزل الله فيهنّ ما أنزل، وقسم لهنّ ما قسم. رواه البخاري.",
+        "en": "Some Arabs buried their daughters alive, and the Qurʾān depicted it: when one of them is given news of a girl his face darkens and he suppresses his grief; he hides from people because of the news, wondering whether to keep her in humiliation or bury her in the dust — Sūrat al-Naḥl, verses 58–59. And it made the questioning of the buried girl, for what sin she was killed, one of the scenes of the Resurrection — Sūrat al-Takwīr, verses 8–9.\n\nA woman was inherited as goods were inherited. Ibn ʿAbbās said, explaining the verse forbidding men to inherit women against their will (Sūrat al-Nisāʾ, verse 19): when a man died, his heirs had more right to his wife; one of them could marry her if he wished, or they could marry her off, or not marry her off at all — narrated by al-Bukhārī. Al-Ṭabarī and Ibn Kathīr state that they gave no inheritance to women or to the young, and so Sūrat al-Nisāʾ, verse 7, was revealed.\n\nʿUmar ibn al-Khaṭṭāb summed up the state of things: in the Jāhiliyyah we gave women no standing at all, until God revealed about them what He revealed and allotted to them what He allotted — narrated by al-Bukhārī.",
+        "ru": "Некоторые арабы закапывали дочерей живыми, и Коран изобразил это: когда кому-то из них сообщают о рождении девочки, его лицо темнеет и он подавляет горе; он прячется от людей из-за этой вести, раздумывая, оставить ли её в унижении или зарыть в землю, — сура «ан-Нахль», аяты 58–59. А вопрос к заживо зарытой, за какой грех она убита, Коран сделал одной из картин Воскресения — сура «ат-Таквир», аяты 8–9.\n\nЖенщину наследовали так, как наследуют имущество. Ибн Аббас, толкуя аят, запрещающий наследовать женщин против их воли (сура «ан-Ниса», аят 19), сказал: когда человек умирал, его наследники имели больше прав на его жену; кто-то из них мог жениться на ней, если хотел, или они выдавали её замуж, или не выдавали вовсе, — передал аль-Бухари. Ат-Табари и Ибн Касир сообщают, что женщинам и малолетним не давали наследства, и тогда был ниспослан аят 7 суры «ан-Ниса».\n\nУмар ибн аль-Хаттаб подытожил: во времена невежества мы вовсе не считались с женщинами, пока Бог не ниспослал о них то, что ниспослал, и не выделил им то, что выделил, — передал аль-Бухари.",
+        "es": "Algunos árabes enterraban vivas a sus hijas, y el Corán lo describió: cuando a uno de ellos se le anuncia una niña, su rostro se ensombrece y contiene su pesar; se oculta de la gente por la noticia, dudando entre conservarla en la humillación o enterrarla en el polvo —sura al-Naḥl, aleyas 58–59—. E hizo de la pregunta a la niña enterrada, por qué pecado fue matada, una de las escenas de la Resurrección —sura al-Takwīr, aleyas 8–9—.\n\nLa mujer se heredaba como se heredan los bienes. Ibn ʿAbbās dijo, al explicar la aleya que prohíbe heredar a las mujeres contra su voluntad (sura al-Nisāʾ, aleya 19): cuando un hombre moría, sus herederos tenían más derecho sobre su esposa; uno de ellos podía casarse con ella si quería, o la casaban con otro, o no la casaban en absoluto —lo narra al-Bujārī—. Al-Ṭabarī e Ibn Kaṯīr refieren que no daban herencia a las mujeres ni a los menores, y entonces se reveló la aleya 7 de la sura al-Nisāʾ.\n\nʿUmar ibn al-Jaṭṭāb resumió la situación: en la Ŷāhiliyyah no teníamos a las mujeres en ninguna consideración, hasta que Dios reveló sobre ellas lo que reveló y les asignó lo que les asignó —lo narra al-Bujārī—.",
+        "uk": "Деякі араби закопували доньок живими, і Коран зобразив це: коли комусь із них повідомляють про народження дівчинки, його обличчя темніє і він стримує горе; він ховається від людей через цю звістку, роздумуючи, чи залишити її в приниженні, чи закопати в землю, — сура «ан-Нахль», аяти 58–59. А запитання до живцем закопаної, за який гріх її вбито, Коран зробив однією з картин Воскресіння — сура «ат-Таквір», аяти 8–9.\n\nЖінку успадковували так, як успадковують майно. Ібн Аббас, тлумачачи аят, що забороняє успадковувати жінок проти їхньої волі (сура «ан-Ніса», аят 19), сказав: коли чоловік помирав, його спадкоємці мали більше прав на його дружину; хтось із них міг одружитися з нею, якщо хотів, або вони видавали її заміж, або не видавали зовсім, — передав аль-Бухарі. Ат-Табарі та Ібн Касір повідомляють, що жінкам і малолітнім не давали спадку, і тоді було зіслано аят 7 сури «ан-Ніса».\n\nУмар ібн аль-Хаттаб підсумував: за часів невігластва ми зовсім не зважали на жінок, доки Бог не зіслав про них те, що зіслав, і не виділив їм те, що виділив, — передав аль-Бухарі."
+      }
+    },
+    {
+      "id": "greece-rome",
+      "heading": {
+        "ar": "في فلسفة اليونان وقانون روما",
+        "en": "In Greek Philosophy and Roman Law",
+        "ru": "В греческой философии и римском праве",
+        "es": "En la filosofía griega y el derecho romano",
+        "uk": "У грецькій філософії та римському праві"
+      },
+      "body": {
+        "ar": "كتب أرسطو في القرن الرابع قبل الميلاد في كتاب «السياسة» (1254b) أن الذكر بالطبيعة أعلى والأنثى أدنى، وأن أحدهما يحكم والآخر يُحكم. ولم يكن ذلك رأياً شاذّاً، بل جزءاً من تعليله لنظام الأسرة والمدينة كلّه.\n\nوفي القانون الروماني بقيت المرأة البالغة تحت **وصاية دائمة** لا تخرج منها ببلوغ ولا رشد. ونقل الفقيه الروماني غايوس في كتاب «المؤسسات» (القرن الثاني الميلادي، 1.144) أن القدماء أرادوا أن تكون النساء، ولو بلغن، تحت الوصاية **لخفّة عقولهن**. وللإنصاف فقد ضعّف غايوس نفسه هذا التعليل (1.190)، وذكر أن النساء البالغات يدبّرن أمورهن بأنفسهن، وأن إذن الوصيّ كثيراً ما كان شكلياً.",
+        "en": "In the fourth century BC Aristotle wrote in the **Politics** (1254b) that the male is by nature superior and the female inferior, and that the one rules and the other is ruled. This was not a stray opinion but part of his justification for the whole order of household and city.\n\nIn Roman law an adult woman remained under **perpetual guardianship**, which neither coming of age nor maturity ended. The Roman jurist Gaius reports in the **Institutes** (second century AD, 1.144) that the ancients wanted women, even those of full age, to be under guardianship **because of the levity of their minds**. In fairness, Gaius himself judged this reason weak (1.190), noting that adult women manage their own affairs and that the guardian's authorization was often a formality.",
+        "ru": "В IV веке до н. э. Аристотель писал в «Политике» (1254b), что мужчина по природе выше, а женщина ниже, и что один властвует, а другая подчиняется. Это было не случайное мнение, а часть его обоснования всего строя семьи и полиса.\n\nВ римском праве взрослая женщина оставалась под **пожизненной опекой**, которую не прекращали ни совершеннолетие, ни зрелость. Римский юрист Гай сообщает в «Институциях» (II век н. э., 1.144), что древние хотели, чтобы женщины, даже совершеннолетние, были под опекой **из-за легкомыслия их ума**. Справедливости ради: сам Гай счёл это обоснование слабым (1.190), отметив, что взрослые женщины сами ведут свои дела, а согласие опекуна нередко было формальностью.",
+        "es": "En el siglo IV a. C. Aristóteles escribió en la **Política** (1254b) que el varón es por naturaleza superior y la hembra inferior, y que uno gobierna y la otra es gobernada. No era una opinión aislada, sino parte de su justificación de todo el orden de la casa y de la ciudad.\n\nEn el derecho romano la mujer adulta permanecía bajo **tutela perpetua**, que no terminaba ni con la mayoría de edad ni con la madurez. El jurista romano Gayo refiere en las **Instituciones** (siglo II d. C., 1.144) que los antiguos quisieron que las mujeres, aun mayores de edad, estuvieran bajo tutela **por la ligereza de su ánimo**. En justicia, el propio Gayo consideró débil esta razón (1.190), y señaló que las mujeres adultas gestionan sus propios asuntos y que la autorización del tutor era a menudo una formalidad.",
+        "uk": "У IV столітті до н. е. Аристотель писав у «Політиці» (1254b), що чоловік за природою вищий, а жінка нижча, і що один владарює, а інша підкоряється. Це була не випадкова думка, а частина його обґрунтування всього ладу родини й поліса.\n\nУ римському праві доросла жінка залишалася під **довічною опікою**, яку не припиняли ні повноліття, ні зрілість. Римський юрист Гай повідомляє в «Інституціях» (II століття н. е., 1.144), що давні хотіли, щоб жінки, навіть повнолітні, були під опікою **через легковажність їхнього розуму**. Задля справедливості: сам Гай вважав це обґрунтування слабким (1.190), зазначивши, що дорослі жінки самі ведуть свої справи, а згода опікуна нерідко була формальністю."
+      }
+    },
+    {
+      "id": "europe",
+      "heading": {
+        "ar": "في قوانين أوروبا حتى القرن العشرين",
+        "en": "In the Laws of Europe Until the Twentieth Century",
+        "ru": "В законах Европы вплоть до XX века",
+        "es": "En las leyes de Europa hasta el siglo XX",
+        "uk": "У законах Європи аж до XX століття"
+      },
+      "body": {
+        "ar": "في إنجلترا كتب القاضي وليم بلاكستون عام ١٧٦٥ في «شروح قوانين إنجلترا» أن الزوج والزوجة بالزواج شخص واحد في القانون، أي أن **وجود المرأة القانوني يُعلَّق مدّة الزواج**، ويُدمج في وجود زوجها. وعلى هذا كانت أملاك الزوجة المنقولة وما تكسبه تنتقل إلى زوجها، ولا تقاضي ولا تُقاضى باسمها. ولم تستقلّ المرأة المتزوجة بكسبها إلا بقانون ١٨٧٠، ثم بأملاكها كلّها بـ«قانون أملاك المرأة المتزوجة» عام ١٨٨٢.\n\nوفي فرنسا نصّت المادة ٢١٣ من القانون المدني لعام ١٨٠٤ على أن الزوج يدين لزوجته بالحماية، **والزوجة تدين لزوجها بالطاعة**. وعُدّت المرأة المتزوجة ناقصة الأهلية القانونية حتى رُفع ذلك عام ١٩٣٨، ولم يُسمح لها أن تفتح حساباً مصرفياً أو تعمل دون إذن زوجها إلا بقانون ١٣ يوليو ١٩٦٥.\n\nونالت المرأة الفرنسية حقّ التصويت عام ١٩٤٤، والسويسرية على المستوى الاتحادي عام ١٩٧١.",
+        "en": "In England, the judge William Blackstone wrote in 1765 in his **Commentaries on the Laws of England** that by marriage husband and wife are one person in law — that is, **the very legal existence of the woman is suspended during the marriage** and merged into her husband's. Accordingly, a wife's movable property and her earnings passed to her husband, and she could not sue or be sued in her own name. A married woman gained control of her own earnings only with the Act of 1870, and of all her property with the **Married Women's Property Act** of 1882.\n\nIn France, article 213 of the Civil Code of 1804 provided that the husband owes his wife protection, **and the wife owes her husband obedience**. A married woman was legally incapacitated until this was lifted in 1938, and she was allowed to open a bank account or work without her husband's permission only by the law of 13 July 1965.\n\nFrench women won the vote in 1944, and Swiss women at federal level in 1971.",
+        "ru": "В Англии судья Уильям Блэкстон писал в 1765 году в «Комментариях к законам Англии», что в браке муж и жена — одно лицо перед законом, то есть **само правовое существование женщины приостанавливается на время брака** и сливается с существованием мужа. Поэтому движимое имущество жены и её заработок переходили к мужу, и она не могла ни подавать иск, ни быть ответчиком от своего имени. Замужняя женщина получила право распоряжаться своим заработком лишь по закону 1870 года, а всем своим имуществом — по «Закону о собственности замужних женщин» 1882 года.\n\nВо Франции статья 213 Гражданского кодекса 1804 года гласила, что муж обязан жене защитой, **а жена обязана мужу повиновением**. Замужняя женщина считалась недееспособной, пока это не было отменено в 1938 году, а открыть банковский счёт или работать без разрешения мужа ей позволили только законом от 13 июля 1965 года.\n\nФранцуженки получили избирательное право в 1944 году, а швейцарки на федеральном уровне — в 1971 году.",
+        "es": "En Inglaterra, el juez William Blackstone escribió en 1765 en sus **Comentarios sobre las leyes de Inglaterra** que por el matrimonio marido y mujer son una sola persona ante la ley, es decir, que **la existencia legal misma de la mujer queda suspendida durante el matrimonio** y se funde en la de su marido. En consecuencia, los bienes muebles de la esposa y lo que ganaba pasaban al marido, y ella no podía demandar ni ser demandada en su propio nombre. La mujer casada obtuvo el control de sus ganancias solo con la ley de 1870, y el de todos sus bienes con la **Ley de Propiedad de las Mujeres Casadas** de 1882.\n\nEn Francia, el artículo 213 del Código civil de 1804 disponía que el marido debe protección a su mujer, **y la mujer debe obediencia a su marido**. La mujer casada fue legalmente incapaz hasta que esto se suprimió en 1938, y no se le permitió abrir una cuenta bancaria ni trabajar sin permiso de su marido hasta la ley del 13 de julio de 1965.\n\nLas francesas obtuvieron el voto en 1944, y las suizas en el ámbito federal en 1971.",
+        "uk": "В Англії суддя Вільям Блекстон писав у 1765 році в «Коментарях до законів Англії», що в шлюбі чоловік і дружина — одна особа перед законом, тобто **саме правове існування жінки призупиняється на час шлюбу** і зливається з існуванням чоловіка. Тому рухоме майно дружини та її заробіток переходили до чоловіка, і вона не могла ні подавати позов, ні бути відповідачем від свого імені. Заміжня жінка отримала право розпоряджатися своїм заробітком лише за законом 1870 року, а всім своїм майном — за «Законом про власність заміжніх жінок» 1882 року.\n\nУ Франції стаття 213 Цивільного кодексу 1804 року проголошувала, що чоловік зобов'язаний дружині захистом, **а дружина зобов'язана чоловікові послухом**. Заміжня жінка вважалася недієздатною, доки це не скасували в 1938 році, а відкрити банківський рахунок чи працювати без дозволу чоловіка їй дозволили лише законом від 13 липня 1965 року.\n\nФранцуженки здобули виборче право в 1944 році, а швейцарки на федеральному рівні — у 1971 році."
+      }
+    },
+    {
+      "id": "islam-earlier",
+      "heading": {
+        "ar": "ما قرّره الإسلام قبل ذلك بقرون",
+        "en": "What Islam Established Centuries Earlier",
+        "ru": "Что ислам установил на века раньше",
+        "es": "Lo que el islam estableció siglos antes",
+        "uk": "Що іслам установив на століття раніше"
+      },
+      "body": {
+        "ar": "حين نزل القرآن في القرن السابع الميلادي قرّر للمرأة ما لم تبلغه هذه القوانين إلا بعد أكثر من اثني عشر قرناً:\n\n**ذمّة مالية مستقلة** لا تنتقل إلى الزوج بالزواج (سورة النساء: ٣٢)، وقد جاءت في إنجلترا عام ١٨٨٢.\n\n**أهلية كاملة** للبالغة الرشيدة في البيع والشراء والهبة، بلا وصاية دائمة عليها لأنوثتها، وقد رُفع نقص أهلية المتزوجة في فرنسا عام ١٩٣٨.\n\n**نصيب مفروض في الميراث** (سورة النساء: ٧)، بعد أن كانت تُورَث هي نفسها.\n\n**رضاها شرط في الزواج**، ولها طلب الفُرقة بالخُلع.\n\n**طاعة مقيّدة**: لا طاعة لأحد في معصية الله، لا لزوج ولا لغيره، «إنما الطاعة في المعروف» رواه البخاري ومسلم.\n\nولم يكن ذلك تطوّراً تدريجياً من داخل المجتمع العربي، بل جاء في جيلٍ واحد، بخلاف ما كان عليه العرب قبله مباشرة.",
+        "en": "When the Qurʾān was revealed in the seventh century, it established for women what these laws reached only more than twelve centuries later:\n\n**An independent financial capacity** that does not pass to the husband through marriage (Sūrat al-Nisāʾ, verse 32) — it came in England in 1882.\n\n**Full legal capacity** for the adult, mature woman in buying, selling and giving, with no permanent guardianship over her because she is female — the incapacity of married women was lifted in France in 1938.\n\n**A fixed share of inheritance** (Sūrat al-Nisāʾ, verse 7), where before she was herself inherited.\n\n**Her consent as a condition of marriage**, and the right to seek separation through khulʿ.\n\n**Bounded obedience**: no one is to be obeyed in disobedience to God, neither husband nor anyone else; obedience is only in what is right — narrated by al-Bukhārī and Muslim.\n\nNor was this a gradual development from within Arab society: it came within a single generation, contrary to what the Arabs had practised immediately before.",
+        "ru": "Когда в VII веке ниспосылался Коран, он установил для женщины то, к чему эти законы пришли лишь более чем через двенадцать веков:\n\n**Самостоятельная имущественная правоспособность**, не переходящая к мужу при браке (сура «ан-Ниса», аят 32), — в Англии она появилась в 1882 году.\n\n**Полная дееспособность** взрослой разумной женщины в купле, продаже и дарении, без пожизненной опеки над ней из-за её пола, — недееспособность замужней женщины во Франции отменили в 1938 году.\n\n**Установленная доля в наследстве** (сура «ан-Ниса», аят 7), тогда как прежде наследовали её саму.\n\n**Её согласие как условие брака** и право добиваться развода через хуль.\n\n**Ограниченное повиновение**: никому — ни мужу, ни кому-либо другому — не повинуются в ослушании Бога; повиновение — лишь в одобряемом, — передали аль-Бухари и Муслим.\n\nИ это не было постепенным развитием изнутри арабского общества: всё пришло за одно поколение, вопреки тому, что делали арабы непосредственно перед этим.",
+        "es": "Cuando se reveló el Corán en el siglo VII, estableció para la mujer lo que estas leyes solo alcanzaron más de doce siglos después:\n\n**Un patrimonio propio e independiente** que no pasa al marido por el matrimonio (sura al-Nisāʾ, aleya 32); en Inglaterra llegó en 1882.\n\n**Plena capacidad jurídica** de la mujer adulta y juiciosa para comprar, vender y donar, sin tutela perpetua por ser mujer; la incapacidad de la casada se suprimió en Francia en 1938.\n\n**Una parte fija de la herencia** (sura al-Nisāʾ, aleya 7), cuando antes era ella misma la heredada.\n\n**Su consentimiento como condición del matrimonio**, y el derecho a pedir la separación mediante el julʿ.\n\n**Una obediencia acotada**: a nadie se obedece en la desobediencia a Dios, ni al marido ni a otro; la obediencia es solo en lo reconocido como bueno —lo narran al-Bujārī y Muslim—.\n\nY no fue una evolución gradual desde dentro de la sociedad árabe: llegó en una sola generación, en contra de lo que los árabes practicaban justo antes.",
+        "uk": "Коли у VII столітті зсилався Коран, він установив для жінки те, до чого ці закони дійшли лише понад дванадцять століть потому:\n\n**Самостійна майнова правоздатність**, що не переходить до чоловіка під час шлюбу (сура «ан-Ніса», аят 32), — в Англії вона з'явилася 1882 року.\n\n**Повна дієздатність** дорослої розсудливої жінки в купівлі, продажу й даруванні, без довічної опіки над нею через її стать, — недієздатність заміжньої жінки у Франції скасували 1938 року.\n\n**Установлена частка в спадку** (сура «ан-Ніса», аят 7), тоді як раніше успадковували її саму.\n\n**Її згода як умова шлюбу** і право домагатися розлучення через хуль.\n\n**Обмежений послух**: нікому — ні чоловікові, ні комусь іншому — не коряться в непокорі Богові; послух — лише в схвалюваному, — передали аль-Бухарі та Муслім.\n\nІ це не було поступовим розвитком зсередини арабського суспільства: усе прийшло за одне покоління, всупереч тому, що робили араби безпосередньо перед цим."
+      }
+    },
+    {
+      "id": "fairness",
+      "heading": {
+        "ar": "كلمة إنصاف",
+        "en": "A Word in Fairness",
+        "ru": "Слово справедливости",
+        "es": "Una palabra en justicia",
+        "uk": "Слово справедливості"
+      },
+      "body": {
+        "ar": "لا يعني هذا أن تاريخ غير المسلمين كلّه ظلم للمرأة، ولا أن تاريخ المسلمين كلّه عدل. فقد عرفت المجتمعات المسلمة عادات خالفت النصوص، كحرمان البنات من الميراث في بعض البلدان، وتزويج الفتاة بغير رضاها. وهذه تُحاكَم إلى النصوص نفسها فتُدان بها.\n\nوقد أصلحت القوانين الأوروبية في القرنين الأخيرين كثيراً مما سبق ذكره. والسؤال الذي تجيب عنه هذه المقارنة ليس: أين المرأة اليوم؟ بل: من أين جاءت حقوقها؟ ففي الإسلام جاءت بنصّ ثابت منذ أربعة عشر قرناً، وفي القوانين الأخرى جاءت بتعديلات متأخرة يملك المشرّع أن يعدّلها مرّة أخرى.\n\nويبقى بين النظامين فرق في المنطلق: الإسلام لا يجعل الرجل والمرأة متماثلين في كل حكم، بل يوزّع الحقوق والتكاليف بينهما توزيعاً متكاملاً، كما يبيّنه مقال «تكاليف المرأة في الإسلام» في هذا الباب.",
+        "en": "This does not mean that the whole history of non-Muslims was injustice to women, nor that the whole history of Muslims was justice. Muslim societies have known customs contrary to the texts, such as denying daughters their inheritance in some countries and marrying a girl off without her consent. These are judged by the texts themselves and condemned by them.\n\nEuropean laws reformed much of the above over the last two centuries. The question this comparison answers is not: where do women stand today? but: where did their rights come from? In Islam they came by fixed text fourteen centuries ago; in other laws they came by late amendments that the lawmaker has the power to amend again.\n\nA difference of starting point remains between the two systems: Islam does not make man and woman identical in every ruling, but distributes rights and duties between them in a complementary way, as the article on women's duties in Islam in this chapter explains.",
+        "ru": "Это не значит, что вся история немусульман была несправедливостью к женщине, а вся история мусульман — справедливостью. В мусульманских обществах бытовали обычаи, противоречащие текстам, — например, лишение дочерей наследства в некоторых странах и выдача девушки замуж без её согласия. Их судят по самим текстам, и тексты их осуждают.\n\nЗа последние два столетия европейские законы исправили многое из сказанного выше. Вопрос, на который отвечает это сравнение, не «где женщина сегодня?», а «откуда пришли её права?». В исламе они пришли неизменным текстом четырнадцать веков назад, в других законах — поздними поправками, которые законодатель властен изменить снова.\n\nМежду двумя системами остаётся различие в исходной точке: ислам не делает мужчину и женщину одинаковыми в каждом предписании, а распределяет между ними права и обязанности взаимодополняюще, как объясняет статья об обязанностях женщины в исламе в этом разделе.",
+        "es": "Esto no significa que toda la historia de los no musulmanes fuera injusticia hacia la mujer, ni que toda la historia de los musulmanes fuera justicia. Las sociedades musulmanas han conocido costumbres contrarias a los textos, como privar a las hijas de la herencia en algunos países o casar a una joven sin su consentimiento. Estas se juzgan por los propios textos, que las condenan.\n\nLas leyes europeas reformaron en los dos últimos siglos mucho de lo dicho. La pregunta que responde esta comparación no es: ¿dónde está la mujer hoy?, sino: ¿de dónde vinieron sus derechos? En el islam vinieron por un texto fijo hace catorce siglos; en las otras leyes, por reformas tardías que el legislador tiene potestad de volver a reformar.\n\nQueda entre ambos sistemas una diferencia de punto de partida: el islam no hace idénticos al hombre y a la mujer en cada norma, sino que reparte entre ellos derechos y deberes de forma complementaria, como explica el artículo sobre los deberes de la mujer en el islam de este capítulo.",
+        "uk": "Це не означає, що вся історія немусульман була несправедливістю до жінки, а вся історія мусульман — справедливістю. У мусульманських суспільствах побутували звичаї, що суперечать текстам, — наприклад, позбавлення доньок спадку в деяких країнах і видача дівчини заміж без її згоди. Їх судять за самими текстами, і тексти їх засуджують.\n\nЗа останні два століття європейські закони виправили багато з того, що сказано вище. Питання, на яке відповідає це порівняння, не «де жінка сьогодні?», а «звідки прийшли її права?». В ісламі вони прийшли незмінним текстом чотирнадцять століть тому, в інших законах — пізніми поправками, які законодавець владен змінити знову.\n\nМіж двома системами залишається відмінність у вихідній точці: іслам не робить чоловіка й жінку однаковими в кожному приписі, а розподіляє між ними права та обов'язки взаємодоповнювально, як пояснює стаття про обов'язки жінки в ісламі в цьому розділі."
+      }
+    },
+    {
+      "id": "conclusion",
+      "heading": {
+        "ar": "خاتمة",
+        "en": "Conclusion",
+        "ru": "Заключение",
+        "es": "Conclusión",
+        "uk": "Висновок"
+      },
+      "body": {
+        "ar": "تشهد النصوص المؤرّخة أن المرأة في أرقى فلسفات العالم القديم وُصفت بأنها أدنى بطبيعتها، وفي أعرق قوانينه وُضعت تحت وصاية دائمة، وفي أوروبا الحديثة عُلّق وجودها القانوني بالزواج حتى أواخر القرن التاسع عشر، وفي فرنسا حتى القرن العشرين.\n\nوفي القرن السابع، وفي مجتمعٍ كان يئد البنات، قرّر القرآن للمرأة كرامة مساوية، وذمّة مستقلة، وميراثاً مفروضاً، ورضاً لا يتمّ الزواج بدونه. وهذه الحقائق لا تحتاج إلى مبالغة، فالتواريخ وحدها كافية.",
+        "en": "Dated texts testify that in the most refined philosophy of the ancient world the woman was described as inferior by nature, that in its most venerable law she was placed under permanent guardianship, and that in modern Europe her legal existence was suspended by marriage until the late nineteenth century — in France, until the twentieth.\n\nIn the seventh century, in a society that buried its daughters alive, the Qurʾān established for women equal dignity, an independent financial capacity, a fixed inheritance and a consent without which marriage does not take place. These facts need no exaggeration: the dates alone suffice.",
+        "ru": "Датированные тексты свидетельствуют: в самой утончённой философии древнего мира женщину называли низшей по природе, в его самом почтенном праве держали под пожизненной опекой, а в Европе Нового времени её правовое существование приостанавливалось браком до конца XIX века, во Франции — до XX века.\n\nВ VII веке, в обществе, закапывавшем дочерей живыми, Коран установил для женщины равное достоинство, самостоятельное имущество, установленную долю в наследстве и согласие, без которого брак не заключается. Эти факты не нуждаются в преувеличении — достаточно одних дат.",
+        "es": "Los textos fechados atestiguan que en la filosofía más refinada del mundo antiguo la mujer fue descrita como inferior por naturaleza, que en su derecho más venerable se la puso bajo tutela perpetua, y que en la Europa moderna su existencia legal quedaba suspendida por el matrimonio hasta finales del siglo XIX, y en Francia hasta el XX.\n\nEn el siglo VII, en una sociedad que enterraba vivas a sus hijas, el Corán estableció para la mujer igual dignidad, un patrimonio propio, una herencia fija y un consentimiento sin el cual no hay matrimonio. Estos hechos no necesitan exageración: bastan las fechas.",
+        "uk": "Датовані тексти свідчать: у найвитонченішій філософії давнього світу жінку називали нижчою за природою, у його найшанованішому праві тримали під довічною опікою, а в Європі Нового часу її правове існування призупинялося шлюбом до кінця XIX століття, у Франції — до XX століття.\n\nУ VII столітті, у суспільстві, що закопувало доньок живими, Коран установив для жінки рівну гідність, самостійне майно, установлену частку в спадку та згоду, без якої шлюб не укладається. Ці факти не потребують перебільшення — досить самих дат."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "ar": "جامع البيان",
+      "en": "Jāmiʿ al-Bayān",
+      "ru": "«Джами аль-Баян»",
+      "es": "Jāmiʿ al-Bayān",
+      "uk": "«Джамі аль-Баян»"
+    },
+    {
+      "ar": "تفسير ابن كثير",
+      "en": "Tafsīr Ibn Kathīr",
+      "ru": "«Тафсир Ибн Касира»",
+      "es": "Tafsīr Ibn Kathīr",
+      "uk": "«Тафсір Ібн Касіра»"
+    },
+    {
+      "ar": "صحيح البخاري",
+      "en": "Ṣaḥīḥ al-Bukhārī",
+      "ru": "«Сахих аль-Бухари»",
+      "es": "Ṣaḥīḥ al-Bukhārī",
+      "uk": "«Сахіх аль-Бухарі»"
+    },
+    {
+      "ar": "صحيح مسلم",
+      "en": "Ṣaḥīḥ Muslim",
+      "ru": "«Сахих Муслим»",
+      "es": "Ṣaḥīḥ Muslim",
+      "uk": "«Сахіх Муслім»"
+    },
+    {
+      "ar": "السياسة لأرسطو",
+      "en": "Aristotle, Politics",
+      "ru": "«Политика» Аристотеля",
+      "es": "Aristóteles, Política",
+      "uk": "«Політика» Аристотеля"
+    },
+    {
+      "ar": "المؤسسات لغايوس",
+      "en": "Gaius, Institutes",
+      "ru": "«Институции» Гая",
+      "es": "Gayo, Instituciones",
+      "uk": "«Інституції» Гая"
+    },
+    {
+      "ar": "شروح قوانين إنجلترا لبلاكستون",
+      "en": "Blackstone, Commentaries on the Laws of England",
+      "ru": "«Комментарии к законам Англии» Блэкстона",
+      "es": "Blackstone, Comentarios sobre las leyes de Inglaterra",
+      "uk": "«Коментарі до законів Англії» Блекстона"
+    },
+    {
+      "ar": "القانون المدني الفرنسي ١٨٠٤",
+      "en": "French Civil Code of 1804",
+      "ru": "«Гражданский кодекс Франции» 1804 года",
+      "es": "Código civil francés de 1804",
+      "uk": "«Цивільний кодекс Франції» 1804 року"
+    },
+    {
+      "ar": "قانون أملاك المرأة المتزوجة ١٨٨٢",
+      "en": "Married Women's Property Act 1882",
+      "ru": "«Закон о собственности замужних женщин» 1882 года",
+      "es": "Ley de Propiedad de las Mujeres Casadas de 1882",
+      "uk": "«Закон про власність заміжніх жінок» 1882 року"
+    }
+  ],
+  "addedAt": "2026-11-09"
+}

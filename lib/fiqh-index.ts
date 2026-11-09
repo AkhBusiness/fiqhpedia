@@ -41,6 +41,7 @@ export const articles: Article[] = (() => {
     "تاريخ الأديان ونصوصها",
     "الخلق والكون",
     "حِكَم التشريع",
+    "المرأة في الإسلام",
   ]
   const chapterOrder = new Map<string, number>(PREFERRED.map((c, i) => [c, i]))
   for (const a of list) {
